@@ -120,7 +120,7 @@ def get(endpoint, params={}):
     """Make a Finnhub API call with rate limit protection."""
     params["token"] = FINNHUB_KEY
     response = requests.get(f"{BASE_URL}{endpoint}", params=params)
-    time.sleep(0.5)
+    time.sleep(1.2)
     if response.status_code == 200:
         return response.json()
     return None
