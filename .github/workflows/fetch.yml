@@ -1,0 +1,38 @@
+name: Fetch Market Data
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # Runs every night at 2am UTC (6pm/7pm Pacific)
+  workflow_dispatch:       # Allows you to run it manually anytime
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write      # Allows the job to write cache.json back to the repo
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run fetch script
+        env:
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+        run: python scripts/fetch_data.py
+
+      - name: Commit and push cache
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add data/cache.json
+          git commit -m "Update market data cache" || echo "No changes to commit"
+          git push
