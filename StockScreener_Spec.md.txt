@@ -1,0 +1,116 @@
+# Stock Screener — Build Spec & Handoff Doc
+*Working name: TBD. Owner: Jason. Last updated: 2026-05-29*
+
+## Goal
+A web-based PWA that filters a defined universe of stocks into research candidates, with a focus on (a) oversold / near-52-week-low names, (b) overreaction-to-bad-news setups on quality companies, (c) cyclical sector bottoms, and (d) AI-assisted supply-chain "bottleneck" discovery. The app is a **research idea-generator, not a buy-signal engine** — every tab produces a watchlist the user investigates and decides on.
+
+---
+
+## Stock Universe
+- **S&P 500 + Nasdaq-100, de-duplicated** (~550–600 unique large/mid-cap names).
+- **Custom watchlist** bolt-on for names outside the core indices (ADRs / OTC): e.g. Rio Tinto, Vale, Harmonic Drive (HSYDF). Note: OTC tickers may have thinner Finnhub coverage — verify during testing.
+
+---
+
+## Locked Thresholds
+| Signal | Threshold |
+|---|---|
+| Near 52-week low | within 5% of the low |
+| Abrupt one-day drop | ≤ −8% in one day |
+| Oversold RSI | RSI(14) ≤ 35 (sub-flag: 30–35 = oversold, < 30 = extremely oversold) |
+| Volume spike | day volume ≥ 2× 30-day average |
+| Quality: profitable | positive TTM net income |
+| Quality: size | market cap ≥ $2B |
+| Insider buying | bonus flag (net insider buying recent quarter) |
+
+**Overreaction setup fires when:** drop ≤ −8% + volume ≥ 2× avg + RSI ≤ 35 + profitable + market cap ≥ $2B. Insider buying = bonus flag. Recent news headline pulled in beside each name. "Days since drop" counter; surface fresh setups (last ~1–5 days).
+
+---
+
+## Tabs
+
+### 1. Screener (main)
+Master table of the full universe. Columns: price, % from 52-week low, 52-week low value, today's % move, RSI(14), volume vs. average, market cap, profitable (Y/N). Sortable / filterable.
+
+### 2. Overreaction
+The intersection filter above. News headline beside each candidate so setup + catalyst sit together. **Cannot fully automate the "is the news fatal or temporary?" judgment — user reads the headline and decides.**
+
+### 3. Sectors (cyclical bottoms + momentum)
+Two ranked lists:
+- **Downtrodden / cyclical bottoms** — for each sector, compute **% of constituents within 5% of their 52-week low**. When that share spikes (e.g. 60%+), flag a potential cyclical bottom. This cluster signal is the point — mirrors the mining (Vale, Rio Tinto) and oil (Oxy, Devon) setups.
+- **Upside momentum** — best-performing sectors over a lookback window.
+
+### 4. Bottleneck Tracker (user-curated themes)
+User maintains structured bottleneck themes, each a basket of tickers. Examples:
+- AI / Memory → Micron, SK Hynix, Samsung
+- AI / Chips & packaging → TSMC, ASML
+- AI / Cooling → Vertiv, liquid-cooling names
+- Robotics / Precision gears → Harmonic Drive (HSYDF), Nabtesco
+App monitors each basket: momentum, RSI, distance from low/high, volume, news. Per-theme fields: paired end-market driver ("shovel vs. gold"), "new supply coming online?" risk note, "one level down" slot (e.g. ASML under memory). Keyword/news scan for "shortage," "lead times," "capacity," "sold out through…" to surface discovery candidates.
+
+### 5. AI Supply-Chain Discovery (layered on tab 4)
+User names a sector (e.g. "robotics"). AI engine (LLM + web search) →
+1. Identifies major companies building in the sector.
+2. Maps each one's key purchased inputs.
+3. **Intersects and counts dependency** — ranks inputs by how many companies need them (convergence count = chokepoint strength).
+4. Identifies public suppliers of top inputs → routes them into the screener (tab 1) for RSI / 52wk / volume treatment.
+
+Output = ranked convergence table (Input | depended-on-by N/M | public suppliers).
+
+**Honest limits (must be surfaced in UI):**
+- AI inference, not a verified bill of materials. Convergence count = strong hint, not audited fact.
+- Surfaces *known* dependencies best; the truly hidden early chokepoint is hardest.
+- Flag when a critical input has no clean public pure-play (conglomerate division, private/foreign supplier) rather than forcing a weak ticker.
+
+### 6. (Optional later) Watchlist
+Flagged names + post-drop "days since" counter.
+
+---
+
+## Data Source
+**Finnhub free tier** (60 calls/min, no card). Covers: real-time US quotes, daily candles, company news, basic fundamentals, SEC filings, insider transactions. Endpoints used: quote/candles (price, 52wk low, daily %, RSI inputs, volume, 200-day MA), fundamentals (market cap, net income), company-news (headlines), insider-transactions (buying flag).
+
+**Rate-limit strategy:** can't scan all stocks on demand. Fetch in scheduled batches (nightly/off-hours), cache results, front-end reads cache. $2B floor + index universe keeps it well within limits.
+
+**Upgrade path if needed:** FMP (~$14/mo, deeper fundamentals + earnings transcripts) or Finnhub paid ($12–100/mo).
+
+---
+
+## Architecture / Data Flow
+```
+Universe (S&P500 + Nasdaq-100 deduped + custom watchlist)
+        │
+        ▼
+Scheduled fetch job (off-hours, respects 60 calls/min)
+   ├─ daily candles  → 52wk low, daily %, RSI(14), vol avg, 200-day MA
+   ├─ fundamentals   → market cap, net income
+   ├─ company news   → headlines for flagged names
+   └─ insider txns   → buying flag
+        │
+        ▼
+Cache (one record per stock, all computed signals)
+        │
+        ▼
+PWA front-end ← reads cache instantly, applies filters, renders tabs
+```
+**Key principle:** front-end NEVER calls Finnhub directly. Fetch job does all retrieval + heavy compute (RSI, MAs, sector aggregates, convergence counts), writes clean cached dataset. Keeps under rate limit, instant load, failed API call never breaks UI. Same separation-of-concerns as CP Scout's data layer.
+
+AI Discovery layer (tab 5) uses LLM + web search separately, on-demand per user thesis; its output tickers flow back into the screener.
+
+---
+
+## Open / To-Do
+- [ ] App name
+- [ ] Build universe list (pull current S&P 500 + Nasdaq-100 constituents, dedupe)
+- [ ] Decide cache store (JSON file vs. lightweight DB)
+- [ ] Decide fetch-job host (where the scheduled job runs)
+- [ ] Verify Finnhub coverage for OTC/ADR custom-watchlist tickers (HSYDF etc.)
+- [ ] Build order: fetch/cache layer → main screener tab → overreaction → sectors → bottleneck tracker → AI discovery
+
+## Guardrails (keep the tool honest)
+- Framed as filtering/research tool, not winner-predictor.
+- 52-week low alone ≠ bargain (falling-knife risk); combos matter.
+- Overreaction play fails the one time the news really was the iceberg — sizing > screen.
+- Backtest before trusting any screen.
+- Not financial advice.
+
