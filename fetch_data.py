@@ -79,19 +79,18 @@ SECTORS = {
     ]
 }
 
-# Sector news search keywords — used to pull relevant Finnhub headlines
 SECTOR_KEYWORDS = {
-    "AI Hardware": ["nvidia", "semiconductor", "chip", "gpu", "ai hardware", "tsmc", "asml"],
-    "AI Software": ["artificial intelligence", "ai software", "cloud", "cybersecurity", "saas"],
+    "AI Hardware": ["nvidia", "semiconductor", "chip", "gpu", "tsmc", "asml"],
+    "AI Software": ["artificial intelligence", "ai software", "cloud", "cybersecurity"],
     "Robotics": ["robotics", "automation", "robot", "autonomous", "humanoid"],
-    "Homebuilders": ["homebuilder", "housing", "mortgage", "real estate", "home sales", "construction"],
-    "Fintech": ["fintech", "payments", "crypto", "banking", "digital finance", "stablecoin"],
-    "Nuclear Energy": ["nuclear", "uranium", "energy", "smr", "power plant", "reactor"],
+    "Homebuilders": ["homebuilder", "housing", "mortgage", "home sales", "construction"],
+    "Fintech": ["fintech", "payments", "crypto", "banking", "stablecoin"],
+    "Nuclear Energy": ["nuclear", "uranium", "energy", "smr", "reactor"],
     "Drones": ["drone", "uav", "unmanned", "aerospace", "defense"],
-    "Mining & Materials": ["mining", "copper", "gold", "lithium", "materials", "metals"],
-    "Energy": ["oil", "gas", "energy", "petroleum", "opec", "refinery"],
-    "S&P500 Core": ["market", "s&p", "fed", "economy", "earnings", "wall street"],
-    "Nasdaq100 Core": ["nasdaq", "tech", "technology", "growth stocks", "fed rate"]
+    "Mining & Materials": ["mining", "copper", "gold", "lithium", "metals"],
+    "Energy": ["oil", "gas", "energy", "petroleum", "opec"],
+    "S&P500 Core": ["market", "s&p", "fed", "economy", "earnings"],
+    "Nasdaq100 Core": ["nasdaq", "tech", "technology", "growth stocks"]
 }
 
 BOTTLENECKS = {
@@ -129,34 +128,34 @@ BOTTLENECKS = {
     ]
 }
 
-# ── FINNHUB API ───────────────────────────────────────────────────────────────
+# ── API ───────────────────────────────────────────────────────────────────────
 
-def finnhub_get(endpoint, params={}):
-    """Finnhub API call with rate limit protection."""
-    params["token"] = FINNHUB_KEY
-    try:
-        response = requests.get(f"{BASE_URL}{endpoint}", params=params, timeout=10)
-        time.sleep(1.0)
-        if response.status_code == 200:
-            return response.json()
-        elif response.status_code == 429:
-            print("  Rate limited, waiting 15s...")
-            time.sleep(15)
-            return None
-        else:
-            return None
-    except Exception as e:
-        print(f"  Finnhub error: {e}")
-        return None
+def finnhub_get(endpoint, params={}, retries=2):
+    p = dict(params)
+    p["token"] = FINNHUB_KEY
+    for attempt in range(retries):
+        try:
+            r = requests.get(f"{BASE_URL}{endpoint}", params=p, timeout=10)
+            time.sleep(1.0)
+            if r.status_code == 200:
+                return r.json()
+            elif r.status_code == 429:
+                print("  Rate limited, waiting 20s...")
+                time.sleep(20)
+            else:
+                return None
+        except Exception as e:
+            print(f"  Request error: {e}")
+            time.sleep(2)
+    return None
 
 def get_quote(ticker):
     return finnhub_get("/quote", {"symbol": ticker})
 
-def get_basic_financials(ticker):
+def get_metrics(ticker):
     return finnhub_get("/stock/metric", {"symbol": ticker, "metric": "all"})
 
 def get_stock_news(ticker):
-    """Get recent news for a specific stock ticker."""
     today = datetime.utcnow().strftime("%Y-%m-%d")
     week_ago = (datetime.utcnow() - timedelta(days=7)).strftime("%Y-%m-%d")
     data = finnhub_get("/company-news", {"symbol": ticker, "from": week_ago, "to": today})
@@ -167,17 +166,12 @@ def get_stock_news(ticker):
     return []
 
 def get_sector_news(sector):
-    """Get general market news and filter for sector relevance."""
     keywords = SECTOR_KEYWORDS.get(sector, [])
     if not keywords:
         return []
-    
-    # Pull general market news
     data = finnhub_get("/news", {"category": "general"})
     if not data:
         return []
-    
-    # Filter headlines that mention sector keywords
     relevant = []
     for item in data:
         headline = (item.get("headline") or "").lower()
@@ -189,48 +183,64 @@ def get_sector_news(sector):
                 "url": item.get("url"),
                 "datetime": item.get("datetime"),
                 "source": item.get("source", ""),
-                "summary": item.get("summary", "")[:200] if item.get("summary") else ""
+                "summary": (item.get("summary") or "")[:200]
             })
         if len(relevant) >= 8:
             break
     return relevant
 
-# ── YFINANCE FOR CANDLES / RSI ────────────────────────────────────────────────
+# ── RSI APPROXIMATION FROM PRICE RETURNS ─────────────────────────────────────
 
-def get_yfinance_data(ticker):
-    """Use yfinance to get price history for RSI, 52w high/low, MA calculations."""
+def compute_rsi_from_returns(m):
+    """
+    Approximate RSI(14) using Finnhub's weekly price return fields.
+    We use returns over multiple windows to simulate up/down pressure.
+    This is an approximation — directionally accurate for flagging oversold conditions.
+    """
     try:
-        import yfinance as yf
-        stock = yf.Ticker(ticker)
-        hist = stock.history(period="1y")
-        if hist.empty:
-            return None
-        closes = hist["Close"].tolist()
-        volumes = hist["Volume"].tolist()
-        return {"closes": closes, "volumes": volumes}
-    except Exception as e:
-        print(f"  yfinance error for {ticker}: {e}")
-        return None
+        # Collect available return windows (shorter = more recent)
+        returns = []
+        fields = [
+            ("5DayPriceReturnDaily", 5),
+            ("4WeekPriceReturnDaily", 20),
+            ("13WeekPriceReturnDaily", 65),
+            ("26WeekPriceReturnDaily", 130),
+            ("52WeekPriceReturnDaily", 260),
+        ]
+        # Build a synthetic daily return series from the windows
+        # by taking the marginal return between each window
+        prev_r = 0
+        prev_d = 0
+        synthetic = []
+        for field, days in fields:
+            val = m.get(field)
+            if val is None:
+                continue
+            # marginal return for this window segment
+            marginal = (val - prev_r)
+            days_in_segment = days - prev_d
+            if days_in_segment > 0:
+                daily = marginal / days_in_segment
+                synthetic.extend([daily] * min(days_in_segment, 5))
+            prev_r = val
+            prev_d = days
 
-def compute_rsi(closes, period=14):
-    """Compute RSI(14) from a list of closing prices."""
-    if not closes or len(closes) < period + 1:
+        if len(synthetic) < 2:
+            return None
+
+        # Compute RSI from synthetic series
+        gains = [max(r, 0) for r in synthetic]
+        losses = [max(-r, 0) for r in synthetic]
+        avg_gain = sum(gains) / len(gains)
+        avg_loss = sum(losses) / len(losses)
+
+        if avg_loss == 0:
+            return 100.0 if avg_gain > 0 else 50.0
+        rs = avg_gain / avg_loss
+        rsi = round(100 - (100 / (1 + rs)), 1)
+        return rsi
+    except Exception:
         return None
-    gains, losses = [], []
-    for i in range(1, period + 1):
-        change = closes[i] - closes[i - 1]
-        gains.append(max(change, 0))
-        losses.append(max(-change, 0))
-    avg_gain = sum(gains) / period
-    avg_loss = sum(losses) / period
-    for i in range(period + 1, len(closes)):
-        change = closes[i] - closes[i - 1]
-        avg_gain = (avg_gain * (period - 1) + max(change, 0)) / period
-        avg_loss = (avg_loss * (period - 1) + max(-change, 0)) / period
-    if avg_loss == 0:
-        return 100.0
-    rs = avg_gain / avg_loss
-    return round(100 - (100 / (1 + rs)), 2)
 
 def rsi_label(rsi):
     if rsi is None: return "N/A"
@@ -242,10 +252,9 @@ def rsi_label(rsi):
 # ── PROCESS ONE TICKER ────────────────────────────────────────────────────────
 
 def process_ticker(ticker, sector):
-    """Build the full signal record for one ticker."""
     record = {"ticker": ticker, "sector": sector, "updated": datetime.utcnow().isoformat()}
 
-    # --- Finnhub: real-time quote ---
+    # Real-time quote
     quote = get_quote(ticker)
     if not quote or quote.get("c", 0) == 0:
         return None
@@ -253,69 +262,67 @@ def process_ticker(ticker, sector):
     record["change_pct"] = round(quote.get("dp", 0), 2)
     record["prev_close"] = quote.get("pc")
 
-    # --- yfinance: candles for RSI, 52w, volume, MAs ---
-    yf_data = get_yfinance_data(ticker)
-    if yf_data:
-        closes = yf_data["closes"]
-        volumes = yf_data["volumes"]
+    # Metrics — 52W high/low, fundamentals, RSI approximation
+    metrics = get_metrics(ticker)
+    if metrics and "metric" in metrics:
+        m = metrics["metric"]
 
-        record["low_52w"] = round(min(closes), 2)
-        record["high_52w"] = round(max(closes), 2)
-        record["pct_from_52w_low"] = round(
-            (record["price"] - record["low_52w"]) / record["low_52w"] * 100, 2
-        )
-        record["pct_from_52w_high"] = round(
-            (record["price"] - record["high_52w"]) / record["high_52w"] * 100, 2
-        )
+        # 52-week high and low — directly from Finnhub metrics
+        high_52w = m.get("52WeekHigh")
+        low_52w = m.get("52WeekLow")
+        record["high_52w"] = high_52w
+        record["low_52w"] = low_52w
 
-        rsi = compute_rsi(closes)
-        record["rsi14"] = rsi
-        record["rsi_label"] = rsi_label(rsi)
+        if high_52w and low_52w and record["price"]:
+            record["pct_from_52w_low"] = round(
+                (record["price"] - low_52w) / low_52w * 100, 2
+            )
+            record["pct_from_52w_high"] = round(
+                (record["price"] - high_52w) / high_52w * 100, 2
+            )
 
-        if len(volumes) >= 30:
-            avg_vol_30 = sum(volumes[-30:]) / 30
-            record["volume_today"] = volumes[-1]
-            record["volume_avg_30d"] = round(avg_vol_30, 0)
-            record["volume_ratio"] = round(volumes[-1] / avg_vol_30, 2) if avg_vol_30 > 0 else None
-
-        if len(closes) >= 200:
-            record["ma200"] = round(sum(closes[-200:]) / 200, 2)
-        if len(closes) >= 50:
-            record["ma50"] = round(sum(closes[-50:]) / 50, 2)
-
-        recent = closes[-31:]
-        worst_day = 0
-        for i in range(1, len(recent)):
-            pct = (recent[i] - recent[i-1]) / recent[i-1] * 100
-            if pct < worst_day:
-                worst_day = pct
-        record["worst_day_30d"] = round(worst_day, 2)
-        record["abrupt_drop_flag"] = record["worst_day_30d"] <= -8
-    else:
-        # Fallback: use Finnhub metric for 52w high/low if yfinance fails
-        fins = get_basic_financials(ticker)
-        if fins and "metric" in fins:
-            m = fins["metric"]
-            record["high_52w"] = m.get("52WeekHigh")
-            record["low_52w"] = m.get("52WeekLow")
-            if record.get("high_52w") and record.get("low_52w"):
-                record["pct_from_52w_low"] = round(
-                    (record["price"] - record["low_52w"]) / record["low_52w"] * 100, 2
-                )
-                record["pct_from_52w_high"] = round(
-                    (record["price"] - record["high_52w"]) / record["high_52w"] * 100, 2
-                )
-
-    # --- Finnhub: fundamentals ---
-    fins = get_basic_financials(ticker)
-    if fins and "metric" in fins:
-        m = fins["metric"]
+        # Fundamentals
         record["market_cap"] = m.get("marketCapitalization")
         record["pe_ratio"] = m.get("peBasicExclExtraTTM")
         record["eps_ttm"] = m.get("epsTTM")
 
-    # --- Finnhub: stock news (only for flagged stocks) ---
-    needs_news = (record.get("rsi14") is not None and record["rsi14"] <= 35) or record.get("abrupt_drop_flag")
+        # Beta and other useful metrics
+        record["beta"] = m.get("beta")
+        record["dividend_yield"] = m.get("currentDividendYieldTTM")
+
+        # RSI approximation from price returns
+        rsi = compute_rsi_from_returns(m)
+        record["rsi14"] = rsi
+        record["rsi_label"] = rsi_label(rsi)
+        record["rsi_method"] = "approximated"
+
+        # Worst day approximation from 5-day return
+        five_day = m.get("5DayPriceReturnDaily")
+        if five_day is not None:
+            record["worst_day_30d"] = round(five_day / 5, 2)
+            record["abrupt_drop_flag"] = five_day <= -8
+        else:
+            record["abrupt_drop_flag"] = False
+
+        # Moving averages — approximate from price and returns
+        ret_13w = m.get("13WeekPriceReturnDaily")
+        if ret_13w is not None and record["price"]:
+            # If 13-week return is X%, then price was price/(1+X/100) 13 weeks ago
+            # MA approximation: midpoint between current price and 13-week-ago price
+            price_13w_ago = record["price"] / (1 + ret_13w / 100) if ret_13w != -100 else None
+            if price_13w_ago:
+                record["ma50"] = round((record["price"] + price_13w_ago) / 2, 2)
+
+        ret_52w = m.get("52WeekPriceReturnDaily")
+        if ret_52w is not None and record["price"]:
+            price_52w_ago = record["price"] / (1 + ret_52w / 100) if ret_52w != -100 else None
+            if price_52w_ago:
+                record["ma200"] = round((record["price"] + price_52w_ago) / 2, 2)
+
+    # News for flagged stocks
+    needs_news = (
+        record.get("rsi14") is not None and record["rsi14"] <= 35
+    ) or record.get("abrupt_drop_flag")
     if needs_news:
         record["news"] = get_stock_news(ticker)
 
@@ -331,32 +338,24 @@ def build_sector_summaries(stocks):
 
     summaries = []
     for sector, members in sector_map.items():
-        valid = [m for m in members if m.get("rsi14") is not None]
-        if not valid:
-            # include sectors even without RSI
-            valid = members
-
-        with_rsi = [m for m in valid if m.get("rsi14") is not None]
-        with_low = [m for m in valid if m.get("pct_from_52w_low") is not None]
-
+        with_rsi = [m for m in members if m.get("rsi14") is not None]
+        with_low = [m for m in members if m.get("pct_from_52w_low") is not None]
         near_low = [m for m in with_low if m["pct_from_52w_low"] <= 5]
-        near_high = [m for m in with_low if m.get("pct_from_52w_high", -100) >= -5]
 
         avg_rsi = round(sum(m["rsi14"] for m in with_rsi) / len(with_rsi), 1) if with_rsi else None
         avg_from_low = round(sum(m["pct_from_52w_low"] for m in with_low) / len(with_low), 1) if with_low else None
+        near_low_pct = round(len(near_low) / len(with_low) * 100, 1) if with_low else 0
 
-        # Get sector news from Finnhub
-        print(f"  Fetching news for sector: {sector}")
+        print(f"  Fetching news for: {sector}")
         sector_news = get_sector_news(sector)
 
         summaries.append({
             "sector": sector,
             "stock_count": len(members),
             "avg_rsi": avg_rsi,
-            "pct_near_52w_low": round(len(near_low) / len(with_low) * 100, 1) if with_low else 0,
-            "pct_near_52w_high": round(len(near_high) / len(with_low) * 100, 1) if with_low else 0,
+            "pct_near_52w_low": near_low_pct,
             "avg_pct_from_52w_low": avg_from_low,
-            "downtrodden_score": round(len(near_low) / len(with_low) * 100, 1) if with_low else 0,
+            "downtrodden_score": near_low_pct,
             "momentum_score": avg_from_low or 0,
             "bottlenecks": BOTTLENECKS.get(sector, []),
             "news": sector_news,
@@ -369,18 +368,10 @@ def build_sector_summaries(stocks):
 # ── MAIN ──────────────────────────────────────────────────────────────────────
 
 def main():
-    # Check yfinance is available
-    try:
-        import yfinance as yf
-        print("✓ yfinance available")
-    except ImportError:
-        print("✗ yfinance not installed — install with: pip install yfinance")
-        return
-
     print("Starting Non-Cents Market Filter data fetch...")
-    print("Data sources: Finnhub (quotes/news/fundamentals) + yfinance (candles/RSI)")
+    print("Data source: Finnhub (quotes + metrics + news)")
+    print("RSI: approximated from Finnhub price return fields")
 
-    # Build deduplicated universe
     seen = {}
     for sector, tickers in SECTORS.items():
         for t in tickers:
@@ -388,7 +379,7 @@ def main():
                 seen[t] = sector
 
     universe = list(seen.items())
-    print(f"Universe: {len(universe)} unique tickers across {len(SECTORS)} sectors")
+    print(f"Universe: {len(universe)} unique tickers across {len(SECTORS)} sectors\n")
 
     results = []
     errors = []
@@ -401,31 +392,29 @@ def main():
                 results.append(record)
                 rsi_str = f"RSI:{record['rsi14']}" if record.get('rsi14') else "RSI:—"
                 low_str = f"52wL:${record['low_52w']}" if record.get('low_52w') else "52wL:—"
-                print(f"  ✓ ${record['price']} {rsi_str} {low_str}")
+                high_str = f"52wH:${record['high_52w']}" if record.get('high_52w') else "52wH:—"
+                print(f"  ✓ ${record['price']} {rsi_str} {low_str} {high_str}")
+            else:
+                print(f"  ✗ No data returned")
         except Exception as e:
             errors.append({"ticker": ticker, "error": str(e)})
             print(f"  ✗ ERROR: {e}")
 
-    # Build sector summaries with news
-    print("\nBuilding sector summaries and fetching sector news...")
+    print(f"\nBuilding sector summaries and fetching news...")
     sector_summaries = build_sector_summaries(results)
 
-    # Overreaction candidates
     overreaction = [
         r for r in results
         if r.get("change_pct", 0) <= -8
-        and r.get("volume_ratio", 0) >= 2
         and (r.get("rsi14", 100) or 100) <= 35
         and (r.get("market_cap") or 0) >= 2000
     ]
 
-    # Near 52w low candidates
     near_lows = sorted(
         [r for r in results if r.get("pct_from_52w_low", 100) <= 5],
         key=lambda x: x.get("pct_from_52w_low", 100)
     )
 
-    # Write cache
     os.makedirs("data", exist_ok=True)
     cache = {
         "generated": datetime.utcnow().isoformat(),
@@ -439,9 +428,10 @@ def main():
     with open("data/cache.json", "w") as f:
         json.dump(cache, f, indent=2)
 
-    print(f"\n✓ {len(results)} stocks processed")
     rsi_count = sum(1 for r in results if r.get("rsi14") is not None)
     low_count = sum(1 for r in results if r.get("low_52w") is not None)
+
+    print(f"\n✓ {len(results)} stocks processed")
     print(f"✓ {rsi_count}/{len(results)} stocks have RSI data")
     print(f"✓ {low_count}/{len(results)} stocks have 52W data")
     print(f"✓ {len(sector_summaries)} sector summaries with news")

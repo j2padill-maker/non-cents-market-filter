@@ -2,7 +2,7 @@ name: Fetch Market Data
 
 on:
   schedule:
-    - cron: '0 2 * * *'  # Nightly at 2am UTC
+    - cron: '0 2 * * *'
   workflow_dispatch:
 
 jobs:
@@ -21,7 +21,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests yfinance
+        run: pip install requests
 
       - name: Run fetch script
         env:
