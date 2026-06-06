@@ -192,7 +192,10 @@ td{padding:10px 14px;white-space:nowrap;}
     <div class="table-wrap">
       <div class="table-header">
         <div class="table-title">All Stocks</div>
-        <input class="search-input" id="screener-search" placeholder="Search ticker or sector..." oninput="filterScreener()">
+        <div style="position:relative;display:inline-block;">
+  <span style="position:absolute;left:12px;top:50%;transform:translateY(-50%);font-size:14px;pointer-events:none;">🔍</span>
+  <input class="search-input" id="screener-search" placeholder="Search ticker or sector..." oninput="filterScreener()" style="padding-left:34px;font-weight:700;color:#ffffff;background:var(--bg3);border:2px solid var(--accent);width:260px;font-size:13px;">
+</div>
       </div>
       <div class="filter-row">
         <span style="font-size:10px;color:var(--text3);margin-right:4px;">FILTER:</span>
@@ -553,6 +556,14 @@ function showModal(ticker){
   document.getElementById('modal-sector').textContent=s.sector+' · Updated '+new Date(s.updated).toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'});
   const priceRange=s.low_52w&&s.high_52w?((s.price-s.low_52w)/(s.high_52w-s.low_52w)*100):null;
   document.getElementById('modal-body').innerHTML=`
+    ${s.company_name?`<div style="font-family:var(--font-display);font-size:18px;font-weight:800;color:var(--text);margin-bottom:4px;">${s.company_name}</div>`:''}
+    ${s.industry||s.country||s.exchange?`<div style="font-size:11px;color:var(--text3);margin-bottom:12px;display:flex;gap:8px;flex-wrap:wrap;">
+      ${s.industry?`<span style="background:var(--bg3);padding:2px 8px;border-radius:3px;border:1px solid var(--border)">${s.industry}</span>`:''}
+      ${s.country?`<span style="background:var(--bg3);padding:2px 8px;border-radius:3px;border:1px solid var(--border)">${s.country}</span>`:''}
+      ${s.exchange?`<span style="background:var(--bg3);padding:2px 8px;border-radius:3px;border:1px solid var(--border)">${s.exchange}</span>`:''}
+      ${s.exchange&&!['NYSE','NASDAQ','AMEX','OTC'].includes(s.exchange)?`<span style="background:rgba(255,204,0,0.15);padding:2px 8px;border-radius:3px;border:1px solid rgba(255,204,0,0.3);color:var(--yellow)">⚠ Foreign Exchange</span>`:''}
+    </div>`:''}
+    ${s.description?`<div style="font-size:12px;color:var(--text2);line-height:1.8;margin-bottom:20px;padding:14px;background:var(--bg3);border-radius:8px;border-left:3px solid var(--accent);max-height:150px;overflow-y:auto">${s.description}</div>`:'<div style="font-size:12px;color:var(--text3);margin-bottom:16px;padding:10px 14px;background:var(--bg3);border-radius:6px;">No company description available.</div>'}
     <div class="modal-metrics">
       <div><div class="modal-metric-label">Price</div><div class="modal-metric-value">$${fmt(s.price)}</div></div>
       <div><div class="modal-metric-label">Today's Change</div><div class="modal-metric-value ${pctClass(s.change_pct)}">${s.change_pct!=null?(s.change_pct>0?'+':'')+fmt(s.change_pct)+'%':'—'}</div></div>
