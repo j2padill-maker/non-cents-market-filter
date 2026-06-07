@@ -1,5 +1,6 @@
 import os
 import json
+import math
 import time
 import requests
 from datetime import datetime, timedelta
@@ -156,7 +157,6 @@ def get_basic_financials(ticker):
     return finnhub_get("/stock/metric", {"symbol": ticker, "metric": "all"})
 
 def get_company_profile(ticker):
-    """Get company name, description, industry, website, logo."""
     return finnhub_get("/stock/profile2", {"symbol": ticker})
 
 def get_stock_news(ticker):
@@ -196,50 +196,44 @@ def get_sector_news(sector):
 # ── YFINANCE FOR CANDLES / RSI ────────────────────────────────────────────────
 
 def get_yfinance_data(ticker):
-    """Use yfinance to get price history for RSI, 52w high/low, MA calculations."""
     try:
         import yfinance as yf
         stock = yf.Ticker(ticker)
-        # Get 1 year of daily data
-        hist = stock.history(period="2y", auto_adjust=False)
+        hist = stock.history(period="2y", auto_adjust=True)
         if hist.empty:
             return None
         closes = hist["Close"].tolist()
         volumes = hist["Volume"].tolist()
+        if len(closes) > 10:
+            price_min = min(closes)
+            price_max = max(closes)
+            if price_min > 0:
+                price_range_pct = (price_max - price_min) / price_min * 100
+                if price_range_pct > 500:
+                    print(f"  ⚠ Extreme price range {price_range_pct:.0f}% — using 6 month window")
+                    hist_6m = stock.history(period="6mo", auto_adjust=True)
+                    if not hist_6m.empty:
+                        closes = hist_6m["Close"].tolist()
+                        volumes = hist_6m["Volume"].tolist()
         return {"closes": closes, "volumes": volumes}
     except Exception as e:
         print(f"  yfinance error for {ticker}: {e}")
         return None
 
 def compute_rsi(closes, period=14):
-    """
-    Compute true RSI(14) using pandas ewm with Wilder's smoothing.
-    This matches the industry standard used by TradingView, Finviz etc.
-    Requires at least 100 periods for values to stabilize properly.
-    """
     if not closes or len(closes) < period + 1:
         return None
     try:
         import pandas as pd
-        import numpy as np
-
         s = pd.Series(closes)
         delta = s.diff()
-
         gain = delta.clip(lower=0)
         loss = -delta.clip(upper=0)
-
-        # Wilder's smoothing: alpha = 1/period, adjust=False
         avg_gain = gain.ewm(alpha=1/period, min_periods=period, adjust=False).mean()
         avg_loss = loss.ewm(alpha=1/period, min_periods=period, adjust=False).mean()
-
         rs = avg_gain / avg_loss
         rsi = 100 - (100 / (1 + rs))
-
-        # Get the last value
         result = round(float(rsi.iloc[-1]), 1)
-
-        # Clamp to valid range
         return max(1.0, min(99.0, result))
     except Exception as e:
         print(f"  RSI calculation error: {e}")
@@ -252,6 +246,25 @@ def rsi_label(rsi):
     if rsi >= 70: return "Overbought"
     return "Neutral"
 
+# ── SANITIZE: replace float NaN/Inf with None ─────────────────────────────────
+
+def sanitize(obj):
+    """
+    Recursively walk the data structure and replace any float NaN or Infinity
+    with None so json.dump() never writes invalid JSON tokens.
+    This is the permanent fix — NaN values from pandas/yfinance calculations
+    are caught here before they ever reach cache.json.
+    """
+    if isinstance(obj, dict):
+        return {k: sanitize(v) for k, v in obj.items()}
+    elif isinstance(obj, list):
+        return [sanitize(v) for v in obj]
+    elif isinstance(obj, float):
+        if math.isnan(obj) or math.isinf(obj):
+            return None
+        return obj
+    return obj
+
 # ── PROCESS ONE TICKER ────────────────────────────────────────────────────────
 
 def process_ticker(ticker, sector):
@@ -261,7 +274,6 @@ def process_ticker(ticker, sector):
         "updated": datetime.utcnow().isoformat()
     }
 
-    # Real-time quote from Finnhub
     quote = get_quote(ticker)
     if not quote or quote.get("c", 0) == 0:
         return None
@@ -269,56 +281,92 @@ def process_ticker(ticker, sector):
     record["change_pct"] = round(quote.get("dp", 0), 2)
     record["prev_close"] = quote.get("pc")
 
-    # Company profile from Finnhub
     profile = get_company_profile(ticker)
-    if profile:
-        record["company_name"] = profile.get("name", "")
-        record["description"] = profile.get("description", "")
-        record["industry"] = profile.get("finnhubIndustry", "")
-        record["website"] = profile.get("weburl", "")
-        record["logo"] = profile.get("logo", "")
-        record["country"] = profile.get("country", "")
-        record["exchange"] = profile.get("exchange", "")
+    if profile and profile.get("name"):
+        name = profile.get("name", "")
+        industry = profile.get("finnhubIndustry", "")
+        exchange = profile.get("exchange", "")
+        country = profile.get("country", "")
+        ipo = profile.get("ipo", "")
+        weburl = profile.get("weburl", "")
+        currency = profile.get("currency", "USD")
 
-    # yfinance: candles for RSI, 52w, volume, MAs
+        record["company_name"] = name
+        record["industry"] = industry
+        record["website"] = weburl
+        record["logo"] = profile.get("logo", "")
+        record["country"] = country
+        record["exchange"] = exchange
+        record["currency"] = currency
+
+        desc_parts = []
+        if name:
+            desc_parts.append(f"{name} ({ticker})")
+        if industry:
+            desc_parts.append(f"is a company in the {industry} industry")
+        if exchange and country:
+            desc_parts.append(f"listed on {exchange} ({country})")
+        elif exchange:
+            desc_parts.append(f"listed on {exchange}")
+        if currency and currency != "USD":
+            desc_parts.append(f"trades in {currency}")
+        if ipo:
+            desc_parts.append(f"IPO date: {ipo}")
+        if weburl:
+            desc_parts.append(f"Website: {weburl}")
+        record["description"] = ". ".join(desc_parts) + "." if desc_parts else ""
+
     yf_data = get_yfinance_data(ticker)
     if yf_data:
         closes = yf_data["closes"]
         volumes = yf_data["volumes"]
+        current_price = record.get("price", 0)
+        raw_low = min(closes)
+        raw_high = max(closes)
 
-        # 52-week high and low from actual price history
-        record["low_52w"] = round(min(closes), 2)
-        record["high_52w"] = round(max(closes), 2)
-
-        if record["price"] and record["low_52w"] and record["high_52w"]:
-            record["pct_from_52w_low"] = round(
-                (record["price"] - record["low_52w"]) / record["low_52w"] * 100, 2
+        is_foreign_price_series = (
+            current_price > 0 and (
+                raw_low > current_price * 3 or
+                raw_high < current_price * 0.1
             )
-            record["pct_from_52w_high"] = round(
-                (record["price"] - record["high_52w"]) / record["high_52w"] * 100, 2
-            )
+        )
 
-        # True RSI(14) using Wilder's method
-        rsi = compute_rsi(closes)
-        record["rsi14"] = rsi
-        record["rsi_label"] = rsi_label(rsi)
+        if is_foreign_price_series:
+            print(f"  ⚠ Foreign price series detected — RSI/52W skipped")
+            record["rsi14"] = None
+            record["rsi_label"] = "Foreign stock — RSI not calculated"
+            record["rsi_note"] = "foreign_exchange"
+        else:
+            record["low_52w"] = round(raw_low, 2)
+            record["high_52w"] = round(raw_high, 2)
+            if current_price and record["low_52w"] and record["high_52w"]:
+                record["pct_from_52w_low"] = round(
+                    (current_price - record["low_52w"]) / record["low_52w"] * 100, 2)
+                record["pct_from_52w_high"] = round(
+                    (current_price - record["high_52w"]) / record["high_52w"] * 100, 2)
 
-        # Volume ratio
+            rsi = compute_rsi(closes)
+            if rsi is not None and (rsi < 5 or rsi > 95):
+                print(f"  ⚠ Extreme RSI {rsi} — likely bad data, skipping")
+                record["rsi14"] = None
+                record["rsi_label"] = "RSI calculation error"
+                record["rsi_note"] = "extreme_value"
+            else:
+                record["rsi14"] = rsi
+                record["rsi_label"] = rsi_label(rsi)
+
         if len(volumes) >= 30:
             avg_vol_30 = sum(volumes[-30:]) / 30
             record["volume_today"] = volumes[-1]
             record["volume_avg_30d"] = round(avg_vol_30, 0)
             record["volume_ratio"] = round(
-                volumes[-1] / avg_vol_30, 2
-            ) if avg_vol_30 > 0 else None
+                volumes[-1] / avg_vol_30, 2) if avg_vol_30 > 0 else None
 
-        # Moving averages
         if len(closes) >= 200:
             record["ma200"] = round(sum(closes[-200:]) / 200, 2)
         if len(closes) >= 50:
             record["ma50"] = round(sum(closes[-50:]) / 50, 2)
 
-        # Worst single day drop in last 30 days
         recent = closes[-31:]
         worst_day = 0
         for i in range(1, len(recent)):
@@ -329,26 +377,21 @@ def process_ticker(ticker, sector):
         record["abrupt_drop_flag"] = worst_day <= -8
 
     else:
-        # Fallback to Finnhub metrics for 52W if yfinance fails
         fins = get_basic_financials(ticker)
         if fins and "metric" in fins:
             m = fins["metric"]
             high_52w = m.get("52WeekHigh")
             low_52w = m.get("52WeekLow")
-            # Sanity check - reject if values are wildly different from current price
             if high_52w and low_52w and record.get("price"):
                 price = record["price"]
                 if low_52w > price * 0.1 and high_52w < price * 10:
                     record["high_52w"] = high_52w
                     record["low_52w"] = low_52w
                     record["pct_from_52w_low"] = round(
-                        (price - low_52w) / low_52w * 100, 2
-                    )
+                        (price - low_52w) / low_52w * 100, 2)
                     record["pct_from_52w_high"] = round(
-                        (price - high_52w) / high_52w * 100, 2
-                    )
+                        (price - high_52w) / high_52w * 100, 2)
 
-    # Fundamentals from Finnhub
     fins = get_basic_financials(ticker)
     if fins and "metric" in fins:
         m = fins["metric"]
@@ -359,7 +402,6 @@ def process_ticker(ticker, sector):
         record["dividend_yield"] = m.get("currentDividendYieldTTM")
         record["revenue_growth"] = m.get("revenueGrowthTTMYoy")
 
-    # News for flagged stocks
     needs_news = (
         record.get("rsi14") is not None and record["rsi14"] <= 35
     ) or record.get("abrupt_drop_flag")
@@ -480,8 +522,15 @@ def main():
         "near_52w_lows": near_lows[:50],
         "errors": errors
     }
+
+    # ── SANITIZE before writing ───────────────────────────────────────────────
+    # Replace any float NaN/Infinity values with None (JSON null).
+    # pandas and yfinance calculations can produce NaN for missing data,
+    # which json.dump() writes as the bare token NaN — invalid JSON.
+    clean_cache = sanitize(cache)
+
     with open("data/cache.json", "w") as f:
-        json.dump(cache, f, indent=2)
+        json.dump(clean_cache, f, indent=2)
 
     rsi_count = sum(1 for r in results if r.get("rsi14") is not None)
     low_count = sum(1 for r in results if r.get("low_52w") is not None)
