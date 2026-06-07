@@ -288,23 +288,12 @@ async function loadData(){
     const res=await fetch('data/cache.json?t='+Date.now());
     if(!res.ok) throw new Error('HTTP '+res.status);
     const raw=await res.text();
-    const clean=raw.replace(/\bNaN\b/g,'null');
+    const clean=raw.replace(/\bNaN\b/g,"null");
     const data=JSON.parse(clean);
     allStocks=data.stocks||[];
     sectorSummaries=data.sector_summaries||[];
     const d=new Date(data.generated);
-    const timeStr=d.toLocaleDateString()+' '+d.toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'});
-    const ageMs=Date.now()-d.getTime();
-    const ageDays=ageMs/(1000*60*60*24);
-    const el=document.getElementById('last-updated');
-    el.textContent=timeStr;
-    if(ageDays>2){
-      el.style.color='var(--red)';
-      el.title='Data is '+Math.floor(ageDays)+' days old — run fetch_data.py to refresh';
-      el.textContent=timeStr+' ⚠ STALE';
-    } else {
-      el.style.color='var(--accent)';
-    }
+    document.getElementById('last-updated').textContent=d.toLocaleDateString()+' '+d.toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'});
     const nearLow=allStocks.filter(s=>s.pct_from_52w_low!=null&&s.pct_from_52w_low<=5).length;
     const oversold=allStocks.filter(s=>s.rsi14!=null&&s.rsi14<=45).length;
     const overreaction=allStocks.filter(s=>isOverreaction(s)).length;
