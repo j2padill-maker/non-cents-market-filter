@@ -330,8 +330,16 @@ function fmt(n,dec=2){if(n==null)return'—';return Number(n).toFixed(dec);}
 function fmtCap(n){if(n==null)return'—';if(n>=1000000)return'$'+(n/1000000).toFixed(1)+'T';if(n>=1000)return'$'+(n/1000).toFixed(1)+'B';return'$'+n.toFixed(0)+'M';}
 function fmtTime(ts){if(!ts)return'';const d=new Date(ts*1000);const diff=Math.round((Date.now()-d)/60000);if(diff<60)return diff+'m ago';if(diff<1440)return Math.round(diff/60)+'h ago';return Math.round(diff/1440)+'d ago';}
 function pctClass(n){if(n==null)return'pct-neutral';return n>0?'pct-up':n<0?'pct-down':'pct-neutral';}
-function rsiClass(n){if(n==null)return'rsi-neutral';if(n<30)return'rsi-extreme';if(n<=35)return'rsi-oversold';if(n>=70)return'rsi-overbought';return'rsi-neutral';}
-function rsiLabel(n){if(n==null)return'—';if(n<30)return n.toFixed(1)+' 🔴';if(n<=35)return n.toFixed(1)+' 🟡';if(n>=70)return n.toFixed(1)+' 🟢';return n.toFixed(1);}
+function rsiClass(n){if(n==null)return'rsi-neutral';if(n<30)return'rsi-extreme';if(n<=45)return'rsi-oversold';if(n>=70)return'rsi-overbought';return'rsi-neutral';}
+function rsiLabel(n,note){
+  if(note==='foreign_exchange')return'<span style="font-size:10px;color:var(--text3)">Foreign — N/A</span>';
+  if(note==='extreme_value')return'<span style="font-size:10px;color:var(--text3)">N/A</span>';
+  if(n==null)return'—';
+  if(n<30)return'<span style="color:var(--red)">'+n.toFixed(1)+' 🔴</span>';
+  if(n<=45)return'<span style="color:var(--yellow)">'+n.toFixed(1)+' 🟡</span>';
+  if(n>=70)return'<span style="color:var(--green)">'+n.toFixed(1)+' 🟢</span>';
+  return n.toFixed(1);
+}
 function isOverreaction(s){return s.change_pct<=-8&&(s.volume_ratio||0)>=2&&(s.rsi14||100)<=35&&(s.market_cap||0)>=2000;}
 function sectorColor(s){const c={'AI Hardware':'#00c853','AI Software':'#7b61ff','Robotics':'#00ff9d','Homebuilders':'#ff9500','Fintech':'#ff6b9d','Nuclear Energy':'#ffcc00','Drones':'#ff6b35','Mining & Materials':'#a8b2c4','Energy':'#ff8c42','S&P500 Core':'#4a9eff','Nasdaq100 Core':'#8b5cf6'};return c[s]||'#8899bb';}
 
@@ -369,7 +377,7 @@ function renderScreener(){
       <td><span class="sector-badge" style="border-color:${sectorColor(s.sector)}40;color:${sectorColor(s.sector)}">${s.sector}</span></td>
       <td>$${fmt(s.price)}</td>
       <td class="${pctClass(s.change_pct)}">${s.change_pct!=null?(s.change_pct>0?'+':'')+fmt(s.change_pct)+'%':'—'}</td>
-      <td><span class="rsi-badge ${rsiClass(s.rsi14)}">${rsiLabel(s.rsi14)}</span></td>
+      <td><span class="rsi-badge ${rsiClass(s.rsi14)}">${rsiLabel(s.rsi14,s.rsi_note)}</span></td>
       <td class="pct-down">$${fmt(s.low_52w)}</td>
       <td class="pct-up">$${fmt(s.high_52w)}</td>
       <td class="${s.pct_from_52w_low!=null&&s.pct_from_52w_low<=5?'pct-down':'pct-neutral'}">${fmt(s.pct_from_52w_low)}%</td>
@@ -480,7 +488,7 @@ function showSectorDetail(sector){
       <td class="ticker-cell">${s.ticker}</td>
       <td>$${fmt(s.price)}</td>
       <td class="${pctClass(s.change_pct)}">${s.change_pct!=null?(s.change_pct>0?'+':'')+fmt(s.change_pct)+'%':'—'}</td>
-      <td><span class="rsi-badge ${rsiClass(s.rsi14)}">${rsiLabel(s.rsi14)}</span></td>
+      <td><span class="rsi-badge ${rsiClass(s.rsi14)}">${rsiLabel(s.rsi14,s.rsi_note)}</span></td>
       <td class="pct-down">$${fmt(s.low_52w)}</td>
       <td class="pct-up">$${fmt(s.high_52w)}</td>
       <td class="${s.pct_from_52w_low!=null&&s.pct_from_52w_low<=5?'pct-down':'pct-neutral'}">${fmt(s.pct_from_52w_low)}%</td>
@@ -541,7 +549,12 @@ function renderBottlenecks(){
           const relStocks=allStocks.filter(s=>tickers.includes(s.ticker));
           return`<div class="bottleneck-item" style="margin-bottom:8px;">
             <div style="margin-bottom:4px">${item}</div>
-            ${relStocks.map(s=>`<span class="bottleneck-ticker-chip" onclick="showModal('${s.ticker}')" style="border:1px solid ${sectorColor(s.sector)}40;color:${sectorColor(s.sector)}">${s.ticker} $${fmt(s.price)}${s.rsi14!=null?' RSI:'+s.rsi14.toFixed(1):''}</span>`).join('')}
+            ${relStocks.map(s=>`<span class="bottleneck-ticker-chip" onclick="showModal('${s.ticker}')" style="border:1px solid ${sectorColor(s.sector)}40;color:${sectorColor(s.sector)}">
+  <span style="font-weight:700">${s.ticker}</span>
+  <span style="margin-left:4px">$${fmt(s.price)}</span>
+  ${s.change_pct!=null?`<span style="margin-left:4px;color:${s.change_pct>0?'#00c853':'#ff3b5c'}">${s.change_pct>0?'+':''}${fmt(s.change_pct)}%</span>`:''}
+  ${s.rsi14!=null?`<span style="margin-left:4px;color:var(--text3);font-size:10px">RSI:${s.rsi14.toFixed(1)}</span>`:''}
+</span>`).join('')}
           </div>`;
         }).join('')}
       </div>
@@ -563,12 +576,17 @@ function showModal(ticker){
       ${s.exchange?`<span style="background:var(--bg3);padding:2px 8px;border-radius:3px;border:1px solid var(--border)">${s.exchange}</span>`:''}
       ${s.exchange&&!['NYSE','NASDAQ','AMEX','OTC'].includes(s.exchange)?`<span style="background:rgba(255,204,0,0.15);padding:2px 8px;border-radius:3px;border:1px solid rgba(255,204,0,0.3);color:var(--yellow)">⚠ Foreign Exchange</span>`:''}
     </div>`:''}
-    ${s.description?`<div style="font-size:12px;color:var(--text2);line-height:1.8;margin-bottom:20px;padding:14px;background:var(--bg3);border-radius:8px;border-left:3px solid var(--accent);max-height:150px;overflow-y:auto">${s.description}</div>`:'<div style="font-size:12px;color:var(--text3);margin-bottom:16px;padding:10px 14px;background:var(--bg3);border-radius:6px;">No company description available.</div>'}
+    ${s.description?`<div style="font-size:12px;color:var(--text2);line-height:1.8;margin-bottom:20px;padding:14px;background:var(--bg3);border-radius:8px;border-left:3px solid var(--accent);max-height:180px;overflow-y:auto">${s.description}</div>`:
+    s.company_name?`<div style="font-size:12px;color:var(--text3);margin-bottom:16px;padding:10px 14px;background:var(--bg3);border-radius:6px;border-left:3px solid var(--border)">
+      <span style="color:var(--text2);font-weight:700">${s.company_name}</span> is listed on ${s.exchange||'a US exchange'} in the ${s.industry||s.sector||'market'} sector.
+      ${s.website?`<a href="${s.website}" target="_blank" style="color:var(--accent);margin-left:6px;font-size:11px">Visit website →</a>`:''}
+    </div>`:
+    '<div style="font-size:12px;color:var(--text3);margin-bottom:16px;padding:10px 14px;background:var(--bg3);border-radius:6px;">No company description available.</div>'}
     <div class="modal-metrics">
       <div><div class="modal-metric-label">Price</div><div class="modal-metric-value">$${fmt(s.price)}</div></div>
       <div><div class="modal-metric-label">Today's Change</div><div class="modal-metric-value ${pctClass(s.change_pct)}">${s.change_pct!=null?(s.change_pct>0?'+':'')+fmt(s.change_pct)+'%':'—'}</div></div>
       <div><div class="modal-metric-label">RSI (14-day)</div><div class="modal-metric-value ${s.rsi14!=null&&s.rsi14<30?'red':s.rsi14!=null&&s.rsi14<=35?'yellow':''}">${fmt(s.rsi14,1)}</div></div>
-      <div><div class="modal-metric-label">RSI Status</div><div class="modal-metric-value" style="font-size:16px">${s.rsi_label||'—'}</div></div>
+      <div><div class="modal-metric-label">RSI Status</div><div class="modal-metric-value" style="font-size:${s.rsi_note?'12px':'16px'};color:${s.rsi_note?'var(--text3)':'var(--text)'}">${s.rsi_note==='foreign_exchange'?'Foreign stock — RSI not calculated':s.rsi_note==='extreme_value'?'RSI calculation error':s.rsi_label||'—'}</div></div>
       <div><div class="modal-metric-label">52W Low</div><div class="modal-metric-value" style="color:var(--red)">$${fmt(s.low_52w)}</div></div>
       <div><div class="modal-metric-label">52W High</div><div class="modal-metric-value" style="color:var(--green)">$${fmt(s.high_52w)}</div></div>
       <div><div class="modal-metric-label">% From Low</div><div class="modal-metric-value ${s.pct_from_52w_low!=null&&s.pct_from_52w_low<=5?'red':''}">${fmt(s.pct_from_52w_low)}%</div></div>

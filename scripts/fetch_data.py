@@ -196,16 +196,38 @@ def get_sector_news(sector):
 # ── YFINANCE FOR CANDLES / RSI ────────────────────────────────────────────────
 
 def get_yfinance_data(ticker):
-    """Use yfinance to get price history for RSI, 52w high/low, MA calculations."""
+    """
+    Use yfinance to get price history for RSI, 52w high/low, MA calculations.
+    Uses 2 years of data for RSI warmup stability.
+    For highly volatile stocks (IPOs, massive price swings > 500%),
+    falls back to 6 months to avoid RSI distortion from early price surges.
+    """
     try:
         import yfinance as yf
         stock = yf.Ticker(ticker)
-        # Get 1 year of daily data
-        hist = stock.history(period="2y", auto_adjust=False)
+
+        # Pull 2 years for RSI warmup stability
+        hist = stock.history(period="2y", auto_adjust=True)
         if hist.empty:
             return None
+
         closes = hist["Close"].tolist()
         volumes = hist["Volume"].tolist()
+
+        # Check for extreme price range — IPOs or highly volatile small caps
+        # can have 500%+ swings that distort Wilder's RSI smoothing
+        if len(closes) > 10:
+            price_min = min(closes)
+            price_max = max(closes)
+            if price_min > 0:
+                price_range_pct = (price_max - price_min) / price_min * 100
+                if price_range_pct > 500:
+                    print(f"  ⚠ Extreme price range {price_range_pct:.0f}% detected — using 6 month window for RSI")
+                    hist_6m = stock.history(period="6mo", auto_adjust=True)
+                    if not hist_6m.empty:
+                        closes = hist_6m["Close"].tolist()
+                        volumes = hist_6m["Volume"].tolist()
+
         return {"closes": closes, "volumes": volumes}
     except Exception as e:
         print(f"  yfinance error for {ticker}: {e}")
@@ -271,14 +293,42 @@ def process_ticker(ticker, sector):
 
     # Company profile from Finnhub
     profile = get_company_profile(ticker)
-    if profile:
-        record["company_name"] = profile.get("name", "")
-        record["description"] = profile.get("description", "")
-        record["industry"] = profile.get("finnhubIndustry", "")
-        record["website"] = profile.get("weburl", "")
+    if profile and profile.get("name"):
+        name = profile.get("name", "")
+        industry = profile.get("finnhubIndustry", "")
+        exchange = profile.get("exchange", "")
+        country = profile.get("country", "")
+        ipo = profile.get("ipo", "")
+        weburl = profile.get("weburl", "")
+        currency = profile.get("currency", "USD")
+
+        record["company_name"] = name
+        record["industry"] = industry
+        record["website"] = weburl
         record["logo"] = profile.get("logo", "")
-        record["country"] = profile.get("country", "")
-        record["exchange"] = profile.get("exchange", "")
+        record["country"] = country
+        record["exchange"] = exchange
+        record["currency"] = currency
+
+        # Build description from available free-tier fields
+        # since Finnhub description requires premium
+        desc_parts = []
+        if name:
+            desc_parts.append(f"{name} ({ticker})")
+        if industry:
+            desc_parts.append(f"is a company in the {industry} industry")
+        if exchange and country:
+            desc_parts.append(f"listed on {exchange} ({country})")
+        elif exchange:
+            desc_parts.append(f"listed on {exchange}")
+        if currency and currency != "USD":
+            desc_parts.append(f"trades in {currency}")
+        if ipo:
+            desc_parts.append(f"IPO date: {ipo}")
+        if weburl:
+            desc_parts.append(f"Website: {weburl}")
+
+        record["description"] = ". ".join(desc_parts) + "." if desc_parts else ""
 
     # yfinance: candles for RSI, 52w, volume, MAs
     yf_data = get_yfinance_data(ticker)
@@ -286,22 +336,54 @@ def process_ticker(ticker, sector):
         closes = yf_data["closes"]
         volumes = yf_data["volumes"]
 
-        # 52-week high and low from actual price history
-        record["low_52w"] = round(min(closes), 2)
-        record["high_52w"] = round(max(closes), 2)
+        current_price = record.get("price", 0)
+        raw_low = min(closes)
+        raw_high = max(closes)
 
-        if record["price"] and record["low_52w"] and record["high_52w"]:
-            record["pct_from_52w_low"] = round(
-                (record["price"] - record["low_52w"]) / record["low_52w"] * 100, 2
+        # ── FOREIGN ADR SANITY CHECK ──────────────────────────────────────
+        # yfinance sometimes returns home-market prices for foreign ADRs
+        # (e.g. RIO in GBP pence, TSM in TWD, HSYDF in JPY)
+        # If 52W low is more than 3x the current USD price or less than 0.1x,
+        # the price series is from the wrong exchange — discard it
+        is_foreign_price_series = (
+            current_price > 0 and (
+                raw_low > current_price * 3 or
+                raw_high < current_price * 0.1
             )
-            record["pct_from_52w_high"] = round(
-                (record["price"] - record["high_52w"]) / record["high_52w"] * 100, 2
-            )
+        )
 
-        # True RSI(14) using Wilder's method
-        rsi = compute_rsi(closes)
-        record["rsi14"] = rsi
-        record["rsi_label"] = rsi_label(rsi)
+        if is_foreign_price_series:
+            print(f"  ⚠ Foreign price series detected — RSI/52W skipped")
+            record["rsi14"] = None
+            record["rsi_label"] = "Foreign stock — RSI not calculated"
+            record["rsi_note"] = "foreign_exchange"
+        else:
+            # 52-week high and low from actual price history
+            record["low_52w"] = round(raw_low, 2)
+            record["high_52w"] = round(raw_high, 2)
+
+            if current_price and record["low_52w"] and record["high_52w"]:
+                record["pct_from_52w_low"] = round(
+                    (current_price - record["low_52w"]) / record["low_52w"] * 100, 2
+                )
+                record["pct_from_52w_high"] = round(
+                    (current_price - record["high_52w"]) / record["high_52w"] * 100, 2
+                )
+
+            # True RSI(14) using Wilder's smoothing via pandas ewm
+            rsi = compute_rsi(closes)
+
+            # Additional sanity check on RSI value itself
+            # RSI below 5 or above 95 is extremely rare for liquid stocks
+            # If we see these values it likely indicates a bad price series
+            if rsi is not None and (rsi < 5 or rsi > 95):
+                print(f"  ⚠ Extreme RSI {rsi} detected — likely bad data, skipping")
+                record["rsi14"] = None
+                record["rsi_label"] = "RSI calculation error"
+                record["rsi_note"] = "extreme_value"
+            else:
+                record["rsi14"] = rsi
+                record["rsi_label"] = rsi_label(rsi)
 
         # Volume ratio
         if len(volumes) >= 30:
