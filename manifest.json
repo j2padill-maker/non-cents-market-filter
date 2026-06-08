@@ -1,0 +1,25 @@
+{
+  "name": "Non-Cents Market Filter",
+  "short_name": "Non-Cents",
+  "description": "Stock screener with RSI, 52W high/low, sector filters and watchlist",
+  "start_url": "/non-cents-market-filter/",
+  "scope": "/non-cents-market-filter/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0a0a0f",
+  "theme_color": "#00c853",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
