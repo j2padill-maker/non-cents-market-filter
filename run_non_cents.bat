@@ -1,35 +1,43 @@
 @echo off
-echo =======================================
-echo  Non-Cents Market Filter - Daily Run
-echo =======================================
+echo ============================================================
+echo  NON-CENTS MARKET FILTER — Daily Update
+echo ============================================================
+
+cd /d C:\non-cents
+
 echo.
+echo [1/5] Copying watchlist queue (if downloaded from app)...
+if exist "C:\Users\jpadi\OneDrive\Desktop\Non-cents market filter\watchlist_queue.json" (
+    echo   + Found watchlist_queue.json — copying to data folder...
+    copy /Y "C:\Users\jpadi\OneDrive\Desktop\Non-cents market filter\watchlist_queue.json" C:\non-cents\data\watchlist_queue.json
+) else (
+    echo   (No watchlist_queue.json on Desktop — skipping)
+)
 
-cd C:\non-cents
-
-echo [1/5] Syncing with GitHub...
-git pull --rebase origin main
 echo.
-
-echo [2/5] Copying latest files from Desktop...
-copy /Y "C:\Users\jpadi\OneDrive\Desktop\Non-cents market filter\index.html" C:\non-cents\index.html 2>nul && echo   index.html copied || echo   index.html not found in Desktop folder (skipping)
-copy /Y "C:\Users\jpadi\OneDrive\Desktop\Non-cents market filter\fetch_data.py" C:\non-cents\scripts\fetch_data.py 2>nul && echo   fetch_data.py copied || echo   fetch_data.py not found in Desktop folder (skipping)
-echo.
-
-echo [3/5] Fetching fresh market data (15-20 mins)...
+echo [2/5] Fetching market data (Finnhub + yfinance)...
 python scripts\fetch_data.py
-echo.
+if errorlevel 1 (
+    echo ERROR: fetch_data.py failed. Check output above.
+    pause
+    exit /b 1
+)
 
-echo [4/5] Staging all changes...
+echo.
+echo [3/5] Syncing with GitHub...
+git pull --rebase origin main
+
+echo.
+echo [4/5] Staging and committing...
 git add .
-echo.
+git commit -m "Daily data update %date%"
 
-echo [5/5] Committing and pushing to GitHub...
-git commit -m "Daily data refresh %date%"
+echo.
+echo [5/5] Pushing to GitHub...
 git push
-echo.
 
-echo =======================================
-echo  Done! App is live at:
-echo  https://j2padill-maker.github.io/non-cents-market-filter/
-echo =======================================
+echo.
+echo ============================================================
+echo  DONE — Live at https://j2padill-maker.github.io/non-cents-market-filter
+echo ============================================================
 pause

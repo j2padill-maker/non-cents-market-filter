@@ -473,6 +473,29 @@ def main():
             if t not in seen:
                 seen[t] = sector
 
+    # ── WATCHLIST QUEUE ──────────────────────────────────────────────────────
+    # Read any tickers the user added via the Watchlist tab in the app.
+    # These get fetched under the "Watchlist" sector so they appear grouped
+    # in the Watchlist tab with full RSI / 52W data on the next run.
+    watchlist_queue_path = "data/watchlist_queue.json"
+    wl_added = []
+    if os.path.exists(watchlist_queue_path):
+        try:
+            with open(watchlist_queue_path, "r") as f:
+                wl_queue = json.load(f)
+            wl_tickers = wl_queue.get("tickers", [])
+            for t in wl_tickers:
+                t = t.strip().upper()
+                if t and t not in seen:
+                    seen[t] = "Watchlist"
+                    wl_added.append(t)
+            if wl_added:
+                print(f"  + Watchlist queue: adding {len(wl_added)} new ticker(s): {', '.join(wl_added)}")
+        except Exception as e:
+            print(f"  ⚠ Could not read watchlist_queue.json: {e}")
+    else:
+        print("  (No watchlist_queue.json found — skipping)")
+
     universe = list(seen.items())
     print(f"\nUniverse: {len(universe)} unique tickers across {len(SECTORS)} sectors\n")
 
