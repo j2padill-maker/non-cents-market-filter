@@ -134,6 +134,12 @@ td{padding:10px 14px;white-space:nowrap;}
 .progress-fill{height:100%;border-radius:3px;background:var(--accent);}
 .back-btn{background:var(--bg3);border:1px solid var(--border);border-radius:6px;padding:7px 14px;color:var(--text2);font-family:var(--font-mono);font-size:12px;cursor:pointer;transition:all 0.2s;}
 .back-btn:hover{border-color:var(--accent);color:var(--accent);}
+
+.wl-sector-label{font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:var(--text3);padding:14px 20px 6px;font-weight:700;}
+.wl-untracked-chip{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;background:rgba(255,204,0,0.1);border:1px solid rgba(255,204,0,0.35);border-radius:4px;font-size:12px;font-weight:700;color:var(--yellow);}
+.wl-untracked-chip button{background:none;border:none;color:var(--yellow);cursor:pointer;font-size:14px;line-height:1;padding:0;opacity:0.7;}
+.wl-untracked-chip button:hover{opacity:1;}
+
 ::-webkit-scrollbar{width:6px;height:6px;}
 ::-webkit-scrollbar-track{background:var(--bg);}
 ::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px;}
@@ -153,6 +159,7 @@ td{padding:10px 14px;white-space:nowrap;}
   <button class="tab" onclick="switchTab('sectors',this)">🗂 SECTORS</button>
   <button class="tab" onclick="switchTab('rankings',this)">📈 DOWNTRODDEN / MOMENTUM</button>
   <button class="tab" onclick="switchTab('bottlenecks',this)">🔩 BOTTLENECKS</button>
+  <button class="tab" onclick="switchTab('watchlist',this)">⭐ WATCHLIST</button>
 </div>
 <div class="main">
 
@@ -255,6 +262,45 @@ td{padding:10px 14px;white-space:nowrap;}
     <div id="bottleneck-grid" class="sector-grid"></div>
   </div>
 
+  <!-- WATCHLIST -->
+  <div id="tab-watchlist" class="panel">
+    <div style="padding:4px 0 20px;">
+      <div style="font-family:var(--font-display);font-size:22px;font-weight:800;margin-bottom:6px;">⭐ Watchlist</div>
+      <div style="font-size:12px;color:var(--text3);margin-bottom:20px;">Track any ticker. In-dataset stocks show full RSI &amp; 52W data. Untracked tickers are queued for your next fetch run.</div>
+
+      <!-- Add ticker input -->
+      <div style="display:flex;gap:8px;align-items:center;margin-bottom:8px;">
+        <div class="search-wrap">
+          <span>⭐</span>
+          <input id="watchlist-input" class="search-input" type="text" placeholder="Enter ticker (e.g. AAPL)"
+            style="text-transform:uppercase;width:280px;"
+            onkeydown="if(event.key==='Enter')wlAdd()"
+            oninput="this.value=this.value.toUpperCase()">
+        </div>
+        <button onclick="wlAdd()" style="background:var(--accent);border:none;border-radius:6px;padding:9px 20px;color:#000;font-family:var(--font-mono);font-size:12px;font-weight:700;cursor:pointer;letter-spacing:0.08em;white-space:nowrap;">+ ADD</button>
+        <button onclick="wlClear()" style="background:transparent;border:1px solid var(--border);border-radius:6px;padding:9px 14px;color:var(--text3);font-family:var(--font-mono);font-size:11px;cursor:pointer;white-space:nowrap;">CLEAR ALL</button>
+      </div>
+      <div id="wl-msg" style="font-size:11px;color:var(--red);min-height:16px;margin-bottom:16px;"></div>
+
+      <!-- Untracked tickers banner -->
+      <div id="wl-untracked-banner" style="display:none;background:rgba(255,204,0,0.08);border:1px solid rgba(255,204,0,0.3);border-radius:8px;padding:14px 18px;margin-bottom:20px;">
+        <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-bottom:8px;">
+          <div style="font-size:11px;color:var(--yellow);font-weight:700;letter-spacing:0.08em;">⚠ UNTRACKED TICKERS — QUEUE FOR NEXT FETCH</div>
+          <button onclick="wlDownloadQueue()" style="background:var(--yellow);border:none;border-radius:5px;padding:6px 14px;color:#000;font-family:var(--font-mono);font-size:11px;font-weight:700;cursor:pointer;letter-spacing:0.06em;white-space:nowrap;">⬇ DOWNLOAD watchlist_queue.json</button>
+        </div>
+        <div style="font-size:11px;color:var(--text2);margin-bottom:10px;">
+          These tickers will be fetched as the <strong style="color:var(--yellow)">Watchlist</strong> sector on your next run.<br>
+          Save the downloaded file to <code style="color:var(--accent);background:var(--bg3);padding:1px 5px;border-radius:3px;">C:\Users\jpadi\OneDrive\Desktop\Non-cents market filter\</code> — your bat file will copy it automatically.
+        </div>
+        <div id="wl-untracked-list" style="font-family:var(--font-mono);font-size:13px;font-weight:700;color:var(--yellow);letter-spacing:0.05em;flex-wrap:wrap;display:flex;gap:8px;"></div>
+      </div>
+
+      <!-- Watchlist table -->
+      <div id="wl-content"></div>
+    </div>
+  </div>
+
+
 </div>
 
 <!-- MODAL -->
@@ -283,6 +329,138 @@ const BOTTLENECKS={
   'Mining & Materials':['Rare-earth processing: MP','Lithium supply: ALB, LTHM','Copper smelting capacity: FCX']
 };
 
+
+/* ═══════════════════  WATCHLIST  ═══════════════════ */
+let wlTickers = JSON.parse(localStorage.getItem('ncmf_watchlist') || '[]');
+
+function wlSave(){ localStorage.setItem('ncmf_watchlist', JSON.stringify(wlTickers)); }
+
+function wlAdd(){
+  const inp = document.getElementById('watchlist-input');
+  const msg = document.getElementById('wl-msg');
+  const t = inp.value.trim().toUpperCase().replace(/[^A-Z0-9.]/g,'');
+  if(!t){ msg.textContent='Enter a ticker symbol.'; return; }
+  if(wlTickers.includes(t)){ msg.textContent=t+' is already on your watchlist.'; return; }
+  if(t.length > 6){ msg.textContent='Ticker seems too long — check the symbol.'; return; }
+  wlTickers.push(t);
+  wlSave();
+  inp.value='';
+  msg.textContent='';
+  renderWatchlist();
+}
+
+function wlRemove(t){
+  wlTickers = wlTickers.filter(x=>x!==t);
+  wlSave();
+  renderWatchlist();
+}
+
+function wlClear(){
+  if(!wlTickers.length) return;
+  if(!confirm('Remove all ' + wlTickers.length + ' tickers from your watchlist?')) return;
+  wlTickers = [];
+  wlSave();
+  renderWatchlist();
+}
+
+function renderWatchlist(){
+  const el = document.getElementById('wl-content');
+  const banner = document.getElementById('wl-untracked-banner');
+  const untrackedList = document.getElementById('wl-untracked-list');
+
+  if(!wlTickers.length){
+    banner.style.display='none';
+    el.innerHTML='<div class="empty-state"><div class="icon">⭐</div><p>Your watchlist is empty.<br><span style="font-size:12px;color:var(--text3)">Type a ticker above and hit + ADD or Enter.</span></p></div>';
+    return;
+  }
+
+  // Split into in-dataset vs untracked
+  const inDataset = wlTickers.filter(t => allStocks.find(s=>s.ticker===t));
+  const untracked  = wlTickers.filter(t => !allStocks.find(s=>s.ticker===t));
+
+  // Banner for untracked
+  if(untracked.length){
+    banner.style.display='block';
+    untrackedList.innerHTML = untracked.map(t=>`
+      <span class="wl-untracked-chip">
+        ${t}
+        <button onclick="wlRemove('${t}')" title="Remove">✕</button>
+      </span>`).join('');
+  } else {
+    banner.style.display='none';
+  }
+
+  if(!inDataset.length){
+    el.innerHTML='<div class="empty-state" style="padding:30px 20px;"><div class="icon">📡</div><p>None of your watchlist tickers are in your dataset yet.<br><span style="font-size:12px;color:var(--text3)">Run fetch_data.py after adding them to see full data.</span></p></div>';
+    return;
+  }
+
+  // Group in-dataset tickers by sector
+  const sectorMap = {};
+  inDataset.forEach(t=>{
+    const s = allStocks.find(x=>x.ticker===t);
+    if(!s) return;
+    if(!sectorMap[s.sector]) sectorMap[s.sector]=[];
+    sectorMap[s.sector].push(s);
+  });
+  // Sort each sector group by RSI ascending (oversold first)
+  Object.values(sectorMap).forEach(arr=>arr.sort((a,b)=>(a.rsi14??99)-(b.rsi14??99)));
+
+  let html = '<div class="table-wrap">';
+  Object.entries(sectorMap).forEach(([sector, stocks])=>{
+    const color = sectorColor(sector);
+    html += `<div class="wl-sector-label" style="color:${color}">${sector}</div>`;
+    html += `<div style="overflow-x:auto;"><table style="width:100%;border-collapse:collapse;font-size:12px;">
+      <thead>
+        <tr style="background:var(--bg3);">
+          <th style="padding:8px 14px;text-align:left;font-size:10px;color:var(--text3);letter-spacing:.1em;text-transform:uppercase;border-bottom:1px solid var(--border);">TICKER</th>
+          <th style="padding:8px 14px;text-align:left;font-size:10px;color:var(--text3);letter-spacing:.1em;text-transform:uppercase;border-bottom:1px solid var(--border);">PRICE</th>
+          <th style="padding:8px 14px;text-align:left;font-size:10px;color:var(--text3);letter-spacing:.1em;text-transform:uppercase;border-bottom:1px solid var(--border);">CHG%</th>
+          <th style="padding:8px 14px;text-align:left;font-size:10px;color:var(--text3);letter-spacing:.1em;text-transform:uppercase;border-bottom:1px solid var(--border);">RSI(14)</th>
+          <th style="padding:8px 14px;text-align:left;font-size:10px;color:var(--text3);letter-spacing:.1em;text-transform:uppercase;border-bottom:1px solid var(--border);">52W LOW</th>
+          <th style="padding:8px 14px;text-align:left;font-size:10px;color:var(--text3);letter-spacing:.1em;text-transform:uppercase;border-bottom:1px solid var(--border);">52W HIGH</th>
+          <th style="padding:8px 14px;text-align:left;font-size:10px;color:var(--text3);letter-spacing:.1em;text-transform:uppercase;border-bottom:1px solid var(--border);">% FROM LOW</th>
+          <th style="padding:8px 14px;text-align:left;font-size:10px;color:var(--text3);letter-spacing:.1em;text-transform:uppercase;border-bottom:1px solid var(--border);">MKT CAP</th>
+          <th style="padding:8px 14px;text-align:left;font-size:10px;color:var(--text3);letter-spacing:.1em;text-transform:uppercase;border-bottom:1px solid var(--border);">P/E</th>
+          <th style="padding:8px 14px;text-align:left;font-size:10px;color:var(--text3);letter-spacing:.1em;text-transform:uppercase;border-bottom:1px solid var(--border);">REMOVE</th>
+        </tr>
+      </thead>
+      <tbody>`;
+    stocks.forEach(s=>{
+      const flags=[];
+      if(s.pct_from_52w_low!=null&&s.pct_from_52w_low<=5) flags.push('<span class="near-low-flag"></span>Near Low');
+      if(s.abrupt_drop_flag) flags.push('<span class="drop-flag">BIG DROP</span>');
+      html += `<tr onclick="showModal('${s.ticker}')" style="border-bottom:1px solid var(--border);cursor:pointer;transition:background 0.15s;" onmouseover="this.style.background='var(--bg3)'" onmouseout="this.style.background=''">
+        <td style="padding:10px 14px;"><span class="ticker-cell">${s.ticker}</span></td>
+        <td style="padding:10px 14px;">$${fmt(s.price)}</td>
+        <td style="padding:10px 14px;" class="${pctClass(s.change_pct)}">${s.change_pct!=null?(s.change_pct>0?'+':'')+fmt(s.change_pct)+'%':'—'}</td>
+        <td style="padding:10px 14px;">${rsiDisplay(s)}</td>
+        <td style="padding:10px 14px;color:var(--red);">${s.low_52w?'$'+fmt(s.low_52w):'—'}</td>
+        <td style="padding:10px 14px;color:var(--green);">${s.high_52w?'$'+fmt(s.high_52w):'—'}</td>
+        <td style="padding:10px 14px;" class="${s.pct_from_52w_low!=null&&s.pct_from_52w_low<=5?'pct-down':'pct-neutral'}">${fmt(s.pct_from_52w_low)}%</td>
+        <td style="padding:10px 14px;">${fmtCap(s.market_cap)}</td>
+        <td style="padding:10px 14px;">${fmt(s.pe_ratio,1)}</td>
+        <td style="padding:10px 14px;"><button onclick="event.stopPropagation();wlRemove('${s.ticker}')" style="background:none;border:1px solid var(--border);border-radius:4px;color:var(--text3);cursor:pointer;padding:3px 8px;font-size:11px;font-family:var(--font-mono);" title="Remove from watchlist">✕</button></td>
+      </tr>`;
+    });
+    html += '</tbody></table></div>';
+  });
+  html += '</div>';
+  el.innerHTML = html;
+}
+function wlDownloadQueue(){
+  const untracked = wlTickers.filter(t => !allStocks.find(s=>s.ticker===t));
+  if(!untracked.length) return;
+  const payload = JSON.stringify({ tickers: untracked }, null, 2);
+  const blob = new Blob([payload], {type:'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'watchlist_queue.json';
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+/* ═══════════════════  END WATCHLIST  ═══════════════════ */
+
 async function loadData(){
   try{
     const res=await fetch('data/cache.json?t='+Date.now());
@@ -303,7 +481,7 @@ async function loadData(){
     document.getElementById('stat-oversold').textContent=oversold;
     document.getElementById('stat-overreaction').textContent=overreaction;
     document.getElementById('stat-sectors').textContent=sectors;
-    renderScreener();renderOverreaction();renderSectors();renderRankings();renderBottlenecks();
+    renderScreener();renderOverreaction();renderSectors();renderRankings();renderBottlenecks();renderWatchlist();
   }catch(e){
     document.getElementById('screener-body').innerHTML='<tr><td colspan="11"><div class="empty-state"><div class="icon">⚠️</div><p>Could not load data. Run the fetch script and push cache.json to GitHub.</p></div></td></tr>';
     console.error('Load error:',e);
