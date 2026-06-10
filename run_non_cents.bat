@@ -24,8 +24,13 @@ if errorlevel 1 (
 )
 
 echo.
-echo [3/5] Syncing with GitHub...
+echo [3/5] Syncing with GitHub (pulling remote changes first)...
 git pull --rebase origin main
+if errorlevel 1 (
+    echo ERROR: git pull failed. Check output above.
+    pause
+    exit /b 1
+)
 
 echo.
 echo [4/5] Staging and committing...
@@ -35,9 +40,13 @@ git commit -m "Daily data update %date%"
 echo.
 echo [5/5] Pushing to GitHub...
 git push
+if errorlevel 1 (
+    echo ERROR: git push failed. Check output above.
+    pause
+    exit /b 1
+)
 
 echo.
 echo ============================================================
 echo  DONE — Live at https://j2padill-maker.github.io/non-cents-market-filter
 echo ============================================================
-pause

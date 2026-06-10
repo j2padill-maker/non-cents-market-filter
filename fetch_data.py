@@ -20,8 +20,20 @@ SECTORS = {
         "PATH", "OKTA", "MDB", "WDAY", "FTNT", "TEAM", "NOW", "CRM"
     ],
     "Robotics": [
-        "ISRG", "CGNX", "AVAV", "SYM", "PATH", "TER", "NOVT", "IPGP", "ROK",
-        "ZBRA", "KEYS", "SERV", "OLL", "HSYDF", "PEGA", "JBTM", "EMR", "HON"
+        # Industrial / warehouse automation
+        "ROK", "ZBRA", "CGNX", "NOVT", "IPGP", "JBTM", "EMR", "HON", "TER",
+        # Humanoid / mobile robots
+        "ISRG", "SYM", "SERV", "AVAV",
+        # Vision, sensing, edge AI for robotics (BOTZ/ROBO holdings)
+        "AMBA", "KEYS",
+        # AI-driven robotics software / analytics
+        "BBAI", "PEGA",
+        # Humanoid enabler (physical AI platform)
+        "TSLA",
+        # Bottleneck / component play
+        "HSYDF",
+        # Subsea & defense ROVs (Oceaneering — ROBO/BOTZ-adjacent industrial robotics)
+        "OII",
     ],
     "Homebuilders": [
         "DHI", "LEN", "PHM", "NVR", "TOL", "KBH", "MDC", "MHO", "TMHC",
@@ -106,7 +118,8 @@ BOTTLENECKS = {
         "Harmonic/strain-wave reducers: HSYDF",
         "Rare-earth magnets: MP, LTHM",
         "Force/torque sensors: NOVT",
-        "Robot vision/LIDAR: CGNX, KEYS"
+        "Robot vision/LIDAR: CGNX, KEYS, AMBA",
+        "Subsea/defense ROVs: OII",
     ],
     "Nuclear Energy": [
         "Enriched uranium supply: CCJ, LEU",
@@ -321,8 +334,11 @@ def process_ticker(ticker, sector):
         closes = yf_data["closes"]
         volumes = yf_data["volumes"]
         current_price = record.get("price", 0)
-        raw_low = min(closes)
-        raw_high = max(closes)
+        # Use last 252 trading days (~1 year) for 52W high/low — full 2y history
+        # is used for RSI accuracy but would produce a 2-year low, not 52W low
+        closes_52w = closes[-252:] if len(closes) >= 252 else closes
+        raw_low = min(closes_52w)
+        raw_high = max(closes_52w)
 
         is_foreign_price_series = (
             current_price > 0 and (
@@ -472,29 +488,6 @@ def main():
         for t in tickers:
             if t not in seen:
                 seen[t] = sector
-
-    # ── WATCHLIST QUEUE ──────────────────────────────────────────────────────
-    # Read any tickers the user added via the Watchlist tab in the app.
-    # These get fetched under the "Watchlist" sector so they appear grouped
-    # in the Watchlist tab with full RSI / 52W data on the next run.
-    watchlist_queue_path = "data/watchlist_queue.json"
-    wl_added = []
-    if os.path.exists(watchlist_queue_path):
-        try:
-            with open(watchlist_queue_path, "r") as f:
-                wl_queue = json.load(f)
-            wl_tickers = wl_queue.get("tickers", [])
-            for t in wl_tickers:
-                t = t.strip().upper()
-                if t and t not in seen:
-                    seen[t] = "Watchlist"
-                    wl_added.append(t)
-            if wl_added:
-                print(f"  + Watchlist queue: adding {len(wl_added)} new ticker(s): {', '.join(wl_added)}")
-        except Exception as e:
-            print(f"  ⚠ Could not read watchlist_queue.json: {e}")
-    else:
-        print("  (No watchlist_queue.json found — skipping)")
 
     universe = list(seen.items())
     print(f"\nUniverse: {len(universe)} unique tickers across {len(SECTORS)} sectors\n")
