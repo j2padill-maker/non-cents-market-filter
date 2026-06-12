@@ -212,10 +212,12 @@ def get_yfinance_data(ticker):
     try:
         import yfinance as yf
         stock = yf.Ticker(ticker)
-        hist = stock.history(period="2y", auto_adjust=True)
+        hist = stock.history(period="2y", auto_adjust=True, back_adjust=True)
         if hist.empty:
             return None
-        closes = hist["Close"].tolist()
+        closes  = hist["Close"].tolist()
+        highs   = hist["High"].tolist()
+        lows    = hist["Low"].tolist()
         volumes = hist["Volume"].tolist()
         if len(closes) > 10:
             price_min = min(closes)
@@ -224,11 +226,13 @@ def get_yfinance_data(ticker):
                 price_range_pct = (price_max - price_min) / price_min * 100
                 if price_range_pct > 500:
                     print(f"  ⚠ Extreme price range {price_range_pct:.0f}% — using 6 month window")
-                    hist_6m = stock.history(period="6mo", auto_adjust=True)
+                    hist_6m = stock.history(period="6mo", auto_adjust=True, back_adjust=True)
                     if not hist_6m.empty:
-                        closes = hist_6m["Close"].tolist()
+                        closes  = hist_6m["Close"].tolist()
+                        highs   = hist_6m["High"].tolist()
+                        lows    = hist_6m["Low"].tolist()
                         volumes = hist_6m["Volume"].tolist()
-        return {"closes": closes, "volumes": volumes}
+        return {"closes": closes, "highs": highs, "lows": lows, "volumes": volumes}
     except Exception as e:
         print(f"  yfinance error for {ticker}: {e}")
         return None
@@ -331,14 +335,18 @@ def process_ticker(ticker, sector):
 
     yf_data = get_yfinance_data(ticker)
     if yf_data:
-        closes = yf_data["closes"]
+        closes  = yf_data["closes"]
+        highs   = yf_data["highs"]
+        lows    = yf_data["lows"]
         volumes = yf_data["volumes"]
         current_price = record.get("price", 0)
-        # Use last 252 trading days (~1 year) for 52W high/low — full 2y history
-        # is used for RSI accuracy but would produce a 2-year low, not 52W low
+        # Use last 252 trading days (~1 year) for 52W range.
+        # Use intraday High/Low columns (not Close) to match Yahoo Finance / Finviz.
+        highs_52w = highs[-252:] if len(highs) >= 252 else highs
+        lows_52w  = lows[-252:]  if len(lows)  >= 252 else lows
         closes_52w = closes[-252:] if len(closes) >= 252 else closes
-        raw_low = min(closes_52w)
-        raw_high = max(closes_52w)
+        raw_low  = min(lows_52w)
+        raw_high = max(highs_52w)
 
         is_foreign_price_series = (
             current_price > 0 and (
