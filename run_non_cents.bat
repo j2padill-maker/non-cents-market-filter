@@ -24,7 +24,12 @@ if errorlevel 1 (
 )
 
 echo.
-echo [3/5] Syncing with GitHub (pulling remote changes first)...
+echo [3/5] Staging any local changes before sync...
+git add .
+git diff --cached --quiet || git commit -m "Pre-sync local changes %date%"
+
+echo.
+echo [4/5] Syncing with GitHub (pulling remote changes first)...
 git pull --rebase origin main
 if errorlevel 1 (
     echo ERROR: git pull failed. Check output above.
@@ -33,12 +38,9 @@ if errorlevel 1 (
 )
 
 echo.
-echo [4/5] Staging and committing...
+echo [5/5] Staging, committing and pushing...
 git add .
 git commit -m "Daily data update %date%"
-
-echo.
-echo [5/5] Pushing to GitHub...
 git push
 if errorlevel 1 (
     echo ERROR: git push failed. Check output above.
