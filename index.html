@@ -207,16 +207,16 @@ body {
 }
 .tab img {
   width:18px; height:18px; object-fit:contain;
-  /* MILK ICON BLEND */
-  mix-blend-mode: screen;
-  filter: brightness(1.2) saturate(0.6) contrast(0.9);
-  opacity:0.75;
+  /* Kill white background: multiply blends white away on dark bg */
+  mix-blend-mode: multiply;
+  filter: invert(1) brightness(0.85) saturate(0.5);
+  opacity:0.72;
   transition:all 0.3s;
 }
 .tab.active img, .tab:hover img {
   opacity:1;
-  filter: brightness(1.5) saturate(0.3) hue-rotate(90deg) contrast(1.1);
-  mix-blend-mode: screen;
+  filter: invert(1) brightness(1.1) saturate(0.4);
+  mix-blend-mode: multiply;
 }
 
 /* ═══════════════════════════════════════════
@@ -244,9 +244,29 @@ body {
   position: relative;
   overflow: hidden;
   box-shadow: var(--card-shadow);
-  transition: box-shadow 0.25s, transform 0.2s;
-  cursor: default;
+  transition: box-shadow 0.25s, transform 0.2s, border-color 0.2s;
+  cursor: pointer;
+  user-select: none;
 }
+.stat-card[data-filter]:hover {
+  box-shadow: var(--card-shadow-hover);
+  transform: translateY(-2px);
+}
+.stat-card.stat-active {
+  border-color: var(--accent-dim) !important;
+  box-shadow: 0 0 0 1px var(--accent-dim), var(--card-shadow-hover) !important;
+}
+.stat-card.stat-active.red-card { border-color: rgba(255,59,92,0.45) !important; box-shadow: 0 0 0 1px rgba(255,59,92,0.35), var(--card-shadow-hover) !important; }
+.stat-card.stat-active.yellow-card { border-color: rgba(255,204,0,0.45) !important; box-shadow: 0 0 0 1px rgba(255,204,0,0.35), var(--card-shadow-hover) !important; }
+.stat-card-hint {
+  font-size: 9px;
+  color: var(--text3);
+  letter-spacing: 0.08em;
+  margin-top: 8px;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.stat-card[data-filter]:hover .stat-card-hint { opacity: 1; }
 .stat-card::before {
   content:'';
   position:absolute;
@@ -553,10 +573,10 @@ td { padding:10px 14px; white-space:nowrap; }
 }
 .milk-icon-wrap img {
   width:52px; height:52px; object-fit:contain;
-  /* Blend with dark background */
-  mix-blend-mode: screen;
-  filter: brightness(1.4) saturate(0.2) contrast(0.85) sepia(0.2);
-  opacity:0.85;
+  /* Kill white square: multiply makes white transparent on dark bg */
+  mix-blend-mode: multiply;
+  filter: invert(1) brightness(0.9) saturate(0.35) contrast(1.05);
+  opacity:0.92;
   transition:filter 0.3s, opacity 0.3s;
 }
 .milk-icon-wrap::after {
@@ -1048,11 +1068,31 @@ td { padding:10px 14px; white-space:nowrap; }
 <!-- ═══════════ SCREENER ═══════════ -->
 <div id="tab-screener" class="panel active">
   <div class="stats-bar">
-    <div class="stat-card"><div class="stat-label">STOCKS TRACKED</div><div class="stat-value" id="stat-total">—</div></div>
-    <div class="stat-card"><div class="stat-label">NEAR 52W LOW</div><div class="stat-value red" id="stat-near-low">—</div></div>
-    <div class="stat-card"><div class="stat-label">OVERSOLD RSI ≤45</div><div class="stat-value yellow" id="stat-oversold">—</div></div>
-    <div class="stat-card"><div class="stat-label">OVERREACTION FLAGS</div><div class="stat-value red" id="stat-overreaction">—</div></div>
-    <div class="stat-card"><div class="stat-label">SECTORS</div><div class="stat-value" id="stat-sectors">—</div></div>
+    <div class="stat-card" onclick="statCardClick('all')">
+      <div class="stat-label">STOCKS TRACKED</div>
+      <div class="stat-value" id="stat-total">—</div>
+      <div class="stat-card-hint">↩ SHOW ALL</div>
+    </div>
+    <div class="stat-card red-card" data-filter="near52low" onclick="statCardClick('near52low',this)">
+      <div class="stat-label">NEAR 52W LOW</div>
+      <div class="stat-value red" id="stat-near-low">—</div>
+      <div class="stat-card-hint">↩ FILTER SCREENER</div>
+    </div>
+    <div class="stat-card yellow-card" data-filter="oversold" onclick="statCardClick('oversold',this)">
+      <div class="stat-label">OVERSOLD RSI ≤45</div>
+      <div class="stat-value yellow" id="stat-oversold">—</div>
+      <div class="stat-card-hint">↩ FILTER SCREENER</div>
+    </div>
+    <div class="stat-card red-card" data-filter="overreaction" onclick="statCardClick('overreaction',this)">
+      <div class="stat-label">OVERREACTION FLAGS</div>
+      <div class="stat-value red" id="stat-overreaction">—</div>
+      <div class="stat-card-hint">↩ FILTER SCREENER</div>
+    </div>
+    <div class="stat-card" onclick="switchTab('sectors', document.querySelectorAll('.tab')[2])">
+      <div class="stat-label">SECTORS</div>
+      <div class="stat-value" id="stat-sectors">—</div>
+      <div class="stat-card-hint">↩ VIEW SECTORS</div>
+    </div>
   </div>
   <div class="table-wrap">
     <div class="table-header">
@@ -1515,6 +1555,7 @@ function getFilteredStocks(){
   if(activeFilters.has('oversold')) s=s.filter(x=>x.rsi14!=null&&x.rsi14<=45);
   if(activeFilters.has('extreme')) s=s.filter(x=>x.rsi14!=null&&x.rsi14<30);
   if(activeFilters.has('abrupt')) s=s.filter(x=>x.abrupt_drop_flag);
+  if(activeFilters.has('overreaction_stat')) s=s.filter(x=>isOverreaction(x));
   if(activeFilters.has('profitable')) s=s.filter(x=>x.eps_ttm!=null&&x.eps_ttm>0);
   if(activeFilters.has('largecap')) s=s.filter(x=>x.market_cap!=null&&x.market_cap>=2000);
   s.sort((a,b)=>{
@@ -1559,6 +1600,9 @@ function filterScreener(){screenerSearch=document.getElementById('screener-searc
 function toggleFilter(name,btn){
   if(activeFilters.has(name)){activeFilters.delete(name);btn.classList.remove('active');}
   else{activeFilters.add(name);btn.classList.add('active');}
+  // Clear stat card highlight if user manually picks a filter
+  document.querySelectorAll('.stat-card').forEach(c=>c.classList.remove('stat-active'));
+  activeStatCard=null;
   // Ripple effect via GSAP
   gsap.fromTo(btn, {scale:0.93}, {scale:1, duration:0.25, ease:'back.out(2)'});
   renderScreener();
@@ -1762,6 +1806,81 @@ function showModal(ticker){
   animateModalOpen();
 }
 function closeModal(e){if(e.target===document.getElementById('modal')) document.getElementById('modal').classList.remove('open');}
+
+/* ─── STAT CARD CLICK → SCREENER FILTER ─── */
+// Maps stat card filter keys to the matching activeFilters key + filter button selector
+const STAT_FILTER_MAP = {
+  'near52low':    { filter: 'near52low',   btnText: 'Near 52W Low' },
+  'oversold':     { filter: 'oversold',    btnText: 'RSI ≤ 45' },
+  'overreaction': { filter: 'overreaction', btnText: null }  // custom — no existing btn
+};
+
+let activeStatCard = null;
+
+function statCardClick(key, cardEl) {
+  // If clicking SECTORS card, just switch tab
+  if (key === 'all' && cardEl === undefined) {
+    // "STOCKS TRACKED" — clear all filters
+    clearStatCardFilter();
+    return;
+  }
+
+  // Toggle: clicking same card again clears it
+  if (activeStatCard === cardEl) {
+    clearStatCardFilter();
+    return;
+  }
+
+  // Clear previous active card highlight
+  document.querySelectorAll('.stat-card').forEach(c => c.classList.remove('stat-active'));
+
+  if (key === 'near52low') {
+    clearAllFilters();
+    activeFilters.add('near52low');
+    highlightFilterBtn('near52low');
+  } else if (key === 'oversold') {
+    clearAllFilters();
+    activeFilters.add('oversold');
+    highlightFilterBtn('oversold');
+  } else if (key === 'overreaction') {
+    // Custom filter — not a standard button, handle inline
+    clearAllFilters();
+    activeFilters.add('overreaction_stat');
+  }
+
+  if (cardEl) {
+    cardEl.classList.add('stat-active');
+    activeStatCard = cardEl;
+    gsap.fromTo(cardEl, { scale: 0.96 }, { scale: 1, duration: 0.3, ease: 'back.out(2)' });
+  }
+
+  // Jump to screener tab and apply filter
+  switchTab('screener', document.querySelector('.tab'));
+  renderScreener();
+}
+
+function clearStatCardFilter() {
+  document.querySelectorAll('.stat-card').forEach(c => c.classList.remove('stat-active'));
+  activeStatCard = null;
+  clearAllFilters();
+  renderScreener();
+}
+
+function clearAllFilters() {
+  activeFilters.clear();
+  // Reset filter button active states
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+}
+
+function highlightFilterBtn(name) {
+  // Sync the visual state of the matching filter button
+  const btnMap = {
+    'near52low': 0, 'oversold': 1, 'extreme': 2, 'abrupt': 3, 'profitable': 4, 'largecap': 5
+  };
+  const btns = document.querySelectorAll('.filter-btn');
+  const idx = btnMap[name];
+  if (idx !== undefined && btns[idx]) btns[idx].classList.add('active');
+}
 
 /* ─── TAB SWITCH ─── */
 function switchTab(name, btn){
