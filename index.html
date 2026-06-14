@@ -417,10 +417,14 @@ body {
    SCREENER TABLE  —  sticky headers
 ═══════════════════════════════════════════ */
 .screener-scroll-wrap {
-  overflow-x:auto;
-  max-height: calc(100vh - 320px);
-  overflow-y:auto;
-  position:relative;
+  overflow-x: auto;
+  overflow-y: auto;
+  /* Desktop: leave room for header + tabs + stats + filter row */
+  max-height: calc(100vh - 330px);
+  min-height: 200px;
+  position: relative;
+  /* Force the scroll to happen INSIDE this box so sticky thead works on all devices */
+  -webkit-overflow-scrolling: touch;
 }
 /* Custom scrollbar */
 .screener-scroll-wrap::-webkit-scrollbar { width:5px; height:5px; }
@@ -1009,7 +1013,8 @@ td { padding:10px 14px; white-space:nowrap; }
   .modal-metrics { grid-template-columns:1fr; }
 }
 @media(max-width:768px) {
-  .screener-scroll-wrap { max-height: calc(100vh - 260px); }
+  /* Stats stack 2-col so total height is taller — shrink the table viewport */
+  .screener-scroll-wrap { max-height: calc(100vh - 420px); }
   .sector-grid { grid-template-columns:1fr; }
   .stats-bar { grid-template-columns:1fr 1fr; }
 }
@@ -1018,6 +1023,8 @@ td { padding:10px 14px; white-space:nowrap; }
   .logo-sub { display:none; }
   .main { padding:12px; }
   .stats-bar { grid-template-columns:1fr 1fr; gap:8px; }
+  /* Tighter offset on small phones */
+  .screener-scroll-wrap { max-height: calc(100vh - 460px); }
   .overreaction-hero { flex-direction:column; align-items:flex-start; }
   .search-input { width:200px; }
 }
@@ -1521,6 +1528,7 @@ async function loadData(){
     animateCounter(document.getElementById('stat-sectors'), sectors);
     renderScreener();renderOverreaction();renderSectors();renderRankings();renderBottlenecks();renderWatchlist();
     animatePanel('screener');
+    requestAnimationFrame(setScreenerHeight);
   }catch(e){
     document.getElementById('screener-body').innerHTML='<tr><td colspan="11"><div class="empty-state"><div class="icon">⚠️</div><p>Could not load data. Run the fetch script and push cache.json to GitHub.</p></div></td></tr>';
     console.error('Load error:',e);
@@ -1911,6 +1919,24 @@ document.addEventListener('mouseleave', function(e) {
   if (!card) return;
   gsap.to(card, { rotateY: 0, rotateX: 0, duration: 0.5, ease: 'elastic.out(1, 0.5)' });
 }, true);
+
+/* ─── DYNAMIC SCREENER HEIGHT — works on all devices ─── */
+function setScreenerHeight() {
+  const wrap = document.querySelector('#tab-screener .screener-scroll-wrap');
+  if (!wrap) return;
+  const rect = wrap.getBoundingClientRect();
+  // Available space from top of table to bottom of viewport, minus a small margin
+  const available = window.innerHeight - rect.top - 16;
+  wrap.style.maxHeight = Math.max(available, 180) + 'px';
+}
+
+window.addEventListener('resize', setScreenerHeight);
+// Run after data loads and after tab switches
+const _origSwitchTab = switchTab;
+function switchTab(name, btn) {
+  _origSwitchTab(name, btn);
+  if (name === 'screener') requestAnimationFrame(setScreenerHeight);
+}
 
 loadData();
 </script>
