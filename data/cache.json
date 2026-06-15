@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-15T23:22:45.148830",
+  "generated": "2026-06-15T23:56:32.948107",
   "count": 285,
   "stocks": [
     {
       "ticker": "NVDA",
       "sector": "AI Hardware",
-      "updated": "2026-06-15T22:56:57.392783",
+      "updated": "2026-06-15T23:30:10.515349",
       "price": 212.45,
       "change_pct": 3.54,
       "prev_close": 205.19,
@@ -40,7 +40,7 @@
     {
       "ticker": "AMD",
       "sector": "AI Hardware",
-      "updated": "2026-06-15T22:57:04.659396",
+      "updated": "2026-06-15T23:30:22.348868",
       "price": 547.26,
       "change_pct": 6.98,
       "prev_close": 511.57,
@@ -64,8 +64,8 @@
       "ma50": 393.38,
       "worst_day_30d": -10.86,
       "abrupt_drop_flag": true,
-      "market_cap": 834166.4,
-      "pe_ratio": 166.5335,
+      "market_cap": 892362.5,
+      "pe_ratio": 178.1518,
       "eps_ttm": 3.0476,
       "beta": 2.5166523,
       "dividend_yield": null,
@@ -106,7 +106,7 @@
     {
       "ticker": "INTC",
       "sector": "AI Hardware",
-      "updated": "2026-06-15T22:57:10.554361",
+      "updated": "2026-06-15T23:30:28.402296",
       "price": 127.86,
       "change_pct": 2.64,
       "prev_close": 124.57,
@@ -172,7 +172,7 @@
     {
       "ticker": "MU",
       "sector": "AI Hardware",
-      "updated": "2026-06-15T22:57:16.450636",
+      "updated": "2026-06-15T23:30:34.497849",
       "price": 1087.99,
       "change_pct": 10.84,
       "prev_close": 981.61,
@@ -238,7 +238,7 @@
     {
       "ticker": "AMAT",
       "sector": "AI Hardware",
-      "updated": "2026-06-15T22:57:22.577904",
+      "updated": "2026-06-15T23:30:41.337282",
       "price": 585.78,
       "change_pct": 3.27,
       "prev_close": 567.25,
@@ -305,7 +305,7 @@
     {
       "ticker": "LRCX",
       "sector": "AI Hardware",
-      "updated": "2026-06-15T22:57:28.156987",
+      "updated": "2026-06-15T23:30:47.841770",
       "price": 388.92,
       "change_pct": 6.03,
       "prev_close": 366.81,
@@ -371,7 +371,7 @@
     {
       "ticker": "AVGO",
       "sector": "AI Hardware",
-      "updated": "2026-06-15T22:57:34.332615",
+      "updated": "2026-06-15T23:30:54.116145",
       "price": 393.94,
       "change_pct": 3.11,
       "prev_close": 382.07,
@@ -438,7 +438,7 @@
     {
       "ticker": "ASML",
       "sector": "AI Hardware",
-      "updated": "2026-06-15T22:57:39.971239",
+      "updated": "2026-06-15T23:31:02.276619",
       "price": 1892.66,
       "change_pct": 1.56,
       "prev_close": 1863.55,
@@ -473,7 +473,7 @@
     {
       "ticker": "TSM",
       "sector": "AI Hardware",
-      "updated": "2026-06-15T22:57:44.313841",
+      "updated": "2026-06-15T23:31:07.855741",
       "price": 441.4,
       "change_pct": 4.12,
       "prev_close": 423.93,
@@ -508,7 +508,7 @@
     {
       "ticker": "DELL",
       "sector": "AI Hardware",
-      "updated": "2026-06-15T22:57:48.914999",
+      "updated": "2026-06-15T23:31:12.792157",
       "price": 409.07,
       "change_pct": 3.41,
       "prev_close": 395.57,
@@ -532,17 +532,17 @@
       "ma50": 268.27,
       "worst_day_30d": -6.58,
       "abrupt_drop_flag": false,
-      "market_cap": 256372.08,
-      "pe_ratio": 30.4878,
+      "market_cap": 265121.53,
+      "pe_ratio": 31.5283,
       "eps_ttm": 12.5909,
       "beta": 1.3354475,
-      "dividend_yield": 0.5956,
+      "dividend_yield": 0.576,
       "revenue_growth": 38.57
     },
     {
       "ticker": "SMCI",
       "sector": "AI Hardware",
-      "updated": "2026-06-15T22:57:53.986638",
+      "updated": "2026-06-15T23:31:19.247807",
       "price": 30.85,
       "change_pct": 1.28,
       "prev_close": 30.46,
@@ -609,7 +609,7 @@
     {
       "ticker": "VRT",
       "sector": "AI Hardware",
-      "updated": "2026-06-15T22:58:00.245718",
+      "updated": "2026-06-15T23:31:26.044910",
       "price": 311.93,
       "change_pct": 2.99,
       "prev_close": 302.87,
@@ -675,7 +675,7 @@
     {
       "ticker": "ETN",
       "sector": "AI Hardware",
-      "updated": "2026-06-15T22:58:06.712700",
+      "updated": "2026-06-15T23:31:32.314900",
       "price": 407.06,
       "change_pct": 4.0,
       "prev_close": 391.39,
@@ -710,7 +710,7 @@
     {
       "ticker": "ATKR",
       "sector": "AI Hardware",
-      "updated": "2026-06-15T22:58:11.736684",
+      "updated": "2026-06-15T23:31:36.465762",
       "price": 79.25,
       "change_pct": -0.03,
       "prev_close": 79.27,
@@ -745,7 +745,7 @@
     {
       "ticker": "MOD",
       "sector": "AI Hardware",
-      "updated": "2026-06-15T22:58:16.321931",
+      "updated": "2026-06-15T23:31:40.829514",
       "price": 285.72,
       "change_pct": 4.09,
       "prev_close": 274.5,
@@ -806,7 +806,7 @@
     {
       "ticker": "NVT",
       "sector": "AI Hardware",
-      "updated": "2026-06-15T22:58:22.437733",
+      "updated": "2026-06-15T23:31:47.887857",
       "price": 169,
       "change_pct": 1.91,
       "prev_close": 165.84,
@@ -841,7 +841,7 @@
     {
       "ticker": "FORM",
       "sector": "AI Hardware",
-      "updated": "2026-06-15T22:58:26.931469",
+      "updated": "2026-06-15T23:31:54.483482",
       "price": 152.6,
       "change_pct": 9.62,
       "prev_close": 139.21,
@@ -895,7 +895,7 @@
     {
       "ticker": "COHR",
       "sector": "AI Hardware",
-      "updated": "2026-06-15T22:58:33.302259",
+      "updated": "2026-06-15T23:32:00.429842",
       "price": 413.84,
       "change_pct": 7.48,
       "prev_close": 385.03,
@@ -961,7 +961,7 @@
     {
       "ticker": "NET",
       "sector": "AI Software",
-      "updated": "2026-06-15T22:58:41.090901",
+      "updated": "2026-06-15T23:32:07.579094",
       "price": 235.71,
       "change_pct": 3.16,
       "prev_close": 228.48,
@@ -994,6 +994,12 @@
       "revenue_growth": 31.55,
       "news": [
         {
+          "headline": "Citizens Reiterates Market Outperform on Cloudflare, Maintains $270 Price Target",
+          "url": "https://finnhub.io/api/news?id=16c771844300100f9ae7f85697ec4428c588b04ff18039ea81603c6a1f04f8c9",
+          "datetime": 1781518056,
+          "source": "Benzinga"
+        },
+        {
           "headline": "SpaceX Stock Already Blew Past Two Of Three Price Targets \u2014 Here's What's Next",
           "url": "https://finnhub.io/api/news?id=59f44e3547cd20375992cc641b8bae48a217f2e30f26f425227a81b6622df12c",
           "datetime": 1781516908,
@@ -1016,19 +1022,13 @@
           "url": "https://finnhub.io/api/news?id=bac11c715ccd3a0d0f8f17145a49f9c21591ab13d65d7e555c0c8c6dd5cc490e",
           "datetime": 1781175134,
           "source": "SeekingAlpha"
-        },
-        {
-          "headline": "UBS Maintains Neutral on Cloudflare, Raises Price Target to $250",
-          "url": "https://finnhub.io/api/news?id=5884a241b2a36527d351c7ecef03781494c8e21fe662c0d003ae4121ce56f1d3",
-          "datetime": 1781093637,
-          "source": "Benzinga"
         }
       ]
     },
     {
       "ticker": "DDOG",
       "sector": "AI Software",
-      "updated": "2026-06-15T22:58:46.996703",
+      "updated": "2026-06-15T23:32:13.918352",
       "price": 233.09,
       "change_pct": 1.39,
       "prev_close": 229.9,
@@ -1063,7 +1063,7 @@
     {
       "ticker": "DT",
       "sector": "AI Software",
-      "updated": "2026-06-15T22:58:51.637415",
+      "updated": "2026-06-15T23:32:18.688802",
       "price": 41.19,
       "change_pct": 1.08,
       "prev_close": 40.75,
@@ -1130,7 +1130,7 @@
     {
       "ticker": "FSLY",
       "sector": "AI Software",
-      "updated": "2026-06-15T22:58:57.707958",
+      "updated": "2026-06-15T23:32:25.047641",
       "price": 18.55,
       "change_pct": 0,
       "prev_close": 18.55,
@@ -1184,7 +1184,7 @@
     {
       "ticker": "CRWD",
       "sector": "AI Software",
-      "updated": "2026-06-15T22:59:04.930858",
+      "updated": "2026-06-15T23:32:31.061921",
       "price": 692.91,
       "change_pct": 1.48,
       "prev_close": 682.8,
@@ -1219,7 +1219,7 @@
     {
       "ticker": "PANW",
       "sector": "AI Software",
-      "updated": "2026-06-15T22:59:09.716665",
+      "updated": "2026-06-15T23:32:35.745634",
       "price": 284.54,
       "change_pct": 1.76,
       "prev_close": 279.62,
@@ -1254,7 +1254,7 @@
     {
       "ticker": "ZS",
       "sector": "AI Software",
-      "updated": "2026-06-15T22:59:14.315441",
+      "updated": "2026-06-15T23:32:40.506852",
       "price": 130.42,
       "change_pct": 0.69,
       "prev_close": 129.52,
@@ -1321,7 +1321,7 @@
     {
       "ticker": "SNOW",
       "sector": "AI Software",
-      "updated": "2026-06-15T22:59:20.472091",
+      "updated": "2026-06-15T23:32:46.958152",
       "price": 240.78,
       "change_pct": 3.44,
       "prev_close": 232.78,
@@ -1356,7 +1356,7 @@
     {
       "ticker": "PLTR",
       "sector": "AI Software",
-      "updated": "2026-06-15T22:59:25.133602",
+      "updated": "2026-06-15T23:32:51.439004",
       "price": 134.71,
       "change_pct": 5.25,
       "prev_close": 127.99,
@@ -1390,7 +1390,7 @@
     {
       "ticker": "PATH",
       "sector": "AI Software",
-      "updated": "2026-06-15T22:59:30.013362",
+      "updated": "2026-06-15T23:32:55.855718",
       "price": 10.79,
       "change_pct": 2.27,
       "prev_close": 10.55,
@@ -1425,7 +1425,7 @@
     {
       "ticker": "OKTA",
       "sector": "AI Software",
-      "updated": "2026-06-15T22:59:34.714878",
+      "updated": "2026-06-15T23:33:00.784309",
       "price": 118.12,
       "change_pct": 1.57,
       "prev_close": 116.29,
@@ -1460,7 +1460,7 @@
     {
       "ticker": "MDB",
       "sector": "AI Software",
-      "updated": "2026-06-15T22:59:39.343616",
+      "updated": "2026-06-15T23:33:05.160894",
       "price": 354.18,
       "change_pct": 3.32,
       "prev_close": 342.8,
@@ -1495,7 +1495,7 @@
     {
       "ticker": "WDAY",
       "sector": "AI Software",
-      "updated": "2026-06-15T22:59:44.320270",
+      "updated": "2026-06-15T23:33:09.461416",
       "price": 129.6,
       "change_pct": -0.92,
       "prev_close": 130.8,
@@ -1530,7 +1530,7 @@
     {
       "ticker": "FTNT",
       "sector": "AI Software",
-      "updated": "2026-06-15T22:59:48.956950",
+      "updated": "2026-06-15T23:33:13.793371",
       "price": 149.49,
       "change_pct": 2.18,
       "prev_close": 146.3,
@@ -1565,7 +1565,7 @@
     {
       "ticker": "TEAM",
       "sector": "AI Software",
-      "updated": "2026-06-15T22:59:53.765616",
+      "updated": "2026-06-15T23:33:18.315183",
       "price": 91.55,
       "change_pct": 3.42,
       "prev_close": 88.52,
@@ -1600,7 +1600,7 @@
     {
       "ticker": "NOW",
       "sector": "AI Software",
-      "updated": "2026-06-15T22:59:59.387213",
+      "updated": "2026-06-15T23:33:22.581876",
       "price": 104.15,
       "change_pct": 1.96,
       "prev_close": 102.15,
@@ -1635,7 +1635,7 @@
     {
       "ticker": "CRM",
       "sector": "AI Software",
-      "updated": "2026-06-15T23:00:04.535218",
+      "updated": "2026-06-15T23:33:26.974850",
       "price": 164.55,
       "change_pct": -0.81,
       "prev_close": 165.89,
@@ -1670,7 +1670,7 @@
     {
       "ticker": "ISRG",
       "sector": "Robotics",
-      "updated": "2026-06-15T23:00:10.301199",
+      "updated": "2026-06-15T23:33:31.281689",
       "price": 416.55,
       "change_pct": 1.34,
       "prev_close": 411.06,
@@ -1705,7 +1705,7 @@
     {
       "ticker": "CGNX",
       "sector": "Robotics",
-      "updated": "2026-06-15T23:00:15.032090",
+      "updated": "2026-06-15T23:33:35.816615",
       "price": 65.9,
       "change_pct": 3.6,
       "prev_close": 63.61,
@@ -1740,7 +1740,7 @@
     {
       "ticker": "AVAV",
       "sector": "Robotics",
-      "updated": "2026-06-15T23:00:20.224178",
+      "updated": "2026-06-15T23:33:40.109684",
       "price": 171.95,
       "change_pct": 0.8,
       "prev_close": 170.58,
@@ -1807,7 +1807,7 @@
     {
       "ticker": "SYM",
       "sector": "Robotics",
-      "updated": "2026-06-15T23:00:26.233523",
+      "updated": "2026-06-15T23:33:45.715862",
       "price": 41.72,
       "change_pct": 0.22,
       "prev_close": 41.63,
@@ -1874,7 +1874,7 @@
     {
       "ticker": "TER",
       "sector": "Robotics",
-      "updated": "2026-06-15T23:00:32.121412",
+      "updated": "2026-06-15T23:33:51.435714",
       "price": 432.41,
       "change_pct": 7.24,
       "prev_close": 403.2,
@@ -1898,11 +1898,11 @@
       "ma50": 366.9,
       "worst_day_30d": -12.03,
       "abrupt_drop_flag": true,
-      "market_cap": 63117.797,
-      "pe_ratio": 73.9034,
+      "market_cap": 67690.4,
+      "pe_ratio": 79.2574,
       "eps_ttm": 5.4031,
       "beta": 1.7894889,
-      "dividend_yield": 0.1224,
+      "dividend_yield": 0.1142,
       "revenue_growth": 30.32,
       "news": [
         {
@@ -1940,7 +1940,7 @@
     {
       "ticker": "NOVT",
       "sector": "Robotics",
-      "updated": "2026-06-15T23:00:38.338125",
+      "updated": "2026-06-15T23:33:57.186037",
       "price": 156.63,
       "change_pct": -2.43,
       "prev_close": 160.53,
@@ -1975,7 +1975,7 @@
     {
       "ticker": "IPGP",
       "sector": "Robotics",
-      "updated": "2026-06-15T23:00:44.425855",
+      "updated": "2026-06-15T23:34:01.446223",
       "price": 120.01,
       "change_pct": 4.68,
       "prev_close": 114.65,
@@ -2042,7 +2042,7 @@
     {
       "ticker": "ROK",
       "sector": "Robotics",
-      "updated": "2026-06-15T23:00:52.941415",
+      "updated": "2026-06-15T23:34:07.380390",
       "price": 463.57,
       "change_pct": 0.92,
       "prev_close": 459.34,
@@ -2077,7 +2077,7 @@
     {
       "ticker": "ZBRA",
       "sector": "Robotics",
-      "updated": "2026-06-15T23:00:57.742155",
+      "updated": "2026-06-15T23:34:11.788979",
       "price": 240.05,
       "change_pct": 5.09,
       "prev_close": 228.42,
@@ -2112,7 +2112,7 @@
     {
       "ticker": "KEYS",
       "sector": "Robotics",
-      "updated": "2026-06-15T23:01:03.216543",
+      "updated": "2026-06-15T23:34:16.049811",
       "price": 356.94,
       "change_pct": 1.79,
       "prev_close": 350.67,
@@ -2147,7 +2147,7 @@
     {
       "ticker": "SERV",
       "sector": "Robotics",
-      "updated": "2026-06-15T23:01:08.319709",
+      "updated": "2026-06-15T23:34:20.530082",
       "price": 7.22,
       "change_pct": 3.59,
       "prev_close": 6.97,
@@ -2182,7 +2182,7 @@
     {
       "ticker": "HSYDF",
       "sector": "Robotics",
-      "updated": "2026-06-15T23:01:17.005129",
+      "updated": "2026-06-15T23:34:27.657799",
       "price": 41.36,
       "change_pct": 4.04,
       "prev_close": 39.755,
@@ -2198,12 +2198,12 @@
       "high_52w": 53.0,
       "pct_from_52w_low": 208.2,
       "pct_from_52w_high": -21.96,
-      "rsi14": 49.3,
+      "rsi14": 51.8,
       "rsi_label": "Neutral",
-      "volume_today": 2492,
-      "volume_avg_30d": 8801.0,
-      "volume_ratio": 0.28,
-      "ma50": 36.77,
+      "volume_today": 3097,
+      "volume_avg_30d": 8884.0,
+      "volume_ratio": 0.35,
+      "ma50": 37.2,
       "worst_day_30d": -12.36,
       "abrupt_drop_flag": true,
       "market_cap": 630523.3,
@@ -2217,7 +2217,7 @@
     {
       "ticker": "PEGA",
       "sector": "Robotics",
-      "updated": "2026-06-15T23:01:24.831596",
+      "updated": "2026-06-15T23:34:33.724933",
       "price": 32.72,
       "change_pct": -0.12,
       "prev_close": 32.76,
@@ -2252,7 +2252,7 @@
     {
       "ticker": "JBTM",
       "sector": "Robotics",
-      "updated": "2026-06-15T23:01:30.077348",
+      "updated": "2026-06-15T23:34:38.207426",
       "price": 127.59,
       "change_pct": 1.95,
       "prev_close": 125.15,
@@ -2287,7 +2287,7 @@
     {
       "ticker": "EMR",
       "sector": "Robotics",
-      "updated": "2026-06-15T23:01:34.973423",
+      "updated": "2026-06-15T23:34:42.480860",
       "price": 146.52,
       "change_pct": 2.41,
       "prev_close": 143.07,
@@ -2322,7 +2322,7 @@
     {
       "ticker": "HON",
       "sector": "Robotics",
-      "updated": "2026-06-15T23:01:41.409716",
+      "updated": "2026-06-15T23:34:47.024273",
       "price": 227.41,
       "change_pct": 3.22,
       "prev_close": 220.31,
@@ -2357,7 +2357,7 @@
     {
       "ticker": "DHI",
       "sector": "Homebuilders",
-      "updated": "2026-06-15T23:01:46.561957",
+      "updated": "2026-06-15T23:34:51.605139",
       "price": 155.09,
       "change_pct": 0.65,
       "prev_close": 154.09,
@@ -2392,7 +2392,7 @@
     {
       "ticker": "LEN",
       "sector": "Homebuilders",
-      "updated": "2026-06-15T23:01:53.883911",
+      "updated": "2026-06-15T23:34:55.876358",
       "price": 89.75,
       "change_pct": -0.61,
       "prev_close": 90.3,
@@ -2427,7 +2427,7 @@
     {
       "ticker": "PHM",
       "sector": "Homebuilders",
-      "updated": "2026-06-15T23:01:59.909577",
+      "updated": "2026-06-15T23:35:00.107056",
       "price": 122.84,
       "change_pct": -0.27,
       "prev_close": 123.17,
@@ -2462,7 +2462,7 @@
     {
       "ticker": "NVR",
       "sector": "Homebuilders",
-      "updated": "2026-06-15T23:02:04.781170",
+      "updated": "2026-06-15T23:35:04.412303",
       "price": 6335,
       "change_pct": -0.63,
       "prev_close": 6374.93,
@@ -2497,7 +2497,7 @@
     {
       "ticker": "TOL",
       "sector": "Homebuilders",
-      "updated": "2026-06-15T23:02:10.084492",
+      "updated": "2026-06-15T23:35:09.203905",
       "price": 148.71,
       "change_pct": 1.09,
       "prev_close": 147.1,
@@ -2532,7 +2532,7 @@
     {
       "ticker": "KBH",
       "sector": "Homebuilders",
-      "updated": "2026-06-15T23:02:18.634934",
+      "updated": "2026-06-15T23:35:13.503896",
       "price": 53.23,
       "change_pct": -1.43,
       "prev_close": 54,
@@ -2567,7 +2567,7 @@
     {
       "ticker": "MHO",
       "sector": "Homebuilders",
-      "updated": "2026-06-15T23:02:28.950140",
+      "updated": "2026-06-15T23:35:19.544773",
       "price": 141.29,
       "change_pct": -0.03,
       "prev_close": 141.33,
@@ -2602,7 +2602,7 @@
     {
       "ticker": "TMHC",
       "sector": "Homebuilders",
-      "updated": "2026-06-15T23:02:33.448747",
+      "updated": "2026-06-15T23:35:23.999535",
       "price": 71.95,
       "change_pct": 0.07,
       "prev_close": 71.9,
@@ -2637,7 +2637,7 @@
     {
       "ticker": "BLDR",
       "sector": "Homebuilders",
-      "updated": "2026-06-15T23:02:39.480030",
+      "updated": "2026-06-15T23:35:28.333992",
       "price": 77.81,
       "change_pct": 0.05,
       "prev_close": 77.77,
@@ -2672,7 +2672,7 @@
     {
       "ticker": "BLD",
       "sector": "Homebuilders",
-      "updated": "2026-06-15T23:02:45.281554",
+      "updated": "2026-06-15T23:35:32.563144",
       "price": 412.04,
       "change_pct": 0.23,
       "prev_close": 411.08,
@@ -2707,7 +2707,7 @@
     {
       "ticker": "TREX",
       "sector": "Homebuilders",
-      "updated": "2026-06-15T23:02:50.897172",
+      "updated": "2026-06-15T23:35:36.819986",
       "price": 46.37,
       "change_pct": 1.62,
       "prev_close": 45.63,
@@ -2742,7 +2742,7 @@
     {
       "ticker": "OC",
       "sector": "Homebuilders",
-      "updated": "2026-06-15T23:02:57.102903",
+      "updated": "2026-06-15T23:35:41.781675",
       "price": 123.4,
       "change_pct": 1.61,
       "prev_close": 121.44,
@@ -2777,7 +2777,7 @@
     {
       "ticker": "MAS",
       "sector": "Homebuilders",
-      "updated": "2026-06-15T23:03:03.893887",
+      "updated": "2026-06-15T23:35:46.027754",
       "price": 74.33,
       "change_pct": 0.41,
       "prev_close": 74.03,
@@ -2812,7 +2812,7 @@
     {
       "ticker": "CARR",
       "sector": "Homebuilders",
-      "updated": "2026-06-15T23:03:09.386342",
+      "updated": "2026-06-15T23:35:50.326533",
       "price": 71.13,
       "change_pct": 1.75,
       "prev_close": 69.91,
@@ -2847,7 +2847,7 @@
     {
       "ticker": "TT",
       "sector": "Homebuilders",
-      "updated": "2026-06-15T23:03:16.286007",
+      "updated": "2026-06-15T23:35:54.635597",
       "price": 472.54,
       "change_pct": 3.12,
       "prev_close": 458.25,
@@ -2882,7 +2882,7 @@
     {
       "ticker": "LII",
       "sector": "Homebuilders",
-      "updated": "2026-06-15T23:03:21.012671",
+      "updated": "2026-06-15T23:35:59.004906",
       "price": 524.17,
       "change_pct": 2.35,
       "prev_close": 512.15,
@@ -2917,7 +2917,7 @@
     {
       "ticker": "SHW",
       "sector": "Homebuilders",
-      "updated": "2026-06-15T23:03:27.090561",
+      "updated": "2026-06-15T23:36:03.330896",
       "price": 320.24,
       "change_pct": 0.93,
       "prev_close": 317.3,
@@ -2952,7 +2952,7 @@
     {
       "ticker": "LOW",
       "sector": "Homebuilders",
-      "updated": "2026-06-15T23:03:33.236900",
+      "updated": "2026-06-15T23:36:07.652200",
       "price": 220.19,
       "change_pct": -0.27,
       "prev_close": 220.78,
@@ -2987,7 +2987,7 @@
     {
       "ticker": "HD",
       "sector": "Homebuilders",
-      "updated": "2026-06-15T23:03:37.907260",
+      "updated": "2026-06-15T23:36:12.341287",
       "price": 329.82,
       "change_pct": 0.44,
       "prev_close": 328.39,
@@ -3022,7 +3022,7 @@
     {
       "ticker": "SOFI",
       "sector": "Fintech",
-      "updated": "2026-06-15T23:03:47.273259",
+      "updated": "2026-06-15T23:36:16.722183",
       "price": 17.13,
       "change_pct": 3.32,
       "prev_close": 16.58,
@@ -3057,7 +3057,7 @@
     {
       "ticker": "PYPL",
       "sector": "Fintech",
-      "updated": "2026-06-15T23:03:52.185310",
+      "updated": "2026-06-15T23:36:21.447234",
       "price": 42.49,
       "change_pct": 2.31,
       "prev_close": 41.53,
@@ -3092,7 +3092,7 @@
     {
       "ticker": "CRCL",
       "sector": "Fintech",
-      "updated": "2026-06-15T23:03:57.357061",
+      "updated": "2026-06-15T23:36:25.916744",
       "price": 83.37,
       "change_pct": 7.1,
       "prev_close": 77.84,
@@ -3159,7 +3159,7 @@
     {
       "ticker": "XYZ",
       "sector": "Fintech",
-      "updated": "2026-06-15T23:04:05.704906",
+      "updated": "2026-06-15T23:36:32.894067",
       "price": 74.35,
       "change_pct": 6.95,
       "prev_close": 69.52,
@@ -3194,7 +3194,7 @@
     {
       "ticker": "AFRM",
       "sector": "Fintech",
-      "updated": "2026-06-15T23:04:11.219561",
+      "updated": "2026-06-15T23:36:37.231580",
       "price": 71.9,
       "change_pct": 8.66,
       "prev_close": 66.17,
@@ -3229,7 +3229,7 @@
     {
       "ticker": "UPST",
       "sector": "Fintech",
-      "updated": "2026-06-15T23:04:16.900825",
+      "updated": "2026-06-15T23:36:41.527663",
       "price": 32.36,
       "change_pct": 6.1,
       "prev_close": 30.5,
@@ -3264,7 +3264,7 @@
     {
       "ticker": "NU",
       "sector": "Fintech",
-      "updated": "2026-06-15T23:04:22.182126",
+      "updated": "2026-06-15T23:36:46.079483",
       "price": 12.43,
       "change_pct": 1.97,
       "prev_close": 12.19,
@@ -3319,7 +3319,7 @@
     {
       "ticker": "SEZL",
       "sector": "Fintech",
-      "updated": "2026-06-15T23:04:28.709316",
+      "updated": "2026-06-15T23:36:51.827324",
       "price": 146.12,
       "change_pct": 10.11,
       "prev_close": 132.7,
@@ -3353,7 +3353,7 @@
     {
       "ticker": "V",
       "sector": "Fintech",
-      "updated": "2026-06-15T23:04:36.105381",
+      "updated": "2026-06-15T23:36:56.304783",
       "price": 323.82,
       "change_pct": 0.44,
       "prev_close": 322.39,
@@ -3388,7 +3388,7 @@
     {
       "ticker": "MA",
       "sector": "Fintech",
-      "updated": "2026-06-15T23:04:42.611419",
+      "updated": "2026-06-15T23:37:00.703417",
       "price": 490.64,
       "change_pct": 0.13,
       "prev_close": 489.98,
@@ -3423,7 +3423,7 @@
     {
       "ticker": "AXP",
       "sector": "Fintech",
-      "updated": "2026-06-15T23:04:47.956246",
+      "updated": "2026-06-15T23:37:05.118381",
       "price": 335.38,
       "change_pct": 3.05,
       "prev_close": 325.44,
@@ -3458,7 +3458,7 @@
     {
       "ticker": "COF",
       "sector": "Fintech",
-      "updated": "2026-06-15T23:04:52.609990",
+      "updated": "2026-06-15T23:37:09.525433",
       "price": 194.62,
       "change_pct": 5.35,
       "prev_close": 184.73,
@@ -3493,7 +3493,7 @@
     {
       "ticker": "COIN",
       "sector": "Fintech",
-      "updated": "2026-06-15T23:05:00.839153",
+      "updated": "2026-06-15T23:37:15.278486",
       "price": 169.62,
       "change_pct": 6.16,
       "prev_close": 159.78,
@@ -3528,7 +3528,7 @@
     {
       "ticker": "OKLO",
       "sector": "Nuclear Energy",
-      "updated": "2026-06-15T23:05:07.044970",
+      "updated": "2026-06-15T23:37:19.714767",
       "price": 60.74,
       "change_pct": 5.65,
       "prev_close": 57.49,
@@ -3588,7 +3588,7 @@
     {
       "ticker": "SMR",
       "sector": "Nuclear Energy",
-      "updated": "2026-06-15T23:05:14.665234",
+      "updated": "2026-06-15T23:37:25.403019",
       "price": 10.64,
       "change_pct": 7.58,
       "prev_close": 9.89,
@@ -3636,7 +3636,7 @@
     {
       "ticker": "CEG",
       "sector": "Nuclear Energy",
-      "updated": "2026-06-15T23:05:23.046081",
+      "updated": "2026-06-15T23:37:31.201004",
       "price": 262.35,
       "change_pct": 3.39,
       "prev_close": 253.76,
@@ -3671,7 +3671,7 @@
     {
       "ticker": "VST",
       "sector": "Nuclear Energy",
-      "updated": "2026-06-15T23:05:28.180459",
+      "updated": "2026-06-15T23:37:35.694787",
       "price": 153.52,
       "change_pct": 3.72,
       "prev_close": 148.02,
@@ -3706,7 +3706,7 @@
     {
       "ticker": "CCJ",
       "sector": "Nuclear Energy",
-      "updated": "2026-06-15T23:05:32.883134",
+      "updated": "2026-06-15T23:37:40.357679",
       "price": 107.02,
       "change_pct": 6.0,
       "prev_close": 100.96,
@@ -3767,7 +3767,7 @@
     {
       "ticker": "LEU",
       "sector": "Nuclear Energy",
-      "updated": "2026-06-15T23:05:38.489489",
+      "updated": "2026-06-15T23:37:47.046807",
       "price": 176.65,
       "change_pct": 8.65,
       "prev_close": 162.58,
@@ -3827,7 +3827,7 @@
     {
       "ticker": "GEV",
       "sector": "Nuclear Energy",
-      "updated": "2026-06-15T23:05:44.619338",
+      "updated": "2026-06-15T23:37:53.322457",
       "price": 979.07,
       "change_pct": 4.08,
       "prev_close": 940.66,
@@ -3861,7 +3861,7 @@
     {
       "ticker": "SO",
       "sector": "Nuclear Energy",
-      "updated": "2026-06-15T23:05:49.292266",
+      "updated": "2026-06-15T23:37:57.730547",
       "price": 93.82,
       "change_pct": -0.19,
       "prev_close": 94,
@@ -3896,7 +3896,7 @@
     {
       "ticker": "BE",
       "sector": "Nuclear Energy",
-      "updated": "2026-06-15T23:05:53.695722",
+      "updated": "2026-06-15T23:38:02.229380",
       "price": 274.5,
       "change_pct": 5.49,
       "prev_close": 260.22,
@@ -3962,7 +3962,7 @@
     {
       "ticker": "NRG",
       "sector": "Nuclear Energy",
-      "updated": "2026-06-15T23:05:59.534814",
+      "updated": "2026-06-15T23:38:08.494106",
       "price": 130.4,
       "change_pct": 3.93,
       "prev_close": 125.47,
@@ -3997,7 +3997,7 @@
     {
       "ticker": "DYN",
       "sector": "Nuclear Energy",
-      "updated": "2026-06-15T23:06:04.222190",
+      "updated": "2026-06-15T23:38:12.923474",
       "price": 18.73,
       "change_pct": 2.97,
       "prev_close": 18.19,
@@ -4031,7 +4031,7 @@
     {
       "ticker": "LMT",
       "sector": "Nuclear Energy",
-      "updated": "2026-06-15T23:06:08.754289",
+      "updated": "2026-06-15T23:38:17.579866",
       "price": 530.36,
       "change_pct": -1.85,
       "prev_close": 540.33,
@@ -4066,7 +4066,7 @@
     {
       "ticker": "BWXT",
       "sector": "Nuclear Energy",
-      "updated": "2026-06-15T23:06:13.066929",
+      "updated": "2026-06-15T23:38:22.289226",
       "price": 193.94,
       "change_pct": 0.25,
       "prev_close": 193.45,
@@ -4101,7 +4101,7 @@
     {
       "ticker": "KTOS",
       "sector": "Drones",
-      "updated": "2026-06-15T23:06:17.332447",
+      "updated": "2026-06-15T23:38:26.693473",
       "price": 57.02,
       "change_pct": -1.26,
       "prev_close": 57.75,
@@ -4167,7 +4167,7 @@
     {
       "ticker": "JOBY",
       "sector": "Drones",
-      "updated": "2026-06-15T23:06:23.501863",
+      "updated": "2026-06-15T23:38:32.478787",
       "price": 9.67,
       "change_pct": 5.68,
       "prev_close": 9.15,
@@ -4203,7 +4203,7 @@
     {
       "ticker": "ACHR",
       "sector": "Drones",
-      "updated": "2026-06-15T23:06:29.254964",
+      "updated": "2026-06-15T23:38:38.198968",
       "price": 5.55,
       "change_pct": 9.25,
       "prev_close": 5.08,
@@ -4252,7 +4252,7 @@
     {
       "ticker": "TXT",
       "sector": "Drones",
-      "updated": "2026-06-15T23:06:34.973988",
+      "updated": "2026-06-15T23:38:43.931885",
       "price": 93.75,
       "change_pct": 1.0,
       "prev_close": 92.82,
@@ -4287,7 +4287,7 @@
     {
       "ticker": "NOC",
       "sector": "Drones",
-      "updated": "2026-06-15T23:06:40.100579",
+      "updated": "2026-06-15T23:38:48.469213",
       "price": 544.73,
       "change_pct": -1.02,
       "prev_close": 550.33,
@@ -4322,7 +4322,7 @@
     {
       "ticker": "RCAT",
       "sector": "Drones",
-      "updated": "2026-06-15T23:06:44.460642",
+      "updated": "2026-06-15T23:38:52.995780",
       "price": 11.97,
       "change_pct": 7.07,
       "prev_close": 11.18,
@@ -4388,7 +4388,7 @@
     {
       "ticker": "ONDS",
       "sector": "Drones",
-      "updated": "2026-06-15T23:06:50.252720",
+      "updated": "2026-06-15T23:38:58.838385",
       "price": 9.51,
       "change_pct": 1.93,
       "prev_close": 9.33,
@@ -4454,7 +4454,7 @@
     {
       "ticker": "UMAC",
       "sector": "Drones",
-      "updated": "2026-06-15T23:06:56.395179",
+      "updated": "2026-06-15T23:39:04.613816",
       "price": 24.73,
       "change_pct": 1.23,
       "prev_close": 24.43,
@@ -4514,7 +4514,7 @@
     {
       "ticker": "BA",
       "sector": "Drones",
-      "updated": "2026-06-15T23:07:02.046327",
+      "updated": "2026-06-15T23:39:10.640098",
       "price": 228.95,
       "change_pct": 4.52,
       "prev_close": 219.05,
@@ -4549,7 +4549,7 @@
     {
       "ticker": "HII",
       "sector": "Drones",
-      "updated": "2026-06-15T23:07:06.278022",
+      "updated": "2026-06-15T23:39:15.416359",
       "price": 299.66,
       "change_pct": 0.67,
       "prev_close": 297.68,
@@ -4610,7 +4610,7 @@
     {
       "ticker": "VALE",
       "sector": "Mining & Materials",
-      "updated": "2026-06-15T23:07:12.006526",
+      "updated": "2026-06-15T23:39:21.249587",
       "price": 16,
       "change_pct": 1.85,
       "prev_close": 15.71,
@@ -4645,7 +4645,7 @@
     {
       "ticker": "RIO",
       "sector": "Mining & Materials",
-      "updated": "2026-06-15T23:07:16.313920",
+      "updated": "2026-06-15T23:39:26.439655",
       "price": 105.89,
       "change_pct": 0.51,
       "prev_close": 105.35,
@@ -4680,7 +4680,7 @@
     {
       "ticker": "FCX",
       "sector": "Mining & Materials",
-      "updated": "2026-06-15T23:07:20.570110",
+      "updated": "2026-06-15T23:39:31.941322",
       "price": 70.13,
       "change_pct": 2.51,
       "prev_close": 68.41,
@@ -4747,7 +4747,7 @@
     {
       "ticker": "NEM",
       "sector": "Mining & Materials",
-      "updated": "2026-06-15T23:07:26.210853",
+      "updated": "2026-06-15T23:39:42.065552",
       "price": 105.8,
       "change_pct": 5.56,
       "prev_close": 100.23,
@@ -4782,7 +4782,7 @@
     {
       "ticker": "GOLD",
       "sector": "Mining & Materials",
-      "updated": "2026-06-15T23:07:30.421486",
+      "updated": "2026-06-15T23:39:47.924822",
       "price": 43.66,
       "change_pct": -1.29,
       "prev_close": 44.23,
@@ -4817,7 +4817,7 @@
     {
       "ticker": "MP",
       "sector": "Mining & Materials",
-      "updated": "2026-06-15T23:07:34.766247",
+      "updated": "2026-06-15T23:39:53.940864",
       "price": 58.26,
       "change_pct": 1.23,
       "prev_close": 57.55,
@@ -4883,7 +4883,7 @@
     {
       "ticker": "ALB",
       "sector": "Mining & Materials",
-      "updated": "2026-06-15T23:07:42.008623",
+      "updated": "2026-06-15T23:40:02.892872",
       "price": 168.9,
       "change_pct": -0.89,
       "prev_close": 170.42,
@@ -4918,7 +4918,7 @@
     {
       "ticker": "NUE",
       "sector": "Mining & Materials",
-      "updated": "2026-06-15T23:07:46.251828",
+      "updated": "2026-06-15T23:40:08.447198",
       "price": 259.32,
       "change_pct": -2.64,
       "prev_close": 266.35,
@@ -4953,7 +4953,7 @@
     {
       "ticker": "AA",
       "sector": "Mining & Materials",
-      "updated": "2026-06-15T23:07:50.473409",
+      "updated": "2026-06-15T23:40:13.160866",
       "price": 64.16,
       "change_pct": -6.7,
       "prev_close": 68.77,
@@ -5020,7 +5020,7 @@
     {
       "ticker": "CLF",
       "sector": "Mining & Materials",
-      "updated": "2026-06-15T23:07:57.778202",
+      "updated": "2026-06-15T23:40:20.543280",
       "price": 13.63,
       "change_pct": -1.09,
       "prev_close": 13.78,
@@ -5055,7 +5055,7 @@
     {
       "ticker": "STLD",
       "sector": "Mining & Materials",
-      "updated": "2026-06-15T23:08:02.096676",
+      "updated": "2026-06-15T23:40:24.915578",
       "price": 272.19,
       "change_pct": -3.74,
       "prev_close": 282.76,
@@ -5090,7 +5090,7 @@
     {
       "ticker": "RS",
       "sector": "Mining & Materials",
-      "updated": "2026-06-15T23:08:06.295745",
+      "updated": "2026-06-15T23:40:29.396128",
       "price": 405.92,
       "change_pct": -1.82,
       "prev_close": 413.43,
@@ -5125,7 +5125,7 @@
     {
       "ticker": "OXY",
       "sector": "Energy",
-      "updated": "2026-06-15T23:08:10.554824",
+      "updated": "2026-06-15T23:40:33.979330",
       "price": 54.46,
       "change_pct": -3.68,
       "prev_close": 56.54,
@@ -5160,7 +5160,7 @@
     {
       "ticker": "DVN",
       "sector": "Energy",
-      "updated": "2026-06-15T23:08:14.810058",
+      "updated": "2026-06-15T23:40:38.440071",
       "price": 43.53,
       "change_pct": -3.93,
       "prev_close": 45.31,
@@ -5227,7 +5227,7 @@
     {
       "ticker": "COP",
       "sector": "Energy",
-      "updated": "2026-06-15T23:08:20.251212",
+      "updated": "2026-06-15T23:40:44.409972",
       "price": 112.26,
       "change_pct": -4.03,
       "prev_close": 116.98,
@@ -5262,7 +5262,7 @@
     {
       "ticker": "EOG",
       "sector": "Energy",
-      "updated": "2026-06-15T23:08:25.785475",
+      "updated": "2026-06-15T23:40:50.194741",
       "price": 131.98,
       "change_pct": -3.42,
       "prev_close": 136.65,
@@ -5297,7 +5297,7 @@
     {
       "ticker": "SLB",
       "sector": "Energy",
-      "updated": "2026-06-15T23:08:30.087572",
+      "updated": "2026-06-15T23:40:54.636812",
       "price": 53.71,
       "change_pct": -4.4,
       "prev_close": 56.18,
@@ -5332,7 +5332,7 @@
     {
       "ticker": "HAL",
       "sector": "Energy",
-      "updated": "2026-06-15T23:08:34.339558",
+      "updated": "2026-06-15T23:40:59.084938",
       "price": 38.18,
       "change_pct": -3.59,
       "prev_close": 39.6,
@@ -5367,7 +5367,7 @@
     {
       "ticker": "MPC",
       "sector": "Energy",
-      "updated": "2026-06-15T23:08:38.693463",
+      "updated": "2026-06-15T23:41:05.037929",
       "price": 250.86,
       "change_pct": -4.83,
       "prev_close": 263.58,
@@ -5402,7 +5402,7 @@
     {
       "ticker": "VLO",
       "sector": "Energy",
-      "updated": "2026-06-15T23:08:42.897610",
+      "updated": "2026-06-15T23:41:09.430430",
       "price": 247.16,
       "change_pct": -4.45,
       "prev_close": 258.67,
@@ -5437,7 +5437,7 @@
     {
       "ticker": "PSX",
       "sector": "Energy",
-      "updated": "2026-06-15T23:08:47.307153",
+      "updated": "2026-06-15T23:41:13.930452",
       "price": 173.26,
       "change_pct": -3.45,
       "prev_close": 179.45,
@@ -5472,7 +5472,7 @@
     {
       "ticker": "XOM",
       "sector": "Energy",
-      "updated": "2026-06-15T23:08:51.502318",
+      "updated": "2026-06-15T23:41:18.706186",
       "price": 140.92,
       "change_pct": -4.14,
       "prev_close": 147.01,
@@ -5507,7 +5507,7 @@
     {
       "ticker": "CVX",
       "sector": "Energy",
-      "updated": "2026-06-15T23:08:55.779720",
+      "updated": "2026-06-15T23:41:23.135931",
       "price": 180.4,
       "change_pct": -3.64,
       "prev_close": 187.22,
@@ -5542,7 +5542,7 @@
     {
       "ticker": "FANG",
       "sector": "Energy",
-      "updated": "2026-06-15T23:09:02.001698",
+      "updated": "2026-06-15T23:41:28.907877",
       "price": 189.96,
       "change_pct": -1.13,
       "prev_close": 192.13,
@@ -5577,7 +5577,7 @@
     {
       "ticker": "APA",
       "sector": "Energy",
-      "updated": "2026-06-15T23:09:06.279825",
+      "updated": "2026-06-15T23:41:33.590333",
       "price": 34.77,
       "change_pct": -6.08,
       "prev_close": 37.02,
@@ -5612,7 +5612,7 @@
     {
       "ticker": "AAPL",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:09:10.492461",
+      "updated": "2026-06-15T23:41:37.967774",
       "price": 296.42,
       "change_pct": 1.82,
       "prev_close": 291.13,
@@ -5647,7 +5647,7 @@
     {
       "ticker": "MSFT",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:09:14.745286",
+      "updated": "2026-06-15T23:41:42.316967",
       "price": 399.76,
       "change_pct": 2.31,
       "prev_close": 390.74,
@@ -5682,7 +5682,7 @@
     {
       "ticker": "AMZN",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:09:19.328320",
+      "updated": "2026-06-15T23:41:46.798862",
       "price": 246.02,
       "change_pct": 3.13,
       "prev_close": 238.55,
@@ -5717,7 +5717,7 @@
     {
       "ticker": "GOOGL",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:09:23.605164",
+      "updated": "2026-06-15T23:41:51.291378",
       "price": 369.35,
       "change_pct": 2.69,
       "prev_close": 359.68,
@@ -5752,7 +5752,7 @@
     {
       "ticker": "GOOG",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:09:27.811514",
+      "updated": "2026-06-15T23:41:55.627527",
       "price": 367.11,
       "change_pct": 2.5,
       "prev_close": 358.16,
@@ -5787,7 +5787,7 @@
     {
       "ticker": "META",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:09:32.091250",
+      "updated": "2026-06-15T23:41:59.982466",
       "price": 593.48,
       "change_pct": 4.67,
       "prev_close": 566.98,
@@ -5822,7 +5822,7 @@
     {
       "ticker": "TSLA",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:09:36.396542",
+      "updated": "2026-06-15T23:42:04.797641",
       "price": 411.15,
       "change_pct": 1.16,
       "prev_close": 406.43,
@@ -5857,7 +5857,7 @@
     {
       "ticker": "BRK.B",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:09:40.789419",
+      "updated": "2026-06-15T23:42:09.169928",
       "price": 495.52,
       "change_pct": 1.28,
       "prev_close": 489.25,
@@ -5879,7 +5879,7 @@
     {
       "ticker": "JPM",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:09:49.399567",
+      "updated": "2026-06-15T23:42:17.003731",
       "price": 319.4,
       "change_pct": -0.41,
       "prev_close": 320.72,
@@ -5914,7 +5914,7 @@
     {
       "ticker": "LLY",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:09:53.567080",
+      "updated": "2026-06-15T23:42:22.168778",
       "price": 1129.35,
       "change_pct": -0.32,
       "prev_close": 1133,
@@ -5949,7 +5949,7 @@
     {
       "ticker": "UNH",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:09:57.844580",
+      "updated": "2026-06-15T23:42:26.536911",
       "price": 411.04,
       "change_pct": 0.62,
       "prev_close": 408.52,
@@ -5984,7 +5984,7 @@
     {
       "ticker": "COST",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:10:02.078146",
+      "updated": "2026-06-15T23:42:30.967557",
       "price": 979.45,
       "change_pct": -0.3,
       "prev_close": 982.35,
@@ -6019,7 +6019,7 @@
     {
       "ticker": "PG",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:10:06.776735",
+      "updated": "2026-06-15T23:42:35.427700",
       "price": 150.46,
       "change_pct": 0.57,
       "prev_close": 149.61,
@@ -6054,7 +6054,7 @@
     {
       "ticker": "JNJ",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:10:11.040383",
+      "updated": "2026-06-15T23:42:39.984962",
       "price": 235.66,
       "change_pct": -2.16,
       "prev_close": 240.87,
@@ -6089,7 +6089,7 @@
     {
       "ticker": "ABBV",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:10:15.359955",
+      "updated": "2026-06-15T23:42:44.673892",
       "price": 221.59,
       "change_pct": -2.7,
       "prev_close": 227.73,
@@ -6124,7 +6124,7 @@
     {
       "ticker": "MRK",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:10:19.661179",
+      "updated": "2026-06-15T23:42:51.546986",
       "price": 114.9,
       "change_pct": -3.49,
       "prev_close": 119.05,
@@ -6159,7 +6159,7 @@
     {
       "ticker": "BAC",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:10:24.377166",
+      "updated": "2026-06-15T23:42:56.728502",
       "price": 55.87,
       "change_pct": -0.27,
       "prev_close": 56.02,
@@ -6194,7 +6194,7 @@
     {
       "ticker": "NFLX",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:10:29.999776",
+      "updated": "2026-06-15T23:43:01.944142",
       "price": 81.67,
       "change_pct": 1.66,
       "prev_close": 80.34,
@@ -6229,7 +6229,7 @@
     {
       "ticker": "PEP",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:10:35.969565",
+      "updated": "2026-06-15T23:43:07.484478",
       "price": 146.25,
       "change_pct": 1.37,
       "prev_close": 144.27,
@@ -6264,7 +6264,7 @@
     {
       "ticker": "KO",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:10:43.198554",
+      "updated": "2026-06-15T23:43:13.815851",
       "price": 80.91,
       "change_pct": -2.07,
       "prev_close": 82.62,
@@ -6299,7 +6299,7 @@
     {
       "ticker": "TMO",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:10:48.248291",
+      "updated": "2026-06-15T23:43:20.304284",
       "price": 473.72,
       "change_pct": 0.93,
       "prev_close": 469.34,
@@ -6334,7 +6334,7 @@
     {
       "ticker": "ORCL",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:10:52.842244",
+      "updated": "2026-06-15T23:43:27.673904",
       "price": 192.64,
       "change_pct": 4.62,
       "prev_close": 184.13,
@@ -6401,7 +6401,7 @@
     {
       "ticker": "ACN",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:11:04.603454",
+      "updated": "2026-06-15T23:43:39.961954",
       "price": 165.36,
       "change_pct": -2.89,
       "prev_close": 170.28,
@@ -6436,7 +6436,7 @@
     {
       "ticker": "MCD",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:11:12.277019",
+      "updated": "2026-06-15T23:43:45.556123",
       "price": 286.12,
       "change_pct": 0.46,
       "prev_close": 284.81,
@@ -6471,7 +6471,7 @@
     {
       "ticker": "LIN",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:11:21.468310",
+      "updated": "2026-06-15T23:43:51.188530",
       "price": 521.48,
       "change_pct": -0.4,
       "prev_close": 523.57,
@@ -6496,17 +6496,17 @@
       "ma50": 503.53,
       "worst_day_30d": -2.83,
       "abrupt_drop_flag": false,
-      "market_cap": 242203.23,
-      "pe_ratio": 34.1998,
+      "market_cap": 241236.4,
+      "pe_ratio": 34.0633,
       "eps_ttm": 15.0698,
       "beta": 0.71763474,
-      "dividend_yield": 1.1742,
+      "dividend_yield": 1.1789,
       "revenue_growth": 4.96
     },
     {
       "ticker": "ABT",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:11:26.565830",
+      "updated": "2026-06-15T23:43:56.262531",
       "price": 88.67,
       "change_pct": 0.56,
       "prev_close": 88.18,
@@ -6541,7 +6541,7 @@
     {
       "ticker": "CSCO",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:11:32.523691",
+      "updated": "2026-06-15T23:44:02.069074",
       "price": 120.17,
       "change_pct": -0.77,
       "prev_close": 121.1,
@@ -6576,7 +6576,7 @@
     {
       "ticker": "WMT",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:11:38.005031",
+      "updated": "2026-06-15T23:44:08.500875",
       "price": 120.82,
       "change_pct": -0.18,
       "prev_close": 121.04,
@@ -6611,7 +6611,7 @@
     {
       "ticker": "DHR",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:11:47.471745",
+      "updated": "2026-06-15T23:44:14.624369",
       "price": 181.1,
       "change_pct": 0.56,
       "prev_close": 180.1,
@@ -6646,7 +6646,7 @@
     {
       "ticker": "TXN",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:11:52.733508",
+      "updated": "2026-06-15T23:44:20.445197",
       "price": 313.34,
       "change_pct": 4.06,
       "prev_close": 301.12,
@@ -6681,7 +6681,7 @@
     {
       "ticker": "PM",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:11:59.009874",
+      "updated": "2026-06-15T23:44:26.836075",
       "price": 181.81,
       "change_pct": -1.35,
       "prev_close": 184.3,
@@ -6716,7 +6716,7 @@
     {
       "ticker": "NEE",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:12:06.053209",
+      "updated": "2026-06-15T23:44:32.823770",
       "price": 86.12,
       "change_pct": 0.15,
       "prev_close": 85.99,
@@ -6751,7 +6751,7 @@
     {
       "ticker": "ADBE",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:12:10.838380",
+      "updated": "2026-06-15T23:44:39.288612",
       "price": 206.36,
       "change_pct": 1.15,
       "prev_close": 204.02,
@@ -6818,7 +6818,7 @@
     {
       "ticker": "RTX",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:12:19.623183",
+      "updated": "2026-06-15T23:44:47.807672",
       "price": 183.64,
       "change_pct": 0.06,
       "prev_close": 183.53,
@@ -6853,7 +6853,7 @@
     {
       "ticker": "QCOM",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:12:24.315434",
+      "updated": "2026-06-15T23:44:54.799386",
       "price": 220.81,
       "change_pct": 4.29,
       "prev_close": 211.72,
@@ -6920,7 +6920,7 @@
     {
       "ticker": "GE",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:12:30.930017",
+      "updated": "2026-06-15T23:45:02.454314",
       "price": 342.26,
       "change_pct": 2.08,
       "prev_close": 335.3,
@@ -6955,7 +6955,7 @@
     {
       "ticker": "IBM",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:12:37.555713",
+      "updated": "2026-06-15T23:45:09.386973",
       "price": 268.71,
       "change_pct": -1.3,
       "prev_close": 272.24,
@@ -6990,7 +6990,7 @@
     {
       "ticker": "AMGN",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:12:42.411848",
+      "updated": "2026-06-15T23:45:16.018782",
       "price": 350.53,
       "change_pct": -1.31,
       "prev_close": 355.2,
@@ -7025,7 +7025,7 @@
     {
       "ticker": "CAT",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:12:47.759739",
+      "updated": "2026-06-15T23:45:22.030017",
       "price": 933.93,
       "change_pct": 2.57,
       "prev_close": 910.57,
@@ -7060,7 +7060,7 @@
     {
       "ticker": "SPGI",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:12:52.619962",
+      "updated": "2026-06-15T23:45:28.913053",
       "price": 424.07,
       "change_pct": 1.23,
       "prev_close": 418.91,
@@ -7095,7 +7095,7 @@
     {
       "ticker": "INTU",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:12:57.495187",
+      "updated": "2026-06-15T23:45:35.050748",
       "price": 281.77,
       "change_pct": 1.82,
       "prev_close": 276.73,
@@ -7162,7 +7162,7 @@
     {
       "ticker": "GS",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:13:04.704836",
+      "updated": "2026-06-15T23:45:42.185733",
       "price": 1076.17,
       "change_pct": 1.26,
       "prev_close": 1062.75,
@@ -7197,7 +7197,7 @@
     {
       "ticker": "MS",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:13:09.827685",
+      "updated": "2026-06-15T23:45:49.325448",
       "price": 217.98,
       "change_pct": 1.84,
       "prev_close": 214.04,
@@ -7232,7 +7232,7 @@
     {
       "ticker": "BLK",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:13:14.583853",
+      "updated": "2026-06-15T23:45:57.041190",
       "price": 1042.87,
       "change_pct": 1.05,
       "prev_close": 1032,
@@ -7267,7 +7267,7 @@
     {
       "ticker": "ELV",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:13:20.090873",
+      "updated": "2026-06-15T23:46:01.883922",
       "price": 401.89,
       "change_pct": -0.54,
       "prev_close": 404.07,
@@ -7302,7 +7302,7 @@
     {
       "ticker": "MDT",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:13:25.273971",
+      "updated": "2026-06-15T23:46:07.428022",
       "price": 80.38,
       "change_pct": 0.22,
       "prev_close": 80.2,
@@ -7337,7 +7337,7 @@
     {
       "ticker": "SYK",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:13:30.988209",
+      "updated": "2026-06-15T23:46:14.388101",
       "price": 307.94,
       "change_pct": -1.36,
       "prev_close": 312.2,
@@ -7372,7 +7372,7 @@
     {
       "ticker": "VRTX",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:13:35.877849",
+      "updated": "2026-06-15T23:46:20.601678",
       "price": 450.46,
       "change_pct": 1.24,
       "prev_close": 444.925,
@@ -7407,7 +7407,7 @@
     {
       "ticker": "GILD",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:13:41.218746",
+      "updated": "2026-06-15T23:46:27.475285",
       "price": 124.3,
       "change_pct": -1.03,
       "prev_close": 125.59,
@@ -7442,7 +7442,7 @@
     {
       "ticker": "REGN",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:13:46.205638",
+      "updated": "2026-06-15T23:46:33.662002",
       "price": 614.98,
       "change_pct": 0.46,
       "prev_close": 612.14,
@@ -7509,7 +7509,7 @@
     {
       "ticker": "ZTS",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:13:52.466484",
+      "updated": "2026-06-15T23:46:43.140326",
       "price": 79.95,
       "change_pct": 0.48,
       "prev_close": 79.57,
@@ -7576,7 +7576,7 @@
     {
       "ticker": "CB",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:13:59.088410",
+      "updated": "2026-06-15T23:46:50.000518",
       "price": 326.95,
       "change_pct": -0.36,
       "prev_close": 328.14,
@@ -7611,7 +7611,7 @@
     {
       "ticker": "PLD",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:14:03.868669",
+      "updated": "2026-06-15T23:46:55.621324",
       "price": 148.5,
       "change_pct": -0.16,
       "prev_close": 148.74,
@@ -7646,7 +7646,7 @@
     {
       "ticker": "AMT",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:14:08.951082",
+      "updated": "2026-06-15T23:47:00.969307",
       "price": 185.76,
       "change_pct": -0.76,
       "prev_close": 187.18,
@@ -7681,7 +7681,7 @@
     {
       "ticker": "SCHW",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:14:17.842883",
+      "updated": "2026-06-15T23:47:05.979743",
       "price": 90.95,
       "change_pct": -0.16,
       "prev_close": 91.1,
@@ -7716,7 +7716,7 @@
     {
       "ticker": "C",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:14:23.295348",
+      "updated": "2026-06-15T23:47:11.038743",
       "price": 141.21,
       "change_pct": 0.99,
       "prev_close": 139.83,
@@ -7751,7 +7751,7 @@
     {
       "ticker": "WFC",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:14:29.230154",
+      "updated": "2026-06-15T23:47:16.361619",
       "price": 83.14,
       "change_pct": -0.7,
       "prev_close": 83.73,
@@ -7786,7 +7786,7 @@
     {
       "ticker": "USB",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:14:35.064553",
+      "updated": "2026-06-15T23:47:22.174664",
       "price": 57.79,
       "change_pct": -1.95,
       "prev_close": 58.94,
@@ -7821,7 +7821,7 @@
     {
       "ticker": "TJX",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:14:42.820300",
+      "updated": "2026-06-15T23:47:28.753121",
       "price": 167.33,
       "change_pct": -0.64,
       "prev_close": 168.41,
@@ -7856,7 +7856,7 @@
     {
       "ticker": "MDLZ",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:14:48.067623",
+      "updated": "2026-06-15T23:47:33.838161",
       "price": 61.5,
       "change_pct": -2.37,
       "prev_close": 62.99,
@@ -7891,7 +7891,7 @@
     {
       "ticker": "CI",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:14:52.699236",
+      "updated": "2026-06-15T23:47:40.400211",
       "price": 293.83,
       "change_pct": -1.4,
       "prev_close": 298,
@@ -7926,7 +7926,7 @@
     {
       "ticker": "DUK",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:14:57.690706",
+      "updated": "2026-06-15T23:47:45.478445",
       "price": 125.28,
       "change_pct": 0.25,
       "prev_close": 124.97,
@@ -7961,7 +7961,7 @@
     {
       "ticker": "CL",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:15:03.117131",
+      "updated": "2026-06-15T23:47:50.061966",
       "price": 90.58,
       "change_pct": 1.26,
       "prev_close": 89.45,
@@ -7996,7 +7996,7 @@
     {
       "ticker": "ITW",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:15:08.344569",
+      "updated": "2026-06-15T23:47:55.574955",
       "price": 262.51,
       "change_pct": 1.97,
       "prev_close": 257.43,
@@ -8031,7 +8031,7 @@
     {
       "ticker": "PNC",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:15:13.313359",
+      "updated": "2026-06-15T23:48:00.670479",
       "price": 230.56,
       "change_pct": -2.99,
       "prev_close": 237.66,
@@ -8066,7 +8066,7 @@
     {
       "ticker": "AON",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:15:18.112321",
+      "updated": "2026-06-15T23:48:05.644358",
       "price": 329.51,
       "change_pct": -1.73,
       "prev_close": 335.31,
@@ -8101,7 +8101,7 @@
     {
       "ticker": "MO",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:15:22.387222",
+      "updated": "2026-06-15T23:48:10.734917",
       "price": 69.59,
       "change_pct": -3.27,
       "prev_close": 71.94,
@@ -8136,7 +8136,7 @@
     {
       "ticker": "BSX",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:15:27.157073",
+      "updated": "2026-06-15T23:48:17.144056",
       "price": 46.76,
       "change_pct": -0.32,
       "prev_close": 46.91,
@@ -8203,7 +8203,7 @@
     {
       "ticker": "BDX",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:15:32.586774",
+      "updated": "2026-06-15T23:48:23.487200",
       "price": 145.52,
       "change_pct": -0.49,
       "prev_close": 146.24,
@@ -8238,7 +8238,7 @@
     {
       "ticker": "HCA",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:15:37.105118",
+      "updated": "2026-06-15T23:48:27.919166",
       "price": 389.97,
       "change_pct": 0.72,
       "prev_close": 387.18,
@@ -8273,7 +8273,7 @@
     {
       "ticker": "MCO",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:15:42.280913",
+      "updated": "2026-06-15T23:48:32.274674",
       "price": 454.06,
       "change_pct": 1.39,
       "prev_close": 447.85,
@@ -8308,7 +8308,7 @@
     {
       "ticker": "ICE",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:15:46.498163",
+      "updated": "2026-06-15T23:48:36.898661",
       "price": 140.1,
       "change_pct": -0.31,
       "prev_close": 140.53,
@@ -8343,7 +8343,7 @@
     {
       "ticker": "CME",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:15:50.666774",
+      "updated": "2026-06-15T23:48:41.565701",
       "price": 266.08,
       "change_pct": -1.28,
       "prev_close": 269.53,
@@ -8378,7 +8378,7 @@
     {
       "ticker": "GD",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:15:55.036120",
+      "updated": "2026-06-15T23:48:46.057817",
       "price": 359.53,
       "change_pct": -0.19,
       "prev_close": 360.22,
@@ -8413,7 +8413,7 @@
     {
       "ticker": "DE",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:15:59.427703",
+      "updated": "2026-06-15T23:48:50.510729",
       "price": 575.47,
       "change_pct": -0.35,
       "prev_close": 577.48,
@@ -8448,7 +8448,7 @@
     {
       "ticker": "FDX",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:16:03.777819",
+      "updated": "2026-06-15T23:48:55.089099",
       "price": 338.75,
       "change_pct": 0.13,
       "prev_close": 338.31,
@@ -8515,7 +8515,7 @@
     {
       "ticker": "UPS",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:16:09.470390",
+      "updated": "2026-06-15T23:49:01.067815",
       "price": 108.83,
       "change_pct": 0.68,
       "prev_close": 108.1,
@@ -8582,7 +8582,7 @@
     {
       "ticker": "NSC",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:16:15.344522",
+      "updated": "2026-06-15T23:49:06.948707",
       "price": 310.28,
       "change_pct": -1.16,
       "prev_close": 313.91,
@@ -8617,7 +8617,7 @@
     {
       "ticker": "CSX",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:16:19.603993",
+      "updated": "2026-06-15T23:49:11.342723",
       "price": 47.39,
       "change_pct": -0.38,
       "prev_close": 47.57,
@@ -8652,7 +8652,7 @@
     {
       "ticker": "WM",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:16:23.945241",
+      "updated": "2026-06-15T23:49:15.786257",
       "price": 216.94,
       "change_pct": -1.14,
       "prev_close": 219.45,
@@ -8687,7 +8687,7 @@
     {
       "ticker": "ECL",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:16:28.617654",
+      "updated": "2026-06-15T23:49:20.216651",
       "price": 268.58,
       "change_pct": 1.19,
       "prev_close": 265.41,
@@ -8722,7 +8722,7 @@
     {
       "ticker": "APD",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:16:33.079039",
+      "updated": "2026-06-15T23:49:24.787246",
       "price": 282.96,
       "change_pct": 0.48,
       "prev_close": 281.62,
@@ -8757,7 +8757,7 @@
     {
       "ticker": "DOW",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:16:37.393120",
+      "updated": "2026-06-15T23:49:29.219451",
       "price": 33.23,
       "change_pct": -1.83,
       "prev_close": 33.85,
@@ -8782,17 +8782,17 @@
       "ma50": 37.04,
       "worst_day_30d": -5.64,
       "abrupt_drop_flag": false,
-      "market_cap": 24397.1,
+      "market_cap": 23950.238,
       "pe_ratio": null,
       "eps_ttm": -3.9774000000000003,
       "beta": 0.40816978,
-      "dividend_yield": 5.1154,
+      "dividend_yield": 5.2108,
       "revenue_growth": -7.74
     },
     {
       "ticker": "PGR",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:16:41.554300",
+      "updated": "2026-06-15T23:49:33.525127",
       "price": 203.5,
       "change_pct": 0.19,
       "prev_close": 203.11,
@@ -8827,7 +8827,7 @@
     {
       "ticker": "ALL",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:16:46.138171",
+      "updated": "2026-06-15T23:49:38.386283",
       "price": 221.81,
       "change_pct": 0.08,
       "prev_close": 221.63,
@@ -8862,7 +8862,7 @@
     {
       "ticker": "TRV",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:16:50.318982",
+      "updated": "2026-06-15T23:49:42.838730",
       "price": 306.47,
       "change_pct": 0.66,
       "prev_close": 304.46,
@@ -8897,7 +8897,7 @@
     {
       "ticker": "HIG",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:16:54.638018",
+      "updated": "2026-06-15T23:49:47.237409",
       "price": 129.82,
       "change_pct": 0.15,
       "prev_close": 129.62,
@@ -8932,7 +8932,7 @@
     {
       "ticker": "MET",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:16:58.923920",
+      "updated": "2026-06-15T23:49:51.685102",
       "price": 87.66,
       "change_pct": -1.33,
       "prev_close": 88.84,
@@ -8967,7 +8967,7 @@
     {
       "ticker": "PRU",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:17:03.433414",
+      "updated": "2026-06-15T23:49:56.350189",
       "price": 108.69,
       "change_pct": 0.18,
       "prev_close": 108.5,
@@ -9002,7 +9002,7 @@
     {
       "ticker": "AFL",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:17:07.884397",
+      "updated": "2026-06-15T23:50:00.636609",
       "price": 116.96,
       "change_pct": -0.71,
       "prev_close": 117.8,
@@ -9037,7 +9037,7 @@
     {
       "ticker": "HUM",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:17:12.107481",
+      "updated": "2026-06-15T23:50:04.981894",
       "price": 380.26,
       "change_pct": 0.27,
       "prev_close": 379.22,
@@ -9072,7 +9072,7 @@
     {
       "ticker": "CVS",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:17:16.472582",
+      "updated": "2026-06-15T23:50:09.319386",
       "price": 100.68,
       "change_pct": -1.26,
       "prev_close": 101.96,
@@ -9107,7 +9107,7 @@
     {
       "ticker": "MCK",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:17:20.863664",
+      "updated": "2026-06-15T23:50:13.881146",
       "price": 779.78,
       "change_pct": -0.54,
       "prev_close": 784.05,
@@ -9142,7 +9142,7 @@
     {
       "ticker": "A",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:17:25.191063",
+      "updated": "2026-06-15T23:50:18.225445",
       "price": 130.59,
       "change_pct": 0.58,
       "prev_close": 129.84,
@@ -9177,7 +9177,7 @@
     {
       "ticker": "BAX",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:17:29.535151",
+      "updated": "2026-06-15T23:50:22.620811",
       "price": 20.81,
       "change_pct": -0.24,
       "prev_close": 20.86,
@@ -9212,7 +9212,7 @@
     {
       "ticker": "IDXX",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:17:33.920676",
+      "updated": "2026-06-15T23:50:26.984212",
       "price": 570,
       "change_pct": 1.63,
       "prev_close": 560.88,
@@ -9247,7 +9247,7 @@
     {
       "ticker": "IQV",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:17:38.198297",
+      "updated": "2026-06-15T23:50:31.434225",
       "price": 178.39,
       "change_pct": -1.69,
       "prev_close": 181.46,
@@ -9282,7 +9282,7 @@
     {
       "ticker": "LH",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:17:42.452526",
+      "updated": "2026-06-15T23:50:35.809179",
       "price": 265.03,
       "change_pct": -0.42,
       "prev_close": 266.16,
@@ -9317,7 +9317,7 @@
     {
       "ticker": "DGX",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:17:46.789782",
+      "updated": "2026-06-15T23:50:40.148933",
       "price": 202.18,
       "change_pct": -0.43,
       "prev_close": 203.06,
@@ -9352,7 +9352,7 @@
     {
       "ticker": "ALGN",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:17:51.095318",
+      "updated": "2026-06-15T23:50:44.609654",
       "price": 178.26,
       "change_pct": 1.96,
       "prev_close": 174.84,
@@ -9387,7 +9387,7 @@
     {
       "ticker": "DXCM",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:17:55.247358",
+      "updated": "2026-06-15T23:50:48.919184",
       "price": 74.22,
       "change_pct": -1.53,
       "prev_close": 75.37,
@@ -9422,7 +9422,7 @@
     {
       "ticker": "F",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:17:59.434019",
+      "updated": "2026-06-15T23:50:53.185298",
       "price": 14.77,
       "change_pct": -0.47,
       "prev_close": 14.84,
@@ -9457,7 +9457,7 @@
     {
       "ticker": "GM",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:18:03.930454",
+      "updated": "2026-06-15T23:50:57.532893",
       "price": 84.07,
       "change_pct": 3.15,
       "prev_close": 81.5,
@@ -9492,7 +9492,7 @@
     {
       "ticker": "AAL",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:18:08.200118",
+      "updated": "2026-06-15T23:51:01.877628",
       "price": 15.46,
       "change_pct": 3.2,
       "prev_close": 14.98,
@@ -9527,7 +9527,7 @@
     {
       "ticker": "DAL",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:18:12.359408",
+      "updated": "2026-06-15T23:51:06.236411",
       "price": 84.07,
       "change_pct": 1.22,
       "prev_close": 83.06,
@@ -9562,7 +9562,7 @@
     {
       "ticker": "UAL",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:18:16.603483",
+      "updated": "2026-06-15T23:51:10.643181",
       "price": 119.97,
       "change_pct": 3.85,
       "prev_close": 115.52,
@@ -9587,8 +9587,8 @@
       "ma50": 99.39,
       "worst_day_30d": -6.25,
       "abrupt_drop_flag": false,
-      "market_cap": 37214.188,
-      "pe_ratio": 10.1567,
+      "market_cap": 37494.293,
+      "pe_ratio": 10.2332,
       "eps_ttm": 11.205300000000001,
       "beta": 1.3242894,
       "dividend_yield": null,
@@ -9597,7 +9597,7 @@
     {
       "ticker": "LUV",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:18:20.829120",
+      "updated": "2026-06-15T23:51:14.891783",
       "price": 46.08,
       "change_pct": 1.34,
       "prev_close": 45.47,
@@ -9632,7 +9632,7 @@
     {
       "ticker": "CCL",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:18:25.164353",
+      "updated": "2026-06-15T23:51:19.394454",
       "price": 30.12,
       "change_pct": 3.22,
       "prev_close": 29.18,
@@ -9667,7 +9667,7 @@
     {
       "ticker": "RCL",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:18:29.365221",
+      "updated": "2026-06-15T23:51:23.821346",
       "price": 313.67,
       "change_pct": 6.55,
       "prev_close": 294.38,
@@ -9702,7 +9702,7 @@
     {
       "ticker": "MAR",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:18:33.666794",
+      "updated": "2026-06-15T23:51:28.255589",
       "price": 400.63,
       "change_pct": -0.47,
       "prev_close": 402.54,
@@ -9737,7 +9737,7 @@
     {
       "ticker": "HLT",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:18:37.902549",
+      "updated": "2026-06-15T23:51:32.536792",
       "price": 347.11,
       "change_pct": 0.34,
       "prev_close": 345.95,
@@ -9772,7 +9772,7 @@
     {
       "ticker": "SBUX",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:18:42.166472",
+      "updated": "2026-06-15T23:51:36.804862",
       "price": 101.59,
       "change_pct": -1.41,
       "prev_close": 103.04,
@@ -9807,7 +9807,7 @@
     {
       "ticker": "YUM",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:18:46.348662",
+      "updated": "2026-06-15T23:51:41.151451",
       "price": 154.67,
       "change_pct": 0.23,
       "prev_close": 154.31,
@@ -9842,7 +9842,7 @@
     {
       "ticker": "CMG",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:18:50.530295",
+      "updated": "2026-06-15T23:51:45.657964",
       "price": 32.73,
       "change_pct": 1.55,
       "prev_close": 32.23,
@@ -9877,7 +9877,7 @@
     {
       "ticker": "NKE",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:18:55.107354",
+      "updated": "2026-06-15T23:51:49.996648",
       "price": 45.2,
       "change_pct": 0.6,
       "prev_close": 44.93,
@@ -9912,7 +9912,7 @@
     {
       "ticker": "TGT",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:18:59.255171",
+      "updated": "2026-06-15T23:51:54.324245",
       "price": 133.17,
       "change_pct": -1.52,
       "prev_close": 135.23,
@@ -9947,7 +9947,7 @@
     {
       "ticker": "EBAY",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:19:03.538567",
+      "updated": "2026-06-15T23:51:58.717190",
       "price": 109.18,
       "change_pct": 0.52,
       "prev_close": 108.61,
@@ -9982,7 +9982,7 @@
     {
       "ticker": "ETSY",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:19:07.964550",
+      "updated": "2026-06-15T23:52:02.982523",
       "price": 72.19,
       "change_pct": 3.9,
       "prev_close": 69.48,
@@ -10017,7 +10017,7 @@
     {
       "ticker": "DG",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:19:12.123047",
+      "updated": "2026-06-15T23:52:07.341793",
       "price": 116.39,
       "change_pct": 1.39,
       "prev_close": 114.8,
@@ -10052,7 +10052,7 @@
     {
       "ticker": "DLTR",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:19:16.437364",
+      "updated": "2026-06-15T23:52:11.687813",
       "price": 112.88,
       "change_pct": -0.98,
       "prev_close": 114,
@@ -10087,7 +10087,7 @@
     {
       "ticker": "KR",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:19:20.624412",
+      "updated": "2026-06-15T23:52:15.944390",
       "price": 64.06,
       "change_pct": -1.0,
       "prev_close": 64.71,
@@ -10122,7 +10122,7 @@
     {
       "ticker": "TMUS",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:19:24.973226",
+      "updated": "2026-06-15T23:52:20.556357",
       "price": 188.86,
       "change_pct": -0.13,
       "prev_close": 189.1,
@@ -10157,7 +10157,7 @@
     {
       "ticker": "KLAC",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:19:29.142095",
+      "updated": "2026-06-15T23:52:25.231625",
       "price": 256.42,
       "change_pct": 0.74,
       "prev_close": 254.54,
@@ -10224,7 +10224,7 @@
     {
       "ticker": "SNPS",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:19:34.753735",
+      "updated": "2026-06-15T23:52:32.251730",
       "price": 454.38,
       "change_pct": 0.11,
       "prev_close": 453.89,
@@ -10291,7 +10291,7 @@
     {
       "ticker": "CDNS",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:19:40.525507",
+      "updated": "2026-06-15T23:52:38.892844",
       "price": 394.5,
       "change_pct": 2.48,
       "prev_close": 384.96,
@@ -10358,7 +10358,7 @@
     {
       "ticker": "MRVL",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:19:46.105572",
+      "updated": "2026-06-15T23:52:47.971875",
       "price": 308.88,
       "change_pct": 10.43,
       "prev_close": 279.7,
@@ -10424,7 +10424,7 @@
     {
       "ticker": "MNST",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:19:51.793567",
+      "updated": "2026-06-15T23:52:56.511878",
       "price": 93.23,
       "change_pct": 0.43,
       "prev_close": 92.83,
@@ -10459,7 +10459,7 @@
     {
       "ticker": "ORLY",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:19:56.084474",
+      "updated": "2026-06-15T23:53:03.023259",
       "price": 90.26,
       "change_pct": -0.83,
       "prev_close": 91.02,
@@ -10494,7 +10494,7 @@
     {
       "ticker": "CTAS",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:20:00.292375",
+      "updated": "2026-06-15T23:53:08.403623",
       "price": 174.74,
       "change_pct": -0.87,
       "prev_close": 176.28,
@@ -10529,7 +10529,7 @@
     {
       "ticker": "PAYX",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:20:04.595097",
+      "updated": "2026-06-15T23:53:13.516106",
       "price": 100.9,
       "change_pct": 0.27,
       "prev_close": 100.63,
@@ -10564,7 +10564,7 @@
     {
       "ticker": "FAST",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:20:09.156555",
+      "updated": "2026-06-15T23:53:21.409346",
       "price": 46.1,
       "change_pct": -1.01,
       "prev_close": 46.57,
@@ -10599,7 +10599,7 @@
     {
       "ticker": "ROST",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:20:13.930032",
+      "updated": "2026-06-15T23:53:27.936337",
       "price": 236.77,
       "change_pct": -1.4,
       "prev_close": 240.13,
@@ -10634,7 +10634,7 @@
     {
       "ticker": "ODFL",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:20:18.714608",
+      "updated": "2026-06-15T23:53:34.153108",
       "price": 237.42,
       "change_pct": -3.39,
       "prev_close": 245.75,
@@ -10669,7 +10669,7 @@
     {
       "ticker": "VRSK",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:20:23.602261",
+      "updated": "2026-06-15T23:53:40.200966",
       "price": 180.46,
       "change_pct": -1.82,
       "prev_close": 183.8,
@@ -10704,7 +10704,7 @@
     {
       "ticker": "ILMN",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:20:30.195330",
+      "updated": "2026-06-15T23:53:46.912679",
       "price": 166.89,
       "change_pct": 3.68,
       "prev_close": 160.97,
@@ -10739,7 +10739,7 @@
     {
       "ticker": "BIIB",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:20:34.908848",
+      "updated": "2026-06-15T23:53:52.352353",
       "price": 198.64,
       "change_pct": -0.7,
       "prev_close": 200.05,
@@ -10774,7 +10774,7 @@
     {
       "ticker": "MRNA",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:20:40.057122",
+      "updated": "2026-06-15T23:53:57.470232",
       "price": 52.13,
       "change_pct": 4.45,
       "prev_close": 49.91,
@@ -10798,7 +10798,7 @@
       "ma50": 49.6,
       "worst_day_30d": -8.04,
       "abrupt_drop_flag": true,
-      "market_cap": 19803.602,
+      "market_cap": 20684.467,
       "pe_ratio": null,
       "eps_ttm": -8.1462,
       "beta": 0.94885296,
@@ -10840,7 +10840,7 @@
     {
       "ticker": "ZM",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:20:46.948997",
+      "updated": "2026-06-15T23:54:04.548675",
       "price": 94.25,
       "change_pct": 0.61,
       "prev_close": 93.68,
@@ -10875,7 +10875,7 @@
     {
       "ticker": "DOCU",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:20:51.791753",
+      "updated": "2026-06-15T23:54:12.654922",
       "price": 44.195,
       "change_pct": -1.85,
       "prev_close": 45.03,
@@ -10910,7 +10910,7 @@
     {
       "ticker": "KHC",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:20:56.842689",
+      "updated": "2026-06-15T23:54:18.919070",
       "price": 23.99,
       "change_pct": -1.64,
       "prev_close": 24.39,
@@ -10945,7 +10945,7 @@
     {
       "ticker": "LULU",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:21:01.867296",
+      "updated": "2026-06-15T23:54:26.519769",
       "price": 116.21,
       "change_pct": -2.16,
       "prev_close": 118.77,
@@ -11012,7 +11012,7 @@
     {
       "ticker": "ABNB",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:21:08.119707",
+      "updated": "2026-06-15T23:54:34.024071",
       "price": 138.96,
       "change_pct": 5.05,
       "prev_close": 132.28,
@@ -11047,7 +11047,7 @@
     {
       "ticker": "BKNG",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:21:13.125732",
+      "updated": "2026-06-15T23:54:38.930457",
       "price": 174.64,
       "change_pct": 5.88,
       "prev_close": 164.94,
@@ -11082,7 +11082,7 @@
     {
       "ticker": "EXPE",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:21:18.787331",
+      "updated": "2026-06-15T23:54:44.259437",
       "price": 236.98,
       "change_pct": 5.38,
       "prev_close": 224.89,
@@ -11149,7 +11149,7 @@
     {
       "ticker": "MCHP",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:21:25.672981",
+      "updated": "2026-06-15T23:54:52.762091",
       "price": 100.32,
       "change_pct": 5.33,
       "prev_close": 95.24,
@@ -11216,7 +11216,7 @@
     {
       "ticker": "ADI",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:21:31.882707",
+      "updated": "2026-06-15T23:55:00.606311",
       "price": 427.58,
       "change_pct": 2.34,
       "prev_close": 417.79,
@@ -11251,7 +11251,7 @@
     {
       "ticker": "NXPI",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:21:36.808760",
+      "updated": "2026-06-15T23:55:07.040939",
       "price": 315.88,
       "change_pct": 3.61,
       "prev_close": 304.86,
@@ -11318,7 +11318,7 @@
     {
       "ticker": "ON",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:21:42.908605",
+      "updated": "2026-06-15T23:55:13.992684",
       "price": 125.9,
       "change_pct": 7.8,
       "prev_close": 116.79,
@@ -11369,23 +11369,23 @@
           "source": "Yahoo"
         },
         {
+          "headline": "Citigroup Maintains Neutral on ON Semiconductor, Raises Price Target to $120",
+          "url": "https://finnhub.io/api/news?id=4e58bff8013562bfb8a77c8d64a79a016fd3e2927c01f76dafee8d66eeff56ab",
+          "datetime": 1781532353,
+          "source": "Benzinga"
+        },
+        {
           "headline": "Which S&P500 stocks are moving before the opening bell on Monday?",
           "url": "https://finnhub.io/api/news?id=70ae7dc41fdd146c3e9def881cd45130e7118c9adc42fe9e3dce70544d299bb8",
           "datetime": 1781526900,
           "source": "ChartMill"
-        },
-        {
-          "headline": "CCD: Solid Performance, But Very High-Tech Exposure",
-          "url": "https://finnhub.io/api/news?id=07ea9e1d9df155c2e714886d70e4d1046e5b795f3315b59957913b91f3d4dc52",
-          "datetime": 1781515011,
-          "source": "SeekingAlpha"
         }
       ]
     },
     {
       "ticker": "MPWR",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:21:48.991871",
+      "updated": "2026-06-15T23:55:22.918007",
       "price": 1652.29,
       "change_pct": 4.75,
       "prev_close": 1577.32,
@@ -11452,7 +11452,7 @@
     {
       "ticker": "ENPH",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:21:57.361070",
+      "updated": "2026-06-15T23:55:31.934318",
       "price": 52.395,
       "change_pct": -4.02,
       "prev_close": 54.59,
@@ -11519,7 +11519,7 @@
     {
       "ticker": "FSLR",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:22:04.240367",
+      "updated": "2026-06-15T23:55:40.012436",
       "price": 273.51,
       "change_pct": 2.32,
       "prev_close": 267.31,
@@ -11586,7 +11586,7 @@
     {
       "ticker": "PDD",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:22:10.468070",
+      "updated": "2026-06-15T23:55:51.429644",
       "price": 83.55,
       "change_pct": 2.44,
       "prev_close": 81.56,
@@ -11653,7 +11653,7 @@
     {
       "ticker": "JD",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:22:17.088524",
+      "updated": "2026-06-15T23:55:59.452303",
       "price": 28.68,
       "change_pct": 0.42,
       "prev_close": 28.56,
@@ -11688,7 +11688,7 @@
     {
       "ticker": "BIDU",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:22:22.256743",
+      "updated": "2026-06-15T23:56:04.676097",
       "price": 116.75,
       "change_pct": 0.85,
       "prev_close": 115.77,
@@ -11757,7 +11757,7 @@
     {
       "sector": "Robotics",
       "stock_count": 16,
-      "avg_rsi": 50.6,
+      "avg_rsi": 50.8,
       "pct_near_52w_low": 12.5,
       "avg_pct_from_52w_low": 88.9,
       "downtrodden_score": 12.5,
@@ -12115,7 +12115,7 @@
     {
       "ticker": "BSX",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:15:27.157073",
+      "updated": "2026-06-15T23:48:17.144056",
       "price": 46.76,
       "change_pct": -0.32,
       "prev_close": 46.91,
@@ -12182,7 +12182,7 @@
     {
       "ticker": "CRM",
       "sector": "AI Software",
-      "updated": "2026-06-15T23:00:04.535218",
+      "updated": "2026-06-15T23:33:26.974850",
       "price": 164.55,
       "change_pct": -0.81,
       "prev_close": 165.89,
@@ -12217,7 +12217,7 @@
     {
       "ticker": "ADBE",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:12:10.838380",
+      "updated": "2026-06-15T23:44:39.288612",
       "price": 206.36,
       "change_pct": 1.15,
       "prev_close": 204.02,
@@ -12284,7 +12284,7 @@
     {
       "ticker": "LULU",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:21:01.867296",
+      "updated": "2026-06-15T23:54:26.519769",
       "price": 116.21,
       "change_pct": -2.16,
       "prev_close": 118.77,
@@ -12351,7 +12351,7 @@
     {
       "ticker": "INTU",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:12:57.495187",
+      "updated": "2026-06-15T23:45:35.050748",
       "price": 281.77,
       "change_pct": 1.82,
       "prev_close": 276.73,
@@ -12418,7 +12418,7 @@
     {
       "ticker": "PDD",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-06-15T23:22:10.468070",
+      "updated": "2026-06-15T23:55:51.429644",
       "price": 83.55,
       "change_pct": 2.44,
       "prev_close": 81.56,
@@ -12485,7 +12485,7 @@
     {
       "ticker": "ISRG",
       "sector": "Robotics",
-      "updated": "2026-06-15T23:00:10.301199",
+      "updated": "2026-06-15T23:33:31.281689",
       "price": 416.55,
       "change_pct": 1.34,
       "prev_close": 411.06,
@@ -12520,7 +12520,7 @@
     {
       "ticker": "ACN",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:11:04.603454",
+      "updated": "2026-06-15T23:43:39.961954",
       "price": 165.36,
       "change_pct": -2.89,
       "prev_close": 170.28,
@@ -12555,7 +12555,7 @@
     {
       "ticker": "SERV",
       "sector": "Robotics",
-      "updated": "2026-06-15T23:01:08.319709",
+      "updated": "2026-06-15T23:34:20.530082",
       "price": 7.22,
       "change_pct": 3.59,
       "prev_close": 6.97,
@@ -12590,7 +12590,7 @@
     {
       "ticker": "ICE",
       "sector": "S&P500 Core",
-      "updated": "2026-06-15T23:15:46.498163",
+      "updated": "2026-06-15T23:48:36.898661",
       "price": 140.1,
       "change_pct": -0.31,
       "prev_close": 140.53,
