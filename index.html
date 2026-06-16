@@ -1095,7 +1095,7 @@ td { padding:10px 14px; white-space:nowrap; }
       <div class="stat-value red" id="stat-overreaction">—</div>
       <div class="stat-card-hint">↩ FILTER SCREENER</div>
     </div>
-    <div class="stat-card" onclick="switchTab('sectors', document.querySelectorAll('.tab')[2])">
+    <div class="stat-card" onclick="statCardClick('sectors')">
       <div class="stat-label">SECTORS</div>
       <div class="stat-value" id="stat-sectors">—</div>
       <div class="stat-card-hint">↩ VIEW SECTORS</div>
@@ -1827,45 +1827,51 @@ const STAT_FILTER_MAP = {
 let activeStatCard = null;
 
 function statCardClick(key, cardEl) {
-  // If clicking SECTORS card, just switch tab
-  if (key === 'all' && cardEl === undefined) {
-    // "STOCKS TRACKED" — clear all filters
-    clearStatCardFilter();
+  // SECTORS card
+  if (key === 'sectors') {
+    switchTab('sectors', document.querySelectorAll('.tab')[2]);
     return;
   }
-
-  // Toggle: clicking same card again clears it
+  // STOCKS TRACKED — clear all filters
+  if (key === 'all') {
+    clearStatCardFilter();
+    const wrap = document.querySelector('.screener-scroll-wrap');
+    if (wrap) wrap.scrollTop = 0;
+    return;
+  }
+  // Toggle: clicking same active card again clears it
   if (activeStatCard === cardEl) {
     clearStatCardFilter();
     return;
   }
-
-  // Clear previous active card highlight
+  // Clear previous highlights and filters
   document.querySelectorAll('.stat-card').forEach(c => c.classList.remove('stat-active'));
-
+  clearAllFilters();
+  // Apply correct filter
   if (key === 'near52low') {
-    clearAllFilters();
     activeFilters.add('near52low');
-    highlightFilterBtn('near52low');
+    highlightFilterBtn(0);
   } else if (key === 'oversold') {
-    clearAllFilters();
     activeFilters.add('oversold');
-    highlightFilterBtn('oversold');
+    highlightFilterBtn(1);
   } else if (key === 'overreaction') {
-    // Custom filter — not a standard button, handle inline
-    clearAllFilters();
     activeFilters.add('overreaction_stat');
   }
-
+  // Highlight clicked card
   if (cardEl) {
     cardEl.classList.add('stat-active');
     activeStatCard = cardEl;
     gsap.fromTo(cardEl, { scale: 0.96 }, { scale: 1, duration: 0.3, ease: 'back.out(2)' });
   }
-
-  // Jump to screener tab and apply filter
-  switchTab('screener', document.querySelector('.tab'));
+  // Re-render table — already on screener, no tab switch needed
   renderScreener();
+  // Scroll table top into view
+  requestAnimationFrame(() => {
+    const wrap = document.querySelector('.screener-scroll-wrap');
+    if (wrap) wrap.scrollTop = 0;
+    const tableWrap = document.querySelector('#tab-screener .table-wrap');
+    if (tableWrap) tableWrap.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  });
 }
 
 function clearStatCardFilter() {
@@ -1881,14 +1887,10 @@ function clearAllFilters() {
   document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
 }
 
-function highlightFilterBtn(name) {
-  // Sync the visual state of the matching filter button
-  const btnMap = {
-    'near52low': 0, 'oversold': 1, 'extreme': 2, 'abrupt': 3, 'profitable': 4, 'largecap': 5
-  };
+function highlightFilterBtn(idx) {
+  // idx is the zero-based position of the filter button row
   const btns = document.querySelectorAll('.filter-btn');
-  const idx = btnMap[name];
-  if (idx !== undefined && btns[idx]) btns[idx].classList.add('active');
+  if (btns[idx]) btns[idx].classList.add('active');
 }
 
 /* ─── TAB SWITCH ─── */
