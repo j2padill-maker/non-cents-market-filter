@@ -1529,6 +1529,7 @@ async function loadData(){
     renderScreener();renderOverreaction();renderSectors();renderRankings();renderBottlenecks();renderWatchlist();
     animatePanel('screener');
     requestAnimationFrame(setScreenerHeight);
+    requestAnimationFrame(setScreenerHeight);
   }catch(e){
     document.getElementById('screener-body').innerHTML='<tr><td colspan="11"><div class="empty-state"><div class="icon">⚠️</div><p>Could not load data. Run the fetch script and push cache.json to GitHub.</p></div></td></tr>';
     console.error('Load error:',e);
@@ -1891,51 +1892,43 @@ function highlightFilterBtn(name) {
 }
 
 /* ─── TAB SWITCH ─── */
-function switchTab(name, btn){
-  document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
-  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
-  document.getElementById('tab-'+name).classList.add('active');
-  if(btn) btn.classList.add('active');
-  requestAnimationFrame(()=>animatePanel(name));
-}
-
-/* ─── SECTOR CARD TILT (micro-interaction) ─── */
-document.addEventListener('mousemove', function(e) {
-  const card = e.target.closest('.sector-card');
-  if (!card) return;
-  const rect = card.getBoundingClientRect();
-  const cx = (e.clientX - rect.left) / rect.width - 0.5;
-  const cy = (e.clientY - rect.top) / rect.height - 0.5;
-  gsap.to(card, {
-    rotateY: cx * 5,
-    rotateX: -cy * 4,
-    duration: 0.3,
-    ease: 'power1.out',
-    transformPerspective: 700
-  });
-});
-document.addEventListener('mouseleave', function(e) {
-  const card = e.target.closest?.('.sector-card');
-  if (!card) return;
-  gsap.to(card, { rotateY: 0, rotateX: 0, duration: 0.5, ease: 'elastic.out(1, 0.5)' });
-}, true);
-
 /* ─── DYNAMIC SCREENER HEIGHT — works on all devices ─── */
 function setScreenerHeight() {
   const wrap = document.querySelector('#tab-screener .screener-scroll-wrap');
   if (!wrap) return;
   const rect = wrap.getBoundingClientRect();
-  // Available space from top of table to bottom of viewport, minus a small margin
   const available = window.innerHeight - rect.top - 16;
-  wrap.style.maxHeight = Math.max(available, 180) + 'px';
+  wrap.style.maxHeight = Math.max(available, 200) + 'px';
+}
+window.addEventListener('resize', setScreenerHeight);
+
+/* ─── TAB SWITCH ─── */
+function switchTab(name, btn){
+  document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  document.getElementById('tab-'+name).classList.add('active');
+  if(btn) btn.classList.add('active');
+  requestAnimationFrame(()=>{
+    animatePanel(name);
+    if(name === 'screener') setScreenerHeight();
+  });
 }
 
-window.addEventListener('resize', setScreenerHeight);
-// Run after data loads and after tab switches
-const _origSwitchTab = switchTab;
-function switchTab(name, btn) {
-  _origSwitchTab(name, btn);
-  if (name === 'screener') requestAnimationFrame(setScreenerHeight);
+/* ─── SECTOR CARD TILT (micro-interaction, desktop only) ─── */
+if(window.matchMedia('(pointer:fine)').matches){
+  document.addEventListener('mousemove', function(e) {
+    const card = e.target.closest('.sector-card');
+    if (!card) return;
+    const rect = card.getBoundingClientRect();
+    const cx = (e.clientX - rect.left) / rect.width - 0.5;
+    const cy = (e.clientY - rect.top) / rect.height - 0.5;
+    gsap.to(card, { rotateY: cx*5, rotateX: -cy*4, duration:0.3, ease:'power1.out', transformPerspective:700 });
+  });
+  document.addEventListener('mouseleave', function(e) {
+    const card = e.target.closest?.('.sector-card');
+    if (!card) return;
+    gsap.to(card, { rotateY:0, rotateX:0, duration:0.5, ease:'elastic.out(1,0.5)' });
+  }, true);
 }
 
 loadData();
