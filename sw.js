@@ -1,4 +1,4 @@
-const CACHE = 'ncmf-v1';
+const CACHE = 'ncmf-v2';
 const ASSETS = [
   '/non-cents-market-filter/',
   '/non-cents-market-filter/index.html',
