@@ -1,11 +1,11 @@
-const CACHE = 'ncmf-v2';
+const CACHE = 'ncmf-v3';
 const ASSETS = [
-  '/non-cents-market-filter/',
-  '/non-cents-market-filter/index.html',
-  '/non-cents-market-filter/data/cache.json',
-  '/non-cents-market-filter/manifest.json',
-  '/non-cents-market-filter/icons/icon-192.png',
-  '/non-cents-market-filter/icons/icon-512.png'
+  '/',
+  '/index.html',
+  '/data/cache.json',
+  '/manifest.json',
+  '/icons/icon-192.png',
+  '/icons/icon-512.png'
 ];
 
 // Install — cache all core assets
