@@ -4,6 +4,7 @@ import math
 import time
 import requests
 from datetime import datetime, timedelta
+from zoneinfo import ZoneInfo
 
 FINNHUB_KEY = os.environ.get("FINNHUB_API_KEY")
 BASE_URL = "https://finnhub.io/api/v1"
@@ -160,8 +161,8 @@ def get_company_profile(ticker):
     return finnhub_get("/stock/profile2", {"symbol": ticker})
 
 def get_stock_news(ticker):
-    today = datetime.utcnow().strftime("%Y-%m-%d")
-    week_ago = (datetime.utcnow() - timedelta(days=7)).strftime("%Y-%m-%d")
+    today = datetime.now(ZoneInfo("America/Los_Angeles")).strftime("%Y-%m-%d")
+    week_ago = (datetime.now(ZoneInfo("America/Los_Angeles")) - timedelta(days=7)).strftime("%Y-%m-%d")
     data = finnhub_get("/company-news", {"symbol": ticker, "from": week_ago, "to": today})
     if data and len(data) > 0:
         return [{"headline": n.get("headline"), "url": n.get("url"),
@@ -271,7 +272,7 @@ def process_ticker(ticker, sector):
     record = {
         "ticker": ticker,
         "sector": sector,
-        "updated": datetime.utcnow().isoformat()
+        "updated": datetime.now(ZoneInfo("America/Los_Angeles")).isoformat()
     }
 
     quote = get_quote(ticker)
@@ -531,7 +532,7 @@ def main():
 
     os.makedirs("data", exist_ok=True)
     cache = {
-        "generated": datetime.utcnow().isoformat(),
+        "generated": datetime.now(ZoneInfo("America/Los_Angeles")).isoformat(),
         "count": len(results),
         "stocks": results,
         "sector_summaries": sector_summaries,

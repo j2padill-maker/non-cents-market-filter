@@ -1,0 +1,492 @@
+1:import os
+2:import json
+3:import math
+4:import time
+5:import requests
+6:from datetime import datetime, timedelta
+8:FINNHUB_KEY = os.environ.get("FINNHUB_API_KEY")
+9:BASE_URL = "https://finnhub.io/api/v1"
+11:# ── UNIVERSE ──────────────────────────────────────────────────────────────────
+13:SECTORS = {
+14:    "AI Hardware": [
+15:        "NVDA", "AMD", "INTC", "MU", "AMAT", "LRCX", "AVGO", "ASML", "TSM",
+16:        "DELL", "SMCI", "VRT", "ETN", "ATKR", "MOD", "NVT", "FORM", "COHR", "ATSK"
+17:    ],
+18:    "AI Software": [
+19:        "NET", "DDOG", "DT", "FSLY", "CRWD", "PANW", "ZS", "SNOW", "PLTR",
+20:        "PATH", "OKTA", "MDB", "WDAY", "FTNT", "TEAM", "NOW", "CRM"
+21:    ],
+22:    "Robotics": [
+23:        "ISRG", "CGNX", "AVAV", "SYM", "PATH", "TER", "NOVT", "IPGP", "ROK",
+24:        "ZBRA", "KEYS", "SERV", "OLL", "HSYDF", "PEGA", "JBTM", "EMR", "HON"
+25:    ],
+26:    "Homebuilders": [
+27:        "DHI", "LEN", "PHM", "NVR", "TOL", "KBH", "MDC", "MHO", "TMHC",
+28:        "BLDR", "BLD", "TREX", "OC", "MAS", "CARR", "TT", "LII", "SHW", "LOW", "HD"
+29:    ],
+30:    "Fintech": [
+31:        "SOFI", "PYPL", "CRCL", "SQ", "XYZ", "AFRM", "UPST", "NU", "SEZL",
+32:        "V", "MA", "AXP", "COF", "DFS", "COIN"
+33:    ],
+34:    "Nuclear Energy": [
+35:        "OKLO", "SMR", "CEG", "VST", "CCJ", "LEU", "GEV", "SO", "BE",
+36:        "NRG", "DYN", "LMT", "BWXT"
+37:    ],
+38:    "Drones": [
+39:        "AVAV", "KTOS", "JOBY", "ACHR", "TXT", "NOC", "LMT", "RCAT",
+40:        "ONDS", "UMAC", "BA", "HII"
+41:    ],
+42:    "Mining & Materials": [
+43:        "VALE", "RIO", "FCX", "NEM", "GOLD", "MP", "LTHM", "ALB", "NUE",
+44:        "AA", "X", "CLF", "STLD", "RS"
+45:    ],
+46:    "Energy": [
+47:        "OXY", "DVN", "COP", "HES", "EOG", "SLB", "HAL", "MPC", "VLO",
+48:        "PSX", "XOM", "CVX", "PXD", "FANG", "APA"
+49:    ],
+50:    "S&P500 Core": [
+51:        "AAPL", "MSFT", "AMZN", "GOOGL", "GOOG", "META", "TSLA", "BRK.B",
+52:        "JPM", "LLY", "UNH", "XOM", "V", "MA", "COST", "HD", "PG", "JNJ",
+53:        "ABBV", "MRK", "CVX", "CRM", "BAC", "NFLX", "AMD", "PEP", "KO",
+54:        "TMO", "ORCL", "ACN", "MCD", "LIN", "ABT", "CSCO", "WMT", "DHR",
+55:        "TXN", "PM", "NEE", "ADBE", "RTX", "HON", "QCOM", "GE", "IBM",
+56:        "AMGN", "CAT", "SPGI", "INTU", "LOW", "GS", "MS", "BLK", "AXP",
+57:        "AMAT", "ELV", "MDT", "SYK", "ISRG", "VRTX", "GILD", "REGN",
+58:        "ZTS", "CB", "PLD", "AMT", "SCHW", "C", "WFC", "USB", "MMC",
+59:        "TJX", "MDLZ", "CI", "SO", "DUK", "CL", "ITW", "PNC", "AON",
+60:        "MO", "BSX", "EOG", "SLB", "BDX", "HCA", "MCO", "ICE", "CME",
+61:        "NOC", "LMT", "GD", "DE", "EMR", "FDX", "UPS", "NSC", "CSX",
+62:        "WM", "ECL", "APD", "SHW", "NUE", "FCX", "DOW", "NEM", "COP",
+63:        "OXY", "DVN", "HES", "PGR", "ALL", "TRV", "HIG", "MET", "PRU",
+64:        "AFL", "HUM", "CVS", "MCK", "A", "BAX", "IDXX", "IQV", "LH",
+65:        "DGX", "ALGN", "DXCM", "F", "GM", "AAL", "DAL", "UAL", "LUV",
+66:        "CCL", "RCL", "MAR", "HLT", "SBUX", "YUM", "CMG", "NKE", "TGT",
+67:        "AMZN", "EBAY", "ETSY", "DG", "DLTR", "KR"
+68:    ],
+69:    "Nasdaq100 Core": [
+70:        "AAPL", "MSFT", "NVDA", "AMZN", "META", "TSLA", "GOOGL", "GOOG",
+71:        "AVGO", "COST", "NFLX", "TMUS", "AMD", "PEP", "CSCO", "ADBE",
+72:        "TXN", "QCOM", "INTU", "AMAT", "MU", "LRCX", "KLAC", "SNPS",
+73:        "CDNS", "MRVL", "WDAY", "CRWD", "PANW", "FTNT", "MNST", "ORLY",
+74:        "CTAS", "PAYX", "FAST", "ROST", "ODFL", "VRSK", "ANSS", "DXCM",
+75:        "IDXX", "ILMN", "REGN", "VRTX", "BIIB", "GILD", "AMGN", "ISRG",
+76:        "ALGN", "MRNA", "ZM", "DOCU", "OKTA", "ZS", "DDOG", "SNOW",
+77:        "MDB", "TEAM", "EBAY", "KHC", "MDLZ", "SBUX", "LULU", "ABNB",
+78:        "BKNG", "EXPE", "INTC", "MCHP", "ADI", "NXPI", "ON", "MPWR",
+79:        "ENPH", "FSLR", "PDD", "JD", "BIDU"
+80:    ]
+81:}
+83:SECTOR_KEYWORDS = {
+84:    "AI Hardware": ["nvidia", "semiconductor", "chip", "gpu", "tsmc", "asml"],
+85:    "AI Software": ["artificial intelligence", "ai software", "cloud", "cybersecurity"],
+86:    "Robotics": ["robotics", "automation", "robot", "autonomous", "humanoid"],
+87:    "Homebuilders": ["homebuilder", "housing", "mortgage", "home sales", "construction"],
+88:    "Fintech": ["fintech", "payments", "crypto", "banking", "stablecoin"],
+89:    "Nuclear Energy": ["nuclear", "uranium", "energy", "smr", "reactor"],
+90:    "Drones": ["drone", "uav", "unmanned", "aerospace", "defense"],
+91:    "Mining & Materials": ["mining", "copper", "gold", "lithium", "metals"],
+92:    "Energy": ["oil", "gas", "energy", "petroleum", "opec"],
+93:    "S&P500 Core": ["market", "s&p", "fed", "economy", "earnings"],
+94:    "Nasdaq100 Core": ["nasdaq", "tech", "technology", "growth stocks"]
+95:}
+97:BOTTLENECKS = {
+98:    "AI Hardware": [
+99:        "HBM memory suppliers: MU, Samsung",
+100:        "EUV lithography monopoly: ASML",
+101:        "Advanced packaging: AMAT, LRCX",
+102:        "Liquid cooling: VRT, MOD, NVT",
+103:        "Power delivery/PDUs: ETN, ATKR"
+104:    ],
+105:    "Robotics": [
+106:        "Harmonic/strain-wave reducers: HSYDF",
+107:        "Rare-earth magnets: MP, LTHM",
+108:        "Force/torque sensors: NOVT",
+109:        "Robot vision/LIDAR: CGNX, KEYS"
+110:    ],
+111:    "Nuclear Energy": [
+112:        "Enriched uranium supply: CCJ, LEU",
+113:        "Specialized turbines: GEV",
+114:        "SMR components: BWXT"
+115:    ],
+116:    "Drones": [
+117:        "LiDAR sensors: COHR",
+118:        "RF/comms chips: QCOM, KEYS",
+119:        "Counter-drone systems: KTOS, AVAV"
+120:    ],
+121:    "Fintech": [
+122:        "Stablecoin infrastructure: CRCL, COIN",
+123:        "Buy-now-pay-later rails: AFRM, UPST"
+124:    ],
+125:    "Mining & Materials": [
+126:        "Rare-earth processing: MP",
+127:        "Lithium supply: ALB, LTHM",
+128:        "Copper smelting capacity: FCX"
+129:    ]
+130:}
+132:# ── FINNHUB API ───────────────────────────────────────────────────────────────
+134:def finnhub_get(endpoint, params={}, retries=2):
+135:    p = dict(params)
+136:    p["token"] = FINNHUB_KEY
+137:    for attempt in range(retries):
+138:        try:
+139:            r = requests.get(f"{BASE_URL}{endpoint}", params=p, timeout=10)
+140:            time.sleep(0.8)
+141:            if r.status_code == 200:
+142:                return r.json()
+143:            elif r.status_code == 429:
+144:                print("  Rate limited, waiting 15s...")
+145:                time.sleep(15)
+146:            else:
+147:                return None
+148:        except Exception as e:
+149:            print(f"  Request error: {e}")
+150:            time.sleep(2)
+151:    return None
+153:def get_quote(ticker):
+154:    return finnhub_get("/quote", {"symbol": ticker})
+156:def get_basic_financials(ticker):
+157:    return finnhub_get("/stock/metric", {"symbol": ticker, "metric": "all"})
+159:def get_company_profile(ticker):
+160:    return finnhub_get("/stock/profile2", {"symbol": ticker})
+162:def get_stock_news(ticker):
+163:    today = datetime.utcnow().strftime("%Y-%m-%d")
+164:    week_ago = (datetime.utcnow() - timedelta(days=7)).strftime("%Y-%m-%d")
+165:    data = finnhub_get("/company-news", {"symbol": ticker, "from": week_ago, "to": today})
+166:    if data and len(data) > 0:
+167:        return [{"headline": n.get("headline"), "url": n.get("url"),
+168:                 "datetime": n.get("datetime"), "source": n.get("source", "")}
+169:                for n in data[:5]]
+170:    return []
+172:def get_sector_news(sector):
+173:    keywords = SECTOR_KEYWORDS.get(sector, [])
+174:    if not keywords:
+175:        return []
+176:    data = finnhub_get("/news", {"category": "general"})
+177:    if not data:
+178:        return []
+179:    relevant = []
+180:    for item in data:
+181:        headline = (item.get("headline") or "").lower()
+182:        summary = (item.get("summary") or "").lower()
+183:        text = headline + " " + summary
+184:        if any(kw.lower() in text for kw in keywords):
+185:            relevant.append({
+186:                "headline": item.get("headline"),
+187:                "url": item.get("url"),
+188:                "datetime": item.get("datetime"),
+189:                "source": item.get("source", ""),
+190:                "summary": (item.get("summary") or "")[:200]
+191:            })
+192:        if len(relevant) >= 8:
+193:            break
+194:    return relevant
+196:# ── YFINANCE FOR CANDLES / RSI ────────────────────────────────────────────────
+198:def get_yfinance_data(ticker):
+199:    try:
+200:        import yfinance as yf
+201:        stock = yf.Ticker(ticker)
+202:        hist = stock.history(period="2y", auto_adjust=True)
+203:        if hist.empty:
+204:            return None
+205:        closes = hist["Close"].tolist()
+206:        volumes = hist["Volume"].tolist()
+207:        if len(closes) > 10:
+208:            price_min = min(closes)
+209:            price_max = max(closes)
+210:            if price_min > 0:
+211:                price_range_pct = (price_max - price_min) / price_min * 100
+212:                if price_range_pct > 500:
+213:                    print(f"  ⚠ Extreme price range {price_range_pct:.0f}% — using 6 month window")
+214:                    hist_6m = stock.history(period="6mo", auto_adjust=True)
+215:                    if not hist_6m.empty:
+216:                        closes = hist_6m["Close"].tolist()
+217:                        volumes = hist_6m["Volume"].tolist()
+218:        return {"closes": closes, "volumes": volumes}
+219:    except Exception as e:
+220:        print(f"  yfinance error for {ticker}: {e}")
+221:        return None
+223:def compute_rsi(closes, period=14):
+224:    if not closes or len(closes) < period + 1:
+225:        return None
+226:    try:
+227:        import pandas as pd
+228:        s = pd.Series(closes)
+229:        delta = s.diff()
+230:        gain = delta.clip(lower=0)
+231:        loss = -delta.clip(upper=0)
+232:        avg_gain = gain.ewm(alpha=1/period, min_periods=period, adjust=False).mean()
+233:        avg_loss = loss.ewm(alpha=1/period, min_periods=period, adjust=False).mean()
+234:        rs = avg_gain / avg_loss
+235:        rsi = 100 - (100 / (1 + rs))
+236:        result = round(float(rsi.iloc[-1]), 1)
+237:        return max(1.0, min(99.0, result))
+238:    except Exception as e:
+239:        print(f"  RSI calculation error: {e}")
+240:        return None
+242:def rsi_label(rsi):
+243:    if rsi is None: return "N/A"
+244:    if rsi < 30: return "Extremely Oversold"
+245:    if rsi <= 35: return "Oversold"
+246:    if rsi >= 70: return "Overbought"
+247:    return "Neutral"
+249:# ── SANITIZE: replace float NaN/Inf with None ─────────────────────────────────
+251:def sanitize(obj):
+252:    """
+253:    Recursively walk the data structure and replace any float NaN or Infinity
+254:    with None so json.dump() never writes invalid JSON tokens.
+255:    This is the permanent fix — NaN values from pandas/yfinance calculations
+256:    are caught here before they ever reach cache.json.
+257:    """
+258:    if isinstance(obj, dict):
+259:        return {k: sanitize(v) for k, v in obj.items()}
+260:    elif isinstance(obj, list):
+261:        return [sanitize(v) for v in obj]
+262:    elif isinstance(obj, float):
+263:        if math.isnan(obj) or math.isinf(obj):
+264:            return None
+265:        return obj
+266:    return obj
+268:# ── PROCESS ONE TICKER ────────────────────────────────────────────────────────
+270:def process_ticker(ticker, sector):
+271:    record = {
+272:        "ticker": ticker,
+273:        "sector": sector,
+274:        "updated": datetime.utcnow().isoformat()
+275:    }
+277:    quote = get_quote(ticker)
+278:    if not quote or quote.get("c", 0) == 0:
+279:        return None
+280:    record["price"] = quote.get("c")
+281:    record["change_pct"] = round(quote.get("dp", 0), 2)
+282:    record["prev_close"] = quote.get("pc")
+284:    profile = get_company_profile(ticker)
+285:    if profile and profile.get("name"):
+286:        name = profile.get("name", "")
+287:        industry = profile.get("finnhubIndustry", "")
+288:        exchange = profile.get("exchange", "")
+289:        country = profile.get("country", "")
+290:        ipo = profile.get("ipo", "")
+291:        weburl = profile.get("weburl", "")
+292:        currency = profile.get("currency", "USD")
+294:        record["company_name"] = name
+295:        record["industry"] = industry
+296:        record["website"] = weburl
+297:        record["logo"] = profile.get("logo", "")
+298:        record["country"] = country
+299:        record["exchange"] = exchange
+300:        record["currency"] = currency
+302:        desc_parts = []
+303:        if name:
+304:            desc_parts.append(f"{name} ({ticker})")
+305:        if industry:
+306:            desc_parts.append(f"is a company in the {industry} industry")
+307:        if exchange and country:
+308:            desc_parts.append(f"listed on {exchange} ({country})")
+309:        elif exchange:
+310:            desc_parts.append(f"listed on {exchange}")
+311:        if currency and currency != "USD":
+312:            desc_parts.append(f"trades in {currency}")
+313:        if ipo:
+314:            desc_parts.append(f"IPO date: {ipo}")
+315:        if weburl:
+316:            desc_parts.append(f"Website: {weburl}")
+317:        record["description"] = ". ".join(desc_parts) + "." if desc_parts else ""
+319:    yf_data = get_yfinance_data(ticker)
+320:    if yf_data:
+321:        closes = yf_data["closes"]
+322:        volumes = yf_data["volumes"]
+323:        current_price = record.get("price", 0)
+324:        raw_low = min(closes)
+325:        raw_high = max(closes)
+327:        is_foreign_price_series = (
+328:            current_price > 0 and (
+329:                raw_low > current_price * 3 or
+330:                raw_high < current_price * 0.1
+331:            )
+332:        )
+334:        if is_foreign_price_series:
+335:            print(f"  ⚠ Foreign price series detected — RSI/52W skipped")
+336:            record["rsi14"] = None
+337:            record["rsi_label"] = "Foreign stock — RSI not calculated"
+338:            record["rsi_note"] = "foreign_exchange"
+339:        else:
+340:            record["low_52w"] = round(raw_low, 2)
+341:            record["high_52w"] = round(raw_high, 2)
+342:            if current_price and record["low_52w"] and record["high_52w"]:
+343:                record["pct_from_52w_low"] = round(
+344:                    (current_price - record["low_52w"]) / record["low_52w"] * 100, 2)
+345:                record["pct_from_52w_high"] = round(
+346:                    (current_price - record["high_52w"]) / record["high_52w"] * 100, 2)
+348:            rsi = compute_rsi(closes)
+349:            if rsi is not None and (rsi < 5 or rsi > 95):
+350:                print(f"  ⚠ Extreme RSI {rsi} — likely bad data, skipping")
+351:                record["rsi14"] = None
+352:                record["rsi_label"] = "RSI calculation error"
+353:                record["rsi_note"] = "extreme_value"
+354:            else:
+355:                record["rsi14"] = rsi
+356:                record["rsi_label"] = rsi_label(rsi)
+358:        if len(volumes) >= 30:
+359:            avg_vol_30 = sum(volumes[-30:]) / 30
+360:            record["volume_today"] = volumes[-1]
+361:            record["volume_avg_30d"] = round(avg_vol_30, 0)
+362:            record["volume_ratio"] = round(
+363:                volumes[-1] / avg_vol_30, 2) if avg_vol_30 > 0 else None
+365:        if len(closes) >= 200:
+366:            record["ma200"] = round(sum(closes[-200:]) / 200, 2)
+367:        if len(closes) >= 50:
+368:            record["ma50"] = round(sum(closes[-50:]) / 50, 2)
+370:        recent = closes[-31:]
+371:        worst_day = 0
+372:        for i in range(1, len(recent)):
+373:            pct = (recent[i] - recent[i-1]) / recent[i-1] * 100
+374:            if pct < worst_day:
+375:                worst_day = pct
+376:        record["worst_day_30d"] = round(worst_day, 2)
+377:        record["abrupt_drop_flag"] = worst_day <= -8
+379:    else:
+380:        fins = get_basic_financials(ticker)
+381:        if fins and "metric" in fins:
+382:            m = fins["metric"]
+383:            high_52w = m.get("52WeekHigh")
+384:            low_52w = m.get("52WeekLow")
+385:            if high_52w and low_52w and record.get("price"):
+386:                price = record["price"]
+387:                if low_52w > price * 0.1 and high_52w < price * 10:
+388:                    record["high_52w"] = high_52w
+389:                    record["low_52w"] = low_52w
+390:                    record["pct_from_52w_low"] = round(
+391:                        (price - low_52w) / low_52w * 100, 2)
+392:                    record["pct_from_52w_high"] = round(
+393:                        (price - high_52w) / high_52w * 100, 2)
+395:    fins = get_basic_financials(ticker)
+396:    if fins and "metric" in fins:
+397:        m = fins["metric"]
+398:        record["market_cap"] = m.get("marketCapitalization")
+399:        record["pe_ratio"] = m.get("peBasicExclExtraTTM")
+400:        record["eps_ttm"] = m.get("epsTTM")
+401:        record["beta"] = m.get("beta")
+402:        record["dividend_yield"] = m.get("currentDividendYieldTTM")
+403:        record["revenue_growth"] = m.get("revenueGrowthTTMYoy")
+405:    needs_news = (
+406:        record.get("rsi14") is not None and record["rsi14"] <= 35
+407:    ) or record.get("abrupt_drop_flag")
+408:    if needs_news:
+409:        record["news"] = get_stock_news(ticker)
+411:    return record
+413:# ── SECTOR SUMMARIES ──────────────────────────────────────────────────────────
+415:def build_sector_summaries(stocks):
+416:    from collections import defaultdict
+417:    sector_map = defaultdict(list)
+418:    for s in stocks:
+419:        sector_map[s["sector"]].append(s)
+421:    summaries = []
+422:    for sector, members in sector_map.items():
+423:        with_rsi = [m for m in members if m.get("rsi14") is not None]
+424:        with_low = [m for m in members if m.get("pct_from_52w_low") is not None]
+425:        near_low = [m for m in with_low if m["pct_from_52w_low"] <= 5]
+427:        avg_rsi = round(
+428:            sum(m["rsi14"] for m in with_rsi) / len(with_rsi), 1
+429:        ) if with_rsi else None
+430:        avg_from_low = round(
+431:            sum(m["pct_from_52w_low"] for m in with_low) / len(with_low), 1
+432:        ) if with_low else None
+433:        near_low_pct = round(
+434:            len(near_low) / len(with_low) * 100, 1
+435:        ) if with_low else 0
+437:        print(f"  Fetching news for: {sector}")
+438:        sector_news = get_sector_news(sector)
+440:        summaries.append({
+441:            "sector": sector,
+442:            "stock_count": len(members),
+443:            "avg_rsi": avg_rsi,
+444:            "pct_near_52w_low": near_low_pct,
+445:            "avg_pct_from_52w_low": avg_from_low,
+446:            "downtrodden_score": near_low_pct,
+447:            "momentum_score": avg_from_low or 0,
+448:            "bottlenecks": BOTTLENECKS.get(sector, []),
+449:            "news": sector_news,
+450:            "news_count": len(sector_news)
+451:        })
+453:    summaries.sort(key=lambda x: x["downtrodden_score"], reverse=True)
+454:    return summaries
+456:# ── MAIN ──────────────────────────────────────────────────────────────────────
+458:def main():
+459:    try:
+460:        import yfinance as yf
+461:        print("✓ yfinance available")
+462:    except ImportError:
+463:        print("✗ yfinance not installed — run: pip install yfinance")
+464:        return
+466:    print("Starting Non-Cents Market Filter data fetch...")
+467:    print("Finnhub: quotes + company profiles + news + fundamentals")
+468:    print("yfinance: candles + true RSI(14) + 52W high/low + volume")
+470:    seen = {}
+471:    for sector, tickers in SECTORS.items():
+472:        for t in tickers:
+473:            if t not in seen:
+474:                seen[t] = sector
+476:    universe = list(seen.items())
+477:    print(f"\nUniverse: {len(universe)} unique tickers across {len(SECTORS)} sectors\n")
+479:    results = []
+480:    errors = []
+482:    for i, (ticker, sector) in enumerate(universe):
+483:        print(f"[{i+1}/{len(universe)}] {ticker} ({sector})...")
+484:        try:
+485:            record = process_ticker(ticker, sector)
+486:            if record:
+487:                results.append(record)
+488:                rsi_str = f"RSI:{record['rsi14']}" if record.get('rsi14') else "RSI:—"
+489:                low_str = f"52wL:${record['low_52w']}" if record.get('low_52w') else "52wL:—"
+490:                high_str = f"52wH:${record['high_52w']}" if record.get('high_52w') else "52wH:—"
+491:                desc_str = "✓ desc" if record.get('description') else "✗ no desc"
+492:                print(f"  ✓ ${record['price']} {rsi_str} {low_str} {high_str} {desc_str}")
+493:            else:
+494:                print(f"  ✗ No data returned")
+495:        except Exception as e:
+496:            errors.append({"ticker": ticker, "error": str(e)})
+497:            print(f"  ✗ ERROR: {e}")
+499:    print(f"\nBuilding sector summaries and fetching news...")
+500:    sector_summaries = build_sector_summaries(results)
+502:    overreaction = [
+503:        r for r in results
+504:        if r.get("change_pct", 0) <= -8
+505:        and r.get("volume_ratio", 0) >= 2
+506:        and (r.get("rsi14", 100) or 100) <= 35
+507:        and (r.get("market_cap") or 0) >= 2000
+508:    ]
+510:    near_lows = sorted(
+511:        [r for r in results if r.get("pct_from_52w_low", 100) <= 5],
+512:        key=lambda x: x.get("pct_from_52w_low", 100)
+513:    )
+515:    os.makedirs("data", exist_ok=True)
+516:    cache = {
+517:        "generated": datetime.utcnow().isoformat(),
+518:        "count": len(results),
+519:        "stocks": results,
+520:        "sector_summaries": sector_summaries,
+521:        "overreaction_candidates": overreaction,
+522:        "near_52w_lows": near_lows[:50],
+523:        "errors": errors
+524:    }
+526:    # ── SANITIZE before writing ───────────────────────────────────────────────
+527:    # Replace any float NaN/Infinity values with None (JSON null).
+528:    # pandas and yfinance calculations can produce NaN for missing data,
+529:    # which json.dump() writes as the bare token NaN — invalid JSON.
+530:    clean_cache = sanitize(cache)
+532:    with open("data/cache.json", "w") as f:
+533:        json.dump(clean_cache, f, indent=2)
+535:    rsi_count = sum(1 for r in results if r.get("rsi14") is not None)
+536:    low_count = sum(1 for r in results if r.get("low_52w") is not None)
+537:    desc_count = sum(1 for r in results if r.get("description"))
+539:    print(f"\n✓ {len(results)} stocks processed")
+540:    print(f"✓ {rsi_count}/{len(results)} stocks have RSI data")
+541:    print(f"✓ {low_count}/{len(results)} stocks have 52W data")
+542:    print(f"✓ {desc_count}/{len(results)} stocks have company descriptions")
+543:    print(f"✓ {len(sector_summaries)} sector summaries with news")
+544:    print(f"✓ {len(overreaction)} overreaction candidates")
+545:    print(f"✓ {len(near_lows)} stocks near 52W lows")
+546:    print(f"✗ {len(errors)} errors")
+547:    print("Cache written to data/cache.json")
+549:if __name__ == "__main__":
+550:    main()
