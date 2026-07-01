@@ -4,7 +4,6 @@ import math
 import time
 import requests
 from datetime import datetime, timedelta
-from zoneinfo import ZoneInfo
 
 FINNHUB_KEY = os.environ.get("FINNHUB_API_KEY")
 BASE_URL = "https://finnhub.io/api/v1"
@@ -21,20 +20,8 @@ SECTORS = {
         "PATH", "OKTA", "MDB", "WDAY", "FTNT", "TEAM", "NOW", "CRM"
     ],
     "Robotics": [
-        # Industrial / warehouse automation
-        "ROK", "ZBRA", "CGNX", "NOVT", "IPGP", "JBTM", "EMR", "HON", "TER",
-        # Humanoid / mobile robots
-        "ISRG", "SYM", "SERV", "AVAV",
-        # Vision, sensing, edge AI for robotics (BOTZ/ROBO holdings)
-        "AMBA", "KEYS",
-        # AI-driven robotics software / analytics
-        "BBAI", "PEGA",
-        # Humanoid enabler (physical AI platform)
-        "TSLA",
-        # Bottleneck / component play
-        "HSYDF",
-        # Subsea & defense ROVs (Oceaneering — ROBO/BOTZ-adjacent industrial robotics)
-        "OII",
+        "ISRG", "CGNX", "AVAV", "SYM", "PATH", "TER", "NOVT", "IPGP", "ROK",
+        "ZBRA", "KEYS", "SERV", "OLL", "HSYDF", "PEGA", "JBTM", "EMR", "HON"
     ],
     "Homebuilders": [
         "DHI", "LEN", "PHM", "NVR", "TOL", "KBH", "MDC", "MHO", "TMHC",
@@ -119,8 +106,7 @@ BOTTLENECKS = {
         "Harmonic/strain-wave reducers: HSYDF",
         "Rare-earth magnets: MP, LTHM",
         "Force/torque sensors: NOVT",
-        "Robot vision/LIDAR: CGNX, KEYS, AMBA",
-        "Subsea/defense ROVs: OII",
+        "Robot vision/LIDAR: CGNX, KEYS"
     ],
     "Nuclear Energy": [
         "Enriched uranium supply: CCJ, LEU",
@@ -213,12 +199,10 @@ def get_yfinance_data(ticker):
     try:
         import yfinance as yf
         stock = yf.Ticker(ticker)
-        hist = stock.history(period="2y", auto_adjust=True, back_adjust=True)
+        hist = stock.history(period="2y", auto_adjust=True)
         if hist.empty:
             return None
-        closes  = hist["Close"].tolist()
-        highs   = hist["High"].tolist()
-        lows    = hist["Low"].tolist()
+        closes = hist["Close"].tolist()
         volumes = hist["Volume"].tolist()
         if len(closes) > 10:
             price_min = min(closes)
@@ -227,13 +211,11 @@ def get_yfinance_data(ticker):
                 price_range_pct = (price_max - price_min) / price_min * 100
                 if price_range_pct > 500:
                     print(f"  ⚠ Extreme price range {price_range_pct:.0f}% — using 6 month window")
-                    hist_6m = stock.history(period="6mo", auto_adjust=True, back_adjust=True)
+                    hist_6m = stock.history(period="6mo", auto_adjust=True)
                     if not hist_6m.empty:
-                        closes  = hist_6m["Close"].tolist()
-                        highs   = hist_6m["High"].tolist()
-                        lows    = hist_6m["Low"].tolist()
+                        closes = hist_6m["Close"].tolist()
                         volumes = hist_6m["Volume"].tolist()
-        return {"closes": closes, "highs": highs, "lows": lows, "volumes": volumes}
+        return {"closes": closes, "volumes": volumes}
     except Exception as e:
         print(f"  yfinance error for {ticker}: {e}")
         return None
@@ -289,15 +271,32 @@ def process_ticker(ticker, sector):
     record = {
         "ticker": ticker,
         "sector": sector,
-        "updated": datetime.now(ZoneInfo("America/Los_Angeles")).isoformat(),
+        "updated": datetime.utcnow().isoformat()
     }
 
     quote = get_quote(ticker)
     if not quote or quote.get("c", 0) == 0:
         return None
     record["price"] = quote.get("c")
-    record["change_pct"] = round(quote.get("dp", 0), 2)
     record["prev_close"] = quote.get("pc")
+
+    # ── Cross-reference Finnhub's "dp" (percent change) against our own
+    # calculation from price/prev_close. Finnhub's dp field can be stale
+    # or wrong (e.g. HON showing -50.95% when actual move was ~-12%).
+    # When they disagree by more than 3%, trust the calculated value
+    # and flag the record so it can be reviewed.
+    finnhub_change_pct = round(quote.get("dp", 0), 2)
+    calc_change_pct = None
+    if record["price"] and record["prev_close"]:
+        calc_change_pct = round(
+            (record["price"] - record["prev_close"]) / record["prev_close"] * 100, 2)
+
+    if calc_change_pct is not None and abs(finnhub_change_pct - calc_change_pct) > 3:
+        print(f"  ⚠ change_pct mismatch: Finnhub dp={finnhub_change_pct} vs calculated={calc_change_pct} — using calculated")
+        record["change_pct"] = calc_change_pct
+        record["change_pct_flag"] = "finnhub_dp_mismatch"
+    else:
+        record["change_pct"] = finnhub_change_pct
 
     profile = get_company_profile(ticker)
     if profile and profile.get("name"):
@@ -336,18 +335,11 @@ def process_ticker(ticker, sector):
 
     yf_data = get_yfinance_data(ticker)
     if yf_data:
-        closes  = yf_data["closes"]
-        highs   = yf_data["highs"]
-        lows    = yf_data["lows"]
+        closes = yf_data["closes"]
         volumes = yf_data["volumes"]
         current_price = record.get("price", 0)
-        # Use last 252 trading days (~1 year) for 52W range.
-        # Use intraday High/Low columns (not Close) to match Yahoo Finance / Finviz.
-        highs_52w = highs[-252:] if len(highs) >= 252 else highs
-        lows_52w  = lows[-252:]  if len(lows)  >= 252 else lows
-        closes_52w = closes[-252:] if len(closes) >= 252 else closes
-        raw_low  = min(lows_52w)
-        raw_high = max(highs_52w)
+        raw_low = min(closes)
+        raw_high = max(closes)
 
         is_foreign_price_series = (
             current_price > 0 and (
@@ -539,7 +531,7 @@ def main():
 
     os.makedirs("data", exist_ok=True)
     cache = {
-        "generated": datetime.now(ZoneInfo("America/Los_Angeles")).strftime("%Y-%m-%d %I:%M %p PT"),
+        "generated": datetime.utcnow().isoformat(),
         "count": len(results),
         "stocks": results,
         "sector_summaries": sector_summaries,
@@ -560,6 +552,7 @@ def main():
     rsi_count = sum(1 for r in results if r.get("rsi14") is not None)
     low_count = sum(1 for r in results if r.get("low_52w") is not None)
     desc_count = sum(1 for r in results if r.get("description"))
+    flagged_count = sum(1 for r in results if r.get("change_pct_flag"))
 
     print(f"\n✓ {len(results)} stocks processed")
     print(f"✓ {rsi_count}/{len(results)} stocks have RSI data")
@@ -568,6 +561,7 @@ def main():
     print(f"✓ {len(sector_summaries)} sector summaries with news")
     print(f"✓ {len(overreaction)} overreaction candidates")
     print(f"✓ {len(near_lows)} stocks near 52W lows")
+    print(f"⚠ {flagged_count} stocks had Finnhub change_pct corrected")
     print(f"✗ {len(errors)} errors")
     print("Cache written to data/cache.json")
 
