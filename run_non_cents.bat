@@ -1,54 +1,31 @@
 @echo off
-echo ============================================================
-echo  NON-CENTS MARKET FILTER — Daily Update
-echo ============================================================
-
 cd /d C:\non-cents
 
-echo.
-echo [1/5] Copying watchlist queue (if downloaded from app)...
-if exist "C:\Users\jpadi\OneDrive\Desktop\Non-cents market filter\watchlist_queue.json" (
-    echo   + Found watchlist_queue.json — copying to data folder...
-    copy /Y "C:\Users\jpadi\OneDrive\Desktop\Non-cents market filter\watchlist_queue.json" C:\non-cents\data\watchlist_queue.json
-) else (
-    echo   (No watchlist_queue.json on Desktop — skipping)
-)
+set "LOGDIR=C:\non-cents\logs"
+if not exist "%LOGDIR%" mkdir "%LOGDIR%"
+set "LOGFILE=%LOGDIR%\update_%date:~-4%-%date:~4,2%-%date:~7,2%.log"
 
-echo.
-echo [2/5] Fetching market data (Finnhub + yfinance)...
-python scripts\fetch_data.py
+echo ============================================================ >> "%LOGFILE%"
+echo Run started: %date% %time% >> "%LOGFILE%"
+
+git commit -am "Pre-sync auto-commit %date% %time%" >> "%LOGFILE%" 2>&1
+
+python fetch_data.py >> "%LOGFILE%" 2>&1
 if errorlevel 1 (
-    echo ERROR: fetch_data.py failed. Check output above.
-    pause
-    exit /b 1
+    echo FETCH FAILED - skipping commit/push this run. >> "%LOGFILE%"
+    goto :end
 )
 
-echo.
-echo [3/5] Staging any local changes before sync...
-git add .
-git diff --cached --quiet || git commit -m "Pre-sync local changes %date%"
+git add fetch_data.py data\cache.json >> "%LOGFILE%" 2>&1
+git commit -m "Daily data update %date%" >> "%LOGFILE%" 2>&1
 
-echo.
-echo [4/5] Syncing with GitHub (pulling remote changes first)...
-git pull --rebase origin main
+git pull --rebase origin main >> "%LOGFILE%" 2>&1
 if errorlevel 1 (
-    echo ERROR: git pull failed. Check output above.
-    pause
-    exit /b 1
+    echo PULL/REBASE CONFLICT - resolve manually, then push. >> "%LOGFILE%"
+    goto :end
 )
+git push origin main >> "%LOGFILE%" 2>&1
 
-echo.
-echo [5/5] Staging, committing and pushing...
-git add .
-git commit -m "Daily data update %date%"
-git push
-if errorlevel 1 (
-    echo ERROR: git push failed. Check output above.
-    pause
-    exit /b 1
-)
-
-echo.
-echo ============================================================
-echo  DONE — Live at https://j2padill-maker.github.io/non-cents-market-filter
-echo ============================================================
+:end
+echo Run finished: %date% %time% >> "%LOGFILE%"
+echo. >> "%LOGFILE%"
