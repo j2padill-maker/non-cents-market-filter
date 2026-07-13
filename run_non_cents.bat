@@ -1,5 +1,6 @@
 @echo off
 cd /d C:\non-cents
+set "PYTHONIOENCODING=utf-8"
 
 set "LOGDIR=C:\non-cents\logs"
 if not exist "%LOGDIR%" mkdir "%LOGDIR%"
