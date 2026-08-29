@@ -1,17 +1,26 @@
-const CACHE = 'ncmf-v3';
+// Bump this on every index.html change, or installed PWAs keep serving the
+// old shell from the previous cache and your changes appear to do nothing.
+const CACHE = 'ncmf-v4';
 const ASSETS = [
   '/',
   '/index.html',
   '/data/cache.json',
+  '/data/watchlist.json',
   '/manifest.json',
   '/icons/icon-192.png',
   '/icons/icon-512.png'
 ];
 
-// Install — cache all core assets
+// Install — cache core assets individually. addAll() is all-or-nothing: one
+// missing file (a not-yet-committed watchlist.json, a renamed icon) aborts the
+// whole install and leaves the app with no service worker at all.
 self.addEventListener('install', e => {
   e.waitUntil(
-    caches.open(CACHE).then(c => c.addAll(ASSETS))
+    caches.open(CACHE).then(c =>
+      Promise.all(ASSETS.map(url =>
+        c.add(url).catch(err => console.warn('SW: skipped', url, err))
+      ))
+    )
   );
   self.skipWaiting();
 });
@@ -31,8 +40,9 @@ self.addEventListener('activate', e => {
 self.addEventListener('fetch', e => {
   const url = new URL(e.request.url);
 
-  // Always go network-first for data so prices stay current
-  if (url.pathname.endsWith('cache.json')) {
+  // Always go network-first for data so prices — and the watchlist the last
+  // fetch ran against — stay current.
+  if (url.pathname.endsWith('cache.json') || url.pathname.endsWith('watchlist.json')) {
     e.respondWith(
       fetch(e.request)
         .then(res => {

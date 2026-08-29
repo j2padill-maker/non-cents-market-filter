@@ -11,13 +11,13 @@ echo Run started: %date% %time% >> "%LOGFILE%"
 
 git commit -am "Pre-sync auto-commit %date% %time%" >> "%LOGFILE%" 2>&1
 
-python fetch_data.py >> "%LOGFILE%" 2>&1
+python scripts\fetch_data.py >> "%LOGFILE%" 2>&1
 if errorlevel 1 (
     echo FETCH FAILED - skipping commit/push this run. >> "%LOGFILE%"
     goto :end
 )
 
-git add fetch_data.py data\cache.json >> "%LOGFILE%" 2>&1
+git add scripts\fetch_data.py data\cache.json data\watchlist.json >> "%LOGFILE%" 2>&1
 git commit -m "Daily data update %date%" >> "%LOGFILE%" 2>&1
 
 git pull --rebase origin main >> "%LOGFILE%" 2>&1
