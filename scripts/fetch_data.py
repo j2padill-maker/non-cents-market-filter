@@ -280,7 +280,10 @@ def load_watchlist():
 
 
 SYMBOLS_FILE = "data/symbols.json"
-SYMBOLS_MAX_AGE_DAYS = 7
+# 30 days, not 7: the file is ~1 MB and is committed to the repo, so a
+# weekly rebuild would add ~50 MB of git history a year for a list that
+# barely changes. New listings show up within the month.
+SYMBOLS_MAX_AGE_DAYS = 30
 
 
 def refresh_symbols_if_stale():
