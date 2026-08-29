@@ -41,10 +41,20 @@ Worker → **Settings → Bindings → Add → KV namespace**.
 
 ## 4. Set the sync key
 
-Worker → **Settings → Variables and Secrets → Add → Secret**.
+Worker → **Settings** → **Runtime variables and secrets** → **+ Add variable**.
 
-- **Name:** `SYNC_KEY`  ← must be exactly this
+In the "Add environment variable" dialog:
+
+- **Key:** `SYNC_KEY`  ← must be exactly this
 - **Value:** a long random passphrase
+- **Tick the `Secret` checkbox** to the right of the Value field. (There is no
+  "type" dropdown — the checkbox is what makes it a secret rather than a plain
+  variable.)
+- The blue button changes from "Add 0 variables" to "Add 1 variable" — click it
+- Then **Deploy** to apply
+
+Once saved as a secret the value is write-only: you can overwrite it but never
+read it back. Save the key somewhere you can reach from your phone first.
 
 Generate one rather than inventing it. In Command Prompt:
 
