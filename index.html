@@ -539,6 +539,14 @@ td { padding:10px 14px; white-space:nowrap; }
   background:rgba(255,59,92,0.15);
   color:var(--red);
   border:1px solid rgba(255,59,92,0.3);
+  white-space:nowrap;
+}
+/* A slow 3-session slide is a softer signal than a single -6% session, so it
+   reads amber rather than red. */
+.drop-flag.drop-flag-slide {
+  background:rgba(255,204,0,0.12);
+  color:var(--yellow);
+  border-color:rgba(255,204,0,0.32);
 }
 .sort-asc::after { content:' ↑'; color:var(--accent); }
 .sort-desc::after { content:' ↓'; color:var(--accent); }
@@ -2277,7 +2285,7 @@ function wlTable(tickers, listId, showLists){
     const flags = [];
     if (s.pct_from_52w_low != null && s.pct_from_52w_low <= 5)
       flags.push('<span class="near-low-flag"></span>Near Low');
-    if (s.abrupt_drop_flag) flags.push('<span class="drop-flag">BIG DROP</span>');
+    if (s.abrupt_drop_flag) flags.push(dropBadge(s));
     if (isOverreaction(s)) flags.push('<span class="drop-flag">OVERREACTION</span>');
     html += `<tr onclick="showModal('${s.ticker}')" style="border-bottom:1px solid var(--border);cursor:pointer;transition:background 0.12s;" onmouseover="this.style.background='rgba(255,255,255,0.025)'" onmouseout="this.style.background=''">
       <td style="${td}"><span class="ticker-cell">${s.ticker}</span></td>
@@ -2411,6 +2419,28 @@ function sectorColor(s){
 }
 function isOverreaction(s){return(s.change_pct||0)<=-8&&(s.volume_ratio||0)>=2&&(s.rsi14||100)<=45&&(s.market_cap||0)>=2000;}
 
+/* BIG DROP badge. The flag means "down 6%+ within the last 3 sessions, either
+   in one session or combined across them" — so the badge has to say WHICH and
+   WHEN, or a stock that's up today looks mislabelled. That ambiguity is what
+   made the old 30-day flag so confusing. */
+function dropBadge(s){
+  if (!s.abrupt_drop_flag) return '';
+  const kind = s.drop_trigger;
+  const d1 = s.drop_worst_1d, ago = s.drop_worst_1d_days_ago, cum = s.drop_cum_3d;
+
+  // Prefer the single-session story when there is one — it's the sharper signal.
+  if ((kind === 'single' || kind === 'both') && d1 != null) {
+    const when = ago === 0 ? 'today' : ago === 1 ? '1d ago' : ago + 'd ago';
+    return `<span class="drop-flag" title="Fell ${fmt(d1)}% in one session, ${when}">`
+         + `BIG DROP ${fmt(d1)}% · ${when}</span>`;
+  }
+  if (kind === 'cumulative' && cum != null) {
+    return `<span class="drop-flag drop-flag-slide" title="Down ${fmt(cum)}% across the last 3 sessions, no single session past -6%">`
+         + `3D SLIDE ${fmt(cum)}%</span>`;
+  }
+  return '<span class="drop-flag">BIG DROP</span>';
+}
+
 /* ─── SCREENER ─── */
 function getFilteredStocks(){
   let s=[...allStocks];
@@ -2442,7 +2472,7 @@ function renderScreener(){
   tbody.innerHTML=stocks.map(s=>{
     const flags=[];
     if(s.pct_from_52w_low!=null&&s.pct_from_52w_low<=5) flags.push('<span class="near-low-flag"></span>Near Low');
-    if(s.abrupt_drop_flag) flags.push('<span class="drop-flag">BIG DROP</span>');
+    if(s.abrupt_drop_flag) flags.push(dropBadge(s));
     return`<tr onclick="showModal('${s.ticker}')">
       <td class="ticker-cell">${s.ticker}</td>
       <td><span class="sector-badge" style="border-color:${sectorColor(s.sector)}50;color:${sectorColor(s.sector)}">${s.sector}</span></td>
@@ -2669,7 +2699,13 @@ function showModal(ticker){
     </div>`:''}
     ${s.website?`<div style="margin-top:16px;"><a href="${s.website}" target="_blank" style="color:var(--accent);font-size:12px;text-decoration:none;">🌐 ${s.website}</a></div>`:''}
     ${s.news&&s.news.length?`<div style="margin-top:20px;"><div style="font-size:9px;color:var(--text3);text-transform:uppercase;letter-spacing:.1em;margin-bottom:8px;">📰 Recent News</div>${s.news.map(n=>`<div style="padding:10px 12px;background:var(--bg4);border-radius:7px;margin-bottom:6px;font-size:12px;border-left:3px solid var(--accent);box-shadow:0 2px 8px rgba(0,0,0,0.3)"><a href="${n.url}" target="_blank" style="color:var(--accent);text-decoration:none">${n.headline}</a></div>`).join('')}</div>`:''}
-    ${s.abrupt_drop_flag?`<div style="margin-top:16px;padding:12px 14px;background:rgba(255,59,92,0.08);border:1px solid rgba(255,59,92,0.25);border-radius:7px;font-size:12px;color:var(--red);box-shadow:0 0 16px rgba(255,59,92,0.08)">⚠️ Abrupt drop detected: worst single-day move in last 30 days was ${fmt(s.worst_day_30d)}%</div>`:''}`;
+    ${s.abrupt_drop_flag?`<div style="margin-top:16px;padding:12px 14px;background:rgba(255,59,92,0.08);border:1px solid rgba(255,59,92,0.25);border-radius:7px;font-size:12px;color:var(--red);box-shadow:0 0 16px rgba(255,59,92,0.08)">⚠️ <strong>Big drop</strong> — down 6%+ within the last 3 sessions.<br>
+      <span style="color:var(--text2);line-height:1.9;display:block;margin-top:6px">
+        ${s.drop_worst_1d!=null?`Worst single session: <strong>${fmt(s.drop_worst_1d)}%</strong> (${s.drop_worst_1d_days_ago===0?'today':s.drop_worst_1d_days_ago+' session(s) ago'})<br>`:''}
+        ${s.drop_cum_3d!=null?`Combined 3-session move: <strong>${fmt(s.drop_cum_3d)}%</strong><br>`:''}
+        ${s.drop_trigger==='cumulative'?`Triggered by the combined slide — no single session passed -6%.<br>`:''}
+        ${s.worst_day_30d!=null?`<span style="color:var(--text3);font-size:11px">Reference only — worst single day in 30 sessions: ${fmt(s.worst_day_30d)}%</span>`:''}
+      </span></div>`:''}`;
   document.getElementById('modal').classList.add('open');
   animateModalOpen();
 }

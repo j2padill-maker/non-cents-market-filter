@@ -285,6 +285,12 @@ SYMBOLS_FILE = "data/symbols.json"
 # barely changes. New listings show up within the month.
 SYMBOLS_MAX_AGE_DAYS = 30
 
+# ── BIG DROP thresholds ───────────────────────────────────────────────────────
+# A drop of 6% or worse within the last 3 trading sessions (~72 hours), counted
+# either as a single session or as the combined move across them.
+DROP_THRESHOLD = -6.0
+DROP_SESSIONS = 3
+
 
 def refresh_symbols_if_stale():
     """
@@ -579,14 +585,56 @@ def process_ticker(ticker, sector, force_news=False):
         if len(closes) >= 50:
             record["ma50"] = round(sum(closes[-50:]) / 50, 2)
 
+        # ── BIG DROP ────────────────────────────────────────────────────────
+        # Fires on a drop of DROP_THRESHOLD% or worse inside the last
+        # DROP_SESSIONS trading sessions — EITHER in a single session, OR as a
+        # combined slide across them. A stock that falls 3%, 2%, 2% never has a
+        # headline down-day but is still down 7%, and that's the setup worth
+        # seeing.
+        #
+        # The old rule scanned 30 days for a single -8% day, which meant 46 of
+        # 49 flagged names were flagged on a drop weeks old — several of them
+        # up on the day they were flagged.
+        sessions = closes[-(DROP_SESSIONS + 1):]
+        daily = []
+        for i in range(1, len(sessions)):
+            prev = sessions[i - 1]
+            if prev:
+                daily.append((sessions[i] - prev) / prev * 100)
+
+        if daily:
+            worst = min(daily)
+            # 0 = most recent session, 1 = the one before it, and so on.
+            days_ago = (len(daily) - 1) - daily.index(worst)
+            cum = ((sessions[-1] - sessions[0]) / sessions[0] * 100) if sessions[0] else 0.0
+
+            single_hit = worst <= DROP_THRESHOLD
+            cum_hit = cum <= DROP_THRESHOLD
+
+            record["drop_worst_1d"] = round(worst, 2)
+            record["drop_worst_1d_days_ago"] = days_ago
+            record["drop_cum_3d"] = round(cum, 2)
+            record["abrupt_drop_flag"] = single_hit or cum_hit
+            record["drop_trigger"] = (
+                "both" if single_hit and cum_hit
+                else "single" if single_hit
+                else "cumulative" if cum_hit
+                else None
+            )
+        else:
+            record["abrupt_drop_flag"] = False
+            record["drop_trigger"] = None
+
+        # Kept for reference in the detail view — not what drives the flag.
         recent = closes[-31:]
         worst_day = 0
         for i in range(1, len(recent)):
-            pct = (recent[i] - recent[i-1]) / recent[i-1] * 100
-            if pct < worst_day:
-                worst_day = pct
+            prev = recent[i - 1]
+            if prev:
+                pct = (recent[i] - prev) / prev * 100
+                if pct < worst_day:
+                    worst_day = pct
         record["worst_day_30d"] = round(worst_day, 2)
-        record["abrupt_drop_flag"] = worst_day <= -8
 
     else:
         fins = get_basic_financials(ticker)
