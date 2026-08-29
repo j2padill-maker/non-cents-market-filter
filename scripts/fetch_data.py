@@ -1,4 +1,5 @@
 import os
+import sys
 import json
 import math
 import time
@@ -206,6 +207,43 @@ def load_watchlist():
     for lst in clean_lists:
         print(f"    · {lst['name']}: {len(lst['tickers'])} ticker(s)")
     return clean_lists, ticker_to_lists
+
+
+SYMBOLS_FILE = "data/symbols.json"
+SYMBOLS_MAX_AGE_DAYS = 7
+
+
+def refresh_symbols_if_stale():
+    """
+    Rebuild data/symbols.json when it's missing or older than a week.
+
+    The browser searches this file to validate tickers and to look companies up
+    by name, so it has to exist — but it changes slowly, and rebuilding it every
+    night would waste a call for nothing.
+    """
+    import subprocess
+
+    needs_build = True
+    if os.path.exists(SYMBOLS_FILE):
+        age_days = (time.time() - os.path.getmtime(SYMBOLS_FILE)) / 86400
+        if age_days < SYMBOLS_MAX_AGE_DAYS:
+            print(f"  Symbol index is {age_days:.1f} days old — still fresh.")
+            needs_build = False
+        else:
+            print(f"  Symbol index is {age_days:.1f} days old — rebuilding.")
+    else:
+        print("  No symbol index yet — building it.")
+
+    if not needs_build:
+        return
+
+    script = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                          "build_symbols.py")
+    result = subprocess.run([sys.executable, script], capture_output=True, text=True)
+    if result.returncode == 0:
+        print("  ✓ Symbol index rebuilt.")
+    else:
+        print(f"  ⚠ Symbol index build failed: {result.stderr.strip()[-200:]}")
 
 
 # ── FINNHUB API ───────────────────────────────────────────────────────────────
@@ -584,6 +622,14 @@ def main():
 
     print("\nLoading watchlist...")
     wl_lists, ticker_to_lists = load_watchlist()
+
+    # Keep the browser-side symbol index fresh. One API call, and only when the
+    # file is missing or over a week old. Wrapped because a stale symbol index
+    # is a minor inconvenience — a failed market-data run is not.
+    try:
+        refresh_symbols_if_stale()
+    except Exception as e:
+        print(f"  ⚠ Symbol index refresh skipped: {e}")
 
     seen = {}
     for sector, tickers in SECTORS.items():

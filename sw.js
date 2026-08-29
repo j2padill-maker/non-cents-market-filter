@@ -1,6 +1,6 @@
 // Bump this on every index.html change, or installed PWAs keep serving the
 // old shell from the previous cache and your changes appear to do nothing.
-const CACHE = 'ncmf-v4';
+const CACHE = 'ncmf-v5';
 const ASSETS = [
   '/',
   '/index.html',
@@ -51,6 +51,23 @@ self.addEventListener('fetch', e => {
           return res;
         })
         .catch(() => caches.match(e.request))
+    );
+    return;
+  }
+
+  // symbols.json is large and changes about weekly. Serve the cached copy
+  // immediately (instant autocomplete, works offline) and refresh it in the
+  // background for next time — network-first would re-download it on every load.
+  if (url.pathname.endsWith('symbols.json')) {
+    e.respondWith(
+      caches.open(CACHE).then(c =>
+        c.match(e.request).then(cached => {
+          const fresh = fetch(e.request)
+            .then(res => { c.put(e.request, res.clone()); return res; })
+            .catch(() => cached);
+          return cached || fresh;
+        })
+      )
     );
     return;
   }

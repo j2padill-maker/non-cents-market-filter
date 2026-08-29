@@ -1049,6 +1049,24 @@ td { padding:10px 14px; white-space:nowrap; }
 }
 .wl-select:focus { outline:none; border-color:var(--accent); }
 
+/* ─── SYMBOL SUGGESTIONS ─── */
+.wl-suggest {
+  display:inline-flex; align-items:baseline; gap:6px;
+  padding:4px 10px;
+  background:linear-gradient(135deg, var(--bg4), var(--bg3));
+  border:1px solid var(--border); border-radius:5px;
+  color:var(--text2); cursor:pointer;
+  font-family:var(--font-mono); font-size:11px;
+  transition:all 0.15s; max-width:260px;
+}
+.wl-suggest:hover { border-color:var(--accent); color:var(--accent); transform:translateY(-1px); }
+.wl-suggest strong { font-size:12px; letter-spacing:0.04em; }
+.wl-suggest span {
+  color:var(--text3); font-size:10px;
+  overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+}
+.wl-suggest:hover span { color:var(--text2); }
+
 /* ─── SECTION HEADINGS ─── */
 .panel-heading {
   font-family:var(--font-display);
@@ -1315,15 +1333,18 @@ td { padding:10px 14px; white-space:nowrap; }
     <div style="display:flex;gap:8px;align-items:center;margin-bottom:8px;flex-wrap:wrap;">
       <div class="search-wrap">
         <span>⭐</span>
-        <input id="watchlist-input" class="search-input" type="text" placeholder="Enter ticker (e.g. AAPL)"
-          style="text-transform:uppercase;width:240px;"
+        <input id="watchlist-input" class="search-input" type="text" placeholder="Ticker or company name (e.g. MDB or Terra Drone)"
+          style="text-transform:uppercase;width:320px;"
+          autocomplete="off"
           onkeydown="if(event.key==='Enter')wlAdd()"
-          oninput="this.value=this.value.toUpperCase()">
+          oninput="this.value=this.value.toUpperCase();symOnInput()"
+          onfocus="symLoad()">
       </div>
       <span style="font-size:11px;color:var(--text3);letter-spacing:0.06em;">TO</span>
       <select id="wl-target" class="wl-select" title="Which list to add this ticker to"></select>
       <button onclick="wlAdd()" class="btn-add">+ ADD</button>
     </div>
+    <div id="wl-symbol-status" style="min-height:18px;margin-bottom:6px;line-height:1.7;"></div>
     <div id="wl-msg" style="font-size:11px;color:var(--red);min-height:16px;margin-bottom:16px;"></div>
 
     <!-- Sync state: is the committed watchlist.json in step with this device? -->
@@ -1567,6 +1588,122 @@ function wlNormTicker(raw){
   return String(raw).trim().toUpperCase().replace(/[^A-Z0-9.\-]/g,'');
 }
 
+/* ═══════════════════════════════════════════════════════════════════════
+   SYMBOL INDEX
+
+   data/symbols.json is a static, key-free list of tradable US symbols built
+   server-side by scripts/build_symbols.py. It exists so you can find out
+   whether a symbol is real — and look a company up BY NAME — at the moment you
+   type it, instead of 30 minutes later when a fetch finishes.
+
+   Loaded lazily on first use: it's a few hundred KB and most visits never
+   touch the watchlist tab. Everything below degrades to "no validation,
+   add anything" if the file is missing.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+let symIndex = null;        // {map: Map(ticker -> [sym,name,type]), rows: [...]}
+let symLoadState = 'idle';  // idle | loading | ready | failed
+
+async function symLoad(){
+  if (symLoadState === 'ready' || symLoadState === 'loading') return;
+  symLoadState = 'loading';
+  symRenderStatus();
+  try {
+    const res = await fetch('data/symbols.json');
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    const types = data.types || [];
+    const rows = (data.symbols || []).map(r => ({
+      sym: r[0], name: r[1] || '', type: types[r[2]] || ''
+    }));
+    const map = new Map(rows.map(r => [r.sym, r]));
+    symIndex = { rows, map, generated: data.generated };
+    symLoadState = 'ready';
+    console.log(`Symbol index: ${rows.length} symbols`);
+  } catch(e) {
+    symLoadState = 'failed';
+    console.warn('Symbol index unavailable — ticker validation is off.', e);
+  }
+  symRenderStatus();
+}
+
+function symLookup(ticker){
+  return symIndex ? (symIndex.map.get(ticker) || null) : null;
+}
+
+/* Ranked search over ticker AND company name, so "terra drone" finds TRDCF
+   even when you don't know the symbol. Exact ticker first, then ticker
+   prefix, then name matches. */
+function symSearch(query, limit = 8){
+  if (!symIndex || !query) return [];
+  const q = query.trim().toUpperCase();
+  if (q.length < 2) return [];
+  const exact = [], prefix = [], nameHit = [];
+  for (const r of symIndex.rows) {
+    if (r.sym === q) { exact.push(r); continue; }
+    if (r.sym.startsWith(q)) { if (prefix.length < 40) prefix.push(r); continue; }
+    if (r.name && r.name.toUpperCase().includes(q)) { if (nameHit.length < 40) nameHit.push(r); }
+  }
+  const shorter = (a,b) => a.sym.length - b.sym.length;
+  prefix.sort(shorter);
+  nameHit.sort(shorter);
+  return [...exact, ...prefix, ...nameHit].slice(0, limit);
+}
+
+/* Live feedback under the input as you type. Warns, never blocks — a symbol
+   missing from the index can still be real and thinly covered. */
+function symRenderStatus(){
+  const el = document.getElementById('wl-symbol-status');
+  const inp = document.getElementById('watchlist-input');
+  if (!el || !inp) return;
+  const raw = inp.value.trim();
+
+  if (!raw) { el.innerHTML = ''; return; }
+  if (symLoadState === 'loading') {
+    el.innerHTML = '<span style="color:var(--text3);font-size:11px;">Loading symbol index…</span>';
+    return;
+  }
+  if (symLoadState === 'failed') {
+    el.innerHTML = '<span style="color:var(--text3);font-size:11px;">Symbol index unavailable — add anything; it will be checked on the next fetch.</span>';
+    return;
+  }
+  if (symLoadState !== 'ready') { el.innerHTML = ''; return; }
+
+  const t = wlNormTicker(raw);
+  const hit = symLookup(t);
+  if (hit) {
+    el.innerHTML = `<span style="color:var(--accent);font-size:11px;">✓ <strong>${wlEsc(hit.sym)}</strong> — ${wlEsc(hit.name)}${hit.type?` <span style="color:var(--text3)">(${wlEsc(hit.type)})</span>`:''}</span>`;
+    return;
+  }
+
+  // No exact match — offer what we can find by ticker prefix or company name.
+  const matches = symSearch(raw);
+  let html = `<span style="color:var(--yellow);font-size:11px;">⚠ <strong>${wlEsc(t)}</strong> isn't in the symbol index. You can still add it — it may be valid but thinly covered.</span>`;
+  if (matches.length) {
+    html += `<div style="margin-top:7px;display:flex;flex-wrap:wrap;gap:6px;align-items:center;">
+      <span style="font-size:10px;color:var(--text3);letter-spacing:0.06em;">DID YOU MEAN</span>`;
+    matches.forEach(m => {
+      html += `<button type="button" class="wl-suggest" onclick="symPick('${wlEsc(m.sym)}')" title="${wlEsc(m.name)}">
+        <strong>${wlEsc(m.sym)}</strong><span>${wlEsc(m.name.slice(0,28))}${m.name.length>28?'…':''}</span></button>`;
+    });
+    html += `</div>`;
+  }
+  el.innerHTML = html;
+}
+
+function symPick(sym){
+  const inp = document.getElementById('watchlist-input');
+  inp.value = sym;
+  symRenderStatus();
+  inp.focus();
+}
+
+/* Called from the input's oninput. Kicks off the lazy load on first keystroke. */
+function symOnInput(){
+  if (symLoadState === 'idle') symLoad();
+  symRenderStatus();
+}
+
 /* ─── PERSISTENCE ─── */
 function wlLoad(){
   let stored = null;
@@ -1705,10 +1842,14 @@ function wlAdd(){
   // Say what will happen next, so a ticker that shows no data isn't mistaken
   // for a broken feature.
   const status = wlTickerStatus(t);
-  if (status === 'live')        wlMsg(t + ' added to "' + list.name + '".', false);
-  else if (status === 'nodata') wlMsg(t + ' added, but the last fetch found no data for it.');
-  else                          wlMsg(t + ' added — export watchlist.json and push to fetch its data.', false);
+  const hit = symLookup(t);
+  const label = hit ? `${t} (${hit.name})` : t;
+  if (status === 'live')        wlMsg(label + ' added to "' + list.name + '".', false);
+  else if (status === 'nodata') wlMsg(label + ' added, but the last fetch found no data for it.');
+  else if (hit)                 wlMsg(label + ' added — export watchlist.json and push to fetch its data.', false);
+  else                          wlMsg(t + ' added, but it is not in the symbol index — it may return no data.');
 
+  document.getElementById('wl-symbol-status').innerHTML = '';
   renderWatchlist();
 }
 function wlRemove(ticker, listId){
@@ -1898,11 +2039,19 @@ function wlTable(tickers, listId, showLists){
       <th style="${th}">% FROM LOW</th>
       <th style="${th}">MKT CAP</th>
       <th style="${th}">P/E</th>
+      <th style="${th}">FLAGS</th>
       <th style="${th}"></th>
     </tr></thead><tbody>`;
 
   stocks.forEach(s => {
     const color = sectorColor(s.sector);
+    // Same flag logic the screener uses, so a watchlist row carries every
+    // signal the main table would show for the same stock.
+    const flags = [];
+    if (s.pct_from_52w_low != null && s.pct_from_52w_low <= 5)
+      flags.push('<span class="near-low-flag"></span>Near Low');
+    if (s.abrupt_drop_flag) flags.push('<span class="drop-flag">BIG DROP</span>');
+    if (isOverreaction(s)) flags.push('<span class="drop-flag">OVERREACTION</span>');
     html += `<tr onclick="showModal('${s.ticker}')" style="border-bottom:1px solid var(--border);cursor:pointer;transition:background 0.12s;" onmouseover="this.style.background='rgba(255,255,255,0.025)'" onmouseout="this.style.background=''">
       <td style="${td}"><span class="ticker-cell">${s.ticker}</span></td>
       <td style="${td}"><span class="sector-badge" style="border-color:${color}50;color:${color}">${wlEsc(s.sector)}</span></td>
@@ -1915,6 +2064,7 @@ function wlTable(tickers, listId, showLists){
       <td style="${td}" class="${s.pct_from_52w_low!=null&&s.pct_from_52w_low<=5?'pct-down':'pct-neutral'}">${fmt(s.pct_from_52w_low)}%</td>
       <td style="${td}">${fmtCap(s.market_cap)}</td>
       <td style="${td}">${fmt(s.pe_ratio,1)}</td>
+      <td style="${td}">${flags.join(' ') || '—'}</td>
       <td style="${td}"><button onclick="event.stopPropagation();wlRemove('${s.ticker}'${listId?",'"+listId+"'":''})" class="wl-icon-btn danger" title="${listId?'Remove from this list':'Remove from all lists'}">✕</button></td>
     </tr>`;
   });
