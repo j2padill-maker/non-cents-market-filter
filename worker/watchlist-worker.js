@@ -90,14 +90,53 @@ async function readState(env) {
 
 export default {
   async fetch(request, env) {
+    // Everything runs inside a try so a thrown error still comes back as JSON
+    // WITH CORS headers. Without this, an unbound KV namespace throws,
+    // Cloudflare returns its own error page with no CORS headers, and the
+    // browser reports a meaningless "network error" — which tells you nothing
+    // about the actual cause.
+    try {
+      return await handle(request, env);
+    } catch (err) {
+      return json(
+        {
+          error: 'worker_exception',
+          message: String(err && err.message || err),
+          hint: /WATCHLIST_KV|undefined/i.test(String(err))
+            ? 'Most likely the KV namespace is not bound. Worker → Bindings → Add → KV namespace, variable name WATCHLIST_KV.'
+            : 'Check the Worker logs in the Cloudflare dashboard.',
+        },
+        500,
+        request
+      );
+    }
+  },
+};
+
+async function handle(request, env) {
+  {
     const url = new URL(request.url);
 
     if (request.method === 'OPTIONS') {
       return new Response(null, { status: 204, headers: corsHeaders(request) });
     }
 
+    // Self-diagnosing health check. Reports WHETHER each piece is wired up,
+    // never what any secret contains — so it's safe to hit from anywhere and
+    // it answers the two questions that actually go wrong during setup.
     if (url.pathname === '/health') {
-      return json({ ok: true }, 200, request);
+      const kvBound = Boolean(env.WATCHLIST_KV && typeof env.WATCHLIST_KV.get === 'function');
+      const keySet = Boolean(env.SYNC_KEY);
+      return json({
+        ok: kvBound && keySet,
+        kvBound,
+        secretSet: keySet,
+        hint: kvBound && keySet
+          ? 'Both bindings present.'
+          : (!kvBound
+              ? 'KV binding missing. Worker → Bindings → Add → KV namespace, variable name WATCHLIST_KV.'
+              : 'SYNC_KEY secret missing. Worker → Settings → Runtime variables and secrets.'),
+      }, 200, request);
     }
 
     if (!env.SYNC_KEY) {
@@ -148,5 +187,5 @@ export default {
     }
 
     return json({ error: 'Method not allowed.' }, 405, request);
-  },
-};
+  }
+}
