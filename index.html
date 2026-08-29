@@ -1067,6 +1067,16 @@ td { padding:10px 14px; white-space:nowrap; }
 }
 .wl-suggest:hover span { color:var(--text2); }
 
+/* ─── SYNC STATUS PILL ─── */
+.wl-sync-pill {
+  display:inline-flex; align-items:center; gap:6px;
+  padding:6px 12px;
+  background:var(--bg3); border:1px solid var(--border); border-radius:7px;
+  color:var(--text3); font-family:var(--font-mono); font-size:11px;
+  letter-spacing:0.04em; transition:all 0.15s;
+}
+.wl-sync-pill[onclick]:hover { border-color:var(--yellow); color:var(--yellow); }
+
 /* ─── SECTION HEADINGS ─── */
 .panel-heading {
   font-family:var(--font-display);
@@ -1750,6 +1760,222 @@ function wlLoad(){
 function wlSave(){
   try { localStorage.setItem(WL_KEY, JSON.stringify(wlData)); }
   catch(e){ console.warn('Could not save watchlists:', e); }
+  // Every mutation funnels through here, so this is the one place that needs
+  // to know a change happened. Suppressed while we're applying a change that
+  // came FROM the server, or we'd echo it straight back.
+  if (!syncSuppress) syncPushSoon();
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   CROSS-DEVICE SYNC  (Cloudflare Worker + KV)
+
+   localStorage is per-device by definition: the phone and the laptop each
+   keep a private copy that never meets the other. A static site can't write
+   to itself, so genuine two-way sync needs somewhere shared to put the data.
+   That's the Worker — it owns the canonical list; devices read and write it.
+
+   Everything here is optional. With no data/sync-config.json, or no sync key
+   entered on this device, the app behaves exactly as it did before: local
+   lists plus manual export. Sync failures never block adding a ticker.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+const SYNC_CFG_PATH  = 'data/sync-config.json';
+const SYNC_KEY_STORE = 'ncmf_sync_key';
+const SYNC_POLL_MS   = 25000;   // how often to check for another device's edits
+const SYNC_DEBOUNCE  = 900;     // coalesce rapid edits into one write
+
+let syncUrl = null;
+let syncKey = null;
+let syncRev = 0;                // last server revision this device has seen
+let syncState = 'off';          // off | needkey | idle | syncing | error | conflict
+let syncNote = '';
+let syncSuppress = false;       // true while applying a server change locally
+let syncPushTimer = null;
+let syncPollTimer = null;
+
+function syncSet(state, note){
+  syncState = state;
+  syncNote = note || '';
+  const el = document.getElementById('wl-sync-pill');
+  if (el) el.outerHTML = syncPill();
+}
+
+function syncPill(){
+  const map = {
+    off:      ['var(--text3)', '○', 'Local only'],
+    needkey:  ['var(--yellow)', '🔑', 'Connect sync'],
+    idle:     ['var(--accent)', '●', 'Synced'],
+    syncing:  ['var(--text2)', '◐', 'Syncing…'],
+    error:    ['var(--red)', '⚠', 'Sync error'],
+    conflict: ['var(--yellow)', '⚠', 'Merged'],
+  };
+  const [color, icon, label] = map[syncState] || map.off;
+  const click = (syncState === 'needkey' || syncState === 'error' || syncState === 'off')
+    ? ' onclick="syncPromptKey()" style="cursor:pointer;"' : '';
+  return `<button type="button" id="wl-sync-pill" class="wl-sync-pill"${click}
+    title="${wlEsc(syncNote || label)}"><span style="color:${color}">${icon}</span>${label}</button>`;
+}
+
+async function syncInit(){
+  try {
+    const res = await fetch(SYNC_CFG_PATH + '?t=' + Date.now());
+    if (res.ok) {
+      const cfg = await res.json();
+      syncUrl = (cfg.url || '').replace(/\/+$/, '') || null;
+    }
+  } catch(e) { /* no config file = sync simply off */ }
+
+  if (!syncUrl) { syncSet('off', 'No sync endpoint configured'); return; }
+
+  try { syncKey = localStorage.getItem(SYNC_KEY_STORE) || null; } catch(e) {}
+  if (!syncKey) { syncSet('needkey', 'Enter your sync key to share lists across devices'); return; }
+
+  await syncPull();
+  syncStartPolling();
+}
+
+function syncStartPolling(){
+  if (syncPollTimer) clearInterval(syncPollTimer);
+  syncPollTimer = setInterval(() => {
+    // Only poll when the page is actually being looked at.
+    if (!document.hidden) syncPull();
+  }, SYNC_POLL_MS);
+  // Coming back to the tab is the moment you're most likely to be stale.
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) syncPull(); });
+  window.addEventListener('focus', () => syncPull());
+}
+
+function syncHeaders(){
+  return { 'Content-Type': 'application/json', 'X-Sync-Key': syncKey };
+}
+
+async function syncPull(){
+  if (!syncUrl || !syncKey) return;
+  try {
+    const res = await fetch(syncUrl + '/watchlist', { headers: syncHeaders() });
+    if (res.status === 401) { syncSet('needkey', 'Sync key rejected'); return; }
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const remote = await res.json();
+
+    if (remote.rev > syncRev) {
+      const before = wlFingerprint(wlData.lists);
+      syncApplyRemote(remote);
+      const after = wlFingerprint(wlData.lists);
+      if (before !== after) {
+        wlMsg('Watchlists updated from another device.', false);
+        renderWatchlist();
+      }
+    }
+    syncRev = remote.rev;
+    syncSet('idle', 'Last synced ' + new Date().toLocaleTimeString());
+  } catch(e) {
+    syncSet('error', 'Could not reach sync: ' + e.message);
+  }
+}
+
+/* Replace local lists with the server's, keeping ids stable where the name
+   matches so the active-list selection survives a refresh. */
+function syncApplyRemote(remote){
+  const byName = new Map(wlData.lists.map(l => [l.name, l]));
+  syncSuppress = true;
+  wlData.lists = (remote.lists || []).map(l => ({
+    id: (byName.get(l.name) || {}).id || wlNewId(),
+    name: l.name,
+    tickers: [...new Set((l.tickers || []).map(wlNormTicker).filter(Boolean))],
+  }));
+  if (wlData.activeId !== WL_ALL && !wlFindList(wlData.activeId)) wlData.activeId = WL_ALL;
+  wlSave();
+  syncSuppress = false;
+}
+
+function syncPushSoon(){
+  if (!syncUrl || !syncKey) return;
+  clearTimeout(syncPushTimer);
+  syncPushTimer = setTimeout(syncPush, SYNC_DEBOUNCE);
+}
+
+async function syncPush(retrying){
+  if (!syncUrl || !syncKey) return;
+  syncSet('syncing');
+  const payload = {
+    baseRev: syncRev,
+    lists: wlData.lists.map(l => ({ name: l.name, tickers: [...l.tickers] })),
+  };
+  try {
+    const res = await fetch(syncUrl + '/watchlist', {
+      method: 'PUT', headers: syncHeaders(), body: JSON.stringify(payload),
+    });
+
+    if (res.status === 401) { syncSet('needkey', 'Sync key rejected'); return; }
+
+    if (res.status === 409) {
+      // Another device saved first. Union the two rather than picking a winner
+      // — losing a ticker you just added is the worst possible outcome here.
+      const server = await res.json();
+      syncMergeFrom(server);
+      syncRev = server.rev;
+      renderWatchlist();
+      if (!retrying) { await syncPush(true); return; }
+      syncSet('conflict', 'Merged changes from another device');
+      return;
+    }
+
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const saved = await res.json();
+    syncRev = saved.rev;
+    syncSet('idle', 'Saved ' + new Date().toLocaleTimeString());
+  } catch(e) {
+    syncSet('error', 'Could not save to sync: ' + e.message);
+  }
+}
+
+/* Union merge: every list name from both sides, every ticker from both sides.
+   A deletion made on one device while the other was offline can come back —
+   that's the deliberate trade for never silently dropping an addition. */
+function syncMergeFrom(server){
+  const merged = new Map();
+  for (const l of wlData.lists) merged.set(l.name, new Set(l.tickers));
+  for (const l of (server.lists || [])) {
+    if (!merged.has(l.name)) merged.set(l.name, new Set());
+    for (const t of (l.tickers || [])) merged.get(l.name).add(wlNormTicker(t));
+  }
+  syncSuppress = true;
+  const byName = new Map(wlData.lists.map(l => [l.name, l]));
+  wlData.lists = [...merged.entries()].map(([name, set]) => ({
+    id: (byName.get(name) || {}).id || wlNewId(),
+    name,
+    tickers: [...set].filter(Boolean),
+  }));
+  wlSave();
+  syncSuppress = false;
+}
+
+function syncPromptKey(){
+  if (!syncUrl) {
+    wlMsg('No sync endpoint configured — see worker/README.md to set one up.');
+    return;
+  }
+  const entered = prompt(
+    'Enter your sync key.\n\n' +
+    'This is the SYNC_KEY secret you set on the Cloudflare Worker. ' +
+    'It is stored on this device only and lets it share watchlists with your other devices.',
+    ''
+  );
+  if (entered === null) return;
+  const k = entered.trim();
+  if (!k) { wlMsg('Sync key cannot be blank.'); return; }
+  syncKey = k;
+  try { localStorage.setItem(SYNC_KEY_STORE, k); } catch(e) {}
+  syncRev = 0;
+  syncSet('syncing');
+  syncPull().then(() => {
+    if (syncState === 'idle') {
+      // First connect from a device that already had local lists: push them up
+      // so nothing is lost, merging with whatever is already there.
+      if (wlData.lists.some(l => l.tickers.length)) syncPush();
+      syncStartPolling();
+    }
+  });
 }
 
 /* ─── QUERIES ─── */
@@ -1942,6 +2168,7 @@ function wlRenderListBar(){
   });
   html += `<button class="wl-new-list" onclick="wlCreateList()">+ NEW LIST</button>`;
   html += `<div style="flex:1"></div>`;
+  html += syncPill();
   html += `<button class="wl-icon-btn" onclick="wlImportFromRepo()" title="Replace local lists with data/watchlist.json">⬆ LOAD FROM REPO</button>`;
   bar.innerHTML = html;
 
@@ -2569,6 +2796,9 @@ if(window.matchMedia('(pointer:fine)').matches){
    populated even if the cache fetch fails. */
 wlLoad();
 loadData();
+/* Sync last: it depends on the lists being loaded, and it must never delay
+   the screener rendering. */
+syncInit();
 </script>
 
 <script>

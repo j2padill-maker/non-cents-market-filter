@@ -150,9 +150,60 @@ def normalize_ticker(raw):
     return t if 1 <= len(t) <= 8 else ""
 
 
+SYNC_CONFIG_FILE = "data/sync-config.json"
+
+
+def fetch_watchlist_from_sync():
+    """
+    Pull the canonical watchlist from the Cloudflare Worker, if one is set up.
+
+    Without this the sync would be cosmetic: your phone and laptop would agree
+    with each other, but the nightly job would still read a stale file and
+    never fetch the ticker you added on the couch.
+
+    Returns the parsed payload, or None when sync isn't configured/reachable —
+    in which case the caller falls back to data/watchlist.json.
+    """
+    if not os.path.exists(SYNC_CONFIG_FILE):
+        return None
+    try:
+        with open(SYNC_CONFIG_FILE) as f:
+            url = (json.load(f).get("url") or "").rstrip("/")
+    except Exception as e:
+        print(f"  ⚠ Could not read {SYNC_CONFIG_FILE}: {e}")
+        return None
+    if not url:
+        return None
+
+    key = os.environ.get("SYNC_KEY")
+    if not key:
+        print("  ⚠ Sync endpoint configured but SYNC_KEY is not set — using the local file.")
+        return None
+
+    try:
+        r = requests.get(f"{url}/watchlist", headers={"X-Sync-Key": key}, timeout=15)
+        if r.status_code == 401:
+            print("  ⚠ Sync rejected the key — using the local file.")
+            return None
+        if r.status_code != 200:
+            print(f"  ⚠ Sync returned HTTP {r.status_code} — using the local file.")
+            return None
+        data = r.json()
+        print(f"  ✓ Pulled watchlist from sync (revision {data.get('rev')})")
+        return data
+    except Exception as e:
+        print(f"  ⚠ Sync unreachable ({e}) — using the local file.")
+        return None
+
+
 def load_watchlist():
     """
-    Read data/watchlist.json, written by the app's Watchlist tab.
+    Read the watchlist — from the sync Worker when configured, otherwise from
+    data/watchlist.json.
+
+    When sync answers, its copy is written back to data/watchlist.json so the
+    repo always holds a readable snapshot of what the run actually fetched, and
+    so the app still works if the Worker is ever taken down.
 
     Expected shape:
         {"version": 1,
@@ -166,16 +217,35 @@ def load_watchlist():
 
     A missing or malformed file is NOT fatal: the core universe still fetches.
     """
-    if not os.path.exists(WATCHLIST_FILE):
-        print(f"  No {WATCHLIST_FILE} found — core universe only.")
-        return [], {}
+    data = fetch_watchlist_from_sync()
 
-    try:
-        with open(WATCHLIST_FILE) as f:
-            data = json.load(f)
-    except Exception as e:
-        print(f"  ⚠ Could not parse {WATCHLIST_FILE}: {e} — core universe only.")
-        return [], {}
+    if data is not None:
+        # Mirror the live copy into the repo so the committed file always shows
+        # what this run actually used.
+        try:
+            os.makedirs("data", exist_ok=True)
+            snapshot = {
+                "version": 1,
+                "updated": data.get("updated") or datetime.now(
+                    ZoneInfo("America/Los_Angeles")).isoformat(),
+                "rev": data.get("rev"),
+                "source": "sync",
+                "lists": data.get("lists") or [],
+            }
+            with open(WATCHLIST_FILE, "w") as f:
+                json.dump(snapshot, f, indent=2)
+        except Exception as e:
+            print(f"  ⚠ Could not mirror the synced watchlist to disk: {e}")
+    else:
+        if not os.path.exists(WATCHLIST_FILE):
+            print(f"  No {WATCHLIST_FILE} found — core universe only.")
+            return [], {}
+        try:
+            with open(WATCHLIST_FILE) as f:
+                data = json.load(f)
+        except Exception as e:
+            print(f"  ⚠ Could not parse {WATCHLIST_FILE}: {e} — core universe only.")
+            return [], {}
 
     raw_lists = data.get("lists") or []
     if not isinstance(raw_lists, list):
