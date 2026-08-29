@@ -94,10 +94,18 @@ try {
             Write-Host '       you have saved, then Deploy. Watch for stray spaces.'
         }
         500 {
-            Write-Host 'VERDICT: The Worker errored - almost always a missing KV binding.'
-            Write-Host '  Fix: Cloudflare -> Worker -> Bindings tab -> Add binding'
-            Write-Host '       -> KV namespace -> Variable name: WATCHLIST_KV'
-            Write-Host '       -> KV namespace: NONCENTS_WATCHLIST -> Deploy'
+            Write-Host 'VERDICT: The Worker threw an exception. Two likely causes:'
+            Write-Host ''
+            Write-Host '  a) The KV namespace is not bound. Check Cloudflare ->'
+            Write-Host '     Worker -> Bindings tab. You should see WATCHLIST_KV'
+            Write-Host '     connected to a KV namespace.'
+            Write-Host ''
+            Write-Host '  b) The deployed code is out of date. Re-paste'
+            Write-Host '     C:\non-cents\worker\watchlist-worker.js into the'
+            Write-Host '     Cloudflare editor and Deploy.'
+            Write-Host ''
+            Write-Host '  If the binding IS present, it is (b) - redeploy first.'
+            Write-Host '  Cloudflare -> Worker -> Logs will show the real exception.'
         }
         404 {
             Write-Host 'VERDICT: Route not found - the deployed code is not the'

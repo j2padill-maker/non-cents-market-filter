@@ -82,9 +82,12 @@ function cleanLists(raw) {
 }
 
 async function readState(env) {
-  // cacheTtl 0: KV is eventually consistent, and caching the read at the edge
-  // would make a change made on the phone take even longer to reach the laptop.
-  const stored = await env.WATCHLIST_KV.get(KV_KEY, { type: 'json', cacheTtl: 0 });
+  // cacheTtl is the edge cache lifetime for this read. 30s is Cloudflare's
+  // documented minimum (lowered from 60s in Jan 2026) — passing 0 to "disable"
+  // caching is REJECTED and throws, which is exactly the 1101 exception this
+  // Worker was returning before. Keep it at the minimum so a change made on
+  // the phone reaches the laptop as quickly as KV allows.
+  const stored = await env.WATCHLIST_KV.get(KV_KEY, { type: 'json', cacheTtl: 30 });
   return stored && typeof stored === 'object' ? { ...EMPTY, ...stored } : { ...EMPTY };
 }
 
