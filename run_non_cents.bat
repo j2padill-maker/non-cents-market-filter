@@ -25,15 +25,16 @@ if errorlevel 1 (
     goto :end
 )
 
-REM 4. Regenerate data locally.
+REM 4. Regenerate data locally (screener cache + per-stock briefings).
 python scripts\fetch_data.py >> "%LOGFILE%" 2>&1
 if errorlevel 1 (
     echo FETCH FAILED - skipping commit/push this run. >> "%LOGFILE%"
     goto :end
 )
+python scripts\build_briefings.py --session close >> "%LOGFILE%" 2>&1
 
 REM 5. Commit the freshly generated data and push (clean fast-forward).
-git add scripts\fetch_data.py data\cache.json data\watchlist.json >> "%LOGFILE%" 2>&1
+git add scripts\fetch_data.py data\cache.json data\watchlist.json data\briefings >> "%LOGFILE%" 2>&1
 git commit -m "Daily data update %date%" >> "%LOGFILE%" 2>&1
 git push origin main >> "%LOGFILE%" 2>&1
 

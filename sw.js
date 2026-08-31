@@ -1,6 +1,6 @@
 // Bump this on every index.html change, or installed PWAs keep serving the
 // old shell from the previous cache and your changes appear to do nothing.
-const CACHE = 'ncmf-v7';
+const CACHE = 'ncmf-v9';
 const ASSETS = [
   '/',
   '/index.html',
@@ -42,7 +42,7 @@ self.addEventListener('fetch', e => {
 
   // Always go network-first for data so prices — and the watchlist the last
   // fetch ran against — stay current.
-  if (url.pathname.endsWith('cache.json') || url.pathname.endsWith('watchlist.json')) {
+  if (url.pathname.endsWith('cache.json') || url.pathname.endsWith('watchlist.json') || url.pathname.includes('/briefings/')) {
     e.respondWith(
       fetch(e.request)
         .then(res => {

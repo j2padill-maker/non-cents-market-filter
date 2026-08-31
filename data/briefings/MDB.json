@@ -1,0 +1,82 @@
+{
+  "ticker": "MDB",
+  "user_id": "local",
+  "session": "close",
+  "generated_at": "2026-08-31T10:53:04.241373-07:00",
+  "disclaimer": "Informational only. Not financial advice.",
+  "selected_indicators": [
+    "rsi14",
+    "macd",
+    "bollinger_pctb",
+    "pct_from_52w_low",
+    "pct_from_52w_high",
+    "price_vs_ma200",
+    "atr14",
+    "rel_volume",
+    "mfi14"
+  ],
+  "news": [],
+  "filings": [],
+  "script_text": null,
+  "audio_cached": false,
+  "status": "ok",
+  "data_asof": "2026-08-31",
+  "price": {
+    "last": 448.91,
+    "open": 444.0,
+    "prev_close": 446.62,
+    "move_day_pct": 0.51,
+    "move_open_close_pct": 1.11,
+    "move_week_pct": 11.48
+  },
+  "indicators": {
+    "rsi14": {
+      "value": 63.5,
+      "read": "Firm \u2014 approaching overbought"
+    },
+    "macd": {
+      "macd": 20.85,
+      "signal": 22.059,
+      "hist": -1.209,
+      "hist_prev": -2.063,
+      "read": "Bearish \u2014 MACD below signal"
+    },
+    "bollinger_pctb": {
+      "upper": 478.23,
+      "lower": 368.4,
+      "mid": 423.32,
+      "pctb": 0.733,
+      "read": "Mid-band \u2014 no extreme"
+    },
+    "pct_from_52w_low": {
+      "value": 98.68,
+      "read": "99% above its 52-week low"
+    },
+    "pct_from_52w_high": {
+      "value": -4.95,
+      "read": "Modestly below its 52-week high"
+    },
+    "price_vs_ma200": {
+      "ma200": 341.66,
+      "pct": 31.39,
+      "read": "31% above its 200-day average \u2014 long-term uptrend"
+    },
+    "atr14": {
+      "value": 21.55,
+      "pct_of_price": 4.8,
+      "read": "High daily volatility"
+    },
+    "rel_volume": {
+      "value": 0.55,
+      "read": "Roughly average volume"
+    },
+    "mfi14": {
+      "value": 55.5,
+      "read": "Neutral money flow"
+    }
+  },
+  "low_52w": 225.95,
+  "high_52w": 472.29,
+  "ma50": 366.83,
+  "ma200": 341.66
+}

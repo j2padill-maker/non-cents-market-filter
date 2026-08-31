@@ -1119,6 +1119,68 @@ td { padding:10px 14px; white-space:nowrap; }
 .empty-state { text-align:center; padding:60px 20px; color:var(--text3); }
 .empty-state .icon { font-size:36px; margin-bottom:12px; }
 
+/* ─── BRIEFINGS ─── */
+.brf-meta{font-family:var(--font-mono);font-size:11px;color:var(--text3);margin:4px 0 16px;display:flex;align-items:center;flex-wrap:wrap;gap:6px;}
+.brf-session{color:var(--accent);font-weight:700;letter-spacing:0.08em;}
+.brf-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;}
+.brf-card{background:var(--glass-bg);border:1px solid var(--border);border-radius:var(--radius);padding:16px;box-shadow:var(--card-shadow);transition:transform .2s,border-color .2s;}
+.brf-card:hover{transform:translateY(-2px);border-color:var(--accent-dim);}
+.brf-card-head{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;gap:8px;}
+.brf-ticker{font-family:var(--font-display);font-weight:800;font-size:18px;color:var(--text);letter-spacing:0.02em;}
+.brf-asof{font-family:var(--font-mono);font-size:10px;color:var(--text3);margin-left:8px;}
+.brf-actions{display:flex;gap:6px;flex-shrink:0;}
+.brf-icon{background:var(--bg3);border:1px solid var(--border);border-radius:7px;width:32px;height:32px;font-size:15px;cursor:pointer;color:var(--text2);display:flex;align-items:center;justify-content:center;transition:all .15s;}
+.brf-icon-live:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-1px);}
+.brf-icon[disabled]{opacity:0.35;cursor:not-allowed;}
+.brf-price-row{display:flex;align-items:baseline;gap:12px;margin-bottom:12px;flex-wrap:wrap;}
+.brf-price{font-family:var(--font-mono);font-size:20px;font-weight:700;color:var(--text);}
+.brf-move{font-family:var(--font-mono);font-size:13px;font-weight:700;}
+.brf-move-lbl{font-size:10px;color:var(--text3);font-weight:400;}
+.brf-chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px;}
+.brf-chip{font-family:var(--font-mono);font-size:11px;padding:3px 8px;border-radius:6px;background:var(--bg3);border:1px solid var(--border);color:var(--text2);}
+.brf-chip.rsi-oversold{color:var(--yellow);border-color:#5a4a00;}
+.brf-chip.rsi-overbought{color:var(--green);border-color:#0a5a3a;}
+.brf-chip.rsi-firm{color:var(--text);}
+.brf-read{font-size:12px;color:var(--text2);line-height:1.5;border-top:1px solid var(--border);padding-top:8px;}
+.brf-nodata{opacity:0.6;}
+.brf-nodata-tag{font-family:var(--font-mono);font-size:10px;color:var(--text3);border:1px solid var(--border);border-radius:5px;padding:2px 6px;}
+.brf-nodata-msg{font-size:12px;color:var(--text3);margin-top:8px;}
+.brf-modal-overlay{display:none;position:fixed;inset:0;background:rgba(3,6,14,0.82);backdrop-filter:blur(4px);z-index:1000;align-items:flex-start;justify-content:center;padding:40px 16px;overflow-y:auto;}
+.brf-modal-overlay.open{display:flex;}
+.brf-modal{background:var(--bg2);border:1px solid var(--border);border-radius:14px;max-width:640px;width:100%;padding:22px;box-shadow:var(--card-shadow-hover);}
+.brf-doc-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;gap:12px;}
+.brf-doc-price{display:flex;gap:14px;flex-wrap:wrap;align-items:baseline;margin-bottom:18px;padding-bottom:14px;border-bottom:1px solid var(--border);}
+.brf-doc-table{width:100%;border-collapse:collapse;font-size:13px;}
+.brf-doc-table th{text-align:left;font-family:var(--font-mono);font-size:10px;letter-spacing:0.08em;color:var(--text3);text-transform:uppercase;padding:6px 10px;border-bottom:1px solid var(--border);}
+.brf-doc-table td{padding:8px 10px;border-bottom:1px solid var(--bg3);vertical-align:top;}
+.brf-doc-k{font-family:var(--font-mono);color:var(--text2);white-space:nowrap;}
+.brf-doc-v{font-family:var(--font-mono);color:var(--text);font-weight:700;white-space:nowrap;}
+.brf-doc-r{color:var(--text2);}
+.brf-doc-note{margin-top:16px;font-size:12px;color:var(--text2);line-height:1.6;background:var(--bg3);border-radius:8px;padding:12px;}
+
+/* ─── PORTFOLIO (Screener top section) ─── */
+.pf-wrap{background:var(--glass-bg);border:1px solid var(--border);border-radius:var(--radius);padding:16px;margin-bottom:18px;box-shadow:var(--card-shadow);}
+.pf-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;flex-wrap:wrap;gap:8px;}
+.pf-title{font-family:var(--font-display);font-weight:800;font-size:16px;color:var(--text);}
+.pf-count{font-family:var(--font-mono);font-size:11px;color:var(--text3);font-weight:400;margin-left:6px;}
+.pf-total{font-family:var(--font-mono);font-size:13px;color:var(--text2);}
+.pf-total strong{color:var(--accent);font-size:16px;}
+.pf-addrow{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:12px;}
+.pf-empty{font-size:13px;color:var(--text3);padding:6px 0 2px;}
+.pf-empty-sub{display:block;font-size:11px;color:var(--text3);margin-top:4px;opacity:.85;}
+.pf-table-wrap{overflow-x:auto;}
+.pf-table{width:100%;border-collapse:collapse;font-family:var(--font-mono);font-size:12px;}
+.pf-table th{text-align:left;font-size:10px;letter-spacing:0.06em;color:var(--text3);text-transform:uppercase;padding:6px 10px;border-bottom:1px solid var(--border);font-weight:400;}
+.pf-table th.r,.pf-table td.r{text-align:right;}
+.pf-table td{padding:8px 10px;border-bottom:1px solid var(--bg3);color:var(--text2);}
+.pf-table tr:last-child td{border-bottom:none;}
+.pf-tk{color:var(--text);font-weight:700;}
+.pf-co{display:block;font-size:10px;color:var(--text3);font-weight:400;max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.pf-val{color:var(--text);font-weight:700;}
+.pf-pending{color:var(--text3);font-style:italic;}
+.pf-x{background:transparent;border:1px solid var(--border);border-radius:5px;color:var(--text3);cursor:pointer;width:24px;height:24px;font-size:11px;transition:all .15s;}
+.pf-x:hover{border-color:var(--red);color:var(--red);}
+
 /* ─── ADD BUTTON (WATCHLIST) ─── */
 .btn-add {
   background:linear-gradient(135deg, var(--accent), #00a844);
@@ -1204,6 +1266,7 @@ td { padding:10px 14px; white-space:nowrap; }
   <button class="tab" onclick="switchTab('rankings',this)">📈 DOWNTRODDEN / MOMENTUM</button>
   <button class="tab" onclick="switchTab('bottlenecks',this)">🔩 BOTTLENECKS</button>
   <button class="tab" onclick="switchTab('watchlist',this)">⭐ WATCHLISTS</button>
+  <button class="tab" onclick="switchTab('briefings',this)">🎧 BRIEFINGS</button>
 </div>
 
 <!-- ─────────────────── MAIN ─────────────────── -->
@@ -1238,6 +1301,7 @@ td { padding:10px 14px; white-space:nowrap; }
       <div class="stat-card-hint">↩ VIEW SECTORS</div>
     </div>
   </div>
+  <div id="portfolio-section"></div>
   <div class="table-wrap">
     <div class="table-header">
       <div class="table-title">All Stocks</div>
@@ -1333,6 +1397,16 @@ td { padding:10px 14px; white-space:nowrap; }
   <div class="panel-heading">🔩 Bottleneck Tracker</div>
   <div class="panel-sub">Constrained inputs that multiple companies in each sector depend on. When end-demand rises but supply is limited, bottleneck suppliers often move first.</div>
   <div id="bottleneck-grid" class="sector-grid"></div>
+</div>
+
+<!-- ═══════════ BRIEFINGS ═══════════ -->
+<div id="tab-briefings" class="panel">
+  <div class="panel-heading">🎧 Daily Briefings</div>
+  <div class="panel-sub">A quick read on each watchlist stock — the day's move plus your key indicators with a plain-English take. Tap <strong>📄</strong> to open the full briefing. A narrated audio version and PDF / Word download are coming in a later phase.</div>
+  <div id="briefings-content"><div class="empty-state"><div class="icon">🎧</div><p>Open this tab to load your briefings.</p></div></div>
+</div>
+<div id="brf-modal" class="brf-modal-overlay" onclick="if(event.target===this)closeBriefingDoc()">
+  <div class="brf-modal"><div id="brf-modal-body"></div></div>
 </div>
 
 <!-- ═══════════ WATCHLIST ═══════════ -->
@@ -2386,7 +2460,7 @@ async function loadData(){
     animateCounter(document.getElementById('stat-oversold'), oversold);
     animateCounter(document.getElementById('stat-overreaction'), overreaction);
     animateCounter(document.getElementById('stat-sectors'), sectors);
-    renderScreener();renderOverreaction();renderSectors();renderRankings();renderBottlenecks();renderWatchlist();
+    renderScreener();renderOverreaction();renderSectors();renderRankings();renderBottlenecks();renderWatchlist();pfRender();
     animatePanel('screener');
     requestAnimationFrame(setScreenerHeight);
     requestAnimationFrame(setScreenerHeight);
@@ -2805,10 +2879,218 @@ function switchTab(name, btn){
   document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
   document.getElementById('tab-'+name).classList.add('active');
   if(btn) btn.classList.add('active');
+  if(name === 'briefings') loadBriefings();   // lazy — guarded so it fetches once
   requestAnimationFrame(()=>{
     animatePanel(name);
     if(name === 'screener') setScreenerHeight();
   });
+}
+
+/* ─── BRIEFINGS ─── */
+let briefingsData = null;      // { index, items: { TICKER: briefingJSON } }
+let briefingsLoading = false;
+function brfEsc(s){ return String(s==null?'':s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+function brfPct(n){ if(n==null) return '—'; const s=n>0?'+':''; return s+Number(n).toFixed(2)+'%'; }
+function brfCls(n){ return n==null?'pct-neutral':(n>0?'pct-up':(n<0?'pct-down':'pct-neutral')); }
+
+async function loadBriefings(force){
+  if (briefingsData && !force) return;         // already loaded this session
+  if (briefingsLoading) return;
+  briefingsLoading = true;
+  const el = document.getElementById('briefings-content');
+  el.innerHTML = '<div class="empty-state"><div class="icon">🎧</div><p>Loading briefings…</p></div>';
+  try {
+    const res = await fetch('data/briefings/index.json?t=' + Date.now());
+    if (!res.ok) throw new Error('no index (HTTP '+res.status+')');
+    const index = await res.json();
+    const items = {};
+    await Promise.all((index.briefings||[]).map(async b => {
+      if (b.status !== 'ok' || !b.file) { items[b.ticker] = {status:b.status||'nodata', ticker:b.ticker}; return; }
+      try {
+        const r = await fetch(b.file + '?t=' + Date.now());
+        items[b.ticker] = r.ok ? await r.json() : {status:'nodata', ticker:b.ticker};
+      } catch(e){ items[b.ticker] = {status:'nodata', ticker:b.ticker}; }
+    }));
+    briefingsData = { index, items };
+    renderBriefings();
+  } catch(e) {
+    briefingsData = null;
+    el.innerHTML = '<div class="empty-state"><div class="icon">🎧</div>'
+      + '<p>No briefings yet.<br><span style="font-size:12px;color:var(--text3)">'
+      + 'Run <code style="color:var(--accent);background:var(--bg3);padding:1px 5px;border-radius:3px;">python scripts\\build_briefings.py</code>, '
+      + 'then commit <code style="color:var(--accent);background:var(--bg3);padding:1px 5px;border-radius:3px;">data/briefings/</code> and push.</span></p></div>';
+    console.error('Briefings load error:', e);
+  } finally {
+    briefingsLoading = false;
+  }
+}
+
+function renderBriefings(){
+  const el = document.getElementById('briefings-content');
+  const { index, items } = briefingsData;
+  const tickers = (index.briefings||[]).map(b=>b.ticker);
+  if (!tickers.length){ el.innerHTML = '<div class="empty-state"><div class="icon">🎧</div><p>No stocks in your briefing list yet.</p></div>'; return; }
+  const when = index.generated_at ? new Date(index.generated_at) : null;
+  let html = '<div class="brf-meta">'
+    + '<span class="brf-session">' + brfEsc((index.session||'').toUpperCase()) + ' BRIEFING</span>'
+    + (when ? ' · generated ' + when.toLocaleDateString() + ' ' + when.toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'}) : '')
+    + ' <button class="wl-icon-btn" style="margin-left:8px;" onclick="loadBriefings(true)">↻ REFRESH</button>'
+    + '</div><div class="brf-grid">';
+  for (const t of tickers){ html += brfCard(items[t] || {status:'nodata', ticker:t}); }
+  html += '</div>';
+  el.innerHTML = html;
+}
+
+function brfCard(b){
+  const t = brfEsc(b.ticker);
+  if (b.status !== 'ok'){
+    return '<div class="brf-card brf-nodata"><div class="brf-card-head"><span class="brf-ticker">'+t+'</span>'
+      + '<span class="brf-nodata-tag">NO DATA</span></div>'
+      + '<div class="brf-nodata-msg">'+brfEsc(b.note || 'No price history available for this symbol.')+'</div></div>';
+  }
+  const p = b.price||{}, ind = b.indicators||{};
+  const rsi = ind.rsi14||{}, macd = ind.macd||{}, lowd = ind.pct_from_52w_low||{}, ma200 = ind.price_vs_ma200||{};
+  const rsiCls = rsi.value==null?'':(rsi.value<40?'rsi-oversold':(rsi.value>=70?'rsi-overbought':(rsi.value>=60?'rsi-firm':'')));
+  const macdChip = macd.read ? (macd.read.indexOf('Bullish')>=0 ? 'MACD ▲' : 'MACD ▼') : 'MACD —';
+  return '<div class="brf-card"><div class="brf-card-head">'
+    + '<div><span class="brf-ticker">'+t+'</span><span class="brf-asof">'+brfEsc(b.data_asof||'')+'</span></div>'
+    + '<div class="brf-actions">'
+    + '<button class="brf-icon" title="Audio briefing — coming in a later phase" disabled>🔊</button>'
+    + '<button class="brf-icon brf-icon-live" title="Open the full briefing" onclick="openBriefingDoc(\''+t+'\')">📄</button>'
+    + '</div></div>'
+    + '<div class="brf-price-row">'
+    + '<span class="brf-price">$'+(p.last!=null?Number(p.last).toFixed(2):'—')+'</span>'
+    + '<span class="'+brfCls(p.move_day_pct)+' brf-move">'+brfPct(p.move_day_pct)+' <span class="brf-move-lbl">day</span></span>'
+    + '<span class="'+brfCls(p.move_week_pct)+' brf-move">'+brfPct(p.move_week_pct)+' <span class="brf-move-lbl">wk</span></span>'
+    + '</div><div class="brf-chips">'
+    + '<span class="brf-chip '+rsiCls+'">RSI '+(rsi.value!=null?rsi.value:'—')+'</span>'
+    + '<span class="brf-chip">'+macdChip+'</span>'
+    + '<span class="brf-chip">'+(lowd.value!=null?Math.round(lowd.value)+'% off low':'—')+'</span>'
+    + '<span class="brf-chip">'+(ma200.pct!=null?(ma200.pct>=0?'▲':'▼')+Math.abs(Math.round(ma200.pct))+'% vs 200D':'—')+'</span>'
+    + '</div><div class="brf-read">'+brfEsc(rsi.read||'')+(macd.read?' · '+brfEsc(macd.read):'')+'</div></div>';
+}
+
+function openBriefingDoc(t){
+  const b = briefingsData && briefingsData.items[t];
+  if (!b || b.status !== 'ok') return;
+  const p = b.price||{}, io = b.indicators||{};
+  const rows = [];
+  const add = (k,v,r) => rows.push('<tr><td class="brf-doc-k">'+k+'</td><td class="brf-doc-v">'+v+'</td><td class="brf-doc-r">'+brfEsc(r||'')+'</td></tr>');
+  if(io.rsi14) add('RSI (14)', io.rsi14.value!=null?io.rsi14.value:'—', io.rsi14.read);
+  if(io.macd) add('MACD (12/26/9)', io.macd.macd!=null?io.macd.macd:'—', io.macd.read);
+  if(io.bollinger_pctb) add('Bollinger %B', io.bollinger_pctb.pctb!=null?io.bollinger_pctb.pctb:'—', io.bollinger_pctb.read);
+  if(io.pct_from_52w_low) add('% from 52-wk low', io.pct_from_52w_low.value!=null?io.pct_from_52w_low.value+'%':'—', io.pct_from_52w_low.read);
+  if(io.pct_from_52w_high) add('% from 52-wk high', io.pct_from_52w_high.value!=null?io.pct_from_52w_high.value+'%':'—', io.pct_from_52w_high.read);
+  if(io.price_vs_ma200) add('Price vs 200-day', io.price_vs_ma200.pct!=null?io.price_vs_ma200.pct+'%':'—', io.price_vs_ma200.read);
+  if(io.atr14) add('ATR (14)', io.atr14.value!=null?io.atr14.value+' ('+io.atr14.pct_of_price+'%)':'—', io.atr14.read);
+  if(io.rel_volume) add('Relative volume', io.rel_volume.value!=null?io.rel_volume.value+'×':'—', io.rel_volume.read);
+  if(io.mfi14) add('Money Flow Index', io.mfi14.value!=null?io.mfi14.value:'—', io.mfi14.read);
+  document.getElementById('brf-modal-body').innerHTML =
+      '<div class="brf-doc-head"><div><span class="brf-ticker" style="font-size:20px">'+brfEsc(t)+'</span>'
+    + '<span class="brf-asof">as of '+brfEsc(b.data_asof||'')+' · '+brfEsc((b.session||'').toUpperCase())+'</span></div>'
+    + '<button class="brf-icon brf-icon-live" onclick="closeBriefingDoc()" title="Close">✕</button></div>'
+    + '<div class="brf-doc-price"><span class="brf-price">$'+(p.last!=null?Number(p.last).toFixed(2):'—')+'</span>'
+    + '<span class="'+brfCls(p.move_day_pct)+' brf-move">'+brfPct(p.move_day_pct)+' day</span>'
+    + '<span class="'+brfCls(p.move_open_close_pct)+' brf-move">'+brfPct(p.move_open_close_pct)+' open→close</span>'
+    + '<span class="'+brfCls(p.move_week_pct)+' brf-move">'+brfPct(p.move_week_pct)+' week</span></div>'
+    + '<table class="brf-doc-table"><thead><tr><th>Indicator</th><th>Value</th><th>Read</th></tr></thead><tbody>'+rows.join('')+'</tbody></table>'
+    + '<div class="brf-doc-note">📝 A narrated plain-English summary, the latest news, and a PDF / Word download arrive in the next phase.'
+    + (b.disclaimer?'<br><span style="color:var(--text3)">'+brfEsc(b.disclaimer)+'</span>':'')+'</div>';
+  document.getElementById('brf-modal').classList.add('open');
+}
+function closeBriefingDoc(){ document.getElementById('brf-modal').classList.remove('open'); }
+
+/* ─── PORTFOLIO ───
+   Owned holdings = tickers + share counts. A separate local store from the
+   watchlist (owned vs watched are different things, and this keeps the tested
+   watchlist sync untouched). Prices come from the same cache the screener uses;
+   holdings not yet in the fetched universe show "pending" until they're fetched.
+   Local-only for now — cross-device sync and feeding the briefings come next. */
+const PF_KEY = 'ncmf_portfolio';
+let pfData = { version:1, updated:null, holdings:[] };   // holdings:[{ticker, shares}]
+
+function pfLoad(){
+  try {
+    const s = JSON.parse(localStorage.getItem(PF_KEY) || 'null');
+    if (s && Array.isArray(s.holdings)) {
+      pfData = { version:1, updated:s.updated||null,
+        holdings: s.holdings.map(h => ({
+          ticker: String(h.ticker||'').toUpperCase().trim().replace(/[^A-Z0-9.\-]/g,''),
+          shares: (h.shares!=null && isFinite(h.shares)) ? Number(h.shares) : null
+        })).filter(h => h.ticker) };
+    }
+  } catch(e){ console.warn('Portfolio store unreadable, starting fresh:', e); }
+}
+function pfSave(){
+  pfData.updated = new Date().toISOString();
+  try { localStorage.setItem(PF_KEY, JSON.stringify(pfData)); }
+  catch(e){ console.warn('Could not save portfolio:', e); }
+}
+function pfEsc(s){ return brfEsc(s); }
+function pfStock(t){ return (typeof allStocks!=='undefined' && allStocks) ? allStocks.find(s => s.ticker===t) : null; }
+function pfFind(t){ return pfData.holdings.find(h => h.ticker===t); }
+
+function pfAdd(t, shares){
+  t = String(t||'').toUpperCase().trim().replace(/[^A-Z0-9.\-]/g,'');
+  if(!t) return;
+  const sh = (shares===''||shares==null) ? null : Number(shares);
+  const clean = (sh!=null && isFinite(sh) && sh>=0) ? sh : null;
+  const ex = pfFind(t);
+  if(ex){ if(clean!=null) ex.shares = clean; }
+  else pfData.holdings.push({ ticker:t, shares:clean });
+  pfSave(); pfRender();
+}
+function pfAddFromInputs(){
+  const t = document.getElementById('pf-ticker'), s = document.getElementById('pf-shares');
+  if(!t || !t.value.trim()) return;
+  pfAdd(t.value, s ? s.value : '');
+  t.value=''; if(s) s.value=''; t.focus();
+}
+function pfRemove(t){ pfData.holdings = pfData.holdings.filter(h => h.ticker!==t); pfSave(); pfRender(); }
+
+function pfRender(){
+  const host = document.getElementById('portfolio-section');
+  if(!host) return;
+  const H = pfData.holdings;
+  let rowsHtml = '', total = 0, haveValue = false;
+  for(const h of H){
+    const st = pfStock(h.ticker);
+    const price = st ? st.price : null;
+    const chg = st ? st.change_pct : null;
+    const val = (price!=null && h.shares!=null) ? price*h.shares : null;
+    if(val!=null){ total += val; haveValue = true; }
+    const priceStr = price!=null ? '$'+Number(price).toFixed(2) : '<span class="pf-pending">pending</span>';
+    const chgStr = chg!=null ? '<span class="'+brfCls(chg)+'">'+brfPct(chg)+'</span>' : '—';
+    const valStr = val!=null ? '$'+val.toLocaleString(undefined,{maximumFractionDigits:0}) : '—';
+    const shStr = h.shares!=null ? Number(h.shares).toLocaleString(undefined,{maximumFractionDigits:4}) : '<span class="pf-pending">— shares</span>';
+    rowsHtml += '<tr>'
+      + '<td class="pf-tk">'+pfEsc(h.ticker)+((st&&st.company_name)?'<span class="pf-co">'+pfEsc(st.company_name)+'</span>':'')+'</td>'
+      + '<td class="r">'+shStr+'</td>'
+      + '<td class="r">'+priceStr+'</td>'
+      + '<td class="r">'+chgStr+'</td>'
+      + '<td class="r pf-val">'+valStr+'</td>'
+      + '<td class="r"><button class="pf-x" title="Remove" onclick="pfRemove(\''+pfEsc(h.ticker)+'\')">✕</button></td>'
+      + '</tr>';
+  }
+  let html = '<div class="pf-wrap"><div class="pf-head">'
+    + '<div class="pf-title">💼 Your Portfolio <span class="pf-count">'+H.length+' holding'+(H.length===1?'':'s')+'</span></div>'
+    + '<div class="pf-total">'+(haveValue ? 'Total <strong>$'+total.toLocaleString(undefined,{maximumFractionDigits:0})+'</strong>' : '')+'</div>'
+    + '</div>'
+    + '<div class="pf-addrow">'
+    + '<input id="pf-ticker" class="search-input" placeholder="Ticker (e.g. NVDA)" style="text-transform:uppercase;width:150px;" autocomplete="off" oninput="this.value=this.value.toUpperCase()" onkeydown="if(event.key===\'Enter\'){document.getElementById(\'pf-shares\').focus();}">'
+    + '<input id="pf-shares" class="search-input" placeholder="Shares" type="number" min="0" step="any" style="width:120px;" onkeydown="if(event.key===\'Enter\')pfAddFromInputs()">'
+    + '<button class="btn-add" onclick="pfAddFromInputs()">+ ADD</button>'
+    + '</div>';
+  if(!H.length){
+    html += '<div class="pf-empty">No holdings yet — add a ticker and share count above to see your positions here.'
+      + '<span class="pf-empty-sub">Uploading a PDF / Word statement is coming with the AI layer.</span></div>';
+  } else {
+    html += '<div class="pf-table-wrap"><table class="pf-table"><thead><tr>'
+      + '<th>Ticker</th><th class="r">Shares</th><th class="r">Price</th><th class="r">Day</th><th class="r">Value</th><th></th>'
+      + '</tr></thead><tbody>'+rowsHtml+'</tbody></table></div>';
+  }
+  html += '</div>';
+  host.innerHTML = html;
 }
 
 /* ─── SECTOR CARD TILT (micro-interaction, desktop only) ─── */
@@ -2831,6 +3113,8 @@ if(window.matchMedia('(pointer:fine)').matches){
 /* Read (and migrate) the watchlists before anything renders, so the tab is
    populated even if the cache fetch fails. */
 wlLoad();
+pfLoad();
+pfRender();          // draw the portfolio section immediately (prices fill in once loadData completes)
 loadData();
 /* Sync last: it depends on the lists being loaded, and it must never delay
    the screener rendering. */

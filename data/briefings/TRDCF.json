@@ -1,0 +1,64 @@
+{
+  "ticker": "TRDCF",
+  "user_id": "local",
+  "session": "close",
+  "generated_at": "2026-08-31T10:53:15.042852-07:00",
+  "disclaimer": "Informational only. Not financial advice.",
+  "selected_indicators": [
+    "rsi14",
+    "macd",
+    "bollinger_pctb",
+    "pct_from_52w_low",
+    "pct_from_52w_high",
+    "price_vs_ma200",
+    "atr14",
+    "rel_volume",
+    "mfi14"
+  ],
+  "news": [],
+  "filings": [],
+  "script_text": null,
+  "audio_cached": false,
+  "status": "ok",
+  "data_asof": "2026-05-13",
+  "price": {
+    "last": 67.0,
+    "open": 62.63,
+    "prev_close": null,
+    "move_open_close_pct": 6.98
+  },
+  "indicators": {
+    "rsi14": {
+      "value": null,
+      "read": "N/A"
+    },
+    "macd": null,
+    "bollinger_pctb": null,
+    "pct_from_52w_low": {
+      "value": 0.0,
+      "read": "Sitting right at its 52-week low"
+    },
+    "pct_from_52w_high": {
+      "value": 0.0,
+      "read": "At or near its 52-week high"
+    },
+    "price_vs_ma200": {
+      "ma200": null,
+      "pct": null,
+      "read": "N/A"
+    },
+    "atr14": null,
+    "rel_volume": {
+      "value": null,
+      "read": "N/A"
+    },
+    "mfi14": {
+      "value": null,
+      "read": "N/A"
+    }
+  },
+  "low_52w": 67.0,
+  "high_52w": 67.0,
+  "ma50": null,
+  "ma200": null
+}
