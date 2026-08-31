@@ -2,7 +2,7 @@
   "version": 1,
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-08-31T10:53:04.240640-07:00",
+  "generated_at": "2026-08-31T15:48:52.988425-07:00",
   "briefings": [
     {
       "ticker": "MDB",
@@ -18,9 +18,9 @@
     },
     {
       "ticker": "TRDCF",
-      "status": "ok",
+      "status": "nodata",
       "file": "data/briefings/TRDCF.json",
-      "data_asof": "2026-05-13"
+      "data_asof": null
     }
   ]
 }

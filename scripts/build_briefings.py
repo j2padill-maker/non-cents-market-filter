@@ -113,6 +113,17 @@ def build_one(ticker, session, user_id, selected=None):
     base["high_52w"] = extras["high_52w"]
     base["ma50"] = extras["ma50"]
     base["ma200"] = extras["ma200"]
+
+    # News + SEC filings (Phase 2). Optional: degrades to empty lists if the
+    # news module or a key is missing, or a fetch fails. Never blocks a briefing.
+    try:
+        import news as _news
+        nf = _news.assemble(ticker)
+        base["news"] = nf.get("news", [])
+        base["filings"] = nf.get("filings", [])
+    except Exception as e:
+        print(f"  news assembly skipped for {ticker}: {e}")
+
     return base
 
 

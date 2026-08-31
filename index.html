@@ -1157,6 +1157,16 @@ td { padding:10px 14px; white-space:nowrap; }
 .brf-doc-v{font-family:var(--font-mono);color:var(--text);font-weight:700;white-space:nowrap;}
 .brf-doc-r{color:var(--text2);}
 .brf-doc-note{margin-top:16px;font-size:12px;color:var(--text2);line-height:1.6;background:var(--bg3);border-radius:8px;padding:12px;}
+.brf-news-preview{border-top:1px solid var(--border);margin-top:8px;padding-top:8px;font-size:11px;color:var(--text3);cursor:pointer;line-height:1.4;}
+.brf-news-preview:hover{color:var(--text2);}
+.brf-news-more{color:var(--accent);font-family:var(--font-mono);font-size:10px;}
+.brf-doc-news{margin-top:6px;}
+.brf-doc-subhead{font-family:var(--font-mono);font-size:10px;letter-spacing:0.08em;text-transform:uppercase;color:var(--text3);margin:16px 0 6px;}
+.brf-news-item{font-size:13px;color:var(--text);line-height:1.5;padding:7px 0;border-bottom:1px solid var(--bg3);}
+.brf-news-item a{color:var(--text);text-decoration:none;}
+.brf-news-item a:hover{color:var(--accent);text-decoration:underline;}
+.brf-news-meta{display:block;font-family:var(--font-mono);font-size:10px;color:var(--text3);margin-top:2px;}
+.brf-news-empty{font-size:12px;color:var(--text3);}
 
 /* ─── PORTFOLIO (Screener top section) ─── */
 .pf-wrap{background:var(--glass-bg);border:1px solid var(--border);border-radius:var(--radius);padding:16px;margin-bottom:18px;box-shadow:var(--card-shadow);}
@@ -2967,7 +2977,18 @@ function brfCard(b){
     + '<span class="brf-chip">'+macdChip+'</span>'
     + '<span class="brf-chip">'+(lowd.value!=null?Math.round(lowd.value)+'% off low':'—')+'</span>'
     + '<span class="brf-chip">'+(ma200.pct!=null?(ma200.pct>=0?'▲':'▼')+Math.abs(Math.round(ma200.pct))+'% vs 200D':'—')+'</span>'
-    + '</div><div class="brf-read">'+brfEsc(rsi.read||'')+(macd.read?' · '+brfEsc(macd.read):'')+'</div></div>';
+    + '</div><div class="brf-read">'+brfEsc(rsi.read||'')+(macd.read?' · '+brfEsc(macd.read):'')+'</div>'
+    + brfNewsPreview(b, t)
+    + '</div>';
+}
+
+function brfNewsPreview(b, t){
+  const news = Array.isArray(b.news) ? b.news : [];
+  if(!news.length) return '';
+  const top = news[0].headline || '';
+  const clipped = top.length > 72 ? top.slice(0,72)+'…' : top;
+  const more = news.length > 1 ? ' <span class="brf-news-more">+'+(news.length-1)+' more</span>' : '';
+  return '<div class="brf-news-preview" onclick="openBriefingDoc(\''+t+'\')">📰 '+brfEsc(clipped)+more+'</div>';
 }
 
 function openBriefingDoc(t){
@@ -2985,6 +3006,30 @@ function openBriefingDoc(t){
   if(io.atr14) add('ATR (14)', io.atr14.value!=null?io.atr14.value+' ('+io.atr14.pct_of_price+'%)':'—', io.atr14.read);
   if(io.rel_volume) add('Relative volume', io.rel_volume.value!=null?io.rel_volume.value+'×':'—', io.rel_volume.read);
   if(io.mfi14) add('Money Flow Index', io.mfi14.value!=null?io.mfi14.value:'—', io.mfi14.read);
+  // News + SEC filings section
+  const news = Array.isArray(b.news) ? b.news : [];
+  const filings = Array.isArray(b.filings) ? b.filings : [];
+  let newsHtml = '<div class="brf-doc-news">';
+  if(news.length){
+    newsHtml += '<div class="brf-doc-subhead">📰 Recent news</div>';
+    for(const n of news){
+      const dt = n.datetime ? new Date(n.datetime*1000).toLocaleDateString() : '';
+      const meta = [brfEsc(n.source||''), dt].filter(Boolean).join(' · ');
+      const head = n.url ? '<a href="'+encodeURI(n.url)+'" target="_blank" rel="noopener noreferrer">'+brfEsc(n.headline||'')+'</a>' : brfEsc(n.headline||'');
+      newsHtml += '<div class="brf-news-item">'+head+(meta?'<span class="brf-news-meta">'+meta+'</span>':'')+'</div>';
+    }
+  }
+  if(filings.length){
+    newsHtml += '<div class="brf-doc-subhead">🗂 SEC filings</div>';
+    for(const f of filings){
+      const link = f.url ? '<a href="'+encodeURI(f.url)+'" target="_blank" rel="noopener noreferrer">'+brfEsc(f.title||f.form||'Filing')+'</a>' : brfEsc(f.title||f.form||'Filing');
+      newsHtml += '<div class="brf-news-item">'+link+(f.date?'<span class="brf-news-meta">'+brfEsc(f.date)+'</span>':'')+'</div>';
+    }
+  }
+  if(!news.length && !filings.length){
+    newsHtml += '<div class="brf-doc-subhead">📰 News</div><div class="brf-news-empty">No recent headlines or filings found for this symbol.</div>';
+  }
+  newsHtml += '</div>';
   document.getElementById('brf-modal-body').innerHTML =
       '<div class="brf-doc-head"><div><span class="brf-ticker" style="font-size:20px">'+brfEsc(t)+'</span>'
     + '<span class="brf-asof">as of '+brfEsc(b.data_asof||'')+' · '+brfEsc((b.session||'').toUpperCase())+'</span></div>'
@@ -2994,7 +3039,8 @@ function openBriefingDoc(t){
     + '<span class="'+brfCls(p.move_open_close_pct)+' brf-move">'+brfPct(p.move_open_close_pct)+' open→close</span>'
     + '<span class="'+brfCls(p.move_week_pct)+' brf-move">'+brfPct(p.move_week_pct)+' week</span></div>'
     + '<table class="brf-doc-table"><thead><tr><th>Indicator</th><th>Value</th><th>Read</th></tr></thead><tbody>'+rows.join('')+'</tbody></table>'
-    + '<div class="brf-doc-note">📝 A narrated plain-English summary, the latest news, and a PDF / Word download arrive in the next phase.'
+    + newsHtml
+    + '<div class="brf-doc-note">📝 A narrated plain-English summary and a PDF / Word download arrive in the next phase.'
     + (b.disclaimer?'<br><span style="color:var(--text3)">'+brfEsc(b.disclaimer)+'</span>':'')+'</div>';
   document.getElementById('brf-modal').classList.add('open');
 }
