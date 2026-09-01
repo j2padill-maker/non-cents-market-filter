@@ -1170,6 +1170,32 @@ td { padding:10px 14px; white-space:nowrap; }
 .brf-group-head{font-family:var(--font-display);font-weight:800;font-size:14px;color:var(--text2);margin:20px 0 10px;letter-spacing:.02em;}
 .brf-group-head:first-child{margin-top:4px;}
 
+/* ─── BRIEFINGS: narration + dig-deeper + download (Phase 3) ─── */
+.brf-doc-head-actions{display:flex;gap:6px;align-items:center;flex-shrink:0;}
+.brf-dl{background:var(--bg3);border:1px solid var(--border);border-radius:7px;height:32px;padding:0 10px;font-family:var(--font-mono);font-size:11px;font-weight:700;letter-spacing:.04em;cursor:pointer;color:var(--text2);display:flex;align-items:center;gap:4px;transition:all .15s;white-space:nowrap;}
+.brf-dl:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-1px);}
+.brf-dl[disabled]{opacity:.4;cursor:progress;transform:none;}
+.brf-narr{background:var(--bg3);border:1px solid var(--border);border-left:3px solid var(--accent);border-radius:8px;padding:14px 16px;margin-bottom:18px;}
+.brf-narr-head{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:8px;}
+.brf-narr-title{font-family:var(--font-mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:700;}
+.brf-narr-body{font-size:14px;line-height:1.6;color:var(--text);white-space:pre-wrap;}
+.brf-narr-loading{font-size:13px;color:var(--text3);font-style:italic;}
+.brf-narr-err{font-size:12px;color:var(--yellow);line-height:1.5;}
+.brf-narr-off{font-size:12.5px;color:var(--text3);line-height:1.55;}
+.brf-narr-regen{background:transparent;border:1px solid var(--border);border-radius:6px;color:var(--text3);cursor:pointer;font-family:var(--font-mono);font-size:11px;padding:2px 8px;transition:all .15s;}
+.brf-narr-regen:hover{border-color:var(--accent);color:var(--accent);}
+.brf-dig{margin-top:12px;padding-top:12px;border-top:1px dashed var(--border);}
+.brf-dig-row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;}
+.brf-dig-input{flex:1;min-width:160px;background:var(--bg2);border:1px solid var(--border);border-radius:7px;padding:8px 10px;color:var(--text);font-family:inherit;font-size:13px;}
+.brf-dig-input:focus{outline:none;border-color:var(--accent);}
+.brf-dig-btn{background:var(--bg2);border:1px solid var(--border);border-radius:7px;padding:8px 14px;color:var(--text2);font-family:var(--font-mono);font-size:11px;font-weight:700;letter-spacing:.04em;cursor:pointer;transition:all .15s;}
+.brf-dig-btn:hover{border-color:var(--accent);color:var(--accent);}
+.brf-dig-btn[disabled]{opacity:.4;cursor:not-allowed;}
+.brf-dig-a{margin-top:10px;display:flex;flex-direction:column;gap:8px;}
+.brf-dig-qa{background:var(--bg2);border:1px solid var(--border);border-radius:7px;padding:10px 12px;}
+.brf-dig-q{font-family:var(--font-mono);font-size:11px;color:var(--accent);margin-bottom:4px;}
+.brf-dig-ans{font-size:13px;line-height:1.55;color:var(--text2);white-space:pre-wrap;}
+
 /* ─── PORTFOLIO (Screener top section) ─── */
 .pf-wrap{background:var(--glass-bg);border:1px solid var(--border);border-radius:var(--radius);padding:16px;margin-bottom:18px;box-shadow:var(--card-shadow);}
 .pf-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;flex-wrap:wrap;gap:8px;}
@@ -2905,6 +2931,231 @@ function brfEsc(s){ return String(s==null?'':s).replace(/[&<>"]/g, c => ({'&':'&
 function brfPct(n){ if(n==null) return '—'; const s=n>0?'+':''; return s+Number(n).toFixed(2)+'%'; }
 function brfCls(n){ return n==null?'pct-neutral':(n>0?'pct-up':(n<0?'pct-down':'pct-neutral')); }
 
+/* ─── BRIEFINGS: Gemini narration + dig-deeper (Phase 3) ───
+   A small Cloudflare Worker proxies Gemini so the API key stays server-side.
+   Nothing is generated until a briefing is opened, and the result is cached on
+   the in-memory briefing object (as script_text) for the session — so
+   reopening is instant and idle cost is $0. With no narrate-config URL the
+   whole feature stays off and the doc view still shows indicators + news. */
+const NARRATE_CFG_PATH = 'data/narrate-config.json';
+let narrateUrl = null;
+let narrateReady = false;
+let brfCurrent = null;      // ticker of the briefing currently open in the doc modal
+
+async function narrateInit(){
+  try{
+    const res = await fetch(NARRATE_CFG_PATH + '?t=' + Date.now());
+    if(res.ok){
+      const cfg = await res.json();
+      narrateUrl = (cfg.url || '').replace(/\/+$/, '') || null;
+    }
+  }catch(e){ /* no config file = narration simply off */ }
+  narrateReady = true;
+}
+
+function narrateHeaders(){
+  const h = { 'Content-Type': 'application/json' };
+  // Reuse the stored sync key in case the Worker gates on NARRATE_KEY. Harmless
+  // when it doesn't — the Worker only checks the header if that secret is set.
+  let k = null; try{ k = localStorage.getItem(SYNC_KEY_STORE); }catch(e){}
+  if(k) h['X-Sync-Key'] = k;
+  return h;
+}
+
+/* Generate (or reuse) the narrated script for a ticker. Caches onto the
+   briefing object so it survives tab switches this session. */
+async function brfNarrate(t, force){
+  const b = briefingsData && briefingsData.items[t];
+  if(!b) throw new Error('No briefing loaded.');
+  if(b.script_text && !force) return b.script_text;
+  if(!narrateUrl) throw new Error('narration not configured');
+  const res = await fetch(narrateUrl + '/narrate', {
+    method:'POST', headers: narrateHeaders(),
+    body: JSON.stringify({ briefing: b })
+  });
+  const data = await res.json().catch(()=>({}));
+  if(!res.ok) throw new Error(data.message || data.error || ('HTTP '+res.status));
+  b.script_text = (data.script || '').trim();
+  return b.script_text;
+}
+
+async function brfDig(t, question){
+  const b = briefingsData && briefingsData.items[t];
+  if(!b) throw new Error('No briefing loaded.');
+  if(!narrateUrl) throw new Error('narration not configured');
+  const res = await fetch(narrateUrl + '/dig', {
+    method:'POST', headers: narrateHeaders(),
+    body: JSON.stringify({ briefing: b, question })
+  });
+  const data = await res.json().catch(()=>({}));
+  if(!res.ok) throw new Error(data.message || data.error || ('HTTP '+res.status));
+  return (data.answer || '').trim();
+}
+
+/* Kick off narration for the open modal and paint the result. */
+async function brfRunNarration(t, force){
+  if(!narrateReady){ try{ await narrateInit(); }catch(e){} }
+  const box = document.getElementById('brf-narr-body');
+  if(!box) return;
+  const b = briefingsData && briefingsData.items[t];
+  if(b && b.script_text && !force){
+    box.className = 'brf-narr-body'; box.textContent = b.script_text; return;
+  }
+  if(!narrateUrl){
+    box.className = 'brf-narr-off';
+    box.innerHTML = 'AI narration isn’t switched on yet. Deploy the narration Worker and add its URL to '
+      + '<code style="color:var(--accent);background:var(--bg2);padding:1px 5px;border-radius:3px;">data/narrate-config.json</code> '
+      + 'to get a plain-English summary and “dig deeper.”';
+    const rg = document.querySelector('#brf-narr-body').closest('.brf-narr').querySelector('.brf-narr-regen'); if(rg) rg.style.display='none';
+    const dig = document.getElementById('brf-dig'); if(dig) dig.style.display='none';
+    return;
+  }
+  box.className = 'brf-narr-loading';
+  box.textContent = 'Writing a plain-English briefing…';
+  try{
+    const script = await brfNarrate(t, force);
+    if(brfCurrent !== t) return;   // modal changed while we waited
+    box.className = 'brf-narr-body'; box.textContent = script;
+  }catch(e){
+    if(brfCurrent !== t) return;
+    box.className = 'brf-narr-err';
+    box.textContent = 'Couldn’t generate the narration (' + (e.message||e) + '). The full briefing is below.';
+  }
+}
+function brfRegenNarration(){ if(brfCurrent) brfRunNarration(brfCurrent, true); }
+
+async function brfSubmitDig(){
+  const input = document.getElementById('brf-dig-input');
+  const btn = document.getElementById('brf-dig-btn');
+  const out = document.getElementById('brf-dig-answers');
+  if(!input || !out) return;
+  const q = input.value.trim(); if(!q) return;
+  const t = brfCurrent;
+  input.value=''; if(btn) btn.disabled=true;
+  const card = document.createElement('div');
+  card.className='brf-dig-qa';
+  card.innerHTML = '<div class="brf-dig-q">'+brfEsc(q)+'</div><div class="brf-dig-ans brf-narr-loading">Thinking…</div>';
+  out.appendChild(card);
+  const ansEl = card.querySelector('.brf-dig-ans');
+  try{
+    const ans = await brfDig(t, q);
+    ansEl.className='brf-dig-ans'; ansEl.textContent = ans;
+  }catch(e){
+    ansEl.className='brf-dig-ans brf-narr-err';
+    ansEl.textContent = 'Couldn’t answer that (' + (e.message||e) + ').';
+  }finally{ if(btn) btn.disabled=false; }
+}
+function brfDigKey(e){ if(e && e.key==='Enter'){ e.preventDefault(); brfSubmitDig(); } }
+
+/* ── Downloads: PDF (default) + Word, built from the open briefing ── */
+function brfDocFields(t){
+  const b = briefingsData && briefingsData.items[t];
+  if(!b) return null;
+  const p = b.price||{}, io = b.indicators||{};
+  const inds = [];
+  const add=(k,v,r)=>inds.push({k, v:(v==null?'—':String(v)), r:r||''});
+  if(io.rsi14) add('RSI (14)', io.rsi14.value, io.rsi14.read);
+  if(io.macd) add('MACD (12/26/9)', io.macd.macd, io.macd.read);
+  if(io.bollinger_pctb) add('Bollinger %B', io.bollinger_pctb.pctb, io.bollinger_pctb.read);
+  if(io.pct_from_52w_low) add('% from 52-wk low', io.pct_from_52w_low.value!=null?io.pct_from_52w_low.value+'%':null, io.pct_from_52w_low.read);
+  if(io.pct_from_52w_high) add('% from 52-wk high', io.pct_from_52w_high.value!=null?io.pct_from_52w_high.value+'%':null, io.pct_from_52w_high.read);
+  if(io.price_vs_ma200) add('Price vs 200-day', io.price_vs_ma200.pct!=null?io.price_vs_ma200.pct+'%':null, io.price_vs_ma200.read);
+  if(io.atr14) add('ATR (14)', io.atr14.value!=null?io.atr14.value+' ('+io.atr14.pct_of_price+'%)':null, io.atr14.read);
+  if(io.rel_volume) add('Relative volume', io.rel_volume.value!=null?io.rel_volume.value+'×':null, io.rel_volume.read);
+  if(io.mfi14) add('Money Flow Index', io.mfi14.value, io.mfi14.read);
+  const moves=[];
+  if(p.move_day_pct!=null) moves.push(brfPct(p.move_day_pct)+' day');
+  if(p.move_open_close_pct!=null) moves.push(brfPct(p.move_open_close_pct)+' open→close');
+  if(p.move_week_pct!=null) moves.push(brfPct(p.move_week_pct)+' week');
+  return {
+    ticker:t,
+    asof:(b.data_asof||'')+' · '+((b.session||'').toUpperCase())+' briefing',
+    price:(p.last!=null?('$'+Number(p.last).toFixed(2)):'—'),
+    moves:moves.join('    '),
+    script:b.script_text||'',
+    inds,
+    news:Array.isArray(b.news)?b.news:[],
+    filings:Array.isArray(b.filings)?b.filings:[],
+    disclaimer:b.disclaimer||'Informational only. Not financial advice.'
+  };
+}
+
+function brfSaveBlob(blob, filename){
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href=url; a.download=filename;
+  document.body.appendChild(a); a.click();
+  setTimeout(()=>{ URL.revokeObjectURL(url); a.remove(); }, 1500);
+}
+
+function brfDownloadWord(){
+  const d = brfDocFields(brfCurrent); if(!d) return;
+  const esc = brfEsc;
+  let h = '<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40"><head><meta charset="utf-8"><title>'+esc(d.ticker)+' Briefing</title></head>'
+    + '<body style="font-family:Calibri,Arial,sans-serif;color:#111;">';
+  h += '<h1 style="margin:0 0 2px;">'+esc(d.ticker)+' — Daily Briefing</h1>';
+  h += '<div style="color:#666;font-size:12px;margin-bottom:12px;">'+esc(d.asof)+'</div>';
+  h += '<div style="font-size:15px;margin-bottom:12px;"><strong>'+esc(d.price)+'</strong>&nbsp;&nbsp;'+esc(d.moves)+'</div>';
+  if(d.script){ h += '<h3 style="margin:14px 0 4px;">Briefing</h3><p style="font-size:13px;line-height:1.5;">'+esc(d.script).replace(/\n/g,'<br>')+'</p>'; }
+  h += '<h3 style="margin:16px 0 4px;">Indicators</h3><table border="1" cellspacing="0" cellpadding="6" style="border-collapse:collapse;font-size:12px;width:100%;">'
+    + '<tr style="background:#f0f0f0;"><th align="left">Indicator</th><th align="left">Value</th><th align="left">Read</th></tr>';
+  for(const r of d.inds){ h += '<tr><td>'+esc(r.k)+'</td><td>'+esc(r.v)+'</td><td>'+esc(r.r)+'</td></tr>'; }
+  h += '</table>';
+  if(d.news.length){ h += '<h3 style="margin:16px 0 4px;">Recent news</h3><ul style="font-size:12px;">'; for(const n of d.news){ h += '<li>'+esc(n.headline||'')+(n.source?' — '+esc(n.source):'')+'</li>'; } h += '</ul>'; }
+  if(d.filings.length){ h += '<h3 style="margin:16px 0 4px;">SEC filings</h3><ul style="font-size:12px;">'; for(const f of d.filings){ h += '<li>'+esc(f.title||f.form||'Filing')+(f.date?' — '+esc(f.date):'')+'</li>'; } h += '</ul>'; }
+  h += '<p style="color:#888;font-size:11px;margin-top:18px;">'+esc(d.disclaimer)+'</p></body></html>';
+  brfSaveBlob(new Blob(['﻿'+h], {type:'application/msword'}), d.ticker+'_briefing.doc');
+}
+
+let _jspdfLoading = null;
+function loadJsPDF(){
+  if(window.jspdf && window.jspdf.jsPDF) return Promise.resolve();
+  if(_jspdfLoading) return _jspdfLoading;
+  _jspdfLoading = new Promise((resolve,reject)=>{
+    const s=document.createElement('script');
+    s.src='https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js';
+    s.onload=()=>resolve(); s.onerror=()=>reject(new Error('cdn'));
+    document.head.appendChild(s);
+  });
+  return _jspdfLoading;
+}
+
+async function brfDownloadPDF(){
+  const d = brfDocFields(brfCurrent); if(!d) return;
+  const btn = document.getElementById('brf-dl-pdf');
+  if(btn) btn.disabled=true;
+  try{ await loadJsPDF(); }
+  catch(e){
+    if(btn) btn.disabled=false;
+    alert('The PDF library couldn’t load (offline?). Downloading a Word document instead.');
+    brfDownloadWord(); return;
+  }
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF({ unit:'pt', format:'letter' });
+  const M=54, maxW=doc.internal.pageSize.getWidth()-M*2, PH=doc.internal.pageSize.getHeight();
+  let y=M;
+  const line=(txt,size,color,gap,style)=>{
+    doc.setFont('helvetica', style||'normal'); doc.setFontSize(size); doc.setTextColor(color||'#111111');
+    for(const ln of doc.splitTextToSize(String(txt), maxW)){
+      if(y>PH-M){ doc.addPage(); y=M; }
+      doc.text(ln, M, y); y+=size*1.35;
+    }
+    if(gap) y+=gap;
+  };
+  line(d.ticker+' — Daily Briefing', 18, '#0a7d3a', 2, 'bold');
+  line(d.asof, 9, '#777777', 6);
+  line(d.price+'     '+d.moves, 13, '#111111', 10, 'bold');
+  if(d.script){ line('BRIEFING', 9, '#0a7d3a', 3, 'bold'); line(d.script, 11, '#111111', 10); }
+  line('INDICATORS', 9, '#0a7d3a', 3, 'bold');
+  for(const r of d.inds){ line(r.k+':   '+r.v, 11, '#111111', 0, 'bold'); if(r.r) line('     '+r.r, 10, '#555555', 2); }
+  y+=4;
+  if(d.news.length){ line('RECENT NEWS', 9, '#0a7d3a', 3, 'bold'); for(const n of d.news){ line('• '+(n.headline||'')+(n.source?'  ('+n.source+')':''), 10, '#333333', 1); } }
+  if(d.filings.length){ y+=4; line('SEC FILINGS', 9, '#0a7d3a', 3, 'bold'); for(const f of d.filings){ line('• '+(f.title||f.form||'Filing')+(f.date?'  '+f.date:''), 10, '#333333', 1); } }
+  y+=8; line(d.disclaimer, 9, '#999999', 0, 'italic');
+  doc.save(d.ticker+'_briefing.pdf');
+  if(btn) btn.disabled=false;
+}
+
 async function loadBriefings(force){
   if (briefingsData && !force) return;         // already loaded this session
   if (briefingsLoading) return;
@@ -3049,18 +3300,30 @@ function openBriefingDoc(t){
   document.getElementById('brf-modal-body').innerHTML =
       '<div class="brf-doc-head"><div><span class="brf-ticker" style="font-size:20px">'+brfEsc(t)+'</span>'
     + '<span class="brf-asof">as of '+brfEsc(b.data_asof||'')+' · '+brfEsc((b.session||'').toUpperCase())+'</span></div>'
-    + '<button class="brf-icon brf-icon-live" onclick="closeBriefingDoc()" title="Close">✕</button></div>'
+    + '<div class="brf-doc-head-actions">'
+    + '<button class="brf-dl" id="brf-dl-pdf" onclick="brfDownloadPDF()" title="Download this briefing as a PDF">⬇ PDF</button>'
+    + '<button class="brf-dl" onclick="brfDownloadWord()" title="Download this briefing as a Word document">⬇ Word</button>'
+    + '<button class="brf-icon brf-icon-live" onclick="closeBriefingDoc()" title="Close">✕</button>'
+    + '</div></div>'
     + '<div class="brf-doc-price"><span class="brf-price">$'+(p.last!=null?Number(p.last).toFixed(2):'—')+'</span>'
     + '<span class="'+brfCls(p.move_day_pct)+' brf-move">'+brfPct(p.move_day_pct)+' day</span>'
     + '<span class="'+brfCls(p.move_open_close_pct)+' brf-move">'+brfPct(p.move_open_close_pct)+' open→close</span>'
     + '<span class="'+brfCls(p.move_week_pct)+' brf-move">'+brfPct(p.move_week_pct)+' week</span></div>'
+    + '<div class="brf-narr"><div class="brf-narr-head"><span class="brf-narr-title">✨ Plain-English briefing</span>'
+    + '<button class="brf-narr-regen" onclick="brfRegenNarration()" title="Regenerate">↻</button></div>'
+    + '<div id="brf-narr-body" class="brf-narr-loading">…</div>'
+    + '<div class="brf-dig" id="brf-dig"><div class="brf-dig-row">'
+    + '<input id="brf-dig-input" class="brf-dig-input" type="text" placeholder="Dig deeper — ask about an indicator or headline…" onkeydown="brfDigKey(event)">'
+    + '<button id="brf-dig-btn" class="brf-dig-btn" onclick="brfSubmitDig()">ASK</button></div>'
+    + '<div id="brf-dig-answers" class="brf-dig-a"></div></div></div>'
     + '<table class="brf-doc-table"><thead><tr><th>Indicator</th><th>Value</th><th>Read</th></tr></thead><tbody>'+rows.join('')+'</tbody></table>'
     + newsHtml
-    + '<div class="brf-doc-note">📝 A narrated plain-English summary and a PDF / Word download arrive in the next phase.'
-    + (b.disclaimer?'<br><span style="color:var(--text3)">'+brfEsc(b.disclaimer)+'</span>':'')+'</div>';
+    + '<div class="brf-doc-note">'+brfEsc(b.disclaimer||'Informational only. Not financial advice.')+'</div>';
+  brfCurrent = t;
   document.getElementById('brf-modal').classList.add('open');
+  brfRunNarration(t, false);
 }
-function closeBriefingDoc(){ document.getElementById('brf-modal').classList.remove('open'); }
+function closeBriefingDoc(){ document.getElementById('brf-modal').classList.remove('open'); brfCurrent = null; }
 
 /* ─── PORTFOLIO ───
    Owned holdings = tickers + share counts, shown as a positions table on the
@@ -3253,6 +3516,7 @@ loadData();
 /* Sync last: it depends on the lists being loaded, and it must never delay
    the screener rendering. */
 syncInit();
+narrateInit();   // load narrate-config.json so the Briefings doc view knows the Worker URL
 </script>
 
 <script>

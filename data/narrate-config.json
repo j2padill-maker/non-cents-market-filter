@@ -1,0 +1,4 @@
+{
+  "_comment": "Worker URL for Gemini narration + dig-deeper in the Briefings doc view. Leave url blank to keep narration OFF (the doc modal still shows the full indicator table + news, just no AI summary). Fill in your deployed narrate Worker URL to turn it on, e.g. https://noncents-narrate.j2padill.workers.dev",
+  "url": ""
+}
