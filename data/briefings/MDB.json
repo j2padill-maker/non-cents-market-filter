@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-08-31T16:51:27.448107-07:00",
+  "generated_at": "2026-09-01T16:55:02.548160-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,128 +17,128 @@
   ],
   "news": [
     {
+      "headline": "Get insights into the top gainers and losers of Tuesday's after-hours session.",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=89aadc5d907710241a38b6666c1a68d00a11315b07dc8c1012be9c9f8af397fb",
+      "datetime": 1788296400,
+      "summary": "As the regular session of the US market on Tuesday comes to an end, let's delve into the after-hours session and discover the top gainers and losers shaping the post-market sentiment."
+    },
+    {
+      "headline": "12 Information Technology Stocks Moving In Tuesday's After-Market Session",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=ee0fcaa49816ab1fc79214d4242468c47b8143a67211a9dd6d32d5fd147546c0",
+      "datetime": 1788282394,
+      "summary": "Gainers\n\nGitLab (NASDAQ:GTLB) shares increased by 15.3% to $51.97 during Tuesday&#39;s after-market session. The company&#39;s market cap stands at $7.9 billion. The company&#39;s, Q2 earnings came out today."
+    },
+    {
+      "headline": "Stock Market Today: S&P 500, Dow, Nasdaq 100 Futures Drop After Trump Says Iran Is \u2018Totally Defeated\u2019, Brent Tops $92 \u2014 CBRS, PXS, PANW, DELL in Focus (UPDATED)",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=7485774bda7b869bd9e40a4b09e852fe09a21965555ec6bdfa917c5c196ff350",
+      "datetime": 1788251668,
+      "summary": "U.S. stock futures were lower on Tuesday, as the Dow Jones, S&amp;P 500 and Nasdaq 100 indices fell, following Monday&#39;s lower close."
+    },
+    {
+      "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=bff5cb927e8565f596b41f4f89b8d401f252b2dd756217ef78ccf8d2f26c86ab",
+      "datetime": 1788232318,
+      "summary": "Polymarket odds lean bullish at 56% as Wall Street weighs escalating U.S.-Iran military strikes and the domestic debate over AI data centers."
+    },
+    {
+      "headline": "ValuEngine Weekly Commentary: Will Disruptive Technologies Upend Aerospace Companies?",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=f92e42ba0fd391439b9372466bb070027ee9fafb6e2e1388e5a346dc14508642",
+      "datetime": 1788219000,
+      "summary": "U.S. equity markets were mixed this past week, with modest gains in the major benchmarks offset by weakness across several defensive and cyclical sectors."
+    },
+    {
       "headline": "Dell Technologies Could Swing $28.9 Billion After Earnings",
       "source": "Benzinga",
       "url": "https://finnhub.io/api/news?id=6bee73b8d2209fb5fdc063f9684e7a7919b5cf7952777d6dff2b93b9bc107cc2",
       "datetime": 1788189354,
       "summary": "Options markets are pricing sizable earnings moves for seven medtech and enterprise tech stocks, led by GitLab at 14.99% and MongoDB at 14.93%."
-    },
-    {
-      "headline": "Software Is Back: 5 Stocks To Buy",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=6c360020db1d3f9bb63d82b2ec53d576a13f4e2361f8521c4c1caee25747346e",
-      "datetime": 1788180139,
-      "summary": "AI trade shifts from chips to software: learn why IGV/XSW are leading and see top picks like Salesforce, CrowdStrike, Datadog, PANW & ServiceNow\u00e2\u0080\u0094read now."
-    },
-    {
-      "headline": "Snowflake To Rally More Than 23%? Here Are 10 Top Analyst Forecasts For Monday",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=487a2a62a6d25d1e5e14e3d23fccd27cea34e44c8a2ba4f25b781eb6ddeabb5f",
-      "datetime": 1788164168,
-      "summary": "Top Wall Street analysts changed their outlook on these top names. For a complete view of all analyst rating changes, including upgrades and downgrades, please see our analyst ratings page.\nBMO Capital cut the price"
-    },
-    {
-      "headline": "MongoDB Likely To Report Higher Q2 Earnings; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=cc55b648c1804c533be0d5a58e3b9549119165c6c8648bf1688a44f2dcd94d26",
-      "datetime": 1788162262,
-      "summary": "MongoDB, Inc. (NASDAQ:MDB) will release its second earnings report after the closing bell on Tuesday, Sept. 1.\n\n\n\nAnalysts expect the New York-based company to report quarterly earnings of $1.61 per share, up from $1.00"
-    },
-    {
-      "headline": "Cantor Fitzgerald Maintains Overweight on MongoDB, Raises Price Target to $540",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=c47692f1f3f47e04c94f1393b79cb9c8d64344b1eacd24540cf746611cf35d4f",
-      "datetime": 1788159904,
-      "summary": "Cantor Fitzgerald  analyst Thomas Blakey   maintains MongoDB (NASDAQ:MDB) with a Overweight and raises the price target from $416 to $540."
-    },
-    {
-      "headline": "Wall Street Week Ahead",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=ba315618ffbe316cfaad6942270af6a92eed58515a9f13eba6d622c94ad24900",
-      "datetime": 1788069518,
-      "summary": "Wall Street heads into September: August jobs report, AI chip earnings, and Tesla\u00e2\u0080\u0099s Cybercab launch\u00e2\u0080\u0094plus Fed Beige Book insights."
     }
   ],
   "filings": [
+    {
+      "form": "10-Q",
+      "title": "Quarterly report (10-Q)",
+      "date": "2026-09-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026059830/mdb-20260731.htm"
+    },
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-09-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026059794/mdb-20260901.htm"
+    },
     {
       "form": "8-K",
       "title": "Material event (8-K)",
       "date": "2026-07-06",
       "url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026047228/mdb-20260630.htm"
-    },
-    {
-      "form": "10-Q",
-      "title": "Quarterly report (10-Q)",
-      "date": "2026-05-29",
-      "url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026039150/mdb-20260430.htm"
-    },
-    {
-      "form": "8-K",
-      "title": "Material event (8-K)",
-      "date": "2026-05-28",
-      "url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026038798/mdb-20260528.htm"
     }
   ],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-08-31",
+  "data_asof": "2026-09-01",
   "price": {
-    "last": 453.37,
-    "open": 444.0,
-    "prev_close": 446.62,
-    "move_day_pct": 1.51,
-    "move_open_close_pct": 2.11,
-    "move_week_pct": 12.59
+    "last": 434.21,
+    "open": 443.19,
+    "prev_close": 453.37,
+    "move_day_pct": -4.23,
+    "move_open_close_pct": -2.03,
+    "move_week_pct": 7.23
   },
   "indicators": {
     "rsi14": {
-      "value": 64.4,
-      "read": "Firm \u2014 approaching overbought"
+      "value": 57.8,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": 21.206,
-      "signal": 22.131,
-      "hist": -0.925,
-      "hist_prev": -2.063,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": 20.147,
+      "signal": 21.734,
+      "hist": -1.587,
+      "hist_prev": -0.925,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 478.9,
-      "lower": 368.18,
-      "mid": 423.54,
-      "pctb": 0.769,
+      "upper": 478.02,
+      "lower": 374.48,
+      "mid": 426.25,
+      "pctb": 0.577,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 100.65,
-      "read": "101% above its 52-week low"
+      "value": 92.17,
+      "read": "92% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -4.01,
+      "value": -8.06,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 341.68,
-      "pct": 32.69,
-      "read": "33% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 342.02,
+      "pct": 26.95,
+      "read": "27% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 21.55,
-      "pct_of_price": 4.75,
+      "value": 21.64,
+      "pct_of_price": 4.98,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.23,
-      "read": "Roughly average volume"
+      "value": 2.18,
+      "read": "Heavy volume \u2014 well above average"
     },
     "mfi14": {
-      "value": 57.8,
+      "value": 46.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 366.92,
-  "ma200": 341.68
+  "ma50": 369.22,
+  "ma200": 342.02
 }

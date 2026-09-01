@@ -2,19 +2,19 @@
   "version": 1,
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-08-31T16:51:27.447855-07:00",
+  "generated_at": "2026-09-01T16:55:02.548112-07:00",
   "briefings": [
     {
       "ticker": "MDB",
       "status": "ok",
       "file": "data/briefings/MDB.json",
-      "data_asof": "2026-08-31"
+      "data_asof": "2026-09-01"
     },
     {
       "ticker": "TOELF",
       "status": "ok",
       "file": "data/briefings/TOELF.json",
-      "data_asof": "2026-08-31"
+      "data_asof": "2026-09-01"
     },
     {
       "ticker": "TRDCF",
