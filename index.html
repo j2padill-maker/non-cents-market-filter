@@ -1167,6 +1167,8 @@ td { padding:10px 14px; white-space:nowrap; }
 .brf-news-item a:hover{color:var(--accent);text-decoration:underline;}
 .brf-news-meta{display:block;font-family:var(--font-mono);font-size:10px;color:var(--text3);margin-top:2px;}
 .brf-news-empty{font-size:12px;color:var(--text3);}
+.brf-group-head{font-family:var(--font-display);font-weight:800;font-size:14px;color:var(--text2);margin:20px 0 10px;letter-spacing:.02em;}
+.brf-group-head:first-child{margin-top:4px;}
 
 /* ─── PORTFOLIO (Screener top section) ─── */
 .pf-wrap{background:var(--glass-bg);border:1px solid var(--border);border-radius:var(--radius);padding:16px;margin-bottom:18px;box-shadow:var(--card-shadow);}
@@ -2945,9 +2947,23 @@ function renderBriefings(){
     + '<span class="brf-session">' + brfEsc((index.session||'').toUpperCase()) + ' BRIEFING</span>'
     + (when ? ' · generated ' + when.toLocaleDateString() + ' ' + when.toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'}) : '')
     + ' <button class="wl-icon-btn" style="margin-left:8px;" onclick="loadBriefings(true)">↻ REFRESH</button>'
-    + '</div><div class="brf-grid">';
-  for (const t of tickers){ html += brfCard(items[t] || {status:'nodata', ticker:t}); }
-  html += '</div>';
+    + '</div>';
+  const pfset = new Set(typeof pfTickers==='function' ? pfTickers() : []);
+  const pf = tickers.filter(t => pfset.has(t));
+  const wl = tickers.filter(t => !pfset.has(t));
+  const section = (label, list) => {
+    if(!list.length) return '';
+    let s = '<div class="brf-group-head">'+label+'</div><div class="brf-grid">';
+    for(const t of list){ s += brfCard(items[t] || {status:'nodata', ticker:t}); }
+    return s + '</div>';
+  };
+  if(pf.length && wl.length){
+    html += section('💼 Portfolio', pf) + section('⭐ Watchlist', wl);
+  } else {
+    html += '<div class="brf-grid">';
+    for(const t of tickers){ html += brfCard(items[t] || {status:'nodata', ticker:t}); }
+    html += '</div>';
+  }
   el.innerHTML = html;
 }
 
@@ -3047,44 +3063,67 @@ function openBriefingDoc(t){
 function closeBriefingDoc(){ document.getElementById('brf-modal').classList.remove('open'); }
 
 /* ─── PORTFOLIO ───
-   Owned holdings = tickers + share counts. A separate local store from the
-   watchlist (owned vs watched are different things, and this keeps the tested
-   watchlist sync untouched). Prices come from the same cache the screener uses;
-   holdings not yet in the fetched universe show "pending" until they're fetched.
-   Local-only for now — cross-device sync and feeding the briefings come next. */
-const PF_KEY = 'ncmf_portfolio';
-let pfData = { version:1, updated:null, holdings:[] };   // holdings:[{ticker, shares}]
+   Owned holdings = tickers + share counts, shown as a positions table on the
+   Screener and (their briefings) on the Briefings tab. The TICKERS ride the
+   watchlist rails: they live in a reserved watchlist list named "Portfolio", so
+   they sync across devices, get fully fetched (every screener category), and feed
+   the briefings — all through machinery that already exists. Share counts live in
+   a local map for now; syncing shares across devices is the next step. */
+const PF_LIST = 'Portfolio';                  // reserved watchlist list holding the tickers
+const PF_SHARES_KEY = 'ncmf_portfolio_shares';
+const PF_LEGACY_KEY = 'ncmf_portfolio';        // pre-rails local store, migrated once
+let pfShares = {};                             // { TICKER: shares }
+
+function pfEsc(s){ return brfEsc(s); }
+function pfNorm(t){ return String(t||'').toUpperCase().trim().replace(/[^A-Z0-9.\-]/g,''); }
+function pfListObj(){ return wlData.lists.find(l => l.name === PF_LIST) || null; }
+function pfEnsureList(){
+  let l = pfListObj();
+  if(!l){ l = { id: wlNewId(), name: PF_LIST, tickers: [] }; wlData.lists.push(l); }
+  return l;
+}
+function pfTickers(){ const l = pfListObj(); return l ? l.tickers.slice() : []; }
+function pfStock(t){ return (typeof allStocks!=='undefined' && allStocks) ? allStocks.find(s => s.ticker===t) : null; }
+
+function pfLoadShares(){
+  try { const s = JSON.parse(localStorage.getItem(PF_SHARES_KEY) || 'null'); if(s && typeof s==='object') pfShares = s; }
+  catch(e){ pfShares = {}; }
+}
+function pfSaveShares(){ try { localStorage.setItem(PF_SHARES_KEY, JSON.stringify(pfShares)); } catch(e){} }
 
 function pfLoad(){
+  pfLoadShares();
+  // One-time migration of the pre-rails local portfolio into the Portfolio list
+  // + shares map, so nothing already entered is lost and it starts syncing.
   try {
-    const s = JSON.parse(localStorage.getItem(PF_KEY) || 'null');
-    if (s && Array.isArray(s.holdings)) {
-      pfData = { version:1, updated:s.updated||null,
-        holdings: s.holdings.map(h => ({
-          ticker: String(h.ticker||'').toUpperCase().trim().replace(/[^A-Z0-9.\-]/g,''),
-          shares: (h.shares!=null && isFinite(h.shares)) ? Number(h.shares) : null
-        })).filter(h => h.ticker) };
+    const legacy = JSON.parse(localStorage.getItem(PF_LEGACY_KEY) || 'null');
+    if (legacy && Array.isArray(legacy.holdings) && legacy.holdings.length) {
+      const l = pfEnsureList();
+      for (const h of legacy.holdings) {
+        const t = pfNorm(h.ticker);
+        if (!t) continue;
+        if (!l.tickers.includes(t)) l.tickers.push(t);
+        if (h.shares!=null && isFinite(h.shares) && pfShares[t]==null) pfShares[t] = Number(h.shares);
+      }
+      wlSave();                 // pushes the new Portfolio list up to sync
+      pfSaveShares();
+      localStorage.removeItem(PF_LEGACY_KEY);
     }
-  } catch(e){ console.warn('Portfolio store unreadable, starting fresh:', e); }
+  } catch(e){ console.warn('Portfolio migration skipped:', e); }
 }
-function pfSave(){
-  pfData.updated = new Date().toISOString();
-  try { localStorage.setItem(PF_KEY, JSON.stringify(pfData)); }
-  catch(e){ console.warn('Could not save portfolio:', e); }
-}
-function pfEsc(s){ return brfEsc(s); }
-function pfStock(t){ return (typeof allStocks!=='undefined' && allStocks) ? allStocks.find(s => s.ticker===t) : null; }
-function pfFind(t){ return pfData.holdings.find(h => h.ticker===t); }
 
 function pfAdd(t, shares){
-  t = String(t||'').toUpperCase().trim().replace(/[^A-Z0-9.\-]/g,'');
+  t = pfNorm(t);
   if(!t) return;
   const sh = (shares===''||shares==null) ? null : Number(shares);
   const clean = (sh!=null && isFinite(sh) && sh>=0) ? sh : null;
-  const ex = pfFind(t);
-  if(ex){ if(clean!=null) ex.shares = clean; }
-  else pfData.holdings.push({ ticker:t, shares:clean });
-  pfSave(); pfRender();
+  const l = pfEnsureList();
+  if(!l.tickers.includes(t)) l.tickers.push(t);
+  if(clean!=null) pfShares[t] = clean;
+  wlSave();                     // syncs the ticker + queues it for the next fetch
+  pfSaveShares();
+  pfRender();
+  if(typeof renderWatchlist==='function') renderWatchlist();
 }
 function pfAddFromInputs(){
   const t = document.getElementById('pf-ticker'), s = document.getElementById('pf-shares');
@@ -3092,34 +3131,30 @@ function pfAddFromInputs(){
   pfAdd(t.value, s ? s.value : '');
   t.value=''; if(s) s.value=''; t.focus();
 }
-function pfRemove(t){ pfData.holdings = pfData.holdings.filter(h => h.ticker!==t); pfSave(); pfRender(); }
+function pfRemove(t){
+  t = pfNorm(t);
+  const l = pfListObj();
+  if(l) l.tickers = l.tickers.filter(x => x!==t);
+  delete pfShares[t];
+  wlSave();
+  pfSaveShares();
+  pfRender();
+  if(typeof renderWatchlist==='function') renderWatchlist();
+}
 
 function pfRender(){
   const host = document.getElementById('portfolio-section');
   if(!host) return;
-  const H = pfData.holdings;
-  let rowsHtml = '', total = 0, haveValue = false;
-  for(const h of H){
-    const st = pfStock(h.ticker);
-    const price = st ? st.price : null;
-    const chg = st ? st.change_pct : null;
-    const val = (price!=null && h.shares!=null) ? price*h.shares : null;
-    if(val!=null){ total += val; haveValue = true; }
-    const priceStr = price!=null ? '$'+Number(price).toFixed(2) : '<span class="pf-pending">pending</span>';
-    const chgStr = chg!=null ? '<span class="'+brfCls(chg)+'">'+brfPct(chg)+'</span>' : '—';
-    const valStr = val!=null ? '$'+val.toLocaleString(undefined,{maximumFractionDigits:0}) : '—';
-    const shStr = h.shares!=null ? Number(h.shares).toLocaleString(undefined,{maximumFractionDigits:4}) : '<span class="pf-pending">— shares</span>';
-    rowsHtml += '<tr>'
-      + '<td class="pf-tk">'+pfEsc(h.ticker)+((st&&st.company_name)?'<span class="pf-co">'+pfEsc(st.company_name)+'</span>':'')+'</td>'
-      + '<td class="r">'+shStr+'</td>'
-      + '<td class="r">'+priceStr+'</td>'
-      + '<td class="r">'+chgStr+'</td>'
-      + '<td class="r pf-val">'+valStr+'</td>'
-      + '<td class="r"><button class="pf-x" title="Remove" onclick="pfRemove(\''+pfEsc(h.ticker)+'\')">✕</button></td>'
-      + '</tr>';
+  const tickers = pfTickers();
+
+  let total = 0, haveValue = false;
+  for(const t of tickers){
+    const s = pfStock(t), sh = pfShares[t];
+    if(s && s.price!=null && sh!=null){ total += s.price*sh; haveValue = true; }
   }
+
   let html = '<div class="pf-wrap"><div class="pf-head">'
-    + '<div class="pf-title">💼 Your Portfolio <span class="pf-count">'+H.length+' holding'+(H.length===1?'':'s')+'</span></div>'
+    + '<div class="pf-title">💼 Your Portfolio <span class="pf-count">'+tickers.length+' holding'+(tickers.length===1?'':'s')+'</span></div>'
     + '<div class="pf-total">'+(haveValue ? 'Total <strong>$'+total.toLocaleString(undefined,{maximumFractionDigits:0})+'</strong>' : '')+'</div>'
     + '</div>'
     + '<div class="pf-addrow">'
@@ -3127,16 +3162,69 @@ function pfRender(){
     + '<input id="pf-shares" class="search-input" placeholder="Shares" type="number" min="0" step="any" style="width:120px;" onkeydown="if(event.key===\'Enter\')pfAddFromInputs()">'
     + '<button class="btn-add" onclick="pfAddFromInputs()">+ ADD</button>'
     + '</div>';
-  if(!H.length){
+
+  if(!tickers.length){
     html += '<div class="pf-empty">No holdings yet — add a ticker and share count above to see your positions here.'
-      + '<span class="pf-empty-sub">Uploading a PDF / Word statement is coming with the AI layer.</span></div>';
-  } else {
-    html += '<div class="pf-table-wrap"><table class="pf-table"><thead><tr>'
-      + '<th>Ticker</th><th class="r">Shares</th><th class="r">Price</th><th class="r">Day</th><th class="r">Value</th><th></th>'
-      + '</tr></thead><tbody>'+rowsHtml+'</tbody></table></div>';
+      + '<span class="pf-empty-sub">Uploading a PDF / Word statement is coming with the AI layer.</span></div></div>';
+    host.innerHTML = html;
+    return;
   }
-  html += '</div>';
+  html += pfTable(tickers) + '</div>';
   host.innerHTML = html;
+}
+
+/* Full-category positions table — mirrors the screener's columns (reusing the
+   same cell helpers) and adds SHARES + VALUE. Pending holdings (not yet fetched)
+   render with dashes so the position is still visible. */
+function pfTable(tickers){
+  const withData = [], pending = [];
+  tickers.forEach(t => { (pfStock(t) ? withData : pending).push(t); });
+  withData.sort((a,b)=>((pfStock(a).rsi14 ?? 99) - (pfStock(b).rsi14 ?? 99)));
+  const order = withData.concat(pending);
+
+  let rows = '';
+  for(const t of order){
+    const s = pfStock(t);
+    const sh = pfShares[t];
+    const shStr = sh!=null ? Number(sh).toLocaleString(undefined,{maximumFractionDigits:4}) : '<span class="pf-pending">—</span>';
+    if(!s){
+      rows += '<tr>'
+        + '<td class="pf-tk">'+pfEsc(t)+'</td><td><span class="pf-pending">pending fetch</span></td>'
+        + '<td class="r">'+shStr+'</td>'
+        + '<td class="r">—</td><td class="r">—</td><td class="r">—</td><td class="r">—</td><td class="r">—</td>'
+        + '<td class="r">—</td><td class="r">—</td><td class="r">—</td><td>—</td><td class="r">—</td>'
+        + '<td class="r"><button class="pf-x" title="Remove" onclick="pfRemove(\''+pfEsc(t)+'\')">✕</button></td>'
+        + '</tr>';
+      continue;
+    }
+    const color = sectorColor(s.sector);
+    const flags = [];
+    if (s.pct_from_52w_low != null && s.pct_from_52w_low <= 5) flags.push('<span class="near-low-flag"></span>Near Low');
+    if (s.abrupt_drop_flag) flags.push(dropBadge(s));
+    if (isOverreaction(s)) flags.push('<span class="drop-flag">OVERREACTION</span>');
+    const val = (s.price!=null && sh!=null) ? s.price*sh : null;
+    rows += '<tr onclick="showModal(\''+s.ticker+'\')" style="cursor:pointer;transition:background .12s;" onmouseover="this.style.background=\'rgba(255,255,255,0.025)\'" onmouseout="this.style.background=\'\'">'
+      + '<td class="pf-tk">'+s.ticker+'</td>'
+      + '<td><span class="sector-badge" style="border-color:'+color+'50;color:'+color+'">'+wlEsc(s.sector)+'</span></td>'
+      + '<td class="r">'+shStr+'</td>'
+      + '<td class="r">$'+fmt(s.price)+'</td>'
+      + '<td class="r '+pctClass(s.change_pct)+'">'+(s.change_pct!=null?(s.change_pct>0?'+':'')+fmt(s.change_pct)+'%':'—')+'</td>'
+      + '<td class="r">'+rsiDisplay(s)+'</td>'
+      + '<td class="r" style="color:var(--red);">'+(s.low_52w?'$'+fmt(s.low_52w):'—')+'</td>'
+      + '<td class="r" style="color:var(--green);">'+(s.high_52w?'$'+fmt(s.high_52w):'—')+'</td>'
+      + '<td class="r '+(s.pct_from_52w_low!=null&&s.pct_from_52w_low<=5?'pct-down':'pct-neutral')+'">'+fmt(s.pct_from_52w_low)+'%</td>'
+      + '<td class="r">'+fmtCap(s.market_cap)+'</td>'
+      + '<td class="r">'+fmt(s.pe_ratio,1)+'</td>'
+      + '<td>'+(flags.join(' ')||'—')+'</td>'
+      + '<td class="r pf-val">'+(val!=null?'$'+val.toLocaleString(undefined,{maximumFractionDigits:0}):'—')+'</td>'
+      + '<td class="r"><button class="pf-x" title="Remove" onclick="event.stopPropagation();pfRemove(\''+s.ticker+'\')">✕</button></td>'
+      + '</tr>';
+  }
+  return '<div class="pf-table-wrap"><table class="pf-table"><thead><tr>'
+    + '<th>TICKER</th><th>SECTOR</th><th class="r">SHARES</th><th class="r">PRICE</th><th class="r">CHG%</th>'
+    + '<th class="r">RSI(14)</th><th class="r">52W LOW</th><th class="r">52W HIGH</th><th class="r">% FROM LOW</th>'
+    + '<th class="r">MKT CAP</th><th class="r">P/E</th><th>FLAGS</th><th class="r">VALUE</th><th></th>'
+    + '</tr></thead><tbody>'+rows+'</tbody></table></div>';
 }
 
 /* ─── SECTOR CARD TILT (micro-interaction, desktop only) ─── */
