@@ -59,6 +59,15 @@ function json(body, status, request) {
 const EMPTY = { version: 1, updated: null, rev: 0, lists: [] };
 
 /** Normalize whatever the client sent into the shape everything else expects. */
+const LIST_KINDS = new Set(['watchlist', 'portfolio']);
+
+/** Sanitize one symbol the same way the ticker loop does. Returns '' if it
+ *  can't be a valid ticker, so callers can skip it. */
+function cleanSym(raw) {
+  const sym = String(raw).trim().toUpperCase().replace(/[^A-Z0-9.\-]/g, '');
+  return (!sym || sym.length > 8) ? '' : sym;
+}
+
 function cleanLists(raw) {
   if (!Array.isArray(raw)) return [];
   const out = [];
@@ -66,16 +75,46 @@ function cleanLists(raw) {
     if (!entry || typeof entry.name !== 'string') continue;
     const name = entry.name.trim().slice(0, 60);
     if (!name) continue;
+
     const seen = new Set();
     const tickers = [];
     for (const t of Array.isArray(entry.tickers) ? entry.tickers : []) {
-      const sym = String(t).trim().toUpperCase().replace(/[^A-Z0-9.\-]/g, '');
-      if (!sym || sym.length > 8 || seen.has(sym)) continue;
+      const sym = cleanSym(t);
+      if (!sym || seen.has(sym)) continue;
       seen.add(sym);
       tickers.push(sym);
       if (tickers.length >= 500) break;
     }
-    out.push({ name, tickers });
+
+    // kind: enum-guarded, defaults to watchlist for back-compat (a list with
+    // no kind is a plain watchlist). briefings: opt-in per list.
+    const kind = LIST_KINDS.has(entry.kind) ? entry.kind : 'watchlist';
+    const briefings = entry.briefings === true;
+
+    const list = { name, kind, tickers, briefings };
+
+    // shares: portfolios only. Sanitize keys like tickers, coerce values to
+    // finite numbers > 0, cap the count. Every share key must be a member of
+    // the ticker list, so the two never drift — add any that are missing.
+    if (kind === 'portfolio') {
+      const shares = {};
+      const rawShares = (entry.shares && typeof entry.shares === 'object') ? entry.shares : {};
+      for (const [rawSym, rawVal] of Object.entries(rawShares)) {
+        const sym = cleanSym(rawSym);
+        if (!sym) continue;
+        const val = Number(rawVal);
+        if (!Number.isFinite(val) || val <= 0) continue;
+        shares[sym] = val;
+        if (!seen.has(sym)) {
+          seen.add(sym);
+          if (tickers.length < 500) tickers.push(sym);
+        }
+        if (Object.keys(shares).length >= 500) break;
+      }
+      list.shares = shares;
+    }
+
+    out.push(list);
     if (out.length >= 50) break;
   }
   return out;

@@ -1218,6 +1218,20 @@ td { padding:10px 14px; white-space:nowrap; }
 .pf-pending{color:var(--text3);font-style:italic;}
 .pf-x{background:transparent;border:1px solid var(--border);border-radius:5px;color:var(--text3);cursor:pointer;width:24px;height:24px;font-size:11px;transition:all .15s;}
 .pf-x:hover{border-color:var(--red);color:var(--red);}
+/* Portfolio total line above the positions table */
+.pf-total-line{font-family:var(--font-mono);font-size:13px;color:var(--text2);margin:14px 0 10px;}
+.pf-total-line strong{color:var(--accent);font-size:16px;}
+/* Click-to-edit shares cell */
+.pf-sh{cursor:pointer;}
+.pf-sh:hover{color:var(--accent);}
+.pf-add-shares{color:var(--text3);font-style:italic;opacity:.75;}
+.pf-sh:hover .pf-add-shares{color:var(--accent);opacity:1;}
+/* List-kind icon + per-list briefings toggle on the list chips */
+.wl-list-chip .wl-kind{font-size:12px;}
+.wl-brief-toggle{font-size:12px;cursor:pointer;filter:grayscale(1);opacity:.45;transition:all .15s;padding-left:2px;}
+.wl-brief-toggle:hover{opacity:.8;transform:scale(1.12);}
+.wl-brief-toggle.on{filter:none;opacity:1;text-shadow:0 0 8px rgba(0,200,83,.5);}
+.wl-icon-btn.on,.wl-brief-btn.on{border-color:var(--accent);color:var(--accent);}
 
 /* ─── ADD BUTTON (WATCHLIST) ─── */
 .btn-add {
@@ -1303,7 +1317,7 @@ td { padding:10px 14px; white-space:nowrap; }
   <button class="tab" onclick="switchTab('sectors',this)">🗂 SECTORS</button>
   <button class="tab" onclick="switchTab('rankings',this)">📈 DOWNTRODDEN / MOMENTUM</button>
   <button class="tab" onclick="switchTab('bottlenecks',this)">🔩 BOTTLENECKS</button>
-  <button class="tab" onclick="switchTab('watchlist',this)">⭐ WATCHLISTS</button>
+  <button class="tab" onclick="switchTab('watchlist',this)">⭐ LISTS</button>
   <button class="tab" onclick="switchTab('briefings',this)">🎧 BRIEFINGS</button>
 </div>
 
@@ -1339,7 +1353,6 @@ td { padding:10px 14px; white-space:nowrap; }
       <div class="stat-card-hint">↩ VIEW SECTORS</div>
     </div>
   </div>
-  <div id="portfolio-section"></div>
   <div class="table-wrap">
     <div class="table-header">
       <div class="table-title">All Stocks</div>
@@ -1450,10 +1463,10 @@ td { padding:10px 14px; white-space:nowrap; }
 <!-- ═══════════ WATCHLIST ═══════════ -->
 <div id="tab-watchlist" class="panel">
   <div style="padding:4px 0 20px;">
-    <div class="panel-heading">⭐ Watchlists</div>
+    <div class="panel-heading">⭐ Lists &amp; Portfolios</div>
     <div class="panel-sub">
-      Build named lists and add any ticker to them. Names already in the dataset show full RSI &amp; 52W data immediately.
-      New names are fetched on the next run — export <code style="color:var(--accent);background:var(--bg3);padding:1px 5px;border-radius:3px;">watchlist.json</code>, drop it in <code style="color:var(--accent);background:var(--bg3);padding:1px 5px;border-radius:3px;">data/</code>, and push.
+      Build named lists of either kind: a <strong>⭐ watchlist</strong> (tickers only — should I get in?) or a <strong>💼 portfolio</strong> (tickers + shares — how am I doing?, with position value, total, and weighting). Flag any list with 🎧 to generate briefings for it.
+      Names already in the dataset show full RSI &amp; 52W data immediately; new names are fetched on the next run — export <code style="color:var(--accent);background:var(--bg3);padding:1px 5px;border-radius:3px;">watchlist.json</code>, drop it in <code style="color:var(--accent);background:var(--bg3);padding:1px 5px;border-radius:3px;">data/</code>, and push.
     </div>
 
     <!-- List selector -->
@@ -1471,7 +1484,11 @@ td { padding:10px 14px; white-space:nowrap; }
           onfocus="symLoad()">
       </div>
       <span style="font-size:11px;color:var(--text3);letter-spacing:0.06em;">TO</span>
-      <select id="wl-target" class="wl-select" title="Which list to add this ticker to"></select>
+      <select id="wl-target" class="wl-select" title="Which list to add this ticker to" onchange="wlSyncSharesField()"></select>
+      <input id="wl-shares" class="search-input" type="number" min="0" step="any" placeholder="Shares"
+        style="width:110px;display:none;" autocomplete="off"
+        title="Shares held (portfolios only)"
+        onkeydown="if(event.key==='Enter')wlAdd()">
       <button onclick="wlAdd()" class="btn-add">+ ADD</button>
     </div>
     <div id="wl-symbol-status" style="min-height:18px;margin-bottom:6px;line-height:1.7;"></div>
@@ -1718,6 +1735,44 @@ function wlNormTicker(raw){
   return String(raw).trim().toUpperCase().replace(/[^A-Z0-9.\-]/g,'');
 }
 
+/* ─── LIST KIND HELPERS ───
+   Every saved list is one of two kinds: a "watchlist" (tickers only — should I
+   get in?) or a "portfolio" (tickers + share counts — how am I doing?). They
+   ride the same rails, sync, and UI home; the kind only decides whether shares
+   do work (value / total / weighting). A list with no kind is a watchlist. */
+function wlListKind(l){ return (l && l.kind === 'portfolio') ? 'portfolio' : 'watchlist'; }
+function wlKindIcon(kind){ return kind === 'portfolio' ? '💼' : '⭐'; }
+function wlStock(t){ return (typeof allStocks!=='undefined' && allStocks) ? allStocks.find(s => s.ticker === t) : null; }
+/* Position value = shares × price, or null when either is missing (pending fetch). */
+function wlPosVal(t, shares){
+  const s = wlStock(t), sh = shares && shares[t];
+  return (s && s.price != null && sh != null) ? s.price * sh : null;
+}
+
+/* Normalize one raw list object into the unified shape {name, kind, tickers,
+   briefings, shares?}. No id — every caller attaches its own. This is the one
+   place the field set is enforced, so sync / load / import all round-trip the
+   same way and shares can never drift from the ticker list. */
+function wlListShape(l){
+  const kind = (l && l.kind === 'portfolio') ? 'portfolio' : 'watchlist';
+  const tickers = Array.isArray(l && l.tickers)
+    ? [...new Set(l.tickers.map(wlNormTicker).filter(Boolean))] : [];
+  const shape = { name: l.name, kind, tickers, briefings: !!(l && l.briefings) };
+  if (kind === 'portfolio') {
+    const shares = {};
+    const raw = (l && l.shares && typeof l.shares === 'object') ? l.shares : {};
+    for (const [k, v] of Object.entries(raw)) {
+      const t = wlNormTicker(k), n = Number(v);
+      if (t && Number.isFinite(n) && n > 0) {
+        shares[t] = n;
+        if (!tickers.includes(t)) tickers.push(t);   // a share key is always a member
+      }
+    }
+    shape.shares = shares;
+  }
+  return shape;
+}
+
 /* ═══════════════════════════════════════════════════════════════════════
    SYMBOL INDEX
 
@@ -1841,19 +1896,23 @@ function wlLoad(){
   catch(e){ console.warn('Watchlist store unreadable, starting fresh:', e); }
 
   if (stored && Array.isArray(stored.lists)) {
+    // A store written before the lists/portfolios redesign has no version:2
+    // marker and no per-list briefings flag. Those lists all fed briefings
+    // (the builder used to union every list), so default them ON to preserve
+    // the Briefings tab; lists created from here on opt in.
+    const legacyStore = !(stored.version >= 2);
     wlData = {
-      version: 1,
+      version: 2,
       lists: stored.lists
         .filter(l => l && typeof l.name === 'string')
-        .map(l => ({
-          id: l.id || wlNewId(),
-          name: l.name,
-          tickers: Array.isArray(l.tickers)
-            ? [...new Set(l.tickers.map(wlNormTicker).filter(Boolean))]
-            : []
-        })),
+        .map(l => {
+          const shape = wlListShape(l);
+          if (legacyStore && (l.briefings == null)) shape.briefings = true;
+          return { id: l.id || wlNewId(), ...shape };
+        }),
       activeId: stored.activeId || WL_ALL
     };
+    if (wlMigratePortfolio()) wlSave();
   } else {
     // First run on this device. Migrate the old flat ncmf_watchlist array so
     // nothing the user already added is lost.
@@ -1861,14 +1920,17 @@ function wlLoad(){
     try { legacy = JSON.parse(localStorage.getItem(WL_LEGACY_KEY) || '[]'); }
     catch(e){ legacy = []; }
     wlData = {
-      version: 1,
+      version: 2,
       lists: [{
         id: wlNewId(),
         name: 'My Watchlist',
-        tickers: [...new Set((legacy||[]).map(wlNormTicker).filter(Boolean))]
+        kind: 'watchlist',
+        tickers: [...new Set((legacy||[]).map(wlNormTicker).filter(Boolean))],
+        briefings: true
       }],
       activeId: WL_ALL
     };
+    wlMigratePortfolio();
     wlSave();
   }
 
@@ -1876,6 +1938,62 @@ function wlLoad(){
   if (wlData.activeId !== WL_ALL && !wlFindList(wlData.activeId)) {
     wlData.activeId = WL_ALL;
   }
+}
+
+/* One-time migration of the pre-redesign portfolio into a first-class portfolio
+   list. Two legacy stores are pulled in, both device-local:
+     · a reserved watchlist list named "Portfolio" (its tickers already synced)
+     · ncmf_portfolio_shares  — the share map that never left the device
+     · ncmf_portfolio         — the even older pre-rails {holdings:[...]} store
+   Idempotent: it only fills what's missing, so it's safe on every load. Returns
+   true if it changed anything (so the caller can persist). */
+function wlMigratePortfolio(){
+  let changed = false;
+  let pf = wlData.lists.find(l => l.name === 'Portfolio');
+
+  // Oldest store: pre-rails { holdings:[{ticker,shares}] }.
+  let legacyHoldings = null;
+  try {
+    const raw = JSON.parse(localStorage.getItem('ncmf_portfolio') || 'null');
+    if (raw && Array.isArray(raw.holdings) && raw.holdings.length) legacyHoldings = raw.holdings;
+  } catch(e){}
+
+  // The device-local shares map.
+  let legacyShares = null;
+  try {
+    const raw = JSON.parse(localStorage.getItem('ncmf_portfolio_shares') || 'null');
+    if (raw && typeof raw === 'object') legacyShares = raw;
+  } catch(e){}
+
+  if (!pf && (legacyHoldings || (legacyShares && Object.keys(legacyShares).length))) {
+    pf = { id: wlNewId(), name: 'Portfolio', kind: 'portfolio', tickers: [], briefings: true, shares: {} };
+    wlData.lists.push(pf);
+    changed = true;
+  }
+  if (!pf) return changed;
+
+  if (wlListKind(pf) !== 'portfolio') { pf.kind = 'portfolio'; changed = true; }
+  if (!pf.shares || typeof pf.shares !== 'object') { pf.shares = {}; changed = true; }
+  if (pf.briefings !== true) { pf.briefings = true; changed = true; }
+
+  const pull = (t, n) => {
+    t = wlNormTicker(t); n = Number(n);
+    if (!t || !Number.isFinite(n) || n <= 0) return;
+    if (!pf.tickers.includes(t)) { pf.tickers.push(t); changed = true; }
+    if (pf.shares[t] == null) { pf.shares[t] = n; changed = true; }
+  };
+  if (legacyHoldings) for (const h of legacyHoldings) pull(h.ticker, h.shares);
+  if (legacyShares)   for (const [t, n] of Object.entries(legacyShares)) pull(t, n);
+
+  // ncmf_portfolio is fully absorbed; drop it. Keep ncmf_portfolio_shares one
+  // more release as a read fallback (retire in a later version).
+  if (legacyHoldings) { try { localStorage.removeItem('ncmf_portfolio'); } catch(e){} }
+
+  // Guarantee every portfolio list carries a shares object.
+  for (const l of wlData.lists) {
+    if (wlListKind(l) === 'portfolio' && (!l.shares || typeof l.shares !== 'object')) { l.shares = {}; changed = true; }
+  }
+  return changed;
 }
 function wlSave(){
   try { localStorage.setItem(WL_KEY, JSON.stringify(wlData)); }
@@ -2000,8 +2118,7 @@ function syncApplyRemote(remote){
   syncSuppress = true;
   wlData.lists = (remote.lists || []).map(l => ({
     id: (byName.get(l.name) || {}).id || wlNewId(),
-    name: l.name,
-    tickers: [...new Set((l.tickers || []).map(wlNormTicker).filter(Boolean))],
+    ...wlListShape(l),
   }));
   if (wlData.activeId !== WL_ALL && !wlFindList(wlData.activeId)) wlData.activeId = WL_ALL;
   wlSave();
@@ -2019,7 +2136,7 @@ async function syncPush(retrying){
   syncSet('syncing');
   const payload = {
     baseRev: syncRev,
-    lists: wlData.lists.map(l => ({ name: l.name, tickers: [...l.tickers] })),
+    lists: wlData.lists.map(wlListShape),
   };
   try {
     const res = await fetch(syncUrl + '/watchlist', {
@@ -2049,23 +2166,44 @@ async function syncPush(retrying){
   }
 }
 
-/* Union merge: every list name from both sides, every ticker from both sides.
-   A deletion made on one device while the other was offline can come back —
-   that's the deliberate trade for never silently dropping an addition. */
+/* Union merge, reached only on a 409: this device tried to save on top of a
+   revision another device had already moved past. Local is therefore the fresh
+   write, so it wins the per-field conflicts; the server side is folded in so
+   nothing the other device added is lost.
+     · tickers  — union of both sides (a deletion made while offline can come
+                  back; the deliberate trade for never dropping an addition).
+     · kind     — portfolio wins if either side is one (never silently demote a
+                  portfolio to a watchlist and strip its shares).
+     · shares   — last-writer-wins PER TICKER: local value wins, server fills in
+                  tickers local doesn't have.
+     · briefings— local wins for a list local has; server-only lists keep theirs. */
 function syncMergeFrom(server){
-  const merged = new Map();
-  for (const l of wlData.lists) merged.set(l.name, new Set(l.tickers));
-  for (const l of (server.lists || [])) {
-    if (!merged.has(l.name)) merged.set(l.name, new Set());
-    for (const t of (l.tickers || [])) merged.get(l.name).add(wlNormTicker(t));
-  }
+  const localByName  = new Map(wlData.lists.map(l => [l.name, l]));
+  const serverByName = new Map((server.lists || []).map(l => [l.name, wlListShape(l)]));
+  const names = new Set([...localByName.keys(), ...serverByName.keys()]);
   syncSuppress = true;
-  const byName = new Map(wlData.lists.map(l => [l.name, l]));
-  wlData.lists = [...merged.entries()].map(([name, set]) => ({
-    id: (byName.get(name) || {}).id || wlNewId(),
-    name,
-    tickers: [...set].filter(Boolean),
-  }));
+  wlData.lists = [...names].map(name => {
+    const L = localByName.get(name);
+    const S = serverByName.get(name);
+    const tickers = [...new Set([
+      ...((L && L.tickers) || []),
+      ...((S && S.tickers) || []),
+    ].map(wlNormTicker).filter(Boolean))];
+    const kind = (wlListKind(L) === 'portfolio' || (S && S.kind === 'portfolio')) ? 'portfolio'
+               : (L ? wlListKind(L) : (S ? S.kind : 'watchlist'));
+    const briefings = L ? !!L.briefings : !!(S && S.briefings);
+    const out = { id: (L && L.id) || wlNewId(), name, kind, tickers, briefings };
+    if (kind === 'portfolio') {
+      const shares = {};
+      const ls = (L && L.shares) || {}, ss = (S && S.shares) || {};
+      for (const t of tickers) {
+        if (ls[t] != null) shares[t] = ls[t];        // local (fresh) write wins
+        else if (ss[t] != null) shares[t] = ss[t];   // server-only ticker
+      }
+      out.shares = shares;
+    }
+    return out;
+  });
   wlSave();
   syncSuppress = false;
 }
@@ -2123,15 +2261,54 @@ function wlMsg(text, isError){
 
 /* ─── LIST MANAGEMENT ─── */
 function wlCreateList(){
-  const name = (prompt('Name this watchlist (e.g. "Semis", "Dividend", "Speculative"):') || '').trim();
+  const name = (prompt('Name this list (e.g. "Semis", "Dividend", "My Portfolio"):') || '').trim();
   if (!name) return;
   if (wlData.lists.some(l => l.name.toLowerCase() === name.toLowerCase())) {
     wlMsg('A list named "' + name + '" already exists.');
     return;
   }
-  const list = { id: wlNewId(), name, tickers: [] };
+  const isPf = confirm(
+    'Make "' + name + '" a PORTFOLIO?\n\n' +
+    'OK = Portfolio — tracks share counts and shows position value, total, and weighting.\n' +
+    'Cancel = Watchlist — tickers only.'
+  );
+  const list = { id: wlNewId(), name, kind: isPf ? 'portfolio' : 'watchlist', tickers: [], briefings: false };
+  if (isPf) list.shares = {};
   wlData.lists.push(list);
   wlData.activeId = list.id;
+  wlSave();
+  wlMsg('New ' + (isPf ? 'portfolio' : 'watchlist') + ' "' + name + '" created.', false);
+  renderWatchlist();
+}
+/* Per-list opt-in for briefing generation. The briefing BUILD reads the
+   committed data/watchlist.json, so a toggle here has to be exported + pushed
+   before the next build picks it up — the message says so. */
+function wlToggleBriefings(id){
+  const l = wlFindList(id);
+  if (!l) return;
+  l.briefings = !l.briefings;
+  wlSave();
+  wlMsg(l.briefings
+    ? '🎧 "' + l.name + '" will generate briefings — export watchlist.json, push, and rebuild briefings to apply.'
+    : '"' + l.name + '" will no longer generate briefings (after the next export + push + rebuild).', false);
+  renderWatchlist();
+}
+/* Edit a single holding's share count in a portfolio (blank clears it). */
+function wlEditShares(id, ticker){
+  const l = wlFindList(id);
+  if (!l || wlListKind(l) !== 'portfolio') return;
+  ticker = wlNormTicker(ticker);
+  if (!l.shares) l.shares = {};
+  const cur = (l.shares[ticker] != null) ? l.shares[ticker] : '';
+  const entered = prompt('Shares of ' + ticker + ' (blank to clear):', cur);
+  if (entered === null) return;
+  const s = String(entered).trim();
+  if (s === '') { delete l.shares[ticker]; }
+  else {
+    const n = Number(s);
+    if (!Number.isFinite(n) || n <= 0) { wlMsg('Enter a positive number of shares.'); return; }
+    l.shares[ticker] = n;
+  }
   wlSave();
   wlMsg('');
   renderWatchlist();
@@ -2179,11 +2356,37 @@ function wlAdd(){
 
   const list = wlFindList(sel && sel.value) || wlFindList(wlData.activeId) || wlData.lists[0];
   if (!list) { wlMsg('Pick a list to add to.'); return; }
-  if (list.tickers.includes(t)) { wlMsg(t + ' is already on "' + list.name + '".'); return; }
+
+  // Shares only matter for a portfolio target; read + validate the field.
+  const isPf = wlListKind(list) === 'portfolio';
+  const shInp = document.getElementById('wl-shares');
+  let shares = null;
+  if (isPf && shInp && String(shInp.value).trim() !== '') {
+    const n = Number(shInp.value);
+    if (!Number.isFinite(n) || n <= 0) { wlMsg('Shares must be a positive number.'); return; }
+    shares = n;
+  }
+
+  if (list.tickers.includes(t)) {
+    // Already a holding: a fresh share count updates it rather than erroring.
+    if (isPf && shares != null) {
+      if (!list.shares) list.shares = {};
+      list.shares[t] = shares;
+      wlSave();
+      inp.value = ''; if (shInp) shInp.value = '';
+      wlMsg(t + ' updated to ' + shares + ' share' + (shares === 1 ? '' : 's') + ' on "' + list.name + '".', false);
+      renderWatchlist();
+      return;
+    }
+    wlMsg(t + ' is already on "' + list.name + '".');
+    return;
+  }
 
   list.tickers.push(t);
+  if (isPf && shares != null) { if (!list.shares) list.shares = {}; list.shares[t] = shares; }
   wlSave();
   inp.value = '';
+  if (shInp) shInp.value = '';
 
   // Say what will happen next, so a ticker that shows no data isn't mistaken
   // for a broken feature.
@@ -2201,10 +2404,10 @@ function wlAdd(){
 function wlRemove(ticker, listId){
   if (listId) {
     const list = wlFindList(listId);
-    if (list) list.tickers = list.tickers.filter(t => t !== ticker);
+    if (list) { list.tickers = list.tickers.filter(t => t !== ticker); if (list.shares) delete list.shares[ticker]; }
   } else {
     // Removing from the ALL view takes it off every list.
-    wlData.lists.forEach(l => { l.tickers = l.tickers.filter(t => t !== ticker); });
+    wlData.lists.forEach(l => { l.tickers = l.tickers.filter(t => t !== ticker); if (l.shares) delete l.shares[ticker]; });
   }
   wlSave();
   renderWatchlist();
@@ -2214,6 +2417,7 @@ function wlClearList(id){
   if (!list || !list.tickers.length) return;
   if (!confirm('Remove all ' + list.tickers.length + ' tickers from "' + list.name + '"?')) return;
   list.tickers = [];
+  if (list.shares) list.shares = {};
   wlSave();
   renderWatchlist();
 }
@@ -2223,7 +2427,7 @@ function wlExportPayload(){
   return {
     version: 1,
     updated: new Date().toISOString(),
-    lists: wlData.lists.map(l => ({ name: l.name, tickers: [...l.tickers] }))
+    lists: wlData.lists.map(wlListShape)
   };
 }
 /* Order-independent fingerprint, so re-sorting a list doesn't read as a change. */
@@ -2261,11 +2465,7 @@ async function wlImportFromRepo(){
     if (!lists.length) { wlMsg('data/watchlist.json has no lists.'); return; }
     if (!confirm('Replace this device\'s ' + wlData.lists.length +
                  ' list(s) with the ' + lists.length + ' list(s) in data/watchlist.json?')) return;
-    wlData.lists = lists.map(l => ({
-      id: wlNewId(),
-      name: l.name,
-      tickers: [...new Set((l.tickers||[]).map(wlNormTicker).filter(Boolean))]
-    }));
+    wlData.lists = lists.map(l => ({ id: wlNewId(), ...wlListShape(l) }));
     wlData.activeId = WL_ALL;
     wlSave();
     wlMsg('Loaded ' + lists.length + ' list(s) from the repo.', false);
@@ -2283,8 +2483,12 @@ function wlRenderListBar(){
   html += `<div class="wl-list-chip ${wlData.activeId===WL_ALL?'active':''}" onclick="wlSetActive('${WL_ALL}')">
              ALL <span class="wl-count">${total}</span></div>`;
   wlData.lists.forEach(l => {
+    const kind = wlListKind(l);
+    const bell = `<span class="wl-brief-toggle ${l.briefings?'on':''}"
+      title="${l.briefings?'Briefings ON — click to stop generating briefings for this list':'Briefings OFF — click to generate briefings for this list'}"
+      onclick="event.stopPropagation();wlToggleBriefings('${l.id}')">🎧</span>`;
     html += `<div class="wl-list-chip ${wlData.activeId===l.id?'active':''}" onclick="wlSetActive('${l.id}')">
-               ${wlEsc(l.name)} <span class="wl-count">${l.tickers.length}</span></div>`;
+               <span class="wl-kind" title="${kind==='portfolio'?'Portfolio (tickers + shares)':'Watchlist (tickers only)'}">${wlKindIcon(kind)}</span> ${wlEsc(l.name)} <span class="wl-count">${l.tickers.length}</span> ${bell}</div>`;
   });
   html += `<button class="wl-new-list" onclick="wlCreateList()">+ NEW LIST</button>`;
   html += `<div style="flex:1"></div>`;
@@ -2302,6 +2506,19 @@ function wlRenderListBar(){
                : (wlData.lists[0] ? wlData.lists[0].id : ''));
   if (wanted) sel.value = wanted;
   sel.disabled = !wlData.lists.length;
+  wlSyncSharesField();
+}
+
+/* Show the Shares input only when the add-row target is a portfolio. Called
+   after the list bar renders and from the target select's onchange. */
+function wlSyncSharesField(){
+  const sel = document.getElementById('wl-target');
+  const sh  = document.getElementById('wl-shares');
+  if (!sel || !sh) return;
+  const l = wlFindList(sel.value);
+  const show = l && wlListKind(l) === 'portfolio';
+  sh.style.display = show ? '' : 'none';
+  if (!show) sh.value = '';
 }
 
 function wlRenderSyncBanner(){
@@ -2418,6 +2635,79 @@ function wlTable(tickers, listId, showLists){
   return html + '</tbody></table></div>';
 }
 
+/* Portfolio positions table — shares × price = value, plus portfolio total and
+   each holding's weight of that total. Reuses the .pf-table styles. Holdings
+   not yet fetched render with dashes so the position is still visible. Shares
+   cells are click-to-edit. This is what earns a portfolio its distinction from
+   a watchlist: the shares do real work here. */
+function wlPortfolioTable(list){
+  const shares = list.shares || {};
+  const tickers = list.tickers.slice();
+
+  if (!tickers.length) {
+    return '<div class="pf-empty">No holdings yet — add a ticker (and share count) above to see position value and weighting here.</div>';
+  }
+
+  const withData = [], pending = [];
+  tickers.forEach(t => { (wlStock(t) ? withData : pending).push(t); });
+  let total = 0, haveValue = false;
+  for (const t of tickers) { const v = wlPosVal(t, shares); if (v != null) { total += v; haveValue = true; } }
+  // Order by position value desc, then unpriced holdings last.
+  withData.sort((a, b) => ((wlPosVal(b, shares) ?? -1) - (wlPosVal(a, shares) ?? -1)));
+  const order = withData.concat(pending);
+
+  const money = n => '$' + Number(n).toLocaleString(undefined, { maximumFractionDigits: 0 });
+  const shCell = t => {
+    const sh = shares[t];
+    const label = sh != null ? Number(sh).toLocaleString(undefined, { maximumFractionDigits: 4 }) : '<span class="pf-add-shares">+ shares</span>';
+    return '<td class="r pf-sh" title="Click to edit shares" onclick="event.stopPropagation();wlEditShares(\'' + list.id + '\',\'' + wlEsc(t) + '\')">' + label + '</td>';
+  };
+
+  let rows = '';
+  for (const t of order) {
+    const s = wlStock(t);
+    if (!s) {
+      rows += '<tr>'
+        + '<td class="pf-tk">' + wlEsc(t) + '</td><td><span class="pf-pending">pending fetch</span></td>'
+        + shCell(t)
+        + '<td class="r">—</td><td class="r">—</td><td class="r">—</td><td class="r">—</td>'
+        + '<td class="r">—</td><td class="r">—</td>'
+        + '<td class="r"><button class="pf-x" title="Remove" onclick="wlRemove(\'' + wlEsc(t) + '\',\'' + list.id + '\')">✕</button></td>'
+        + '</tr>';
+      continue;
+    }
+    const color = sectorColor(s.sector);
+    const val = wlPosVal(t, shares);
+    const weight = (val != null && haveValue && total > 0) ? (val / total * 100) : null;
+    const flags = [];
+    if (s.pct_from_52w_low != null && s.pct_from_52w_low <= 5) flags.push('<span class="near-low-flag"></span>Near Low');
+    if (s.abrupt_drop_flag) flags.push(dropBadge(s));
+    if (isOverreaction(s)) flags.push('<span class="drop-flag">OVERREACTION</span>');
+    rows += '<tr onclick="showModal(\'' + s.ticker + '\')" style="cursor:pointer;transition:background .12s;" onmouseover="this.style.background=\'rgba(255,255,255,0.025)\'" onmouseout="this.style.background=\'\'">'
+      + '<td class="pf-tk">' + s.ticker + '</td>'
+      + '<td><span class="sector-badge" style="border-color:' + color + '50;color:' + color + '">' + wlEsc(s.sector) + '</span></td>'
+      + shCell(t)
+      + '<td class="r">$' + fmt(s.price) + '</td>'
+      + '<td class="r ' + pctClass(s.change_pct) + '">' + (s.change_pct != null ? (s.change_pct > 0 ? '+' : '') + fmt(s.change_pct) + '%' : '—') + '</td>'
+      + '<td class="r pf-val">' + (val != null ? money(val) : '—') + '</td>'
+      + '<td class="r">' + (weight != null ? weight.toFixed(1) + '%' : '—') + '</td>'
+      + '<td class="r">' + rsiDisplay(s) + '</td>'
+      + '<td class="r ' + (s.pct_from_52w_low != null && s.pct_from_52w_low <= 5 ? 'pct-down' : 'pct-neutral') + '">' + fmt(s.pct_from_52w_low) + '%</td>'
+      + '<td class="r"><button class="pf-x" title="Remove" onclick="event.stopPropagation();wlRemove(\'' + s.ticker + '\',\'' + list.id + '\')">✕</button></td>'
+      + '</tr>';
+  }
+
+  const totalLine = '<div class="pf-total-line">'
+    + (haveValue ? 'Total value <strong>' + money(total) + '</strong>' : '<span style="color:var(--text3)">Add share counts to see position value.</span>')
+    + ' <span class="pf-count">' + tickers.length + ' holding' + (tickers.length === 1 ? '' : 's') + '</span></div>';
+
+  return totalLine
+    + '<div class="pf-table-wrap"><table class="pf-table"><thead><tr>'
+    + '<th>TICKER</th><th>SECTOR</th><th class="r">SHARES</th><th class="r">PRICE</th><th class="r">CHG%</th>'
+    + '<th class="r">VALUE</th><th class="r">WEIGHT</th><th class="r">RSI(14)</th><th class="r">% FROM LOW</th><th></th>'
+    + '</tr></thead><tbody>' + rows + '</tbody></table></div>';
+}
+
 function renderWatchlist(){
   const el = document.getElementById('wl-content');
   wlRenderListBar();
@@ -2444,17 +2734,20 @@ function renderWatchlist(){
 
   let html = '<div class="table-wrap">';
   if (active) {
+    const kind = wlListKind(active);
+    const briefBtn = `<button class="wl-icon-btn wl-brief-btn ${active.briefings?'on':''}" onclick="wlToggleBriefings('${active.id}')" title="Toggle briefing generation for this list">🎧 ${active.briefings?'BRIEFINGS ON':'BRIEFINGS OFF'}</button>`;
     html += `<div class="wl-list-header">
-      <div class="wl-list-title">${wlEsc(active.name)}
-        <span style="font-size:11px;color:var(--text3);font-family:var(--font-mono);font-weight:400;">${active.tickers.length} ticker${active.tickers.length===1?'':'s'}</span>
+      <div class="wl-list-title">${wlKindIcon(kind)} ${wlEsc(active.name)}
+        <span style="font-size:11px;color:var(--text3);font-family:var(--font-mono);font-weight:400;">${kind==='portfolio'?'portfolio · ':''}${active.tickers.length} ${kind==='portfolio'?'holding':'ticker'}${active.tickers.length===1?'':'s'}</span>
       </div>
-      <div style="display:flex;gap:6px;">
+      <div style="display:flex;gap:6px;flex-wrap:wrap;">
+        ${briefBtn}
         <button class="wl-icon-btn" onclick="wlRenameList('${active.id}')">✎ RENAME</button>
         <button class="wl-icon-btn" onclick="wlClearList('${active.id}')">CLEAR</button>
         <button class="wl-icon-btn danger" onclick="wlDeleteList('${active.id}')">DELETE LIST</button>
       </div>
     </div>`;
-    html += wlTable(active.tickers, active.id, false);
+    html += (kind === 'portfolio') ? wlPortfolioTable(active) : wlTable(active.tickers, active.id, false);
   } else {
     // ALL view — every list's tickers in one table, with membership tags.
     html += `<div class="wl-list-header">
@@ -2498,7 +2791,7 @@ async function loadData(){
     animateCounter(document.getElementById('stat-oversold'), oversold);
     animateCounter(document.getElementById('stat-overreaction'), overreaction);
     animateCounter(document.getElementById('stat-sectors'), sectors);
-    renderScreener();renderOverreaction();renderSectors();renderRankings();renderBottlenecks();renderWatchlist();pfRender();
+    renderScreener();renderOverreaction();renderSectors();renderRankings();renderBottlenecks();renderWatchlist();
     animatePanel('screener');
     requestAnimationFrame(setScreenerHeight);
     requestAnimationFrame(setScreenerHeight);
@@ -3199,17 +3492,36 @@ function renderBriefings(){
     + (when ? ' · generated ' + when.toLocaleDateString() + ' ' + when.toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'}) : '')
     + ' <button class="wl-icon-btn" style="margin-left:8px;" onclick="loadBriefings(true)">↻ REFRESH</button>'
     + '</div>';
-  const pfset = new Set(typeof pfTickers==='function' ? pfTickers() : []);
-  const pf = tickers.filter(t => pfset.has(t));
-  const wl = tickers.filter(t => !pfset.has(t));
-  const section = (label, list) => {
+  // Group by named list. The builder tags each briefing with the list name(s)
+  // it belongs to (index.briefings[].lists); a ticker on more than one briefing
+  // list shows under each. Falls back to a single grid for an old index.json
+  // that predates the tags.
+  const briefs = index.briefings || [];
+  const groups = new Map();          // list name -> [tickers]
+  let anyTagged = false;
+  for(const b of briefs){
+    const names = Array.isArray(b.lists) ? b.lists.filter(Boolean) : [];
+    if(names.length){
+      anyTagged = true;
+      for(const n of names){ if(!groups.has(n)) groups.set(n, []); groups.get(n).push(b.ticker); }
+    }
+  }
+  const listByName = new Map((typeof wlData!=='undefined' && wlData.lists ? wlData.lists : []).map(l => [l.name, l]));
+  const section = (name, list) => {
     if(!list.length) return '';
-    let s = '<div class="brf-group-head">'+label+'</div><div class="brf-grid">';
+    const kind = wlListKind(listByName.get(name));
+    let s = '<div class="brf-group-head">'+wlKindIcon(kind)+' '+brfEsc(name)+'</div><div class="brf-grid">';
     for(const t of list){ s += brfCard(items[t] || {status:'nodata', ticker:t}); }
     return s + '</div>';
   };
-  if(pf.length && wl.length){
-    html += section('💼 Portfolio', pf) + section('⭐ Watchlist', wl);
+  if(anyTagged){
+    // Order groups by the user's own list order when we know it, then any
+    // remaining tagged lists in index order.
+    const seen = new Set();
+    const ordered = [...listByName.keys(), ...groups.keys()];
+    for(const n of ordered){
+      if(groups.has(n) && !seen.has(n)){ seen.add(n); html += section(n, groups.get(n)); }
+    }
   } else {
     html += '<div class="brf-grid">';
     for(const t of tickers){ html += brfCard(items[t] || {status:'nodata', ticker:t}); }
@@ -3325,171 +3637,6 @@ function openBriefingDoc(t){
 }
 function closeBriefingDoc(){ document.getElementById('brf-modal').classList.remove('open'); brfCurrent = null; }
 
-/* ─── PORTFOLIO ───
-   Owned holdings = tickers + share counts, shown as a positions table on the
-   Screener and (their briefings) on the Briefings tab. The TICKERS ride the
-   watchlist rails: they live in a reserved watchlist list named "Portfolio", so
-   they sync across devices, get fully fetched (every screener category), and feed
-   the briefings — all through machinery that already exists. Share counts live in
-   a local map for now; syncing shares across devices is the next step. */
-const PF_LIST = 'Portfolio';                  // reserved watchlist list holding the tickers
-const PF_SHARES_KEY = 'ncmf_portfolio_shares';
-const PF_LEGACY_KEY = 'ncmf_portfolio';        // pre-rails local store, migrated once
-let pfShares = {};                             // { TICKER: shares }
-
-function pfEsc(s){ return brfEsc(s); }
-function pfNorm(t){ return String(t||'').toUpperCase().trim().replace(/[^A-Z0-9.\-]/g,''); }
-function pfListObj(){ return wlData.lists.find(l => l.name === PF_LIST) || null; }
-function pfEnsureList(){
-  let l = pfListObj();
-  if(!l){ l = { id: wlNewId(), name: PF_LIST, tickers: [] }; wlData.lists.push(l); }
-  return l;
-}
-function pfTickers(){ const l = pfListObj(); return l ? l.tickers.slice() : []; }
-function pfStock(t){ return (typeof allStocks!=='undefined' && allStocks) ? allStocks.find(s => s.ticker===t) : null; }
-
-function pfLoadShares(){
-  try { const s = JSON.parse(localStorage.getItem(PF_SHARES_KEY) || 'null'); if(s && typeof s==='object') pfShares = s; }
-  catch(e){ pfShares = {}; }
-}
-function pfSaveShares(){ try { localStorage.setItem(PF_SHARES_KEY, JSON.stringify(pfShares)); } catch(e){} }
-
-function pfLoad(){
-  pfLoadShares();
-  // One-time migration of the pre-rails local portfolio into the Portfolio list
-  // + shares map, so nothing already entered is lost and it starts syncing.
-  try {
-    const legacy = JSON.parse(localStorage.getItem(PF_LEGACY_KEY) || 'null');
-    if (legacy && Array.isArray(legacy.holdings) && legacy.holdings.length) {
-      const l = pfEnsureList();
-      for (const h of legacy.holdings) {
-        const t = pfNorm(h.ticker);
-        if (!t) continue;
-        if (!l.tickers.includes(t)) l.tickers.push(t);
-        if (h.shares!=null && isFinite(h.shares) && pfShares[t]==null) pfShares[t] = Number(h.shares);
-      }
-      wlSave();                 // pushes the new Portfolio list up to sync
-      pfSaveShares();
-      localStorage.removeItem(PF_LEGACY_KEY);
-    }
-  } catch(e){ console.warn('Portfolio migration skipped:', e); }
-}
-
-function pfAdd(t, shares){
-  t = pfNorm(t);
-  if(!t) return;
-  const sh = (shares===''||shares==null) ? null : Number(shares);
-  const clean = (sh!=null && isFinite(sh) && sh>=0) ? sh : null;
-  const l = pfEnsureList();
-  if(!l.tickers.includes(t)) l.tickers.push(t);
-  if(clean!=null) pfShares[t] = clean;
-  wlSave();                     // syncs the ticker + queues it for the next fetch
-  pfSaveShares();
-  pfRender();
-  if(typeof renderWatchlist==='function') renderWatchlist();
-}
-function pfAddFromInputs(){
-  const t = document.getElementById('pf-ticker'), s = document.getElementById('pf-shares');
-  if(!t || !t.value.trim()) return;
-  pfAdd(t.value, s ? s.value : '');
-  t.value=''; if(s) s.value=''; t.focus();
-}
-function pfRemove(t){
-  t = pfNorm(t);
-  const l = pfListObj();
-  if(l) l.tickers = l.tickers.filter(x => x!==t);
-  delete pfShares[t];
-  wlSave();
-  pfSaveShares();
-  pfRender();
-  if(typeof renderWatchlist==='function') renderWatchlist();
-}
-
-function pfRender(){
-  const host = document.getElementById('portfolio-section');
-  if(!host) return;
-  const tickers = pfTickers();
-
-  let total = 0, haveValue = false;
-  for(const t of tickers){
-    const s = pfStock(t), sh = pfShares[t];
-    if(s && s.price!=null && sh!=null){ total += s.price*sh; haveValue = true; }
-  }
-
-  let html = '<div class="pf-wrap"><div class="pf-head">'
-    + '<div class="pf-title">💼 Your Portfolio <span class="pf-count">'+tickers.length+' holding'+(tickers.length===1?'':'s')+'</span></div>'
-    + '<div class="pf-total">'+(haveValue ? 'Total <strong>$'+total.toLocaleString(undefined,{maximumFractionDigits:0})+'</strong>' : '')+'</div>'
-    + '</div>'
-    + '<div class="pf-addrow">'
-    + '<input id="pf-ticker" class="search-input" placeholder="Ticker (e.g. NVDA)" style="text-transform:uppercase;width:150px;" autocomplete="off" oninput="this.value=this.value.toUpperCase()" onkeydown="if(event.key===\'Enter\'){document.getElementById(\'pf-shares\').focus();}">'
-    + '<input id="pf-shares" class="search-input" placeholder="Shares" type="number" min="0" step="any" style="width:120px;" onkeydown="if(event.key===\'Enter\')pfAddFromInputs()">'
-    + '<button class="btn-add" onclick="pfAddFromInputs()">+ ADD</button>'
-    + '</div>';
-
-  if(!tickers.length){
-    html += '<div class="pf-empty">No holdings yet — add a ticker and share count above to see your positions here.'
-      + '<span class="pf-empty-sub">Uploading a PDF / Word statement is coming with the AI layer.</span></div></div>';
-    host.innerHTML = html;
-    return;
-  }
-  html += pfTable(tickers) + '</div>';
-  host.innerHTML = html;
-}
-
-/* Full-category positions table — mirrors the screener's columns (reusing the
-   same cell helpers) and adds SHARES + VALUE. Pending holdings (not yet fetched)
-   render with dashes so the position is still visible. */
-function pfTable(tickers){
-  const withData = [], pending = [];
-  tickers.forEach(t => { (pfStock(t) ? withData : pending).push(t); });
-  withData.sort((a,b)=>((pfStock(a).rsi14 ?? 99) - (pfStock(b).rsi14 ?? 99)));
-  const order = withData.concat(pending);
-
-  let rows = '';
-  for(const t of order){
-    const s = pfStock(t);
-    const sh = pfShares[t];
-    const shStr = sh!=null ? Number(sh).toLocaleString(undefined,{maximumFractionDigits:4}) : '<span class="pf-pending">—</span>';
-    if(!s){
-      rows += '<tr>'
-        + '<td class="pf-tk">'+pfEsc(t)+'</td><td><span class="pf-pending">pending fetch</span></td>'
-        + '<td class="r">'+shStr+'</td>'
-        + '<td class="r">—</td><td class="r">—</td><td class="r">—</td><td class="r">—</td><td class="r">—</td>'
-        + '<td class="r">—</td><td class="r">—</td><td class="r">—</td><td>—</td><td class="r">—</td>'
-        + '<td class="r"><button class="pf-x" title="Remove" onclick="pfRemove(\''+pfEsc(t)+'\')">✕</button></td>'
-        + '</tr>';
-      continue;
-    }
-    const color = sectorColor(s.sector);
-    const flags = [];
-    if (s.pct_from_52w_low != null && s.pct_from_52w_low <= 5) flags.push('<span class="near-low-flag"></span>Near Low');
-    if (s.abrupt_drop_flag) flags.push(dropBadge(s));
-    if (isOverreaction(s)) flags.push('<span class="drop-flag">OVERREACTION</span>');
-    const val = (s.price!=null && sh!=null) ? s.price*sh : null;
-    rows += '<tr onclick="showModal(\''+s.ticker+'\')" style="cursor:pointer;transition:background .12s;" onmouseover="this.style.background=\'rgba(255,255,255,0.025)\'" onmouseout="this.style.background=\'\'">'
-      + '<td class="pf-tk">'+s.ticker+'</td>'
-      + '<td><span class="sector-badge" style="border-color:'+color+'50;color:'+color+'">'+wlEsc(s.sector)+'</span></td>'
-      + '<td class="r">'+shStr+'</td>'
-      + '<td class="r">$'+fmt(s.price)+'</td>'
-      + '<td class="r '+pctClass(s.change_pct)+'">'+(s.change_pct!=null?(s.change_pct>0?'+':'')+fmt(s.change_pct)+'%':'—')+'</td>'
-      + '<td class="r">'+rsiDisplay(s)+'</td>'
-      + '<td class="r" style="color:var(--red);">'+(s.low_52w?'$'+fmt(s.low_52w):'—')+'</td>'
-      + '<td class="r" style="color:var(--green);">'+(s.high_52w?'$'+fmt(s.high_52w):'—')+'</td>'
-      + '<td class="r '+(s.pct_from_52w_low!=null&&s.pct_from_52w_low<=5?'pct-down':'pct-neutral')+'">'+fmt(s.pct_from_52w_low)+'%</td>'
-      + '<td class="r">'+fmtCap(s.market_cap)+'</td>'
-      + '<td class="r">'+fmt(s.pe_ratio,1)+'</td>'
-      + '<td>'+(flags.join(' ')||'—')+'</td>'
-      + '<td class="r pf-val">'+(val!=null?'$'+val.toLocaleString(undefined,{maximumFractionDigits:0}):'—')+'</td>'
-      + '<td class="r"><button class="pf-x" title="Remove" onclick="event.stopPropagation();pfRemove(\''+s.ticker+'\')">✕</button></td>'
-      + '</tr>';
-  }
-  return '<div class="pf-table-wrap"><table class="pf-table"><thead><tr>'
-    + '<th>TICKER</th><th>SECTOR</th><th class="r">SHARES</th><th class="r">PRICE</th><th class="r">CHG%</th>'
-    + '<th class="r">RSI(14)</th><th class="r">52W LOW</th><th class="r">52W HIGH</th><th class="r">% FROM LOW</th>'
-    + '<th class="r">MKT CAP</th><th class="r">P/E</th><th>FLAGS</th><th class="r">VALUE</th><th></th>'
-    + '</tr></thead><tbody>'+rows+'</tbody></table></div>';
-}
-
 /* ─── SECTOR CARD TILT (micro-interaction, desktop only) ─── */
 if(window.matchMedia('(pointer:fine)').matches){
   document.addEventListener('mousemove', function(e) {
@@ -3510,8 +3657,6 @@ if(window.matchMedia('(pointer:fine)').matches){
 /* Read (and migrate) the watchlists before anything renders, so the tab is
    populated even if the cache fetch fails. */
 wlLoad();
-pfLoad();
-pfRender();          // draw the portfolio section immediately (prices fill in once loadData completes)
 loadData();
 /* Sync last: it depends on the lists being loaded, and it must never delay
    the screener rendering. */

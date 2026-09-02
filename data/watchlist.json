@@ -4,7 +4,9 @@
   "lists": [
     {
       "name": "My Watchlist",
-      "tickers": ["MDB", "TOELF", "TRDCF"]
+      "kind": "watchlist",
+      "tickers": ["MDB", "TOELF", "TRDCF"],
+      "briefings": true
     }
   ]
 }

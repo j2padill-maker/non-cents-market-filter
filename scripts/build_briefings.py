@@ -57,22 +57,44 @@ def get_ohlcv(ticker, period="2y"):
 
 # ── source loading ────────────────────────────────────────────────────────────
 
-def load_watchlist_tickers(root):
+def load_briefing_lists(root):
+    """Read data/watchlist.json and return (lists, union) where:
+      · lists  is [(name, [tickers])] for every list flagged briefings:true
+      · union  is the deduped ticker list to actually fetch (one briefing each)
+
+    Opt-in with back-compat: if NO list carries a `briefings` key at all, the
+    file predates the redesign — every list fed briefings then, so treat them
+    all as enabled. Once any list has the flag, honor the per-list choice. This
+    mirrors the front-end migration so the Briefings tab never empties out just
+    because the app hasn't pushed a new watchlist.json yet."""
     path = os.path.join(root, "data", "watchlist.json")
     try:
         with open(path) as f:
             wl = json.load(f)
     except Exception as e:
         print(f"  could not read watchlist.json: {e}")
-        return []
-    seen, out = set(), []
-    for lst in wl.get("lists", []):
+        return [], []
+
+    all_lists = wl.get("lists", [])
+    has_flag = any("briefings" in lst for lst in all_lists)
+
+    lists, seen, union = [], set(), []
+    for lst in all_lists:
+        enabled = lst.get("briefings") if has_flag else True
+        if not enabled:
+            continue
+        name = (lst.get("name") or "List").strip() or "List"
+        tickers = []
         for t in lst.get("tickers", []):
             t = (t or "").strip().upper()
-            if t and t not in seen:
+            if t and t not in tickers:
+                tickers.append(t)
+        lists.append((name, tickers))
+        for t in tickers:
+            if t not in seen:
                 seen.add(t)
-                out.append(t)
-    return out
+                union.append(t)
+    return lists, union
 
 
 # ── per-ticker briefing ───────────────────────────────────────────────────────
@@ -142,19 +164,31 @@ def main():
 
     if args.tickers:
         tickers = [t.strip().upper() for t in args.tickers.split(",") if t.strip()]
+        briefing_lists = [("Selected", tickers)]
     else:
-        tickers = load_watchlist_tickers(root)
+        briefing_lists, tickers = load_briefing_lists(root)
 
     if not tickers:
-        print("✗ No tickers to brief. Nothing to do.")
+        print("✗ No tickers to brief (no list is flagged for briefings). Nothing to do.")
         return 0
+
+    # ticker -> [list names] so each briefing can say which list(s) it belongs to,
+    # and the Briefings tab can show one section per named list.
+    ticker_lists = {}
+    for name, ts in briefing_lists:
+        for t in ts:
+            ticker_lists.setdefault(t, [])
+            if name not in ticker_lists[t]:
+                ticker_lists[t].append(name)
 
     out_dir = os.path.join(root, "data", "briefings")
     os.makedirs(out_dir, exist_ok=True)
 
     print(f"Building {session} briefings for {len(tickers)} tickers: {', '.join(tickers)}")
     index = {"version": 1, "user_id": args.user, "session": session,
-             "generated_at": datetime.now(TZ).isoformat(), "briefings": []}
+             "generated_at": datetime.now(TZ).isoformat(),
+             "lists": [name for name, _ in briefing_lists],
+             "briefings": []}
     ok = 0
     for t in tickers:
         print(f"→ {t}")
@@ -178,6 +212,7 @@ def main():
             "ticker": t, "status": b["status"],
             "file": f"data/briefings/{t}.json",
             "data_asof": b.get("data_asof"),
+            "lists": ticker_lists.get(t, []),
         })
 
     with open(os.path.join(out_dir, "index.json"), "w") as f:
