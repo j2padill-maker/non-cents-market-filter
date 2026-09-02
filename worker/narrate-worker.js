@@ -33,7 +33,14 @@
 
 // Endpoint shape is stable across model releases; the model ID is a variable.
 const GEMINI_BASE = 'https://generativelanguage.googleapis.com/v1beta/models';
-const DEFAULT_MODEL = 'gemini-2.5-flash';
+// gemini-2.5-flash was retired for new users (Sept 2026); Google's API points
+// callers to gemini-3.6-flash. Model IDs churn — override with the GEMINI_MODEL
+// env var (e.g. gemini-3.7-flash) to move without a code change.
+const DEFAULT_MODEL = 'gemini-3.6-flash';
+// TTS is a separate model family. Override with GEMINI_TTS_MODEL / GEMINI_TTS_VOICE
+// env vars to move models or change the voice without a code change.
+const DEFAULT_TTS_MODEL = 'gemini-3.1-flash-tts-preview';
+const DEFAULT_TTS_VOICE = 'Kore';
 
 // Same allowlist as the watchlist Worker. A wildcard here would let any page on
 // the internet spend your Gemini quota.
@@ -108,9 +115,12 @@ function factBlock(b) {
 
   const news = Array.isArray(b.news) ? b.news.slice(0, 6) : [];
   if (news.length) {
-    lines.push('Recent headlines:\n  - ' + news.map(n => {
-      const src = n.source ? ` (${n.source})` : '';
-      return `${(n.headline || '').trim()}${src}`;
+    // Give the model each article's headline AND its short summary (not just the
+    // headline) so it can actually summarize the news, not just name it.
+    lines.push('Recent news (headline — summary):\n  - ' + news.map(n => {
+      const src = n.source ? ` [${n.source}]` : '';
+      const sum = (n.summary || '').trim().replace(/\s+/g, ' ').slice(0, 220);
+      return `${(n.headline || '').trim()}${src}${sum ? ' — ' + sum : ''}`;
     }).join('\n  - '));
   }
   const filings = Array.isArray(b.filings) ? b.filings.slice(0, 4) : [];
@@ -125,12 +135,14 @@ function factBlock(b) {
 function narratePrompt(b) {
   return [
     'You are a concise market-briefing writer for a personal stock-screener app.',
-    'Write a short spoken-style briefing (about 90-130 words, 3-5 sentences) that a busy investor could listen to.',
-    'Cover, in plain English: the day\'s price move, what the technical indicators collectively suggest (momentum, trend, volatility), and the single most relevant news thread if any stands out.',
+    'Write a short spoken-style briefing (about 140-200 words) that a busy investor could listen to. Use two short paragraphs:',
+    '1) The market read: the day\'s price move and what the technical indicators collectively suggest about momentum, trend, and volatility, in plain English.',
+    '2) The news: summarize what the recent news and any SEC filings are about. Group related headlines into themes rather than listing them one by one, and note if the company just reported (a 10-Q, 10-K, or 8-K filing). If there is no meaningful company-specific news, say so briefly.',
     'Rules:',
-    '- Neutral and factual. Describe what the numbers show; do NOT tell the user to buy, sell, or hold, and do not predict prices.',
+    '- Neutral and factual. Describe what the numbers and headlines show; do NOT tell the user to buy, sell, or hold, and do not predict prices.',
     '- No hype, no emoji, no headers, no bullet points, no markdown. Plain sentences only, ready to read aloud.',
-    '- Use only the facts below. Do not invent numbers, ratings, or events.',
+    '- Use only the facts below. Do not invent numbers, ratings, headlines, or events; summarize only the news provided.',
+    '- Some items may be generic market roundups that only mention the ticker in passing — focus the news summary on items genuinely about the company, and don\'t overstate a passing mention.',
     '- Refer to the company by its ticker.',
     '',
     'FACTS:',
@@ -202,6 +214,80 @@ async function callGemini(env, prompt, maxTokens) {
   return text;
 }
 
+/* ── Gemini TTS ──────────────────────────────────────────────────────────────
+   Gemini returns raw PCM (24 kHz, 16-bit, mono) as base64 — not a playable
+   container. We wrap it in a 44-byte WAV header here so the browser can play
+   the bytes directly with no client-side decoding. */
+
+function base64ToBytes(b64) {
+  const bin = atob(b64);
+  const out = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i++) out[i] = bin.charCodeAt(i);
+  return out;
+}
+
+function rateFromMime(mime) {
+  const m = /rate=(\d+)/.exec(mime || '');
+  return m ? parseInt(m[1], 10) : 24000;   // Gemini TTS default is 24 kHz
+}
+
+function pcmToWav(pcm, sampleRate, channels, bits) {
+  const blockAlign = channels * (bits / 8);
+  const byteRate = sampleRate * blockAlign;
+  const dataLen = pcm.length;
+  const buf = new ArrayBuffer(44 + dataLen);
+  const view = new DataView(buf);
+  const put = (off, str) => { for (let i = 0; i < str.length; i++) view.setUint8(off + i, str.charCodeAt(i)); };
+  put(0, 'RIFF'); view.setUint32(4, 36 + dataLen, true); put(8, 'WAVE');
+  put(12, 'fmt '); view.setUint32(16, 16, true); view.setUint16(20, 1, true);      // PCM
+  view.setUint16(22, channels, true); view.setUint32(24, sampleRate, true);
+  view.setUint32(28, byteRate, true); view.setUint16(32, blockAlign, true); view.setUint16(34, bits, true);
+  put(36, 'data'); view.setUint32(40, dataLen, true);
+  new Uint8Array(buf, 44).set(pcm);
+  return new Uint8Array(buf);
+}
+
+async function callGeminiTTS(env, text) {
+  const model = (env.GEMINI_TTS_MODEL || DEFAULT_TTS_MODEL).trim();
+  const voice = (env.GEMINI_TTS_VOICE || DEFAULT_TTS_VOICE).trim();
+  const url = `${GEMINI_BASE}/${encodeURIComponent(model)}:generateContent`;
+  const res = await fetch(url, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'x-goog-api-key': env.GEMINI_API_KEY },
+    body: JSON.stringify({
+      contents: [{ parts: [{ text }] }],
+      generationConfig: {
+        responseModalities: ['AUDIO'],
+        speechConfig: { voiceConfig: { prebuiltVoiceConfig: { voiceName: voice } } },
+      },
+    }),
+  });
+
+  const raw = await res.text();
+  let data = null;
+  try { data = JSON.parse(raw); } catch { /* non-JSON error body */ }
+
+  if (!res.ok) {
+    const msg = (data && data.error && data.error.message) || raw.slice(0, 300) || 'Gemini TTS request failed';
+    const err = new Error(msg);
+    err.upstreamStatus = res.status;
+    throw err;
+  }
+
+  const cand = data && Array.isArray(data.candidates) ? data.candidates[0] : null;
+  const parts = cand && cand.content && Array.isArray(cand.content.parts) ? cand.content.parts : [];
+  const audioPart = parts.find(p => p && p.inlineData && p.inlineData.data);
+  if (!audioPart) {
+    const reason = cand && cand.finishReason ? ` (finishReason: ${cand.finishReason})` : '';
+    const err = new Error('Gemini TTS returned no audio' + reason);
+    err.upstreamStatus = 502;
+    throw err;
+  }
+  const pcm = base64ToBytes(audioPart.inlineData.data);
+  const rate = rateFromMime(audioPart.inlineData.mimeType);
+  return pcmToWav(pcm, rate, 1, 16);   // mono, 16-bit
+}
+
 /* ── HTTP handling ───────────────────────────────────────────────────────── */
 
 export default {
@@ -240,6 +326,8 @@ async function handle(request, env) {
       ok: keySet,
       keySet,
       model: (env.GEMINI_MODEL || DEFAULT_MODEL).trim(),
+      ttsModel: (env.GEMINI_TTS_MODEL || DEFAULT_TTS_MODEL).trim(),
+      ttsVoice: (env.GEMINI_TTS_VOICE || DEFAULT_TTS_VOICE).trim(),
       gated: Boolean(env.NARRATE_KEY),
       hint: keySet
         ? 'GEMINI_API_KEY is set.'
@@ -267,13 +355,30 @@ async function handle(request, env) {
     return json({ error: 'Body must be JSON.' }, 400, request);
   }
 
+  // /tts speaks the already-generated narration text (so the audio matches what
+  // the user is reading and we don't regenerate it). Falls back to narrating the
+  // briefing if only that is sent. Returns a playable WAV, not JSON.
+  if (url.pathname === '/tts') {
+    let text = String((body && body.text) || '').trim();
+    if (!text && body && body.briefing && body.briefing.ticker) {
+      text = await callGemini(env, narratePrompt(body.briefing), 520);
+    }
+    text = text.slice(0, 1600);
+    if (!text) return json({ error: 'Missing text to speak.' }, 400, request);
+    const wav = await callGeminiTTS(env, text);
+    return new Response(wav, {
+      status: 200,
+      headers: { 'Content-Type': 'audio/wav', 'Cache-Control': 'no-store', ...corsHeaders(request) },
+    });
+  }
+
   const b = body && body.briefing;
   if (!b || typeof b !== 'object' || !b.ticker) {
     return json({ error: 'Missing briefing object.' }, 400, request);
   }
 
   if (url.pathname === '/narrate') {
-    const script = await callGemini(env, narratePrompt(b), 320);
+    const script = await callGemini(env, narratePrompt(b), 520);
     return json({ ticker: b.ticker, script, disclaimer: DISCLAIMER }, 200, request);
   }
 

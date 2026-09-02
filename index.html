@@ -1184,6 +1184,10 @@ td { padding:10px 14px; white-space:nowrap; }
 .brf-narr-off{font-size:12.5px;color:var(--text3);line-height:1.55;}
 .brf-narr-regen{background:transparent;border:1px solid var(--border);border-radius:6px;color:var(--text3);cursor:pointer;font-family:var(--font-mono);font-size:11px;padding:2px 8px;transition:all .15s;}
 .brf-narr-regen:hover{border-color:var(--accent);color:var(--accent);}
+.brf-narr-regen:disabled{opacity:.55;cursor:default;}
+.brf-narr-actions{display:flex;gap:6px;align-items:center;}
+#brf-tts-btn{font-size:13px;}
+.brf-tts-note{font-size:11px;color:var(--red);margin-top:6px;min-height:14px;}
 .brf-dig{margin-top:12px;padding-top:12px;border-top:1px dashed var(--border);}
 .brf-dig-row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;}
 .brf-dig-input{flex:1;min-width:160px;background:var(--bg2);border:1px solid var(--border);border-radius:7px;padding:8px 10px;color:var(--text);font-family:inherit;font-size:13px;}
@@ -3299,7 +3303,7 @@ async function brfRunNarration(t, force){
     box.innerHTML = 'AI narration isn’t switched on yet. Deploy the narration Worker and add its URL to '
       + '<code style="color:var(--accent);background:var(--bg2);padding:1px 5px;border-radius:3px;">data/narrate-config.json</code> '
       + 'to get a plain-English summary and “dig deeper.”';
-    const rg = document.querySelector('#brf-narr-body').closest('.brf-narr').querySelector('.brf-narr-regen'); if(rg) rg.style.display='none';
+    const acts = document.querySelector('#brf-narr-body').closest('.brf-narr').querySelector('.brf-narr-actions'); if(acts) acts.style.display='none';
     const dig = document.getElementById('brf-dig'); if(dig) dig.style.display='none';
     return;
   }
@@ -3316,6 +3320,81 @@ async function brfRunNarration(t, force){
   }
 }
 function brfRegenNarration(){ if(brfCurrent) brfRunNarration(brfCurrent, true); }
+
+/* ─── AUDIO (Phase 4 — Gemini TTS via the narrate Worker) ───
+   The 🔊 button speaks the SAME plain-English script shown above, so the audio
+   always matches the text. The Worker returns a ready-to-play WAV; we play it
+   with an <audio> element and cache the object URL on the element for the
+   session. On-demand only — nothing is synthesized until the user taps play. */
+let brfAudio = null;         // current HTMLAudioElement
+let brfAudioTicker = null;   // the ticker its audio belongs to
+
+function brfSetTtsBtn(state){
+  const btn = document.getElementById('brf-tts-btn');
+  if(!btn) return;
+  if(state==='loading'){ btn.disabled = true; btn.textContent = '…'; btn.title = 'Generating audio…'; }
+  else if(state==='playing'){ btn.disabled = false; btn.textContent = '⏸'; btn.title = 'Pause'; }
+  else { btn.disabled = false; btn.textContent = '🔊'; btn.title = 'Listen to this briefing'; }
+}
+function brfTtsNote(msg){
+  const n = document.getElementById('brf-tts-note');
+  if(n) n.textContent = msg || '';
+}
+function brfStopAudio(){
+  if(brfAudio){
+    try{ brfAudio.pause(); }catch(e){}
+    if(brfAudio._objUrl){ try{ URL.revokeObjectURL(brfAudio._objUrl); }catch(e){} }
+  }
+  brfAudio = null; brfAudioTicker = null;
+  brfSetTtsBtn('idle');
+}
+async function brfPlayAudio(){
+  const t = brfCurrent;
+  if(!t) return;
+  const b = briefingsData && briefingsData.items[t];
+  if(!b) return;
+  if(!narrateReady){ try{ await narrateInit(); }catch(e){} }
+  if(!narrateUrl){ brfTtsNote('Audio needs the narration Worker configured.'); return; }
+
+  // Already have audio for THIS ticker → toggle play/pause instead of refetching.
+  if(brfAudio && brfAudioTicker === t){
+    if(brfAudio.paused){ brfAudio.play().then(()=>brfSetTtsBtn('playing')).catch(()=>brfSetTtsBtn('idle')); }
+    else { brfAudio.pause(); }
+    return;
+  }
+
+  brfStopAudio();
+  brfTtsNote('');
+  brfSetTtsBtn('loading');
+  try{
+    // Speak the exact script shown above; generate it first if it isn't ready.
+    let text = b.script_text;
+    if(!text){ text = await brfNarrate(t, false); }
+    if(brfCurrent !== t) return;                 // modal moved on while we waited
+    const res = await fetch(narrateUrl + '/tts', {
+      method:'POST', headers: narrateHeaders(),
+      body: JSON.stringify({ ticker: t, text })
+    });
+    if(!res.ok){
+      let msg = 'HTTP ' + res.status;
+      try{ const j = await res.json(); msg = j.message || j.error || msg; }catch(e){}
+      throw new Error(msg);
+    }
+    const blob = await res.blob();
+    if(brfCurrent !== t) return;
+    const objUrl = URL.createObjectURL(blob);
+    const audio = new Audio(objUrl);
+    audio._objUrl = objUrl;
+    audio.onended = ()=>{ brfSetTtsBtn('idle'); };
+    audio.onpause = ()=>{ if(!audio.ended) brfSetTtsBtn('idle'); };
+    audio.onplay  = ()=>{ brfSetTtsBtn('playing'); };
+    brfAudio = audio; brfAudioTicker = t;
+    audio.play().then(()=>brfSetTtsBtn('playing')).catch(()=>{ brfSetTtsBtn('idle'); brfTtsNote('Tap 🔊 to play.'); });
+  }catch(e){
+    if(brfCurrent === t){ brfSetTtsBtn('idle'); brfTtsNote('Audio failed: ' + (e.message||e)); }
+    console.warn('TTS failed:', e);
+  }
+}
 
 async function brfSubmitDig(){
   const input = document.getElementById('brf-dig-input');
@@ -3544,7 +3623,7 @@ function brfCard(b){
   return '<div class="brf-card"><div class="brf-card-head">'
     + '<div><span class="brf-ticker">'+t+'</span><span class="brf-asof">'+brfEsc(b.data_asof||'')+'</span></div>'
     + '<div class="brf-actions">'
-    + '<button class="brf-icon" title="Audio briefing — coming in a later phase" disabled>🔊</button>'
+    + '<button class="brf-icon brf-icon-live" title="Listen — opens the briefing" onclick="openBriefingDoc(\''+t+'\')">🔊</button>'
     + '<button class="brf-icon brf-icon-live" title="Open the full briefing" onclick="openBriefingDoc(\''+t+'\')">📄</button>'
     + '</div></div>'
     + '<div class="brf-price-row">'
@@ -3573,6 +3652,7 @@ function brfNewsPreview(b, t){
 function openBriefingDoc(t){
   const b = briefingsData && briefingsData.items[t];
   if (!b || b.status !== 'ok') return;
+  brfStopAudio();   // a previous ticker's audio must not keep playing under a new briefing
   const p = b.price||{}, io = b.indicators||{};
   const rows = [];
   const add = (k,v,r) => rows.push('<tr><td class="brf-doc-k">'+k+'</td><td class="brf-doc-v">'+v+'</td><td class="brf-doc-r">'+brfEsc(r||'')+'</td></tr>');
@@ -3622,8 +3702,12 @@ function openBriefingDoc(t){
     + '<span class="'+brfCls(p.move_open_close_pct)+' brf-move">'+brfPct(p.move_open_close_pct)+' open→close</span>'
     + '<span class="'+brfCls(p.move_week_pct)+' brf-move">'+brfPct(p.move_week_pct)+' week</span></div>'
     + '<div class="brf-narr"><div class="brf-narr-head"><span class="brf-narr-title">✨ Plain-English briefing</span>'
-    + '<button class="brf-narr-regen" onclick="brfRegenNarration()" title="Regenerate">↻</button></div>'
+    + '<div class="brf-narr-actions">'
+    + '<button class="brf-narr-regen" id="brf-tts-btn" onclick="brfPlayAudio()" title="Listen to this briefing">🔊</button>'
+    + '<button class="brf-narr-regen" onclick="brfRegenNarration()" title="Regenerate">↻</button>'
+    + '</div></div>'
     + '<div id="brf-narr-body" class="brf-narr-loading">…</div>'
+    + '<div id="brf-tts-note" class="brf-tts-note"></div>'
     + '<div class="brf-dig" id="brf-dig"><div class="brf-dig-row">'
     + '<input id="brf-dig-input" class="brf-dig-input" type="text" placeholder="Dig deeper — ask about an indicator or headline…" onkeydown="brfDigKey(event)">'
     + '<button id="brf-dig-btn" class="brf-dig-btn" onclick="brfSubmitDig()">ASK</button></div>'
@@ -3635,7 +3719,7 @@ function openBriefingDoc(t){
   document.getElementById('brf-modal').classList.add('open');
   brfRunNarration(t, false);
 }
-function closeBriefingDoc(){ document.getElementById('brf-modal').classList.remove('open'); brfCurrent = null; }
+function closeBriefingDoc(){ brfStopAudio(); document.getElementById('brf-modal').classList.remove('open'); brfCurrent = null; }
 
 /* ─── SECTOR CARD TILT (micro-interaction, desktop only) ─── */
 if(window.matchMedia('(pointer:fine)').matches){
