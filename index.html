@@ -991,6 +991,13 @@ td { padding:10px 14px; white-space:nowrap; }
   color:var(--text3); cursor:pointer; transition:all 0.18s; letter-spacing:0.04em;
 }
 .wl-new-list:hover { border-color:var(--accent); color:var(--accent); border-style:solid; }
+/* Inline new-list form */
+.wl-newlist-panel{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:2px 0 16px;padding:12px 14px;background:var(--bg3);border:1px solid var(--border);border-radius:9px;}
+.wl-kind-pick{display:flex;gap:6px;}
+.wl-kind-btn{padding:7px 12px;background:linear-gradient(135deg,var(--bg4),var(--bg3));border:1px solid var(--border);border-radius:7px;font-family:var(--font-mono);font-size:12px;font-weight:700;color:var(--text2);cursor:pointer;transition:all .15s;letter-spacing:.03em;}
+.wl-kind-btn:hover{border-color:var(--text3);color:var(--text);}
+.wl-kind-btn.sel{background:linear-gradient(135deg,rgba(0,200,83,0.16),rgba(0,200,83,0.06));border-color:var(--accent);color:var(--accent);}
+.wl-kind-hint{font-size:11px;color:var(--text3);flex-basis:100%;}
 
 /* ─── LIST HEADER (rename / delete) ─── */
 .wl-list-header {
@@ -1476,6 +1483,9 @@ td { padding:10px 14px; white-space:nowrap; }
     <!-- List selector -->
     <div class="wl-list-bar" id="wl-list-bar"></div>
 
+    <!-- Inline "new list" form (name + kind) — replaces the old prompt() -->
+    <div id="wl-newlist-form"></div>
+
     <!-- Add row -->
     <div style="display:flex;gap:8px;align-items:center;margin-bottom:8px;flex-wrap:wrap;">
       <div class="search-wrap">
@@ -1724,6 +1734,11 @@ const WL_LEGACY_KEY = 'ncmf_watchlist';   // the old flat array
 const WL_ALL = 'ALL';
 
 let wlData = { version: 1, lists: [], activeId: WL_ALL };
+// Inline list-create / rename state. prompt()/confirm() are blocked in installed
+// PWAs and unreliable on mobile, so naming happens in real in-page inputs.
+let wlNewListOpen = false;
+let wlNewListKind = 'watchlist';
+let wlRenamingId = null;
 
 /* Escape anything user-typed before it reaches innerHTML. List names are free
    text; without this a name containing a quote breaks the markup. */
@@ -2264,22 +2279,63 @@ function wlMsg(text, isError){
 }
 
 /* ─── LIST MANAGEMENT ─── */
+/* "+ NEW LIST" opens an inline form (name field + kind picker) right in the tab.
+   No prompt()/confirm() — those are blocked in installed PWAs. */
 function wlCreateList(){
-  const name = (prompt('Name this list (e.g. "Semis", "Dividend", "My Portfolio"):') || '').trim();
-  if (!name) return;
+  wlNewListOpen = true;
+  wlNewListKind = 'watchlist';
+  wlRenderNewListForm();
+  const inp = document.getElementById('wl-newlist-name');
+  if (inp) { inp.value = ''; inp.focus(); }
+}
+function wlRenderNewListForm(){
+  const host = document.getElementById('wl-newlist-form');
+  if (!host) return;
+  if (!wlNewListOpen) { host.innerHTML = ''; host.style.display = 'none'; return; }
+  host.style.display = 'block';
+  host.innerHTML =
+      '<div class="wl-newlist-panel">'
+    + '<input id="wl-newlist-name" class="search-input" type="text" autocomplete="off" '
+    +   'placeholder="List name — e.g. Semis, Dividend, My Portfolio" style="min-width:240px;" onkeydown="wlNewListKey(event)">'
+    + '<div class="wl-kind-pick">'
+    +   '<button type="button" id="wl-kind-w" class="wl-kind-btn ' + (wlNewListKind==='watchlist'?'sel':'') + '" onclick="wlSetNewKind(\'watchlist\')">⭐ Watchlist</button>'
+    +   '<button type="button" id="wl-kind-p" class="wl-kind-btn ' + (wlNewListKind==='portfolio'?'sel':'') + '" onclick="wlSetNewKind(\'portfolio\')">💼 Portfolio</button>'
+    + '</div>'
+    + '<button type="button" class="btn-add" onclick="wlSubmitNewList()">Create</button>'
+    + '<button type="button" class="wl-icon-btn" onclick="wlCancelNewList()">Cancel</button>'
+    + '<span class="wl-kind-hint" id="wl-kind-hint">' + wlKindHint() + '</span>'
+    + '</div>';
+}
+function wlKindHint(){
+  return wlNewListKind==='portfolio'
+    ? 'Portfolio: tracks share counts, position value & weighting.'
+    : 'Watchlist: tickers only.';
+}
+function wlSetNewKind(k){
+  wlNewListKind = (k==='portfolio') ? 'portfolio' : 'watchlist';
+  const w = document.getElementById('wl-kind-w'), p = document.getElementById('wl-kind-p');
+  if (w) w.classList.toggle('sel', wlNewListKind==='watchlist');
+  if (p) p.classList.toggle('sel', wlNewListKind==='portfolio');
+  const hint = document.getElementById('wl-kind-hint'); if (hint) hint.textContent = wlKindHint();
+}
+function wlNewListKey(e){
+  if (e.key === 'Enter') { e.preventDefault(); wlSubmitNewList(); }
+  else if (e.key === 'Escape') { wlCancelNewList(); }
+}
+function wlCancelNewList(){ wlNewListOpen = false; wlRenderNewListForm(); wlMsg(''); }
+function wlSubmitNewList(){
+  const inp = document.getElementById('wl-newlist-name');
+  const name = inp ? inp.value.trim() : '';
+  if (!name) { wlMsg('Enter a list name.'); if (inp) inp.focus(); return; }
   if (wlData.lists.some(l => l.name.toLowerCase() === name.toLowerCase())) {
-    wlMsg('A list named "' + name + '" already exists.');
-    return;
+    wlMsg('A list named "' + name + '" already exists.'); if (inp) inp.focus(); return;
   }
-  const isPf = confirm(
-    'Make "' + name + '" a PORTFOLIO?\n\n' +
-    'OK = Portfolio — tracks share counts and shows position value, total, and weighting.\n' +
-    'Cancel = Watchlist — tickers only.'
-  );
+  const isPf = wlNewListKind === 'portfolio';
   const list = { id: wlNewId(), name, kind: isPf ? 'portfolio' : 'watchlist', tickers: [], briefings: false };
   if (isPf) list.shares = {};
   wlData.lists.push(list);
   wlData.activeId = list.id;
+  wlNewListOpen = false;
   wlSave();
   wlMsg('New ' + (isPf ? 'portfolio' : 'watchlist') + ' "' + name + '" created.', false);
   renderWatchlist();
@@ -2317,16 +2373,29 @@ function wlEditShares(id, ticker){
   wlMsg('');
   renderWatchlist();
 }
+/* Inline rename — turns the list title into an editable field (no prompt()). */
 function wlRenameList(id){
+  wlRenamingId = id;
+  renderWatchlist();
+  const inp = document.getElementById('wl-rename-input');
+  if (inp) { inp.focus(); inp.select(); }
+}
+function wlRenameKey(e, id){
+  if (e.key === 'Enter') { e.preventDefault(); wlSubmitRename(id); }
+  else if (e.key === 'Escape') { wlCancelRename(); }
+}
+function wlCancelRename(){ wlRenamingId = null; wlMsg(''); renderWatchlist(); }
+function wlSubmitRename(id){
   const list = wlFindList(id);
-  if (!list) return;
-  const name = (prompt('Rename "' + list.name + '" to:', list.name) || '').trim();
-  if (!name || name === list.name) return;
+  if (!list) { wlCancelRename(); return; }
+  const inp = document.getElementById('wl-rename-input');
+  const name = inp ? inp.value.trim() : '';
+  if (!name || name === list.name) { wlCancelRename(); return; }
   if (wlData.lists.some(l => l.id !== id && l.name.toLowerCase() === name.toLowerCase())) {
-    wlMsg('A list named "' + name + '" already exists.');
-    return;
+    wlMsg('A list named "' + name + '" already exists.'); if (inp) inp.focus(); return;
   }
   list.name = name;
+  wlRenamingId = null;
   wlSave();
   wlMsg('');
   renderWatchlist();
@@ -2715,6 +2784,7 @@ function wlPortfolioTable(list){
 function renderWatchlist(){
   const el = document.getElementById('wl-content');
   wlRenderListBar();
+  wlRenderNewListForm();   // keep the inline "new list" form in sync with re-renders
 
   if (!wlData.lists.length) {
     document.getElementById('wl-sync-banner').style.display='none';
@@ -2740,10 +2810,15 @@ function renderWatchlist(){
   if (active) {
     const kind = wlListKind(active);
     const briefBtn = `<button class="wl-icon-btn wl-brief-btn ${active.briefings?'on':''}" onclick="wlToggleBriefings('${active.id}')" title="Toggle briefing generation for this list">🎧 ${active.briefings?'BRIEFINGS ON':'BRIEFINGS OFF'}</button>`;
+    const renaming = (wlRenamingId === active.id);
+    const titleInner = renaming
+      ? `${wlKindIcon(kind)} <input id="wl-rename-input" class="search-input" type="text" value="${wlEsc(active.name)}" style="min-width:200px;" autocomplete="off" onkeydown="wlRenameKey(event,'${active.id}')"> `
+        + `<button class="wl-icon-btn" onclick="wlSubmitRename('${active.id}')">SAVE</button> `
+        + `<button class="wl-icon-btn" onclick="wlCancelRename()">CANCEL</button>`
+      : `${wlKindIcon(kind)} ${wlEsc(active.name)} `
+        + `<span style="font-size:11px;color:var(--text3);font-family:var(--font-mono);font-weight:400;">${kind==='portfolio'?'portfolio · ':''}${active.tickers.length} ${kind==='portfolio'?'holding':'ticker'}${active.tickers.length===1?'':'s'}</span>`;
     html += `<div class="wl-list-header">
-      <div class="wl-list-title">${wlKindIcon(kind)} ${wlEsc(active.name)}
-        <span style="font-size:11px;color:var(--text3);font-family:var(--font-mono);font-weight:400;">${kind==='portfolio'?'portfolio · ':''}${active.tickers.length} ${kind==='portfolio'?'holding':'ticker'}${active.tickers.length===1?'':'s'}</span>
-      </div>
+      <div class="wl-list-title">${titleInner}</div>
       <div style="display:flex;gap:6px;flex-wrap:wrap;">
         ${briefBtn}
         <button class="wl-icon-btn" onclick="wlRenameList('${active.id}')">✎ RENAME</button>
