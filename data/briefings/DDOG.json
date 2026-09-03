@@ -1,0 +1,144 @@
+{
+  "ticker": "DDOG",
+  "user_id": "local",
+  "session": "close",
+  "generated_at": "2026-09-02T20:08:35.791716-07:00",
+  "disclaimer": "Informational only. Not financial advice.",
+  "selected_indicators": [
+    "rsi14",
+    "macd",
+    "bollinger_pctb",
+    "pct_from_52w_low",
+    "pct_from_52w_high",
+    "price_vs_ma200",
+    "atr14",
+    "rel_volume",
+    "mfi14"
+  ],
+  "news": [
+    {
+      "headline": "Datadog Just Dropped 22% in a Month: Sell Now, or Buy More?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ae59485e8627d89d5abd240dd07c0f2988935aed54baef2537b21ea78bc23db0",
+      "datetime": 1788379810,
+      "summary": "Datadog just handed investors a paradox: a quarter that beat on every line and raised guidance, yet the stock cratered anyway. Whether that punishing reset is a gift or a warning depends on one uncomfortable question about the company's customer base."
+    },
+    {
+      "headline": "Stay informed with the top movers within the S&P500 index on Wednesday.",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=422561b2898c5363af7eddd6164802fcacc94d523bf363c575162d137dfaf4b0",
+      "datetime": 1788375901,
+      "summary": "Let's have a look at the top S&P500 gainers and losers one hour before the close of the markets of today's session."
+    },
+    {
+      "headline": "Palantir Heads for Worst Day in 7 Months. It Isn\u2019t the Only Software Stock Sinking.",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=5e07ee3f4628c01cc977c7e513b877f318cf5d4358a672489b566c6e1c716e8b",
+      "datetime": 1788374700,
+      "summary": "Palantir Technologies stock paces toward its worst day since February as Palo Alto Networks and other sector peers sell off."
+    },
+    {
+      "headline": "Snowflake Drops 4% Before Its Earnings Report, Datadog Falls 6%: Is the Software Selloff the Real Story?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=18d6345ddfdb015fd277418a529ce50af70304af4cfb69ac9ada7e729c702936",
+      "datetime": 1788370871,
+      "summary": "Software's biggest winners are selling off hard today while the broader tech index barely flinches, and the disconnect between those two moves reveals something traders need to understand before Snowflake's report hits after the close."
+    },
+    {
+      "headline": "Datadog Stock Jumps After the Close: Here's Why",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=b76988d878eb7fc323211efe4534cc0b0d6cafcdf64321c7e0a89dc9f31c9b35",
+      "datetime": 1788369952,
+      "summary": "Datadog Inc (NASDAQ:DDOG) shares are rising in Wednesday&#39;s after-hours session following strong earnings from Snowflake Inc (NYSE:SNOW)."
+    },
+    {
+      "headline": "3 Reasons to Hold Datadog Stock Despite a 64.6% Year-to-Date Surge",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c84296da9b02eac3d06bade7f4071966fede337a6ce9d20c18b952325ab8a8f2",
+      "datetime": 1788366600,
+      "summary": "DDOG's AI momentum, broad customer growth and raised guidance support a hold, despite a steep valuation and 64.6% YTD surge."
+    }
+  ],
+  "filings": [
+    {
+      "form": "10-Q",
+      "title": "Quarterly report (10-Q)",
+      "date": "2026-08-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026054458/ddog-20260630.htm"
+    },
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-08-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026053829/ddog-20260806.htm"
+    },
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-06-16",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026043590/ddog-20260615.htm"
+    }
+  ],
+  "script_text": null,
+  "audio_cached": false,
+  "status": "ok",
+  "data_asof": "2026-09-02",
+  "price": {
+    "last": 209.23,
+    "open": 219.46,
+    "prev_close": 223.84,
+    "move_day_pct": -6.53,
+    "move_open_close_pct": -4.66,
+    "move_week_pct": -6.17
+  },
+  "indicators": {
+    "rsi14": {
+      "value": 36.8,
+      "read": "Oversold"
+    },
+    "macd": {
+      "macd": -7.863,
+      "signal": -5.308,
+      "hist": -2.555,
+      "hist_prev": -1.534,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+    },
+    "bollinger_pctb": {
+      "upper": 270.82,
+      "lower": 207.89,
+      "mid": 239.35,
+      "pctb": 0.021,
+      "read": "Near the lower band"
+    },
+    "pct_from_52w_low": {
+      "value": 103.9,
+      "read": "104% above its 52-week low"
+    },
+    "pct_from_52w_high": {
+      "value": -27.39,
+      "read": "27% below its 52-week high"
+    },
+    "price_vs_ma200": {
+      "ma200": 175.8,
+      "pct": 19.02,
+      "read": "19% above its 200-day average \u2014 long-term uptrend"
+    },
+    "atr14": {
+      "value": 14.52,
+      "pct_of_price": 6.94,
+      "read": "High daily volatility"
+    },
+    "rel_volume": {
+      "value": 1.27,
+      "read": "Roughly average volume"
+    },
+    "mfi14": {
+      "value": 36.9,
+      "read": "Neutral money flow"
+    }
+  },
+  "low_52w": 102.61,
+  "high_52w": 288.15,
+  "ma50": 249.22,
+  "ma200": 175.8
+}

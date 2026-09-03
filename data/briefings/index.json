@@ -2,7 +2,7 @@
   "version": 1,
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-02T18:27:47.136848-07:00",
+  "generated_at": "2026-09-02T20:08:34.687432-07:00",
   "lists": [
     "My Watchlist"
   ],
@@ -11,7 +11,7 @@
       "ticker": "MDB",
       "status": "ok",
       "file": "data/briefings/MDB.json",
-      "data_asof": "2026-09-01",
+      "data_asof": "2026-09-02",
       "lists": [
         "My Watchlist"
       ]
@@ -20,7 +20,7 @@
       "ticker": "TOELF",
       "status": "ok",
       "file": "data/briefings/TOELF.json",
-      "data_asof": "2026-09-01",
+      "data_asof": "2026-09-02",
       "lists": [
         "My Watchlist"
       ]
@@ -30,6 +30,24 @@
       "status": "nodata",
       "file": "data/briefings/TRDCF.json",
       "data_asof": null,
+      "lists": [
+        "My Watchlist"
+      ]
+    },
+    {
+      "ticker": "DDOG",
+      "status": "ok",
+      "file": "data/briefings/DDOG.json",
+      "data_asof": "2026-09-02",
+      "lists": [
+        "My Watchlist"
+      ]
+    },
+    {
+      "ticker": "NET",
+      "status": "ok",
+      "file": "data/briefings/NET.json",
+      "data_asof": "2026-09-02",
       "lists": [
         "My Watchlist"
       ]

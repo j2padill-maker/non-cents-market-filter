@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-02T18:27:47.136995-07:00",
+  "generated_at": "2026-09-02T20:08:34.687451-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-01",
+  "data_asof": "2026-09-02",
   "price": {
-    "last": 434.21,
-    "open": 443.19,
-    "prev_close": 453.37,
-    "move_day_pct": -4.23,
-    "move_open_close_pct": -2.03,
-    "move_week_pct": 7.23
+    "last": 375.4,
+    "open": 379.25,
+    "prev_close": 434.21,
+    "move_day_pct": -13.54,
+    "move_open_close_pct": -1.02,
+    "move_week_pct": -7.29
   },
   "indicators": {
     "rsi14": {
-      "value": 57.8,
+      "value": 44.1,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 20.147,
-      "signal": 21.734,
-      "hist": -1.587,
-      "hist_prev": -0.925,
+      "macd": 14.59,
+      "signal": 20.513,
+      "hist": -5.923,
+      "hist_prev": -1.901,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 478.02,
-      "lower": 374.48,
-      "mid": 426.25,
-      "pctb": 0.577,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 478.04,
+      "lower": 367.34,
+      "mid": 422.69,
+      "pctb": 0.073,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 92.17,
-      "read": "92% above its 52-week low"
+      "value": 66.14,
+      "read": "66% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -8.06,
-      "read": "Modestly below its 52-week high"
+      "value": -20.51,
+      "read": "21% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 342.02,
-      "pct": 26.95,
-      "read": "27% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 341.67,
+      "pct": 9.87,
+      "read": "10% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 21.64,
-      "pct_of_price": 4.98,
+      "value": 24.94,
+      "pct_of_price": 6.64,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 2.42,
+      "value": 4.36,
       "read": "Heavy volume \u2014 well above average"
     },
     "mfi14": {
-      "value": 45.5,
+      "value": 31.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 369.22,
-  "ma200": 342.02
+  "ma50": 367.8,
+  "ma200": 341.67
 }

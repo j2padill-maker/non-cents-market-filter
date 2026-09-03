@@ -1,0 +1,137 @@
+{
+  "ticker": "NET",
+  "user_id": "local",
+  "session": "close",
+  "generated_at": "2026-09-02T20:08:35.957925-07:00",
+  "disclaimer": "Informational only. Not financial advice.",
+  "selected_indicators": [
+    "rsi14",
+    "macd",
+    "bollinger_pctb",
+    "pct_from_52w_low",
+    "pct_from_52w_high",
+    "price_vs_ma200",
+    "atr14",
+    "rel_volume",
+    "mfi14"
+  ],
+  "news": [
+    {
+      "headline": "The Memory Wall And Next Leg Of The AI Story: The Connection Bottleneck",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=e26e5c96b0453ee0036503ccc72bf4c90cdf2bd3762053a1319d40455f51185c",
+      "datetime": 1788304800,
+      "summary": "The total HBM market is projected to grow from $35 billion in 2025 to $54.6 billion in 2026, an increase of more than 50% in a single year, with $100 billion in sight by 2028."
+    },
+    {
+      "headline": "Citizens Reiterates Market Outperform on Cloudflare, Maintains $394 Price Target",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=397a61b6aeeae28c2cf2f69d45bae46e7240a19dd69362d6edee94c79bee7da6",
+      "datetime": 1788165739,
+      "summary": "Citizens  analyst Patrick Walravens   reiterates Cloudflare (NYSE:NET) with a Market Outperform and maintains $394 price target."
+    },
+    {
+      "headline": "Cloudflare (NET) Price Target Increased by 25.01% to 337.83",
+      "source": "Fintel",
+      "url": "https://finnhub.io/api/news?id=b741de0775507a2f59b1152b86c716bba6bfe56e0ec5fcdb025820e746f2ac4e",
+      "datetime": 1787886442,
+      "summary": ""
+    },
+    {
+      "headline": "Shares of cybersecurity-related companies are trading higher amid sympathy with Crowdstrike and Okta after those companies reported better-than-expected financial results and raised their respective guidance metrics above estimates.",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=c49b06b0a5913c767c5bbbabb91bbd2c9305431e04e023b80139e7f59cc82582",
+      "datetime": 1787828186,
+      "summary": "CRWD and OKTA"
+    },
+    {
+      "headline": "CrowdStrike Posts Best Quarter Ever, but Cathie Wood's Ark Sells Shares Amid Cloudflare, Cerebras Buys",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=d832f5c6110d75c93888b1cee63ef4fe4d59b82fcdd87458bbd10cdc883b4d7b",
+      "datetime": 1787789821,
+      "summary": "On Wednesday, Aug. 26, 2026, Ark Invest sold CrowdStrike and AMD shares after CrowdStrike&#39;s record quarter."
+    }
+  ],
+  "filings": [
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-08-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/1477333/000095010326012340/dp251721_8k.htm"
+    },
+    {
+      "form": "10-Q",
+      "title": "Quarterly report (10-Q)",
+      "date": "2026-08-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000054/cloud-20260630.htm"
+    },
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-08-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000053/cloud-20260806.htm"
+    }
+  ],
+  "script_text": null,
+  "audio_cached": false,
+  "status": "ok",
+  "data_asof": "2026-09-02",
+  "price": {
+    "last": 272.74,
+    "open": 284.08,
+    "prev_close": 285.51,
+    "move_day_pct": -4.47,
+    "move_open_close_pct": -3.99,
+    "move_week_pct": -1.74
+  },
+  "indicators": {
+    "rsi14": {
+      "value": 44.3,
+      "read": "Neutral"
+    },
+    "macd": {
+      "macd": 2.185,
+      "signal": 5.598,
+      "hist": -3.413,
+      "hist_prev": -2.287,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+    },
+    "bollinger_pctb": {
+      "upper": 326.58,
+      "lower": 267.42,
+      "mid": 297.0,
+      "pctb": 0.09,
+      "read": "Near the lower band"
+    },
+    "pct_from_52w_low": {
+      "value": 70.26,
+      "read": "70% above its 52-week low"
+    },
+    "pct_from_52w_high": {
+      "value": -17.56,
+      "read": "18% below its 52-week high"
+    },
+    "price_vs_ma200": {
+      "ma200": 221.16,
+      "pct": 23.32,
+      "read": "23% above its 200-day average \u2014 long-term uptrend"
+    },
+    "atr14": {
+      "value": 16.87,
+      "pct_of_price": 6.19,
+      "read": "High daily volatility"
+    },
+    "rel_volume": {
+      "value": 0.91,
+      "read": "Roughly average volume"
+    },
+    "mfi14": {
+      "value": 44.1,
+      "read": "Neutral money flow"
+    }
+  },
+  "low_52w": 160.19,
+  "high_52w": 330.83,
+  "ma50": 276.46,
+  "ma200": 221.16
+}

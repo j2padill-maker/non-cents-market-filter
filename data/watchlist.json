@@ -1,12 +1,35 @@
 {
   "version": 1,
-  "updated": "2026-08-28T18:40:00-07:00",
+  "updated": "2026-09-03T02:02:10.586Z",
+  "rev": 24,
+  "source": "sync",
   "lists": [
     {
       "name": "My Watchlist",
       "kind": "watchlist",
-      "tickers": ["MDB", "TOELF", "TRDCF"],
+      "tickers": [
+        "MDB",
+        "TOELF",
+        "TRDCF",
+        "DDOG",
+        "NET"
+      ],
       "briefings": true
+    },
+    {
+      "name": "tech stack",
+      "kind": "portfolio",
+      "tickers": [
+        "TOELF",
+        "DDOG",
+        "NET"
+      ],
+      "briefings": false,
+      "shares": {
+        "TOELF": 1,
+        "DDOG": 7,
+        "NET": 6
+      }
     }
   ]
 }
