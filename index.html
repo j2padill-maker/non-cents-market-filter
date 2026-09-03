@@ -2570,13 +2570,15 @@ function wlRenderListBar(){
   html += `<button class="wl-icon-btn" onclick="wlImportFromRepo()" title="Replace local lists with data/watchlist.json">⬆ LOAD FROM REPO</button>`;
   bar.innerHTML = html;
 
-  // Destination dropdown for the add row
+  // Destination dropdown for the add row. It FOLLOWS the selected list: if you
+  // have a specific list open, adds go there (matching what you'd expect). Only
+  // on the ALL view does it keep the last choice / first list so you can pick.
   const sel = document.getElementById('wl-target');
   const prev = sel.value;
   sel.innerHTML = wlData.lists.map(l =>
     `<option value="${l.id}">${wlEsc(l.name)}</option>`).join('');
-  const wanted = wlFindList(prev) ? prev
-               : (wlData.activeId !== WL_ALL ? wlData.activeId
+  const wanted = (wlData.activeId !== WL_ALL && wlFindList(wlData.activeId)) ? wlData.activeId
+               : (wlFindList(prev) ? prev
                : (wlData.lists[0] ? wlData.lists[0].id : ''));
   if (wanted) sel.value = wanted;
   sel.disabled = !wlData.lists.length;
