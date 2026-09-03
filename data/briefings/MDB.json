@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-01T16:55:02.548160-07:00",
+  "generated_at": "2026-09-02T18:23:18.822250-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Get insights into the top gainers and losers of Tuesday's after-hours session.",
+      "headline": "Goldman Sachs Maintains Buy on MongoDB, Raises Price Target to $520",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=ba619b62ef014d021b74d87235f08e2623bb5950d25a2a4785e9ae3dc233f29a",
+      "datetime": 1788355628,
+      "summary": "Goldman Sachs  analyst Kash Rangan   maintains MongoDB (NASDAQ:MDB) with a Buy and raises the price target from $453 to $520."
+    },
+    {
+      "headline": "Nvidia Jumps On AI Bid, Software Stocks Dip: Stock Market Today",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=5cf95ee6885a452daa1f20dd9bc5b90f45475a3ef1cca61a6a93d2706dfe0175",
+      "datetime": 1788355280,
+      "summary": "Nvidia surges 4.7%, while Credo, MongoDB and Palo Alto all cratered Wednesday despite quarterly beats, as costs surged."
+    },
+    {
+      "headline": "12 Information Technology Stocks Moving In Wednesday's Intraday Session",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=cab0eebd1bf6a5a080ca754c0c82a3c12a1b03f60834b161d8aa270529cbdf97",
+      "datetime": 1788354393,
+      "summary": "Gainers\n\nLianhe Sowell Intl (NASDAQ:LHSW) stock moved upwards by 30.9% to $3.77 during Wednesday&#39;s regular session. The company&#39;s market cap stands at $9.1 million. \nFocus Universal (NASDAQ:FCUV) shares rose"
+    },
+    {
+      "headline": "Discover the top movers in Wednesday's pre-market session.",
       "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=89aadc5d907710241a38b6666c1a68d00a11315b07dc8c1012be9c9f8af397fb",
-      "datetime": 1788296400,
-      "summary": "As the regular session of the US market on Tuesday comes to an end, let's delve into the after-hours session and discover the top gainers and losers shaping the post-market sentiment."
+      "url": "https://finnhub.io/api/news?id=e49cb7474f6b0943e3cefdbc17aa65107b9aa8b6c07b962ec42d7cc5aa0a952c",
+      "datetime": 1788352200,
+      "summary": "As we await the opening of the US market on Wednesday, let's delve into the pre-market session and discover the top gainers and losers shaping the early market sentiment."
     },
     {
-      "headline": "12 Information Technology Stocks Moving In Tuesday's After-Market Session",
+      "headline": "Piper Sandler Reiterates Overweight on MongoDB, Raises Price Target to $470",
       "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=ee0fcaa49816ab1fc79214d4242468c47b8143a67211a9dd6d32d5fd147546c0",
-      "datetime": 1788282394,
-      "summary": "Gainers\n\nGitLab (NASDAQ:GTLB) shares increased by 15.3% to $51.97 during Tuesday&#39;s after-market session. The company&#39;s market cap stands at $7.9 billion. The company&#39;s, Q2 earnings came out today."
+      "url": "https://finnhub.io/api/news?id=62d6c3dff50e87ff2f93617affaa3cb4fa3eeb8fd1184c59a4d0331da9956ee3",
+      "datetime": 1788350764,
+      "summary": "Piper Sandler  analyst Rob Owens   reiterates MongoDB (NASDAQ:MDB) with a Overweight and raises the price target from $400 to $470."
     },
     {
-      "headline": "Stock Market Today: S&P 500, Dow, Nasdaq 100 Futures Drop After Trump Says Iran Is \u2018Totally Defeated\u2019, Brent Tops $92 \u2014 CBRS, PXS, PANW, DELL in Focus (UPDATED)",
+      "headline": "MongoDB Posts Strong Q2, Enterprise AI Workloads Drive 30% Revenue Growth",
       "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=7485774bda7b869bd9e40a4b09e852fe09a21965555ec6bdfa917c5c196ff350",
-      "datetime": 1788251668,
-      "summary": "U.S. stock futures were lower on Tuesday, as the Dow Jones, S&amp;P 500 and Nasdaq 100 indices fell, following Monday&#39;s lower close."
-    },
-    {
-      "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=bff5cb927e8565f596b41f4f89b8d401f252b2dd756217ef78ccf8d2f26c86ab",
-      "datetime": 1788232318,
-      "summary": "Polymarket odds lean bullish at 56% as Wall Street weighs escalating U.S.-Iran military strikes and the domestic debate over AI data centers."
-    },
-    {
-      "headline": "ValuEngine Weekly Commentary: Will Disruptive Technologies Upend Aerospace Companies?",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=f92e42ba0fd391439b9372466bb070027ee9fafb6e2e1388e5a346dc14508642",
-      "datetime": 1788219000,
-      "summary": "U.S. equity markets were mixed this past week, with modest gains in the major benchmarks offset by weakness across several defensive and cyclical sectors."
-    },
-    {
-      "headline": "Dell Technologies Could Swing $28.9 Billion After Earnings",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=6bee73b8d2209fb5fdc063f9684e7a7919b5cf7952777d6dff2b93b9bc107cc2",
-      "datetime": 1788189354,
-      "summary": "Options markets are pricing sizable earnings moves for seven medtech and enterprise tech stocks, led by GitLab at 14.99% and MongoDB at 14.93%."
+      "url": "https://finnhub.io/api/news?id=29bb4e7acb1a8b20fcf3769dd14d0d7041088f52d8481ed3ba7d7bdd6595e3e0",
+      "datetime": 1788350267,
+      "summary": "MongoDB shares fell 10.8% despite Q2 beats. Analysts remain bullish, citing 30% revenue growth, AI demand and strong non-Atlas performance."
     }
   ],
   "filings": [
@@ -129,11 +129,11 @@
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 2.18,
+      "value": 2.42,
       "read": "Heavy volume \u2014 well above average"
     },
     "mfi14": {
-      "value": 46.3,
+      "value": 45.5,
       "read": "Neutral money flow"
     }
   },

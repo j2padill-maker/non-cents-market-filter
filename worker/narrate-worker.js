@@ -17,7 +17,7 @@
  *
  * Bindings
  *   Secret  GEMINI_API_KEY   required — from aistudio.google.com (free tier).
- *   Var     GEMINI_MODEL     optional — defaults to gemini-2.5-flash. Set this
+ *   Var     GEMINI_MODEL     optional — defaults to gemini-3.6-flash. Set this
  *                            to switch models without a code change (model
  *                            names churn; the endpoint shape does not).
  *   Secret  NARRATE_KEY      optional — if set, every /narrate and /dig call
@@ -135,12 +135,15 @@ function factBlock(b) {
 function narratePrompt(b) {
   return [
     'You are a concise market-briefing writer for a personal stock-screener app.',
-    'Write a short spoken-style briefing (about 140-200 words) that a busy investor could listen to. Use two short paragraphs:',
-    '1) The market read: the day\'s price move and what the technical indicators collectively suggest about momentum, trend, and volatility, in plain English.',
-    '2) The news: summarize what the recent news and any SEC filings are about. Group related headlines into themes rather than listing them one by one, and note if the company just reported (a 10-Q, 10-K, or 8-K filing). If there is no meaningful company-specific news, say so briefly.',
+    'Write a spoken-style briefing (about 150-220 words) that a busy investor could listen to. It MUST cover all of the sections below, in order:',
+    '1) Open by naming the ticker and stating the as-of date and session of this briefing (e.g. "As of the September 1st close…"). Always state the date.',
+    '2) The price move for the day (and the week if given).',
+    '3) The technical read: what the indicators collectively suggest about momentum, trend, and volatility — reference the specific ones that stand out (for example RSI, MACD, distance from the 52-week low/high, price versus the 200-day average), in plain English.',
+    '4) The news: summarize what the recent headlines are about, grouping related ones into themes rather than listing them one by one; and note any recent SEC filing, calling out if the company just reported (a 10-Q, 10-K, or 8-K). If there is no meaningful company-specific news, say so briefly.',
     'Rules:',
+    '- Cover every section above even if briefly. Do not stop after the price — the indicators and the news are the point of the briefing.',
     '- Neutral and factual. Describe what the numbers and headlines show; do NOT tell the user to buy, sell, or hold, and do not predict prices.',
-    '- No hype, no emoji, no headers, no bullet points, no markdown. Plain sentences only, ready to read aloud.',
+    '- No hype, no emoji, no headers, no bullet points, no markdown. Plain flowing sentences only, ready to read aloud.',
     '- Use only the facts below. Do not invent numbers, ratings, headlines, or events; summarize only the news provided.',
     '- Some items may be generic market roundups that only mention the ticker in passing — focus the news summary on items genuinely about the company, and don\'t overstate a passing mention.',
     '- Refer to the company by its ticker.',
@@ -170,28 +173,42 @@ function digPrompt(b, question) {
 
 /* ── Gemini call ─────────────────────────────────────────────────────────── */
 
+/* Thinking models share maxOutputTokens between hidden reasoning and the visible
+   answer, so a small cap gets the answer truncated after a few words (exactly the
+   "only the closing price" bug). Minimize thinking AND give a generous cap.
+   Gemini 3.x flash uses thinkingLevel (can't fully disable → "low"); Gemini 2.5
+   uses thinkingBudget:0. Keep both so swapping GEMINI_MODEL still behaves. */
+function thinkingConfigFor(model) {
+  const m = (model || '').toLowerCase();
+  if (/gemini-2\.5/.test(m)) return { thinkingBudget: 0 };
+  return { thinkingLevel: 'low' };
+}
+
 async function callGemini(env, prompt, maxTokens) {
   const model = (env.GEMINI_MODEL || DEFAULT_MODEL).trim();
   const url = `${GEMINI_BASE}/${encodeURIComponent(model)}:generateContent`;
-  const res = await fetch(url, {
+  // Headroom for reasoning + the ~200-word answer. Only tokens actually
+  // generated are billed, and thinkingLevel:low keeps reasoning small.
+  const baseGen = { temperature: 0.4, maxOutputTokens: maxTokens || 2048, topP: 0.9 };
+  const call = (gen) => fetch(url, {
     method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'x-goog-api-key': env.GEMINI_API_KEY,
-    },
-    body: JSON.stringify({
-      contents: [{ role: 'user', parts: [{ text: prompt }] }],
-      generationConfig: {
-        temperature: 0.4,
-        maxOutputTokens: maxTokens || 320,
-        topP: 0.9,
-      },
-    }),
+    headers: { 'Content-Type': 'application/json', 'x-goog-api-key': env.GEMINI_API_KEY },
+    body: JSON.stringify({ contents: [{ role: 'user', parts: [{ text: prompt }] }], generationConfig: gen }),
   });
 
-  const raw = await res.text();
+  let res = await call({ ...baseGen, thinkingConfig: thinkingConfigFor(model) });
+  let raw = await res.text();
   let data = null;
   try { data = JSON.parse(raw); } catch { /* non-JSON error body */ }
+
+  // Self-heal: if a model rejects the thinking config (field/value churn),
+  // retry once without it — the big maxOutputTokens alone avoids the truncation.
+  if (!res.ok && /think/i.test((data && data.error && data.error.message) || raw || '')) {
+    res = await call(baseGen);
+    raw = await res.text();
+    data = null;
+    try { data = JSON.parse(raw); } catch { /* non-JSON */ }
+  }
 
   if (!res.ok) {
     const msg = (data && data.error && data.error.message) || raw.slice(0, 300) || 'Gemini request failed';
@@ -361,7 +378,7 @@ async function handle(request, env) {
   if (url.pathname === '/tts') {
     let text = String((body && body.text) || '').trim();
     if (!text && body && body.briefing && body.briefing.ticker) {
-      text = await callGemini(env, narratePrompt(body.briefing), 520);
+      text = await callGemini(env, narratePrompt(body.briefing), 2048);
     }
     text = text.slice(0, 1600);
     if (!text) return json({ error: 'Missing text to speak.' }, 400, request);
@@ -378,14 +395,14 @@ async function handle(request, env) {
   }
 
   if (url.pathname === '/narrate') {
-    const script = await callGemini(env, narratePrompt(b), 520);
+    const script = await callGemini(env, narratePrompt(b), 2048);
     return json({ ticker: b.ticker, script, disclaimer: DISCLAIMER }, 200, request);
   }
 
   if (url.pathname === '/dig') {
     const question = String((body.question || '')).trim().slice(0, 500);
     if (!question) return json({ error: 'Missing question.' }, 400, request);
-    const answer = await callGemini(env, digPrompt(b, question), 380);
+    const answer = await callGemini(env, digPrompt(b, question), 1024);
     return json({ ticker: b.ticker, answer, disclaimer: DISCLAIMER }, 200, request);
   }
 

@@ -2,25 +2,37 @@
   "version": 1,
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-01T16:55:02.548112-07:00",
+  "generated_at": "2026-09-02T18:23:18.821364-07:00",
+  "lists": [
+    "My Watchlist"
+  ],
   "briefings": [
     {
       "ticker": "MDB",
       "status": "ok",
       "file": "data/briefings/MDB.json",
-      "data_asof": "2026-09-01"
+      "data_asof": "2026-09-01",
+      "lists": [
+        "My Watchlist"
+      ]
     },
     {
       "ticker": "TOELF",
       "status": "ok",
       "file": "data/briefings/TOELF.json",
-      "data_asof": "2026-09-01"
+      "data_asof": "2026-09-01",
+      "lists": [
+        "My Watchlist"
+      ]
     },
     {
       "ticker": "TRDCF",
       "status": "nodata",
       "file": "data/briefings/TRDCF.json",
-      "data_asof": null
+      "data_asof": null,
+      "lists": [
+        "My Watchlist"
+      ]
     }
   ]
 }
