@@ -2,7 +2,7 @@
   "ticker": "TOELF",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-02T20:08:35.591509-07:00",
+  "generated_at": "2026-09-02T23:50:09.406160-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -35,25 +35,25 @@
     "prev_close": 358.37,
     "move_day_pct": -2.17,
     "move_open_close_pct": -0.06,
-    "move_week_pct": 2.93
+    "move_week_pct": -1.41
   },
   "indicators": {
     "rsi14": {
-      "value": 47.1,
+      "value": 47.3,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -8.575,
-      "signal": -11.234,
-      "hist": 2.659,
-      "hist_prev": 2.612,
+      "macd": -8.07,
+      "signal": -10.813,
+      "hist": 2.743,
+      "hist_prev": 2.707,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 379.34,
-      "lower": 326.04,
-      "mid": 352.69,
-      "pctb": 0.461,
+      "upper": 376.19,
+      "lower": 326.15,
+      "mid": 351.17,
+      "pctb": 0.488,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
@@ -65,13 +65,13 @@
       "read": "29% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 302.5,
-      "pct": 15.9,
+      "ma200": 303.14,
+      "pct": 15.65,
       "read": "16% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 27.46,
-      "pct_of_price": 7.83,
+      "value": 26.63,
+      "pct_of_price": 7.6,
       "read": "High daily volatility"
     },
     "rel_volume": {
@@ -79,12 +79,12 @@
       "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 81.9,
+      "value": 80.1,
       "read": "Overbought \u2014 money flowing in"
     }
   },
   "low_52w": 131.85,
   "high_52w": 495.61,
-  "ma50": 390.4,
-  "ma200": 302.5
+  "ma50": 388.08,
+  "ma200": 303.14
 }

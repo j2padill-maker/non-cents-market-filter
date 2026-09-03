@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-02T20:08:35.791716-07:00",
+  "generated_at": "2026-09-02T23:50:09.734729-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -89,26 +89,26 @@
     "prev_close": 223.84,
     "move_day_pct": -6.53,
     "move_open_close_pct": -4.66,
-    "move_week_pct": -6.17
+    "move_week_pct": -8.1
   },
   "indicators": {
     "rsi14": {
-      "value": 36.8,
+      "value": 36.3,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -7.863,
-      "signal": -5.308,
-      "hist": -2.555,
-      "hist_prev": -1.534,
+      "macd": -7.56,
+      "signal": -5.309,
+      "hist": -2.251,
+      "hist_prev": -1.141,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 270.82,
-      "lower": 207.89,
-      "mid": 239.35,
-      "pctb": 0.021,
-      "read": "Near the lower band"
+      "upper": 261.24,
+      "lower": 212.84,
+      "mid": 237.04,
+      "pctb": -0.075,
+      "read": "Below the lower band \u2014 stretched to the downside"
     },
     "pct_from_52w_low": {
       "value": 103.9,
@@ -119,26 +119,26 @@
       "read": "27% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 175.8,
-      "pct": 19.02,
+      "ma200": 176.06,
+      "pct": 18.84,
       "read": "19% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 14.52,
-      "pct_of_price": 6.94,
+      "value": 14.17,
+      "pct_of_price": 6.77,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.27,
+      "value": 1.28,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 36.9,
+      "value": 30.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 288.15,
-  "ma50": 249.22,
-  "ma200": 175.8
+  "ma50": 249.55,
+  "ma200": 176.06
 }

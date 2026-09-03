@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-02T20:08:35.957925-07:00",
+  "generated_at": "2026-09-02T23:50:09.951741-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -82,25 +82,25 @@
     "prev_close": 285.51,
     "move_day_pct": -4.47,
     "move_open_close_pct": -3.99,
-    "move_week_pct": -1.74
+    "move_week_pct": -4.26
   },
   "indicators": {
     "rsi14": {
-      "value": 44.3,
+      "value": 44.1,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 2.185,
-      "signal": 5.598,
-      "hist": -3.413,
-      "hist_prev": -2.287,
+      "macd": 2.128,
+      "signal": 5.336,
+      "hist": -3.208,
+      "hist_prev": -1.974,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 326.58,
-      "lower": 267.42,
-      "mid": 297.0,
-      "pctb": 0.09,
+      "upper": 326.89,
+      "lower": 267.8,
+      "mid": 297.34,
+      "pctb": 0.084,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
@@ -112,13 +112,13 @@
       "read": "18% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 221.16,
-      "pct": 23.32,
+      "ma200": 221.59,
+      "pct": 23.08,
       "read": "23% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 16.87,
-      "pct_of_price": 6.19,
+      "value": 16.49,
+      "pct_of_price": 6.05,
       "read": "High daily volatility"
     },
     "rel_volume": {
@@ -126,12 +126,12 @@
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 44.1,
+      "value": 33.6,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 330.83,
-  "ma50": 276.46,
-  "ma200": 221.16
+  "ma50": 277.96,
+  "ma200": 221.59
 }
