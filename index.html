@@ -1478,7 +1478,7 @@ td { padding:10px 14px; white-space:nowrap; }
     <div class="panel-heading">⭐ Lists &amp; Portfolios</div>
     <div class="panel-sub">
       Build named lists of either kind: a <strong>⭐ watchlist</strong> (tickers only — should I get in?) or a <strong>💼 portfolio</strong> (tickers + shares — how am I doing?, with position value, total, and weighting). Flag any list with 🎧 to generate briefings for it.
-      Names already in the dataset show full RSI &amp; 52W data immediately; new names are fetched on the next run — export <code style="color:var(--accent);background:var(--bg3);padding:1px 5px;border-radius:3px;">watchlist.json</code>, drop it in <code style="color:var(--accent);background:var(--bg3);padding:1px 5px;border-radius:3px;">data/</code>, and push.
+      Names already in the dataset show full RSI &amp; 52W data immediately; new names are fetched automatically on the next nightly run — nothing to export or push.
     </div>
 
     <!-- List selector -->
@@ -1486,6 +1486,9 @@ td { padding:10px 14px; white-space:nowrap; }
 
     <!-- Inline "new list" form (name + kind) — replaces the old prompt() -->
     <div id="wl-newlist-form"></div>
+
+    <!-- Dismissible guide: shown each time a list is created, teaches the path to its briefing -->
+    <div id="wl-guide" style="display:none;"></div>
 
     <!-- Add row -->
     <div style="display:flex;gap:8px;align-items:center;margin-bottom:8px;flex-wrap:wrap;">
@@ -2339,6 +2342,7 @@ function wlSubmitNewList(){
   wlNewListOpen = false;
   wlSave();
   wlMsg('New ' + (isPf ? 'portfolio' : 'watchlist') + ' "' + name + '" created.', false);
+  wlGuideList = list.id;   // show the "how to reach the briefing" guide for this new list
   renderWatchlist();
 }
 /* Per-list opt-in for briefing generation. The briefing BUILD reads the
@@ -2350,9 +2354,49 @@ function wlToggleBriefings(id){
   l.briefings = !l.briefings;
   wlSave();
   wlMsg(l.briefings
-    ? '🎧 "' + l.name + '" will generate briefings — export watchlist.json, push, and rebuild briefings to apply.'
-    : '"' + l.name + '" will no longer generate briefings (after the next export + push + rebuild).', false);
+    ? '🎧 "' + l.name + '" will generate briefings on the next nightly run.'
+    : '"' + l.name + '" will no longer generate briefings (takes effect on the next run).', false);
   renderWatchlist();
+}
+
+/* ── New-list guide ─────────────────────────────────────────────────────────
+   Shown dismissibly each time a list is created, to teach the path from a list
+   to its read/audio briefing. Re-appears on the next creation; closing it only
+   hides it for the current list. Adapts to whether 🎧 is on for the list. */
+let wlGuideList = null;
+function wlDismissGuide(){ wlGuideList = null; wlRenderGuide(); }
+function wlGoBriefingsTab(){
+  const tab = Array.prototype.find.call(document.querySelectorAll('.tab'),
+    t => /briefings/.test(t.getAttribute('onclick') || ''));
+  switchTab('briefings', tab || null);
+}
+function wlRenderGuide(){
+  const el = document.getElementById('wl-guide');
+  if (!el) return;
+  const l = wlGuideList ? wlFindList(wlGuideList) : null;
+  if (!l) { el.style.display = 'none'; el.innerHTML = ''; return; }
+  const on = !!l.briefings;
+  const nm = wlEsc(l.name);
+  const step = (txt, done) =>
+    '<div style="display:flex;gap:8px;align-items:flex-start;margin:5px 0;font-size:12px;color:var(--text2);line-height:1.6;">'
+    + '<span style="color:' + (done?'var(--accent)':'var(--yellow)') + ';font-weight:700;">' + (done?'✓':'•') + '</span><span>' + txt + '</span></div>';
+  const cta = on
+    ? '<button onclick="wlGoBriefingsTab()" style="background:linear-gradient(135deg,#00c853,#00a844);border:none;border-radius:5px;padding:8px 16px;color:#000;font-family:var(--font-mono);font-size:11px;font-weight:700;cursor:pointer;letter-spacing:0.05em;">Go to Briefings →</button>'
+    : '<button onclick="wlToggleBriefings(\''+l.id+'\')" style="background:linear-gradient(135deg,#ffcc00,#e6b800);border:none;border-radius:5px;padding:8px 16px;color:#000;font-family:var(--font-mono);font-size:11px;font-weight:700;cursor:pointer;letter-spacing:0.05em;">🎧 Turn on briefings</button>';
+  const body = on
+    ? step('Briefings are <b>on</b> for this list.', true)
+      + step('They\'re generated on the next nightly run (~6–7pm PT). Newly added tickers show up after that build.', false)
+      + step('Open the 🎧 <b>Briefings</b> tab to read the doc and tap 🔊 to listen.', false)
+    : step('Turn on 🎧 <b>BRIEFINGS</b> for this list so its tickers get read-aloud briefings (the toggle is on the list below).', false)
+      + step('They\'re then generated automatically on the next nightly run (~6–7pm PT).', false)
+      + step('Open the 🎧 <b>Briefings</b> tab to read the doc and tap 🔊 to listen.', false);
+  el.style.display = 'block';
+  el.style.cssText = 'display:block;background:var(--bg3);border:1px solid ' + (on?'var(--accent)':'var(--yellow)') + ';border-radius:8px;padding:14px 18px 16px;margin-bottom:18px;position:relative;';
+  el.innerHTML =
+    '<button onclick="wlDismissGuide()" title="Dismiss" style="position:absolute;top:8px;right:10px;background:none;border:none;color:var(--text3);font-size:16px;cursor:pointer;line-height:1;">✕</button>'
+    + '<div style="font-size:11px;font-weight:700;letter-spacing:0.06em;color:' + (on?'var(--accent)':'var(--yellow)') + ';margin-bottom:8px;">▶ HOW TO HEAR &ldquo;' + nm + '&rdquo;</div>'
+    + body
+    + '<div style="margin-top:12px;">' + cta + '</div>';
 }
 /* Edit a single holding's share count in a portfolio (blank clears it). */
 function wlEditShares(id, ticker){
@@ -2469,7 +2513,7 @@ function wlAdd(){
   const label = hit ? `${t} (${hit.name})` : t;
   if (status === 'live')        wlMsg(label + ' added to "' + list.name + '".', false);
   else if (status === 'nodata') wlMsg(label + ' added, but the last fetch found no data for it.');
-  else if (hit)                 wlMsg(label + ' added — export watchlist.json and push to fetch its data.', false);
+  else if (hit)                 wlMsg(label + ' added — its data is fetched automatically on the next nightly run.', false);
   else                          wlMsg(t + ' added, but it is not in the symbol index — it may return no data.');
 
   document.getElementById('wl-symbol-status').innerHTML = '';
@@ -2553,21 +2597,23 @@ async function wlImportFromRepo(){
 function wlRenderListBar(){
   const bar = document.getElementById('wl-list-bar');
   const total = wlAllTickers().length;
-  let html = '';
-  html += `<div class="wl-list-chip ${wlData.activeId===WL_ALL?'active':''}" onclick="wlSetActive('${WL_ALL}')">
-             ALL <span class="wl-count">${total}</span></div>`;
+  // Compact native dropdown list picker (replaces the wrapping chip bar so the
+  // header doesn't grow taller as more lists are added). Each option shows the
+  // kind icon, count, and a 🎧 marker when briefings are on; toggling 🎧 is done
+  // from the selected list's detail header below.
+  const optRow = (val, label, on) =>
+    `<option value="${val}"${on?' selected':''}>${label}</option>`;
+  let opts = optRow(WL_ALL, `ALL (${total})`, wlData.activeId===WL_ALL);
   wlData.lists.forEach(l => {
-    const kind = wlListKind(l);
-    const bell = `<span class="wl-brief-toggle ${l.briefings?'on':''}"
-      title="${l.briefings?'Briefings ON — click to stop generating briefings for this list':'Briefings OFF — click to generate briefings for this list'}"
-      onclick="event.stopPropagation();wlToggleBriefings('${l.id}')">🎧</span>`;
-    html += `<div class="wl-list-chip ${wlData.activeId===l.id?'active':''}" onclick="wlSetActive('${l.id}')">
-               <span class="wl-kind" title="${kind==='portfolio'?'Portfolio (tickers + shares)':'Watchlist (tickers only)'}">${wlKindIcon(kind)}</span> ${wlEsc(l.name)} <span class="wl-count">${l.tickers.length}</span> ${bell}</div>`;
+    const label = `${wlKindIcon(wlListKind(l))} ${wlEsc(l.name)} (${l.tickers.length})${l.briefings?' 🎧':''}`;
+    opts += optRow(l.id, label, wlData.activeId===l.id);
   });
+  let html = '';
+  html += `<select id="wl-list-select" class="wl-select wl-list-select" title="Choose a list to view"
+            style="min-width:210px;max-width:320px;" onchange="wlSetActive(this.value)"${wlData.lists.length?'':' disabled'}>${opts}</select>`;
   html += `<button class="wl-new-list" onclick="wlCreateList()">+ NEW LIST</button>`;
   html += `<div style="flex:1"></div>`;
   html += syncPill();
-  html += `<button class="wl-icon-btn" onclick="wlImportFromRepo()" title="Replace local lists with data/watchlist.json">⬆ LOAD FROM REPO</button>`;
   bar.innerHTML = html;
 
   // Destination dropdown for the add row. It FOLLOWS the selected list: if you
@@ -2605,21 +2651,21 @@ function wlRenderSyncBanner(){
   const synced = wlIsSynced();
   el.style.display = 'block';
   el.className = 'wl-sync-banner' + (synced ? ' synced' : '');
+  const linkBtn = 'background:none;border:none;color:var(--text3);text-decoration:underline;cursor:pointer;font-family:var(--font-mono);font-size:10px;padding:0 6px;letter-spacing:0.05em;';
   el.innerHTML = `
-    <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;">
-      <div>
-        <div style="font-size:10px;font-weight:700;letter-spacing:0.08em;color:${synced?'var(--accent)':'var(--yellow)'};margin-bottom:6px;">
-          ${synced ? '✓ IN STEP WITH THE LAST FETCH' : '⚠ CHANGES NOT YET FETCHED'}
-        </div>
-        <div style="font-size:11px;color:var(--text2);line-height:1.7;">
-          ${synced
-            ? 'The committed <code style="color:var(--accent)">data/watchlist.json</code> matches these lists. Data refreshes on the next scheduled run.'
-            : 'Export <code style="color:var(--yellow)">watchlist.json</code>, save it over <code style="color:var(--yellow)">data/watchlist.json</code> in the repo, then commit and push. The next run fetches every ticker on your lists.'}
-        </div>
+    <div>
+      <div style="font-size:10px;font-weight:700;letter-spacing:0.08em;color:${synced?'var(--accent)':'var(--yellow)'};margin-bottom:6px;">
+        ${synced ? '✓ UP TO DATE' : '⏳ SAVED — WAITING FOR THE NEXT RUN'}
       </div>
-      <button onclick="wlExport()" style="background:linear-gradient(135deg,${synced?'#00c853,#00a844':'#ffcc00,#e6b800'});border:none;border-radius:5px;padding:8px 16px;color:#000;font-family:var(--font-mono);font-size:11px;font-weight:700;cursor:pointer;letter-spacing:0.06em;white-space:nowrap;box-shadow:0 3px 10px ${synced?'rgba(0,200,83,0.3)':'rgba(255,204,0,0.3)'};">
-        ⬇ EXPORT watchlist.json
-      </button>
+      <div style="font-size:11px;color:var(--text2);line-height:1.7;">
+        ${synced
+          ? 'These lists match the last fetch. Data refreshes automatically on the next nightly run — nothing to do.'
+          : 'Your changes are saved to the cloud. Market data &amp; briefings for new tickers are pulled automatically on the next nightly run (~6&ndash;7pm PT) — nothing to export or push.'}
+      </div>
+      <div style="margin-top:10px;font-size:10px;color:var(--text3);letter-spacing:0.05em;">
+        Advanced:
+        <button onclick="wlImportFromRepo()" style="${linkBtn}" title="Replace this device's lists with the committed data/watchlist.json">⬆ Load from repo</button>
+      </div>
     </div>`;
 }
 
@@ -2788,6 +2834,7 @@ function renderWatchlist(){
   const el = document.getElementById('wl-content');
   wlRenderListBar();
   wlRenderNewListForm();   // keep the inline "new list" form in sync with re-renders
+  wlRenderGuide();         // the dismissible "how to reach the briefing" guide
 
   if (!wlData.lists.length) {
     document.getElementById('wl-sync-banner').style.display='none';
@@ -3675,9 +3722,9 @@ async function loadBriefings(force){
   } catch(e) {
     briefingsData = null;
     el.innerHTML = '<div class="empty-state"><div class="icon">🎧</div>'
-      + '<p>No briefings yet.<br><span style="font-size:12px;color:var(--text3)">'
-      + 'Run <code style="color:var(--accent);background:var(--bg3);padding:1px 5px;border-radius:3px;">python scripts\\build_briefings.py</code>, '
-      + 'then commit <code style="color:var(--accent);background:var(--bg3);padding:1px 5px;border-radius:3px;">data/briefings/</code> and push.</span></p></div>';
+      + '<p>No briefings have been built yet.<br><span style="font-size:12px;color:var(--text3)">'
+      + 'Turn on 🎧 for a list, then briefings generate automatically on the next nightly run.</span></p></div>'
+      + wlBriefPendingHint([]);
     console.error('Briefings load error:', e);
   } finally {
     briefingsLoading = false;
@@ -3688,13 +3735,14 @@ function renderBriefings(){
   const el = document.getElementById('briefings-content');
   const { index, items } = briefingsData;
   const tickers = (index.briefings||[]).map(b=>b.ticker);
-  if (!tickers.length){ el.innerHTML = '<div class="empty-state"><div class="icon">🎧</div><p>No stocks in your briefing list yet.</p></div>'; return; }
+  if (!tickers.length){ el.innerHTML = '<div class="empty-state"><div class="icon">🎧</div><p>No briefings built yet.</p></div>' + wlBriefPendingHint([]); return; }
   const when = index.generated_at ? new Date(index.generated_at) : null;
   let html = '<div class="brf-meta">'
     + '<span class="brf-session">' + brfEsc((index.session||'').toUpperCase()) + ' BRIEFING</span>'
     + (when ? ' · generated ' + when.toLocaleDateString() + ' ' + when.toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'}) : '')
     + ' <button class="wl-icon-btn" style="margin-left:8px;" onclick="loadBriefings(true)">↻ REFRESH</button>'
     + '</div>';
+  html += wlBriefPendingHint(tickers);
   // Group by named list. The builder tags each briefing with the list name(s)
   // it belongs to (index.briefings[].lists); a ticker on more than one briefing
   // list shows under each. Falls back to a single grid for an old index.json
@@ -3731,6 +3779,30 @@ function renderBriefings(){
     html += '</div>';
   }
   el.innerHTML = html;
+}
+
+/* Tickers that are on a 🎧-enabled list but not in the latest built index — so
+   users understand why a just-added ticker isn't showing a briefing yet. */
+function wlBriefPendingHint(builtTickers){
+  try{
+    const built = new Set((builtTickers||[]).map(t => String(t).toUpperCase()));
+    const lists = (typeof wlData!=='undefined' && wlData.lists) ? wlData.lists : [];
+    const pend = [];
+    for(const l of lists){
+      if(!l || !l.briefings) continue;
+      for(const t of (l.tickers||[])){
+        const u = String(t).toUpperCase();
+        if(!built.has(u) && pend.indexOf(u) < 0) pend.push(u);
+      }
+    }
+    if(!pend.length) return '';
+    return '<div style="background:var(--bg3);border:1px solid var(--yellow);border-radius:8px;padding:12px 16px;margin-bottom:16px;">'
+      + '<div style="font-size:10px;font-weight:700;letter-spacing:0.08em;color:var(--yellow);margin-bottom:6px;">⏳ NOT BUILT YET — ' + pend.length + ' TICKER' + (pend.length>1?'S':'') + '</div>'
+      + '<div style="font-size:11px;color:var(--text2);line-height:1.7;margin-bottom:8px;">On your 🎧 lists but not in the latest build. They appear here after the next nightly run.</div>'
+      + '<div style="display:flex;flex-wrap:wrap;gap:6px;font-family:var(--font-mono);font-size:11px;">'
+      + pend.map(t => '<span style="background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:2px 8px;color:var(--yellow);">' + brfEsc(t) + '</span>').join('')
+      + '</div></div>';
+  }catch(e){ return ''; }
 }
 
 function brfCard(b){
