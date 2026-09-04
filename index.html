@@ -3409,6 +3409,20 @@ let brfAudioKey = null;   // what's loaded: 'main:MDB' or 'dig:3'
 let brfAudioBtn = null;   // the button element reflecting current state
 let brfDigSeq = 0;        // unique id per dig-deeper answer
 
+/* Session cache of synthesized TTS clips, keyed by the exact spoken text, so
+   re-tapping the same clip replays instantly with no network round-trip. The
+   edge cache on the Worker covers first-time and cross-session speed; this
+   covers instant replays. Bounded FIFO so memory can't grow without limit. */
+const brfTtsBlobCache = new Map();
+function brfTtsCachePut(text, blob){
+  try{
+    brfTtsBlobCache.set(text, blob);
+    while(brfTtsBlobCache.size > 8){
+      brfTtsBlobCache.delete(brfTtsBlobCache.keys().next().value);
+    }
+  }catch(e){}
+}
+
 function brfAudioBtnSet(btn, state){
   if(!btn) return;
   if(state==='loading'){ btn.disabled = true; btn.textContent = '…'; btn.title = 'Generating audio…'; }
@@ -3449,15 +3463,19 @@ async function brfSpeak(key, text, btn){
   brfAudioBtn = btn;
   brfAudioBtnSet(btn, 'loading');
   try{
-    const res = await fetch(narrateUrl + '/tts', {
-      method:'POST', headers: narrateHeaders(), body: JSON.stringify({ text })
-    });
-    if(!res.ok){
-      let msg = 'HTTP ' + res.status;
-      try{ const j = await res.json(); msg = j.message || j.error || msg; }catch(e){}
-      throw new Error(msg);
+    let blob = brfTtsBlobCache.get(text);   // instant replay when already synthesized this session
+    if(!blob){
+      const res = await fetch(narrateUrl + '/tts', {
+        method:'POST', headers: narrateHeaders(), body: JSON.stringify({ text })
+      });
+      if(!res.ok){
+        let msg = 'HTTP ' + res.status;
+        try{ const j = await res.json(); msg = j.message || j.error || msg; }catch(e){}
+        throw new Error(msg);
+      }
+      blob = await res.blob();
+      brfTtsCachePut(text, blob);
     }
-    const blob = await res.blob();
     const objUrl = URL.createObjectURL(blob);
     const audio = new Audio(objUrl);
     audio._objUrl = objUrl;

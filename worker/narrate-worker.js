@@ -243,6 +243,12 @@ function base64ToBytes(b64) {
   return out;
 }
 
+/* Hex SHA-256 of a string — used as a stable edge-cache key for TTS audio. */
+async function sha256Hex(str) {
+  const digest = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
+  return Array.from(new Uint8Array(digest)).map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
 function rateFromMime(mime) {
   const m = /rate=(\d+)/.exec(mime || '');
   return m ? parseInt(m[1], 10) : 24000;   // Gemini TTS default is 24 kHz
@@ -382,10 +388,38 @@ async function handle(request, env) {
     }
     text = text.slice(0, 1600);
     if (!text) return json({ error: 'Missing text to speak.' }, 400, request);
+
+    // Edge cache: the same script always yields the same audio, so synthesize it
+    // once and serve every later request (any device, any session) from cache.
+    const ttsModel = (env.GEMINI_TTS_MODEL || DEFAULT_TTS_MODEL).trim();
+    const ttsVoice = (env.GEMINI_TTS_VOICE || DEFAULT_TTS_VOICE).trim();
+    const cache = caches.default;
+    const keyHash = await sha256Hex(ttsModel + '|' + ttsVoice + '|' + text);
+    const cacheKey = new Request('https://tts-cache.noncents/' + keyHash + '.wav', { method: 'GET' });
+
+    const hit = await cache.match(cacheKey);
+    if (hit) {
+      const h = new Headers(hit.headers);
+      for (const [k, v] of Object.entries(corsHeaders(request))) h.set(k, v);
+      h.set('X-TTS-Cache', 'hit');
+      return new Response(hit.body, { status: 200, headers: h });
+    }
+
     const wav = await callGeminiTTS(env, text);
+    // Store a bare, cacheable copy under the stable key; CORS is added per request.
+    try {
+      await cache.put(cacheKey, new Response(wav, {
+        headers: { 'Content-Type': 'audio/wav', 'Cache-Control': 'public, max-age=604800' },
+      }));
+    } catch (e) { /* cache is best-effort */ }
     return new Response(wav, {
       status: 200,
-      headers: { 'Content-Type': 'audio/wav', 'Cache-Control': 'no-store', ...corsHeaders(request) },
+      headers: {
+        'Content-Type': 'audio/wav',
+        'Cache-Control': 'public, max-age=604800',
+        'X-TTS-Cache': 'miss',
+        ...corsHeaders(request),
+      },
     });
   }
 
