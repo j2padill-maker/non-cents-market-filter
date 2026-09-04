@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-02T23:50:09.734729-07:00",
+  "generated_at": "2026-09-03T23:52:02.123242-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Datadog Just Dropped 22% in a Month: Sell Now, or Buy More?",
+      "headline": "Datadog, Amplitude, Zscaler, DocuSign, and Salesforce Shares Skyrocket, What You Need To Know",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ae59485e8627d89d5abd240dd07c0f2988935aed54baef2537b21ea78bc23db0",
-      "datetime": 1788379810,
-      "summary": "Datadog just handed investors a paradox: a quarter that beat on every line and raised guidance, yet the stock cratered anyway. Whether that punishing reset is a gift or a warning depends on one uncomfortable question about the company's customer base."
+      "url": "https://finnhub.io/api/news?id=7428c8a120fe47b640795f50a9b484fee33d0b3b97e5c85a191d33502649dd6b",
+      "datetime": 1788472758,
+      "summary": "A number of stocks jumped in the afternoon session after software equities broadly gained momentum following a pullback in treasury yields and second-quarter financial results from Snowflake."
     },
     {
-      "headline": "Stay informed with the top movers within the S&P500 index on Wednesday.",
+      "headline": "Datadog Stock Rises 5% on Snowflake's 37% Growth",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f430d2aed0f250a94be76e2e516d558264c43841b16a81e08218448a9d8f0e10",
+      "datetime": 1788443107,
+      "summary": "Datadog shares have been under pressure in the last month"
+    },
+    {
+      "headline": "Datadog Shares Rise Following Snowflake Quarterly Results",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=39833c420ae180ff9549642b82c7e14cc2a499c86b846619fb7aa163a9186545",
+      "datetime": 1788442012,
+      "summary": "Datadog (NASDAQ:DDOG) shares rose 5. 7% in premarket trading following quarterly results from cloud data platform company Snowflake (NYSE:SNOW), which reported revenue and adjusted earnings above analyst expectations after Wednesday\u2019s market close."
+    },
+    {
+      "headline": "These S&P500 stocks are moving in today's pre-market session",
       "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=422561b2898c5363af7eddd6164802fcacc94d523bf363c575162d137dfaf4b0",
-      "datetime": 1788375901,
-      "summary": "Let's have a look at the top S&P500 gainers and losers one hour before the close of the markets of today's session."
+      "url": "https://finnhub.io/api/news?id=2dd7d4483cd4f670e119da44d572bf1091418e7f41588bec2d25cfe69ad8e822",
+      "datetime": 1788438902,
+      "summary": "The US market is yet to commence its session on Thursday, but let's get a preview of the pre-market session and explore the top S&P500 gainers and losers driving the early market movements."
     },
     {
-      "headline": "Palantir Heads for Worst Day in 7 Months. It Isn\u2019t the Only Software Stock Sinking.",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5e07ee3f4628c01cc977c7e513b877f318cf5d4358a672489b566c6e1c716e8b",
-      "datetime": 1788374700,
-      "summary": "Palantir Technologies stock paces toward its worst day since February as Palo Alto Networks and other sector peers sell off."
+      "headline": "ServiceNow Faces A Reality Check",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=d65df26c3311d4617ee34190121bb5eaa93aa516e35b4c1ada3951ed76bc6915",
+      "datetime": 1788429516,
+      "summary": "ServiceNow, Inc. update: Q2 beats, AI ACV tops $1B, key $160 resistance ahead\u00e2\u0080\u0094see what to watch for a breakout and guidance upgrades. Click for this NOW update."
     },
     {
-      "headline": "Snowflake Drops 4% Before Its Earnings Report, Datadog Falls 6%: Is the Software Selloff the Real Story?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=18d6345ddfdb015fd277418a529ce50af70304af4cfb69ac9ada7e729c702936",
-      "datetime": 1788370871,
-      "summary": "Software's biggest winners are selling off hard today while the broader tech index barely flinches, and the disconnect between those two moves reveals something traders need to understand before Snowflake's report hits after the close."
-    },
-    {
-      "headline": "Datadog Stock Jumps After the Close: Here's Why",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=b76988d878eb7fc323211efe4534cc0b0d6cafcdf64321c7e0a89dc9f31c9b35",
-      "datetime": 1788369952,
-      "summary": "Datadog Inc (NASDAQ:DDOG) shares are rising in Wednesday&#39;s after-hours session following strong earnings from Snowflake Inc (NYSE:SNOW)."
-    },
-    {
-      "headline": "3 Reasons to Hold Datadog Stock Despite a 64.6% Year-to-Date Surge",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c84296da9b02eac3d06bade7f4071966fede337a6ce9d20c18b952325ab8a8f2",
-      "datetime": 1788366600,
-      "summary": "DDOG's AI momentum, broad customer growth and raised guidance support a hold, despite a steep valuation and 64.6% YTD surge."
+      "headline": "Cybersecurity Is AI's Next Growth Leg",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=b7221ed01d6b4429af2e7045a2c651a069eaf1aaf52bfeb429c7f243505ae679",
+      "datetime": 1788422938,
+      "summary": "Cybersecurity stocks may surge as AI threats boost security budgets."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-02",
+  "data_asof": "2026-09-03",
   "price": {
-    "last": 209.23,
-    "open": 219.46,
-    "prev_close": 223.84,
-    "move_day_pct": -6.53,
-    "move_open_close_pct": -4.66,
-    "move_week_pct": -8.1
+    "last": 214.76,
+    "open": 220.0,
+    "prev_close": 209.23,
+    "move_day_pct": 2.64,
+    "move_open_close_pct": -2.38,
+    "move_week_pct": -11.6
   },
   "indicators": {
     "rsi14": {
-      "value": 36.3,
+      "value": 39.3,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -7.56,
-      "signal": -5.309,
-      "hist": -2.251,
-      "hist_prev": -1.141,
+      "macd": -8.343,
+      "signal": -5.915,
+      "hist": -2.427,
+      "hist_prev": -2.251,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 261.24,
-      "lower": 212.84,
-      "mid": 237.04,
-      "pctb": -0.075,
-      "read": "Below the lower band \u2014 stretched to the downside"
+      "upper": 262.22,
+      "lower": 210.41,
+      "mid": 236.32,
+      "pctb": 0.084,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 103.9,
-      "read": "104% above its 52-week low"
+      "value": 109.29,
+      "read": "109% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -27.39,
-      "read": "27% below its 52-week high"
+      "value": -25.47,
+      "read": "25% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 176.06,
-      "pct": 18.84,
-      "read": "19% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 176.21,
+      "pct": 21.88,
+      "read": "22% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 14.17,
-      "pct_of_price": 6.77,
+      "value": 14.0,
+      "pct_of_price": 6.52,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.28,
+      "value": 0.99,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 30.5,
+      "value": 30.1,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 288.15,
-  "ma50": 249.55,
-  "ma200": 176.06
+  "ma50": 249.39,
+  "ma200": 176.21
 }

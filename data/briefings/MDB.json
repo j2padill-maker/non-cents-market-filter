@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-02T23:50:08.800491-07:00",
+  "generated_at": "2026-09-03T23:52:01.064634-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "ServiceNow Faces A Reality Check",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=d65df26c3311d4617ee34190121bb5eaa93aa516e35b4c1ada3951ed76bc6915",
+      "datetime": 1788429516,
+      "summary": "ServiceNow, Inc. update: Q2 beats, AI ACV tops $1B, key $160 resistance ahead\u00e2\u0080\u0094see what to watch for a breakout and guidance upgrades. Click for this NOW update."
+    },
+    {
+      "headline": "Broadcom Redraws the AI Silicon Runway While Dell's 16% Sprint Pulls Wall Street Off the Mat",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=22f171f60f6796e8d54494cf6fe5bf9e37468691d01468c04bc2efa2e05a16ce",
+      "datetime": 1788426020,
+      "summary": "Wall Street clawed back ground on Wednesday as long yields eased and Dell exploded 16% higher on the AI-server print. After the close, Broadcom lifted its FY27 AI revenue outlook to roughly $115 billion and, for the first time, put a $230 billion number on FY28. Snowflake set up a 20% pre-market gap on its own guidance raise."
+    },
+    {
+      "headline": "Scotiabank Maintains Sector Outperform on MongoDB, Raises Price Target to $440",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=10de2075e5fad9043dbbeffc27871d91452dcd175ffe2ad6112d29a810094ac8",
+      "datetime": 1788362033,
+      "summary": "Scotiabank  analyst Patrick Colville   maintains MongoDB (NASDAQ:MDB) with a Sector Outperform and raises the price target from $395 to $440."
+    },
+    {
+      "headline": "Citigroup Maintains Buy on MongoDB, Raises Price Target to $565",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=1c0a4292aca30972d74af1f9ca6aa859aeaebe9218f96ea2dfb585e7ac778212",
+      "datetime": 1788360067,
+      "summary": "Citigroup  analyst Tyler Radke   maintains MongoDB (NASDAQ:MDB) with a Buy and raises the price target from $545 to $565."
+    },
+    {
       "headline": "Goldman Sachs Maintains Buy on MongoDB, Raises Price Target to $520",
       "source": "Benzinga",
       "url": "https://finnhub.io/api/news?id=ba619b62ef014d021b74d87235f08e2623bb5950d25a2a4785e9ae3dc233f29a",
@@ -29,34 +57,6 @@
       "url": "https://finnhub.io/api/news?id=5cf95ee6885a452daa1f20dd9bc5b90f45475a3ef1cca61a6a93d2706dfe0175",
       "datetime": 1788355280,
       "summary": "Nvidia surges 4.7%, while Credo, MongoDB and Palo Alto all cratered Wednesday despite quarterly beats, as costs surged."
-    },
-    {
-      "headline": "12 Information Technology Stocks Moving In Wednesday's Intraday Session",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=cab0eebd1bf6a5a080ca754c0c82a3c12a1b03f60834b161d8aa270529cbdf97",
-      "datetime": 1788354393,
-      "summary": "Gainers\n\nLianhe Sowell Intl (NASDAQ:LHSW) stock moved upwards by 30.9% to $3.77 during Wednesday&#39;s regular session. The company&#39;s market cap stands at $9.1 million. \nFocus Universal (NASDAQ:FCUV) shares rose"
-    },
-    {
-      "headline": "Discover the top movers in Wednesday's pre-market session.",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=e49cb7474f6b0943e3cefdbc17aa65107b9aa8b6c07b962ec42d7cc5aa0a952c",
-      "datetime": 1788352200,
-      "summary": "As we await the opening of the US market on Wednesday, let's delve into the pre-market session and discover the top gainers and losers shaping the early market sentiment."
-    },
-    {
-      "headline": "Piper Sandler Reiterates Overweight on MongoDB, Raises Price Target to $470",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=62d6c3dff50e87ff2f93617affaa3cb4fa3eeb8fd1184c59a4d0331da9956ee3",
-      "datetime": 1788350764,
-      "summary": "Piper Sandler  analyst Rob Owens   reiterates MongoDB (NASDAQ:MDB) with a Overweight and raises the price target from $400 to $470."
-    },
-    {
-      "headline": "MongoDB Posts Strong Q2, Enterprise AI Workloads Drive 30% Revenue Growth",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=29bb4e7acb1a8b20fcf3769dd14d0d7041088f52d8481ed3ba7d7bdd6595e3e0",
-      "datetime": 1788350267,
-      "summary": "MongoDB shares fell 10.8% despite Q2 beats. Analysts remain bullish, citing 30% revenue growth, AI demand and strong non-Atlas performance."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-02",
+  "data_asof": "2026-09-03",
   "price": {
-    "last": 375.4,
-    "open": 379.25,
-    "prev_close": 434.21,
-    "move_day_pct": -13.54,
-    "move_open_close_pct": -1.02,
-    "move_week_pct": -7.56
+    "last": 384.45,
+    "open": 378.76,
+    "prev_close": 375.4,
+    "move_day_pct": 2.41,
+    "move_open_close_pct": 1.5,
+    "move_week_pct": -12.74
   },
   "indicators": {
     "rsi14": {
-      "value": 43.1,
+      "value": 45.4,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 14.396,
-      "signal": 20.266,
-      "hist": -5.87,
-      "hist_prev": -1.587,
+      "macd": 10.448,
+      "signal": 18.303,
+      "hist": -7.855,
+      "hist_prev": -5.87,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 478.16,
-      "lower": 374.25,
-      "mid": 426.2,
-      "pctb": 0.011,
+      "upper": 476.06,
+      "lower": 377.79,
+      "mid": 426.92,
+      "pctb": 0.068,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 66.14,
-      "read": "66% above its 52-week low"
+      "value": 70.15,
+      "read": "70% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -20.51,
-      "read": "21% below its 52-week high"
+      "value": -18.6,
+      "read": "19% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 342.14,
-      "pct": 9.72,
-      "read": "10% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 342.3,
+      "pct": 12.31,
+      "read": "12% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 24.61,
-      "pct_of_price": 6.56,
+      "value": 24.01,
+      "pct_of_price": 6.25,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 4.35,
-      "read": "Heavy volume \u2014 well above average"
+      "value": 1.52,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 29.4,
+      "value": 31.2,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 370.31,
-  "ma200": 342.14
+  "ma50": 371.95,
+  "ma200": 342.3
 }

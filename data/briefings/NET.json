@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-02T23:50:09.951741-07:00",
+  "generated_at": "2026-09-03T23:52:02.341445-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Zscaler Earnings Prediction Market Preview: Will Anthropic\u2019s Claude Be a \u2018Tailwind\u2019?",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=27c54bcbdaa82127be1dc3de52a47bc620b97f11bc3a00e582ad01a56c6c7000",
+      "datetime": 1788428841,
+      "summary": "Zscaler reports earnings after a 31% plunge as traders bet on breach, AI tailwinds and Claude while investors watch for a growth rebound."
+    },
+    {
+      "headline": "AGIX Vs. CHAT: I'm Buying The Loser",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=7861a469391d2e4332d86912e29f5d04d1349175d52c37120bddef2dcf2ca53f",
+      "datetime": 1788406597,
+      "summary": "AGIX and CHAT offer broad AI ecosystem exposure but differ in holdings and risk profiles. Read why I lean on AGIX ETF despite the fee and the performance gap."
+    },
     {
       "headline": "The Memory Wall And Next Leg Of The AI Story: The Connection Bottleneck",
       "source": "SeekingAlpha",
@@ -36,20 +50,6 @@
       "url": "https://finnhub.io/api/news?id=b741de0775507a2f59b1152b86c716bba6bfe56e0ec5fcdb025820e746f2ac4e",
       "datetime": 1787886442,
       "summary": ""
-    },
-    {
-      "headline": "Shares of cybersecurity-related companies are trading higher amid sympathy with Crowdstrike and Okta after those companies reported better-than-expected financial results and raised their respective guidance metrics above estimates.",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=c49b06b0a5913c767c5bbbabb91bbd2c9305431e04e023b80139e7f59cc82582",
-      "datetime": 1787828186,
-      "summary": "CRWD and OKTA"
-    },
-    {
-      "headline": "CrowdStrike Posts Best Quarter Ever, but Cathie Wood's Ark Sells Shares Amid Cloudflare, Cerebras Buys",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=d832f5c6110d75c93888b1cee63ef4fe4d59b82fcdd87458bbd10cdc883b4d7b",
-      "datetime": 1787789821,
-      "summary": "On Wednesday, Aug. 26, 2026, Ark Invest sold CrowdStrike and AMD shares after CrowdStrike&#39;s record quarter."
     }
   ],
   "filings": [
@@ -75,63 +75,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-02",
+  "data_asof": "2026-09-03",
   "price": {
-    "last": 272.74,
-    "open": 284.08,
-    "prev_close": 285.51,
-    "move_day_pct": -4.47,
-    "move_open_close_pct": -3.99,
-    "move_week_pct": -4.26
+    "last": 284.51,
+    "open": 279.93,
+    "prev_close": 272.74,
+    "move_day_pct": 4.32,
+    "move_open_close_pct": 1.64,
+    "move_week_pct": -7.7
   },
   "indicators": {
     "rsi14": {
-      "value": 44.1,
+      "value": 48.6,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 2.128,
-      "signal": 5.336,
-      "hist": -3.208,
-      "hist_prev": -1.974,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": 1.447,
+      "signal": 4.559,
+      "hist": -3.111,
+      "hist_prev": -3.208,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
       "upper": 326.89,
-      "lower": 267.8,
-      "mid": 297.34,
-      "pctb": 0.084,
-      "read": "Near the lower band"
+      "lower": 267.81,
+      "mid": 297.35,
+      "pctb": 0.283,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 70.26,
-      "read": "70% above its 52-week low"
+      "value": 77.61,
+      "read": "78% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -17.56,
-      "read": "18% below its 52-week high"
+      "value": -14.0,
+      "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 221.59,
-      "pct": 23.08,
-      "read": "23% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 221.96,
+      "pct": 28.18,
+      "read": "28% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 16.49,
-      "pct_of_price": 6.05,
+      "value": 16.32,
+      "pct_of_price": 5.74,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.91,
+      "value": 0.8,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 33.6,
+      "value": 40.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 330.83,
-  "ma50": 277.96,
-  "ma200": 221.59
+  "ma50": 279.18,
+  "ma200": 221.96
 }
