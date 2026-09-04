@@ -1501,8 +1501,9 @@ td { padding:10px 14px; white-space:nowrap; }
           oninput="this.value=this.value.toUpperCase();symOnInput()"
           onfocus="symLoad()">
       </div>
-      <span style="font-size:11px;color:var(--text3);letter-spacing:0.06em;">TO</span>
+      <span id="wl-to-label" style="font-size:11px;color:var(--text3);letter-spacing:0.06em;">TO</span>
       <select id="wl-target" class="wl-select" title="Which list to add this ticker to" onchange="wlSyncSharesField()"></select>
+      <span id="wl-add-target-hint" style="display:none;font-size:11px;color:var(--text2);letter-spacing:0.04em;"></span>
       <input id="wl-shares" class="search-input" type="number" min="0" step="any" placeholder="Shares"
         style="width:110px;display:none;" autocomplete="off"
         title="Shares held (portfolios only)"
@@ -2628,6 +2629,22 @@ function wlRenderListBar(){
                : (wlData.lists[0] ? wlData.lists[0].id : ''));
   if (wanted) sel.value = wanted;
   sel.disabled = !wlData.lists.length;
+
+  // Avoid two look-alike dropdowns. When a specific list is being viewed, adds go
+  // there automatically, so we hide the destination dropdown and show a static
+  // "→ adds to X" instead. Only the ALL view (no single active list) shows it.
+  const toLabel = document.getElementById('wl-to-label');
+  const toHint  = document.getElementById('wl-add-target-hint');
+  const activeL = (wlData.activeId !== WL_ALL) ? wlFindList(wlData.activeId) : null;
+  if (activeL) {
+    if (toLabel) toLabel.style.display = 'none';
+    sel.style.display = 'none';
+    if (toHint) { toHint.style.display = ''; toHint.innerHTML = '→ adds to <strong style="color:var(--accent)">' + wlEsc(activeL.name) + '</strong>'; }
+  } else {
+    if (toLabel) toLabel.style.display = '';
+    sel.style.display = '';
+    if (toHint) toHint.style.display = 'none';
+  }
   wlSyncSharesField();
 }
 
