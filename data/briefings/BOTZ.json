@@ -1,0 +1,125 @@
+{
+  "ticker": "BOTZ",
+  "user_id": "local",
+  "session": "close",
+  "generated_at": "2026-09-04T23:40:06.152382-07:00",
+  "disclaimer": "Informational only. Not financial advice.",
+  "selected_indicators": [
+    "rsi14",
+    "macd",
+    "bollinger_pctb",
+    "pct_from_52w_low",
+    "pct_from_52w_high",
+    "price_vs_ma200",
+    "atr14",
+    "rel_volume",
+    "mfi14"
+  ],
+  "news": [
+    {
+      "headline": "Howard Lindzon On AI, Crypto And The 'Degenerate Economy'",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=7382b67efac0eea0bbec10673a7242ad188ed76ee6274dcfa0194b6066dea7f3",
+      "datetime": 1788510000,
+      "summary": "Howard Lindzon, founder of StockTwits, discusses how investing, speculation, entertainment, social media, prediction markets, crypto, and AI are increasingly colliding. Read more here."
+    },
+    {
+      "headline": "Governments Are Encouraging Industrial Robotic Growth",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=9e6f67cd69e3910cb1691c496d4c347449f0dd785cad524e06b19447426a8eec",
+      "datetime": 1788451848,
+      "summary": "Robotics ETFs (BOTZ, ROBO, ARKQ) offer early growth, but industrial robotics leads. Weigh QQQ/SPY vs. niche ETF risks\u00e2\u0080\u0094read before investing."
+    },
+    {
+      "headline": "The Market May Be Telling Us We're Entering A Capital Formation Cycle",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=d73ec82f651930fbe8adb62766f2b042452f9ee41b03a835b7ab5d39184a3300",
+      "datetime": 1788437100,
+      "summary": "My clustering stock screener is giving us a much more interesting macro signal than simply energy stocks are strong. The portfolio is not simply long commodities. It's long capital intensity"
+    },
+    {
+      "headline": "3 Market Linchpins To Watch Heading Into Autumn",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=4fa48b74c8262aefbaed3fe45496b4e7fd99d6866919d080771a68f14961a2bd",
+      "datetime": 1788397200,
+      "summary": "Jing Roy explains why strong corporate profits remain a bright spot, how interest rates are shaping the outlook and where the AI boom could go next. Read more here."
+    },
+    {
+      "headline": "Big Debt And Massive AI Bet Not Yet A Threat",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=778a3822137466507fdeee27aca090bf5f576b5c954c90d2d9de9cb3768d89ce",
+      "datetime": 1788308100,
+      "summary": "Government debt levels have reached stratospheric heights, and hundreds of billions in corporate borrowing are piling up to finance a gargantuan AI data center infrastructure buildout."
+    },
+    {
+      "headline": "U.S. Growth Stocks: Semiconductor Surge Redraws The Risk Map",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=0724b9d0b444402fa3d04fcbb004c19cdb7cf338a963f36f520599b7ee9dd17e",
+      "datetime": 1788270480,
+      "summary": "Semiconductors\u00e2\u0080\u0099 newfound prominence may appear logical, given the importance of chips, memory and equipment suppliers to the AI infrastructure build-out."
+    }
+  ],
+  "filings": [],
+  "script_text": null,
+  "audio_cached": false,
+  "status": "ok",
+  "data_asof": "2026-09-04",
+  "price": {
+    "last": 35.95,
+    "open": 35.83,
+    "prev_close": 35.81,
+    "move_day_pct": 0.39,
+    "move_open_close_pct": 0.33,
+    "move_week_pct": 0.56
+  },
+  "indicators": {
+    "rsi14": {
+      "value": 48.8,
+      "read": "Neutral"
+    },
+    "macd": {
+      "macd": -0.209,
+      "signal": -0.142,
+      "hist": -0.067,
+      "hist_prev": -0.111,
+      "read": "Bearish \u2014 MACD below signal"
+    },
+    "bollinger_pctb": {
+      "upper": 38.22,
+      "lower": 34.53,
+      "mid": 36.37,
+      "pctb": 0.385,
+      "read": "Mid-band \u2014 no extreme"
+    },
+    "pct_from_52w_low": {
+      "value": 12.44,
+      "read": "Just off its 52-week low"
+    },
+    "pct_from_52w_high": {
+      "value": -13.6,
+      "read": "Modestly below its 52-week high"
+    },
+    "price_vs_ma200": {
+      "ma200": 36.85,
+      "pct": -2.44,
+      "read": "2% below its 200-day average \u2014 long-term downtrend"
+    },
+    "atr14": {
+      "value": 0.59,
+      "pct_of_price": 1.65,
+      "read": "Calm \u2014 low volatility"
+    },
+    "rel_volume": {
+      "value": 1.13,
+      "read": "Roughly average volume"
+    },
+    "mfi14": {
+      "value": 37.0,
+      "read": "Neutral money flow"
+    }
+  },
+  "low_52w": 31.97,
+  "high_52w": 41.61,
+  "ma50": 36.1,
+  "ma200": 36.85
+}

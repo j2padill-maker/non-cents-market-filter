@@ -2,16 +2,17 @@
   "version": 1,
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-03T23:52:01.064613-07:00",
+  "generated_at": "2026-09-04T23:40:00.920860-07:00",
   "lists": [
-    "My Watchlist"
+    "My Watchlist",
+    "robotics"
   ],
   "briefings": [
     {
       "ticker": "MDB",
       "status": "ok",
       "file": "data/briefings/MDB.json",
-      "data_asof": "2026-09-03",
+      "data_asof": "2026-09-04",
       "lists": [
         "My Watchlist"
       ]
@@ -20,7 +21,7 @@
       "ticker": "TOELF",
       "status": "ok",
       "file": "data/briefings/TOELF.json",
-      "data_asof": "2026-09-03",
+      "data_asof": "2026-09-04",
       "lists": [
         "My Watchlist"
       ]
@@ -38,7 +39,7 @@
       "ticker": "DDOG",
       "status": "ok",
       "file": "data/briefings/DDOG.json",
-      "data_asof": "2026-09-03",
+      "data_asof": "2026-09-04",
       "lists": [
         "My Watchlist"
       ]
@@ -47,9 +48,72 @@
       "ticker": "NET",
       "status": "ok",
       "file": "data/briefings/NET.json",
-      "data_asof": "2026-09-03",
+      "data_asof": "2026-09-04",
       "lists": [
         "My Watchlist"
+      ]
+    },
+    {
+      "ticker": "ABB",
+      "status": "nodata",
+      "file": "data/briefings/ABB.json",
+      "data_asof": null,
+      "lists": [
+        "robotics"
+      ]
+    },
+    {
+      "ticker": "CGNX",
+      "status": "ok",
+      "file": "data/briefings/CGNX.json",
+      "data_asof": "2026-09-04",
+      "lists": [
+        "robotics"
+      ]
+    },
+    {
+      "ticker": "ISRG",
+      "status": "ok",
+      "file": "data/briefings/ISRG.json",
+      "data_asof": "2026-09-04",
+      "lists": [
+        "robotics"
+      ]
+    },
+    {
+      "ticker": "SYM",
+      "status": "ok",
+      "file": "data/briefings/SYM.json",
+      "data_asof": "2026-09-04",
+      "lists": [
+        "robotics"
+      ]
+    },
+    {
+      "ticker": "TER",
+      "status": "ok",
+      "file": "data/briefings/TER.json",
+      "data_asof": "2026-09-04",
+      "lists": [
+        "robotics"
+      ]
+    },
+    {
+      "ticker": "BOTZ",
+      "status": "ok",
+      "file": "data/briefings/BOTZ.json",
+      "data_asof": "2026-09-04",
+      "lists": [
+        "robotics"
+      ]
+    },
+    {
+      "ticker": "OII",
+      "status": "ok",
+      "file": "data/briefings/OII.json",
+      "data_asof": "2026-09-04",
+      "lists": [
+        "robotics"
       ]
     }
   ]

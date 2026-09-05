@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated": "2026-09-03T02:02:10.586Z",
-  "rev": 24,
+  "updated": "2026-09-05T03:42:49.024Z",
+  "rev": 54,
   "source": "sync",
   "lists": [
     {
@@ -30,6 +30,44 @@
         "DDOG": 7,
         "NET": 6
       }
+    },
+    {
+      "name": "robotics",
+      "kind": "watchlist",
+      "tickers": [
+        "ABB",
+        "CGNX",
+        "ISRG",
+        "SYM",
+        "TER",
+        "BOTZ",
+        "OII"
+      ],
+      "briefings": true
+    },
+    {
+      "name": "banking",
+      "kind": "watchlist",
+      "tickers": [],
+      "briefings": false
+    },
+    {
+      "name": "materials",
+      "kind": "watchlist",
+      "tickers": [],
+      "briefings": false
+    },
+    {
+      "name": "energy",
+      "kind": "watchlist",
+      "tickers": [],
+      "briefings": false
+    },
+    {
+      "name": "Nuclear",
+      "kind": "watchlist",
+      "tickers": [],
+      "briefings": false
     }
   ]
 }

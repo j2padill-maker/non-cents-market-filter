@@ -1,0 +1,101 @@
+{
+  "ticker": "OII",
+  "user_id": "local",
+  "session": "close",
+  "generated_at": "2026-09-04T23:40:06.411198-07:00",
+  "disclaimer": "Informational only. Not financial advice.",
+  "selected_indicators": [
+    "rsi14",
+    "macd",
+    "bollinger_pctb",
+    "pct_from_52w_low",
+    "pct_from_52w_high",
+    "price_vs_ma200",
+    "atr14",
+    "rel_volume",
+    "mfi14"
+  ],
+  "news": [],
+  "filings": [
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-07-24",
+      "url": "https://www.sec.gov/Archives/edgar/data/73756/000007375626000138/oii-20260724.htm"
+    },
+    {
+      "form": "10-Q",
+      "title": "Quarterly report (10-Q)",
+      "date": "2026-07-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/73756/000007375626000136/oii-20260630.htm"
+    },
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-07-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/73756/000007375626000134/oii-20260722.htm"
+    }
+  ],
+  "script_text": null,
+  "audio_cached": false,
+  "status": "ok",
+  "data_asof": "2026-09-04",
+  "price": {
+    "last": 51.4,
+    "open": 51.33,
+    "prev_close": 51.78,
+    "move_day_pct": -0.73,
+    "move_open_close_pct": 0.14,
+    "move_week_pct": 1.6
+  },
+  "indicators": {
+    "rsi14": {
+      "value": 55.4,
+      "read": "Neutral"
+    },
+    "macd": {
+      "macd": 1.035,
+      "signal": 1.355,
+      "hist": -0.319,
+      "hist_prev": -0.326,
+      "read": "Bearish \u2014 MACD below signal"
+    },
+    "bollinger_pctb": {
+      "upper": 53.75,
+      "lower": 49.4,
+      "mid": 51.58,
+      "pctb": 0.459,
+      "read": "Mid-band \u2014 no extreme"
+    },
+    "pct_from_52w_low": {
+      "value": 131.53,
+      "read": "132% above its 52-week low"
+    },
+    "pct_from_52w_high": {
+      "value": -5.01,
+      "read": "Modestly below its 52-week high"
+    },
+    "price_vs_ma200": {
+      "ma200": 36.52,
+      "pct": 40.74,
+      "read": "41% above its 200-day average \u2014 long-term uptrend"
+    },
+    "atr14": {
+      "value": 1.94,
+      "pct_of_price": 3.77,
+      "read": "Elevated volatility"
+    },
+    "rel_volume": {
+      "value": 0.45,
+      "read": "Light \u2014 quiet trading"
+    },
+    "mfi14": {
+      "value": 42.3,
+      "read": "Neutral money flow"
+    }
+  },
+  "low_52w": 22.2,
+  "high_52w": 54.11,
+  "ma50": 47.34,
+  "ma200": 36.52
+}

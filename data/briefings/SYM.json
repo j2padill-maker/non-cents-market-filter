@@ -1,0 +1,144 @@
+{
+  "ticker": "SYM",
+  "user_id": "local",
+  "session": "close",
+  "generated_at": "2026-09-04T23:40:05.388634-07:00",
+  "disclaimer": "Informational only. Not financial advice.",
+  "selected_indicators": [
+    "rsi14",
+    "macd",
+    "bollinger_pctb",
+    "pct_from_52w_low",
+    "pct_from_52w_high",
+    "price_vs_ma200",
+    "atr14",
+    "rel_volume",
+    "mfi14"
+  ],
+  "news": [
+    {
+      "headline": "Why Is SYMBOTIC INC (SYM) Up 5.1% Since Last Earnings Report?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8a47bc9d89fda7ab381c85074d2c06e76c2c36b8ec8380926371f76cf45dff1d",
+      "datetime": 1788535834,
+      "summary": "SYMBOTIC INC (SYM) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues."
+    },
+    {
+      "headline": "Can Serve Robotics' $240M Liquidity Cushion Fund Its Robot Ambitions?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=fd9b25630dc18240e3042df45dc8cbf513f3d9e75220afa23c0ea7b5d672bc9e",
+      "datetime": 1788358200,
+      "summary": "SERV has $240.4 million in liquidity, but heavy cash burn and lower revenue guidance raise questions about funding scalable growth."
+    },
+    {
+      "headline": "Jensen Huang Sees a $50 Trillion Physical AI Opportunity \u2014 Here Are 4 \u2018Picks and Shovels\u2019 Stocks That Should Be on Investors\u2019 Radar",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=c9330fc91650803387ea1a7048a66e31ea13f2e6c05641620839d59c58bc333a",
+      "datetime": 1788322698,
+      "summary": "Jensen Huang sees a $50T robotics market. Discover how actuator stocks like MOG.A, MP, SYM, and KOID power physical AI."
+    },
+    {
+      "headline": "Symbotic's Backlog Sits at $22.5 Billion. Here's The Customer Concentration Risk Nobody Talks About",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=05fbf09bea4cc2ced54f09a803aed7578d4e5b6e58891a4ee52a67d29d20f8bb",
+      "datetime": 1788291423,
+      "summary": "This warehouse automation company is tightly tethered to Walmart."
+    },
+    {
+      "headline": "Symbotic: The Market Is Underestimating Its Growth Runway",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=5881c493d5688c8c4f1bb535417de80d77717ef335b1adb00cc2e84696df8168",
+      "datetime": 1788261040,
+      "summary": "Symbotic: 20%+ revenue growth, a $22.5B backlog, and improving margins make the valuation compelling. Click for more on SYM stock."
+    },
+    {
+      "headline": "Serve Robotics vs. Symbotic: Which Robotics Stock Is More Compelling?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=1a8ff388c8cd48c3f4efcec536782ad4e30c3db0e91233085b51b5b1286b0792",
+      "datetime": 1788188100,
+      "summary": "SERV and SYM are taking different paths in robotics and automation, but which stock offers the more compelling investment case for investors now?"
+    }
+  ],
+  "filings": [
+    {
+      "form": "10-Q",
+      "title": "Quarterly report (10-Q)",
+      "date": "2026-08-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1837240/000183724026000043/sym-20260627.htm"
+    },
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-08-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1837240/000183724026000042/sym-20260803.htm"
+    },
+    {
+      "form": "10-Q",
+      "title": "Quarterly report (10-Q)",
+      "date": "2026-05-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1837240/000183724026000024/sym-20260328.htm"
+    }
+  ],
+  "script_text": null,
+  "audio_cached": false,
+  "status": "ok",
+  "data_asof": "2026-09-04",
+  "price": {
+    "last": 42.94,
+    "open": 41.67,
+    "prev_close": 41.6,
+    "move_day_pct": 3.22,
+    "move_open_close_pct": 3.05,
+    "move_week_pct": 7.69
+  },
+  "indicators": {
+    "rsi14": {
+      "value": 55.3,
+      "read": "Neutral"
+    },
+    "macd": {
+      "macd": -0.392,
+      "signal": -0.568,
+      "hist": 0.175,
+      "hist_prev": -0.02,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
+    },
+    "bollinger_pctb": {
+      "upper": 43.3,
+      "lower": 38.7,
+      "mid": 41.0,
+      "pctb": 0.922,
+      "read": "Near the upper band"
+    },
+    "pct_from_52w_low": {
+      "value": 12.35,
+      "read": "Just off its 52-week low"
+    },
+    "pct_from_52w_high": {
+      "value": -50.81,
+      "read": "51% below its 52-week high"
+    },
+    "price_vs_ma200": {
+      "ma200": 52.52,
+      "pct": -18.24,
+      "read": "18% below its 200-day average \u2014 long-term downtrend"
+    },
+    "atr14": {
+      "value": 1.87,
+      "pct_of_price": 4.36,
+      "read": "High daily volatility"
+    },
+    "rel_volume": {
+      "value": 0.83,
+      "read": "Roughly average volume"
+    },
+    "mfi14": {
+      "value": 50.2,
+      "read": "Neutral money flow"
+    }
+  },
+  "low_52w": 38.22,
+  "high_52w": 87.3,
+  "ma50": 41.98,
+  "ma200": 52.52
+}

@@ -1,0 +1,144 @@
+{
+  "ticker": "ISRG",
+  "user_id": "local",
+  "session": "close",
+  "generated_at": "2026-09-04T23:40:05.052469-07:00",
+  "disclaimer": "Informational only. Not financial advice.",
+  "selected_indicators": [
+    "rsi14",
+    "macd",
+    "bollinger_pctb",
+    "pct_from_52w_low",
+    "pct_from_52w_high",
+    "price_vs_ma200",
+    "atr14",
+    "rel_volume",
+    "mfi14"
+  ],
+  "news": [
+    {
+      "headline": "2 Stocks Down 8% or More That Are Screaming Buys Right Now",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=62ee29f2438111e292e68f25c0a9a3e289f960d0f95bdd76f41ce778ce43a6d1",
+      "datetime": 1788533400,
+      "summary": "You might regret ignoring these companies at current levels."
+    },
+    {
+      "headline": "Intuitive Surgical Vs. Stryker: Wall Street Loves Both But One Has a Quiet Advantage That Will Make Investors Money",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=76f3698994d65bb294be8ceff12ff1a40bf34f8086fc4997976d2b23b48436f1",
+      "datetime": 1788533142,
+      "summary": "Both Intuitive Surgical and Stryker just posted their fifth straight earnings beat, and Wall Street is cheering for both. But a structural difference buried inside their business models quietly separates a compounder from a cyclical recovery story."
+    },
+    {
+      "headline": "Are Robots the New Normal? Bet on these ETFs to Invest in the Future",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7d4647a0aba77aa832a2043833917398cf2447b739e36e7a637352d888a5da8f",
+      "datetime": 1788526140,
+      "summary": "Robotics is entering a new era as AI fuels humanoid adoption, with four ETFs offering diversified exposure to the sector's growth."
+    },
+    {
+      "headline": "Is TMDX Stock Worth Buying as Growth Meets Rising Margin Pressure?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=9cd5058399002add8c16f829d615ea94956b7a7e1135a345ee6d9ecd3e2a37ad",
+      "datetime": 1788458400,
+      "summary": "TransMedics' rapid revenue growth and cheaper valuation face rising margin pressure as heavy investment raises execution risks."
+    },
+    {
+      "headline": "Governments Are Encouraging Industrial Robotic Growth",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=9e6f67cd69e3910cb1691c496d4c347449f0dd785cad524e06b19447426a8eec",
+      "datetime": 1788451848,
+      "summary": "Robotics ETFs (BOTZ, ROBO, ARKQ) offer early growth, but industrial robotics leads. Weigh QQQ/SPY vs. niche ETF risks\u00e2\u0080\u0094read before investing."
+    },
+    {
+      "headline": "ISRG Stock: The Best House On The Block Costs The Most",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=2b3549b7f8cb8125eb4f126f266bc4f7b1ff45999bedafe3fbd3f7d0c3d75f3e",
+      "datetime": 1788381469,
+      "summary": "In the world of robotic surgery, one company is both the undisputed leader and the most expensive option, forcing investors to ask if operational excellence is worth the premium."
+    }
+  ],
+  "filings": [
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-07-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000063/isrg-20260723.htm"
+    },
+    {
+      "form": "10-Q",
+      "title": "Quarterly report (10-Q)",
+      "date": "2026-07-21",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000058/isrg-20260630.htm"
+    },
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-07-16",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000047/isrg-20260716.htm"
+    }
+  ],
+  "script_text": null,
+  "audio_cached": false,
+  "status": "ok",
+  "data_asof": "2026-09-04",
+  "price": {
+    "last": 366.7,
+    "open": 367.81,
+    "prev_close": 369.83,
+    "move_day_pct": -0.85,
+    "move_open_close_pct": -0.3,
+    "move_week_pct": -1.58
+  },
+  "indicators": {
+    "rsi14": {
+      "value": 43.0,
+      "read": "Neutral"
+    },
+    "macd": {
+      "macd": -3.497,
+      "signal": -2.331,
+      "hist": -1.166,
+      "hist_prev": -1.073,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+    },
+    "bollinger_pctb": {
+      "upper": 406.84,
+      "lower": 356.58,
+      "mid": 381.71,
+      "pctb": 0.201,
+      "read": "Mid-band \u2014 no extreme"
+    },
+    "pct_from_52w_low": {
+      "value": 10.45,
+      "read": "Just off its 52-week low"
+    },
+    "pct_from_52w_high": {
+      "value": -38.15,
+      "read": "38% below its 52-week high"
+    },
+    "price_vs_ma200": {
+      "ma200": 463.81,
+      "pct": -20.94,
+      "read": "21% below its 200-day average \u2014 long-term downtrend"
+    },
+    "atr14": {
+      "value": 11.37,
+      "pct_of_price": 3.1,
+      "read": "Elevated volatility"
+    },
+    "rel_volume": {
+      "value": 0.79,
+      "read": "Roughly average volume"
+    },
+    "mfi14": {
+      "value": 41.7,
+      "read": "Neutral money flow"
+    }
+  },
+  "low_52w": 332.02,
+  "high_52w": 592.85,
+  "ma50": 381.01,
+  "ma200": 463.81
+}

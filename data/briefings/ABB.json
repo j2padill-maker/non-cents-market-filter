@@ -1,0 +1,24 @@
+{
+  "ticker": "ABB",
+  "user_id": "local",
+  "session": "close",
+  "generated_at": "2026-09-04T23:40:03.807322-07:00",
+  "disclaimer": "Informational only. Not financial advice.",
+  "selected_indicators": [
+    "rsi14",
+    "macd",
+    "bollinger_pctb",
+    "pct_from_52w_low",
+    "pct_from_52w_high",
+    "price_vs_ma200",
+    "atr14",
+    "rel_volume",
+    "mfi14"
+  ],
+  "news": [],
+  "filings": [],
+  "script_text": null,
+  "audio_cached": false,
+  "status": "nodata",
+  "note": "Insufficient price history from provider (0 bars; thin/foreign listing or bad symbol)."
+}

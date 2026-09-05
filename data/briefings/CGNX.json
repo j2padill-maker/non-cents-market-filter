@@ -1,0 +1,144 @@
+{
+  "ticker": "CGNX",
+  "user_id": "local",
+  "session": "close",
+  "generated_at": "2026-09-04T23:40:04.479689-07:00",
+  "disclaimer": "Informational only. Not financial advice.",
+  "selected_indicators": [
+    "rsi14",
+    "macd",
+    "bollinger_pctb",
+    "pct_from_52w_low",
+    "pct_from_52w_high",
+    "price_vs_ma200",
+    "atr14",
+    "rel_volume",
+    "mfi14"
+  ],
+  "news": [
+    {
+      "headline": "Cognex (CGNX) Down 9.8% Since Last Earnings Report: Can It Rebound?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=638297c8aee60dc9a2590d6a4224a8122f43bcc38c2d3c9f8e12db21360a67cb",
+      "datetime": 1788535836,
+      "summary": "Cognex (CGNX) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues."
+    },
+    {
+      "headline": "Reflecting On Specialized Technology Stocks\u2019 Q2 Earnings: Cognex (NASDAQ:CGNX)",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ff7324ed2be4201cf90230cc6ba3c1ecfd453a7781ef3bf612a79fe486218622",
+      "datetime": 1788461718,
+      "summary": "As the craze of earnings season draws to a close, here\u2019s a look back at some of the most exciting (and some less so) results from Q2. Today, we are looking at specialized technology stocks, starting with Cognex (NASDAQ:CGNX)."
+    },
+    {
+      "headline": "Governments Are Encouraging Industrial Robotic Growth",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=9e6f67cd69e3910cb1691c496d4c347449f0dd785cad524e06b19447426a8eec",
+      "datetime": 1788451848,
+      "summary": "Robotics ETFs (BOTZ, ROBO, ARKQ) offer early growth, but industrial robotics leads. Weigh QQQ/SPY vs. niche ETF risks\u00e2\u0080\u0094read before investing."
+    },
+    {
+      "headline": "Baron Small Cap Fund Q2 2026 Portfolio Activity",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=698a6f9d97fa5f204454abb958fe24a0e1b2c1b26eb1661d23c58919a462496c",
+      "datetime": 1788361920,
+      "summary": "Baron Small Cap Fund was up 12.57% (Institutional Shares) in the second quarter, trailing the Russell 2000 Growth Index (the Index) by 13.14%, as the Index was up 25.71%. Read more here."
+    },
+    {
+      "headline": "Cognex to Present at the Morgan Stanley 14th Annual Laguna Conference",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=08104ece244cf0ee70d4684342e434b680354d01c44c0ab8c6c8609e71a63c69",
+      "datetime": 1788354000,
+      "summary": "Cognex Corporation (NASDAQ: CGNX), the global technology leader in industrial machine vision, today announced that Dennis Fehr, Chief Financial Officer, is scheduled to participate in a fireside chat at the Morgan Stanley 14th Annual Laguna Conference on Wednesday, September 16, 2026, at 7:45 a.m. Pacific Time."
+    },
+    {
+      "headline": "Is Elastic (ESTC) Stock Outpacing Its Computer and Technology Peers This Year?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=2119ce81fcd52d4ae08bc6916bca2d935deae92f225d10e413b6fee28091ef7f",
+      "datetime": 1788273603,
+      "summary": "Here is how Elastic (ESTC) and Cognex Corporation (CGNX) have performed compared to their sector so far this year."
+    }
+  ],
+  "filings": [
+    {
+      "form": "10-Q",
+      "title": "Quarterly report (10-Q)",
+      "date": "2026-08-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/851205/000085120526000065/cgnx-20260705.htm"
+    },
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-08-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/851205/000085120526000061/cgnx-20260805.htm"
+    },
+    {
+      "form": "10-Q",
+      "title": "Quarterly report (10-Q)",
+      "date": "2026-05-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/851205/000085120526000040/cgnx-20260405.htm"
+    }
+  ],
+  "script_text": null,
+  "audio_cached": false,
+  "status": "ok",
+  "data_asof": "2026-09-04",
+  "price": {
+    "last": 62.25,
+    "open": 60.96,
+    "prev_close": 60.79,
+    "move_day_pct": 2.4,
+    "move_open_close_pct": 2.12,
+    "move_week_pct": 2.96
+  },
+  "indicators": {
+    "rsi14": {
+      "value": 50.2,
+      "read": "Neutral"
+    },
+    "macd": {
+      "macd": -0.847,
+      "signal": -0.914,
+      "hist": 0.068,
+      "hist_prev": -0.082,
+      "read": "Bullish \u2014 MACD above signal"
+    },
+    "bollinger_pctb": {
+      "upper": 65.65,
+      "lower": 57.64,
+      "mid": 61.64,
+      "pctb": 0.576,
+      "read": "Mid-band \u2014 no extreme"
+    },
+    "pct_from_52w_low": {
+      "value": 79.64,
+      "read": "80% above its 52-week low"
+    },
+    "pct_from_52w_high": {
+      "value": -13.92,
+      "read": "Modestly below its 52-week high"
+    },
+    "price_vs_ma200": {
+      "ma200": 53.41,
+      "pct": 16.55,
+      "read": "17% above its 200-day average \u2014 long-term uptrend"
+    },
+    "atr14": {
+      "value": 2.47,
+      "pct_of_price": 3.96,
+      "read": "Elevated volatility"
+    },
+    "rel_volume": {
+      "value": 0.59,
+      "read": "Roughly average volume"
+    },
+    "mfi14": {
+      "value": 37.9,
+      "read": "Neutral money flow"
+    }
+  },
+  "low_52w": 34.65,
+  "high_52w": 72.32,
+  "ma50": 63.85,
+  "ma200": 53.41
+}

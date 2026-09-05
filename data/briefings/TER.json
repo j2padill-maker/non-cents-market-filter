@@ -1,0 +1,144 @@
+{
+  "ticker": "TER",
+  "user_id": "local",
+  "session": "close",
+  "generated_at": "2026-09-04T23:40:05.739644-07:00",
+  "disclaimer": "Informational only. Not financial advice.",
+  "selected_indicators": [
+    "rsi14",
+    "macd",
+    "bollinger_pctb",
+    "pct_from_52w_low",
+    "pct_from_52w_high",
+    "price_vs_ma200",
+    "atr14",
+    "rel_volume",
+    "mfi14"
+  ],
+  "news": [
+    {
+      "headline": "FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a96b9dd6e0f0976195e604e79d21e7ddf0f42388977af49a20b3263c933662dc",
+      "datetime": 1788574450,
+      "summary": "A number of stocks jumped in the afternoon session after investors shrugged off interest rate hike expectations following the August jobs report and unwound defensive positioning in beaten-down chip designers, according to Bloomberg. The U.S. Bureau of Labor Statistics reported that employers added 162,000 nonfarm payroll jobs in August, easily beating estimates of a 56,000 increase from economist"
+    },
+    {
+      "headline": "Exploring the top movers within the S&P500 index during today's session.",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=3efa247763ccb82bb432983509e2a71efe32dcd5773a037e2a6257e90876b9ce",
+      "datetime": 1788548701,
+      "summary": "Let's have a look at the top S&P500 gainers and losers one hour before the close of the markets of today's session."
+    },
+    {
+      "headline": "Discover which S&P500 stocks are making waves on Friday.",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=8365b14ad862209478e14241b98643c5a1b70d3eb7cfb54eeaa638afc9d6c0a4",
+      "datetime": 1788539701,
+      "summary": "Stay updated with the movements of the S&P500 index in the middle of the day on Friday. Discover which stocks are leading as top gainers and losers in today's session."
+    },
+    {
+      "headline": "Stay updated with the S&P500 stocks that are on the move in today's pre-market session.",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=5030d26aa984c830818eda1c4b16e236d371557cd7f2407be913a5da2bf31ceb",
+      "datetime": 1788525301,
+      "summary": "Wondering what's happening in today's pre-market session? Stay tuned for the latest updates on S&P500 stock movements."
+    },
+    {
+      "headline": "Teradyne (NASDAQ:TER) Delivers High Growth and Improving Fundamentals",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=1386d15aa46011871348fbecb387176f03a1d402276c66fc303d166aa888f9e9",
+      "datetime": 1788522055,
+      "summary": "Teradyne matches Navellier's 8-part growth strategy with strong earnings, sales, margins, cash flow, and ROE\u2014perfect for growth investors."
+    },
+    {
+      "headline": "AVGO Q3 Earnings Beat Estimates, Revenues Rise on Strong AI Demand",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=137d9b45b44de398a1155e3c6d398b51f093c8c4f56bb1d5d6e36f908ae9fc9d",
+      "datetime": 1788457740,
+      "summary": "Broadcom's fiscal Q3 earnings and revenues beat estimates as AI chip demand surges, with AI semiconductor sales up 221% and a higher fiscal 2026 outlook."
+    }
+  ],
+  "filings": [
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-08-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/97210/000119312526342367/ter-20260807.htm"
+    },
+    {
+      "form": "10-Q",
+      "title": "Quarterly report (10-Q)",
+      "date": "2026-07-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/97210/000119312526327715/ter-20260628.htm"
+    },
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-07-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/97210/000119312526321933/ter-20260728.htm"
+    }
+  ],
+  "script_text": null,
+  "audio_cached": false,
+  "status": "ok",
+  "data_asof": "2026-09-04",
+  "price": {
+    "last": 357.03,
+    "open": 345.89,
+    "prev_close": 338.46,
+    "move_day_pct": 5.49,
+    "move_open_close_pct": 3.22,
+    "move_week_pct": 0.62
+  },
+  "indicators": {
+    "rsi14": {
+      "value": 46.9,
+      "read": "Neutral"
+    },
+    "macd": {
+      "macd": -8.707,
+      "signal": -4.492,
+      "hist": -4.215,
+      "hist_prev": -5.857,
+      "read": "Bearish \u2014 MACD below signal"
+    },
+    "bollinger_pctb": {
+      "upper": 430.56,
+      "lower": 319.83,
+      "mid": 375.2,
+      "pctb": 0.336,
+      "read": "Mid-band \u2014 no extreme"
+    },
+    "pct_from_52w_low": {
+      "value": 218.71,
+      "read": "219% above its 52-week low"
+    },
+    "pct_from_52w_high": {
+      "value": -26.18,
+      "read": "26% below its 52-week high"
+    },
+    "price_vs_ma200": {
+      "ma200": 316.07,
+      "pct": 12.96,
+      "read": "13% above its 200-day average \u2014 long-term uptrend"
+    },
+    "atr14": {
+      "value": 22.84,
+      "pct_of_price": 6.4,
+      "read": "High daily volatility"
+    },
+    "rel_volume": {
+      "value": 0.72,
+      "read": "Roughly average volume"
+    },
+    "mfi14": {
+      "value": 24.5,
+      "read": "Neutral money flow"
+    }
+  },
+  "low_52w": 112.02,
+  "high_52w": 483.65,
+  "ma50": 371.79,
+  "ma200": 316.07
+}

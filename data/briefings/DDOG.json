@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-03T23:52:02.123242-07:00",
+  "generated_at": "2026-09-04T23:40:03.007729-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Snowflake Falls 5% as Traders Take Profits on Its Guidance Surge; Datadog Holds Steady",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=1a7240103a3f845505e6dd7b766e8d97518cd26e78a98b8427eb6779f912fccd",
+      "datetime": 1788548567,
+      "summary": "Snowflake surged 17% on earnings night, then spent Friday giving it back while every benchmark around it barely budged. That split-screen moment raises a pointed question about who is actually selling and why."
+    },
+    {
+      "headline": "Rare Stock Picks In August 2026 - From 21 Discerning Analysts",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=03506c0968ac04fef9eca132c9e0a15083a007ee327c051af15b249f8a93f031",
+      "datetime": 1788508800,
+      "summary": "In our monthly Rare Stock Picks series, we're highlighting August 2026 investment picks. Click here for the list of August 2026 Buy recommendations."
+    },
+    {
+      "headline": "Software Rebound Extends Moat Index Gains",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=814e73db5d703af98ad84b037219310746d8c95d98095282138f68b72379680b",
+      "datetime": 1788496800,
+      "summary": "The S&P 500 gained 2.72% and reached a record high in August, with energy leading the market as crude prices rose. Read more here."
+    },
     {
       "headline": "Datadog, Amplitude, Zscaler, DocuSign, and Salesforce Shares Skyrocket, What You Need To Know",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=39833c420ae180ff9549642b82c7e14cc2a499c86b846619fb7aa163a9186545",
       "datetime": 1788442012,
       "summary": "Datadog (NASDAQ:DDOG) shares rose 5. 7% in premarket trading following quarterly results from cloud data platform company Snowflake (NYSE:SNOW), which reported revenue and adjusted earnings above analyst expectations after Wednesday\u2019s market close."
-    },
-    {
-      "headline": "These S&P500 stocks are moving in today's pre-market session",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=2dd7d4483cd4f670e119da44d572bf1091418e7f41588bec2d25cfe69ad8e822",
-      "datetime": 1788438902,
-      "summary": "The US market is yet to commence its session on Thursday, but let's get a preview of the pre-market session and explore the top S&P500 gainers and losers driving the early market movements."
-    },
-    {
-      "headline": "ServiceNow Faces A Reality Check",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=d65df26c3311d4617ee34190121bb5eaa93aa516e35b4c1ada3951ed76bc6915",
-      "datetime": 1788429516,
-      "summary": "ServiceNow, Inc. update: Q2 beats, AI ACV tops $1B, key $160 resistance ahead\u00e2\u0080\u0094see what to watch for a breakout and guidance upgrades. Click for this NOW update."
-    },
-    {
-      "headline": "Cybersecurity Is AI's Next Growth Leg",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=b7221ed01d6b4429af2e7045a2c651a069eaf1aaf52bfeb429c7f243505ae679",
-      "datetime": 1788422938,
-      "summary": "Cybersecurity stocks may surge as AI threats boost security budgets."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-03",
+  "data_asof": "2026-09-04",
   "price": {
-    "last": 214.76,
-    "open": 220.0,
-    "prev_close": 209.23,
-    "move_day_pct": 2.64,
-    "move_open_close_pct": -2.38,
-    "move_week_pct": -11.6
+    "last": 212.93,
+    "open": 212.19,
+    "prev_close": 214.76,
+    "move_day_pct": -0.85,
+    "move_open_close_pct": 0.35,
+    "move_week_pct": -10.15
   },
   "indicators": {
     "rsi14": {
-      "value": 39.3,
+      "value": 38.7,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -8.343,
-      "signal": -5.915,
-      "hist": -2.427,
-      "hist_prev": -2.251,
+      "macd": -9.007,
+      "signal": -6.534,
+      "hist": -2.473,
+      "hist_prev": -2.427,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 262.22,
-      "lower": 210.41,
-      "mid": 236.32,
-      "pctb": 0.084,
+      "upper": 263.1,
+      "lower": 207.43,
+      "mid": 235.27,
+      "pctb": 0.099,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 109.29,
-      "read": "109% above its 52-week low"
+      "value": 107.5,
+      "read": "108% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -25.47,
-      "read": "25% below its 52-week high"
+      "value": -26.1,
+      "read": "26% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 176.21,
-      "pct": 21.88,
-      "read": "22% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 176.37,
+      "pct": 20.73,
+      "read": "21% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 14.0,
-      "pct_of_price": 6.52,
+      "value": 13.27,
+      "pct_of_price": 6.23,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.99,
+      "value": 0.51,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 30.1,
+      "value": 31.1,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 288.15,
-  "ma50": 249.39,
-  "ma200": 176.21
+  "ma50": 249.23,
+  "ma200": 176.37
 }
