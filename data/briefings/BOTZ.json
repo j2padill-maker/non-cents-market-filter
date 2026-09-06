@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-04T23:40:06.152382-07:00",
+  "generated_at": "2026-09-05T23:48:05.072067-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "3 Things I Think I Think",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=5bea64ee8eca352162436d93823986e8a6d5ec1072198bd0444853c483912072",
+      "datetime": 1788593400,
+      "summary": "Multi-asset instruments need to be blended well enough so that each component of the blend is actually playing a relevant role. Otherwise, you get a blend that is blended for no good reason."
+    },
+    {
+      "headline": "Are Robots the New Normal? Bet on these ETFs to Invest in the Future",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7d4647a0aba77aa832a2043833917398cf2447b739e36e7a637352d888a5da8f",
+      "datetime": 1788522540,
+      "summary": "Robotics is entering a new era as AI fuels humanoid adoption, with four ETFs offering diversified exposure to the sector's growth."
+    },
     {
       "headline": "Howard Lindzon On AI, Crypto And The 'Degenerate Economy'",
       "source": "SeekingAlpha",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=4fa48b74c8262aefbaed3fe45496b4e7fd99d6866919d080771a68f14961a2bd",
       "datetime": 1788397200,
       "summary": "Jing Roy explains why strong corporate profits remain a bright spot, how interest rates are shaping the outlook and where the AI boom could go next. Read more here."
-    },
-    {
-      "headline": "Big Debt And Massive AI Bet Not Yet A Threat",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=778a3822137466507fdeee27aca090bf5f576b5c954c90d2d9de9cb3768d89ce",
-      "datetime": 1788308100,
-      "summary": "Government debt levels have reached stratospheric heights, and hundreds of billions in corporate borrowing are piling up to finance a gargantuan AI data center infrastructure buildout."
-    },
-    {
-      "headline": "U.S. Growth Stocks: Semiconductor Surge Redraws The Risk Map",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=0724b9d0b444402fa3d04fcbb004c19cdb7cf338a963f36f520599b7ee9dd17e",
-      "datetime": 1788270480,
-      "summary": "Semiconductors\u00e2\u0080\u0099 newfound prominence may appear logical, given the importance of chips, memory and equipment suppliers to the AI infrastructure build-out."
     }
   ],
   "filings": [],

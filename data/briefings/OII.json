@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-04T23:40:06.411198-07:00",
+  "generated_at": "2026-09-05T23:48:05.202639-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -15,7 +15,50 @@
     "rel_volume",
     "mfi14"
   ],
-  "news": [],
+  "news": [
+    {
+      "headline": "Williams Closes Momentum Acquisition to Strengthen Haynesville Reach",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=fe2dac670a9c9eed4d9ab445383006f992194178834d22be8274d4078f5523f1",
+      "datetime": 1788530280,
+      "summary": "WMB's $5.5 billion Momentum Midstream deal expands its Haynesville network, strengthening links to Gulf Coast LNG, power and industrial demand."
+    },
+    {
+      "headline": "Baker Hughes Deepens Pakistan Footprint With OGDC's Multi-Year Deal",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8fd9972fc1289060ee0934902ddf44d744d21b2b2a4772b383efa54e18d49f20",
+      "datetime": 1788522540,
+      "summary": "BKR's multi-year OGDC contract covers more than 120 wells, combining AI-enabled solutions and well services to boost mature-field production in Pakistan."
+    },
+    {
+      "headline": "$1.65B SOCAR Deal & $450M JV Strengthen CRK's Financials & Growth",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=be25b7f5a812c6bcaf6df3b1ba2981a0b775ce5429ab058903b4eb402cd23406",
+      "datetime": 1788449820,
+      "summary": "Comstock's $1.65B SOCAR deal and $450M drilling JV aim to cut debt, fund Haynesville growth and expand natural gas marketing."
+    },
+    {
+      "headline": "Oceaneering International (OII) Could Be 28% Above Fair Value On Its Momentum Run",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a6eeb0d470f5d21c52190daaeddfdcab97564957faf90274497c3a8a1e266942",
+      "datetime": 1788361655,
+      "summary": "Why Riverwater\u2019s move puts Oceaneering International (OII) on investor radars Riverwater Partners recently added Oceaneering International (OII) to its Small Cap Strategy in Q2 2026 after highlighting emerging offshore and subsea capital spending and a rising U.S. rig count as key sector drivers. The firm describes Oceaneering International as a leader in subsea robotics and offshore services and "
+    },
+    {
+      "headline": "Oceaneering International (OII) Stock May Be Near Fair Value On Cash Flow",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=612adb331faa6e34c6793e4bf119358a6c12c39f1c3e05fbe4c9441d1e30567c",
+      "datetime": 1788358296,
+      "summary": "Oceaneering International has delivered a very strong 5 year share price return. Current valuation checks send a mixed message, with the intrinsic value estimate suggesting the stock is close to fair value, while market multiples appear richer. Over the past 5 years, Oceaneering International has returned about 290.0%, which puts extra focus on whether today\u2019s price still fairly reflects its cash "
+    },
+    {
+      "headline": "California Resources Completes $63M Acquisition of Crimson Midstream",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=57617f36927b235e089bf87816d4cbb33c0247e4ed0d68f182cc6792d55c2f0d",
+      "datetime": 1788357780,
+      "summary": "CRC's $63 million Crimson acquisition expands its California pipeline network, boosting transport flexibility while opening potential CO2 infrastructure options."
+    }
+  ],
   "filings": [
     {
       "form": "8-K",

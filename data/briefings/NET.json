@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-04T23:40:03.364747-07:00",
+  "generated_at": "2026-09-05T23:48:03.632248-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,20 @@
   ],
   "news": [
     {
+      "headline": "OpenAI\u2019s $1 Billion Cyber Push Backs Cloudflare and SentinelOne. Which Has the Better AI Security Model?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=abb58f74cd6c5f36da143e0ecbd709e631d5df0621a89bf1123f281f572446c4",
+      "datetime": 1788611169,
+      "summary": "OpenAI launched Daybreak for Frontline Defenders on September 3, committing $1 billion in subsidized Daybreak access, training, technical support and partnerships. Separately, the Daybreak Defense Network now includes more than 35 enterprise products and partner-operated services. Cloudflare is offering invitation-only access to an AI vulnerability-discovery and remediation service built with GPT-"
+    },
+    {
+      "headline": "Why Cloudflare (NET) Dipped More Than Broader Market Today",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=cee185a45f286a365c1edd986b11f5380f074fdadbb4866f3faa9173d920a244",
+      "datetime": 1788558602,
+      "summary": "Cloudflare (NET) concluded the recent trading session at $277.85, signifying a -2.34% move from its prior day's close."
+    },
+    {
       "headline": "OpenAI Astra Cybersecurity Reveal: Skip Legacy Cybersecurity, Buy Zscaler",
       "source": "SeekingAlpha",
       "url": "https://finnhub.io/api/news?id=b7082c4fb0cd2136d55ec5ba2d7f2e18459a9d4d3137acce7a06635ecaa44598",
@@ -24,39 +38,25 @@
       "summary": "Zscaler is rated a Buy as AI threats rise, with its zero-trust cybersecurity platform, earnings beat, and spending tailwinds. Click for more on the ZS stock."
     },
     {
-      "headline": "Cloudflare Teams Up With OpenAI Daybreak Models To Redefine Vulnerability Management With AI-Powered Edge Defense",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=81d66e45b2c2509b0e2809538d43c15cd2d6ca2125af123b6ff5f8bfc5c4d589",
-      "datetime": 1788454940,
-      "summary": "Cloudflare, Inc. (NYSE:NET), the leading connectivity cloud company, today announced Vulnerability Discovery and Remediation, available in early access through Cloudflare Managed Defense. Through the OpenAI Daybreak"
+      "headline": "Cloudflare (NET) Unveiled New AI Security Tools For Developers",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ead09428c833013a97ab5d7e3d94ead5659ff99bc508b2dbc3b1d846eab946c0",
+      "datetime": 1788502771,
+      "summary": "Cloudflare (NYSE:NET) launched new AI powered vulnerability discovery and remediation tools for enterprise customers, built on OpenAI models. The company introduced automated, context aware security workflows that aim to help development teams find and fix application weaknesses more quickly. Cloudflare also enabled support for running Cursor Cloud Agents so developers can execute AI coding agents"
     },
     {
-      "headline": "Zscaler Earnings Prediction Market Preview: Will Anthropic\u2019s Claude Be a \u2018Tailwind\u2019?",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=27c54bcbdaa82127be1dc3de52a47bc620b97f11bc3a00e582ad01a56c6c7000",
-      "datetime": 1788428841,
-      "summary": "Zscaler reports earnings after a 31% plunge as traders bet on breach, AI tailwinds and Claude while investors watch for a growth rebound."
+      "headline": "Content Delivery Stocks Q2 Recap: Benchmarking Cloudflare (NYSE:NET)",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=10de694732054fb50f02626e4a1336cc7830bb29808c119148e9f9e625c9c991",
+      "datetime": 1788481878,
+      "summary": "The end of an earnings season can be a great time to discover new stocks and assess how companies are handling the current business environment. Let\u2019s take a look at how Cloudflare (NYSE:NET) and the rest of the content delivery stocks fared in Q2."
     },
     {
-      "headline": "AGIX Vs. CHAT: I'm Buying The Loser",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=7861a469391d2e4332d86912e29f5d04d1349175d52c37120bddef2dcf2ca53f",
-      "datetime": 1788406597,
-      "summary": "AGIX and CHAT offer broad AI ecosystem exposure but differ in holdings and risk profiles. Read why I lean on AGIX ETF despite the fee and the performance gap."
-    },
-    {
-      "headline": "The Memory Wall And Next Leg Of The AI Story: The Connection Bottleneck",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=e26e5c96b0453ee0036503ccc72bf4c90cdf2bd3762053a1319d40455f51185c",
-      "datetime": 1788304800,
-      "summary": "The total HBM market is projected to grow from $35 billion in 2025 to $54.6 billion in 2026, an increase of more than 50% in a single year, with $100 billion in sight by 2028."
-    },
-    {
-      "headline": "Citizens Reiterates Market Outperform on Cloudflare, Maintains $394 Price Target",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=397a61b6aeeae28c2cf2f69d45bae46e7240a19dd69362d6edee94c79bee7da6",
-      "datetime": 1788165739,
-      "summary": "Citizens  analyst Patrick Walravens   reiterates Cloudflare (NYSE:NET) with a Market Outperform and maintains $394 price target."
+      "headline": "Commvault, Asana, Atlassian, Cloudflare, and Twilio Stocks Trade Up, What You Need To Know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b54d1fc8f18ddf75a684ce93e99807005cd9f986d73b937e1ead6e245379f829",
+      "datetime": 1788471318,
+      "summary": "A number of stocks jumped in the afternoon session after software equities broadly gained momentum following a pullback in treasury yields and second-quarter financial results from Snowflake."
     }
   ],
   "filings": [

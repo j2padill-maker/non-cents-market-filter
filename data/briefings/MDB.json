@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-04T23:40:00.920879-07:00",
+  "generated_at": "2026-09-05T23:48:02.703217-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "ServiceNow Faces A Reality Check",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=d65df26c3311d4617ee34190121bb5eaa93aa516e35b4c1ada3951ed76bc6915",
-      "datetime": 1788429516,
-      "summary": "ServiceNow, Inc. update: Q2 beats, AI ACV tops $1B, key $160 resistance ahead\u00e2\u0080\u0094see what to watch for a breakout and guidance upgrades. Click for this NOW update."
+      "headline": "Jim Cramer Explains Why SanDisk (SNDK) Makes MongoDB (MDB) Look Expensive",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e47471a6c4483cf8e4dd6b6be576e53facd8c2172aae9b8a6b722f5f87e3e338",
+      "datetime": 1788604627,
+      "summary": "When looking at stock market tickers, it is easy to fall into the trap of judging a company by its absolute dollar price rather than what is actually being paid for its earnings. During the September 2 episode of Mad Money, Jim Cramer tackled the misconception by comparing two completely different tech players, including hardware [\u2026]"
     },
     {
-      "headline": "Broadcom Redraws the AI Silicon Runway While Dell's 16% Sprint Pulls Wall Street Off the Mat",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=22f171f60f6796e8d54494cf6fe5bf9e37468691d01468c04bc2efa2e05a16ce",
-      "datetime": 1788426020,
-      "summary": "Wall Street clawed back ground on Wednesday as long yields eased and Dell exploded 16% higher on the AI-server print. After the close, Broadcom lifted its FY27 AI revenue outlook to roughly $115 billion and, for the first time, put a $230 billion number on FY28. Snowflake set up a 20% pre-market gap on its own guidance raise."
+      "headline": "Top Research Reports for Apple, Broadcom & Shell",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d180a4b55542c389cf6aba25f41a111377c11d398072f9790814e4a23b323580",
+      "datetime": 1788556560,
+      "summary": "Apple, Broadcom and Shell show long-term strengths, but rising costs, AI execution risks and market volatility cloud their near-term outlooks."
     },
     {
-      "headline": "Scotiabank Maintains Sector Outperform on MongoDB, Raises Price Target to $440",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=10de2075e5fad9043dbbeffc27871d91452dcd175ffe2ad6112d29a810094ac8",
-      "datetime": 1788362033,
-      "summary": "Scotiabank  analyst Patrick Colville   maintains MongoDB (NASDAQ:MDB) with a Sector Outperform and raises the price target from $395 to $440."
+      "headline": "MongoDB, Inc. to Present at Upcoming Investor Conferences",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=6cbf0e940c3bcb375744ff31cde6980948199af6337aa6a6ff652567ef3cc0f3",
+      "datetime": 1788550560,
+      "summary": "MongoDB, Inc. (NASDAQ: MDB) today announced that it will present at three upcoming investor conferences:"
     },
     {
-      "headline": "Citigroup Maintains Buy on MongoDB, Raises Price Target to $565",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=1c0a4292aca30972d74af1f9ca6aa859aeaebe9218f96ea2dfb585e7ac778212",
-      "datetime": 1788360067,
-      "summary": "Citigroup  analyst Tyler Radke   maintains MongoDB (NASDAQ:MDB) with a Buy and raises the price target from $545 to $565."
+      "headline": "Why MongoDB Fell This Week",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=3b80b602bf2c9c6cb1f9896dd7f0ef386b24dfd38c75f93858d5203aec9af71a",
+      "datetime": 1788462798,
+      "summary": "Investors \"sold the news\" on Mongo's earnings report, even as it came in stronger-than-expected."
     },
     {
-      "headline": "Goldman Sachs Maintains Buy on MongoDB, Raises Price Target to $520",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=ba619b62ef014d021b74d87235f08e2623bb5950d25a2a4785e9ae3dc233f29a",
-      "datetime": 1788355628,
-      "summary": "Goldman Sachs  analyst Kash Rangan   maintains MongoDB (NASDAQ:MDB) with a Buy and raises the price target from $453 to $520."
+      "headline": "MongoDB missed one number and investors punished the stock",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ff9296bda86689935a47c3581a5d27b6e89438e403e9df259cfbb8b692afe5b0",
+      "datetime": 1788456780,
+      "summary": "Almost everything else beat expectations. Here\u2019s the single metric flagged by Morgan Stanley that triggered the after-hours drop."
     },
     {
-      "headline": "Nvidia Jumps On AI Bid, Software Stocks Dip: Stock Market Today",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=5cf95ee6885a452daa1f20dd9bc5b90f45475a3ef1cca61a6a93d2706dfe0175",
-      "datetime": 1788355280,
-      "summary": "Nvidia surges 4.7%, while Credo, MongoDB and Palo Alto all cratered Wednesday despite quarterly beats, as costs surged."
+      "headline": "MongoDB\u2019s Spending Fears Collide With a Much Stronger Growth Story",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=192107539af3b3d1de7709c07f793f3b9532d2cb96fb21e32dc7506e07145f36",
+      "datetime": 1788443100,
+      "summary": "MongoDB shares fell after Q2 results despite 30.5% revenue growth and improved margins, as analysts raised price targets and institutions kept buying the dip."
     }
   ],
   "filings": [

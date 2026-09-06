@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-04T23:40:03.007729-07:00",
+  "generated_at": "2026-09-05T23:48:03.465573-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Benzinga Bulls and Bears: Palo Alto, Ciena, Lululemon",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=fed21fdac8ddb2e15d89d27f942aca3066231cc5e10ddc9a4e2a0e732c8451e5",
+      "datetime": 1788595274,
+      "summary": "Benzinga examined the prospects for many investors\u2019 favorite stocks over the last week \u2014 here\u2019s a look at some of our top stories."
+    },
     {
       "headline": "Snowflake Falls 5% as Traders Take Profits on Its Guidance Surge; Datadog Holds Steady",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=f430d2aed0f250a94be76e2e516d558264c43841b16a81e08218448a9d8f0e10",
       "datetime": 1788443107,
       "summary": "Datadog shares have been under pressure in the last month"
-    },
-    {
-      "headline": "Datadog Shares Rise Following Snowflake Quarterly Results",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=39833c420ae180ff9549642b82c7e14cc2a499c86b846619fb7aa163a9186545",
-      "datetime": 1788442012,
-      "summary": "Datadog (NASDAQ:DDOG) shares rose 5. 7% in premarket trading following quarterly results from cloud data platform company Snowflake (NYSE:SNOW), which reported revenue and adjusted earnings above analyst expectations after Wednesday\u2019s market close."
     }
   ],
   "filings": [

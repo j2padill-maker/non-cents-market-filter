@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-04T23:40:05.052469-07:00",
+  "generated_at": "2026-09-05T23:48:04.548673-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Intuitive Surgical's Growth Has Cooled From Its Post-Pandemic Highs. Is That a Buying Opportunity or a Warning?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f31cc8d1255da3ee79e5624e02335c5248d5b4a3379803c2af1f1642307dfd60",
+      "datetime": 1788636900,
+      "summary": "Intuitive Surgical's flywheel isn't selling new surgical robots, its selling parts and services to support the ones it has already sold."
+    },
     {
       "headline": "2 Stocks Down 8% or More That Are Screaming Buys Right Now",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=9e6f67cd69e3910cb1691c496d4c347449f0dd785cad524e06b19447426a8eec",
       "datetime": 1788451848,
       "summary": "Robotics ETFs (BOTZ, ROBO, ARKQ) offer early growth, but industrial robotics leads. Weigh QQQ/SPY vs. niche ETF risks\u00e2\u0080\u0094read before investing."
-    },
-    {
-      "headline": "ISRG Stock: The Best House On The Block Costs The Most",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2b3549b7f8cb8125eb4f126f266bc4f7b1ff45999bedafe3fbd3f7d0c3d75f3e",
-      "datetime": 1788381469,
-      "summary": "In the world of robotic surgery, one company is both the undisputed leader and the most expensive option, forcing investors to ask if operational excellence is worth the premium."
     }
   ],
   "filings": [
