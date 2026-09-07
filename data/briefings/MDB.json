@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-05T23:48:02.703217-07:00",
+  "generated_at": "2026-09-06T23:56:06.299967-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Why Is MongoDB (MDB) Putting A Veteran Executive In Charge Of AI Growth?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=2ad2022120a92b7bdfd8a90a55fbce2805245670c3e78fc12c7af554e83c6807",
+      "datetime": 1788639021,
+      "summary": "MongoDB (NasdaqGM: MDB) has appointed Richard Scott as Senior Vice President for Asia Pacific and Japan to lead its regional business and AI-focused initiatives. Scott, a veteran technology executive with experience at major global tech firms, is tasked with supporting AI adoption as organizations move projects from pilot to production. The appointment reflects a focus on international expansion i"
+    },
     {
       "headline": "Jim Cramer Explains Why SanDisk (SNDK) Makes MongoDB (MDB) Look Expensive",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=ff9296bda86689935a47c3581a5d27b6e89438e403e9df259cfbb8b692afe5b0",
       "datetime": 1788456780,
       "summary": "Almost everything else beat expectations. Here\u2019s the single metric flagged by Morgan Stanley that triggered the after-hours drop."
-    },
-    {
-      "headline": "MongoDB\u2019s Spending Fears Collide With a Much Stronger Growth Story",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=192107539af3b3d1de7709c07f793f3b9532d2cb96fb21e32dc7506e07145f36",
-      "datetime": 1788443100,
-      "summary": "MongoDB shares fell after Q2 results despite 30.5% revenue growth and improved margins, as analysts raised price targets and institutions kept buying the dip."
     }
   ],
   "filings": [

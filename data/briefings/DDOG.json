@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-05T23:48:03.465573-07:00",
+  "generated_at": "2026-09-06T23:56:07.088882-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Is Datadog (DDOG) Undervalued As Its Pullback Tests A Rich Valuation?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f81bc99b5fcd5b613dc6ab0985a2bf2f259c66074a1f815ec05f48d791f0befc",
+      "datetime": 1788725153,
+      "summary": "Datadog Stock Performance Check After Recent Pullback Datadog (DDOG) has drawn fresh attention after a recent pullback, with the stock down about 10% over the past month and roughly 8% over the past 3 months. At a last close of $212.93, Datadog sits against a backdrop of double digit annual revenue and net income growth, alongside a market value of about $76.5b. Despite the recent pullback, Datado"
+    },
+    {
+      "headline": "GitLab\u2019s AI Tools Are Starting to Turn Developer Demand Into Real Revenue",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c2229d1f5d9add8a72b582bead4d26163ff1cf080bdca0e030789ba15389a337",
+      "datetime": 1788622500,
+      "summary": "GitLab posted 21.3% revenue growth and beat earnings estimates in Q2 FY2027, driven by its Flex consumption pricing model, and raised its full-year adjusted earnings guidance."
+    },
     {
       "headline": "Benzinga Bulls and Bears: Palo Alto, Ciena, Lululemon",
       "source": "Benzinga",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=814e73db5d703af98ad84b037219310746d8c95d98095282138f68b72379680b",
       "datetime": 1788496800,
       "summary": "The S&P 500 gained 2.72% and reached a record high in August, with energy leading the market as crude prices rose. Read more here."
-    },
-    {
-      "headline": "Datadog, Amplitude, Zscaler, DocuSign, and Salesforce Shares Skyrocket, What You Need To Know",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7428c8a120fe47b640795f50a9b484fee33d0b3b97e5c85a191d33502649dd6b",
-      "datetime": 1788472758,
-      "summary": "A number of stocks jumped in the afternoon session after software equities broadly gained momentum following a pullback in treasury yields and second-quarter financial results from Snowflake."
-    },
-    {
-      "headline": "Datadog Stock Rises 5% on Snowflake's 37% Growth",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f430d2aed0f250a94be76e2e516d558264c43841b16a81e08218448a9d8f0e10",
-      "datetime": 1788443107,
-      "summary": "Datadog shares have been under pressure in the last month"
     }
   ],
   "filings": [
