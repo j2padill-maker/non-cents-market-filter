@@ -1,6 +1,6 @@
 // Bump this on every index.html change, or installed PWAs keep serving the
 // old shell from the previous cache and your changes appear to do nothing.
-const CACHE = 'ncmf-v22';
+const CACHE = 'ncmf-v23';
 const ASSETS = [
   '/',
   '/index.html',
@@ -39,6 +39,24 @@ self.addEventListener('activate', e => {
 // cache first for everything else
 self.addEventListener('fetch', e => {
   const url = new URL(e.request.url);
+
+  // Navigations (the app shell) — NETWORK FIRST, cache only as the offline
+  // fallback. Cache-first here is what makes an installed PWA keep showing an
+  // old build indefinitely: "clear cache" in the browser does not touch Cache
+  // Storage, so the stale index.html survived every reset short of uninstalling
+  // the app. Online, the phone now always renders the freshly deployed shell.
+  if (e.request.mode === 'navigate' || e.request.destination === 'document') {
+    e.respondWith(
+      fetch(e.request)
+        .then(res => {
+          const clone = res.clone();
+          caches.open(CACHE).then(c => c.put('/index.html', clone));
+          return res;
+        })
+        .catch(() => caches.match(e.request).then(r => r || caches.match('/index.html')))
+    );
+    return;
+  }
 
   // Always go network-first for data so prices — and the watchlist the last
   // fetch ran against — stay current.

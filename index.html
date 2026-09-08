@@ -234,7 +234,11 @@ body {
     gap: 5px;
   }
   .tab {
-    flex: 0 1 auto;
+    /* 0 0 auto — never let a chip shrink. The pre-fix bug was exactly this:
+       flex items shrink by default and .tab has overflow:hidden, so all seven
+       tabs squeezed into the phone width and their labels were clipped to a
+       letter ("🎧 B"). Nothing scrolled; the text was simply cut off. */
+    flex: 0 0 auto;
     padding: 9px 11px;
     font-size: 10px;
     letter-spacing: 0.04em;
@@ -4017,10 +4021,29 @@ narrateInit();   // load narrate-config.json so the Briefings doc view knows the
 
 <script>
   if('serviceWorker' in navigator){
+    // Was this page already controlled by a worker? If so, a later
+    // controllerchange means an UPDATE took over (not a first install), and the
+    // HTML in memory is the old build -> reload once onto the new one.
+    const swHadController = !!navigator.serviceWorker.controller;
+    let swReloading = false;
     window.addEventListener('load',()=>{
-      navigator.serviceWorker.register('sw.js')
-        .then(r=>console.log('SW registered:',r.scope))
+      // updateViaCache:'none' — never let the HTTP cache answer for sw.js itself.
+      // Without it a stale worker can keep serving a stale shell for hours.
+      navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' })
+        .then(r=>{
+          console.log('SW registered:',r.scope);
+          r.update();                                   // check for a new build now
+          setInterval(()=>r.update(), 60*60*1000);      // ...and hourly while open
+          document.addEventListener('visibilitychange',()=>{  // ...and when reopened
+            if(!document.hidden) r.update();
+          });
+        })
         .catch(e=>console.log('SW failed:',e));
+      navigator.serviceWorker.addEventListener('controllerchange',()=>{
+        if(!swHadController || swReloading) return;
+        swReloading = true;
+        location.reload();
+      });
     });
   }
 </script>
