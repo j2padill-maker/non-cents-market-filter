@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-06T23:56:08.657817-07:00",
+  "generated_at": "2026-09-07T23:51:44.662208-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Oceaneering International (OII) Is Up 1.60% in One Week: What You Should Know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=2fe5a70a6e206b4efde10ca6d15775a158d4ed33132c46e7351495eaf31e64af",
+      "datetime": 1788796803,
+      "summary": "Does Oceaneering International (OII) have what it takes to be a top stock pick for momentum investors? Let's find out."
+    },
     {
       "headline": "Williams Closes Momentum Acquisition to Strengthen Haynesville Reach",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=612adb331faa6e34c6793e4bf119358a6c12c39f1c3e05fbe4c9441d1e30567c",
       "datetime": 1788358296,
       "summary": "Oceaneering International has delivered a very strong 5 year share price return. Current valuation checks send a mixed message, with the intrinsic value estimate suggesting the stock is close to fair value, while market multiples appear richer. Over the past 5 years, Oceaneering International has returned about 290.0%, which puts extra focus on whether today\u2019s price still fairly reflects its cash "
-    },
-    {
-      "headline": "California Resources Completes $63M Acquisition of Crimson Midstream",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=57617f36927b235e089bf87816d4cbb33c0247e4ed0d68f182cc6792d55c2f0d",
-      "datetime": 1788357780,
-      "summary": "CRC's $63 million Crimson acquisition expands its California pipeline network, boosting transport flexibility while opening potential CO2 infrastructure options."
     }
   ],
   "filings": [

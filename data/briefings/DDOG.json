@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-06T23:56:07.088882-07:00",
+  "generated_at": "2026-09-07T23:51:42.800794-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Palantir Stock Leads August Rally -- Nvidia, Salesforce and Super Micro Jump",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=89ee1437c35b1ea43ff04c0695734f1b0ef289bd07ced8822ca70a45052719c9",
+      "datetime": 1788818335,
+      "summary": "Palantir Crushes Tech Stocks in August: Salesforce Nears 40% Gain, Super Micro Jumps"
+    },
     {
       "headline": "Is Datadog (DDOG) Undervalued As Its Pullback Tests A Rich Valuation?",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=03506c0968ac04fef9eca132c9e0a15083a007ee327c051af15b249f8a93f031",
       "datetime": 1788508800,
       "summary": "In our monthly Rare Stock Picks series, we're highlighting August 2026 investment picks. Click here for the list of August 2026 Buy recommendations."
-    },
-    {
-      "headline": "Software Rebound Extends Moat Index Gains",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=814e73db5d703af98ad84b037219310746d8c95d98095282138f68b72379680b",
-      "datetime": 1788496800,
-      "summary": "The S&P 500 gained 2.72% and reached a record high in August, with energy leading the market as crude prices rose. Read more here."
     }
   ],
   "filings": [

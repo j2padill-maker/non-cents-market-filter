@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-06T23:56:06.299967-07:00",
+  "generated_at": "2026-09-07T23:51:40.895142-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "AI Token Costs Are Changing the Hardware vs. Software Debate",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=3216744079c55c16a220005c78a5e04d1968bb17eb8b7a21bcef6b49ed036dae",
+      "datetime": 1788714000,
+      "summary": "Rising AI token costs are pushing enterprises toward on-premises hardware, boosting Dell Technologies after strong earnings while MongoDB shares fell despite a beat, as capital rotates from cloud software to hardware."
+    },
     {
       "headline": "Why Is MongoDB (MDB) Putting A Veteran Executive In Charge Of AI Growth?",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=3b80b602bf2c9c6cb1f9896dd7f0ef386b24dfd38c75f93858d5203aec9af71a",
       "datetime": 1788462798,
       "summary": "Investors \"sold the news\" on Mongo's earnings report, even as it came in stronger-than-expected."
-    },
-    {
-      "headline": "MongoDB missed one number and investors punished the stock",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ff9296bda86689935a47c3581a5d27b6e89438e403e9df259cfbb8b692afe5b0",
-      "datetime": 1788456780,
-      "summary": "Almost everything else beat expectations. Here\u2019s the single metric flagged by Morgan Stanley that triggered the after-hours drop."
     }
   ],
   "filings": [

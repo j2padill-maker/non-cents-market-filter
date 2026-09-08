@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-06T23:56:08.051608-07:00",
+  "generated_at": "2026-09-07T23:51:44.021024-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "ISRG's Ion Platform Is Quietly Becoming a Second Growth Engine",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=30f82c3d71c728c02b8284a8860ea904bbbc22691e7920cba19df99641cdfb6e",
+      "datetime": 1788796260,
+      "summary": "Intuitive Surgical's Ion platform is gaining momentum, with rising procedures, a larger installed base and global expansion fueling a second growth engine."
+    },
+    {
+      "headline": "Intuitive Surgical (ISRG): Embracing AI Innovations in Robotic Surgery for Future Growth",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=bd62df8ef1027cea2e815ad3bbb21d584987832cf3ac67fb352bc6b373aa8446",
+      "datetime": 1788784244,
+      "summary": "Sands Capital, an investment management company, released its second-quarter 2026 investor letter for \u201cSands Capital Global Growth Fund\u201d. The letter can be downloaded here. Global Growth seeks the best growth businesses worldwide, leveraging a research team that explores both developed and emerging markets for sustainable competitive advantages. In the quarter, global equities rebounded strongly, "
+    },
+    {
+      "headline": "Global Surgical Robots Market to Reach $10.6 Billion in 2026, Driven by AI Integration and Minimally Invasive Surgery",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=4f2802aa4ef24aef7667975d5a4b559ef64630292829d06fe129c3b40461cdab",
+      "datetime": 1788769260,
+      "summary": "Report Features In-Depth Profiles of Abbott, Great Robotics, Intuitive Surgical, Johnson & Johnson, Medtronic, Panasonic, Renishaw, Siemens Healthineers, Smith+Nephew, Stryker, Zimmer Biomet, and FreehandDublin, Sept. 07, 2026 (GLOBE NEWSWIRE) -- The \"Surgical Robots Market by Offering of Surgical Robot Developers, Deployment Model, Type of Surgical Procedure Supported, Application Area, End Users"
+    },
     {
       "headline": "Intuitive Surgical's Growth Has Cooled From Its Post-Pandemic Highs. Is That a Buying Opportunity or a Warning?",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=76f3698994d65bb294be8ceff12ff1a40bf34f8086fc4997976d2b23b48436f1",
       "datetime": 1788533142,
       "summary": "Both Intuitive Surgical and Stryker just posted their fifth straight earnings beat, and Wall Street is cheering for both. But a structural difference buried inside their business models quietly separates a compounder from a cyclical recovery story."
-    },
-    {
-      "headline": "Are Robots the New Normal? Bet on these ETFs to Invest in the Future",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7d4647a0aba77aa832a2043833917398cf2447b739e36e7a637352d888a5da8f",
-      "datetime": 1788526140,
-      "summary": "Robotics is entering a new era as AI fuels humanoid adoption, with four ETFs offering diversified exposure to the sector's growth."
-    },
-    {
-      "headline": "Is TMDX Stock Worth Buying as Growth Meets Rising Margin Pressure?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9cd5058399002add8c16f829d615ea94956b7a7e1135a345ee6d9ecd3e2a37ad",
-      "datetime": 1788458400,
-      "summary": "TransMedics' rapid revenue growth and cheaper valuation face rising margin pressure as heavy investment raises execution risks."
-    },
-    {
-      "headline": "Governments Are Encouraging Industrial Robotic Growth",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=9e6f67cd69e3910cb1691c496d4c347449f0dd785cad524e06b19447426a8eec",
-      "datetime": 1788451848,
-      "summary": "Robotics ETFs (BOTZ, ROBO, ARKQ) offer early growth, but industrial robotics leads. Weigh QQQ/SPY vs. niche ETF risks\u00e2\u0080\u0094read before investing."
     }
   ],
   "filings": [
