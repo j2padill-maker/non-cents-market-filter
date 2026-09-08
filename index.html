@@ -219,6 +219,42 @@ body {
   mix-blend-mode: multiply;
 }
 
+/* ─── TABS ON SMALL SCREENS ───
+   The tab row is a single non-wrapping flex line ~850px wide. On a phone
+   (~390px) that meant SCREENER + part of OVERREACTION were visible and
+   everything after it — including ⭐ LISTS and 🎧 BRIEFINGS — sat off-screen,
+   with the scrollbar hidden so nothing hinted the row scrolled. Below 900px
+   the row wraps into chips instead, so every tab (Briefings especially) is
+   visible without scrolling. */
+@media(max-width:900px) {
+  .tabs {
+    flex-wrap: wrap;
+    overflow-x: visible;
+    padding: 8px 10px;
+    gap: 5px;
+  }
+  .tab {
+    flex: 0 1 auto;
+    padding: 9px 11px;
+    font-size: 10px;
+    letter-spacing: 0.04em;
+    gap: 5px;
+    border: 1px solid var(--glass-border);
+    border-radius: 7px;
+    border-bottom: 1px solid var(--glass-border);
+  }
+  .tab.active {
+    border-color: var(--accent);
+    background: rgba(0,200,83,0.10);
+  }
+  .tab.active::before { display: none; }   /* underline bar makes no sense on a chip */
+  .tab img { width:15px; height:15px; }
+}
+@media(max-width:600px) {
+  .tab { padding: 8px 9px; font-size: 9.5px; }
+  .tab-long { display: none; }             /* "DOWNTRODDEN / MOMENTUM" -> "DOWNTRODDEN" */
+}
+
 /* ═══════════════════════════════════════════
    MAIN / PANELS
 ═══════════════════════════════════════════ */
@@ -1327,7 +1363,7 @@ td { padding:10px 14px; white-space:nowrap; }
   <button class="tab active" onclick="switchTab('screener',this)">📊 SCREENER</button>
   <button class="tab" onclick="switchTab('overreaction',this)"><img src="milk.png" alt="spilled milk"> OVERREACTION</button>
   <button class="tab" onclick="switchTab('sectors',this)">🗂 SECTORS</button>
-  <button class="tab" onclick="switchTab('rankings',this)">📈 DOWNTRODDEN / MOMENTUM</button>
+  <button class="tab" onclick="switchTab('rankings',this)">📈 DOWNTRODDEN<span class="tab-long"> / MOMENTUM</span></button>
   <button class="tab" onclick="switchTab('bottlenecks',this)">🔩 BOTTLENECKS</button>
   <button class="tab" onclick="switchTab('watchlist',this)">⭐ LISTS</button>
   <button class="tab" onclick="switchTab('briefings',this)">🎧 BRIEFINGS</button>
@@ -3356,7 +3392,10 @@ function switchTab(name, btn){
   document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
   document.getElementById('tab-'+name).classList.add('active');
   if(btn) btn.classList.add('active');
-  if(name === 'briefings') loadBriefings();   // lazy — guarded so it fetches once
+  if(name === 'briefings'){                    // carry the Lists selection over to Briefings
+    brfListFilter = wlData.activeId;
+    if(briefingsData) renderBriefings(); else loadBriefings();
+  }
   requestAnimationFrame(()=>{
     animatePanel(name);
     if(name === 'screener') setScreenerHeight();
@@ -3366,6 +3405,7 @@ function switchTab(name, btn){
 /* ─── BRIEFINGS ─── */
 let briefingsData = null;      // { index, items: { TICKER: briefingJSON } }
 let briefingsLoading = false;
+let brfListFilter = WL_ALL;    // Briefings tab: which list to show; follows the Lists picker when you open the tab
 function brfEsc(s){ return String(s==null?'':s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
 function brfPct(n){ if(n==null) return '—'; const s=n>0?'+':''; return s+Number(n).toFixed(2)+'%'; }
 function brfCls(n){ return n==null?'pct-neutral':(n>0?'pct-up':(n<0?'pct-down':'pct-neutral')); }
@@ -3748,18 +3788,26 @@ async function loadBriefings(force){
   }
 }
 
+function brfSetListFilter(v){ brfListFilter = v; if(briefingsData) renderBriefings(); }
 function renderBriefings(){
   const el = document.getElementById('briefings-content');
   const { index, items } = briefingsData;
   const tickers = (index.briefings||[]).map(b=>b.ticker);
   if (!tickers.length){ el.innerHTML = '<div class="empty-state"><div class="icon">🎧</div><p>No briefings built yet.</p></div>' + wlBriefPendingHint([]); return; }
   const when = index.generated_at ? new Date(index.generated_at) : null;
+  const brfActiveL = (brfListFilter && brfListFilter !== WL_ALL) ? wlFindList(brfListFilter) : null;
+  const brfFilterName = brfActiveL ? brfActiveL.name : null;
+  const filterSel = ' <select class="wl-select" style="margin-left:10px;padding:2px 8px;font-size:11px;" title="Show one list, or all" onchange="brfSetListFilter(this.value)">'
+    + '<option value="' + WL_ALL + '"' + (brfFilterName ? '' : ' selected') + '>All lists</option>'
+    + (wlData.lists||[]).map(l => '<option value="' + l.id + '"' + (brfListFilter===l.id ? ' selected' : '') + '>' + wlKindIcon(wlListKind(l)) + ' ' + brfEsc(l.name) + '</option>').join('')
+    + '</select>';
   let html = '<div class="brf-meta">'
     + '<span class="brf-session">' + brfEsc((index.session||'').toUpperCase()) + ' BRIEFING</span>'
     + (when ? ' · generated ' + when.toLocaleDateString() + ' ' + when.toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'}) : '')
     + ' <button class="wl-icon-btn" style="margin-left:8px;" onclick="loadBriefings(true)">↻ REFRESH</button>'
+    + filterSel
     + '</div>';
-  html += wlBriefPendingHint(tickers);
+  html += wlBriefPendingHint(tickers, brfActiveL);
   // Group by named list. The builder tags each briefing with the list name(s)
   // it belongs to (index.briefings[].lists); a ticker on more than one briefing
   // list shows under each. Falls back to a single grid for an old index.json
@@ -3784,11 +3832,16 @@ function renderBriefings(){
   };
   if(anyTagged){
     // Order groups by the user's own list order when we know it, then any
-    // remaining tagged lists in index order.
+    // remaining tagged lists in index order. A list filter shows only its group.
     const seen = new Set();
     const ordered = [...listByName.keys(), ...groups.keys()];
+    let shown = 0;
     for(const n of ordered){
-      if(groups.has(n) && !seen.has(n)){ seen.add(n); html += section(n, groups.get(n)); }
+      if(brfFilterName && n !== brfFilterName) continue;
+      if(groups.has(n) && !seen.has(n)){ seen.add(n); html += section(n, groups.get(n)); shown++; }
+    }
+    if(brfFilterName && shown === 0){
+      html += '<div class="empty-state" style="padding:22px;"><p style="color:var(--text3);">No briefings built for \u201c' + brfEsc(brfFilterName) + '\u201d yet. They appear after the next nightly run.</p></div>';
     }
   } else {
     html += '<div class="brf-grid">';
@@ -3800,10 +3853,11 @@ function renderBriefings(){
 
 /* Tickers that are on a 🎧-enabled list but not in the latest built index — so
    users understand why a just-added ticker isn't showing a briefing yet. */
-function wlBriefPendingHint(builtTickers){
+function wlBriefPendingHint(builtTickers, onlyList){
   try{
     const built = new Set((builtTickers||[]).map(t => String(t).toUpperCase()));
-    const lists = (typeof wlData!=='undefined' && wlData.lists) ? wlData.lists : [];
+    const lists = onlyList ? [onlyList]
+                : ((typeof wlData!=='undefined' && wlData.lists) ? wlData.lists : []);
     const pend = [];
     for(const l of lists){
       if(!l || !l.briefings) continue;
