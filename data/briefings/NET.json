@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-07T23:51:42.973707-07:00",
+  "generated_at": "2026-09-08T16:54:50.533732-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Zscaler: The $640M Hidden Warning",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=e79dd18a7c335a86d4148b0b9a8b42b797b6593dce050c947a8e21f316d1139a",
+      "datetime": 1788891038,
+      "summary": "Zscaler's Q4 FY26 beat estimates, but FY27 guidance points to slowing ARR growth and weak net new ARR. Click here to read why ZS is rated a Sell."
+    },
+    {
+      "headline": "What's Going On With Cloudflare Stock Tuesday?",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=aa4c0a8e9a96fbf844c3c85a33e8368a09efe50d2f82c813b998be432a601a15",
+      "datetime": 1788861203,
+      "summary": "Cloudflare (NET) shares drop ~2% amid market pullback. See technical levels, stock analysis, and OpenAI cyber security update."
+    },
+    {
+      "headline": "Columbia Select Mid Cap Growth Fund Q2 2026 Portfolio Review",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=b9467a4dfbed154ad48d25e8e3e4d9332312cdfb5028ef22993af0c0a13c84d7",
+      "datetime": 1788854700,
+      "summary": "Institutional Class shares of Columbia Select Mid Cap Growth Fund returned 26.69% for the period ending June 30, 2026. Read more here."
+    },
     {
       "headline": "OpenAI\u2019s $1 Billion Cyber Push Backs Cloudflare and SentinelOne. Which Has the Better AI Security Model?",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=b7082c4fb0cd2136d55ec5ba2d7f2e18459a9d4d3137acce7a06635ecaa44598",
       "datetime": 1788529306,
       "summary": "Zscaler is rated a Buy as AI threats rise, with its zero-trust cybersecurity platform, earnings beat, and spending tailwinds. Click for more on the ZS stock."
-    },
-    {
-      "headline": "Cloudflare (NET) Unveiled New AI Security Tools For Developers",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ead09428c833013a97ab5d7e3d94ead5659ff99bc508b2dbc3b1d846eab946c0",
-      "datetime": 1788502771,
-      "summary": "Cloudflare (NYSE:NET) launched new AI powered vulnerability discovery and remediation tools for enterprise customers, built on OpenAI models. The company introduced automated, context aware security workflows that aim to help development teams find and fix application weaknesses more quickly. Cloudflare also enabled support for running Cursor Cloud Agents so developers can execute AI coding agents"
-    },
-    {
-      "headline": "Content Delivery Stocks Q2 Recap: Benchmarking Cloudflare (NYSE:NET)",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=10de694732054fb50f02626e4a1336cc7830bb29808c119148e9f9e625c9c991",
-      "datetime": 1788481878,
-      "summary": "The end of an earnings season can be a great time to discover new stocks and assess how companies are handling the current business environment. Let\u2019s take a look at how Cloudflare (NYSE:NET) and the rest of the content delivery stocks fared in Q2."
-    },
-    {
-      "headline": "Commvault, Asana, Atlassian, Cloudflare, and Twilio Stocks Trade Up, What You Need To Know",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b54d1fc8f18ddf75a684ce93e99807005cd9f986d73b937e1ead6e245379f829",
-      "datetime": 1788471318,
-      "summary": "A number of stocks jumped in the afternoon session after software equities broadly gained momentum following a pullback in treasury yields and second-quarter financial results from Snowflake."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-04",
+  "data_asof": "2026-09-08",
   "price": {
-    "last": 278.92,
-    "open": 282.25,
-    "prev_close": 284.51,
-    "move_day_pct": -1.96,
-    "move_open_close_pct": -1.18,
-    "move_week_pct": -6.98
+    "last": 284.3,
+    "open": 278.12,
+    "prev_close": 278.92,
+    "move_day_pct": 1.93,
+    "move_open_close_pct": 2.22,
+    "move_week_pct": -6.82
   },
   "indicators": {
     "rsi14": {
-      "value": 46.7,
+      "value": 48.8,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 0.451,
-      "signal": 3.737,
-      "hist": -3.286,
-      "hist_prev": -3.111,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": 0.095,
+      "signal": 3.009,
+      "hist": -2.914,
+      "hist_prev": -3.286,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 326.85,
-      "lower": 265.71,
-      "mid": 296.28,
-      "pctb": 0.216,
+      "upper": 325.22,
+      "lower": 264.71,
+      "mid": 294.97,
+      "pctb": 0.324,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 74.12,
-      "read": "74% above its 52-week low"
+      "value": 77.48,
+      "read": "77% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -15.69,
-      "read": "16% below its 52-week high"
+      "value": -14.06,
+      "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 222.35,
-      "pct": 25.44,
-      "read": "25% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 222.78,
+      "pct": 27.61,
+      "read": "28% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 15.67,
-      "pct_of_price": 5.62,
+      "value": 15.78,
+      "pct_of_price": 5.55,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.49,
-      "read": "Light \u2014 quiet trading"
+      "value": 0.65,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 42.7,
+      "value": 48.6,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 330.83,
-  "ma50": 280.23,
-  "ma200": 222.35
+  "ma50": 281.17,
+  "ma200": 222.78
 }

@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-07T23:51:44.021024-07:00",
+  "generated_at": "2026-09-08T16:54:56.423403-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "New meta-analysis shows statistically significant improvements in patient outcomes associated with da Vinci surgery versus laparoscopic and open surgery across 13 common benign conditions",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=fd54f80c06aa4a9a9658b7f6d663df2a994d6f921a2c7e17a591b1c308175632",
+      "datetime": 1788897900,
+      "summary": "Largest comparative meta-analysis of its kind found da Vinci robotic-assisted surgery was associated with shorter hospital stays and a faster return to work compared with laparoscopic and open surgerySUNNYVALE, Calif., Sept. 08, 2026 (GLOBE NEWSWIRE) -- Intuitive (NASDAQ: ISRG), a global technology leader in minimally invasive care and the pioneer of robotic-assisted surgery, today announced the p"
+    },
+    {
+      "headline": "The Zacks Analyst Blog Highlights FANUY, ABBNY, KYCCF, NVDA, ISRG, ILMN, NOVT, BOTZ, ROBO, ROBT and IBOT",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d719bf4179166f804962f458c60fedca5ab419c8b8e4f402545a7df02e0737fe",
+      "datetime": 1788876660,
+      "summary": "BOTZ offers diversified exposure to a robotics boom fueled by AI, humanoid robots and industrial automation, as the sector rapidly evolves."
+    },
+    {
+      "headline": "BTIG Reiterates Buy on Intuitive Surgical, Maintains $469 Price Target",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=45bb3b4266019b2a0287108dd8421fffc0b2a2c09f81598b69640408df3ee04e",
+      "datetime": 1788846855,
+      "summary": "BTIG  analyst Ryan Zimmerman   reiterates Intuitive Surgical (NASDAQ:ISRG) with a Buy and maintains $469 price target."
+    },
     {
       "headline": "ISRG's Ion Platform Is Quietly Becoming a Second Growth Engine",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=4f2802aa4ef24aef7667975d5a4b559ef64630292829d06fe129c3b40461cdab",
       "datetime": 1788769260,
       "summary": "Report Features In-Depth Profiles of Abbott, Great Robotics, Intuitive Surgical, Johnson & Johnson, Medtronic, Panasonic, Renishaw, Siemens Healthineers, Smith+Nephew, Stryker, Zimmer Biomet, and FreehandDublin, Sept. 07, 2026 (GLOBE NEWSWIRE) -- The \"Surgical Robots Market by Offering of Surgical Robot Developers, Deployment Model, Type of Surgical Procedure Supported, Application Area, End Users"
-    },
-    {
-      "headline": "Intuitive Surgical's Growth Has Cooled From Its Post-Pandemic Highs. Is That a Buying Opportunity or a Warning?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f31cc8d1255da3ee79e5624e02335c5248d5b4a3379803c2af1f1642307dfd60",
-      "datetime": 1788636900,
-      "summary": "Intuitive Surgical's flywheel isn't selling new surgical robots, its selling parts and services to support the ones it has already sold."
-    },
-    {
-      "headline": "2 Stocks Down 8% or More That Are Screaming Buys Right Now",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=62ee29f2438111e292e68f25c0a9a3e289f960d0f95bdd76f41ce778ce43a6d1",
-      "datetime": 1788533400,
-      "summary": "You might regret ignoring these companies at current levels."
-    },
-    {
-      "headline": "Intuitive Surgical Vs. Stryker: Wall Street Loves Both But One Has a Quiet Advantage That Will Make Investors Money",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=76f3698994d65bb294be8ceff12ff1a40bf34f8086fc4997976d2b23b48436f1",
-      "datetime": 1788533142,
-      "summary": "Both Intuitive Surgical and Stryker just posted their fifth straight earnings beat, and Wall Street is cheering for both. But a structural difference buried inside their business models quietly separates a compounder from a cyclical recovery story."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-04",
+  "data_asof": "2026-09-08",
   "price": {
-    "last": 366.7,
-    "open": 367.81,
-    "prev_close": 369.83,
-    "move_day_pct": -0.85,
-    "move_open_close_pct": -0.3,
-    "move_week_pct": -1.58
+    "last": 350.16,
+    "open": 361.23,
+    "prev_close": 366.7,
+    "move_day_pct": -4.51,
+    "move_open_close_pct": -3.06,
+    "move_week_pct": -7.08
   },
   "indicators": {
     "rsi14": {
-      "value": 43.0,
-      "read": "Neutral"
+      "value": 35.1,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -3.497,
-      "signal": -2.331,
-      "hist": -1.166,
-      "hist_prev": -1.073,
+      "macd": -5.078,
+      "signal": -2.88,
+      "hist": -2.197,
+      "hist_prev": -1.166,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 406.84,
-      "lower": 356.58,
-      "mid": 381.71,
-      "pctb": 0.201,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 407.56,
+      "lower": 351.54,
+      "mid": 379.55,
+      "pctb": -0.025,
+      "read": "Below the lower band \u2014 stretched to the downside"
     },
     "pct_from_52w_low": {
-      "value": 10.45,
+      "value": 5.46,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -38.15,
-      "read": "38% below its 52-week high"
+      "value": -40.94,
+      "read": "41% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 463.81,
-      "pct": -20.94,
-      "read": "21% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 462.82,
+      "pct": -24.34,
+      "read": "24% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 11.37,
-      "pct_of_price": 3.1,
+      "value": 11.93,
+      "pct_of_price": 3.41,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.79,
+      "value": 1.25,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 41.7,
+      "value": 32.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 332.02,
   "high_52w": 592.85,
-  "ma50": 381.01,
-  "ma200": 463.81
+  "ma50": 379.92,
+  "ma200": 462.82
 }

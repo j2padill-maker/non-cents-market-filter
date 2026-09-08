@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-07T23:51:40.895142-07:00",
+  "generated_at": "2026-09-08T16:54:43.942900-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Icon Solutions and MongoDB Benchmark Shows IPF Processing 6,000 Payments per Second with Zero Data Loss Under Failure",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=78bb716c5ceb6647a498e7235a801ef641dd33042acec7c9e59014523a9202e3",
+      "datetime": 1788857640,
+      "summary": "LONDON, September 08, 2026--Icon Solutions and MongoDB today published the results of a joint benchmark showing that the Icon Payments Framework (IPF), running on MongoDB Atlas, processed 6,000 end-to-end payment transactions per second (around 430,000 database operations per second) with a mean end-to-end latency of 0.51 seconds, and recovered from both application and database node failures with"
+    },
     {
       "headline": "AI Token Costs Are Changing the Hardware vs. Software Debate",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=6cbf0e940c3bcb375744ff31cde6980948199af6337aa6a6ff652567ef3cc0f3",
       "datetime": 1788550560,
       "summary": "MongoDB, Inc. (NASDAQ: MDB) today announced that it will present at three upcoming investor conferences:"
-    },
-    {
-      "headline": "Why MongoDB Fell This Week",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3b80b602bf2c9c6cb1f9896dd7f0ef386b24dfd38c75f93858d5203aec9af71a",
-      "datetime": 1788462798,
-      "summary": "Investors \"sold the news\" on Mongo's earnings report, even as it came in stronger-than-expected."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-04",
+  "data_asof": "2026-09-08",
   "price": {
-    "last": 368.74,
-    "open": 378.34,
-    "prev_close": 384.45,
-    "move_day_pct": -4.09,
-    "move_open_close_pct": -2.54,
-    "move_week_pct": -17.44
+    "last": 356.0,
+    "open": 360.75,
+    "prev_close": 368.74,
+    "move_day_pct": -3.46,
+    "move_open_close_pct": -1.32,
+    "move_week_pct": -21.48
   },
   "indicators": {
     "rsi14": {
-      "value": 42.2,
-      "read": "Neutral"
+      "value": 39.8,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": 5.983,
-      "signal": 15.839,
-      "hist": -9.856,
-      "hist_prev": -7.855,
+      "macd": 1.4,
+      "signal": 12.951,
+      "hist": -11.551,
+      "hist_prev": -9.856,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 479.49,
-      "lower": 371.35,
-      "mid": 425.42,
-      "pctb": -0.024,
+      "upper": 484.32,
+      "lower": 360.45,
+      "mid": 422.39,
+      "pctb": -0.036,
       "read": "Below the lower band \u2014 stretched to the downside"
     },
     "pct_from_52w_low": {
-      "value": 63.2,
-      "read": "63% above its 52-week low"
+      "value": 57.56,
+      "read": "58% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -21.93,
-      "read": "22% below its 52-week high"
+      "value": -24.62,
+      "read": "25% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 342.45,
-      "pct": 7.68,
-      "read": "8% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 342.54,
+      "pct": 3.93,
+      "read": "4% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 23.62,
-      "pct_of_price": 6.41,
+      "value": 22.98,
+      "pct_of_price": 6.45,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.15,
-      "read": "Roughly average volume"
+      "value": 1.34,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 31.1,
+      "value": 30.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 373.45,
-  "ma200": 342.45
+  "ma50": 374.28,
+  "ma200": 342.54
 }

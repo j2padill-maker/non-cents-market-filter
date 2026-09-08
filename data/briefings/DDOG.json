@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-07T23:51:42.800794-07:00",
+  "generated_at": "2026-09-08T16:54:48.883354-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Zeta: I See A Path To $60+/Share",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=783f52a71b5dfca98ef25dd660c790a06cd438c27733ad53c5804e1a6f409846",
+      "datetime": 1788886204,
+      "summary": "Zeta shifts to AI infrastructure; Q2 FY26 revenue is +43.5% YoY and GAAP profit. Raised guidance, buy rating, $63 target. Click for more on ZETA stock."
+    },
+    {
+      "headline": "DigiStor Appoints Michael Callahan to Board of Directors",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=6191a898e4d4234ae4dcf7dc3ffa5a770104e6cc1b10d1603a24349b9b76c724",
+      "datetime": 1788873000,
+      "summary": "VANCOUVER, Wash., September 08, 2026--DigiStor, a leading provider of secure data-at-rest protection solutions, today announced the appointment of Michael Callahan to its board of directors. Callahan\u2019s appointment strengthens DigiStor\u2019s leadership as the company continues to expand its secure storage and data protection portfolio."
+    },
+    {
+      "headline": "Alex Kurland Joins Menlo Ventures as Partner",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=646c1bb6cd9b8a494b2de991560b7d95c54267d5cf0be5d63af2b40425d181d3",
+      "datetime": 1788861600,
+      "summary": "Veteran Growth Investor Behind Clay, Datadog, DoorDash, Kalshi, Snowflake, and Other Category-Defining Companies Joins Menlo\u2019s Inflection Team Alex Kurland Alex Kurland, Partner, Menlo Ventures MENLO PARK, Calif., Sept. 08, 2026 (GLOBE NEWSWIRE) -- Menlo Ventures, a leading venture capital firm investing at the forefront of AI, today announced that Alex Kurland has joined the firm as a Partner on "
+    },
     {
       "headline": "Palantir Stock Leads August Rally -- Nvidia, Salesforce and Super Micro Jump",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=c2229d1f5d9add8a72b582bead4d26163ff1cf080bdca0e030789ba15389a337",
       "datetime": 1788622500,
       "summary": "GitLab posted 21.3% revenue growth and beat earnings estimates in Q2 FY2027, driven by its Flex consumption pricing model, and raised its full-year adjusted earnings guidance."
-    },
-    {
-      "headline": "Benzinga Bulls and Bears: Palo Alto, Ciena, Lululemon",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=fed21fdac8ddb2e15d89d27f942aca3066231cc5e10ddc9a4e2a0e732c8451e5",
-      "datetime": 1788595274,
-      "summary": "Benzinga examined the prospects for many investors\u2019 favorite stocks over the last week \u2014 here\u2019s a look at some of our top stories."
-    },
-    {
-      "headline": "Snowflake Falls 5% as Traders Take Profits on Its Guidance Surge; Datadog Holds Steady",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=1a7240103a3f845505e6dd7b766e8d97518cd26e78a98b8427eb6779f912fccd",
-      "datetime": 1788548567,
-      "summary": "Snowflake surged 17% on earnings night, then spent Friday giving it back while every benchmark around it barely budged. That split-screen moment raises a pointed question about who is actually selling and why."
-    },
-    {
-      "headline": "Rare Stock Picks In August 2026 - From 21 Discerning Analysts",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=03506c0968ac04fef9eca132c9e0a15083a007ee327c051af15b249f8a93f031",
-      "datetime": 1788508800,
-      "summary": "In our monthly Rare Stock Picks series, we're highlighting August 2026 investment picks. Click here for the list of August 2026 Buy recommendations."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-04",
+  "data_asof": "2026-09-08",
   "price": {
-    "last": 212.93,
-    "open": 212.19,
-    "prev_close": 214.76,
-    "move_day_pct": -0.85,
-    "move_open_close_pct": 0.35,
-    "move_week_pct": -10.15
+    "last": 210.23,
+    "open": 207.0,
+    "prev_close": 212.93,
+    "move_day_pct": -1.27,
+    "move_open_close_pct": 1.56,
+    "move_week_pct": -11.31
   },
   "indicators": {
     "rsi14": {
-      "value": 38.7,
+      "value": 37.6,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -9.007,
-      "signal": -6.534,
-      "hist": -2.473,
-      "hist_prev": -2.427,
+      "macd": -9.64,
+      "signal": -7.155,
+      "hist": -2.485,
+      "hist_prev": -2.473,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 263.1,
-      "lower": 207.43,
-      "mid": 235.27,
-      "pctb": 0.099,
+      "upper": 260.02,
+      "lower": 205.46,
+      "mid": 232.74,
+      "pctb": 0.087,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 107.5,
-      "read": "108% above its 52-week low"
+      "value": 104.87,
+      "read": "105% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -26.1,
-      "read": "26% below its 52-week high"
+      "value": -27.04,
+      "read": "27% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 176.37,
-      "pct": 20.73,
-      "read": "21% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 176.54,
+      "pct": 19.08,
+      "read": "19% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 13.27,
-      "pct_of_price": 6.23,
+      "value": 13.02,
+      "pct_of_price": 6.19,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.51,
+      "value": 1.06,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 31.1,
+      "value": 30.6,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 288.15,
-  "ma50": 249.23,
-  "ma200": 176.37
+  "ma50": 248.64,
+  "ma200": 176.54
 }

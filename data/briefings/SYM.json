@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-07T23:51:44.188280-07:00",
+  "generated_at": "2026-09-08T16:54:57.748823-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Barclays Maintains Underweight on Symbotic, Lowers Price Target to $38",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=8111b877f726e8fd6f51024885c353ead4b68bc368c211bd77a8d8c7e0682a5b",
+      "datetime": 1788861405,
+      "summary": "Barclays  analyst Guy Hardwick   maintains Symbotic (NASDAQ:SYM) with a Underweight and lowers the price target from $44 to $38."
+    },
     {
       "headline": "Why Is SYMBOTIC INC (SYM) Up 5.1% Since Last Earnings Report?",
       "source": "Yahoo",
@@ -75,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-04",
+  "data_asof": "2026-09-08",
   "price": {
-    "last": 42.94,
-    "open": 41.67,
-    "prev_close": 41.6,
-    "move_day_pct": 3.22,
-    "move_open_close_pct": 3.05,
-    "move_week_pct": 7.69
+    "last": 43.3,
+    "open": 43.19,
+    "prev_close": 42.94,
+    "move_day_pct": 0.84,
+    "move_open_close_pct": 0.27,
+    "move_week_pct": 9.15
   },
   "indicators": {
     "rsi14": {
-      "value": 55.3,
+      "value": 56.3,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.392,
-      "signal": -0.568,
-      "hist": 0.175,
-      "hist_prev": -0.02,
+      "macd": -0.172,
+      "signal": -0.489,
+      "hist": 0.316,
+      "hist_prev": 0.175,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 43.3,
-      "lower": 38.7,
-      "mid": 41.0,
-      "pctb": 0.922,
+      "upper": 43.63,
+      "lower": 38.69,
+      "mid": 41.16,
+      "pctb": 0.934,
       "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 12.35,
+      "value": 13.29,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -50.81,
-      "read": "51% below its 52-week high"
+      "value": -50.4,
+      "read": "50% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 52.52,
-      "pct": -18.24,
-      "read": "18% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 52.48,
+      "pct": -17.49,
+      "read": "17% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 1.87,
-      "pct_of_price": 4.36,
+      "value": 1.86,
+      "pct_of_price": 4.29,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.83,
+      "value": 1.2,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 50.2,
+      "value": 58.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 38.22,
   "high_52w": 87.3,
-  "ma50": 41.98,
-  "ma200": 52.52
+  "ma50": 42.02,
+  "ma200": 52.48
 }
