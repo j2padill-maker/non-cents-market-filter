@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-08T16:55:01.566177-07:00",
+  "generated_at": "2026-09-09T00:03:47.119044-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -125,7 +125,7 @@
     },
     "atr14": {
       "value": 1.9,
-      "pct_of_price": 3.75,
+      "pct_of_price": 3.76,
       "read": "Elevated volatility"
     },
     "rel_volume": {

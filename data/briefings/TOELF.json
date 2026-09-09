@@ -2,7 +2,7 @@
   "ticker": "TOELF",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-08T16:54:47.732710-07:00",
+  "generated_at": "2026-09-09T00:03:44.620080-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -22,13 +22,6 @@
       "url": "https://finnhub.io/api/news?id=aeab088c8d66e061fe8a5fe09098348dbc98189d905e46d3f68581d86d2605b9",
       "datetime": 1788548778,
       "summary": "2026-09-04. The following slide deck was published by Tokyo Electron Limited in conjunction with this event."
-    },
-    {
-      "headline": "Tokyo Electron: AI Complexity Is Expanding Its Share Of The Wafer",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=c9ef6d436a2a648fe6b5419db6313e6e94af70f2d19f396f61b1aa4c368a1856",
-      "datetime": 1788265815,
-      "summary": "Tokyo Electron is poised to gain from AI-driven semiconductor complexity; strong tools moat, rising margins and FY guidance. Click to read my analysis."
     }
   ],
   "filings": [],
@@ -37,61 +30,61 @@
   "status": "ok",
   "data_asof": "2026-09-08",
   "price": {
-    "last": 353.0,
+    "last": 367.6,
     "open": 353.0,
     "prev_close": 352.63,
-    "move_day_pct": 0.1,
-    "move_open_close_pct": 0.0,
-    "move_week_pct": 1.36
+    "move_day_pct": 4.25,
+    "move_open_close_pct": 4.14,
+    "move_week_pct": 5.55
   },
   "indicators": {
     "rsi14": {
-      "value": 48.5,
+      "value": 53.4,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -6.236,
-      "signal": -8.92,
-      "hist": 2.684,
+      "macd": -5.071,
+      "signal": -8.687,
+      "hist": 3.616,
       "hist_prev": 2.561,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 375.31,
-      "lower": 326.49,
-      "mid": 350.9,
-      "pctb": 0.543,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 377.1,
+      "lower": 326.16,
+      "mid": 351.63,
+      "pctb": 0.814,
+      "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 156.15,
-      "read": "156% above its 52-week low"
+      "value": 166.74,
+      "read": "167% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -28.77,
-      "read": "29% below its 52-week high"
+      "value": -25.83,
+      "read": "26% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 305.31,
-      "pct": 15.62,
-      "read": "16% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 305.38,
+      "pct": 20.37,
+      "read": "20% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 25.02,
-      "pct_of_price": 7.09,
+      "value": 26.33,
+      "pct_of_price": 7.16,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.21,
-      "read": "Light \u2014 quiet trading"
+      "value": 0.84,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 92.2,
+      "value": 92.5,
       "read": "Overbought \u2014 money flowing in"
     }
   },
   "low_52w": 137.81,
   "high_52w": 495.61,
-  "ma50": 381.8,
-  "ma200": 305.31
+  "ma50": 382.09,
+  "ma200": 305.38
 }

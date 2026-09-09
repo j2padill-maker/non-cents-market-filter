@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-08T16:54:43.942900-07:00",
+  "generated_at": "2026-09-09T00:03:43.715260-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "MongoDB (MDB) Q2 2027 Earnings Call Transcript",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f34c8dff6d3485280351bf5885f1061f1f4a9f31ea5fdfa54c5bd42ad532da71",
+      "datetime": 1788908336,
+      "summary": "Atlas revenue surged 29% as AI workloads accelerated across enterprise customers."
+    },
     {
       "headline": "Icon Solutions and MongoDB Benchmark Shows IPF Processing 6,000 Payments per Second with Zero Data Loss Under Failure",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=d180a4b55542c389cf6aba25f41a111377c11d398072f9790814e4a23b323580",
       "datetime": 1788556560,
       "summary": "Apple, Broadcom and Shell show long-term strengths, but rising costs, AI execution risks and market volatility cloud their near-term outlooks."
-    },
-    {
-      "headline": "MongoDB, Inc. to Present at Upcoming Investor Conferences",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6cbf0e940c3bcb375744ff31cde6980948199af6337aa6a6ff652567ef3cc0f3",
-      "datetime": 1788550560,
-      "summary": "MongoDB, Inc. (NASDAQ: MDB) today announced that it will present at three upcoming investor conferences:"
     }
   ],
   "filings": [
@@ -125,7 +125,7 @@
     },
     "atr14": {
       "value": 22.98,
-      "pct_of_price": 6.45,
+      "pct_of_price": 6.46,
       "read": "High daily volatility"
     },
     "rel_volume": {

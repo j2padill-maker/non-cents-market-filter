@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-08T16:54:48.883354-07:00",
+  "generated_at": "2026-09-09T00:03:44.870683-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "An Emerging AI Agent Economy: First A Software Apocalypse, Now A Renaissance?",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=9e98cc72a1e33a36c437aaceb1122b67f3afd76e80622af13f8e46fce8ce6876",
+      "datetime": 1788918000,
+      "summary": "Dow Jones US Software Index, which serves as a U.S. software sector benchmark, fell from record close of $9040.04 on October 28th, 2025, to $5773.08 on April 10, 2026. Read more here."
+    },
+    {
+      "headline": "Datadog, Inc. (DDOG) Presents at Citi's 2026 Global TMT Conference Transcript",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=49539a661dbfa136ddf42fb8dfa8500da85cd4d1f6e9382af18a2d9b83ee4e4b",
+      "datetime": 1788896130,
+      "summary": "Datadog, Inc. (DDOG) Citi's 2026 Global TMT Conference September 8, 2026 11:30 AM EDTCompany ParticipantsOlivier Pomel - Co-Founder, CEO &..."
+    },
     {
       "headline": "Zeta: I See A Path To $60+/Share",
       "source": "SeekingAlpha",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=89ee1437c35b1ea43ff04c0695734f1b0ef289bd07ced8822ca70a45052719c9",
       "datetime": 1788818335,
       "summary": "Palantir Crushes Tech Stocks in August: Salesforce Nears 40% Gain, Super Micro Jumps"
-    },
-    {
-      "headline": "Is Datadog (DDOG) Undervalued As Its Pullback Tests A Rich Valuation?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f81bc99b5fcd5b613dc6ab0985a2bf2f259c66074a1f815ec05f48d791f0befc",
-      "datetime": 1788725153,
-      "summary": "Datadog Stock Performance Check After Recent Pullback Datadog (DDOG) has drawn fresh attention after a recent pullback, with the stock down about 10% over the past month and roughly 8% over the past 3 months. At a last close of $212.93, Datadog sits against a backdrop of double digit annual revenue and net income growth, alongside a market value of about $76.5b. Despite the recent pullback, Datado"
-    },
-    {
-      "headline": "GitLab\u2019s AI Tools Are Starting to Turn Developer Demand Into Real Revenue",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c2229d1f5d9add8a72b582bead4d26163ff1cf080bdca0e030789ba15389a337",
-      "datetime": 1788622500,
-      "summary": "GitLab posted 21.3% revenue growth and beat earnings estimates in Q2 FY2027, driven by its Flex consumption pricing model, and raised its full-year adjusted earnings guidance."
     }
   ],
   "filings": [
@@ -129,7 +129,7 @@
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.06,
+      "value": 1.07,
       "read": "Roughly average volume"
     },
     "mfi14": {

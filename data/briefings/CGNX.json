@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-08T16:54:54.869683-07:00",
+  "generated_at": "2026-09-09T00:03:45.576032-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -50,13 +50,6 @@
       "url": "https://finnhub.io/api/news?id=08104ece244cf0ee70d4684342e434b680354d01c44c0ab8c6c8609e71a63c69",
       "datetime": 1788354000,
       "summary": "Cognex Corporation (NASDAQ: CGNX), the global technology leader in industrial machine vision, today announced that Dennis Fehr, Chief Financial Officer, is scheduled to participate in a fireside chat at the Morgan Stanley 14th Annual Laguna Conference on Wednesday, September 16, 2026, at 7:45 a.m. Pacific Time."
-    },
-    {
-      "headline": "Is Elastic (ESTC) Stock Outpacing Its Computer and Technology Peers This Year?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2119ce81fcd52d4ae08bc6916bca2d935deae92f225d10e413b6fee28091ef7f",
-      "datetime": 1788273603,
-      "summary": "Here is how Elastic (ESTC) and Cognex Corporation (CGNX) have performed compared to their sector so far this year."
     }
   ],
   "filings": [
@@ -124,8 +117,8 @@
       "read": "16% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 2.37,
-      "pct_of_price": 3.81,
+      "value": 2.38,
+      "pct_of_price": 3.82,
       "read": "Elevated volatility"
     },
     "rel_volume": {

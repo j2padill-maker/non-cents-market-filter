@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-08T16:54:57.748823-07:00",
+  "generated_at": "2026-09-09T00:03:46.349026-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -43,20 +43,6 @@
       "url": "https://finnhub.io/api/news?id=c9330fc91650803387ea1a7048a66e31ea13f2e6c05641620839d59c58bc333a",
       "datetime": 1788322698,
       "summary": "Jensen Huang sees a $50T robotics market. Discover how actuator stocks like MOG.A, MP, SYM, and KOID power physical AI."
-    },
-    {
-      "headline": "Symbotic's Backlog Sits at $22.5 Billion. Here's The Customer Concentration Risk Nobody Talks About",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=05fbf09bea4cc2ced54f09a803aed7578d4e5b6e58891a4ee52a67d29d20f8bb",
-      "datetime": 1788291423,
-      "summary": "This warehouse automation company is tightly tethered to Walmart."
-    },
-    {
-      "headline": "Symbotic: The Market Is Underestimating Its Growth Runway",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=5881c493d5688c8c4f1bb535417de80d77717ef335b1adb00cc2e84696df8168",
-      "datetime": 1788261040,
-      "summary": "Symbotic: 20%+ revenue growth, a $22.5B backlog, and improving margins make the valuation compelling. Click for more on SYM stock."
     }
   ],
   "filings": [
@@ -125,7 +111,7 @@
     },
     "atr14": {
       "value": 1.86,
-      "pct_of_price": 4.29,
+      "pct_of_price": 4.3,
       "read": "High daily volatility"
     },
     "rel_volume": {

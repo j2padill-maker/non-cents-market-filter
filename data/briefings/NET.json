@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-08T16:54:50.533732-07:00",
+  "generated_at": "2026-09-09T00:03:45.108612-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,11 +17,25 @@
   ],
   "news": [
     {
+      "headline": "An Emerging AI Agent Economy: First A Software Apocalypse, Now A Renaissance?",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=9e98cc72a1e33a36c437aaceb1122b67f3afd76e80622af13f8e46fce8ce6876",
+      "datetime": 1788918000,
+      "summary": "Dow Jones US Software Index, which serves as a U.S. software sector benchmark, fell from record close of $9040.04 on October 28th, 2025, to $5773.08 on April 10, 2026. Read more here."
+    },
+    {
       "headline": "Zscaler: The $640M Hidden Warning",
       "source": "SeekingAlpha",
       "url": "https://finnhub.io/api/news?id=e79dd18a7c335a86d4148b0b9a8b42b797b6593dce050c947a8e21f316d1139a",
       "datetime": 1788891038,
       "summary": "Zscaler's Q4 FY26 beat estimates, but FY27 guidance points to slowing ARR growth and weak net new ARR. Click here to read why ZS is rated a Sell."
+    },
+    {
+      "headline": "Cloudflare Surges 41% YTD: Should You Buy, Sell or Hold the Stock?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=82e60c12a15c090ec40930bfd9d45951a31ca57cb8c2a068abf3f7c7ad137092",
+      "datetime": 1788875760,
+      "summary": "NET's AI security, SASE and Workers momentum support growth, but margin pressure and a premium valuation warrant caution."
     },
     {
       "headline": "What's Going On With Cloudflare Stock Tuesday?",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=abb58f74cd6c5f36da143e0ecbd709e631d5df0621a89bf1123f281f572446c4",
       "datetime": 1788611169,
       "summary": "OpenAI launched Daybreak for Frontline Defenders on September 3, committing $1 billion in subsidized Daybreak access, training, technical support and partnerships. Separately, the Daybreak Defense Network now includes more than 35 enterprise products and partner-operated services. Cloudflare is offering invitation-only access to an AI vulnerability-discovery and remediation service built with GPT-"
-    },
-    {
-      "headline": "Why Cloudflare (NET) Dipped More Than Broader Market Today",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=cee185a45f286a365c1edd986b11f5380f074fdadbb4866f3faa9173d920a244",
-      "datetime": 1788558602,
-      "summary": "Cloudflare (NET) concluded the recent trading session at $277.85, signifying a -2.34% move from its prior day's close."
-    },
-    {
-      "headline": "OpenAI Astra Cybersecurity Reveal: Skip Legacy Cybersecurity, Buy Zscaler",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=b7082c4fb0cd2136d55ec5ba2d7f2e18459a9d4d3137acce7a06635ecaa44598",
-      "datetime": 1788529306,
-      "summary": "Zscaler is rated a Buy as AI threats rise, with its zero-trust cybersecurity platform, earnings beat, and spending tailwinds. Click for more on the ZS stock."
     }
   ],
   "filings": [

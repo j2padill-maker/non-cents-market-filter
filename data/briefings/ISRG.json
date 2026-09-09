@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-08T16:54:56.423403-07:00",
+  "generated_at": "2026-09-09T00:03:46.114418-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Here's Why Intuitive Surgical, Inc. (ISRG) Fell More Than Broader Market",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=4e30ea85a7614ab8467872e5fae21d1ff1b0e11a414919d6c30f6ca8a0cd4179",
+      "datetime": 1788904201,
+      "summary": "Intuitive Surgical, Inc. (ISRG) closed the most recent trading day at $350.16, moving 4.51% from the previous trading session."
+    },
     {
       "headline": "New meta-analysis shows statistically significant improvements in patient outcomes associated with da Vinci surgery versus laparoscopic and open surgery across 13 common benign conditions",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=bd62df8ef1027cea2e815ad3bbb21d584987832cf3ac67fb352bc6b373aa8446",
       "datetime": 1788784244,
       "summary": "Sands Capital, an investment management company, released its second-quarter 2026 investor letter for \u201cSands Capital Global Growth Fund\u201d. The letter can be downloaded here. Global Growth seeks the best growth businesses worldwide, leveraging a research team that explores both developed and emerging markets for sustainable competitive advantages. In the quarter, global equities rebounded strongly, "
-    },
-    {
-      "headline": "Global Surgical Robots Market to Reach $10.6 Billion in 2026, Driven by AI Integration and Minimally Invasive Surgery",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4f2802aa4ef24aef7667975d5a4b559ef64630292829d06fe129c3b40461cdab",
-      "datetime": 1788769260,
-      "summary": "Report Features In-Depth Profiles of Abbott, Great Robotics, Intuitive Surgical, Johnson & Johnson, Medtronic, Panasonic, Renishaw, Siemens Healthineers, Smith+Nephew, Stryker, Zimmer Biomet, and FreehandDublin, Sept. 07, 2026 (GLOBE NEWSWIRE) -- The \"Surgical Robots Market by Offering of Surgical Robot Developers, Deployment Model, Type of Surgical Procedure Supported, Application Area, End Users"
     }
   ],
   "filings": [
@@ -85,10 +85,10 @@
   "data_asof": "2026-09-08",
   "price": {
     "last": 350.16,
-    "open": 361.23,
+    "open": 361.31,
     "prev_close": 366.7,
     "move_day_pct": -4.51,
-    "move_open_close_pct": -3.06,
+    "move_open_close_pct": -3.09,
     "move_week_pct": -7.08
   },
   "indicators": {

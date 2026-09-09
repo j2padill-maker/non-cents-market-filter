@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-08T16:55:00.671712-07:00",
+  "generated_at": "2026-09-09T00:03:46.938566-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "The Zacks Analyst Blog Highlights FANUY, ABBNY, KYCCF, NVDA, ISRG, ILMN, NOVT, BOTZ, ROBO, ROBT and IBOT",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d719bf4179166f804962f458c60fedca5ab419c8b8e4f402545a7df02e0737fe",
+      "datetime": 1788876660,
+      "summary": "BOTZ offers diversified exposure to a robotics boom fueled by AI, humanoid robots and industrial automation, as the sector rapidly evolves."
+    },
     {
       "headline": "3 Things I Think I Think",
       "source": "SeekingAlpha",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=d73ec82f651930fbe8adb62766f2b042452f9ee41b03a835b7ab5d39184a3300",
       "datetime": 1788437100,
       "summary": "My clustering stock screener is giving us a much more interesting macro signal than simply energy stocks are strong. The portfolio is not simply long commodities. It's long capital intensity"
-    },
-    {
-      "headline": "3 Market Linchpins To Watch Heading Into Autumn",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=4fa48b74c8262aefbaed3fe45496b4e7fd99d6866919d080771a68f14961a2bd",
-      "datetime": 1788397200,
-      "summary": "Jing Roy explains why strong corporate profits remain a bright spot, how interest rates are shaping the outlook and where the AI boom could go next. Read more here."
     }
   ],
   "filings": [],
@@ -66,10 +66,10 @@
   "data_asof": "2026-09-08",
   "price": {
     "last": 35.61,
-    "open": 35.85,
+    "open": 35.86,
     "prev_close": 35.95,
     "move_day_pct": -0.95,
-    "move_open_close_pct": -0.67,
+    "move_open_close_pct": -0.7,
     "move_week_pct": -0.78
   },
   "indicators": {
