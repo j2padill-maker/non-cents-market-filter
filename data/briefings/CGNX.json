@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-09T00:03:45.576032-07:00",
+  "generated_at": "2026-09-10T00:00:39.791534-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -36,20 +36,6 @@
       "url": "https://finnhub.io/api/news?id=9e6f67cd69e3910cb1691c496d4c347449f0dd785cad524e06b19447426a8eec",
       "datetime": 1788451848,
       "summary": "Robotics ETFs (BOTZ, ROBO, ARKQ) offer early growth, but industrial robotics leads. Weigh QQQ/SPY vs. niche ETF risks\u00e2\u0080\u0094read before investing."
-    },
-    {
-      "headline": "Baron Small Cap Fund Q2 2026 Portfolio Activity",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=698a6f9d97fa5f204454abb958fe24a0e1b2c1b26eb1661d23c58919a462496c",
-      "datetime": 1788361920,
-      "summary": "Baron Small Cap Fund was up 12.57% (Institutional Shares) in the second quarter, trailing the Russell 2000 Growth Index (the Index) by 13.14%, as the Index was up 25.71%. Read more here."
-    },
-    {
-      "headline": "Cognex to Present at the Morgan Stanley 14th Annual Laguna Conference",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=08104ece244cf0ee70d4684342e434b680354d01c44c0ab8c6c8609e71a63c69",
-      "datetime": 1788354000,
-      "summary": "Cognex Corporation (NASDAQ: CGNX), the global technology leader in industrial machine vision, today announced that Dennis Fehr, Chief Financial Officer, is scheduled to participate in a fireside chat at the Morgan Stanley 14th Annual Laguna Conference on Wednesday, September 16, 2026, at 7:45 a.m. Pacific Time."
     }
   ],
   "filings": [
@@ -75,63 +61,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-08",
+  "data_asof": "2026-09-09",
   "price": {
-    "last": 62.23,
-    "open": 62.49,
-    "prev_close": 62.25,
-    "move_day_pct": -0.03,
-    "move_open_close_pct": -0.42,
-    "move_week_pct": 2.08
+    "last": 61.87,
+    "open": 61.67,
+    "prev_close": 62.23,
+    "move_day_pct": -0.58,
+    "move_open_close_pct": 0.32,
+    "move_week_pct": 2.98
   },
   "indicators": {
     "rsi14": {
-      "value": 50.2,
+      "value": 49.2,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.708,
-      "signal": -0.873,
-      "hist": 0.165,
-      "hist_prev": 0.068,
+      "macd": -0.619,
+      "signal": -0.822,
+      "hist": 0.203,
+      "hist_prev": 0.165,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 65.37,
+      "upper": 65.29,
       "lower": 57.71,
-      "mid": 61.54,
-      "pctb": 0.59,
+      "mid": 61.5,
+      "pctb": 0.549,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 79.58,
-      "read": "80% above its 52-week low"
+      "value": 78.54,
+      "read": "79% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -13.95,
+      "value": -14.45,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 53.54,
-      "pct": 16.23,
-      "read": "16% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 53.67,
+      "pct": 15.28,
+      "read": "15% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 2.38,
-      "pct_of_price": 3.82,
+      "value": 2.3,
+      "pct_of_price": 3.72,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.67,
+      "value": 0.58,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 47.0,
+      "value": 50.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 34.65,
   "high_52w": 72.32,
-  "ma50": 63.76,
-  "ma200": 53.54
+  "ma50": 63.64,
+  "ma200": 53.67
 }

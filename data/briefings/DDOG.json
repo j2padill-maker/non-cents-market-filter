@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-09T00:03:44.870683-07:00",
+  "generated_at": "2026-09-10T00:00:37.601054-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "Uncover the latest developments among S&P500 stocks in today's session.",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=49ea1126bd4422ec77ea9bc56b3774aa7c4f436c915c9e97d2f3ea4f9965510d",
+      "datetime": 1788980701,
+      "summary": "Curious about the S&P500 stocks that are in motion on Wednesday? Join us as we explore the top movers within the S&P500 index during today's session."
+    },
+    {
+      "headline": "Explore the top gainers and losers within the S&P500 index in today's session.",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=9010e2be1fabb11bd0e4b96f580bfbdf4df2d168c86e72bedc5388b43a1e69fc",
+      "datetime": 1788971701,
+      "summary": "Stay informed about the performance of the S&P500 index in the middle of the day on Wednesday. Uncover the top gainers and losers in today's session for valuable insights."
+    },
+    {
+      "headline": "Fastly Jumps 7%: Is This an Oversold Bounce or the Start of a Run?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f03f2c608799755f2a2c364d868606a928878461882657723e6090a9fbb7f3c2",
+      "datetime": 1788963958,
+      "summary": "Fastly is surging 7% on a session when the cloud sector and broad market are both sliding, and no news, analyst call, or catalyst explains the move. The reason behind the rally matters a lot given where the stock sits after a 123% run this year."
+    },
+    {
+      "headline": "Oil Tops $100, Meta and Cloudflare Jump On AI Breakthroughs: Stock Market Today",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=d444c590201f32f5168dbfef502be17c8b5f626a21d14e4db980f3b2ba377400",
+      "datetime": 1788959098,
+      "summary": "Brent crude pushes above $100 a barrel for the first time since July as US-Iran strikes escalated, equities slip broadly."
+    },
+    {
       "headline": "An Emerging AI Agent Economy: First A Software Apocalypse, Now A Renaissance?",
       "source": "SeekingAlpha",
       "url": "https://finnhub.io/api/news?id=9e98cc72a1e33a36c437aaceb1122b67f3afd76e80622af13f8e46fce8ce6876",
@@ -29,34 +57,6 @@
       "url": "https://finnhub.io/api/news?id=49539a661dbfa136ddf42fb8dfa8500da85cd4d1f6e9382af18a2d9b83ee4e4b",
       "datetime": 1788896130,
       "summary": "Datadog, Inc. (DDOG) Citi's 2026 Global TMT Conference September 8, 2026 11:30 AM EDTCompany ParticipantsOlivier Pomel - Co-Founder, CEO &..."
-    },
-    {
-      "headline": "Zeta: I See A Path To $60+/Share",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=783f52a71b5dfca98ef25dd660c790a06cd438c27733ad53c5804e1a6f409846",
-      "datetime": 1788886204,
-      "summary": "Zeta shifts to AI infrastructure; Q2 FY26 revenue is +43.5% YoY and GAAP profit. Raised guidance, buy rating, $63 target. Click for more on ZETA stock."
-    },
-    {
-      "headline": "DigiStor Appoints Michael Callahan to Board of Directors",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6191a898e4d4234ae4dcf7dc3ffa5a770104e6cc1b10d1603a24349b9b76c724",
-      "datetime": 1788873000,
-      "summary": "VANCOUVER, Wash., September 08, 2026--DigiStor, a leading provider of secure data-at-rest protection solutions, today announced the appointment of Michael Callahan to its board of directors. Callahan\u2019s appointment strengthens DigiStor\u2019s leadership as the company continues to expand its secure storage and data protection portfolio."
-    },
-    {
-      "headline": "Alex Kurland Joins Menlo Ventures as Partner",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=646c1bb6cd9b8a494b2de991560b7d95c54267d5cf0be5d63af2b40425d181d3",
-      "datetime": 1788861600,
-      "summary": "Veteran Growth Investor Behind Clay, Datadog, DoorDash, Kalshi, Snowflake, and Other Category-Defining Companies Joins Menlo\u2019s Inflection Team Alex Kurland Alex Kurland, Partner, Menlo Ventures MENLO PARK, Calif., Sept. 08, 2026 (GLOBE NEWSWIRE) -- Menlo Ventures, a leading venture capital firm investing at the forefront of AI, today announced that Alex Kurland has joined the firm as a Partner on "
-    },
-    {
-      "headline": "Palantir Stock Leads August Rally -- Nvidia, Salesforce and Super Micro Jump",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=89ee1437c35b1ea43ff04c0695734f1b0ef289bd07ced8822ca70a45052719c9",
-      "datetime": 1788818335,
-      "summary": "Palantir Crushes Tech Stocks in August: Salesforce Nears 40% Gain, Super Micro Jumps"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-08",
+  "data_asof": "2026-09-09",
   "price": {
-    "last": 210.23,
-    "open": 207.0,
-    "prev_close": 212.93,
-    "move_day_pct": -1.27,
-    "move_open_close_pct": 1.56,
-    "move_week_pct": -11.31
+    "last": 225.27,
+    "open": 209.04,
+    "prev_close": 210.23,
+    "move_day_pct": 7.15,
+    "move_open_close_pct": 7.76,
+    "move_week_pct": 0.64
   },
   "indicators": {
     "rsi14": {
-      "value": 37.6,
-      "read": "Oversold"
+      "value": 46.1,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": -9.64,
-      "signal": -7.155,
-      "hist": -2.485,
-      "hist_prev": -2.473,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -8.827,
+      "signal": -7.489,
+      "hist": -1.337,
+      "hist_prev": -2.485,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 260.02,
-      "lower": 205.46,
-      "mid": 232.74,
-      "pctb": 0.087,
-      "read": "Near the lower band"
+      "upper": 258.34,
+      "lower": 204.99,
+      "mid": 231.66,
+      "pctb": 0.38,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 104.87,
-      "read": "105% above its 52-week low"
+      "value": 119.53,
+      "read": "120% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -27.04,
-      "read": "27% below its 52-week high"
+      "value": -21.82,
+      "read": "22% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 176.54,
-      "pct": 19.08,
-      "read": "19% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 176.78,
+      "pct": 27.43,
+      "read": "27% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 13.02,
-      "pct_of_price": 6.19,
+      "value": 13.3,
+      "pct_of_price": 5.9,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.07,
+      "value": 1.02,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 30.6,
+      "value": 39.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 288.15,
-  "ma50": 248.64,
-  "ma200": 176.54
+  "ma50": 248.18,
+  "ma200": 176.78
 }

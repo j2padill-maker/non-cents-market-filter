@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-09T00:03:46.114418-07:00",
+  "generated_at": "2026-09-10T00:00:40.285167-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Here's Why Intuitive Surgical, Inc. (ISRG) Fell More Than Broader Market",
+      "headline": "How Much Can ISRG Stock Still Move Against You?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4e30ea85a7614ab8467872e5fae21d1ff1b0e11a414919d6c30f6ca8a0cd4179",
-      "datetime": 1788904201,
-      "summary": "Intuitive Surgical, Inc. (ISRG) closed the most recent trading day at $350.16, moving 4.51% from the previous trading session."
+      "url": "https://finnhub.io/api/news?id=1aa1e22c6ac3142237a0016f4299f278aafa537090db39915324d58d984718f3",
+      "datetime": 1788985334,
+      "summary": "Intuitive Surgical (ISRG) has handed its owners a hard year. The stock is down 25% over the trailing twelve months while the S&P 500 returned 19.3%, and it now trades about 41% below its 52-week high. After a fall like that the natural hope is that the big moves are behind you. Options priced a year out say they are not."
     },
     {
-      "headline": "New meta-analysis shows statistically significant improvements in patient outcomes associated with da Vinci surgery versus laparoscopic and open surgery across 13 common benign conditions",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=fd54f80c06aa4a9a9658b7f6d663df2a994d6f921a2c7e17a591b1c308175632",
-      "datetime": 1788897900,
-      "summary": "Largest comparative meta-analysis of its kind found da Vinci robotic-assisted surgery was associated with shorter hospital stays and a faster return to work compared with laparoscopic and open surgerySUNNYVALE, Calif., Sept. 08, 2026 (GLOBE NEWSWIRE) -- Intuitive (NASDAQ: ISRG), a global technology leader in minimally invasive care and the pioneer of robotic-assisted surgery, today announced the p"
+      "headline": "Intuitive Surgical, Inc. (ISRG) Presents at Wells Fargo 21st Annual Healthcare Conference Transcript",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=a49891db32429aac35505bad2c516ac6ec80355a6c0de650cd1173f545478eaf",
+      "datetime": 1788962227,
+      "summary": ""
     },
     {
-      "headline": "The Zacks Analyst Blog Highlights FANUY, ABBNY, KYCCF, NVDA, ISRG, ILMN, NOVT, BOTZ, ROBO, ROBT and IBOT",
+      "headline": "Brokers Suggest Investing in Intuitive Surgical (ISRG): Read This Before Placing a Bet",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d719bf4179166f804962f458c60fedca5ab419c8b8e4f402545a7df02e0737fe",
-      "datetime": 1788876660,
-      "summary": "BOTZ offers diversified exposure to a robotics boom fueled by AI, humanoid robots and industrial automation, as the sector rapidly evolves."
+      "url": "https://finnhub.io/api/news?id=d7bea4d553b8b047f788b2b2fcbc3c27477ce62fc683d0269c258331c0ead8e9",
+      "datetime": 1788960604,
+      "summary": "Based on the average brokerage recommendation (ABR), Intuitive Surgical (ISRG) should be added to one's portfolio. Wall Street analysts' overly optimistic recommendations cast doubt on the effectiveness of this highly sought-after metric. So, is the stock worth buying?"
     },
     {
-      "headline": "BTIG Reiterates Buy on Intuitive Surgical, Maintains $469 Price Target",
+      "headline": "ISRG Stock Trading at its Cheapest in 10 Years: Should You Buy Now?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b9329ff5e160b79a843e12abdf9a90229fb42776800743c29fe8b89668afd076",
+      "datetime": 1788958380,
+      "summary": "Intuitive Surgical trades at its cheapest valuation in 10 years as strong growth, innovation and procedure gains face rising costs and market pressures."
+    },
+    {
+      "headline": "Wall Street Isn't Talking About High-Yield Medtronic Stock -- Here's Why It Should Be",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e580521fe9b346c0853dddec242b2e0ecb5ff4d71e761fd71dde463ca78b3a1a",
+      "datetime": 1788957300,
+      "summary": "Medtronic has a historically high 3% yield and is just two years away from becoming a Dividend King."
+    },
+    {
+      "headline": "Intuitive Surgical Exec Says Planned 2027 Extended-Use Instrument Program Could Provide Tailwind To Procedure Growth As Investors Weigh Slowing U.S. Growth; Bariatrics Is Just Over 2% Of Global da Vinci Procedures, With Its Incremental Impact Moderating Over Time",
       "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=45bb3b4266019b2a0287108dd8421fffc0b2a2c09f81598b69640408df3ee04e",
-      "datetime": 1788846855,
-      "summary": "BTIG  analyst Ryan Zimmerman   reiterates Intuitive Surgical (NASDAQ:ISRG) with a Buy and maintains $469 price target."
-    },
-    {
-      "headline": "ISRG's Ion Platform Is Quietly Becoming a Second Growth Engine",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=30f82c3d71c728c02b8284a8860ea904bbbc22691e7920cba19df99641cdfb6e",
-      "datetime": 1788796260,
-      "summary": "Intuitive Surgical's Ion platform is gaining momentum, with rising procedures, a larger installed base and global expansion fueling a second growth engine."
-    },
-    {
-      "headline": "Intuitive Surgical (ISRG): Embracing AI Innovations in Robotic Surgery for Future Growth",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=bd62df8ef1027cea2e815ad3bbb21d584987832cf3ac67fb352bc6b373aa8446",
-      "datetime": 1788784244,
-      "summary": "Sands Capital, an investment management company, released its second-quarter 2026 investor letter for \u201cSands Capital Global Growth Fund\u201d. The letter can be downloaded here. Global Growth seeks the best growth businesses worldwide, leveraging a research team that explores both developed and emerging markets for sustainable competitive advantages. In the quarter, global equities rebounded strongly, "
+      "url": "https://finnhub.io/api/news?id=f260d5a0b1ffebb76288c5d4d01e4e79904fbf7d624ea97204e642cf521677c2",
+      "datetime": 1788945360,
+      "summary": "-Conference Call."
     }
   ],
   "filings": [
@@ -82,54 +82,54 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-08",
+  "data_asof": "2026-09-09",
   "price": {
-    "last": 350.16,
-    "open": 361.31,
-    "prev_close": 366.7,
-    "move_day_pct": -4.51,
-    "move_open_close_pct": -3.09,
-    "move_week_pct": -7.08
+    "last": 353.24,
+    "open": 350.2,
+    "prev_close": 350.16,
+    "move_day_pct": 0.88,
+    "move_open_close_pct": 0.87,
+    "move_week_pct": -4.34
   },
   "indicators": {
     "rsi14": {
-      "value": 35.1,
+      "value": 37.4,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -5.078,
-      "signal": -2.88,
-      "hist": -2.197,
-      "hist_prev": -1.166,
+      "macd": -6.013,
+      "signal": -3.507,
+      "hist": -2.506,
+      "hist_prev": -2.197,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 407.56,
-      "lower": 351.54,
-      "mid": 379.55,
-      "pctb": -0.025,
-      "read": "Below the lower band \u2014 stretched to the downside"
+      "upper": 405.54,
+      "lower": 348.76,
+      "mid": 377.15,
+      "pctb": 0.079,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 5.46,
+      "value": 6.39,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -40.94,
-      "read": "41% below its 52-week high"
+      "value": -40.42,
+      "read": "40% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 462.82,
-      "pct": -24.34,
+      "ma200": 461.77,
+      "pct": -23.5,
       "read": "24% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 11.93,
-      "pct_of_price": 3.41,
+      "value": 11.66,
+      "pct_of_price": 3.3,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 1.25,
+      "value": 0.97,
       "read": "Roughly average volume"
     },
     "mfi14": {
@@ -139,6 +139,6 @@
   },
   "low_52w": 332.02,
   "high_52w": 592.85,
-  "ma50": 379.92,
-  "ma200": 462.82
+  "ma50": 378.87,
+  "ma200": 461.77
 }

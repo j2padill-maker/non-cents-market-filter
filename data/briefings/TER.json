@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-09T00:03:46.646138-07:00",
+  "generated_at": "2026-09-10T00:00:41.106372-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Teradyne, Inc. (TER) Presents at Goldman Sachs Communacopia + Technology Conference 2026 Transcript",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=e3314f7cc638a830c8a213f36c9a6249600b9675b3512dd1caa0af4b64efcfde",
+      "datetime": 1788982624,
+      "summary": "Teradyne, Inc. (TER) Goldman Sachs Communacopia + Technology Conference 2026 September 9, 2026 4:45 PM EDTCompany ParticipantsGregory Smith - President, CEO..."
+    },
     {
       "headline": "Teradyne Rides on Strong UltraFLEXplus Demand: Can It Beat KLAC & COHU?",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=65e3378d36a419952c091d687d1d8b41ffa49ed9bfa79201bf5035b82cc69479",
       "datetime": 1788799260,
       "summary": "Aehr's AI testing business gains momentum with major orders, new customer opportunities and a path toward recurring revenues."
-    },
-    {
-      "headline": "FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a96b9dd6e0f0976195e604e79d21e7ddf0f42388977af49a20b3263c933662dc",
-      "datetime": 1788574450,
-      "summary": "A number of stocks jumped in the afternoon session after investors shrugged off interest rate hike expectations following the August jobs report and unwound defensive positioning in beaten-down chip designers, according to Bloomberg. The U.S. Bureau of Labor Statistics reported that employers added 162,000 nonfarm payroll jobs in August, easily beating estimates of a 56,000 increase from economist"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-08",
+  "data_asof": "2026-09-09",
   "price": {
-    "last": 372.06,
-    "open": 365.03,
-    "prev_close": 357.03,
-    "move_day_pct": 4.21,
-    "move_open_close_pct": 1.93,
-    "move_week_pct": 6.4
+    "last": 383.69,
+    "open": 368.48,
+    "prev_close": 372.06,
+    "move_day_pct": 3.13,
+    "move_open_close_pct": 4.13,
+    "move_week_pct": 14.42
   },
   "indicators": {
     "rsi14": {
-      "value": 51.4,
+      "value": 54.6,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -6.947,
-      "signal": -4.983,
-      "hist": -1.964,
-      "hist_prev": -4.215,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -4.562,
+      "signal": -4.899,
+      "hist": 0.337,
+      "hist_prev": -1.964,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 430.74,
-      "lower": 320.37,
-      "mid": 375.55,
-      "pctb": 0.468,
+      "upper": 431.04,
+      "lower": 320.49,
+      "mid": 375.77,
+      "pctb": 0.572,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 232.13,
-      "read": "232% above its 52-week low"
+      "value": 242.51,
+      "read": "243% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -23.07,
-      "read": "23% below its 52-week high"
+      "value": -20.67,
+      "read": "21% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 317.12,
-      "pct": 17.32,
-      "read": "17% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 318.2,
+      "pct": 20.58,
+      "read": "21% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 22.68,
-      "pct_of_price": 6.1,
+      "value": 22.21,
+      "pct_of_price": 5.79,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.91,
+      "value": 0.78,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 35.3,
+      "value": 43.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 112.02,
   "high_52w": 483.65,
-  "ma50": 370.5,
-  "ma200": 317.12
+  "ma50": 368.91,
+  "ma200": 318.2
 }
