@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-10T00:00:35.850902-07:00",
+  "generated_at": "2026-09-10T23:59:30.165447-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "MongoDB, Inc. (MDB) Presents at Goldman Sachs Communacopia + Technology Conference 2026 Transcript",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=cb680ae29c5b9b71de2628d24c99efc3d1975a7cc46e45eb31eaf0a830645afa",
+      "datetime": 1789057632,
+      "summary": "MongoDB, Inc. (MDB) Goldman Sachs Communacopia + Technology Conference 2026 September 10, 2026 1:10 PM EDTCompany ParticipantsChirantan Desai - President,..."
+    },
+    {
+      "headline": "Stock Market Today: Nasdaq 100 Tumbles as Oil Spikes 6%, Yields Hit 19-Year High",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=57d493ab3351dc74de676b0cd87b6e9bd1621b6634e7636031016eeb9aed01a9",
+      "datetime": 1789050419,
+      "summary": "Crude jumped 6% and 30-year Treasury yields hit levels last seen in 2007 as a hot PPI print pushed Fed rate-hike odds toward 70% ahead of Friday&#39;s CPI."
+    },
     {
       "headline": "MongoDB, Inc. (MDB) Presents at Citi's 2026 Global TMT Conference Transcript",
       "source": "SeekingAlpha",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=f34c8dff6d3485280351bf5885f1061f1f4a9f31ea5fdfa54c5bd42ad532da71",
       "datetime": 1788908336,
       "summary": "Atlas revenue surged 29% as AI workloads accelerated across enterprise customers."
-    },
-    {
-      "headline": "Icon Solutions and MongoDB Benchmark Shows IPF Processing 6,000 Payments per Second with Zero Data Loss Under Failure",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=78bb716c5ceb6647a498e7235a801ef641dd33042acec7c9e59014523a9202e3",
-      "datetime": 1788857640,
-      "summary": "LONDON, September 08, 2026--Icon Solutions and MongoDB today published the results of a joint benchmark showing that the Icon Payments Framework (IPF), running on MongoDB Atlas, processed 6,000 end-to-end payment transactions per second (around 430,000 database operations per second) with a mean end-to-end latency of 0.51 seconds, and recovered from both application and database node failures with"
-    },
-    {
-      "headline": "AI Token Costs Are Changing the Hardware vs. Software Debate",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3216744079c55c16a220005c78a5e04d1968bb17eb8b7a21bcef6b49ed036dae",
-      "datetime": 1788714000,
-      "summary": "Rising AI token costs are pushing enterprises toward on-premises hardware, boosting Dell Technologies after strong earnings while MongoDB shares fell despite a beat, as capital rotates from cloud software to hardware."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-09",
+  "data_asof": "2026-09-10",
   "price": {
-    "last": 358.38,
-    "open": 359.97,
-    "prev_close": 356.0,
-    "move_day_pct": 0.67,
-    "move_open_close_pct": -0.44,
-    "move_week_pct": -17.46
+    "last": 373.87,
+    "open": 360.42,
+    "prev_close": 358.38,
+    "move_day_pct": 4.32,
+    "move_open_close_pct": 3.73,
+    "move_week_pct": -0.41
   },
   "indicators": {
     "rsi14": {
-      "value": 40.5,
+      "value": 44.9,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -2.017,
-      "signal": 9.957,
-      "hist": -11.974,
-      "hist_prev": -11.551,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -3.435,
+      "signal": 7.279,
+      "hist": -10.714,
+      "hist_prev": -11.974,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 485.68,
-      "lower": 351.02,
-      "mid": 418.35,
-      "pctb": 0.055,
-      "read": "Near the lower band"
+      "upper": 484.52,
+      "lower": 345.78,
+      "mid": 415.15,
+      "pctb": 0.202,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 58.61,
-      "read": "59% above its 52-week low"
+      "value": 65.47,
+      "read": "65% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -24.12,
-      "read": "24% below its 52-week high"
+      "value": -20.84,
+      "read": "21% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 342.64,
-      "pct": 4.59,
-      "read": "5% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 342.87,
+      "pct": 9.04,
+      "read": "9% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
       "value": 22.15,
-      "pct_of_price": 6.18,
+      "pct_of_price": 5.92,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.25,
+      "value": 0.87,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 36.1,
+      "value": 40.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 374.69,
-  "ma200": 342.64
+  "ma50": 375.45,
+  "ma200": 342.87
 }

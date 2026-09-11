@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-10T00:00:38.062592-07:00",
+  "generated_at": "2026-09-10T23:59:31.605518-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Dow Jones Futures Rise After Oil Prices, Yields Hit Stocks; Inflation Data Due.",
+      "headline": "Stocks making big moves yesterday: SoFi, Marvell Technology, Lululemon, Cloudflare, and Victoria's Secret",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e031fd1df5d948407664c7607f9a4529eb846741ef7ba6e266ec24c3f0d49f0c",
-      "datetime": 1789009745,
-      "summary": "Oil prices and Treasury yields weighed on the indexes, But Meta, AMD were winners. Apple unveiled its foldable iPhone. Inflation data looms."
+      "url": "https://finnhub.io/api/news?id=a0dcf4c650fafa21794b66aa4c264cd2b56248b3c1bf8b7d2ad26e7e235bd294",
+      "datetime": 1789060384,
+      "summary": "Check out the companies making headlines yesterday:"
     },
     {
-      "headline": "Cloudflare (NET) Soars 10.5% on Upbeat Outlook, Says Opportunities \u2018Larger\u2019 Than Business",
+      "headline": "CoreWeave Sinks 5% Despite Burry Pulling In His AI Short, Oracle Eases Into Earnings, Cloudflare Holds Steady",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a513a162dee1452fd3889728cbb1e86a22249028daf1a49bef47625e7daa2a38",
-      "datetime": 1789005621,
-      "summary": "Cloudflare Inc. (NYSE:NET) grew its share price by 10.51 percent on Wednesday to finish at $10.51 apiece after issuing a highly optimistic outlook, saying that its future opportunity \u201ccould be much larger\u201d than its business. Speaking at the Goldman Sachs Communacopia + Technology Conference 2026, Chief Finance Officer Thomas Seifert said that Cloudflare Inc. (NYSE:NET) [\u2026]"
+      "url": "https://finnhub.io/api/news?id=95a16f6cd316a90a229b67671d2b5a7adf1e35fb10f2855b753ba4b5a8afb613",
+      "datetime": 1789059662,
+      "summary": "Michael Burry just closed his most prominent AI short, the kind of move that typically sparks a relief rally, yet CoreWeave kept falling. What that silence signals about the real debate gripping the cloud trade right now is worth understanding before Oracle reports tonight."
     },
     {
-      "headline": "Cloudflare, Inc. (NET) Presents at Goldman Sachs Communacopia + Technology Conference 2026 Transcript",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=1d23f60bcb98c58a0e364e66980f96a58ec71032078d17bcfdb2df1460671f78",
-      "datetime": 1789005426,
-      "summary": "Cloudflare, Inc. (NET) Goldman Sachs Communacopia + Technology Conference 2026 September 9, 2026 1:10 PM EDTCompany ParticipantsThomas Seifert - Chief..."
+      "headline": "Why Barchart Data Says You Shouldn\u2019t Chase Cloudflare Stock Here Despite Strong Technical Momentum",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ea7b531145d9038f3202e051076e2fdae2780f888b15bfcd120dd3f67fd7427b",
+      "datetime": 1789054804,
+      "summary": "Cloudflare (NET) demonstrates strong technical momentum, with shares up more than 40% over the past year. Consensus price targets cluster around $350, implying 10% upside from recent levels. Revenue and earnings are projected to grow robustly, but valuation concerns persist as NET remains unprofitable. Analyst sentiment is mixed, with both..."
     },
     {
-      "headline": "Dow Jones Futures Rise: Oil Prices Keep Climbing But Market Hasn't Broken Yet. Inflation Data Due.",
+      "headline": "Can Large-Customer Gains Remain a Key Driver of NET's Revenue Growth?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3f2eabb81e12ca66c570633d2e510a7bee2890f249c96920d77a56abaa28324f",
-      "datetime": 1789003084,
-      "summary": "Oil prices and Treasury yields weighed on the indexes, But Meta, AMD were winners. Apple unveiled its foldable iPhone. Inflation data looms."
+      "url": "https://finnhub.io/api/news?id=494f6a92af77ec1ebb70ee9daae04d710e3f5a45887907f18cf1672f9a6cd96f",
+      "datetime": 1789049700,
+      "summary": "Cloudflare's large-customer gains are fueling revenue growth as rising spending, retention and multi-product adoption strengthen its expansion."
     },
     {
-      "headline": "Why Cloudflare Rallied Today",
+      "headline": "Treasury yields rise as investors raise bets on Fed rate hike: AlphaCheck",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e56fde949839472dc36469f632fee9dcd7aa5ecd43cc0f3d3bbe34a28fb84ef7",
-      "datetime": 1788991558,
-      "summary": "Meta's new Muse agent could turbocharge web traffic and Cloudflare's revenue."
+      "url": "https://finnhub.io/api/news?id=c0b36f81df7f4e7e2374970a002180d6b4726a4f3c6ce1bef7b5be240df99a53",
+      "datetime": 1789048612,
+      "summary": "Stocks were down on Thursday as investors watched for stress signs in the bond market as long dated bond yields as oil prices remain elevated ."
     },
     {
-      "headline": "SHOP Stock Alert: What to Know as Shopify Acquires Tailwind Labs",
+      "headline": "OpenAI and SpaceX Deals Send Cloudflare Stock Flying",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3608861fb4f2b120721b70ede73748d2622568a41411074bf19f3d9dfae6b8d5",
-      "datetime": 1788986483,
-      "summary": "Shopify announces acquisition of Tailwind Labs. Here\u2019s what the deal really means for SHOP shares."
+      "url": "https://finnhub.io/api/news?id=85453940ed039021ae22229c41c9b7c64b68263c9fb6565fda02ae94b87b65a0",
+      "datetime": 1789043947,
+      "summary": "Two blockbuster partnerships ignite fresh optimism around this cybersecurity stock"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-09",
+  "data_asof": "2026-09-10",
   "price": {
-    "last": 314.18,
-    "open": 295.5,
-    "prev_close": 284.3,
-    "move_day_pct": 10.51,
-    "move_open_close_pct": 6.32,
-    "move_week_pct": 10.04
+    "last": 311.17,
+    "open": 313.35,
+    "prev_close": 314.18,
+    "move_day_pct": -0.96,
+    "move_open_close_pct": -0.7,
+    "move_week_pct": 14.09
   },
   "indicators": {
     "rsi14": {
-      "value": 58.6,
+      "value": 57.4,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 2.198,
-      "signal": 2.847,
-      "hist": -0.648,
-      "hist_prev": -2.914,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": 3.581,
+      "signal": 2.994,
+      "hist": 0.588,
+      "hist_prev": -0.648,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 326.3,
-      "lower": 264.35,
-      "mid": 295.33,
-      "pctb": 0.804,
-      "read": "Near the upper band"
+      "upper": 326.26,
+      "lower": 264.36,
+      "mid": 295.31,
+      "pctb": 0.756,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 96.13,
-      "read": "96% above its 52-week low"
+      "value": 94.25,
+      "read": "94% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -5.03,
+      "value": -5.94,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 223.37,
-      "pct": 40.65,
-      "read": "41% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 223.97,
+      "pct": 38.93,
+      "read": "39% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 17.03,
-      "pct_of_price": 5.42,
+      "value": 16.67,
+      "pct_of_price": 5.36,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.27,
+      "value": 0.92,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 58.5,
+      "value": 66.2,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 330.83,
-  "ma50": 282.58,
-  "ma200": 223.37
+  "ma50": 283.9,
+  "ma200": 223.97
 }

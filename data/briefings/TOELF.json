@@ -2,7 +2,7 @@
   "ticker": "TOELF",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-10T00:00:37.033125-07:00",
+  "generated_at": "2026-09-10T23:59:30.929736-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,13 @@
   ],
   "news": [
     {
+      "headline": "Tokyo Electron: Strong Moat And High Growth From Semiconductor Equipment",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=f21661df4562286b9e4035185a3d5645316d6072f8d0977c2e000a0b6cbda65e",
+      "datetime": 1789028534,
+      "summary": "Tokyo Electron commands leading market shares across key semiconductor equipment categories. Check out why TOELY stock is a buy."
+    },
+    {
       "headline": "Tokyo Electron Limited (TOELY) Presents at SEMICON Taiwan 2026 - Slideshow",
       "source": "SeekingAlpha",
       "url": "https://finnhub.io/api/news?id=aeab088c8d66e061fe8a5fe09098348dbc98189d905e46d3f68581d86d2605b9",
@@ -28,63 +35,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-09",
+  "data_asof": "2026-09-10",
   "price": {
-    "last": 351.17,
-    "open": 327.5,
-    "prev_close": 367.6,
-    "move_day_pct": -4.47,
-    "move_open_close_pct": 7.23,
-    "move_week_pct": -2.01
+    "last": 341.34,
+    "open": 333.98,
+    "prev_close": 351.17,
+    "move_day_pct": -2.8,
+    "move_open_close_pct": 2.2,
+    "move_week_pct": -2.64
   },
   "indicators": {
     "rsi14": {
-      "value": 47.9,
+      "value": 44.9,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -4.789,
-      "signal": -7.907,
-      "hist": 3.118,
-      "hist_prev": 3.616,
+      "macd": -5.298,
+      "signal": -7.385,
+      "hist": 2.087,
+      "hist_prev": 3.118,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 377.23,
-      "lower": 326.51,
-      "mid": 351.87,
-      "pctb": 0.486,
+      "upper": 372.89,
+      "lower": 327.24,
+      "mid": 350.06,
+      "pctb": 0.309,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 153.24,
-      "read": "153% above its 52-week low"
+      "value": 146.15,
+      "read": "146% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -29.14,
-      "read": "29% below its 52-week high"
+      "value": -31.13,
+      "read": "31% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 306.14,
-      "pct": 14.71,
-      "read": "15% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 306.82,
+      "pct": 11.25,
+      "read": "11% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 27.31,
-      "pct_of_price": 7.78,
+      "value": 26.59,
+      "pct_of_price": 7.79,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.08,
+      "value": 0.25,
       "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 92.9,
+      "value": 91.9,
       "read": "Overbought \u2014 money flowing in"
     }
   },
   "low_52w": 138.67,
   "high_52w": 495.61,
-  "ma50": 379.2,
-  "ma200": 306.14
+  "ma50": 376.33,
+  "ma200": 306.82
 }

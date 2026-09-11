@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-10T00:00:40.285167-07:00",
+  "generated_at": "2026-09-10T23:59:32.628989-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Nvidia Earnings Put Narrow Robotics Rally to the Test",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=e8ed59ce5c0c6772120fe5becf0cd40a5c92e61ca1284b2895de7d7711952a4a",
+      "datetime": 1789043782,
+      "summary": "Robotics rally narrows as AI, chip test, and machine vision suppliers lead while traditional names lag. Earnings could test this leadership."
+    },
     {
       "headline": "How Much Can ISRG Stock Still Move Against You?",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=e580521fe9b346c0853dddec242b2e0ecb5ff4d71e761fd71dde463ca78b3a1a",
       "datetime": 1788957300,
       "summary": "Medtronic has a historically high 3% yield and is just two years away from becoming a Dividend King."
-    },
-    {
-      "headline": "Intuitive Surgical Exec Says Planned 2027 Extended-Use Instrument Program Could Provide Tailwind To Procedure Growth As Investors Weigh Slowing U.S. Growth; Bariatrics Is Just Over 2% Of Global da Vinci Procedures, With Its Incremental Impact Moderating Over Time",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=f260d5a0b1ffebb76288c5d4d01e4e79904fbf7d624ea97204e642cf521677c2",
-      "datetime": 1788945360,
-      "summary": "-Conference Call."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-09",
+  "data_asof": "2026-09-10",
   "price": {
-    "last": 353.24,
-    "open": 350.2,
-    "prev_close": 350.16,
-    "move_day_pct": 0.88,
-    "move_open_close_pct": 0.87,
-    "move_week_pct": -4.34
+    "last": 360.46,
+    "open": 347.66,
+    "prev_close": 353.24,
+    "move_day_pct": 2.04,
+    "move_open_close_pct": 3.68,
+    "move_week_pct": -3.07
   },
   "indicators": {
     "rsi14": {
-      "value": 37.4,
-      "read": "Oversold"
+      "value": 42.6,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": -6.013,
-      "signal": -3.507,
-      "hist": -2.506,
-      "hist_prev": -2.197,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -6.101,
+      "signal": -4.025,
+      "hist": -2.075,
+      "hist_prev": -2.506,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 405.54,
-      "lower": 348.76,
-      "mid": 377.15,
-      "pctb": 0.079,
-      "read": "Near the lower band"
+      "upper": 402.1,
+      "lower": 348.11,
+      "mid": 375.11,
+      "pctb": 0.229,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 6.39,
+      "value": 8.57,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -40.42,
-      "read": "40% below its 52-week high"
+      "value": -39.2,
+      "read": "39% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 461.77,
-      "pct": -23.5,
-      "read": "24% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 460.81,
+      "pct": -21.78,
+      "read": "22% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 11.66,
-      "pct_of_price": 3.3,
+      "value": 12.05,
+      "pct_of_price": 3.34,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.97,
-      "read": "Roughly average volume"
+      "value": 1.34,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 32.5,
+      "value": 44.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 332.02,
   "high_52w": 592.85,
-  "ma50": 378.87,
-  "ma200": 461.77
+  "ma50": 378.12,
+  "ma200": 460.81
 }

@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-10T00:00:39.791534-07:00",
+  "generated_at": "2026-09-10T23:59:32.317580-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,25 +17,18 @@
   ],
   "news": [
     {
+      "headline": "Nvidia Earnings Put Narrow Robotics Rally to the Test",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=e8ed59ce5c0c6772120fe5becf0cd40a5c92e61ca1284b2895de7d7711952a4a",
+      "datetime": 1789043782,
+      "summary": "Robotics rally narrows as AI, chip test, and machine vision suppliers lead while traditional names lag. Earnings could test this leadership."
+    },
+    {
       "headline": "Cognex (CGNX) Down 9.8% Since Last Earnings Report: Can It Rebound?",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=638297c8aee60dc9a2590d6a4224a8122f43bcc38c2d3c9f8e12db21360a67cb",
       "datetime": 1788535836,
       "summary": "Cognex (CGNX) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues."
-    },
-    {
-      "headline": "Reflecting On Specialized Technology Stocks\u2019 Q2 Earnings: Cognex (NASDAQ:CGNX)",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ff7324ed2be4201cf90230cc6ba3c1ecfd453a7781ef3bf612a79fe486218622",
-      "datetime": 1788461718,
-      "summary": "As the craze of earnings season draws to a close, here\u2019s a look back at some of the most exciting (and some less so) results from Q2. Today, we are looking at specialized technology stocks, starting with Cognex (NASDAQ:CGNX)."
-    },
-    {
-      "headline": "Governments Are Encouraging Industrial Robotic Growth",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=9e6f67cd69e3910cb1691c496d4c347449f0dd785cad524e06b19447426a8eec",
-      "datetime": 1788451848,
-      "summary": "Robotics ETFs (BOTZ, ROBO, ARKQ) offer early growth, but industrial robotics leads. Weigh QQQ/SPY vs. niche ETF risks\u00e2\u0080\u0094read before investing."
     }
   ],
   "filings": [
@@ -61,63 +54,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-09",
+  "data_asof": "2026-09-10",
   "price": {
-    "last": 61.87,
-    "open": 61.67,
-    "prev_close": 62.23,
-    "move_day_pct": -0.58,
-    "move_open_close_pct": 0.32,
-    "move_week_pct": 2.98
+    "last": 61.69,
+    "open": 61.13,
+    "prev_close": 61.87,
+    "move_day_pct": -0.29,
+    "move_open_close_pct": 0.92,
+    "move_week_pct": 2.92
   },
   "indicators": {
     "rsi14": {
-      "value": 49.2,
+      "value": 48.7,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.619,
-      "signal": -0.822,
-      "hist": 0.203,
-      "hist_prev": 0.165,
+      "macd": -0.558,
+      "signal": -0.769,
+      "hist": 0.212,
+      "hist_prev": 0.203,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 65.29,
-      "lower": 57.71,
-      "mid": 61.5,
-      "pctb": 0.549,
+      "upper": 65.32,
+      "lower": 57.78,
+      "mid": 61.55,
+      "pctb": 0.518,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 78.54,
-      "read": "79% above its 52-week low"
+      "value": 78.02,
+      "read": "78% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -14.45,
+      "value": -14.7,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 53.67,
-      "pct": 15.28,
+      "ma200": 53.8,
+      "pct": 14.67,
       "read": "15% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 2.3,
-      "pct_of_price": 3.72,
+      "value": 2.22,
+      "pct_of_price": 3.6,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.58,
+      "value": 0.56,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 50.3,
+      "value": 51.2,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 34.65,
   "high_52w": 72.32,
-  "ma50": 63.64,
-  "ma200": 53.67
+  "ma50": 63.42,
+  "ma200": 53.8
 }

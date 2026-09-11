@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-10T00:00:41.648867-07:00",
+  "generated_at": "2026-09-10T23:59:33.750120-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -43,83 +43,69 @@
       "url": "https://finnhub.io/api/news?id=7382b67efac0eea0bbec10673a7242ad188ed76ee6274dcfa0194b6066dea7f3",
       "datetime": 1788510000,
       "summary": "Howard Lindzon, founder of StockTwits, discusses how investing, speculation, entertainment, social media, prediction markets, crypto, and AI are increasingly colliding. Read more here."
-    },
-    {
-      "headline": "Governments Are Encouraging Industrial Robotic Growth",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=9e6f67cd69e3910cb1691c496d4c347449f0dd785cad524e06b19447426a8eec",
-      "datetime": 1788451848,
-      "summary": "Robotics ETFs (BOTZ, ROBO, ARKQ) offer early growth, but industrial robotics leads. Weigh QQQ/SPY vs. niche ETF risks\u00e2\u0080\u0094read before investing."
-    },
-    {
-      "headline": "The Market May Be Telling Us We're Entering A Capital Formation Cycle",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=d73ec82f651930fbe8adb62766f2b042452f9ee41b03a835b7ab5d39184a3300",
-      "datetime": 1788437100,
-      "summary": "My clustering stock screener is giving us a much more interesting macro signal than simply energy stocks are strong. The portfolio is not simply long commodities. It's long capital intensity"
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-09",
+  "data_asof": "2026-09-10",
   "price": {
-    "last": 35.18,
-    "open": 35.57,
-    "prev_close": 35.61,
-    "move_day_pct": -1.21,
-    "move_open_close_pct": -1.1,
-    "move_week_pct": 0.09
+    "last": 34.76,
+    "open": 34.86,
+    "prev_close": 35.18,
+    "move_day_pct": -1.19,
+    "move_open_close_pct": -0.29,
+    "move_week_pct": -1.22
   },
   "indicators": {
     "rsi14": {
-      "value": 42.6,
-      "read": "Neutral"
+      "value": 39.5,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -0.248,
-      "signal": -0.175,
-      "hist": -0.074,
-      "hist_prev": -0.057,
+      "macd": -0.306,
+      "signal": -0.201,
+      "hist": -0.105,
+      "hist_prev": -0.074,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 37.95,
-      "lower": 34.39,
-      "mid": 36.17,
-      "pctb": 0.223,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 37.73,
+      "lower": 34.3,
+      "mid": 36.02,
+      "pctb": 0.134,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 10.03,
+      "value": 8.71,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -15.45,
-      "read": "15% below its 52-week high"
+      "value": -16.46,
+      "read": "16% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 36.87,
-      "pct": -4.58,
-      "read": "5% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 36.88,
+      "pct": -5.75,
+      "read": "6% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
       "value": 0.57,
-      "pct_of_price": 1.61,
+      "pct_of_price": 1.63,
       "read": "Calm \u2014 low volatility"
     },
     "rel_volume": {
-      "value": 0.83,
+      "value": 1.2,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 37.8,
+      "value": 37.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 31.97,
   "high_52w": 41.61,
-  "ma50": 36.06,
-  "ma200": 36.87
+  "ma50": 35.99,
+  "ma200": 36.88
 }

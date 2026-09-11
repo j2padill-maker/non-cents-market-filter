@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-10T00:00:41.978070-07:00",
+  "generated_at": "2026-09-10T23:59:33.938535-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Oceaneering International, Inc. (OII) Presents at Gabelli Funds' 32nd Aerospace & Defense Symposium - Slideshow",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=218053b0d604479cbecb7eb6dd331c8465a06f8edbb3cfa8fa53e7f3a170a343",
+      "datetime": 1789045326,
+      "summary": "2026-09-10. The following slide deck was published by Oceaneering International, Inc."
+    },
     {
       "headline": "After A Home Run, Taking Profits On TechnipFMC (Rating Downgrade)",
       "source": "SeekingAlpha",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=fe2dac670a9c9eed4d9ab445383006f992194178834d22be8274d4078f5523f1",
       "datetime": 1788530280,
       "summary": "WMB's $5.5 billion Momentum Midstream deal expands its Haynesville network, strengthening links to Gulf Coast LNG, power and industrial demand."
-    },
-    {
-      "headline": "Baker Hughes Deepens Pakistan Footprint With OGDC's Multi-Year Deal",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8fd9972fc1289060ee0934902ddf44d744d21b2b2a4772b383efa54e18d49f20",
-      "datetime": 1788522540,
-      "summary": "BKR's multi-year OGDC contract covers more than 120 wells, combining AI-enabled solutions and well services to boost mature-field production in Pakistan."
     }
   ],
   "filings": [
@@ -82,50 +82,50 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-09",
+  "data_asof": "2026-09-10",
   "price": {
-    "last": 48.49,
-    "open": 50.79,
-    "prev_close": 50.68,
-    "move_day_pct": -4.32,
-    "move_open_close_pct": -4.53,
-    "move_week_pct": -5.51
+    "last": 50.57,
+    "open": 49.03,
+    "prev_close": 48.49,
+    "move_day_pct": 4.29,
+    "move_open_close_pct": 3.14,
+    "move_week_pct": -2.05
   },
   "indicators": {
     "rsi14": {
-      "value": 43.7,
+      "value": 51.7,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 0.625,
-      "signal": 1.137,
-      "hist": -0.512,
-      "hist_prev": -0.356,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": 0.562,
+      "signal": 1.022,
+      "hist": -0.461,
+      "hist_prev": -0.512,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
       "upper": 54.0,
-      "lower": 48.88,
-      "mid": 51.44,
-      "pctb": -0.077,
-      "read": "Below the lower band \u2014 stretched to the downside"
+      "lower": 48.84,
+      "mid": 51.42,
+      "pctb": 0.336,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 118.42,
-      "read": "118% above its 52-week low"
+      "value": 127.79,
+      "read": "128% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -10.39,
+      "value": -6.54,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 36.78,
-      "pct": 31.84,
-      "read": "32% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 36.92,
+      "pct": 36.97,
+      "read": "37% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 1.98,
-      "pct_of_price": 4.09,
+      "value": 2.03,
+      "pct_of_price": 4.01,
       "read": "High daily volatility"
     },
     "rel_volume": {
@@ -133,12 +133,12 @@
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 44.6,
+      "value": 52.1,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 22.2,
   "high_52w": 54.11,
-  "ma50": 47.73,
-  "ma200": 36.78
+  "ma50": 47.93,
+  "ma200": 36.92
 }

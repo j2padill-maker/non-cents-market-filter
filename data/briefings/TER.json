@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-10T00:00:41.106372-07:00",
+  "generated_at": "2026-09-10T23:59:33.390791-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Teradyne, Inc. (TER) Presents at Goldman Sachs Communacopia + Technology Conference 2026 Transcript",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=e3314f7cc638a830c8a213f36c9a6249600b9675b3512dd1caa0af4b64efcfde",
-      "datetime": 1788982624,
-      "summary": "Teradyne, Inc. (TER) Goldman Sachs Communacopia + Technology Conference 2026 September 9, 2026 4:45 PM EDTCompany ParticipantsGregory Smith - President, CEO..."
-    },
-    {
-      "headline": "Teradyne Rides on Strong UltraFLEXplus Demand: Can It Beat KLAC & COHU?",
+      "headline": "Teradyne (TER) Suffers a Larger Drop Than the General Market: Key Insights",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c298c71b80f0a703ce6b2aa2e5c5c493b682bc0537439186811639e6c2207390",
-      "datetime": 1788880860,
-      "summary": "TER's UltraFLEXplus demand is surging on AI-driven test needs, fueling chip-test growth and strengthening its position against KLA and Cohu."
+      "url": "https://finnhub.io/api/news?id=8e2ae060449f7f891bb9838103c74679c39bc0a8a92d104fc445a2121eaafd17",
+      "datetime": 1789077606,
+      "summary": "Teradyne (TER) closed the most recent trading day at $370.19, moving 3.52% from the previous trading session."
     },
     {
-      "headline": "Tesla and XPENG Are Taking Humanoid Robots to the Factory: 3 ETFs to Watch as Production Scales",
+      "headline": "Qorvo shares are trading lower after the company reported Q3 financial results and issued Q4 sales guidance below estimates. Also, multiple firms lowered their respective price targets on the stock.",
       "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=5544e930704a41e0218172f07e8bbac1fde579da8c99ddd1c9305e957ee43f68",
-      "datetime": 1788876668,
-      "summary": "Tesla and XPENG are pushing humanoid robots toward mass production. See how BOTT, KOID and HUMN ETFs are positioned for the next robotics boom."
+      "url": "https://finnhub.io/api/news?id=f7b503bbcf45e76892e70c769020db75207f83d97e1644e83f0a215a3219a944",
+      "datetime": 1789045795,
+      "summary": ""
     },
     {
-      "headline": "These S&P500 stocks are moving in today's pre-market session",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=00df6df6df67101935570b3d09b4f6fb117c7f4bf5fcbd493dfc9d008f76108f",
-      "datetime": 1788870900,
-      "summary": "Stay updated with the S&P500 stocks that are on the move in today's pre-market session."
+      "headline": "IMF Cuts Global Growth Forecast Citing Brexit Blowback",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=4cf23c492c5107eb89d10da340bb43dfe7d17b4c7dde7211317302fe9ea40dca",
+      "datetime": 1789045795,
+      "summary": ""
     },
     {
-      "headline": "American Century Value Fund Q2 2026 Contributors And Detractors",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=4d692700574c5bd991de1cb46707cbbc7162de9134cc7fb87a13d812a326409e",
-      "datetime": 1788861600,
-      "summary": "Key contributors include Infineon Technologies, Teradyne and Walmart. Learn more about key detractors."
-    },
-    {
-      "headline": "Can AEHR Turn AI Processor Tests Into Long-Term Revenue Streams?",
+      "headline": "3 Profitable Stocks with Warning Signs",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=65e3378d36a419952c091d687d1d8b41ffa49ed9bfa79201bf5035b82cc69479",
-      "datetime": 1788799260,
-      "summary": "Aehr's AI testing business gains momentum with major orders, new customer opportunities and a path toward recurring revenues."
+      "url": "https://finnhub.io/api/news?id=91e437b202ec89d26d015b9e51934c0cb93f60d661336b6e85aa2aea9931c4d2",
+      "datetime": 1789045504,
+      "summary": "Even if a company is profitable, it doesn\u2019t always mean it\u2019s a great investment. Some struggle to maintain growth, face looming threats, or fail to reinvest wisely, limiting their future potential."
+    },
+    {
+      "headline": "Nvidia Earnings Put Narrow Robotics Rally to the Test",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=e8ed59ce5c0c6772120fe5becf0cd40a5c92e61ca1284b2895de7d7711952a4a",
+      "datetime": 1789043782,
+      "summary": "Robotics rally narrows as AI, chip test, and machine vision suppliers lead while traditional names lag. Earnings could test this leadership."
+    },
+    {
+      "headline": "Which S&P500 stocks are moving before the opening bell on Thursday?",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=8f0ecb0c946565ff79ac4b73566e7b4fc9c73bb56cca3c0f7c47c0fb20ef9322",
+      "datetime": 1789043701,
+      "summary": "Discover the top S&P500 movers in Thursday's pre-market session and stay informed about market dynamics."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-09",
+  "data_asof": "2026-09-10",
   "price": {
-    "last": 383.69,
-    "open": 368.48,
-    "prev_close": 372.06,
-    "move_day_pct": 3.13,
-    "move_open_close_pct": 4.13,
-    "move_week_pct": 14.42
+    "last": 370.19,
+    "open": 372.21,
+    "prev_close": 383.69,
+    "move_day_pct": -3.52,
+    "move_open_close_pct": -0.54,
+    "move_week_pct": 8.4
   },
   "indicators": {
     "rsi14": {
-      "value": 54.6,
+      "value": 50.4,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -4.562,
-      "signal": -4.899,
-      "hist": 0.337,
-      "hist_prev": -1.964,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": -3.718,
+      "signal": -4.663,
+      "hist": 0.944,
+      "hist_prev": 0.337,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 431.04,
-      "lower": 320.49,
-      "mid": 375.77,
-      "pctb": 0.572,
+      "upper": 428.07,
+      "lower": 320.22,
+      "mid": 374.15,
+      "pctb": 0.463,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 242.51,
-      "read": "243% above its 52-week low"
+      "value": 230.46,
+      "read": "230% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -20.67,
-      "read": "21% below its 52-week high"
+      "value": -23.46,
+      "read": "23% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 318.2,
-      "pct": 20.58,
-      "read": "21% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 319.27,
+      "pct": 15.95,
+      "read": "16% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 22.21,
-      "pct_of_price": 5.79,
+      "value": 21.9,
+      "pct_of_price": 5.91,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.78,
+      "value": 0.85,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 43.8,
+      "value": 43.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 112.02,
   "high_52w": 483.65,
-  "ma50": 368.91,
-  "ma200": 318.2
+  "ma50": 366.64,
+  "ma200": 319.27
 }
