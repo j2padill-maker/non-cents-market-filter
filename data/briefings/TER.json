@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-11T23:50:45.448480-07:00",
+  "generated_at": "2026-09-12T16:52:34.757250-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Semiconductor Equipment Stocks Face ASML and Applied Materials Earnings Test After High-Quality Pullback",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=8d0cb8aae946432c362e205f32d7215e3e4ec0187996b01bcb18fce3b8150550",
+      "datetime": 1789214762,
+      "summary": "Semiconductor equipment stocks pull back after huge gains as ASML, AMAT, LRCX, KLAC and TER earnings test high-quality momentum and profits."
+    },
+    {
+      "headline": "Teradyne (NASDAQ:TER): Strong Minervini Trend and Growth Momentum, But a Volatile Setup",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=0822dc6638002f945bdb6f2e9823ceeec0399911c735c76bf9a9bf82b2d2a773",
+      "datetime": 1789207301,
+      "summary": "TERADYNE (TER) shows a Minervini Trend Template setup with strong relative strength and accelerating growth, but volatile price action limits entry."
+    },
     {
       "headline": "1 Cash-Heavy Stock on Our Watchlist and 2 We Ignore",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=f7b503bbcf45e76892e70c769020db75207f83d97e1644e83f0a215a3219a944",
       "datetime": 1789045795,
       "summary": ""
-    },
-    {
-      "headline": "IMF Cuts Global Growth Forecast Citing Brexit Blowback",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=4cf23c492c5107eb89d10da340bb43dfe7d17b4c7dde7211317302fe9ea40dca",
-      "datetime": 1789045795,
-      "summary": ""
-    },
-    {
-      "headline": "3 Profitable Stocks with Warning Signs",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=91e437b202ec89d26d015b9e51934c0cb93f60d661336b6e85aa2aea9931c4d2",
-      "datetime": 1789045504,
-      "summary": "Even if a company is profitable, it doesn\u2019t always mean it\u2019s a great investment. Some struggle to maintain growth, face looming threats, or fail to reinvest wisely, limiting their future potential."
     }
   ],
   "filings": [

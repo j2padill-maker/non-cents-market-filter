@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-11T23:50:45.651998-07:00",
+  "generated_at": "2026-09-12T16:52:36.252377-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "How The Rise Of Frontier Tech Baskets Could Impact Equities",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=5bb8a2eae53ced08753007af4c3eb01a575bcf307807411b040ceed083b2c599",
+      "datetime": 1789183200,
+      "summary": "The FAB 10 and MANGOS equity baskets have garnered attention as investors rotate into frontier tech favorites such as SpaceX, and eye Anthropic and OpenAI\u00e2\u0080\u0099s IPOs. Read more here."
+    },
     {
       "headline": "Market Valuations In Focus Amid Rising Risks",
       "source": "SeekingAlpha",

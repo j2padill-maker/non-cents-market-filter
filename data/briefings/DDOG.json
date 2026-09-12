@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-11T23:50:43.996580-07:00",
+  "generated_at": "2026-09-12T16:52:24.619891-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Before AI Destroys The World, I Would First Invest In These Bottlenecks",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=331e6398668a799f9bac95adfc7e03b617e94c0c06f3cff335b969aadede4ff1",
+      "datetime": 1789200900,
+      "summary": "AI\u00e2\u0080\u0099s doomsday headlines make great engagement, but the real investment edge lies in understanding the bottlenecks. Read more on the bottlenecks here."
+    },
     {
       "headline": "Wedbush Names CrowdStrike and Palo Alto Networks AI Cybersecurity Winners",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=9010e2be1fabb11bd0e4b96f580bfbdf4df2d168c86e72bedc5388b43a1e69fc",
       "datetime": 1788971701,
       "summary": "Stay informed about the performance of the S&P500 index in the middle of the day on Wednesday. Uncover the top gainers and losers in today's session for valuable insights."
-    },
-    {
-      "headline": "Fastly Jumps 7%: Is This an Oversold Bounce or the Start of a Run?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f03f2c608799755f2a2c364d868606a928878461882657723e6090a9fbb7f3c2",
-      "datetime": 1788963958,
-      "summary": "Fastly is surging 7% on a session when the cloud sector and broad market are both sliding, and no news, analyst call, or catalyst explains the move. The reason behind the rally matters a lot given where the stock sits after a 123% run this year."
     }
   ],
   "filings": [

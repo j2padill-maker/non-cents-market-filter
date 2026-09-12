@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-11T23:50:43.069415-07:00",
+  "generated_at": "2026-09-12T16:52:18.812391-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "1 Cash-Heavy Stock on Our Watchlist and 2 We Ignore",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=0dd0acabaca59eec3ccfdb072c1118e75b4006d5a7293f482420362ab85e6a34",
+      "datetime": 1789177625,
+      "summary": "A surplus of cash can mean financial stability, but it can also indicate a reluctance (or inability) to invest in growth. Some of these companies also face challenges like stagnating revenue, declining market share, or limited scalability."
+    },
     {
       "headline": "MongoDB, Inc. to Host Investor Day in New York City",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=0a63893e6519b965bccb0afa2fb82469054a327eeea47b8f4859e8255b5361c8",
       "datetime": 1788982028,
       "summary": "MongoDB, Inc. (MDB) Citi's 2026 Global TMT Conference September 9, 2026 8:50 AM EDTCompany ParticipantsChirantan Desai - President, CEO & DirectorJess..."
-    },
-    {
-      "headline": "XYZ Files Application to Establish Builders Bank for Custody Services",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=62ebd1ddd3cbfed2fe614ec7ad71369521a27c0008ec0faa9a4775814e50ac07",
-      "datetime": 1788972420,
-      "summary": "Block's proposed Builders Bank provide federally regulated custody services for bitcoin and stablecoins if approved by the OCC."
     }
   ],
   "filings": [

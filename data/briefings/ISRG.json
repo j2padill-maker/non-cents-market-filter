@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-11T23:50:45.114422-07:00",
+  "generated_at": "2026-09-12T16:52:32.041922-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -24,6 +24,20 @@
       "summary": "Intuitive Surgical (NASDAQ:ISRG) executives said the company remains focused on global procedure growth, while acknowledging a recent deceleration in U.S. procedures and policy-related uncertainty affecting hospitals. Speaking at a Wells Fargo conference, Executive Vice President, CFO and Enterpris"
     },
     {
+      "headline": "$1000 Invested In Intuitive Surgical 10 Years Ago Would Be Worth This Much Today",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=89b0eb1bf7f4d36eb804c1454de72126b52218b7d4f9df1cecdfbc788fa57c8e",
+      "datetime": 1789151433,
+      "summary": "Intuitive Surgical (NASDAQ:ISRG) has outperformed the market over the past 10 years by 3.55% on an annualized basis producing an average annual return of 17.12%. Currently, Intuitive Surgical has a market capitalization"
+    },
+    {
+      "headline": "This AI ETF Is Missing the Biggest AI Winners",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8ab2152e7d3cbaffcc7d9bb7ebf52532bf54cde8a2a32434a18db15773c38d2f",
+      "datetime": 1789136400,
+      "summary": "The Global X Robotics & Artificial Intelligence ETF (BOTZ) has fallen more than 8% over five years due to heavy industrial automation exposure, concentration risk, and weak holdings like Tesla and Baidu."
+    },
+    {
       "headline": "Stock Market Today: Dow Rallies On Surprise Inflation Data; Nvidia Rebounds, Oracle Jumps (Live Coverage)",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=0cec32bafdfd377a5c526ec2b8fbd577ab81472a076cccebc07f8279b1c1c8f8",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=e8ed59ce5c0c6772120fe5becf0cd40a5c92e61ca1284b2895de7d7711952a4a",
       "datetime": 1789043782,
       "summary": "Robotics rally narrows as AI, chip test, and machine vision suppliers lead while traditional names lag. Earnings could test this leadership."
-    },
-    {
-      "headline": "How Much Can ISRG Stock Still Move Against You?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=1aa1e22c6ac3142237a0016f4299f278aafa537090db39915324d58d984718f3",
-      "datetime": 1788985334,
-      "summary": "Intuitive Surgical (ISRG) has handed its owners a hard year. The stock is down 25% over the trailing twelve months while the S&P 500 returned 19.3%, and it now trades about 41% below its 52-week high. After a fall like that the natural hope is that the big moves are behind you. Options priced a year out say they are not."
-    },
-    {
-      "headline": "Intuitive Surgical, Inc. (ISRG) Presents at Wells Fargo 21st Annual Healthcare Conference Transcript",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=a49891db32429aac35505bad2c516ac6ec80355a6c0de650cd1173f545478eaf",
-      "datetime": 1788962227,
-      "summary": ""
     }
   ],
   "filings": [
