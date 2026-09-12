@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-10T23:59:32.628989-07:00",
+  "generated_at": "2026-09-11T23:50:45.114422-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Intuitive Surgical Sees Procedure Growth Despite U.S. Slowdown and China Pressure",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=02bd95612ccbc6727f625d795c327601d9740f8061c8c60a998b7fba5af54190",
+      "datetime": 1789156922,
+      "summary": "Intuitive Surgical (NASDAQ:ISRG) executives said the company remains focused on global procedure growth, while acknowledging a recent deceleration in U.S. procedures and policy-related uncertainty affecting hospitals. Speaking at a Wells Fargo conference, Executive Vice President, CFO and Enterpris"
+    },
+    {
+      "headline": "Stock Market Today: Dow Rallies On Surprise Inflation Data; Nvidia Rebounds, Oracle Jumps (Live Coverage)",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=0cec32bafdfd377a5c526ec2b8fbd577ab81472a076cccebc07f8279b1c1c8f8",
+      "datetime": 1789134431,
+      "summary": "Stock Market Today: The Dow Jones index rallies Friday after a surprise CPI inflation report. Nvidia stock rebounded in morning trading."
+    },
+    {
+      "headline": "10 Health Care Stocks With Whale Alerts In Today\u2019s Session",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=bdc2f3449be06089f2a7a0fff4946e8fcf53edb531611c3d7f202790ddc443c0",
+      "datetime": 1789133712,
+      "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders will"
+    },
     {
       "headline": "Nvidia Earnings Put Narrow Robotics Rally to the Test",
       "source": "ChartMill",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=a49891db32429aac35505bad2c516ac6ec80355a6c0de650cd1173f545478eaf",
       "datetime": 1788962227,
       "summary": ""
-    },
-    {
-      "headline": "Brokers Suggest Investing in Intuitive Surgical (ISRG): Read This Before Placing a Bet",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d7bea4d553b8b047f788b2b2fcbc3c27477ce62fc683d0269c258331c0ead8e9",
-      "datetime": 1788960604,
-      "summary": "Based on the average brokerage recommendation (ABR), Intuitive Surgical (ISRG) should be added to one's portfolio. Wall Street analysts' overly optimistic recommendations cast doubt on the effectiveness of this highly sought-after metric. So, is the stock worth buying?"
-    },
-    {
-      "headline": "ISRG Stock Trading at its Cheapest in 10 Years: Should You Buy Now?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b9329ff5e160b79a843e12abdf9a90229fb42776800743c29fe8b89668afd076",
-      "datetime": 1788958380,
-      "summary": "Intuitive Surgical trades at its cheapest valuation in 10 years as strong growth, innovation and procedure gains face rising costs and market pressures."
-    },
-    {
-      "headline": "Wall Street Isn't Talking About High-Yield Medtronic Stock -- Here's Why It Should Be",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e580521fe9b346c0853dddec242b2e0ecb5ff4d71e761fd71dde463ca78b3a1a",
-      "datetime": 1788957300,
-      "summary": "Medtronic has a historically high 3% yield and is just two years away from becoming a Dividend King."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-10",
+  "data_asof": "2026-09-11",
   "price": {
-    "last": 360.46,
-    "open": 347.66,
-    "prev_close": 353.24,
-    "move_day_pct": 2.04,
-    "move_open_close_pct": 3.68,
-    "move_week_pct": -3.07
+    "last": 369.15,
+    "open": 363.56,
+    "prev_close": 360.46,
+    "move_day_pct": 2.41,
+    "move_open_close_pct": 1.54,
+    "move_week_pct": -0.18
   },
   "indicators": {
     "rsi14": {
-      "value": 42.6,
+      "value": 48.1,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -6.101,
-      "signal": -4.025,
-      "hist": -2.075,
-      "hist_prev": -2.506,
+      "macd": -5.407,
+      "signal": -4.302,
+      "hist": -1.105,
+      "hist_prev": -2.075,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 402.1,
-      "lower": 348.11,
-      "mid": 375.11,
-      "pctb": 0.229,
+      "upper": 397.77,
+      "lower": 349.24,
+      "mid": 373.5,
+      "pctb": 0.41,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 8.57,
+      "value": 11.18,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -39.2,
-      "read": "39% below its 52-week high"
+      "value": -37.73,
+      "read": "38% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 460.81,
-      "pct": -21.78,
-      "read": "22% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 459.85,
+      "pct": -19.72,
+      "read": "20% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 12.05,
-      "pct_of_price": 3.34,
+      "value": 12.19,
+      "pct_of_price": 3.3,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 1.34,
+      "value": 1.32,
       "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 44.7,
+      "value": 53.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 332.02,
   "high_52w": 592.85,
-  "ma50": 378.12,
-  "ma200": 460.81
+  "ma50": 377.46,
+  "ma200": 459.85
 }

@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-10T23:59:33.750120-07:00",
+  "generated_at": "2026-09-11T23:50:45.651998-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,13 @@
   ],
   "news": [
     {
+      "headline": "Market Valuations In Focus Amid Rising Risks",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=ef2f1aba32e1f9345e59278acb646c978c90e3d703fcc5012986a464c7ce61b6",
+      "datetime": 1789133400,
+      "summary": "As investors grapple with higher bond yields, oil prices and economic uncertainty, where could opportunities emerge? Morningstar Research's David Sekera shares his outlook."
+    },
+    {
       "headline": "The Zacks Analyst Blog Highlights FANUY, ABBNY, KYCCF, NVDA, ISRG, ILMN, NOVT, BOTZ, ROBO, ROBT and IBOT",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=d719bf4179166f804962f458c60fedca5ab419c8b8e4f402545a7df02e0737fe",
@@ -29,83 +36,69 @@
       "url": "https://finnhub.io/api/news?id=5bea64ee8eca352162436d93823986e8a6d5ec1072198bd0444853c483912072",
       "datetime": 1788593400,
       "summary": "Multi-asset instruments need to be blended well enough so that each component of the blend is actually playing a relevant role. Otherwise, you get a blend that is blended for no good reason."
-    },
-    {
-      "headline": "Are Robots the New Normal? Bet on these ETFs to Invest in the Future",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7d4647a0aba77aa832a2043833917398cf2447b739e36e7a637352d888a5da8f",
-      "datetime": 1788522540,
-      "summary": "Robotics is entering a new era as AI fuels humanoid adoption, with four ETFs offering diversified exposure to the sector's growth."
-    },
-    {
-      "headline": "Howard Lindzon On AI, Crypto And The 'Degenerate Economy'",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=7382b67efac0eea0bbec10673a7242ad188ed76ee6274dcfa0194b6066dea7f3",
-      "datetime": 1788510000,
-      "summary": "Howard Lindzon, founder of StockTwits, discusses how investing, speculation, entertainment, social media, prediction markets, crypto, and AI are increasingly colliding. Read more here."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-10",
+  "data_asof": "2026-09-11",
   "price": {
-    "last": 34.76,
-    "open": 34.86,
-    "prev_close": 35.18,
-    "move_day_pct": -1.19,
-    "move_open_close_pct": -0.29,
-    "move_week_pct": -1.22
+    "last": 35.28,
+    "open": 35.22,
+    "prev_close": 34.76,
+    "move_day_pct": 1.5,
+    "move_open_close_pct": 0.17,
+    "move_week_pct": -1.48
   },
   "indicators": {
     "rsi14": {
-      "value": 39.5,
-      "read": "Oversold"
+      "value": 44.8,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": -0.306,
-      "signal": -0.201,
-      "hist": -0.105,
-      "hist_prev": -0.074,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -0.307,
+      "signal": -0.222,
+      "hist": -0.085,
+      "hist_prev": -0.105,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 37.73,
-      "lower": 34.3,
-      "mid": 36.02,
-      "pctb": 0.134,
-      "read": "Near the lower band"
+      "upper": 37.42,
+      "lower": 34.36,
+      "mid": 35.89,
+      "pctb": 0.301,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 8.71,
+      "value": 10.34,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -16.46,
-      "read": "16% below its 52-week high"
+      "value": -15.21,
+      "read": "15% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 36.88,
-      "pct": -5.75,
-      "read": "6% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 36.89,
+      "pct": -4.36,
+      "read": "4% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.57,
-      "pct_of_price": 1.63,
+      "value": 0.58,
+      "pct_of_price": 1.64,
       "read": "Calm \u2014 low volatility"
     },
     "rel_volume": {
-      "value": 1.2,
-      "read": "Roughly average volume"
+      "value": 1.56,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 37.5,
+      "value": 39.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 31.97,
   "high_52w": 41.61,
-  "ma50": 35.99,
-  "ma200": 36.88
+  "ma50": 35.94,
+  "ma200": 36.89
 }

@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-10T23:59:30.165447-07:00",
+  "generated_at": "2026-09-11T23:50:43.069415-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "MongoDB, Inc. to Host Investor Day in New York City",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=008f0ddf57b9a467a536c5624a3c699a5683ab8e679117e573448905b5b212a6",
+      "datetime": 1789135200,
+      "summary": "As previously announced, MongoDB, Inc. (NASDAQ: MDB) will host an investor day in New York City on September 29th. The investor day, hosted by MongoDB's executive team, will take place from 11:00 a.m. \u2013 3:30 p.m. ET."
+    },
+    {
+      "headline": "MongoDB (MDB) Reports 30% Revenue Growth and 91% RPO Growth. Is Atlas Demand Durable Enough to Sustain Operating Leverage?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=23cd01a6b2c53144c2af63705ff5d88fcc818fd425e99d532325a418349dff87",
+      "datetime": 1789058177,
+      "summary": "MongoDB, Inc. (NASDAQ:MDB) reported fiscal second-quarter revenue of $771.8 million, up 30% year over year. Atlas revenue increased approximately 29% to $565.9 million, while Enterprise Advanced and other revenue rose approximately 36% to $181.2 million. Remaining performance obligations, or RPO, increased 91% to $1.52 billion. RPO represents the aggregate transaction price in contracts allocated "
+    },
     {
       "headline": "MongoDB, Inc. (MDB) Presents at Goldman Sachs Communacopia + Technology Conference 2026 Transcript",
       "source": "SeekingAlpha",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=62ebd1ddd3cbfed2fe614ec7ad71369521a27c0008ec0faa9a4775814e50ac07",
       "datetime": 1788972420,
       "summary": "Block's proposed Builders Bank provide federally regulated custody services for bitcoin and stablecoins if approved by the OCC."
-    },
-    {
-      "headline": "Realizing Gains as MongoDB\u2019s (MDB) Competitive Landscape Shifts",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d1680101bf849cc1151153f11a479d0d6ac66886e7e64f35812af7cec7f6ac3d",
-      "datetime": 1788960014,
-      "summary": "Artisan Partners, an investment management company, released its second-quarter 2026 investor letter for the \u201cArtisan Mid Cap Fund\u201d. The letter can be downloaded here. Global equities rebounded sharply in Q2 2026, recovering from March lows as resilient economic data, strong corporate earnings, and continued AI investment improved investor sentiment despite inflation concerns, delayed rate cuts, a"
-    },
-    {
-      "headline": "MongoDB (MDB) Q2 2027 Earnings Call Transcript",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f34c8dff6d3485280351bf5885f1061f1f4a9f31ea5fdfa54c5bd42ad532da71",
-      "datetime": 1788908336,
-      "summary": "Atlas revenue surged 29% as AI workloads accelerated across enterprise customers."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-10",
+  "data_asof": "2026-09-11",
   "price": {
-    "last": 373.87,
-    "open": 360.42,
-    "prev_close": 358.38,
-    "move_day_pct": 4.32,
-    "move_open_close_pct": 3.73,
-    "move_week_pct": -0.41
+    "last": 362.21,
+    "open": 373.43,
+    "prev_close": 373.87,
+    "move_day_pct": -3.12,
+    "move_open_close_pct": -3.0,
+    "move_week_pct": -5.78
   },
   "indicators": {
     "rsi14": {
-      "value": 44.9,
+      "value": 42.4,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -3.435,
-      "signal": 7.279,
-      "hist": -10.714,
-      "hist_prev": -11.974,
+      "macd": -5.437,
+      "signal": 4.736,
+      "hist": -10.173,
+      "hist_prev": -10.714,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 484.52,
-      "lower": 345.78,
-      "mid": 415.15,
-      "pctb": 0.202,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 477.46,
+      "lower": 341.83,
+      "mid": 409.65,
+      "pctb": 0.15,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 65.47,
-      "read": "65% above its 52-week low"
+      "value": 60.31,
+      "read": "60% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -20.84,
-      "read": "21% below its 52-week high"
+      "value": -23.31,
+      "read": "23% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 342.87,
-      "pct": 9.04,
-      "read": "9% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 343.07,
+      "pct": 5.58,
+      "read": "6% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 22.15,
-      "pct_of_price": 5.92,
+      "value": 21.55,
+      "pct_of_price": 5.95,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.87,
-      "read": "Roughly average volume"
+      "value": 0.5,
+      "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 40.7,
+      "value": 37.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 375.45,
-  "ma200": 342.87
+  "ma50": 375.5,
+  "ma200": 343.07
 }

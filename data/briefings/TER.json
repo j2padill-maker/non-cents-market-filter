@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-10T23:59:33.390791-07:00",
+  "generated_at": "2026-09-11T23:50:45.448480-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "1 Cash-Heavy Stock on Our Watchlist and 2 We Ignore",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=0dd0acabaca59eec3ccfdb072c1118e75b4006d5a7293f482420362ab85e6a34",
+      "datetime": 1789177625,
+      "summary": "A surplus of cash can mean financial stability, but it can also indicate a reluctance (or inability) to invest in growth. Some of these companies also face challenges like stagnating revenue, declining market share, or limited scalability."
+    },
+    {
+      "headline": "ADBE Q3 Earnings Beat Estimates, Revenues Rise on Subscription Growth",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b886f43b329cd73dff7c5bb01c44c32a15c6608f55759401ecaaf7ad1f6b6c72",
+      "datetime": 1789140780,
+      "summary": "Adobe's Q3 fiscal 2026 earnings and revenues beat estimates as subscription growth and surging AI-first ARR powered results and lifted full-year targets."
+    },
     {
       "headline": "Teradyne (TER) Suffers a Larger Drop Than the General Market: Key Insights",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=91e437b202ec89d26d015b9e51934c0cb93f60d661336b6e85aa2aea9931c4d2",
       "datetime": 1789045504,
       "summary": "Even if a company is profitable, it doesn\u2019t always mean it\u2019s a great investment. Some struggle to maintain growth, face looming threats, or fail to reinvest wisely, limiting their future potential."
-    },
-    {
-      "headline": "Nvidia Earnings Put Narrow Robotics Rally to the Test",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=e8ed59ce5c0c6772120fe5becf0cd40a5c92e61ca1284b2895de7d7711952a4a",
-      "datetime": 1789043782,
-      "summary": "Robotics rally narrows as AI, chip test, and machine vision suppliers lead while traditional names lag. Earnings could test this leadership."
-    },
-    {
-      "headline": "Which S&P500 stocks are moving before the opening bell on Thursday?",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=8f0ecb0c946565ff79ac4b73566e7b4fc9c73bb56cca3c0f7c47c0fb20ef9322",
-      "datetime": 1789043701,
-      "summary": "Discover the top S&P500 movers in Thursday's pre-market session and stay informed about market dynamics."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-10",
+  "data_asof": "2026-09-11",
   "price": {
-    "last": 370.19,
-    "open": 372.21,
-    "prev_close": 383.69,
-    "move_day_pct": -3.52,
-    "move_open_close_pct": -0.54,
-    "move_week_pct": 8.4
+    "last": 379.72,
+    "open": 380.37,
+    "prev_close": 370.19,
+    "move_day_pct": 2.57,
+    "move_open_close_pct": -0.17,
+    "move_week_pct": 12.19
   },
   "indicators": {
     "rsi14": {
-      "value": 50.4,
+      "value": 53.1,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -3.718,
-      "signal": -4.663,
-      "hist": 0.944,
-      "hist_prev": 0.337,
+      "macd": -2.255,
+      "signal": -4.181,
+      "hist": 1.926,
+      "hist_prev": 0.944,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 428.07,
-      "lower": 320.22,
-      "mid": 374.15,
-      "pctb": 0.463,
+      "upper": 424.01,
+      "lower": 321.21,
+      "mid": 372.61,
+      "pctb": 0.569,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 230.46,
-      "read": "230% above its 52-week low"
+      "value": 238.97,
+      "read": "239% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -23.46,
-      "read": "23% below its 52-week high"
+      "value": -21.49,
+      "read": "21% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 319.27,
-      "pct": 15.95,
-      "read": "16% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 320.37,
+      "pct": 18.53,
+      "read": "19% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 21.9,
-      "pct_of_price": 5.91,
+      "value": 21.44,
+      "pct_of_price": 5.65,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.85,
+      "value": 0.94,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 43.4,
+      "value": 50.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 112.02,
   "high_52w": 483.65,
-  "ma50": 366.64,
-  "ma200": 319.27
+  "ma50": 365.69,
+  "ma200": 320.37
 }

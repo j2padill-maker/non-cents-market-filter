@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-10T23:59:31.605518-07:00",
+  "generated_at": "2026-09-11T23:50:44.171825-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Cloudflare (NET) Stock Dips While Market Gains: Key Facts",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ddaf0b4aea847c4bd27e7a437320323f574455a63f8e2a4e13a3d7d7da6c247a",
+      "datetime": 1789163403,
+      "summary": "Cloudflare (NET) closed the most recent trading day at $306.53, moving 1.49% from the previous trading session."
+    },
+    {
+      "headline": "Cloudflare Is Flying Too High, Time To Sell",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=2a5689cca05184826f4ca6089b42e9b5dea2ae2bac3e12cde35596dc572d031e",
+      "datetime": 1789120602,
+      "summary": "Cloudflare (NET) stock rated Sell at $262: strong growth tailwinds but extreme valuation (225x P/E) risks downside if revenue/EPS don\u00e2\u0080\u0099t accelerate."
+    },
     {
       "headline": "Stocks making big moves yesterday: SoFi, Marvell Technology, Lululemon, Cloudflare, and Victoria's Secret",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=494f6a92af77ec1ebb70ee9daae04d710e3f5a45887907f18cf1672f9a6cd96f",
       "datetime": 1789049700,
       "summary": "Cloudflare's large-customer gains are fueling revenue growth as rising spending, retention and multi-product adoption strengthen its expansion."
-    },
-    {
-      "headline": "Treasury yields rise as investors raise bets on Fed rate hike: AlphaCheck",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c0b36f81df7f4e7e2374970a002180d6b4726a4f3c6ce1bef7b5be240df99a53",
-      "datetime": 1789048612,
-      "summary": "Stocks were down on Thursday as investors watched for stress signs in the bond market as long dated bond yields as oil prices remain elevated ."
-    },
-    {
-      "headline": "OpenAI and SpaceX Deals Send Cloudflare Stock Flying",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=85453940ed039021ae22229c41c9b7c64b68263c9fb6565fda02ae94b87b65a0",
-      "datetime": 1789043947,
-      "summary": "Two blockbuster partnerships ignite fresh optimism around this cybersecurity stock"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-10",
+  "data_asof": "2026-09-11",
   "price": {
-    "last": 311.17,
-    "open": 313.35,
-    "prev_close": 314.18,
-    "move_day_pct": -0.96,
-    "move_open_close_pct": -0.7,
-    "move_week_pct": 14.09
+    "last": 306.53,
+    "open": 312.81,
+    "prev_close": 311.17,
+    "move_day_pct": -1.49,
+    "move_open_close_pct": -2.01,
+    "move_week_pct": 7.74
   },
   "indicators": {
     "rsi14": {
-      "value": 57.4,
+      "value": 55.5,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 3.581,
-      "signal": 2.994,
-      "hist": 0.588,
-      "hist_prev": -0.648,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": 4.254,
+      "signal": 3.246,
+      "hist": 1.008,
+      "hist_prev": 0.588,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 326.26,
-      "lower": 264.36,
-      "mid": 295.31,
-      "pctb": 0.756,
+      "upper": 321.02,
+      "lower": 267.17,
+      "mid": 294.1,
+      "pctb": 0.731,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 94.25,
-      "read": "94% above its 52-week low"
+      "value": 91.35,
+      "read": "91% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -5.94,
+      "value": -7.35,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 223.97,
-      "pct": 38.93,
-      "read": "39% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 224.57,
+      "pct": 36.5,
+      "read": "36% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 16.67,
+      "value": 16.42,
       "pct_of_price": 5.36,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.92,
+      "value": 0.65,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 66.2,
+      "value": 60.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 330.83,
-  "ma50": 283.9,
-  "ma200": 223.97
+  "ma50": 285.1,
+  "ma200": 224.57
 }

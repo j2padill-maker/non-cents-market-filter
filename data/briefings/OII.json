@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-10T23:59:33.938535-07:00",
+  "generated_at": "2026-09-11T23:50:45.803096-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "1 Stock Under $50 to Target This Week and 2 We Brush Off",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=6fa6531a7a94e8f45d968c2921d04cb63b6ed4ef0cfacee05228910c065c7eab",
+      "datetime": 1789172825,
+      "summary": "Stocks trading between $10 and $50 can be particularly interesting as they frequently represent businesses that have survived their early challenges. However, investors should remain vigilant as some may still have unproven business models, leaving them vulnerable to the ebbs and flows of the broader market."
+    },
+    {
+      "headline": "Shell Expands PJM Power Exposure With Hunlock Deal, Sells RISEC",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=4a947d97fb3f76c75b6d59459f2a287a38b2ab07fad14cb3027c4026a7e05262",
+      "datetime": 1789128840,
+      "summary": "SHEL is reshaping its U.S. power portfolio, acquiring 169 MW in PJM while selling RISEC for $715 million to unlock value."
+    },
     {
       "headline": "Oceaneering International, Inc. (OII) Presents at Gabelli Funds' 32nd Aerospace & Defense Symposium - Slideshow",
       "source": "SeekingAlpha",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=baf0fe91501cd82b3e4c914881cbd992f53acb0f41ef1d81cb9fd1a485ede670",
       "datetime": 1788855859,
       "summary": "Oceaneering International (NYSE:OII) sees preliminary FY2026 sales of $2.800 billion-$3.000 billion vs $2.909 billion analyst estimate."
-    },
-    {
-      "headline": "Oceaneering International (OII) Is Up 1.60% in One Week: What You Should Know",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2fe5a70a6e206b4efde10ca6d15775a158d4ed33132c46e7351495eaf31e64af",
-      "datetime": 1788796803,
-      "summary": "Does Oceaneering International (OII) have what it takes to be a top stock pick for momentum investors? Let's find out."
-    },
-    {
-      "headline": "Williams Closes Momentum Acquisition to Strengthen Haynesville Reach",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=fe2dac670a9c9eed4d9ab445383006f992194178834d22be8274d4078f5523f1",
-      "datetime": 1788530280,
-      "summary": "WMB's $5.5 billion Momentum Midstream deal expands its Haynesville network, strengthening links to Gulf Coast LNG, power and industrial demand."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-10",
+  "data_asof": "2026-09-11",
   "price": {
-    "last": 50.57,
-    "open": 49.03,
-    "prev_close": 48.49,
-    "move_day_pct": 4.29,
-    "move_open_close_pct": 3.14,
-    "move_week_pct": -2.05
+    "last": 51.09,
+    "open": 50.88,
+    "prev_close": 50.57,
+    "move_day_pct": 1.03,
+    "move_open_close_pct": 0.41,
+    "move_week_pct": -1.33
   },
   "indicators": {
     "rsi14": {
-      "value": 51.7,
+      "value": 53.5,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 0.562,
-      "signal": 1.022,
-      "hist": -0.461,
-      "hist_prev": -0.512,
+      "macd": 0.547,
+      "signal": 0.927,
+      "hist": -0.38,
+      "hist_prev": -0.461,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 54.0,
-      "lower": 48.84,
-      "mid": 51.42,
-      "pctb": 0.336,
+      "upper": 53.99,
+      "lower": 48.82,
+      "mid": 51.4,
+      "pctb": 0.439,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 127.79,
-      "read": "128% above its 52-week low"
+      "value": 130.14,
+      "read": "130% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -6.54,
+      "value": -5.58,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 36.92,
-      "pct": 36.97,
-      "read": "37% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 37.06,
+      "pct": 37.86,
+      "read": "38% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 2.03,
-      "pct_of_price": 4.01,
-      "read": "High daily volatility"
+      "value": 1.94,
+      "pct_of_price": 3.81,
+      "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 1.16,
-      "read": "Roughly average volume"
+      "value": 1.37,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 52.1,
+      "value": 52.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 22.2,
   "high_52w": 54.11,
-  "ma50": 47.93,
-  "ma200": 36.92
+  "ma50": 48.16,
+  "ma200": 37.06
 }

@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-10T23:59:31.225020-07:00",
+  "generated_at": "2026-09-11T23:50:43.996580-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Wedbush Names CrowdStrike and Palo Alto Networks AI Cybersecurity Winners",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=68503ab9ce3779248dce4afedf0d5e24d5ff7decb58172c20547685fe0c7b117",
+      "datetime": 1789141204,
+      "summary": "Wedbush Sees Cybersecurity Winners Emerging as AI Transforms the Market"
+    },
+    {
+      "headline": "Wedbush Assumes Datadog at Outperform, Announces Price Target of $275",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=295c97a7771ea590e990072be00e50e356744a2f2467a865275004f850a6702a",
+      "datetime": 1789115427,
+      "summary": "Wedbush  analyst Steven Wahrhaftig   assumes Datadog (NASDAQ:DDOG) with a Outperform rating and announces Price Target of $275."
+    },
     {
       "headline": "Datadog, Inc. (DDOG) Presents at Goldman Sachs Communacopia + Technology Conference 2026 Transcript",
       "source": "SeekingAlpha",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=f03f2c608799755f2a2c364d868606a928878461882657723e6090a9fbb7f3c2",
       "datetime": 1788963958,
       "summary": "Fastly is surging 7% on a session when the cloud sector and broad market are both sliding, and no news, analyst call, or catalyst explains the move. The reason behind the rally matters a lot given where the stock sits after a 123% run this year."
-    },
-    {
-      "headline": "Oil Tops $100, Meta and Cloudflare Jump On AI Breakthroughs: Stock Market Today",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=d444c590201f32f5168dbfef502be17c8b5f626a21d14e4db980f3b2ba377400",
-      "datetime": 1788959098,
-      "summary": "Brent crude pushes above $100 a barrel for the first time since July as US-Iran strikes escalated, equities slip broadly."
-    },
-    {
-      "headline": "An Emerging AI Agent Economy: First A Software Apocalypse, Now A Renaissance?",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=9e98cc72a1e33a36c437aaceb1122b67f3afd76e80622af13f8e46fce8ce6876",
-      "datetime": 1788918000,
-      "summary": "Dow Jones US Software Index, which serves as a U.S. software sector benchmark, fell from record close of $9040.04 on October 28th, 2025, to $5773.08 on April 10, 2026. Read more here."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-10",
+  "data_asof": "2026-09-11",
   "price": {
-    "last": 221.72,
-    "open": 221.34,
-    "prev_close": 225.27,
-    "move_day_pct": -1.58,
-    "move_open_close_pct": 0.17,
-    "move_week_pct": 5.97
+    "last": 221.21,
+    "open": 221.72,
+    "prev_close": 221.72,
+    "move_day_pct": -0.23,
+    "move_open_close_pct": -0.23,
+    "move_week_pct": 3.0
   },
   "indicators": {
     "rsi14": {
-      "value": 44.5,
+      "value": 44.3,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -8.372,
-      "signal": -7.666,
-      "hist": -0.706,
-      "hist_prev": -1.337,
+      "macd": -7.961,
+      "signal": -7.725,
+      "hist": -0.236,
+      "hist_prev": -0.706,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 257.36,
-      "lower": 204.05,
-      "mid": 230.7,
-      "pctb": 0.331,
+      "upper": 254.17,
+      "lower": 204.13,
+      "mid": 229.15,
+      "pctb": 0.341,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 116.07,
+      "value": 115.57,
       "read": "116% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -23.05,
+      "value": -23.23,
       "read": "23% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 177.09,
-      "pct": 25.2,
+      "ma200": 177.41,
+      "pct": 24.69,
       "read": "25% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 12.94,
-      "pct_of_price": 5.83,
+      "value": 12.52,
+      "pct_of_price": 5.66,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.52,
-      "read": "Roughly average volume"
+      "value": 0.39,
+      "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 44.7,
+      "value": 40.1,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 288.15,
-  "ma50": 247.41,
-  "ma200": 177.09
+  "ma50": 246.54,
+  "ma200": 177.41
 }

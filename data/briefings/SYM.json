@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-10T23:59:32.873132-07:00",
+  "generated_at": "2026-09-11T23:50:45.281456-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,18 +17,32 @@
   ],
   "news": [
     {
+      "headline": "VNT or SYM: Which Is the Better Value Stock Right Now?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=5085e65b0f608511cc8bf41b3ba0385d09ea5b6b356eb4dcfb49171389d9644f",
+      "datetime": 1789141204,
+      "summary": "VNT vs. SYM: Which Stock Is the Better Value Option?"
+    },
+    {
+      "headline": "Can SERV's Revenue Diversification Offset Weaker Uber Deliveries?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d03016874ea5eb894aae1ccf513844a92fc56f83dfb0b81a05ebe3f511c1eafe",
+      "datetime": 1789130880,
+      "summary": "SERV targets $9-$10M in 2026 revenues, as DoorDash growth, advertising and hospital contracts test diversification beyond weaker Uber deliveries."
+    },
+    {
+      "headline": "Serve Robotics Stock Slides 55% YTD: Should You Buy the Dip or Wait?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=5f73935c91fb41d2cce111593ea8f911ced594154ed2beb3e556605422010044",
+      "datetime": 1789057740,
+      "summary": "SERV faces near-term pressure from weaker revenues and Uber uncertainty, but hospital wins, autonomy gains and new use cases offer growth avenues."
+    },
+    {
       "headline": "Barclays Maintains Underweight on Symbotic, Lowers Price Target to $38",
       "source": "Benzinga",
       "url": "https://finnhub.io/api/news?id=8111b877f726e8fd6f51024885c353ead4b68bc368c211bd77a8d8c7e0682a5b",
       "datetime": 1788861405,
       "summary": "Barclays  analyst Guy Hardwick   maintains Symbotic (NASDAQ:SYM) with a Underweight and lowers the price target from $44 to $38."
-    },
-    {
-      "headline": "Why Is SYMBOTIC INC (SYM) Up 5.1% Since Last Earnings Report?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8a47bc9d89fda7ab381c85074d2c06e76c2c36b8ec8380926371f76cf45dff1d",
-      "datetime": 1788535834,
-      "summary": "SYMBOTIC INC (SYM) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues."
     }
   ],
   "filings": [
@@ -54,63 +68,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-10",
+  "data_asof": "2026-09-11",
   "price": {
-    "last": 41.1,
-    "open": 41.5,
-    "prev_close": 42.62,
-    "move_day_pct": -3.57,
-    "move_open_close_pct": -0.96,
-    "move_week_pct": 3.09
+    "last": 42.13,
+    "open": 41.91,
+    "prev_close": 41.1,
+    "move_day_pct": 2.51,
+    "move_open_close_pct": 0.52,
+    "move_week_pct": 1.27
   },
   "indicators": {
     "rsi14": {
-      "value": 48.5,
+      "value": 52.0,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.078,
-      "signal": -0.337,
-      "hist": 0.258,
-      "hist_prev": 0.349,
+      "macd": -0.016,
+      "signal": -0.273,
+      "hist": 0.256,
+      "hist_prev": 0.258,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 43.74,
-      "lower": 38.66,
-      "mid": 41.2,
-      "pctb": 0.48,
+      "upper": 43.78,
+      "lower": 38.65,
+      "mid": 41.22,
+      "pctb": 0.678,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 7.54,
+      "value": 10.23,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -52.92,
-      "read": "53% below its 52-week high"
+      "value": -51.74,
+      "read": "52% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 52.35,
-      "pct": -21.49,
-      "read": "21% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 52.29,
+      "pct": -19.43,
+      "read": "19% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 1.78,
-      "pct_of_price": 4.34,
+      "value": 1.79,
+      "pct_of_price": 4.25,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.69,
+      "value": 0.89,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 51.3,
+      "value": 49.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 38.22,
   "high_52w": 87.3,
-  "ma50": 41.95,
-  "ma200": 52.35
+  "ma50": 41.89,
+  "ma200": 52.29
 }

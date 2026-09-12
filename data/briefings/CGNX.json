@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-10T23:59:32.317580-07:00",
+  "generated_at": "2026-09-11T23:50:44.879606-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -22,13 +22,6 @@
       "url": "https://finnhub.io/api/news?id=e8ed59ce5c0c6772120fe5becf0cd40a5c92e61ca1284b2895de7d7711952a4a",
       "datetime": 1789043782,
       "summary": "Robotics rally narrows as AI, chip test, and machine vision suppliers lead while traditional names lag. Earnings could test this leadership."
-    },
-    {
-      "headline": "Cognex (CGNX) Down 9.8% Since Last Earnings Report: Can It Rebound?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=638297c8aee60dc9a2590d6a4224a8122f43bcc38c2d3c9f8e12db21360a67cb",
-      "datetime": 1788535836,
-      "summary": "Cognex (CGNX) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues."
     }
   ],
   "filings": [
@@ -54,63 +47,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-10",
+  "data_asof": "2026-09-11",
   "price": {
-    "last": 61.69,
-    "open": 61.13,
-    "prev_close": 61.87,
-    "move_day_pct": -0.29,
-    "move_open_close_pct": 0.92,
-    "move_week_pct": 2.92
+    "last": 64.22,
+    "open": 62.54,
+    "prev_close": 61.69,
+    "move_day_pct": 4.1,
+    "move_open_close_pct": 2.69,
+    "move_week_pct": 5.64
   },
   "indicators": {
     "rsi14": {
-      "value": 48.7,
+      "value": 55.6,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.558,
-      "signal": -0.769,
-      "hist": 0.212,
-      "hist_prev": 0.203,
+      "macd": -0.301,
+      "signal": -0.676,
+      "hist": 0.375,
+      "hist_prev": 0.212,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 65.32,
-      "lower": 57.78,
-      "mid": 61.55,
-      "pctb": 0.518,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 65.63,
+      "lower": 57.74,
+      "mid": 61.69,
+      "pctb": 0.821,
+      "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 78.02,
-      "read": "78% above its 52-week low"
+      "value": 85.32,
+      "read": "85% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -14.7,
+      "value": -11.2,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 53.8,
-      "pct": 14.67,
-      "read": "15% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 53.94,
+      "pct": 19.06,
+      "read": "19% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 2.22,
-      "pct_of_price": 3.6,
+      "value": 2.25,
+      "pct_of_price": 3.51,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.56,
+      "value": 0.68,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 51.2,
+      "value": 50.6,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 34.65,
   "high_52w": 72.32,
-  "ma50": 63.42,
-  "ma200": 53.8
+  "ma50": 63.28,
+  "ma200": 53.94
 }
