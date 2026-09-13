@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-12T16:52:26.040444-07:00",
+  "generated_at": "2026-09-13T00:06:08.817176-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Cloudflare Sees Agentic AI Opportunity Dwarfing Past Growth Drivers",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=1a9a1a8364f207babb9091068b9696980e9d1a71a7073a0f53e7f05221f6a9be",
+      "datetime": 1789236127,
+      "summary": "Cloudflare (NYSE:NET) sees its opportunity in agentic artificial intelligence extending beyond its current growth drivers, with Chief Financial Officer Thomas Seifert saying the company\u2019s network architecture is positioned to support low-latency, secure and distributed AI inference workloads. Speak"
+    },
+    {
+      "headline": "Jim Cramer Calls Akamai (AKAM) \u201cTerrific\u201d and Cloudflare (NET) One of His Favorites",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=adfbe0f587f5a7cbc43a94eec3d665ebd667bae545cca0f720cc3f1c355dbac9",
+      "datetime": 1789203829,
+      "summary": "Starting the lightning round of the September 9 episode of Mad Money, a caller asked for Jim Cramer\u2019s opinion of Akamai Technologies, Inc. (NASDAQ:AKAM). He replied: Akamai, the cybersecurity company, I think it\u2019s terrific. And by the way, I thought that Cloudflare, NET, that was one of my favorites. The two companies are benefiting from [\u2026]"
+    },
     {
       "headline": "Cloudflare (NET) Stock Dips While Market Gains: Key Facts",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=95a16f6cd316a90a229b67671d2b5a7adf1e35fb10f2855b753ba4b5a8afb613",
       "datetime": 1789059662,
       "summary": "Michael Burry just closed his most prominent AI short, the kind of move that typically sparks a relief rally, yet CoreWeave kept falling. What that silence signals about the real debate gripping the cloud trade right now is worth understanding before Oracle reports tonight."
-    },
-    {
-      "headline": "Why Barchart Data Says You Shouldn\u2019t Chase Cloudflare Stock Here Despite Strong Technical Momentum",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ea7b531145d9038f3202e051076e2fdae2780f888b15bfcd120dd3f67fd7427b",
-      "datetime": 1789054804,
-      "summary": "Cloudflare (NET) demonstrates strong technical momentum, with shares up more than 40% over the past year. Consensus price targets cluster around $350, implying 10% upside from recent levels. Revenue and earnings are projected to grow robustly, but valuation concerns persist as NET remains unprofitable. Analyst sentiment is mixed, with both..."
-    },
-    {
-      "headline": "Can Large-Customer Gains Remain a Key Driver of NET's Revenue Growth?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=494f6a92af77ec1ebb70ee9daae04d710e3f5a45887907f18cf1672f9a6cd96f",
-      "datetime": 1789049700,
-      "summary": "Cloudflare's large-customer gains are fueling revenue growth as rising spending, retention and multi-product adoption strengthen its expansion."
     }
   ],
   "filings": [

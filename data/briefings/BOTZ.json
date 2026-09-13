@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-12T16:52:36.252377-07:00",
+  "generated_at": "2026-09-13T00:06:10.134666-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -24,6 +24,13 @@
       "summary": "The FAB 10 and MANGOS equity baskets have garnered attention as investors rotate into frontier tech favorites such as SpaceX, and eye Anthropic and OpenAI\u00e2\u0080\u0099s IPOs. Read more here."
     },
     {
+      "headline": "This AI ETF Is Missing the Biggest AI Winners",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8ab2152e7d3cbaffcc7d9bb7ebf52532bf54cde8a2a32434a18db15773c38d2f",
+      "datetime": 1789136400,
+      "summary": "The Global X Robotics & Artificial Intelligence ETF (BOTZ) has fallen more than 8% over five years due to heavy industrial automation exposure, concentration risk, and weak holdings like Tesla and Baidu."
+    },
+    {
       "headline": "Market Valuations In Focus Amid Rising Risks",
       "source": "SeekingAlpha",
       "url": "https://finnhub.io/api/news?id=ef2f1aba32e1f9345e59278acb646c978c90e3d703fcc5012986a464c7ce61b6",
@@ -36,13 +43,6 @@
       "url": "https://finnhub.io/api/news?id=d719bf4179166f804962f458c60fedca5ab419c8b8e4f402545a7df02e0737fe",
       "datetime": 1788876660,
       "summary": "BOTZ offers diversified exposure to a robotics boom fueled by AI, humanoid robots and industrial automation, as the sector rapidly evolves."
-    },
-    {
-      "headline": "3 Things I Think I Think",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=5bea64ee8eca352162436d93823986e8a6d5ec1072198bd0444853c483912072",
-      "datetime": 1788593400,
-      "summary": "Multi-asset instruments need to be blended well enough so that each component of the blend is actually playing a relevant role. Otherwise, you get a blend that is blended for no good reason."
     }
   ],
   "filings": [],
