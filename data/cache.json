@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-13T00:06:07.574135-07:00",
+  "generated": "2026-09-14T00:32:39.257996-07:00",
   "count": 286,
   "stocks": [
     {
       "ticker": "NVDA",
       "sector": "AI Hardware",
-      "updated": "2026-09-12T23:51:56.860117-07:00",
+      "updated": "2026-09-14T00:16:37.751923-07:00",
       "price": 218.29,
       "prev_close": 218.36,
       "change_pct": -0.03,
@@ -45,7 +45,7 @@
     {
       "ticker": "AMD",
       "sector": "AI Hardware",
-      "updated": "2026-09-12T23:51:59.690695-07:00",
+      "updated": "2026-09-14T00:16:41.644415-07:00",
       "price": 516.13,
       "prev_close": 503.6,
       "change_pct": 2.49,
@@ -84,7 +84,7 @@
     {
       "ticker": "INTC",
       "sector": "AI Hardware",
-      "updated": "2026-09-12T23:52:02.378804-07:00",
+      "updated": "2026-09-14T00:16:44.873836-07:00",
       "price": 102.94,
       "prev_close": 100.32,
       "change_pct": 2.61,
@@ -123,7 +123,7 @@
     {
       "ticker": "MU",
       "sector": "AI Hardware",
-      "updated": "2026-09-12T23:52:05.215386-07:00",
+      "updated": "2026-09-14T00:16:48.129233-07:00",
       "price": 975.26,
       "prev_close": 977.41,
       "change_pct": -0.22,
@@ -162,7 +162,7 @@
     {
       "ticker": "AMAT",
       "sector": "AI Hardware",
-      "updated": "2026-09-12T23:52:08.029008-07:00",
+      "updated": "2026-09-14T00:16:51.301382-07:00",
       "price": 456.49,
       "prev_close": 454.01,
       "change_pct": 0.55,
@@ -202,7 +202,7 @@
     {
       "ticker": "LRCX",
       "sector": "AI Hardware",
-      "updated": "2026-09-12T23:52:10.727277-07:00",
+      "updated": "2026-09-14T00:16:54.640314-07:00",
       "price": 298.22,
       "prev_close": 298.01,
       "change_pct": 0.07,
@@ -273,7 +273,7 @@
     {
       "ticker": "AVGO",
       "sector": "AI Hardware",
-      "updated": "2026-09-12T23:52:14.306667-07:00",
+      "updated": "2026-09-14T00:16:58.927581-07:00",
       "price": 361.99,
       "prev_close": 360.83,
       "change_pct": 0.32,
@@ -313,7 +313,7 @@
     {
       "ticker": "ASML",
       "sector": "AI Hardware",
-      "updated": "2026-09-12T23:52:16.991911-07:00",
+      "updated": "2026-09-14T00:17:01.928321-07:00",
       "price": 1698.3,
       "prev_close": 1687.43,
       "change_pct": 0.64,
@@ -353,7 +353,7 @@
     {
       "ticker": "TSM",
       "sector": "AI Hardware",
-      "updated": "2026-09-12T23:52:19.677914-07:00",
+      "updated": "2026-09-14T00:17:04.997177-07:00",
       "price": 433.24,
       "prev_close": 428.03,
       "change_pct": 1.22,
@@ -393,7 +393,7 @@
     {
       "ticker": "DELL",
       "sector": "AI Hardware",
-      "updated": "2026-09-12T23:52:22.383586-07:00",
+      "updated": "2026-09-14T00:17:08.093132-07:00",
       "price": 567.29,
       "prev_close": 506.62,
       "change_pct": 11.98,
@@ -432,7 +432,7 @@
     {
       "ticker": "SMCI",
       "sector": "AI Hardware",
-      "updated": "2026-09-12T23:52:25.109148-07:00",
+      "updated": "2026-09-14T00:17:11.230449-07:00",
       "price": 40.1,
       "prev_close": 37.38,
       "change_pct": 7.28,
@@ -472,7 +472,7 @@
     {
       "ticker": "VRT",
       "sector": "AI Hardware",
-      "updated": "2026-09-12T23:52:27.823021-07:00",
+      "updated": "2026-09-14T00:17:14.340231-07:00",
       "price": 257.06,
       "prev_close": 248.13,
       "change_pct": 3.6,
@@ -508,6 +508,12 @@
       "revenue_growth": 26.23,
       "news": [
         {
+          "headline": "Vertiv Sees Data Center Demand Strengthen as AI Infrastructure Pipeline Expands",
+          "url": "https://finnhub.io/api/news?id=f6d75be1524d8a0425d1a4662a6bf046eb545a55ec4a478974f812c091fb93ae",
+          "datetime": 1789351320,
+          "source": "Yahoo"
+        },
+        {
           "headline": "Oracle Is Spending Tens of Billions on AI Infrastructure. Where Does the Physical Money Go?",
           "url": "https://finnhub.io/api/news?id=5da1a272619a2281c07f2d8a0527ab9c5482466dc94c8361dd875d70f5f7fef3",
           "datetime": 1789166847,
@@ -530,12 +536,6 @@
           "url": "https://finnhub.io/api/news?id=7914867a607fbdd0dec3ac0321718a9b05092375705847899fd3ebda824bf9d9",
           "datetime": 1789107900,
           "source": "Yahoo"
-        },
-        {
-          "headline": "The Scarcity Trade Is Starting To Eat The Capital Cycle",
-          "url": "https://finnhub.io/api/news?id=24731274831ce8145d1c37ffad8b8ead2d88b889626dd7fbac33b9f9d7be4e36",
-          "datetime": 1789083300,
-          "source": "SeekingAlpha"
         }
       ],
       "watchlists": []
@@ -543,7 +543,7 @@
     {
       "ticker": "ETN",
       "sector": "AI Hardware",
-      "updated": "2026-09-12T23:52:31.380397-07:00",
+      "updated": "2026-09-14T00:17:18.596882-07:00",
       "price": 425.37,
       "prev_close": 409.15,
       "change_pct": 3.96,
@@ -583,7 +583,7 @@
     {
       "ticker": "ATKR",
       "sector": "AI Hardware",
-      "updated": "2026-09-12T23:52:34.176126-07:00",
+      "updated": "2026-09-14T00:17:21.596141-07:00",
       "price": 94.15,
       "prev_close": 94.16,
       "change_pct": -0.01,
@@ -623,7 +623,7 @@
     {
       "ticker": "MOD",
       "sector": "AI Hardware",
-      "updated": "2026-09-12T23:52:36.814363-07:00",
+      "updated": "2026-09-14T00:17:24.709739-07:00",
       "price": 189.3,
       "prev_close": 179.26,
       "change_pct": 5.6,
@@ -663,7 +663,7 @@
     {
       "ticker": "NVT",
       "sector": "AI Hardware",
-      "updated": "2026-09-12T23:52:39.491044-07:00",
+      "updated": "2026-09-14T00:17:27.795934-07:00",
       "price": 162.38,
       "prev_close": 155.17,
       "change_pct": 4.65,
@@ -703,7 +703,7 @@
     {
       "ticker": "FORM",
       "sector": "AI Hardware",
-      "updated": "2026-09-12T23:52:42.167028-07:00",
+      "updated": "2026-09-14T00:17:30.795421-07:00",
       "price": 114.95,
       "prev_close": 112.12,
       "change_pct": 2.52,
@@ -742,7 +742,7 @@
     {
       "ticker": "COHR",
       "sector": "AI Hardware",
-      "updated": "2026-09-12T23:52:44.871260-07:00",
+      "updated": "2026-09-14T00:17:33.886909-07:00",
       "price": 305.37,
       "prev_close": 293.17,
       "change_pct": 4.16,
@@ -781,7 +781,7 @@
     {
       "ticker": "NET",
       "sector": "AI Software",
-      "updated": "2026-09-12T23:52:48.445240-07:00",
+      "updated": "2026-09-14T00:17:37.874166-07:00",
       "price": 306.53,
       "prev_close": 311.17,
       "change_pct": -1.49,
@@ -856,7 +856,7 @@
     {
       "ticker": "DDOG",
       "sector": "AI Software",
-      "updated": "2026-09-12T23:52:51.958486-07:00",
+      "updated": "2026-09-14T00:17:41.792595-07:00",
       "price": 221.21,
       "prev_close": 221.72,
       "change_pct": -0.23,
@@ -893,6 +893,24 @@
       "revenue_growth": 31.52,
       "news": [
         {
+          "headline": "French AI boom exposes Europe\u2019s funding gap as startups turn to U.S.",
+          "url": "https://finnhub.io/api/news?id=1f0038e2413775809c9e593e5c6fbf1d209c97ec31a47451f8e46b47e8e34f76",
+          "datetime": 1789294855,
+          "source": "Yahoo"
+        },
+        {
+          "headline": "Datadog Conference: CEO Says AI and Enterprise Growth Are Accelerating",
+          "url": "https://finnhub.io/api/news?id=608e204dbed3f19078a432e81803dc21b2f7f93180838df51516c0127880138b",
+          "datetime": 1789290118,
+          "source": "Yahoo"
+        },
+        {
+          "headline": "Datadog Eyes AI-Powered Predictive Monitoring as Enterprise Cloud Demand Grows",
+          "url": "https://finnhub.io/api/news?id=d3ecaf25ae42cfc2e275389dbd4be83d8f180cb8a4b96b3dc37f7b6425fce8b0",
+          "datetime": 1789272116,
+          "source": "Yahoo"
+        },
+        {
           "headline": "AI Agents Create Their Own Monitoring Problem. Datadog and Dynatrace Are Racing to Own It",
           "url": "https://finnhub.io/api/news?id=81cc2b8cab0ee7ceaa6101caa9f990b03e1f565ffd3cd989b8e385414c1453cd",
           "datetime": 1789253786,
@@ -902,24 +920,6 @@
           "headline": "Before AI Destroys The World, I Would First Invest In These Bottlenecks",
           "url": "https://finnhub.io/api/news?id=331e6398668a799f9bac95adfc7e03b617e94c0c06f3cff335b969aadede4ff1",
           "datetime": 1789200900,
-          "source": "SeekingAlpha"
-        },
-        {
-          "headline": "Wedbush Names CrowdStrike and Palo Alto Networks AI Cybersecurity Winners",
-          "url": "https://finnhub.io/api/news?id=68503ab9ce3779248dce4afedf0d5e24d5ff7decb58172c20547685fe0c7b117",
-          "datetime": 1789141204,
-          "source": "Yahoo"
-        },
-        {
-          "headline": "Wedbush Assumes Datadog at Outperform, Announces Price Target of $275",
-          "url": "https://finnhub.io/api/news?id=295c97a7771ea590e990072be00e50e356744a2f2467a865275004f850a6702a",
-          "datetime": 1789115427,
-          "source": "Benzinga"
-        },
-        {
-          "headline": "Datadog, Inc. (DDOG) Presents at Goldman Sachs Communacopia + Technology Conference 2026 Transcript",
-          "url": "https://finnhub.io/api/news?id=9ef517a108b3877e1f2ffa1f630d32df5864fbfb2b55b6c820d9f4edd9905676",
-          "datetime": 1789053431,
           "source": "SeekingAlpha"
         }
       ],
@@ -931,7 +931,7 @@
     {
       "ticker": "DT",
       "sector": "AI Software",
-      "updated": "2026-09-12T23:52:55.496974-07:00",
+      "updated": "2026-09-14T00:17:45.679440-07:00",
       "price": 51.07,
       "prev_close": 51.42,
       "change_pct": -0.68,
@@ -971,7 +971,7 @@
     {
       "ticker": "FSLY",
       "sector": "AI Software",
-      "updated": "2026-09-12T23:52:58.141545-07:00",
+      "updated": "2026-09-14T00:17:48.814649-07:00",
       "price": 23.16,
       "prev_close": 22.71,
       "change_pct": 1.98,
@@ -1010,7 +1010,7 @@
     {
       "ticker": "CRWD",
       "sector": "AI Software",
-      "updated": "2026-09-12T23:53:00.813545-07:00",
+      "updated": "2026-09-14T00:17:51.866053-07:00",
       "price": 206.74,
       "prev_close": 208.86,
       "change_pct": -1.01,
@@ -1050,7 +1050,7 @@
     {
       "ticker": "PANW",
       "sector": "AI Software",
-      "updated": "2026-09-12T23:53:03.464104-07:00",
+      "updated": "2026-09-14T00:17:54.854775-07:00",
       "price": 330.65,
       "prev_close": 338.49,
       "change_pct": -2.32,
@@ -1090,7 +1090,7 @@
     {
       "ticker": "ZS",
       "sector": "AI Software",
-      "updated": "2026-09-12T23:53:06.107770-07:00",
+      "updated": "2026-09-14T00:17:57.834169-07:00",
       "price": 164.54,
       "prev_close": 163.48,
       "change_pct": 0.65,
@@ -1130,7 +1130,7 @@
     {
       "ticker": "SNOW",
       "sector": "AI Software",
-      "updated": "2026-09-12T23:53:08.777282-07:00",
+      "updated": "2026-09-14T00:18:00.837073-07:00",
       "price": 328.99,
       "prev_close": 329.72,
       "change_pct": -0.22,
@@ -1170,7 +1170,7 @@
     {
       "ticker": "PLTR",
       "sector": "AI Software",
-      "updated": "2026-09-12T23:53:11.427980-07:00",
+      "updated": "2026-09-14T00:18:03.754307-07:00",
       "price": 167.23,
       "prev_close": 165.86,
       "change_pct": 0.83,
@@ -1210,7 +1210,7 @@
     {
       "ticker": "PATH",
       "sector": "AI Software",
-      "updated": "2026-09-12T23:53:14.074591-07:00",
+      "updated": "2026-09-14T00:18:06.725667-07:00",
       "price": 13.75,
       "prev_close": 13.87,
       "change_pct": -0.87,
@@ -1250,7 +1250,7 @@
     {
       "ticker": "OKTA",
       "sector": "AI Software",
-      "updated": "2026-09-12T23:53:16.706394-07:00",
+      "updated": "2026-09-14T00:18:09.672609-07:00",
       "price": 166.5,
       "prev_close": 171.11,
       "change_pct": -2.69,
@@ -1290,7 +1290,7 @@
     {
       "ticker": "MDB",
       "sector": "AI Software",
-      "updated": "2026-09-12T23:53:19.392222-07:00",
+      "updated": "2026-09-14T00:18:12.601750-07:00",
       "price": 362.21,
       "prev_close": 373.87,
       "change_pct": -3.12,
@@ -1327,6 +1327,12 @@
       "revenue_growth": 25.45,
       "news": [
         {
+          "headline": "MarketBeat Week in Review \u2013 09/07 - 09/11",
+          "url": "https://finnhub.io/api/news?id=13f2a4769bfa370cf875e953bf90894b00784ddacbbb03daf234baa4e2489297",
+          "datetime": 1789210800,
+          "source": "Yahoo"
+        },
+        {
           "headline": "1 Cash-Heavy Stock on Our Watchlist and 2 We Ignore",
           "url": "https://finnhub.io/api/news?id=0dd0acabaca59eec3ccfdb072c1118e75b4006d5a7293f482420362ab85e6a34",
           "datetime": 1789177625,
@@ -1349,12 +1355,6 @@
           "url": "https://finnhub.io/api/news?id=cb680ae29c5b9b71de2628d24c99efc3d1975a7cc46e45eb31eaf0a830645afa",
           "datetime": 1789057632,
           "source": "SeekingAlpha"
-        },
-        {
-          "headline": "Stock Market Today: Nasdaq 100 Tumbles as Oil Spikes 6%, Yields Hit 19-Year High",
-          "url": "https://finnhub.io/api/news?id=57d493ab3351dc74de676b0cd87b6e9bd1621b6634e7636031016eeb9aed01a9",
-          "datetime": 1789050419,
-          "source": "Benzinga"
         }
       ],
       "watchlists": [
@@ -1364,7 +1364,7 @@
     {
       "ticker": "WDAY",
       "sector": "AI Software",
-      "updated": "2026-09-12T23:53:22.880307-07:00",
+      "updated": "2026-09-14T00:18:16.411111-07:00",
       "price": 185.7,
       "prev_close": 185.09,
       "change_pct": 0.33,
@@ -1404,7 +1404,7 @@
     {
       "ticker": "FTNT",
       "sector": "AI Software",
-      "updated": "2026-09-12T23:53:25.519044-07:00",
+      "updated": "2026-09-14T00:18:19.377962-07:00",
       "price": 156.07,
       "prev_close": 158.85,
       "change_pct": -1.75,
@@ -1444,7 +1444,7 @@
     {
       "ticker": "TEAM",
       "sector": "AI Software",
-      "updated": "2026-09-12T23:53:28.178313-07:00",
+      "updated": "2026-09-14T00:18:22.291092-07:00",
       "price": 179.7,
       "prev_close": 179.57,
       "change_pct": 0.07,
@@ -1484,7 +1484,7 @@
     {
       "ticker": "NOW",
       "sector": "AI Software",
-      "updated": "2026-09-12T23:53:30.811701-07:00",
+      "updated": "2026-09-14T00:18:25.280024-07:00",
       "price": 132.53,
       "prev_close": 131.17,
       "change_pct": 1.04,
@@ -1524,7 +1524,7 @@
     {
       "ticker": "CRM",
       "sector": "AI Software",
-      "updated": "2026-09-12T23:53:33.463050-07:00",
+      "updated": "2026-09-14T00:18:28.257255-07:00",
       "price": 247.72,
       "prev_close": 243,
       "change_pct": 1.94,
@@ -1564,7 +1564,7 @@
     {
       "ticker": "ISRG",
       "sector": "Robotics",
-      "updated": "2026-09-12T23:53:36.109799-07:00",
+      "updated": "2026-09-14T00:18:31.280361-07:00",
       "price": 369.15,
       "prev_close": 360.46,
       "change_pct": 2.41,
@@ -1601,6 +1601,12 @@
       "revenue_growth": 20.66,
       "news": [
         {
+          "headline": "Robots Everywhere: Goldman Sachs Now Sees 6.5 Million Humanoid Robots by 2035",
+          "url": "https://finnhub.io/api/news?id=22f4a830e839b259ddc3d13080195397b050d382ba253f927c2c4e56fd6dd661",
+          "datetime": 1789312631,
+          "source": "Yahoo"
+        },
+        {
           "headline": "Intuitive Surgical Sees Procedure Growth Despite U.S. Slowdown and China Pressure",
           "url": "https://finnhub.io/api/news?id=02bd95612ccbc6727f625d795c327601d9740f8061c8c60a998b7fba5af54190",
           "datetime": 1789156922,
@@ -1623,12 +1629,6 @@
           "url": "https://finnhub.io/api/news?id=0cec32bafdfd377a5c526ec2b8fbd577ab81472a076cccebc07f8279b1c1c8f8",
           "datetime": 1789134431,
           "source": "Yahoo"
-        },
-        {
-          "headline": "10 Health Care Stocks With Whale Alerts In Today\u2019s Session",
-          "url": "https://finnhub.io/api/news?id=bdc2f3449be06089f2a7a0fff4946e8fcf53edb531611c3d7f202790ddc443c0",
-          "datetime": 1789133712,
-          "source": "Benzinga"
         }
       ],
       "watchlists": [
@@ -1638,7 +1638,7 @@
     {
       "ticker": "CGNX",
       "sector": "Robotics",
-      "updated": "2026-09-12T23:53:39.601718-07:00",
+      "updated": "2026-09-14T00:18:35.141618-07:00",
       "price": 64.22,
       "prev_close": 61.69,
       "change_pct": 4.1,
@@ -1688,7 +1688,7 @@
     {
       "ticker": "AVAV",
       "sector": "Robotics",
-      "updated": "2026-09-12T23:53:43.154217-07:00",
+      "updated": "2026-09-14T00:18:39.102821-07:00",
       "price": 146.71,
       "prev_close": 147.065,
       "change_pct": -0.24,
@@ -1719,16 +1719,16 @@
       "worst_day_30d": -7.5,
       "market_cap": 7456.1855,
       "pe_ratio": null,
-      "eps_ttm": -5.4096,
+      "eps_ttm": -4.0743,
       "beta": 1.4052725,
       "dividend_yield": null,
-      "revenue_growth": 140.89,
+      "revenue_growth": 84.44,
       "watchlists": []
     },
     {
       "ticker": "SYM",
       "sector": "Robotics",
-      "updated": "2026-09-12T23:53:45.821374-07:00",
+      "updated": "2026-09-14T00:18:42.129967-07:00",
       "price": 42.13,
       "prev_close": 41.1,
       "change_pct": 2.51,
@@ -1796,7 +1796,7 @@
     {
       "ticker": "TER",
       "sector": "Robotics",
-      "updated": "2026-09-12T23:53:49.302127-07:00",
+      "updated": "2026-09-14T00:18:45.986688-07:00",
       "price": 379.72,
       "prev_close": 370.19,
       "change_pct": 2.57,
@@ -1832,6 +1832,12 @@
       "revenue_growth": 57.87,
       "news": [
         {
+          "headline": "Robots Everywhere: Goldman Sachs Now Sees 6.5 Million Humanoid Robots by 2035",
+          "url": "https://finnhub.io/api/news?id=22f4a830e839b259ddc3d13080195397b050d382ba253f927c2c4e56fd6dd661",
+          "datetime": 1789312631,
+          "source": "Yahoo"
+        },
+        {
           "headline": "Semiconductor Equipment Stocks Face ASML and Applied Materials Earnings Test After High-Quality Pullback",
           "url": "https://finnhub.io/api/news?id=8d0cb8aae946432c362e205f32d7215e3e4ec0187996b01bcb18fce3b8150550",
           "datetime": 1789214762,
@@ -1854,12 +1860,6 @@
           "url": "https://finnhub.io/api/news?id=b886f43b329cd73dff7c5bb01c44c32a15c6608f55759401ecaaf7ad1f6b6c72",
           "datetime": 1789140780,
           "source": "Yahoo"
-        },
-        {
-          "headline": "Teradyne (TER) Suffers a Larger Drop Than the General Market: Key Insights",
-          "url": "https://finnhub.io/api/news?id=8e2ae060449f7f891bb9838103c74679c39bc0a8a92d104fc445a2121eaafd17",
-          "datetime": 1789077606,
-          "source": "Yahoo"
         }
       ],
       "watchlists": [
@@ -1869,7 +1869,7 @@
     {
       "ticker": "NOVT",
       "sector": "Robotics",
-      "updated": "2026-09-12T23:53:52.887959-07:00",
+      "updated": "2026-09-14T00:18:50.032647-07:00",
       "price": 146.56,
       "prev_close": 143.91,
       "change_pct": 1.84,
@@ -1909,7 +1909,7 @@
     {
       "ticker": "IPGP",
       "sector": "Robotics",
-      "updated": "2026-09-12T23:53:55.534063-07:00",
+      "updated": "2026-09-14T00:18:52.957681-07:00",
       "price": 79.99,
       "prev_close": 78.33,
       "change_pct": 2.12,
@@ -1949,7 +1949,7 @@
     {
       "ticker": "ROK",
       "sector": "Robotics",
-      "updated": "2026-09-12T23:53:58.189878-07:00",
+      "updated": "2026-09-14T00:18:55.993668-07:00",
       "price": 428.39,
       "prev_close": 421.37,
       "change_pct": 1.67,
@@ -1989,7 +1989,7 @@
     {
       "ticker": "ZBRA",
       "sector": "Robotics",
-      "updated": "2026-09-12T23:54:00.897427-07:00",
+      "updated": "2026-09-14T00:18:59.136949-07:00",
       "price": 350.37,
       "prev_close": 344.01,
       "change_pct": 1.85,
@@ -2029,7 +2029,7 @@
     {
       "ticker": "KEYS",
       "sector": "Robotics",
-      "updated": "2026-09-12T23:54:03.549382-07:00",
+      "updated": "2026-09-14T00:19:02.111263-07:00",
       "price": 338.64,
       "prev_close": 325.65,
       "change_pct": 3.99,
@@ -2069,7 +2069,7 @@
     {
       "ticker": "SERV",
       "sector": "Robotics",
-      "updated": "2026-09-12T23:54:06.196592-07:00",
+      "updated": "2026-09-14T00:19:05.107195-07:00",
       "price": 4.48,
       "prev_close": 4.42,
       "change_pct": 1.36,
@@ -2106,6 +2106,12 @@
       "revenue_growth": 649.54,
       "news": [
         {
+          "headline": "Wonder Deal, $240M Cash, and 31% Short Interest. A Short Squeeze Could Be Brewing in Serve Robotics Stock.",
+          "url": "https://finnhub.io/api/news?id=e4440ae84d32ae7024685e9dae6323527c3d501b9b1b46db86eb7ab9ec5e94a4",
+          "datetime": 1789324345,
+          "source": "Yahoo"
+        },
+        {
           "headline": "Can SERV's Revenue Diversification Offset Weaker Uber Deliveries?",
           "url": "https://finnhub.io/api/news?id=d03016874ea5eb894aae1ccf513844a92fc56f83dfb0b81a05ebe3f511c1eafe",
           "datetime": 1789130880,
@@ -2123,7 +2129,7 @@
     {
       "ticker": "HSYDF",
       "sector": "Robotics",
-      "updated": "2026-09-12T23:54:10.537019-07:00",
+      "updated": "2026-09-14T00:19:09.852923-07:00",
       "price": 38.834,
       "prev_close": 38.8,
       "change_pct": 0.09,
@@ -2154,7 +2160,7 @@
       "market_cap": 575653.3,
       "pe_ratio": 196.997,
       "eps_ttm": 30.8681,
-      "beta": 2.337458,
+      "beta": 2.2935815,
       "dividend_yield": 0.3293,
       "revenue_growth": 11.76,
       "watchlists": []
@@ -2162,7 +2168,7 @@
     {
       "ticker": "PEGA",
       "sector": "Robotics",
-      "updated": "2026-09-12T23:54:13.313888-07:00",
+      "updated": "2026-09-14T00:19:12.929080-07:00",
       "price": 36.24,
       "prev_close": 35.72,
       "change_pct": 1.46,
@@ -2202,7 +2208,7 @@
     {
       "ticker": "JBTM",
       "sector": "Robotics",
-      "updated": "2026-09-12T23:54:16.044437-07:00",
+      "updated": "2026-09-14T00:19:15.969089-07:00",
       "price": 114.38,
       "prev_close": 112.4,
       "change_pct": 1.76,
@@ -2242,7 +2248,7 @@
     {
       "ticker": "EMR",
       "sector": "Robotics",
-      "updated": "2026-09-12T23:54:18.719912-07:00",
+      "updated": "2026-09-14T00:19:18.984799-07:00",
       "price": 152.19,
       "prev_close": 148.37,
       "change_pct": 2.57,
@@ -2282,7 +2288,7 @@
     {
       "ticker": "HON",
       "sector": "Robotics",
-      "updated": "2026-09-12T23:54:21.473189-07:00",
+      "updated": "2026-09-14T00:19:22.064057-07:00",
       "price": 202.36,
       "prev_close": 202.18,
       "change_pct": 0.09,
@@ -2319,6 +2325,12 @@
       "revenue_growth": -0.11,
       "news": [
         {
+          "headline": "Top Three Undervalued S&P 500 Stocks the Market Rally Left Behind",
+          "url": "https://finnhub.io/api/news?id=521de141fd18a3a4d16f3c649987efe21d63fb3b5132efd1c4ac94462cd58bd7",
+          "datetime": 1789291825,
+          "source": "Benzinga"
+        },
+        {
           "headline": "Why Is Eaton Priced Above Peers That Earn More Per Sale?",
           "url": "https://finnhub.io/api/news?id=456fbbf893fb96f1c6137822ce5d8e518d47274ada7c0c407bd56ace31d585a4",
           "datetime": 1789154312,
@@ -2341,12 +2353,6 @@
           "url": "https://finnhub.io/api/news?id=2e320e4183282bf98d8260b64f4b0a85fd66033736dd8d281ec591854e727c43",
           "datetime": 1789089415,
           "source": "Yahoo"
-        },
-        {
-          "headline": "Which dow jones stocks are moving on Thursday?",
-          "url": "https://finnhub.io/api/news?id=adf9fabb65fa1bdc0746c8cf7941b566bd25d62715d8b6fa00e9d6a2953470bc",
-          "datetime": 1789067407,
-          "source": "ChartMill"
         }
       ],
       "watchlists": []
@@ -2354,7 +2360,7 @@
     {
       "ticker": "DHI",
       "sector": "Homebuilders",
-      "updated": "2026-09-12T23:54:25.088956-07:00",
+      "updated": "2026-09-14T00:19:26.005260-07:00",
       "price": 137.89,
       "prev_close": 135.57,
       "change_pct": 1.71,
@@ -2394,7 +2400,7 @@
     {
       "ticker": "LEN",
       "sector": "Homebuilders",
-      "updated": "2026-09-12T23:54:27.788353-07:00",
+      "updated": "2026-09-14T00:19:29.077610-07:00",
       "price": 79.6,
       "prev_close": 77.9,
       "change_pct": 2.18,
@@ -2434,7 +2440,7 @@
     {
       "ticker": "PHM",
       "sector": "Homebuilders",
-      "updated": "2026-09-12T23:54:30.549924-07:00",
+      "updated": "2026-09-14T00:19:32.106739-07:00",
       "price": 118.26,
       "prev_close": 116.41,
       "change_pct": 1.59,
@@ -2474,7 +2480,7 @@
     {
       "ticker": "NVR",
       "sector": "Homebuilders",
-      "updated": "2026-09-12T23:54:33.262897-07:00",
+      "updated": "2026-09-14T00:19:35.255185-07:00",
       "price": 6160.76,
       "prev_close": 6088.28,
       "change_pct": 1.19,
@@ -2514,7 +2520,7 @@
     {
       "ticker": "TOL",
       "sector": "Homebuilders",
-      "updated": "2026-09-12T23:54:35.914147-07:00",
+      "updated": "2026-09-14T00:19:38.244832-07:00",
       "price": 134.92,
       "prev_close": 132.48,
       "change_pct": 1.84,
@@ -2554,7 +2560,7 @@
     {
       "ticker": "KBH",
       "sector": "Homebuilders",
-      "updated": "2026-09-12T23:54:38.589539-07:00",
+      "updated": "2026-09-14T00:19:41.358402-07:00",
       "price": 49.16,
       "prev_close": 47.75,
       "change_pct": 2.95,
@@ -2594,7 +2600,7 @@
     {
       "ticker": "MHO",
       "sector": "Homebuilders",
-      "updated": "2026-09-12T23:54:42.185777-07:00",
+      "updated": "2026-09-14T00:19:45.311125-07:00",
       "price": 139.89,
       "prev_close": 139.1,
       "change_pct": 0.57,
@@ -2634,7 +2640,7 @@
     {
       "ticker": "BLDR",
       "sector": "Homebuilders",
-      "updated": "2026-09-12T23:54:45.701908-07:00",
+      "updated": "2026-09-14T00:19:49.197049-07:00",
       "price": 60.37,
       "prev_close": 58.97,
       "change_pct": 2.37,
@@ -2674,7 +2680,7 @@
     {
       "ticker": "TREX",
       "sector": "Homebuilders",
-      "updated": "2026-09-12T23:54:49.216254-07:00",
+      "updated": "2026-09-14T00:19:53.181744-07:00",
       "price": 44.95,
       "prev_close": 43.67,
       "change_pct": 2.93,
@@ -2714,7 +2720,7 @@
     {
       "ticker": "OC",
       "sector": "Homebuilders",
-      "updated": "2026-09-12T23:54:51.874954-07:00",
+      "updated": "2026-09-14T00:19:56.145371-07:00",
       "price": 131.9,
       "prev_close": 127.49,
       "change_pct": 3.46,
@@ -2754,7 +2760,7 @@
     {
       "ticker": "MAS",
       "sector": "Homebuilders",
-      "updated": "2026-09-12T23:54:54.592376-07:00",
+      "updated": "2026-09-14T00:19:59.266223-07:00",
       "price": 68.52,
       "prev_close": 67.64,
       "change_pct": 1.3,
@@ -2794,7 +2800,7 @@
     {
       "ticker": "CARR",
       "sector": "Homebuilders",
-      "updated": "2026-09-12T23:54:57.336090-07:00",
+      "updated": "2026-09-14T00:20:02.224952-07:00",
       "price": 57.46,
       "prev_close": 56.64,
       "change_pct": 1.45,
@@ -2834,7 +2840,7 @@
     {
       "ticker": "TT",
       "sector": "Homebuilders",
-      "updated": "2026-09-12T23:54:59.990647-07:00",
+      "updated": "2026-09-14T00:20:05.283234-07:00",
       "price": 442.52,
       "prev_close": 439.83,
       "change_pct": 0.61,
@@ -2874,7 +2880,7 @@
     {
       "ticker": "LII",
       "sector": "Homebuilders",
-      "updated": "2026-09-12T23:55:02.728899-07:00",
+      "updated": "2026-09-14T00:20:08.351215-07:00",
       "price": 366.04,
       "prev_close": 372.62,
       "change_pct": -1.77,
@@ -2934,7 +2940,7 @@
     {
       "ticker": "SHW",
       "sector": "Homebuilders",
-      "updated": "2026-09-12T23:55:06.265992-07:00",
+      "updated": "2026-09-14T00:20:12.269667-07:00",
       "price": 323.31,
       "prev_close": 317.44,
       "change_pct": 1.85,
@@ -2974,7 +2980,7 @@
     {
       "ticker": "LOW",
       "sector": "Homebuilders",
-      "updated": "2026-09-12T23:55:08.991349-07:00",
+      "updated": "2026-09-14T00:20:15.406016-07:00",
       "price": 196.82,
       "prev_close": 196.59,
       "change_pct": 0.12,
@@ -3011,6 +3017,12 @@
       "revenue_growth": 8.16,
       "news": [
         {
+          "headline": "Five Dividend Stocks Crushing Inflation With Consistent Dividend Payout Growth",
+          "url": "https://finnhub.io/api/news?id=5fe2e567a19ae28f78e3c41199be697e0b46c06b60262fa9680f7c0b49b25ff3",
+          "datetime": 1789313195,
+          "source": "Yahoo"
+        },
+        {
           "headline": "The Closest Thing to Set-It-and-Forget-It Income: 5 Dividend Kings for Retirees Who Want Peace of Mind",
           "url": "https://finnhub.io/api/news?id=10017d38eb1e1440de117405860b44bc6ab7a8abb058a07ce0f2b7fe8598c924",
           "datetime": 1789224625,
@@ -3033,12 +3045,6 @@
           "url": "https://finnhub.io/api/news?id=d5d0338a831b5b1caa33b0ad45d45d82c1e8a492ec5ef0bb68bdba4d5b611608",
           "datetime": 1789068565,
           "source": "Yahoo"
-        },
-        {
-          "headline": "5 Stocks That Keep Raising Their Dividend Regardless Of The Market",
-          "url": "https://finnhub.io/api/news?id=7db3baa9e1a64f58224c7f38ec429edbe712e084cc253c581473a3c6fc14a24f",
-          "datetime": 1789059599,
-          "source": "Yahoo"
         }
       ],
       "watchlists": []
@@ -3046,7 +3052,7 @@
     {
       "ticker": "HD",
       "sector": "Homebuilders",
-      "updated": "2026-09-12T23:55:12.540772-07:00",
+      "updated": "2026-09-14T00:20:19.331239-07:00",
       "price": 308.74,
       "prev_close": 305.69,
       "change_pct": 1.0,
@@ -3083,6 +3089,12 @@
       "revenue_growth": 2.5,
       "news": [
         {
+          "headline": "Here's How Many Shares of Home Depot You'd Need for $10,000 in Yearly Dividends",
+          "url": "https://finnhub.io/api/news?id=36e6e4ccbf2c9bacab982586f81eaf274844b52fdcf6d5e12e20fc871d7fe43f",
+          "datetime": 1789293000,
+          "source": "Yahoo"
+        },
+        {
           "headline": "Home Depot vs. Walmart: Which Consumer Stock Is a Better Buy in 2026?",
           "url": "https://finnhub.io/api/news?id=7eb524ceeb9ae85cd3f9acf3c430f0a55024bde2ac6efc4da236aa80e8d5c8ae",
           "datetime": 1789221788,
@@ -3105,12 +3117,6 @@
           "url": "https://finnhub.io/api/news?id=d5f07fec0a63314584a36f3207673e6dd8bfcdc0d6a65a093da6fc8a3d8c01b5",
           "datetime": 1789147830,
           "source": "Benzinga"
-        },
-        {
-          "headline": "Richest NFL Team Owners List: Who\u2019s Most Connected to Stock Market?",
-          "url": "https://finnhub.io/api/news?id=b098f0888bb57b9739897b17c055538097e9d42eaeda4590da59b473235c41a4",
-          "datetime": 1789142176,
-          "source": "Benzinga"
         }
       ],
       "watchlists": []
@@ -3118,7 +3124,7 @@
     {
       "ticker": "SOFI",
       "sector": "Fintech",
-      "updated": "2026-09-12T23:55:16.108819-07:00",
+      "updated": "2026-09-14T00:20:23.272083-07:00",
       "price": 17.32,
       "prev_close": 17.21,
       "change_pct": 0.64,
@@ -3158,7 +3164,7 @@
     {
       "ticker": "PYPL",
       "sector": "Fintech",
-      "updated": "2026-09-12T23:55:18.753947-07:00",
+      "updated": "2026-09-14T00:20:26.211751-07:00",
       "price": 53.72,
       "prev_close": 53.31,
       "change_pct": 0.77,
@@ -3198,7 +3204,7 @@
     {
       "ticker": "CRCL",
       "sector": "Fintech",
-      "updated": "2026-09-12T23:55:21.430948-07:00",
+      "updated": "2026-09-14T00:20:29.152998-07:00",
       "price": 90.6,
       "prev_close": 90.32,
       "change_pct": 0.31,
@@ -3238,7 +3244,7 @@
     {
       "ticker": "XYZ",
       "sector": "Fintech",
-      "updated": "2026-09-12T23:55:24.949413-07:00",
+      "updated": "2026-09-14T00:20:33.032257-07:00",
       "price": 79.21,
       "prev_close": 79.07,
       "change_pct": 0.18,
@@ -3278,7 +3284,7 @@
     {
       "ticker": "AFRM",
       "sector": "Fintech",
-      "updated": "2026-09-12T23:55:27.579879-07:00",
+      "updated": "2026-09-14T00:20:36.106768-07:00",
       "price": 71.44,
       "prev_close": 67.99,
       "change_pct": 5.07,
@@ -3318,7 +3324,7 @@
     {
       "ticker": "UPST",
       "sector": "Fintech",
-      "updated": "2026-09-12T23:55:30.213232-07:00",
+      "updated": "2026-09-14T00:20:39.132436-07:00",
       "price": 25.59,
       "prev_close": 25.1,
       "change_pct": 1.95,
@@ -3358,7 +3364,7 @@
     {
       "ticker": "NU",
       "sector": "Fintech",
-      "updated": "2026-09-12T23:55:32.843778-07:00",
+      "updated": "2026-09-14T00:20:42.126678-07:00",
       "price": 14.62,
       "prev_close": 15.02,
       "change_pct": -2.66,
@@ -3398,7 +3404,7 @@
     {
       "ticker": "SEZL",
       "sector": "Fintech",
-      "updated": "2026-09-12T23:55:35.478002-07:00",
+      "updated": "2026-09-14T00:20:45.181913-07:00",
       "price": 118.87,
       "prev_close": 118.41,
       "change_pct": 0.39,
@@ -3437,7 +3443,7 @@
     {
       "ticker": "V",
       "sector": "Fintech",
-      "updated": "2026-09-12T23:55:38.181649-07:00",
+      "updated": "2026-09-14T00:20:48.265993-07:00",
       "price": 370.45,
       "prev_close": 367.21,
       "change_pct": 0.88,
@@ -3477,7 +3483,7 @@
     {
       "ticker": "MA",
       "sector": "Fintech",
-      "updated": "2026-09-12T23:55:40.893522-07:00",
+      "updated": "2026-09-14T00:20:51.248132-07:00",
       "price": 569.19,
       "prev_close": 565.37,
       "change_pct": 0.68,
@@ -3517,7 +3523,7 @@
     {
       "ticker": "AXP",
       "sector": "Fintech",
-      "updated": "2026-09-12T23:55:43.580096-07:00",
+      "updated": "2026-09-14T00:20:54.399933-07:00",
       "price": 324.69,
       "prev_close": 320.71,
       "change_pct": 1.24,
@@ -3557,7 +3563,7 @@
     {
       "ticker": "COF",
       "sector": "Fintech",
-      "updated": "2026-09-12T23:55:46.297777-07:00",
+      "updated": "2026-09-14T00:20:57.491019-07:00",
       "price": 208.3,
       "prev_close": 207.11,
       "change_pct": 0.57,
@@ -3597,7 +3603,7 @@
     {
       "ticker": "COIN",
       "sector": "Fintech",
-      "updated": "2026-09-12T23:55:49.903093-07:00",
+      "updated": "2026-09-14T00:21:01.583306-07:00",
       "price": 175.26,
       "prev_close": 172.28,
       "change_pct": 1.73,
@@ -3637,7 +3643,7 @@
     {
       "ticker": "OKLO",
       "sector": "Nuclear Energy",
-      "updated": "2026-09-12T23:55:52.537534-07:00",
+      "updated": "2026-09-14T00:21:04.561427-07:00",
       "price": 36.22,
       "prev_close": 39.88,
       "change_pct": -9.18,
@@ -3673,6 +3679,12 @@
       "revenue_growth": null,
       "news": [
         {
+          "headline": "Oklo vs. NuScale vs. TMC: 3 Speculative Bets, Ranked By Which One Pays Off First.",
+          "url": "https://finnhub.io/api/news?id=a6efbf43a998b349a9dc5feccf1430ac84df70c24346b2b09e72f03e8fdeff48",
+          "datetime": 1789306500,
+          "source": "Yahoo"
+        },
+        {
           "headline": "NuScale Power Stock Jumps 15% in 1 Day. Here's How Nuclear Energy Investors Should Respond.",
           "url": "https://finnhub.io/api/news?id=70892c751a33ab684aff24f51726faba9956edadf4641e6b146f221b03e26c7c",
           "datetime": 1789226100,
@@ -3695,12 +3707,6 @@
           "url": "https://finnhub.io/api/news?id=adcd88fc7ad7a2f3b2a3e669d3196755f457c0706b9a251c1407bf7dbd95199d",
           "datetime": 1789149901,
           "source": "Yahoo"
-        },
-        {
-          "headline": "Oklo shares slide after company launches new $1B stock offering",
-          "url": "https://finnhub.io/api/news?id=2adc1a68dba11889b6a72e2b7c97a554248a59ec9d08ef95c2c8e5cfa13e82e4",
-          "datetime": 1789139520,
-          "source": "Yahoo"
         }
       ],
       "watchlists": []
@@ -3708,7 +3714,7 @@
     {
       "ticker": "SMR",
       "sector": "Nuclear Energy",
-      "updated": "2026-09-12T23:55:56.057749-07:00",
+      "updated": "2026-09-14T00:21:08.542101-07:00",
       "price": 8.61,
       "prev_close": 10.21,
       "change_pct": -15.67,
@@ -3744,34 +3750,34 @@
       "revenue_growth": -80.95,
       "news": [
         {
-          "headline": "Is NuScale Power a Millionaire Maker?",
-          "url": "https://finnhub.io/api/news?id=c9051380086be86c9cdd24ece03cae3f1d88406d41cb5e373518451761ed1622",
-          "datetime": 1789251900,
+          "headline": "NuScale Has One Overlooked Quality Worth Buying Into",
+          "url": "https://finnhub.io/api/news?id=acbb1490705860031b530a8ad3f6db4c6e6a9cdb367decf700e6d11055af2df0",
+          "datetime": 1789349700,
           "source": "Yahoo"
         },
         {
-          "headline": "NuScale Power Stock Jumps 15% in 1 Day. Here's How Nuclear Energy Investors Should Respond.",
-          "url": "https://finnhub.io/api/news?id=70892c751a33ab684aff24f51726faba9956edadf4641e6b146f221b03e26c7c",
-          "datetime": 1789226100,
+          "headline": "Oklo vs. NuScale vs. TMC: 3 Speculative Bets, Ranked By Which One Pays Off First.",
+          "url": "https://finnhub.io/api/news?id=a6efbf43a998b349a9dc5feccf1430ac84df70c24346b2b09e72f03e8fdeff48",
+          "datetime": 1789306500,
           "source": "Yahoo"
         },
         {
-          "headline": "NuScale Stock Falls 14% as UBS Sees a $95 Million EBITDA Gap",
-          "url": "https://finnhub.io/api/news?id=60b70d11725bfe55b0ef611cb17dc073cee7146df8369e55681d53c12469c2dd",
-          "datetime": 1789156503,
+          "headline": "Prediction: NuScale Power Stock Doesn't Get Halfway Back to Its Old High Before 2029",
+          "url": "https://finnhub.io/api/news?id=c777f0fc2053eb6866181fe19901bf80c496aa29c53ebc5b7b1ed3bf86a8b3b9",
+          "datetime": 1789291741,
           "source": "Yahoo"
         },
         {
-          "headline": "Why NuScale Power Stock Just Crashed",
-          "url": "https://finnhub.io/api/news?id=a2bd7e23af2f0056eb62752722cdafc69deaae808735f1c64d4943da4893d411",
-          "datetime": 1789151442,
+          "headline": "Prediction: $1,000 in NuScale Power Today Could Be Worth This Much by 2030",
+          "url": "https://finnhub.io/api/news?id=15aa809b4e80a28a9041dc71e72c91c232cf2c0811edd4b398052def99ab3e01",
+          "datetime": 1789280700,
           "source": "Yahoo"
         },
         {
-          "headline": "These stocks are the most active in today's session",
-          "url": "https://finnhub.io/api/news?id=0419247d2a477b92084aca4454634fa51efe70bbe4b6ca34d55b01ce8d98268c",
-          "datetime": 1789149600,
-          "source": "ChartMill"
+          "headline": "NuScale Power's CFO Sells 20,000 Company Shares Amid a 74% Stock Decline Over the Trailing 12 Months",
+          "url": "https://finnhub.io/api/news?id=a8d091254c94a2ba6771e14ddf1543be9c0482fbf8ef64409ed8dcd198ecf59e",
+          "datetime": 1789279001,
+          "source": "Yahoo"
         }
       ],
       "watchlists": []
@@ -3779,7 +3785,7 @@
     {
       "ticker": "CEG",
       "sector": "Nuclear Energy",
-      "updated": "2026-09-12T23:55:59.592446-07:00",
+      "updated": "2026-09-14T00:21:12.670636-07:00",
       "price": 284.75,
       "prev_close": 285.97,
       "change_pct": -0.43,
@@ -3819,7 +3825,7 @@
     {
       "ticker": "VST",
       "sector": "Nuclear Energy",
-      "updated": "2026-09-12T23:56:02.240972-07:00",
+      "updated": "2026-09-14T00:21:15.698564-07:00",
       "price": 148.38,
       "prev_close": 147.05,
       "change_pct": 0.9,
@@ -3859,7 +3865,7 @@
     {
       "ticker": "CCJ",
       "sector": "Nuclear Energy",
-      "updated": "2026-09-12T23:56:04.909191-07:00",
+      "updated": "2026-09-14T00:21:18.702384-07:00",
       "price": 96.68,
       "prev_close": 97.42,
       "change_pct": -0.76,
@@ -3899,7 +3905,7 @@
     {
       "ticker": "LEU",
       "sector": "Nuclear Energy",
-      "updated": "2026-09-12T23:56:07.660035-07:00",
+      "updated": "2026-09-14T00:21:21.727486-07:00",
       "price": 152.31,
       "prev_close": 165.87,
       "change_pct": -8.18,
@@ -3970,7 +3976,7 @@
     {
       "ticker": "GEV",
       "sector": "Nuclear Energy",
-      "updated": "2026-09-12T23:56:11.225272-07:00",
+      "updated": "2026-09-14T00:21:25.841040-07:00",
       "price": 957.27,
       "prev_close": 923.91,
       "change_pct": 3.61,
@@ -4010,7 +4016,7 @@
     {
       "ticker": "SO",
       "sector": "Nuclear Energy",
-      "updated": "2026-09-12T23:56:13.880151-07:00",
+      "updated": "2026-09-14T00:21:28.920229-07:00",
       "price": 87.17,
       "prev_close": 87.75,
       "change_pct": -0.66,
@@ -4047,6 +4053,12 @@
       "revenue_growth": 6.85,
       "news": [
         {
+          "headline": "These 2 Utility Dividends Look Much Better When the IRS Gets None of the Income",
+          "url": "https://finnhub.io/api/news?id=b21a79ef3735da1769779724da48d5b6a324d185ab8130f579c62b95f88097f4",
+          "datetime": 1789303521,
+          "source": "Yahoo"
+        },
+        {
           "headline": "How Much Does a 61-Year-Old Need Invested to Collect $8,600 a Month for Life?",
           "url": "https://finnhub.io/api/news?id=73edf292663e05f412f5fff7acc38b246c1db52ad563802de1561dece1055aa2",
           "datetime": 1789253637,
@@ -4069,12 +4081,6 @@
           "url": "https://finnhub.io/api/news?id=5aca1f12079e7c749e8f456bb5a271c0a55439b3b52597d44e4a3725397adbc2",
           "datetime": 1789125471,
           "source": "SeekingAlpha"
-        },
-        {
-          "headline": "PowerSecure Builds Standby Power for Keel's Data Center Campus",
-          "url": "https://finnhub.io/api/news?id=c6e06581d44d11c966e47eeee12167dfac84c7891e37377d50734feb95dfbcd2",
-          "datetime": 1789065674,
-          "source": "Yahoo"
         }
       ],
       "watchlists": []
@@ -4082,7 +4088,7 @@
     {
       "ticker": "BE",
       "sector": "Nuclear Energy",
-      "updated": "2026-09-12T23:56:17.448185-07:00",
+      "updated": "2026-09-14T00:21:32.885647-07:00",
       "price": 275.75,
       "prev_close": 258.49,
       "change_pct": 6.68,
@@ -4121,7 +4127,7 @@
     {
       "ticker": "NRG",
       "sector": "Nuclear Energy",
-      "updated": "2026-09-12T23:56:20.133903-07:00",
+      "updated": "2026-09-14T00:21:36.093882-07:00",
       "price": 113.46,
       "prev_close": 111.65,
       "change_pct": 1.62,
@@ -4161,7 +4167,7 @@
     {
       "ticker": "DYN",
       "sector": "Nuclear Energy",
-      "updated": "2026-09-12T23:56:22.800001-07:00",
+      "updated": "2026-09-14T00:21:39.144158-07:00",
       "price": 18.21,
       "prev_close": 18.42,
       "change_pct": -1.14,
@@ -4233,7 +4239,7 @@
     {
       "ticker": "LMT",
       "sector": "Nuclear Energy",
-      "updated": "2026-09-12T23:56:26.293738-07:00",
+      "updated": "2026-09-14T00:21:43.014099-07:00",
       "price": 524.19,
       "prev_close": 530.12,
       "change_pct": -1.12,
@@ -4273,7 +4279,7 @@
     {
       "ticker": "BWXT",
       "sector": "Nuclear Energy",
-      "updated": "2026-09-12T23:56:29.024677-07:00",
+      "updated": "2026-09-14T00:21:46.146408-07:00",
       "price": 150.12,
       "prev_close": 152.49,
       "change_pct": -1.55,
@@ -4345,7 +4351,7 @@
     {
       "ticker": "KTOS",
       "sector": "Drones",
-      "updated": "2026-09-12T23:56:32.540182-07:00",
+      "updated": "2026-09-14T00:21:50.177553-07:00",
       "price": 46.69,
       "prev_close": 46.98,
       "change_pct": -0.62,
@@ -4417,7 +4423,7 @@
     {
       "ticker": "JOBY",
       "sector": "Drones",
-      "updated": "2026-09-12T23:56:36.041011-07:00",
+      "updated": "2026-09-14T00:21:54.097454-07:00",
       "price": 6.39,
       "prev_close": 6.31,
       "change_pct": 1.27,
@@ -4454,6 +4460,12 @@
       "revenue_growth": 69860.36,
       "news": [
         {
+          "headline": "Joby Aviation Could Deliver 10x Returns for Patient Investors",
+          "url": "https://finnhub.io/api/news?id=14802e9abca1e5b0d76dda4d6a1815a7b7fe712f835c9465c531fd9da76b6ea5",
+          "datetime": 1789262700,
+          "source": "Yahoo"
+        },
+        {
           "headline": "Firefly Aerospace vs. Joby Aviation: Which Industrials Stock Is a Better Buy in 2026?",
           "url": "https://finnhub.io/api/news?id=00f706c5174b74c79529c6d071cc40f939b8a5a363e9179596078ae6c6d325aa",
           "datetime": 1789236241,
@@ -4476,12 +4488,6 @@
           "url": "https://finnhub.io/api/news?id=3792791262c543a6f2f5fde4bd6a386a564149824da4d3ec0b38d0084049c610",
           "datetime": 1789152600,
           "source": "Yahoo"
-        },
-        {
-          "headline": "Joby Aviation Files Resale Prospectus for 2.4 Million Earn-Out Shares Tied to Blade Acquisition",
-          "url": "https://finnhub.io/api/news?id=0a689303bce4fdf58f14f03a8fb81986308014e8a1ccd61dcd00cd427f82e327",
-          "datetime": 1789136707,
-          "source": "Yahoo"
         }
       ],
       "watchlists": []
@@ -4489,7 +4495,7 @@
     {
       "ticker": "ACHR",
       "sector": "Drones",
-      "updated": "2026-09-12T23:56:39.524773-07:00",
+      "updated": "2026-09-14T00:21:58.029812-07:00",
       "price": 5.58,
       "prev_close": 5.45,
       "change_pct": 2.39,
@@ -4529,7 +4535,7 @@
     {
       "ticker": "TXT",
       "sector": "Drones",
-      "updated": "2026-09-12T23:56:42.162058-07:00",
+      "updated": "2026-09-14T00:22:01.230249-07:00",
       "price": 81,
       "prev_close": 79.2,
       "change_pct": 2.27,
@@ -4569,7 +4575,7 @@
     {
       "ticker": "NOC",
       "sector": "Drones",
-      "updated": "2026-09-12T23:56:44.884737-07:00",
+      "updated": "2026-09-14T00:22:04.314932-07:00",
       "price": 518.97,
       "prev_close": 518.95,
       "change_pct": 0.0,
@@ -4609,7 +4615,7 @@
     {
       "ticker": "RCAT",
       "sector": "Drones",
-      "updated": "2026-09-12T23:56:47.614841-07:00",
+      "updated": "2026-09-14T00:22:07.395519-07:00",
       "price": 7.96,
       "prev_close": 8.08,
       "change_pct": -1.49,
@@ -4680,7 +4686,7 @@
     {
       "ticker": "ONDS",
       "sector": "Drones",
-      "updated": "2026-09-12T23:56:51.140644-07:00",
+      "updated": "2026-09-14T00:22:11.379041-07:00",
       "price": 7.23,
       "prev_close": 7.25,
       "change_pct": -0.28,
@@ -4719,7 +4725,7 @@
     {
       "ticker": "UMAC",
       "sector": "Drones",
-      "updated": "2026-09-12T23:56:53.843623-07:00",
+      "updated": "2026-09-14T00:22:14.446915-07:00",
       "price": 22.95,
       "prev_close": 23.53,
       "change_pct": -2.46,
@@ -4790,7 +4796,7 @@
     {
       "ticker": "BA",
       "sector": "Drones",
-      "updated": "2026-09-12T23:56:57.358477-07:00",
+      "updated": "2026-09-14T00:22:18.393300-07:00",
       "price": 210.45,
       "prev_close": 204.8,
       "change_pct": 2.76,
@@ -4830,7 +4836,7 @@
     {
       "ticker": "HII",
       "sector": "Drones",
-      "updated": "2026-09-12T23:57:00.108068-07:00",
+      "updated": "2026-09-14T00:22:21.541314-07:00",
       "price": 279.69,
       "prev_close": 281.67,
       "change_pct": -0.7,
@@ -4902,7 +4908,7 @@
     {
       "ticker": "VALE",
       "sector": "Mining & Materials",
-      "updated": "2026-09-12T23:57:03.661007-07:00",
+      "updated": "2026-09-14T00:22:25.518268-07:00",
       "price": 15.23,
       "prev_close": 15.28,
       "change_pct": -0.33,
@@ -4942,7 +4948,7 @@
     {
       "ticker": "RIO",
       "sector": "Mining & Materials",
-      "updated": "2026-09-12T23:57:06.347758-07:00",
+      "updated": "2026-09-14T00:22:28.541122-07:00",
       "price": 99.96,
       "prev_close": 99.39,
       "change_pct": 0.57,
@@ -4972,17 +4978,17 @@
       "drop_trigger": null,
       "worst_day_30d": -4.19,
       "market_cap": 126772.14,
-      "pe_ratio": 17.2084,
+      "pe_ratio": 17.1968,
       "eps_ttm": 6.0841,
       "beta": 1.3209009,
-      "dividend_yield": 3.5831,
+      "dividend_yield": 3.5855,
       "revenue_growth": 7.42,
       "watchlists": []
     },
     {
       "ticker": "FCX",
       "sector": "Mining & Materials",
-      "updated": "2026-09-12T23:57:09.045210-07:00",
+      "updated": "2026-09-14T00:22:31.557383-07:00",
       "price": 71.07,
       "prev_close": 71.21,
       "change_pct": -0.2,
@@ -5054,7 +5060,7 @@
     {
       "ticker": "NEM",
       "sector": "Mining & Materials",
-      "updated": "2026-09-12T23:57:12.607274-07:00",
+      "updated": "2026-09-14T00:22:35.564650-07:00",
       "price": 126.81,
       "prev_close": 126.14,
       "change_pct": 0.53,
@@ -5094,7 +5100,7 @@
     {
       "ticker": "GOLD",
       "sector": "Mining & Materials",
-      "updated": "2026-09-12T23:57:15.326950-07:00",
+      "updated": "2026-09-14T00:22:38.766691-07:00",
       "price": 48.22,
       "prev_close": 45.88,
       "change_pct": 5.1,
@@ -5131,6 +5137,12 @@
       "revenue_growth": 132.39,
       "news": [
         {
+          "headline": "Gold.com (GOLD): On A Gold Rush With Cracks Underneath",
+          "url": "https://finnhub.io/api/news?id=e3f9e7ab2bd67b7daa5b8e10bb73026404cf98ec284eae1688b497a7224c6ee0",
+          "datetime": 1789294482,
+          "source": "Yahoo"
+        },
+        {
           "headline": "Xerox, Dynatrace, and 2 More Stocks See Action From Activist Investors",
           "url": "https://finnhub.io/api/news?id=a0285f97977da1f66c11fd5fe1a3279fe5870c9cd94981f6ff2fa4c6fb2a7ee4",
           "datetime": 1789165860,
@@ -5160,7 +5172,7 @@
     {
       "ticker": "MP",
       "sector": "Mining & Materials",
-      "updated": "2026-09-12T23:57:18.855082-07:00",
+      "updated": "2026-09-14T00:22:42.685747-07:00",
       "price": 50.51,
       "prev_close": 51.32,
       "change_pct": -1.58,
@@ -5196,6 +5208,12 @@
       "revenue_growth": 64.66,
       "news": [
         {
+          "headline": "MP Materials Nears NdPr Target, Eyes GM Magnet Deliveries by Year-End",
+          "url": "https://finnhub.io/api/news?id=59a3bd96f4af712cb926282e0db80eba60a3837db3154175b1c1618b9f9371bd",
+          "datetime": 1789261317,
+          "source": "Yahoo"
+        },
+        {
           "headline": "Should You Ignore MP Materials and Buy This Rare-Earth Stock Instead?",
           "url": "https://finnhub.io/api/news?id=9e9d3b8b99f6137f84d0d9e3dec51daf0b1a4c1a773b6a7f7d495b9adcdc562a",
           "datetime": 1789234380,
@@ -5218,12 +5236,6 @@
           "url": "https://finnhub.io/api/news?id=76e0ab4cd6f7dd26b2ef7d874d0d70f6c9204dc2133baed6e2eb78aa7dccc533",
           "datetime": 1789081200,
           "source": "Yahoo"
-        },
-        {
-          "headline": "Cameco vs. MP Materials: Which Crucial Renewable Energy Supplier Stock Is a Better Buy in 2026?",
-          "url": "https://finnhub.io/api/news?id=f86613ae52997b4fe5fa71de69e04c65da047100ecb6015ed0dd8b43fdde3b11",
-          "datetime": 1789067461,
-          "source": "Yahoo"
         }
       ],
       "watchlists": []
@@ -5231,7 +5243,7 @@
     {
       "ticker": "ALB",
       "sector": "Mining & Materials",
-      "updated": "2026-09-12T23:57:23.303879-07:00",
+      "updated": "2026-09-14T00:22:47.538802-07:00",
       "price": 117.52,
       "prev_close": 122.11,
       "change_pct": -3.76,
@@ -5303,7 +5315,7 @@
     {
       "ticker": "NUE",
       "sector": "Mining & Materials",
-      "updated": "2026-09-12T23:57:26.900667-07:00",
+      "updated": "2026-09-14T00:22:51.546842-07:00",
       "price": 259.43,
       "prev_close": 255.46,
       "change_pct": 1.55,
@@ -5343,7 +5355,7 @@
     {
       "ticker": "AA",
       "sector": "Mining & Materials",
-      "updated": "2026-09-12T23:57:29.641723-07:00",
+      "updated": "2026-09-14T00:22:54.728911-07:00",
       "price": 48.26,
       "prev_close": 48.3,
       "change_pct": -0.08,
@@ -5415,7 +5427,7 @@
     {
       "ticker": "CLF",
       "sector": "Mining & Materials",
-      "updated": "2026-09-12T23:57:34.184025-07:00",
+      "updated": "2026-09-14T00:22:59.633471-07:00",
       "price": 12.06,
       "prev_close": 11.83,
       "change_pct": 1.94,
@@ -5455,7 +5467,7 @@
     {
       "ticker": "STLD",
       "sector": "Mining & Materials",
-      "updated": "2026-09-12T23:57:36.904252-07:00",
+      "updated": "2026-09-14T00:23:02.783419-07:00",
       "price": 239.79,
       "prev_close": 237.08,
       "change_pct": 1.14,
@@ -5495,7 +5507,7 @@
     {
       "ticker": "RS",
       "sector": "Mining & Materials",
-      "updated": "2026-09-12T23:57:39.587581-07:00",
+      "updated": "2026-09-14T00:23:05.863056-07:00",
       "price": 394.21,
       "prev_close": 392.4,
       "change_pct": 0.46,
@@ -5535,7 +5547,7 @@
     {
       "ticker": "OXY",
       "sector": "Energy",
-      "updated": "2026-09-12T23:57:42.317925-07:00",
+      "updated": "2026-09-14T00:23:08.790027-07:00",
       "price": 61.46,
       "prev_close": 61.16,
       "change_pct": 0.49,
@@ -5575,7 +5587,7 @@
     {
       "ticker": "DVN",
       "sector": "Energy",
-      "updated": "2026-09-12T23:57:45.031626-07:00",
+      "updated": "2026-09-14T00:23:11.929010-07:00",
       "price": 50.23,
       "prev_close": 50.02,
       "change_pct": 0.42,
@@ -5615,7 +5627,7 @@
     {
       "ticker": "COP",
       "sector": "Energy",
-      "updated": "2026-09-12T23:57:47.743946-07:00",
+      "updated": "2026-09-14T00:23:15.098734-07:00",
       "price": 137.35,
       "prev_close": 137.04,
       "change_pct": 0.23,
@@ -5655,7 +5667,7 @@
     {
       "ticker": "EOG",
       "sector": "Energy",
-      "updated": "2026-09-12T23:57:51.346373-07:00",
+      "updated": "2026-09-14T00:23:19.121332-07:00",
       "price": 147.36,
       "prev_close": 147.46,
       "change_pct": -0.07,
@@ -5695,7 +5707,7 @@
     {
       "ticker": "SLB",
       "sector": "Energy",
-      "updated": "2026-09-12T23:57:54.058801-07:00",
+      "updated": "2026-09-14T00:23:22.305093-07:00",
       "price": 56.06,
       "prev_close": 56.01,
       "change_pct": 0.09,
@@ -5735,7 +5747,7 @@
     {
       "ticker": "HAL",
       "sector": "Energy",
-      "updated": "2026-09-12T23:57:56.777121-07:00",
+      "updated": "2026-09-14T00:23:25.476239-07:00",
       "price": 35.84,
       "prev_close": 36.07,
       "change_pct": -0.64,
@@ -5775,7 +5787,7 @@
     {
       "ticker": "MPC",
       "sector": "Energy",
-      "updated": "2026-09-12T23:57:59.511265-07:00",
+      "updated": "2026-09-14T00:23:28.557573-07:00",
       "price": 395.93,
       "prev_close": 392.42,
       "change_pct": 0.89,
@@ -5815,7 +5827,7 @@
     {
       "ticker": "VLO",
       "sector": "Energy",
-      "updated": "2026-09-12T23:58:02.192356-07:00",
+      "updated": "2026-09-14T00:23:31.564731-07:00",
       "price": 390.42,
       "prev_close": 385.43,
       "change_pct": 1.29,
@@ -5855,7 +5867,7 @@
     {
       "ticker": "PSX",
       "sector": "Energy",
-      "updated": "2026-09-12T23:58:04.981280-07:00",
+      "updated": "2026-09-14T00:23:34.648098-07:00",
       "price": 259.47,
       "prev_close": 258.51,
       "change_pct": 0.37,
@@ -5895,7 +5907,7 @@
     {
       "ticker": "XOM",
       "sector": "Energy",
-      "updated": "2026-09-12T23:58:07.660476-07:00",
+      "updated": "2026-09-14T00:23:37.797035-07:00",
       "price": 165.99,
       "prev_close": 165.23,
       "change_pct": 0.46,
@@ -5935,7 +5947,7 @@
     {
       "ticker": "CVX",
       "sector": "Energy",
-      "updated": "2026-09-12T23:58:10.482001-07:00",
+      "updated": "2026-09-14T00:23:40.900258-07:00",
       "price": 214.06,
       "prev_close": 212.76,
       "change_pct": 0.61,
@@ -5975,7 +5987,7 @@
     {
       "ticker": "FANG",
       "sector": "Energy",
-      "updated": "2026-09-12T23:58:14.160129-07:00",
+      "updated": "2026-09-14T00:23:44.868401-07:00",
       "price": 204.97,
       "prev_close": 205.39,
       "change_pct": -0.2,
@@ -6015,7 +6027,7 @@
     {
       "ticker": "APA",
       "sector": "Energy",
-      "updated": "2026-09-12T23:58:16.890749-07:00",
+      "updated": "2026-09-14T00:23:47.860573-07:00",
       "price": 44.73,
       "prev_close": 44.53,
       "change_pct": 0.45,
@@ -6055,7 +6067,7 @@
     {
       "ticker": "AAPL",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:58:19.631965-07:00",
+      "updated": "2026-09-14T00:23:51.144615-07:00",
       "price": 332.27,
       "prev_close": 326.57,
       "change_pct": 1.75,
@@ -6095,7 +6107,7 @@
     {
       "ticker": "MSFT",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:58:22.328140-07:00",
+      "updated": "2026-09-14T00:23:54.363883-07:00",
       "price": 495.63,
       "prev_close": 492.44,
       "change_pct": 0.65,
@@ -6135,7 +6147,7 @@
     {
       "ticker": "AMZN",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:58:25.037256-07:00",
+      "updated": "2026-09-14T00:23:57.445050-07:00",
       "price": 256.78,
       "prev_close": 251.89,
       "change_pct": 1.94,
@@ -6175,7 +6187,7 @@
     {
       "ticker": "GOOGL",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:58:27.698365-07:00",
+      "updated": "2026-09-14T00:24:00.417763-07:00",
       "price": 338.5,
       "prev_close": 332.6,
       "change_pct": 1.77,
@@ -6215,7 +6227,7 @@
     {
       "ticker": "GOOG",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:58:30.382705-07:00",
+      "updated": "2026-09-14T00:24:03.444320-07:00",
       "price": 335.45,
       "prev_close": 330.39,
       "change_pct": 1.53,
@@ -6255,7 +6267,7 @@
     {
       "ticker": "META",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:58:33.046900-07:00",
+      "updated": "2026-09-14T00:24:06.460180-07:00",
       "price": 648.03,
       "prev_close": 644.38,
       "change_pct": 0.57,
@@ -6295,7 +6307,7 @@
     {
       "ticker": "TSLA",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:58:35.716710-07:00",
+      "updated": "2026-09-14T00:24:09.529742-07:00",
       "price": 365.44,
       "prev_close": 363.56,
       "change_pct": 0.52,
@@ -6335,7 +6347,7 @@
     {
       "ticker": "BRK.B",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:58:38.372020-07:00",
+      "updated": "2026-09-14T00:24:12.544354-07:00",
       "price": 510.37,
       "prev_close": 507,
       "change_pct": 0.66,
@@ -6358,7 +6370,7 @@
     {
       "ticker": "JPM",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:58:42.165659-07:00",
+      "updated": "2026-09-14T00:24:17.079188-07:00",
       "price": 356.23,
       "prev_close": 353.56,
       "change_pct": 0.76,
@@ -6398,7 +6410,7 @@
     {
       "ticker": "LLY",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:58:44.885090-07:00",
+      "updated": "2026-09-14T00:24:20.083749-07:00",
       "price": 1115.7,
       "prev_close": 1123,
       "change_pct": -0.65,
@@ -6438,7 +6450,7 @@
     {
       "ticker": "UNH",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:58:47.617819-07:00",
+      "updated": "2026-09-14T00:24:23.133402-07:00",
       "price": 379.09,
       "prev_close": 388.28,
       "change_pct": -2.37,
@@ -6478,7 +6490,7 @@
     {
       "ticker": "COST",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:58:50.347103-07:00",
+      "updated": "2026-09-14T00:24:26.292802-07:00",
       "price": 904.77,
       "prev_close": 902.38,
       "change_pct": 0.26,
@@ -6518,7 +6530,7 @@
     {
       "ticker": "PG",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:58:53.032879-07:00",
+      "updated": "2026-09-14T00:24:29.315647-07:00",
       "price": 145.27,
       "prev_close": 142.97,
       "change_pct": 1.61,
@@ -6558,7 +6570,7 @@
     {
       "ticker": "JNJ",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:58:55.788284-07:00",
+      "updated": "2026-09-14T00:24:32.373928-07:00",
       "price": 265.58,
       "prev_close": 266.35,
       "change_pct": -0.29,
@@ -6598,7 +6610,7 @@
     {
       "ticker": "ABBV",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:58:58.562199-07:00",
+      "updated": "2026-09-14T00:24:35.656146-07:00",
       "price": 257.12,
       "prev_close": 255,
       "change_pct": 0.83,
@@ -6638,7 +6650,7 @@
     {
       "ticker": "MRK",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:59:01.240744-07:00",
+      "updated": "2026-09-14T00:24:38.818536-07:00",
       "price": 143.93,
       "prev_close": 144.71,
       "change_pct": -0.54,
@@ -6678,7 +6690,7 @@
     {
       "ticker": "BAC",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:59:03.998905-07:00",
+      "updated": "2026-09-14T00:24:41.979591-07:00",
       "price": 62.69,
       "prev_close": 62.56,
       "change_pct": 0.21,
@@ -6718,7 +6730,7 @@
     {
       "ticker": "NFLX",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:59:06.700468-07:00",
+      "updated": "2026-09-14T00:24:45.038515-07:00",
       "price": 77.4,
       "prev_close": 76.01,
       "change_pct": 1.83,
@@ -6758,7 +6770,7 @@
     {
       "ticker": "PEP",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:59:09.341357-07:00",
+      "updated": "2026-09-14T00:24:48.119759-07:00",
       "price": 136.32,
       "prev_close": 136.65,
       "change_pct": -0.24,
@@ -6798,7 +6810,7 @@
     {
       "ticker": "KO",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:59:12.130092-07:00",
+      "updated": "2026-09-14T00:24:51.382054-07:00",
       "price": 88.29,
       "prev_close": 87.83,
       "change_pct": 0.52,
@@ -6838,7 +6850,7 @@
     {
       "ticker": "TMO",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:59:14.928855-07:00",
+      "updated": "2026-09-14T00:24:54.615397-07:00",
       "price": 609.82,
       "prev_close": 603.18,
       "change_pct": 1.1,
@@ -6878,7 +6890,7 @@
     {
       "ticker": "ORCL",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:59:17.643895-07:00",
+      "updated": "2026-09-14T00:24:57.609346-07:00",
       "price": 150.28,
       "prev_close": 152.94,
       "change_pct": -1.74,
@@ -6908,41 +6920,41 @@
       "drop_trigger": "cumulative",
       "worst_day_30d": -5.38,
       "market_cap": 432877.2,
-      "pe_ratio": 25.3337,
-      "eps_ttm": 5.8606,
+      "pe_ratio": 22.8793,
+      "eps_ttm": 6.4411000000000005,
       "beta": 1.772703,
-      "dividend_yield": 1.3369,
-      "revenue_growth": 17.35,
+      "dividend_yield": 1.372,
+      "revenue_growth": 21.62,
       "news": [
         {
-          "headline": "Nvidia vs. AMD: Elon Musk Picked a Side on the SpaceX Earnings Call",
-          "url": "https://finnhub.io/api/news?id=6490e4ac2a408fad6a7e99a108b5027590baebdb2f8bd9abf6aa66d2bb3bf38a",
-          "datetime": 1789248000,
+          "headline": "Why Did HPQ, DELL, VLO Stocks Surge To 52-Week Highs Last Week?",
+          "url": "https://finnhub.io/api/news?id=d2dab1eb433494c27539f9cf2acc5356b8567c8b5488f0137e859d778287f952",
+          "datetime": 1789360989,
           "source": "Yahoo"
         },
         {
-          "headline": "Morgan Stanley revamps Oracle stock price target",
-          "url": "https://finnhub.io/api/news?id=0b7d81354c348af71a73a59958c104155c929f18b19cefee29e3c5c510b9b242",
-          "datetime": 1789246980,
+          "headline": "ORCL Slides After Worst Week In Nearly 2 Months \u2014 But Larry Ellison Canceling His Stock Sale Is Keeping Retail Bullish",
+          "url": "https://finnhub.io/api/news?id=729606e6b92dd9b505511d464fe401de13db8655b8a755e9385f01895fc6c40b",
+          "datetime": 1789357764,
           "source": "Yahoo"
         },
         {
-          "headline": "Oracle\u2019s Ellison cancels plan to sell up to 50 mln shares",
-          "url": "https://finnhub.io/api/news?id=36d8d14be27de90b22068cf543a331ac50b577e80c710c268d7c51da7a87fce7",
-          "datetime": 1789238008,
+          "headline": "Dow, S&P 500, Nasdaq Futures Decline Amid AI Concerns, Rising Oil Prices Ahead Of Fed Rate Week: RUM,  ORCL, SMMT, USO Stocks In Focus",
+          "url": "https://finnhub.io/api/news?id=d6cd31cec9d1209d74f81cb9afecc13a3a5f7a46df6ad91788d728666febe020",
+          "datetime": 1789356708,
           "source": "Yahoo"
         },
         {
-          "headline": "Larry Ellison Ends Plan to Sell Up to $7.5 Billion in Oracle Stock",
-          "url": "https://finnhub.io/api/news?id=fbeb7e4ea09bf863858ee26e1fbfee727732b150c9203072760f28f7de5229ab",
-          "datetime": 1789233533,
+          "headline": "BofA reiterates buy on a cloud giant burning through cash",
+          "url": "https://finnhub.io/api/news?id=71dc71a386feca847c6921fd7d19fea2858274339623429f274485a2e4f74462",
+          "datetime": 1789354020,
           "source": "Yahoo"
         },
         {
-          "headline": "Consumer Tech (Sep 7-11): Apple Launches First Foldable iPhone, XPeng Commissioned IRON Humanoid Robot Production & More",
-          "url": "https://finnhub.io/api/news?id=bef07eae1084c84e2910e7f042139d9a8737b0b1df2f903385c502fc151d28c6",
-          "datetime": 1789232822,
-          "source": "Benzinga"
+          "headline": "Why Retail Traders Couldn\u2019t Take Their Eyes Off These Stocks Last Week: AAPL, NVDA, ORCL, NOK, SPCX",
+          "url": "https://finnhub.io/api/news?id=0b9ed8531c128af820c6b6c73a4be8375c6074899daa4d361d670dbca7f87ab3",
+          "datetime": 1789350287,
+          "source": "Yahoo"
         }
       ],
       "watchlists": []
@@ -6950,7 +6962,7 @@
     {
       "ticker": "ACN",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:59:21.213220-07:00",
+      "updated": "2026-09-14T00:25:01.421540-07:00",
       "price": 183.9,
       "prev_close": 177.91,
       "change_pct": 3.37,
@@ -6990,7 +7002,7 @@
     {
       "ticker": "MCD",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:59:23.900083-07:00",
+      "updated": "2026-09-14T00:25:04.694822-07:00",
       "price": 252.53,
       "prev_close": 253.05,
       "change_pct": -0.21,
@@ -7027,6 +7039,24 @@
       "revenue_growth": 6.3,
       "news": [
         {
+          "headline": "Why Did OPEN, OKLO, MCD Stocks Plunge To 52-Week Lows?",
+          "url": "https://finnhub.io/api/news?id=77dd03ab7366778300da2ae412f420027855bcee99ac926a8e00148308af66fb",
+          "datetime": 1789355033,
+          "source": "Yahoo"
+        },
+        {
+          "headline": "Jim Cramer Says a 25% Surtax Just Got Added to Everything You Buy. Congress Never Voted on It.",
+          "url": "https://finnhub.io/api/news?id=db352a739b6e1518beb8e48c8f02d72fb8eb9ed8feac5137294298af89d4f609",
+          "datetime": 1789329618,
+          "source": "Yahoo"
+        },
+        {
+          "headline": "McDonald's Yields 3%, the Highest in Over 6 Years. Is the Dow Dividend Stock a Value Trap or Too Cheap to Ignore?",
+          "url": "https://finnhub.io/api/news?id=cb1e3ba6e35c6311b36a7e1cdcec462809e7f6101cec186f6ae7e1d127be0062",
+          "datetime": 1789322580,
+          "source": "Yahoo"
+        },
+        {
           "headline": "McDonald's: At 52-Week Lows, But I'm Still Not Interested",
           "url": "https://finnhub.io/api/news?id=fb3e999f30d1f88b2e8f0810a1f0e314df066506967070b963d163b9abd4a54c",
           "datetime": 1789257400,
@@ -7037,24 +7067,6 @@
           "url": "https://finnhub.io/api/news?id=9bd0405c5e229357dabe6f64392d4b7a674c7a359391941c81bf5bc6d4a16fb8",
           "datetime": 1789254806,
           "source": "SeekingAlpha"
-        },
-        {
-          "headline": "Prediction: This High-Yield Dow Dividend Stock Will Become a Dividend King Before the End of the Year.",
-          "url": "https://finnhub.io/api/news?id=118f95b488452b6377f2916079b2fa5d5aa36e1851abc142fd08a5f81a265811",
-          "datetime": 1789227300,
-          "source": "Yahoo"
-        },
-        {
-          "headline": "Starbucks CEO: \u201cThe Shine Is Back.\u201d Should You Buy After the Stock\u2019s 30% Jump?",
-          "url": "https://finnhub.io/api/news?id=3342eb58f063e0471d2f70a7269dc59afb5133efa36b0a2e0bf8ab85be139d71",
-          "datetime": 1789222510,
-          "source": "Yahoo"
-        },
-        {
-          "headline": "McDonald's: Finally Lovin' It (Rating Upgrade)",
-          "url": "https://finnhub.io/api/news?id=11c8d5b6c4801f09fb4c9435db51cca1b1a9ca1ef8c0e6cf6ee4783b04358ed4",
-          "datetime": 1789210560,
-          "source": "SeekingAlpha"
         }
       ],
       "watchlists": []
@@ -7062,7 +7074,7 @@
     {
       "ticker": "LIN",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:59:27.500806-07:00",
+      "updated": "2026-09-14T00:25:08.834723-07:00",
       "price": 466.22,
       "prev_close": 461.62,
       "change_pct": 1.0,
@@ -7102,7 +7114,7 @@
     {
       "ticker": "ABT",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:59:30.210069-07:00",
+      "updated": "2026-09-14T00:25:11.957801-07:00",
       "price": 101.95,
       "prev_close": 103.36,
       "change_pct": -1.36,
@@ -7139,6 +7151,12 @@
       "revenue_growth": 8.06,
       "news": [
         {
+          "headline": "Two Medical Device Dividend Giants, One Better Buy: Medtronic vs. Abbott",
+          "url": "https://finnhub.io/api/news?id=5848d60274d221bb2d8a5b31680490040d0d6c10ddf28025682951591af9510b",
+          "datetime": 1789310182,
+          "source": "Yahoo"
+        },
+        {
           "headline": "Investors Heavily Search Abbott Laboratories (ABT): Here is What You Need to Know",
           "url": "https://finnhub.io/api/news?id=5699e01b1865a833a4df792d26965ce9bf69ad9efb957c173aa105a20d4948c1",
           "datetime": 1789131603,
@@ -7161,12 +7179,6 @@
           "url": "https://finnhub.io/api/news?id=80e7de8999e6a41acd61752ba4a09ba315b534d097c582121d26f62ef8d54a24",
           "datetime": 1788977210,
           "source": "Yahoo"
-        },
-        {
-          "headline": "NVST or ABT: Which Is the Better Value Stock Right Now?",
-          "url": "https://finnhub.io/api/news?id=63e2a7726535a0f6bdb30a4e5466eb945d33375106d36b031587051c414f2e05",
-          "datetime": 1788968402,
-          "source": "Yahoo"
         }
       ],
       "watchlists": []
@@ -7174,7 +7186,7 @@
     {
       "ticker": "CSCO",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:59:33.775666-07:00",
+      "updated": "2026-09-14T00:25:15.903146-07:00",
       "price": 112.13,
       "prev_close": 107.44,
       "change_pct": 4.37,
@@ -7214,7 +7226,7 @@
     {
       "ticker": "WMT",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:59:36.467759-07:00",
+      "updated": "2026-09-14T00:25:19.112663-07:00",
       "price": 107.15,
       "prev_close": 105.73,
       "change_pct": 1.34,
@@ -7254,7 +7266,7 @@
     {
       "ticker": "DHR",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:59:39.212060-07:00",
+      "updated": "2026-09-14T00:25:22.281945-07:00",
       "price": 200.14,
       "prev_close": 200.53,
       "change_pct": -0.19,
@@ -7294,7 +7306,7 @@
     {
       "ticker": "TXN",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:59:41.912657-07:00",
+      "updated": "2026-09-14T00:25:25.295468-07:00",
       "price": 268.7,
       "prev_close": 258.82,
       "change_pct": 3.82,
@@ -7334,7 +7346,7 @@
     {
       "ticker": "PM",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:59:44.660601-07:00",
+      "updated": "2026-09-14T00:25:28.371930-07:00",
       "price": 191.06,
       "prev_close": 189.77,
       "change_pct": 0.68,
@@ -7374,7 +7386,7 @@
     {
       "ticker": "NEE",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:59:47.339067-07:00",
+      "updated": "2026-09-14T00:25:31.440307-07:00",
       "price": 82.31,
       "prev_close": 82.44,
       "change_pct": -0.16,
@@ -7414,7 +7426,7 @@
     {
       "ticker": "ADBE",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:59:50.094656-07:00",
+      "updated": "2026-09-14T00:25:34.571807-07:00",
       "price": 252.23,
       "prev_close": 248.83,
       "change_pct": 1.37,
@@ -7454,7 +7466,7 @@
     {
       "ticker": "RTX",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:59:52.768410-07:00",
+      "updated": "2026-09-14T00:25:37.614939-07:00",
       "price": 197.68,
       "prev_close": 198.12,
       "change_pct": -0.22,
@@ -7526,7 +7538,7 @@
     {
       "ticker": "QCOM",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:59:56.387505-07:00",
+      "updated": "2026-09-14T00:25:41.634534-07:00",
       "price": 181.97,
       "prev_close": 176.88,
       "change_pct": 2.88,
@@ -7566,7 +7578,7 @@
     {
       "ticker": "GE",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:59:59.089401-07:00",
+      "updated": "2026-09-14T00:25:44.628155-07:00",
       "price": 323.66,
       "prev_close": 324.15,
       "change_pct": -0.15,
@@ -7603,6 +7615,12 @@
       "revenue_growth": 21.7,
       "news": [
         {
+          "headline": "Boy, We Were Wrong About SpaceX",
+          "url": "https://finnhub.io/api/news?id=19ba42145fccc24d66afd2cec765dc87e8daaac45ef86ff786ab30f63454bad8",
+          "datetime": 1789318260,
+          "source": "Yahoo"
+        },
+        {
           "headline": "GE Aerospace (GE)\u2019s $12 Billion CPP Acquisition Puts Its Growth Strategy to the Test",
           "url": "https://finnhub.io/api/news?id=6e2bf5b151a785977242d9d41c53cd2af1cf667af1a7420ed88bed65a17d42da",
           "datetime": 1789252713,
@@ -7625,12 +7643,6 @@
           "url": "https://finnhub.io/api/news?id=87fa7fad86770d0d6cb644a814816ba1d0854b60584cbc0a984d8da54a04d337",
           "datetime": 1789165200,
           "source": "Yahoo"
-        },
-        {
-          "headline": "GE Is Buying Consolidated Precision Products in a Nearly $12 Billion Deal. How Investors Should View the Acquisition.",
-          "url": "https://finnhub.io/api/news?id=669e69c024f897b29009ff7e651239fcc299d3c3780f53f2cafd68cb88294a56",
-          "datetime": 1789136694,
-          "source": "Yahoo"
         }
       ],
       "watchlists": []
@@ -7638,7 +7650,7 @@
     {
       "ticker": "IBM",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:00:02.728341-07:00",
+      "updated": "2026-09-14T00:25:48.740106-07:00",
       "price": 243.29,
       "prev_close": 234.02,
       "change_pct": 3.96,
@@ -7678,7 +7690,7 @@
     {
       "ticker": "AMGN",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:00:05.519343-07:00",
+      "updated": "2026-09-14T00:25:51.860226-07:00",
       "price": 377.35,
       "prev_close": 382.47,
       "change_pct": -1.34,
@@ -7715,6 +7727,12 @@
       "revenue_growth": 9.1,
       "news": [
         {
+          "headline": "Amgen (AMGN) Fell 5% on a Drug That Isn\u2019t Even Its Own. Here\u2019s the Lp(a) Bet Now in Question.",
+          "url": "https://finnhub.io/api/news?id=9dbcf75a8118c48cd450552d1c2fdd04ea65551c7540e0073aee905640878fa8",
+          "datetime": 1789309756,
+          "source": "Yahoo"
+        },
+        {
           "headline": "Jim Cramer Weighs Amgen (AMGN) After Novartis Trial Failure",
           "url": "https://finnhub.io/api/news?id=978dee1a3d87d07f0b7e7d95f1bc4c6e5ff2da0f1551d5a2493276b381ed2ea6",
           "datetime": 1789210093,
@@ -7737,12 +7755,6 @@
           "url": "https://finnhub.io/api/news?id=d203da3fbc27c56f1bb176547ad99ad90d3267147090af2aa48d0f2d8febe0d4",
           "datetime": 1789153805,
           "source": "ChartMill"
-        },
-        {
-          "headline": "Amgen Highlights 26% Growth Drivers, IMDELLTRA Momentum and MariTide Potential",
-          "url": "https://finnhub.io/api/news?id=4f6385a40bfd5c1161fa94a3116e7bba505e925ef5ac867a0f55105fd50f3c9b",
-          "datetime": 1789153343,
-          "source": "Yahoo"
         }
       ],
       "watchlists": []
@@ -7750,7 +7762,7 @@
     {
       "ticker": "CAT",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:00:09.055915-07:00",
+      "updated": "2026-09-14T00:25:55.780097-07:00",
       "price": 818.57,
       "prev_close": 805,
       "change_pct": 1.69,
@@ -7790,7 +7802,7 @@
     {
       "ticker": "SPGI",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:00:11.821061-07:00",
+      "updated": "2026-09-14T00:25:58.886915-07:00",
       "price": 410.71,
       "prev_close": 410.42,
       "change_pct": 0.07,
@@ -7830,7 +7842,7 @@
     {
       "ticker": "INTU",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:00:14.560719-07:00",
+      "updated": "2026-09-14T00:26:01.944202-07:00",
       "price": 321.57,
       "prev_close": 312.77,
       "change_pct": 2.81,
@@ -7870,7 +7882,7 @@
     {
       "ticker": "GS",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:00:17.288034-07:00",
+      "updated": "2026-09-14T00:26:05.097465-07:00",
       "price": 1029.18,
       "prev_close": 1019.77,
       "change_pct": 0.92,
@@ -7910,7 +7922,7 @@
     {
       "ticker": "MS",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:00:19.999118-07:00",
+      "updated": "2026-09-14T00:26:08.150527-07:00",
       "price": 214.38,
       "prev_close": 212.66,
       "change_pct": 0.81,
@@ -7950,7 +7962,7 @@
     {
       "ticker": "BLK",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:00:22.726361-07:00",
+      "updated": "2026-09-14T00:26:11.432029-07:00",
       "price": 1079.65,
       "prev_close": 1062.4,
       "change_pct": 1.62,
@@ -7990,7 +8002,7 @@
     {
       "ticker": "ELV",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:00:25.425787-07:00",
+      "updated": "2026-09-14T00:26:14.474282-07:00",
       "price": 418.72,
       "prev_close": 416.54,
       "change_pct": 0.52,
@@ -8030,7 +8042,7 @@
     {
       "ticker": "MDT",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:00:28.132654-07:00",
+      "updated": "2026-09-14T00:26:17.552841-07:00",
       "price": 90.96,
       "prev_close": 91.62,
       "change_pct": -0.72,
@@ -8070,7 +8082,7 @@
     {
       "ticker": "SYK",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:00:30.875571-07:00",
+      "updated": "2026-09-14T00:26:20.654914-07:00",
       "price": 275.56,
       "prev_close": 270.01,
       "change_pct": 2.06,
@@ -8142,7 +8154,7 @@
     {
       "ticker": "VRTX",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:00:34.446063-07:00",
+      "updated": "2026-09-14T00:26:24.624575-07:00",
       "price": 515.44,
       "prev_close": 514.56,
       "change_pct": 0.17,
@@ -8182,7 +8194,7 @@
     {
       "ticker": "GILD",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:00:37.087348-07:00",
+      "updated": "2026-09-14T00:26:27.578652-07:00",
       "price": 143.72,
       "prev_close": 144.81,
       "change_pct": -0.75,
@@ -8222,7 +8234,7 @@
     {
       "ticker": "REGN",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:00:39.762827-07:00",
+      "updated": "2026-09-14T00:26:30.673234-07:00",
       "price": 781.49,
       "prev_close": 793.26,
       "change_pct": -1.48,
@@ -8262,7 +8274,7 @@
     {
       "ticker": "ZTS",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:00:42.410940-07:00",
+      "updated": "2026-09-14T00:26:33.702324-07:00",
       "price": 72.97,
       "prev_close": 72.86,
       "change_pct": 0.15,
@@ -8302,7 +8314,7 @@
     {
       "ticker": "CB",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:00:45.085390-07:00",
+      "updated": "2026-09-14T00:26:36.591398-07:00",
       "price": 338.25,
       "prev_close": 338.67,
       "change_pct": -0.12,
@@ -8342,7 +8354,7 @@
     {
       "ticker": "PLD",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:00:47.806831-07:00",
+      "updated": "2026-09-14T00:26:39.793804-07:00",
       "price": 135.75,
       "prev_close": 134.41,
       "change_pct": 1.0,
@@ -8382,7 +8394,7 @@
     {
       "ticker": "AMT",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:00:50.521390-07:00",
+      "updated": "2026-09-14T00:26:42.833065-07:00",
       "price": 177.85,
       "prev_close": 172.98,
       "change_pct": 2.82,
@@ -8422,7 +8434,7 @@
     {
       "ticker": "SCHW",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:00:53.196795-07:00",
+      "updated": "2026-09-14T00:26:45.908104-07:00",
       "price": 107.25,
       "prev_close": 107.33,
       "change_pct": -0.07,
@@ -8462,7 +8474,7 @@
     {
       "ticker": "C",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:00:55.922924-07:00",
+      "updated": "2026-09-14T00:26:49.024529-07:00",
       "price": 138.82,
       "prev_close": 138.5,
       "change_pct": 0.23,
@@ -8502,7 +8514,7 @@
     {
       "ticker": "WFC",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:00:58.644535-07:00",
+      "updated": "2026-09-14T00:26:52.150327-07:00",
       "price": 90.29,
       "prev_close": 89.45,
       "change_pct": 0.94,
@@ -8542,7 +8554,7 @@
     {
       "ticker": "USB",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:01:01.374495-07:00",
+      "updated": "2026-09-14T00:26:55.285455-07:00",
       "price": 62.84,
       "prev_close": 62.41,
       "change_pct": 0.69,
@@ -8582,7 +8594,7 @@
     {
       "ticker": "TJX",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:01:04.966423-07:00",
+      "updated": "2026-09-14T00:26:59.319175-07:00",
       "price": 126.02,
       "prev_close": 126.42,
       "change_pct": -0.32,
@@ -8619,6 +8631,12 @@
       "revenue_growth": 7.66,
       "news": [
         {
+          "headline": "Top 50 High-Quality Dividend Growth Stocks For September 2026",
+          "url": "https://finnhub.io/api/news?id=5407a5844cc9dd3106cdde5d4ee746a431794cfe6f78e4b1c910f36d5c7c5a45",
+          "datetime": 1789343679,
+          "source": "SeekingAlpha"
+        },
+        {
           "headline": "Jim Cramer Found The TJX Companies, Inc. (NYSE:TJX)\u2019s Share Price Performance \u201cUnbelievable\u201d",
           "url": "https://finnhub.io/api/news?id=ac5a9ebe6b602e961db30c9c03eb55fc84ea7400098686c0e81800053e275191",
           "datetime": 1789210459,
@@ -8641,12 +8659,6 @@
           "url": "https://finnhub.io/api/news?id=ce49f4fc4e2adcb8aa1662fce646ecbd3206dbee225e9dbb7022713cd6950f0d",
           "datetime": 1789126740,
           "source": "Yahoo"
-        },
-        {
-          "headline": "If You Invested $1000 In TJX Companies Stock 15 Years Ago, You Would Have This Much Today",
-          "url": "https://finnhub.io/api/news?id=1d1a02d46bf66a26f8bd26b6a20fea09d78099df58506699d5800640e9c95705",
-          "datetime": 1789058733,
-          "source": "Benzinga"
         }
       ],
       "watchlists": []
@@ -8654,7 +8666,7 @@
     {
       "ticker": "MDLZ",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:01:08.616845-07:00",
+      "updated": "2026-09-14T00:27:03.342254-07:00",
       "price": 62.44,
       "prev_close": 62.47,
       "change_pct": -0.05,
@@ -8694,7 +8706,7 @@
     {
       "ticker": "CI",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:01:11.299598-07:00",
+      "updated": "2026-09-14T00:27:06.356354-07:00",
       "price": 280.76,
       "prev_close": 280.91,
       "change_pct": -0.05,
@@ -8734,7 +8746,7 @@
     {
       "ticker": "DUK",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:01:14.017182-07:00",
+      "updated": "2026-09-14T00:27:09.382298-07:00",
       "price": 119.42,
       "prev_close": 119.37,
       "change_pct": 0.04,
@@ -8774,7 +8786,7 @@
     {
       "ticker": "CL",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:01:16.748420-07:00",
+      "updated": "2026-09-14T00:27:12.505459-07:00",
       "price": 86.8,
       "prev_close": 87.9,
       "change_pct": -1.25,
@@ -8846,7 +8858,7 @@
     {
       "ticker": "ITW",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:01:20.382491-07:00",
+      "updated": "2026-09-14T00:27:16.443525-07:00",
       "price": 268.16,
       "prev_close": 265.2,
       "change_pct": 1.12,
@@ -8886,7 +8898,7 @@
     {
       "ticker": "PNC",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:01:23.141313-07:00",
+      "updated": "2026-09-14T00:27:19.758747-07:00",
       "price": 244.24,
       "prev_close": 242.98,
       "change_pct": 0.52,
@@ -8926,7 +8938,7 @@
     {
       "ticker": "AON",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:01:25.855140-07:00",
+      "updated": "2026-09-14T00:27:22.823742-07:00",
       "price": 302.69,
       "prev_close": 307.77,
       "change_pct": -1.65,
@@ -8998,7 +9010,7 @@
     {
       "ticker": "MO",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:01:29.432977-07:00",
+      "updated": "2026-09-14T00:27:26.870271-07:00",
       "price": 68.98,
       "prev_close": 68.79,
       "change_pct": 0.28,
@@ -9038,7 +9050,7 @@
     {
       "ticker": "BSX",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:01:32.214716-07:00",
+      "updated": "2026-09-14T00:27:29.920826-07:00",
       "price": 42.98,
       "prev_close": 43.1,
       "change_pct": -0.28,
@@ -9075,6 +9087,12 @@
       "revenue_growth": 13.53,
       "news": [
         {
+          "headline": "Boston Scientific (BSX) Didn\u2019t Miss on Demand or Devices. A Cyberattack Just Broke Its Guidance.",
+          "url": "https://finnhub.io/api/news?id=c8c61cde401802c74fc1ffad2b1ab07359e189c3a2c4e85551fc04be9ef2d453",
+          "datetime": 1789327871,
+          "source": "Yahoo"
+        },
+        {
           "headline": "Is This BSX Stock Pullback Worth The Patience?",
           "url": "https://finnhub.io/api/news?id=52dcb991320eb9f86646423e59e8a9e76dd0d08c29cfb3f8b8de0fbf688cb333",
           "datetime": 1789152632,
@@ -9097,12 +9115,6 @@
           "url": "https://finnhub.io/api/news?id=8487cdc595b23baf9231030f412db6f9f197b2603e410c71f10918068e2bac4c",
           "datetime": 1789124256,
           "source": "SeekingAlpha"
-        },
-        {
-          "headline": "Why Boston Scientific (BSX) Dipped More Than Broader Market Today",
-          "url": "https://finnhub.io/api/news?id=dfa5079fce0ec9563cc45107f80904136c80d2ce1641208fd37faf3f76361eb3",
-          "datetime": 1789077603,
-          "source": "Yahoo"
         }
       ],
       "watchlists": []
@@ -9110,7 +9122,7 @@
     {
       "ticker": "BDX",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:01:35.708579-07:00",
+      "updated": "2026-09-14T00:27:33.719891-07:00",
       "price": 177.85,
       "prev_close": 176.42,
       "change_pct": 0.81,
@@ -9150,7 +9162,7 @@
     {
       "ticker": "HCA",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:01:38.480902-07:00",
+      "updated": "2026-09-14T00:27:36.768496-07:00",
       "price": 426.94,
       "prev_close": 421.21,
       "change_pct": 1.36,
@@ -9190,7 +9202,7 @@
     {
       "ticker": "MCO",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:01:41.177683-07:00",
+      "updated": "2026-09-14T00:27:39.690570-07:00",
       "price": 474.95,
       "prev_close": 467.36,
       "change_pct": 1.62,
@@ -9230,7 +9242,7 @@
     {
       "ticker": "ICE",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:01:43.866420-07:00",
+      "updated": "2026-09-14T00:27:42.675644-07:00",
       "price": 157.4,
       "prev_close": 155.81,
       "change_pct": 1.02,
@@ -9270,7 +9282,7 @@
     {
       "ticker": "CME",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:01:46.558171-07:00",
+      "updated": "2026-09-14T00:27:45.611983-07:00",
       "price": 275.54,
       "prev_close": 274.07,
       "change_pct": 0.54,
@@ -9310,7 +9322,7 @@
     {
       "ticker": "GD",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:01:49.240974-07:00",
+      "updated": "2026-09-14T00:27:48.649675-07:00",
       "price": 355.9,
       "prev_close": 354.25,
       "change_pct": 0.47,
@@ -9382,7 +9394,7 @@
     {
       "ticker": "DE",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:01:52.851467-07:00",
+      "updated": "2026-09-14T00:27:52.670154-07:00",
       "price": 675.74,
       "prev_close": 677.94,
       "change_pct": -0.32,
@@ -9422,7 +9434,7 @@
     {
       "ticker": "FDX",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:01:55.607731-07:00",
+      "updated": "2026-09-14T00:27:55.849987-07:00",
       "price": 311.99,
       "prev_close": 311.8,
       "change_pct": 0.06,
@@ -9462,7 +9474,7 @@
     {
       "ticker": "UPS",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:01:58.340764-07:00",
+      "updated": "2026-09-14T00:27:58.830684-07:00",
       "price": 100.28,
       "prev_close": 99.97,
       "change_pct": 0.31,
@@ -9502,7 +9514,7 @@
     {
       "ticker": "NSC",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:02:01.044399-07:00",
+      "updated": "2026-09-14T00:28:01.822830-07:00",
       "price": 320.27,
       "prev_close": 323.3,
       "change_pct": -0.94,
@@ -9574,7 +9586,7 @@
     {
       "ticker": "CSX",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:02:04.621858-07:00",
+      "updated": "2026-09-14T00:28:05.726356-07:00",
       "price": 48.95,
       "prev_close": 49.04,
       "change_pct": -0.18,
@@ -9614,7 +9626,7 @@
     {
       "ticker": "WM",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:02:07.355804-07:00",
+      "updated": "2026-09-14T00:28:08.895755-07:00",
       "price": 213.46,
       "prev_close": 214.77,
       "change_pct": -0.61,
@@ -9668,7 +9680,7 @@
     {
       "ticker": "ECL",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:02:10.925487-07:00",
+      "updated": "2026-09-14T00:28:12.781902-07:00",
       "price": 276.18,
       "prev_close": 271.6,
       "change_pct": 1.69,
@@ -9708,7 +9720,7 @@
     {
       "ticker": "APD",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:02:13.662087-07:00",
+      "updated": "2026-09-14T00:28:15.869066-07:00",
       "price": 291.43,
       "prev_close": 293.65,
       "change_pct": -0.76,
@@ -9748,7 +9760,7 @@
     {
       "ticker": "DOW",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:02:16.418589-07:00",
+      "updated": "2026-09-14T00:28:18.958831-07:00",
       "price": 29.03,
       "prev_close": 29.64,
       "change_pct": -2.06,
@@ -9788,7 +9800,7 @@
     {
       "ticker": "PGR",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:02:19.076735-07:00",
+      "updated": "2026-09-14T00:28:22.009739-07:00",
       "price": 217.62,
       "prev_close": 216.19,
       "change_pct": 0.66,
@@ -9828,7 +9840,7 @@
     {
       "ticker": "ALL",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:02:21.803154-07:00",
+      "updated": "2026-09-14T00:28:25.217308-07:00",
       "price": 253.71,
       "prev_close": 251.79,
       "change_pct": 0.76,
@@ -9868,7 +9880,7 @@
     {
       "ticker": "TRV",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:02:24.554543-07:00",
+      "updated": "2026-09-14T00:28:28.372173-07:00",
       "price": 375.2,
       "prev_close": 367.56,
       "change_pct": 2.08,
@@ -9908,7 +9920,7 @@
     {
       "ticker": "HIG",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:02:27.301608-07:00",
+      "updated": "2026-09-14T00:28:31.444581-07:00",
       "price": 136.36,
       "prev_close": 136.8,
       "change_pct": -0.32,
@@ -9948,7 +9960,7 @@
     {
       "ticker": "MET",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:02:30.019134-07:00",
+      "updated": "2026-09-14T00:28:34.543416-07:00",
       "price": 97.14,
       "prev_close": 96.78,
       "change_pct": 0.37,
@@ -9988,7 +10000,7 @@
     {
       "ticker": "PRU",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:02:32.713806-07:00",
+      "updated": "2026-09-14T00:28:37.657097-07:00",
       "price": 119.24,
       "prev_close": 118.48,
       "change_pct": 0.64,
@@ -10028,7 +10040,7 @@
     {
       "ticker": "AFL",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:02:35.477867-07:00",
+      "updated": "2026-09-14T00:28:40.712213-07:00",
       "price": 115.28,
       "prev_close": 114.47,
       "change_pct": 0.71,
@@ -10068,7 +10080,7 @@
     {
       "ticker": "HUM",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:02:38.204051-07:00",
+      "updated": "2026-09-14T00:28:43.871345-07:00",
       "price": 409.8,
       "prev_close": 400.73,
       "change_pct": 2.26,
@@ -10108,7 +10120,7 @@
     {
       "ticker": "CVS",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:02:40.965955-07:00",
+      "updated": "2026-09-14T00:28:47.045853-07:00",
       "price": 94.66,
       "prev_close": 95.29,
       "change_pct": -0.66,
@@ -10148,7 +10160,7 @@
     {
       "ticker": "MCK",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:02:43.712491-07:00",
+      "updated": "2026-09-14T00:28:50.073310-07:00",
       "price": 881.51,
       "prev_close": 880.86,
       "change_pct": 0.07,
@@ -10188,7 +10200,7 @@
     {
       "ticker": "A",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:02:46.413348-07:00",
+      "updated": "2026-09-14T00:28:53.272099-07:00",
       "price": 146.93,
       "prev_close": 143.12,
       "change_pct": 2.66,
@@ -10228,7 +10240,7 @@
     {
       "ticker": "BAX",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:02:49.110234-07:00",
+      "updated": "2026-09-14T00:28:56.532803-07:00",
       "price": 23.8,
       "prev_close": 24.18,
       "change_pct": -1.57,
@@ -10268,7 +10280,7 @@
     {
       "ticker": "IDXX",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:02:51.855591-07:00",
+      "updated": "2026-09-14T00:28:59.604457-07:00",
       "price": 504.7,
       "prev_close": 506.53,
       "change_pct": -0.36,
@@ -10305,6 +10317,12 @@
       "revenue_growth": 12.77,
       "news": [
         {
+          "headline": "Tracking Ron Baron's BAMCO Portfolio - Q2 2026 Update",
+          "url": "https://finnhub.io/api/news?id=a4035f7d169de499a6bf760b4a6f3eee978a9e675074b8e12637111d8b78fc0a",
+          "datetime": 1789317731,
+          "source": "SeekingAlpha"
+        },
+        {
           "headline": "Pfizer Stock Or Zoetis: Is The Comeback Worth Paying Up For?",
           "url": "https://finnhub.io/api/news?id=45a4c767641875677341490c5c57df95988778e7db0af9183d8a84bc58b8398b",
           "datetime": 1789059954,
@@ -10327,12 +10345,6 @@
           "url": "https://finnhub.io/api/news?id=7f0de51f256b61b9df0e35d286863ba8fe033eb1dbec973436a99a804309379f",
           "datetime": 1789035300,
           "source": "SeekingAlpha"
-        },
-        {
-          "headline": "Is IDEXX Laboratories Stock Underperforming the Dow?",
-          "url": "https://finnhub.io/api/news?id=1d4950ac362cdb63b062bee890fd5d2a425808e745bafddbf3ac1c4a50640db9",
-          "datetime": 1789032067,
-          "source": "Yahoo"
         }
       ],
       "watchlists": []
@@ -10340,7 +10352,7 @@
     {
       "ticker": "IQV",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:02:55.361729-07:00",
+      "updated": "2026-09-14T00:29:03.512534-07:00",
       "price": 261.77,
       "prev_close": 257.3,
       "change_pct": 1.74,
@@ -10380,7 +10392,7 @@
     {
       "ticker": "LH",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:02:58.016399-07:00",
+      "updated": "2026-09-14T00:29:06.486306-07:00",
       "price": 311.54,
       "prev_close": 306.96,
       "change_pct": 1.49,
@@ -10420,7 +10432,7 @@
     {
       "ticker": "DGX",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:03:00.723634-07:00",
+      "updated": "2026-09-14T00:29:09.482179-07:00",
       "price": 235.02,
       "prev_close": 231.14,
       "change_pct": 1.68,
@@ -10460,7 +10472,7 @@
     {
       "ticker": "ALGN",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:03:03.424829-07:00",
+      "updated": "2026-09-14T00:29:12.542416-07:00",
       "price": 150.82,
       "prev_close": 150.72,
       "change_pct": 0.07,
@@ -10532,7 +10544,7 @@
     {
       "ticker": "DXCM",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:03:06.926242-07:00",
+      "updated": "2026-09-14T00:29:16.518376-07:00",
       "price": 83.03,
       "prev_close": 84.51,
       "change_pct": -1.75,
@@ -10572,7 +10584,7 @@
     {
       "ticker": "F",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:03:09.572233-07:00",
+      "updated": "2026-09-14T00:29:19.447513-07:00",
       "price": 13.97,
       "prev_close": 13.88,
       "change_pct": 0.65,
@@ -10612,7 +10624,7 @@
     {
       "ticker": "GM",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:03:12.324079-07:00",
+      "updated": "2026-09-14T00:29:22.650321-07:00",
       "price": 85.62,
       "prev_close": 86.12,
       "change_pct": -0.58,
@@ -10652,7 +10664,7 @@
     {
       "ticker": "AAL",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:03:15.055844-07:00",
+      "updated": "2026-09-14T00:29:25.613418-07:00",
       "price": 13.01,
       "prev_close": 12.85,
       "change_pct": 1.25,
@@ -10692,7 +10704,7 @@
     {
       "ticker": "DAL",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:03:17.702788-07:00",
+      "updated": "2026-09-14T00:29:28.688213-07:00",
       "price": 79.91,
       "prev_close": 78.24,
       "change_pct": 2.13,
@@ -10732,7 +10744,7 @@
     {
       "ticker": "UAL",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:03:20.364878-07:00",
+      "updated": "2026-09-14T00:29:31.712342-07:00",
       "price": 109.82,
       "prev_close": 106.49,
       "change_pct": 3.13,
@@ -10772,7 +10784,7 @@
     {
       "ticker": "LUV",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:03:23.047594-07:00",
+      "updated": "2026-09-14T00:29:34.656127-07:00",
       "price": 39.24,
       "prev_close": 38.69,
       "change_pct": 1.42,
@@ -10812,7 +10824,7 @@
     {
       "ticker": "CCL",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:03:25.809964-07:00",
+      "updated": "2026-09-14T00:29:37.868537-07:00",
       "price": 22.75,
       "prev_close": 22.47,
       "change_pct": 1.25,
@@ -10849,6 +10861,18 @@
       "revenue_growth": 5.16,
       "news": [
         {
+          "headline": "Wall Street Brunch: Will Fed's Warsh Zig When The Bond Market Wants A Zag?",
+          "url": "https://finnhub.io/api/news?id=692e6148e78b6da8ca4a24b1ba5cb88765e083cd74123ddb8f31074bd344b4d9",
+          "datetime": 1789293600,
+          "source": "SeekingAlpha"
+        },
+        {
+          "headline": "Wall Street Week Ahead",
+          "url": "https://finnhub.io/api/news?id=cfb37092878bc58eb5b948cb9a341906a39e32292431c7b4b3dd79a5ffa6e182",
+          "datetime": 1789279670,
+          "source": "SeekingAlpha"
+        },
+        {
           "headline": "FOMC Meeting Takes Center Stage As Earnings Fade",
           "url": "https://finnhub.io/api/news?id=4920c27e7caa767a3724fb38b8f13a28f1b3db5ca04cb15d5f069d28073d7516",
           "datetime": 1789210800,
@@ -10865,18 +10889,6 @@
           "url": "https://finnhub.io/api/news?id=af4a1479065cf72b152192d15babd0a3971086d62bff1e5e88c155a3191478fe",
           "datetime": 1789054783,
           "source": "Benzinga"
-        },
-        {
-          "headline": "CARNIVAL TROPICALE RESERVATIONS NOW OPEN, SETTING SAIL FROM GALVESTON IN 2028",
-          "url": "https://finnhub.io/api/news?id=46f9392c1f2d04047d79cab8733f1b85a5c325c552e3900104bf5be691e78ed3",
-          "datetime": 1789050780,
-          "source": "Yahoo"
-        },
-        {
-          "headline": "Norwegian Slides 3% as Rising Oil Undercuts Fuel-Cost Relief Hopes; Carnival and Royal Caribbean Trail",
-          "url": "https://finnhub.io/api/news?id=605d2ca1c60d7bdf3ece07be32ff70cef88d3ffb0331805fde8f850c37aea909",
-          "datetime": 1788976488,
-          "source": "Yahoo"
         }
       ],
       "watchlists": []
@@ -10884,7 +10896,7 @@
     {
       "ticker": "RCL",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:03:29.394439-07:00",
+      "updated": "2026-09-14T00:29:41.866871-07:00",
       "price": 260.14,
       "prev_close": 259.01,
       "change_pct": 0.44,
@@ -10956,7 +10968,7 @@
     {
       "ticker": "MAR",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:03:32.946524-07:00",
+      "updated": "2026-09-14T00:29:45.740591-07:00",
       "price": 334.69,
       "prev_close": 329.07,
       "change_pct": 1.71,
@@ -10996,7 +11008,7 @@
     {
       "ticker": "HLT",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:03:35.627735-07:00",
+      "updated": "2026-09-14T00:29:48.922364-07:00",
       "price": 306.19,
       "prev_close": 306.24,
       "change_pct": -0.02,
@@ -11036,7 +11048,7 @@
     {
       "ticker": "SBUX",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:03:38.290609-07:00",
+      "updated": "2026-09-14T00:29:52.020184-07:00",
       "price": 98.74,
       "prev_close": 99.22,
       "change_pct": -0.48,
@@ -11073,6 +11085,24 @@
       "revenue_growth": 4.49,
       "news": [
         {
+          "headline": "Another coffeehouse files for Chapter 11 as costs, prices rise",
+          "url": "https://finnhub.io/api/news?id=886e6553a27d7c0e36fc72f6ebe4defd7033d30216a187f55e8371287b6bd27c",
+          "datetime": 1789356945,
+          "source": "Yahoo"
+        },
+        {
+          "headline": "Top 50 High-Quality Dividend Growth Stocks For September 2026",
+          "url": "https://finnhub.io/api/news?id=5407a5844cc9dd3106cdde5d4ee746a431794cfe6f78e4b1c910f36d5c7c5a45",
+          "datetime": 1789343679,
+          "source": "SeekingAlpha"
+        },
+        {
+          "headline": "Starbucks\u2019 $1 Billion Bet on Cozy Stores Faces a Margin Test",
+          "url": "https://finnhub.io/api/news?id=77173fc48789e04288e5db89272fd77e7a6f957d487ba26c73af2946c389586e",
+          "datetime": 1789326035,
+          "source": "Yahoo"
+        },
+        {
           "headline": "Starbucks CEO: \u201cThe Shine Is Back.\u201d Should You Buy After the Stock\u2019s 30% Jump?",
           "url": "https://finnhub.io/api/news?id=3342eb58f063e0471d2f70a7269dc59afb5133efa36b0a2e0bf8ab85be139d71",
           "datetime": 1789222510,
@@ -11083,24 +11113,6 @@
           "url": "https://finnhub.io/api/news?id=ea252befce4cd0bc8e99c5b795d770352988e297e88ead4f5e7ba882b2b4e3ea",
           "datetime": 1789135080,
           "source": "Yahoo"
-        },
-        {
-          "headline": "Update: Market Chatter: Starbucks Allots $1 Billion on Store Renovations to Woo Back Customers",
-          "url": "https://finnhub.io/api/news?id=672c4177c6cb0cfc8dc077988a7b95977dde90d7d8dc17a2a6dc91c2e98fe32a",
-          "datetime": 1789131977,
-          "source": "Yahoo"
-        },
-        {
-          "headline": "5 Things That Investors Might Consider Ahead Of The Fed's Rate Decision",
-          "url": "https://finnhub.io/api/news?id=8cd7aa6f22bd88c4e64f8bee2c21411a4011ffca2db8a9e4835c5c105453a0dc",
-          "datetime": 1789124067,
-          "source": "SeekingAlpha"
-        },
-        {
-          "headline": "Starbucks Puts $1.2B Behind North American Store Refresh",
-          "url": "https://finnhub.io/api/news?id=c8b7e673aad95f48334c239cfab706b45e1cae8b3d042ca4869adafbea10bc57",
-          "datetime": 1789117734,
-          "source": "Yahoo"
         }
       ],
       "watchlists": []
@@ -11108,7 +11120,7 @@
     {
       "ticker": "YUM",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:03:41.825910-07:00",
+      "updated": "2026-09-14T00:29:55.979377-07:00",
       "price": 140.87,
       "prev_close": 143.89,
       "change_pct": -2.1,
@@ -11180,7 +11192,7 @@
     {
       "ticker": "CMG",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:03:45.373934-07:00",
+      "updated": "2026-09-14T00:29:59.933757-07:00",
       "price": 36.2,
       "prev_close": 36.13,
       "change_pct": 0.19,
@@ -11220,7 +11232,7 @@
     {
       "ticker": "NKE",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:03:48.008316-07:00",
+      "updated": "2026-09-14T00:30:03.003873-07:00",
       "price": 36.8,
       "prev_close": 36.62,
       "change_pct": 0.49,
@@ -11260,7 +11272,7 @@
     {
       "ticker": "TGT",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:03:50.722620-07:00",
+      "updated": "2026-09-14T00:30:06.087782-07:00",
       "price": 155.83,
       "prev_close": 155.73,
       "change_pct": 0.06,
@@ -11300,7 +11312,7 @@
     {
       "ticker": "EBAY",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:03:53.438311-07:00",
+      "updated": "2026-09-14T00:30:09.309686-07:00",
       "price": 107.75,
       "prev_close": 105.03,
       "change_pct": 2.59,
@@ -11340,7 +11352,7 @@
     {
       "ticker": "ETSY",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:03:56.101230-07:00",
+      "updated": "2026-09-14T00:30:12.465854-07:00",
       "price": 72.76,
       "prev_close": 71.59,
       "change_pct": 1.63,
@@ -11380,7 +11392,7 @@
     {
       "ticker": "DG",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:03:58.729516-07:00",
+      "updated": "2026-09-14T00:30:15.428186-07:00",
       "price": 124.58,
       "prev_close": 122.99,
       "change_pct": 1.29,
@@ -11420,7 +11432,7 @@
     {
       "ticker": "DLTR",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:04:01.425138-07:00",
+      "updated": "2026-09-14T00:30:18.514880-07:00",
       "price": 118.17,
       "prev_close": 118.66,
       "change_pct": -0.41,
@@ -11460,7 +11472,7 @@
     {
       "ticker": "KR",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:04:04.072788-07:00",
+      "updated": "2026-09-14T00:30:21.407905-07:00",
       "price": 58.49,
       "prev_close": 56.95,
       "change_pct": 2.7,
@@ -11500,7 +11512,7 @@
     {
       "ticker": "TMUS",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:04:06.853148-07:00",
+      "updated": "2026-09-14T00:30:24.493073-07:00",
       "price": 182.33,
       "prev_close": 177.16,
       "change_pct": 2.92,
@@ -11540,7 +11552,7 @@
     {
       "ticker": "KLAC",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:04:09.544067-07:00",
+      "updated": "2026-09-14T00:30:27.505785-07:00",
       "price": 180.64,
       "prev_close": 177.18,
       "change_pct": 1.95,
@@ -11580,7 +11592,7 @@
     {
       "ticker": "SNPS",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:04:12.229886-07:00",
+      "updated": "2026-09-14T00:30:30.598893-07:00",
       "price": 397.38,
       "prev_close": 397.17,
       "change_pct": 0.05,
@@ -11620,7 +11632,7 @@
     {
       "ticker": "CDNS",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:04:14.904740-07:00",
+      "updated": "2026-09-14T00:30:33.623922-07:00",
       "price": 289.37,
       "prev_close": 284.95,
       "change_pct": 1.55,
@@ -11692,7 +11704,7 @@
     {
       "ticker": "MRVL",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:04:18.410505-07:00",
+      "updated": "2026-09-14T00:30:37.476286-07:00",
       "price": 236.1,
       "prev_close": 226.96,
       "change_pct": 4.03,
@@ -11731,7 +11743,7 @@
     {
       "ticker": "MNST",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:04:21.168335-07:00",
+      "updated": "2026-09-14T00:30:40.716728-07:00",
       "price": 43.4,
       "prev_close": 43.09,
       "change_pct": 0.72,
@@ -11803,7 +11815,7 @@
     {
       "ticker": "ORLY",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:04:24.657673-07:00",
+      "updated": "2026-09-14T00:30:44.767651-07:00",
       "price": 85.82,
       "prev_close": 85.51,
       "change_pct": 0.36,
@@ -11843,7 +11855,7 @@
     {
       "ticker": "CTAS",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:04:27.296366-07:00",
+      "updated": "2026-09-14T00:30:47.813067-07:00",
       "price": 201.5,
       "prev_close": 198.44,
       "change_pct": 1.54,
@@ -11883,7 +11895,7 @@
     {
       "ticker": "PAYX",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:04:30.028884-07:00",
+      "updated": "2026-09-14T00:30:50.810385-07:00",
       "price": 115.8,
       "prev_close": 115.18,
       "change_pct": 0.54,
@@ -11923,7 +11935,7 @@
     {
       "ticker": "FAST",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:04:32.777694-07:00",
+      "updated": "2026-09-14T00:30:53.863798-07:00",
       "price": 49.32,
       "prev_close": 49.01,
       "change_pct": 0.63,
@@ -11963,7 +11975,7 @@
     {
       "ticker": "ROST",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:04:35.495699-07:00",
+      "updated": "2026-09-14T00:30:56.959207-07:00",
       "price": 230.74,
       "prev_close": 225.48,
       "change_pct": 2.33,
@@ -12003,7 +12015,7 @@
     {
       "ticker": "ODFL",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:04:38.200112-07:00",
+      "updated": "2026-09-14T00:31:00.082631-07:00",
       "price": 179.79,
       "prev_close": 180.55,
       "change_pct": -0.42,
@@ -12040,6 +12052,12 @@
       "revenue_growth": -0.64,
       "news": [
         {
+          "headline": "Top 50 High-Quality Dividend Growth Stocks For September 2026",
+          "url": "https://finnhub.io/api/news?id=5407a5844cc9dd3106cdde5d4ee746a431794cfe6f78e4b1c910f36d5c7c5a45",
+          "datetime": 1789343679,
+          "source": "SeekingAlpha"
+        },
+        {
           "headline": "Dividend Champion, Contender, And Challenger Highlights: Week September 13",
           "url": "https://finnhub.io/api/news?id=3b25c7758098d2e2e83b4a3df7b4ca76db0ada28ba2f63fcd051f9886485f820",
           "datetime": 1789150194,
@@ -12062,12 +12080,6 @@
           "url": "https://finnhub.io/api/news?id=f5103fd236b2584a2834d716c1221f53a3c5c7ab13e2580bcadf3d689465c749",
           "datetime": 1789056064,
           "source": "Yahoo"
-        },
-        {
-          "headline": "Trucking Stocks Have Been Pummeled but Wall Street Sees Four to Buy",
-          "url": "https://finnhub.io/api/news?id=ab00de4f8c5a52bb0e53aa1138fcd0fc458714d96d8d37e0573f70457cdd1b2f",
-          "datetime": 1789055160,
-          "source": "Yahoo"
         }
       ],
       "watchlists": []
@@ -12075,7 +12087,7 @@
     {
       "ticker": "VRSK",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:04:41.751969-07:00",
+      "updated": "2026-09-14T00:31:04.077998-07:00",
       "price": 176.2,
       "prev_close": 175.86,
       "change_pct": 0.19,
@@ -12115,7 +12127,7 @@
     {
       "ticker": "ILMN",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:04:45.266667-07:00",
+      "updated": "2026-09-14T00:31:08.043420-07:00",
       "price": 206.45,
       "prev_close": 201.27,
       "change_pct": 2.57,
@@ -12155,7 +12167,7 @@
     {
       "ticker": "BIIB",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:04:47.919158-07:00",
+      "updated": "2026-09-14T00:31:11.041081-07:00",
       "price": 217.15,
       "prev_close": 215.43,
       "change_pct": 0.8,
@@ -12195,7 +12207,7 @@
     {
       "ticker": "MRNA",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:04:50.568984-07:00",
+      "updated": "2026-09-14T00:31:14.013346-07:00",
       "price": 143.97,
       "prev_close": 136.62,
       "change_pct": 5.38,
@@ -12234,7 +12246,7 @@
     {
       "ticker": "ZM",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:04:53.281616-07:00",
+      "updated": "2026-09-14T00:31:17.166127-07:00",
       "price": 95.57,
       "prev_close": 95.46,
       "change_pct": 0.12,
@@ -12274,7 +12286,7 @@
     {
       "ticker": "DOCU",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:04:55.942433-07:00",
+      "updated": "2026-09-14T00:31:20.153165-07:00",
       "price": 65.65,
       "prev_close": 65.8,
       "change_pct": -0.23,
@@ -12314,7 +12326,7 @@
     {
       "ticker": "KHC",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:04:58.582619-07:00",
+      "updated": "2026-09-14T00:31:23.158670-07:00",
       "price": 24.6,
       "prev_close": 24.39,
       "change_pct": 0.86,
@@ -12354,7 +12366,7 @@
     {
       "ticker": "LULU",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:05:01.255774-07:00",
+      "updated": "2026-09-14T00:31:26.132860-07:00",
       "price": 98.97,
       "prev_close": 96.88,
       "change_pct": 2.16,
@@ -12391,6 +12403,18 @@
       "revenue_growth": 1.74,
       "news": [
         {
+          "headline": "Groupe Dynamite: A Different Breed Of Apparel Retailer",
+          "url": "https://finnhub.io/api/news?id=da7e0955c6fd77267f1fabc217036365abcb35a1ff3291258e333bc11cf4e1aa",
+          "datetime": 1789304071,
+          "source": "SeekingAlpha"
+        },
+        {
+          "headline": "Is Lululemon Nearing Its Bottom?",
+          "url": "https://finnhub.io/api/news?id=133c61ef859ce787e550a88e6c04c036359644813a312711c73a08deca74dd4b",
+          "datetime": 1789291380,
+          "source": "Yahoo"
+        },
+        {
           "headline": "Lululemon\u2019s (LULU) Brand Problems Force Another Steep Guidance Downgrade",
           "url": "https://finnhub.io/api/news?id=c3592b81b12e9b93cb15e4a6c065bc4c11768957e0d2efd7e549472dee9124d5",
           "datetime": 1789229787,
@@ -12403,22 +12427,10 @@
           "source": "Yahoo"
         },
         {
-          "headline": "Jim Cramer Notes lululemon (LULU) is \u201cExecuting Really Poorly\u201d",
-          "url": "https://finnhub.io/api/news?id=ad3af888e8563e084be447d239c058a444aae0539fbbfb9d037f026584678555",
-          "datetime": 1789209992,
+          "headline": "Is Nike's Index Demotion a Warning or a Buying Opportunity?",
+          "url": "https://finnhub.io/api/news?id=bfeda29464e177f5969e5f176927b53ffbcce816f941c03e7deadb9036713f72",
+          "datetime": 1789217700,
           "source": "Yahoo"
-        },
-        {
-          "headline": "Michael Burry calls Lululemon \u2018the trickster\u2019 in his portfolio \u2014 why it\u2019s now his biggest position",
-          "url": "https://finnhub.io/api/news?id=43bb79c0de651ae682896667c4ad94ff513eebcd7d4a511b61e01d79007b23bc",
-          "datetime": 1789208100,
-          "source": "Yahoo"
-        },
-        {
-          "headline": "What Moved Markets This Week",
-          "url": "https://finnhub.io/api/news?id=9c18ba044294b7bd21cd518eba5081d00a6899203ebad9c26c02f25f5829c2c1",
-          "datetime": 1789200938,
-          "source": "SeekingAlpha"
         }
       ],
       "watchlists": []
@@ -12426,7 +12438,7 @@
     {
       "ticker": "ABNB",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:05:04.753055-07:00",
+      "updated": "2026-09-14T00:31:30.024001-07:00",
       "price": 170.19,
       "prev_close": 167.65,
       "change_pct": 1.52,
@@ -12466,7 +12478,7 @@
     {
       "ticker": "BKNG",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:05:07.399368-07:00",
+      "updated": "2026-09-14T00:31:32.901940-07:00",
       "price": 173.92,
       "prev_close": 174.33,
       "change_pct": -0.24,
@@ -12503,33 +12515,33 @@
       "revenue_growth": 12.85,
       "news": [
         {
-          "headline": "Booking Sees Resilient Travel Demand, Touts AI-Powered Connected Trip Growth",
-          "url": "https://finnhub.io/api/news?id=20af52d134be498437f054eadc237783a0b0b96a13813cace346c7809d9dd148",
-          "datetime": 1789275722,
+          "headline": "Agoda Astrological Travel Guide: Hidden Gems in Asia for Every Star Sign",
+          "url": "https://finnhub.io/api/news?id=f8c1e5d0bab352286730c313c5b5278d9a5f09fe9d376b9fccba6d0f0e12b990",
+          "datetime": 1789351560,
           "source": "Yahoo"
         },
         {
-          "headline": "Expedia Vs. Booking: Choosing The Better Travel Stock",
-          "url": "https://finnhub.io/api/news?id=7178df176493d9131f73b7ba7b2de1b7954e26ca35e5dc66b343d538568c8c02",
-          "datetime": 1789153935,
+          "headline": "Stocks Rallied Facing A Fed Hike Decision, Here's What It Means",
+          "url": "https://finnhub.io/api/news?id=56b7cae80a6e43485caa5d087f3e9126d1bdc70b562930463d80ffb4fb3c8492",
+          "datetime": 1789333043,
           "source": "SeekingAlpha"
         },
         {
-          "headline": "After a Long Year, Malaysians Are Looking for More Ways to Get Away, Agoda Finds",
-          "url": "https://finnhub.io/api/news?id=0e8a08a62b12d2b3ebf9adf1fd6bbd38b401efaca4f30e5e919dc70e7437a469",
-          "datetime": 1789093620,
+          "headline": "Airbnb\u2019s CEO Says AI Is the Best Thing That Ever Happened to His Company. Here\u2019s Why",
+          "url": "https://finnhub.io/api/news?id=81324a4cf5a3fd5ed4e1cc2a5a4cb7a1c042eaa1a3ecdc4678e5c833b8f470d8",
+          "datetime": 1789328429,
           "source": "Yahoo"
         },
         {
-          "headline": "Plunging Retail and Travel Stocks Could Signal Trouble Ahead for the Economy",
-          "url": "https://finnhub.io/api/news?id=05bfe3151f8ef4ea87d71e86fee570644855a89cb7b24891a772bbf10724011f",
-          "datetime": 1789072440,
-          "source": "Yahoo"
+          "headline": "Trip.com Q2 Earnings Preview: Regulatory Penalty Creates A Buying Opportunity (Upgrade)",
+          "url": "https://finnhub.io/api/news?id=eeba33e4e2c0a8767be5c4ca75c953fa761867bab8e8281f1070abd7927403af",
+          "datetime": 1789287900,
+          "source": "SeekingAlpha"
         },
         {
-          "headline": "Agoda Partners Kaohsiung City Government to Support Global Tourism Recognition",
-          "url": "https://finnhub.io/api/news?id=5ffbc9f731e30c7cde7d871f4020a614c56296e9399a0a47a301b62aacb64c79",
-          "datetime": 1789027200,
+          "headline": "Booking CEO Details AI-Powered Connected Trip Strategy at Global TMT Conference",
+          "url": "https://finnhub.io/api/news?id=18344f1b1ea295790aad1cd282a1e49c9c995fe6d22662cce86bde62e01087d8",
+          "datetime": 1789286519,
           "source": "Yahoo"
         }
       ],
@@ -12538,7 +12550,7 @@
     {
       "ticker": "EXPE",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:05:10.939571-07:00",
+      "updated": "2026-09-14T00:31:36.919789-07:00",
       "price": 280.83,
       "prev_close": 276.88,
       "change_pct": 1.43,
@@ -12578,7 +12590,7 @@
     {
       "ticker": "MCHP",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:05:13.625003-07:00",
+      "updated": "2026-09-14T00:31:40.231325-07:00",
       "price": 74.2,
       "prev_close": 71.58,
       "change_pct": 3.66,
@@ -12618,7 +12630,7 @@
     {
       "ticker": "ADI",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:05:16.304697-07:00",
+      "updated": "2026-09-14T00:31:43.252337-07:00",
       "price": 378.78,
       "prev_close": 361.25,
       "change_pct": 4.85,
@@ -12658,7 +12670,7 @@
     {
       "ticker": "NXPI",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:05:18.997048-07:00",
+      "updated": "2026-09-14T00:31:46.261300-07:00",
       "price": 236.62,
       "prev_close": 226.465,
       "change_pct": 4.48,
@@ -12698,7 +12710,7 @@
     {
       "ticker": "ON",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:05:21.651936-07:00",
+      "updated": "2026-09-14T00:31:49.267145-07:00",
       "price": 76.14,
       "prev_close": 70.17,
       "change_pct": 8.51,
@@ -12738,7 +12750,7 @@
     {
       "ticker": "MPWR",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:05:24.290113-07:00",
+      "updated": "2026-09-14T00:31:52.231310-07:00",
       "price": 1234.46,
       "prev_close": 1186.08,
       "change_pct": 4.08,
@@ -12778,7 +12790,7 @@
     {
       "ticker": "ENPH",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:05:27.040612-07:00",
+      "updated": "2026-09-14T00:31:55.289423-07:00",
       "price": 36.35,
       "prev_close": 36.86,
       "change_pct": -1.38,
@@ -12850,7 +12862,7 @@
     {
       "ticker": "FSLR",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:05:30.536553-07:00",
+      "updated": "2026-09-14T00:31:59.203170-07:00",
       "price": 209.03,
       "prev_close": 207.17,
       "change_pct": 0.9,
@@ -12890,7 +12902,7 @@
     {
       "ticker": "PDD",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:05:33.195964-07:00",
+      "updated": "2026-09-14T00:32:02.199424-07:00",
       "price": 77.81,
       "prev_close": 77.84,
       "change_pct": -0.04,
@@ -12944,7 +12956,7 @@
     {
       "ticker": "JD",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:05:36.747299-07:00",
+      "updated": "2026-09-14T00:32:06.021548-07:00",
       "price": 27.06,
       "prev_close": 27.02,
       "change_pct": 0.15,
@@ -12981,6 +12993,12 @@
       "revenue_growth": 10.32,
       "news": [
         {
+          "headline": "JD.com\u2019s 7Fresh Kitchen: \u201cChef Transformer\u201d is coming\uff01",
+          "url": "https://finnhub.io/api/news?id=ab42892ca0722d7c42e955efad45d07d40e2ccf8621aeac6082fb5281618b546",
+          "datetime": 1789276440,
+          "source": "Yahoo"
+        },
+        {
           "headline": "JD.com\u2019s Ceconomy deal concessions face pushback from rivals \u2013 report",
           "url": "https://finnhub.io/api/news?id=609909ba430e69ac7470d814fb4825271e8db5aedd4ad0dd54aa3dbbba7fdb3b",
           "datetime": 1789117696,
@@ -13004,7 +13022,7 @@
     {
       "ticker": "BIDU",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:05:40.272595-07:00",
+      "updated": "2026-09-14T00:32:09.839196-07:00",
       "price": 91.4,
       "prev_close": 90.59,
       "change_pct": 0.89,
@@ -13044,7 +13062,7 @@
     {
       "ticker": "TOELF",
       "sector": "Watchlist",
-      "updated": "2026-09-13T00:05:42.909235-07:00",
+      "updated": "2026-09-14T00:32:12.825733-07:00",
       "price": 345,
       "prev_close": 341.34,
       "change_pct": 1.07,
@@ -13076,7 +13094,7 @@
       "market_cap": 24005090,
       "pe_ratio": 38.6559,
       "eps_ttm": 1355.3532,
-      "beta": 1.3501855,
+      "beta": 1.3738164,
       "dividend_yield": 1.1315,
       "revenue_growth": 8.25,
       "news": [
@@ -13095,7 +13113,7 @@
     {
       "ticker": "BOTZ",
       "sector": "Watchlist",
-      "updated": "2026-09-13T00:05:51.136251-07:00",
+      "updated": "2026-09-14T00:32:21.532355-07:00",
       "price": 35.28,
       "prev_close": 34.76,
       "change_pct": 1.5,
@@ -13155,7 +13173,7 @@
     {
       "ticker": "OII",
       "sector": "Watchlist",
-      "updated": "2026-09-13T00:05:54.647446-07:00",
+      "updated": "2026-09-14T00:32:25.455494-07:00",
       "price": 51.09,
       "prev_close": 50.57,
       "change_pct": 1.03,
@@ -13281,16 +13299,9 @@
           "datetime": 1789132446,
           "source": "CNBC",
           "summary": "Stocks are still looking at a higher open after consumer inflation, excluding food and energy prices, came in hotter than expected."
-        },
-        {
-          "headline": "COMMENTARY: Energy Watch: Flying blind - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOT3lzMGdiMWlXMW1wcXpnQVFTay1lZ1M3VDEwLW1HcWVXWTNoYUJLLUh3WXd3RVowT2s1MnRQcDY2UTFUMXJaTURUcVJwTDF6Z01aODdheFNwaGNuWHBhMUhsYWFCS0dfSE9FQlRFTmtqbVVJR3dVcWVHc3hmMy14WjRQYm54Nmg1bk04VEsySjd5eHNPMDQ1OXdR?oc=5",
-          "datetime": 1789056000,
-          "source": "Reuters",
-          "summary": "COMMENTARY: Energy Watch: Flying blind\u00a0\u00a0Reuters"
         }
       ],
-      "news_count": 5
+      "news_count": 4
     },
     {
       "sector": "Robotics",
@@ -13327,6 +13338,20 @@
       "momentum_score": 56.3,
       "bottlenecks": [],
       "news": [
+        {
+          "headline": "COMMENTARY: Oil markets survived the Iran war sprint. Now comes the marathon - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYkNyZjhwWkFHcjR0aVV2b3lPNFROSy0tNDZBQVJpWE9JelJyVWhtNFJjWlY3OW56NmdXY2s3Q0luV1h1cGZnRXJiM0VzMWxqVDFROENnOEFFMHpPN2VfWXJYTjZ3TW1EWlZLdU16clZBN28wVlI4SXJYeWR1U3kzZlAyempIWXVhaC1LdWNKbVo3QS1YMjZucjZnd3FTdnNaWmpNd2phODkxTlFwcng2aWo3WjZhdUdCOXZBejRyaW5kdw?oc=5",
+          "datetime": 1789344060,
+          "source": "Reuters",
+          "summary": "COMMENTARY: Oil markets survived the Iran war sprint. Now comes the marathon\u00a0\u00a0Reuters"
+        },
+        {
+          "headline": "Here are the 2 big things we're watching in this week's stock market",
+          "url": "https://www.cnbc.com/2026/09/13/here-are-the-2-big-things-were-watching-in-this-weeks-stock-market.html",
+          "datetime": 1789318663,
+          "source": "CNBC",
+          "summary": "We're looking forward to what promises to be a consequential Federal Reserve meeting and a slew of conferences."
+        },
         {
           "headline": "Indian stock markets are losing their sheen as global funds exit. Here\u2019s why",
           "url": "https://www.bloomberg.com/news/articles/2026-09-12/global-funds-sour-on-india-stocks-as-some-cut-allocation-to-zero",
@@ -13368,20 +13393,6 @@
           "datetime": 1789135014,
           "source": "CNBC",
           "summary": "Situational Awareness has been buying options positions in stocks including Advanced Micro Devices, Bloom Energy and Coreweave, sources told CNBC's David Faber."
-        },
-        {
-          "headline": "Jim Cramer's top 10 things to watch in the stock market Friday",
-          "url": "https://www.cnbc.com/2026/09/11/jim-cramers-top-10-things-to-watch-in-the-stock-market-friday.html",
-          "datetime": 1789132446,
-          "source": "CNBC",
-          "summary": "Stocks are still looking at a higher open after consumer inflation, excluding food and energy prices, came in hotter than expected."
-        },
-        {
-          "headline": "India stocks log fifth weekly loss as oil fears grip markets - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMEI5a2VhM0MzYVlMTWQwRWRxeWI2TjlIbkVLX0NteDdFbmg0c2JhRjl5dHczYzRySnF0Y0MwNzlhcnJSOFNpaHJORVROU2EtTGUyN21weTJvbzBqV3k2NFlLOHp0MTNuNDdTMjd6RU9OQVc5MXk2RUlWUldVSDZ4VVk1UXRkQTlhTWtNQWNpQnpGQkd5cXpUQU5mejZPTTNnYUVpNWd5RFc?oc=5",
-          "datetime": 1789123037,
-          "source": "Reuters",
-          "summary": "India stocks log fifth weekly loss as oil fears grip markets\u00a0\u00a0Reuters"
         }
       ],
       "news_count": 8
@@ -13538,11 +13549,39 @@
       "bottlenecks": [],
       "news": [
         {
-          "headline": "New report of attack on Strait of Hormuz shipping fans fears of threats to oil supplies - Reuters",
+          "headline": "COMMENTARY: Oil markets survived the Iran war sprint. Now comes the marathon - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYkNyZjhwWkFHcjR0aVV2b3lPNFROSy0tNDZBQVJpWE9JelJyVWhtNFJjWlY3OW56NmdXY2s3Q0luV1h1cGZnRXJiM0VzMWxqVDFROENnOEFFMHpPN2VfWXJYTjZ3TW1EWlZLdU16clZBN28wVlI4SXJYeWR1U3kzZlAyempIWXVhaC1LdWNKbVo3QS1YMjZucjZnd3FTdnNaWmpNd2phODkxTlFwcng2aWo3WjZhdUdCOXZBejRyaW5kdw?oc=5",
+          "datetime": 1789344060,
+          "source": "Reuters",
+          "summary": "COMMENTARY: Oil markets survived the Iran war sprint. Now comes the marathon\u00a0\u00a0Reuters"
+        },
+        {
+          "headline": "Oil prices up over 3% following new strikes on Saudi, Strait of Hormuz - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcXNvWlpHUEh2bzNITUYtX04zUG1vclFCeDZ1NVdQTkNXUk5OTmRESElsUXUyQjNsYVU1d2tEMFlNRjB1VXVnenR4UHZzd3F3dEZWR2tWSVZMREFiZXF6NjR5SlB5VmdaNXpTWHQ3UF9POFRGanpoR0NxZUV3ZUU4alAycW9mcGdLak5lQ2NXdlpHQ3I3eDVRM3JDWmI3SGdYUjZsbnJSaUVySHk3UFl4Y3AxVGFZbmg5?oc=5",
+          "datetime": 1789338180,
+          "source": "Reuters",
+          "summary": "Oil prices up over 3% following new strikes on Saudi, Strait of Hormuz\u00a0\u00a0Reuters"
+        },
+        {
+          "headline": "Trump says US could stay in Iran and keep oil, like Venezuela deal - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc3NKNXdjMkx2Q2ZXOWVWU25Oa1hXRGFZcWJLRktNQWdoclBWVEJQdXhLMS1ZQV9TWHhmNlZSMTlIVXlSZWlWRGdrWXN2a2gxNzZiOWJlTUtVd2xIbW5tb0pJVVNGNFdmNWdEZktuV0JuT3pmaUF3VHYtZXotVklQWGt2YlEzN2Uwa21ac1I1bjlHRi1iM1VpMF90bFhJZk5wNl9aaG9rVmNsVkpUUUdF?oc=5",
+          "datetime": 1789312260,
+          "source": "Reuters",
+          "summary": "Trump says US could stay in Iran and keep oil, like Venezuela deal\u00a0\u00a0Reuters"
+        },
+        {
+          "headline": "New attacks in Hormuz and Saudi test nerves as war's spread worsens oil disruption - Reuters",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUGctZFpGTW5Zd0h2OFl3V0FMR3o0MHVxNW5uSmN6cHpfNWRYRS1Sd0dibnUwUDRCY3VHejJlbUdNVkx6VmN3WTJQVGYtRjRHX1dWQllyQWl3TzEyWWoxY0JRaU45U0RMUTd0SHBvYmRLZmN4bjl3VF82emtKY1JiQzlsN3NqLThWcDk0UEdmaTlHWjJWd0k1b1VtVmVVUFpSZnFhSEZPUk9oeFlTeU5ZcTJKUlJUZjd6d3d2QWJiYmR2UQ?oc=5",
           "datetime": 1789266120,
           "source": "Reuters",
-          "summary": "New report of attack on Strait of Hormuz shipping fans fears of threats to oil supplies\u00a0\u00a0Reuters"
+          "summary": "New attacks in Hormuz and Saudi test nerves as war's spread worsens oil disruption\u00a0\u00a0Reuters"
+        },
+        {
+          "headline": "Saudis shut down oil pipeline as Houthis tighten grip on Red Sea shipping - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQczRVMDVmcFFkMWs3TDRSemk1SnA1SW1NSTRmaGU3VXRmbDlvUnlGTll6VHRRYWxjOTl1N3QzcFhIYWs5RjJaRGRmclRQYmpLdW8tNHNXWExZTnpmSklXaFU4YWJvOC1EcEpvcDdQVnpfWnBYT3l6X1pCRW9Bc19YQzNmYnFrbHBNQXd4aE1nVkpKWktoTjFoM2dSa1BGMnlSb3dVMnJhOFVTRHRrXzlHSFVXTDFvZVNzQ19r?oc=5",
+          "datetime": 1789233476,
+          "source": "Reuters",
+          "summary": "Saudis shut down oil pipeline as Houthis tighten grip on Red Sea shipping\u00a0\u00a0Reuters"
         },
         {
           "headline": "Oil's roundtrip back to $100. Why China could determine what happens next",
@@ -13552,13 +13591,6 @@
           "summary": "The U.S. crude oil price on Thursday topped $102 per barrel for its highest close since May."
         },
         {
-          "headline": "Saudis shut down oil pipeline as Houthis tighten grip on Red Sea shipping - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQczRVMDVmcFFkMWs3TDRSemk1SnA1SW1NSTRmaGU3VXRmbDlvUnlGTll6VHRRYWxjOTl1N3QzcFhIYWs5RjJaRGRmclRQYmpLdW8tNHNXWExZTnpmSklXaFU4YWJvOC1EcEpvcDdQVnpfWnBYT3l6X1pCRW9Bc19YQzNmYnFrbHBNQXd4aE1nVkpKWktoTjFoM2dSa1BGMnlSb3dVMnJhOFVTRHRrXzlHSFVXTDFvZVNzQ19r?oc=5",
-          "datetime": 1789174500,
-          "source": "Reuters",
-          "summary": "Saudis shut down oil pipeline as Houthis tighten grip on Red Sea shipping\u00a0\u00a0Reuters"
-        },
-        {
           "headline": "Gulf oil threatened anew as Houthis reach key island and pipeline is shut down - Reuters",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUk9oUjNYejhGeW1YblJUVWdfQ0JaZU52dHNPZUZVdnpMSkxYS3pKTWhLdjU0REdNUGdubUhnRl9KUXZabHRfbEQyOUJZeXUxQzZfcGFlbFV5V1BlSTVmRkhzdGJaNkpQa3p3OG9LZUt3Q3VXYkdrc2ZRWW9fcWQ4TkYxNFgxNFI0dlhIV0UyUU5Dbk44blJMempZVFVqVm5XbUlfV2dqSlN3YXBNUDlUQmVxS3JQMUxQ?oc=5",
           "datetime": 1789162135,
@@ -13566,32 +13598,11 @@
           "summary": "Gulf oil threatened anew as Houthis reach key island and pipeline is shut down\u00a0\u00a0Reuters"
         },
         {
-          "headline": "Oil falls but head for 8% weekly gain on tight supply; US diesel hits record - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORWZtMHZyX3Z0UkY2T285M3E2bElVVXRpdVhIVnZLQ1N4UjhKMTQ0UmZLWDlrQmRlcHFtZkN1SUcxSmNvVWhyelh4ZUhpZER2N2N5REE2aFR6Nm52YWRKY0xQRk16cE0tMFpRdkNjQm5YTDZ2RWFhcld2aWVHWUJMcFdncU1FUWVNNTgtX2VKcmpfZUNWZE1LenhwWDlGQmxreVF3Zjk4WlJ0N3hqODIxSQ?oc=5",
-          "datetime": 1789156334,
-          "source": "Reuters",
-          "summary": "Oil falls but head for 8% weekly gain on tight supply; US diesel hits record\u00a0\u00a0Reuters"
-        },
-        {
           "headline": "Why this industrial gas giant deserves its premium valuation (and should be owned)",
           "url": "https://www.cnbc.com/2026/09/11/why-this-stock-deserves-its-premium-valuation-and-should-be-owned.html",
           "datetime": 1789151188,
           "source": "CNBC",
           "summary": "Every weekday, the Investing Club releases the Homestretch, an actionable afternoon update just in time for the last hour of trading."
-        },
-        {
-          "headline": "The inside story on the historic U.S.-Venezuela oil deal and how it will work",
-          "url": "https://www.cnbc.com/2026/09/11/the-inside-story-on-the-historic-us-venezuela-oil-deal-and-how-it-will-work.html",
-          "datetime": 1789143786,
-          "source": "CNBC",
-          "summary": "CNBC was one of just a handful of news organizations allowed to travel to Caracas with the U.S. secretary of energy."
-        },
-        {
-          "headline": "QatarEnergy seeks US LNG deals through to 2031, sources say - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOamNKczJ6ZUdjUjBKNHBRbDRfNHo2cnFFR2NvU0tVU3B4VTh5X2tCQW9DRG1EdVFKeXJXeEM4ZTF4SmkzdU10Qm15dVFXYmFKSEFGSFhEemd2RWZsOHhZSlpzLWdKUDl3eU1fSFEwT2FIcmZVczR3c19sRjhSRFhjS0xJcmxacTdqWVlaS0dtSEJuaU8yRkx2U1BYTE8tZlZ6bUppZFRzZmxJd0k?oc=5",
-          "datetime": 1789142324,
-          "source": "Reuters",
-          "summary": "QatarEnergy seeks US LNG deals through to 2031, sources say\u00a0\u00a0Reuters"
         }
       ],
       "news_count": 8
@@ -13602,7 +13613,7 @@
     {
       "ticker": "LII",
       "sector": "Homebuilders",
-      "updated": "2026-09-12T23:55:02.728899-07:00",
+      "updated": "2026-09-14T00:20:08.351215-07:00",
       "price": 366.04,
       "prev_close": 372.62,
       "change_pct": -1.77,
@@ -13662,7 +13673,7 @@
     {
       "ticker": "OKLO",
       "sector": "Nuclear Energy",
-      "updated": "2026-09-12T23:55:52.537534-07:00",
+      "updated": "2026-09-14T00:21:04.561427-07:00",
       "price": 36.22,
       "prev_close": 39.88,
       "change_pct": -9.18,
@@ -13698,6 +13709,12 @@
       "revenue_growth": null,
       "news": [
         {
+          "headline": "Oklo vs. NuScale vs. TMC: 3 Speculative Bets, Ranked By Which One Pays Off First.",
+          "url": "https://finnhub.io/api/news?id=a6efbf43a998b349a9dc5feccf1430ac84df70c24346b2b09e72f03e8fdeff48",
+          "datetime": 1789306500,
+          "source": "Yahoo"
+        },
+        {
           "headline": "NuScale Power Stock Jumps 15% in 1 Day. Here's How Nuclear Energy Investors Should Respond.",
           "url": "https://finnhub.io/api/news?id=70892c751a33ab684aff24f51726faba9956edadf4641e6b146f221b03e26c7c",
           "datetime": 1789226100,
@@ -13720,12 +13737,6 @@
           "url": "https://finnhub.io/api/news?id=adcd88fc7ad7a2f3b2a3e669d3196755f457c0706b9a251c1407bf7dbd95199d",
           "datetime": 1789149901,
           "source": "Yahoo"
-        },
-        {
-          "headline": "Oklo shares slide after company launches new $1B stock offering",
-          "url": "https://finnhub.io/api/news?id=2adc1a68dba11889b6a72e2b7c97a554248a59ec9d08ef95c2c8e5cfa13e82e4",
-          "datetime": 1789139520,
-          "source": "Yahoo"
         }
       ],
       "watchlists": []
@@ -13733,7 +13744,7 @@
     {
       "ticker": "MCD",
       "sector": "S&P500 Core",
-      "updated": "2026-09-12T23:59:23.900083-07:00",
+      "updated": "2026-09-14T00:25:04.694822-07:00",
       "price": 252.53,
       "prev_close": 253.05,
       "change_pct": -0.21,
@@ -13770,6 +13781,24 @@
       "revenue_growth": 6.3,
       "news": [
         {
+          "headline": "Why Did OPEN, OKLO, MCD Stocks Plunge To 52-Week Lows?",
+          "url": "https://finnhub.io/api/news?id=77dd03ab7366778300da2ae412f420027855bcee99ac926a8e00148308af66fb",
+          "datetime": 1789355033,
+          "source": "Yahoo"
+        },
+        {
+          "headline": "Jim Cramer Says a 25% Surtax Just Got Added to Everything You Buy. Congress Never Voted on It.",
+          "url": "https://finnhub.io/api/news?id=db352a739b6e1518beb8e48c8f02d72fb8eb9ed8feac5137294298af89d4f609",
+          "datetime": 1789329618,
+          "source": "Yahoo"
+        },
+        {
+          "headline": "McDonald's Yields 3%, the Highest in Over 6 Years. Is the Dow Dividend Stock a Value Trap or Too Cheap to Ignore?",
+          "url": "https://finnhub.io/api/news?id=cb1e3ba6e35c6311b36a7e1cdcec462809e7f6101cec186f6ae7e1d127be0062",
+          "datetime": 1789322580,
+          "source": "Yahoo"
+        },
+        {
           "headline": "McDonald's: At 52-Week Lows, But I'm Still Not Interested",
           "url": "https://finnhub.io/api/news?id=fb3e999f30d1f88b2e8f0810a1f0e314df066506967070b963d163b9abd4a54c",
           "datetime": 1789257400,
@@ -13780,24 +13809,6 @@
           "url": "https://finnhub.io/api/news?id=9bd0405c5e229357dabe6f64392d4b7a674c7a359391941c81bf5bc6d4a16fb8",
           "datetime": 1789254806,
           "source": "SeekingAlpha"
-        },
-        {
-          "headline": "Prediction: This High-Yield Dow Dividend Stock Will Become a Dividend King Before the End of the Year.",
-          "url": "https://finnhub.io/api/news?id=118f95b488452b6377f2916079b2fa5d5aa36e1851abc142fd08a5f81a265811",
-          "datetime": 1789227300,
-          "source": "Yahoo"
-        },
-        {
-          "headline": "Starbucks CEO: \u201cThe Shine Is Back.\u201d Should You Buy After the Stock\u2019s 30% Jump?",
-          "url": "https://finnhub.io/api/news?id=3342eb58f063e0471d2f70a7269dc59afb5133efa36b0a2e0bf8ab85be139d71",
-          "datetime": 1789222510,
-          "source": "Yahoo"
-        },
-        {
-          "headline": "McDonald's: Finally Lovin' It (Rating Upgrade)",
-          "url": "https://finnhub.io/api/news?id=11c8d5b6c4801f09fb4c9435db51cca1b1a9ca1ef8c0e6cf6ee4783b04358ed4",
-          "datetime": 1789210560,
-          "source": "SeekingAlpha"
         }
       ],
       "watchlists": []
@@ -13805,7 +13816,7 @@
     {
       "ticker": "AON",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:01:25.855140-07:00",
+      "updated": "2026-09-14T00:27:22.823742-07:00",
       "price": 302.69,
       "prev_close": 307.77,
       "change_pct": -1.65,
@@ -13877,7 +13888,7 @@
     {
       "ticker": "LOW",
       "sector": "Homebuilders",
-      "updated": "2026-09-12T23:55:08.991349-07:00",
+      "updated": "2026-09-14T00:20:15.406016-07:00",
       "price": 196.82,
       "prev_close": 196.59,
       "change_pct": 0.12,
@@ -13914,6 +13925,12 @@
       "revenue_growth": 8.16,
       "news": [
         {
+          "headline": "Five Dividend Stocks Crushing Inflation With Consistent Dividend Payout Growth",
+          "url": "https://finnhub.io/api/news?id=5fe2e567a19ae28f78e3c41199be697e0b46c06b60262fa9680f7c0b49b25ff3",
+          "datetime": 1789313195,
+          "source": "Yahoo"
+        },
+        {
           "headline": "The Closest Thing to Set-It-and-Forget-It Income: 5 Dividend Kings for Retirees Who Want Peace of Mind",
           "url": "https://finnhub.io/api/news?id=10017d38eb1e1440de117405860b44bc6ab7a8abb058a07ce0f2b7fe8598c924",
           "datetime": 1789224625,
@@ -13936,12 +13953,6 @@
           "url": "https://finnhub.io/api/news?id=d5d0338a831b5b1caa33b0ad45d45d82c1e8a492ec5ef0bb68bdba4d5b611608",
           "datetime": 1789068565,
           "source": "Yahoo"
-        },
-        {
-          "headline": "5 Stocks That Keep Raising Their Dividend Regardless Of The Market",
-          "url": "https://finnhub.io/api/news?id=7db3baa9e1a64f58224c7f38ec429edbe712e084cc253c581473a3c6fc14a24f",
-          "datetime": 1789059599,
-          "source": "Yahoo"
         }
       ],
       "watchlists": []
@@ -13949,7 +13960,7 @@
     {
       "ticker": "NKE",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:03:48.008316-07:00",
+      "updated": "2026-09-14T00:30:03.003873-07:00",
       "price": 36.8,
       "prev_close": 36.62,
       "change_pct": 0.49,
@@ -13989,7 +14000,7 @@
     {
       "ticker": "BSX",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:01:32.214716-07:00",
+      "updated": "2026-09-14T00:27:29.920826-07:00",
       "price": 42.98,
       "prev_close": 43.1,
       "change_pct": -0.28,
@@ -14026,6 +14037,12 @@
       "revenue_growth": 13.53,
       "news": [
         {
+          "headline": "Boston Scientific (BSX) Didn\u2019t Miss on Demand or Devices. A Cyberattack Just Broke Its Guidance.",
+          "url": "https://finnhub.io/api/news?id=c8c61cde401802c74fc1ffad2b1ab07359e189c3a2c4e85551fc04be9ef2d453",
+          "datetime": 1789327871,
+          "source": "Yahoo"
+        },
+        {
           "headline": "Is This BSX Stock Pullback Worth The Patience?",
           "url": "https://finnhub.io/api/news?id=52dcb991320eb9f86646423e59e8a9e76dd0d08c29cfb3f8b8de0fbf688cb333",
           "datetime": 1789152632,
@@ -14048,12 +14065,6 @@
           "url": "https://finnhub.io/api/news?id=8487cdc595b23baf9231030f412db6f9f197b2603e410c71f10918068e2bac4c",
           "datetime": 1789124256,
           "source": "SeekingAlpha"
-        },
-        {
-          "headline": "Why Boston Scientific (BSX) Dipped More Than Broader Market Today",
-          "url": "https://finnhub.io/api/news?id=dfa5079fce0ec9563cc45107f80904136c80d2ce1641208fd37faf3f76361eb3",
-          "datetime": 1789077603,
-          "source": "Yahoo"
         }
       ],
       "watchlists": []
@@ -14061,7 +14072,7 @@
     {
       "ticker": "SYK",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:00:30.875571-07:00",
+      "updated": "2026-09-14T00:26:20.654914-07:00",
       "price": 275.56,
       "prev_close": 270.01,
       "change_pct": 2.06,
@@ -14133,7 +14144,7 @@
     {
       "ticker": "LULU",
       "sector": "Nasdaq100 Core",
-      "updated": "2026-09-13T00:05:01.255774-07:00",
+      "updated": "2026-09-14T00:31:26.132860-07:00",
       "price": 98.97,
       "prev_close": 96.88,
       "change_pct": 2.16,
@@ -14170,6 +14181,18 @@
       "revenue_growth": 1.74,
       "news": [
         {
+          "headline": "Groupe Dynamite: A Different Breed Of Apparel Retailer",
+          "url": "https://finnhub.io/api/news?id=da7e0955c6fd77267f1fabc217036365abcb35a1ff3291258e333bc11cf4e1aa",
+          "datetime": 1789304071,
+          "source": "SeekingAlpha"
+        },
+        {
+          "headline": "Is Lululemon Nearing Its Bottom?",
+          "url": "https://finnhub.io/api/news?id=133c61ef859ce787e550a88e6c04c036359644813a312711c73a08deca74dd4b",
+          "datetime": 1789291380,
+          "source": "Yahoo"
+        },
+        {
           "headline": "Lululemon\u2019s (LULU) Brand Problems Force Another Steep Guidance Downgrade",
           "url": "https://finnhub.io/api/news?id=c3592b81b12e9b93cb15e4a6c065bc4c11768957e0d2efd7e549472dee9124d5",
           "datetime": 1789229787,
@@ -14182,22 +14205,10 @@
           "source": "Yahoo"
         },
         {
-          "headline": "Jim Cramer Notes lululemon (LULU) is \u201cExecuting Really Poorly\u201d",
-          "url": "https://finnhub.io/api/news?id=ad3af888e8563e084be447d239c058a444aae0539fbbfb9d037f026584678555",
-          "datetime": 1789209992,
+          "headline": "Is Nike's Index Demotion a Warning or a Buying Opportunity?",
+          "url": "https://finnhub.io/api/news?id=bfeda29464e177f5969e5f176927b53ffbcce816f941c03e7deadb9036713f72",
+          "datetime": 1789217700,
           "source": "Yahoo"
-        },
-        {
-          "headline": "Michael Burry calls Lululemon \u2018the trickster\u2019 in his portfolio \u2014 why it\u2019s now his biggest position",
-          "url": "https://finnhub.io/api/news?id=43bb79c0de651ae682896667c4ad94ff513eebcd7d4a511b61e01d79007b23bc",
-          "datetime": 1789208100,
-          "source": "Yahoo"
-        },
-        {
-          "headline": "What Moved Markets This Week",
-          "url": "https://finnhub.io/api/news?id=9c18ba044294b7bd21cd518eba5081d00a6899203ebad9c26c02f25f5829c2c1",
-          "datetime": 1789200938,
-          "source": "SeekingAlpha"
         }
       ],
       "watchlists": []
@@ -14205,7 +14216,7 @@
     {
       "ticker": "LEN",
       "sector": "Homebuilders",
-      "updated": "2026-09-12T23:54:27.788353-07:00",
+      "updated": "2026-09-14T00:19:29.077610-07:00",
       "price": 79.6,
       "prev_close": 77.9,
       "change_pct": 2.18,
@@ -14245,7 +14256,7 @@
     {
       "ticker": "ZTS",
       "sector": "S&P500 Core",
-      "updated": "2026-09-13T00:00:42.410940-07:00",
+      "updated": "2026-09-14T00:26:33.702324-07:00",
       "price": 72.97,
       "prev_close": 72.86,
       "change_pct": 0.15,
@@ -14285,7 +14296,7 @@
     {
       "ticker": "BLDR",
       "sector": "Homebuilders",
-      "updated": "2026-09-12T23:54:45.701908-07:00",
+      "updated": "2026-09-14T00:19:49.197049-07:00",
       "price": 60.37,
       "prev_close": 58.97,
       "change_pct": 2.37,
@@ -14325,7 +14336,7 @@
     {
       "ticker": "SERV",
       "sector": "Robotics",
-      "updated": "2026-09-12T23:54:06.196592-07:00",
+      "updated": "2026-09-14T00:19:05.107195-07:00",
       "price": 4.48,
       "prev_close": 4.42,
       "change_pct": 1.36,
@@ -14362,6 +14373,12 @@
       "revenue_growth": 649.54,
       "news": [
         {
+          "headline": "Wonder Deal, $240M Cash, and 31% Short Interest. A Short Squeeze Could Be Brewing in Serve Robotics Stock.",
+          "url": "https://finnhub.io/api/news?id=e4440ae84d32ae7024685e9dae6323527c3d501b9b1b46db86eb7ab9ec5e94a4",
+          "datetime": 1789324345,
+          "source": "Yahoo"
+        },
+        {
           "headline": "Can SERV's Revenue Diversification Offset Weaker Uber Deliveries?",
           "url": "https://finnhub.io/api/news?id=d03016874ea5eb894aae1ccf513844a92fc56f83dfb0b81a05ebe3f511c1eafe",
           "datetime": 1789130880,
@@ -14379,7 +14396,7 @@
     {
       "ticker": "LEU",
       "sector": "Nuclear Energy",
-      "updated": "2026-09-12T23:56:07.660035-07:00",
+      "updated": "2026-09-14T00:21:21.727486-07:00",
       "price": 152.31,
       "prev_close": 165.87,
       "change_pct": -8.18,

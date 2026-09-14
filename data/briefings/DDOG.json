@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-13T00:06:08.656054-07:00",
+  "generated_at": "2026-09-14T00:32:40.964711-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "French AI boom exposes Europe\u2019s funding gap as startups turn to U.S.",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=1f0038e2413775809c9e593e5c6fbf1d209c97ec31a47451f8e46b47e8e34f76",
+      "datetime": 1789294855,
+      "summary": "Investing.com -- France is producing a growing number of high-value artificial intelligence and technology companies, but their success is also highlighting Europe\u2019s shortage of late-stage capital compared with the U.S., according to Bloomberg."
+    },
+    {
+      "headline": "Datadog Conference: CEO Says AI and Enterprise Growth Are Accelerating",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=608e204dbed3f19078a432e81803dc21b2f7f93180838df51516c0127880138b",
+      "datetime": 1789290118,
+      "summary": "Datadog (NASDAQ:DDOG) CEO and Founder Olivier Pomel said the company is seeing accelerating growth across both AI-focused customers and its broader enterprise customer base as organizations expand cloud and artificial-intelligence deployments. Speaking with Citi enterprise software analyst Fatima B"
+    },
     {
       "headline": "Datadog Eyes AI-Powered Predictive Monitoring as Enterprise Cloud Demand Grows",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=68503ab9ce3779248dce4afedf0d5e24d5ff7decb58172c20547685fe0c7b117",
       "datetime": 1789141204,
       "summary": "Wedbush Sees Cybersecurity Winners Emerging as AI Transforms the Market"
-    },
-    {
-      "headline": "Wedbush Assumes Datadog at Outperform, Announces Price Target of $275",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=295c97a7771ea590e990072be00e50e356744a2f2467a865275004f850a6702a",
-      "datetime": 1789115427,
-      "summary": "Wedbush  analyst Steven Wahrhaftig   assumes Datadog (NASDAQ:DDOG) with a Outperform rating and announces Price Target of $275."
-    },
-    {
-      "headline": "Datadog, Inc. (DDOG) Presents at Goldman Sachs Communacopia + Technology Conference 2026 Transcript",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=9ef517a108b3877e1f2ffa1f630d32df5864fbfb2b55b6c820d9f4edd9905676",
-      "datetime": 1789053431,
-      "summary": "Datadog, Inc. (DDOG) Goldman Sachs Communacopia + Technology Conference 2026 September 10, 2026 12:30 PM EDTCompany ParticipantsDavid Obstler - Chief..."
     }
   ],
   "filings": [
