@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-14T00:32:39.579952-07:00",
+  "generated_at": "2026-09-15T00:06:58.862987-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Off-Quarter Software Companies' Revenue Outperformance Decelerates Slightly Sequentially, RBC Says",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=2d1da7e49c3ef0c65ea8ddff21d58cb03bef888ebe6db66e60e633862aabdf91",
+      "datetime": 1789406297,
+      "summary": "Quarterly revenue outperformance of software companies that don't follow the standard reporting cale"
+    },
+    {
+      "headline": "MongoDB Sees AI, Atlas and Enterprise Modernization Fueling Growth",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=998643c46655717dc78a2daeb47550506b0eb5fb41569eefa2c47a96a58083a4",
+      "datetime": 1789369323,
+      "summary": "MongoDB (NASDAQ:MDB) CEO CJ Desai outlined the company\u2019s focus on enterprise modernization, AI-native customers and product enhancements during Citi\u2019s TMT Conference, following what he described as a strong fiscal second-quarter report. Desai said MongoDB reported total revenue growth above 30% in"
+    },
+    {
+      "headline": "MongoDB Sees AI, Modernization and Self-Managed Demand Fueling Growth",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=9e61084a3e31ce909e9c3ff630a3de4560753ef630ee9426deeaa837ab295318",
+      "datetime": 1789358518,
+      "summary": "MongoDB (NASDAQ:MDB) executives said customer demand for its database platform is being supported by enterprise modernization efforts, AI-related workloads and growing interest in self-managed deployments, while the company works to raise awareness among senior decision-makers. CJ Desai, MongoDB\u2019s"
+    },
     {
       "headline": "MarketBeat Week in Review \u2013 09/07 - 09/11",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=008f0ddf57b9a467a536c5624a3c699a5683ab8e679117e573448905b5b212a6",
       "datetime": 1789135200,
       "summary": "As previously announced, MongoDB, Inc. (NASDAQ: MDB) will host an investor day in New York City on September 29th. The investor day, hosted by MongoDB's executive team, will take place from 11:00 a.m. \u2013 3:30 p.m. ET."
-    },
-    {
-      "headline": "MongoDB (MDB) Reports 30% Revenue Growth and 91% RPO Growth. Is Atlas Demand Durable Enough to Sustain Operating Leverage?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=23cd01a6b2c53144c2af63705ff5d88fcc818fd425e99d532325a418349dff87",
-      "datetime": 1789058177,
-      "summary": "MongoDB, Inc. (NASDAQ:MDB) reported fiscal second-quarter revenue of $771.8 million, up 30% year over year. Atlas revenue increased approximately 29% to $565.9 million, while Enterprise Advanced and other revenue rose approximately 36% to $181.2 million. Remaining performance obligations, or RPO, increased 91% to $1.52 billion. RPO represents the aggregate transaction price in contracts allocated "
-    },
-    {
-      "headline": "MongoDB, Inc. (MDB) Presents at Goldman Sachs Communacopia + Technology Conference 2026 Transcript",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=cb680ae29c5b9b71de2628d24c99efc3d1975a7cc46e45eb31eaf0a830645afa",
-      "datetime": 1789057632,
-      "summary": "MongoDB, Inc. (MDB) Goldman Sachs Communacopia + Technology Conference 2026 September 10, 2026 1:10 PM EDTCompany ParticipantsChirantan Desai - President,..."
-    },
-    {
-      "headline": "Stock Market Today: Nasdaq 100 Tumbles as Oil Spikes 6%, Yields Hit 19-Year High",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=57d493ab3351dc74de676b0cd87b6e9bd1621b6634e7636031016eeb9aed01a9",
-      "datetime": 1789050419,
-      "summary": "Crude jumped 6% and 30-year Treasury yields hit levels last seen in 2007 as a hot PPI print pushed Fed rate-hike odds toward 70% ahead of Friday&#39;s CPI."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-11",
+  "data_asof": "2026-09-14",
   "price": {
-    "last": 362.21,
-    "open": 373.43,
-    "prev_close": 373.87,
-    "move_day_pct": -3.12,
-    "move_open_close_pct": -3.0,
-    "move_week_pct": -5.78
+    "last": 382.29,
+    "open": 367.69,
+    "prev_close": 362.21,
+    "move_day_pct": 5.54,
+    "move_open_close_pct": 3.97,
+    "move_week_pct": 3.67
   },
   "indicators": {
     "rsi14": {
-      "value": 42.4,
+      "value": 47.9,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -5.437,
-      "signal": 4.736,
-      "hist": -10.173,
-      "hist_prev": -10.714,
+      "macd": -5.342,
+      "signal": 2.72,
+      "hist": -8.062,
+      "hist_prev": -10.173,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 477.46,
-      "lower": 341.83,
-      "mid": 409.65,
-      "pctb": 0.15,
-      "read": "Near the lower band"
+      "upper": 470.35,
+      "lower": 341.14,
+      "mid": 405.74,
+      "pctb": 0.318,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 60.31,
-      "read": "60% above its 52-week low"
+      "value": 69.19,
+      "read": "69% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -23.31,
-      "read": "23% below its 52-week high"
+      "value": -19.06,
+      "read": "19% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 343.07,
-      "pct": 5.58,
-      "read": "6% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 343.33,
+      "pct": 11.35,
+      "read": "11% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 21.55,
-      "pct_of_price": 5.95,
+      "value": 21.86,
+      "pct_of_price": 5.72,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.5,
-      "read": "Light \u2014 quiet trading"
+      "value": 0.98,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 37.8,
+      "value": 43.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 375.5,
-  "ma200": 343.07
+  "ma50": 376.05,
+  "ma200": 343.33
 }

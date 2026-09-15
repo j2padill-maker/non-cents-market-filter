@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-14T00:32:44.137094-07:00",
+  "generated_at": "2026-09-15T00:07:03.589877-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Enbridge Expands U.S. Crude Footprint With $2.55B Tallgrass Deal",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b245c966bf6589be8c8f772860c24a571581e599bdd9628a6b8890576e30ca9d",
+      "datetime": 1789397340,
+      "summary": "ENB's $2.55 billion Tallgrass deal expands its U.S. Rockies footprint, adds contracted cash flows and strengthens its liquids pipeline network."
+    },
+    {
+      "headline": "Should You Buy Suncor Energy Stock After Its 63% Surge in a Year?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7ddd9fb9154c5061aa51642c1a6074ae144f07c3b652e54202b761a19e769e40",
+      "datetime": 1789389960,
+      "summary": "SU's 63% gain in 12 months reflects strong cash flow, downstream economics and oil sands gains, but risks could limit further upside."
+    },
     {
       "headline": "1 Stock Under $50 to Target This Week and 2 We Brush Off",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=cf506dc91360405242f6f502e2e2f4776bf0eddeb0c50cdfda2fbb667cef28f7",
       "datetime": 1788972498,
       "summary": "TechnipFMC has delivered exceptional returns post-spin but now faces a shifting macro environment and increased global competition. Click for this FTI update."
-    },
-    {
-      "headline": "Petrobras Gets Regulatory Nod to Drill 3 More Wells in Brazil",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=95a0a78eb7ba013c25ee58c6fb97af24bb45b10697cbd9f20e17f2fda500f9f1",
-      "datetime": 1788965160,
-      "summary": "PBR wins approval for three Foz do Amazonas wells, advancing Morpho appraisal and offering new clues on its offshore resource potential."
-    },
-    {
-      "headline": "Oceaneering International Sees Preliminary FY2026 Sales $2.800B-$3.000B vs $2.909B Est",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=baf0fe91501cd82b3e4c914881cbd992f53acb0f41ef1d81cb9fd1a485ede670",
-      "datetime": 1788855859,
-      "summary": "Oceaneering International (NYSE:OII) sees preliminary FY2026 sales of $2.800 billion-$3.000 billion vs $2.909 billion analyst estimate."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-11",
+  "data_asof": "2026-09-14",
   "price": {
-    "last": 51.09,
-    "open": 50.88,
-    "prev_close": 50.57,
-    "move_day_pct": 1.03,
-    "move_open_close_pct": 0.41,
-    "move_week_pct": -1.33
+    "last": 46.56,
+    "open": 50.41,
+    "prev_close": 51.09,
+    "move_day_pct": -8.87,
+    "move_open_close_pct": -7.64,
+    "move_week_pct": -9.42
   },
   "indicators": {
     "rsi14": {
-      "value": 53.5,
-      "read": "Neutral"
+      "value": 39.7,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": 0.547,
-      "signal": 0.927,
-      "hist": -0.38,
-      "hist_prev": -0.461,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": 0.168,
+      "signal": 0.775,
+      "hist": -0.608,
+      "hist_prev": -0.38,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 53.99,
-      "lower": 48.82,
-      "mid": 51.4,
-      "pctb": 0.439,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 54.43,
+      "lower": 47.82,
+      "mid": 51.12,
+      "pctb": -0.19,
+      "read": "Below the lower band \u2014 stretched to the downside"
     },
     "pct_from_52w_low": {
-      "value": 130.14,
-      "read": "130% above its 52-week low"
+      "value": 109.73,
+      "read": "110% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -5.58,
+      "value": -13.95,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 37.06,
-      "pct": 37.86,
-      "read": "38% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 37.17,
+      "pct": 25.26,
+      "read": "25% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 1.94,
-      "pct_of_price": 3.81,
-      "read": "Elevated volatility"
+      "value": 2.16,
+      "pct_of_price": 4.63,
+      "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.37,
-      "read": "Above-average volume"
+      "value": 1.29,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 52.7,
+      "value": 51.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 22.2,
   "high_52w": 54.11,
-  "ma50": 48.16,
-  "ma200": 37.06
+  "ma50": 48.32,
+  "ma200": 37.17
 }

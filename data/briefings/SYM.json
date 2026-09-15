@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-14T00:32:43.213203-07:00",
+  "generated_at": "2026-09-15T00:07:02.889515-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Can Serve Robotics' Beacon Overcome Restaurant Integration Barriers?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=cdfeced7212ad87a6d6839f0b0e436c906d1661295e81f3a5ec43ef06c4bab15",
+      "datetime": 1789393020,
+      "summary": "Can Beacon help SERV break restaurant integration barriers and unlock more delivery orders as it expands direct merchant access?"
+    },
     {
       "headline": "VNT or SYM: Which Is the Better Value Stock Right Now?",
       "source": "Yahoo",
@@ -68,63 +75,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-11",
+  "data_asof": "2026-09-14",
   "price": {
-    "last": 42.13,
-    "open": 41.91,
-    "prev_close": 41.1,
-    "move_day_pct": 2.51,
-    "move_open_close_pct": 0.52,
-    "move_week_pct": 1.27
+    "last": 41.6,
+    "open": 40.5,
+    "prev_close": 42.13,
+    "move_day_pct": -1.26,
+    "move_open_close_pct": 2.72,
+    "move_week_pct": -3.12
   },
   "indicators": {
     "rsi14": {
-      "value": 52.0,
+      "value": 50.1,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.016,
-      "signal": -0.273,
-      "hist": 0.256,
-      "hist_prev": 0.258,
+      "macd": -0.009,
+      "signal": -0.22,
+      "hist": 0.211,
+      "hist_prev": 0.256,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 43.78,
-      "lower": 38.65,
-      "mid": 41.22,
-      "pctb": 0.678,
+      "upper": 43.64,
+      "lower": 38.68,
+      "mid": 41.16,
+      "pctb": 0.588,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 10.23,
+      "value": 8.84,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -51.74,
+      "value": -52.35,
       "read": "52% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 52.29,
-      "pct": -19.43,
-      "read": "19% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 52.22,
+      "pct": -20.34,
+      "read": "20% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 1.79,
-      "pct_of_price": 4.25,
+      "value": 1.8,
+      "pct_of_price": 4.33,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.89,
+      "value": 0.77,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 49.7,
+      "value": 50.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 38.22,
   "high_52w": 87.3,
-  "ma50": 41.89,
-  "ma200": 52.29
+  "ma50": 41.87,
+  "ma200": 52.22
 }

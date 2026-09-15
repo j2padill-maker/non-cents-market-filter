@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-14T00:32:43.840330-07:00",
+  "generated_at": "2026-09-15T00:07:03.426804-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Musk Says a Billion Robots Will Outproduce All Humans, So Why Are Robot Funds Losing Money?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=5ed95998a5d64bf094f3b9c0fe0edc5b86f52b3f64d1f3ac7c663ab7efde6182",
+      "datetime": 1789420895,
+      "summary": "Sponsors are rushing to launch robot-themed ETFs at a pace not seen in years, betting billions on humanoid factories that do not yet exist. The funds already trading tell a very different story about who is actually winning."
+    },
+    {
+      "headline": "EM Equities: Back To Overweight",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=7f0792cfcdc2b823d9d2f1e5c730e7ff6fde59ea6329ea2edc8c388ff25ce0c3",
+      "datetime": 1789397100,
+      "summary": "Higher global rates are raising the hurdle for returns but have not knocked us off a pro-risk stance. Higher rates and strong equities needn't be contradictory - what drives yields matters."
+    },
     {
       "headline": "How The Rise Of Frontier Tech Baskets Could Impact Equities",
       "source": "SeekingAlpha",
@@ -49,63 +63,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-11",
+  "data_asof": "2026-09-14",
   "price": {
-    "last": 35.28,
-    "open": 35.22,
-    "prev_close": 34.76,
-    "move_day_pct": 1.5,
-    "move_open_close_pct": 0.17,
-    "move_week_pct": -1.48
+    "last": 34.76,
+    "open": 34.6,
+    "prev_close": 35.28,
+    "move_day_pct": -1.47,
+    "move_open_close_pct": 0.46,
+    "move_week_pct": -3.31
   },
   "indicators": {
     "rsi14": {
-      "value": 44.8,
+      "value": 40.9,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.307,
-      "signal": -0.222,
-      "hist": -0.085,
-      "hist_prev": -0.105,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -0.345,
+      "signal": -0.247,
+      "hist": -0.099,
+      "hist_prev": -0.085,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 37.42,
-      "lower": 34.36,
-      "mid": 35.89,
-      "pctb": 0.301,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 37.09,
+      "lower": 34.39,
+      "mid": 35.74,
+      "pctb": 0.137,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 10.34,
+      "value": 8.71,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -15.21,
-      "read": "15% below its 52-week high"
+      "value": -16.46,
+      "read": "16% below its 52-week high"
     },
     "price_vs_ma200": {
       "ma200": 36.89,
-      "pct": -4.36,
-      "read": "4% below its 200-day average \u2014 long-term downtrend"
+      "pct": -5.77,
+      "read": "6% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.58,
-      "pct_of_price": 1.64,
+      "value": 0.59,
+      "pct_of_price": 1.7,
       "read": "Calm \u2014 low volatility"
     },
     "rel_volume": {
-      "value": 1.56,
-      "read": "Above-average volume"
+      "value": 1.0,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 39.9,
+      "value": 40.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 31.97,
   "high_52w": 41.61,
-  "ma50": 35.94,
+  "ma50": 35.89,
   "ma200": 36.89
 }

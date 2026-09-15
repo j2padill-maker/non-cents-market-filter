@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-14T00:32:40.964711-07:00",
+  "generated_at": "2026-09-15T00:07:00.699768-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Investors Heavily Search Datadog, Inc. (DDOG): Here is What You Need to Know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7d7985d61fd9e203631ae06ab6880c5b980769c27a2ecea84272cf3a38c05869",
+      "datetime": 1789390804,
+      "summary": "Zacks.com users have recently been watching Datadog (DDOG) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects."
+    },
     {
       "headline": "French AI boom exposes Europe\u2019s funding gap as startups turn to U.S.",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=331e6398668a799f9bac95adfc7e03b617e94c0c06f3cff335b969aadede4ff1",
       "datetime": 1789200900,
       "summary": "AI\u00e2\u0080\u0099s doomsday headlines make great engagement, but the real investment edge lies in understanding the bottlenecks. Read more on the bottlenecks here."
-    },
-    {
-      "headline": "Wedbush Names CrowdStrike and Palo Alto Networks AI Cybersecurity Winners",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=68503ab9ce3779248dce4afedf0d5e24d5ff7decb58172c20547685fe0c7b117",
-      "datetime": 1789141204,
-      "summary": "Wedbush Sees Cybersecurity Winners Emerging as AI Transforms the Market"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-11",
+  "data_asof": "2026-09-14",
   "price": {
-    "last": 221.21,
-    "open": 221.72,
-    "prev_close": 221.72,
-    "move_day_pct": -0.23,
-    "move_open_close_pct": -0.23,
-    "move_week_pct": 3.0
+    "last": 230.05,
+    "open": 225.02,
+    "prev_close": 221.21,
+    "move_day_pct": 4.0,
+    "move_open_close_pct": 2.24,
+    "move_week_pct": 8.04
   },
   "indicators": {
     "rsi14": {
-      "value": 44.3,
+      "value": 49.1,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -7.961,
-      "signal": -7.725,
-      "hist": -0.236,
-      "hist_prev": -0.706,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -6.843,
+      "signal": -7.548,
+      "hist": 0.706,
+      "hist_prev": -0.236,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 254.17,
-      "lower": 204.13,
-      "mid": 229.15,
-      "pctb": 0.341,
+      "upper": 249.82,
+      "lower": 205.94,
+      "mid": 227.88,
+      "pctb": 0.549,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 115.57,
-      "read": "116% above its 52-week low"
+      "value": 124.19,
+      "read": "124% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -23.23,
-      "read": "23% below its 52-week high"
+      "value": -20.16,
+      "read": "20% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 177.41,
-      "pct": 24.69,
-      "read": "25% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 177.77,
+      "pct": 29.41,
+      "read": "29% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 12.52,
-      "pct_of_price": 5.66,
+      "value": 12.55,
+      "pct_of_price": 5.45,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.39,
-      "read": "Light \u2014 quiet trading"
+      "value": 0.62,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 40.1,
+      "value": 45.6,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 288.15,
-  "ma50": 246.54,
-  "ma200": 177.41
+  "ma50": 245.93,
+  "ma200": 177.77
 }
