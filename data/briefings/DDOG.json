@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-15T00:07:00.699768-07:00",
+  "generated_at": "2026-09-15T16:57:48.468966-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,11 +17,25 @@
   ],
   "news": [
     {
+      "headline": "How Is Datadog\u2019s Stock Performance Compared to Other Cloud Computing Stocks",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=6f31dfcd6b38623efe0495b30f5020fc5f976490907888cf7e4987a91d55bb76",
+      "datetime": 1789476260,
+      "summary": "Datadog has outperformed the technology sector, and analysts remain highly optimistic about the stock\u2019s outlook."
+    },
+    {
       "headline": "Investors Heavily Search Datadog, Inc. (DDOG): Here is What You Need to Know",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=7d7985d61fd9e203631ae06ab6880c5b980769c27a2ecea84272cf3a38c05869",
       "datetime": 1789390804,
       "summary": "Zacks.com users have recently been watching Datadog (DDOG) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects."
+    },
+    {
+      "headline": "Bell Cyber And Radware Announced The Expansion Of Their Partnership With An Enhanced Ai-driven, Cloud\u2011delivered Security Service Designed To Help Organizations Defend Against Increasingly Automated And Sophisticated Cyberattacks",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=c9749e22bdbc424443970f71eb4ba539330e63f89459faf3e519bb5c2b5d034a",
+      "datetime": 1789384068,
+      "summary": ""
     },
     {
       "headline": "French AI boom exposes Europe\u2019s funding gap as startups turn to U.S.",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=d3ecaf25ae42cfc2e275389dbd4be83d8f180cb8a4b96b3dc37f7b6425fce8b0",
       "datetime": 1789272116,
       "summary": "Datadog (NASDAQ:DDOG) is investing in artificial intelligence capabilities, proprietary models and enterprise sales as it seeks to expand its observability platform\u2019s role in monitoring increasingly complex cloud and AI workloads, Chief Financial Officer David Obstler said during a company session."
-    },
-    {
-      "headline": "AI Agents Create Their Own Monitoring Problem. Datadog and Dynatrace Are Racing to Own It",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=81cc2b8cab0ee7ceaa6101caa9f990b03e1f565ffd3cd989b8e385414c1453cd",
-      "datetime": 1789253786,
-      "summary": "AI coding agents are supposed to make software cheaper to build. They may also create more software changes, production failures and machine-generated complexity to inspect. That second-order effect connects Datadog, Inc. (NASDAQ:DDOG) and Dynatrace, Inc. (NYSE:DT) to an observability market that AI could expand rather than erase. Datadog told the Goldman Sachs Communacopia + Technology [\u2026]"
-    },
-    {
-      "headline": "Before AI Destroys The World, I Would First Invest In These Bottlenecks",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=331e6398668a799f9bac95adfc7e03b617e94c0c06f3cff335b969aadede4ff1",
-      "datetime": 1789200900,
-      "summary": "AI\u00e2\u0080\u0099s doomsday headlines make great engagement, but the real investment edge lies in understanding the bottlenecks. Read more on the bottlenecks here."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-14",
+  "data_asof": "2026-09-15",
   "price": {
-    "last": 230.05,
-    "open": 225.02,
-    "prev_close": 221.21,
-    "move_day_pct": 4.0,
-    "move_open_close_pct": 2.24,
-    "move_week_pct": 8.04
+    "last": 230.27,
+    "open": 224.06,
+    "prev_close": 230.05,
+    "move_day_pct": 0.1,
+    "move_open_close_pct": 2.77,
+    "move_week_pct": 9.53
   },
   "indicators": {
     "rsi14": {
-      "value": 49.1,
+      "value": 49.3,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -6.843,
-      "signal": -7.548,
-      "hist": 0.706,
-      "hist_prev": -0.236,
+      "macd": -5.872,
+      "signal": -7.213,
+      "hist": 1.342,
+      "hist_prev": 0.706,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 249.82,
-      "lower": 205.94,
-      "mid": 227.88,
-      "pctb": 0.549,
+      "upper": 247.13,
+      "lower": 206.93,
+      "mid": 227.03,
+      "pctb": 0.581,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 124.19,
+      "value": 124.4,
       "read": "124% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -20.16,
+      "value": -20.09,
       "read": "20% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 177.77,
-      "pct": 29.41,
+      "ma200": 178.13,
+      "pct": 29.27,
       "read": "29% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 12.55,
-      "pct_of_price": 5.45,
+      "value": 12.27,
+      "pct_of_price": 5.33,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.62,
+      "value": 0.87,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 45.6,
+      "value": 52.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 288.15,
-  "ma50": 245.93,
-  "ma200": 177.77
+  "ma50": 245.43,
+  "ma200": 178.13
 }

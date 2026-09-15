@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-15T00:07:02.139283-07:00",
+  "generated_at": "2026-09-15T16:57:55.383522-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Needham Reiterates Buy on Cognex, Maintains $80 Price Target",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=aed295bf48c6c45277d259dc9c911916792d5f0220a99e84009cdc72af05e6ba",
+      "datetime": 1789453985,
+      "summary": "Needham  analyst Robert Jamieson   reiterates Cognex (NASDAQ:CGNX) with a Buy and maintains $80 price target."
+    },
+    {
+      "headline": "Coherent shares are trading higher after the company announced it will join the S&P 500 index, effective March 23.",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=7f92e66de16101e7270a9490e22d92722610d8177864c27650013eda0e1675b0",
+      "datetime": 1789401112,
+      "summary": ""
+    },
     {
       "headline": "Nvidia Earnings Put Narrow Robotics Rally to the Test",
       "source": "ChartMill",
@@ -47,63 +61,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-14",
+  "data_asof": "2026-09-15",
   "price": {
-    "last": 59.9,
-    "open": 61.11,
-    "prev_close": 64.22,
-    "move_day_pct": -6.73,
-    "move_open_close_pct": -1.98,
-    "move_week_pct": -3.78
+    "last": 59.15,
+    "open": 60.56,
+    "prev_close": 59.9,
+    "move_day_pct": -1.25,
+    "move_open_close_pct": -2.33,
+    "move_week_pct": -4.95
   },
   "indicators": {
     "rsi14": {
-      "value": 44.6,
+      "value": 43.0,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.441,
-      "signal": -0.629,
-      "hist": 0.188,
-      "hist_prev": 0.375,
+      "macd": -0.606,
+      "signal": -0.624,
+      "hist": 0.018,
+      "hist_prev": 0.188,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 65.0,
-      "lower": 57.81,
-      "mid": 61.4,
-      "pctb": 0.291,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 63.89,
+      "lower": 58.18,
+      "mid": 61.04,
+      "pctb": 0.17,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 72.86,
-      "read": "73% above its 52-week low"
+      "value": 70.69,
+      "read": "71% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -17.17,
-      "read": "17% below its 52-week high"
+      "value": -18.21,
+      "read": "18% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 54.05,
-      "pct": 10.82,
-      "read": "11% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 54.16,
+      "pct": 9.21,
+      "read": "9% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 2.43,
-      "pct_of_price": 4.06,
+      "value": 2.52,
+      "pct_of_price": 4.26,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.91,
+      "value": 0.87,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 50.1,
+      "value": 42.1,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 34.65,
   "high_52w": 72.32,
-  "ma50": 63.13,
-  "ma200": 54.05
+  "ma50": 62.92,
+  "ma200": 54.16
 }

@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-15T00:07:02.621415-07:00",
+  "generated_at": "2026-09-15T16:57:57.252096-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "What Is Intuitive Surgical (ISRG) Gaining From Its First CE Mark In Gynecology?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=5da0481fd4199f848fdbec023c53210f275aa94f2cc6f5b86fad1a5dc186ca18",
+      "datetime": 1789496238,
+      "summary": "Intuitive Surgical (NasdaqGS:ISRG) received the world's first CE mark for transvaginal gynecologic procedures using its da Vinci SP system. The approval expands the da Vinci SP platform's labeled use in Europe to include transvaginal access for gynecologic surgery. The CE mark positions Intuitive Surgical as an early mover in single port, natural orifice gynecologic procedures in the region. The n"
+    },
+    {
+      "headline": "ISRG's da Vinci Study Shows Better Outcomes Across 13 Common Conditions",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e6db18273990311a74a0f34a7a246676cffd4c2e666850929af728888f6172b8",
+      "datetime": 1789484940,
+      "summary": "Intuitive Surgical's da Vinci meta-analysis across 14 million procedures found better perioperative outcomes versus laparoscopic and open surgery."
+    },
     {
       "headline": "Intuitive Surgical: My Sell Case Is Losing Ground (Rating Upgrade)",
       "source": "SeekingAlpha",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=e37b9d7890526c4e0caed0883fb19c430e690fbd0d024abedd2bd40733d67921",
       "datetime": 1789396468,
       "summary": "Intuitive Surgical (ISRG) trades near $370, about 38% below its 52-week high, after growth in its US robotic-surgery procedures slowed. Selling a put pays you now for agreeing to buy the shares much lower, and you keep the payment either way. The catch is it only works if you would want this business at that price."
-    },
-    {
-      "headline": "Robots Everywhere: Goldman Sachs Now Sees 6.5 Million Humanoid Robots by 2035",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=22f4a830e839b259ddc3d13080195397b050d382ba253f927c2c4e56fd6dd661",
-      "datetime": 1789312631,
-      "summary": "A major bank just dropped a forecast that reframes the entire robotics industry, and the ripple effects are already moving stock prices across chips, foundries, and factory floors. Here is what the number means for long-term investors."
-    },
-    {
-      "headline": "Intuitive Surgical Sees Procedure Growth Despite U.S. Slowdown and China Pressure",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=02bd95612ccbc6727f625d795c327601d9740f8061c8c60a998b7fba5af54190",
-      "datetime": 1789156922,
-      "summary": "Intuitive Surgical (NASDAQ:ISRG) executives said the company remains focused on global procedure growth, while acknowledging a recent deceleration in U.S. procedures and policy-related uncertainty affecting hospitals. Speaking at a Wells Fargo conference, Executive Vice President, CFO and Enterpris"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-14",
+  "data_asof": "2026-09-15",
   "price": {
-    "last": 377.94,
-    "open": 374.6,
-    "prev_close": 369.15,
-    "move_day_pct": 2.38,
-    "move_open_close_pct": 0.89,
-    "move_week_pct": 3.07
+    "last": 377.16,
+    "open": 374.16,
+    "prev_close": 377.94,
+    "move_day_pct": -0.21,
+    "move_open_close_pct": 0.8,
+    "move_week_pct": 7.71
   },
   "indicators": {
     "rsi14": {
-      "value": 53.0,
+      "value": 52.6,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -4.1,
-      "signal": -4.261,
-      "hist": 0.161,
-      "hist_prev": -1.105,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": -3.092,
+      "signal": -4.028,
+      "hist": 0.935,
+      "hist_prev": 0.161,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 395.07,
-      "lower": 350.28,
-      "mid": 372.67,
-      "pctb": 0.618,
+      "upper": 393.03,
+      "lower": 351.0,
+      "mid": 372.02,
+      "pctb": 0.622,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 13.83,
+      "value": 13.6,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -36.25,
+      "value": -36.38,
       "read": "36% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 458.89,
-      "pct": -17.64,
+      "ma200": 457.89,
+      "pct": -17.63,
       "read": "18% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 12.0,
-      "pct_of_price": 3.17,
+      "value": 11.87,
+      "pct_of_price": 3.15,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.96,
+      "value": 0.79,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 55.2,
+      "value": 54.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 332.02,
   "high_52w": 592.85,
-  "ma50": 376.5,
-  "ma200": 458.89
+  "ma50": 375.38,
+  "ma200": 457.89
 }

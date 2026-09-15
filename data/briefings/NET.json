@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-15T00:07:01.052932-07:00",
+  "generated_at": "2026-09-15T16:57:50.086761-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Cloudflare Helps End the Search-or-AI-Training Tradeoff",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=31af626f571a764639c9cfd51914f100af34eb8cbecb6bde72cad6b932a3cad6",
+      "datetime": 1789477500,
+      "summary": "SAN FRANCISCO, September 15, 2026--Cloudflare, Inc. (NYSE: NET), the leading connectivity cloud company, today announced a new Accountable designation for AI crawling. In conjunction with this, Cloudflare launched Disallow AI Training, a setting that lets any website refuse AI training while staying fully in search results. Eleven weeks ago Cloudflare said website owners deserved real control over"
+    },
+    {
+      "headline": "Here is What to Know Beyond Why Cloudflare, Inc. (NET) is a Trending Stock",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=2b35bb4ed0a4f505aa4ed6f37156a43b8985904109f35490367e4425ec450ead",
+      "datetime": 1789477203,
+      "summary": "Cloudflare (NET) has been one of the stocks most watched by Zacks.com users lately. So, it is worth exploring what lies ahead for the stock."
+    },
     {
       "headline": "Cloudflare, Paylocity, GitLab, Commvault, and Qualys Shares Are Soaring, What You Need To Know",
       "source": "Yahoo",
@@ -31,32 +45,18 @@
       "summary": "Cloudflare's stronger growth outlook, AI security demand and expanding Zero Trust adoption give NET an edge over CrowdStrike despite its premium valuation."
     },
     {
-      "headline": "Cloudflare Sees Agentic AI Opportunity Dwarfing Past Growth Drivers",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=1a9a1a8364f207babb9091068b9696980e9d1a71a7073a0f53e7f05221f6a9be",
-      "datetime": 1789236127,
-      "summary": "Cloudflare (NYSE:NET) sees its opportunity in agentic artificial intelligence extending beyond its current growth drivers, with Chief Financial Officer Thomas Seifert saying the company\u2019s network architecture is positioned to support low-latency, secure and distributed AI inference workloads. Speak"
+      "headline": "Microsoft\u2019s New AI Safety Rules Trigger Surge in 3 Cybersecurity Stocks",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=858633a3db61c116647f0ec17b492d86b18df1794a0182e19699ae0b49e1a1bb",
+      "datetime": 1789389162,
+      "summary": "Microsoft\u2019s new AI safety rules sent CrowdStrike, Palo Alto Networks and Cloudflare higher as investors eye rising AI security demand."
     },
     {
-      "headline": "Jim Cramer Calls Akamai (AKAM) \u201cTerrific\u201d and Cloudflare (NET) One of His Favorites",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=adfbe0f587f5a7cbc43a94eec3d665ebd667bae545cca0f720cc3f1c355dbac9",
-      "datetime": 1789203829,
-      "summary": "Starting the lightning round of the September 9 episode of Mad Money, a caller asked for Jim Cramer\u2019s opinion of Akamai Technologies, Inc. (NASDAQ:AKAM). He replied: Akamai, the cybersecurity company, I think it\u2019s terrific. And by the way, I thought that Cloudflare, NET, that was one of my favorites. The two companies are benefiting from [\u2026]"
-    },
-    {
-      "headline": "Cloudflare (NET) Stock Dips While Market Gains: Key Facts",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ddaf0b4aea847c4bd27e7a437320323f574455a63f8e2a4e13a3d7d7da6c247a",
-      "datetime": 1789163403,
-      "summary": "Cloudflare (NET) closed the most recent trading day at $306.53, moving 1.49% from the previous trading session."
-    },
-    {
-      "headline": "Cloudflare Is Flying Too High, Time To Sell",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=2a5689cca05184826f4ca6089b42e9b5dea2ae2bac3e12cde35596dc572d031e",
-      "datetime": 1789120602,
-      "summary": "Cloudflare (NET) stock rated Sell at $262: strong growth tailwinds but extreme valuation (225x P/E) risks downside if revenue/EPS don\u00e2\u0080\u0099t accelerate."
+      "headline": "Bell Cyber And Radware Announced The Expansion Of Their Partnership With An Enhanced Ai-driven, Cloud\u2011delivered Security Service Designed To Help Organizations Defend Against Increasingly Automated And Sophisticated Cyberattacks",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=c9749e22bdbc424443970f71eb4ba539330e63f89459faf3e519bb5c2b5d034a",
+      "datetime": 1789384068,
+      "summary": ""
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-14",
+  "data_asof": "2026-09-15",
   "price": {
-    "last": 330.36,
-    "open": 313.02,
-    "prev_close": 306.53,
-    "move_day_pct": 7.77,
-    "move_open_close_pct": 5.54,
-    "move_week_pct": 18.44
+    "last": 327.23,
+    "open": 322.12,
+    "prev_close": 330.36,
+    "move_day_pct": -0.95,
+    "move_open_close_pct": 1.59,
+    "move_week_pct": 15.1
   },
   "indicators": {
     "rsi14": {
-      "value": 62.3,
+      "value": 61.0,
       "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 6.633,
-      "signal": 3.923,
-      "hist": 2.71,
-      "hist_prev": 1.008,
+      "macd": 8.172,
+      "signal": 4.773,
+      "hist": 3.399,
+      "hist_prev": 2.71,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 324.69,
-      "lower": 264.96,
-      "mid": 294.83,
-      "pctb": 1.095,
-      "read": "Above the upper band \u2014 stretched to the upside"
+      "upper": 328.52,
+      "lower": 263.16,
+      "mid": 295.84,
+      "pctb": 0.98,
+      "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 106.23,
-      "read": "106% above its 52-week low"
+      "value": 104.28,
+      "read": "104% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -0.14,
+      "value": -1.09,
       "read": "At or near its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 225.26,
-      "pct": 46.66,
-      "read": "47% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 225.91,
+      "pct": 44.85,
+      "read": "45% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 17.25,
-      "pct_of_price": 5.22,
+      "value": 17.02,
+      "pct_of_price": 5.2,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.17,
+      "value": 0.79,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 67.8,
+      "value": 72.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 330.83,
-  "ma50": 286.86,
-  "ma200": 225.26
+  "ma50": 288.45,
+  "ma200": 225.91
 }

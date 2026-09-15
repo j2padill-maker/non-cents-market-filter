@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-15T00:06:58.862987-07:00",
+  "generated_at": "2026-09-15T16:57:42.574824-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "MongoDB, Inc. (MDB) Presents at Piper Sandler 5th Annual Growth Frontiers Conference Transcript",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=9f61775e1c67b83e27a0df7f3b506b33613b9f45dc0bf95efb956d813b1b9c8e",
+      "datetime": 1789490502,
+      "summary": "MongoDB, Inc. (MDB) Piper Sandler 5th Annual Growth Frontiers Conference September 15, 2026 12:30 PM EDTCompany ParticipantsMichael Berry - CFO &..."
+    },
     {
       "headline": "Off-Quarter Software Companies' Revenue Outperformance Decelerates Slightly Sequentially, RBC Says",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=0dd0acabaca59eec3ccfdb072c1118e75b4006d5a7293f482420362ab85e6a34",
       "datetime": 1789177625,
       "summary": "A surplus of cash can mean financial stability, but it can also indicate a reluctance (or inability) to invest in growth. Some of these companies also face challenges like stagnating revenue, declining market share, or limited scalability."
-    },
-    {
-      "headline": "MongoDB, Inc. to Host Investor Day in New York City",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=008f0ddf57b9a467a536c5624a3c699a5683ab8e679117e573448905b5b212a6",
-      "datetime": 1789135200,
-      "summary": "As previously announced, MongoDB, Inc. (NASDAQ: MDB) will host an investor day in New York City on September 29th. The investor day, hosted by MongoDB's executive team, will take place from 11:00 a.m. \u2013 3:30 p.m. ET."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-14",
+  "data_asof": "2026-09-15",
   "price": {
-    "last": 382.29,
-    "open": 367.69,
-    "prev_close": 362.21,
-    "move_day_pct": 5.54,
-    "move_open_close_pct": 3.97,
-    "move_week_pct": 3.67
+    "last": 377.67,
+    "open": 372.74,
+    "prev_close": 382.29,
+    "move_day_pct": -1.21,
+    "move_open_close_pct": 1.32,
+    "move_week_pct": 6.09
   },
   "indicators": {
     "rsi14": {
-      "value": 47.9,
+      "value": 46.8,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -5.342,
-      "signal": 2.72,
-      "hist": -8.062,
-      "hist_prev": -10.173,
+      "macd": -5.575,
+      "signal": 1.061,
+      "hist": -6.636,
+      "hist_prev": -8.062,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 470.35,
-      "lower": 341.14,
-      "mid": 405.74,
-      "pctb": 0.318,
+      "upper": 466.54,
+      "lower": 338.84,
+      "mid": 402.69,
+      "pctb": 0.304,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 69.19,
-      "read": "69% above its 52-week low"
+      "value": 67.15,
+      "read": "67% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -19.06,
-      "read": "19% below its 52-week high"
+      "value": -20.03,
+      "read": "20% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 343.33,
-      "pct": 11.35,
-      "read": "11% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 343.56,
+      "pct": 9.93,
+      "read": "10% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 21.86,
-      "pct_of_price": 5.72,
+      "value": 21.47,
+      "pct_of_price": 5.68,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.98,
+      "value": 0.54,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 43.0,
+      "value": 46.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 376.05,
-  "ma200": 343.33
+  "ma50": 376.45,
+  "ma200": 343.56
 }

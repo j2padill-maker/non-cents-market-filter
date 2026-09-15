@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-15T00:07:03.426804-07:00",
+  "generated_at": "2026-09-15T16:58:02.177283-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Anthropic And OpenAI: \"Pacing The Frontier\" Or Running Out Of Steps?",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=1058c90d5f79e6893f5d994db073a8c932b3b9f834b8c9ccc363bf4ea88d4558",
+      "datetime": 1789454964,
+      "summary": "Frontier labs urge \u00e2\u0080\u009cpace the frontier\u00e2\u0080\u009d citing RSI, but evidence says RSI isn\u00e2\u0080\u0099t here."
+    },
+    {
+      "headline": "The Credit Market Lens: One AI Trade For Now, Many Trades Later",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=84d6de5de74bb9740c84d44700294bdca824607dd0dfab397042de510d06bd22",
+      "datetime": 1789445760,
+      "summary": "Is the AI infrastructure buildout one big trade in credit? So far, the market seems to think so."
+    },
     {
       "headline": "Musk Says a Billion Robots Will Outproduce All Humans, So Why Are Robot Funds Losing Money?",
       "source": "Yahoo",
@@ -43,83 +57,69 @@
       "url": "https://finnhub.io/api/news?id=8ab2152e7d3cbaffcc7d9bb7ebf52532bf54cde8a2a32434a18db15773c38d2f",
       "datetime": 1789136400,
       "summary": "The Global X Robotics & Artificial Intelligence ETF (BOTZ) has fallen more than 8% over five years due to heavy industrial automation exposure, concentration risk, and weak holdings like Tesla and Baidu."
-    },
-    {
-      "headline": "Market Valuations In Focus Amid Rising Risks",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=ef2f1aba32e1f9345e59278acb646c978c90e3d703fcc5012986a464c7ce61b6",
-      "datetime": 1789133400,
-      "summary": "As investors grapple with higher bond yields, oil prices and economic uncertainty, where could opportunities emerge? Morningstar Research's David Sekera shares his outlook."
-    },
-    {
-      "headline": "The Zacks Analyst Blog Highlights FANUY, ABBNY, KYCCF, NVDA, ISRG, ILMN, NOVT, BOTZ, ROBO, ROBT and IBOT",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d719bf4179166f804962f458c60fedca5ab419c8b8e4f402545a7df02e0737fe",
-      "datetime": 1788876660,
-      "summary": "BOTZ offers diversified exposure to a robotics boom fueled by AI, humanoid robots and industrial automation, as the sector rapidly evolves."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-14",
+  "data_asof": "2026-09-15",
   "price": {
-    "last": 34.76,
-    "open": 34.6,
-    "prev_close": 35.28,
-    "move_day_pct": -1.47,
-    "move_open_close_pct": 0.46,
-    "move_week_pct": -3.31
+    "last": 34.63,
+    "open": 34.68,
+    "prev_close": 34.76,
+    "move_day_pct": -0.37,
+    "move_open_close_pct": -0.14,
+    "move_week_pct": -2.75
   },
   "indicators": {
     "rsi14": {
-      "value": 40.9,
+      "value": 40.0,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.345,
-      "signal": -0.247,
-      "hist": -0.099,
-      "hist_prev": -0.085,
+      "macd": -0.382,
+      "signal": -0.274,
+      "hist": -0.108,
+      "hist_prev": -0.099,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 37.09,
-      "lower": 34.39,
-      "mid": 35.74,
-      "pctb": 0.137,
+      "upper": 36.63,
+      "lower": 34.53,
+      "mid": 35.58,
+      "pctb": 0.047,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 8.71,
+      "value": 8.31,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -16.46,
-      "read": "16% below its 52-week high"
+      "value": -16.77,
+      "read": "17% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 36.89,
-      "pct": -5.77,
+      "ma200": 36.9,
+      "pct": -6.15,
       "read": "6% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.59,
-      "pct_of_price": 1.7,
+      "value": 0.57,
+      "pct_of_price": 1.65,
       "read": "Calm \u2014 low volatility"
     },
     "rel_volume": {
-      "value": 1.0,
+      "value": 0.85,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 40.0,
+      "value": 33.6,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 31.97,
   "high_52w": 41.61,
-  "ma50": 35.89,
-  "ma200": 36.89
+  "ma50": 35.81,
+  "ma200": 36.9
 }

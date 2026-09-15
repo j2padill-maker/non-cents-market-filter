@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-15T00:07:03.180838-07:00",
+  "generated_at": "2026-09-15T16:58:00.471470-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Teradyne India Office Expands Semiconductor Manufacturing Support in Bengaluru",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=6d1fb4d3e89b7d869b9249739cb2ecd1c82de05a0b1d3a92054b18028ca8f5a3",
+      "datetime": 1789483841,
+      "summary": "Teradyne is establishing a permanent semiconductor-focused presence in India as the country expands domestic fabrication, packaging and testing infrastructure. Key Investor TakeawaysTeradyne (NASDAQ:TER) opened a new India office in Bengaluru focused on supporting semiconductor manufacturing customers."
+    },
+    {
+      "headline": "Top Robotics Stocks to Add to Your Portfolio for Impressive Returns",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c9b1ab86e8a93957dca4ae5822d8f4dc93d5f3b974ed04fe27c8cb0e546575f2",
+      "datetime": 1789479840,
+      "summary": "Robotics is poised for robust long-term growth. Consider NVDA, TER, ZBRA and GMED for potential market dominance across sectors."
+    },
+    {
+      "headline": "What's Going On With Teradyne Stock Tuesday?",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=9ab27ac0a3e879ad3c3ece9b909ae6f2a521a534fa0d516c65e99ea6d1cdcf14",
+      "datetime": 1789458338,
+      "summary": "Teradyne (TER) stock gains nearly 2% premarket after a 13.3% drop. Read key support levels and price analysis."
+    },
     {
       "headline": "Teradyne Opens Office in India, Deepening Commitment to the Country\u2019s Growing Semiconductor Ecosystem",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=fe9bdbe4e3cc8cb4d01f677f874953f115b8920d0fe8d06b3bf87927be02af06",
       "datetime": 1789424384,
       "summary": "Teradyne (TER) trades at 51.7 times trailing earnings. A multiple that high is a requirement rather than an opinion: the business has to grow into it, and you can work out how much growth that takes. The harder question is whether the calculation deserves your trust when the trailing year has been this unusual."
-    },
-    {
-      "headline": "What's going on in today's session: S&P500 movers",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=ea4563099fe5ea2cba59e8cd68a63af9ec6cbc298bc55ae01da2ddfa09d5f6fe",
-      "datetime": 1789412701,
-      "summary": "Get insights into the S&P500 index performance on Monday. Explore the top gainers and losers within the S&P500 index in today's session."
-    },
-    {
-      "headline": "Oracle, Corning, Alphabet, GE Vernova, CrowdStrike, SpaceX, and More Stocks That Explain Today\u2019s Market",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=93208e36b53f4fe0012ab92c61e4928863e38bd62eaeee76c5fd0b7cc4e708a3",
-      "datetime": 1789404780,
-      "summary": "Corning stock is the worst performer in the S&P 500 for the trading session while CrowdStrike stock is the best-performer in the index."
-    },
-    {
-      "headline": "Can AEHR's Diversification Strengthen Its Growth Outlook?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d8d4dce8a39f8f7d6dce8c6874ae5de2741cc4ac53cc28bebc9506848fad4bb8",
-      "datetime": 1789403460,
-      "summary": "Aehr broadens beyond SiC as AI, silicon photonics and power semiconductors fuel a more diversified growth story."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-14",
+  "data_asof": "2026-09-15",
   "price": {
-    "last": 329.2,
-    "open": 347.12,
-    "prev_close": 379.72,
-    "move_day_pct": -13.3,
-    "move_open_close_pct": -5.16,
-    "move_week_pct": -7.79
+    "last": 332.85,
+    "open": 337.88,
+    "prev_close": 329.2,
+    "move_day_pct": 1.11,
+    "move_open_close_pct": -1.49,
+    "move_week_pct": -10.54
   },
   "indicators": {
     "rsi14": {
-      "value": 40.5,
+      "value": 41.6,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -5.112,
-      "signal": -4.367,
-      "hist": -0.745,
-      "hist_prev": 1.926,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -7.002,
+      "signal": -4.894,
+      "hist": -2.107,
+      "hist_prev": -0.745,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 418.3,
-      "lower": 317.99,
-      "mid": 368.14,
-      "pctb": 0.112,
+      "upper": 401.67,
+      "lower": 323.61,
+      "mid": 362.64,
+      "pctb": 0.118,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 193.87,
-      "read": "194% above its 52-week low"
+      "value": 192.72,
+      "read": "193% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -31.93,
-      "read": "32% below its 52-week high"
+      "value": -31.18,
+      "read": "31% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 321.19,
-      "pct": 2.49,
-      "read": "2% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 322.02,
+      "pct": 3.36,
+      "read": "3% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 23.56,
-      "pct_of_price": 7.16,
+      "value": 22.74,
+      "pct_of_price": 6.83,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.89,
-      "read": "Above-average volume"
+      "value": 0.93,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 47.8,
+      "value": 42.0,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": 112.02,
+  "low_52w": 113.71,
   "high_52w": 483.65,
-  "ma50": 364.9,
-  "ma200": 321.19
+  "ma50": 363.97,
+  "ma200": 322.02
 }

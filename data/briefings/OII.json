@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-15T00:07:03.589877-07:00",
+  "generated_at": "2026-09-15T16:58:03.485946-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -22,6 +22,13 @@
       "url": "https://finnhub.io/api/news?id=b245c966bf6589be8c8f772860c24a571581e599bdd9628a6b8890576e30ca9d",
       "datetime": 1789397340,
       "summary": "ENB's $2.55 billion Tallgrass deal expands its U.S. Rockies footprint, adds contracted cash flows and strengthens its liquids pipeline network."
+    },
+    {
+      "headline": "Nephila Capital Selects SEI As Global Strategic Partner To Support Back- And Middle-Office Operations",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=ca36e4c4668724f71c983a61e3b39fbc90251892a4e2be1f5490130efa5a3d58",
+      "datetime": 1789392160,
+      "summary": ""
     },
     {
       "headline": "Should You Buy Suncor Energy Stock After Its 63% Surge in a Year?",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=218053b0d604479cbecb7eb6dd331c8465a06f8edbb3cfa8fa53e7f3a170a343",
       "datetime": 1789045326,
       "summary": "2026-09-10. The following slide deck was published by Oceaneering International, Inc."
-    },
-    {
-      "headline": "After A Home Run, Taking Profits On TechnipFMC (Rating Downgrade)",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=cf506dc91360405242f6f502e2e2f4776bf0eddeb0c50cdfda2fbb667cef28f7",
-      "datetime": 1788972498,
-      "summary": "TechnipFMC has delivered exceptional returns post-spin but now faces a shifting macro environment and increased global competition. Click for this FTI update."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-14",
+  "data_asof": "2026-09-15",
   "price": {
-    "last": 46.56,
-    "open": 50.41,
-    "prev_close": 51.09,
-    "move_day_pct": -8.87,
-    "move_open_close_pct": -7.64,
-    "move_week_pct": -9.42
+    "last": 47.68,
+    "open": 46.86,
+    "prev_close": 46.56,
+    "move_day_pct": 2.41,
+    "move_open_close_pct": 1.75,
+    "move_week_pct": -5.92
   },
   "indicators": {
     "rsi14": {
-      "value": 39.7,
-      "read": "Oversold"
+      "value": 43.6,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": 0.168,
-      "signal": 0.775,
-      "hist": -0.608,
-      "hist_prev": -0.38,
+      "macd": -0.042,
+      "signal": 0.612,
+      "hist": -0.654,
+      "hist_prev": -0.608,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 54.43,
-      "lower": 47.82,
-      "mid": 51.12,
-      "pctb": -0.19,
-      "read": "Below the lower band \u2014 stretched to the downside"
+      "upper": 54.13,
+      "lower": 47.47,
+      "mid": 50.8,
+      "pctb": 0.031,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 109.73,
-      "read": "110% above its 52-week low"
+      "value": 114.77,
+      "read": "115% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -13.95,
+      "value": -11.88,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 37.17,
-      "pct": 25.26,
-      "read": "25% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 37.28,
+      "pct": 27.9,
+      "read": "28% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 2.16,
-      "pct_of_price": 4.63,
+      "value": 2.13,
+      "pct_of_price": 4.46,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.29,
+      "value": 1.19,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 51.8,
+      "value": 52.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 22.2,
   "high_52w": 54.11,
-  "ma50": 48.32,
-  "ma200": 37.17
+  "ma50": 48.5,
+  "ma200": 37.28
 }
