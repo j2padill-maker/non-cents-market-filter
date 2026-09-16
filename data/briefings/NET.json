@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-15T16:57:50.086761-07:00",
+  "generated_at": "2026-09-16T00:10:45.374365-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "What Growth Are You Paying For In Zscaler Stock?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=3260977b7b24d29a6b0e5413d5913d62e947c6e2ba0d53a102e71986fb9c652d",
+      "datetime": 1789510807,
+      "summary": "Zscaler (ZS) has gained 48% in three months, yet trades about 43% below its 52-week high. Near $190 it costs 9.3 times sales, against 3.2 for the S&P 500. The question is which growth that price buys: the 25% reported for fiscal 2026, or the roughly 17% guided for fiscal 2027."
+    },
+    {
+      "headline": "What Are You Actually Buying In Cloudflare Stock?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=4ffcf372769fba41cfaf6d1e4a26a002c79866ee8281d4b347c8af18772b9922",
+      "datetime": 1789509447,
+      "summary": "Cloudflare (NET) stock has gained about 45% in three months while the S&P 500 returned 2.8%, and sits at the top of its 52-week range. That price is paying for more than the growth: a business Cloudflare has only started to build, charging AI agents for the requests they send."
+    },
+    {
+      "headline": "Top Research Reports for S&P Global, Cloudflare & Canadian Natural",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=da0d1a197d359b8fe09f54940ac34a3c52be3e64c6ca547cec998ea9b8146a5f",
+      "datetime": 1789503180,
+      "summary": "Cloudflare's enterprise demand, AI-driven adoption and raised 2026 outlook support growth, but margin pressure and competition keep risk balanced."
+    },
+    {
+      "headline": "Cloudflare Hits Highs Amid Agentic AI Boom; Nears Pivot",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=54996b489b145e75ae6d56a8ce5df9ae1e39c6b3151a3277a20b083722b010de",
+      "datetime": 1789493052,
+      "summary": "Cloudflare stock is near an entry at 332.22 after hitting an all-time high on Monday. The cybersecurity name is an IBD stock to watch."
+    },
+    {
+      "headline": "Cloudflare (NET) Gives Websites New Control Over AI Training Access",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=2ad475b8218ea62e034ebede6843ddeb0a83b3b40f0c438d7e607f67af62ac86",
+      "datetime": 1789488923,
+      "summary": "Cloudflare (NYSE:NET) introduced new \"Disallow AI Training\" and AI crawler controls for website owners on 15 September 2026. The tools let site operators block AI training on their content while keeping pages indexable for traditional search engines. Cloudflare set criteria for \"Accountable\" crawlers and said it is participating in IETF efforts on open AI access standards. Cloudflare's new \"Disall"
+    },
+    {
       "headline": "Cloudflare Helps End the Search-or-AI-Training Tradeoff",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=31af626f571a764639c9cfd51914f100af34eb8cbecb6bde72cad6b932a3cad6",
       "datetime": 1789477500,
       "summary": "SAN FRANCISCO, September 15, 2026--Cloudflare, Inc. (NYSE: NET), the leading connectivity cloud company, today announced a new Accountable designation for AI crawling. In conjunction with this, Cloudflare launched Disallow AI Training, a setting that lets any website refuse AI training while staying fully in search results. Eleven weeks ago Cloudflare said website owners deserved real control over"
-    },
-    {
-      "headline": "Here is What to Know Beyond Why Cloudflare, Inc. (NET) is a Trending Stock",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2b35bb4ed0a4f505aa4ed6f37156a43b8985904109f35490367e4425ec450ead",
-      "datetime": 1789477203,
-      "summary": "Cloudflare (NET) has been one of the stocks most watched by Zacks.com users lately. So, it is worth exploring what lies ahead for the stock."
-    },
-    {
-      "headline": "Cloudflare, Paylocity, GitLab, Commvault, and Qualys Shares Are Soaring, What You Need To Know",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4fa88d58db4f106672d8463b02665ff94dbb36291f3851fff8f414c3f91fdbc2",
-      "datetime": 1789434450,
-      "summary": "A number of stocks jumped in the afternoon session after shares of enterprise software and SaaS companies rallied broadly as investors rotated capital out of semiconductor and AI-hardware stocks following calls for an artificial intelligence development slowdown."
-    },
-    {
-      "headline": "CRWD vs. NET: Which Cybersecurity Stock Has an Edge Right Now?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d2989a0b901e49c1bd9a856c32e8dbba89f5452b84bfc7651f78800f3124c320",
-      "datetime": 1789395060,
-      "summary": "Cloudflare's stronger growth outlook, AI security demand and expanding Zero Trust adoption give NET an edge over CrowdStrike despite its premium valuation."
-    },
-    {
-      "headline": "Microsoft\u2019s New AI Safety Rules Trigger Surge in 3 Cybersecurity Stocks",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=858633a3db61c116647f0ec17b492d86b18df1794a0182e19699ae0b49e1a1bb",
-      "datetime": 1789389162,
-      "summary": "Microsoft\u2019s new AI safety rules sent CrowdStrike, Palo Alto Networks and Cloudflare higher as investors eye rising AI security demand."
-    },
-    {
-      "headline": "Bell Cyber And Radware Announced The Expansion Of Their Partnership With An Enhanced Ai-driven, Cloud\u2011delivered Security Service Designed To Help Organizations Defend Against Increasingly Automated And Sophisticated Cyberattacks",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=c9749e22bdbc424443970f71eb4ba539330e63f89459faf3e519bb5c2b5d034a",
-      "datetime": 1789384068,
-      "summary": ""
     }
   ],
   "filings": [
@@ -129,7 +129,7 @@
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.79,
+      "value": 0.8,
       "read": "Roughly average volume"
     },
     "mfi14": {

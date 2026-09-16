@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-15T16:58:03.485946-07:00",
+  "generated_at": "2026-09-16T00:10:47.780409-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Shell Strengthens U.S. LNG Position With New MET Supply Deal",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a627276ebacabfe3abe32cfbccb8d944c4128972eb2321f8b62fafadec8c1b4f",
+      "datetime": 1789479840,
+      "summary": "SHEL expands its U.S. to Europe LNG strategy with a multi-year MET deal, strengthening customer ties and tapping rising global demand."
+    },
+    {
+      "headline": "Petrobras Receives $434 Million in New Diesel Subsidy Payments",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=fcc34ed4f7b546b38e762a873c92b727488b80e03f00458eba2b3b90c8b9b00f",
+      "datetime": 1789479600,
+      "summary": "PBR receives $434M in diesel subsidy payments, lifting cumulative fuel-program compensation to 9.5B reais as strong earnings add financial support."
+    },
     {
       "headline": "Enbridge Expands U.S. Crude Footprint With $2.55B Tallgrass Deal",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=6fa6531a7a94e8f45d968c2921d04cb63b6ed4ef0cfacee05228910c065c7eab",
       "datetime": 1789172825,
       "summary": "Stocks trading between $10 and $50 can be particularly interesting as they frequently represent businesses that have survived their early challenges. However, investors should remain vigilant as some may still have unproven business models, leaving them vulnerable to the ebbs and flows of the broader market."
-    },
-    {
-      "headline": "Shell Expands PJM Power Exposure With Hunlock Deal, Sells RISEC",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4a947d97fb3f76c75b6d59459f2a287a38b2ab07fad14cb3027c4026a7e05262",
-      "datetime": 1789128840,
-      "summary": "SHEL is reshaping its U.S. power portfolio, acquiring 169 MW in PJM while selling RISEC for $715 million to unlock value."
-    },
-    {
-      "headline": "Oceaneering International, Inc. (OII) Presents at Gabelli Funds' 32nd Aerospace & Defense Symposium - Slideshow",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=218053b0d604479cbecb7eb6dd331c8465a06f8edbb3cfa8fa53e7f3a170a343",
-      "datetime": 1789045326,
-      "summary": "2026-09-10. The following slide deck was published by Oceaneering International, Inc."
     }
   ],
   "filings": [
@@ -125,7 +125,7 @@
     },
     "atr14": {
       "value": 2.13,
-      "pct_of_price": 4.46,
+      "pct_of_price": 4.47,
       "read": "High daily volatility"
     },
     "rel_volume": {

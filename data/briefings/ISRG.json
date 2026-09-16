@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-15T16:57:57.252096-07:00",
+  "generated_at": "2026-09-16T00:10:46.780400-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -85,10 +85,10 @@
   "data_asof": "2026-09-15",
   "price": {
     "last": 377.16,
-    "open": 374.16,
+    "open": 374.54,
     "prev_close": 377.94,
     "move_day_pct": -0.21,
-    "move_open_close_pct": 0.8,
+    "move_open_close_pct": 0.7,
     "move_week_pct": 7.71
   },
   "indicators": {
@@ -129,7 +129,7 @@
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.79,
+      "value": 0.8,
       "read": "Roughly average volume"
     },
     "mfi14": {

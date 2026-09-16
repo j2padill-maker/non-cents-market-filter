@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-15T16:58:00.471470-07:00",
+  "generated_at": "2026-09-16T00:10:47.300043-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "AI Infrastructure Takes A Collective Tumble",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=58d5a3553c4205d186f75ac77a6b5936026c3b7483008e2d00e976600bdb22db",
+      "datetime": 1789521300,
+      "summary": "There was nowhere to hide in our AI infrastructure basket on Monday, with every stock closing lower."
+    },
+    {
+      "headline": "Teradyne Looks Expensive Until You Price The AI Chips It Has Not Tested Yet",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b1df9ee9e0054bde05d44a61d97478900ffb851ae3c670e3dd43f6b49e34cb97",
+      "datetime": 1789517628,
+      "summary": "Teradyne (TER) makes the equipment that tests semiconductors, and AI data centers have remade a business that last peaked on smartphones in 2021. The stock has returned about 185% over the past year. Even after falling about 32% from its 52-week high, it trades at about 41.8 times trailing adjusted earnings, the least useful number on the screen."
+    },
     {
       "headline": "Teradyne India Office Expands Semiconductor Manufacturing Support in Bengaluru",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=8190861566213d6ca8ec87745d555635664648411848f9f0e1e9d3850f7c0b04",
       "datetime": 1789443000,
       "summary": "BENGALURU, India, September 15, 2026--Teradyne announced the opening of an office in India focused on supporting semiconductor manufacturing, located in Bengaluru, Karnataka."
-    },
-    {
-      "headline": "Lattice Semiconductor, Amkor, Himax, Teradyne, and Entegris Stocks Trade Down, What You Need To Know",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=222c437502fa616931e981dfee3500a16529e412d858f43a81388963dea8d565",
-      "datetime": 1789431090,
-      "summary": "A number of stocks fell in the afternoon session after the chief executives of Anthropic, OpenAI, and SpaceX publicly united to call for a deliberate slowdown in the development of frontier AI models over escalating safety risks. According to CNBC, the sell-off was triggered by an essay published over the weekend by Anthropic CEO Dario Amodei, who urged a more cautious approach to frontier model a"
-    },
-    {
-      "headline": "Is Teradyne Stock Asking Too Much Of Its Test Business?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=fe9bdbe4e3cc8cb4d01f677f874953f115b8920d0fe8d06b3bf87927be02af06",
-      "datetime": 1789424384,
-      "summary": "Teradyne (TER) trades at 51.7 times trailing earnings. A multiple that high is a requirement rather than an opinion: the business has to grow into it, and you can work out how much growth that takes. The harder question is whether the calculation deserves your trust when the trailing year has been this unusual."
     }
   ],
   "filings": [
@@ -85,10 +85,10 @@
   "data_asof": "2026-09-15",
   "price": {
     "last": 332.85,
-    "open": 337.88,
+    "open": 337.83,
     "prev_close": 329.2,
     "move_day_pct": 1.11,
-    "move_open_close_pct": -1.49,
+    "move_open_close_pct": -1.47,
     "move_week_pct": -10.54
   },
   "indicators": {
@@ -129,11 +129,11 @@
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.93,
+      "value": 1.04,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 42.0,
+      "value": 41.7,
       "read": "Neutral money flow"
     }
   },

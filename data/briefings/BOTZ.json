@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-15T16:58:02.177283-07:00",
+  "generated_at": "2026-09-16T00:10:47.609039-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Daily ETF Flows: BOTZ Loses $187M",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e3687d934afcaba14ff83b9502376b930b09185c602b805ff039151a0090eb94",
+      "datetime": 1789506004,
+      "summary": "Here are the daily ETF fund flows for September 14, 2026."
+    },
     {
       "headline": "Anthropic And OpenAI: \"Pacing The Frontier\" Or Running Out Of Steps?",
       "source": "SeekingAlpha",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=5bb8a2eae53ced08753007af4c3eb01a575bcf307807411b040ceed083b2c599",
       "datetime": 1789183200,
       "summary": "The FAB 10 and MANGOS equity baskets have garnered attention as investors rotate into frontier tech favorites such as SpaceX, and eye Anthropic and OpenAI\u00e2\u0080\u0099s IPOs. Read more here."
-    },
-    {
-      "headline": "This AI ETF Is Missing the Biggest AI Winners",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8ab2152e7d3cbaffcc7d9bb7ebf52532bf54cde8a2a32434a18db15773c38d2f",
-      "datetime": 1789136400,
-      "summary": "The Global X Robotics & Artificial Intelligence ETF (BOTZ) has fallen more than 8% over five years due to heavy industrial automation exposure, concentration risk, and weak holdings like Tesla and Baidu."
     }
   ],
   "filings": [],

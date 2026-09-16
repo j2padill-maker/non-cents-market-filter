@@ -2,7 +2,7 @@
   "ticker": "TOELF",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-15T16:57:47.130378-07:00",
+  "generated_at": "2026-09-16T00:10:44.634895-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -30,61 +30,61 @@
   "status": "ok",
   "data_asof": "2026-09-15",
   "price": {
-    "last": 326.5,
+    "last": 332.51,
     "open": 326.5,
     "prev_close": 326.03,
-    "move_day_pct": 0.14,
-    "move_open_close_pct": 0.0,
-    "move_week_pct": -11.18
+    "move_day_pct": 1.99,
+    "move_open_close_pct": 1.84,
+    "move_week_pct": -9.55
   },
   "indicators": {
     "rsi14": {
-      "value": 40.9,
+      "value": 43.2,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -7.884,
-      "signal": -7.135,
-      "hist": -0.748,
+      "macd": -7.404,
+      "signal": -7.04,
+      "hist": -0.365,
       "hist_prev": 0.115,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 364.7,
-      "lower": 324.69,
-      "mid": 344.69,
-      "pctb": 0.045,
+      "upper": 364.06,
+      "lower": 325.93,
+      "mid": 344.99,
+      "pctb": 0.173,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 121.7,
-      "read": "122% above its 52-week low"
+      "value": 125.78,
+      "read": "126% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -34.12,
-      "read": "34% below its 52-week high"
+      "value": -32.91,
+      "read": "33% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 308.85,
-      "pct": 5.71,
-      "read": "6% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 308.88,
+      "pct": 7.65,
+      "read": "8% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 23.44,
-      "pct_of_price": 7.18,
+      "value": 24.65,
+      "pct_of_price": 7.41,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.16,
+      "value": 0.41,
       "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 87.4,
+      "value": 87.6,
       "read": "Overbought \u2014 money flowing in"
     }
   },
   "low_52w": 147.27,
   "high_52w": 495.61,
-  "ma50": 369.08,
-  "ma200": 308.85
+  "ma50": 369.2,
+  "ma200": 308.88
 }

@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-15T16:57:58.867179-07:00",
+  "generated_at": "2026-09-16T00:10:47.062166-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -50,13 +50,6 @@
       "url": "https://finnhub.io/api/news?id=5f73935c91fb41d2cce111593ea8f911ced594154ed2beb3e556605422010044",
       "datetime": 1789057740,
       "summary": "SERV faces near-term pressure from weaker revenues and Uber uncertainty, but hospital wins, autonomy gains and new use cases offer growth avenues."
-    },
-    {
-      "headline": "Barclays Maintains Underweight on Symbotic, Lowers Price Target to $38",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=8111b877f726e8fd6f51024885c353ead4b68bc368c211bd77a8d8c7e0682a5b",
-      "datetime": 1788861405,
-      "summary": "Barclays  analyst Guy Hardwick   maintains Symbotic (NASDAQ:SYM) with a Underweight and lowers the price target from $44 to $38."
     }
   ],
   "filings": [
@@ -129,11 +122,11 @@
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.91,
+      "value": 0.94,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 56.4,
+      "value": 56.5,
       "read": "Neutral money flow"
     }
   },
