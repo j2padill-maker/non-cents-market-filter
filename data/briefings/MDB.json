@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-16T00:10:43.730617-07:00",
+  "generated_at": "2026-09-17T00:05:06.776567-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Bolstering its Executive Team, Taktile Welcomes Engineering Powerhouse James Broadhead as CTO",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8e053c1bcd52a38730a6618061a867936d796918bc6108e35b3cdda20959bfb1",
+      "datetime": 1789549200,
+      "summary": "NEW YORK, September 16, 2026--Taktile, the leader in AI transformation for financial institutions, today announced it has hired engineering veteran James Broadhead as its chief technology officer."
+    },
     {
       "headline": "MongoDB, Inc. (MDB) Presents at Piper Sandler 5th Annual Growth Frontiers Conference Transcript",
       "source": "SeekingAlpha",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=13f2a4769bfa370cf875e953bf90894b00784ddacbbb03daf234baa4e2489297",
       "datetime": 1789210800,
       "summary": "Stocks fell this week on oil prices and Fed rate-hike expectations, though Oracle's earnings underscored AI infrastructure strength. MarketBeat analysts recap top stories on earnings, defense, AI, and other stock opportunities."
-    },
-    {
-      "headline": "1 Cash-Heavy Stock on Our Watchlist and 2 We Ignore",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0dd0acabaca59eec3ccfdb072c1118e75b4006d5a7293f482420362ab85e6a34",
-      "datetime": 1789177625,
-      "summary": "A surplus of cash can mean financial stability, but it can also indicate a reluctance (or inability) to invest in growth. Some of these companies also face challenges like stagnating revenue, declining market share, or limited scalability."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-15",
+  "data_asof": "2026-09-16",
   "price": {
-    "last": 377.67,
-    "open": 372.74,
-    "prev_close": 382.29,
-    "move_day_pct": -1.21,
-    "move_open_close_pct": 1.32,
-    "move_week_pct": 6.09
+    "last": 376.34,
+    "open": 372.81,
+    "prev_close": 377.67,
+    "move_day_pct": -0.35,
+    "move_open_close_pct": 0.95,
+    "move_week_pct": 5.01
   },
   "indicators": {
     "rsi14": {
-      "value": 46.8,
+      "value": 46.4,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -5.575,
-      "signal": 1.061,
-      "hist": -6.636,
-      "hist_prev": -8.062,
+      "macd": -5.801,
+      "signal": -0.311,
+      "hist": -5.489,
+      "hist_prev": -6.636,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 466.54,
-      "lower": 338.84,
-      "mid": 402.69,
-      "pctb": 0.304,
+      "upper": 462.85,
+      "lower": 336.71,
+      "mid": 399.78,
+      "pctb": 0.314,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 67.15,
+      "value": 66.56,
       "read": "67% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -20.03,
+      "value": -20.32,
       "read": "20% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 343.56,
-      "pct": 9.93,
-      "read": "10% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 343.81,
+      "pct": 9.46,
+      "read": "9% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 21.47,
-      "pct_of_price": 5.68,
+      "value": 20.95,
+      "pct_of_price": 5.57,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.54,
+      "value": 0.77,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 46.0,
+      "value": 45.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 376.45,
-  "ma200": 343.56
+  "ma50": 376.75,
+  "ma200": 343.81
 }

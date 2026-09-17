@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-16T00:10:47.609039-07:00",
+  "generated_at": "2026-09-17T00:05:09.267545-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -63,63 +63,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-15",
+  "data_asof": "2026-09-16",
   "price": {
-    "last": 34.63,
-    "open": 34.68,
-    "prev_close": 34.76,
-    "move_day_pct": -0.37,
-    "move_open_close_pct": -0.14,
-    "move_week_pct": -2.75
+    "last": 34.72,
+    "open": 34.9,
+    "prev_close": 34.63,
+    "move_day_pct": 0.26,
+    "move_open_close_pct": -0.52,
+    "move_week_pct": -1.31
   },
   "indicators": {
     "rsi14": {
-      "value": 40.0,
+      "value": 41.0,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.382,
-      "signal": -0.274,
-      "hist": -0.108,
-      "hist_prev": -0.099,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -0.399,
+      "signal": -0.299,
+      "hist": -0.1,
+      "hist_prev": -0.108,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 36.63,
-      "lower": 34.53,
-      "mid": 35.58,
-      "pctb": 0.047,
+      "upper": 36.5,
+      "lower": 34.48,
+      "mid": 35.49,
+      "pctb": 0.12,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 8.31,
+      "value": 8.59,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -16.77,
+      "value": -16.56,
       "read": "17% below its 52-week high"
     },
     "price_vs_ma200": {
       "ma200": 36.9,
-      "pct": -6.15,
+      "pct": -5.91,
       "read": "6% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.57,
-      "pct_of_price": 1.65,
+      "value": 0.58,
+      "pct_of_price": 1.68,
       "read": "Calm \u2014 low volatility"
     },
     "rel_volume": {
-      "value": 0.85,
+      "value": 0.8,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 33.6,
+      "value": 38.6,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 31.97,
   "high_52w": 41.61,
-  "ma50": 35.81,
+  "ma50": 35.78,
   "ma200": 36.9
 }

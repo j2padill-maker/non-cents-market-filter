@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-16T00:10:45.374365-07:00",
+  "generated_at": "2026-09-17T00:05:07.901835-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Cloudflare: Time To Take Profits - Renewed Growth Prospects At Hefty Premiums",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=13b6455ff9afbb710d40527d3345f46b4cfd002a3e27e9c21782e49a73d4e12f",
+      "datetime": 1789596209,
+      "summary": "Cloudflare (NET) downgraded to Sell as AI-driven gains face pricey valuation, insider selling & overbought risks. Read here for a detailed analysis."
+    },
+    {
+      "headline": "The Zacks Analyst Blog Highlights S&P Global, Cloudflare, Canadian Natural Resources, Star Group and Hour Loop",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=199142572f59c3550e58e67238313786c122fce86db3540f19abd0bbdf3a8c62",
+      "datetime": 1789552320,
+      "summary": "S&P Global, Cloudflare and Canadian Natural headline today's research, with growth drivers balanced by valuation, execution and market risks."
+    },
+    {
+      "headline": "Cloudflare (NYSE:NET) Clears Minervini Trend Template and High-Growth Momentum Screen, but Setup Quality Is Only 3/10",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=587abcc48b017f56e96753365837b4fd82a72cb754d06d595adddd4bc6255733",
+      "datetime": 1789551050,
+      "summary": "Cloudflare (NET) passes the Minervini Trend Template with strong growth and relative strength, but its extended setup suggests waiting for a pullback."
+    },
     {
       "headline": "What Growth Are You Paying For In Zscaler Stock?",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=da0d1a197d359b8fe09f54940ac34a3c52be3e64c6ca547cec998ea9b8146a5f",
       "datetime": 1789503180,
       "summary": "Cloudflare's enterprise demand, AI-driven adoption and raised 2026 outlook support growth, but margin pressure and competition keep risk balanced."
-    },
-    {
-      "headline": "Cloudflare Hits Highs Amid Agentic AI Boom; Nears Pivot",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=54996b489b145e75ae6d56a8ce5df9ae1e39c6b3151a3277a20b083722b010de",
-      "datetime": 1789493052,
-      "summary": "Cloudflare stock is near an entry at 332.22 after hitting an all-time high on Monday. The cybersecurity name is an IBD stock to watch."
-    },
-    {
-      "headline": "Cloudflare (NET) Gives Websites New Control Over AI Training Access",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2ad475b8218ea62e034ebede6843ddeb0a83b3b40f0c438d7e607f67af62ac86",
-      "datetime": 1789488923,
-      "summary": "Cloudflare (NYSE:NET) introduced new \"Disallow AI Training\" and AI crawler controls for website owners on 15 September 2026. The tools let site operators block AI training on their content while keeping pages indexable for traditional search engines. Cloudflare set criteria for \"Accountable\" crawlers and said it is participating in IETF efforts on open AI access standards. Cloudflare's new \"Disall"
-    },
-    {
-      "headline": "Cloudflare Helps End the Search-or-AI-Training Tradeoff",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=31af626f571a764639c9cfd51914f100af34eb8cbecb6bde72cad6b932a3cad6",
-      "datetime": 1789477500,
-      "summary": "SAN FRANCISCO, September 15, 2026--Cloudflare, Inc. (NYSE: NET), the leading connectivity cloud company, today announced a new Accountable designation for AI crawling. In conjunction with this, Cloudflare launched Disallow AI Training, a setting that lets any website refuse AI training while staying fully in search results. Eleven weeks ago Cloudflare said website owners deserved real control over"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-15",
+  "data_asof": "2026-09-16",
   "price": {
-    "last": 327.23,
-    "open": 322.12,
-    "prev_close": 330.36,
-    "move_day_pct": -0.95,
-    "move_open_close_pct": 1.59,
-    "move_week_pct": 15.1
+    "last": 324.65,
+    "open": 324.02,
+    "prev_close": 327.23,
+    "move_day_pct": -0.79,
+    "move_open_close_pct": 0.19,
+    "move_week_pct": 3.33
   },
   "indicators": {
     "rsi14": {
-      "value": 61.0,
-      "read": "Firm \u2014 approaching overbought"
+      "value": 59.9,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": 8.172,
-      "signal": 4.773,
-      "hist": 3.399,
-      "hist_prev": 2.71,
+      "macd": 9.079,
+      "signal": 5.634,
+      "hist": 3.445,
+      "hist_prev": 3.399,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 328.52,
-      "lower": 263.16,
-      "mid": 295.84,
-      "pctb": 0.98,
+      "upper": 331.96,
+      "lower": 262.04,
+      "mid": 297.0,
+      "pctb": 0.895,
       "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 104.28,
-      "read": "104% above its 52-week low"
+      "value": 102.67,
+      "read": "103% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -1.09,
+      "value": -1.87,
       "read": "At or near its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 225.91,
-      "pct": 44.85,
-      "read": "45% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 226.54,
+      "pct": 43.31,
+      "read": "43% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 17.02,
-      "pct_of_price": 5.2,
+      "value": 16.77,
+      "pct_of_price": 5.16,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.8,
+      "value": 0.64,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 72.8,
+      "value": 67.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 330.83,
-  "ma50": 288.45,
-  "ma200": 225.91
+  "ma50": 289.57,
+  "ma200": 226.54
 }

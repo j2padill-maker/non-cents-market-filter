@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-16T00:10:46.780400-07:00",
+  "generated_at": "2026-09-17T00:05:08.777045-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "ISRG Wins EU Nod to Expand da Vinci SP in Gynecologic Procedures",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=31b7b9378130cf9e9c52a19433ea20bcecd6c59da8e4e6fa8575f09ed3811998",
+      "datetime": 1789573020,
+      "summary": "Intuitive Surgical's CE mark expands da Vinci SP into transvaginal gynecology in Europe, opening a new women's health opportunity and growth runway."
+    },
+    {
+      "headline": "Intuitive Surgical, Inc. (ISRG) is Attracting Investor Attention: Here is What You Should Know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c48741f19108db66d98bbd8cc5c804a5b06c553696a7895c33fe8bbee68616f2",
+      "datetime": 1789563602,
+      "summary": "Recently, Zacks.com users have been paying close attention to Intuitive Surgical (ISRG). This makes it worthwhile to examine what the stock has in store."
+    },
     {
       "headline": "What Is Intuitive Surgical (ISRG) Gaining From Its First CE Mark In Gynecology?",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=408267e76428aa34d8c5479af24cdb4c8a99ee261240330974da156866fdf292",
       "datetime": 1789422604,
       "summary": "In the closing of the recent trading day, Intuitive Surgical, Inc. (ISRG) stood at $377.94, denoting a +2.38% move from the preceding trading day."
-    },
-    {
-      "headline": "Can AI Keep ISRG Ahead of Rising Robotic Surgery Competition?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=da7007a2eef121ee341522a7184dbecb559cae6bfae7ed6c3b45478eb0f5797c",
-      "datetime": 1789411500,
-      "summary": "ISRG is using AI, software, data and advanced instruments to strengthen da Vinci 5 and stay ahead as robotic surgery competition intensifies."
-    },
-    {
-      "headline": "Get Paid To Wait For ISRG Stock To Go On Sale",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e37b9d7890526c4e0caed0883fb19c430e690fbd0d024abedd2bd40733d67921",
-      "datetime": 1789396468,
-      "summary": "Intuitive Surgical (ISRG) trades near $370, about 38% below its 52-week high, after growth in its US robotic-surgery procedures slowed. Selling a put pays you now for agreeing to buy the shares much lower, and you keep the payment either way. The catch is it only works if you would want this business at that price."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-15",
+  "data_asof": "2026-09-16",
   "price": {
-    "last": 377.16,
-    "open": 374.54,
-    "prev_close": 377.94,
-    "move_day_pct": -0.21,
-    "move_open_close_pct": 0.7,
-    "move_week_pct": 7.71
+    "last": 382.29,
+    "open": 378.0,
+    "prev_close": 377.16,
+    "move_day_pct": 1.36,
+    "move_open_close_pct": 1.13,
+    "move_week_pct": 8.22
   },
   "indicators": {
     "rsi14": {
-      "value": 52.6,
+      "value": 55.4,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -3.092,
-      "signal": -4.028,
-      "hist": 0.935,
-      "hist_prev": 0.161,
+      "macd": -1.858,
+      "signal": -3.594,
+      "hist": 1.736,
+      "hist_prev": 0.935,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 393.03,
-      "lower": 351.0,
-      "mid": 372.02,
-      "pctb": 0.622,
+      "upper": 391.28,
+      "lower": 351.86,
+      "mid": 371.57,
+      "pctb": 0.772,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 13.6,
-      "read": "Just off its 52-week low"
+      "value": 15.14,
+      "read": "15% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -36.38,
+      "value": -35.52,
       "read": "36% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 457.89,
-      "pct": -17.63,
-      "read": "18% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 456.93,
+      "pct": -16.34,
+      "read": "16% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 11.87,
-      "pct_of_price": 3.15,
+      "value": 11.75,
+      "pct_of_price": 3.07,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.8,
+      "value": 0.88,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 54.8,
+      "value": 60.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 332.02,
   "high_52w": 592.85,
-  "ma50": 375.38,
-  "ma200": 457.89
+  "ma50": 374.48,
+  "ma200": 456.93
 }

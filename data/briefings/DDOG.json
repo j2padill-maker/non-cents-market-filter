@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-16T00:10:45.044657-07:00",
+  "generated_at": "2026-09-17T00:05:07.753857-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "Datadog's Chief Product Officer Sells 12,700 Shares for $2.8 Million as the Stock Delivers a 59% One-Year Return",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=1de04549b63dd3a4f77f27aaf58e6dccf0fdc6edc9ab61fda4408bd8bda1172f",
+      "datetime": 1789586188,
+      "summary": "The provider of cloud-based monitoring and analytics solutions reported a notable insider sale amid a rising stock price."
+    },
+    {
+      "headline": "Datadog (DDOG) Stock Could Be A Bargain On Cash Flow",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=4a60d6011f127f22ea165784468365b803d5dc6b12edc3e7fe13c09ed190d88b",
+      "datetime": 1789578638,
+      "summary": "Datadog has delivered a powerful share price run in recent years, which puts a spotlight on one core issue for investors. Is the current valuation supported by the cash that the business is expected to generate over time, or has the share price moved ahead of those cash flows? Over the past 3 years, Datadog has returned 150.2%, which makes the link between its share price and its future cash gener"
+    },
+    {
+      "headline": "CSCO's Splunk AI Push Gains Momentum: Can It Outpace DDOG & CRWD?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=04f1a83e928bdae0d528b42a69e8a1b73345ec35e11e120a9227f89611b1b2fc",
+      "datetime": 1789570080,
+      "summary": "Cisco Systems is gaining Splunk momentum with new AI security and observability tools as Datadog and CrowdStrike expand rival capabilities."
+    },
+    {
+      "headline": "Is Analyst Optimism Enough To Justify Datadog\u2019s (DDOG) Premium Valuation In Observability And Security?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=cda489d0a39123fb54785f71a11d72c407c532062cb34cc54545061ebc93bc22",
+      "datetime": 1789557128,
+      "summary": "In recent weeks, Datadog has attracted heightened investor attention as analysts highlight its consistent record of beating consensus revenue and EPS estimates and its current Zacks Rank #3 (Hold) amid modest upward earnings revisions. An interesting angle is that this analyst enthusiasm comes even as Datadog trades at a premium to many software peers, reflecting confidence in its unified, cloud-n"
+    },
+    {
       "headline": "How Is Datadog\u2019s Stock Performance Compared to Other Cloud Computing Stocks",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=6f31dfcd6b38623efe0495b30f5020fc5f976490907888cf7e4987a91d55bb76",
@@ -29,34 +57,6 @@
       "url": "https://finnhub.io/api/news?id=7d7985d61fd9e203631ae06ab6880c5b980769c27a2ecea84272cf3a38c05869",
       "datetime": 1789390804,
       "summary": "Zacks.com users have recently been watching Datadog (DDOG) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects."
-    },
-    {
-      "headline": "Bell Cyber And Radware Announced The Expansion Of Their Partnership With An Enhanced Ai-driven, Cloud\u2011delivered Security Service Designed To Help Organizations Defend Against Increasingly Automated And Sophisticated Cyberattacks",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=c9749e22bdbc424443970f71eb4ba539330e63f89459faf3e519bb5c2b5d034a",
-      "datetime": 1789384068,
-      "summary": ""
-    },
-    {
-      "headline": "French AI boom exposes Europe\u2019s funding gap as startups turn to U.S.",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=1f0038e2413775809c9e593e5c6fbf1d209c97ec31a47451f8e46b47e8e34f76",
-      "datetime": 1789294855,
-      "summary": "Investing.com -- France is producing a growing number of high-value artificial intelligence and technology companies, but their success is also highlighting Europe\u2019s shortage of late-stage capital compared with the U.S., according to Bloomberg."
-    },
-    {
-      "headline": "Datadog Conference: CEO Says AI and Enterprise Growth Are Accelerating",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=608e204dbed3f19078a432e81803dc21b2f7f93180838df51516c0127880138b",
-      "datetime": 1789290118,
-      "summary": "Datadog (NASDAQ:DDOG) CEO and Founder Olivier Pomel said the company is seeing accelerating growth across both AI-focused customers and its broader enterprise customer base as organizations expand cloud and artificial-intelligence deployments. Speaking with Citi enterprise software analyst Fatima B"
-    },
-    {
-      "headline": "Datadog Eyes AI-Powered Predictive Monitoring as Enterprise Cloud Demand Grows",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d3ecaf25ae42cfc2e275389dbd4be83d8f180cb8a4b96b3dc37f7b6425fce8b0",
-      "datetime": 1789272116,
-      "summary": "Datadog (NASDAQ:DDOG) is investing in artificial intelligence capabilities, proprietary models and enterprise sales as it seeks to expand its observability platform\u2019s role in monitoring increasingly complex cloud and AI workloads, Chief Financial Officer David Obstler said during a company session."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-15",
+  "data_asof": "2026-09-16",
   "price": {
-    "last": 230.27,
-    "open": 224.06,
-    "prev_close": 230.05,
-    "move_day_pct": 0.1,
-    "move_open_close_pct": 2.77,
-    "move_week_pct": 9.53
+    "last": 230.79,
+    "open": 229.13,
+    "prev_close": 230.27,
+    "move_day_pct": 0.23,
+    "move_open_close_pct": 0.72,
+    "move_week_pct": 2.45
   },
   "indicators": {
     "rsi14": {
-      "value": 49.3,
+      "value": 49.6,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -5.872,
-      "signal": -7.213,
-      "hist": 1.342,
-      "hist_prev": 0.706,
+      "macd": -5.002,
+      "signal": -6.771,
+      "hist": 1.769,
+      "hist_prev": 1.342,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 247.13,
-      "lower": 206.93,
-      "mid": 227.03,
-      "pctb": 0.581,
+      "upper": 244.5,
+      "lower": 208.03,
+      "mid": 226.27,
+      "pctb": 0.624,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 124.4,
-      "read": "124% above its 52-week low"
+      "value": 124.91,
+      "read": "125% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -20.09,
+      "value": -19.91,
       "read": "20% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 178.13,
-      "pct": 29.27,
+      "ma200": 178.49,
+      "pct": 29.3,
       "read": "29% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 12.27,
-      "pct_of_price": 5.33,
+      "value": 12.1,
+      "pct_of_price": 5.24,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.87,
+      "value": 0.61,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 52.4,
+      "value": 51.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 288.15,
-  "ma50": 245.43,
-  "ma200": 178.13
+  "ma50": 244.91,
+  "ma200": 178.49
 }

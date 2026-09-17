@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-16T00:10:47.300043-07:00",
+  "generated_at": "2026-09-17T00:05:09.090833-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "Teradyne (TER) Advances While Market Declines: Some Information for Investors",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=2c6dc330d873ceb6100127e9df910cea68c2254e20e7f73ccd58e4faef716340",
+      "datetime": 1789596006,
+      "summary": "The latest trading day saw Teradyne (TER) settling at $340.69, representing a +2.36% change from its previous close."
+    },
+    {
+      "headline": "ASX vs. TER: Which AI Semiconductor Stock Should You Buy Right Now?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=224068d520b742aa337d2cb860be82b82479465dca5921713dce90147ca053e4",
+      "datetime": 1789567440,
+      "summary": "Teradyne's AI-driven test growth and stronger earnings momentum give it an edge over ASE Technology's capacity execution and EMS margin risks."
+    },
+    {
+      "headline": "Wondering what's happening in today's S&P500  pre-market session?",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=27e52a5918184ca78e2cf94c89a854e9f18d269c09f0237e3ffbafcb760f0c1c",
+      "datetime": 1789562100,
+      "summary": "Before the opening bell on Wednesday, let's take a glimpse of the US markets and explore the S&P500 top gainers and losers in today's pre-market session."
+    },
+    {
+      "headline": "How Is Teradyne Stock Performance Compared to Other Semiconductor Stocks",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=863108ae7be74747a4c549ae308cad5a8d7b0cb0839b4548f2ad2b1586f27a74",
+      "datetime": 1789559326,
+      "summary": "Teradyne has substantially outperformed its peers over the past year, and analysts remain strongly bullish on the company\u2019s future outlook."
+    },
+    {
       "headline": "AI Infrastructure Takes A Collective Tumble",
       "source": "SeekingAlpha",
       "url": "https://finnhub.io/api/news?id=58d5a3553c4205d186f75ac77a6b5936026c3b7483008e2d00e976600bdb22db",
@@ -29,34 +57,6 @@
       "url": "https://finnhub.io/api/news?id=b1df9ee9e0054bde05d44a61d97478900ffb851ae3c670e3dd43f6b49e34cb97",
       "datetime": 1789517628,
       "summary": "Teradyne (TER) makes the equipment that tests semiconductors, and AI data centers have remade a business that last peaked on smartphones in 2021. The stock has returned about 185% over the past year. Even after falling about 32% from its 52-week high, it trades at about 41.8 times trailing adjusted earnings, the least useful number on the screen."
-    },
-    {
-      "headline": "Teradyne India Office Expands Semiconductor Manufacturing Support in Bengaluru",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6d1fb4d3e89b7d869b9249739cb2ecd1c82de05a0b1d3a92054b18028ca8f5a3",
-      "datetime": 1789483841,
-      "summary": "Teradyne is establishing a permanent semiconductor-focused presence in India as the country expands domestic fabrication, packaging and testing infrastructure. Key Investor TakeawaysTeradyne (NASDAQ:TER) opened a new India office in Bengaluru focused on supporting semiconductor manufacturing customers."
-    },
-    {
-      "headline": "Top Robotics Stocks to Add to Your Portfolio for Impressive Returns",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c9b1ab86e8a93957dca4ae5822d8f4dc93d5f3b974ed04fe27c8cb0e546575f2",
-      "datetime": 1789479840,
-      "summary": "Robotics is poised for robust long-term growth. Consider NVDA, TER, ZBRA and GMED for potential market dominance across sectors."
-    },
-    {
-      "headline": "What's Going On With Teradyne Stock Tuesday?",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=9ab27ac0a3e879ad3c3ece9b909ae6f2a521a534fa0d516c65e99ea6d1cdcf14",
-      "datetime": 1789458338,
-      "summary": "Teradyne (TER) stock gains nearly 2% premarket after a 13.3% drop. Read key support levels and price analysis."
-    },
-    {
-      "headline": "Teradyne Opens Office in India, Deepening Commitment to the Country\u2019s Growing Semiconductor Ecosystem",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8190861566213d6ca8ec87745d555635664648411848f9f0e1e9d3850f7c0b04",
-      "datetime": 1789443000,
-      "summary": "BENGALURU, India, September 15, 2026--Teradyne announced the opening of an office in India focused on supporting semiconductor manufacturing, located in Bengaluru, Karnataka."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-15",
+  "data_asof": "2026-09-16",
   "price": {
-    "last": 332.85,
-    "open": 337.83,
-    "prev_close": 329.2,
-    "move_day_pct": 1.11,
-    "move_open_close_pct": -1.47,
-    "move_week_pct": -10.54
+    "last": 341.15,
+    "open": 340.51,
+    "prev_close": 332.85,
+    "move_day_pct": 2.49,
+    "move_open_close_pct": 0.19,
+    "move_week_pct": -11.09
   },
   "indicators": {
     "rsi14": {
-      "value": 41.6,
+      "value": 44.1,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -7.002,
-      "signal": -4.894,
-      "hist": -2.107,
-      "hist_prev": -0.745,
+      "macd": -7.74,
+      "signal": -5.463,
+      "hist": -2.277,
+      "hist_prev": -2.107,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 401.67,
-      "lower": 323.61,
-      "mid": 362.64,
-      "pctb": 0.118,
-      "read": "Near the lower band"
+      "upper": 394.58,
+      "lower": 324.39,
+      "mid": 359.49,
+      "pctb": 0.239,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 192.72,
-      "read": "193% above its 52-week low"
+      "value": 200.02,
+      "read": "200% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -31.18,
-      "read": "31% below its 52-week high"
+      "value": -29.46,
+      "read": "29% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 322.02,
-      "pct": 3.36,
-      "read": "3% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 322.83,
+      "pct": 5.67,
+      "read": "6% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 22.74,
-      "pct_of_price": 6.83,
+      "value": 22.13,
+      "pct_of_price": 6.49,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.04,
+      "value": 1.0,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 41.7,
+      "value": 48.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 113.71,
   "high_52w": 483.65,
-  "ma50": 363.97,
-  "ma200": 322.02
+  "ma50": 363.93,
+  "ma200": 322.83
 }

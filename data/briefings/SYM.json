@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-16T00:10:47.062166-07:00",
+  "generated_at": "2026-09-17T00:05:08.953077-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Symbotic Has \u2018Plenty\u2019 of Catalysts Ahead, So Why Is This Analyst Slashing the Price Target?",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=57ee2601ddb56f1809f3fbde75e9444eb9cdc92cefb81f97ba910fc68aa9a5c2",
+      "datetime": 1789472575,
+      "summary": "Needham keeps Symbotic at Buy but cuts PT to $60, citing share price underperformance. Catalysts include new customers, backlog repricing."
+    },
     {
       "headline": "Needham Maintains Buy on Symbotic, Lowers Price Target to $60",
       "source": "Benzinga",
@@ -75,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-15",
+  "data_asof": "2026-09-16",
   "price": {
-    "last": 42.77,
-    "open": 41.6,
-    "prev_close": 41.6,
-    "move_day_pct": 2.81,
-    "move_open_close_pct": 2.81,
-    "move_week_pct": -1.22
+    "last": 43.11,
+    "open": 43.21,
+    "prev_close": 42.77,
+    "move_day_pct": 0.79,
+    "move_open_close_pct": -0.23,
+    "move_week_pct": 1.15
   },
   "indicators": {
     "rsi14": {
-      "value": 54.0,
+      "value": 55.1,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 0.089,
-      "signal": -0.158,
-      "hist": 0.247,
-      "hist_prev": 0.211,
+      "macd": 0.193,
+      "signal": -0.088,
+      "hist": 0.281,
+      "hist_prev": 0.247,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 43.71,
-      "lower": 38.66,
-      "mid": 41.18,
-      "pctb": 0.814,
+      "upper": 43.95,
+      "lower": 38.68,
+      "mid": 41.32,
+      "pctb": 0.841,
       "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 11.9,
+      "value": 12.79,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -51.01,
+      "value": -50.62,
       "read": "51% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 52.05,
-      "pct": -17.83,
-      "read": "18% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 51.83,
+      "pct": -16.82,
+      "read": "17% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 1.79,
-      "pct_of_price": 4.18,
+      "value": 1.78,
+      "pct_of_price": 4.13,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.94,
+      "value": 1.23,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 56.5,
+      "value": 58.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 38.22,
   "high_52w": 87.3,
-  "ma50": 41.84,
-  "ma200": 52.05
+  "ma50": 41.87,
+  "ma200": 51.83
 }
