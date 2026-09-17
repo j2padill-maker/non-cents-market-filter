@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-17T00:05:06.776567-07:00",
+  "generated_at": "2026-09-17T16:52:41.432596-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "MongoDB Sees Self-Managed Growth, Expands AI Push Across Atlas and Enterprise",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ac56f20ffca4baec64451ad5fb474d072d4f7f704ec771bb613ea80b22fd1bd3",
+      "datetime": 1789646527,
+      "summary": "MongoDB (NASDAQ:MDB) executives said the company is seeing renewed growth in its self-managed Enterprise Advanced, or EA, business alongside continued investment in its Atlas cloud database platform, positioning the two offerings as complementary growth engines rather than competing products. Durin"
+    },
+    {
+      "headline": "MongoDB (MDB) Payment Benchmark Fuels The Bull Case As Valuation Debate Continues",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8f66b3ab77475438e2c7df920e34f7aa722139c06f9f95cd3e05656962f495c6",
+      "datetime": 1789614864,
+      "summary": "MongoDB (MDB) just put hard numbers behind its pitch for mission-critical financial workloads. A fresh benchmark with Icon Solutions shows MongoDB Atlas handling high-volume instant payments with low latency, fault tolerance and near-linear scaling. MongoDB\u2019s benchmark arrives after a choppy stretch for the shares, with the 30-day share price return down 13.41% even as the 90-day share price retur"
+    },
     {
       "headline": "Bolstering its Executive Team, Taktile Welcomes Engineering Powerhouse James Broadhead as CTO",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=998643c46655717dc78a2daeb47550506b0eb5fb41569eefa2c47a96a58083a4",
       "datetime": 1789369323,
       "summary": "MongoDB (NASDAQ:MDB) CEO CJ Desai outlined the company\u2019s focus on enterprise modernization, AI-native customers and product enhancements during Citi\u2019s TMT Conference, following what he described as a strong fiscal second-quarter report. Desai said MongoDB reported total revenue growth above 30% in"
-    },
-    {
-      "headline": "MongoDB Sees AI, Modernization and Self-Managed Demand Fueling Growth",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9e61084a3e31ce909e9c3ff630a3de4560753ef630ee9426deeaa837ab295318",
-      "datetime": 1789358518,
-      "summary": "MongoDB (NASDAQ:MDB) executives said customer demand for its database platform is being supported by enterprise modernization efforts, AI-related workloads and growing interest in self-managed deployments, while the company works to raise awareness among senior decision-makers. CJ Desai, MongoDB\u2019s"
-    },
-    {
-      "headline": "MarketBeat Week in Review \u2013 09/07 - 09/11",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=13f2a4769bfa370cf875e953bf90894b00784ddacbbb03daf234baa4e2489297",
-      "datetime": 1789210800,
-      "summary": "Stocks fell this week on oil prices and Fed rate-hike expectations, though Oracle's earnings underscored AI infrastructure strength. MarketBeat analysts recap top stories on earnings, defense, AI, and other stock opportunities."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-16",
+  "data_asof": "2026-09-17",
   "price": {
-    "last": 376.34,
-    "open": 372.81,
-    "prev_close": 377.67,
-    "move_day_pct": -0.35,
-    "move_open_close_pct": 0.95,
-    "move_week_pct": 5.01
+    "last": 393.42,
+    "open": 375.92,
+    "prev_close": 376.34,
+    "move_day_pct": 4.54,
+    "move_open_close_pct": 4.66,
+    "move_week_pct": 5.23
   },
   "indicators": {
     "rsi14": {
-      "value": 46.4,
+      "value": 51.2,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -5.801,
-      "signal": -0.311,
-      "hist": -5.489,
-      "hist_prev": -6.636,
+      "macd": -4.548,
+      "signal": -1.159,
+      "hist": -3.39,
+      "hist_prev": -5.489,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 462.85,
-      "lower": 336.71,
-      "mid": 399.78,
-      "pctb": 0.314,
+      "upper": 457.69,
+      "lower": 337.16,
+      "mid": 397.42,
+      "pctb": 0.467,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 66.56,
-      "read": "67% above its 52-week low"
+      "value": 74.12,
+      "read": "74% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -20.32,
-      "read": "20% below its 52-week high"
+      "value": -16.7,
+      "read": "17% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 343.81,
-      "pct": 9.46,
-      "read": "9% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 344.12,
+      "pct": 14.33,
+      "read": "14% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 20.95,
-      "pct_of_price": 5.57,
+      "value": 21.66,
+      "pct_of_price": 5.51,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.77,
+      "value": 0.84,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 45.5,
+      "value": 44.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 376.75,
-  "ma200": 343.81
+  "ma50": 377.43,
+  "ma200": 344.12
 }

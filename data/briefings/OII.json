@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-17T00:05:09.398637-07:00",
+  "generated_at": "2026-09-17T16:52:55.371666-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Transocean Boosts Backlog With New Deepwater Conqueror Deal",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=6fc51a7c4009b5d4c8ea3d50c73e36fb7a12ea75060935810d1ec42927c77a8d",
+      "datetime": 1789648980,
+      "summary": "RIG secures an $80 million Equatorial Guinea deal, keeping Deepwater Conqueror contracted after its Gulf of Mexico assignment ends."
+    },
     {
       "headline": "ENB Restarts Line 5 With Temporary Bypass Following Wisconsin Incident",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=fcc34ed4f7b546b38e762a873c92b727488b80e03f00458eba2b3b90c8b9b00f",
       "datetime": 1789479600,
       "summary": "PBR receives $434M in diesel subsidy payments, lifting cumulative fuel-program compensation to 9.5B reais as strong earnings add financial support."
-    },
-    {
-      "headline": "Enbridge Expands U.S. Crude Footprint With $2.55B Tallgrass Deal",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b245c966bf6589be8c8f772860c24a571581e599bdd9628a6b8890576e30ca9d",
-      "datetime": 1789397340,
-      "summary": "ENB's $2.55 billion Tallgrass deal expands its U.S. Rockies footprint, adds contracted cash flows and strengthens its liquids pipeline network."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-16",
+  "data_asof": "2026-09-17",
   "price": {
-    "last": 46.61,
-    "open": 47.38,
-    "prev_close": 47.68,
-    "move_day_pct": -2.24,
-    "move_open_close_pct": -1.63,
-    "move_week_pct": -3.88
+    "last": 46.2,
+    "open": 47.0,
+    "prev_close": 46.61,
+    "move_day_pct": -0.88,
+    "move_open_close_pct": -1.7,
+    "move_week_pct": -8.64
   },
   "indicators": {
     "rsi14": {
-      "value": 40.9,
-      "read": "Neutral"
+      "value": 39.9,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -0.291,
-      "signal": 0.431,
-      "hist": -0.722,
-      "hist_prev": -0.654,
+      "macd": -0.516,
+      "signal": 0.242,
+      "hist": -0.758,
+      "hist_prev": -0.722,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 54.1,
-      "lower": 46.85,
-      "mid": 50.48,
-      "pctb": -0.034,
+      "upper": 54.08,
+      "lower": 46.23,
+      "mid": 50.15,
+      "pctb": -0.004,
       "read": "Below the lower band \u2014 stretched to the downside"
     },
     "pct_from_52w_low": {
-      "value": 109.95,
-      "read": "110% above its 52-week low"
+      "value": 108.11,
+      "read": "108% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -13.86,
+      "value": -14.62,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 37.39,
-      "pct": 24.66,
-      "read": "25% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 37.5,
+      "pct": 23.2,
+      "read": "23% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 2.13,
-      "pct_of_price": 4.58,
+      "value": 2.09,
+      "pct_of_price": 4.52,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.04,
+      "value": 0.93,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 52.6,
+      "value": 45.2,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 22.2,
   "high_52w": 54.11,
-  "ma50": 48.63,
-  "ma200": 37.39
+  "ma50": 48.73,
+  "ma200": 37.5
 }

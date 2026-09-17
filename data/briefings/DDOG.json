@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-17T00:05:07.753857-07:00",
+  "generated_at": "2026-09-17T16:52:45.407149-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "3 Cybersecurity Stocks With AI Risk Demand Investors Should Watch",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=6f7df24b5446b0701efe8ce505dbb3a3482e5b80f7b128fea1e18c1a99010873",
+      "datetime": 1789639888,
+      "summary": "AI misfires at OpenAI have pushed safety, governance, and cybersecurity from background concern to front-page risk, and that shift creates real consequences for capital. When regulators, boards, and customers start asking harder questions, money often follows the tools that can answer them. This piece walks through three stocks exposed to these AI risk headlines and explains why some investors are"
+    },
+    {
+      "headline": "Baron Technology ETF Q2 2026 Portfolio Activity",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=2060f1dc5634fc9da72bf9ffeb4876ff7a3069d6c509e72a00c7cd9c52e5fa85",
+      "datetime": 1789625880,
+      "summary": "As part of its record-breaking IPO, we acquired shares in Space Exploration Technologies Corp."
+    },
     {
       "headline": "Datadog's Chief Product Officer Sells 12,700 Shares for $2.8 Million as the Stock Delivers a 59% One-Year Return",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=cda489d0a39123fb54785f71a11d72c407c532062cb34cc54545061ebc93bc22",
       "datetime": 1789557128,
       "summary": "In recent weeks, Datadog has attracted heightened investor attention as analysts highlight its consistent record of beating consensus revenue and EPS estimates and its current Zacks Rank #3 (Hold) amid modest upward earnings revisions. An interesting angle is that this analyst enthusiasm comes even as Datadog trades at a premium to many software peers, reflecting confidence in its unified, cloud-n"
-    },
-    {
-      "headline": "How Is Datadog\u2019s Stock Performance Compared to Other Cloud Computing Stocks",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6f31dfcd6b38623efe0495b30f5020fc5f976490907888cf7e4987a91d55bb76",
-      "datetime": 1789476260,
-      "summary": "Datadog has outperformed the technology sector, and analysts remain highly optimistic about the stock\u2019s outlook."
-    },
-    {
-      "headline": "Investors Heavily Search Datadog, Inc. (DDOG): Here is What You Need to Know",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7d7985d61fd9e203631ae06ab6880c5b980769c27a2ecea84272cf3a38c05869",
-      "datetime": 1789390804,
-      "summary": "Zacks.com users have recently been watching Datadog (DDOG) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-16",
+  "data_asof": "2026-09-17",
   "price": {
-    "last": 230.79,
-    "open": 229.13,
-    "prev_close": 230.27,
-    "move_day_pct": 0.23,
-    "move_open_close_pct": 0.72,
-    "move_week_pct": 2.45
+    "last": 236.0,
+    "open": 229.59,
+    "prev_close": 230.79,
+    "move_day_pct": 2.26,
+    "move_open_close_pct": 2.79,
+    "move_week_pct": 6.44
   },
   "indicators": {
     "rsi14": {
-      "value": 49.6,
+      "value": 52.6,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -5.002,
-      "signal": -6.771,
-      "hist": 1.769,
-      "hist_prev": 1.342,
+      "macd": -3.848,
+      "signal": -6.186,
+      "hist": 2.338,
+      "hist_prev": 1.769,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 244.5,
-      "lower": 208.03,
-      "mid": 226.27,
-      "pctb": 0.624,
+      "upper": 244.86,
+      "lower": 207.93,
+      "mid": 226.39,
+      "pctb": 0.76,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 124.91,
-      "read": "125% above its 52-week low"
+      "value": 129.99,
+      "read": "130% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -19.91,
-      "read": "20% below its 52-week high"
+      "value": -18.1,
+      "read": "18% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 178.49,
-      "pct": 29.3,
-      "read": "29% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 178.87,
+      "pct": 31.94,
+      "read": "32% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 12.1,
-      "pct_of_price": 5.24,
+      "value": 12.07,
+      "pct_of_price": 5.12,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.61,
+      "value": 0.62,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 51.3,
+      "value": 49.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 288.15,
-  "ma50": 244.91,
-  "ma200": 178.49
+  "ma50": 244.41,
+  "ma200": 178.87
 }

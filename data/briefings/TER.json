@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-17T00:05:09.090833-07:00",
+  "generated_at": "2026-09-17T16:52:53.053059-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Thursday's pre-market session: top gainers and losers in the S&P500 index",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=79297d4ba8c67746e1ab4669964a024be87599dc02da183ce972a67432a4ae14",
+      "datetime": 1789648501,
+      "summary": "Stay updated with the S&P500 stocks that are on the move in today's pre-market session."
+    },
     {
       "headline": "Teradyne (TER) Advances While Market Declines: Some Information for Investors",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=58d5a3553c4205d186f75ac77a6b5936026c3b7483008e2d00e976600bdb22db",
       "datetime": 1789521300,
       "summary": "There was nowhere to hide in our AI infrastructure basket on Monday, with every stock closing lower."
-    },
-    {
-      "headline": "Teradyne Looks Expensive Until You Price The AI Chips It Has Not Tested Yet",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b1df9ee9e0054bde05d44a61d97478900ffb851ae3c670e3dd43f6b49e34cb97",
-      "datetime": 1789517628,
-      "summary": "Teradyne (TER) makes the equipment that tests semiconductors, and AI data centers have remade a business that last peaked on smartphones in 2021. The stock has returned about 185% over the past year. Even after falling about 32% from its 52-week high, it trades at about 41.8 times trailing adjusted earnings, the least useful number on the screen."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-16",
+  "data_asof": "2026-09-17",
   "price": {
-    "last": 341.15,
-    "open": 340.51,
-    "prev_close": 332.85,
-    "move_day_pct": 2.49,
-    "move_open_close_pct": 0.19,
-    "move_week_pct": -11.09
+    "last": 353.13,
+    "open": 351.11,
+    "prev_close": 341.15,
+    "move_day_pct": 3.51,
+    "move_open_close_pct": 0.58,
+    "move_week_pct": -4.61
   },
   "indicators": {
     "rsi14": {
-      "value": 44.1,
+      "value": 47.6,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -7.74,
-      "signal": -5.463,
-      "hist": -2.277,
-      "hist_prev": -2.107,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -7.275,
+      "signal": -5.826,
+      "hist": -1.449,
+      "hist_prev": -2.277,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 394.58,
-      "lower": 324.39,
-      "mid": 359.49,
-      "pctb": 0.239,
+      "upper": 392.12,
+      "lower": 324.22,
+      "mid": 358.17,
+      "pctb": 0.426,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 200.02,
-      "read": "200% above its 52-week low"
+      "value": 209.49,
+      "read": "209% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -29.46,
-      "read": "29% below its 52-week high"
+      "value": -26.99,
+      "read": "27% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 322.83,
-      "pct": 5.67,
-      "read": "6% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 323.69,
+      "pct": 9.1,
+      "read": "9% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 22.13,
-      "pct_of_price": 6.49,
+      "value": 21.91,
+      "pct_of_price": 6.21,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.0,
+      "value": 1.03,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 48.5,
+      "value": 48.6,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": 113.71,
+  "low_52w": 114.1,
   "high_52w": 483.65,
-  "ma50": 363.93,
-  "ma200": 322.83
+  "ma50": 363.97,
+  "ma200": 323.69
 }

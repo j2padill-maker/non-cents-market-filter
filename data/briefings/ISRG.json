@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-17T00:05:08.777045-07:00",
+  "generated_at": "2026-09-17T16:52:50.547558-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "3 Cash-Heavy Stocks to Research Further",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8f0c7282013984b0eb20339298fda6115088fecae09615502aae3f2553887384",
+      "datetime": 1789630564,
+      "summary": "Companies with more cash than debt often have stronger financial flexibility, making them attractive in uncertain markets. With interest payments less of a worry, these businesses can invest more in growth, innovation, or buybacks and dividends."
+    },
     {
       "headline": "ISRG Wins EU Nod to Expand da Vinci SP in Gynecologic Procedures",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=9bfded3988e69b9c669234f295c0eb3a61e3a97b064c6b64beb8711a02b974da",
       "datetime": 1789437587,
       "summary": "Intuitive Surgical remains a compelling long-term investment, though current valuation still demands strong execution. See why ISRG stock is a Hold."
-    },
-    {
-      "headline": "Intuitive Surgical, Inc. (ISRG) Rises As Market Takes a Dip: Key Facts",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=408267e76428aa34d8c5479af24cdb4c8a99ee261240330974da156866fdf292",
-      "datetime": 1789422604,
-      "summary": "In the closing of the recent trading day, Intuitive Surgical, Inc. (ISRG) stood at $377.94, denoting a +2.38% move from the preceding trading day."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-16",
+  "data_asof": "2026-09-17",
   "price": {
-    "last": 382.29,
-    "open": 378.0,
-    "prev_close": 377.16,
-    "move_day_pct": 1.36,
-    "move_open_close_pct": 1.13,
-    "move_week_pct": 8.22
+    "last": 383.54,
+    "open": 385.01,
+    "prev_close": 382.29,
+    "move_day_pct": 0.33,
+    "move_open_close_pct": -0.38,
+    "move_week_pct": 6.4
   },
   "indicators": {
     "rsi14": {
-      "value": 55.4,
+      "value": 56.1,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -1.858,
-      "signal": -3.594,
-      "hist": 1.736,
-      "hist_prev": 0.935,
+      "macd": -0.77,
+      "signal": -3.029,
+      "hist": 2.259,
+      "hist_prev": 1.736,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 391.28,
-      "lower": 351.86,
-      "mid": 371.57,
-      "pctb": 0.772,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 387.54,
+      "lower": 354.18,
+      "mid": 370.86,
+      "pctb": 0.88,
+      "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 15.14,
-      "read": "15% above its 52-week low"
+      "value": 15.52,
+      "read": "16% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -35.52,
-      "read": "36% below its 52-week high"
+      "value": -35.31,
+      "read": "35% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 456.93,
-      "pct": -16.34,
+      "ma200": 455.98,
+      "pct": -15.89,
       "read": "16% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 11.75,
-      "pct_of_price": 3.07,
+      "value": 11.62,
+      "pct_of_price": 3.03,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.88,
+      "value": 0.99,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 60.8,
+      "value": 67.1,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 332.02,
   "high_52w": 592.85,
-  "ma50": 374.48,
-  "ma200": 456.93
+  "ma50": 373.85,
+  "ma200": 455.98
 }
