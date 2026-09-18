@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-17T16:52:46.800383-07:00",
+  "generated_at": "2026-09-18T00:00:57.368210-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "Rogue's Gallery: The Battle To Keep Bad AI Actors In Check",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=ad2ab6ce77e4ad3ccf57db2ccdbae088e0d72707a9b4ef1a870a6dfe066ecc1c",
+      "datetime": 1789699500,
+      "summary": "Crafty AI agents are learning to slip their digital chains, creating potentially attractive growth opportunities across the cybersecurity sector. Read more here."
+    },
+    {
+      "headline": "Crusoe raises $3.9B to build massive data centers and small modular \u201cAI factories\u201d",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=699af069d03c012fdf2eeb41f5b916dc7845f7fd1a8467782477d00c6067809b",
+      "datetime": 1789687552,
+      "summary": "The round values the data center giant at $30.9 billion."
+    },
+    {
+      "headline": "Cloudflare (NET) Exceeds Market Returns: Some Facts to Consider",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=da1958de1cbab70fbae5b5f38cbcb1df59d6b33a3dd33e6776632295beb32649",
+      "datetime": 1789681804,
+      "summary": "Cloudflare (NET) reached $333.94 at the closing of the latest trading day, reflecting a +2.86% change compared to its last close."
+    },
+    {
+      "headline": "Crusoe Adds Cloudflare CFO Thomas Seifert, Digital Realty Former CEO Bill Stein, and Redwood Materials Founder and CEO JB Straubel to its Board of Directors",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=55f1a6da10b52b1699c18f228e0827da96e89fec16d2b8016113caf16dea14b5",
+      "datetime": 1789668480,
+      "summary": "World-class leaders across cloud, data center, and energy industries join Crusoe\u2019s board as the company scales its vertically-integrated AI infrastructure platformDENVER, Sept. 17, 2026 (GLOBE NEWSWIRE) -- Crusoe, the AI factory company, announced it has appointed three new independent directors to its board: Thomas Seifert, Chief Financial Officer of Cloudflare; Bill Stein, Executive Managing Dir"
+    },
+    {
+      "headline": "3 Market-Beating Stocks with Exciting Potential",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=99314f17d6a2f134e8e0cb150a5888f12d215bf80bedc86328e73a7939f61665",
+      "datetime": 1789648937,
+      "summary": "The best-performing stocks typically have robust sales growth, increasing margins, and rising returns on capital, and those that can maintain this trifecta year in and year out often become the legends of the investing world."
+    },
+    {
       "headline": "Cloudflare: Time To Take Profits - Renewed Growth Prospects At Hefty Premiums",
       "source": "SeekingAlpha",
       "url": "https://finnhub.io/api/news?id=13b6455ff9afbb710d40527d3345f46b4cfd002a3e27e9c21782e49a73d4e12f",
       "datetime": 1789596209,
       "summary": "Cloudflare (NET) downgraded to Sell as AI-driven gains face pricey valuation, insider selling & overbought risks. Read here for a detailed analysis."
-    },
-    {
-      "headline": "The Zacks Analyst Blog Highlights S&P Global, Cloudflare, Canadian Natural Resources, Star Group and Hour Loop",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=199142572f59c3550e58e67238313786c122fce86db3540f19abd0bbdf3a8c62",
-      "datetime": 1789552320,
-      "summary": "S&P Global, Cloudflare and Canadian Natural headline today's research, with growth drivers balanced by valuation, execution and market risks."
-    },
-    {
-      "headline": "Cloudflare (NYSE:NET) Clears Minervini Trend Template and High-Growth Momentum Screen, but Setup Quality Is Only 3/10",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=587abcc48b017f56e96753365837b4fd82a72cb754d06d595adddd4bc6255733",
-      "datetime": 1789551050,
-      "summary": "Cloudflare (NET) passes the Minervini Trend Template with strong growth and relative strength, but its extended setup suggests waiting for a pullback."
-    },
-    {
-      "headline": "What Growth Are You Paying For In Zscaler Stock?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3260977b7b24d29a6b0e5413d5913d62e947c6e2ba0d53a102e71986fb9c652d",
-      "datetime": 1789510807,
-      "summary": "Zscaler (ZS) has gained 48% in three months, yet trades about 43% below its 52-week high. Near $190 it costs 9.3 times sales, against 3.2 for the S&P 500. The question is which growth that price buys: the 25% reported for fiscal 2026, or the roughly 17% guided for fiscal 2027."
-    },
-    {
-      "headline": "What Are You Actually Buying In Cloudflare Stock?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4ffcf372769fba41cfaf6d1e4a26a002c79866ee8281d4b347c8af18772b9922",
-      "datetime": 1789509447,
-      "summary": "Cloudflare (NET) stock has gained about 45% in three months while the S&P 500 returned 2.8%, and sits at the top of its 52-week range. That price is paying for more than the growth: a business Cloudflare has only started to build, charging AI agents for the requests they send."
-    },
-    {
-      "headline": "Top Research Reports for S&P Global, Cloudflare & Canadian Natural",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=da0d1a197d359b8fe09f54940ac34a3c52be3e64c6ca547cec998ea9b8146a5f",
-      "datetime": 1789503180,
-      "summary": "Cloudflare's enterprise demand, AI-driven adoption and raised 2026 outlook support growth, but margin pressure and competition keep risk balanced."
     }
   ],
   "filings": [
@@ -124,8 +124,8 @@
       "read": "47% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 16.91,
-      "pct_of_price": 5.06,
+      "value": 16.92,
+      "pct_of_price": 5.07,
       "read": "High daily volatility"
     },
     "rel_volume": {

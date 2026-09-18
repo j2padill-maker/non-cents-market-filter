@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-17T16:52:54.609256-07:00",
+  "generated_at": "2026-09-18T00:00:58.845059-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -106,7 +106,7 @@
     },
     "atr14": {
       "value": 0.58,
-      "pct_of_price": 1.64,
+      "pct_of_price": 1.65,
       "read": "Calm \u2014 low volatility"
     },
     "rel_volume": {

@@ -2,7 +2,7 @@
   "ticker": "TOELF",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-17T16:52:44.650873-07:00",
+  "generated_at": "2026-09-18T00:00:56.926349-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -15,76 +15,68 @@
     "rel_volume",
     "mfi14"
   ],
-  "news": [
-    {
-      "headline": "Tokyo Electron: Strong Moat And High Growth From Semiconductor Equipment",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=f21661df4562286b9e4035185a3d5645316d6072f8d0977c2e000a0b6cbda65e",
-      "datetime": 1789028534,
-      "summary": "Tokyo Electron commands leading market shares across key semiconductor equipment categories. Check out why TOELY stock is a buy."
-    }
-  ],
+  "news": [],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
   "data_asof": "2026-09-17",
   "price": {
-    "last": 328.79,
-    "open": 328.79,
+    "last": 327.47,
+    "open": 328.75,
     "prev_close": 331.65,
-    "move_day_pct": -0.86,
-    "move_open_close_pct": 0.0,
-    "move_week_pct": -3.68
+    "move_day_pct": -1.26,
+    "move_open_close_pct": -0.39,
+    "move_week_pct": -4.06
   },
   "indicators": {
     "rsi14": {
-      "value": 42.1,
+      "value": 41.7,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -8.314,
-      "signal": -7.422,
-      "hist": -0.892,
+      "macd": -8.419,
+      "signal": -7.443,
+      "hist": -0.976,
       "hist_prev": -0.638,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 364.27,
-      "lower": 322.78,
-      "mid": 343.53,
-      "pctb": 0.145,
+      "upper": 364.4,
+      "lower": 322.52,
+      "mid": 343.46,
+      "pctb": 0.118,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 109.8,
-      "read": "110% above its 52-week low"
+      "value": 108.96,
+      "read": "109% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -33.66,
+      "value": -33.93,
       "read": "34% below its 52-week high"
     },
     "price_vs_ma200": {
       "ma200": 310.15,
-      "pct": 6.01,
+      "pct": 5.58,
       "read": "6% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 22.46,
-      "pct_of_price": 6.83,
+      "value": 22.98,
+      "pct_of_price": 7.02,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.02,
+      "value": 0.18,
       "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 85.5,
+      "value": 84.7,
       "read": "Overbought \u2014 money flowing in"
     }
   },
   "low_52w": 156.72,
   "high_52w": 495.61,
-  "ma50": 365.41,
+  "ma50": 365.38,
   "ma200": 310.15
 }

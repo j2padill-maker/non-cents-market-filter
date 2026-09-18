@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-17T16:52:50.547558-07:00",
+  "generated_at": "2026-09-18T00:00:58.236884-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Should You Buy Medtronic Stock as Its Hugo Surgical Robot Gains Ground?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=4c877d28fb2c88aa74a34b65f6a3dd34d91436994948cfef35b1d27b2acf6303",
+      "datetime": 1789674180,
+      "summary": "The company is in the process of expanding the uses for its Hugo Surgical System and expanding its revenue base."
+    },
+    {
+      "headline": "Is ISRG Stock Really As Expensive As It Looks?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=918317c634d95773a3ef44595f66231fe9121b887305a96d9a1b211c14e235a2",
+      "datetime": 1789672002,
+      "summary": "Intuitive Surgical (ISRG), maker of the da Vinci surgical robots, trades at about $382, some 36% below its 52-week high. Even so, you pay about 35.9 times trailing adjusted earnings. That is normalized net income with stock-based compensation added back, a basis meant to sit closer to the one analysts forecast on, though the two are not defined identically. Analysts' forecasts run to 2027, the yea"
+    },
     {
       "headline": "3 Cash-Heavy Stocks to Research Further",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=5da0481fd4199f848fdbec023c53210f275aa94f2cc6f5b86fad1a5dc186ca18",
       "datetime": 1789496238,
       "summary": "Intuitive Surgical (NasdaqGS:ISRG) received the world's first CE mark for transvaginal gynecologic procedures using its da Vinci SP system. The approval expands the da Vinci SP platform's labeled use in Europe to include transvaginal access for gynecologic surgery. The CE mark positions Intuitive Surgical as an early mover in single port, natural orifice gynecologic procedures in the region. The n"
-    },
-    {
-      "headline": "ISRG's da Vinci Study Shows Better Outcomes Across 13 Common Conditions",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e6db18273990311a74a0f34a7a246676cffd4c2e666850929af728888f6172b8",
-      "datetime": 1789484940,
-      "summary": "Intuitive Surgical's da Vinci meta-analysis across 14 million procedures found better perioperative outcomes versus laparoscopic and open surgery."
-    },
-    {
-      "headline": "Intuitive Surgical: My Sell Case Is Losing Ground (Rating Upgrade)",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=9bfded3988e69b9c669234f295c0eb3a61e3a97b064c6b64beb8711a02b974da",
-      "datetime": 1789437587,
-      "summary": "Intuitive Surgical remains a compelling long-term investment, though current valuation still demands strong execution. See why ISRG stock is a Hold."
     }
   ],
   "filings": [
@@ -85,10 +85,10 @@
   "data_asof": "2026-09-17",
   "price": {
     "last": 383.54,
-    "open": 385.01,
+    "open": 385.57,
     "prev_close": 382.29,
     "move_day_pct": 0.33,
-    "move_open_close_pct": -0.38,
+    "move_open_close_pct": -0.53,
     "move_week_pct": 6.4
   },
   "indicators": {
@@ -129,7 +129,7 @@
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.99,
+      "value": 1.0,
       "read": "Roughly average volume"
     },
     "mfi14": {

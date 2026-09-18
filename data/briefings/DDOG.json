@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-17T16:52:45.407149-07:00",
+  "generated_at": "2026-09-18T00:00:57.190224-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Datadog (DDOG) Outpaces Stock Market Gains: What You Should Know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=4a1e6c09b50ec0ed84f5a6663d1c43e23bab001d46080b964c0af699fdf6ca36",
+      "datetime": 1789681508,
+      "summary": "Datadog (DDOG) concluded the recent trading session at $236, signifying a +2.26% move from its prior day's close."
+    },
+    {
+      "headline": "Datadog's Enterprise Customer Expansion Accelerates: What's Ahead?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=748d6321c344f71cd39f52c0ce8f669986b9aaff6a7c4565895a1a28e557e4f9",
+      "datetime": 1789665780,
+      "summary": "DDOG's enterprise customer growth is accelerating as the adoption of AI-driven observability and security expands across large accounts."
+    },
     {
       "headline": "3 Cybersecurity Stocks With AI Risk Demand Investors Should Watch",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=4a60d6011f127f22ea165784468365b803d5dc6b12edc3e7fe13c09ed190d88b",
       "datetime": 1789578638,
       "summary": "Datadog has delivered a powerful share price run in recent years, which puts a spotlight on one core issue for investors. Is the current valuation supported by the cash that the business is expected to generate over time, or has the share price moved ahead of those cash flows? Over the past 3 years, Datadog has returned 150.2%, which makes the link between its share price and its future cash gener"
-    },
-    {
-      "headline": "CSCO's Splunk AI Push Gains Momentum: Can It Outpace DDOG & CRWD?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=04f1a83e928bdae0d528b42a69e8a1b73345ec35e11e120a9227f89611b1b2fc",
-      "datetime": 1789570080,
-      "summary": "Cisco Systems is gaining Splunk momentum with new AI security and observability tools as Datadog and CrowdStrike expand rival capabilities."
-    },
-    {
-      "headline": "Is Analyst Optimism Enough To Justify Datadog\u2019s (DDOG) Premium Valuation In Observability And Security?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=cda489d0a39123fb54785f71a11d72c407c532062cb34cc54545061ebc93bc22",
-      "datetime": 1789557128,
-      "summary": "In recent weeks, Datadog has attracted heightened investor attention as analysts highlight its consistent record of beating consensus revenue and EPS estimates and its current Zacks Rank #3 (Hold) amid modest upward earnings revisions. An interesting angle is that this analyst enthusiasm comes even as Datadog trades at a premium to many software peers, reflecting confidence in its unified, cloud-n"
     }
   ],
   "filings": [
@@ -85,10 +85,10 @@
   "data_asof": "2026-09-17",
   "price": {
     "last": 236.0,
-    "open": 229.59,
+    "open": 229.62,
     "prev_close": 230.79,
     "move_day_pct": 2.26,
-    "move_open_close_pct": 2.79,
+    "move_open_close_pct": 2.78,
     "move_week_pct": 6.44
   },
   "indicators": {
@@ -129,7 +129,7 @@
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.62,
+      "value": 0.63,
       "read": "Roughly average volume"
     },
     "mfi14": {

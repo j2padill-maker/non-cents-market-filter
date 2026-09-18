@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-17T16:52:48.877369-07:00",
+  "generated_at": "2026-09-18T00:00:58.039636-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -36,13 +36,6 @@
       "url": "https://finnhub.io/api/news?id=7f92e66de16101e7270a9490e22d92722610d8177864c27650013eda0e1675b0",
       "datetime": 1789401112,
       "summary": ""
-    },
-    {
-      "headline": "Nvidia Earnings Put Narrow Robotics Rally to the Test",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=e8ed59ce5c0c6772120fe5becf0cd40a5c92e61ca1284b2895de7d7711952a4a",
-      "datetime": 1789043782,
-      "summary": "Robotics rally narrows as AI, chip test, and machine vision suppliers lead while traditional names lag. Earnings could test this leadership."
     }
   ],
   "filings": [
@@ -71,10 +64,10 @@
   "data_asof": "2026-09-17",
   "price": {
     "last": 60.85,
-    "open": 61.99,
+    "open": 62.0,
     "prev_close": 60.1,
     "move_day_pct": 1.25,
-    "move_open_close_pct": -1.84,
+    "move_open_close_pct": -1.85,
     "move_week_pct": -1.36
   },
   "indicators": {
@@ -115,11 +108,11 @@
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.53,
+      "value": 0.54,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 41.5,
+      "value": 41.6,
       "read": "Neutral money flow"
     }
   },

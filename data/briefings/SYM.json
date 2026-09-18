@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-17T16:52:51.809618-07:00",
+  "generated_at": "2026-09-18T00:00:58.439422-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -50,13 +50,6 @@
       "url": "https://finnhub.io/api/news?id=d03016874ea5eb894aae1ccf513844a92fc56f83dfb0b81a05ebe3f511c1eafe",
       "datetime": 1789130880,
       "summary": "SERV targets $9-$10M in 2026 revenues, as DoorDash growth, advertising and hospital contracts test diversification beyond weaker Uber deliveries."
-    },
-    {
-      "headline": "Serve Robotics Stock Slides 55% YTD: Should You Buy the Dip or Wait?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5f73935c91fb41d2cce111593ea8f911ced594154ed2beb3e556605422010044",
-      "datetime": 1789057740,
-      "summary": "SERV faces near-term pressure from weaker revenues and Uber uncertainty, but hospital wins, autonomy gains and new use cases offer growth avenues."
     }
   ],
   "filings": [
@@ -85,10 +78,10 @@
   "data_asof": "2026-09-17",
   "price": {
     "last": 44.61,
-    "open": 44.56,
+    "open": 44.6,
     "prev_close": 43.11,
     "move_day_pct": 3.48,
-    "move_open_close_pct": 0.11,
+    "move_open_close_pct": 0.02,
     "move_week_pct": 8.54
   },
   "indicators": {
@@ -129,11 +122,11 @@
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.21,
-      "read": "Roughly average volume"
+      "value": 1.37,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 60.4,
+      "value": 61.0,
       "read": "Neutral money flow"
     }
   },
