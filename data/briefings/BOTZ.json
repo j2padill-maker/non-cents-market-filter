@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-19T00:01:06.165962-07:00",
+  "generated_at": "2026-09-19T16:53:27.225073-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "The Next Big Theme: September 2026",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=53c6f69c8b75743ec9a691d1785a5f12386a78695e4bdc7ac4051ab5516225cc",
+      "datetime": 1789818300,
+      "summary": "Data center construction spending increased nearly 60% YoY in July 2026 to surpass a $75 billion annualized pace as AI translates into a major U.S. construction cycle. Read more here."
+    },
+    {
+      "headline": "3 Things - AI, Bond Market And Rate Hikes",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=502019f5b5a7bec34062ea77b8a463261fae28145db012e51eae765138aaabcb",
+      "datetime": 1789803000,
+      "summary": "Personally, I am optimistic about AI, but I am also treating it like a super long-duration asset. So it\u00e2\u0080\u0099s matched to my very longest assets, like a Roth IRA or multi-generational planning."
+    },
+    {
+      "headline": "AI Heads For A Regulatory Future",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=34b99851d301011439c5b5fb3730ef8f9fc806fac8b037cb89b9b270c945526a",
+      "datetime": 1789787700,
+      "summary": "AI is past the point where its potential dangers can be ignored. It needs to be regulated, just like pretty much anything else."
+    },
     {
       "headline": "Investors Look Beyond AI As Market Signals Blur",
       "source": "SeekingAlpha",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=9ac37c55ba71026b3766ee580b0386aca1c024650d8a4509a123dbdff9781b2f",
       "datetime": 1789731300,
       "summary": "AI investment and the resulting forecasts for revenue generation are a source of equity volatility even while helping to drive economic growth and corporate profitability. Read more here."
-    },
-    {
-      "headline": "Daily ETF Flows: BOTZ Loses $187M",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e3687d934afcaba14ff83b9502376b930b09185c602b805ff039151a0090eb94",
-      "datetime": 1789506004,
-      "summary": "Here are the daily ETF fund flows for September 14, 2026."
-    },
-    {
-      "headline": "Anthropic And OpenAI: \"Pacing The Frontier\" Or Running Out Of Steps?",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=1058c90d5f79e6893f5d994db073a8c932b3b9f834b8c9ccc363bf4ea88d4558",
-      "datetime": 1789454964,
-      "summary": "Frontier labs urge \u00e2\u0080\u009cpace the frontier\u00e2\u0080\u009d citing RSI, but evidence says RSI isn\u00e2\u0080\u0099t here."
-    },
-    {
-      "headline": "The Credit Market Lens: One AI Trade For Now, Many Trades Later",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=84d6de5de74bb9740c84d44700294bdca824607dd0dfab397042de510d06bd22",
-      "datetime": 1789445760,
-      "summary": "Is the AI infrastructure buildout one big trade in credit? So far, the market seems to think so."
     }
   ],
   "filings": [],

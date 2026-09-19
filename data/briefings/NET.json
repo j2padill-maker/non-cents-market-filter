@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-19T00:01:04.716189-07:00",
+  "generated_at": "2026-09-19T16:53:17.761048-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -31,6 +31,13 @@
       "summary": "Cloudflare's surging AI-agent traffic, Workers adoption and new monetization tools can help accelerate revenue growth as its market expands."
     },
     {
+      "headline": "Fortinet shares are trading higher after reporting better-than-expected Q4 financial results and Q1 and FY26 outlook. Also, Rosenblatt raised its price target on the stock from $100 to $105.",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=17adf0d15ec4079a9bb0faf5213b615bec6367c802fd3b9c203d6f8ad2dd2679",
+      "datetime": 1789738513,
+      "summary": ""
+    },
+    {
       "headline": "Rogue's Gallery: The Battle To Keep Bad AI Actors In Check",
       "source": "SeekingAlpha",
       "url": "https://finnhub.io/api/news?id=ad2ab6ce77e4ad3ccf57db2ccdbae088e0d72707a9b4ef1a870a6dfe066ecc1c",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=da1958de1cbab70fbae5b5f38cbcb1df59d6b33a3dd33e6776632295beb32649",
       "datetime": 1789681804,
       "summary": "Cloudflare (NET) reached $333.94 at the closing of the latest trading day, reflecting a +2.86% change compared to its last close."
-    },
-    {
-      "headline": "Crusoe Adds Cloudflare CFO Thomas Seifert, Digital Realty Former CEO Bill Stein, and Redwood Materials Founder and CEO JB Straubel to its Board of Directors",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=55f1a6da10b52b1699c18f228e0827da96e89fec16d2b8016113caf16dea14b5",
-      "datetime": 1789668480,
-      "summary": "World-class leaders across cloud, data center, and energy industries join Crusoe\u2019s board as the company scales its vertically-integrated AI infrastructure platformDENVER, Sept. 17, 2026 (GLOBE NEWSWIRE) -- Crusoe, the AI factory company, announced it has appointed three new independent directors to its board: Thomas Seifert, Chief Financial Officer of Cloudflare; Bill Stein, Executive Managing Dir"
     }
   ],
   "filings": [
