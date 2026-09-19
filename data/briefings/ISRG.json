@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-18T00:00:58.236884-07:00",
+  "generated_at": "2026-09-19T00:01:05.610070-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Can Intuitive Surgical Make Up For A Lower Price Per Surgery?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c58323c46e4e01ac4a2633f64ec83187dbc7222d3de7730edc229c70dbce0d1b",
+      "datetime": 1789734826,
+      "summary": "Intuitive Surgical (ISRG) has lost about 12% over the past year, while the S&P 500 returned about 17%. Most of the debate has been about the U.S. procedure growth slowing. The number that should worry a holder more is the money the company collects on the instruments used in each operation. Intuitive plans to lower it."
+    },
     {
       "headline": "Should You Buy Medtronic Stock as Its Hugo Surgical Robot Gains Ground?",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=c48741f19108db66d98bbd8cc5c804a5b06c553696a7895c33fe8bbee68616f2",
       "datetime": 1789563602,
       "summary": "Recently, Zacks.com users have been paying close attention to Intuitive Surgical (ISRG). This makes it worthwhile to examine what the stock has in store."
-    },
-    {
-      "headline": "What Is Intuitive Surgical (ISRG) Gaining From Its First CE Mark In Gynecology?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5da0481fd4199f848fdbec023c53210f275aa94f2cc6f5b86fad1a5dc186ca18",
-      "datetime": 1789496238,
-      "summary": "Intuitive Surgical (NasdaqGS:ISRG) received the world's first CE mark for transvaginal gynecologic procedures using its da Vinci SP system. The approval expands the da Vinci SP platform's labeled use in Europe to include transvaginal access for gynecologic surgery. The CE mark positions Intuitive Surgical as an early mover in single port, natural orifice gynecologic procedures in the region. The n"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-17",
+  "data_asof": "2026-09-18",
   "price": {
-    "last": 383.54,
-    "open": 385.57,
-    "prev_close": 382.29,
-    "move_day_pct": 0.33,
-    "move_open_close_pct": -0.53,
-    "move_week_pct": 6.4
+    "last": 393.33,
+    "open": 381.51,
+    "prev_close": 383.54,
+    "move_day_pct": 2.55,
+    "move_open_close_pct": 3.1,
+    "move_week_pct": 6.55
   },
   "indicators": {
     "rsi14": {
-      "value": 56.1,
-      "read": "Neutral"
+      "value": 61.2,
+      "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": -0.77,
-      "signal": -3.029,
-      "hist": 2.259,
-      "hist_prev": 1.736,
+      "macd": 0.872,
+      "signal": -2.249,
+      "hist": 3.121,
+      "hist_prev": 2.259,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 387.54,
-      "lower": 354.18,
-      "mid": 370.86,
-      "pctb": 0.88,
-      "read": "Near the upper band"
+      "upper": 391.12,
+      "lower": 352.49,
+      "mid": 371.81,
+      "pctb": 1.057,
+      "read": "Above the upper band \u2014 stretched to the upside"
     },
     "pct_from_52w_low": {
-      "value": 15.52,
-      "read": "16% above its 52-week low"
+      "value": 18.47,
+      "read": "18% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -35.31,
-      "read": "35% below its 52-week high"
+      "value": -33.65,
+      "read": "34% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 455.98,
-      "pct": -15.89,
-      "read": "16% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 455.11,
+      "pct": -13.57,
+      "read": "14% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 11.62,
-      "pct_of_price": 3.03,
+      "value": 11.89,
+      "pct_of_price": 3.02,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 1.0,
-      "read": "Roughly average volume"
+      "value": 1.99,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 67.1,
+      "value": 70.2,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 332.02,
   "high_52w": 592.85,
-  "ma50": 373.85,
-  "ma200": 455.98
+  "ma50": 373.49,
+  "ma200": 455.11
 }

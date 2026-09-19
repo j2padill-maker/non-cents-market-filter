@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-18T00:00:57.368210-07:00",
+  "generated_at": "2026-09-19T00:01:04.716189-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "CrowdStrike, HubSpot, Intuit, Cloudflare, and Okta Shares Plummet, What You Need To Know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a7ccc620760612409664501ed50ca07929b9df4574e45d800a2274dbcb314634",
+      "datetime": 1789776040,
+      "summary": "A number of stocks fell in the afternoon session after markets remained volatile during the last trading session of the week, reflecting growing uncertainty, with the broad market retreat erasing the sector's gains from the previous day."
+    },
+    {
+      "headline": "Can Rising Adoption of Agentic AI Accelerate NET's Revenue Growth?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e4daa9848a3d5848af8483c36130a8280345de39e740c9521fbcb783cfaf80fd",
+      "datetime": 1789740360,
+      "summary": "Cloudflare's surging AI-agent traffic, Workers adoption and new monetization tools can help accelerate revenue growth as its market expands."
+    },
     {
       "headline": "Rogue's Gallery: The Battle To Keep Bad AI Actors In Check",
       "source": "SeekingAlpha",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=55f1a6da10b52b1699c18f228e0827da96e89fec16d2b8016113caf16dea14b5",
       "datetime": 1789668480,
       "summary": "World-class leaders across cloud, data center, and energy industries join Crusoe\u2019s board as the company scales its vertically-integrated AI infrastructure platformDENVER, Sept. 17, 2026 (GLOBE NEWSWIRE) -- Crusoe, the AI factory company, announced it has appointed three new independent directors to its board: Thomas Seifert, Chief Financial Officer of Cloudflare; Bill Stein, Executive Managing Dir"
-    },
-    {
-      "headline": "3 Market-Beating Stocks with Exciting Potential",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=99314f17d6a2f134e8e0cb150a5888f12d215bf80bedc86328e73a7939f61665",
-      "datetime": 1789648937,
-      "summary": "The best-performing stocks typically have robust sales growth, increasing margins, and rising returns on capital, and those that can maintain this trifecta year in and year out often become the legends of the investing world."
-    },
-    {
-      "headline": "Cloudflare: Time To Take Profits - Renewed Growth Prospects At Hefty Premiums",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=13b6455ff9afbb710d40527d3345f46b4cfd002a3e27e9c21782e49a73d4e12f",
-      "datetime": 1789596209,
-      "summary": "Cloudflare (NET) downgraded to Sell as AI-driven gains face pricey valuation, insider selling & overbought risks. Read here for a detailed analysis."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-17",
+  "data_asof": "2026-09-18",
   "price": {
-    "last": 333.94,
-    "open": 320.59,
-    "prev_close": 324.65,
-    "move_day_pct": 2.86,
-    "move_open_close_pct": 4.16,
-    "move_week_pct": 7.32
+    "last": 323.6,
+    "open": 338.0,
+    "prev_close": 333.94,
+    "move_day_pct": -3.1,
+    "move_open_close_pct": -4.26,
+    "move_week_pct": 5.57
   },
   "indicators": {
     "rsi14": {
-      "value": 62.6,
-      "read": "Firm \u2014 approaching overbought"
+      "value": 57.9,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": 10.427,
-      "signal": 6.592,
-      "hist": 3.834,
-      "hist_prev": 3.445,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "macd": 10.539,
+      "signal": 7.382,
+      "hist": 3.157,
+      "hist_prev": 3.834,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 337.48,
-      "lower": 260.73,
-      "mid": 299.1,
-      "pctb": 0.954,
-      "read": "Near the upper band"
+      "upper": 339.95,
+      "lower": 262.73,
+      "mid": 301.34,
+      "pctb": 0.788,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 108.46,
-      "read": "108% above its 52-week low"
+      "value": 102.01,
+      "read": "102% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": 0.0,
-      "read": "At or near its 52-week high"
+      "value": -3.1,
+      "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 227.21,
-      "pct": 46.97,
-      "read": "47% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 227.84,
+      "pct": 42.03,
+      "read": "42% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 16.92,
-      "pct_of_price": 5.07,
+      "value": 17.46,
+      "pct_of_price": 5.4,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.79,
+      "value": 1.26,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 66.1,
+      "value": 62.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 333.94,
-  "ma50": 290.78,
-  "ma200": 227.21
+  "ma50": 291.74,
+  "ma200": 227.84
 }

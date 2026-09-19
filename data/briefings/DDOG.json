@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-18T00:00:57.190224-07:00",
+  "generated_at": "2026-09-19T00:01:04.576443-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "PLTR's 110% Commercial Revenue Surge Defines Its Q2 Growth",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ceb8b00e0e3858a4c7ed243d1564cd94cb1918c29fc91cdb817298cd23c9d0fe",
+      "datetime": 1789753800,
+      "summary": "Palantir's Q2 2026 commercial revenue more than doubled to $945 million, outpacing government growth and narrowing the segment gap to just $45 million."
+    },
     {
       "headline": "Datadog (DDOG) Outpaces Stock Market Gains: What You Should Know",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=1de04549b63dd3a4f77f27aaf58e6dccf0fdc6edc9ab61fda4408bd8bda1172f",
       "datetime": 1789586188,
       "summary": "The provider of cloud-based monitoring and analytics solutions reported a notable insider sale amid a rising stock price."
-    },
-    {
-      "headline": "Datadog (DDOG) Stock Could Be A Bargain On Cash Flow",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4a60d6011f127f22ea165784468365b803d5dc6b12edc3e7fe13c09ed190d88b",
-      "datetime": 1789578638,
-      "summary": "Datadog has delivered a powerful share price run in recent years, which puts a spotlight on one core issue for investors. Is the current valuation supported by the cash that the business is expected to generate over time, or has the share price moved ahead of those cash flows? Over the past 3 years, Datadog has returned 150.2%, which makes the link between its share price and its future cash gener"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-17",
+  "data_asof": "2026-09-18",
   "price": {
-    "last": 236.0,
-    "open": 229.62,
-    "prev_close": 230.79,
-    "move_day_pct": 2.26,
-    "move_open_close_pct": 2.78,
-    "move_week_pct": 6.44
+    "last": 229.92,
+    "open": 238.46,
+    "prev_close": 236.0,
+    "move_day_pct": -2.58,
+    "move_open_close_pct": -3.58,
+    "move_week_pct": 3.94
   },
   "indicators": {
     "rsi14": {
-      "value": 52.6,
+      "value": 48.9,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -3.848,
-      "signal": -6.186,
-      "hist": 2.338,
-      "hist_prev": 1.769,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "macd": -3.385,
+      "signal": -5.626,
+      "hist": 2.241,
+      "hist_prev": 2.338,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 244.86,
-      "lower": 207.93,
-      "mid": 226.39,
-      "pctb": 0.76,
+      "upper": 244.58,
+      "lower": 207.94,
+      "mid": 226.26,
+      "pctb": 0.6,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 129.99,
-      "read": "130% above its 52-week low"
+      "value": 124.06,
+      "read": "124% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -18.1,
-      "read": "18% below its 52-week high"
+      "value": -20.21,
+      "read": "20% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 178.87,
-      "pct": 31.94,
-      "read": "32% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 179.23,
+      "pct": 28.28,
+      "read": "28% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 12.07,
-      "pct_of_price": 5.12,
+      "value": 11.95,
+      "pct_of_price": 5.2,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.63,
+      "value": 1.25,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 49.3,
+      "value": 46.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 288.15,
-  "ma50": 244.41,
-  "ma200": 178.87
+  "ma50": 243.63,
+  "ma200": 179.23
 }

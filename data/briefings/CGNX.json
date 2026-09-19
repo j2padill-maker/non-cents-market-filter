@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-18T00:00:58.039636-07:00",
+  "generated_at": "2026-09-19T00:01:05.426732-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -61,63 +61,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-17",
+  "data_asof": "2026-09-18",
   "price": {
-    "last": 60.85,
-    "open": 62.0,
-    "prev_close": 60.1,
-    "move_day_pct": 1.25,
-    "move_open_close_pct": -1.85,
-    "move_week_pct": -1.36
+    "last": 61.56,
+    "open": 61.51,
+    "prev_close": 60.85,
+    "move_day_pct": 1.17,
+    "move_open_close_pct": 0.08,
+    "move_week_pct": -4.14
   },
   "indicators": {
     "rsi14": {
-      "value": 47.7,
+      "value": 49.6,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.621,
-      "signal": -0.628,
-      "hist": 0.007,
-      "hist_prev": -0.022,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": -0.533,
+      "signal": -0.609,
+      "hist": 0.076,
+      "hist_prev": 0.007,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 63.57,
-      "lower": 58.21,
-      "mid": 60.89,
-      "pctb": 0.492,
+      "upper": 63.62,
+      "lower": 58.34,
+      "mid": 60.98,
+      "pctb": 0.61,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 75.6,
-      "read": "76% above its 52-week low"
+      "value": 77.65,
+      "read": "78% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -15.86,
-      "read": "16% below its 52-week high"
+      "value": -14.88,
+      "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 54.39,
-      "pct": 11.88,
-      "read": "12% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 54.51,
+      "pct": 12.93,
+      "read": "13% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 2.43,
-      "pct_of_price": 3.99,
+      "value": 2.33,
+      "pct_of_price": 3.78,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.54,
+      "value": 1.02,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 41.6,
+      "value": 49.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 34.65,
   "high_52w": 72.32,
-  "ma50": 62.78,
-  "ma200": 54.39
+  "ma50": 62.7,
+  "ma200": 54.51
 }

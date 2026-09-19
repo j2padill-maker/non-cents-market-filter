@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-18T00:00:58.639204-07:00",
+  "generated_at": "2026-09-19T00:01:05.960237-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Teradyne (TER) Opens Bengaluru Office To Support India Chip Manufacturing",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=54f761b91283880d4d1885e75419c4551dc7c9833c10a92adf2e4e3251d9d8a0",
+      "datetime": 1789744334,
+      "summary": "Teradyne (NasdaqGS:TER) has opened a new office in Bengaluru, India, to support domestic semiconductor and electronics manufacturing. The Bengaluru site is set up as a local hub for customer engagement, applications support, and technical training for Indian clients. The move aligns with Indian government efforts to expand local semiconductor fabrication and attract manufacturing investment into t"
+    },
+    {
+      "headline": "Goldman Sachs, UnitedHealth And A Tech Stock On CNBC\u2019s \u2018Final Trades\u2019",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=8a458d8d8846ac80b260f069b777c94dd66cc53d3489c9d1130a7301ff20f457",
+      "datetime": 1789722323,
+      "summary": "CNBC Final Trades: Simpson picks UnitedHealth, Ethridge selects Goldman Sachs, and Terranova favors Teradyne after strong earnings."
+    },
     {
       "headline": "SentinelOne, Marvell Technology, FormFactor, Teradyne, and Intel Shares Are Soaring, What You Need To Know",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=224068d520b742aa337d2cb860be82b82479465dca5921713dce90147ca053e4",
       "datetime": 1789567440,
       "summary": "Teradyne's AI-driven test growth and stronger earnings momentum give it an edge over ASE Technology's capacity execution and EMS margin risks."
-    },
-    {
-      "headline": "Wondering what's happening in today's S&P500  pre-market session?",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=27e52a5918184ca78e2cf94c89a854e9f18d269c09f0237e3ffbafcb760f0c1c",
-      "datetime": 1789562100,
-      "summary": "Before the opening bell on Wednesday, let's take a glimpse of the US markets and explore the S&P500 top gainers and losers in today's pre-market session."
-    },
-    {
-      "headline": "How Is Teradyne Stock Performance Compared to Other Semiconductor Stocks",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=863108ae7be74747a4c549ae308cad5a8d7b0cb0839b4548f2ad2b1586f27a74",
-      "datetime": 1789559326,
-      "summary": "Teradyne has substantially outperformed its peers over the past year, and analysts remain strongly bullish on the company\u2019s future outlook."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-17",
+  "data_asof": "2026-09-18",
   "price": {
-    "last": 353.13,
-    "open": 352.86,
-    "prev_close": 341.15,
-    "move_day_pct": 3.51,
-    "move_open_close_pct": 0.08,
-    "move_week_pct": -4.61
+    "last": 371.47,
+    "open": 359.24,
+    "prev_close": 353.13,
+    "move_day_pct": 5.19,
+    "move_open_close_pct": 3.4,
+    "move_week_pct": -2.17
   },
   "indicators": {
     "rsi14": {
-      "value": 47.6,
+      "value": 52.4,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -7.275,
-      "signal": -5.826,
-      "hist": -1.449,
-      "hist_prev": -2.277,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -5.364,
+      "signal": -5.733,
+      "hist": 0.369,
+      "hist_prev": -1.449,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 392.12,
-      "lower": 324.22,
-      "mid": 358.17,
-      "pctb": 0.426,
+      "upper": 390.2,
+      "lower": 324.98,
+      "mid": 357.59,
+      "pctb": 0.713,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 209.49,
-      "read": "209% above its 52-week low"
+      "value": 213.24,
+      "read": "213% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -26.99,
-      "read": "27% below its 52-week high"
+      "value": -23.2,
+      "read": "23% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 323.69,
-      "pct": 9.1,
-      "read": "9% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 324.65,
+      "pct": 14.42,
+      "read": "14% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 21.91,
-      "pct_of_price": 6.21,
+      "value": 21.67,
+      "pct_of_price": 5.83,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.03,
-      "read": "Roughly average volume"
+      "value": 1.67,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 48.6,
+      "value": 58.0,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": 114.1,
+  "low_52w": 118.59,
   "high_52w": 483.65,
-  "ma50": 363.97,
-  "ma200": 323.69
+  "ma50": 364.14,
+  "ma200": 324.65
 }

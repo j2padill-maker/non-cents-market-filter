@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-18T00:00:58.439422-07:00",
+  "generated_at": "2026-09-19T00:01:05.770427-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Symbotic Inc. (SYM) is Attracting Investor Attention: Here is What You Should Know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=021e266409adec3741846ffb08bbc5e2d709fa0f964614acf4dec26f74641fd5",
+      "datetime": 1789736402,
+      "summary": "SYMBOTIC INC (SYM) has received quite a bit of attention from Zacks.com users lately. Therefore, it is wise to be aware of the facts that can impact the stock's prospects."
+    },
     {
       "headline": "Symbotic Has \u2018Plenty\u2019 of Catalysts Ahead, So Why Is This Analyst Slashing the Price Target?",
       "source": "Benzinga",
@@ -36,20 +43,6 @@
       "url": "https://finnhub.io/api/news?id=cdfeced7212ad87a6d6839f0b0e436c906d1661295e81f3a5ec43ef06c4bab15",
       "datetime": 1789393020,
       "summary": "Can Beacon help SERV break restaurant integration barriers and unlock more delivery orders as it expands direct merchant access?"
-    },
-    {
-      "headline": "VNT or SYM: Which Is the Better Value Stock Right Now?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5085e65b0f608511cc8bf41b3ba0385d09ea5b6b356eb4dcfb49171389d9644f",
-      "datetime": 1789141204,
-      "summary": "VNT vs. SYM: Which Stock Is the Better Value Option?"
-    },
-    {
-      "headline": "Can SERV's Revenue Diversification Offset Weaker Uber Deliveries?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d03016874ea5eb894aae1ccf513844a92fc56f83dfb0b81a05ebe3f511c1eafe",
-      "datetime": 1789130880,
-      "summary": "SERV targets $9-$10M in 2026 revenues, as DoorDash growth, advertising and hospital contracts test diversification beyond weaker Uber deliveries."
     }
   ],
   "filings": [
@@ -75,63 +68,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-17",
+  "data_asof": "2026-09-18",
   "price": {
-    "last": 44.61,
-    "open": 44.6,
-    "prev_close": 43.11,
-    "move_day_pct": 3.48,
-    "move_open_close_pct": 0.02,
-    "move_week_pct": 8.54
+    "last": 41.89,
+    "open": 44.7,
+    "prev_close": 44.61,
+    "move_day_pct": -6.1,
+    "move_open_close_pct": -6.29,
+    "move_week_pct": -0.57
   },
   "indicators": {
     "rsi14": {
-      "value": 59.7,
+      "value": 49.8,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 0.391,
-      "signal": 0.008,
-      "hist": 0.383,
-      "hist_prev": 0.281,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "macd": 0.325,
+      "signal": 0.071,
+      "hist": 0.254,
+      "hist_prev": 0.383,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 44.44,
-      "lower": 38.45,
-      "mid": 41.44,
-      "pctb": 1.029,
-      "read": "Above the upper band \u2014 stretched to the upside"
+      "upper": 44.46,
+      "lower": 38.47,
+      "mid": 41.47,
+      "pctb": 0.571,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 16.72,
-      "read": "17% above its 52-week low"
+      "value": 9.6,
+      "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -48.9,
-      "read": "49% below its 52-week high"
+      "value": -52.02,
+      "read": "52% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 51.63,
-      "pct": -13.6,
-      "read": "14% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 51.42,
+      "pct": -18.53,
+      "read": "19% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 1.83,
-      "pct_of_price": 4.1,
+      "value": 1.93,
+      "pct_of_price": 4.61,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.37,
-      "read": "Above-average volume"
+      "value": 2.32,
+      "read": "Heavy volume \u2014 well above average"
     },
     "mfi14": {
-      "value": 61.0,
+      "value": 54.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 38.22,
   "high_52w": 87.3,
-  "ma50": 41.93,
-  "ma200": 51.63
+  "ma50": 41.91,
+  "ma200": 51.42
 }

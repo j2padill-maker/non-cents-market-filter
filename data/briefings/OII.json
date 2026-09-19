@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-18T00:00:58.978331-07:00",
+  "generated_at": "2026-09-19T00:01:06.285825-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "WTI Crude Hovers Around $100: Are Oilfield Stocks a Smart Bet Now?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=235e5490b13c2e2780e41dd16366e4012048b4c1cb847bd8c9cc33e1133a412f",
+      "datetime": 1789738200,
+      "summary": "WTI crude near $100 may bolster oilfield activity, with Baker Hughes and Oceaneering poised to benefit from stronger drilling and offshore demand."
+    },
+    {
+      "headline": "Chord Energy's $550M Marcellus Exit Sharpens Its Williston Focus",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=79297cc784144b99a4065ff1d2d04f92d90a90d043363fa2c999ef5b32c766ad",
+      "datetime": 1789738020,
+      "summary": "CHRD's $550M Marcellus sale sharpens its focus on core Williston Basin assets, lowers leverage and capital spending, and increases oil weighting."
+    },
+    {
+      "headline": "California Resources to Divest Uinta Basin Assets for $90 Million",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=80df200beae2f77eb508a7a93052a37d682dfb17ea7349cbfd008da15fd5942b",
+      "datetime": 1789736040,
+      "summary": "CRC plans to sell its non-core Uinta Basin assets for about $90 million, freeing cash to support its California-focused strategy and capital allocation."
+    },
     {
       "headline": "Transocean Boosts Backlog With New Deepwater Conqueror Deal",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=eff55bea559f73c3c0d6afbd1ff3312b51e4aef0a15d233eb76d6c6eacba64f1",
       "datetime": 1789571527,
       "summary": "Oceaneering International has had a big multi\u2011year run, which puts a spotlight on whether the current share price is still grounded in the cash the business can produce. After such a strong stretch, the key issue for anyone looking at Oceaneering is how today\u2019s valuation lines up with the cash flows that support it. Over the past 5 years the stock has gained about 297.7%, which raises a clear ques"
-    },
-    {
-      "headline": "TechnipFMC Wins PETRONAS Limbayong Deepwater Project Contract",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=dfee503663522eee54e130c03ff7a4622da52a27148150a20e949f15e19034ed",
-      "datetime": 1789568280,
-      "summary": "FTI wins a significant PETRONAS contract for Malaysia's Limbayong project, adding to subsea orders and leveraging its Subsea 2.0 platform."
-    },
-    {
-      "headline": "Shell Strengthens U.S. LNG Position With New MET Supply Deal",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a627276ebacabfe3abe32cfbccb8d944c4128972eb2321f8b62fafadec8c1b4f",
-      "datetime": 1789479840,
-      "summary": "SHEL expands its U.S. to Europe LNG strategy with a multi-year MET deal, strengthening customer ties and tapping rising global demand."
-    },
-    {
-      "headline": "Petrobras Receives $434 Million in New Diesel Subsidy Payments",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=fcc34ed4f7b546b38e762a873c92b727488b80e03f00458eba2b3b90c8b9b00f",
-      "datetime": 1789479600,
-      "summary": "PBR receives $434M in diesel subsidy payments, lifting cumulative fuel-program compensation to 9.5B reais as strong earnings add financial support."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-17",
+  "data_asof": "2026-09-18",
   "price": {
-    "last": 46.2,
-    "open": 47.0,
-    "prev_close": 46.61,
-    "move_day_pct": -0.88,
-    "move_open_close_pct": -1.7,
-    "move_week_pct": -8.64
+    "last": 46.29,
+    "open": 46.15,
+    "prev_close": 46.2,
+    "move_day_pct": 0.19,
+    "move_open_close_pct": 0.3,
+    "move_week_pct": -9.4
   },
   "indicators": {
     "rsi14": {
-      "value": 39.9,
-      "read": "Oversold"
+      "value": 40.2,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": -0.516,
-      "signal": 0.242,
-      "hist": -0.758,
-      "hist_prev": -0.722,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -0.679,
+      "signal": 0.058,
+      "hist": -0.736,
+      "hist_prev": -0.758,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 54.08,
-      "lower": 46.23,
-      "mid": 50.15,
-      "pctb": -0.004,
-      "read": "Below the lower band \u2014 stretched to the downside"
+      "upper": 53.95,
+      "lower": 45.73,
+      "mid": 49.84,
+      "pctb": 0.068,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 108.11,
-      "read": "108% above its 52-week low"
+      "value": 108.51,
+      "read": "109% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -14.62,
+      "value": -14.45,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 37.5,
-      "pct": 23.2,
+      "ma200": 37.61,
+      "pct": 23.08,
       "read": "23% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 2.09,
-      "pct_of_price": 4.53,
+      "value": 2.03,
+      "pct_of_price": 4.4,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.93,
-      "read": "Roughly average volume"
+      "value": 2.93,
+      "read": "Heavy volume \u2014 well above average"
     },
     "mfi14": {
-      "value": 45.2,
+      "value": 34.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 22.2,
   "high_52w": 54.11,
-  "ma50": 48.73,
-  "ma200": 37.5
+  "ma50": 48.85,
+  "ma200": 37.61
 }
