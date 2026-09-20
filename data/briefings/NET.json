@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-20T00:27:23.617657-07:00",
+  "generated_at": "2026-09-20T16:53:55.728168-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Cloudflare\u2019s Insiders Just Sold $44 Million Into the Rally. Here\u2019s What Every Investors Need to Know.",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=dc9330b52d5d256e9717e98d837357250be995c828740ee0b106595f1cfcee91",
+      "datetime": 1789812609,
+      "summary": "Key TakeawaysCloudflare\u2019s Q2 beat and reaccelerating growth (36% revenue growth, 120% net dollar retention, record large customer adds) pushed NET stock to new highs, but the market has already paid up: NTM EV/Revenue sits at 35. 17x, just below its all-time high of 36."
+    },
     {
       "headline": "CrowdStrike, HubSpot, Intuit, Cloudflare, and Okta Shares Plummet, What You Need To Know",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=699af069d03c012fdf2eeb41f5b916dc7845f7fd1a8467782477d00c6067809b",
       "datetime": 1789687552,
       "summary": "The round values the data center giant at $30.9 billion."
-    },
-    {
-      "headline": "Cloudflare (NET) Exceeds Market Returns: Some Facts to Consider",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=da1958de1cbab70fbae5b5f38cbcb1df59d6b33a3dd33e6776632295beb32649",
-      "datetime": 1789681804,
-      "summary": "Cloudflare (NET) reached $333.94 at the closing of the latest trading day, reflecting a +2.86% change compared to its last close."
     }
   ],
   "filings": [

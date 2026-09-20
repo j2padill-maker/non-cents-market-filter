@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-20T00:27:23.278168-07:00",
+  "generated_at": "2026-09-20T16:53:54.255480-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Benzinga's 'Stock Whisper' Index: 5 Stocks Investors Secretly Monitor But Don't Talk About Yet",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=4bc13d28aacf07559b7521a6069c67c953caa7f465fcb527009d36ea2390800c",
+      "datetime": 1789894753,
+      "summary": "The Stock Whisper Index is a market indicator highlighting stocks that are attracting heightened interest from traders and investors during the last week."
+    },
     {
       "headline": "PLTR's 110% Commercial Revenue Surge Defines Its Q2 Growth",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=2060f1dc5634fc9da72bf9ffeb4876ff7a3069d6c509e72a00c7cd9c52e5fa85",
       "datetime": 1789625880,
       "summary": "As part of its record-breaking IPO, we acquired shares in Space Exploration Technologies Corp."
-    },
-    {
-      "headline": "Datadog's Chief Product Officer Sells 12,700 Shares for $2.8 Million as the Stock Delivers a 59% One-Year Return",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=1de04549b63dd3a4f77f27aaf58e6dccf0fdc6edc9ab61fda4408bd8bda1172f",
-      "datetime": 1789586188,
-      "summary": "The provider of cloud-based monitoring and analytics solutions reported a notable insider sale amid a rising stock price."
     }
   ],
   "filings": [
