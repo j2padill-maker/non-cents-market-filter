@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-20T16:53:55.728168-07:00",
+  "generated_at": "2026-09-21T00:34:33.999677-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Cloudflare (NET) Stock Looks Rich After Its Huge Three Year Run",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=fe0cef4756018d33b23a4d97ea43befb7cb5d53bc84ac9c598ab3e24da42f6f3",
+      "datetime": 1789917222,
+      "summary": "Cloudflare has delivered very strong share price gains over the past few years, which puts a spotlight on what investors are now paying for each dollar of its sales. With the stock still tied to expectations for its role in internet security and web performance, the key issue is how that price compares with the revenue the business currently generates. Over the past 3 years the stock has returned "
+    },
     {
       "headline": "Cloudflare\u2019s Insiders Just Sold $44 Million Into the Rally. Here\u2019s What Every Investors Need to Know.",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=ad2ab6ce77e4ad3ccf57db2ccdbae088e0d72707a9b4ef1a870a6dfe066ecc1c",
       "datetime": 1789699500,
       "summary": "Crafty AI agents are learning to slip their digital chains, creating potentially attractive growth opportunities across the cybersecurity sector. Read more here."
-    },
-    {
-      "headline": "Crusoe raises $3.9B to build massive data centers and small modular \u201cAI factories\u201d",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=699af069d03c012fdf2eeb41f5b916dc7845f7fd1a8467782477d00c6067809b",
-      "datetime": 1789687552,
-      "summary": "The round values the data center giant at $30.9 billion."
     }
   ],
   "filings": [

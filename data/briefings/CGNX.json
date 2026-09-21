@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-20T16:53:57.821650-07:00",
+  "generated_at": "2026-09-21T00:34:34.621605-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Cognex Touts AI Vision Growth Across Data Centers, Semis and China",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=2351df451ae9c83ee6fd556c21bed5a8a81ae80c059f78a5d800544bed5c1058",
+      "datetime": 1789970524,
+      "summary": "Cognex (NASDAQ:CGNX) Chief Financial Officer Dennis Fehr said the machine-vision company is pursuing growth across logistics, packaging, semiconductors, electronics and data-center supply chains, supported by artificial intelligence-enabled products, an expanded customer base and operating-efficienc"
+    },
     {
       "headline": "Cognex Corporation (CGNX) Presents at Morgan Stanley's 14th Annual Laguna Conference Transcript",
       "source": "SeekingAlpha",
