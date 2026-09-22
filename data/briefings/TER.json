@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-21T00:34:35.233513-07:00",
+  "generated_at": "2026-09-22T00:10:17.603283-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "Will AI Expansion Drive CEVA's Shares to Further Heights?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=809521725900a51ca59269f17cb40e9079c3c3a58ace2a4356493ef7f5d227d5",
+      "datetime": 1790008860,
+      "summary": "Ceva's LG partnership pairs UWB IP and software with RF technology, targeting faster time to market as global UWB device shipments are projected to surge."
+    },
+    {
+      "headline": "AEHR at 18.59X Sales: Market Loves Its AI Story, But is Love Blind?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=10c9059151a7cacb25502b4804867ae0fbc8a6db1ac052079f11df6a49f7ff02",
+      "datetime": 1790006760,
+      "summary": "Aehr Test Systems' 363% 2026 surge and 18.59X sales multiple reflect AI optimism, but customer concentration and execution risks leave little room for error."
+    },
+    {
+      "headline": "Chip Earnings Wave to Test Whether Semiconductor Rally Broadens Beyond AI Leaders",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=a02b5181684b941f4b10fb982b1d6a1bf143a59c252ba8d582b1ab8dd878184d",
+      "datetime": 1789992373,
+      "summary": "Semiconductor earnings preview: Intel, Analog Devices, Teradyne, Rambus and KLA reveal if chip demand is broadening beyond AI leaders."
+    },
+    {
+      "headline": "3 AI Infrastructure Stocks Retail Investors Are Watching As US China Trade Rules Shift",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=bf219d5451b3ff5e9dcfdd7c6244f98f9708eba6b9f0168d0babf9095c50a4c6",
+      "datetime": 1789971385,
+      "summary": "US and China are suddenly talking about AI guardrails and tariff tweaks, and that mix of risk control and trade recalibration is quietly reshaping expectations for industrials linked to both economies. Investors who ignore that shift risk missing where capital and supply chains might gradually re-route. This article walks through 3 stocks exposed to this news backdrop and explains how each could b"
+    },
+    {
+      "headline": "Teradyne Introduces Iris 100: Production-Proven Test System for MicroLED Devices",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=128f9eb13d937905bf92cd8b9546120d212f43bede20bcca8dcb7b9b7fa51365",
+      "datetime": 1789970400,
+      "summary": "NORTH READING, Mass., September 21, 2026--Teradyne Iris 100 is a production-ready test platform for microLED devices used in optical data interconnects in AI data centers."
+    },
+    {
       "headline": "Teradyne (TER) Opens Bengaluru Office To Support India Chip Manufacturing",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=54f761b91283880d4d1885e75419c4551dc7c9833c10a92adf2e4e3251d9d8a0",
       "datetime": 1789744334,
       "summary": "Teradyne (NasdaqGS:TER) has opened a new office in Bengaluru, India, to support domestic semiconductor and electronics manufacturing. The Bengaluru site is set up as a local hub for customer engagement, applications support, and technical training for Indian clients. The move aligns with Indian government efforts to expand local semiconductor fabrication and attract manufacturing investment into t"
-    },
-    {
-      "headline": "Goldman Sachs, UnitedHealth And A Tech Stock On CNBC\u2019s \u2018Final Trades\u2019",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=8a458d8d8846ac80b260f069b777c94dd66cc53d3489c9d1130a7301ff20f457",
-      "datetime": 1789722323,
-      "summary": "CNBC Final Trades: Simpson picks UnitedHealth, Ethridge selects Goldman Sachs, and Terranova favors Teradyne after strong earnings."
-    },
-    {
-      "headline": "SentinelOne, Marvell Technology, FormFactor, Teradyne, and Intel Shares Are Soaring, What You Need To Know",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ec32d4b972cb9c81180aef2eade52f128eb9cb44d3acf75b164d4f1f1cb01477",
-      "datetime": 1789678697,
-      "summary": "A number of stocks jumped in the afternoon session after Treasury yields retreated below 5% and oil prices declined, sparking a recovery across growth-oriented equities following the Federal Reserve's interest rate increase."
-    },
-    {
-      "headline": "Thursday's pre-market session: top gainers and losers in the S&P500 index",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=79297d4ba8c67746e1ab4669964a024be87599dc02da183ce972a67432a4ae14",
-      "datetime": 1789648501,
-      "summary": "Stay updated with the S&P500 stocks that are on the move in today's pre-market session."
-    },
-    {
-      "headline": "Teradyne (TER) Advances While Market Declines: Some Information for Investors",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2c6dc330d873ceb6100127e9df910cea68c2254e20e7f73ccd58e4faef716340",
-      "datetime": 1789596006,
-      "summary": "The latest trading day saw Teradyne (TER) settling at $340.69, representing a +2.36% change from its previous close."
-    },
-    {
-      "headline": "ASX vs. TER: Which AI Semiconductor Stock Should You Buy Right Now?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=224068d520b742aa337d2cb860be82b82479465dca5921713dce90147ca053e4",
-      "datetime": 1789567440,
-      "summary": "Teradyne's AI-driven test growth and stronger earnings momentum give it an edge over ASE Technology's capacity execution and EMS margin risks."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-18",
+  "data_asof": "2026-09-21",
   "price": {
-    "last": 371.47,
-    "open": 359.24,
-    "prev_close": 353.13,
-    "move_day_pct": 5.19,
-    "move_open_close_pct": 3.4,
-    "move_week_pct": -2.17
+    "last": 381.54,
+    "open": 378.71,
+    "prev_close": 371.47,
+    "move_day_pct": 2.71,
+    "move_open_close_pct": 0.75,
+    "move_week_pct": 15.9
   },
   "indicators": {
     "rsi14": {
-      "value": 52.4,
+      "value": 54.9,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -5.364,
-      "signal": -5.733,
-      "hist": 0.369,
-      "hist_prev": -1.449,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": -3.003,
+      "signal": -5.187,
+      "hist": 2.184,
+      "hist_prev": 0.369,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 390.2,
-      "lower": 324.98,
-      "mid": 357.59,
-      "pctb": 0.713,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 391.25,
+      "lower": 324.53,
+      "mid": 357.89,
+      "pctb": 0.855,
+      "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 213.24,
-      "read": "213% above its 52-week low"
+      "value": 218.96,
+      "read": "219% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -23.2,
-      "read": "23% below its 52-week high"
+      "value": -21.11,
+      "read": "21% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 324.65,
-      "pct": 14.42,
-      "read": "14% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 325.6,
+      "pct": 17.18,
+      "read": "17% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 21.67,
-      "pct_of_price": 5.83,
+      "value": 21.13,
+      "pct_of_price": 5.54,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.67,
+      "value": 1.33,
       "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 58.0,
+      "value": 64.8,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": 118.59,
+  "low_52w": 119.62,
   "high_52w": 483.65,
-  "ma50": 364.14,
-  "ma200": 324.65
+  "ma50": 364.58,
+  "ma200": 325.6
 }

@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-21T00:34:33.999677-07:00",
+  "generated_at": "2026-09-22T00:10:16.175306-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Cloudflare (NET) Shares Skyrocket, What You Need To Know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=648ce08e6b491a5e238568dc26e7471cfc12d94e089a0a7396b818e88b614f6c",
+      "datetime": 1790038465,
+      "summary": "Shares of cloud security and performance company Cloudflare (NYSE:NET) jumped 6.8% in the afternoon session after falling Treasury yields eased pressure on software stocks as signs of cooler U.S.\u2013China tensions lifted risk appetite."
+    },
+    {
+      "headline": "Fastly Soars 14% on AI Firewall Launch; Cloudflare Climbs 7%, Datadog Rises 5%",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c87ba2bbef02171e033314f39bfa63e476ef7467c0163f1dd5f496b2f6888dc5",
+      "datetime": 1790013847,
+      "summary": "Fastly launched new AI traffic controls this morning and the whole edge security category moved with it, including rivals that announced nothing at all. The question buyers are not asking loudly enough is whether availability and adoption are the same thing."
+    },
+    {
+      "headline": "Is It Worth Investing in Cloudflare (NET) Based on Wall Street's Bullish Views?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7a6a3f28478a8a6238f33532cc084033cd0b1f825e4354ee8e7787f4ab3d57ae",
+      "datetime": 1789997403,
+      "summary": "The average brokerage recommendation (ABR) for Cloudflare (NET) is equivalent to a Buy. The overly optimistic recommendations of Wall Street analysts make the effectiveness of this highly sought-after metric questionable. So, is it worth buying the stock?"
+    },
     {
       "headline": "Cloudflare (NET) Stock Looks Rich After Its Huge Three Year Run",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=a7ccc620760612409664501ed50ca07929b9df4574e45d800a2274dbcb314634",
       "datetime": 1789776040,
       "summary": "A number of stocks fell in the afternoon session after markets remained volatile during the last trading session of the week, reflecting growing uncertainty, with the broad market retreat erasing the sector's gains from the previous day."
-    },
-    {
-      "headline": "Can Rising Adoption of Agentic AI Accelerate NET's Revenue Growth?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e4daa9848a3d5848af8483c36130a8280345de39e740c9521fbcb783cfaf80fd",
-      "datetime": 1789740360,
-      "summary": "Cloudflare's surging AI-agent traffic, Workers adoption and new monetization tools can help accelerate revenue growth as its market expands."
-    },
-    {
-      "headline": "Fortinet shares are trading higher after reporting better-than-expected Q4 financial results and Q1 and FY26 outlook. Also, Rosenblatt raised its price target on the stock from $100 to $105.",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=17adf0d15ec4079a9bb0faf5213b615bec6367c802fd3b9c203d6f8ad2dd2679",
-      "datetime": 1789738513,
-      "summary": ""
-    },
-    {
-      "headline": "Rogue's Gallery: The Battle To Keep Bad AI Actors In Check",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=ad2ab6ce77e4ad3ccf57db2ccdbae088e0d72707a9b4ef1a870a6dfe066ecc1c",
-      "datetime": 1789699500,
-      "summary": "Crafty AI agents are learning to slip their digital chains, creating potentially attractive growth opportunities across the cybersecurity sector. Read more here."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-18",
+  "data_asof": "2026-09-21",
   "price": {
-    "last": 323.6,
-    "open": 338.0,
-    "prev_close": 333.94,
-    "move_day_pct": -3.1,
-    "move_open_close_pct": -4.26,
-    "move_week_pct": 5.57
+    "last": 351.67,
+    "open": 327.0,
+    "prev_close": 323.6,
+    "move_day_pct": 8.67,
+    "move_open_close_pct": 7.54,
+    "move_week_pct": 6.45
   },
   "indicators": {
     "rsi14": {
-      "value": 57.9,
-      "read": "Neutral"
+      "value": 65.4,
+      "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 10.539,
-      "signal": 7.382,
-      "hist": 3.157,
-      "hist_prev": 3.834,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": 12.746,
+      "signal": 8.455,
+      "hist": 4.292,
+      "hist_prev": 3.157,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 339.95,
-      "lower": 262.73,
-      "mid": 301.34,
-      "pctb": 0.788,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 348.42,
+      "lower": 260.11,
+      "mid": 304.27,
+      "pctb": 1.037,
+      "read": "Above the upper band \u2014 stretched to the upside"
     },
     "pct_from_52w_low": {
-      "value": 102.01,
-      "read": "102% above its 52-week low"
+      "value": 119.53,
+      "read": "120% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -3.1,
-      "read": "Modestly below its 52-week high"
+      "value": 0.0,
+      "read": "At or near its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 227.84,
-      "pct": 42.03,
-      "read": "42% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 228.6,
+      "pct": 53.84,
+      "read": "54% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 17.46,
-      "pct_of_price": 5.4,
+      "value": 18.4,
+      "pct_of_price": 5.23,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.26,
+      "value": 1.13,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 62.9,
+      "value": 63.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
-  "high_52w": 333.94,
-  "ma50": 291.74,
-  "ma200": 227.84
+  "high_52w": 351.67,
+  "ma50": 293.4,
+  "ma200": 228.6
 }

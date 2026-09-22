@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-21T00:34:33.845045-07:00",
+  "generated_at": "2026-09-22T00:10:16.018888-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Twilio, Datadog, Unity, Zscaler, and Elastic Shares Skyrocket, What You Need To Know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=569213658b77f877d5cce8831cc930e11db01e6e941d6a660296f6feae906515",
+      "datetime": 1790037985,
+      "summary": "A number of stocks jumped in the afternoon session after falling Treasury yields eased pressure on software stocks as signs of cooler U.S.\u2013China tensions lifted risk appetite."
+    },
+    {
+      "headline": "Fastly Soars 14% on AI Firewall Launch; Cloudflare Climbs 7%, Datadog Rises 5%",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c87ba2bbef02171e033314f39bfa63e476ef7467c0163f1dd5f496b2f6888dc5",
+      "datetime": 1790013847,
+      "summary": "Fastly launched new AI traffic controls this morning and the whole edge security category moved with it, including rivals that announced nothing at all. The question buyers are not asking loudly enough is whether availability and adoption are the same thing."
+    },
+    {
+      "headline": "1 S&P 500 Stock for Long-Term Investors and 2 We Find Risky",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=2de2c66789fc4b63017109f22a3d982fc29c20ed7d94bc4f01eec044e5e01247",
+      "datetime": 1789997185,
+      "summary": "While the S&P 500 (^GSPC) includes industry leaders, not every stock in the index is a winner. Some companies are past their prime, weighed down by poor execution, weak financials, or structural headwinds."
+    },
     {
       "headline": "Benzinga's 'Stock Whisper' Index: 5 Stocks Investors Secretly Monitor But Don't Talk About Yet",
       "source": "Benzinga",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=4a1e6c09b50ec0ed84f5a6663d1c43e23bab001d46080b964c0af699fdf6ca36",
       "datetime": 1789681508,
       "summary": "Datadog (DDOG) concluded the recent trading session at $236, signifying a +2.26% move from its prior day's close."
-    },
-    {
-      "headline": "Datadog's Enterprise Customer Expansion Accelerates: What's Ahead?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=748d6321c344f71cd39f52c0ce8f669986b9aaff6a7c4565895a1a28e557e4f9",
-      "datetime": 1789665780,
-      "summary": "DDOG's enterprise customer growth is accelerating as the adoption of AI-driven observability and security expands across large accounts."
-    },
-    {
-      "headline": "3 Cybersecurity Stocks With AI Risk Demand Investors Should Watch",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6f7df24b5446b0701efe8ce505dbb3a3482e5b80f7b128fea1e18c1a99010873",
-      "datetime": 1789639888,
-      "summary": "AI misfires at OpenAI have pushed safety, governance, and cybersecurity from background concern to front-page risk, and that shift creates real consequences for capital. When regulators, boards, and customers start asking harder questions, money often follows the tools that can answer them. This piece walks through three stocks exposed to these AI risk headlines and explains why some investors are"
-    },
-    {
-      "headline": "Baron Technology ETF Q2 2026 Portfolio Activity",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=2060f1dc5634fc9da72bf9ffeb4876ff7a3069d6c509e72a00c7cd9c52e5fa85",
-      "datetime": 1789625880,
-      "summary": "As part of its record-breaking IPO, we acquired shares in Space Exploration Technologies Corp."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-18",
+  "data_asof": "2026-09-21",
   "price": {
-    "last": 229.92,
-    "open": 238.46,
-    "prev_close": 236.0,
-    "move_day_pct": -2.58,
-    "move_open_close_pct": -3.58,
-    "move_week_pct": 3.94
+    "last": 245.05,
+    "open": 229.73,
+    "prev_close": 229.92,
+    "move_day_pct": 6.58,
+    "move_open_close_pct": 6.67,
+    "move_week_pct": 6.52
   },
   "indicators": {
     "rsi14": {
-      "value": 48.9,
+      "value": 57.0,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -3.385,
-      "signal": -5.626,
-      "hist": 2.241,
-      "hist_prev": 2.338,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": -1.777,
+      "signal": -4.856,
+      "hist": 3.079,
+      "hist_prev": 2.241,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 244.58,
-      "lower": 207.94,
-      "mid": 226.26,
-      "pctb": 0.6,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 246.43,
+      "lower": 207.04,
+      "mid": 226.73,
+      "pctb": 0.965,
+      "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 124.06,
-      "read": "124% above its 52-week low"
+      "value": 138.81,
+      "read": "139% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -20.21,
-      "read": "20% below its 52-week high"
+      "value": -14.96,
+      "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 179.23,
-      "pct": 28.28,
-      "read": "28% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 179.67,
+      "pct": 36.39,
+      "read": "36% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 11.95,
-      "pct_of_price": 5.2,
+      "value": 12.42,
+      "pct_of_price": 5.07,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.25,
+      "value": 0.74,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 46.8,
+      "value": 54.1,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 288.15,
-  "ma50": 243.63,
-  "ma200": 179.23
+  "ma50": 243.38,
+  "ma200": 179.67
 }

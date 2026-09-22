@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-21T00:34:35.074830-07:00",
+  "generated_at": "2026-09-22T00:10:17.204755-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -36,13 +36,6 @@
       "url": "https://finnhub.io/api/news?id=61f9c31b2ad2deb8cab8f43158767319aa7c87075676f4bfad84fb1a784ee452",
       "datetime": 1789454375,
       "summary": "Needham  analyst Robert Jamieson   maintains Symbotic (NASDAQ:SYM) with a Buy and lowers the price target from $75 to $60."
-    },
-    {
-      "headline": "Can Serve Robotics' Beacon Overcome Restaurant Integration Barriers?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=cdfeced7212ad87a6d6839f0b0e436c906d1661295e81f3a5ec43ef06c4bab15",
-      "datetime": 1789393020,
-      "summary": "Can Beacon help SERV break restaurant integration barriers and unlock more delivery orders as it expands direct merchant access?"
     }
   ],
   "filings": [
@@ -68,63 +61,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-18",
+  "data_asof": "2026-09-21",
   "price": {
-    "last": 41.89,
-    "open": 44.7,
-    "prev_close": 44.61,
-    "move_day_pct": -6.1,
-    "move_open_close_pct": -6.29,
-    "move_week_pct": -0.57
+    "last": 43.96,
+    "open": 42.42,
+    "prev_close": 41.89,
+    "move_day_pct": 4.94,
+    "move_open_close_pct": 3.63,
+    "move_week_pct": 5.67
   },
   "indicators": {
     "rsi14": {
-      "value": 49.8,
+      "value": 55.8,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 0.325,
-      "signal": 0.071,
-      "hist": 0.254,
-      "hist_prev": 0.383,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": 0.435,
+      "signal": 0.144,
+      "hist": 0.291,
+      "hist_prev": 0.254,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 44.46,
-      "lower": 38.47,
-      "mid": 41.47,
-      "pctb": 0.571,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 44.76,
+      "lower": 38.39,
+      "mid": 41.57,
+      "pctb": 0.874,
+      "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 9.6,
-      "read": "Just off its 52-week low"
+      "value": 15.02,
+      "read": "15% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -52.02,
-      "read": "52% below its 52-week high"
+      "value": -49.64,
+      "read": "50% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 51.42,
-      "pct": -18.53,
-      "read": "19% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 51.3,
+      "pct": -14.31,
+      "read": "14% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 1.93,
-      "pct_of_price": 4.61,
+      "value": 1.95,
+      "pct_of_price": 4.43,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 2.32,
-      "read": "Heavy volume \u2014 well above average"
+      "value": 1.13,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 54.5,
+      "value": 61.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 38.22,
   "high_52w": 87.3,
   "ma50": 41.91,
-  "ma200": 51.42
+  "ma200": 51.3
 }

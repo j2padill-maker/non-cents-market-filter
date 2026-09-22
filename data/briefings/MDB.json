@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-21T00:34:33.056016-07:00",
+  "generated_at": "2026-09-22T00:10:15.300446-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "MongoDB could gain from AI adoption, says BofA",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=22ce394f1a386105b863df7664248710885c4b444220f587e2a18b772dbc26cb",
+      "datetime": 1790012760,
+      "summary": "Bank of America expects MongoDB Inc (NASDAQ:MDB)'s investor day on September 29 to provide a potential catalyst for the shares, with artificial intelligence (AI) adoption metrics and higher long-term targets among the key areas to watch. The broker said quantitative evidence that AI is..."
+    },
+    {
+      "headline": "XYZ's Square Deepens Ideal Nutrition Partnership as Franchise Expands",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b83c22c17a697deb43fe805f4a4ae59087fc525823df4296f32a7b99f529b5d5",
+      "datetime": 1790009820,
+      "summary": "Block's Square expands its Ideal Nutrition partnership as the meal company targets 20 stores by 2026 and explores new markets beyond Florida."
+    },
     {
       "headline": "MongoDB: AI Native Customers Are Lapping Up Its Products",
       "source": "SeekingAlpha",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=a5710817bedc5a69c87a28b1495166ab8f345ea6864f3ebe9251b4d5997dd286",
       "datetime": 1789651803,
       "summary": "Based on the average brokerage recommendation (ABR), MongoDB (MDB) should be added to one's portfolio. Wall Street analysts' overly optimistic recommendations cast doubt on the effectiveness of this highly sought-after metric. So, is the stock worth buying?"
-    },
-    {
-      "headline": "MongoDB Sees Self-Managed Growth, Expands AI Push Across Atlas and Enterprise",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ac56f20ffca4baec64451ad5fb474d072d4f7f704ec771bb613ea80b22fd1bd3",
-      "datetime": 1789646527,
-      "summary": "MongoDB (NASDAQ:MDB) executives said the company is seeing renewed growth in its self-managed Enterprise Advanced, or EA, business alongside continued investment in its Atlas cloud database platform, positioning the two offerings as complementary growth engines rather than competing products. Durin"
-    },
-    {
-      "headline": "MongoDB (MDB) Payment Benchmark Fuels The Bull Case As Valuation Debate Continues",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8f66b3ab77475438e2c7df920e34f7aa722139c06f9f95cd3e05656962f495c6",
-      "datetime": 1789614864,
-      "summary": "MongoDB (MDB) just put hard numbers behind its pitch for mission-critical financial workloads. A fresh benchmark with Icon Solutions shows MongoDB Atlas handling high-volume instant payments with low latency, fault tolerance and near-linear scaling. MongoDB\u2019s benchmark arrives after a choppy stretch for the shares, with the 30-day share price return down 13.41% even as the 90-day share price retur"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-18",
+  "data_asof": "2026-09-21",
   "price": {
-    "last": 383.56,
-    "open": 396.46,
-    "prev_close": 393.42,
-    "move_day_pct": -2.51,
-    "move_open_close_pct": -3.25,
-    "move_week_pct": 5.89
+    "last": 407.3,
+    "open": 386.95,
+    "prev_close": 383.56,
+    "move_day_pct": 6.19,
+    "move_open_close_pct": 5.26,
+    "move_week_pct": 6.54
   },
   "indicators": {
     "rsi14": {
-      "value": 48.5,
+      "value": 54.7,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -4.302,
-      "signal": -1.787,
-      "hist": -2.515,
-      "hist_prev": -3.39,
+      "macd": -2.166,
+      "signal": -1.863,
+      "hist": -0.303,
+      "hist_prev": -2.515,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 455.18,
-      "lower": 335.99,
-      "mid": 395.58,
-      "pctb": 0.399,
+      "upper": 452.07,
+      "lower": 336.75,
+      "mid": 394.41,
+      "pctb": 0.612,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 69.75,
-      "read": "70% above its 52-week low"
+      "value": 80.26,
+      "read": "80% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -18.79,
-      "read": "19% below its 52-week high"
+      "value": -13.76,
+      "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 344.39,
-      "pct": 11.37,
-      "read": "11% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 344.42,
+      "pct": 18.26,
+      "read": "18% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 21.25,
-      "pct_of_price": 5.54,
+      "value": 21.78,
+      "pct_of_price": 5.35,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.7,
+      "value": 0.69,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 40.0,
+      "value": 38.6,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 377.84,
-  "ma200": 344.39
+  "ma50": 379.15,
+  "ma200": 344.42
 }

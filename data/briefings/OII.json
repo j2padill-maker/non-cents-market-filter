@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-21T00:34:35.527500-07:00",
+  "generated_at": "2026-09-22T00:10:17.902942-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "BP Trims Browse Stake as Portfolio Discipline Takes Center Stage",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d58ecb5919a4a626740a644c53a1f09d82bcb822e707499c9e7feb0391ff7278",
+      "datetime": 1790007180,
+      "summary": "BP reduces its Browse Project stake to 34.33%, sharing future investment needs and risk with Osaka Gas while retaining exposure to the development."
+    },
+    {
+      "headline": "Here's Why Investors Should Take a Wait-and-See Approach to NOV Stock",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e02ccc700080da4f42480adadcca8eff3bbf0a3855003218a3d4c49de2f96898",
+      "datetime": 1790002620,
+      "summary": "NOV sees strong subsea demand, record Energy Equipment margins and robust drill pipe bookings, but Middle East risks and weak capital equipment sales remain concerns."
+    },
     {
       "headline": "WTI Crude Hovers Around $100: Are Oilfield Stocks a Smart Bet Now?",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=6fc51a7c4009b5d4c8ea3d50c73e36fb7a12ea75060935810d1ec42927c77a8d",
       "datetime": 1789648980,
       "summary": "RIG secures an $80 million Equatorial Guinea deal, keeping Deepwater Conqueror contracted after its Gulf of Mexico assignment ends."
-    },
-    {
-      "headline": "ENB Restarts Line 5 With Temporary Bypass Following Wisconsin Incident",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ca55c2d888438781ac86b377febe8e95c5bd2b7b8859a0eacf1c83df66c82e42",
-      "datetime": 1789574760,
-      "summary": "Enbridge restores Line 5 through a temporary bypass, limiting disruption and preserving energy flows to Midwest and Great Lakes refineries."
-    },
-    {
-      "headline": "Oceaneering International (OII) Stock May Be Reasonable Despite Cash Flow Questions",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=eff55bea559f73c3c0d6afbd1ff3312b51e4aef0a15d233eb76d6c6eacba64f1",
-      "datetime": 1789571527,
-      "summary": "Oceaneering International has had a big multi\u2011year run, which puts a spotlight on whether the current share price is still grounded in the cash the business can produce. After such a strong stretch, the key issue for anyone looking at Oceaneering is how today\u2019s valuation lines up with the cash flows that support it. Over the past 5 years the stock has gained about 297.7%, which raises a clear ques"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-18",
+  "data_asof": "2026-09-21",
   "price": {
-    "last": 46.29,
-    "open": 46.15,
-    "prev_close": 46.2,
-    "move_day_pct": 0.19,
-    "move_open_close_pct": 0.3,
-    "move_week_pct": -9.4
+    "last": 45.93,
+    "open": 46.26,
+    "prev_close": 46.29,
+    "move_day_pct": -0.78,
+    "move_open_close_pct": -0.71,
+    "move_week_pct": -1.35
   },
   "indicators": {
     "rsi14": {
-      "value": 40.2,
-      "read": "Neutral"
+      "value": 39.2,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -0.679,
-      "signal": 0.058,
-      "hist": -0.736,
-      "hist_prev": -0.758,
+      "macd": -0.827,
+      "signal": -0.119,
+      "hist": -0.708,
+      "hist_prev": -0.736,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 53.95,
-      "lower": 45.73,
-      "mid": 49.84,
-      "pctb": 0.068,
+      "upper": 53.67,
+      "lower": 45.31,
+      "mid": 49.49,
+      "pctb": 0.074,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 108.51,
-      "read": "109% above its 52-week low"
+      "value": 106.89,
+      "read": "107% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -14.45,
-      "read": "Modestly below its 52-week high"
+      "value": -15.12,
+      "read": "15% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 37.61,
-      "pct": 23.08,
-      "read": "23% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 37.72,
+      "pct": 21.77,
+      "read": "22% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 2.03,
-      "pct_of_price": 4.4,
+      "value": 1.97,
+      "pct_of_price": 4.3,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 2.93,
-      "read": "Heavy volume \u2014 well above average"
+      "value": 0.95,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 34.5,
+      "value": 27.6,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 22.2,
   "high_52w": 54.11,
-  "ma50": 48.85,
-  "ma200": 37.61
+  "ma50": 48.92,
+  "ma200": 37.72
 }
