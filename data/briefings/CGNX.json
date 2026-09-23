@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-22T00:10:16.806774-07:00",
+  "generated_at": "2026-09-23T00:06:17.896329-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,28 +17,55 @@
   ],
   "news": [
     {
-      "headline": "Cognex Touts AI Vision Growth Across Data Centers, Semis and China",
+      "headline": "Cognex Acquires RealSense for $500M to Expand Robotic Vision Platform",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2351df451ae9c83ee6fd556c21bed5a8a81ae80c059f78a5d800544bed5c1058",
-      "datetime": 1789970524,
-      "summary": "Cognex (NASDAQ:CGNX) Chief Financial Officer Dennis Fehr said the machine-vision company is pursuing growth across logistics, packaging, semiconductors, electronics and data-center supply chains, supported by artificial intelligence-enabled products, an expanded customer base and operating-efficienc"
+      "url": "https://finnhub.io/api/news?id=08f1eadcb3d6ba856da8dc082148fdd58e3f46dbe78bf166831828f2471686b0",
+      "datetime": 1790100152,
+      "summary": "Cognex (NASDAQ:CGNX) said it has entered into a definitive agreement to acquire RealSense, a provider of depth-sensing cameras and vision technology used in robotic perception and physical AI applications. The transaction is intended to expand Cognex\u2019s machine-vision portfolio into 3D depth percept"
     },
     {
-      "headline": "Cognex Corporation (CGNX) Presents at Morgan Stanley's 14th Annual Laguna Conference Transcript",
+      "headline": "Cognex Corporation (CGNX) M&A Call Transcript",
       "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=d070350d0947b23b8bf11fc7ab00da99ab60eb705da063560a5429993a158395",
-      "datetime": 1789572097,
-      "summary": "Cognex Corporation (CGNX) Morgan Stanley's 14th Annual Laguna Conference September 16, 2026 10:45 AM EDTCompany ParticipantsDennis Fehr - Senior VP of..."
+      "url": "https://finnhub.io/api/news?id=021c3edb8d59242b3e0f2bbf9371067efce7c5b02255c0d8c0c8580392b0b434",
+      "datetime": 1790080787,
+      "summary": "Cognex Corporation (CGNX) M&A Call September 22, 2026 8:00 AM EDTCompany ParticipantsGreer Aviv - Head of Investor RelationsMatt Moschner - President,..."
     },
     {
-      "headline": "Needham Reiterates Buy on Cognex, Maintains $80 Price Target",
+      "headline": "Cognex Corporation (CGNX) RealSense, Inc. - M&A Call - Slideshow",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=784bcbcdb5d8d65a238a1197873aa8581aeebbf13c7db61d7e51f257ae3966d8",
+      "datetime": 1790080422,
+      "summary": "2026-09-22. The following slide deck was published by Cognex Corporation in conjunction with this event."
+    },
+    {
+      "headline": "Cognex to Acquire RealSense, Expanding Machine Vision Leadership into High-Growth Robotic Perception Market",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=93e494d779fa4f1d52e125a83abc0392a8e6f07f43b8ea9c83bedbc996146d50",
+      "datetime": 1790074800,
+      "summary": "Cognex Corporation (NASDAQ: CGNX), the global technology leader in industrial machine vision, today announced that it has entered into a definitive agreement to acquire RealSense, the market leader in depth-sensing cameras and vision technology for robotic perception and Physical AI. The acquisition advances Cognex's strategy to diversify its growth engine by entering the robotic perception market"
+    },
+    {
+      "headline": "Cognex Expects To Grant Restricted Stock Units Valued At ~$50M Under Its Existing 2023 Stock Option And Incentive Plan Dependent On Grant-Date Share Price",
       "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=aed295bf48c6c45277d259dc9c911916792d5f0220a99e84009cdc72af05e6ba",
-      "datetime": 1789453985,
-      "summary": "Needham  analyst Robert Jamieson   reiterates Cognex (NASDAQ:CGNX) with a Buy and maintains $80 price target."
+      "url": "https://finnhub.io/api/news?id=2f13c238f488e8c9ce92b23d92689c3dda858154eaceea8142e19e59ae4d9408",
+      "datetime": 1790060891,
+      "summary": "Under the terms of the agreement, Cognex will acquire RealSense for approximately $500 million, financed entirely from existing cash and investments on its balance sheet. Cognex also expects to provide a three-year"
+    },
+    {
+      "headline": "Cognex Expects To Provide 3-Yr $56.5M Cash Retention Program At Target For RealSense Employees",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=e8a070a31eabd198b06325de9099b16db84510987ccc08d07184108e9c406a07",
+      "datetime": 1790060805,
+      "summary": "Under the terms of the agreement, Cognex will acquire RealSense for approximately $500 million, financed entirely from existing cash and investments on its balance sheet. Cognex also expects to provide a three-year"
     }
   ],
   "filings": [
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-09-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/851205/000085120526000071/cgnx-20260922.htm"
+    },
     {
       "form": "10-Q",
       "title": "Quarterly report (10-Q)",
@@ -50,12 +77,6 @@
       "title": "Material event (8-K)",
       "date": "2026-08-05",
       "url": "https://www.sec.gov/Archives/edgar/data/851205/000085120526000061/cgnx-20260805.htm"
-    },
-    {
-      "form": "10-Q",
-      "title": "Quarterly report (10-Q)",
-      "date": "2026-05-07",
-      "url": "https://www.sec.gov/Archives/edgar/data/851205/000085120526000040/cgnx-20260405.htm"
     }
   ],
   "script_text": null,

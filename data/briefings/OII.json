@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-22T00:10:17.902942-07:00",
+  "generated_at": "2026-09-23T00:06:19.318506-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "3 Underfollowed Stocks To Own In September 2026",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=6061fcb922aeb1e1a7a6c3e305413ea159322bc0135edceacc5d7e622c08a557",
+      "datetime": 1790101111,
+      "summary": "AI optimism has just pushed the Nasdaq 100 close to record territory, reminding investors how quickly capital can shift when a new theme catches fire. Big funds are crowding into the obvious large caps. That leaves smaller, financially solid businesses with far less attention. This article highlights three underfollowed high quality US stocks from a curated screener that may appeal to investors lo"
+    },
+    {
+      "headline": "CLB Declines 35% in the Past Six Months: How to Play the Stock?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=555c1457ff3fc7a43d90776be725fdbc528ef6d15abbffa9404c79aeacc348c2",
+      "datetime": 1790088240,
+      "summary": "Core Laboratories' 35.1% six-month slide contrasts with stronger Production Enhancement trends and offshore recovery potential amid geopolitical risks."
+    },
+    {
+      "headline": "TC Energy to Divest Guadalajara-Manzanillo Pipeline for $400M",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a4e07c06868431a1e86b976d67665fb33a80d1d28eeec2c4b9c391c34a56702b",
+      "datetime": 1790087100,
+      "summary": "TRP is selling a Mexican pipeline for $400 million, creating capital flexibility while retaining a substantial network in the country."
+    },
+    {
+      "headline": "Is Montauk Renewables (MNTK) Outperforming Other Oils-Energy Stocks This Year?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a7afe21a01941131a954cfceb9b0a1f94ae4124b35b6f8aec67a6ea118d67d62",
+      "datetime": 1790084404,
+      "summary": "Here is how Montauk Renewables (MNTK) and Oceaneering International (OII) have performed compared to their sector so far this year."
+    },
+    {
       "headline": "BP Trims Browse Stake as Portfolio Discipline Takes Center Stage",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=d58ecb5919a4a626740a644c53a1f09d82bcb822e707499c9e7feb0391ff7278",
@@ -29,34 +57,6 @@
       "url": "https://finnhub.io/api/news?id=e02ccc700080da4f42480adadcca8eff3bbf0a3855003218a3d4c49de2f96898",
       "datetime": 1790002620,
       "summary": "NOV sees strong subsea demand, record Energy Equipment margins and robust drill pipe bookings, but Middle East risks and weak capital equipment sales remain concerns."
-    },
-    {
-      "headline": "WTI Crude Hovers Around $100: Are Oilfield Stocks a Smart Bet Now?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=235e5490b13c2e2780e41dd16366e4012048b4c1cb847bd8c9cc33e1133a412f",
-      "datetime": 1789738200,
-      "summary": "WTI crude near $100 may bolster oilfield activity, with Baker Hughes and Oceaneering poised to benefit from stronger drilling and offshore demand."
-    },
-    {
-      "headline": "Chord Energy's $550M Marcellus Exit Sharpens Its Williston Focus",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=79297cc784144b99a4065ff1d2d04f92d90a90d043363fa2c999ef5b32c766ad",
-      "datetime": 1789738020,
-      "summary": "CHRD's $550M Marcellus sale sharpens its focus on core Williston Basin assets, lowers leverage and capital spending, and increases oil weighting."
-    },
-    {
-      "headline": "California Resources to Divest Uinta Basin Assets for $90 Million",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=80df200beae2f77eb508a7a93052a37d682dfb17ea7349cbfd008da15fd5942b",
-      "datetime": 1789736040,
-      "summary": "CRC plans to sell its non-core Uinta Basin assets for about $90 million, freeing cash to support its California-focused strategy and capital allocation."
-    },
-    {
-      "headline": "Transocean Boosts Backlog With New Deepwater Conqueror Deal",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6fc51a7c4009b5d4c8ea3d50c73e36fb7a12ea75060935810d1ec42927c77a8d",
-      "datetime": 1789648980,
-      "summary": "RIG secures an $80 million Equatorial Guinea deal, keeping Deepwater Conqueror contracted after its Gulf of Mexico assignment ends."
     }
   ],
   "filings": [

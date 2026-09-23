@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-22T00:10:17.204755-07:00",
+  "generated_at": "2026-09-23T00:06:18.464565-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,25 +17,32 @@
   ],
   "news": [
     {
+      "headline": "Symbotic (SYM) Stock May Be 45% Undervalued On Future Cash Flow",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8fb046de3f6511e07794dad778013798f6f319f89cf5580eb936274aa44f4253",
+      "datetime": 1790115105,
+      "summary": "Symbotic has delivered very strong long term gains for shareholders, yet the current US$43.96 share price still comes back to a simple issue: whether the cash the business can generate justifies where the stock trades today. The stock is up 348.6% over 5 years, which puts a lot of weight on the question of how much future cash flow the business can realistically support. Symbotic\u2019s model of automa"
+    },
+    {
+      "headline": "Move Over, Tesla: This Robotics Stock Already Has Paying Customers",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a6389586e5166e95a049a9b57a79ef5d4b5aa02792c3df86453f2446db5914ce",
+      "datetime": 1790078940,
+      "summary": "Symbotic is a robotics pure play, already in the commercialization stage."
+    },
+    {
+      "headline": "September Stagnation Marked By Record-Low Yields, High Duration Risk And High Valuations",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=74a295e0272eaa2289eae1407bd3c1768cb42f9d93519bf8ed4fefe16a90a4ab",
+      "datetime": 1790060700,
+      "summary": "Over the first nine months of 2026, we have witnessed a fascinating macro paradox: a surging US stock market decoupling completely from the bond market. Read more here..."
+    },
+    {
       "headline": "Symbotic Inc. (SYM) is Attracting Investor Attention: Here is What You Should Know",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=021e266409adec3741846ffb08bbc5e2d709fa0f964614acf4dec26f74641fd5",
       "datetime": 1789736402,
       "summary": "SYMBOTIC INC (SYM) has received quite a bit of attention from Zacks.com users lately. Therefore, it is wise to be aware of the facts that can impact the stock's prospects."
-    },
-    {
-      "headline": "Symbotic Has \u2018Plenty\u2019 of Catalysts Ahead, So Why Is This Analyst Slashing the Price Target?",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=57ee2601ddb56f1809f3fbde75e9444eb9cdc92cefb81f97ba910fc68aa9a5c2",
-      "datetime": 1789472575,
-      "summary": "Needham keeps Symbotic at Buy but cuts PT to $60, citing share price underperformance. Catalysts include new customers, backlog repricing."
-    },
-    {
-      "headline": "Needham Maintains Buy on Symbotic, Lowers Price Target to $60",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=61f9c31b2ad2deb8cab8f43158767319aa7c87075676f4bfad84fb1a784ee452",
-      "datetime": 1789454375,
-      "summary": "Needham  analyst Robert Jamieson   maintains Symbotic (NASDAQ:SYM) with a Buy and lowers the price target from $75 to $60."
     }
   ],
   "filings": [

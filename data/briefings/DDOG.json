@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-22T00:10:16.018888-07:00",
+  "generated_at": "2026-09-23T00:06:17.062304-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Fortinet vs. Datadog: Which Cloud Security Stock Has Better Potential?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f16ed58f7dc8e9167b834eae8c747deeb30860a17de8aca8a3aa75acfa683b26",
+      "datetime": 1790081760,
+      "summary": "FTNT pairs faster billings growth, robust cash flow and a lower valuation, while DDOG delivers stronger revenue growth but faces near-term customer pressure."
+    },
+    {
+      "headline": "Uber, Micron, Datadog And A Health Care Stock: CNBC\u2019s \u2018Final Trades\u2019",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=33d3e603020776730115e4c06caa345f3d3448040618317b139fd1a87e1903b2",
+      "datetime": 1790065454,
+      "summary": "CNBC\u2019s Final Trades featured Uber, Micron, Natera and Datadog, with analysts citing bullish views and all four stocks posting gains."
+    },
     {
       "headline": "Twilio, Datadog, Unity, Zscaler, and Elastic Shares Skyrocket, What You Need To Know",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=4bc13d28aacf07559b7521a6069c67c953caa7f465fcb527009d36ea2390800c",
       "datetime": 1789894753,
       "summary": "The Stock Whisper Index is a market indicator highlighting stocks that are attracting heightened interest from traders and investors during the last week."
-    },
-    {
-      "headline": "PLTR's 110% Commercial Revenue Surge Defines Its Q2 Growth",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ceb8b00e0e3858a4c7ed243d1564cd94cb1918c29fc91cdb817298cd23c9d0fe",
-      "datetime": 1789753800,
-      "summary": "Palantir's Q2 2026 commercial revenue more than doubled to $945 million, outpacing government growth and narrowing the segment gap to just $45 million."
-    },
-    {
-      "headline": "Datadog (DDOG) Outpaces Stock Market Gains: What You Should Know",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4a1e6c09b50ec0ed84f5a6663d1c43e23bab001d46080b964c0af699fdf6ca36",
-      "datetime": 1789681508,
-      "summary": "Datadog (DDOG) concluded the recent trading session at $236, signifying a +2.26% move from its prior day's close."
     }
   ],
   "filings": [

@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-22T00:10:16.985121-07:00",
+  "generated_at": "2026-09-23T00:06:18.169371-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "2 Beaten-Down Stocks to Buy Before They Bounce Back",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=fb76524347cfdc1ab2fb3ea777aff307de9ba5e06fe46ad736aaa240fc36a7cb",
+      "datetime": 1790117581,
+      "summary": "The market may be underestimating these companies."
+    },
+    {
+      "headline": "Why Intuitive Surgical (ISRG) Is Up 6.5% After New da Vinci SP Transvaginal Approval \u2013 And What's Next",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f2fd9069c94664beb7b327f6b64a59d003c2300b4a7575009f5c3a404c86648b",
+      "datetime": 1790090174,
+      "summary": "Earlier this month, Intuitive Surgical received CE mark approval for using its da Vinci SP single-port robotic system in transvaginal gynecologic procedures, adding to its existing approvals for a range of endoscopic and natural-orifice surgeries across Europe. This world's-first indication for the SP platform deepens Intuitive\u2019s position in minimally invasive, scarless surgery by broadening its c"
+    },
+    {
+      "headline": "1 S&P 500 Stock with Exciting Potential and 2 We Ignore",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=fee18e15306034892ca3afc97a697bf829ff2cdb7ca4328b001fb8a29035682e",
+      "datetime": 1790066266,
+      "summary": "While the S&P 500 (^GSPC) includes industry leaders, not every stock in the index is a winner. Some companies are past their prime, weighed down by poor execution, weak financials, or structural headwinds."
+    },
     {
       "headline": "Abbott Laboratories vs. Intuitive Surgical: Recent Quarterly Revenue Trends Reveal a Classic Investing Truth",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=59dda8078a45a12151b3610719dd5ca94d272073b562dca557b4c4d3d847917e",
       "datetime": 1790006820,
       "summary": "Intuitive Surgical is expanding robotic surgery in ASCs with lower-cost XiR systems, opening access to new customers and outpatient procedures."
-    },
-    {
-      "headline": "How Far Could ISRG Stock Bounce From Here?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9814c2e340f5ed70c2135541fc1ae4a50134f61b233f0f9fc7e3036367dc9339",
-      "datetime": 1790003146,
-      "summary": "Intuitive Surgical (ISRG) stock could climb 23.9% to the April high it last fell back from, and you would risk about 5% to find out. That looks like a surgical-robot leader on sale, but the price history disagrees. Over the last two years, none of its visits to this price range turned into a 20% gain before a 5% drop."
-    },
-    {
-      "headline": "Can Intuitive Surgical Make Up For A Lower Price Per Surgery?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c58323c46e4e01ac4a2633f64ec83187dbc7222d3de7730edc229c70dbce0d1b",
-      "datetime": 1789734826,
-      "summary": "Intuitive Surgical (ISRG) has lost about 12% over the past year, while the S&P 500 returned about 17%. Most of the debate has been about the U.S. procedure growth slowing. The number that should worry a holder more is the money the company collects on the instruments used in each operation. Intuitive plans to lower it."
-    },
-    {
-      "headline": "Should You Buy Medtronic Stock as Its Hugo Surgical Robot Gains Ground?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4c877d28fb2c88aa74a34b65f6a3dd34d91436994948cfef35b1d27b2acf6303",
-      "datetime": 1789674180,
-      "summary": "The company is in the process of expanding the uses for its Hugo Surgical System and expanding its revenue base."
     }
   ],
   "filings": [

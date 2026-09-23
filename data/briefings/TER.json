@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-22T00:10:17.603283-07:00",
+  "generated_at": "2026-09-23T00:06:18.747931-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Power Integrations, Penguin Solutions, Photronics, Amkor, and Teradyne Shares Are Soaring, What You Need To Know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d7bf5948a48e6dd0012e8fbfb21014cad4845f669022b9a0e6aa98889e7a6598",
+      "datetime": 1790113306,
+      "summary": "A number of stocks jumped in the afternoon session after growing optimism surrounding agentic artificial intelligence and Meta Platforms' Muse application fueled expectations of higher demand for central processing units."
+    },
+    {
+      "headline": "Teradyne Partners With GS Microelectronics On New Semiconductor Test Center \u2014 Targets AI, Silicon Photonics And Auto Chips",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c9c439960bc73e3317f95b3f0d5acf9ad522944464783eca2dffaf2a682dbcff",
+      "datetime": 1790097203,
+      "summary": "The multi-year partnership gives chip developers access to Teradyne\u2019s advanced test systems as increasingly complex AI and next-generation semiconductor designs require more intensive evaluation before production."
+    },
+    {
+      "headline": "GSME and Teradyne Announce Strategic Partnership",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e95a1ee9883f7371698bee6f62d1fe1491d57291b0ca23d97372c893afaf7ee3",
+      "datetime": 1790092800,
+      "summary": "GS Microelectronics U.S., Inc. (GSME), a fast-growing semiconductor solutions provider, and Teradyne, Inc. (NASDAQ: TER), a leading provider of automated test equipment and advanced robotics, today announced a multi\u2011year strategic partnership to establish a state\u2011of\u2011the\u2011art semiconductor test and evaluation center designed to accelerate customer time\u2011to\u2011market. The collaboration integrates GSME's "
+    },
     {
       "headline": "Will AI Expansion Drive CEVA's Shares to Further Heights?",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=a02b5181684b941f4b10fb982b1d6a1bf143a59c252ba8d582b1ab8dd878184d",
       "datetime": 1789992373,
       "summary": "Semiconductor earnings preview: Intel, Analog Devices, Teradyne, Rambus and KLA reveal if chip demand is broadening beyond AI leaders."
-    },
-    {
-      "headline": "3 AI Infrastructure Stocks Retail Investors Are Watching As US China Trade Rules Shift",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=bf219d5451b3ff5e9dcfdd7c6244f98f9708eba6b9f0168d0babf9095c50a4c6",
-      "datetime": 1789971385,
-      "summary": "US and China are suddenly talking about AI guardrails and tariff tweaks, and that mix of risk control and trade recalibration is quietly reshaping expectations for industrials linked to both economies. Investors who ignore that shift risk missing where capital and supply chains might gradually re-route. This article walks through 3 stocks exposed to this news backdrop and explains how each could b"
-    },
-    {
-      "headline": "Teradyne Introduces Iris 100: Production-Proven Test System for MicroLED Devices",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=128f9eb13d937905bf92cd8b9546120d212f43bede20bcca8dcb7b9b7fa51365",
-      "datetime": 1789970400,
-      "summary": "NORTH READING, Mass., September 21, 2026--Teradyne Iris 100 is a production-ready test platform for microLED devices used in optical data interconnects in AI data centers."
-    },
-    {
-      "headline": "Teradyne (TER) Opens Bengaluru Office To Support India Chip Manufacturing",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=54f761b91283880d4d1885e75419c4551dc7c9833c10a92adf2e4e3251d9d8a0",
-      "datetime": 1789744334,
-      "summary": "Teradyne (NasdaqGS:TER) has opened a new office in Bengaluru, India, to support domestic semiconductor and electronics manufacturing. The Bengaluru site is set up as a local hub for customer engagement, applications support, and technical training for Indian clients. The move aligns with Indian government efforts to expand local semiconductor fabrication and attract manufacturing investment into t"
     }
   ],
   "filings": [
