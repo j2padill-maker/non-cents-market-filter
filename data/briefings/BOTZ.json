@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-23T00:06:19.141562-07:00",
+  "generated_at": "2026-09-24T00:05:50.167565-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "What's Really Driving The Rise In Treasury Yields?",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=4050339141651a65cb3eeb0be59b76c97b083296cc46385011d01c7a6b057e2b",
+      "datetime": 1790145300,
+      "summary": "More than 70% of the increase in 10-year Treasury yields since the end of February has come from higher expected real short-term rates and the real term premium. Read more here."
+    },
     {
       "headline": "Q2 2026 Earnings Review: Performance, Market Revisions, Sentiment",
       "source": "SeekingAlpha",
@@ -31,6 +38,13 @@
       "summary": "In this paper, we share our thoughts on the technology revolution that could push real GDP growth and interest rates higher while inflation falls and the yield curve inverts. Read more here."
     },
     {
+      "headline": "Cognex Buys Intel-Spun RealSense For $500 Million",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=4f712a3a4a15c40356adb60996d2fad1296d68908409421c438279b47165ed52",
+      "datetime": 1790082459,
+      "summary": "Cognex acquires RealSense for $500M to expand into robotic perception and physical AI. Read the full acquisition and market details."
+    },
+    {
       "headline": "AI Optimism Returns, Pushing Inflation Risks Into The Background",
       "source": "SeekingAlpha",
       "url": "https://finnhub.io/api/news?id=729da7bc6e83decd4d1d43d0423982ea0e4abc6deb10df4ede3232484c4962b7",
@@ -43,83 +57,69 @@
       "url": "https://finnhub.io/api/news?id=53c6f69c8b75743ec9a691d1785a5f12386a78695e4bdc7ac4051ab5516225cc",
       "datetime": 1789818300,
       "summary": "Data center construction spending increased nearly 60% YoY in July 2026 to surpass a $75 billion annualized pace as AI translates into a major U.S. construction cycle. Read more here."
-    },
-    {
-      "headline": "3 Things - AI, Bond Market And Rate Hikes",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=502019f5b5a7bec34062ea77b8a463261fae28145db012e51eae765138aaabcb",
-      "datetime": 1789803000,
-      "summary": "Personally, I am optimistic about AI, but I am also treating it like a super long-duration asset. So it\u00e2\u0080\u0099s matched to my very longest assets, like a Roth IRA or multi-generational planning."
-    },
-    {
-      "headline": "AI Heads For A Regulatory Future",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=34b99851d301011439c5b5fb3730ef8f9fc806fac8b037cb89b9b270c945526a",
-      "datetime": 1789787700,
-      "summary": "AI is past the point where its potential dangers can be ignored. It needs to be regulated, just like pretty much anything else."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-21",
+  "data_asof": "2026-09-23",
   "price": {
-    "last": 35.82,
-    "open": 35.5,
-    "prev_close": 35.11,
-    "move_day_pct": 2.02,
-    "move_open_close_pct": 0.9,
-    "move_week_pct": 3.05
+    "last": 35.29,
+    "open": 35.63,
+    "prev_close": 35.82,
+    "move_day_pct": -1.48,
+    "move_open_close_pct": -0.95,
+    "move_week_pct": 1.91
   },
   "indicators": {
     "rsi14": {
-      "value": 52.5,
+      "value": 47.5,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.277,
-      "signal": -0.313,
-      "hist": 0.036,
-      "hist_prev": -0.032,
+      "macd": -0.255,
+      "signal": -0.302,
+      "hist": 0.046,
+      "hist_prev": 0.036,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
       "upper": 36.28,
       "lower": 34.48,
       "mid": 35.38,
-      "pctb": 0.744,
+      "pctb": 0.449,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 12.03,
+      "value": 10.37,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -13.91,
-      "read": "Modestly below its 52-week high"
+      "value": -15.19,
+      "read": "15% below its 52-week high"
     },
     "price_vs_ma200": {
       "ma200": 36.9,
-      "pct": -2.93,
-      "read": "3% below its 200-day average \u2014 long-term downtrend"
+      "pct": -4.36,
+      "read": "4% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.57,
-      "pct_of_price": 1.6,
+      "value": 0.58,
+      "pct_of_price": 1.64,
       "read": "Calm \u2014 low volatility"
     },
     "rel_volume": {
-      "value": 1.25,
+      "value": 1.29,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 44.6,
+      "value": 44.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 31.97,
   "high_52w": 41.61,
-  "ma50": 35.71,
+  "ma50": 35.7,
   "ma200": 36.9
 }

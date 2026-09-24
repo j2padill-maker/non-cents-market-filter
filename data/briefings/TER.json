@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-23T00:06:18.747931-07:00",
+  "generated_at": "2026-09-24T00:05:49.955936-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "Teradyne (TER) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=9b5409a0be5a778705aef894d09f6d430d39bb943345c38b457bf97c46b393f4",
+      "datetime": 1790201704,
+      "summary": "The latest trading day saw Teradyne (TER) settling at $389.14, representing a -2.4% change from its previous close."
+    },
+    {
+      "headline": "What's going on in today's session: S&P500 movers",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=605977504757e7e3e80d88506dbb7320e228bde5306828633fe3b5b1a8169658",
+      "datetime": 1790181301,
+      "summary": "Curious about the top performers within the S&P500 index in the middle of the day on Wednesday? Dive into the list of today's session's top gainers and losers for a comprehensive overview."
+    },
+    {
+      "headline": "What's going on in today's session: S&P500 gap up and gap down stocks",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=4e16bccdd4b2a4870b5aa1174ad999550987cf0ebf094ab28a0a7343b1cb6176",
+      "datetime": 1790174101,
+      "summary": "Curious about the S&P500 stocks that are gapping on Wednesday? Explore the gap up and gap down stocks in the S&P500 index during today's session."
+    },
+    {
+      "headline": "What's going on in today's pre-market session: S&P500 movers",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=00ebf56e68442c5a234016d57a07813eaaae7356d63e15480624fd359dd8fda0",
+      "datetime": 1790166901,
+      "summary": "Wondering what's happening in today's pre-market session? Stay tuned for the latest updates on S&P500 stock movements."
+    },
+    {
       "headline": "Power Integrations, Penguin Solutions, Photronics, Amkor, and Teradyne Shares Are Soaring, What You Need To Know",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=d7bf5948a48e6dd0012e8fbfb21014cad4845f669022b9a0e6aa98889e7a6598",
@@ -29,34 +57,6 @@
       "url": "https://finnhub.io/api/news?id=c9c439960bc73e3317f95b3f0d5acf9ad522944464783eca2dffaf2a682dbcff",
       "datetime": 1790097203,
       "summary": "The multi-year partnership gives chip developers access to Teradyne\u2019s advanced test systems as increasingly complex AI and next-generation semiconductor designs require more intensive evaluation before production."
-    },
-    {
-      "headline": "GSME and Teradyne Announce Strategic Partnership",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e95a1ee9883f7371698bee6f62d1fe1491d57291b0ca23d97372c893afaf7ee3",
-      "datetime": 1790092800,
-      "summary": "GS Microelectronics U.S., Inc. (GSME), a fast-growing semiconductor solutions provider, and Teradyne, Inc. (NASDAQ: TER), a leading provider of automated test equipment and advanced robotics, today announced a multi\u2011year strategic partnership to establish a state\u2011of\u2011the\u2011art semiconductor test and evaluation center designed to accelerate customer time\u2011to\u2011market. The collaboration integrates GSME's "
-    },
-    {
-      "headline": "Will AI Expansion Drive CEVA's Shares to Further Heights?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=809521725900a51ca59269f17cb40e9079c3c3a58ace2a4356493ef7f5d227d5",
-      "datetime": 1790008860,
-      "summary": "Ceva's LG partnership pairs UWB IP and software with RF technology, targeting faster time to market as global UWB device shipments are projected to surge."
-    },
-    {
-      "headline": "AEHR at 18.59X Sales: Market Loves Its AI Story, But is Love Blind?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=10c9059151a7cacb25502b4804867ae0fbc8a6db1ac052079f11df6a49f7ff02",
-      "datetime": 1790006760,
-      "summary": "Aehr Test Systems' 363% 2026 surge and 18.59X sales multiple reflect AI optimism, but customer concentration and execution risks leave little room for error."
-    },
-    {
-      "headline": "Chip Earnings Wave to Test Whether Semiconductor Rally Broadens Beyond AI Leaders",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=a02b5181684b941f4b10fb982b1d6a1bf143a59c252ba8d582b1ab8dd878184d",
-      "datetime": 1789992373,
-      "summary": "Semiconductor earnings preview: Intel, Analog Devices, Teradyne, Rambus and KLA reveal if chip demand is broadening beyond AI leaders."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-21",
+  "data_asof": "2026-09-23",
   "price": {
-    "last": 381.54,
-    "open": 378.71,
-    "prev_close": 371.47,
-    "move_day_pct": 2.71,
-    "move_open_close_pct": 0.75,
-    "move_week_pct": 15.9
+    "last": 389.14,
+    "open": 398.0,
+    "prev_close": 381.54,
+    "move_day_pct": 1.99,
+    "move_open_close_pct": -2.23,
+    "move_week_pct": 16.91
   },
   "indicators": {
     "rsi14": {
-      "value": 54.9,
+      "value": 56.7,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -3.003,
-      "signal": -5.187,
-      "hist": 2.184,
-      "hist_prev": 0.369,
+      "macd": -0.512,
+      "signal": -4.252,
+      "hist": 3.74,
+      "hist_prev": 2.184,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 391.25,
-      "lower": 324.53,
-      "mid": 357.89,
-      "pctb": 0.855,
+      "upper": 395.06,
+      "lower": 323.15,
+      "mid": 359.11,
+      "pctb": 0.918,
       "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 218.96,
-      "read": "219% above its 52-week low"
+      "value": 195.2,
+      "read": "195% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -21.11,
-      "read": "21% below its 52-week high"
+      "value": -19.54,
+      "read": "20% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 325.6,
-      "pct": 17.18,
-      "read": "17% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 326.58,
+      "pct": 19.16,
+      "read": "19% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 21.13,
-      "pct_of_price": 5.54,
+      "value": 21.08,
+      "pct_of_price": 5.42,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.33,
-      "read": "Above-average volume"
+      "value": 0.79,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 64.8,
+      "value": 70.9,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": 119.62,
+  "low_52w": 131.82,
   "high_52w": 483.65,
-  "ma50": 364.58,
-  "ma200": 325.6
+  "ma50": 365.55,
+  "ma200": 326.58
 }

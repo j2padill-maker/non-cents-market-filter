@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-23T00:06:17.384168-07:00",
+  "generated_at": "2026-09-24T00:05:48.518719-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Zacks Investment Ideas feature highlights: Astera Labs, SpaceX, Cloudflare, NVIDIA and Meta Platforms",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c2fd5efbaf80de9259710f8533e0d5a5e411009a96ef3d87b814c21522f0c1e0",
+      "datetime": 1790168700,
+      "summary": "Astera Labs gains momentum as AI data centers scale, with triple-digit growth, repeated earnings beats and rising connectivity demand."
+    },
     {
       "headline": "What Happens To Cloudflare Stock If Its Growth Cools?",
       "source": "Yahoo",
@@ -45,18 +52,11 @@
       "summary": "Triple-digit growth, consecutive earnings beats, and a juicy technical setup back the bull case."
     },
     {
-      "headline": "Aurora Mobile's GPTBots.ai Integrates Jev \u2014 Two Layers of AI, One Enterprise Platform",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=fbc308c76e18778ea99a68599e4f5e05134402030afaaee67d7b0fe4335bbbc0",
-      "datetime": 1790074800,
-      "summary": "SINGAPORE, Sept. 22, 2026 (GLOBE NEWSWIRE) -- Aurora Mobile Limited (NASDAQ: JG), a leading global provider of customer engagement and marketing technology services, today announced that its enterprise-grade AI agent platform, GPTBots.ai, has integrated Jev \u2014 the \"System One\" decision model from TypeSafe AI \u2014 to build what the team calls a \"two-layer AI architecture\": one layer that thinks, and on"
-    },
-    {
-      "headline": "Cloudflare (NET) Shares Skyrocket, What You Need To Know",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=648ce08e6b491a5e238568dc26e7471cfc12d94e089a0a7396b818e88b614f6c",
-      "datetime": 1790038465,
-      "summary": "Shares of cloud security and performance company Cloudflare (NYSE:NET) jumped 6.8% in the afternoon session after falling Treasury yields eased pressure on software stocks as signs of cooler U.S.\u2013China tensions lifted risk appetite."
+      "headline": "How Your Taxes Will Be Different Next Year, And Why You'll Have Trump To Thank",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=7c7bc27315adbe5bcfe5ed5e35cd4e6dcc9d016797069c983e56b5235fa1d71d",
+      "datetime": 1790084330,
+      "summary": ""
     }
   ],
   "filings": [
@@ -82,36 +82,36 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-21",
+  "data_asof": "2026-09-23",
   "price": {
-    "last": 351.67,
-    "open": 327.0,
-    "prev_close": 323.6,
-    "move_day_pct": 8.67,
-    "move_open_close_pct": 7.54,
-    "move_week_pct": 6.45
+    "last": 352.33,
+    "open": 355.4,
+    "prev_close": 351.67,
+    "move_day_pct": 0.19,
+    "move_open_close_pct": -0.86,
+    "move_week_pct": 7.67
   },
   "indicators": {
     "rsi14": {
-      "value": 65.4,
+      "value": 65.6,
       "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 12.746,
-      "signal": 8.455,
-      "hist": 4.292,
-      "hist_prev": 3.157,
+      "macd": 14.383,
+      "signal": 9.64,
+      "hist": 4.743,
+      "hist_prev": 4.292,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 348.42,
-      "lower": 260.11,
-      "mid": 304.27,
-      "pctb": 1.037,
-      "read": "Above the upper band \u2014 stretched to the upside"
+      "upper": 355.25,
+      "lower": 260.48,
+      "mid": 307.86,
+      "pctb": 0.969,
+      "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 119.53,
+      "value": 119.95,
       "read": "120% above its 52-week low"
     },
     "pct_from_52w_high": {
@@ -119,26 +119,26 @@
       "read": "At or near its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 228.6,
-      "pct": 53.84,
+      "ma200": 229.34,
+      "pct": 53.63,
       "read": "54% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 18.4,
-      "pct_of_price": 5.23,
+      "value": 18.03,
+      "pct_of_price": 5.12,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.13,
+      "value": 0.89,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 63.4,
+      "value": 69.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
-  "high_52w": 351.67,
-  "ma50": 293.4,
-  "ma200": 228.6
+  "high_52w": 352.33,
+  "ma50": 295.06,
+  "ma200": 229.34
 }

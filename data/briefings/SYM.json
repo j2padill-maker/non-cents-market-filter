@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-23T00:06:18.464565-07:00",
+  "generated_at": "2026-09-24T00:05:49.745515-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Symbotic (SYM) Could Be 30% Undervalued On Its Automation Growth Story",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=0fc55ed220af30292d8127a8ff7a504d2421cfec8186495c04a88323394ce890",
+      "datetime": 1790144007,
+      "summary": "Symbotic (SYM) sits in focus after a recent move in its share price, with the stock closing at US$45.07. Investors are weighing that level against the firm\u2019s warehouse automation profile. Recent trading has been brisk for Symbotic, with a 1-day share price return of 2.53% at US$45.07 and a 30-day share price gain of 12.59%. However, the year-to-date share price is still down 30.52%, while the 5-ye"
+    },
     {
       "headline": "Symbotic (SYM) Stock May Be 45% Undervalued On Future Cash Flow",
       "source": "Yahoo",
@@ -68,63 +75,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-21",
+  "data_asof": "2026-09-23",
   "price": {
-    "last": 43.96,
-    "open": 42.42,
-    "prev_close": 41.89,
-    "move_day_pct": 4.94,
-    "move_open_close_pct": 3.63,
-    "move_week_pct": 5.67
+    "last": 43.69,
+    "open": 45.05,
+    "prev_close": 43.96,
+    "move_day_pct": -0.61,
+    "move_open_close_pct": -3.02,
+    "move_week_pct": 2.15
   },
   "indicators": {
     "rsi14": {
-      "value": 55.8,
+      "value": 54.9,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 0.435,
-      "signal": 0.144,
-      "hist": 0.291,
-      "hist_prev": 0.254,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "macd": 0.495,
+      "signal": 0.214,
+      "hist": 0.28,
+      "hist_prev": 0.291,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 44.76,
-      "lower": 38.39,
-      "mid": 41.57,
-      "pctb": 0.874,
-      "read": "Near the upper band"
+      "upper": 44.99,
+      "lower": 38.52,
+      "mid": 41.76,
+      "pctb": 0.799,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 15.02,
-      "read": "15% above its 52-week low"
+      "value": 14.31,
+      "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -49.64,
+      "value": -49.95,
       "read": "50% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 51.3,
-      "pct": -14.31,
-      "read": "14% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 51.15,
+      "pct": -14.58,
+      "read": "15% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 1.95,
-      "pct_of_price": 4.43,
+      "value": 1.93,
+      "pct_of_price": 4.42,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.13,
+      "value": 1.01,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 61.0,
+      "value": 68.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 38.22,
   "high_52w": 87.3,
-  "ma50": 41.91,
-  "ma200": 51.3
+  "ma50": 41.94,
+  "ma200": 51.15
 }

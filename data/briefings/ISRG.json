@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-23T00:06:18.169371-07:00",
+  "generated_at": "2026-09-24T00:05:49.528508-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "Intuitive Surgical vs. Stryker: Which MedTech Stock Is the Better Buy Now?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=304bfcf3ef3590e93c0436f4c4e28334da2e41f0133bb8e1e0be047586ffdab8",
+      "datetime": 1790177460,
+      "summary": "ISRG's rapid procedure growth, expanding robotics ecosystem and recurring revenues highlight its growth path amid MedTech shifts."
+    },
+    {
+      "headline": "Natera's Signatera Wins Japan PMDA Approval as Bladder Cancer CDx",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=0723b004244686d071c22e8c54015ce527c7b84581cc4443a4ad49fbfb432ac7",
+      "datetime": 1790176380,
+      "summary": "NTRA wins Japan PMDA approval for Signatera in muscle-invasive bladder cancer, supporting treatment decisions and a planned 2027 commercial launch."
+    },
+    {
+      "headline": "Here's Why You Should Retain INSP Stock in Your Portfolio for Now",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b94d4fee8f7f0d06a415cc64bb77032c32bfcf43424ae9b84cb6df9371533c18",
+      "datetime": 1790176140,
+      "summary": "Inspire Medical is navigating a major product transition as clinical evidence, patient access efforts and reimbursement progress support growth prospects."
+    },
+    {
+      "headline": "Minimally Invasive Robotic Surgical System Market Global Report 2026: Benchmark Intuitive Surgical, Johnson & Johnson, Medtronic, Stryker and Zimmer Biomet Now",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=9198a5ad194f4ee5a437a49200950a22ecb277d53aff7130928eb5450722f502",
+      "datetime": 1790160600,
+      "summary": "Players: Intuitive Surgical, Johnson & Johnson, Medtronic, Stryker, Zimmer Biomet. Profile covers competitors, segments, regional shares, trends and opportunities. Minimally Invasive Robotic Surgical System Market Minimally Invasive Robotic Surgical System Market Dublin, Sept. 23, 2026 (GLOBE NEWSWIRE) -- \"Minimally Invasive Robotic Surgical System Market Global Report 2026\" has been added to Rese"
+    },
+    {
       "headline": "2 Beaten-Down Stocks to Buy Before They Bounce Back",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=fb76524347cfdc1ab2fb3ea777aff307de9ba5e06fe46ad736aaa240fc36a7cb",
@@ -29,34 +57,6 @@
       "url": "https://finnhub.io/api/news?id=f2fd9069c94664beb7b327f6b64a59d003c2300b4a7575009f5c3a404c86648b",
       "datetime": 1790090174,
       "summary": "Earlier this month, Intuitive Surgical received CE mark approval for using its da Vinci SP single-port robotic system in transvaginal gynecologic procedures, adding to its existing approvals for a range of endoscopic and natural-orifice surgeries across Europe. This world's-first indication for the SP platform deepens Intuitive\u2019s position in minimally invasive, scarless surgery by broadening its c"
-    },
-    {
-      "headline": "1 S&P 500 Stock with Exciting Potential and 2 We Ignore",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=fee18e15306034892ca3afc97a697bf829ff2cdb7ca4328b001fb8a29035682e",
-      "datetime": 1790066266,
-      "summary": "While the S&P 500 (^GSPC) includes industry leaders, not every stock in the index is a winner. Some companies are past their prime, weighed down by poor execution, weak financials, or structural headwinds."
-    },
-    {
-      "headline": "Abbott Laboratories vs. Intuitive Surgical: Recent Quarterly Revenue Trends Reveal a Classic Investing Truth",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=49d7801003b62f6bb233559f1129990070d1ebd399c6f3c592aa1042cb77622c",
-      "datetime": 1790018821,
-      "summary": "Abbott leads in absolute revenue, but Intuitive Surgical's growth rate tells a different story over the past eight quarters."
-    },
-    {
-      "headline": "Q2 Earnings Roundup: Intuitive Surgical (NASDAQ:ISRG) And The Rest Of The Surgical Equipment & Consumables - Specialty Segment",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=99797b3d79ca59ddc5a9bc77495b350b8427fb6e2dfb214dcb9d43d1c7b3f005",
-      "datetime": 1790016865,
-      "summary": "Wrapping up Q2 earnings, we look at the numbers and key takeaways for the surgical equipment & consumables - specialty stocks, including Intuitive Surgical (NASDAQ:ISRG) and its peers."
-    },
-    {
-      "headline": "Ambulatory Surgery Centers Are Becoming ISRG's New Growth Engine",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=59dda8078a45a12151b3610719dd5ca94d272073b562dca557b4c4d3d847917e",
-      "datetime": 1790006820,
-      "summary": "Intuitive Surgical is expanding robotic surgery in ASCs with lower-cost XiR systems, opening access to new customers and outpatient procedures."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-21",
+  "data_asof": "2026-09-23",
   "price": {
-    "last": 401.65,
-    "open": 393.89,
-    "prev_close": 393.33,
-    "move_day_pct": 2.12,
-    "move_open_close_pct": 1.97,
-    "move_week_pct": 6.27
+    "last": 398.3,
+    "open": 400.88,
+    "prev_close": 401.65,
+    "move_day_pct": -0.83,
+    "move_open_close_pct": -0.64,
+    "move_week_pct": 5.61
   },
   "indicators": {
     "rsi14": {
-      "value": 64.9,
+      "value": 62.3,
       "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 2.812,
-      "signal": -1.237,
-      "hist": 4.049,
-      "hist_prev": 3.121,
+      "macd": 4.033,
+      "signal": -0.183,
+      "hist": 4.216,
+      "hist_prev": 4.049,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 396.1,
-      "lower": 349.79,
-      "mid": 372.95,
-      "pctb": 1.12,
-      "read": "Above the upper band \u2014 stretched to the upside"
+      "upper": 399.85,
+      "lower": 348.52,
+      "mid": 374.18,
+      "pctb": 0.97,
+      "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 20.97,
-      "read": "21% above its 52-week low"
+      "value": 19.96,
+      "read": "20% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -32.25,
-      "read": "32% below its 52-week high"
+      "value": -32.82,
+      "read": "33% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 454.28,
-      "pct": -11.59,
+      "ma200": 453.42,
+      "pct": -12.16,
       "read": "12% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 11.93,
-      "pct_of_price": 2.97,
+      "value": 11.68,
+      "pct_of_price": 2.93,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 1.19,
+      "value": 0.69,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 71.2,
+      "value": 76.2,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 332.02,
   "high_52w": 592.85,
-  "ma50": 373.39,
-  "ma200": 454.28
+  "ma50": 373.21,
+  "ma200": 453.42
 }
