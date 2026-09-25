@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-24T00:05:50.167565-07:00",
+  "generated_at": "2026-09-25T00:00:18.909520-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "AI's Next Bottleneck Could Be Here",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=93afef25ddf53623a2f07471cb40d79ad90e1ca5f29c02ea8fdee95299df0822",
+      "datetime": 1790230617,
+      "summary": "Robotics is emerging as the next major economic bottleneck, with a projected $2T TAM by the 2040s and $7\u00e2\u0080\u00939T by 2050. Read what investors need to know."
+    },
+    {
+      "headline": "Above The Noise: Looking Beyond The Headlines",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=5963dc6f16fa0d192c708a60a3d1451dbc2fe6366b6b0c2310573898fb0309f3",
+      "datetime": 1790222280,
+      "summary": "Market headlines are usually meant to capture attention, not to help investors achieve long-term goals. Before reacting, consider whether it\u00e2\u0080\u0099s meant to inform or simply attract clicks."
+    },
     {
       "headline": "What's Really Driving The Rise In Treasury Yields?",
       "source": "SeekingAlpha",
@@ -43,83 +57,69 @@
       "url": "https://finnhub.io/api/news?id=4f712a3a4a15c40356adb60996d2fad1296d68908409421c438279b47165ed52",
       "datetime": 1790082459,
       "summary": "Cognex acquires RealSense for $500M to expand into robotic perception and physical AI. Read the full acquisition and market details."
-    },
-    {
-      "headline": "AI Optimism Returns, Pushing Inflation Risks Into The Background",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=729da7bc6e83decd4d1d43d0423982ea0e4abc6deb10df4ede3232484c4962b7",
-      "datetime": 1790067300,
-      "summary": "Monday\u00e2\u0080\u0099s AI-fueled optimism spilled over to stocks generally. The SPDR S&P 500 ETF, for example, rallied to just below its record close from early August."
-    },
-    {
-      "headline": "The Next Big Theme: September 2026",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=53c6f69c8b75743ec9a691d1785a5f12386a78695e4bdc7ac4051ab5516225cc",
-      "datetime": 1789818300,
-      "summary": "Data center construction spending increased nearly 60% YoY in July 2026 to surpass a $75 billion annualized pace as AI translates into a major U.S. construction cycle. Read more here."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-23",
+  "data_asof": "2026-09-24",
   "price": {
-    "last": 35.29,
-    "open": 35.63,
-    "prev_close": 35.82,
-    "move_day_pct": -1.48,
-    "move_open_close_pct": -0.95,
-    "move_week_pct": 1.91
+    "last": 35.22,
+    "open": 35.16,
+    "prev_close": 35.29,
+    "move_day_pct": -0.2,
+    "move_open_close_pct": 0.17,
+    "move_week_pct": 1.44
   },
   "indicators": {
     "rsi14": {
-      "value": 47.5,
+      "value": 46.8,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.255,
-      "signal": -0.302,
-      "hist": 0.046,
-      "hist_prev": 0.036,
+      "macd": -0.241,
+      "signal": -0.29,
+      "hist": 0.049,
+      "hist_prev": 0.046,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 36.28,
-      "lower": 34.48,
-      "mid": 35.38,
-      "pctb": 0.449,
+      "upper": 36.23,
+      "lower": 34.47,
+      "mid": 35.35,
+      "pctb": 0.426,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 10.37,
+      "value": 10.15,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -15.19,
+      "value": -15.36,
       "read": "15% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 36.9,
-      "pct": -4.36,
-      "read": "4% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 36.89,
+      "pct": -4.53,
+      "read": "5% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.58,
-      "pct_of_price": 1.64,
+      "value": 0.57,
+      "pct_of_price": 1.61,
       "read": "Calm \u2014 low volatility"
     },
     "rel_volume": {
-      "value": 1.29,
+      "value": 0.65,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 44.7,
+      "value": 45.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 31.97,
   "high_52w": 41.61,
-  "ma50": 35.7,
-  "ma200": 36.9
+  "ma50": 35.68,
+  "ma200": 36.89
 }

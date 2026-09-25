@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-24T00:05:47.223417-07:00",
+  "generated_at": "2026-09-25T00:00:16.171249-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "MongoDB (MDB) Stock Could Be 16% Overvalued As Cash Flow Lags",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=087803aec6afe42fe33ae1b39b802e3088562ac2490893b19d9302824979eb2b",
+      "datetime": 1790291590,
+      "summary": "MongoDB has delivered a strong share price run in recent years, which naturally pushes investors to ask whether the current US$421.40 price is grounded in the cash the business can generate. With the focus on its cash flows, the question is how much of that move is backed by fundamentals rather than sentiment. The stock has returned 33.6% over the past year, which raises the stakes on whether the "
+    },
+    {
+      "headline": "Lemma Joins LlamaIndex, TinyFish, Linq, and Obvious to Cohost SF Tech Week\u2019s largest event: The Agent Economy Gala",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=1cbfc1dba74424edebc9b51c8524b9cf522513420b3591cf6cb1133589a64f44",
+      "datetime": 1790280000,
+      "summary": "San Francisco, California, Sept. 24, 2026 (GLOBE NEWSWIRE) -- Lemma, a monitoring tool that helps engineering teams catch silent AI agent failures in production, announced it is co-hosting The Agent Economy Gala, a black-tie event during San Francisco Tech Week that brings together the founders, operators, and investors building the agent economy for one night in San Francisco. The gala will bring"
+    },
+    {
+      "headline": "MongoDB (MDB) Moves to Strong Buy: Rationale Behind the Upgrade",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f92cfbfbb6922f456c83059ffe13ad1246fe0d79b90fecea437a67fa9b6d1843",
+      "datetime": 1790262003,
+      "summary": "MongoDB (MDB) might move higher on growing optimism about its earnings prospects, which is reflected by its upgrade to a Zacks Rank #1 (Strong Buy)."
+    },
+    {
+      "headline": "Earnings Estimates Moving Higher for MongoDB (MDB): Time to Buy?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b9f1c6c80f6974f3abe5efebf57b19356abebabf761b90fd7c0041abc96e4556",
+      "datetime": 1790180402,
+      "summary": "MongoDB (MDB) shares have started gaining and might continue moving higher in the near term, as indicated by solid earnings estimate revisions."
+    },
+    {
+      "headline": "2 Reasons to Watch MDB and 1 to Stay Cautious",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c76cdf493dbfded14b3ee4d7fd9ab81f02ac32be7154fd0148ebc8c3c42d1751",
+      "datetime": 1790173742,
+      "summary": "MongoDB has been on fire lately. In the past six months alone, the company\u2019s stock price has rocketed 56.9%, reaching $428.78 per share. This was partly thanks to its solid quarterly results, and the run-up might have investors contemplating their next move."
+    },
+    {
       "headline": "MongoDB investors have one number to watch",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=9f567d7cc43556bbe9c30507d092277c24418eea0c65f2074cf090ad392b7920",
       "datetime": 1790099139,
       "summary": "When management takes the stage in New York, demand from an unexpected source could change how Wall Street prices the stock."
-    },
-    {
-      "headline": "MongoDB Director Hope Cochran Sells 1,000 Shares",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=77ccad22376fea47341f054f6b33e00521b06061ce9739a335d6d55d837e6d24",
-      "datetime": 1790080681,
-      "summary": "Insider executed a sale under a pre-arranged trading plan, retaining a stake worth ~$11 million."
-    },
-    {
-      "headline": "Strategy, CrowdStrike, MongoDB, ServiceNow, and Okta Shares Are Soaring, What You Need To Know",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=605961327fb1b61764e0ff9bc6b926029e90d102b39d7179305726b0388a7c39",
-      "datetime": 1790037025,
-      "summary": "A number of stocks jumped in the afternoon session after falling Treasury yields eased pressure on software stocks as signs of cooler U.S.\u2013China tensions lifted risk appetite. The benchmark 10-year Treasury yield fell roughly 3 basis points to 4.97%, slipping below the 5% threshold, according to CNBC. A retreat in bond yields provides relief for enterprise software equities, whose valuations are a"
-    },
-    {
-      "headline": "MongoDB could gain from AI adoption, says BofA",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=22ce394f1a386105b863df7664248710885c4b444220f587e2a18b772dbc26cb",
-      "datetime": 1790012760,
-      "summary": "Bank of America expects MongoDB Inc (NASDAQ:MDB)'s investor day on September 29 to provide a potential catalyst for the shares, with artificial intelligence (AI) adoption metrics and higher long-term targets among the key areas to watch. The broker said quantitative evidence that AI is..."
-    },
-    {
-      "headline": "XYZ's Square Deepens Ideal Nutrition Partnership as Franchise Expands",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b83c22c17a697deb43fe805f4a4ae59087fc525823df4296f32a7b99f529b5d5",
-      "datetime": 1790009820,
-      "summary": "Block's Square expands its Ideal Nutrition partnership as the meal company targets 20 stores by 2026 and explores new markets beyond Florida."
-    },
-    {
-      "headline": "MongoDB: AI Native Customers Are Lapping Up Its Products",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=aa84a02ff4781298b7832d9830a32c730a7c9070553034e850f832d7d606946a",
-      "datetime": 1789701137,
-      "summary": "MongoDB remains a compelling 'growth at a reasonable price' play amid market correction concerns. Find out why MDB stock is a Buy."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-23",
+  "data_asof": "2026-09-24",
   "price": {
-    "last": 428.36,
-    "open": 429.34,
-    "prev_close": 407.3,
-    "move_day_pct": 5.17,
-    "move_open_close_pct": -0.23,
-    "move_week_pct": 13.42
+    "last": 421.4,
+    "open": 423.04,
+    "prev_close": 428.36,
+    "move_day_pct": -1.62,
+    "move_open_close_pct": -0.39,
+    "move_week_pct": 11.97
   },
   "indicators": {
     "rsi14": {
-      "value": 59.4,
+      "value": 57.3,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 1.212,
-      "signal": -1.248,
-      "hist": 2.46,
-      "hist_prev": -0.303,
+      "macd": 3.289,
+      "signal": -0.341,
+      "hist": 3.63,
+      "hist_prev": 2.46,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 455.15,
-      "lower": 336.23,
-      "mid": 395.69,
-      "pctb": 0.775,
+      "upper": 456.91,
+      "lower": 336.12,
+      "mid": 396.51,
+      "pctb": 0.706,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 89.58,
-      "read": "90% above its 52-week low"
+      "value": 86.5,
+      "read": "86% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -9.3,
+      "value": -10.78,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 344.53,
-      "pct": 24.33,
-      "read": "24% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 344.65,
+      "pct": 22.27,
+      "read": "22% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 22.44,
-      "pct_of_price": 5.24,
+      "value": 21.69,
+      "pct_of_price": 5.15,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.66,
+      "value": 0.67,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 46.9,
+      "value": 59.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 380.96,
-  "ma200": 344.53
+  "ma50": 382.49,
+  "ma200": 344.65
 }

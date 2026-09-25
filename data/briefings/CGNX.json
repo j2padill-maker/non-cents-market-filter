@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-24T00:05:49.145409-07:00",
+  "generated_at": "2026-09-25T00:00:17.816505-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Cognex (CGNX) On RealSense Deal And Chip Push Looks Cheap Or Fully Valued",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=bf456a1945033cc25e892c0bb1e5f23de4fb518a16c1f00108802f6ed997ecf1",
+      "datetime": 1790237273,
+      "summary": "Cognex stock reacts to RealSense acquisition and new In-Sight 1750 launch Cognex (CGNX) has moved into the spotlight after agreeing to acquire 3D vision specialist RealSense for about US$500 million and unveiling its In-Sight 1750 wafer identification system for semiconductor customers. The latest RealSense deal and In-Sight 1750 launch follow a strong year for Cognex, with a year-to-date share pr"
+    },
+    {
+      "headline": "Cognex (CGNX) Stock Could Be Expensive On Its $500 Million Vision Deal",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=bcac0304208cf8258b0768eba002f7f5ab1a62fb7b757fa89624d0f56660eb29",
+      "datetime": 1790233898,
+      "summary": "Cognex shares have climbed sharply in 2026, and the move now raises a clear question for investors who care about valuation: does the current price still line up with what the business earns? The stock is up 57.6% year to date, which puts real pressure on the earnings picture to support a much higher market value than at the start of the year. The planned US$500 million acquisition of RealSense, f"
+    },
     {
       "headline": "Cognex Launches New Wafer Reader to Help Semiconductor Manufacturers Scale Production",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=4f712a3a4a15c40356adb60996d2fad1296d68908409421c438279b47165ed52",
       "datetime": 1790082459,
       "summary": "Cognex acquires RealSense for $500M to expand into robotic perception and physical AI. Read the full acquisition and market details."
-    },
-    {
-      "headline": "Cognex Corporation (CGNX) M&A Call Transcript",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=021c3edb8d59242b3e0f2bbf9371067efce7c5b02255c0d8c0c8580392b0b434",
-      "datetime": 1790080787,
-      "summary": "Cognex Corporation (CGNX) M&A Call September 22, 2026 8:00 AM EDTCompany ParticipantsGreer Aviv - Head of Investor RelationsMatt Moschner - President,..."
-    },
-    {
-      "headline": "Cognex Corporation (CGNX) RealSense, Inc. - M&A Call - Slideshow",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=784bcbcdb5d8d65a238a1197873aa8581aeebbf13c7db61d7e51f257ae3966d8",
-      "datetime": 1790080422,
-      "summary": "2026-09-22. The following slide deck was published by Cognex Corporation in conjunction with this event."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-23",
+  "data_asof": "2026-09-24",
   "price": {
-    "last": 58.19,
-    "open": 58.26,
-    "prev_close": 61.99,
-    "move_day_pct": -6.13,
-    "move_open_close_pct": -0.12,
-    "move_week_pct": -1.62
+    "last": 57.7,
+    "open": 57.32,
+    "prev_close": 58.19,
+    "move_day_pct": -0.84,
+    "move_open_close_pct": 0.66,
+    "move_week_pct": -3.99
   },
   "indicators": {
     "rsi14": {
-      "value": 41.5,
+      "value": 40.5,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.636,
-      "signal": -0.585,
-      "hist": -0.052,
-      "hist_prev": 0.148,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -0.835,
+      "signal": -0.635,
+      "hist": -0.2,
+      "hist_prev": -0.052,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 63.77,
-      "lower": 58.3,
-      "mid": 61.04,
-      "pctb": -0.02,
+      "upper": 63.99,
+      "lower": 57.87,
+      "mid": 60.93,
+      "pctb": -0.028,
       "read": "Below the lower band \u2014 stretched to the downside"
     },
     "pct_from_52w_low": {
-      "value": 67.92,
-      "read": "68% above its 52-week low"
+      "value": 66.51,
+      "read": "67% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -19.54,
+      "value": -20.21,
       "read": "20% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 54.73,
-      "pct": 6.32,
-      "read": "6% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 54.82,
+      "pct": 5.25,
+      "read": "5% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 2.43,
-      "pct_of_price": 4.18,
+      "value": 2.34,
+      "pct_of_price": 4.06,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.03,
+      "value": 0.74,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 56.5,
+      "value": 49.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 34.65,
   "high_52w": 72.32,
-  "ma50": 62.49,
-  "ma200": 54.73
+  "ma50": 62.34,
+  "ma200": 54.82
 }

@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-24T00:05:49.955936-07:00",
+  "generated_at": "2026-09-25T00:00:18.741170-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "Reflecting On Semiconductor Manufacturing Stocks\u2019 Q2 Earnings: Teradyne (NASDAQ:TER)",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=973b96e9bb156dbefe9c54fef6f91de0614a2ef5bf8a8fc05db026c7e16bd3e9",
+      "datetime": 1790277178,
+      "summary": "The end of the earnings season is always a good time to take a step back and see who shined (and who didn\u2019t). Let\u2019s take a look at how semiconductor manufacturing stocks fared in Q2, starting with Teradyne (NASDAQ:TER)."
+    },
+    {
+      "headline": "Teradyne Strengthens AI Test Portfolio: Can It Beat KLAC & COHU?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=fae78af6d0bea98b3154a6075a765d8dc25a468a69ce7ebd35a65dbba37954d1",
+      "datetime": 1790262960,
+      "summary": "TER's AI-driven test momentum is accelerating, with Iris 100 expanding its optical portfolio as semiconductor and data-center demand surges."
+    },
+    {
+      "headline": "Wondering what's happening in today's S&P500  pre-market session?",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=e36f17a0a336c936e7bcf62e255c87584a2afb5e2fb83f8131263752f543b5ab",
+      "datetime": 1790253301,
+      "summary": "The US market is yet to commence its session on Thursday, but let's get a preview of the pre-market session and explore the top S&P500 gainers and losers driving the early market movements."
+    },
+    {
+      "headline": "Keysight's CSG Gains Momentum: Can AI Infrastructure Drive Growth?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d663263cfd6bc47e9cc5d68cad456899b89fac3f1d52e6246419259cdcf59d20",
+      "datetime": 1790251680,
+      "summary": "KEYS' CSG is gaining momentum as AI infrastructure, high-speed connectivity and 6G development fuel strong growth across key businesses."
+    },
+    {
+      "headline": "VIAV's NSE Segment Shows Strength: Is the Growth Story Intact?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8dc5d6324ddc112a6a7fc2a45fde54d98b3b21c58e8d5fe2bd9a0a935a7325b1",
+      "datetime": 1790251500,
+      "summary": "VIAVI's NSE business is gaining from strong data center demand, 1.6T networking adoption and Spirent contributions, although soft wireless demand remains a concern."
+    },
+    {
       "headline": "Teradyne (TER) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=9b5409a0be5a778705aef894d09f6d430d39bb943345c38b457bf97c46b393f4",
       "datetime": 1790201704,
       "summary": "The latest trading day saw Teradyne (TER) settling at $389.14, representing a -2.4% change from its previous close."
-    },
-    {
-      "headline": "What's going on in today's session: S&P500 movers",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=605977504757e7e3e80d88506dbb7320e228bde5306828633fe3b5b1a8169658",
-      "datetime": 1790181301,
-      "summary": "Curious about the top performers within the S&P500 index in the middle of the day on Wednesday? Dive into the list of today's session's top gainers and losers for a comprehensive overview."
-    },
-    {
-      "headline": "What's going on in today's session: S&P500 gap up and gap down stocks",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=4e16bccdd4b2a4870b5aa1174ad999550987cf0ebf094ab28a0a7343b1cb6176",
-      "datetime": 1790174101,
-      "summary": "Curious about the S&P500 stocks that are gapping on Wednesday? Explore the gap up and gap down stocks in the S&P500 index during today's session."
-    },
-    {
-      "headline": "What's going on in today's pre-market session: S&P500 movers",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=00ebf56e68442c5a234016d57a07813eaaae7356d63e15480624fd359dd8fda0",
-      "datetime": 1790166901,
-      "summary": "Wondering what's happening in today's pre-market session? Stay tuned for the latest updates on S&P500 stock movements."
-    },
-    {
-      "headline": "Power Integrations, Penguin Solutions, Photronics, Amkor, and Teradyne Shares Are Soaring, What You Need To Know",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d7bf5948a48e6dd0012e8fbfb21014cad4845f669022b9a0e6aa98889e7a6598",
-      "datetime": 1790113306,
-      "summary": "A number of stocks jumped in the afternoon session after growing optimism surrounding agentic artificial intelligence and Meta Platforms' Muse application fueled expectations of higher demand for central processing units."
-    },
-    {
-      "headline": "Teradyne Partners With GS Microelectronics On New Semiconductor Test Center \u2014 Targets AI, Silicon Photonics And Auto Chips",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c9c439960bc73e3317f95b3f0d5acf9ad522944464783eca2dffaf2a682dbcff",
-      "datetime": 1790097203,
-      "summary": "The multi-year partnership gives chip developers access to Teradyne\u2019s advanced test systems as increasingly complex AI and next-generation semiconductor designs require more intensive evaluation before production."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-23",
+  "data_asof": "2026-09-24",
   "price": {
-    "last": 389.14,
-    "open": 398.0,
-    "prev_close": 381.54,
-    "move_day_pct": 1.99,
-    "move_open_close_pct": -2.23,
-    "move_week_pct": 16.91
+    "last": 387.7,
+    "open": 383.08,
+    "prev_close": 389.14,
+    "move_day_pct": -0.37,
+    "move_open_close_pct": 1.21,
+    "move_week_pct": 13.65
   },
   "indicators": {
     "rsi14": {
-      "value": 56.7,
+      "value": 56.2,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.512,
-      "signal": -4.252,
-      "hist": 3.74,
-      "hist_prev": 2.184,
+      "macd": 1.33,
+      "signal": -3.136,
+      "hist": 4.466,
+      "hist_prev": 3.74,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 395.06,
-      "lower": 323.15,
-      "mid": 359.11,
-      "pctb": 0.918,
+      "upper": 398.14,
+      "lower": 322.21,
+      "mid": 360.18,
+      "pctb": 0.862,
       "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 195.2,
-      "read": "195% above its 52-week low"
+      "value": 194.1,
+      "read": "194% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -19.54,
+      "value": -19.84,
       "read": "20% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 326.58,
-      "pct": 19.16,
-      "read": "19% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 327.52,
+      "pct": 18.37,
+      "read": "18% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 21.08,
-      "pct_of_price": 5.42,
+      "value": 20.51,
+      "pct_of_price": 5.29,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.79,
+      "value": 0.53,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 70.9,
+      "value": 66.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 131.82,
   "high_52w": 483.65,
-  "ma50": 365.55,
-  "ma200": 326.58
+  "ma50": 366.24,
+  "ma200": 327.52
 }

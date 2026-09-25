@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-24T00:05:49.745515-07:00",
+  "generated_at": "2026-09-25T00:00:18.547706-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -75,63 +75,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-23",
+  "data_asof": "2026-09-24",
   "price": {
-    "last": 43.69,
-    "open": 45.05,
-    "prev_close": 43.96,
-    "move_day_pct": -0.61,
-    "move_open_close_pct": -3.02,
-    "move_week_pct": 2.15
+    "last": 44.04,
+    "open": 43.2,
+    "prev_close": 43.69,
+    "move_day_pct": 0.8,
+    "move_open_close_pct": 1.94,
+    "move_week_pct": 2.16
   },
   "indicators": {
     "rsi14": {
-      "value": 54.9,
+      "value": 55.9,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 0.495,
-      "signal": 0.214,
-      "hist": 0.28,
-      "hist_prev": 0.291,
+      "macd": 0.564,
+      "signal": 0.284,
+      "hist": 0.279,
+      "hist_prev": 0.28,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 44.99,
-      "lower": 38.52,
-      "mid": 41.76,
-      "pctb": 0.799,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 45.25,
+      "lower": 38.62,
+      "mid": 41.94,
+      "pctb": 0.817,
+      "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 14.31,
-      "read": "Just off its 52-week low"
+      "value": 15.23,
+      "read": "15% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -49.95,
+      "value": -49.55,
       "read": "50% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 51.15,
-      "pct": -14.58,
-      "read": "15% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 51.07,
+      "pct": -13.77,
+      "read": "14% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 1.93,
-      "pct_of_price": 4.42,
+      "value": 1.9,
+      "pct_of_price": 4.32,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.01,
+      "value": 0.85,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 68.9,
+      "value": 63.6,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 38.22,
   "high_52w": 87.3,
-  "ma50": 41.94,
-  "ma200": 51.15
+  "ma50": 41.95,
+  "ma200": 51.07
 }

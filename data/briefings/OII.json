@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-24T00:05:50.307084-07:00",
+  "generated_at": "2026-09-25T00:00:19.043874-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "SLB Wins Oman Contract, Strengthening Its Middle East Growth Story",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a3152206e94e4ceba53a709ee4b94461412777374315f23011d1b18ecbf0d50b",
+      "datetime": 1790246340,
+      "summary": "SLB's Bisat-B Expansion contract in Oman adds a multi-year project, recurring service work and greater revenue visibility."
+    },
     {
       "headline": "3 Underfollowed Stocks To Own In September 2026",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=d58ecb5919a4a626740a644c53a1f09d82bcb822e707499c9e7feb0391ff7278",
       "datetime": 1790007180,
       "summary": "BP reduces its Browse Project stake to 34.33%, sharing future investment needs and risk with Osaka Gas while retaining exposure to the development."
-    },
-    {
-      "headline": "Here's Why Investors Should Take a Wait-and-See Approach to NOV Stock",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e02ccc700080da4f42480adadcca8eff3bbf0a3855003218a3d4c49de2f96898",
-      "datetime": 1790002620,
-      "summary": "NOV sees strong subsea demand, record Energy Equipment margins and robust drill pipe bookings, but Middle East risks and weak capital equipment sales remain concerns."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-23",
+  "data_asof": "2026-09-24",
   "price": {
-    "last": 46.24,
-    "open": 46.35,
-    "prev_close": 45.93,
-    "move_day_pct": 0.67,
-    "move_open_close_pct": -0.24,
-    "move_week_pct": -3.02
+    "last": 46.67,
+    "open": 46.93,
+    "prev_close": 46.24,
+    "move_day_pct": 0.93,
+    "move_open_close_pct": -0.55,
+    "move_week_pct": 0.13
   },
   "indicators": {
     "rsi14": {
-      "value": 40.6,
+      "value": 42.5,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.91,
-      "signal": -0.277,
-      "hist": -0.632,
-      "hist_prev": -0.708,
+      "macd": -0.929,
+      "signal": -0.408,
+      "hist": -0.522,
+      "hist_prev": -0.632,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 53.66,
-      "lower": 44.9,
-      "mid": 49.28,
-      "pctb": 0.153,
-      "read": "Near the lower band"
+      "upper": 53.63,
+      "lower": 44.6,
+      "mid": 49.12,
+      "pctb": 0.229,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 108.29,
-      "read": "108% above its 52-week low"
+      "value": 110.23,
+      "read": "110% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -14.54,
+      "value": -13.75,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 37.82,
-      "pct": 22.26,
-      "read": "22% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 37.91,
+      "pct": 23.11,
+      "read": "23% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 1.91,
-      "pct_of_price": 4.14,
-      "read": "High daily volatility"
+      "value": 1.86,
+      "pct_of_price": 3.99,
+      "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.48,
-      "read": "Light \u2014 quiet trading"
+      "value": 0.77,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 26.3,
+      "value": 31.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 22.2,
   "high_52w": 54.11,
-  "ma50": 48.98,
-  "ma200": 37.82
+  "ma50": 49.05,
+  "ma200": 37.91
 }
