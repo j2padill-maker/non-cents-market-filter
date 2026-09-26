@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-25T00:00:18.547706-07:00",
+  "generated_at": "2026-09-25T23:58:13.145590-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -15,43 +15,7 @@
     "rel_volume",
     "mfi14"
   ],
-  "news": [
-    {
-      "headline": "Symbotic (SYM) Could Be 30% Undervalued On Its Automation Growth Story",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0fc55ed220af30292d8127a8ff7a504d2421cfec8186495c04a88323394ce890",
-      "datetime": 1790144007,
-      "summary": "Symbotic (SYM) sits in focus after a recent move in its share price, with the stock closing at US$45.07. Investors are weighing that level against the firm\u2019s warehouse automation profile. Recent trading has been brisk for Symbotic, with a 1-day share price return of 2.53% at US$45.07 and a 30-day share price gain of 12.59%. However, the year-to-date share price is still down 30.52%, while the 5-ye"
-    },
-    {
-      "headline": "Symbotic (SYM) Stock May Be 45% Undervalued On Future Cash Flow",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8fb046de3f6511e07794dad778013798f6f319f89cf5580eb936274aa44f4253",
-      "datetime": 1790115105,
-      "summary": "Symbotic has delivered very strong long term gains for shareholders, yet the current US$43.96 share price still comes back to a simple issue: whether the cash the business can generate justifies where the stock trades today. The stock is up 348.6% over 5 years, which puts a lot of weight on the question of how much future cash flow the business can realistically support. Symbotic\u2019s model of automa"
-    },
-    {
-      "headline": "Move Over, Tesla: This Robotics Stock Already Has Paying Customers",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a6389586e5166e95a049a9b57a79ef5d4b5aa02792c3df86453f2446db5914ce",
-      "datetime": 1790078940,
-      "summary": "Symbotic is a robotics pure play, already in the commercialization stage."
-    },
-    {
-      "headline": "September Stagnation Marked By Record-Low Yields, High Duration Risk And High Valuations",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=74a295e0272eaa2289eae1407bd3c1768cb42f9d93519bf8ed4fefe16a90a4ab",
-      "datetime": 1790060700,
-      "summary": "Over the first nine months of 2026, we have witnessed a fascinating macro paradox: a surging US stock market decoupling completely from the bond market. Read more here..."
-    },
-    {
-      "headline": "Symbotic Inc. (SYM) is Attracting Investor Attention: Here is What You Should Know",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=021e266409adec3741846ffb08bbc5e2d709fa0f964614acf4dec26f74641fd5",
-      "datetime": 1789736402,
-      "summary": "SYMBOTIC INC (SYM) has received quite a bit of attention from Zacks.com users lately. Therefore, it is wise to be aware of the facts that can impact the stock's prospects."
-    }
-  ],
+  "news": [],
   "filings": [
     {
       "form": "10-Q",
@@ -75,63 +39,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-24",
+  "data_asof": "2026-09-25",
   "price": {
-    "last": 44.04,
-    "open": 43.2,
-    "prev_close": 43.69,
-    "move_day_pct": 0.8,
-    "move_open_close_pct": 1.94,
-    "move_week_pct": 2.16
+    "last": 43.47,
+    "open": 44.39,
+    "prev_close": 44.04,
+    "move_day_pct": -1.29,
+    "move_open_close_pct": -2.07,
+    "move_week_pct": 3.77
   },
   "indicators": {
     "rsi14": {
-      "value": 55.9,
+      "value": 53.0,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 0.564,
-      "signal": 0.284,
-      "hist": 0.279,
-      "hist_prev": 0.28,
+      "macd": 0.627,
+      "signal": 0.431,
+      "hist": 0.197,
+      "hist_prev": 0.273,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 45.25,
-      "lower": 38.62,
-      "mid": 41.94,
-      "pctb": 0.817,
-      "read": "Near the upper band"
+      "upper": 45.81,
+      "lower": 38.74,
+      "mid": 42.28,
+      "pctb": 0.669,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 15.23,
-      "read": "15% above its 52-week low"
+      "value": 13.74,
+      "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -49.55,
+      "value": -50.21,
       "read": "50% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 51.07,
-      "pct": -13.77,
-      "read": "14% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 50.91,
+      "pct": -14.61,
+      "read": "15% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 1.9,
-      "pct_of_price": 4.32,
+      "value": 1.85,
+      "pct_of_price": 4.26,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.85,
+      "value": 0.55,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 63.6,
+      "value": 57.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 38.22,
   "high_52w": 87.3,
-  "ma50": 41.95,
-  "ma200": 51.07
+  "ma50": 42.02,
+  "ma200": 50.91
 }

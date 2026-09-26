@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-25T00:00:16.171249-07:00",
+  "generated_at": "2026-09-25T23:58:10.993418-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -15,50 +15,7 @@
     "rel_volume",
     "mfi14"
   ],
-  "news": [
-    {
-      "headline": "MongoDB (MDB) Stock Could Be 16% Overvalued As Cash Flow Lags",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=087803aec6afe42fe33ae1b39b802e3088562ac2490893b19d9302824979eb2b",
-      "datetime": 1790291590,
-      "summary": "MongoDB has delivered a strong share price run in recent years, which naturally pushes investors to ask whether the current US$421.40 price is grounded in the cash the business can generate. With the focus on its cash flows, the question is how much of that move is backed by fundamentals rather than sentiment. The stock has returned 33.6% over the past year, which raises the stakes on whether the "
-    },
-    {
-      "headline": "Lemma Joins LlamaIndex, TinyFish, Linq, and Obvious to Cohost SF Tech Week\u2019s largest event: The Agent Economy Gala",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=1cbfc1dba74424edebc9b51c8524b9cf522513420b3591cf6cb1133589a64f44",
-      "datetime": 1790280000,
-      "summary": "San Francisco, California, Sept. 24, 2026 (GLOBE NEWSWIRE) -- Lemma, a monitoring tool that helps engineering teams catch silent AI agent failures in production, announced it is co-hosting The Agent Economy Gala, a black-tie event during San Francisco Tech Week that brings together the founders, operators, and investors building the agent economy for one night in San Francisco. The gala will bring"
-    },
-    {
-      "headline": "MongoDB (MDB) Moves to Strong Buy: Rationale Behind the Upgrade",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f92cfbfbb6922f456c83059ffe13ad1246fe0d79b90fecea437a67fa9b6d1843",
-      "datetime": 1790262003,
-      "summary": "MongoDB (MDB) might move higher on growing optimism about its earnings prospects, which is reflected by its upgrade to a Zacks Rank #1 (Strong Buy)."
-    },
-    {
-      "headline": "Earnings Estimates Moving Higher for MongoDB (MDB): Time to Buy?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b9f1c6c80f6974f3abe5efebf57b19356abebabf761b90fd7c0041abc96e4556",
-      "datetime": 1790180402,
-      "summary": "MongoDB (MDB) shares have started gaining and might continue moving higher in the near term, as indicated by solid earnings estimate revisions."
-    },
-    {
-      "headline": "2 Reasons to Watch MDB and 1 to Stay Cautious",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c76cdf493dbfded14b3ee4d7fd9ab81f02ac32be7154fd0148ebc8c3c42d1751",
-      "datetime": 1790173742,
-      "summary": "MongoDB has been on fire lately. In the past six months alone, the company\u2019s stock price has rocketed 56.9%, reaching $428.78 per share. This was partly thanks to its solid quarterly results, and the run-up might have investors contemplating their next move."
-    },
-    {
-      "headline": "MongoDB investors have one number to watch",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9f567d7cc43556bbe9c30507d092277c24418eea0c65f2074cf090ad392b7920",
-      "datetime": 1790099139,
-      "summary": "When management takes the stage in New York, demand from an unexpected source could change how Wall Street prices the stock."
-    }
-  ],
+  "news": [],
   "filings": [
     {
       "form": "10-Q",
@@ -82,63 +39,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-24",
+  "data_asof": "2026-09-25",
   "price": {
-    "last": 421.4,
-    "open": 423.04,
-    "prev_close": 428.36,
-    "move_day_pct": -1.62,
-    "move_open_close_pct": -0.39,
-    "move_week_pct": 11.97
+    "last": 410.44,
+    "open": 417.6,
+    "prev_close": 421.4,
+    "move_day_pct": -2.6,
+    "move_open_close_pct": -1.71,
+    "move_week_pct": 7.01
   },
   "indicators": {
     "rsi14": {
-      "value": 57.3,
+      "value": 53.7,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 3.289,
-      "signal": -0.341,
-      "hist": 3.63,
-      "hist_prev": 2.46,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "macd": 5.497,
+      "signal": 1.786,
+      "hist": 3.711,
+      "hist_prev": 4.419,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 456.91,
-      "lower": 336.12,
-      "mid": 396.51,
-      "pctb": 0.706,
+      "upper": 455.02,
+      "lower": 337.15,
+      "mid": 396.09,
+      "pctb": 0.622,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 86.5,
-      "read": "86% above its 52-week low"
+      "value": 81.65,
+      "read": "82% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -10.78,
+      "value": -13.1,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 344.65,
-      "pct": 22.27,
-      "read": "22% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 344.7,
+      "pct": 19.07,
+      "read": "19% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 21.69,
-      "pct_of_price": 5.15,
+      "value": 21.44,
+      "pct_of_price": 5.22,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.67,
+      "value": 0.77,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 59.3,
+      "value": 60.1,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 382.49,
-  "ma200": 344.65
+  "ma50": 386.02,
+  "ma200": 344.7
 }

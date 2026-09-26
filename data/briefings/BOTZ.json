@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-25T00:00:18.909520-07:00",
+  "generated_at": "2026-09-25T23:58:13.678421-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -15,111 +15,68 @@
     "rel_volume",
     "mfi14"
   ],
-  "news": [
-    {
-      "headline": "AI's Next Bottleneck Could Be Here",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=93afef25ddf53623a2f07471cb40d79ad90e1ca5f29c02ea8fdee95299df0822",
-      "datetime": 1790230617,
-      "summary": "Robotics is emerging as the next major economic bottleneck, with a projected $2T TAM by the 2040s and $7\u00e2\u0080\u00939T by 2050. Read what investors need to know."
-    },
-    {
-      "headline": "Above The Noise: Looking Beyond The Headlines",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=5963dc6f16fa0d192c708a60a3d1451dbc2fe6366b6b0c2310573898fb0309f3",
-      "datetime": 1790222280,
-      "summary": "Market headlines are usually meant to capture attention, not to help investors achieve long-term goals. Before reacting, consider whether it\u00e2\u0080\u0099s meant to inform or simply attract clicks."
-    },
-    {
-      "headline": "What's Really Driving The Rise In Treasury Yields?",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=4050339141651a65cb3eeb0be59b76c97b083296cc46385011d01c7a6b057e2b",
-      "datetime": 1790145300,
-      "summary": "More than 70% of the increase in 10-year Treasury yields since the end of February has come from higher expected real short-term rates and the real term premium. Read more here."
-    },
-    {
-      "headline": "Q2 2026 Earnings Review: Performance, Market Revisions, Sentiment",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=a125c19ac6af375bbc2a7e08ef23d79ef0a8ea54b7722758ca31f29421f2be6d",
-      "datetime": 1790129400,
-      "summary": "The S&P 500 continued its march to fresh all-time highs through Q2 2026. Read more here."
-    },
-    {
-      "headline": "An Investor Letter From Cathie Wood",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=a8cec346b527f4eb830c2a0a03edf2a58e86890c0e32fc6493d2af3451aecf95",
-      "datetime": 1790128800,
-      "summary": "In this paper, we share our thoughts on the technology revolution that could push real GDP growth and interest rates higher while inflation falls and the yield curve inverts. Read more here."
-    },
-    {
-      "headline": "Cognex Buys Intel-Spun RealSense For $500 Million",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=4f712a3a4a15c40356adb60996d2fad1296d68908409421c438279b47165ed52",
-      "datetime": 1790082459,
-      "summary": "Cognex acquires RealSense for $500M to expand into robotic perception and physical AI. Read the full acquisition and market details."
-    }
-  ],
+  "news": [],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-24",
+  "data_asof": "2026-09-25",
   "price": {
-    "last": 35.22,
-    "open": 35.16,
-    "prev_close": 35.29,
-    "move_day_pct": -0.2,
-    "move_open_close_pct": 0.17,
-    "move_week_pct": 1.44
+    "last": 35.4,
+    "open": 35.4,
+    "prev_close": 35.22,
+    "move_day_pct": 0.51,
+    "move_open_close_pct": 0.0,
+    "move_week_pct": 0.83
   },
   "indicators": {
     "rsi14": {
-      "value": 46.8,
+      "value": 48.5,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.241,
-      "signal": -0.29,
-      "hist": 0.049,
-      "hist_prev": 0.046,
+      "macd": -0.171,
+      "signal": -0.238,
+      "hist": 0.066,
+      "hist_prev": 0.065,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 36.23,
-      "lower": 34.47,
-      "mid": 35.35,
-      "pctb": 0.426,
+      "upper": 36.18,
+      "lower": 34.49,
+      "mid": 35.33,
+      "pctb": 0.54,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 10.15,
+      "value": 10.71,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -15.36,
-      "read": "15% below its 52-week high"
+      "value": -14.92,
+      "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 36.89,
-      "pct": -4.53,
-      "read": "5% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 36.88,
+      "pct": -4.01,
+      "read": "4% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.57,
-      "pct_of_price": 1.61,
+      "value": 0.55,
+      "pct_of_price": 1.55,
       "read": "Calm \u2014 low volatility"
     },
     "rel_volume": {
-      "value": 0.65,
+      "value": 0.59,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 45.4,
+      "value": 43.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 31.97,
   "high_52w": 41.61,
   "ma50": 35.68,
-  "ma200": 36.89
+  "ma200": 36.88
 }

@@ -1,0 +1,101 @@
+{
+  "ticker": "ZS",
+  "user_id": "local",
+  "session": "close",
+  "generated_at": "2026-09-25T23:58:13.976498-07:00",
+  "disclaimer": "Informational only. Not financial advice.",
+  "selected_indicators": [
+    "rsi14",
+    "macd",
+    "bollinger_pctb",
+    "pct_from_52w_low",
+    "pct_from_52w_high",
+    "price_vs_ma200",
+    "atr14",
+    "rel_volume",
+    "mfi14"
+  ],
+  "news": [],
+  "filings": [
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-09-24",
+      "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000193/zs-20260924.htm"
+    },
+    {
+      "form": "10-K",
+      "title": "Annual report (10-K)",
+      "date": "2026-09-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000157/zs-20260731.htm"
+    },
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-09-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000156/zs-20260901.htm"
+    }
+  ],
+  "script_text": null,
+  "audio_cached": false,
+  "status": "ok",
+  "data_asof": "2026-09-25",
+  "price": {
+    "last": 193.05,
+    "open": 206.0,
+    "prev_close": 214.64,
+    "move_day_pct": -10.06,
+    "move_open_close_pct": -6.29,
+    "move_week_pct": -2.16
+  },
+  "indicators": {
+    "rsi14": {
+      "value": 53.6,
+      "read": "Neutral"
+    },
+    "macd": {
+      "macd": 9.657,
+      "signal": 7.873,
+      "hist": 1.784,
+      "hist_prev": 3.422,
+      "read": "Bullish \u2014 MACD above signal"
+    },
+    "bollinger_pctb": {
+      "upper": 220.39,
+      "lower": 153.49,
+      "mid": 186.94,
+      "pctb": 0.591,
+      "read": "Mid-band \u2014 no extreme"
+    },
+    "pct_from_52w_low": {
+      "value": 63.53,
+      "read": "64% above its 52-week low"
+    },
+    "pct_from_52w_high": {
+      "value": -42.59,
+      "read": "43% below its 52-week high"
+    },
+    "price_vs_ma200": {
+      "ma200": 167.43,
+      "pct": 15.3,
+      "read": "15% above its 200-day average \u2014 long-term uptrend"
+    },
+    "atr14": {
+      "value": 10.29,
+      "pct_of_price": 5.33,
+      "read": "High daily volatility"
+    },
+    "rel_volume": {
+      "value": 2.01,
+      "read": "Heavy volume \u2014 well above average"
+    },
+    "mfi14": {
+      "value": 65.2,
+      "read": "Neutral money flow"
+    }
+  },
+  "low_52w": 118.05,
+  "high_52w": 336.27,
+  "ma50": 173.85,
+  "ma200": 167.43
+}

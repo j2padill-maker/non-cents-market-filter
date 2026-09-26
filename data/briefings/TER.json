@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-25T00:00:18.741170-07:00",
+  "generated_at": "2026-09-25T23:58:13.383812-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -15,50 +15,7 @@
     "rel_volume",
     "mfi14"
   ],
-  "news": [
-    {
-      "headline": "Reflecting On Semiconductor Manufacturing Stocks\u2019 Q2 Earnings: Teradyne (NASDAQ:TER)",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=973b96e9bb156dbefe9c54fef6f91de0614a2ef5bf8a8fc05db026c7e16bd3e9",
-      "datetime": 1790277178,
-      "summary": "The end of the earnings season is always a good time to take a step back and see who shined (and who didn\u2019t). Let\u2019s take a look at how semiconductor manufacturing stocks fared in Q2, starting with Teradyne (NASDAQ:TER)."
-    },
-    {
-      "headline": "Teradyne Strengthens AI Test Portfolio: Can It Beat KLAC & COHU?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=fae78af6d0bea98b3154a6075a765d8dc25a468a69ce7ebd35a65dbba37954d1",
-      "datetime": 1790262960,
-      "summary": "TER's AI-driven test momentum is accelerating, with Iris 100 expanding its optical portfolio as semiconductor and data-center demand surges."
-    },
-    {
-      "headline": "Wondering what's happening in today's S&P500  pre-market session?",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=e36f17a0a336c936e7bcf62e255c87584a2afb5e2fb83f8131263752f543b5ab",
-      "datetime": 1790253301,
-      "summary": "The US market is yet to commence its session on Thursday, but let's get a preview of the pre-market session and explore the top S&P500 gainers and losers driving the early market movements."
-    },
-    {
-      "headline": "Keysight's CSG Gains Momentum: Can AI Infrastructure Drive Growth?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d663263cfd6bc47e9cc5d68cad456899b89fac3f1d52e6246419259cdcf59d20",
-      "datetime": 1790251680,
-      "summary": "KEYS' CSG is gaining momentum as AI infrastructure, high-speed connectivity and 6G development fuel strong growth across key businesses."
-    },
-    {
-      "headline": "VIAV's NSE Segment Shows Strength: Is the Growth Story Intact?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8dc5d6324ddc112a6a7fc2a45fde54d98b3b21c58e8d5fe2bd9a0a935a7325b1",
-      "datetime": 1790251500,
-      "summary": "VIAVI's NSE business is gaining from strong data center demand, 1.6T networking adoption and Spirent contributions, although soft wireless demand remains a concern."
-    },
-    {
-      "headline": "Teradyne (TER) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9b5409a0be5a778705aef894d09f6d430d39bb943345c38b457bf97c46b393f4",
-      "datetime": 1790201704,
-      "summary": "The latest trading day saw Teradyne (TER) settling at $389.14, representing a -2.4% change from its previous close."
-    }
-  ],
+  "news": [],
   "filings": [
     {
       "form": "8-K",
@@ -82,63 +39,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-24",
+  "data_asof": "2026-09-25",
   "price": {
-    "last": 387.7,
-    "open": 383.08,
-    "prev_close": 389.14,
-    "move_day_pct": -0.37,
-    "move_open_close_pct": 1.21,
-    "move_week_pct": 13.65
+    "last": 398.38,
+    "open": 394.85,
+    "prev_close": 387.7,
+    "move_day_pct": 2.75,
+    "move_open_close_pct": 0.89,
+    "move_week_pct": 7.24
   },
   "indicators": {
     "rsi14": {
-      "value": 56.2,
+      "value": 58.1,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 1.33,
-      "signal": -3.136,
-      "hist": 4.466,
-      "hist_prev": 3.74,
+      "macd": 5.093,
+      "signal": -0.294,
+      "hist": 5.387,
+      "hist_prev": 4.932,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 398.14,
-      "lower": 322.21,
-      "mid": 360.18,
-      "pctb": 0.862,
+      "upper": 407.58,
+      "lower": 318.99,
+      "mid": 363.29,
+      "pctb": 0.896,
       "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 194.1,
-      "read": "194% above its 52-week low"
+      "value": 202.2,
+      "read": "202% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -19.84,
-      "read": "20% below its 52-week high"
+      "value": -17.63,
+      "read": "18% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 327.52,
-      "pct": 18.37,
-      "read": "18% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 329.49,
+      "pct": 20.91,
+      "read": "21% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 20.51,
-      "pct_of_price": 5.29,
+      "value": 20.4,
+      "pct_of_price": 5.12,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.53,
+      "value": 0.64,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 66.9,
+      "value": 65.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 131.82,
   "high_52w": 483.65,
-  "ma50": 366.24,
-  "ma200": 327.52
+  "ma50": 368.9,
+  "ma200": 329.49
 }

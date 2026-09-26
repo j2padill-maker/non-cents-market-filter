@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-25T00:00:16.995947-07:00",
+  "generated_at": "2026-09-25T23:58:11.887065-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -15,50 +15,7 @@
     "rel_volume",
     "mfi14"
   ],
-  "news": [
-    {
-      "headline": "Datadog (DDOG) Rallies On AI Demand, Is The Stock Still Cheap?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f49b2069830bbb54ec1dc24a099925df820781a59974eff1fd8ad6c01de1070b",
-      "datetime": 1790295592,
-      "summary": "Datadog (DDOG) has drawn fresh attention after recent gains left the stock up 15.2% over the past month and 7.2% in the past 3 months, sharply outpacing many software peers. Short term momentum has picked up for Datadog, with a 1 day share price return of 2.16% building on a 7 day gain of 8.86% and contributing to a 92.06% year to date share price return, while the 3 year total shareholder return "
-    },
-    {
-      "headline": "Dow Jones Futures: Market Rally Resilient As Yields, Oil Prices Keep Rising; Tesla Event On Deck",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=78238e26136a0958e886dd7b0985f3367f77c2ddd56135f7b81615238bc1bd03",
-      "datetime": 1790286531,
-      "summary": "The stock market rallied to close mixed even as yields and oil prices kept rising. Taiwan Semi is a buy. A Tesla Semi event is on tap."
-    },
-    {
-      "headline": "Fastly Sinks 8% as Selling After Investor Day Cuts Into a 164% YTD Run; Cloudflare Holds Flat",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6dd6824f8505fbfeca4427e1b3ac2d0ee6ad7d5acf8166458ca1de404e61b311",
-      "datetime": 1790258522,
-      "summary": "Fastly stock carved out one of the sharpest runs in mid-cap software this year, then held an Investor Day that handed sellers exactly the moment they were waiting for. Here is what the peer group's calm tape reveals about where the pressure is really coming from."
-    },
-    {
-      "headline": "AutonomyAI Launches Autonomous Product Delivery: From Product Question to Review-Ready Pull Request",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=75f4379e25d37a3f99edfb79228d34b9584ca736a1c2238338c07b2951cf0c7f",
-      "datetime": 1790254800,
-      "summary": "The coding bottleneck is disappearing. The product backlog is not. AutonomyAI, the OS for product teams building in production, today launched Discover Mode, the final piece of its Autonomous Product Delivery system. A product manager can now take a question about what to improve, or allow the AI to suggest improvements, research it across the company's own data, turn the findings into a plan and "
-    },
-    {
-      "headline": "Dow Jones Futures Fall As Treasury Yields, Oil Prices Keep Rising. Meta, Everpure, Grail Are Early Movers.",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a1968f7dfdc35eb701af6355cb35cf6d4ecba067b0a422de48c6d7a39b18964b",
-      "datetime": 1790251109,
-      "summary": "Dow Jones futures fell early Thursday, along with S&P 500 futures and especially Nasdaq futures. The 30-year Treasury yield hit a fresh long-term high while oil prices rose again. The Trump-Xi summit is on tap."
-    },
-    {
-      "headline": "Dow Jones Futures Fall After Soaring Yields Hit Stocks, But Palantir Flashes Buy Signal; Trump-Xi On Tap",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=118c30e7f0c2409f02a6b8ada7b3e6d9f11d2a762681f0acb19b7e98ccc64c9b",
-      "datetime": 1790214902,
-      "summary": "The stock market fell as Treasury yields skyrocketed and oil prices rose, but Palantir and Palo Alto flashed buy signals."
-    }
-  ],
+  "news": [],
   "filings": [
     {
       "form": "10-Q",
@@ -82,63 +39,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-24",
+  "data_asof": "2026-09-25",
   "price": {
-    "last": 256.92,
-    "open": 249.6,
-    "prev_close": 251.49,
-    "move_day_pct": 2.16,
-    "move_open_close_pct": 2.93,
-    "move_week_pct": 11.32
+    "last": 268.13,
+    "open": 263.17,
+    "prev_close": 256.92,
+    "move_day_pct": 4.36,
+    "move_open_close_pct": 1.88,
+    "move_week_pct": 16.62
   },
   "indicators": {
     "rsi14": {
-      "value": 62.2,
+      "value": 67.0,
       "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 1.855,
-      "signal": -2.734,
-      "hist": 4.59,
-      "hist_prev": 3.898,
+      "macd": 4.852,
+      "signal": -0.459,
+      "hist": 5.311,
+      "hist_prev": 4.54,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 255.29,
-      "lower": 204.14,
-      "mid": 229.71,
-      "pctb": 1.032,
+      "upper": 262.89,
+      "lower": 201.04,
+      "mid": 231.97,
+      "pctb": 1.085,
       "read": "Above the upper band \u2014 stretched to the upside"
     },
     "pct_from_52w_low": {
-      "value": 150.37,
-      "read": "150% above its 52-week low"
+      "value": 161.3,
+      "read": "161% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -10.84,
+      "value": -6.95,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 180.67,
-      "pct": 42.2,
-      "read": "42% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 181.72,
+      "pct": 47.55,
+      "read": "48% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 12.27,
-      "pct_of_price": 4.78,
+      "value": 12.57,
+      "pct_of_price": 4.69,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.93,
-      "read": "Roughly average volume"
+      "value": 1.46,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 70.8,
+      "value": 76.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 288.15,
-  "ma50": 242.93,
-  "ma200": 180.67
+  "ma50": 242.7,
+  "ma200": 181.72
 }

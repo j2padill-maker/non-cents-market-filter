@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-25T00:00:17.991457-07:00",
+  "generated_at": "2026-09-25T23:58:12.929273-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -15,50 +15,7 @@
     "rel_volume",
     "mfi14"
   ],
-  "news": [
-    {
-      "headline": "Can This Number Push ISRG Stock Higher?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ada4e79b8d60c72f2fd08b95f47d426e44168ce5ba5b5c138c70ee676f8688f2",
-      "datetime": 1790275520,
-      "summary": "Intuitive Surgical (ISRG) shares fell 10.4% in the past year, while the S&P 500 returned 16.5%. Much of the market has focused on moderating U.S. procedure growth. The more telling number is 144 trade-ins in fiscal Q2 2026, up from 83 a year earlier. Most came from customers moving to the new da Vinci 5 robot. Those trade-ins matter most if upgrades continue and each surgery also earns more. Is th"
-    },
-    {
-      "headline": "Here's Why You Should Retain Baxter Stock in Your Portfolio for Now",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=fac52144dbf3a1921369819886515d383ec1e44ae006b63f82bbac7afd4455d2",
-      "datetime": 1790257320,
-      "summary": "BAX's portfolio reset and growth in connected care and advanced surgery support prospects, but margins, Novum IQ and China pricing remain risks."
-    },
-    {
-      "headline": "COO Unveils New Innovation Hub & Lens Launch Plans to Aid CooperVision",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a323105b776fdaab6265a82d006aa851bdca893958c3e9c6d01c51d5ad58928f",
-      "datetime": 1790256660,
-      "summary": "The Cooper Companies opens a global innovation hub in England and unveils six contact lens programs to support sustainable long-term growth."
-    },
-    {
-      "headline": "Buy 3 AI-Powered Medical Stocks to Strengthen Your Portfolio in Q4",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6a272da4299dbdd38ecc1f05f9aea0440ad19c5b994b479014c02f7cbb1f1f1d",
-      "datetime": 1790245320,
-      "summary": "AI adoption is reshaping medical devices, with ISRG, TEM and TMO leveraging AI to advance precision medicine and drug development."
-    },
-    {
-      "headline": "Medical Robots Market Forecasts Growth from $20.6B (2026) to $41.7B by 2031, Profiling Intuitive Surgical, Stryker, Zimmer Biomet & Medtronic",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=79dd7f01c6ecef2740e3a6268b02c082b383afae7fc17168d71498774b5d6f8d",
-      "datetime": 1790245020,
-      "summary": "The global medical robots market is projected to grow from USD 20.6 billion in 2026 to USD 41.7 billion by 2031, at a 15.1% CAGR. Growth is driven by demand for minimally invasive surgery, healthcare automation, precision procedures, and advances in AI-powered surgical, rehabilitation, radiosurgery, hospital, and pharmacy robots. Robotic systems will hold the largest market share, while surgical r"
-    },
-    {
-      "headline": "Intuitive Surgical Stock Has Plunged 29% This Year. Is the Market Overreacting?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5f76ba72aeebc504c3922930d3403b30174fda18678807b4c9c37c44831ded12",
-      "datetime": 1790240640,
-      "summary": "Wall Street thinks that this robotic surgical systems leader's sell-off is overdone."
-    }
-  ],
+  "news": [],
   "filings": [
     {
       "form": "8-K",
@@ -82,63 +39,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-24",
+  "data_asof": "2026-09-25",
   "price": {
-    "last": 399.52,
-    "open": 396.73,
-    "prev_close": 398.3,
-    "move_day_pct": 0.31,
-    "move_open_close_pct": 0.7,
-    "move_week_pct": 4.51
+    "last": 405.18,
+    "open": 397.65,
+    "prev_close": 399.52,
+    "move_day_pct": 1.42,
+    "move_open_close_pct": 1.89,
+    "move_week_pct": 3.01
   },
   "indicators": {
     "rsi14": {
-      "value": 62.9,
+      "value": 65.4,
       "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 5.041,
-      "signal": 0.862,
-      "hist": 4.179,
-      "hist_prev": 4.216,
+      "macd": 6.806,
+      "signal": 2.901,
+      "hist": 3.905,
+      "hist_prev": 3.95,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 403.46,
-      "lower": 347.67,
-      "mid": 375.57,
-      "pctb": 0.929,
+      "upper": 411.08,
+      "lower": 347.03,
+      "mid": 379.06,
+      "pctb": 0.908,
       "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 20.33,
-      "read": "20% above its 52-week low"
+      "value": 22.03,
+      "read": "22% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -32.61,
-      "read": "33% below its 52-week high"
+      "value": -31.66,
+      "read": "32% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 452.57,
-      "pct": -11.72,
-      "read": "12% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 450.9,
+      "pct": -10.14,
+      "read": "10% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 11.48,
-      "pct_of_price": 2.87,
+      "value": 11.37,
+      "pct_of_price": 2.81,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.66,
+      "value": 1.08,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 75.9,
-      "read": "Neutral money flow"
+      "value": 81.8,
+      "read": "Overbought \u2014 money flowing in"
     }
   },
   "low_52w": 332.02,
   "high_52w": 592.85,
-  "ma50": 373.61,
-  "ma200": 452.57
+  "ma50": 373.93,
+  "ma200": 450.9
 }

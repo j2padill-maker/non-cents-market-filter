@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-25T00:00:19.043874-07:00",
+  "generated_at": "2026-09-25T23:58:13.803776-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -15,50 +15,7 @@
     "rel_volume",
     "mfi14"
   ],
-  "news": [
-    {
-      "headline": "SLB Wins Oman Contract, Strengthening Its Middle East Growth Story",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a3152206e94e4ceba53a709ee4b94461412777374315f23011d1b18ecbf0d50b",
-      "datetime": 1790246340,
-      "summary": "SLB's Bisat-B Expansion contract in Oman adds a multi-year project, recurring service work and greater revenue visibility."
-    },
-    {
-      "headline": "3 Underfollowed Stocks To Own In September 2026",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6061fcb922aeb1e1a7a6c3e305413ea159322bc0135edceacc5d7e622c08a557",
-      "datetime": 1790101111,
-      "summary": "AI optimism has just pushed the Nasdaq 100 close to record territory, reminding investors how quickly capital can shift when a new theme catches fire. Big funds are crowding into the obvious large caps. That leaves smaller, financially solid businesses with far less attention. This article highlights three underfollowed high quality US stocks from a curated screener that may appeal to investors lo"
-    },
-    {
-      "headline": "CLB Declines 35% in the Past Six Months: How to Play the Stock?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=555c1457ff3fc7a43d90776be725fdbc528ef6d15abbffa9404c79aeacc348c2",
-      "datetime": 1790088240,
-      "summary": "Core Laboratories' 35.1% six-month slide contrasts with stronger Production Enhancement trends and offshore recovery potential amid geopolitical risks."
-    },
-    {
-      "headline": "TC Energy to Divest Guadalajara-Manzanillo Pipeline for $400M",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a4e07c06868431a1e86b976d67665fb33a80d1d28eeec2c4b9c391c34a56702b",
-      "datetime": 1790087100,
-      "summary": "TRP is selling a Mexican pipeline for $400 million, creating capital flexibility while retaining a substantial network in the country."
-    },
-    {
-      "headline": "Is Montauk Renewables (MNTK) Outperforming Other Oils-Energy Stocks This Year?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a7afe21a01941131a954cfceb9b0a1f94ae4124b35b6f8aec67a6ea118d67d62",
-      "datetime": 1790084404,
-      "summary": "Here is how Montauk Renewables (MNTK) and Oceaneering International (OII) have performed compared to their sector so far this year."
-    },
-    {
-      "headline": "BP Trims Browse Stake as Portfolio Discipline Takes Center Stage",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d58ecb5919a4a626740a644c53a1f09d82bcb822e707499c9e7feb0391ff7278",
-      "datetime": 1790007180,
-      "summary": "BP reduces its Browse Project stake to 34.33%, sharing future investment needs and risk with Osaka Gas while retaining exposure to the development."
-    }
-  ],
+  "news": [],
   "filings": [
     {
       "form": "8-K",
@@ -82,63 +39,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-24",
+  "data_asof": "2026-09-25",
   "price": {
-    "last": 46.67,
-    "open": 46.93,
-    "prev_close": 46.24,
-    "move_day_pct": 0.93,
-    "move_open_close_pct": -0.55,
-    "move_week_pct": 0.13
+    "last": 46.26,
+    "open": 46.28,
+    "prev_close": 46.67,
+    "move_day_pct": -0.88,
+    "move_open_close_pct": -0.04,
+    "move_week_pct": -0.06
   },
   "indicators": {
     "rsi14": {
-      "value": 42.5,
+      "value": 41.2,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.929,
-      "signal": -0.408,
-      "hist": -0.522,
-      "hist_prev": -0.632,
+      "macd": -0.985,
+      "signal": -0.619,
+      "hist": -0.366,
+      "hist_prev": -0.439,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 53.63,
-      "lower": 44.6,
-      "mid": 49.12,
-      "pctb": 0.229,
+      "upper": 53.4,
+      "lower": 43.98,
+      "mid": 48.69,
+      "pctb": 0.242,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 110.23,
-      "read": "110% above its 52-week low"
+      "value": 108.38,
+      "read": "108% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -13.75,
+      "value": -14.51,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 37.91,
-      "pct": 23.11,
-      "read": "23% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 38.11,
+      "pct": 21.39,
+      "read": "21% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 1.86,
-      "pct_of_price": 3.99,
+      "value": 1.77,
+      "pct_of_price": 3.83,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.77,
+      "value": 0.96,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 31.4,
+      "value": 30.1,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 22.2,
   "high_52w": 54.11,
-  "ma50": 49.05,
-  "ma200": 37.91
+  "ma50": 49.2,
+  "ma200": 38.11
 }
