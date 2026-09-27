@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-25T23:58:12.030618-07:00",
+  "generated_at": "2026-09-27T00:28:33.248379-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -15,7 +15,50 @@
     "rel_volume",
     "mfi14"
   ],
-  "news": [],
+  "news": [
+    {
+      "headline": "Cloudflare (NET) Stock Trades Down, Here Is Why",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=da5ab0898b5ad12f1dbe97ba61414a7c35117426b56d85a7070ac280509252af",
+      "datetime": 1790391397,
+      "summary": "Shares of cloud security and performance company Cloudflare (NYSE:NET) fell 3.2% in the afternoon session after the company's disclosure of a cross-tenant data-isolation vulnerability in its Containers and Sandboxes products."
+    },
+    {
+      "headline": "Datadog Climbs 6%, Approaches 52-Week High While Software Group Slips; Oracle and Cloudflare Decline",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e78f69d3ee39a5f9cbffb86b5deb1d790fb5202f932d13e6b3eee1a05267b96e",
+      "datetime": 1790359590,
+      "summary": "Datadog (NASDAQ:DDOG) stock is up 6% to $272.50, a sharp gain for the observability and monitoring company. That strength arrives against a weaker software group, giving Datadog stock a move that belongs to it alone. Across software, the iShares Expanded Tech-Software Sector ETF (NYSEARCA:IGV) is down 0.4%, which puts Datadog stock on the opposite side [\u2026]"
+    },
+    {
+      "headline": "Zscaler Falls Amid Executive Change As Cybersecurity Stocks Pull Back",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=3a9ba297616527dd19010be3948409bb0e2662b5a10f72fbb7ade36afc3869d6",
+      "datetime": 1790354544,
+      "summary": "Zscaler stock fell Friday after the company changed chief revenue officers ahead of an investor day slated for Oct. 6."
+    },
+    {
+      "headline": "Underweight Position in Cloudflare (NET) Creates Relative Headwind",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=cd88922b14d1ea63b68de4c66cbf915e159b37c99c303d189c370dd074f8f417",
+      "datetime": 1790350327,
+      "summary": "BUFFALO Funds, an actively managed mutual fund advised by Kornitzer Capital Management, released its second-quarter 2026 investor letter for \u201cBuffalo Mid Cap Discovery Fund\u201d. The letter can be downloaded here. The Fund returned 11.34% in the quarter, underperforming its benchmark, the Russell Midcap Growth Index, which returned 14.55%. First-half gains were led by Industrials, Financials, [\u2026]"
+    },
+    {
+      "headline": "Can Unified Platform Strategy Boost Cloudflare's Long-Term Growth?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=399fe4e683d9852f66a8fedf7fc4437c1919cc5f8e6989974df90b06dbc2dfea",
+      "datetime": 1790343360,
+      "summary": "NET's unified platform is winning large enterprise deals as customers consolidate security, networking and developer tools."
+    },
+    {
+      "headline": "Tenable Holdings shares are trading higher after the company reported better-than-expected Q4 financial results and issued Q1 sales guidance above estimates. Also, the company issued FY26 adjusted EPS guidance above estimates.",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=4a5a2e7955807b009164782f96bc8d6c6e57a2309f3ef2b245640d279d1fba5e",
+      "datetime": 1790341236,
+      "summary": ""
+    }
+  ],
   "filings": [
     {
       "form": "8-K",

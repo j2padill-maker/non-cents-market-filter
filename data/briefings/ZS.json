@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-25T23:58:13.976498-07:00",
+  "generated_at": "2026-09-27T00:28:35.129379-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -15,7 +15,50 @@
     "rel_volume",
     "mfi14"
   ],
-  "news": [],
+  "news": [
+    {
+      "headline": "Zscaler (ZS) Names Ross Tackett Chief Revenue Officer",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ce08bdaf586ac0c854c140f02369dbfd5d54da5583ee9c5fb9ac81c80d49c0a5",
+      "datetime": 1790446142,
+      "summary": "Zscaler (NasdaqGS: ZS) has promoted Ross Tackett to Chief Revenue Officer, succeeding Mike Rich. Mike Rich will stay on as a strategic advisor to support the leadership transition in Zscaler's global sales organization. Tackett brings decades of enterprise sales leadership experience from major technology companies to the CRO role at Zscaler. The shift to Ross Tackett as Chief Revenue Officer shou"
+    },
+    {
+      "headline": "Why Zscaler (ZS) Stock Is Trading Lower Today",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=2b190e6a4cd4f021b2b262268fda5f9ad8aa6e940616d8b67fc2fe21525fee54",
+      "datetime": 1790391877,
+      "summary": "Shares of cloud security platform Zscaler (NASDAQ:ZS) fell 9% in the afternoon session after the company announced that Chief Revenue Officer Mike Rich is stepping down for personal reasons, with Head of Worldwide Sales Ross Tackett named as his successor."
+    },
+    {
+      "headline": "Palo Alto Networks (PANW): Can Platformization Keep Driving Growth?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=5d5b34514b94b80a2e7c68dfa3b53a0b91bb0c00a0be64cdc18eb022ee282af5",
+      "datetime": 1790373369,
+      "summary": "Palo Alto Networks, Inc. (NASDAQ:PANW) is positioning itself to capture a larger share of customers\u2019 security budgets. At the center of that pivot is what the company calls platformization strategy. It\u2019s about consolidating multiple tools and processes into a unified platform. The broader cybersecurity sector remains a battleground for investors. While Palo Alto is expanding [\u2026]"
+    },
+    {
+      "headline": "Microsoft, Meta, Akamai, Zscaler, Comcast, and More Stocks That Explain Today\u2019s Market",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e27f51c7589d9c6b0deffe1dd1ae3cd95d50bd610d1b27a22e0d6cfaa28c45da",
+      "datetime": 1790368740,
+      "summary": "FEATURE  Stocks rose Friday as investors grew more optimistic on reported progress toward reaching a resolution to the conflict in Iran and as oil prices fell back below $100 a barrel.  Advanced Micro Devices rose 0."
+    },
+    {
+      "headline": "Why Zscaler Stock Had Its Worst Day in 4 Months",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d37c9be9f004556821c2421ccec9f0474b3d053898ab0a18957a98072eb4b514",
+      "datetime": 1790367660,
+      "summary": "Shares of  Zscaler  fell Friday in their their worst daily performance in four months after the cybersecurity company made a change to its executive management.  The company said Thursday that Ross Tackett would be taking over the role of chief revenue officer from Mike Rich.  Rich is leaving Zscaler for \u201cpersonal reasons,\u201d according to the company."
+    },
+    {
+      "headline": "Zscaler Falls Amid Executive Change As Cybersecurity Stocks Pull Back",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=3a9ba297616527dd19010be3948409bb0e2662b5a10f72fbb7ade36afc3869d6",
+      "datetime": 1790354544,
+      "summary": "Zscaler stock fell Friday after the company changed chief revenue officers ahead of an investor day slated for Oct. 6."
+    }
+  ],
   "filings": [
     {
       "form": "8-K",

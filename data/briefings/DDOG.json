@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-25T23:58:11.887065-07:00",
+  "generated_at": "2026-09-27T00:28:33.098721-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -15,7 +15,50 @@
     "rel_volume",
     "mfi14"
   ],
-  "news": [],
+  "news": [
+    {
+      "headline": "What Moved Markets This Week",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=8db58902f8a901e02142333e7092ccad903b8ead626c0ca0d7858ec1a754c93b",
+      "datetime": 1790411148,
+      "summary": "U.S. stocks advanced for the week while Treasury yields surged and petroleum markets remained in focus. Read more about this week's major events on Wall Street."
+    },
+    {
+      "headline": "Why Is Datadog (DDOG) Stock Rocketing Higher Today",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=fc75eeceaa981540583b5b5a6956cb820c49c38abcf691849cdff44af7139dfd",
+      "datetime": 1790392357,
+      "summary": "Shares of cloud monitoring platform Datadog (NASDAQ:DDOG) jumped 5.9% in the afternoon session after Wedbush initiated coverage of the company with an Outperform rating per TipRanks."
+    },
+    {
+      "headline": "Top S&P500 movers in Friday's session",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=b26709e0a9895e9dabe9e7d0cd4238a29c761ebd827ec7d7cdc10dcfa2dff969",
+      "datetime": 1790363101,
+      "summary": "Curious about the top performers within the S&P500 index one hour before the close of the markets on Friday? Dive into the list of today's session's top gainers and losers for a comprehensive overview."
+    },
+    {
+      "headline": "Datadog Climbs 6%, Approaches 52-Week High While Software Group Slips; Oracle and Cloudflare Decline",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e78f69d3ee39a5f9cbffb86b5deb1d790fb5202f932d13e6b3eee1a05267b96e",
+      "datetime": 1790359590,
+      "summary": "Datadog (NASDAQ:DDOG) stock is up 6% to $272.50, a sharp gain for the observability and monitoring company. That strength arrives against a weaker software group, giving Datadog stock a move that belongs to it alone. Across software, the iShares Expanded Tech-Software Sector ETF (NYSEARCA:IGV) is down 0.4%, which puts Datadog stock on the opposite side [\u2026]"
+    },
+    {
+      "headline": "2 Nasdaq 100 Stocks to Target This Week and 1 We Question",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c09731ffce50512ff4cb77170edc24d53ae5c7085a0e505ca9ec6289e64b2197",
+      "datetime": 1790357797,
+      "summary": "The Nasdaq 100 (^NDX) is home to some of the biggest success stories in tech and growth investing. However, certain stocks in the index face challenges like profitability concerns, rising costs, or shifts in market trends."
+    },
+    {
+      "headline": "Discover which S&P500 stocks are making waves on Friday.",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=934105b468350b5d32bbeacccbde6d0bf0f602402f2458bf63ad1cd8b5c90e5c",
+      "datetime": 1790354101,
+      "summary": "Get insights into the S&P500 index performance on Friday. Explore the top gainers and losers within the S&P500 index in today's session."
+    }
+  ],
   "filings": [
     {
       "form": "10-Q",

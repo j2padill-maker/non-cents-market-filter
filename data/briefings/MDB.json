@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-25T23:58:10.993418-07:00",
+  "generated_at": "2026-09-27T00:28:32.202367-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -15,7 +15,50 @@
     "rel_volume",
     "mfi14"
   ],
-  "news": [],
+  "news": [
+    {
+      "headline": "MongoDB (MDB) Stock Could Be 16% Overvalued As Cash Flow Lags",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=087803aec6afe42fe33ae1b39b802e3088562ac2490893b19d9302824979eb2b",
+      "datetime": 1790291590,
+      "summary": "MongoDB has delivered a strong share price run in recent years, which naturally pushes investors to ask whether the current US$421.40 price is grounded in the cash the business can generate. With the focus on its cash flows, the question is how much of that move is backed by fundamentals rather than sentiment. The stock has returned 33.6% over the past year, which raises the stakes on whether the "
+    },
+    {
+      "headline": "Lemma Joins LlamaIndex, TinyFish, Linq, and Obvious to Cohost SF Tech Week\u2019s largest event: The Agent Economy Gala",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=1cbfc1dba74424edebc9b51c8524b9cf522513420b3591cf6cb1133589a64f44",
+      "datetime": 1790280000,
+      "summary": "San Francisco, California, Sept. 24, 2026 (GLOBE NEWSWIRE) -- Lemma, a monitoring tool that helps engineering teams catch silent AI agent failures in production, announced it is co-hosting The Agent Economy Gala, a black-tie event during San Francisco Tech Week that brings together the founders, operators, and investors building the agent economy for one night in San Francisco. The gala will bring"
+    },
+    {
+      "headline": "MongoDB (MDB) Moves to Strong Buy: Rationale Behind the Upgrade",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f92cfbfbb6922f456c83059ffe13ad1246fe0d79b90fecea437a67fa9b6d1843",
+      "datetime": 1790262003,
+      "summary": "MongoDB (MDB) might move higher on growing optimism about its earnings prospects, which is reflected by its upgrade to a Zacks Rank #1 (Strong Buy)."
+    },
+    {
+      "headline": "Earnings Estimates Moving Higher for MongoDB (MDB): Time to Buy?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b9f1c6c80f6974f3abe5efebf57b19356abebabf761b90fd7c0041abc96e4556",
+      "datetime": 1790180402,
+      "summary": "MongoDB (MDB) shares have started gaining and might continue moving higher in the near term, as indicated by solid earnings estimate revisions."
+    },
+    {
+      "headline": "2 Reasons to Watch MDB and 1 to Stay Cautious",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c76cdf493dbfded14b3ee4d7fd9ab81f02ac32be7154fd0148ebc8c3c42d1751",
+      "datetime": 1790173742,
+      "summary": "MongoDB has been on fire lately. In the past six months alone, the company\u2019s stock price has rocketed 56.9%, reaching $428.78 per share. This was partly thanks to its solid quarterly results, and the run-up might have investors contemplating their next move."
+    },
+    {
+      "headline": "MongoDB investors have one number to watch",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=9f567d7cc43556bbe9c30507d092277c24418eea0c65f2074cf090ad392b7920",
+      "datetime": 1790099139,
+      "summary": "When management takes the stage in New York, demand from an unexpected source could change how Wall Street prices the stock."
+    }
+  ],
   "filings": [
     {
       "form": "10-Q",

@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-25T23:58:13.383812-07:00",
+  "generated_at": "2026-09-27T00:28:34.378681-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -15,7 +15,50 @@
     "rel_volume",
     "mfi14"
   ],
-  "news": [],
+  "news": [
+    {
+      "headline": "Teradyne (TER) Surpasses Market Returns: Some Facts Worth Knowing",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ffa3c1e80364a3e11472ebf51ae10302792b3cb8a16aa4bb4a7198bf0ba642ae",
+      "datetime": 1790370004,
+      "summary": "Teradyne (TER) closed the most recent trading day at $398.32, moving +2.74% from the previous trading session."
+    },
+    {
+      "headline": "'A Good Time To Buy Equipment Stocks': Citi Upgrades Lam Research, Updates Sector Model",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=6568ee5d0418649fb2d15d3245337f245e1c15c7bfdfff4664c640f0cfaaaeee",
+      "datetime": 1790350000,
+      "summary": ""
+    },
+    {
+      "headline": "Wondering what's happening in today's S&P500  pre-market session?",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=eecd41dedad803ee95bc80410630c118848c067cdb6306e7be95cb266425763c",
+      "datetime": 1790339700,
+      "summary": "Wondering what's happening in today's pre-market session? Stay tuned for the latest updates on S&P500 stock movements."
+    },
+    {
+      "headline": "Teradyne (NASDAQ:TER) Delivers High Growth and Improving Fundamentals Across the Board",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=ba2031e7c7e41dd129aeda1f90fbc11618f6e9029d57388590b5299257808778",
+      "datetime": 1790338848,
+      "summary": "Teradyne (TER) scores 8/10 on Navellier\u2019s Little Book growth screen, with strong earnings revisions, sales growth, cash flow, and 33.46% ROE."
+    },
+    {
+      "headline": "Robotics Earnings Week: Momentum vs. Value as Four Automation Names Report",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=f06ec312415593847b80fd89886771c16f98e5eedc01ae9e8b928abb44ffb725",
+      "datetime": 1790337967,
+      "summary": "Robotics automation earnings preview: Teradyne, Cognex, Omnicell, UiPath face key tests as momentum leaders and value laggards report."
+    },
+    {
+      "headline": "Reflecting On Semiconductor Manufacturing Stocks\u2019 Q2 Earnings: Teradyne (NASDAQ:TER)",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=973b96e9bb156dbefe9c54fef6f91de0614a2ef5bf8a8fc05db026c7e16bd3e9",
+      "datetime": 1790277178,
+      "summary": "The end of the earnings season is always a good time to take a step back and see who shined (and who didn\u2019t). Let\u2019s take a look at how semiconductor manufacturing stocks fared in Q2, starting with Teradyne (NASDAQ:TER)."
+    }
+  ],
   "filings": [
     {
       "form": "8-K",

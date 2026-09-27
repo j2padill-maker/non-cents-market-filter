@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-25T23:58:13.678421-07:00",
+  "generated_at": "2026-09-27T00:28:34.664252-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -15,7 +15,50 @@
     "rel_volume",
     "mfi14"
   ],
-  "news": [],
+  "news": [
+    {
+      "headline": "The Recession That Wasn't",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=ae1dd173bee220b656cae15ea981660dad4b76a50b154fba9566caeb1771d657",
+      "datetime": 1790392200,
+      "summary": "Two things of note happened this past Wednesday. The first was yet another surge in bond yields, with the 30-year Treasury rate, at 5.48 percent, the highest it has been since 2004."
+    },
+    {
+      "headline": "From Tokyo To The Trump-Xi Summit: Opportunities In International Equities",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=d742446eacedc9aa2c298be2e59d1793c87ca66d3bb985e9982a056391a2c990",
+      "datetime": 1790388600,
+      "summary": "Rising yields, energy pressures and geopolitical uncertainty are creating a more complex backdrop for global markets. Read more here."
+    },
+    {
+      "headline": "How Policy, Geopolitics And AI Are Reshaping Markets",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=50f96fe0a4a8591dc4367b47609de054633a3f802aedd4866acf891f709afea1",
+      "datetime": 1790377800,
+      "summary": "Market strength may be broader than it appears as government policy and geopolitics are helping to reshape capital flows, supply chains and investment opportunities."
+    },
+    {
+      "headline": "Will Stocks Top... Or Pop? David Keller Covers The Charts",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=58ef3be6b52f0d57258d895bdf74201cd1a63440cf4f266cbda4cc9f76563bb9",
+      "datetime": 1790343180,
+      "summary": "David explains why mega-cap technology and AI stocks continue to support the major indexes, even as market breadth deteriorates and many other sectors struggle."
+    },
+    {
+      "headline": "When Strong Earnings Meet Crowded Markets",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=e37b0d787e6cc0b1dc5434f26a6fe2888f89d04f3d2e08b49f06cdbe1ae4a006",
+      "datetime": 1790304300,
+      "summary": "In this article, Russ Koesterich looks at the strong second quarter earnings season and discusses why positioning mattered as much as fundamentals. Read more here."
+    },
+    {
+      "headline": "AI's Next Bottleneck Could Be Here",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=93afef25ddf53623a2f07471cb40d79ad90e1ca5f29c02ea8fdee95299df0822",
+      "datetime": 1790230617,
+      "summary": "Robotics is emerging as the next major economic bottleneck, with a projected $2T TAM by the 2040s and $7\u00e2\u0080\u00939T by 2050. Read what investors need to know."
+    }
+  ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,

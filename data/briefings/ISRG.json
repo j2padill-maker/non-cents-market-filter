@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-25T23:58:12.929273-07:00",
+  "generated_at": "2026-09-27T00:28:34.076353-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -15,7 +15,50 @@
     "rel_volume",
     "mfi14"
   ],
-  "news": [],
+  "news": [
+    {
+      "headline": "RVTY Launches New Kit in Europe for Newborn Type 1 Diabetes Detection",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a9ff4d3ba263b75cc7992bb9bb5763803e41a2e984ca6e0e139ac9d5b22bbd62",
+      "datetime": 1790341740,
+      "summary": "Revvity launches a CE-IVDR-certified automated T1D screening kit for children, expanding its GSP platform from newborn screening into early childhood."
+    },
+    {
+      "headline": "Can This Number Push ISRG Stock Higher?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ada4e79b8d60c72f2fd08b95f47d426e44168ce5ba5b5c138c70ee676f8688f2",
+      "datetime": 1790275520,
+      "summary": "Intuitive Surgical (ISRG) shares fell 10.4% in the past year, while the S&P 500 returned 16.5%. Much of the market has focused on moderating U.S. procedure growth. The more telling number is 144 trade-ins in fiscal Q2 2026, up from 83 a year earlier. Most came from customers moving to the new da Vinci 5 robot. Those trade-ins matter most if upgrades continue and each surgery also earns more. Is th"
+    },
+    {
+      "headline": "Here's How Much $1000 Invested In Intuitive Surgical 10 Years Ago Would Be Worth Today",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=b393f26f2cd931f739dd9113b27da1d3478aff2b745003f35b68886eab012e86",
+      "datetime": 1790265628,
+      "summary": "Intuitive Surgical (NASDAQ:ISRG) has outperformed the market over the past 10 years by 3.99% on an annualized basis producing an average annual return of 17.48%. Currently, Intuitive Surgical has a market capitalization"
+    },
+    {
+      "headline": "Here's Why You Should Retain Baxter Stock in Your Portfolio for Now",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=fac52144dbf3a1921369819886515d383ec1e44ae006b63f82bbac7afd4455d2",
+      "datetime": 1790257320,
+      "summary": "BAX's portfolio reset and growth in connected care and advanced surgery support prospects, but margins, Novum IQ and China pricing remain risks."
+    },
+    {
+      "headline": "COO Unveils New Innovation Hub & Lens Launch Plans to Aid CooperVision",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a323105b776fdaab6265a82d006aa851bdca893958c3e9c6d01c51d5ad58928f",
+      "datetime": 1790256660,
+      "summary": "The Cooper Companies opens a global innovation hub in England and unveils six contact lens programs to support sustainable long-term growth."
+    },
+    {
+      "headline": "Buy 3 AI-Powered Medical Stocks to Strengthen Your Portfolio in Q4",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=6a272da4299dbdd38ecc1f05f9aea0440ad19c5b994b479014c02f7cbb1f1f1d",
+      "datetime": 1790245320,
+      "summary": "AI adoption is reshaping medical devices, with ISRG, TEM and TMO leveraging AI to advance precision medicine and drug development."
+    }
+  ],
   "filings": [
     {
       "form": "8-K",
