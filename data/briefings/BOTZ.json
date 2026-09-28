@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-27T00:28:34.664252-07:00",
+  "generated_at": "2026-09-28T01:04:32.642569-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Equity Market Outlook Q4 2026",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=c9b8e1fae1410607d399b9fde45d8e693f441ce1df6161ff2b5a0f885e4dc20f",
+      "datetime": 1790560080,
+      "summary": "It\u00e2\u0080\u0099s a new world for income-seeking equity investors. An active approach seeks to capture income without giving up growth potential."
+    },
     {
       "headline": "The Recession That Wasn't",
       "source": "SeekingAlpha",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=e37b0d787e6cc0b1dc5434f26a6fe2888f89d04f3d2e08b49f06cdbe1ae4a006",
       "datetime": 1790304300,
       "summary": "In this article, Russ Koesterich looks at the strong second quarter earnings season and discusses why positioning mattered as much as fundamentals. Read more here."
-    },
-    {
-      "headline": "AI's Next Bottleneck Could Be Here",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=93afef25ddf53623a2f07471cb40d79ad90e1ca5f29c02ea8fdee95299df0822",
-      "datetime": 1790230617,
-      "summary": "Robotics is emerging as the next major economic bottleneck, with a projected $2T TAM by the 2040s and $7\u00e2\u0080\u00939T by 2050. Read what investors need to know."
     }
   ],
   "filings": [],

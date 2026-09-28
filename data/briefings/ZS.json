@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-27T00:28:35.129379-07:00",
+  "generated_at": "2026-09-28T01:04:33.131237-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "3 Cloud And AI Stocks Retail Investors Are Watching After Microsoft Copilot Expansion",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a09bfac553002f3ea861ace87be7502828022018d1c71179b57318773dc80b0b",
+      "datetime": 1790482562,
+      "summary": "AI went from buzzword to utility the moment Microsoft folded full Word, Excel, and PowerPoint into Copilot and pushed agent style features like Home, Chat, Cowork, and Autopilot into the mainstream. That kind of shift can reshape where cloud and AI compute dollars flow next. This piece unpacks how that news filters through to three stocks tied into the story and explains why their exposure might m"
+    },
     {
       "headline": "Zscaler (ZS) Names Ross Tackett Chief Revenue Officer",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=d37c9be9f004556821c2421ccec9f0474b3d053898ab0a18957a98072eb4b514",
       "datetime": 1790367660,
       "summary": "Shares of  Zscaler  fell Friday in their their worst daily performance in four months after the cybersecurity company made a change to its executive management.  The company said Thursday that Ross Tackett would be taking over the role of chief revenue officer from Mike Rich.  Rich is leaving Zscaler for \u201cpersonal reasons,\u201d according to the company."
-    },
-    {
-      "headline": "Zscaler Falls Amid Executive Change As Cybersecurity Stocks Pull Back",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3a9ba297616527dd19010be3948409bb0e2662b5a10f72fbb7ade36afc3869d6",
-      "datetime": 1790354544,
-      "summary": "Zscaler stock fell Friday after the company changed chief revenue officers ahead of an investor day slated for Oct. 6."
     }
   ],
   "filings": [
