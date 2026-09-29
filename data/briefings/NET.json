@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-28T01:04:30.886835-07:00",
+  "generated_at": "2026-09-29T00:50:45.576895-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Cloudflare (NET) Stock Trades Down, Here Is Why",
+      "headline": "Can Cloudflare (NET) Become the Gatekeeper of the AI Web?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=da5ab0898b5ad12f1dbe97ba61414a7c35117426b56d85a7070ac280509252af",
-      "datetime": 1790391397,
-      "summary": "Shares of cloud security and performance company Cloudflare (NYSE:NET) fell 3.2% in the afternoon session after the company's disclosure of a cross-tenant data-isolation vulnerability in its Containers and Sandboxes products."
+      "url": "https://finnhub.io/api/news?id=44af249db12c507d9f4cffdb2c5ab3f4564f40893fb0a0de727a8772d2ca1675",
+      "datetime": 1790643355,
+      "summary": "On September 15, Cloudflare, Inc. (NYSE:NET) announced its new Accountable designation for AI crawling alongside the launch of \u201cDisallow AI Training.\u201d This tool allows website owners to block AI models from scraping their content for training purposes while remaining fully indexable in traditional search results. Addressing the dilemma where publishers were forced to choose between [\u2026]"
     },
     {
-      "headline": "Datadog Climbs 6%, Approaches 52-Week High While Software Group Slips; Oracle and Cloudflare Decline",
+      "headline": "Where Could Zscaler's Next Growth Come From?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e78f69d3ee39a5f9cbffb86b5deb1d790fb5202f932d13e6b3eee1a05267b96e",
-      "datetime": 1790359590,
-      "summary": "Datadog (NASDAQ:DDOG) stock is up 6% to $272.50, a sharp gain for the observability and monitoring company. That strength arrives against a weaker software group, giving Datadog stock a move that belongs to it alone. Across software, the iShares Expanded Tech-Software Sector ETF (NYSEARCA:IGV) is down 0.4%, which puts Datadog stock on the opposite side [\u2026]"
+      "url": "https://finnhub.io/api/news?id=d48888e1abd3b8e974d23f17bd0ae57040cab0b352c5469181aafaf01d1f138e",
+      "datetime": 1790633490,
+      "summary": "Zscaler's best candidate for upside is a product line that its fiscal 2027 outlook does not call out. The stock has risen 46% over the past three months. It is still 43% below its 52-week high. The outlook matters now because it has revenue growth slowing. It calls for growth of 16.6% to 17.5%, from 25% in fiscal 2026. So which Zscaler (ZS) business could add growth beyond that outlook."
     },
     {
-      "headline": "Zscaler Falls Amid Executive Change As Cybersecurity Stocks Pull Back",
+      "headline": "Manifest Joins Chainguard's Athena Coalition to Find Open-Source Risk Inside Software Products",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3a9ba297616527dd19010be3948409bb0e2662b5a10f72fbb7ade36afc3869d6",
-      "datetime": 1790354544,
-      "summary": "Zscaler stock fell Friday after the company changed chief revenue officers ahead of an investor day slated for Oct. 6."
+      "url": "https://finnhub.io/api/news?id=b697fd0938a092207b96bcc22c58ea74e76f0fb6275f0d7c663d13a9aa19df43",
+      "datetime": 1790615700,
+      "summary": "WASHINGTON, September 28, 2026--Manifest Cyber, a leader in software and AI supply chain security, today announced it has joined Athena, the Chainguard-led industry coalition for the orchestrated defense of open-source software. Manifest joins JPMorganChase, Morgan Stanley, Cisco, Cloudflare, Akamai, and PwC in the coalition, where it will bring its software supply chain illumination capabilities "
     },
     {
-      "headline": "Underweight Position in Cloudflare (NET) Creates Relative Headwind",
+      "headline": "MongoDB shares sink 18% as CEO Desai leaves for Meta",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=cd88922b14d1ea63b68de4c66cbf915e159b37c99c303d189c370dd074f8f417",
-      "datetime": 1790350327,
-      "summary": "BUFFALO Funds, an actively managed mutual fund advised by Kornitzer Capital Management, released its second-quarter 2026 investor letter for \u201cBuffalo Mid Cap Discovery Fund\u201d. The letter can be downloaded here. The Fund returned 11.34% in the quarter, underperforming its benchmark, the Russell Midcap Growth Index, which returned 14.55%. First-half gains were led by Industrials, Financials, [\u2026]"
+      "url": "https://finnhub.io/api/news?id=03655017ee154c55266b099bc4fc1fff105128014a2847190db19fcf0a61c673",
+      "datetime": 1790610600,
+      "summary": "Shares of MongoDB Inc (NASDAQ:MDB) fell more than 18% Monday morning after CEO Chirantan \"CJ\" Desai left to lead a new Meta Platforms Inc (NASDAQ:META, XETRA:FB2A, SIX:FB) business bringing its AI tools to corporate customers. MongoDB appointed Dev Ittycheria interim CEO. Desai will report..."
     },
     {
-      "headline": "Can Unified Platform Strategy Boost Cloudflare's Long-Term Growth?",
+      "headline": "Meta Enterprise Platform to bring Muse AI tools to businesses",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=399fe4e683d9852f66a8fedf7fc4437c1919cc5f8e6989974df90b06dbc2dfea",
-      "datetime": 1790343360,
-      "summary": "NET's unified platform is winning large enterprise deals as customers consolidate security, networking and developer tools."
+      "url": "https://finnhub.io/api/news?id=29b161da4dd10d77871ebecd4cd1dc8a8e939698d32f0bddfb2a6a4c1f15f2e5",
+      "datetime": 1790609760,
+      "summary": "Meta Platforms Inc (NASDAQ:META, XETRA:FB2A, SIX:FB) has launched Meta Enterprise Platform to turn its AI stack into products and services that companies can deploy for their businesses. The platform will initially bring businesses and developers tools including the Muse agent, Meta Business..."
     },
     {
-      "headline": "Tenable Holdings shares are trading higher after the company reported better-than-expected Q4 financial results and issued Q1 sales guidance above estimates. Also, the company issued FY26 adjusted EPS guidance above estimates.",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=4a5a2e7955807b009164782f96bc8d6c6e57a2309f3ef2b245640d279d1fba5e",
-      "datetime": 1790341236,
-      "summary": ""
+      "headline": "Can AI Security Demand Boost Cloudflare's Zero Trust & SASE Growth?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=4507c443d8e042887abca09581daf14c69d21c2b36be0fc830ed0411d87135d3",
+      "datetime": 1790607780,
+      "summary": "NET's AI-focused security strategy is creating new opportunities for Zero Trust and SASE growth as enterprises deploy AI agents."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-25",
+  "data_asof": "2026-09-28",
   "price": {
-    "last": 349.02,
-    "open": 360.8,
-    "prev_close": 358.82,
-    "move_day_pct": -2.73,
-    "move_open_close_pct": -3.26,
-    "move_week_pct": 7.86
+    "last": 353.99,
+    "open": 339.25,
+    "prev_close": 349.02,
+    "move_day_pct": 1.42,
+    "move_open_close_pct": 4.34,
+    "move_week_pct": 0.66
   },
   "indicators": {
     "rsi14": {
-      "value": 62.2,
+      "value": 63.6,
       "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 16.723,
-      "signal": 12.955,
-      "hist": 3.768,
-      "hist_prev": 4.736,
+      "macd": 16.908,
+      "signal": 13.746,
+      "hist": 3.162,
+      "hist_prev": 3.768,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 370.86,
-      "lower": 263.89,
-      "mid": 317.37,
-      "pctb": 0.796,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 375.2,
+      "lower": 264.96,
+      "mid": 320.08,
+      "pctb": 0.808,
+      "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 117.88,
-      "read": "118% above its 52-week low"
+      "value": 120.98,
+      "read": "121% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -2.73,
+      "value": -1.35,
       "read": "At or near its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 231.59,
-      "pct": 50.71,
-      "read": "51% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 232.31,
+      "pct": 52.38,
+      "read": "52% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 17.88,
-      "pct_of_price": 5.12,
+      "value": 17.91,
+      "pct_of_price": 5.06,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.01,
+      "value": 0.91,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 73.6,
+      "value": 67.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 358.82,
-  "ma50": 299.73,
-  "ma200": 231.59
+  "ma50": 301.26,
+  "ma200": 232.31
 }

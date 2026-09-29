@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-28T01:04:30.668472-07:00",
+  "generated_at": "2026-09-29T00:50:45.365168-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "What Moved Markets This Week",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=8db58902f8a901e02142333e7092ccad903b8ead626c0ca0d7858ec1a754c93b",
-      "datetime": 1790411148,
-      "summary": "U.S. stocks advanced for the week while Treasury yields surged and petroleum markets remained in focus. Read more about this week's major events on Wall Street."
-    },
-    {
-      "headline": "Why Is Datadog (DDOG) Stock Rocketing Higher Today",
+      "headline": "3 AI Software Stocks Retail Investors May Be Missing Right Now",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=fc75eeceaa981540583b5b5a6956cb820c49c38abcf691849cdff44af7139dfd",
-      "datetime": 1790392357,
-      "summary": "Shares of cloud monitoring platform Datadog (NASDAQ:DDOG) jumped 5.9% in the afternoon session after Wedbush initiated coverage of the company with an Outperform rating per TipRanks."
+      "url": "https://finnhub.io/api/news?id=187c3fb5839143784e60431b60342af0b98326a82dbc684b5745880aefbf61a2",
+      "datetime": 1790651646,
+      "summary": "Anthropic filing for what could become a record-shattering IPO, with plans to commit US$518b to cloud and infrastructure, suddenly puts a huge new AI heavyweight on the market\u2019s radar. That scale of ambition can reshape expectations across large-cap software. Investors now face fresh competition for capital and a new reference point for risk. This article looks at 3 stocks exposed to that news and"
     },
     {
-      "headline": "Top S&P500 movers in Friday's session",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=b26709e0a9895e9dabe9e7d0cd4238a29c761ebd827ec7d7cdc10dcfa2dff969",
-      "datetime": 1790363101,
-      "summary": "Curious about the top performers within the S&P500 index one hour before the close of the markets on Friday? Dive into the list of today's session's top gainers and losers for a comprehensive overview."
-    },
-    {
-      "headline": "Datadog Climbs 6%, Approaches 52-Week High While Software Group Slips; Oracle and Cloudflare Decline",
+      "headline": "The $1 Trillion Question Facing Palantir Stock",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e78f69d3ee39a5f9cbffb86b5deb1d790fb5202f932d13e6b3eee1a05267b96e",
-      "datetime": 1790359590,
-      "summary": "Datadog (NASDAQ:DDOG) stock is up 6% to $272.50, a sharp gain for the observability and monitoring company. That strength arrives against a weaker software group, giving Datadog stock a move that belongs to it alone. Across software, the iShares Expanded Tech-Software Sector ETF (NYSEARCA:IGV) is down 0.4%, which puts Datadog stock on the opposite side [\u2026]"
+      "url": "https://finnhub.io/api/news?id=8ece174597658893ae1a4dbf55514e4224a1d8e914422d6661973920e69fde48",
+      "datetime": 1790613052,
+      "summary": "Palantir just posted growth numbers that humiliated Wall Street estimates, yet the stock still needs to more than double before it touches a trillion-dollar valuation. Here is what the math actually says about whether that gap ever closes."
     },
     {
-      "headline": "2 Nasdaq 100 Stocks to Target This Week and 1 We Question",
+      "headline": "CSCO's Security Growth Accelerates: Can It Outpace DDOG & CRWD?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c09731ffce50512ff4cb77170edc24d53ae5c7085a0e505ca9ec6289e64b2197",
-      "datetime": 1790357797,
-      "summary": "The Nasdaq 100 (^NDX) is home to some of the biggest success stories in tech and growth investing. However, certain stocks in the index face challenges like profitability concerns, rising costs, or shifts in market trends."
+      "url": "https://finnhub.io/api/news?id=6e54bbbebd6f79a70d12da6a9a2b4e2b04e24a84076995c77dca1f6eda79aaa0",
+      "datetime": 1790609700,
+      "summary": "Cisco Systems' integrated security and observability push is gaining traction as adoption grows, strengthening its position against Datadog and CrowdStrike."
     },
     {
-      "headline": "Discover which S&P500 stocks are making waves on Friday.",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=934105b468350b5d32bbeacccbde6d0bf0f602402f2458bf63ad1cd8b5c90e5c",
-      "datetime": 1790354101,
-      "summary": "Get insights into the S&P500 index performance on Friday. Explore the top gainers and losers within the S&P500 index in today's session."
+      "headline": "Stock Market Today: Dow Falls, Trump Rejects Iran Deal; Oil, Yields Jump As Nvidia Rises On Buyback (Live Coverage)",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=afb5d219c682c9d5574d06327384f49f15a41e875387288b1d768004dc95cfd8",
+      "datetime": 1790603197,
+      "summary": "Stock Market Today: The Dow Jones index drops Monday after Trump rejected an Iran peace deal. Oil prices and Treasury yields jump."
+    },
+    {
+      "headline": "Snowflake Slides 4% on Proposed $3.5B Convertible Offering; Oracle Falls 3%, Datadog Drops 4%",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=3a1e201d37199e73a708618cbbda3fda1776335e8c1a2b08f1094a9b78068130",
+      "datetime": 1790603151,
+      "summary": "A $3.5 billion convertible note plan from Snowflake (NYSE:SNOW) weighs on Snowflake stock. Even so, the data cloud company structured the deal specifically to limit the dilution sellers appear to be pricing in. Snowflake stock is at $321.65, down 4%, but still up 47.59% year to date. Selling is spreading across other highly valued cloud [\u2026]"
+    },
+    {
+      "headline": "Here Are Monday\u2019s Top Wall Street Analyst Research Calls: Applied Digital, Autodesk, Datadog, First Solar, L3Harris Technologies, PepsiCo, Roblox, Snowflake, TeraWulf and More",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f3176aac72b0f396718e46bccef402a3ddacdecf9d2bc33fedfb0798c17b1aa4",
+      "datetime": 1790597526,
+      "summary": "Pre-Market Stock Futures: Futures are trading lower as we enter the final trading days of the third quarter, after a wild week in which interest rates soared and oil prices bounced back and forth. While all major indices closed higher on Friday, only two finished the week higher, and with the quarter ending, watch for [\u2026]"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-25",
+  "data_asof": "2026-09-28",
   "price": {
-    "last": 268.13,
-    "open": 263.17,
-    "prev_close": 256.92,
-    "move_day_pct": 4.36,
-    "move_open_close_pct": 1.88,
-    "move_week_pct": 16.62
+    "last": 268.7,
+    "open": 257.0,
+    "prev_close": 268.13,
+    "move_day_pct": 0.21,
+    "move_open_close_pct": 4.55,
+    "move_week_pct": 9.65
   },
   "indicators": {
     "rsi14": {
-      "value": 67.0,
+      "value": 67.2,
       "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 4.852,
-      "signal": -0.459,
-      "hist": 5.311,
-      "hist_prev": 4.54,
+      "macd": 6.487,
+      "signal": 0.93,
+      "hist": 5.557,
+      "hist_prev": 5.311,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 262.89,
-      "lower": 201.04,
-      "mid": 231.97,
-      "pctb": 1.085,
+      "upper": 268.35,
+      "lower": 198.75,
+      "mid": 233.55,
+      "pctb": 1.005,
       "read": "Above the upper band \u2014 stretched to the upside"
     },
     "pct_from_52w_low": {
-      "value": 161.3,
-      "read": "161% above its 52-week low"
+      "value": 161.85,
+      "read": "162% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -6.95,
+      "value": -6.75,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 181.72,
-      "pct": 47.55,
-      "read": "48% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 182.3,
+      "pct": 47.39,
+      "read": "47% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 12.57,
-      "pct_of_price": 4.69,
+      "value": 12.9,
+      "pct_of_price": 4.8,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.46,
-      "read": "Above-average volume"
+      "value": 0.95,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 76.8,
+      "value": 78.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 288.15,
-  "ma50": 242.7,
-  "ma200": 181.72
+  "ma50": 242.9,
+  "ma200": 182.3
 }

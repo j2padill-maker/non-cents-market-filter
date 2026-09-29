@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-28T01:04:33.131237-07:00",
+  "generated_at": "2026-09-29T00:50:48.010834-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "2 Unpopular Stocks That Deserve Some Love and 1 Facing Headwinds",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7cc9b06b5f612df480f56837a14b8d0bcd0f945089409933a30745b1c01c0d0a",
+      "datetime": 1790599116,
+      "summary": "When Wall Street turns bearish on a stock, it\u2019s worth paying attention. These calls stand out because analysts rarely issue grim ratings on companies for fear their firms will lose out in other business lines such as M&A advisory."
+    },
+    {
+      "headline": "Wedbush Reiterates Outperform on Zscaler, Maintains $215 Price Target",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=a03ff9ddeb82fd09d944032b313dfc17b22c40bd251ba2e6ca184cf087813612",
+      "datetime": 1790584815,
+      "summary": "Wedbush  analyst Steven Wahrhaftig   reiterates Zscaler (NASDAQ:ZS) with a Outperform and maintains $215 price target."
+    },
+    {
+      "headline": "Copilot Reboot Sends Microsoft Soaring, but Trump's No to Iran Hangs Over Monday",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=a2b7dc9eeea5d94aaba6a7c3f389b01e95bb8333f1593ffa51f07c8d174b3473",
+      "datetime": 1790583401,
+      "summary": "Microsoft jumped to a ten-month high after a sweeping Copilot overhaul and helped Wall Street lock in a winning week. Over the weekend, Trump rejected Iran's ceasefire offer and Apple lost a $5.7 billion patent case. Here's what matters heading into Monday."
+    },
+    {
+      "headline": "US Stock Market Today S&P 500 Futures Rise As Jobs Data Jitters Build",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=214a2b11bc33557333d6e2c047b702d714563165bcb6cc65b13f63232ec15500",
+      "datetime": 1790582833,
+      "summary": "The Morning Bull - US Market Morning Update Monday, Sep, 28 2026 US stock futures are pointing higher this morning, with key contracts like the E-mini S&P 500 up about 0.5% and Nasdaq futures ahead roughly 0.4%. The backdrop is messy. Consumer sentiment in a closely watched University of Michigan survey sits at 48.1, which is near historic lows, and households still expect inflation of 4.6% over t"
+    },
+    {
       "headline": "3 Cloud And AI Stocks Retail Investors Are Watching After Microsoft Copilot Expansion",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=a09bfac553002f3ea861ace87be7502828022018d1c71179b57318773dc80b0b",
@@ -29,34 +57,6 @@
       "url": "https://finnhub.io/api/news?id=ce08bdaf586ac0c854c140f02369dbfd5d54da5583ee9c5fb9ac81c80d49c0a5",
       "datetime": 1790446142,
       "summary": "Zscaler (NasdaqGS: ZS) has promoted Ross Tackett to Chief Revenue Officer, succeeding Mike Rich. Mike Rich will stay on as a strategic advisor to support the leadership transition in Zscaler's global sales organization. Tackett brings decades of enterprise sales leadership experience from major technology companies to the CRO role at Zscaler. The shift to Ross Tackett as Chief Revenue Officer shou"
-    },
-    {
-      "headline": "Why Zscaler (ZS) Stock Is Trading Lower Today",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2b190e6a4cd4f021b2b262268fda5f9ad8aa6e940616d8b67fc2fe21525fee54",
-      "datetime": 1790391877,
-      "summary": "Shares of cloud security platform Zscaler (NASDAQ:ZS) fell 9% in the afternoon session after the company announced that Chief Revenue Officer Mike Rich is stepping down for personal reasons, with Head of Worldwide Sales Ross Tackett named as his successor."
-    },
-    {
-      "headline": "Palo Alto Networks (PANW): Can Platformization Keep Driving Growth?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5d5b34514b94b80a2e7c68dfa3b53a0b91bb0c00a0be64cdc18eb022ee282af5",
-      "datetime": 1790373369,
-      "summary": "Palo Alto Networks, Inc. (NASDAQ:PANW) is positioning itself to capture a larger share of customers\u2019 security budgets. At the center of that pivot is what the company calls platformization strategy. It\u2019s about consolidating multiple tools and processes into a unified platform. The broader cybersecurity sector remains a battleground for investors. While Palo Alto is expanding [\u2026]"
-    },
-    {
-      "headline": "Microsoft, Meta, Akamai, Zscaler, Comcast, and More Stocks That Explain Today\u2019s Market",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e27f51c7589d9c6b0deffe1dd1ae3cd95d50bd610d1b27a22e0d6cfaa28c45da",
-      "datetime": 1790368740,
-      "summary": "FEATURE  Stocks rose Friday as investors grew more optimistic on reported progress toward reaching a resolution to the conflict in Iran and as oil prices fell back below $100 a barrel.  Advanced Micro Devices rose 0."
-    },
-    {
-      "headline": "Why Zscaler Stock Had Its Worst Day in 4 Months",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d37c9be9f004556821c2421ccec9f0474b3d053898ab0a18957a98072eb4b514",
-      "datetime": 1790367660,
-      "summary": "Shares of  Zscaler  fell Friday in their their worst daily performance in four months after the cybersecurity company made a change to its executive management.  The company said Thursday that Ross Tackett would be taking over the role of chief revenue officer from Mike Rich.  Rich is leaving Zscaler for \u201cpersonal reasons,\u201d according to the company."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-25",
+  "data_asof": "2026-09-28",
   "price": {
-    "last": 193.05,
-    "open": 206.0,
-    "prev_close": 214.64,
-    "move_day_pct": -10.06,
-    "move_open_close_pct": -6.29,
-    "move_week_pct": -2.16
+    "last": 199.39,
+    "open": 188.89,
+    "prev_close": 193.05,
+    "move_day_pct": 3.28,
+    "move_open_close_pct": 5.56,
+    "move_week_pct": -3.74
   },
   "indicators": {
     "rsi14": {
-      "value": 53.6,
+      "value": 56.9,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 9.657,
-      "signal": 7.873,
-      "hist": 1.784,
-      "hist_prev": 3.422,
+      "macd": 9.119,
+      "signal": 8.122,
+      "hist": 0.997,
+      "hist_prev": 1.784,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 220.39,
-      "lower": 153.49,
-      "mid": 186.94,
-      "pctb": 0.591,
+      "upper": 221.55,
+      "lower": 153.85,
+      "mid": 187.7,
+      "pctb": 0.673,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 63.53,
-      "read": "64% above its 52-week low"
+      "value": 68.9,
+      "read": "69% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -42.59,
-      "read": "43% below its 52-week high"
+      "value": -40.71,
+      "read": "41% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 167.43,
-      "pct": 15.3,
-      "read": "15% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 167.22,
+      "pct": 19.24,
+      "read": "19% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 10.29,
-      "pct_of_price": 5.33,
+      "value": 10.58,
+      "pct_of_price": 5.31,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 2.01,
-      "read": "Heavy volume \u2014 well above average"
+      "value": 1.12,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 65.2,
+      "value": 64.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 118.05,
   "high_52w": 336.27,
-  "ma50": 173.85,
-  "ma200": 167.43
+  "ma50": 174.84,
+  "ma200": 167.22
 }

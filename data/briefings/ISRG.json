@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-28T01:04:31.969427-07:00",
+  "generated_at": "2026-09-29T00:50:46.534752-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "Gilead vs. Intuitive Surgical: Which Healthcare Stock Offers the Better Risk-Adjusted Upside?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c1a29e6923dd60319cf3d8cf5214d780ef3c4e0ca7128a19e93e684c9184dcf8",
+      "datetime": 1790623645,
+      "summary": "At first glance, Gilead Sciences, Inc. (NASDAQ:GILD) and Intuitive Surgical, Inc. (NASDAQ:ISRG) don\u2019t make for the most obvious comparison. One sells medicines led by a massive HIV franchise, while the other has built its business around robotic surgery. Yet both have given investors a similar reason to pay attention this year, which is that growth [\u2026]"
+    },
+    {
+      "headline": "Stay informed with the top movers within the S&P500 index on Monday.",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=c12fd4505fe17fdad5ac70e1ca08de2c446637afd094d810b99c6d6f5a82993e",
+      "datetime": 1790622301,
+      "summary": "Curious about the S&P500 stocks that are in motion on Monday? Join us as we explore the top movers within the S&P500 index during today's session."
+    },
+    {
+      "headline": "Which S&P500 stocks are moving on Monday?",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=9ff638211af9695af811e0b0c8a54eeb199d3613c1b0baba17d91732994a3931",
+      "datetime": 1790613301,
+      "summary": "Wondering what's happening in today's session for the S&P500 index? Stay informed with the top movers within the S&P500 index on Monday."
+    },
+    {
+      "headline": "Here's Why You Should Retain OPK Stock in Your Portfolio for Now",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=57eb11ba55b65e0174582259c00c3009ed7572790256ec5b63244ed1c9bc42d1",
+      "datetime": 1790607120,
+      "summary": "OPKO Health eyes growth from RAYALDEE, partner revenues and a leaner BioReference, while pipeline and reimbursement risks remain key concerns."
+    },
+    {
       "headline": "RVTY Launches New Kit in Europe for Newborn Type 1 Diabetes Detection",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=a9ff4d3ba263b75cc7992bb9bb5763803e41a2e984ca6e0e139ac9d5b22bbd62",
@@ -29,34 +57,6 @@
       "url": "https://finnhub.io/api/news?id=ada4e79b8d60c72f2fd08b95f47d426e44168ce5ba5b5c138c70ee676f8688f2",
       "datetime": 1790275520,
       "summary": "Intuitive Surgical (ISRG) shares fell 10.4% in the past year, while the S&P 500 returned 16.5%. Much of the market has focused on moderating U.S. procedure growth. The more telling number is 144 trade-ins in fiscal Q2 2026, up from 83 a year earlier. Most came from customers moving to the new da Vinci 5 robot. Those trade-ins matter most if upgrades continue and each surgery also earns more. Is th"
-    },
-    {
-      "headline": "Here's How Much $1000 Invested In Intuitive Surgical 10 Years Ago Would Be Worth Today",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=b393f26f2cd931f739dd9113b27da1d3478aff2b745003f35b68886eab012e86",
-      "datetime": 1790265628,
-      "summary": "Intuitive Surgical (NASDAQ:ISRG) has outperformed the market over the past 10 years by 3.99% on an annualized basis producing an average annual return of 17.48%. Currently, Intuitive Surgical has a market capitalization"
-    },
-    {
-      "headline": "Here's Why You Should Retain Baxter Stock in Your Portfolio for Now",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=fac52144dbf3a1921369819886515d383ec1e44ae006b63f82bbac7afd4455d2",
-      "datetime": 1790257320,
-      "summary": "BAX's portfolio reset and growth in connected care and advanced surgery support prospects, but margins, Novum IQ and China pricing remain risks."
-    },
-    {
-      "headline": "COO Unveils New Innovation Hub & Lens Launch Plans to Aid CooperVision",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a323105b776fdaab6265a82d006aa851bdca893958c3e9c6d01c51d5ad58928f",
-      "datetime": 1790256660,
-      "summary": "The Cooper Companies opens a global innovation hub in England and unveils six contact lens programs to support sustainable long-term growth."
-    },
-    {
-      "headline": "Buy 3 AI-Powered Medical Stocks to Strengthen Your Portfolio in Q4",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6a272da4299dbdd38ecc1f05f9aea0440ad19c5b994b479014c02f7cbb1f1f1d",
-      "datetime": 1790245320,
-      "summary": "AI adoption is reshaping medical devices, with ISRG, TEM and TMO leveraging AI to advance precision medicine and drug development."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-25",
+  "data_asof": "2026-09-28",
   "price": {
-    "last": 405.18,
-    "open": 397.65,
-    "prev_close": 399.52,
-    "move_day_pct": 1.42,
-    "move_open_close_pct": 1.89,
-    "move_week_pct": 3.01
+    "last": 414.79,
+    "open": 405.18,
+    "prev_close": 405.18,
+    "move_day_pct": 2.37,
+    "move_open_close_pct": 2.37,
+    "move_week_pct": 3.27
   },
   "indicators": {
     "rsi14": {
-      "value": 65.4,
+      "value": 69.6,
       "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 6.806,
-      "signal": 2.901,
-      "hist": 3.905,
-      "hist_prev": 3.95,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": 8.225,
+      "signal": 3.966,
+      "hist": 4.259,
+      "hist_prev": 3.905,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 411.08,
-      "lower": 347.03,
-      "mid": 379.06,
-      "pctb": 0.908,
+      "upper": 416.59,
+      "lower": 345.74,
+      "mid": 381.17,
+      "pctb": 0.975,
       "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 22.03,
-      "read": "22% above its 52-week low"
+      "value": 24.93,
+      "read": "25% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -31.66,
-      "read": "32% below its 52-week high"
+      "value": -30.03,
+      "read": "30% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 450.9,
-      "pct": -10.14,
-      "read": "10% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 450.18,
+      "pct": -7.86,
+      "read": "8% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 11.37,
-      "pct_of_price": 2.81,
+      "value": 11.54,
+      "pct_of_price": 2.78,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 1.08,
+      "value": 1.1,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 81.8,
+      "value": 89.8,
       "read": "Overbought \u2014 money flowing in"
     }
   },
   "low_52w": 332.02,
   "high_52w": 592.85,
-  "ma50": 373.93,
-  "ma200": 450.9
+  "ma50": 375.32,
+  "ma200": 450.18
 }

@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-28T01:04:29.716348-07:00",
+  "generated_at": "2026-09-29T00:50:44.473478-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,49 +17,55 @@
   ],
   "news": [
     {
-      "headline": "MongoDB (MDB) Stock Could Be 16% Overvalued As Cash Flow Lags",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=087803aec6afe42fe33ae1b39b802e3088562ac2490893b19d9302824979eb2b",
-      "datetime": 1790291590,
-      "summary": "MongoDB has delivered a strong share price run in recent years, which naturally pushes investors to ask whether the current US$421.40 price is grounded in the cash the business can generate. With the focus on its cash flows, the question is how much of that move is backed by fundamentals rather than sentiment. The stock has returned 33.6% over the past year, which raises the stakes on whether the "
+      "headline": "Meta: More Cautious Than Before, More Bullish Than Ever",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=e4d92d416785fddb9b31471a4239420b575ff58ee472ff5f2861919fdf56a24d",
+      "datetime": 1790610287,
+      "summary": "Meta Platforms is a Buy because AI agents unlock massive revenue opportunities, and enterprise solutions target a $155B market. Read more on META stock here."
     },
     {
-      "headline": "Lemma Joins LlamaIndex, TinyFish, Linq, and Obvious to Cohost SF Tech Week\u2019s largest event: The Agent Economy Gala",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=1cbfc1dba74424edebc9b51c8524b9cf522513420b3591cf6cb1133589a64f44",
-      "datetime": 1790280000,
-      "summary": "San Francisco, California, Sept. 24, 2026 (GLOBE NEWSWIRE) -- Lemma, a monitoring tool that helps engineering teams catch silent AI agent failures in production, announced it is co-hosting The Agent Economy Gala, a black-tie event during San Francisco Tech Week that brings together the founders, operators, and investors building the agent economy for one night in San Francisco. The gala will bring"
+      "headline": "MongoDB: Selloff Is Overdone, But The Stock Still Isn't Cheap",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=134ae5130de9787fd3fa65245bdd1ddef918ec9714176cad1851bcd473913712",
+      "datetime": 1790609280,
+      "summary": "MongoDB, Inc. delivered multiyear-high revenue growth of 30% YoY in Q2, with robust demand and margin expansion. Read more on MDB stock here."
     },
     {
-      "headline": "MongoDB (MDB) Moves to Strong Buy: Rationale Behind the Upgrade",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f92cfbfbb6922f456c83059ffe13ad1246fe0d79b90fecea437a67fa9b6d1843",
-      "datetime": 1790262003,
-      "summary": "MongoDB (MDB) might move higher on growing optimism about its earnings prospects, which is reflected by its upgrade to a Zacks Rank #1 (Strong Buy)."
+      "headline": "Wall Street Lunch: MongoDB Tumbles As CEO CJ Desai Joins Meta To Lead Enterprise Push",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=c539fd5d82886a968e4dc24649ec1c5e74f7eb6f919643881045bad10cee72e7",
+      "datetime": 1790604780,
+      "summary": "MongoDB (MDB) shares are plunging more than 15% after CEO CJ Desai stepped down to lead Meta Platforms' (META) new enterprise platform."
     },
     {
-      "headline": "Earnings Estimates Moving Higher for MongoDB (MDB): Time to Buy?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b9f1c6c80f6974f3abe5efebf57b19356abebabf761b90fd7c0041abc96e4556",
-      "datetime": 1790180402,
-      "summary": "MongoDB (MDB) shares have started gaining and might continue moving higher in the near term, as indicated by solid earnings estimate revisions."
+      "headline": "MongoDB Stock Tumbles: What's Happening Today",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=f70d22be3ce010d513a0c3c7ddad87e8b5e96703734afa0f6beb8c40cdcbcd8c",
+      "datetime": 1790590113,
+      "summary": "MongoDB shares are slumping Monday. The company announced CEO Chirantan Desai has stepped down to pursue a senior role at Meta Platforms."
     },
     {
-      "headline": "2 Reasons to Watch MDB and 1 to Stay Cautious",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c76cdf493dbfded14b3ee4d7fd9ab81f02ac32be7154fd0148ebc8c3c42d1751",
-      "datetime": 1790173742,
-      "summary": "MongoDB has been on fire lately. In the past six months alone, the company\u2019s stock price has rocketed 56.9%, reaching $428.78 per share. This was partly thanks to its solid quarterly results, and the run-up might have investors contemplating their next move."
+      "headline": "MongoDB Affirms FY2027 Adj EPS Guidance of $6.39-$6.58 vs $6.13 Est; Affirms FY2027 Sales Guidance of $2.990B-$3.030B vs $2.954B Est",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=b4bcb7a094a2eb99644a2c5bd53196f0a3667f787060a023547ce19c38ffc7af",
+      "datetime": 1790585054,
+      "summary": "MongoDB (NASDAQ:MDB) affirms FY2027 Adj EPS guidance from $6.39-$6.58 to $6.39-$6.58 vs $6.13 analyst estimate. Affirms FY2027 sales outlook from $2.990 billion-$3.030 billion to $2.990 billion-$3.030 billion vs $2.954"
     },
     {
-      "headline": "MongoDB investors have one number to watch",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9f567d7cc43556bbe9c30507d092277c24418eea0c65f2074cf090ad392b7920",
-      "datetime": 1790099139,
-      "summary": "When management takes the stage in New York, demand from an unexpected source could change how Wall Street prices the stock."
+      "headline": "MongoDB Affirms Q3 Adj EPS Guidance of $1.57-$1.61 vs $1.54 Est; Affirms Q3 Sales Guidance of $756.000M-$761.000M vs $745.384M Est",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=7ae0b72306976463e7c1cf998471bcc452bb7afcc3a4a7882e14fd67c9161a6f",
+      "datetime": 1790585032,
+      "summary": "MongoDB (NASDAQ:MDB) affirms Q3 Adj EPS guidance from $1.57-$1.61 to $1.57-$1.61 vs $1.54 analyst estimate. Affirms Q3 sales outlook from $756.000 million-$761.000 million to $756.000 million-$761.000 million vs"
     }
   ],
   "filings": [
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-09-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026063657/mdb-20260924.htm"
+    },
     {
       "form": "10-Q",
       "title": "Quarterly report (10-Q)",
@@ -71,74 +77,68 @@
       "title": "Material event (8-K)",
       "date": "2026-09-01",
       "url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026059794/mdb-20260901.htm"
-    },
-    {
-      "form": "8-K",
-      "title": "Material event (8-K)",
-      "date": "2026-07-06",
-      "url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026047228/mdb-20260630.htm"
     }
   ],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-25",
+  "data_asof": "2026-09-28",
   "price": {
-    "last": 410.44,
-    "open": 417.6,
-    "prev_close": 421.4,
-    "move_day_pct": -2.6,
-    "move_open_close_pct": -1.71,
-    "move_week_pct": 7.01
+    "last": 334.68,
+    "open": 311.35,
+    "prev_close": 410.44,
+    "move_day_pct": -18.46,
+    "move_open_close_pct": 7.49,
+    "move_week_pct": -17.83
   },
   "indicators": {
     "rsi14": {
-      "value": 53.7,
-      "read": "Neutral"
+      "value": 37.0,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": 5.497,
-      "signal": 1.786,
-      "hist": 3.711,
-      "hist_prev": 4.419,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": -0.436,
+      "signal": 1.342,
+      "hist": -1.778,
+      "hist_prev": 3.711,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 455.02,
-      "lower": 337.15,
-      "mid": 396.09,
-      "pctb": 0.622,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 450.42,
+      "lower": 330.56,
+      "mid": 390.49,
+      "pctb": 0.034,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 81.65,
-      "read": "82% above its 52-week low"
+      "value": 48.12,
+      "read": "48% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -13.1,
-      "read": "Modestly below its 52-week high"
+      "value": -29.14,
+      "read": "29% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 344.7,
-      "pct": 19.07,
-      "read": "19% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 344.3,
+      "pct": -2.79,
+      "read": "3% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 21.44,
-      "pct_of_price": 5.22,
+      "value": 27.8,
+      "pct_of_price": 8.31,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.77,
-      "read": "Roughly average volume"
+      "value": 7.67,
+      "read": "Heavy volume \u2014 well above average"
     },
     "mfi14": {
-      "value": 60.1,
+      "value": 37.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 386.02,
-  "ma200": 344.7
+  "ma50": 386.47,
+  "ma200": 344.3
 }

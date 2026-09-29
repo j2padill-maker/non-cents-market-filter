@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-28T01:04:32.642569-07:00",
+  "generated_at": "2026-09-29T00:50:47.404463-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Why Meta's Muse May Support The AI Bull Market",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=b68e75fd8d03113a2dc3e5c47cb0ef600dc79f9954d81fff6359503904b4ffd4",
+      "datetime": 1790608800,
+      "summary": "Muse's early success is a reminder that the cyclical backdrop may face headwinds, but the structural growth underpinning this bull market remained very much intact. Read more here..."
+    },
+    {
+      "headline": "The Credit Market Lens: Hyperscalers Are Repricing, Not Displacing (So Far)",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=ec39a3f13f3ba81fc73d5d7a7fc895ee4d0af6db6d85d1f0e852d68d435e0dbf",
+      "datetime": 1790606160,
+      "summary": "AI-related borrowers have accounted for nearly a quarter of nonfinancial U.S. dollar (USD) supply year-to-date, yet spreads for non-AI issuers have not widened meaningfully."
+    },
     {
       "headline": "Equity Market Outlook Q4 2026",
       "source": "SeekingAlpha",
@@ -43,83 +57,69 @@
       "url": "https://finnhub.io/api/news?id=50f96fe0a4a8591dc4367b47609de054633a3f802aedd4866acf891f709afea1",
       "datetime": 1790377800,
       "summary": "Market strength may be broader than it appears as government policy and geopolitics are helping to reshape capital flows, supply chains and investment opportunities."
-    },
-    {
-      "headline": "Will Stocks Top... Or Pop? David Keller Covers The Charts",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=58ef3be6b52f0d57258d895bdf74201cd1a63440cf4f266cbda4cc9f76563bb9",
-      "datetime": 1790343180,
-      "summary": "David explains why mega-cap technology and AI stocks continue to support the major indexes, even as market breadth deteriorates and many other sectors struggle."
-    },
-    {
-      "headline": "When Strong Earnings Meet Crowded Markets",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=e37b0d787e6cc0b1dc5434f26a6fe2888f89d04f3d2e08b49f06cdbe1ae4a006",
-      "datetime": 1790304300,
-      "summary": "In this article, Russ Koesterich looks at the strong second quarter earnings season and discusses why positioning mattered as much as fundamentals. Read more here."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-25",
+  "data_asof": "2026-09-28",
   "price": {
-    "last": 35.4,
-    "open": 35.4,
-    "prev_close": 35.22,
-    "move_day_pct": 0.51,
-    "move_open_close_pct": 0.0,
-    "move_week_pct": 0.83
+    "last": 35.13,
+    "open": 35.2,
+    "prev_close": 35.4,
+    "move_day_pct": -0.76,
+    "move_open_close_pct": -0.2,
+    "move_week_pct": -1.93
   },
   "indicators": {
     "rsi14": {
-      "value": 48.5,
+      "value": 45.8,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.171,
-      "signal": -0.238,
-      "hist": 0.066,
-      "hist_prev": 0.065,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "macd": -0.176,
+      "signal": -0.225,
+      "hist": 0.049,
+      "hist_prev": 0.066,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 36.18,
-      "lower": 34.49,
-      "mid": 35.33,
-      "pctb": 0.54,
+      "upper": 36.13,
+      "lower": 34.47,
+      "mid": 35.3,
+      "pctb": 0.397,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 10.71,
+      "value": 9.87,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -14.92,
-      "read": "Modestly below its 52-week high"
+      "value": -15.57,
+      "read": "16% below its 52-week high"
     },
     "price_vs_ma200": {
       "ma200": 36.88,
-      "pct": -4.01,
-      "read": "4% below its 200-day average \u2014 long-term downtrend"
+      "pct": -4.75,
+      "read": "5% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.55,
-      "pct_of_price": 1.55,
+      "value": 0.54,
+      "pct_of_price": 1.54,
       "read": "Calm \u2014 low volatility"
     },
     "rel_volume": {
-      "value": 0.59,
+      "value": 0.62,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 43.3,
+      "value": 45.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 31.97,
   "high_52w": 41.61,
-  "ma50": 35.68,
+  "ma50": 35.69,
   "ma200": 36.88
 }

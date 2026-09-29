@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-28T01:04:32.833372-07:00",
+  "generated_at": "2026-09-29T00:50:47.587919-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Here's Why You Should Add Baker Hughes Stock to Your Portfolio Now",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=882796fbf7b90879b5679b030c5aa78b915e0edbda233c78d4da72cc5da6f75c",
+      "datetime": 1790609700,
+      "summary": "BKR's surging IET orders, record backlog and stronger margins are broadening growth beyond oilfield services and boosting revenue visibility."
+    },
+    {
+      "headline": "Crude Holds Above $94: Are Oilfield Stocks an Attractive Opportunity Now?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7e615057be9e02b92d21ccb8dd1f5f8da32b09247e6eaac87e792e44d00455e9",
+      "datetime": 1790601300,
+      "summary": "WTI crude above $94 may support U.S. drilling and offshore activity, creating stronger oilfield service demand for Baker Hughes and Oceaneering International."
+    },
     {
       "headline": "1 Cash-Producing Stock Worth Your Attention and 2 Facing Challenges",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=03b4c2690ec67f3ca327ea9a2eb1961ca43ae8c5f6ec323a6812cde905766fb8",
       "datetime": 1790325660,
       "summary": "Remote Operated Vehicle Demand Rises with Offshore Energy Expansion, Marine Research Funding, Defense Modernization and Advanced Subsea TechnologiesDublin, Sept. 25, 2026 (GLOBE NEWSWIRE) -- \"Remote Operated Vehicle Market Opportunity, Growth Drivers, Industry Trend Analysis, and Forecast 2026-2035\" has been added to ResearchAndMarkets.com's offering. The global remote operated vehicle market was "
-    },
-    {
-      "headline": "SLB Wins Oman Contract, Strengthening Its Middle East Growth Story",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a3152206e94e4ceba53a709ee4b94461412777374315f23011d1b18ecbf0d50b",
-      "datetime": 1790246340,
-      "summary": "SLB's Bisat-B Expansion contract in Oman adds a multi-year project, recurring service work and greater revenue visibility."
-    },
-    {
-      "headline": "3 Underfollowed Stocks To Own In September 2026",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6061fcb922aeb1e1a7a6c3e305413ea159322bc0135edceacc5d7e622c08a557",
-      "datetime": 1790101111,
-      "summary": "AI optimism has just pushed the Nasdaq 100 close to record territory, reminding investors how quickly capital can shift when a new theme catches fire. Big funds are crowding into the obvious large caps. That leaves smaller, financially solid businesses with far less attention. This article highlights three underfollowed high quality US stocks from a curated screener that may appeal to investors lo"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-25",
+  "data_asof": "2026-09-28",
   "price": {
-    "last": 46.26,
-    "open": 46.28,
-    "prev_close": 46.67,
-    "move_day_pct": -0.88,
-    "move_open_close_pct": -0.04,
-    "move_week_pct": -0.06
+    "last": 45.84,
+    "open": 46.66,
+    "prev_close": 46.26,
+    "move_day_pct": -0.91,
+    "move_open_close_pct": -1.76,
+    "move_week_pct": -0.2
   },
   "indicators": {
     "rsi14": {
-      "value": 41.2,
-      "read": "Neutral"
+      "value": 39.7,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -0.985,
-      "signal": -0.619,
-      "hist": -0.366,
-      "hist_prev": -0.439,
+      "macd": -1.021,
+      "signal": -0.7,
+      "hist": -0.322,
+      "hist_prev": -0.366,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 53.4,
-      "lower": 43.98,
-      "mid": 48.69,
-      "pctb": 0.242,
+      "upper": 53.24,
+      "lower": 43.67,
+      "mid": 48.46,
+      "pctb": 0.226,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 108.38,
-      "read": "108% above its 52-week low"
+      "value": 106.49,
+      "read": "106% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -14.51,
-      "read": "Modestly below its 52-week high"
+      "value": -15.28,
+      "read": "15% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 38.11,
-      "pct": 21.39,
-      "read": "21% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 38.2,
+      "pct": 20.0,
+      "read": "20% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 1.77,
-      "pct_of_price": 3.83,
+      "value": 1.74,
+      "pct_of_price": 3.8,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.96,
+      "value": 0.57,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 30.1,
+      "value": 30.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 22.2,
   "high_52w": 54.11,
-  "ma50": 49.2,
-  "ma200": 38.11
+  "ma50": 49.27,
+  "ma200": 38.2
 }
