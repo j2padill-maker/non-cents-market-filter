@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-29T00:50:47.029553-07:00",
+  "generated_at": "2026-09-30T00:50:33.065689-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "Teradyne (TER) Debuts Magnum E2 For AI Memory Testing",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=0c5a91281128a25ae5ce49564c2e72931bc4e74223841be5a5cae4c0d57d4a5a",
+      "datetime": 1790712333,
+      "summary": "Teradyne (NasdaqGS:TER) introduced its Magnum E2 high-speed memory test system for next-generation DRAM and flash used in AI data centers. The Magnum E2 platform is described as supporting higher interface speeds and greater parallelism for emerging DRAM and flash standards. Teradyne positions Magnum E2 to address test complexity at the intersection of AI workloads, advanced memory interfaces, and"
+    },
+    {
+      "headline": "A Teradyne Director Sells 400 Shares After the Stock Soared Over 200% in the Past Year",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=049bc57b5e08066bff8bcf0ad76800473e3379b94eabfde994c2f48ce10d6601",
+      "datetime": 1790698924,
+      "summary": "The testing equipment provider for semiconductor manufacturers reported a notable insider stock sale."
+    },
+    {
+      "headline": "Teradyne Announces Magnum E2 to Address Next-Generation Memory Test Demands Driven by AI and High-Performance Computing",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c14504b75ccac7d221ce0bb780f8e8701faf280f71d230b764b5e57b1c6d14aa",
+      "datetime": 1790686800,
+      "summary": "NORTH READING, Mass., September 29, 2026--Teradyne announces Magnum E2 to address next-generation memory test demands driven by AI and high-performance computing."
+    },
+    {
+      "headline": "Teradyne (NASDAQ:TER): Affordable Growth With Elite Quality and a Reasonable Valuation",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=d7c1b16755d56fef603d962b6dd0fcf0b32b548db6972a79dae1660c68ac11f3",
+      "datetime": 1790676070,
+      "summary": "Teradyne fits the Affordable Growth screen with strong forward growth, elite health, and a valuation reasonable relative to its growth."
+    },
+    {
       "headline": "Is Teradyne (TER) Fully Valued On Its Latest Semiconductor And Robotics Expansion?",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=f1a4393f6fc6c71181ee15266fc2aca29d3a29ec9a1c442253011642295f4d84",
@@ -29,34 +57,6 @@
       "url": "https://finnhub.io/api/news?id=0b9827570b7505ccab8a8908f9e71924bba3ac8320ce1fb802c7c8a0389c0db1",
       "datetime": 1790651519,
       "summary": "In September 2026, Teradyne and GS Microelectronics U.S. formed a multi-year partnership to build a Teradyne-equipped semiconductor test and evaluation center in Silicon Valley, while Teradyne also launched its Iris 100 microLED optical test platform and opened a semiconductor-focused office in Bengaluru, India. Together, these moves extend Teradyne\u2019s reach across AI, optical, and India\u2019s growing "
-    },
-    {
-      "headline": "Teradyne (TER) Has More Riding on AI Than Meets the Eye. Can Execution Deliver?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e115e15efdaa8463b155518a1e6e974593c2f9e3cd8d89733882049a98c2650b",
-      "datetime": 1790631148,
-      "summary": "On September 1, Teradyne, Inc. (NASDAQ:TER) announced the launch of three new instruments for its UltraFLEXplus platform: the UltraPin5000-EM, UltraPort-PCIe6, and UltraVS64-HP. Engineered for AI and data center semiconductor testing, these instruments deliver advanced scalability, signal integrity, and high-power delivery across the entire silicon lifecycle, from wafer probe to final validation. "
-    },
-    {
-      "headline": "Is Teradyne (TER) Fully Priced After Record Q2 Results?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=efff319561aa0e8bc9714ca390add0ff9392d8b745598d98b646b18118df95cd",
-      "datetime": 1790629632,
-      "summary": "Teradyne has rallied hard in recent years, and with the stock last closing at US$398.38, the real question for investors is how well that price lines up with the earnings power of the business. Over the past 3 years Teradyne has returned about 300.0%, which puts a lot of expectation into the current valuation and makes its earnings track record central to the story. Record recent revenue performan"
-    },
-    {
-      "headline": "3 Reasons to Sell TER and 1 Stock to Buy Instead",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=31c9cd9867429b419668154cc9335096cf1590a6c0560119bae11782a0f2ab71",
-      "datetime": 1790620716,
-      "summary": "What a time it\u2019s been for Teradyne. In the past six months alone, the company\u2019s stock price has increased by a massive 44.5%, reaching $399.20 per share. This was partly due to its solid quarterly results, and the run-up might have investors contemplating their next move."
-    },
-    {
-      "headline": "Chip Equipment Stocks Rally as Quality Growers Lead the Snapback",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=3949e451c2a639a3423306f9abe01c0a8d4de77e04e115b657fdc35d2e3c93a4",
-      "datetime": 1790598954,
-      "summary": "Semiconductor equipment stocks rally 6.3% in a week, led by quality growth names TER, LRCX, ASML, AMAT, and ONTO as sentiment resets."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-28",
+  "data_asof": "2026-09-29",
   "price": {
-    "last": 401.3,
-    "open": 394.7,
-    "prev_close": 398.38,
-    "move_day_pct": 0.73,
-    "move_open_close_pct": 1.67,
-    "move_week_pct": 5.18
+    "last": 403.02,
+    "open": 410.85,
+    "prev_close": 401.3,
+    "move_day_pct": 0.43,
+    "move_open_close_pct": -1.91,
+    "move_week_pct": 1.09
   },
   "indicators": {
     "rsi14": {
-      "value": 58.8,
+      "value": 59.3,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 6.679,
-      "signal": 1.101,
-      "hist": 5.578,
-      "hist_prev": 5.387,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "macd": 7.983,
+      "signal": 2.477,
+      "hist": 5.505,
+      "hist_prev": 5.578,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 412.68,
-      "lower": 318.55,
-      "mid": 365.61,
-      "pctb": 0.879,
+      "upper": 417.43,
+      "lower": 319.12,
+      "mid": 368.28,
+      "pctb": 0.853,
       "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 204.42,
-      "read": "204% above its 52-week low"
+      "value": 205.72,
+      "read": "206% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -17.03,
+      "value": -16.67,
       "read": "17% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 330.5,
-      "pct": 21.42,
-      "read": "21% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 331.5,
+      "pct": 21.57,
+      "read": "22% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 20.27,
-      "pct_of_price": 5.05,
+      "value": 19.95,
+      "pct_of_price": 4.95,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.8,
+      "value": 1.03,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 59.2,
+      "value": 59.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 131.82,
   "high_52w": 483.65,
-  "ma50": 370.48,
-  "ma200": 330.5
+  "ma50": 371.87,
+  "ma200": 331.5
 }

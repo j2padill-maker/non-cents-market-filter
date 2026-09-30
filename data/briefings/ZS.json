@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-29T00:50:48.010834-07:00",
+  "generated_at": "2026-09-30T00:50:33.908422-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "2 Unpopular Stocks That Deserve Some Love and 1 Facing Headwinds",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7cc9b06b5f612df480f56837a14b8d0bcd0f945089409933a30745b1c01c0d0a",
-      "datetime": 1790599116,
-      "summary": "When Wall Street turns bearish on a stock, it\u2019s worth paying attention. These calls stand out because analysts rarely issue grim ratings on companies for fear their firms will lose out in other business lines such as M&A advisory."
-    },
-    {
-      "headline": "Wedbush Reiterates Outperform on Zscaler, Maintains $215 Price Target",
+      "headline": "Barclays Maintains Overweight on Zscaler, Raises Price Target to $220",
       "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=a03ff9ddeb82fd09d944032b313dfc17b22c40bd251ba2e6ca184cf087813612",
-      "datetime": 1790584815,
-      "summary": "Wedbush  analyst Steven Wahrhaftig   reiterates Zscaler (NASDAQ:ZS) with a Outperform and maintains $215 price target."
+      "url": "https://finnhub.io/api/news?id=d90940734f641815493bd141ebc767533fb4e5a2124c6891d7c7bfe8df4c8305",
+      "datetime": 1790671079,
+      "summary": "Barclays  analyst Saket Kalia   maintains Zscaler (NASDAQ:ZS) with a Overweight and raises the price target from $200 to $220."
     },
     {
-      "headline": "Copilot Reboot Sends Microsoft Soaring, but Trump's No to Iran Hangs Over Monday",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=a2b7dc9eeea5d94aaba6a7c3f389b01e95bb8333f1593ffa51f07c8d174b3473",
-      "datetime": 1790583401,
-      "summary": "Microsoft jumped to a ten-month high after a sweeping Copilot overhaul and helped Wall Street lock in a winning week. Over the weekend, Trump rejected Iran's ceasefire offer and Apple lost a $5.7 billion patent case. Here's what matters heading into Monday."
-    },
-    {
-      "headline": "US Stock Market Today S&P 500 Futures Rise As Jobs Data Jitters Build",
+      "headline": "PANW, CRWD, ZS Lead Nasdaq-100 Gains As Nvidia's AI Agent Safety Push, Security Scares Lift Cybersecurity Stocks",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=214a2b11bc33557333d6e2c047b702d714563165bcb6cc65b13f63232ec15500",
-      "datetime": 1790582833,
-      "summary": "The Morning Bull - US Market Morning Update Monday, Sep, 28 2026 US stock futures are pointing higher this morning, with key contracts like the E-mini S&P 500 up about 0.5% and Nasdaq futures ahead roughly 0.4%. The backdrop is messy. Consumer sentiment in a closely watched University of Michigan survey sits at 48.1, which is near historic lows, and households still expect inflation of 4.6% over t"
+      "url": "https://finnhub.io/api/news?id=57dbde5cbf5b804634d82a2d9c1b53131cc463cfd5b70364a9bba4cf5986bca4",
+      "datetime": 1790653108,
+      "summary": "AI agent adoption and fresh security concerns are boosting demand for cyber defense tools."
     },
     {
-      "headline": "3 Cloud And AI Stocks Retail Investors Are Watching After Microsoft Copilot Expansion",
+      "headline": "Where Could Zscaler's Next Growth Come From?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a09bfac553002f3ea861ace87be7502828022018d1c71179b57318773dc80b0b",
-      "datetime": 1790482562,
-      "summary": "AI went from buzzword to utility the moment Microsoft folded full Word, Excel, and PowerPoint into Copilot and pushed agent style features like Home, Chat, Cowork, and Autopilot into the mainstream. That kind of shift can reshape where cloud and AI compute dollars flow next. This piece unpacks how that news filters through to three stocks tied into the story and explains why their exposure might m"
+      "url": "https://finnhub.io/api/news?id=d48888e1abd3b8e974d23f17bd0ae57040cab0b352c5469181aafaf01d1f138e",
+      "datetime": 1790633490,
+      "summary": "Zscaler's best candidate for upside is a product line that its fiscal 2027 outlook does not call out. The stock has risen 46% over the past three months. It is still 43% below its 52-week high. The outlook matters now because it has revenue growth slowing. It calls for growth of 16.6% to 17.5%, from 25% in fiscal 2026. So which Zscaler (ZS) business could add growth beyond that outlook."
     },
     {
-      "headline": "Zscaler (ZS) Names Ross Tackett Chief Revenue Officer",
+      "headline": "Zscaler's ARR Growth on Focus at Upcoming Investor Day, Wedbush Says",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ce08bdaf586ac0c854c140f02369dbfd5d54da5583ee9c5fb9ac81c80d49c0a5",
-      "datetime": 1790446142,
-      "summary": "Zscaler (NasdaqGS: ZS) has promoted Ross Tackett to Chief Revenue Officer, succeeding Mike Rich. Mike Rich will stay on as a strategic advisor to support the leadership transition in Zscaler's global sales organization. Tackett brings decades of enterprise sales leadership experience from major technology companies to the CRO role at Zscaler. The shift to Ross Tackett as Chief Revenue Officer shou"
+      "url": "https://finnhub.io/api/news?id=9668926b16f9da59093cc5b2366963e4535e085ae620ab1b113b389da2565808",
+      "datetime": 1790611921,
+      "summary": "Zscaler (ZS) is expected to provide clear view around its multi-year framework built on mid-to-high-"
+    },
+    {
+      "headline": "What Could Derail CrowdStrike Stock?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=282e3a132e93e5abe5703c4db8b6fb53ea4ad4edcd08304d16928ad3b9e51b7e",
+      "datetime": 1790611687,
+      "summary": "If you own CrowdStrike (CRWD), one worry stands out: did its best quarter come from a burst of AI urgency that will fade? Management called fiscal Q2 2027 the company's very best quarter. Over the last year, CrowdStrike stock returned 112%, against 18.0% for the S&P 500. A $10,000 holding a year ago is now worth about $21,200. Which threat could take that gain back."
+    },
+    {
+      "headline": "Can AI Security Demand Boost Cloudflare's Zero Trust & SASE Growth?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=4507c443d8e042887abca09581daf14c69d21c2b36be0fc830ed0411d87135d3",
+      "datetime": 1790607780,
+      "summary": "NET's AI-focused security strategy is creating new opportunities for Zero Trust and SASE growth as enterprises deploy AI agents."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-28",
+  "data_asof": "2026-09-29",
   "price": {
-    "last": 199.39,
-    "open": 188.89,
-    "prev_close": 193.05,
-    "move_day_pct": 3.28,
-    "move_open_close_pct": 5.56,
-    "move_week_pct": -3.74
+    "last": 198.35,
+    "open": 198.02,
+    "prev_close": 199.39,
+    "move_day_pct": -0.52,
+    "move_open_close_pct": 0.17,
+    "move_week_pct": -5.63
   },
   "indicators": {
     "rsi14": {
-      "value": 56.9,
+      "value": 56.2,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 9.119,
-      "signal": 8.122,
-      "hist": 0.997,
-      "hist_prev": 1.784,
+      "macd": 8.511,
+      "signal": 8.2,
+      "hist": 0.311,
+      "hist_prev": 0.997,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 221.55,
-      "lower": 153.85,
-      "mid": 187.7,
-      "pctb": 0.673,
+      "upper": 222.37,
+      "lower": 154.03,
+      "mid": 188.2,
+      "pctb": 0.649,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 68.9,
-      "read": "69% above its 52-week low"
+      "value": 68.03,
+      "read": "68% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -40.71,
+      "value": -41.01,
       "read": "41% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 167.22,
-      "pct": 19.24,
+      "ma200": 166.99,
+      "pct": 18.78,
       "read": "19% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 10.58,
-      "pct_of_price": 5.31,
+      "value": 10.28,
+      "pct_of_price": 5.18,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.12,
+      "value": 0.51,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 64.7,
+      "value": 64.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 118.05,
   "high_52w": 336.27,
-  "ma50": 174.84,
-  "ma200": 167.22
+  "ma50": 175.81,
+  "ma200": 166.99
 }

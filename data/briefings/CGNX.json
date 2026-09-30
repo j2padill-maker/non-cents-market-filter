@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-29T00:50:46.230957-07:00",
+  "generated_at": "2026-09-30T00:50:32.248740-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "3 of Wall Street\u2019s Favorite Stocks with Warning Signs",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e710e0cfa0eadd1bd513516b3643b7506963172824449871b0dfec6c871ae49f",
+      "datetime": 1790687042,
+      "summary": "Wall Street has set ambitious price targets for the stocks in this article. While this suggests attractive upside potential, it\u2019s important to remain skeptical because analysts face institutional pressures that can sometimes lead to overly optimistic forecasts."
+    },
     {
       "headline": "Deal Dispatch: Jana Calls For Six Flags Review, Cognex Corp Buys RealSense, Brightline Bankruptcy",
       "source": "Benzinga",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=81d44a0f045f60db77b56ae9377fce8aef678e3666ec63dc1465b8ee635a63dc",
       "datetime": 1790169000,
       "summary": "Cognex Corporation (NASDAQ: CGNX), the global technology leader in industrial machine vision, today announced the launch of the In-Sight\u00ae 1750 Series, a next-generation wafer and panel identification system designed to help semiconductor manufacturers reduce disruptions, improve traceability, and maintain throughput."
-    },
-    {
-      "headline": "Baird Maintains Neutral on Cognex, Lowers Price Target to $70",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=8e47e39ae6e17fa3da4d592e23582e2c29db83c6911e55827f41b4f0ea45b24a",
-      "datetime": 1790153097,
-      "summary": "Baird  analyst Richard Eastman   maintains Cognex (NASDAQ:CGNX) with a Neutral and lowers the price target from $78 to $70."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-28",
+  "data_asof": "2026-09-29",
   "price": {
-    "last": 58.75,
-    "open": 57.97,
-    "prev_close": 58.66,
-    "move_day_pct": 0.15,
-    "move_open_close_pct": 1.35,
-    "move_week_pct": -5.23
+    "last": 59.67,
+    "open": 59.52,
+    "prev_close": 58.75,
+    "move_day_pct": 1.57,
+    "move_open_close_pct": 0.25,
+    "move_week_pct": 1.19
   },
   "indicators": {
     "rsi14": {
-      "value": 43.8,
+      "value": 46.9,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.974,
-      "signal": -0.776,
-      "hist": -0.198,
-      "hist_prev": -0.231,
+      "macd": -0.902,
+      "signal": -0.801,
+      "hist": -0.101,
+      "hist_prev": -0.198,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 63.71,
-      "lower": 57.28,
-      "mid": 60.49,
-      "pctb": 0.229,
+      "upper": 63.66,
+      "lower": 57.2,
+      "mid": 60.43,
+      "pctb": 0.383,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 69.54,
-      "read": "70% above its 52-week low"
+      "value": 72.19,
+      "read": "72% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -18.76,
-      "read": "19% below its 52-week high"
+      "value": -17.49,
+      "read": "17% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 55.13,
-      "pct": 6.57,
-      "read": "7% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 55.24,
+      "pct": 8.02,
+      "read": "8% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 2.23,
-      "pct_of_price": 3.8,
+      "value": 2.16,
+      "pct_of_price": 3.62,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.95,
+      "value": 0.56,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 48.0,
+      "value": 52.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 34.65,
   "high_52w": 72.32,
-  "ma50": 62.05,
-  "ma200": 55.13
+  "ma50": 61.99,
+  "ma200": 55.24
 }

@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-29T00:50:47.404463-07:00",
+  "generated_at": "2026-09-30T00:50:33.380819-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Bond Market Sell-Off: Higher Yields, Stronger Fundamentals",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=1d6993cb38d51c9340e40f82a9eb26fd224a36ddec38ffb0f77c27202b7172e0",
+      "datetime": 1790737800,
+      "summary": "Government bond yields have recently risen sharply, pushing borrowing costs to their highest levels in years and extending the bond market sell-off."
+    },
+    {
+      "headline": "Anthropic Eyes Monster $2 Trillion IPO, Yet Deal Veteran Says It Won\u2019t Be a Market Catalyst",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=a49772a2323dc8189171599f7ad2d95a9bb7e18813f53dedb004b2c3f7851aa0",
+      "datetime": 1790666322,
+      "summary": "Anthropic eyes a $2T+ IPO valuation despite $42B in losses, while M&amp;A expert Robert Kindler downplays its overall stock market impact."
+    },
+    {
+      "headline": "Anthropic Bets Big On AI, Bleeds Billions: Key Details From The Reported IPO Prospectus",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=dd181fb5e88dfc3b2274d143f2dfbf3c4c024445a2f4087c93e30bf95cda1eb1",
+      "datetime": 1790644871,
+      "summary": "Anthropic reportedly bets AI will transform the economy more than industrialization or the internet \u2014 at a staggering cost."
+    },
     {
       "headline": "Why Meta's Muse May Support The AI Bull Market",
       "source": "SeekingAlpha",
@@ -36,90 +57,69 @@
       "url": "https://finnhub.io/api/news?id=c9b8e1fae1410607d399b9fde45d8e693f441ce1df6161ff2b5a0f885e4dc20f",
       "datetime": 1790560080,
       "summary": "It\u00e2\u0080\u0099s a new world for income-seeking equity investors. An active approach seeks to capture income without giving up growth potential."
-    },
-    {
-      "headline": "The Recession That Wasn't",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=ae1dd173bee220b656cae15ea981660dad4b76a50b154fba9566caeb1771d657",
-      "datetime": 1790392200,
-      "summary": "Two things of note happened this past Wednesday. The first was yet another surge in bond yields, with the 30-year Treasury rate, at 5.48 percent, the highest it has been since 2004."
-    },
-    {
-      "headline": "From Tokyo To The Trump-Xi Summit: Opportunities In International Equities",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=d742446eacedc9aa2c298be2e59d1793c87ca66d3bb985e9982a056391a2c990",
-      "datetime": 1790388600,
-      "summary": "Rising yields, energy pressures and geopolitical uncertainty are creating a more complex backdrop for global markets. Read more here."
-    },
-    {
-      "headline": "How Policy, Geopolitics And AI Are Reshaping Markets",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=50f96fe0a4a8591dc4367b47609de054633a3f802aedd4866acf891f709afea1",
-      "datetime": 1790377800,
-      "summary": "Market strength may be broader than it appears as government policy and geopolitics are helping to reshape capital flows, supply chains and investment opportunities."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-28",
+  "data_asof": "2026-09-29",
   "price": {
-    "last": 35.13,
-    "open": 35.2,
-    "prev_close": 35.4,
-    "move_day_pct": -0.76,
+    "last": 35.24,
+    "open": 35.31,
+    "prev_close": 35.13,
+    "move_day_pct": 0.31,
     "move_open_close_pct": -0.2,
-    "move_week_pct": -1.93
+    "move_week_pct": -2.14
   },
   "indicators": {
     "rsi14": {
-      "value": 45.8,
+      "value": 47.1,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.176,
-      "signal": -0.225,
-      "hist": 0.049,
-      "hist_prev": 0.066,
+      "macd": -0.17,
+      "signal": -0.214,
+      "hist": 0.044,
+      "hist_prev": 0.049,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 36.13,
-      "lower": 34.47,
-      "mid": 35.3,
-      "pctb": 0.397,
+      "upper": 36.05,
+      "lower": 34.49,
+      "mid": 35.27,
+      "pctb": 0.482,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 9.87,
+      "value": 10.21,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -15.57,
-      "read": "16% below its 52-week high"
+      "value": -15.31,
+      "read": "15% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 36.88,
-      "pct": -4.75,
-      "read": "5% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 36.87,
+      "pct": -4.42,
+      "read": "4% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.54,
-      "pct_of_price": 1.54,
+      "value": 0.52,
+      "pct_of_price": 1.49,
       "read": "Calm \u2014 low volatility"
     },
     "rel_volume": {
-      "value": 0.62,
+      "value": 1.03,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 45.5,
+      "value": 52.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 31.97,
   "high_52w": 41.61,
-  "ma50": 35.69,
-  "ma200": 36.88
+  "ma50": 35.71,
+  "ma200": 36.87
 }

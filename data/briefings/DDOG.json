@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-29T00:50:45.365168-07:00",
+  "generated_at": "2026-09-30T00:50:31.176749-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Can Datadog\u2019s (DDOG) Platform Keep Growing as Companies Embrace AI?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7aca9e081689ccac05cbf66088ecacd36ca54920b36822f856e1a0d4788a49d7",
+      "datetime": 1790743107,
+      "summary": "Datadog, Inc. (NASDAQ:DDOG) has spent years building a business around a simple problem: modern software is becoming harder to manage. Companies now run applications across clouds, containers, databases, and increasingly complex infrastructure, creating more data and more things that can go wrong. AI is adding another layer to that complexity. But the opportunity is broader [\u2026]"
+    },
+    {
+      "headline": "MongoDB Dropped by 25% Over The Last Month: A Large, Influential Wall Street Bank Predicts 70% Gains From Here",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=3bd6e2d46c9402a366f0d5a6cef7128f7c541af9cb855bd06bec4413e4e8ca4d",
+      "datetime": 1790693477,
+      "summary": "A surprise CEO departure sent MongoDB tumbling 25% in a month while its database rivals barely flinched, and now one major Wall Street bank sees a setup that could reward patient investors."
+    },
+    {
+      "headline": "These S&P500 stocks are gapping in today's session",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=8acb71f6bcd5530d4f16a827ba1bcbbab536ced61d28c2174e86a6b7ca7ad951",
+      "datetime": 1790692502,
+      "summary": "Wondering what's happening in today's session regarding gap up and gap down stocks? Explore the S&P500 index on Tuesday to uncover the stocks that are gapping in the S&P500 index."
+    },
     {
       "headline": "3 AI Software Stocks Retail Investors May Be Missing Right Now",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=6e54bbbebd6f79a70d12da6a9a2b4e2b04e24a84076995c77dca1f6eda79aaa0",
       "datetime": 1790609700,
       "summary": "Cisco Systems' integrated security and observability push is gaining traction as adoption grows, strengthening its position against Datadog and CrowdStrike."
-    },
-    {
-      "headline": "Stock Market Today: Dow Falls, Trump Rejects Iran Deal; Oil, Yields Jump As Nvidia Rises On Buyback (Live Coverage)",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=afb5d219c682c9d5574d06327384f49f15a41e875387288b1d768004dc95cfd8",
-      "datetime": 1790603197,
-      "summary": "Stock Market Today: The Dow Jones index drops Monday after Trump rejected an Iran peace deal. Oil prices and Treasury yields jump."
-    },
-    {
-      "headline": "Snowflake Slides 4% on Proposed $3.5B Convertible Offering; Oracle Falls 3%, Datadog Drops 4%",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3a1e201d37199e73a708618cbbda3fda1776335e8c1a2b08f1094a9b78068130",
-      "datetime": 1790603151,
-      "summary": "A $3.5 billion convertible note plan from Snowflake (NYSE:SNOW) weighs on Snowflake stock. Even so, the data cloud company structured the deal specifically to limit the dilution sellers appear to be pricing in. Snowflake stock is at $321.65, down 4%, but still up 47.59% year to date. Selling is spreading across other highly valued cloud [\u2026]"
-    },
-    {
-      "headline": "Here Are Monday\u2019s Top Wall Street Analyst Research Calls: Applied Digital, Autodesk, Datadog, First Solar, L3Harris Technologies, PepsiCo, Roblox, Snowflake, TeraWulf and More",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f3176aac72b0f396718e46bccef402a3ddacdecf9d2bc33fedfb0798c17b1aa4",
-      "datetime": 1790597526,
-      "summary": "Pre-Market Stock Futures: Futures are trading lower as we enter the final trading days of the third quarter, after a wild week in which interest rates soared and oil prices bounced back and forth. While all major indices closed higher on Friday, only two finished the week higher, and with the quarter ending, watch for [\u2026]"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-28",
+  "data_asof": "2026-09-29",
   "price": {
-    "last": 268.7,
-    "open": 257.0,
-    "prev_close": 268.13,
-    "move_day_pct": 0.21,
-    "move_open_close_pct": 4.55,
-    "move_week_pct": 9.65
+    "last": 268.56,
+    "open": 267.03,
+    "prev_close": 268.7,
+    "move_day_pct": -0.05,
+    "move_open_close_pct": 0.57,
+    "move_week_pct": 8.52
   },
   "indicators": {
     "rsi14": {
-      "value": 67.2,
+      "value": 67.1,
       "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 6.487,
-      "signal": 0.93,
-      "hist": 5.557,
-      "hist_prev": 5.311,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "macd": 7.682,
+      "signal": 2.281,
+      "hist": 5.402,
+      "hist_prev": 5.557,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 268.35,
-      "lower": 198.75,
-      "mid": 233.55,
-      "pctb": 1.005,
-      "read": "Above the upper band \u2014 stretched to the upside"
+      "upper": 273.13,
+      "lower": 197.13,
+      "mid": 235.13,
+      "pctb": 0.94,
+      "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 161.85,
+      "value": 161.72,
       "read": "162% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -6.75,
+      "value": -6.8,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 182.3,
-      "pct": 47.39,
+      "ma200": 182.89,
+      "pct": 46.84,
       "read": "47% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 12.9,
-      "pct_of_price": 4.8,
+      "value": 12.71,
+      "pct_of_price": 4.73,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.95,
+      "value": 0.82,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 78.0,
+      "value": 77.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 288.15,
-  "ma50": 242.9,
-  "ma200": 182.3
+  "ma50": 243.01,
+  "ma200": 182.89
 }

@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-29T00:50:47.587919-07:00",
+  "generated_at": "2026-09-30T00:50:33.542965-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "3 Undervalued Small Cap Stocks Trading At Least 14% Below Fair Value",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7a1e72d8e855b0654fb69cd10328ad4764e12dbb1cacc87b1da7cb29fa000ded",
+      "datetime": 1790730618,
+      "summary": "U.S. Treasury yields recently reached a 25 year high, which means investors can now get solid income from government bonds without touching equities. That shift leaves many smaller high quality companies with strong fundamentals sitting in the bargain bin while attention swings to fixed income. This article walks through three under the radar small cap stocks from our screener that could reward in"
+    },
+    {
+      "headline": "CRK Advances $1.65B SOCAR Partnership by Signing Framework Agreement",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=6b5c86079abbb0e48bf5779c7ac44b8fa99a8d0926f5a1bc00164e6fbdc62b46",
+      "datetime": 1790688420,
+      "summary": "Comstock's $1.65B SOCAR partnership advances, adding LNG market access and greater visibility to its Haynesville growth strategy."
+    },
+    {
+      "headline": "Here's Why Hold Strategy Is Apt for Nabors Industries Stock for Now",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ebf896eb9d48a1977269a41efddabc3c37a6b7fafe7b3a7d2ece93d651c503c5",
+      "datetime": 1790684760,
+      "summary": "NBR's rally reflects stronger profitability, better contract visibility and growth opportunities, while cash flow and geopolitical risks remain key concerns."
+    },
     {
       "headline": "Here's Why You Should Add Baker Hughes Stock to Your Portfolio Now",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=641606a43ebb41cb058e01b2760188a47de18ea9d2ad3c156bb5bd59426305d9",
       "datetime": 1790341477,
       "summary": "While strong cash flow is a key indicator of stability, it doesn\u2019t always translate to superior returns. Some cash-heavy businesses struggle with inefficient spending, slowing demand, or weak competitive positioning."
-    },
-    {
-      "headline": "Petrobras Inks MoU With Mozambique's ENH for Oil & Gas Cooperation",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=1e1da8eaf36b8d9967ec45559f84f032125d45ca2245cfcc7f732b54b8cfabc9",
-      "datetime": 1790341260,
-      "summary": "PBR expands international cooperation with Mozambique's ENH, opening a framework to evaluate oil and gas projects and share technical expertise."
-    },
-    {
-      "headline": "SLB Secures Major Aramco Contracts, Expands Saudi Arabia Footprint",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=692f60f690dc136961d578434f5fbad561e0affccfbbcefcaa0d1f4160036716",
-      "datetime": 1790336400,
-      "summary": "SLB's four Aramco contracts cover more than 450 wells, expanding its integrated well construction work and strengthening multi-year revenue visibility."
-    },
-    {
-      "headline": "Remote Operated Vehicle Market Outlook 2026-2035 - Featuring Profiles of Oceaneering International, Saab, and TechnipFMC",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=03b4c2690ec67f3ca327ea9a2eb1961ca43ae8c5f6ec323a6812cde905766fb8",
-      "datetime": 1790325660,
-      "summary": "Remote Operated Vehicle Demand Rises with Offshore Energy Expansion, Marine Research Funding, Defense Modernization and Advanced Subsea TechnologiesDublin, Sept. 25, 2026 (GLOBE NEWSWIRE) -- \"Remote Operated Vehicle Market Opportunity, Growth Drivers, Industry Trend Analysis, and Forecast 2026-2035\" has been added to ResearchAndMarkets.com's offering. The global remote operated vehicle market was "
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-28",
+  "data_asof": "2026-09-29",
   "price": {
-    "last": 45.84,
-    "open": 46.66,
-    "prev_close": 46.26,
-    "move_day_pct": -0.91,
-    "move_open_close_pct": -1.76,
-    "move_week_pct": -0.2
+    "last": 44.22,
+    "open": 45.11,
+    "prev_close": 45.84,
+    "move_day_pct": -3.53,
+    "move_open_close_pct": -1.97,
+    "move_week_pct": -4.1
   },
   "indicators": {
     "rsi14": {
-      "value": 39.7,
+      "value": 34.5,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -1.021,
-      "signal": -0.7,
-      "hist": -0.322,
-      "hist_prev": -0.366,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -1.167,
+      "signal": -0.793,
+      "hist": -0.374,
+      "hist_prev": -0.322,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 53.24,
-      "lower": 43.67,
-      "mid": 48.46,
-      "pctb": 0.226,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 52.95,
+      "lower": 43.21,
+      "mid": 48.08,
+      "pctb": 0.104,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 106.49,
-      "read": "106% above its 52-week low"
+      "value": 99.19,
+      "read": "99% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -15.28,
-      "read": "15% below its 52-week high"
+      "value": -18.28,
+      "read": "18% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 38.2,
-      "pct": 20.0,
-      "read": "20% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 38.28,
+      "pct": 15.52,
+      "read": "16% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 1.74,
-      "pct_of_price": 3.8,
-      "read": "Elevated volatility"
+      "value": 1.78,
+      "pct_of_price": 4.01,
+      "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.57,
+      "value": 1.13,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 30.5,
+      "value": 30.6,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 22.2,
   "high_52w": 54.11,
-  "ma50": 49.27,
-  "ma200": 38.2
+  "ma50": 49.3,
+  "ma200": 38.28
 }

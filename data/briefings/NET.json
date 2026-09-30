@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-29T00:50:45.576895-07:00",
+  "generated_at": "2026-09-30T00:50:31.404543-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Can Cloudflare (NET) Become the Gatekeeper of the AI Web?",
+      "headline": "Bot Traffic Will Be \u201c1000X\u201d Bigger Than Human Traffic in Just Five Years, According to Cloudflare CEO",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=44af249db12c507d9f4cffdb2c5ab3f4564f40893fb0a0de727a8772d2ca1675",
-      "datetime": 1790643355,
-      "summary": "On September 15, Cloudflare, Inc. (NYSE:NET) announced its new Accountable designation for AI crawling alongside the launch of \u201cDisallow AI Training.\u201d This tool allows website owners to block AI models from scraping their content for training purposes while remaining fully indexable in traditional search results. Addressing the dilemma where publishers were forced to choose between [\u2026]"
+      "url": "https://finnhub.io/api/news?id=a672a0e8bfb3df253af0f0e0411ba466680c15f20ff4c603b54e319e72b16ac5",
+      "datetime": 1790720260,
+      "summary": "Key TakeawaysCloudflare CEO Matthew Prince says automated traffic could become 1,000 times human traffic within five years if current trends continue. More than 20% of the web sits behind Cloudflare\u2019s network, putting the company in the path of rising AI-agent and bot traffic."
     },
     {
-      "headline": "Where Could Zscaler's Next Growth Come From?",
+      "headline": "Cloudflare (NET) Partners With A European Telecom To Reach More Enterprise Customers",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d48888e1abd3b8e974d23f17bd0ae57040cab0b352c5469181aafaf01d1f138e",
-      "datetime": 1790633490,
-      "summary": "Zscaler's best candidate for upside is a product line that its fiscal 2027 outlook does not call out. The stock has risen 46% over the past three months. It is still 43% below its 52-week high. The outlook matters now because it has revenue growth slowing. It calls for growth of 16.6% to 17.5%, from 25% in fiscal 2026. So which Zscaler (ZS) business could add growth beyond that outlook."
+      "url": "https://finnhub.io/api/news?id=a5b3f27e2dbc53adc95646945844809773d266cbf8aa3d7a29bc1b4607ea5831",
+      "datetime": 1790719569,
+      "summary": "Cloudflare (NYSE:NET) and Deutsche Telekom announced a new partnership to expand enterprise security and connectivity services across Europe. Deutsche Telekom plans to offer Cloudflare's security and connectivity products to its enterprise customers through its existing sales and service channels. The collaboration includes solutions designed for European corporates running AI workloads and other "
     },
     {
-      "headline": "Manifest Joins Chainguard's Athena Coalition to Find Open-Source Risk Inside Software Products",
+      "headline": "Nebius Climbs 4% Despite Michael Burry\u2019s Bigger Bearish Bet; CoreWeave Ticks Up, Cloudflare Slips",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b697fd0938a092207b96bcc22c58ea74e76f0fb6275f0d7c663d13a9aa19df43",
-      "datetime": 1790615700,
-      "summary": "WASHINGTON, September 28, 2026--Manifest Cyber, a leader in software and AI supply chain security, today announced it has joined Athena, the Chainguard-led industry coalition for the orchestrated defense of open-source software. Manifest joins JPMorganChase, Morgan Stanley, Cisco, Cloudflare, Akamai, and PwC in the coalition, where it will bring its software supply chain illumination capabilities "
+      "url": "https://finnhub.io/api/news?id=f2b670a47da24bc41dd177d91daebb01f34d610a69d8cfa9e21ff3f21692d296",
+      "datetime": 1790697400,
+      "summary": "Famous \u201cBig Short\u201d investor Michael Burry has apparently hardened his stance against Nebius Group (NASDAQ:NBIS), and Nebius stock is climbing anyway. Nebius stock is up 4% to $241.80 early in the session, leaving NBIS shares up 189% year to date. That rally runs in the opposite direction from how a larger, more leveraged position from [\u2026]"
     },
     {
-      "headline": "MongoDB shares sink 18% as CEO Desai leaves for Meta",
+      "headline": "Cloudflare, Deutsche Telekom Collaborating on Enterprise Security in Europe",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=03655017ee154c55266b099bc4fc1fff105128014a2847190db19fcf0a61c673",
-      "datetime": 1790610600,
-      "summary": "Shares of MongoDB Inc (NASDAQ:MDB) fell more than 18% Monday morning after CEO Chirantan \"CJ\" Desai left to lead a new Meta Platforms Inc (NASDAQ:META, XETRA:FB2A, SIX:FB) business bringing its AI tools to corporate customers. MongoDB appointed Dev Ittycheria interim CEO. Desai will report..."
+      "url": "https://finnhub.io/api/news?id=e313f2de44aca4986e87953f24164c0c0e6b4f5e6a86002535e1ce39086267d7",
+      "datetime": 1790692207,
+      "summary": "Cloudflare (NET) and Deutsche Telekom said Tuesday they are collaborating to strengthen digital inf"
     },
     {
-      "headline": "Meta Enterprise Platform to bring Muse AI tools to businesses",
+      "headline": "Cloudflare Announces Public Certificate Authority for the Post-Quantum Web",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=29b161da4dd10d77871ebecd4cd1dc8a8e939698d32f0bddfb2a6a4c1f15f2e5",
-      "datetime": 1790609760,
-      "summary": "Meta Platforms Inc (NASDAQ:META, XETRA:FB2A, SIX:FB) has launched Meta Enterprise Platform to turn its AI stack into products and services that companies can deploy for their businesses. The platform will initially bring businesses and developers tools including the Muse agent, Meta Business..."
+      "url": "https://finnhub.io/api/news?id=909e5ddbd879e32038294d66c4d10f885a8125f2bda85ce7ac12b8d5b40d2102",
+      "datetime": 1790686800,
+      "summary": "SAN FRANCISCO, September 29, 2026--Cloudflare, Inc. (NYSE: NET), the leading connectivity cloud company, today announced its intent to become a public Certificate Authority (CA), an open service that issues the digital certificates websites need to encrypt traffic and prove their identity to visitors. The new CA will support both traditional encryption and next-generation post-quantum Merkle Tree "
     },
     {
-      "headline": "Can AI Security Demand Boost Cloudflare's Zero Trust & SASE Growth?",
+      "headline": "Cloudflare and Deutsche Telekom Join Forces for a Secure and Resilient Internet",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4507c443d8e042887abca09581daf14c69d21c2b36be0fc830ed0411d87135d3",
-      "datetime": 1790607780,
-      "summary": "NET's AI-focused security strategy is creating new opportunities for Zero Trust and SASE growth as enterprises deploy AI agents."
+      "url": "https://finnhub.io/api/news?id=72f115d81306c06711d105378571320b06ab18fc8481c42c1930e5cb2174ecc3",
+      "datetime": 1790686800,
+      "summary": "BONN, Germany & SAN FRANCISCO, September 29, 2026--Deutsche Telekom AG (XETRA:DTE) and Cloudflare, Inc. (NYSE:NET), the leading connectivity cloud company, today announced a strategic partnership designed to strengthen the security and resilience of digital infrastructure for enterprises across Europe."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-28",
+  "data_asof": "2026-09-29",
   "price": {
-    "last": 353.99,
-    "open": 339.25,
-    "prev_close": 349.02,
-    "move_day_pct": 1.42,
-    "move_open_close_pct": 4.34,
-    "move_week_pct": 0.66
+    "last": 352.26,
+    "open": 351.92,
+    "prev_close": 353.99,
+    "move_day_pct": -0.49,
+    "move_open_close_pct": 0.1,
+    "move_week_pct": -0.21
   },
   "indicators": {
     "rsi14": {
-      "value": 63.6,
+      "value": 62.7,
       "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 16.908,
-      "signal": 13.746,
-      "hist": 3.162,
-      "hist_prev": 3.768,
+      "macd": 16.722,
+      "signal": 14.341,
+      "hist": 2.381,
+      "hist_prev": 3.162,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 375.2,
-      "lower": 264.96,
-      "mid": 320.08,
-      "pctb": 0.808,
-      "read": "Near the upper band"
+      "upper": 378.81,
+      "lower": 266.06,
+      "mid": 322.44,
+      "pctb": 0.765,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 120.98,
-      "read": "121% above its 52-week low"
+      "value": 119.9,
+      "read": "120% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -1.35,
+      "value": -1.83,
       "read": "At or near its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 232.31,
-      "pct": 52.38,
-      "read": "52% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 233.0,
+      "pct": 51.18,
+      "read": "51% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 17.91,
-      "pct_of_price": 5.06,
+      "value": 17.25,
+      "pct_of_price": 4.9,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.91,
+      "value": 0.7,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 67.8,
+      "value": 66.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 358.82,
-  "ma50": 301.26,
-  "ma200": 232.31
+  "ma50": 302.85,
+  "ma200": 233.0
 }

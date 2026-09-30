@@ -2,7 +2,7 @@
   "ticker": "TOELF",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-29T00:50:45.068705-07:00",
+  "generated_at": "2026-09-30T00:50:30.911146-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,13 @@
   ],
   "news": [
     {
+      "headline": "Tokyo Electron Ltd's Dividend Analysis",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e5316042b2bdc6b7be068e918b862837775e28d530d3d7e1cdcb305d1b8ef7f8",
+      "datetime": 1790679678,
+      "summary": "This article first appeared on GuruFocus.  Tokyo Electron Ltd (TOELF) recently announced a total dividend of $2.42 per share, with the ex-dividend date set for 2026-09-29.  This amount consists entirely of a $2.42 per share cash dividend."
+    },
+    {
       "headline": "High-K Dielectric Materials Market - Global Strategic Business Report: Capture 48% market expansion to $262.4M by 2030 as GAA, AI and 3D memory reshape chip economics\u2014benchmark Applied Materials, ASM International, Lam Research, Tokyo Electron before tariffs reset supply chains",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=afe93583d9da84fd42cc105a4fe5f69c5a3e13754efc68554863a3479a320688",
@@ -28,63 +35,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-28",
+  "data_asof": "2026-09-29",
   "price": {
-    "last": -310.8,
-    "open": -322.33,
-    "prev_close": -305.76,
-    "move_day_pct": 1.65,
-    "move_open_close_pct": -3.58,
-    "move_week_pct": 3.74
+    "last": 78.48,
+    "open": 74.21,
+    "prev_close": 70.76,
+    "move_day_pct": 10.9,
+    "move_open_close_pct": 5.75,
+    "move_week_pct": 14.72
   },
   "indicators": {
     "rsi14": {
-      "value": 43.4,
-      "read": "Neutral"
+      "value": 67.4,
+      "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 0.402,
-      "signal": 3.56,
-      "hist": -3.158,
-      "hist_prev": -2.49,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": 0.781,
+      "signal": -0.498,
+      "hist": 1.279,
+      "hist_prev": 0.721,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": -274.34,
-      "lower": -314.65,
-      "mid": -294.5,
-      "pctb": 0.096,
-      "read": "Near the lower band"
+      "upper": 74.39,
+      "lower": 60.83,
+      "mid": 67.61,
+      "pctb": 1.302,
+      "read": "Above the upper band \u2014 stretched to the upside"
     },
     "pct_from_52w_low": {
-      "value": -26.15,
-      "read": "Sitting right at its 52-week low"
+      "value": 132.13,
+      "read": "132% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -324.77,
-      "read": "325% below its 52-week high"
+      "value": -18.09,
+      "read": "18% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": -145.1,
-      "pct": 114.19,
-      "read": "114% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 60.94,
+      "pct": 28.78,
+      "read": "29% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 17.1,
-      "pct_of_price": -5.5,
-      "read": "Calm \u2014 low volatility"
+      "value": 5.09,
+      "pct_of_price": 6.49,
+      "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.27,
+      "value": 0.19,
       "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 40.8,
+      "value": 62.3,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": -420.83,
-  "high_52w": 138.27,
-  "ma50": -300.53,
-  "ma200": -145.1
+  "low_52w": 33.81,
+  "high_52w": 95.82,
+  "ma50": 68.46,
+  "ma200": 60.94
 }

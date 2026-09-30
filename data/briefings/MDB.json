@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-29T00:50:44.473478-07:00",
+  "generated_at": "2026-09-30T00:50:30.154571-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,49 +17,55 @@
   ],
   "news": [
     {
-      "headline": "Meta: More Cautious Than Before, More Bullish Than Ever",
+      "headline": "MongoDB, Inc. (MDB) Analyst/Investor Day Transcript",
       "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=e4d92d416785fddb9b31471a4239420b575ff58ee472ff5f2861919fdf56a24d",
-      "datetime": 1790610287,
-      "summary": "Meta Platforms is a Buy because AI agents unlock massive revenue opportunities, and enterprise solutions target a $155B market. Read more on META stock here."
+      "url": "https://finnhub.io/api/news?id=1ce6a306ef1de97dd16ffbf465c6c329e0e38302f7b1a256601805a5dad46912",
+      "datetime": 1790731977,
+      "summary": "MongoDB, Inc. (MDB) Analyst/Investor Day September 29, 2026 11:00 AM EDTCompany ParticipantsJess Lubert - Vice President of Investor RelationsMichael Berry..."
     },
     {
-      "headline": "MongoDB: Selloff Is Overdone, But The Stock Still Isn't Cheap",
+      "headline": "3 Software Stocks Riding The Shift To US Digital Government Services",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=59b8f39083209b2b0ab1d3a2ca6a516168149ae72cdfc450d04a0b344b77872d",
+      "datetime": 1790730543,
+      "summary": "Artificial intelligence has just moved from tech talking point to government plumbing, with America.gov and a looser US stance on AI rules signaling a fresh phase for digital public services. That shift could reshape where money flows next. Investors now have a chance to reassess which US Government Digital Services & Identity Modernization Plays might be most affected. This article walks through "
+    },
+    {
+      "headline": "MongoDB, Inc. (MDB) Analyst/Investor Day - Slideshow",
       "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=134ae5130de9787fd3fa65245bdd1ddef918ec9714176cad1851bcd473913712",
-      "datetime": 1790609280,
-      "summary": "MongoDB, Inc. delivered multiyear-high revenue growth of 30% YoY in Q2, with robust demand and margin expansion. Read more on MDB stock here."
+      "url": "https://finnhub.io/api/news?id=b2d07943ca4dd7ef7e2e4f2ad37c32d2c8f27a8d0f8511a9ee7a9f237684a127",
+      "datetime": 1790728344,
+      "summary": "2026-09-30. The following slide deck was published by MongoDB, Inc."
     },
     {
-      "headline": "Wall Street Lunch: MongoDB Tumbles As CEO CJ Desai Joins Meta To Lead Enterprise Push",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=c539fd5d82886a968e4dc24649ec1c5e74f7eb6f919643881045bad10cee72e7",
-      "datetime": 1790604780,
-      "summary": "MongoDB (MDB) shares are plunging more than 15% after CEO CJ Desai stepped down to lead Meta Platforms' (META) new enterprise platform."
+      "headline": "MongoDB Not in a Rush to Find CEO Successor, Ittycheria Says",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b2f025f05f6c4961294ece74dc7c6abc70e9c5ff0dfcff3534f72aa0e7bbb358",
+      "datetime": 1790719882,
+      "summary": "MongoDB Interim President and CEO Dev Ittycheria discusses the outlook for the company after Meta Platforms tapped former CEO Chirantan \"CJ\" Desai to lead a new AI platform for enterprise customers. He speaks on \"Bloomberg The Close.\""
     },
     {
-      "headline": "MongoDB Stock Tumbles: What's Happening Today",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=f70d22be3ce010d513a0c3c7ddad87e8b5e96703734afa0f6beb8c40cdcbcd8c",
-      "datetime": 1790590113,
-      "summary": "MongoDB shares are slumping Monday. The company announced CEO Chirantan Desai has stepped down to pursue a senior role at Meta Platforms."
+      "headline": "Should You Buy The Dip In MongoDB Stock?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ccf5e7a297292ba0a91ba6fa32c317633fb9b14e4251e95d6af183fb285b590c",
+      "datetime": 1790719171,
+      "summary": "MongoDB (MDB) stock has fallen 26% from its late-August high. Over the past month it lost 24%, while the S&P 500 slipped just 0.5%. When a stock falls that fast, many investors want to buy while the price is low. But you only gain from a lower price if the business itself is still healthy. So is this a chance to buy MongoDB cheaper, or a warning about the business."
     },
     {
-      "headline": "MongoDB Affirms FY2027 Adj EPS Guidance of $6.39-$6.58 vs $6.13 Est; Affirms FY2027 Sales Guidance of $2.990B-$3.030B vs $2.954B Est",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=b4bcb7a094a2eb99644a2c5bd53196f0a3667f787060a023547ce19c38ffc7af",
-      "datetime": 1790585054,
-      "summary": "MongoDB (NASDAQ:MDB) affirms FY2027 Adj EPS guidance from $6.39-$6.58 to $6.39-$6.58 vs $6.13 analyst estimate. Affirms FY2027 sales outlook from $2.990 billion-$3.030 billion to $2.990 billion-$3.030 billion vs $2.954"
-    },
-    {
-      "headline": "MongoDB Affirms Q3 Adj EPS Guidance of $1.57-$1.61 vs $1.54 Est; Affirms Q3 Sales Guidance of $756.000M-$761.000M vs $745.384M Est",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=7ae0b72306976463e7c1cf998471bcc452bb7afcc3a4a7882e14fd67c9161a6f",
-      "datetime": 1790585032,
-      "summary": "MongoDB (NASDAQ:MDB) affirms Q3 Adj EPS guidance from $1.57-$1.61 to $1.57-$1.61 vs $1.54 analyst estimate. Affirms Q3 sales outlook from $756.000 million-$761.000 million to $756.000 million-$761.000 million vs"
+      "headline": "Meta Platforms (META) Could Be 30% Undervalued On Its Enterprise AI Push",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=be54b68f473452df60ff96e974c23dd46d2edfa7db1828070a22066a5c6763de",
+      "datetime": 1790716056,
+      "summary": "Meta Platforms (META) just drew a clear line into enterprise AI, unveiling the Meta Enterprise Platform and hiring former MongoDB chief executive Chirantan Desai to run the new pillar alongside its consumer Muse agent push. The new enterprise push lands just after a sharp run in Meta Platforms\u2019 share price, with a 30-day share price return of 23.81% and a 90-day share price return of 27.04%. This "
     }
   ],
   "filings": [
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-09-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026063850/mdb-20260925.htm"
+    },
     {
       "form": "8-K",
       "title": "Material event (8-K)",
@@ -71,74 +77,68 @@
       "title": "Quarterly report (10-Q)",
       "date": "2026-09-01",
       "url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026059830/mdb-20260731.htm"
-    },
-    {
-      "form": "8-K",
-      "title": "Material event (8-K)",
-      "date": "2026-09-01",
-      "url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026059794/mdb-20260901.htm"
     }
   ],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-28",
+  "data_asof": "2026-09-29",
   "price": {
-    "last": 334.68,
-    "open": 311.35,
-    "prev_close": 410.44,
-    "move_day_pct": -18.46,
-    "move_open_close_pct": 7.49,
-    "move_week_pct": -17.83
+    "last": 337.19,
+    "open": 335.14,
+    "prev_close": 334.68,
+    "move_day_pct": 0.75,
+    "move_open_close_pct": 0.61,
+    "move_week_pct": -21.16
   },
   "indicators": {
     "rsi14": {
-      "value": 37.0,
+      "value": 37.7,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -0.436,
-      "signal": 1.342,
-      "hist": -1.778,
-      "hist_prev": 3.711,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -4.88,
+      "signal": 0.097,
+      "hist": -4.977,
+      "hist_prev": -1.778,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 450.42,
-      "lower": 330.56,
-      "mid": 390.49,
-      "pctb": 0.034,
+      "upper": 441.55,
+      "lower": 327.81,
+      "mid": 384.68,
+      "pctb": 0.082,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 48.12,
-      "read": "48% above its 52-week low"
+      "value": 49.23,
+      "read": "49% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -29.14,
+      "value": -28.61,
       "read": "29% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 344.3,
-      "pct": -2.79,
-      "read": "3% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 343.85,
+      "pct": -1.94,
+      "read": "2% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 27.8,
-      "pct_of_price": 8.31,
+      "value": 27.81,
+      "pct_of_price": 8.25,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 7.67,
+      "value": 3.61,
       "read": "Heavy volume \u2014 well above average"
     },
     "mfi14": {
-      "value": 37.9,
+      "value": 46.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 386.47,
-  "ma200": 344.3
+  "ma50": 386.74,
+  "ma200": 343.85
 }
