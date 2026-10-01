@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-30T00:50:32.248740-07:00",
+  "generated_at": "2026-10-01T01:08:42.419596-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Cognex: AI And Robotics Have Potential, But Near-Term Upside Looks Limited",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=6443ad0a2e73e1af06074b065a99f8671f9015561354cdc21ff370ef965acdf1",
+      "datetime": 1790809712,
+      "summary": "Cognex (CGNX) gains from logistics, packaging and semis demand; AI products + RealSense expand markets and robotics upside. See more here."
+    },
     {
       "headline": "3 of Wall Street\u2019s Favorite Stocks with Warning Signs",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=bcac0304208cf8258b0768eba002f7f5ab1a62fb7b757fa89624d0f56660eb29",
       "datetime": 1790233898,
       "summary": "Cognex shares have climbed sharply in 2026, and the move now raises a clear question for investors who care about valuation: does the current price still line up with what the business earns? The stock is up 57.6% year to date, which puts real pressure on the earnings picture to support a much higher market value than at the start of the year. The planned US$500 million acquisition of RealSense, f"
-    },
-    {
-      "headline": "Cognex Launches New Wafer Reader to Help Semiconductor Manufacturers Scale Production",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=81d44a0f045f60db77b56ae9377fce8aef678e3666ec63dc1465b8ee635a63dc",
-      "datetime": 1790169000,
-      "summary": "Cognex Corporation (NASDAQ: CGNX), the global technology leader in industrial machine vision, today announced the launch of the In-Sight\u00ae 1750 Series, a next-generation wafer and panel identification system designed to help semiconductor manufacturers reduce disruptions, improve traceability, and maintain throughput."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-29",
+  "data_asof": "2026-09-30",
   "price": {
-    "last": 59.67,
-    "open": 59.52,
-    "prev_close": 58.75,
-    "move_day_pct": 1.57,
-    "move_open_close_pct": 0.25,
-    "move_week_pct": 1.19
+    "last": 60.65,
+    "open": 59.9,
+    "prev_close": 59.67,
+    "move_day_pct": 1.64,
+    "move_open_close_pct": 1.25,
+    "move_week_pct": 4.23
   },
   "indicators": {
     "rsi14": {
-      "value": 46.9,
+      "value": 50.1,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.902,
-      "signal": -0.801,
-      "hist": -0.101,
-      "hist_prev": -0.198,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -0.757,
+      "signal": -0.792,
+      "hist": 0.035,
+      "hist_prev": -0.101,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 63.66,
-      "lower": 57.2,
-      "mid": 60.43,
-      "pctb": 0.383,
+      "upper": 63.68,
+      "lower": 57.23,
+      "mid": 60.46,
+      "pctb": 0.53,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 72.19,
-      "read": "72% above its 52-week low"
+      "value": 75.02,
+      "read": "75% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -17.49,
-      "read": "17% below its 52-week high"
+      "value": -16.13,
+      "read": "16% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 55.24,
-      "pct": 8.02,
-      "read": "8% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 55.36,
+      "pct": 9.56,
+      "read": "10% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 2.16,
-      "pct_of_price": 3.62,
+      "value": 2.11,
+      "pct_of_price": 3.48,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.56,
+      "value": 1.18,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 52.8,
+      "value": 59.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 34.65,
   "high_52w": 72.32,
-  "ma50": 61.99,
-  "ma200": 55.24
+  "ma50": 61.94,
+  "ma200": 55.36
 }

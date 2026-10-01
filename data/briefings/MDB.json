@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-30T00:50:30.154571-07:00",
+  "generated_at": "2026-10-01T01:08:40.542999-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "MongoDB, Inc. (MDB) Analyst/Investor Day Transcript",
+      "headline": "Why Is MongoDB (MDB) Stock Rocketing Higher Today",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=509ec5f5f3b7a6a69b3df10970dcda3657a3f5c247e9258a8e13b3ef0ca3e274",
+      "datetime": 1790808793,
+      "summary": "Shares of database platform company MongoDB (NASDAQ:MDB) jumped 6% in the afternoon session after the company hosted its Investor Day, prompting Wall Street analysts to reiterate positive ratings and express confidence in its multi-year opportunity."
+    },
+    {
+      "headline": "MongoDB has AI momentum on its side, BofA says following investor day",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=24f01ea2765aaacfcad8665c9d0bfcb75927b32dd299516c1ed3af00d5a420ba",
+      "datetime": 1790789880,
+      "summary": "MongoDB Inc (NASDAQ:MDB) raised its long-term growth targets at its investor day, with Bank of America saying the event was a net positive and maintaining its Buy rating on the stock. For fiscal 2028 to 2030, the database company now targets total revenue growth of 20% or more, up from the..."
+    },
+    {
+      "headline": "MongoDB Stock Regains Ground. How Investor Day Addressed CEO Leaving For Meta.",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=05ce5b2bda0dabc75027d75379cb815d08fb1633b49b0efeba9fd0a905de643d",
+      "datetime": 1790784059,
+      "summary": "MongoDB stock regained some ground Wednesday after news its CEO was leaving for a job at Meta Platforms caused a sell-off."
+    },
+    {
+      "headline": "MongoDB Stock Crashes After CEO Exit. This Brutal Selloff Is a Buying Opportunity.",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=2019ae97eb214c92289522f2ecc601b6e083336af5db9640b0e0d137f60f4b45",
+      "datetime": 1790780146,
+      "summary": "A sudden CEO departure sent shares tumbling, but analysts say the company\u2019s growth, cash generation, and outlook remain largely intact."
+    },
+    {
+      "headline": "Hewlett Packard Enterprise, Capital Bancorp, FormFactor And Other Big Stocks Moving Higher On Wednesday",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=d3cb7060e8387a74c47f2f75296975ce0009c06b7201fc7c5895370b23e855bb",
+      "datetime": 1790762138,
+      "summary": "U.S. stocks rose as Nasdaq gained 100+ points; HPE jumped 5.1% on stronger networking guidance and a Vultr AI rack order."
+    },
+    {
+      "headline": "MongoDB: CEO's Parting Gift To Bulls (Rating Upgrade)",
       "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=1ce6a306ef1de97dd16ffbf465c6c329e0e38302f7b1a256601805a5dad46912",
-      "datetime": 1790731977,
-      "summary": "MongoDB, Inc. (MDB) Analyst/Investor Day September 29, 2026 11:00 AM EDTCompany ParticipantsJess Lubert - Vice President of Investor RelationsMichael Berry..."
-    },
-    {
-      "headline": "3 Software Stocks Riding The Shift To US Digital Government Services",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=59b8f39083209b2b0ab1d3a2ca6a516168149ae72cdfc450d04a0b344b77872d",
-      "datetime": 1790730543,
-      "summary": "Artificial intelligence has just moved from tech talking point to government plumbing, with America.gov and a looser US stance on AI rules signaling a fresh phase for digital public services. That shift could reshape where money flows next. Investors now have a chance to reassess which US Government Digital Services & Identity Modernization Plays might be most affected. This article walks through "
-    },
-    {
-      "headline": "MongoDB, Inc. (MDB) Analyst/Investor Day - Slideshow",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=b2d07943ca4dd7ef7e2e4f2ad37c32d2c8f27a8d0f8511a9ee7a9f237684a127",
-      "datetime": 1790728344,
-      "summary": "2026-09-30. The following slide deck was published by MongoDB, Inc."
-    },
-    {
-      "headline": "MongoDB Not in a Rush to Find CEO Successor, Ittycheria Says",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b2f025f05f6c4961294ece74dc7c6abc70e9c5ff0dfcff3534f72aa0e7bbb358",
-      "datetime": 1790719882,
-      "summary": "MongoDB Interim President and CEO Dev Ittycheria discusses the outlook for the company after Meta Platforms tapped former CEO Chirantan \"CJ\" Desai to lead a new AI platform for enterprise customers. He speaks on \"Bloomberg The Close.\""
-    },
-    {
-      "headline": "Should You Buy The Dip In MongoDB Stock?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ccf5e7a297292ba0a91ba6fa32c317633fb9b14e4251e95d6af183fb285b590c",
-      "datetime": 1790719171,
-      "summary": "MongoDB (MDB) stock has fallen 26% from its late-August high. Over the past month it lost 24%, while the S&P 500 slipped just 0.5%. When a stock falls that fast, many investors want to buy while the price is low. But you only gain from a lower price if the business itself is still healthy. So is this a chance to buy MongoDB cheaper, or a warning about the business."
-    },
-    {
-      "headline": "Meta Platforms (META) Could Be 30% Undervalued On Its Enterprise AI Push",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=be54b68f473452df60ff96e974c23dd46d2edfa7db1828070a22066a5c6763de",
-      "datetime": 1790716056,
-      "summary": "Meta Platforms (META) just drew a clear line into enterprise AI, unveiling the Meta Enterprise Platform and hiring former MongoDB chief executive Chirantan Desai to run the new pillar alongside its consumer Muse agent push. The new enterprise push lands just after a sharp run in Meta Platforms\u2019 share price, with a 30-day share price return of 23.81% and a 90-day share price return of 27.04%. This "
+      "url": "https://finnhub.io/api/news?id=156a7c6a25e930f8450419aff8a9a9a70fa2102adb770d28aad4ba75e3383496",
+      "datetime": 1790760751,
+      "summary": "MongoDB, Inc. upgraded to Buy after Investor Day: AI-driven MongoDB 9.0/Atlas updates, higher FY27 targets, and upside vs. consensus. Click for this MDB stock update."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-29",
+  "data_asof": "2026-09-30",
   "price": {
-    "last": 337.19,
-    "open": 335.14,
-    "prev_close": 334.68,
-    "move_day_pct": 0.75,
-    "move_open_close_pct": 0.61,
-    "move_week_pct": -21.16
+    "last": 348.61,
+    "open": 341.0,
+    "prev_close": 337.19,
+    "move_day_pct": 3.39,
+    "move_open_close_pct": 2.23,
+    "move_week_pct": -18.62
   },
   "indicators": {
     "rsi14": {
-      "value": 37.7,
-      "read": "Oversold"
+      "value": 40.9,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": -4.88,
-      "signal": 0.097,
-      "hist": -4.977,
-      "hist_prev": -1.778,
+      "macd": -7.395,
+      "signal": -1.401,
+      "hist": -5.994,
+      "hist_prev": -4.977,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 441.55,
-      "lower": 327.81,
-      "mid": 384.68,
-      "pctb": 0.082,
-      "read": "Near the lower band"
+      "upper": 434.53,
+      "lower": 326.27,
+      "mid": 380.4,
+      "pctb": 0.206,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 49.23,
-      "read": "49% above its 52-week low"
+      "value": 54.29,
+      "read": "54% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -28.61,
-      "read": "29% below its 52-week high"
+      "value": -26.19,
+      "read": "26% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 343.85,
-      "pct": -1.94,
-      "read": "2% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 343.49,
+      "pct": 1.49,
+      "read": "1% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 27.81,
-      "pct_of_price": 8.25,
+      "value": 28.2,
+      "pct_of_price": 8.09,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 3.61,
+      "value": 2.27,
       "read": "Heavy volume \u2014 well above average"
     },
     "mfi14": {
-      "value": 46.9,
+      "value": 51.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 386.74,
-  "ma200": 343.85
+  "ma50": 387.56,
+  "ma200": 343.49
 }

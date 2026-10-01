@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-30T00:50:33.065689-07:00",
+  "generated_at": "2026-10-01T01:08:43.217311-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,11 +17,25 @@
   ],
   "news": [
     {
+      "headline": "Is Teradyne (TER) a Buy as Wall Street Analysts Look Optimistic?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=255c5723aed6178f259946ea2d47d757b4eb3ce71cc80ec58180dd16cbd6d630",
+      "datetime": 1790771403,
+      "summary": "The average brokerage recommendation (ABR) for Teradyne (TER) is equivalent to a Buy. The overly optimistic recommendations of Wall Street analysts make the effectiveness of this highly sought-after metric questionable. So, is it worth buying the stock?"
+    },
+    {
       "headline": "Teradyne (TER) Debuts Magnum E2 For AI Memory Testing",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=0c5a91281128a25ae5ce49564c2e72931bc4e74223841be5a5cae4c0d57d4a5a",
       "datetime": 1790712333,
       "summary": "Teradyne (NasdaqGS:TER) introduced its Magnum E2 high-speed memory test system for next-generation DRAM and flash used in AI data centers. The Magnum E2 platform is described as supporting higher interface speeds and greater parallelism for emerging DRAM and flash standards. Teradyne positions Magnum E2 to address test complexity at the intersection of AI workloads, advanced memory interfaces, and"
+    },
+    {
+      "headline": "Donald Trump, Cathie Wood Bet on the Same 32 Stocks \u2013 Some Might Surprise You",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=d045ab6b0c4376bf4a2ea7aa473ff0560d74d081f9b6d94301e57de6a14ea47f",
+      "datetime": 1790699523,
+      "summary": "A look at the stocks that are owned by Cathie Wood&#39;s Ark Invest and Donald Trump."
     },
     {
       "headline": "A Teradyne Director Sells 400 Shares After the Stock Soared Over 200% in the Past Year",
@@ -38,25 +52,11 @@
       "summary": "NORTH READING, Mass., September 29, 2026--Teradyne announces Magnum E2 to address next-generation memory test demands driven by AI and high-performance computing."
     },
     {
-      "headline": "Teradyne (NASDAQ:TER): Affordable Growth With Elite Quality and a Reasonable Valuation",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=d7c1b16755d56fef603d962b6dd0fcf0b32b548db6972a79dae1660c68ac11f3",
-      "datetime": 1790676070,
-      "summary": "Teradyne fits the Affordable Growth screen with strong forward growth, elite health, and a valuation reasonable relative to its growth."
-    },
-    {
-      "headline": "Is Teradyne (TER) Fully Valued On Its Latest Semiconductor And Robotics Expansion?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f1a4393f6fc6c71181ee15266fc2aca29d3a29ec9a1c442253011642295f4d84",
-      "datetime": 1790656043,
-      "summary": "Why Teradyne Stock Is Back in Focus Teradyne (TER) has moved back onto investor radars after a flurry of company news, including a new GS Microelectronics partnership, the Iris 100 launch, and an office opening in India. Recent announcements around Iris 100, the GS Microelectronics partnership, and the Bengaluru office have landed against a backdrop of strong momentum, with Teradyne\u2019s 30-day share"
-    },
-    {
-      "headline": "Teradyne (TER) Is Up 5.2% After New AI-Optical Test Push And India Expansion - Has The Bull Case Changed?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0b9827570b7505ccab8a8908f9e71924bba3ac8320ce1fb802c7c8a0389c0db1",
-      "datetime": 1790651519,
-      "summary": "In September 2026, Teradyne and GS Microelectronics U.S. formed a multi-year partnership to build a Teradyne-equipped semiconductor test and evaluation center in Silicon Valley, while Teradyne also launched its Iris 100 microLED optical test platform and opened a semiconductor-focused office in Bengaluru, India. Together, these moves extend Teradyne\u2019s reach across AI, optical, and India\u2019s growing "
+      "headline": "Here's How Much $100 Invested In Teradyne 15 Years Ago Would Be Worth Today",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=64d6c7bcd4078f58d3f6d8277fe11f77e541e7db73e6b36454c83c9ab704215c",
+      "datetime": 1790685920,
+      "summary": "Teradyne (NASDAQ:TER) has outperformed the market over the past 15 years by 13.22% on an annualized basis producing an average annual return of 26.71%. Currently, Teradyne has a market capitalization of $64.34 billion."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-29",
+  "data_asof": "2026-09-30",
   "price": {
-    "last": 403.02,
-    "open": 410.85,
-    "prev_close": 401.3,
-    "move_day_pct": 0.43,
-    "move_open_close_pct": -1.91,
-    "move_week_pct": 1.09
+    "last": 400.91,
+    "open": 402.6,
+    "prev_close": 403.02,
+    "move_day_pct": -0.52,
+    "move_open_close_pct": -0.42,
+    "move_week_pct": 3.02
   },
   "indicators": {
     "rsi14": {
-      "value": 59.3,
+      "value": 58.4,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 7.983,
-      "signal": 2.477,
-      "hist": 5.505,
-      "hist_prev": 5.578,
+      "macd": 8.745,
+      "signal": 3.731,
+      "hist": 5.014,
+      "hist_prev": 5.505,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 417.43,
-      "lower": 319.12,
-      "mid": 368.28,
-      "pctb": 0.853,
+      "upper": 420.23,
+      "lower": 322.89,
+      "mid": 371.56,
+      "pctb": 0.802,
       "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 205.72,
-      "read": "206% above its 52-week low"
+      "value": 204.12,
+      "read": "204% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -16.67,
+      "value": -17.11,
       "read": "17% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 331.5,
-      "pct": 21.57,
-      "read": "22% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 332.48,
+      "pct": 20.58,
+      "read": "21% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 19.95,
-      "pct_of_price": 4.95,
+      "value": 19.33,
+      "pct_of_price": 4.82,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.03,
+      "value": 0.64,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 59.7,
+      "value": 60.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 131.82,
   "high_52w": 483.65,
-  "ma50": 371.87,
-  "ma200": 331.5
+  "ma50": 372.41,
+  "ma200": 332.48
 }

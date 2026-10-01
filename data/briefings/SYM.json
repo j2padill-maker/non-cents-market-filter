@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-30T00:50:32.805350-07:00",
+  "generated_at": "2026-10-01T01:08:43.051728-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -31,18 +31,18 @@
       "summary": "SCSC vs. SYM: Which Stock Is the Better Value Option?"
     },
     {
+      "headline": "Jim Cramer Is Not Going To Go With This Consumer Cyclical Stock",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=79c43eefb84504a5a0e60c887425a14b2cd784e9d49acaa741d2f088df593061",
+      "datetime": 1790678489,
+      "summary": "Cramer avoids Polaris, likes Forgent despite its valuation, finds Symbotic too expensive, and hasn\u2019t reviewed Corteva; all four stocks fell."
+    },
+    {
       "headline": "Serve Robotics vs. Symbotic: Which Robotics Stock Has the Edge Now?",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=90ed5dd8df6c53148d1d6d996bbff53fefb066e24a508de7b9ed5c168a9d51f8",
       "datetime": 1790607180,
       "summary": "SERV and SYM show contrasting robotics growth paths, with differing backlogs, revenue trends, profitability and execution risks."
-    },
-    {
-      "headline": "Symbotic (SYM) Could Be 30% Undervalued On Its Automation Growth Story",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0fc55ed220af30292d8127a8ff7a504d2421cfec8186495c04a88323394ce890",
-      "datetime": 1790144007,
-      "summary": "Symbotic (SYM) sits in focus after a recent move in its share price, with the stock closing at US$45.07. Investors are weighing that level against the firm\u2019s warehouse automation profile. Recent trading has been brisk for Symbotic, with a 1-day share price return of 2.53% at US$45.07 and a 30-day share price gain of 12.59%. However, the year-to-date share price is still down 30.52%, while the 5-ye"
     }
   ],
   "filings": [
@@ -68,63 +68,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-29",
+  "data_asof": "2026-09-30",
   "price": {
-    "last": 41.51,
-    "open": 42.51,
-    "prev_close": 42.0,
-    "move_day_pct": -1.17,
-    "move_open_close_pct": -2.36,
-    "move_week_pct": -7.9
+    "last": 42.07,
+    "open": 42.05,
+    "prev_close": 41.51,
+    "move_day_pct": 1.35,
+    "move_open_close_pct": 0.05,
+    "move_week_pct": -3.71
   },
   "indicators": {
     "rsi14": {
-      "value": 46.6,
+      "value": 48.6,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 0.323,
-      "signal": 0.417,
-      "hist": -0.094,
-      "hist_prev": 0.041,
+      "macd": 0.24,
+      "signal": 0.382,
+      "hist": -0.142,
+      "hist_prev": -0.094,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 45.63,
-      "lower": 39.32,
-      "mid": 42.47,
-      "pctb": 0.347,
+      "upper": 45.16,
+      "lower": 40.17,
+      "mid": 42.67,
+      "pctb": 0.38,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 8.61,
+      "value": 10.07,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -52.45,
+      "value": -51.81,
       "read": "52% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 50.72,
-      "pct": -18.16,
-      "read": "18% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 50.61,
+      "pct": -16.87,
+      "read": "17% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 1.79,
-      "pct_of_price": 4.31,
+      "value": 1.74,
+      "pct_of_price": 4.13,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.66,
+      "value": 0.71,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 52.5,
+      "value": 57.2,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 38.22,
   "high_52w": 87.3,
-  "ma50": 42.05,
-  "ma200": 50.72
+  "ma50": 42.04,
+  "ma200": 50.61
 }

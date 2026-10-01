@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-30T00:50:33.380819-07:00",
+  "generated_at": "2026-10-01T01:08:43.453437-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Dan Ives Calls Physical AI Nvidia\u2019s 'Holy Grail' \u2014 This ETF Is Already in the Trade",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=62c061737f0549f4dce08907cca3f67a4a8d873a3f0ed03dea93f20ea08b8c44",
+      "datetime": 1790751608,
+      "summary": "Dan Ives calls physical AI Nvidia\u2019s \u201choly grail,\u201d pointing to a potential robotics boom. See how BOTZ offers exposure to Nvidia and the automation trade."
+    },
     {
       "headline": "Bond Market Sell-Off: Higher Yields, Stronger Fundamentals",
       "source": "SeekingAlpha",
@@ -50,76 +57,69 @@
       "url": "https://finnhub.io/api/news?id=ec39a3f13f3ba81fc73d5d7a7fc895ee4d0af6db6d85d1f0e852d68d435e0dbf",
       "datetime": 1790606160,
       "summary": "AI-related borrowers have accounted for nearly a quarter of nonfinancial U.S. dollar (USD) supply year-to-date, yet spreads for non-AI issuers have not widened meaningfully."
-    },
-    {
-      "headline": "Equity Market Outlook Q4 2026",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=c9b8e1fae1410607d399b9fde45d8e693f441ce1df6161ff2b5a0f885e4dc20f",
-      "datetime": 1790560080,
-      "summary": "It\u00e2\u0080\u0099s a new world for income-seeking equity investors. An active approach seeks to capture income without giving up growth potential."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-29",
+  "data_asof": "2026-09-30",
   "price": {
-    "last": 35.24,
-    "open": 35.31,
-    "prev_close": 35.13,
-    "move_day_pct": 0.31,
-    "move_open_close_pct": -0.2,
-    "move_week_pct": -2.14
+    "last": 35.23,
+    "open": 35.42,
+    "prev_close": 35.24,
+    "move_day_pct": -0.03,
+    "move_open_close_pct": -0.54,
+    "move_week_pct": -0.17
   },
   "indicators": {
     "rsi14": {
-      "value": 47.1,
+      "value": 47.0,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.17,
-      "signal": -0.214,
-      "hist": 0.044,
-      "hist_prev": 0.049,
+      "macd": -0.164,
+      "signal": -0.204,
+      "hist": 0.04,
+      "hist_prev": 0.044,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
       "upper": 36.05,
       "lower": 34.49,
       "mid": 35.27,
-      "pctb": 0.482,
+      "pctb": 0.473,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 10.21,
+      "value": 10.18,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -15.31,
+      "value": -15.33,
       "read": "15% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 36.87,
+      "ma200": 36.86,
       "pct": -4.42,
       "read": "4% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.52,
-      "pct_of_price": 1.49,
+      "value": 0.51,
+      "pct_of_price": 1.46,
       "read": "Calm \u2014 low volatility"
     },
     "rel_volume": {
-      "value": 1.03,
+      "value": 0.63,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 52.7,
+      "value": 60.1,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 31.97,
   "high_52w": 41.61,
-  "ma50": 35.71,
-  "ma200": 36.87
+  "ma50": 35.72,
+  "ma200": 36.86
 }

@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-09-30T00:50:31.404543-07:00",
+  "generated_at": "2026-10-01T01:08:41.766620-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Bot Traffic Will Be \u201c1000X\u201d Bigger Than Human Traffic in Just Five Years, According to Cloudflare CEO",
+      "headline": "Cloudflare (NET) Falls More Steeply Than Broader Market: What Investors Need to Know",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a672a0e8bfb3df253af0f0e0411ba466680c15f20ff4c603b54e319e72b16ac5",
-      "datetime": 1790720260,
-      "summary": "Key TakeawaysCloudflare CEO Matthew Prince says automated traffic could become 1,000 times human traffic within five years if current trends continue. More than 20% of the web sits behind Cloudflare\u2019s network, putting the company in the path of rising AI-agent and bot traffic."
+      "url": "https://finnhub.io/api/news?id=1c592c8f406a8455d4dad34371e7afda4a76dff4d7a01eba3df7f331455c59f1",
+      "datetime": 1790802005,
+      "summary": "The latest trading day saw Cloudflare (NET) settling at $347.28, representing a -1.41% change from its previous close."
     },
     {
-      "headline": "Cloudflare (NET) Partners With A European Telecom To Reach More Enterprise Customers",
+      "headline": "Cloudflare just announced a tool that lets businesses charge AI agents in stablecoins",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a5b3f27e2dbc53adc95646945844809773d266cbf8aa3d7a29bc1b4607ea5831",
-      "datetime": 1790719569,
-      "summary": "Cloudflare (NYSE:NET) and Deutsche Telekom announced a new partnership to expand enterprise security and connectivity services across Europe. Deutsche Telekom plans to offer Cloudflare's security and connectivity products to its enterprise customers through its existing sales and service channels. The collaboration includes solutions designed for European corporates running AI workloads and other "
+      "url": "https://finnhub.io/api/news?id=2581f81aa937a3373101dca6df93c5644ed9cd054274c7bc23baefd8a7ee8db0",
+      "datetime": 1790787992,
+      "summary": "Using USDC, the feature works as a pay-as-you-go system for AI agents browsing the web."
     },
     {
-      "headline": "Nebius Climbs 4% Despite Michael Burry\u2019s Bigger Bearish Bet; CoreWeave Ticks Up, Cloudflare Slips",
+      "headline": "Post-Quantum Security Market Forecast to Grow 46% a Year to 2030",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f2b670a47da24bc41dd177d91daebb01f34d610a69d8cfa9e21ff3f21692d296",
-      "datetime": 1790697400,
-      "summary": "Famous \u201cBig Short\u201d investor Michael Burry has apparently hardened his stance against Nebius Group (NASDAQ:NBIS), and Nebius stock is climbing anyway. Nebius stock is up 4% to $241.80 early in the session, leaving NBIS shares up 189% year to date. That rally runs in the opposite direction from how a larger, more leveraged position from [\u2026]"
+      "url": "https://finnhub.io/api/news?id=f5c7427ceb61d8939691a4265cc08d80b961be6f54e2ca0f79f34a97bdeaad49",
+      "datetime": 1790787600,
+      "summary": "American News Group News Commentary - The encryption protecting today's data has a shelf life, and the market for replacing it is starting from a small base. MarketsandMarkets projects the global post-quantum cryptography market will grow from $0.42 billion in 2025 to $2.84 billion by 2030, a compound annual growth rate of 46.2%. Active Companies from around the markets with current developments t"
     },
     {
-      "headline": "Cloudflare, Deutsche Telekom Collaborating on Enterprise Security in Europe",
+      "headline": "Cloudflare at $350: AI Cybersecurity Threats Aren\u2019t Enough to Move the Needle Now",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e313f2de44aca4986e87953f24164c0c0e6b4f5e6a86002535e1ce39086267d7",
-      "datetime": 1790692207,
-      "summary": "Cloudflare (NET) and Deutsche Telekom said Tuesday they are collaborating to strengthen digital inf"
+      "url": "https://finnhub.io/api/news?id=0c90d52320f49228c2dc5c661e5b7d568d41bfcf0a5cc9dff09d713dccada925",
+      "datetime": 1790772313,
+      "summary": "Cloudflare has surged nearly 80% this year on the back of an AI security boom, but the stock now trades at a multiple that punishes any stumble. The next two earnings reports will determine whether this rally was justified or priced for perfection."
     },
     {
-      "headline": "Cloudflare Announces Public Certificate Authority for the Post-Quantum Web",
+      "headline": "1 Unprofitable Stock with Impressive Fundamentals and 2 We Avoid",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=909e5ddbd879e32038294d66c4d10f885a8125f2bda85ce7ac12b8d5b40d2102",
-      "datetime": 1790686800,
-      "summary": "SAN FRANCISCO, September 29, 2026--Cloudflare, Inc. (NYSE: NET), the leading connectivity cloud company, today announced its intent to become a public Certificate Authority (CA), an open service that issues the digital certificates websites need to encrypt traffic and prove their identity to visitors. The new CA will support both traditional encryption and next-generation post-quantum Merkle Tree "
+      "url": "https://finnhub.io/api/news?id=b5a91f6ca341280299d002e25fb7387c93f89105cfafbe0571c699e6c35a5deb",
+      "datetime": 1790771833,
+      "summary": "Unprofitable companies can burn through cash quickly, leaving investors exposed if they fail to turn things around. Without a clear path to profitability, these businesses risk running out of capital or relying on dilutive fundraising."
     },
     {
-      "headline": "Cloudflare and Deutsche Telekom Join Forces for a Secure and Resilient Internet",
+      "headline": "Zscaler Tanked Over One Year: A Prominent Firm Says 50% Gains to Arrive in 12 Months or Less",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=72f115d81306c06711d105378571320b06ab18fc8481c42c1930e5cb2174ecc3",
-      "datetime": 1790686800,
-      "summary": "BONN, Germany & SAN FRANCISCO, September 29, 2026--Deutsche Telekom AG (XETRA:DTE) and Cloudflare, Inc. (NYSE:NET), the leading connectivity cloud company, today announced a strategic partnership designed to strengthen the security and resilience of digital infrastructure for enterprises across Europe."
+      "url": "https://finnhub.io/api/news?id=a09b10633d68d8828a64ff97280d5c49350a8bba8b07ceb22089b61d64209d23",
+      "datetime": 1790766911,
+      "summary": "While cybersecurity peers doubled in value over the past year, Zscaler slid past 30% and now sits at a crossroads where one bold analyst sees a very different story unfolding than the rest of Wall Street is willing to admit."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-29",
+  "data_asof": "2026-09-30",
   "price": {
-    "last": 352.26,
-    "open": 351.92,
-    "prev_close": 353.99,
-    "move_day_pct": -0.49,
-    "move_open_close_pct": 0.1,
-    "move_week_pct": -0.21
+    "last": 347.28,
+    "open": 351.0,
+    "prev_close": 352.26,
+    "move_day_pct": -1.41,
+    "move_open_close_pct": -1.06,
+    "move_week_pct": -1.43
   },
   "indicators": {
     "rsi14": {
-      "value": 62.7,
+      "value": 60.1,
       "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 16.722,
-      "signal": 14.341,
-      "hist": 2.381,
-      "hist_prev": 3.162,
+      "macd": 15.989,
+      "signal": 14.671,
+      "hist": 1.318,
+      "hist_prev": 2.381,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 378.81,
-      "lower": 266.06,
-      "mid": 322.44,
-      "pctb": 0.765,
+      "upper": 380.21,
+      "lower": 270.84,
+      "mid": 325.52,
+      "pctb": 0.699,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 119.9,
-      "read": "120% above its 52-week low"
+      "value": 116.79,
+      "read": "117% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -1.83,
-      "read": "At or near its 52-week high"
+      "value": -3.22,
+      "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 233.0,
-      "pct": 51.18,
-      "read": "51% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 233.7,
+      "pct": 48.6,
+      "read": "49% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 17.25,
-      "pct_of_price": 4.9,
+      "value": 16.84,
+      "pct_of_price": 4.85,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.7,
+      "value": 0.84,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 66.3,
+      "value": 59.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 358.82,
-  "ma50": 302.85,
-  "ma200": 233.0
+  "ma50": 304.35,
+  "ma200": 233.7
 }
