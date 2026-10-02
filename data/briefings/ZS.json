@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-01T01:08:43.892078-07:00",
+  "generated_at": "2026-10-02T00:53:39.720187-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Zscaler (ZS) Warns AI Driven Ransomware Is Reshaping Cyber Threats",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=14619884e27f917ad046520b6d7474136481d2e788cd90f8f2d3073ce1c522c9",
+      "datetime": 1790874690,
+      "summary": "Zscaler (NasdaqGS: ZS) released its ThreatLabz 2026 Ransomware Report on 1 October 2026, detailing new attack patterns. The study highlights large scale AI driven ransomware operations that automate intrusion, data theft, and victim targeting. Researchers report a rise in executive focused data theft and misuse of enterprise tools like Microsoft Teams to gain access. The shift toward AI powered ra"
+    },
+    {
+      "headline": "PANW Stock Rises 21% in a Month: Should You Hold or Book Profits?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=44423861aa2655f8ba3d9734a19c768598400304015ca15f8cfe3ecf6146a096",
+      "datetime": 1790864520,
+      "summary": "Palo Alto Networks' shares jump 20.9% in a month, driven by AI security demand. However, rising costs and premium valuation warrant caution."
+    },
     {
       "headline": "Is CrowdStrike Stock Paying You Enough For The Swings?",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=a09b10633d68d8828a64ff97280d5c49350a8bba8b07ceb22089b61d64209d23",
       "datetime": 1790766911,
       "summary": "While cybersecurity peers doubled in value over the past year, Zscaler slid past 30% and now sits at a crossroads where one bold analyst sees a very different story unfolding than the rest of Wall Street is willing to admit."
-    },
-    {
-      "headline": "New Zscaler Report Reveals AI-Assisted Attackers Move to Massive Data Theft, Executive Targeting, and Millions in Extortion Payments",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8087bf27bb4bceb6836d453d2eb93af3081c724f89518f157d2fd3b34d9e00bf",
-      "datetime": 1790751660,
-      "summary": "New Zscaler ThreatLabz 2026 Ransomware Report finds attackers stole nearly 900 terabytes of data, increasingly targeted employees with privileged roles, and used GenAI to accelerate operationsSAN JOSE, Calif., Sept. 30, 2026 (GLOBE NEWSWIRE) -- Zscaler, Inc. (NASDAQ: ZS), the cybersecurity platform for the AI era, today released new findings from the Zscaler ThreatLabz 2026 Ransomware Report, show"
-    },
-    {
-      "headline": "Bot Traffic Will Be \u201c1000X\u201d Bigger Than Human Traffic in Just Five Years, According to Cloudflare CEO",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a672a0e8bfb3df253af0f0e0411ba466680c15f20ff4c603b54e319e72b16ac5",
-      "datetime": 1790720260,
-      "summary": "Key TakeawaysCloudflare CEO Matthew Prince says automated traffic could become 1,000 times human traffic within five years if current trends continue. More than 20% of the web sits behind Cloudflare\u2019s network, putting the company in the path of rising AI-agent and bot traffic."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-30",
+  "data_asof": "2026-10-01",
   "price": {
-    "last": 199.42,
-    "open": 198.86,
-    "prev_close": 198.35,
-    "move_day_pct": 0.54,
-    "move_open_close_pct": 0.28,
-    "move_week_pct": -7.01
+    "last": 198.78,
+    "open": 202.65,
+    "prev_close": 199.42,
+    "move_day_pct": -0.32,
+    "move_open_close_pct": -1.91,
+    "move_week_pct": -7.39
   },
   "indicators": {
     "rsi14": {
-      "value": 56.8,
+      "value": 56.3,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 8.022,
-      "signal": 8.164,
-      "hist": -0.142,
-      "hist_prev": 0.311,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": 7.497,
+      "signal": 8.031,
+      "hist": -0.534,
+      "hist_prev": -0.142,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 223.44,
-      "lower": 155.06,
-      "mid": 189.25,
-      "pctb": 0.649,
+      "upper": 224.11,
+      "lower": 157.0,
+      "mid": 190.55,
+      "pctb": 0.623,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 68.93,
-      "read": "69% above its 52-week low"
+      "value": 68.39,
+      "read": "68% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -40.7,
+      "value": -40.89,
       "read": "41% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 166.78,
-      "pct": 19.57,
-      "read": "20% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 166.59,
+      "pct": 19.32,
+      "read": "19% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 9.97,
-      "pct_of_price": 5.0,
+      "value": 9.61,
+      "pct_of_price": 4.84,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.62,
-      "read": "Roughly average volume"
+      "value": 0.43,
+      "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 68.6,
+      "value": 72.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 118.05,
   "high_52w": 336.27,
-  "ma50": 176.82,
-  "ma200": 166.78
+  "ma50": 177.95,
+  "ma200": 166.59
 }

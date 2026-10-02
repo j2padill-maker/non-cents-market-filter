@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-01T01:08:41.582640-07:00",
+  "generated_at": "2026-10-02T00:53:36.693456-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,11 +17,25 @@
   ],
   "news": [
     {
+      "headline": "Dynatrace Arize Acquisition Likely Boost AI 'Observability' Growth, UBS Says",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=007f3c804b2355106bce008f9a6085c6223da772ab6a64def71ab4443371b828",
+      "datetime": 1790873657,
+      "summary": "Dynatrace (DT) could benefit from rising demand for artificial intelligence \"observability,\" with it"
+    },
+    {
       "headline": "Datadog (DDOG) Increases Despite Market Slip: Here's What You Need to Know",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=4b9a75670e6de6a898b85c7ceb88b09d77d5b643123eb5890ae8e7a190bb7b76",
       "datetime": 1790801107,
       "summary": "Datadog (DDOG) concluded the recent trading session at $273.85, signifying a +1.97% move from its prior day's close."
+    },
+    {
+      "headline": "What Happens If You Don't Pay Your Stock Trading Taxes?",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=b6cd46fe13464accc7cf7c0fce50409578fdc436b11235be3754d7ab90f8a41c",
+      "datetime": 1790771296,
+      "summary": ""
     },
     {
       "headline": "2 Unpopular Stocks That Should Get More Attention and 1 We Brush Off",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=9c8e2e97e5d7f00472d88732950fa329f27294cd44c2d5c5433616b80e57de8f",
       "datetime": 1790761162,
       "summary": "Datadog rebounded sharply after a major customer usage cut and broader software sell-off. Check out why DDOG stock is a hold."
-    },
-    {
-      "headline": "MongoDB: CEO's Parting Gift To Bulls (Rating Upgrade)",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=156a7c6a25e930f8450419aff8a9a9a70fa2102adb770d28aad4ba75e3383496",
-      "datetime": 1790760751,
-      "summary": "MongoDB, Inc. upgraded to Buy after Investor Day: AI-driven MongoDB 9.0/Atlas updates, higher FY27 targets, and upside vs. consensus. Click for this MDB stock update."
-    },
-    {
-      "headline": "Datadog: I Was Wrong; Upgrading After Management Debunked My Bear Thesis",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=9514a579c2cede5282a279b4b1ed9ed4dd621947006f64e8239786de204a741f",
-      "datetime": 1790752541,
-      "summary": "Datadog is positioned as an AI winner, with management dispelling prior doubts about long-term growth and relevance. Read why DDOG stock is upgraded to a hold."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-30",
+  "data_asof": "2026-10-01",
   "price": {
-    "last": 273.85,
-    "open": 270.13,
-    "prev_close": 268.56,
-    "move_day_pct": 1.97,
-    "move_open_close_pct": 1.38,
-    "move_week_pct": 8.89
+    "last": 276.46,
+    "open": 278.75,
+    "prev_close": 273.85,
+    "move_day_pct": 0.95,
+    "move_open_close_pct": -0.82,
+    "move_week_pct": 7.61
   },
   "indicators": {
     "rsi14": {
-      "value": 69.2,
-      "read": "Firm \u2014 approaching overbought"
+      "value": 70.3,
+      "read": "Overbought"
     },
     "macd": {
-      "macd": 8.954,
-      "signal": 3.615,
-      "hist": 5.339,
-      "hist_prev": 5.402,
+      "macd": 10.056,
+      "signal": 4.903,
+      "hist": 5.153,
+      "hist_prev": 5.339,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 278.78,
-      "lower": 196.48,
-      "mid": 237.63,
-      "pctb": 0.94,
+      "upper": 283.28,
+      "lower": 198.7,
+      "mid": 240.99,
+      "pctb": 0.919,
       "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 166.87,
-      "read": "167% above its 52-week low"
+      "value": 169.41,
+      "read": "169% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -4.96,
+      "value": -4.06,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 183.51,
-      "pct": 49.23,
-      "read": "49% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 184.16,
+      "pct": 50.12,
+      "read": "50% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 12.44,
-      "pct_of_price": 4.54,
+      "value": 12.19,
+      "pct_of_price": 4.41,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.78,
+      "value": 0.83,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 77.7,
-      "read": "Neutral money flow"
+      "value": 82.0,
+      "read": "Overbought \u2014 money flowing in"
     }
   },
   "low_52w": 102.61,
   "high_52w": 288.15,
-  "ma50": 243.39,
-  "ma200": 183.51
+  "ma50": 244.01,
+  "ma200": 184.16
 }

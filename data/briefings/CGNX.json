@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-01T01:08:42.419596-07:00",
+  "generated_at": "2026-10-02T00:53:37.909538-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -43,20 +43,6 @@
       "url": "https://finnhub.io/api/news?id=f06ec312415593847b80fd89886771c16f98e5eedc01ae9e8b928abb44ffb725",
       "datetime": 1790337967,
       "summary": "Robotics automation earnings preview: Teradyne, Cognex, Omnicell, UiPath face key tests as momentum leaders and value laggards report."
-    },
-    {
-      "headline": "Cognex (CGNX) On RealSense Deal And Chip Push Looks Cheap Or Fully Valued",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=bf456a1945033cc25e892c0bb1e5f23de4fb518a16c1f00108802f6ed997ecf1",
-      "datetime": 1790237273,
-      "summary": "Cognex stock reacts to RealSense acquisition and new In-Sight 1750 launch Cognex (CGNX) has moved into the spotlight after agreeing to acquire 3D vision specialist RealSense for about US$500 million and unveiling its In-Sight 1750 wafer identification system for semiconductor customers. The latest RealSense deal and In-Sight 1750 launch follow a strong year for Cognex, with a year-to-date share pr"
-    },
-    {
-      "headline": "Cognex (CGNX) Stock Could Be Expensive On Its $500 Million Vision Deal",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=bcac0304208cf8258b0768eba002f7f5ab1a62fb7b757fa89624d0f56660eb29",
-      "datetime": 1790233898,
-      "summary": "Cognex shares have climbed sharply in 2026, and the move now raises a clear question for investors who care about valuation: does the current price still line up with what the business earns? The stock is up 57.6% year to date, which puts real pressure on the earnings picture to support a much higher market value than at the start of the year. The planned US$500 million acquisition of RealSense, f"
     }
   ],
   "filings": [
@@ -82,63 +68,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-30",
+  "data_asof": "2026-10-01",
   "price": {
-    "last": 60.65,
-    "open": 59.9,
-    "prev_close": 59.67,
-    "move_day_pct": 1.64,
-    "move_open_close_pct": 1.25,
-    "move_week_pct": 4.23
+    "last": 62.22,
+    "open": 60.8,
+    "prev_close": 60.65,
+    "move_day_pct": 2.59,
+    "move_open_close_pct": 2.34,
+    "move_week_pct": 7.83
   },
   "indicators": {
     "rsi14": {
-      "value": 50.1,
+      "value": 54.8,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.757,
-      "signal": -0.792,
-      "hist": 0.035,
-      "hist_prev": -0.101,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": -0.509,
+      "signal": -0.736,
+      "hist": 0.226,
+      "hist_prev": 0.035,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 63.68,
-      "lower": 57.23,
-      "mid": 60.46,
-      "pctb": 0.53,
+      "upper": 63.88,
+      "lower": 57.27,
+      "mid": 60.57,
+      "pctb": 0.75,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 75.02,
-      "read": "75% above its 52-week low"
+      "value": 79.55,
+      "read": "80% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -16.13,
-      "read": "16% below its 52-week high"
+      "value": -13.96,
+      "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 55.36,
-      "pct": 9.56,
-      "read": "10% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 55.5,
+      "pct": 12.11,
+      "read": "12% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 2.11,
-      "pct_of_price": 3.48,
+      "value": 2.09,
+      "pct_of_price": 3.36,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 1.18,
+      "value": 1.12,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 59.4,
+      "value": 60.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 34.65,
   "high_52w": 72.32,
   "ma50": 61.94,
-  "ma200": 55.36
+  "ma200": 55.5
 }

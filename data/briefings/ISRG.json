@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-01T01:08:42.726421-07:00",
+  "generated_at": "2026-10-02T00:53:38.289451-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Abbott Laboratories vs. Intuitive Surgical: Which Healthcare Stock Is a Better Buy in 2026?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7d8978edc7fd5a9c86de1f230baa55e83b41e9989c7c5a688bebbb853aaf7c88",
+      "datetime": 1790877303,
+      "summary": "Intuitive Surgical is beating estimates and raising margins while its installed base keeps expanding. Abbott is executing steadily across a diversified portfolio but growing at a more measured pace."
+    },
+    {
+      "headline": "Is Wall Street Dead Wrong About Intuitive Surgical? Here's My Honest Answer.",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=0f46fd3991b6034c5e32178cada89682379b8b97f273d838e33a0f9bc7cce035",
+      "datetime": 1790845440,
+      "summary": "Analysts think this beaten-down healthcare stock will rebound."
+    },
     {
       "headline": "The Top HealthTech Questions Landing On Our Desks",
       "source": "SeekingAlpha",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=68f9383451dfc12a55a62e1731bd2dc387a79c4c3bfbfeb57b9cea4976d528ec",
       "datetime": 1790764926,
       "summary": "Tesla\u2019s Optimus is chasing general-purpose robotics, but Intuitive Surgical shows how specialized robots can build massive businesses."
-    },
-    {
-      "headline": "Intuitive Surgical (ISRG) Stock Looks Fairly Valued Following Strong Q2 Results",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e07dbb07f4b7dfd9d24e338c1b2a4dbd7408b7d872e19fe1a898b49f1d4cbacc",
-      "datetime": 1790759325,
-      "summary": "Intuitive Surgical has delivered a 43.1% gain over the past three years, even as the stock has been weaker more recently. This puts fresh focus on whether the current US$412.18 share price is properly backed by the cash the business can generate. With new headlines around robotic surgery and strong recent revenue figures, the key issue now is how that share price lines up against the value implied"
-    },
-    {
-      "headline": "Dan Ives Calls Physical AI Nvidia\u2019s 'Holy Grail' \u2014 This ETF Is Already in the Trade",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=62c061737f0549f4dce08907cca3f67a4a8d873a3f0ed03dea93f20ea08b8c44",
-      "datetime": 1790751608,
-      "summary": "Dan Ives calls physical AI Nvidia\u2019s \u201choly grail,\u201d pointing to a potential robotics boom. See how BOTZ offers exposure to Nvidia and the automation trade."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-30",
+  "data_asof": "2026-10-01",
   "price": {
-    "last": 406.63,
-    "open": 408.05,
-    "prev_close": 412.18,
-    "move_day_pct": -1.35,
-    "move_open_close_pct": -0.35,
-    "move_week_pct": 2.09
+    "last": 401.24,
+    "open": 409.05,
+    "prev_close": 406.63,
+    "move_day_pct": -1.33,
+    "move_open_close_pct": -1.91,
+    "move_week_pct": 0.43
   },
   "indicators": {
     "rsi14": {
-      "value": 62.3,
-      "read": "Firm \u2014 approaching overbought"
+      "value": 57.9,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": 9.123,
-      "signal": 5.808,
-      "hist": 3.315,
-      "hist_prev": 4.055,
+      "macd": 8.658,
+      "signal": 6.378,
+      "hist": 2.28,
+      "hist_prev": 3.315,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 423.43,
-      "lower": 346.17,
-      "mid": 384.8,
-      "pctb": 0.783,
+      "upper": 425.05,
+      "lower": 347.49,
+      "mid": 386.27,
+      "pctb": 0.693,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 22.47,
-      "read": "22% above its 52-week low"
+      "value": 20.85,
+      "read": "21% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -31.41,
-      "read": "31% below its 52-week high"
+      "value": -32.32,
+      "read": "32% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 448.76,
-      "pct": -9.39,
-      "read": "9% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 448.05,
+      "pct": -10.45,
+      "read": "10% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 10.94,
-      "pct_of_price": 2.69,
+      "value": 10.97,
+      "pct_of_price": 2.73,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.72,
+      "value": 0.66,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 78.4,
+      "value": 72.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 332.02,
   "high_52w": 592.85,
-  "ma50": 377.63,
-  "ma200": 448.76
+  "ma50": 378.84,
+  "ma200": 448.05
 }

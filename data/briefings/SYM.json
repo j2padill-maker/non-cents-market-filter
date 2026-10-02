@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-01T01:08:43.051728-07:00",
+  "generated_at": "2026-10-02T00:53:38.562856-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "3 US Onshoring Stocks To Watch As Tariff Rules Reshape Supply Chains",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f8e4884a3ea8d348a29ba1c42cb0080f3885ae3c4489a4b0d84825e06b3042b4",
+      "datetime": 1790824601,
+      "summary": "Global tariffs, court challenges, and shifting trade rules are reshaping where products get made and how supply chains are built. That uncertainty can punish some businesses yet open the door for others tied more closely to US production and automation. This piece looks at how Trump tariff headlines connect to that theme and walks through 3 stocks from the US onshoring and domestic manufacturing s"
+    },
     {
       "headline": "Why Symbotic Inc. (SYM) Dipped More Than Broader Market Today",
       "source": "Yahoo",
@@ -68,63 +75,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-30",
+  "data_asof": "2026-10-01",
   "price": {
-    "last": 42.07,
-    "open": 42.05,
-    "prev_close": 41.51,
-    "move_day_pct": 1.35,
-    "move_open_close_pct": 0.05,
-    "move_week_pct": -3.71
+    "last": 43.17,
+    "open": 42.19,
+    "prev_close": 42.07,
+    "move_day_pct": 2.61,
+    "move_open_close_pct": 2.32,
+    "move_week_pct": -1.98
   },
   "indicators": {
     "rsi14": {
-      "value": 48.6,
+      "value": 52.4,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 0.24,
-      "signal": 0.382,
-      "hist": -0.142,
-      "hist_prev": -0.094,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": 0.26,
+      "signal": 0.357,
+      "hist": -0.098,
+      "hist_prev": -0.142,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 45.16,
-      "lower": 40.17,
-      "mid": 42.67,
-      "pctb": 0.38,
+      "upper": 44.98,
+      "lower": 40.69,
+      "mid": 42.83,
+      "pctb": 0.579,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 10.07,
+      "value": 12.95,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -51.81,
-      "read": "52% below its 52-week high"
+      "value": -50.55,
+      "read": "51% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 50.61,
-      "pct": -16.87,
-      "read": "17% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 50.52,
+      "pct": -14.55,
+      "read": "15% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 1.74,
-      "pct_of_price": 4.13,
+      "value": 1.78,
+      "pct_of_price": 4.11,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.71,
+      "value": 1.1,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 57.2,
+      "value": 57.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 38.22,
   "high_52w": 87.3,
-  "ma50": 42.04,
-  "ma200": 50.61
+  "ma50": 42.05,
+  "ma200": 50.52
 }

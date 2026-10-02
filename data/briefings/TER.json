@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-01T01:08:43.217311-07:00",
+  "generated_at": "2026-10-02T00:53:38.814713-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Teradyne: AI Testing Growth Is Impressive, But The Valuation Keeps Me Cautious",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=9e3d5c79609413afcb46b62a6e62e53216e5b36b4ddcb8f79260b0918314c620",
+      "datetime": 1790852117,
+      "summary": "Teradyne is experiencing robust AI-driven growth, with Q2 2026 revenue up 104% to $1.329 billion. Click here to read an analysis of TER stock now."
+    },
     {
       "headline": "Is Teradyne (TER) a Buy as Wall Street Analysts Look Optimistic?",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=c14504b75ccac7d221ce0bb780f8e8701faf280f71d230b764b5e57b1c6d14aa",
       "datetime": 1790686800,
       "summary": "NORTH READING, Mass., September 29, 2026--Teradyne announces Magnum E2 to address next-generation memory test demands driven by AI and high-performance computing."
-    },
-    {
-      "headline": "Here's How Much $100 Invested In Teradyne 15 Years Ago Would Be Worth Today",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=64d6c7bcd4078f58d3f6d8277fe11f77e541e7db73e6b36454c83c9ab704215c",
-      "datetime": 1790685920,
-      "summary": "Teradyne (NASDAQ:TER) has outperformed the market over the past 15 years by 13.22% on an annualized basis producing an average annual return of 26.71%. Currently, Teradyne has a market capitalization of $64.34 billion."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-30",
+  "data_asof": "2026-10-01",
   "price": {
-    "last": 400.91,
-    "open": 402.6,
-    "prev_close": 403.02,
-    "move_day_pct": -0.52,
-    "move_open_close_pct": -0.42,
-    "move_week_pct": 3.02
+    "last": 415.79,
+    "open": 402.9,
+    "prev_close": 400.91,
+    "move_day_pct": 3.71,
+    "move_open_close_pct": 3.2,
+    "move_week_pct": 7.25
   },
   "indicators": {
     "rsi14": {
-      "value": 58.4,
-      "read": "Neutral"
+      "value": 62.5,
+      "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 8.745,
-      "signal": 3.731,
-      "hist": 5.014,
-      "hist_prev": 5.505,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": 10.429,
+      "signal": 5.071,
+      "hist": 5.359,
+      "hist_prev": 5.014,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 420.23,
-      "lower": 322.89,
-      "mid": 371.56,
-      "pctb": 0.802,
+      "upper": 425.51,
+      "lower": 325.03,
+      "mid": 375.27,
+      "pctb": 0.903,
       "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 204.12,
-      "read": "204% above its 52-week low"
+      "value": 215.41,
+      "read": "215% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -17.11,
-      "read": "17% below its 52-week high"
+      "value": -14.03,
+      "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 332.48,
-      "pct": 20.58,
-      "read": "21% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 333.59,
+      "pct": 24.64,
+      "read": "25% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 19.33,
-      "pct_of_price": 4.82,
+      "value": 19.27,
+      "pct_of_price": 4.63,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.64,
+      "value": 0.72,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 60.8,
+      "value": 60.2,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 131.82,
   "high_52w": 483.65,
-  "ma50": 372.41,
-  "ma200": 332.48
+  "ma50": 373.34,
+  "ma200": 333.59
 }

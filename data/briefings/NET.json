@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-01T01:08:41.766620-07:00",
+  "generated_at": "2026-10-02T00:53:36.947557-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Cloudflare Launches Basin: A More Open and Accessible Data Platform for Developers",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e4cfdb4846452c686fc40375fa552dcb2669ff4e34e366e475b260c1db433e0a",
+      "datetime": 1790859600,
+      "summary": "SAN FRANCISCO, October 01, 2026--Cloudflare, Inc. (NYSE: NET), the leading connectivity cloud company, today announced Cloudflare Basin, a data platform that gives developers and enterprises a simpler, more affordable way to build applications powered by their own data. Built on Apache Iceberg and Cloudflare R2, Basin gives teams an open, serverless way to ingest, store, catalog and query analytic"
+    },
     {
       "headline": "Cloudflare (NET) Falls More Steeply Than Broader Market: What Investors Need to Know",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=b5a91f6ca341280299d002e25fb7387c93f89105cfafbe0571c699e6c35a5deb",
       "datetime": 1790771833,
       "summary": "Unprofitable companies can burn through cash quickly, leaving investors exposed if they fail to turn things around. Without a clear path to profitability, these businesses risk running out of capital or relying on dilutive fundraising."
-    },
-    {
-      "headline": "Zscaler Tanked Over One Year: A Prominent Firm Says 50% Gains to Arrive in 12 Months or Less",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a09b10633d68d8828a64ff97280d5c49350a8bba8b07ceb22089b61d64209d23",
-      "datetime": 1790766911,
-      "summary": "While cybersecurity peers doubled in value over the past year, Zscaler slid past 30% and now sits at a crossroads where one bold analyst sees a very different story unfolding than the rest of Wall Street is willing to admit."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-30",
+  "data_asof": "2026-10-01",
   "price": {
-    "last": 347.28,
-    "open": 351.0,
-    "prev_close": 352.26,
-    "move_day_pct": -1.41,
-    "move_open_close_pct": -1.06,
-    "move_week_pct": -1.43
+    "last": 351.0,
+    "open": 350.01,
+    "prev_close": 347.28,
+    "move_day_pct": 1.07,
+    "move_open_close_pct": 0.28,
+    "move_week_pct": -2.18
   },
   "indicators": {
     "rsi14": {
-      "value": 60.1,
+      "value": 61.4,
       "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 15.989,
-      "signal": 14.671,
-      "hist": 1.318,
-      "hist_prev": 2.381,
+      "macd": 15.529,
+      "signal": 14.842,
+      "hist": 0.686,
+      "hist_prev": 1.318,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 380.21,
-      "lower": 270.84,
-      "mid": 325.52,
-      "pctb": 0.699,
+      "upper": 379.46,
+      "lower": 279.42,
+      "mid": 329.44,
+      "pctb": 0.716,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 116.79,
-      "read": "117% above its 52-week low"
+      "value": 119.11,
+      "read": "119% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -3.22,
-      "read": "Modestly below its 52-week high"
+      "value": -2.18,
+      "read": "At or near its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 233.7,
-      "pct": 48.6,
-      "read": "49% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 234.44,
+      "pct": 49.72,
+      "read": "50% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 16.84,
-      "pct_of_price": 4.85,
+      "value": 16.47,
+      "pct_of_price": 4.69,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.84,
+      "value": 0.9,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 59.7,
+      "value": 58.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 358.82,
-  "ma50": 304.35,
-  "ma200": 233.7
+  "ma50": 305.99,
+  "ma200": 234.44
 }

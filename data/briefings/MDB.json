@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-01T01:08:40.542999-07:00",
+  "generated_at": "2026-10-02T00:53:35.541433-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Meta\u2019s latest hire highlights high stakes of executive poaching",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=0a3710bf5917429b120cb9f5ca6e79c0270bd858b4f33ea115f1f0a9eaece26c",
+      "datetime": 1790868420,
+      "summary": "AI companies are especially vulnerable to executive poaching as they race to dominate the explosive market."
+    },
+    {
+      "headline": "Why Is MongoDB (MDB) Down 7.1% Since Last Earnings Report?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a5ac68d8a3a06246a6ea9d8022e98f83aceb376cad6285a0a7406c5180980a3a",
+      "datetime": 1790865003,
+      "summary": "MongoDB (MDB) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues."
+    },
+    {
+      "headline": "Do CEOs Matter? MongoDB Shareholders Are About To Find Out",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=a3ee0c8fc143b16c6236ac1c1e58e16d27cdba493af1c2a881e88f16587f2fed",
+      "datetime": 1790846700,
+      "summary": ""
+    },
     {
       "headline": "Why Is MongoDB (MDB) Stock Rocketing Higher Today",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=05ce5b2bda0dabc75027d75379cb815d08fb1633b49b0efeba9fd0a905de643d",
       "datetime": 1790784059,
       "summary": "MongoDB stock regained some ground Wednesday after news its CEO was leaving for a job at Meta Platforms caused a sell-off."
-    },
-    {
-      "headline": "MongoDB Stock Crashes After CEO Exit. This Brutal Selloff Is a Buying Opportunity.",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2019ae97eb214c92289522f2ecc601b6e083336af5db9640b0e0d137f60f4b45",
-      "datetime": 1790780146,
-      "summary": "A sudden CEO departure sent shares tumbling, but analysts say the company\u2019s growth, cash generation, and outlook remain largely intact."
-    },
-    {
-      "headline": "Hewlett Packard Enterprise, Capital Bancorp, FormFactor And Other Big Stocks Moving Higher On Wednesday",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=d3cb7060e8387a74c47f2f75296975ce0009c06b7201fc7c5895370b23e855bb",
-      "datetime": 1790762138,
-      "summary": "U.S. stocks rose as Nasdaq gained 100+ points; HPE jumped 5.1% on stronger networking guidance and a Vultr AI rack order."
-    },
-    {
-      "headline": "MongoDB: CEO's Parting Gift To Bulls (Rating Upgrade)",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=156a7c6a25e930f8450419aff8a9a9a70fa2102adb770d28aad4ba75e3383496",
-      "datetime": 1790760751,
-      "summary": "MongoDB, Inc. upgraded to Buy after Investor Day: AI-driven MongoDB 9.0/Atlas updates, higher FY27 targets, and upside vs. consensus. Click for this MDB stock update."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-30",
+  "data_asof": "2026-10-01",
   "price": {
-    "last": 348.61,
-    "open": 341.0,
-    "prev_close": 337.19,
-    "move_day_pct": 3.39,
-    "move_open_close_pct": 2.23,
-    "move_week_pct": -18.62
+    "last": 351.73,
+    "open": 352.47,
+    "prev_close": 348.61,
+    "move_day_pct": 0.89,
+    "move_open_close_pct": -0.21,
+    "move_week_pct": -16.53
   },
   "indicators": {
     "rsi14": {
-      "value": 40.9,
+      "value": 41.7,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -7.395,
-      "signal": -1.401,
-      "hist": -5.994,
-      "hist_prev": -4.977,
+      "macd": -9.032,
+      "signal": -2.927,
+      "hist": -6.105,
+      "hist_prev": -5.994,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 434.53,
-      "lower": 326.27,
-      "mid": 380.4,
-      "pctb": 0.206,
+      "upper": 434.75,
+      "lower": 323.69,
+      "mid": 379.22,
+      "pctb": 0.253,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 54.29,
-      "read": "54% above its 52-week low"
+      "value": 55.67,
+      "read": "56% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -26.19,
+      "value": -25.53,
       "read": "26% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 343.49,
-      "pct": 1.49,
-      "read": "1% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 343.16,
+      "pct": 2.5,
+      "read": "2% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 28.2,
-      "pct_of_price": 8.09,
+      "value": 27.16,
+      "pct_of_price": 7.72,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 2.27,
-      "read": "Heavy volume \u2014 well above average"
+      "value": 0.94,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 51.9,
+      "value": 50.2,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 387.56,
-  "ma200": 343.49
+  "ma50": 388.5,
+  "ma200": 343.16
 }

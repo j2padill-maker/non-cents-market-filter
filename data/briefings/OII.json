@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-01T01:08:43.614254-07:00",
+  "generated_at": "2026-10-02T00:53:39.425132-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Oceaneering Announces U.S. Navy Dry Deck Shelter Award",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=6acb1e2428be6ef53ed73b7d4129c46195873af2c7cf2cf1c2cc783d62d445b9",
+      "datetime": 1790890560,
+      "summary": "HOUSTON, October 01, 2026--Oceaneering Announces U.S. Navy Dry Deck Shelter Award. ADTech awarded follow-on 5-yrs contract (1 base yr and 4 option yrs), w/potential of $154M"
+    },
     {
       "headline": "3 Undervalued Small Cap Stocks Trading At Least 14% Below Fair Value",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=7e615057be9e02b92d21ccb8dd1f5f8da32b09247e6eaac87e792e44d00455e9",
       "datetime": 1790601300,
       "summary": "WTI crude above $94 may support U.S. drilling and offshore activity, creating stronger oilfield service demand for Baker Hughes and Oceaneering International."
-    },
-    {
-      "headline": "1 Cash-Producing Stock Worth Your Attention and 2 Facing Challenges",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=641606a43ebb41cb058e01b2760188a47de18ea9d2ad3c156bb5bd59426305d9",
-      "datetime": 1790341477,
-      "summary": "While strong cash flow is a key indicator of stability, it doesn\u2019t always translate to superior returns. Some cash-heavy businesses struggle with inefficient spending, slowing demand, or weak competitive positioning."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-09-30",
+  "data_asof": "2026-10-01",
   "price": {
-    "last": 43.63,
-    "open": 44.2,
-    "prev_close": 44.22,
-    "move_day_pct": -1.33,
-    "move_open_close_pct": -1.29,
-    "move_week_pct": -5.64
+    "last": 44.36,
+    "open": 43.38,
+    "prev_close": 43.63,
+    "move_day_pct": 1.67,
+    "move_open_close_pct": 2.26,
+    "move_week_pct": -4.95
   },
   "indicators": {
     "rsi14": {
-      "value": 32.8,
+      "value": 36.9,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -1.315,
-      "signal": -0.897,
-      "hist": -0.418,
-      "hist_prev": -0.374,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -1.358,
+      "signal": -0.99,
+      "hist": -0.369,
+      "hist_prev": -0.418,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 52.69,
-      "lower": 42.7,
-      "mid": 47.69,
-      "pctb": 0.093,
+      "upper": 52.18,
+      "lower": 42.48,
+      "mid": 47.33,
+      "pctb": 0.194,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 96.53,
-      "read": "97% above its 52-week low"
+      "value": 99.82,
+      "read": "100% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -19.37,
-      "read": "19% below its 52-week high"
+      "value": -18.02,
+      "read": "18% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 38.37,
-      "pct": 13.71,
-      "read": "14% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 38.46,
+      "pct": 15.34,
+      "read": "15% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 1.74,
-      "pct_of_price": 3.99,
+      "value": 1.73,
+      "pct_of_price": 3.89,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 1.35,
-      "read": "Above-average volume"
+      "value": 0.86,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 23.0,
+      "value": 20.1,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 22.2,
   "high_52w": 54.11,
-  "ma50": 49.28,
-  "ma200": 38.37
+  "ma50": 49.27,
+  "ma200": 38.46
 }
