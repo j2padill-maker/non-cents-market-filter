@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-02T00:53:37.909538-07:00",
+  "generated_at": "2026-10-03T00:26:50.675954-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,13 @@
   ],
   "news": [
     {
+      "headline": "3 Volatile Stocks We Keep Off Our Radar",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=3fea5d6436053cdcf9cab8186413bb2d1715c1ac77e5d7f3dc24ba5c72869e79",
+      "datetime": 1790932203,
+      "summary": "Market swings can be tough to stomach, and volatile stocks often experience exaggerated moves in both directions. While many thrive during risk-on environments, many also struggle to maintain investor confidence when the ride gets bumpy."
+    },
+    {
       "headline": "Cognex: AI And Robotics Have Potential, But Near-Term Upside Looks Limited",
       "source": "SeekingAlpha",
       "url": "https://finnhub.io/api/news?id=6443ad0a2e73e1af06074b065a99f8671f9015561354cdc21ff370ef965acdf1",
@@ -29,20 +36,6 @@
       "url": "https://finnhub.io/api/news?id=e710e0cfa0eadd1bd513516b3643b7506963172824449871b0dfec6c871ae49f",
       "datetime": 1790687042,
       "summary": "Wall Street has set ambitious price targets for the stocks in this article. While this suggests attractive upside potential, it\u2019s important to remain skeptical because analysts face institutional pressures that can sometimes lead to overly optimistic forecasts."
-    },
-    {
-      "headline": "Deal Dispatch: Jana Calls For Six Flags Review, Cognex Corp Buys RealSense, Brightline Bankruptcy",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=4c6e0331f6f4aa9295956a456d9e63d7c6199c9528174476ce1b87dbd870e96c",
-      "datetime": 1790343255,
-      "summary": "Major M&amp;A deals this week include: Ridgeline Roofing buys Advantage Rooging, Forge buys Becker&#39;s Healthcare."
-    },
-    {
-      "headline": "Robotics Earnings Week: Momentum vs. Value as Four Automation Names Report",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=f06ec312415593847b80fd89886771c16f98e5eedc01ae9e8b928abb44ffb725",
-      "datetime": 1790337967,
-      "summary": "Robotics automation earnings preview: Teradyne, Cognex, Omnicell, UiPath face key tests as momentum leaders and value laggards report."
     }
   ],
   "filings": [
@@ -68,63 +61,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-01",
+  "data_asof": "2026-10-02",
   "price": {
-    "last": 62.22,
-    "open": 60.8,
-    "prev_close": 60.65,
-    "move_day_pct": 2.59,
-    "move_open_close_pct": 2.34,
-    "move_week_pct": 7.83
+    "last": 64.97,
+    "open": 63.43,
+    "prev_close": 62.22,
+    "move_day_pct": 4.42,
+    "move_open_close_pct": 2.43,
+    "move_week_pct": 10.76
   },
   "indicators": {
     "rsi14": {
-      "value": 54.8,
-      "read": "Neutral"
+      "value": 61.6,
+      "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": -0.509,
-      "signal": -0.736,
-      "hist": 0.226,
-      "hist_prev": 0.035,
+      "macd": -0.09,
+      "signal": -0.607,
+      "hist": 0.516,
+      "hist_prev": 0.226,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 63.88,
-      "lower": 57.27,
-      "mid": 60.57,
-      "pctb": 0.75,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 64.6,
+      "lower": 56.96,
+      "mid": 60.78,
+      "pctb": 1.048,
+      "read": "Above the upper band \u2014 stretched to the upside"
     },
     "pct_from_52w_low": {
-      "value": 79.55,
-      "read": "80% above its 52-week low"
+      "value": 87.49,
+      "read": "87% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -13.96,
+      "value": -10.16,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 55.5,
-      "pct": 12.11,
-      "read": "12% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 55.65,
+      "pct": 16.75,
+      "read": "17% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 2.09,
+      "value": 2.18,
       "pct_of_price": 3.36,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 1.12,
+      "value": 1.14,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 60.0,
+      "value": 68.2,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 34.65,
   "high_52w": 72.32,
-  "ma50": 61.94,
-  "ma200": 55.5
+  "ma50": 61.97,
+  "ma200": 55.65
 }

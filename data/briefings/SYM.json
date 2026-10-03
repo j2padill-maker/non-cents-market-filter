@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-02T00:53:38.562856-07:00",
+  "generated_at": "2026-10-03T00:26:51.378307-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Symbotic: Real Warehouse Progress, A Demanding Share Price",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=d8a68f7ed089e990effd530ab78091d66bcea1e5a1e56f7d8494dc255f3238fb",
+      "datetime": 1790953838,
+      "summary": "Symbotic (SYM) shows strong warehouse automation growth, but high valuation and customer concentration risk persist. Click to read my analysis for more details."
+    },
     {
       "headline": "3 US Onshoring Stocks To Watch As Tariff Rules Reshape Supply Chains",
       "source": "Yahoo",
@@ -75,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-01",
+  "data_asof": "2026-10-02",
   "price": {
-    "last": 43.17,
-    "open": 42.19,
-    "prev_close": 42.07,
-    "move_day_pct": 2.61,
-    "move_open_close_pct": 2.32,
-    "move_week_pct": -1.98
+    "last": 43.28,
+    "open": 44.08,
+    "prev_close": 43.17,
+    "move_day_pct": 0.25,
+    "move_open_close_pct": -1.8,
+    "move_week_pct": -0.44
   },
   "indicators": {
     "rsi14": {
-      "value": 52.4,
+      "value": 52.8,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 0.26,
-      "signal": 0.357,
-      "hist": -0.098,
-      "hist_prev": -0.142,
+      "macd": 0.281,
+      "signal": 0.342,
+      "hist": -0.061,
+      "hist_prev": -0.098,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 44.98,
-      "lower": 40.69,
-      "mid": 42.83,
-      "pctb": 0.579,
+      "upper": 44.99,
+      "lower": 40.84,
+      "mid": 42.92,
+      "pctb": 0.588,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 12.95,
+      "value": 13.24,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -50.55,
-      "read": "51% below its 52-week high"
+      "value": -50.42,
+      "read": "50% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 50.52,
-      "pct": -14.55,
-      "read": "15% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 50.44,
+      "pct": -14.2,
+      "read": "14% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 1.78,
-      "pct_of_price": 4.11,
+      "value": 1.74,
+      "pct_of_price": 4.01,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.1,
+      "value": 0.78,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 57.7,
+      "value": 62.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 38.22,
   "high_52w": 87.3,
-  "ma50": 42.05,
-  "ma200": 50.52
+  "ma50": 42.11,
+  "ma200": 50.44
 }

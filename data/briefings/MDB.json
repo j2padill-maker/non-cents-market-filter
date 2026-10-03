@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-02T00:53:35.541433-07:00",
+  "generated_at": "2026-10-03T00:26:47.832261-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "Firing on All Cylinders: MongoDB (NASDAQ:MDB) Q2 Earnings Lead the Way",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=40b0b8bbbccf0d048fc15bd90a3f9b7a104dd4f220f0aa2da1f0806e0a467e7d",
+      "datetime": 1790971083,
+      "summary": "As the craze of earnings season draws to a close, here\u2019s a look back at some of the most exciting (and some less so) results from Q2. Today, we are looking at data storage stocks, starting with MongoDB (NASDAQ:MDB)."
+    },
+    {
+      "headline": "Investing.com\u2019s stocks of the week",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=60b50aaf8b3d0a9a5f8ac56b16d6a122dc5d31251a03f48742f3bbce6a2fd1fa",
+      "datetime": 1790966056,
+      "summary": "Investing.com -- Corporate upheaval drove much of the week's action, with a surprise CEO departure and takeover interest in a household name resulting in sharp moves."
+    },
+    {
+      "headline": "Why Palantir Could\u00a0Be One of\u00a0the Decade\u2019s Biggest\u00a0Growth Stocks",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=5f545f6d2d04f3d20775c744fd6e00c6aa8962c1b254f88b8eb1979b240f143f",
+      "datetime": 1790949651,
+      "summary": "Palantir just posted numbers that left Wall Street scrambling to justify its own cautious price targets, and the real question is whether the valuation ceiling everyone keeps citing is about to become a floor."
+    },
+    {
+      "headline": "Can Oracle's Database Business Sustain Margins over the Long Term?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=71f0d10285647fca4c17c86f84f7e168c35c54a460b4ab09a63545f3a350e92f",
+      "datetime": 1790935620,
+      "summary": "ORCL's shift to a consumption-based cloud database can drive growth, but rising infrastructure costs may pressure its historically strong margins."
+    },
+    {
+      "headline": "Cantor Fitzgerald Reiterates Overweight on MongoDB, Maintains $540 Price Target",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=f3e5c0083ad189f2e6f5e0a9753b9af4fa8de4ac9ab6476fcbcdf0b124bd5434",
+      "datetime": 1790925594,
+      "summary": "Cantor Fitzgerald  analyst Thomas Blakey   reiterates MongoDB (NASDAQ:MDB) with a Overweight and maintains $540 price target."
+    },
+    {
       "headline": "Meta\u2019s latest hire highlights high stakes of executive poaching",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=0a3710bf5917429b120cb9f5ca6e79c0270bd858b4f33ea115f1f0a9eaece26c",
       "datetime": 1790868420,
       "summary": "AI companies are especially vulnerable to executive poaching as they race to dominate the explosive market."
-    },
-    {
-      "headline": "Why Is MongoDB (MDB) Down 7.1% Since Last Earnings Report?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a5ac68d8a3a06246a6ea9d8022e98f83aceb376cad6285a0a7406c5180980a3a",
-      "datetime": 1790865003,
-      "summary": "MongoDB (MDB) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues."
-    },
-    {
-      "headline": "Do CEOs Matter? MongoDB Shareholders Are About To Find Out",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=a3ee0c8fc143b16c6236ac1c1e58e16d27cdba493af1c2a881e88f16587f2fed",
-      "datetime": 1790846700,
-      "summary": ""
-    },
-    {
-      "headline": "Why Is MongoDB (MDB) Stock Rocketing Higher Today",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=509ec5f5f3b7a6a69b3df10970dcda3657a3f5c247e9258a8e13b3ef0ca3e274",
-      "datetime": 1790808793,
-      "summary": "Shares of database platform company MongoDB (NASDAQ:MDB) jumped 6% in the afternoon session after the company hosted its Investor Day, prompting Wall Street analysts to reiterate positive ratings and express confidence in its multi-year opportunity."
-    },
-    {
-      "headline": "MongoDB has AI momentum on its side, BofA says following investor day",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=24f01ea2765aaacfcad8665c9d0bfcb75927b32dd299516c1ed3af00d5a420ba",
-      "datetime": 1790789880,
-      "summary": "MongoDB Inc (NASDAQ:MDB) raised its long-term growth targets at its investor day, with Bank of America saying the event was a net positive and maintaining its Buy rating on the stock. For fiscal 2028 to 2030, the database company now targets total revenue growth of 20% or more, up from the..."
-    },
-    {
-      "headline": "MongoDB Stock Regains Ground. How Investor Day Addressed CEO Leaving For Meta.",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=05ce5b2bda0dabc75027d75379cb815d08fb1633b49b0efeba9fd0a905de643d",
-      "datetime": 1790784059,
-      "summary": "MongoDB stock regained some ground Wednesday after news its CEO was leaving for a job at Meta Platforms caused a sell-off."
     }
   ],
   "filings": [
@@ -82,50 +82,50 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-01",
+  "data_asof": "2026-10-02",
   "price": {
-    "last": 351.73,
-    "open": 352.47,
-    "prev_close": 348.61,
-    "move_day_pct": 0.89,
-    "move_open_close_pct": -0.21,
-    "move_week_pct": -16.53
+    "last": 357.96,
+    "open": 353.27,
+    "prev_close": 351.73,
+    "move_day_pct": 1.77,
+    "move_open_close_pct": 1.33,
+    "move_week_pct": -12.79
   },
   "indicators": {
     "rsi14": {
-      "value": 41.7,
+      "value": 43.5,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -9.032,
-      "signal": -2.927,
-      "hist": -6.105,
-      "hist_prev": -5.994,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -9.715,
+      "signal": -4.285,
+      "hist": -5.43,
+      "hist_prev": -6.105,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 434.75,
-      "lower": 323.69,
-      "mid": 379.22,
-      "pctb": 0.253,
+      "upper": 434.12,
+      "lower": 321.66,
+      "mid": 377.89,
+      "pctb": 0.323,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 55.67,
-      "read": "56% above its 52-week low"
+      "value": 58.42,
+      "read": "58% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -25.53,
-      "read": "26% below its 52-week high"
+      "value": -24.21,
+      "read": "24% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 343.16,
-      "pct": 2.5,
-      "read": "2% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 342.87,
+      "pct": 4.4,
+      "read": "4% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 27.16,
-      "pct_of_price": 7.72,
+      "value": 26.97,
+      "pct_of_price": 7.53,
       "read": "High daily volatility"
     },
     "rel_volume": {
@@ -133,12 +133,12 @@
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 50.2,
+      "value": 50.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 388.5,
-  "ma200": 343.16
+  "ma50": 389.67,
+  "ma200": 342.87
 }

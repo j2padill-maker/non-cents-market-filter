@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-02T00:53:38.814713-07:00",
+  "generated_at": "2026-10-03T00:26:51.723133-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Teradyne: AI Testing Growth Is Impressive, But The Valuation Keeps Me Cautious",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=9e3d5c79609413afcb46b62a6e62e53216e5b36b4ddcb8f79260b0918314c620",
-      "datetime": 1790852117,
-      "summary": "Teradyne is experiencing robust AI-driven growth, with Q2 2026 revenue up 104% to $1.329 billion. Click here to read an analysis of TER stock now."
-    },
-    {
-      "headline": "Is Teradyne (TER) a Buy as Wall Street Analysts Look Optimistic?",
+      "headline": "MACOM, Texas Instruments, Semtech, Amkor, and Teradyne Stocks Trade Up, What You Need To Know",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=255c5723aed6178f259946ea2d47d757b4eb3ce71cc80ec58180dd16cbd6d630",
-      "datetime": 1790771403,
-      "summary": "The average brokerage recommendation (ABR) for Teradyne (TER) is equivalent to a Buy. The overly optimistic recommendations of Wall Street analysts make the effectiveness of this highly sought-after metric questionable. So, is it worth buying the stock?"
+      "url": "https://finnhub.io/api/news?id=4a9e0c2e57ecc55e0135a0b513552a366ca05347f47ba2450ff5cb109f9f862f",
+      "datetime": 1790978763,
+      "summary": "A number of stocks jumped in the morning session after weaker-than-expected U.S. employment data cooled Treasury yields, easing interest rate pressure."
     },
     {
-      "headline": "Teradyne (TER) Debuts Magnum E2 For AI Memory Testing",
+      "headline": "Stay informed with the top movers within the S&P500 index on Friday.",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=ca861ffeeb0452b9b3ceee92fd62a06df36568a2f615f744bf4b4c309f941890",
+      "datetime": 1790967901,
+      "summary": "Curious about the top performers within the S&P500 index one hour before the close of the markets on Friday? Dive into the list of today's session's top gainers and losers for a comprehensive overview."
+    },
+    {
+      "headline": "Stock Market Today: Nasdaq Powers Up On U.S. Jobs Shortfall; Tesla Jumps, NetApp Extends Gains (Live Coverage)",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0c5a91281128a25ae5ce49564c2e72931bc4e74223841be5a5cae4c0d57d4a5a",
-      "datetime": 1790712333,
-      "summary": "Teradyne (NasdaqGS:TER) introduced its Magnum E2 high-speed memory test system for next-generation DRAM and flash used in AI data centers. The Magnum E2 platform is described as supporting higher interface speeds and greater parallelism for emerging DRAM and flash standards. Teradyne positions Magnum E2 to address test complexity at the intersection of AI workloads, advanced memory interfaces, and"
+      "url": "https://finnhub.io/api/news?id=37ec08fa2e0cb385facc17b8dd1d4199e86ae880a80f5d065d072386e5d94e78",
+      "datetime": 1790967751,
+      "summary": "Stock Market Today: The Dow Jones index rallies Friday after a surprise result from the U.S. jobs report. Tesla stock jumps on deliveries."
     },
     {
-      "headline": "Donald Trump, Cathie Wood Bet on the Same 32 Stocks \u2013 Some Might Surprise You",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=d045ab6b0c4376bf4a2ea7aa473ff0560d74d081f9b6d94301e57de6a14ea47f",
-      "datetime": 1790699523,
-      "summary": "A look at the stocks that are owned by Cathie Wood&#39;s Ark Invest and Donald Trump."
-    },
-    {
-      "headline": "A Teradyne Director Sells 400 Shares After the Stock Soared Over 200% in the Past Year",
+      "headline": "Chip Stocks Roar Higher, Led By These Lesser-Known Names",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=049bc57b5e08066bff8bcf0ad76800473e3379b94eabfde994c2f48ce10d6601",
-      "datetime": 1790698924,
-      "summary": "The testing equipment provider for semiconductor manufacturers reported a notable insider stock sale."
+      "url": "https://finnhub.io/api/news?id=c45c0eb27474edad5f5e4157b375135c9051f4248cd122996c41d31130d75620",
+      "datetime": 1790963716,
+      "summary": "The Philadelphia semiconductor index, known as SOX, on Friday rose to its highest level in three months."
     },
     {
-      "headline": "Teradyne Announces Magnum E2 to Address Next-Generation Memory Test Demands Driven by AI and High-Performance Computing",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c14504b75ccac7d221ce0bb780f8e8701faf280f71d230b764b5e57b1c6d14aa",
-      "datetime": 1790686800,
-      "summary": "NORTH READING, Mass., September 29, 2026--Teradyne announces Magnum E2 to address next-generation memory test demands driven by AI and high-performance computing."
+      "headline": "Friday's session: top gainers and losers in the S&P500 index",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=dae9e38216af9caeb3c9abed3121741bfec571aa37cb57af005378a6860ef556",
+      "datetime": 1790958901,
+      "summary": "Join us in exploring the top gainers and losers within the S&P500 index in the middle of the day on Friday as we examine the latest happenings in today's session."
+    },
+    {
+      "headline": "Top S&P500 movers in Friday's pre-market session",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=d674fc0a6667a4bad40905abffa35b1f158852775d0f2c63316a7d2a5f493f83",
+      "datetime": 1790944501,
+      "summary": "Before the opening bell on Friday, let's take a glimpse of the US markets and explore the S&P500 top gainers and losers in today's pre-market session."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-01",
+  "data_asof": "2026-10-02",
   "price": {
-    "last": 415.79,
-    "open": 402.9,
-    "prev_close": 400.91,
-    "move_day_pct": 3.71,
-    "move_open_close_pct": 3.2,
-    "move_week_pct": 7.25
+    "last": 449.04,
+    "open": 430.8,
+    "prev_close": 415.79,
+    "move_day_pct": 8.0,
+    "move_open_close_pct": 4.23,
+    "move_week_pct": 12.72
   },
   "indicators": {
     "rsi14": {
-      "value": 62.5,
+      "value": 69.6,
       "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 10.429,
-      "signal": 5.071,
-      "hist": 5.359,
-      "hist_prev": 5.014,
+      "macd": 14.283,
+      "signal": 6.913,
+      "hist": 7.37,
+      "hist_prev": 5.359,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 425.51,
-      "lower": 325.03,
-      "mid": 375.27,
-      "pctb": 0.903,
-      "read": "Near the upper band"
+      "upper": 437.54,
+      "lower": 324.06,
+      "mid": 380.8,
+      "pctb": 1.101,
+      "read": "Above the upper band \u2014 stretched to the upside"
     },
     "pct_from_52w_low": {
-      "value": 215.41,
-      "read": "215% above its 52-week low"
+      "value": 240.63,
+      "read": "241% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -14.03,
+      "value": -7.16,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 333.59,
-      "pct": 24.64,
-      "read": "25% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 334.87,
+      "pct": 34.09,
+      "read": "34% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 19.27,
-      "pct_of_price": 4.63,
+      "value": 20.47,
+      "pct_of_price": 4.56,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.72,
-      "read": "Roughly average volume"
+      "value": 1.41,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 60.2,
+      "value": 72.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 131.82,
   "high_52w": 483.65,
-  "ma50": 373.34,
-  "ma200": 333.59
+  "ma50": 374.84,
+  "ma200": 334.87
 }

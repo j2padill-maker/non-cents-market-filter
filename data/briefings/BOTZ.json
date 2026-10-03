@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-02T00:53:39.161098-07:00",
+  "generated_at": "2026-10-03T00:26:52.083923-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,109 +17,109 @@
   ],
   "news": [
     {
+      "headline": "Q3 Recap: Resilience Is Reshaping The Outlook",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=32f3d5748bcecbe962f07e4f291082025d34de1c1609e1945654a1ced6f719e3",
+      "datetime": 1790996400,
+      "summary": "In the third quarter, markets absorbed higher rates, rising oil prices, and renewed inflation concerns, and continued to advance. Read more here."
+    },
+    {
+      "headline": "The Case For A Fed Pause Strengthens",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=36bc9a7db8328007f5458539f8ab568f5ae780ceaab076cb06a9e68e5fe06b42",
+      "datetime": 1790995200,
+      "summary": "Softer U.S. inflation and labor data as well as more cautious comments from Federal Reserve officials shifted the rates outlook this week. Read more here."
+    },
+    {
+      "headline": "U.S., China And The Race For Global AI Leadership",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=f6ecf20e0fafbd372d581dda2af8a3326c7ce6564ef33eb3b1df2121c05cb3c6",
+      "datetime": 1790951700,
+      "summary": "Why investors may want to reconsider assumptions about China\u00e2\u0080\u0099s role on the global stage and how the AI race could reshape economic, technological and geopolitical power."
+    },
+    {
+      "headline": "Equity Outlook: AI, Higher Rates Raise The Bar For Diversification",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=3c283439e404b9450f6e0b12e4ab991f7294be20772fc180e4c1d4b42341c073",
+      "datetime": 1790944800,
+      "summary": "Global equities advanced in the third quarter as market returns broadened away from technology. Read more here."
+    },
+    {
+      "headline": "AI: Will The World Go Dead Or Markets Continue To Surge Ahead?",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=24f0c28137ba8659420f83e17babce68560377471ca94adb765414fca07af1a3",
+      "datetime": 1790928300,
+      "summary": "While AI dominates the headlines, other macroeconomic variables continue to shape the financial markets. Investors, however, took a measured view of the noise. Read more here..."
+    },
+    {
       "headline": "Dan Ives Calls Physical AI Nvidia\u2019s 'Holy Grail' \u2014 This ETF Is Already in the Trade",
       "source": "Benzinga",
       "url": "https://finnhub.io/api/news?id=62c061737f0549f4dce08907cca3f67a4a8d873a3f0ed03dea93f20ea08b8c44",
       "datetime": 1790751608,
       "summary": "Dan Ives calls physical AI Nvidia\u2019s \u201choly grail,\u201d pointing to a potential robotics boom. See how BOTZ offers exposure to Nvidia and the automation trade."
-    },
-    {
-      "headline": "Bond Market Sell-Off: Higher Yields, Stronger Fundamentals",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=1d6993cb38d51c9340e40f82a9eb26fd224a36ddec38ffb0f77c27202b7172e0",
-      "datetime": 1790737800,
-      "summary": "Government bond yields have recently risen sharply, pushing borrowing costs to their highest levels in years and extending the bond market sell-off."
-    },
-    {
-      "headline": "Anthropic Eyes Monster $2 Trillion IPO, Yet Deal Veteran Says It Won\u2019t Be a Market Catalyst",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=a49772a2323dc8189171599f7ad2d95a9bb7e18813f53dedb004b2c3f7851aa0",
-      "datetime": 1790666322,
-      "summary": "Anthropic eyes a $2T+ IPO valuation despite $42B in losses, while M&amp;A expert Robert Kindler downplays its overall stock market impact."
-    },
-    {
-      "headline": "Anthropic Bets Big On AI, Bleeds Billions: Key Details From The Reported IPO Prospectus",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=dd181fb5e88dfc3b2274d143f2dfbf3c4c024445a2f4087c93e30bf95cda1eb1",
-      "datetime": 1790644871,
-      "summary": "Anthropic reportedly bets AI will transform the economy more than industrialization or the internet \u2014 at a staggering cost."
-    },
-    {
-      "headline": "Why Meta's Muse May Support The AI Bull Market",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=b68e75fd8d03113a2dc3e5c47cb0ef600dc79f9954d81fff6359503904b4ffd4",
-      "datetime": 1790608800,
-      "summary": "Muse's early success is a reminder that the cyclical backdrop may face headwinds, but the structural growth underpinning this bull market remained very much intact. Read more here..."
-    },
-    {
-      "headline": "The Credit Market Lens: Hyperscalers Are Repricing, Not Displacing (So Far)",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=ec39a3f13f3ba81fc73d5d7a7fc895ee4d0af6db6d85d1f0e852d68d435e0dbf",
-      "datetime": 1790606160,
-      "summary": "AI-related borrowers have accounted for nearly a quarter of nonfinancial U.S. dollar (USD) supply year-to-date, yet spreads for non-AI issuers have not widened meaningfully."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-01",
+  "data_asof": "2026-10-02",
   "price": {
-    "last": 35.43,
-    "open": 35.51,
-    "prev_close": 35.23,
-    "move_day_pct": 0.57,
-    "move_open_close_pct": -0.24,
-    "move_week_pct": 0.6
+    "last": 36.03,
+    "open": 35.9,
+    "prev_close": 35.43,
+    "move_day_pct": 1.69,
+    "move_open_close_pct": 0.36,
+    "move_week_pct": 1.78
   },
   "indicators": {
     "rsi14": {
-      "value": 49.5,
+      "value": 56.1,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.141,
-      "signal": -0.192,
-      "hist": 0.05,
-      "hist_prev": 0.04,
+      "macd": -0.074,
+      "signal": -0.168,
+      "hist": 0.094,
+      "hist_prev": 0.05,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 36.07,
-      "lower": 34.5,
-      "mid": 35.28,
-      "pctb": 0.593,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 36.11,
+      "lower": 34.48,
+      "mid": 35.3,
+      "pctb": 0.949,
+      "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 10.81,
+      "value": 12.69,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -14.85,
+      "value": -13.41,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
       "ma200": 36.86,
-      "pct": -3.88,
-      "read": "4% below its 200-day average \u2014 long-term downtrend"
+      "pct": -2.25,
+      "read": "2% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.51,
-      "pct_of_price": 1.43,
+      "value": 0.52,
+      "pct_of_price": 1.45,
       "read": "Calm \u2014 low volatility"
     },
     "rel_volume": {
-      "value": 0.91,
+      "value": 0.93,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 57.5,
+      "value": 65.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 31.97,
   "high_52w": 41.61,
-  "ma50": 35.73,
+  "ma50": 35.77,
   "ma200": 36.86
 }

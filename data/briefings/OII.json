@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-02T00:53:39.425132-07:00",
+  "generated_at": "2026-10-03T00:26:52.330220-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,11 +17,25 @@
   ],
   "news": [
     {
+      "headline": "A Look Back at Oilfield Services Stocks\u2019 Q2 Earnings: Oceaneering (NYSE:OII) Vs The Rest Of The Pack",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=162ad2ca8cb812fabf08aff1c5e07f24daf5530868e0c2e917e5a747ee052706",
+      "datetime": 1790966763,
+      "summary": "Wrapping up Q2 earnings, we look at the numbers and key takeaways for the oilfield services stocks, including Oceaneering (NYSE:OII) and its peers."
+    },
+    {
       "headline": "Oceaneering Announces U.S. Navy Dry Deck Shelter Award",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=6acb1e2428be6ef53ed73b7d4129c46195873af2c7cf2cf1c2cc783d62d445b9",
       "datetime": 1790890560,
       "summary": "HOUSTON, October 01, 2026--Oceaneering Announces U.S. Navy Dry Deck Shelter Award. ADTech awarded follow-on 5-yrs contract (1 base yr and 4 option yrs), w/potential of $154M"
+    },
+    {
+      "headline": "Oceaneering International Reveals U.S. Navy Dry Deck Shelter Award; The Five-Year Contract Has A Potential Value Of $154M",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=6b7313a3fa9369c50394b77d213c37ffa1de1fc200b5e2e6c296e0afd51ac6e7",
+      "datetime": 1790876451,
+      "summary": "Oceaneering International, Inc. (&#34;Oceaneering&#34;) (NYSE:OII) announced today that its Aerospace and Defense Technologies (&#34;ADTech&#34;) segment has been awarded a follow-on U.S. Navy contract to provide Dry"
     },
     {
       "headline": "3 Undervalued Small Cap Stocks Trading At Least 14% Below Fair Value",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=ebf896eb9d48a1977269a41efddabc3c37a6b7fafe7b3a7d2ece93d651c503c5",
       "datetime": 1790684760,
       "summary": "NBR's rally reflects stronger profitability, better contract visibility and growth opportunities, while cash flow and geopolitical risks remain key concerns."
-    },
-    {
-      "headline": "Here's Why You Should Add Baker Hughes Stock to Your Portfolio Now",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=882796fbf7b90879b5679b030c5aa78b915e0edbda233c78d4da72cc5da6f75c",
-      "datetime": 1790609700,
-      "summary": "BKR's surging IET orders, record backlog and stronger margins are broadening growth beyond oilfield services and boosting revenue visibility."
-    },
-    {
-      "headline": "Crude Holds Above $94: Are Oilfield Stocks an Attractive Opportunity Now?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7e615057be9e02b92d21ccb8dd1f5f8da32b09247e6eaac87e792e44d00455e9",
-      "datetime": 1790601300,
-      "summary": "WTI crude above $94 may support U.S. drilling and offshore activity, creating stronger oilfield service demand for Baker Hughes and Oceaneering International."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-01",
+  "data_asof": "2026-10-02",
   "price": {
-    "last": 44.36,
-    "open": 43.38,
-    "prev_close": 43.63,
-    "move_day_pct": 1.67,
-    "move_open_close_pct": 2.26,
-    "move_week_pct": -4.95
+    "last": 44.32,
+    "open": 44.22,
+    "prev_close": 44.36,
+    "move_day_pct": -0.09,
+    "move_open_close_pct": 0.23,
+    "move_week_pct": -4.19
   },
   "indicators": {
     "rsi14": {
-      "value": 36.9,
+      "value": 36.8,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -1.358,
-      "signal": -0.99,
-      "hist": -0.369,
-      "hist_prev": -0.418,
+      "macd": -1.379,
+      "signal": -1.068,
+      "hist": -0.312,
+      "hist_prev": -0.369,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 52.18,
-      "lower": 42.48,
-      "mid": 47.33,
-      "pctb": 0.194,
-      "read": "Near the lower band"
+      "upper": 51.52,
+      "lower": 42.39,
+      "mid": 46.96,
+      "pctb": 0.211,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 99.82,
+      "value": 99.64,
       "read": "100% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -18.02,
+      "value": -18.09,
       "read": "18% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 38.46,
-      "pct": 15.34,
+      "ma200": 38.55,
+      "pct": 14.97,
       "read": "15% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 1.73,
-      "pct_of_price": 3.89,
+      "value": 1.69,
+      "pct_of_price": 3.82,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.86,
+      "value": 0.67,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 20.1,
+      "value": 25.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 22.2,
   "high_52w": 54.11,
-  "ma50": 49.27,
-  "ma200": 38.46
+  "ma50": 49.19,
+  "ma200": 38.55
 }

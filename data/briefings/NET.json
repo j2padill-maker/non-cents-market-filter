@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-02T00:53:36.947557-07:00",
+  "generated_at": "2026-10-03T00:26:49.671982-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "AI Agents and Bots Now Generate Most Web Traffic as Infrastructure Stocks Rally",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=4103e53f9451fa774515d96378457b0c40eae2f7412193202049d8cb541344a0",
+      "datetime": 1790909040,
+      "summary": "AI agents and bots drive about 57% of web traffic, lifting Cloudflare, Akamai, and Fastly stocks. See who gains most."
+    },
     {
       "headline": "Cloudflare Launches Basin: A More Open and Accessible Data Platform for Developers",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=0c90d52320f49228c2dc5c661e5b7d568d41bfcf0a5cc9dff09d713dccada925",
       "datetime": 1790772313,
       "summary": "Cloudflare has surged nearly 80% this year on the back of an AI security boom, but the stock now trades at a multiple that punishes any stumble. The next two earnings reports will determine whether this rally was justified or priced for perfection."
-    },
-    {
-      "headline": "1 Unprofitable Stock with Impressive Fundamentals and 2 We Avoid",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b5a91f6ca341280299d002e25fb7387c93f89105cfafbe0571c699e6c35a5deb",
-      "datetime": 1790771833,
-      "summary": "Unprofitable companies can burn through cash quickly, leaving investors exposed if they fail to turn things around. Without a clear path to profitability, these businesses risk running out of capital or relying on dilutive fundraising."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-01",
+  "data_asof": "2026-10-02",
   "price": {
-    "last": 351.0,
-    "open": 350.01,
-    "prev_close": 347.28,
-    "move_day_pct": 1.07,
-    "move_open_close_pct": 0.28,
-    "move_week_pct": -2.18
+    "last": 349.07,
+    "open": 351.8,
+    "prev_close": 351.0,
+    "move_day_pct": -0.55,
+    "move_open_close_pct": -0.78,
+    "move_week_pct": 0.01
   },
   "indicators": {
     "rsi14": {
-      "value": 61.4,
+      "value": 60.3,
       "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 15.529,
-      "signal": 14.842,
-      "hist": 0.686,
-      "hist_prev": 1.318,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": 14.837,
+      "signal": 14.841,
+      "hist": -0.004,
+      "hist_prev": 0.686,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 379.46,
-      "lower": 279.42,
-      "mid": 329.44,
-      "pctb": 0.716,
+      "upper": 378.86,
+      "lower": 286.48,
+      "mid": 332.67,
+      "pctb": 0.678,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 119.11,
-      "read": "119% above its 52-week low"
+      "value": 117.91,
+      "read": "118% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -2.18,
+      "value": -2.72,
       "read": "At or near its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 234.44,
-      "pct": 49.72,
-      "read": "50% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 235.21,
+      "pct": 48.41,
+      "read": "48% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 16.47,
-      "pct_of_price": 4.69,
+      "value": 16.02,
+      "pct_of_price": 4.59,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.9,
+      "value": 0.92,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 58.8,
+      "value": 57.6,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 358.82,
-  "ma50": 305.99,
-  "ma200": 234.44
+  "ma50": 307.73,
+  "ma200": 235.21
 }

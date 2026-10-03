@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-02T00:53:39.720187-07:00",
+  "generated_at": "2026-10-03T00:26:52.685708-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "Zscaler (ZS) Stock Still Trades Below Fair Value After 36% Slide",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=db0213385e93199ee4ff1bf43c72f734fd99544ad5eb84e541939345dfca3fb3",
+      "datetime": 1791000999,
+      "summary": "Zscaler has had a bumpy ride, with the stock falling 35.6% over the past year even as interest in cybersecurity and AI driven threats keeps climbing. With the shares recently closing at US$196.60, the live question is whether that price lines up with the cash flows the business is expected to generate. A 35.6% share price decline over 12 months puts the focus squarely on whether the market has shi"
+    },
+    {
+      "headline": "Zscaler (ZS) Stock Drops Despite Market Gains: Important Facts to Note",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=74108f4c5b71d9806a2d6a6a78aafbee4a670efea3f14bc5d11453db95aa2c5a",
+      "datetime": 1790973907,
+      "summary": "Zscaler (ZS) closed at $196.6 in the latest trading session, marking a -1.1% move from the prior day."
+    },
+    {
+      "headline": "Zscaler (ZS) Stock Gets Fair Value Bump As Analysts Debate Growth And Execution",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=cd63cdb5cce230f1ce720d9cc55e35425d104f68b366841c34be208e8f8fc49d",
+      "datetime": 1790964398,
+      "summary": "Zscaler's updated fair value estimate has moved from US$196.95 to US$210.13, signaling a modest reset in how the stock is being framed by this particular model. That adjustment sits against a backdrop of mixed analyst commentary, with some firms lifting targets into the US$200 to US$230 range while others remain more cautious around execution and growth durability. As you read on, you will see how"
+    },
+    {
+      "headline": "What Changed For CrowdStrike Stock, And What Did Not?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=94db642acdd2c46389f73bf795a63032a6a4528077c222e9bbce23522b7b4abb",
+      "datetime": 1790950456,
+      "summary": "A $10,000 holding in CrowdStrike (CRWD) on October 1, 2025 was worth about $21,300 on October 1, 2026. The S&P 500 returned 15.6% over the same twelve months. The gain was not steady: in early April 2026, CrowdStrike stock was down about 16% from the start of 2026. What did buyers see after April that they had not seen before."
+    },
+    {
+      "headline": "Zscaler, Inc. (ZS) is Attracting Investor Attention: Here is What You Should Know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=4a77b4c4049a4e5bc2d65efe51f3840e66861ac670f6344320e952bd4c01a9cb",
+      "datetime": 1790942405,
+      "summary": "Zacks.com users have recently been watching Zscaler (ZS) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects."
+    },
+    {
       "headline": "Zscaler (ZS) Warns AI Driven Ransomware Is Reshaping Cyber Threats",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=14619884e27f917ad046520b6d7474136481d2e788cd90f8f2d3073ce1c522c9",
       "datetime": 1790874690,
       "summary": "Zscaler (NasdaqGS: ZS) released its ThreatLabz 2026 Ransomware Report on 1 October 2026, detailing new attack patterns. The study highlights large scale AI driven ransomware operations that automate intrusion, data theft, and victim targeting. Researchers report a rise in executive focused data theft and misuse of enterprise tools like Microsoft Teams to gain access. The shift toward AI powered ra"
-    },
-    {
-      "headline": "PANW Stock Rises 21% in a Month: Should You Hold or Book Profits?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=44423861aa2655f8ba3d9734a19c768598400304015ca15f8cfe3ecf6146a096",
-      "datetime": 1790864520,
-      "summary": "Palo Alto Networks' shares jump 20.9% in a month, driven by AI security demand. However, rising costs and premium valuation warrant caution."
-    },
-    {
-      "headline": "Is CrowdStrike Stock Paying You Enough For The Swings?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3b1ce86d6a5a6ec27a855140d43c0c1efa159ba482de8fbac8d67d462daf838a",
-      "datetime": 1790782850,
-      "summary": "You may own CrowdStrike (CRWD), a cybersecurity company whose shares rose 5.1% in five sessions as the S&P 500 fell 1.2%. You likely hold it beside an index fund, and your whole account swings more when one holding jumps. Have the gains on CrowdStrike been big enough to pay for those swings."
-    },
-    {
-      "headline": "PANW Hits Record High As AI Safety Debate Continues To Boost Cybersecurity Stocks \u2014 Analysts See Cyber Spending Upside",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3aaaa9b417ff7b770236e48bdef10ed7b31ca778e848767cf2ee3a427a4d3935",
-      "datetime": 1790782021,
-      "summary": "Morgan Stanley raised its PANW target to $410 from $394 recently, calling it a key beneficiary of increased cybersecurity spending, according to TheFly."
-    },
-    {
-      "headline": "Cloudflare at $350: AI Cybersecurity Threats Aren\u2019t Enough to Move the Needle Now",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0c90d52320f49228c2dc5c661e5b7d568d41bfcf0a5cc9dff09d713dccada925",
-      "datetime": 1790772313,
-      "summary": "Cloudflare has surged nearly 80% this year on the back of an AI security boom, but the stock now trades at a multiple that punishes any stumble. The next two earnings reports will determine whether this rally was justified or priced for perfection."
-    },
-    {
-      "headline": "Zscaler Tanked Over One Year: A Prominent Firm Says 50% Gains to Arrive in 12 Months or Less",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a09b10633d68d8828a64ff97280d5c49350a8bba8b07ceb22089b61d64209d23",
-      "datetime": 1790766911,
-      "summary": "While cybersecurity peers doubled in value over the past year, Zscaler slid past 30% and now sits at a crossroads where one bold analyst sees a very different story unfolding than the rest of Wall Street is willing to admit."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-01",
+  "data_asof": "2026-10-02",
   "price": {
-    "last": 198.78,
-    "open": 202.65,
-    "prev_close": 199.42,
-    "move_day_pct": -0.32,
-    "move_open_close_pct": -1.91,
-    "move_week_pct": -7.39
+    "last": 196.6,
+    "open": 201.18,
+    "prev_close": 198.78,
+    "move_day_pct": -1.1,
+    "move_open_close_pct": -2.28,
+    "move_week_pct": 1.84
   },
   "indicators": {
     "rsi14": {
-      "value": 56.3,
+      "value": 54.6,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 7.497,
-      "signal": 8.031,
-      "hist": -0.534,
-      "hist_prev": -0.142,
+      "macd": 6.827,
+      "signal": 7.79,
+      "hist": -0.963,
+      "hist_prev": -0.534,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 224.11,
-      "lower": 157.0,
-      "mid": 190.55,
-      "pctb": 0.623,
+      "upper": 224.62,
+      "lower": 158.37,
+      "mid": 191.49,
+      "pctb": 0.577,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 68.39,
-      "read": "68% above its 52-week low"
+      "value": 66.54,
+      "read": "67% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -40.89,
-      "read": "41% below its 52-week high"
+      "value": -41.54,
+      "read": "42% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 166.59,
-      "pct": 19.32,
-      "read": "19% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 166.42,
+      "pct": 18.13,
+      "read": "18% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 9.61,
-      "pct_of_price": 4.84,
+      "value": 9.42,
+      "pct_of_price": 4.79,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.43,
-      "read": "Light \u2014 quiet trading"
+      "value": 0.53,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 72.0,
+      "value": 64.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 118.05,
   "high_52w": 336.27,
-  "ma50": 177.95,
-  "ma200": 166.59
+  "ma50": 179.09,
+  "ma200": 166.42
 }

@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-02T00:53:36.693456-07:00",
+  "generated_at": "2026-10-03T00:26:49.304970-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Datadog Stock Is Having Its Best Year Since 2020. It Could Get Even Better From Here.",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=0f4a8ea9181f55413b76bc7a07776d7c881e3f6eb82b4521231c2a34036bddaf",
+      "datetime": 1790964300,
+      "summary": "FBN Securities initiated coverage of the stock with an Outperform rating."
+    },
+    {
+      "headline": "Airbnb upgraded, Zscaler downgraded: Wall Street's top analyst calls",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=272e7a6098ebd7fbb6bf854362273b58af3a077e1518ddcdf442288e59af7132",
+      "datetime": 1790948456,
+      "summary": "Airbnb upgraded, Zscaler downgraded: Wall Street's top analyst calls"
+    },
+    {
+      "headline": "Here's How Much $100 Invested In Datadog 5 Years Ago Would Be Worth Today",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=535b15a8750dd9672f641e436d225fffdee229aac9a782758be1f890ac1aab54",
+      "datetime": 1790874024,
+      "summary": "Datadog (NASDAQ:DDOG) has outperformed the market over the past 5 years by 2.25% on an annualized basis producing an average annual return of 14.27%. Currently, Datadog has a market capitalization of $99.27 billion."
+    },
     {
       "headline": "Dynatrace Arize Acquisition Likely Boost AI 'Observability' Growth, UBS Says",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=b6cd46fe13464accc7cf7c0fce50409578fdc436b11235be3754d7ab90f8a41c",
       "datetime": 1790771296,
       "summary": ""
-    },
-    {
-      "headline": "2 Unpopular Stocks That Should Get More Attention and 1 We Brush Off",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d5050c2b728ecd48dfe74237df57cafedb575717e6d532336b41653467e19a4c",
-      "datetime": 1790768953,
-      "summary": "When Wall Street turns bearish on a stock, it\u2019s worth paying attention. These calls stand out because analysts rarely issue grim ratings on companies for fear their firms will lose out in other business lines such as M&A advisory."
-    },
-    {
-      "headline": "Datadog: The SaaS That AI Needs",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=329f11a1360e01f072b3b8563e8371c7aab136aaa37d35f8c712bd374b2bb614",
-      "datetime": 1790763944,
-      "summary": "Datadog has demonstrated hypergrowth, with Q2 revenue accelerating, driven by surging demand for AI observability solutions. Read why DDOG stock is a hold."
-    },
-    {
-      "headline": "Datadog's Guidance Is Too Low, But The Street Has Already Priced It",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=9c8e2e97e5d7f00472d88732950fa329f27294cd44c2d5c5433616b80e57de8f",
-      "datetime": 1790761162,
-      "summary": "Datadog rebounded sharply after a major customer usage cut and broader software sell-off. Check out why DDOG stock is a hold."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-01",
+  "data_asof": "2026-10-02",
   "price": {
-    "last": 276.46,
-    "open": 278.75,
-    "prev_close": 273.85,
-    "move_day_pct": 0.95,
-    "move_open_close_pct": -0.82,
-    "move_week_pct": 7.61
+    "last": 277.22,
+    "open": 280.31,
+    "prev_close": 276.46,
+    "move_day_pct": 0.27,
+    "move_open_close_pct": -1.1,
+    "move_week_pct": 3.39
   },
   "indicators": {
     "rsi14": {
-      "value": 70.3,
+      "value": 70.6,
       "read": "Overbought"
     },
     "macd": {
-      "macd": 10.056,
-      "signal": 4.903,
-      "hist": 5.153,
-      "hist_prev": 5.339,
+      "macd": 10.866,
+      "signal": 6.096,
+      "hist": 4.77,
+      "hist_prev": 5.153,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 283.28,
-      "lower": 198.7,
-      "mid": 240.99,
-      "pctb": 0.919,
+      "upper": 287.41,
+      "lower": 200.82,
+      "mid": 244.11,
+      "pctb": 0.882,
       "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 169.41,
-      "read": "169% above its 52-week low"
+      "value": 170.16,
+      "read": "170% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -4.06,
+      "value": -3.79,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 184.16,
-      "pct": 50.12,
+      "ma200": 184.83,
+      "pct": 49.99,
       "read": "50% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 12.19,
-      "pct_of_price": 4.41,
+      "value": 11.85,
+      "pct_of_price": 4.27,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.83,
+      "value": 0.59,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 82.0,
+      "value": 81.9,
       "read": "Overbought \u2014 money flowing in"
     }
   },
   "low_52w": 102.61,
   "high_52w": 288.15,
-  "ma50": 244.01,
-  "ma200": 184.16
+  "ma50": 244.66,
+  "ma200": 184.83
 }
