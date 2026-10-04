@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-03T00:26:50.675954-07:00",
+  "generated_at": "2026-10-04T00:45:43.045493-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Cognex: Wait For A Better Time To Buy",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=d08b078eea1e1e90fa71159444cfe8247be5a4a90ac2ad5d1beac7eb85c24a19",
+      "datetime": 1791012183,
+      "summary": "Cognex has a differentiated offering that has been substantially enhanced by AI but gets a Hold rating amid concerns of Chinese competition. Click for more."
+    },
+    {
+      "headline": "Hesai Says Co Selected By NVIDIA As Lidar Partner For NVIDIA DRIVE Hyperion 10",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=188b4d8ee71a8e52b66809d406cc7c293d8b00b7f1c9f28a4df221dd0b53d09c",
+      "datetime": 1790946023,
+      "summary": ""
+    },
     {
       "headline": "3 Volatile Stocks We Keep Off Our Radar",
       "source": "Yahoo",

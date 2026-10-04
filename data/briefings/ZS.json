@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-03T00:26:52.685708-07:00",
+  "generated_at": "2026-10-04T00:45:44.688828-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Fortinet Turned $1,000 Into $24,579 in a Decade While the S&P 500 Delivered $3,585",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=52b461b08e5c3ab805c790028f28d7ab8b4ea6d0a40c7be46c5074692dffd460",
+      "datetime": 1791042324,
+      "summary": "Fortinet built its own chips when rivals wouldn't, kept its founder at the helm, and sat through a brutal two-year slump that punished investors who blinked. Whether the stock's explosive comeback signals a new chapter or a valuation trap worth avoiding is the question every shareholder faces right now."
+    },
     {
       "headline": "Zscaler (ZS) Stock Still Trades Below Fair Value After 36% Slide",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=4a77b4c4049a4e5bc2d65efe51f3840e66861ac670f6344320e952bd4c01a9cb",
       "datetime": 1790942405,
       "summary": "Zacks.com users have recently been watching Zscaler (ZS) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects."
-    },
-    {
-      "headline": "Zscaler (ZS) Warns AI Driven Ransomware Is Reshaping Cyber Threats",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=14619884e27f917ad046520b6d7474136481d2e788cd90f8f2d3073ce1c522c9",
-      "datetime": 1790874690,
-      "summary": "Zscaler (NasdaqGS: ZS) released its ThreatLabz 2026 Ransomware Report on 1 October 2026, detailing new attack patterns. The study highlights large scale AI driven ransomware operations that automate intrusion, data theft, and victim targeting. Researchers report a rise in executive focused data theft and misuse of enterprise tools like Microsoft Teams to gain access. The shift toward AI powered ra"
     }
   ],
   "filings": [

@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-03T00:26:51.723133-07:00",
+  "generated_at": "2026-10-04T00:45:43.878026-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Teradyne Is Up Big, But The Real Growth May Still Be Ahead",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=30259b4d4ea2ed4d1d8c853db858d0ea033cfc536272e10769b28e7f8b6c8fea",
+      "datetime": 1791069060,
+      "summary": "Teradyne is now over 60% AI-driven, with strong Q2 2026 results and significant compute-related growth. Read more on TER stock here."
+    },
     {
       "headline": "MACOM, Texas Instruments, Semtech, Amkor, and Teradyne Stocks Trade Up, What You Need To Know",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=dae9e38216af9caeb3c9abed3121741bfec571aa37cb57af005378a6860ef556",
       "datetime": 1790958901,
       "summary": "Join us in exploring the top gainers and losers within the S&P500 index in the middle of the day on Friday as we examine the latest happenings in today's session."
-    },
-    {
-      "headline": "Top S&P500 movers in Friday's pre-market session",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=d674fc0a6667a4bad40905abffa35b1f158852775d0f2c63316a7d2a5f493f83",
-      "datetime": 1790944501,
-      "summary": "Before the opening bell on Friday, let's take a glimpse of the US markets and explore the S&P500 top gainers and losers in today's pre-market session."
     }
   ],
   "filings": [

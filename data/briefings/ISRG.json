@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-03T00:26:51.055697-07:00",
+  "generated_at": "2026-10-04T00:45:43.346740-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Intuitive Surgical: A Surgical Leader Facing A Valuation Problem",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=5f3b3cd28c9a30ebb8fe49e36f4bc48561e522b542d779a45257c34c41146a55",
+      "datetime": 1791009513,
+      "summary": "Intuitive Surgical is rated HOLD at $406.63, with a probability-weighted fair value of ~$430/share and 82% confidence in the rating. Click for more on ISRG."
+    },
     {
       "headline": "Intuitive Surgical (ISRG): Is Its Robotic-Surgery Moat Still Untouchable?",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=246e6fe5c3fcbc354cf27fc7bea477fb73d2199c42c145d62c39bd25d6d99f2e",
       "datetime": 1790929003,
       "summary": ""
-    },
-    {
-      "headline": "Abbott Laboratories vs. Intuitive Surgical: Which Healthcare Stock Is a Better Buy in 2026?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7d8978edc7fd5a9c86de1f230baa55e83b41e9989c7c5a688bebbb853aaf7c88",
-      "datetime": 1790877303,
-      "summary": "Intuitive Surgical is beating estimates and raising margins while its installed base keeps expanding. Abbott is executing steadily across a diversified portfolio but growing at a more measured pace."
     }
   ],
   "filings": [

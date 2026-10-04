@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-03T00:26:52.083923-07:00",
+  "generated_at": "2026-10-04T00:45:44.152703-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "The Ever-Widening Overton Window Of AI Safety",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=7b514b87531224a9104acb327963737a314e451b33315174ea3623a7ed1afe93",
+      "datetime": 1790998500,
+      "summary": "AI alignment or safety used to be a bit of a fringe issue primarily discussed in some corners in the Silicon Valley offline or in the pages of LessWrong."
+    },
     {
       "headline": "Q3 Recap: Resilience Is Reshaping The Outlook",
       "source": "SeekingAlpha",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=24f0c28137ba8659420f83e17babce68560377471ca94adb765414fca07af1a3",
       "datetime": 1790928300,
       "summary": "While AI dominates the headlines, other macroeconomic variables continue to shape the financial markets. Investors, however, took a measured view of the noise. Read more here..."
-    },
-    {
-      "headline": "Dan Ives Calls Physical AI Nvidia\u2019s 'Holy Grail' \u2014 This ETF Is Already in the Trade",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=62c061737f0549f4dce08907cca3f67a4a8d873a3f0ed03dea93f20ea08b8c44",
-      "datetime": 1790751608,
-      "summary": "Dan Ives calls physical AI Nvidia\u2019s \u201choly grail,\u201d pointing to a potential robotics boom. See how BOTZ offers exposure to Nvidia and the automation trade."
     }
   ],
   "filings": [],
