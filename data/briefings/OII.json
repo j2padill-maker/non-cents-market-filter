@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-04T00:45:44.416478-07:00",
+  "generated_at": "2026-10-05T01:03:44.378054-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Should Oceaneering\u2019s New Five-Year U.S. Navy Dry Deck Shelter Contract Reshape How OII Is Valued?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=68e7715c7e4d98737913b16a619f7203fa7658a3e95900bb83b99911758697c9",
+      "datetime": 1791022027,
+      "summary": "Oceaneering International, Inc. recently announced that its Aerospace and Defense Technologies segment secured a follow-on U.S. Navy contract for Dry Deck Shelter maintenance, overhaul, engineering, and field change services, a five-year agreement with a potential value of US$154,000,000 supporting special operations forces and undersea vehicles. This follow-on award highlights how Oceaneering\u2019s d"
+    },
     {
       "headline": "A Look Back at Oilfield Services Stocks\u2019 Q2 Earnings: Oceaneering (NYSE:OII) Vs The Rest Of The Pack",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=6b5c86079abbb0e48bf5779c7ac44b8fa99a8d0926f5a1bc00164e6fbdc62b46",
       "datetime": 1790688420,
       "summary": "Comstock's $1.65B SOCAR partnership advances, adding LNG market access and greater visibility to its Haynesville growth strategy."
-    },
-    {
-      "headline": "Here's Why Hold Strategy Is Apt for Nabors Industries Stock for Now",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ebf896eb9d48a1977269a41efddabc3c37a6b7fafe7b3a7d2ece93d651c503c5",
-      "datetime": 1790684760,
-      "summary": "NBR's rally reflects stronger profitability, better contract visibility and growth opportunities, while cash flow and geopolitical risks remain key concerns."
     }
   ],
   "filings": [

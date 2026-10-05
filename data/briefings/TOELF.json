@@ -2,7 +2,7 @@
   "ticker": "TOELF",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-04T00:45:41.801258-07:00",
+  "generated_at": "2026-10-05T01:03:41.891743-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Tokyo shares are higher as easing worries over inflation reduce odds for another Fed rate hike",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=9cb259582ae44d98309f1cdac6161953d58cf74f5667ae68485365d6c7148ad8",
+      "datetime": 1791173677,
+      "summary": "TOKYO (AP) \u2014 Tokyo shares advanced Monday at the start of a busy week for U. economic updates, while stock prices were little changed in Sydney and Hong Kong."
+    },
     {
       "headline": "Japanese chipmakers rally as Micron earnings boost AI trade",
       "source": "Yahoo",
