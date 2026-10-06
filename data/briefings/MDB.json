@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-05T01:03:41.017396-07:00",
+  "generated_at": "2026-10-06T01:30:07.177086-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Meta Just Poached a Public Company CEO. Here\u2019s What It\u2019s Really Building",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=885642e86bbc4601f638dd4aa717641c9f5d6611b98055b8c66e72cd31b0a058",
+      "datetime": 1791175052,
+      "summary": "Key TakeawaysMeta hired MongoDB CEO CJ Desai to lead a new enterprise AI platform, a push Mark Zuckerberg called \u201csomewhat of a new muscle\u201d for the company. Free cash flow fell to $1."
+    },
     {
       "headline": "Firing on All Cylinders: MongoDB (NASDAQ:MDB) Q2 Earnings Lead the Way",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=f3e5c0083ad189f2e6f5e0a9753b9af4fa8de4ac9ab6476fcbcdf0b124bd5434",
       "datetime": 1790925594,
       "summary": "Cantor Fitzgerald  analyst Thomas Blakey   reiterates MongoDB (NASDAQ:MDB) with a Overweight and maintains $540 price target."
-    },
-    {
-      "headline": "Meta\u2019s latest hire highlights high stakes of executive poaching",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0a3710bf5917429b120cb9f5ca6e79c0270bd858b4f33ea115f1f0a9eaece26c",
-      "datetime": 1790868420,
-      "summary": "AI companies are especially vulnerable to executive poaching as they race to dominate the explosive market."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-02",
+  "data_asof": "2026-10-05",
   "price": {
-    "last": 357.96,
-    "open": 353.27,
-    "prev_close": 351.73,
-    "move_day_pct": 1.77,
-    "move_open_close_pct": 1.33,
-    "move_week_pct": -12.79
+    "last": 359.23,
+    "open": 360.36,
+    "prev_close": 357.96,
+    "move_day_pct": 0.35,
+    "move_open_close_pct": -0.31,
+    "move_week_pct": 7.34
   },
   "indicators": {
     "rsi14": {
-      "value": 43.5,
+      "value": 43.9,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -9.715,
-      "signal": -4.285,
-      "hist": -5.43,
-      "hist_prev": -6.105,
+      "macd": -10.038,
+      "signal": -5.436,
+      "hist": -4.602,
+      "hist_prev": -5.43,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 434.12,
-      "lower": 321.66,
-      "mid": 377.89,
-      "pctb": 0.323,
+      "upper": 434.11,
+      "lower": 320.73,
+      "mid": 377.42,
+      "pctb": 0.34,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 58.42,
-      "read": "58% above its 52-week low"
+      "value": 58.99,
+      "read": "59% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -24.21,
+      "value": -23.94,
       "read": "24% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 342.87,
-      "pct": 4.4,
-      "read": "4% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 342.56,
+      "pct": 4.87,
+      "read": "5% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 26.97,
-      "pct_of_price": 7.53,
+      "value": 26.15,
+      "pct_of_price": 7.28,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.94,
+      "value": 1.01,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 50.9,
+      "value": 52.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 389.67,
-  "ma200": 342.87
+  "ma50": 390.89,
+  "ma200": 342.56
 }

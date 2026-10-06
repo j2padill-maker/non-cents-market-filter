@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-05T01:03:43.963580-07:00",
+  "generated_at": "2026-10-06T01:30:11.427429-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Teradyne Is Up Big, But The Real Growth May Still Be Ahead",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=30259b4d4ea2ed4d1d8c853db858d0ea033cfc536272e10769b28e7f8b6c8fea",
-      "datetime": 1791069060,
-      "summary": "Teradyne is now over 60% AI-driven, with strong Q2 2026 results and significant compute-related growth. Read more on TER stock here."
-    },
-    {
-      "headline": "MACOM, Texas Instruments, Semtech, Amkor, and Teradyne Stocks Trade Up, What You Need To Know",
+      "headline": "Teradyne (TER) Stock Declines While Market Improves: Some Information for Investors",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4a9e0c2e57ecc55e0135a0b513552a366ca05347f47ba2450ff5cb109f9f862f",
-      "datetime": 1790978763,
-      "summary": "A number of stocks jumped in the morning session after weaker-than-expected U.S. employment data cooled Treasury yields, easing interest rate pressure."
+      "url": "https://finnhub.io/api/news?id=cc7b79cb4e7bec135195d13d5cde551ef9c9b10b423ebcf7501466368d5eb868",
+      "datetime": 1791234006,
+      "summary": "In the latest trading session, Teradyne (TER) closed at $444.53, marking a -1% move from the previous day."
     },
     {
-      "headline": "Stay informed with the top movers within the S&P500 index on Friday.",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=ca861ffeeb0452b9b3ceee92fd62a06df36568a2f615f744bf4b4c309f941890",
-      "datetime": 1790967901,
-      "summary": "Curious about the top performers within the S&P500 index one hour before the close of the markets on Friday? Dive into the list of today's session's top gainers and losers for a comprehensive overview."
-    },
-    {
-      "headline": "Stock Market Today: Nasdaq Powers Up On U.S. Jobs Shortfall; Tesla Jumps, NetApp Extends Gains (Live Coverage)",
+      "headline": "Nvidia Testing Partner Takes Aim At AI-Fueled Breakout. Robotics Give Shares A Boost.",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=37ec08fa2e0cb385facc17b8dd1d4199e86ae880a80f5d065d072386e5d94e78",
-      "datetime": 1790967751,
-      "summary": "Stock Market Today: The Dow Jones index rallies Friday after a surprise result from the U.S. jobs report. Tesla stock jumps on deliveries."
+      "url": "https://finnhub.io/api/news?id=3efa9d5c5c6c2ed2c58d6d7f4d0a97fb2b5111a9cbdcc6509596149eda45e4a3",
+      "datetime": 1791211876,
+      "summary": "As semiconductor testing, robotics and physical AI partner Nvidia remains in buy range, Teradyne has plans to join it."
     },
     {
-      "headline": "Chip Stocks Roar Higher, Led By These Lesser-Known Names",
+      "headline": "Teradyne Makes Strategic Investment in Bright Machines to Advance AI Infrastructure Manufacturing",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c45c0eb27474edad5f5e4157b375135c9051f4248cd122996c41d31130d75620",
-      "datetime": 1790963716,
-      "summary": "The Philadelphia semiconductor index, known as SOX, on Friday rose to its highest level in three months."
+      "url": "https://finnhub.io/api/news?id=34b83add1f0384469becbd3bc96224a14ec17b35bba882f98e4830935d51f11e",
+      "datetime": 1791205200,
+      "summary": "Investment and planned collaboration pair Teradyne robotics and test technologies with Bright Machines' software-defined manufacturing platformNORTH READING, Mass. and SAN FRANCISCO, Oct. 05, 2026 (GLOBE NEWSWIRE) -- Teradyne, Inc. (NASDAQ: TER), a leading provider of automated test equipment and advanced robotics systems, and Bright Machines, Inc., a next-generation manufacturer bringing AI and d"
     },
     {
-      "headline": "Friday's session: top gainers and losers in the S&P500 index",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=dae9e38216af9caeb3c9abed3121741bfec571aa37cb57af005378a6860ef556",
-      "datetime": 1790958901,
-      "summary": "Join us in exploring the top gainers and losers within the S&P500 index in the middle of the day on Friday as we examine the latest happenings in today's session."
+      "headline": "Teradyne Makes Strategic Investment In Bright Machines To Advance AI Infrastructure Manufacturing And Integrate Robotics, Test Technologies",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=df88b3b6dab694f38da0a72464edd9dda8bf40a49a5fe725034de32f5740179d",
+      "datetime": 1791191805,
+      "summary": "Teradyne, Inc. (NASDAQ:TER), a leading provider of automated test equipment and advanced robotics systems, and Bright Machines, Inc., a next-generation manufacturer bringing AI and data center infrastructure production"
+    },
+    {
+      "headline": "US Stock Market Today: S&P 500 Futures Climb On Cooling Jobs And Firm Factory Data",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=667c3608a67a4a3ff5733b4cf38ba93f3a8c23915e0f88377f9149cc9e5cdce7",
+      "datetime": 1791187630,
+      "summary": "The Morning Bull - US Market Morning Update Monday, Oct, 5 2026 US stock futures are pointing higher this morning, with E-mini S&P 500 contracts up about 0.7%, as investors weigh cooler job growth against hotter manufacturing and price signals. The latest non-farm payrolls report shows only 29,000 new jobs in September and unemployment at 4.2%, which hints that hiring is losing steam and pay rises"
+    },
+    {
+      "headline": "MARKETS LIVE: US futures dip amid Fed and oil uncertainty",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=bbbf76f0bbd10fcc4a03aec7ca958794192d794356992d8479ae0be9c0156286",
+      "datetime": 1791180180,
+      "summary": "Dow Jones futures: 51,438 points, down 1 S&P 500 futures: 7,772.75 points, up 2.25 Nasdaq 100 futures: 31,016.75 points, up 15 9.30 EDT: S&P and Nasdaq futures pare losses as Dow slips S&P 500 and Nasdaq 100 futures climbed since the last update, while Dow Jones futures..."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-02",
+  "data_asof": "2026-10-05",
   "price": {
-    "last": 449.04,
-    "open": 430.8,
-    "prev_close": 415.79,
-    "move_day_pct": 8.0,
-    "move_open_close_pct": 4.23,
-    "move_week_pct": 12.72
+    "last": 444.53,
+    "open": 447.09,
+    "prev_close": 449.04,
+    "move_day_pct": -1.0,
+    "move_open_close_pct": -0.57,
+    "move_week_pct": 10.77
   },
   "indicators": {
     "rsi14": {
-      "value": 69.6,
+      "value": 67.7,
       "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 14.283,
-      "signal": 6.913,
-      "hist": 7.37,
-      "hist_prev": 5.359,
+      "macd": 16.779,
+      "signal": 8.886,
+      "hist": 7.893,
+      "hist_prev": 7.37,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 437.54,
-      "lower": 324.06,
-      "mid": 380.8,
-      "pctb": 1.101,
-      "read": "Above the upper band \u2014 stretched to the upside"
+      "upper": 447.16,
+      "lower": 323.19,
+      "mid": 385.18,
+      "pctb": 0.979,
+      "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 240.63,
-      "read": "241% above its 52-week low"
+      "value": 237.21,
+      "read": "237% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -7.16,
+      "value": -8.09,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 334.87,
-      "pct": 34.09,
-      "read": "34% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 336.13,
+      "pct": 32.25,
+      "read": "32% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 20.47,
-      "pct_of_price": 4.56,
+      "value": 19.97,
+      "pct_of_price": 4.49,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.41,
-      "read": "Above-average volume"
+      "value": 0.7,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 72.4,
+      "value": 73.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 131.82,
   "high_52w": 483.65,
-  "ma50": 374.84,
-  "ma200": 334.87
+  "ma50": 376.74,
+  "ma200": 336.13
 }

@@ -2,7 +2,7 @@
   "ticker": "TOELF",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-05T01:03:41.891743-07:00",
+  "generated_at": "2026-10-06T01:30:08.336141-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -50,76 +50,69 @@
       "url": "https://finnhub.io/api/news?id=e5316042b2bdc6b7be068e918b862837775e28d530d3d7e1cdcb305d1b8ef7f8",
       "datetime": 1790679678,
       "summary": "This article first appeared on GuruFocus.  Tokyo Electron Ltd (TOELF) recently announced a total dividend of $2.42 per share, with the ex-dividend date set for 2026-09-29.  This amount consists entirely of a $2.42 per share cash dividend."
-    },
-    {
-      "headline": "High-K Dielectric Materials Market - Global Strategic Business Report: Capture 48% market expansion to $262.4M by 2030 as GAA, AI and 3D memory reshape chip economics\u2014benchmark Applied Materials, ASM International, Lam Research, Tokyo Electron before tariffs reset supply chains",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=afe93583d9da84fd42cc105a4fe5f69c5a3e13754efc68554863a3479a320688",
-      "datetime": 1790582940,
-      "summary": "High-K dielectrics are gaining traction in advanced logic, 3D memory, GaN/SiC power devices and sensors, driven by chip scaling, low-power demand and ALD advances.Dublin, Sept. 28, 2026 (GLOBE NEWSWIRE) -- \"High-K Dielectric Materials Market - Global Strategic Business Report\" has been added to ResearchAndMarkets.com's offering. The global High-K dielectric materials market was valued at US$177.4 "
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-02",
+  "data_asof": "2026-10-05",
   "price": {
-    "last": 80.59,
-    "open": 68.29,
-    "prev_close": 75.31,
-    "move_day_pct": 7.01,
-    "move_open_close_pct": 18.01,
-    "move_week_pct": 15.76
+    "last": 80.76,
+    "open": 81.6,
+    "prev_close": 80.59,
+    "move_day_pct": 0.21,
+    "move_open_close_pct": -1.03,
+    "move_week_pct": 14.13
   },
   "indicators": {
     "rsi14": {
-      "value": 66.9,
+      "value": 67.1,
       "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 2.233,
-      "signal": 0.613,
-      "hist": 1.62,
-      "hist_prev": 1.388,
+      "macd": 2.72,
+      "signal": 1.035,
+      "hist": 1.686,
+      "hist_prev": 1.62,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 78.95,
-      "lower": 59.14,
-      "mid": 69.05,
-      "pctb": 1.083,
-      "read": "Above the upper band \u2014 stretched to the upside"
+      "upper": 80.8,
+      "lower": 58.55,
+      "mid": 69.67,
+      "pctb": 0.998,
+      "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 128.79,
+      "value": 129.27,
       "read": "129% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -15.89,
+      "value": -15.72,
       "read": "16% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 61.51,
-      "pct": 31.02,
+      "ma200": 61.72,
+      "pct": 30.85,
       "read": "31% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 5.65,
-      "pct_of_price": 7.01,
+      "value": 5.46,
+      "pct_of_price": 6.76,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.15,
+      "value": 0.12,
       "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 63.1,
+      "value": 61.2,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 35.22,
   "high_52w": 95.82,
-  "ma50": 68.39,
-  "ma200": 61.51
+  "ma50": 68.57,
+  "ma200": 61.72
 }

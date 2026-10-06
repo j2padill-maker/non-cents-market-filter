@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-05T01:03:42.380725-07:00",
+  "generated_at": "2026-10-06T01:30:09.198191-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Is Cloudflare\u2019s (NET) Cash Flow Real Once Share Issuance Is Counted?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=217cfa63ee1d801f4592b8741b9eaf1b6e21c73f5c68df123da80f32bad09a6a",
-      "datetime": 1791150683,
-      "summary": "Cloudflare, Inc. (NYSE:NET) closed at $349.07 on October 2, up 57.93% over twelve months. The company reported a net loss over the past twelve months and positive free cash flow over the same period. Both statements are true, and the distance between them is where the argument about this stock lives. READ ALSO: MongoDB (MDB) [\u2026]"
+      "headline": "Moat Stocks Retreat As Market Breadth Narrows",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=c842fcc48355b415ae781153021086982bc5ef2315cf2c17223cf25039995173",
+      "datetime": 1791250200,
+      "summary": "Technology was the only sector to gain in September as mega-cap strength masked broad market weakness. Read more here."
     },
     {
-      "headline": "Cloudflare\u2019s Gross Margin Fell to 73.1% as AI Workloads Grew. Here\u2019s the Number Q3 Has to Hit",
+      "headline": "Why Cloudflare (NET) Stock Is Trading Up Today",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=17ed0417e961e53e4e8866e049d6fa8f608e9b575ba7810c26f2df909800b3f6",
-      "datetime": 1791128355,
-      "summary": "Key Stats for Cloudflare StockCurrent Price: $349. 07Target Price (Mid): ~$741Street Target: ~$339Potential Total Return: ~112%Annualized IRR: ~19% / yearWhat Happened?Cloudflare (NET:NYSE) wrapped its 16th Birthday Week on October 2 after a run of agent-focused launches, including Containers rebuilt to scale agent sandboxes."
+      "url": "https://finnhub.io/api/news?id=2642597b85aa25fefbefec72865e3a81a2a37116d76551d49d5e6ae060a56839",
+      "datetime": 1791247860,
+      "summary": "Shares of cloud security and performance company Cloudflare (NYSE:NET) jumped 3.4% in the afternoon session after momentum from the company's product announcements carried into the session, amplified by corporate blog data ranking it as the fastest provider across 74% of the top 1,000 networks and a cooler-than-expected U.S. jobs report that sparked a broad rally in tech equities."
     },
     {
-      "headline": "LinkDaddy Reports 1.52M AI Crawler Requests to AI Verified Registry",
+      "headline": "GreenCore Solutions Corp. (GSC) Releases A2A-Grocery.ai, the Agentic Hub for Grocery Retail with Retail Media Sales",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f10bd690d927fe333449c920233038783e3b7dc085d6c9df4106dadc673a439c",
-      "datetime": 1791123540,
-      "summary": "LinkDaddy LLC reports that Cloudflare recorded 1.52 million requests from identified AI crawlers accessing public AI Verified content over a rolling seven-day period, including activity associated with OpenAI, Meta, Amazon, Apple, Anthropic, Microsoft, Perplexity and Google.Clearwater, Florida--(Newsfile Corp. - October 4, 2026) - LinkDaddy LLC reported that Cloudflare recorded 1.52 million reques"
+      "url": "https://finnhub.io/api/news?id=f810bba63806d934da016fa68caccaae12bd5eeb88c2cd2f79315d710bbc1c6c",
+      "datetime": 1791245220,
+      "summary": "GreenCore Solutions Corp. (GSC) today released A2A-Grocery.ai, the agentic hub for grocery retail procurement, live across 20 markets in Europe, the Americas and Asia-Pacific."
     },
     {
-      "headline": "Cloudflare Stock Is Up 78% Since January. Is the Rally Already Priced In?",
+      "headline": "Cloudflare (NET) Laps the Stock Market: Here's Why",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=fd91cf05cb7f87f77f3d0fd2bc974a83741d8f12b33fe7dc3597ff960d58a576",
-      "datetime": 1791106023,
-      "summary": "Key TakeawaysCloudflare stock has gained 78% since early January to close at $349 on October 2, 2026, while Q2 revenue rose 36% YoY to $696. 1M."
+      "url": "https://finnhub.io/api/news?id=584916f7907738e7d665e4d32ea52f70888cc4b19b458807b9ef2336fa6f74ca",
+      "datetime": 1791233405,
+      "summary": "In the latest trading session, Cloudflare (NET) closed at $359.49, marking a +2.99% move from the previous day."
     },
     {
-      "headline": "AI Agents and Bots Now Generate Most Web Traffic as Infrastructure Stocks Rally",
+      "headline": "Cloudflare Climbs 4% as Risk Appetite Favors High-Beta Cloud Names; Oracle Ticks Up, CoreWeave Slips",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4103e53f9451fa774515d96378457b0c40eae2f7412193202049d8cb541344a0",
-      "datetime": 1790909040,
-      "summary": "AI agents and bots drive about 57% of web traffic, lifting Cloudflare, Akamai, and Fastly stocks. See who gains most."
+      "url": "https://finnhub.io/api/news?id=93afefc137dfc1168af702ede6ae3cb0699842f340ea4d56d3a842162010e39b",
+      "datetime": 1791223780,
+      "summary": "Risk appetite is concentrating in one corner of cloud computing, but not every AI infrastructure name is getting the call. The divergence between Cloudflare, Oracle, and CoreWeave reveals exactly which bets traders are willing to make right now."
     },
     {
-      "headline": "Cloudflare Launches Basin: A More Open and Accessible Data Platform for Developers",
+      "headline": "3 US Tech Stocks Investors Are Repricing As Treasury Yields Pressure Growth",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e4cfdb4846452c686fc40375fa552dcb2669ff4e34e366e475b260c1db433e0a",
-      "datetime": 1790859600,
-      "summary": "SAN FRANCISCO, October 01, 2026--Cloudflare, Inc. (NYSE: NET), the leading connectivity cloud company, today announced Cloudflare Basin, a data platform that gives developers and enterprises a simpler, more affordable way to build applications powered by their own data. Built on Apache Iceberg and Cloudflare R2, Basin gives teams an open, serverless way to ingest, store, catalog and query analytic"
+      "url": "https://finnhub.io/api/news?id=83cf16ce3b0f8b4d4fe9d48407e4607ddb2834990f26fb5207dc671d5fd814d0",
+      "datetime": 1791220048,
+      "summary": "A weak U.S. jobs report, lofty Treasury yields near 5.3% and volatile energy and gold prices have put rate sensitive tech stocks like Apple, Microsoft and Nvidia back under the microscope. Some investors are pulling toward bonds. Others see potential mispricing in large growth names that move sharply when rate expectations shift. This article examines three stocks from our screener that appear esp"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-02",
+  "data_asof": "2026-10-05",
   "price": {
-    "last": 349.07,
-    "open": 351.8,
-    "prev_close": 351.0,
-    "move_day_pct": -0.55,
-    "move_open_close_pct": -0.78,
-    "move_week_pct": 0.01
+    "last": 359.49,
+    "open": 351.13,
+    "prev_close": 349.07,
+    "move_day_pct": 2.99,
+    "move_open_close_pct": 2.38,
+    "move_week_pct": 1.55
   },
   "indicators": {
     "rsi14": {
-      "value": 60.3,
+      "value": 64.1,
       "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 14.837,
-      "signal": 14.841,
-      "hist": -0.004,
-      "hist_prev": 0.686,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": 14.958,
+      "signal": 14.865,
+      "hist": 0.093,
+      "hist_prev": -0.004,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 378.86,
-      "lower": 286.48,
-      "mid": 332.67,
-      "pctb": 0.678,
+      "upper": 377.13,
+      "lower": 296.26,
+      "mid": 336.69,
+      "pctb": 0.782,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 117.91,
-      "read": "118% above its 52-week low"
+      "value": 124.41,
+      "read": "124% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -2.72,
+      "value": 0.0,
       "read": "At or near its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 235.21,
-      "pct": 48.41,
-      "read": "48% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 236.02,
+      "pct": 52.31,
+      "read": "52% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 16.02,
-      "pct_of_price": 4.59,
+      "value": 16.13,
+      "pct_of_price": 4.49,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.92,
+      "value": 1.03,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 57.6,
+      "value": 57.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
-  "high_52w": 358.82,
-  "ma50": 307.73,
-  "ma200": 235.21
+  "high_52w": 359.49,
+  "ma50": 309.67,
+  "ma200": 236.02
 }

@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-05T01:03:42.168110-07:00",
+  "generated_at": "2026-10-06T01:30:08.780909-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "Moat Stocks Retreat As Market Breadth Narrows",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=c842fcc48355b415ae781153021086982bc5ef2315cf2c17223cf25039995173",
+      "datetime": 1791250200,
+      "summary": "Technology was the only sector to gain in September as mega-cap strength masked broad market weakness. Read more here."
+    },
+    {
+      "headline": "Datadog\u2019s Growth Is Expected to Slow From 36% to Around 29% in Q3. Here\u2019s the CFO\u2019s Plan to Protect Margins",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=5e02cea434493a68f6adafada5424105d6eb2bcbc3dadb8d7f0ba11fd5884279",
+      "datetime": 1791214572,
+      "summary": "Key Stats for Datadog StockCurrent Price: $277. 22Target Price (Mid): ~$730Street Target: ~$287Potential Total Return: ~162%Annualized IRR: ~26% / yearWhat Happened?Datadog (DDOG:NASDAQ) closed at $277."
+    },
+    {
+      "headline": "Datadog (DDOG): Positioned to Capture Explosive Agentic AI Growth",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c859c9cd51d1e138150e98599d55415214137801f6109862bb782c1a9d411c6d",
+      "datetime": 1791209348,
+      "summary": "Glass Lake Wealth Management recently released its third-quarter 2026 investor letter. The letter can be downloaded here. Markets advanced in the third quarter, with the S&P 500 (SPY) advancing another 2.4%, bringing its year-to-date return to 12.7% despite rising Treasury yields, with technology, communication services, energy, and mega-cap stocks outperforming. The Iran War pushed Brent [\u2026]"
+    },
+    {
+      "headline": "Full Transcript: Datadog Q2 2026 Earnings Call",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=bb91ab67bae3ebf6d826ef3e574e0a01fe3e1c511b1cb7914e7e4a6255bdc994",
+      "datetime": 1791189562,
+      "summary": "Datadog (NASDAQ:DDOG) held its second-quarter earnings conference call on Thursday. Below is the complete transcript from the call.\nBenzinga APIs provide real-time access to earnings call transcripts and financial data."
+    },
+    {
       "headline": "Datadog Stock Is Having Its Best Year Since 2020. It Could Get Even Better From Here.",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=0f4a8ea9181f55413b76bc7a07776d7c881e3f6eb82b4521231c2a34036bddaf",
@@ -29,34 +57,6 @@
       "url": "https://finnhub.io/api/news?id=272e7a6098ebd7fbb6bf854362273b58af3a077e1518ddcdf442288e59af7132",
       "datetime": 1790948456,
       "summary": "Airbnb upgraded, Zscaler downgraded: Wall Street's top analyst calls"
-    },
-    {
-      "headline": "Here's How Much $100 Invested In Datadog 5 Years Ago Would Be Worth Today",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=535b15a8750dd9672f641e436d225fffdee229aac9a782758be1f890ac1aab54",
-      "datetime": 1790874024,
-      "summary": "Datadog (NASDAQ:DDOG) has outperformed the market over the past 5 years by 2.25% on an annualized basis producing an average annual return of 14.27%. Currently, Datadog has a market capitalization of $99.27 billion."
-    },
-    {
-      "headline": "Dynatrace Arize Acquisition Likely Boost AI 'Observability' Growth, UBS Says",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=007f3c804b2355106bce008f9a6085c6223da772ab6a64def71ab4443371b828",
-      "datetime": 1790873657,
-      "summary": "Dynatrace (DT) could benefit from rising demand for artificial intelligence \"observability,\" with it"
-    },
-    {
-      "headline": "Datadog (DDOG) Increases Despite Market Slip: Here's What You Need to Know",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4b9a75670e6de6a898b85c7ceb88b09d77d5b643123eb5890ae8e7a190bb7b76",
-      "datetime": 1790801107,
-      "summary": "Datadog (DDOG) concluded the recent trading session at $273.85, signifying a +1.97% move from its prior day's close."
-    },
-    {
-      "headline": "What Happens If You Don't Pay Your Stock Trading Taxes?",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=b6cd46fe13464accc7cf7c0fce50409578fdc436b11235be3754d7ab90f8a41c",
-      "datetime": 1790771296,
-      "summary": ""
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-02",
+  "data_asof": "2026-10-05",
   "price": {
-    "last": 277.22,
-    "open": 280.31,
-    "prev_close": 276.46,
-    "move_day_pct": 0.27,
-    "move_open_close_pct": -1.1,
-    "move_week_pct": 3.39
+    "last": 276.42,
+    "open": 277.81,
+    "prev_close": 277.22,
+    "move_day_pct": -0.29,
+    "move_open_close_pct": -0.5,
+    "move_week_pct": 2.87
   },
   "indicators": {
     "rsi14": {
-      "value": 70.6,
-      "read": "Overbought"
+      "value": 69.8,
+      "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 10.866,
-      "signal": 6.096,
-      "hist": 4.77,
-      "hist_prev": 5.153,
+      "macd": 11.312,
+      "signal": 7.139,
+      "hist": 4.173,
+      "hist_prev": 4.77,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 287.41,
-      "lower": 200.82,
-      "mid": 244.11,
-      "pctb": 0.882,
+      "upper": 290.28,
+      "lower": 204.29,
+      "mid": 247.29,
+      "pctb": 0.839,
       "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 170.16,
-      "read": "170% above its 52-week low"
+      "value": 169.37,
+      "read": "169% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -3.79,
+      "value": -4.07,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 184.83,
-      "pct": 49.99,
-      "read": "50% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 185.52,
+      "pct": 48.99,
+      "read": "49% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 11.85,
-      "pct_of_price": 4.27,
+      "value": 11.47,
+      "pct_of_price": 4.15,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.59,
+      "value": 0.67,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 81.9,
-      "read": "Overbought \u2014 money flowing in"
+      "value": 75.7,
+      "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 288.15,
-  "ma50": 244.66,
-  "ma200": 184.83
+  "ma50": 245.25,
+  "ma200": 185.52
 }

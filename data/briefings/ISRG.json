@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-05T01:03:43.460173-07:00",
+  "generated_at": "2026-10-06T01:30:10.628804-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "Zacks Industry Outlook Globus Medical, Intuitive Surgical  and Thermo Fisher Scientific",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=edc042f24fdfd21319847f16066a5fa2b9cfe71df6d4e7fb320c4ce8435ecff5",
+      "datetime": 1791262320,
+      "summary": "Globus Medical, Intuitive Surgical and Thermo Fisher Scientific have been highlighted in this Industry Outlook article."
+    },
+    {
+      "headline": "Intuitive Surgical: The Multiple Fell, The Story Didn't",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=1428d3dd999d8b8221f8b6013d83491bed49f9c769c9bee10d79aae308f88bea",
+      "datetime": 1791248474,
+      "summary": "Intuitive Surgical remains a wide-moat leader in robotic surgery with strong secular tailwinds and high recurring revenue potential. Read why ISRG stock is a Buy."
+    },
+    {
+      "headline": "Inspire Medical Gains New CPT Codes for Hypoglossal Nerve Stimulation",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=1f77c39883a9badee4aa990a5a3ba091bade1d44a2219c6b9579dcec43b2ea63",
+      "datetime": 1791211920,
+      "summary": "INSP gains new Category I CPT codes for Inspire V procedures, creating a dedicated coding framework effective Jan. 1, 2028."
+    },
+    {
+      "headline": "2 Beaten-Down Stocks Worth Buying and Holding for the Next Decade",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=9a8446b29893ed776afd8f7df5382a84c8a272693782a498d5bdcef5dfc2d64b",
+      "datetime": 1791210000,
+      "summary": "These companies haven't said their last words."
+    },
+    {
+      "headline": "3 Medical Instruments Stocks Using GenAI to Navigate Industry Woes",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f987b82e10c30a2cd67e4bc788910979834699e3ed062c3df727464a3feb5f5a",
+      "datetime": 1791202680,
+      "summary": "GenAI offers growth opportunities for GMED, ISRG and TMO, but evolving regulations and industry risks are likely to shape adoption."
+    },
+    {
       "headline": "Intuitive Surgical: A Surgical Leader Facing A Valuation Problem",
       "source": "SeekingAlpha",
       "url": "https://finnhub.io/api/news?id=5f3b3cd28c9a30ebb8fe49e36f4bc48561e522b542d779a45257c34c41146a55",
       "datetime": 1791009513,
       "summary": "Intuitive Surgical is rated HOLD at $406.63, with a probability-weighted fair value of ~$430/share and 82% confidence in the rating. Click for more on ISRG."
-    },
-    {
-      "headline": "Intuitive Surgical (ISRG): Is Its Robotic-Surgery Moat Still Untouchable?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9e589c3eb72d4f25ae2331533fcf66408ec7af5c4efe629a7c9d2d719652cfe4",
-      "datetime": 1790989704,
-      "summary": "Intuitive Surgical, Inc. (NASDAQ:ISRG) more or less invented modern robotic surgery with its da Vinci system, and for two decades it had the field to itself. The stock has now fallen about 35% from its high to roughly $395, yet it still trades near 46 times earnings and at $140 billion in value. So here [\u2026]"
-    },
-    {
-      "headline": "Intuitive Surgical: The 17% Selloff Is A Buy",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=4109b27c4a1c58dcf5bc7e0a70fe478161313b1d184610adefb4f283f21e54eb",
-      "datetime": 1790946977,
-      "summary": "Intuitive Surgical, Inc. is a Buy: recurring revenue, solid cash flow, da Vinci 5 upgrades, & margins outlook support a $689.75 target\u00e2\u0080\u0094click to read more on ISRG."
-    },
-    {
-      "headline": "Can ISRG Offset China Weakness With Expansion in India and Japan?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=dc16e323731e0506c33ce80684574de7152bf5febee3794797d70b95297fc151",
-      "datetime": 1790946000,
-      "summary": "Intuitive Surgical sees strong growth in India and improving conditions in Japan helping offset China headwinds as international da Vinci procedures rise 20%."
-    },
-    {
-      "headline": "Are You Overpaying For Intuitive Surgical Stock Versus Its Rivals?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ef547146d71910c1b6a7a247baa1fcc2fbbe0b5f7267a5c6d5fce1b75f4897ff",
-      "datetime": 1790930877,
-      "summary": "Intuitive Surgical (ISRG) grows faster and earns a higher operating margin than any of the five rivals in its health care peer group. It is also the most expensive of the six when price is measured against earnings. It holds that place even after its stock fell 10.3% over the past twelve months. How much more do you pay for a dollar of Intuitive's earnings than for a dollar of a rival's."
-    },
-    {
-      "headline": "Intuitive Surgical: Strong Growth, But Valuation Comes At A Premium",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=246e6fe5c3fcbc354cf27fc7bea477fb73d2199c42c145d62c39bd25d6d99f2e",
-      "datetime": 1790929003,
-      "summary": ""
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-02",
+  "data_asof": "2026-10-05",
   "price": {
-    "last": 391.95,
-    "open": 405.15,
-    "prev_close": 401.24,
-    "move_day_pct": -2.32,
-    "move_open_close_pct": -3.26,
-    "move_week_pct": -3.27
+    "last": 406.48,
+    "open": 389.76,
+    "prev_close": 391.95,
+    "move_day_pct": 3.71,
+    "move_open_close_pct": 4.29,
+    "move_week_pct": -2.0
   },
   "indicators": {
     "rsi14": {
-      "value": 51.2,
+      "value": 59.2,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 7.455,
-      "signal": 6.593,
-      "hist": 0.861,
-      "hist_prev": 2.28,
+      "macd": 7.586,
+      "signal": 6.792,
+      "hist": 0.794,
+      "hist_prev": 0.861,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 425.48,
-      "lower": 349.27,
-      "mid": 387.37,
-      "pctb": 0.56,
+      "upper": 427.09,
+      "lower": 351.64,
+      "mid": 389.36,
+      "pctb": 0.727,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 18.05,
-      "read": "18% above its 52-week low"
+      "value": 22.43,
+      "read": "22% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -33.89,
-      "read": "34% below its 52-week high"
+      "value": -31.44,
+      "read": "31% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 447.22,
-      "pct": -12.36,
-      "read": "12% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 446.48,
+      "pct": -8.96,
+      "read": "9% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 11.26,
-      "pct_of_price": 2.87,
+      "value": 11.78,
+      "pct_of_price": 2.9,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.83,
+      "value": 0.76,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 66.3,
+      "value": 72.1,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 332.02,
   "high_52w": 592.85,
-  "ma50": 380.04,
-  "ma200": 447.22
+  "ma50": 381.42,
+  "ma200": 446.48
 }

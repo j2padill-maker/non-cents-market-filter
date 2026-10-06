@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-05T01:03:44.378054-07:00",
+  "generated_at": "2026-10-06T01:30:12.107310-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Suncor's Offshore Asset Sale to Boost Focus on Oil Sands Growth",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a1c76f19fe0400d6774938fb3d0d24b56dae3341780d2203de3be059d0287264",
+      "datetime": 1791211860,
+      "summary": "SU's C$1.2B offshore asset sale sharpens its oil sands focus, reduces future liabilities and supports higher shareholder returns."
+    },
+    {
+      "headline": "Magnolia Oil & Gas Strengthens Outlook After WildFire Acquisition",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f9bd4db4cd16eeff6c505abdc0f7525ab7a04213f77372df0e2a501e510ced4f",
+      "datetime": 1791208620,
+      "summary": "WildFire is reshaping MGY's growth outlook, with higher production, faster deleveraging and new cost synergies."
+    },
+    {
+      "headline": "Oceaneering Lands $154M U.S. Navy Contract for ADTech Segment",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=14e102749f9c0e3680bcd9dedc5269aef35141e9546d6dde8840e97b18d0da7d",
+      "datetime": 1791206700,
+      "summary": "OII's $154 million Navy award expands ADTech's defense exposure, reinforces its Dry Deck Shelter role and adds potential revenue visibility."
+    },
     {
       "headline": "Should Oceaneering\u2019s New Five-Year U.S. Navy Dry Deck Shelter Contract Reshape How OII Is Valued?",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=6acb1e2428be6ef53ed73b7d4129c46195873af2c7cf2cf1c2cc783d62d445b9",
       "datetime": 1790890560,
       "summary": "HOUSTON, October 01, 2026--Oceaneering Announces U.S. Navy Dry Deck Shelter Award. ADTech awarded follow-on 5-yrs contract (1 base yr and 4 option yrs), w/potential of $154M"
-    },
-    {
-      "headline": "Oceaneering International Reveals U.S. Navy Dry Deck Shelter Award; The Five-Year Contract Has A Potential Value Of $154M",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=6b7313a3fa9369c50394b77d213c37ffa1de1fc200b5e2e6c296e0afd51ac6e7",
-      "datetime": 1790876451,
-      "summary": "Oceaneering International, Inc. (&#34;Oceaneering&#34;) (NYSE:OII) announced today that its Aerospace and Defense Technologies (&#34;ADTech&#34;) segment has been awarded a follow-on U.S. Navy contract to provide Dry"
-    },
-    {
-      "headline": "3 Undervalued Small Cap Stocks Trading At Least 14% Below Fair Value",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7a1e72d8e855b0654fb69cd10328ad4764e12dbb1cacc87b1da7cb29fa000ded",
-      "datetime": 1790730618,
-      "summary": "U.S. Treasury yields recently reached a 25 year high, which means investors can now get solid income from government bonds without touching equities. That shift leaves many smaller high quality companies with strong fundamentals sitting in the bargain bin while attention swings to fixed income. This article walks through three under the radar small cap stocks from our screener that could reward in"
-    },
-    {
-      "headline": "CRK Advances $1.65B SOCAR Partnership by Signing Framework Agreement",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6b5c86079abbb0e48bf5779c7ac44b8fa99a8d0926f5a1bc00164e6fbdc62b46",
-      "datetime": 1790688420,
-      "summary": "Comstock's $1.65B SOCAR partnership advances, adding LNG market access and greater visibility to its Haynesville growth strategy."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-02",
+  "data_asof": "2026-10-05",
   "price": {
-    "last": 44.32,
-    "open": 44.22,
-    "prev_close": 44.36,
-    "move_day_pct": -0.09,
-    "move_open_close_pct": 0.23,
-    "move_week_pct": -4.19
+    "last": 45.66,
+    "open": 44.2,
+    "prev_close": 44.32,
+    "move_day_pct": 3.02,
+    "move_open_close_pct": 3.3,
+    "move_week_pct": -0.39
   },
   "indicators": {
     "rsi14": {
-      "value": 36.8,
-      "read": "Oversold"
+      "value": 44.1,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": -1.379,
-      "signal": -1.068,
-      "hist": -0.312,
-      "hist_prev": -0.369,
+      "macd": -1.274,
+      "signal": -1.109,
+      "hist": -0.165,
+      "hist_prev": -0.312,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 51.52,
-      "lower": 42.39,
-      "mid": 46.96,
-      "pctb": 0.211,
+      "upper": 50.78,
+      "lower": 42.56,
+      "mid": 46.67,
+      "pctb": 0.377,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 99.64,
-      "read": "100% above its 52-week low"
+      "value": 105.68,
+      "read": "106% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -18.09,
-      "read": "18% below its 52-week high"
+      "value": -15.62,
+      "read": "16% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 38.55,
-      "pct": 14.97,
-      "read": "15% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 38.66,
+      "pct": 18.11,
+      "read": "18% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 1.69,
-      "pct_of_price": 3.82,
+      "value": 1.76,
+      "pct_of_price": 3.84,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.67,
+      "value": 0.92,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 25.3,
+      "value": 32.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 22.2,
   "high_52w": 54.11,
-  "ma50": 49.19,
-  "ma200": 38.55
+  "ma50": 49.05,
+  "ma200": 38.66
 }

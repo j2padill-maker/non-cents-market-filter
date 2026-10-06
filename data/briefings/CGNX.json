@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-05T01:03:43.133152-07:00",
+  "generated_at": "2026-10-06T01:30:10.207798-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Is Cognex\u2019s (CGNX) New AI Wafer ID System Quietly Reshaping Its Automation Edge?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=1e02fedc5b9832747de2fae5f8444e3df637e6c22ac8a6be6ead32e8a5806a25",
+      "datetime": 1791198356,
+      "summary": "In September 2026, Cognex Corporation launched the In-Sight 1750 Series, an AI-enabled wafer and panel identification system aimed at helping semiconductor manufacturers improve traceability, reduce production disruptions, and maintain throughput without major process changes. The system\u2019s ability to read degraded marks on challenging substrates and support seamless upgrades from the In-Sight 1740"
+    },
+    {
+      "headline": "Nvidia, Okta, Cognex And An Industrial Stock On CNBC\u2019s \u2018Final Trades\u2019",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=45aa9516b416b3e29532dab88fc2d16a69f6894b8d177c9b077cf781fbf315ff",
+      "datetime": 1791187790,
+      "summary": "CNBC traders favor Nvidia, Okta, Cognex and Delta; analysts cite upside, raised targets, RealSense acquisition and upcoming earnings."
+    },
     {
       "headline": "Cognex: Wait For A Better Time To Buy",
       "source": "SeekingAlpha",
@@ -43,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=6443ad0a2e73e1af06074b065a99f8671f9015561354cdc21ff370ef965acdf1",
       "datetime": 1790809712,
       "summary": "Cognex (CGNX) gains from logistics, packaging and semis demand; AI products + RealSense expand markets and robotics upside. See more here."
-    },
-    {
-      "headline": "3 of Wall Street\u2019s Favorite Stocks with Warning Signs",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e710e0cfa0eadd1bd513516b3643b7506963172824449871b0dfec6c871ae49f",
-      "datetime": 1790687042,
-      "summary": "Wall Street has set ambitious price targets for the stocks in this article. While this suggests attractive upside potential, it\u2019s important to remain skeptical because analysts face institutional pressures that can sometimes lead to overly optimistic forecasts."
     }
   ],
   "filings": [
@@ -75,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-02",
+  "data_asof": "2026-10-05",
   "price": {
-    "last": 64.97,
-    "open": 63.43,
-    "prev_close": 62.22,
-    "move_day_pct": 4.42,
-    "move_open_close_pct": 2.43,
-    "move_week_pct": 10.76
+    "last": 64.37,
+    "open": 65.2,
+    "prev_close": 64.97,
+    "move_day_pct": -0.92,
+    "move_open_close_pct": -1.27,
+    "move_week_pct": 9.57
   },
   "indicators": {
     "rsi14": {
-      "value": 61.6,
-      "read": "Firm \u2014 approaching overbought"
+      "value": 59.5,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": -0.09,
-      "signal": -0.607,
-      "hist": 0.516,
-      "hist_prev": 0.226,
+      "macd": 0.191,
+      "signal": -0.447,
+      "hist": 0.638,
+      "hist_prev": 0.516,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 64.6,
-      "lower": 56.96,
-      "mid": 60.78,
-      "pctb": 1.048,
-      "read": "Above the upper band \u2014 stretched to the upside"
+      "upper": 64.97,
+      "lower": 56.8,
+      "mid": 60.89,
+      "pctb": 0.926,
+      "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 87.49,
-      "read": "87% above its 52-week low"
+      "value": 85.75,
+      "read": "86% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -10.16,
+      "value": -10.99,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 55.65,
-      "pct": 16.75,
-      "read": "17% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 55.79,
+      "pct": 15.38,
+      "read": "15% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 2.18,
-      "pct_of_price": 3.36,
+      "value": 2.16,
+      "pct_of_price": 3.35,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 1.14,
-      "read": "Roughly average volume"
+      "value": 1.48,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 68.2,
+      "value": 66.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 34.65,
   "high_52w": 72.32,
-  "ma50": 61.97,
-  "ma200": 55.65
+  "ma50": 62.02,
+  "ma200": 55.79
 }
