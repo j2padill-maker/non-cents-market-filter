@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-06T01:30:08.780909-07:00",
+  "generated_at": "2026-10-07T01:03:20.741935-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "Cloudflare Just Gained 28% in a Month: Is It Too Late to Buy NET Stock Now?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=3ea39c3b3b0c684fd81c49ee4b2f8be10ed9a3764cb66c48d023aa664b5daba4",
+      "datetime": 1791312693,
+      "summary": "Cloudflare's network just crossed a threshold that changes the math on who actually uses the internet, and investors are betting that milestone turns into something much bigger than a one-month stock surge."
+    },
+    {
+      "headline": "Hybrid Information Technology (IT) Management Market Global Report 2026 | Capitalize on $114.84 Billion AIOps and Cloud Demand with Dell, Cisco, Oracle, ServiceNow and Datadog",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a22d0643667e428386ab621268c00d0c0be9614e5394900256a2989ef1298db8",
+      "datetime": 1791305460,
+      "summary": "Boost ROI with unified hybrid IT platforms, AI-driven monitoring and automation to cut hardware reliance and waste, optimize resources, ensure compliance and improve reliability.Dublin, Oct. 06, 2026 (GLOBE NEWSWIRE) -- \"Hybrid Information Technology (IT) Management Market Report 2026\" has been added to ResearchAndMarkets.com's offering. The global hybrid information technology (IT) management mar"
+    },
+    {
+      "headline": "Datadog, Inc. (DDOG) is Attracting Investor Attention: Here is What You Should Know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=19be7c697aa8ec74d2a1f0cb7c205f3e2b053f858042b02ed68da31e5935734d",
+      "datetime": 1791288004,
+      "summary": "Recently, Zacks.com users have been paying close attention to Datadog (DDOG). This makes it worthwhile to examine what the stock has in store."
+    },
+    {
+      "headline": "ValuEngine Weekly Commentary: YTD And Q3 Performance Analysis, Strategy Notes",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=f7f9ba42bf795a8ba5ac93ca3deca7c3b67ceeb97d78b96746a91e1219253b98",
+      "datetime": 1791267600,
+      "summary": "US equity markets were mixed this week, with gains in tech-related areas offset by weakness across several broader market and defensive sectors. Read more here..."
+    },
+    {
       "headline": "Moat Stocks Retreat As Market Breadth Narrows",
       "source": "SeekingAlpha",
       "url": "https://finnhub.io/api/news?id=c842fcc48355b415ae781153021086982bc5ef2315cf2c17223cf25039995173",
@@ -29,34 +57,6 @@
       "url": "https://finnhub.io/api/news?id=5e02cea434493a68f6adafada5424105d6eb2bcbc3dadb8d7f0ba11fd5884279",
       "datetime": 1791214572,
       "summary": "Key Stats for Datadog StockCurrent Price: $277. 22Target Price (Mid): ~$730Street Target: ~$287Potential Total Return: ~162%Annualized IRR: ~26% / yearWhat Happened?Datadog (DDOG:NASDAQ) closed at $277."
-    },
-    {
-      "headline": "Datadog (DDOG): Positioned to Capture Explosive Agentic AI Growth",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c859c9cd51d1e138150e98599d55415214137801f6109862bb782c1a9d411c6d",
-      "datetime": 1791209348,
-      "summary": "Glass Lake Wealth Management recently released its third-quarter 2026 investor letter. The letter can be downloaded here. Markets advanced in the third quarter, with the S&P 500 (SPY) advancing another 2.4%, bringing its year-to-date return to 12.7% despite rising Treasury yields, with technology, communication services, energy, and mega-cap stocks outperforming. The Iran War pushed Brent [\u2026]"
-    },
-    {
-      "headline": "Full Transcript: Datadog Q2 2026 Earnings Call",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=bb91ab67bae3ebf6d826ef3e574e0a01fe3e1c511b1cb7914e7e4a6255bdc994",
-      "datetime": 1791189562,
-      "summary": "Datadog (NASDAQ:DDOG) held its second-quarter earnings conference call on Thursday. Below is the complete transcript from the call.\nBenzinga APIs provide real-time access to earnings call transcripts and financial data."
-    },
-    {
-      "headline": "Datadog Stock Is Having Its Best Year Since 2020. It Could Get Even Better From Here.",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0f4a8ea9181f55413b76bc7a07776d7c881e3f6eb82b4521231c2a34036bddaf",
-      "datetime": 1790964300,
-      "summary": "FBN Securities initiated coverage of the stock with an Outperform rating."
-    },
-    {
-      "headline": "Airbnb upgraded, Zscaler downgraded: Wall Street's top analyst calls",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=272e7a6098ebd7fbb6bf854362273b58af3a077e1518ddcdf442288e59af7132",
-      "datetime": 1790948456,
-      "summary": "Airbnb upgraded, Zscaler downgraded: Wall Street's top analyst calls"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-05",
+  "data_asof": "2026-10-06",
   "price": {
-    "last": 276.42,
-    "open": 277.81,
-    "prev_close": 277.22,
-    "move_day_pct": -0.29,
-    "move_open_close_pct": -0.5,
-    "move_week_pct": 2.87
+    "last": 278.24,
+    "open": 278.0,
+    "prev_close": 276.42,
+    "move_day_pct": 0.66,
+    "move_open_close_pct": 0.09,
+    "move_week_pct": 3.6
   },
   "indicators": {
     "rsi14": {
-      "value": 69.8,
-      "read": "Firm \u2014 approaching overbought"
+      "value": 70.6,
+      "read": "Overbought"
     },
     "macd": {
-      "macd": 11.312,
-      "signal": 7.139,
-      "hist": 4.173,
-      "hist_prev": 4.77,
+      "macd": 11.678,
+      "signal": 8.047,
+      "hist": 3.631,
+      "hist_prev": 4.173,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 290.28,
-      "lower": 204.29,
-      "mid": 247.29,
-      "pctb": 0.839,
+      "upper": 292.15,
+      "lower": 209.23,
+      "mid": 250.69,
+      "pctb": 0.832,
       "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 169.37,
-      "read": "169% above its 52-week low"
+      "value": 171.15,
+      "read": "171% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -4.07,
+      "value": -3.44,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 185.52,
-      "pct": 48.99,
+      "ma200": 186.22,
+      "pct": 49.41,
       "read": "49% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 11.47,
-      "pct_of_price": 4.15,
+      "value": 11.34,
+      "pct_of_price": 4.08,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.67,
+      "value": 0.51,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 75.7,
+      "value": 75.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 288.15,
-  "ma50": 245.25,
-  "ma200": 185.52
+  "ma50": 245.78,
+  "ma200": 186.22
 }

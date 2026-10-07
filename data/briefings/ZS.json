@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-06T01:30:12.561367-07:00",
+  "generated_at": "2026-10-07T01:03:23.713812-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,49 +17,55 @@
   ],
   "news": [
     {
-      "headline": "CrowdStrike (CRWD) vs. Zscaler (ZS): Is the Premium Worth Paying?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=da1e7258b6d305298bbc7e4f30498c32f03cbc64dca7ba0c28c58badfd468a65",
-      "datetime": 1791254855,
-      "summary": "CrowdStrike Holdings, Inc. (NASDAQ:CRWD) and Zscaler, Inc. (NASDAQ:ZS) are both trying to become something much bigger than the cybersecurity companies they started as. That is what makes this comparison interesting. CrowdStrike is expanding from endpoint security into identity, cloud security, SIEM, exposure management, and AI security. Zscaler is taking its Zero Trust platform into data [\u2026]"
+      "headline": "Zscaler, Inc. (ZS) Analyst/Investor Day - Slideshow",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=b4f995c7fcbf6e95b895d7553983d92ce69a31bac9b17834aae8df4fe34a4c72",
+      "datetime": 1791338718,
+      "summary": "2026-10-07. The following slide deck was published by Zscaler, Inc."
     },
     {
-      "headline": "Asana, Zscaler, Appian, Atlassian, and Shopify Stocks Trade Up, What You Need To Know",
+      "headline": "monday.com, CrowdStrike, Asana, C3.ai, and Palo Alto Networks Shares Skyrocket, What You Need To Know",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=dcec4179c9d41617ba8fce82035824ea86996de2fa96ac19e64b1e600283e1eb",
-      "datetime": 1791245460,
-      "summary": "A number of stocks jumped in the afternoon session after softer labor market data tempered expectations for an October interest rate increase by the Federal Reserve."
+      "url": "https://finnhub.io/api/news?id=5da68230211e6b97c5f6e8ed0f8738ffcbdaff12502cbe31661ec562864a1915",
+      "datetime": 1791322594,
+      "summary": "A number of stocks jumped in the morning session after market concerns regarding artificial intelligence disruption subsided and enterprise investment highlighted AI as a business growth enabler across the software industry. According to CNBC, software stocks roared back in the third quarter as fears that artificial intelligence would disrupt traditional business models faded. The iShares Expanded"
     },
     {
-      "headline": "3 Reasons Investors Love Zscaler (ZS)",
+      "headline": "Zscaler Investor Day Maps AI Security Path to $8B ARR, With $10B Upside",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=72cbf7c181bbd416703628222661a8dc35ef5f86c0938a426591e23839752f34",
-      "datetime": 1791236340,
-      "summary": "The past six months have been a windfall for Zscaler\u2019s shareholders. The company\u2019s stock price has jumped 40.7%, hitting $196.35 per share. This was partly due to its solid quarterly results, and the performance may have investors wondering how to approach the situation."
+      "url": "https://finnhub.io/api/news?id=d0c211a1b33c9789a516d5dcb9e3ade202f2563944e33c244b0ccf2a6a2fce11",
+      "datetime": 1791320525,
+      "summary": "Zscaler (NASDAQ:ZS) used its 2026 Investor Day to position its Zero Trust Exchange platform as a cybersecurity architecture designed for the growing use of artificial intelligence, while outlining a path to more than $8 billion in annual recurring revenue by fiscal 2031 and a potential upside case o"
     },
     {
-      "headline": "ZS Stock Alert: What to Know as Zscaler Unveils Partnership With IBM",
+      "headline": "Closing Cyber-Insurance Gap: Cowbell CEO, Founder & Chairman Jack Kudale, Live at Nasdaq",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=17245d54f28f6e76c9fcff58333fa9d639215426d32a44f9c13babe8e515ac53",
-      "datetime": 1791225380,
-      "summary": "Zscaler stock rallies on a new partnership with IBM. But does that warrant buying ZS shares today? Let\u2019s find out!"
+      "url": "https://finnhub.io/api/news?id=cc7e6a000744c4840a5bda864a9845eb68f3248c807013ed934880d0c5fc9534",
+      "datetime": 1791318355,
+      "summary": "Tech Edge hosted a fireside chat at Nasdaq MarketSite on Oct. 5 with Jack Kudale, Chief Executive Officer, Founder and Chairman of Cowbell. The in-person interview was joined by Editor-in-Chief John Jannarone and they discussed: How Cowbell\u2019s focus is closing the cyber-insurance gap for businesses. Mr. Kudale explained Cowbell\u2019s approach to combining technology, data, and [\u2026] The post Closing Cybe"
     },
     {
-      "headline": "OpenAI CEO Sam Altman is wrong \u2014 the world shouldn't 'accept some bad things' from AI: Zscaler CEO",
+      "headline": "Zscaler (ZS) Stock Is Up, What You Need To Know",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4018a374111997638fecbd1136eab8005d7321fe7d74258515a114b59ceb4c08",
-      "datetime": 1791221715,
-      "summary": "ZScaler founder and CEO Jay Chaudhry says we shouldn't be OK with the unintended negative consequences of AI."
+      "url": "https://finnhub.io/api/news?id=292800e2483f484c9b40469cc3f187e42003b25964e30493fd52845f859bd065",
+      "datetime": 1791316354,
+      "summary": "Shares of cloud security platform Zscaler (NASDAQ:ZS) jumped 4.9% in the pre-market session after the company reaffirmed its first-quarter and full-year fiscal 2027 financial guidance and provided positive growth and product updates during its annual Analyst/Investor Day event."
     },
     {
-      "headline": "'Human ingenuity can always find a solution': Why Zscaler's CEO disagrees with Sam Altman",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ff0b2d4cc162aec415bf9c519da7e50ea75df99479d287abfd02983c6cc47444",
-      "datetime": 1791213193,
-      "summary": "Yahoo Finance Executive Editor Brian Sozzi sits down with Zscaler (ZS) CEO Jay Chaudhry for a conversation about cybersecurity in the age of AI agents. OpenAI (OPAI.PVT) CEO Sam Altman said in a recent interview, \"The world should accept some bad things happening for the benefit of AI.\" In the video above, Chaudhry explains why this isn't true."
+      "headline": "Zscaler, Inc. (ZS) Analyst/Investor Day Transcript",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=8f782736ab09c73e6f233d464390843e36b327f2f888c65a028e700109e4a15c",
+      "datetime": 1791315757,
+      "summary": "Zscaler, Inc. (ZS) Analyst/Investor Day October 6, 2026 8:30 AM EDTCompany ParticipantsKimberly Watkins - SVP of Investor Relations & Strategic..."
     }
   ],
   "filings": [
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-10-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000200/zs-20261006.htm"
+    },
     {
       "form": "8-K",
       "title": "Material event (8-K)",
@@ -71,74 +77,68 @@
       "title": "Annual report (10-K)",
       "date": "2026-09-03",
       "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000157/zs-20260731.htm"
-    },
-    {
-      "form": "8-K",
-      "title": "Material event (8-K)",
-      "date": "2026-09-03",
-      "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000156/zs-20260901.htm"
     }
   ],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-05",
+  "data_asof": "2026-10-06",
   "price": {
-    "last": 201.8,
-    "open": 197.13,
-    "prev_close": 196.6,
-    "move_day_pct": 2.64,
-    "move_open_close_pct": 2.37,
-    "move_week_pct": 1.21
+    "last": 212.25,
+    "open": 210.4,
+    "prev_close": 201.8,
+    "move_day_pct": 5.18,
+    "move_open_close_pct": 0.88,
+    "move_week_pct": 7.01
   },
   "indicators": {
     "rsi14": {
-      "value": 57.9,
-      "read": "Neutral"
+      "value": 63.6,
+      "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 6.638,
-      "signal": 7.56,
-      "hist": -0.922,
-      "hist_prev": -0.963,
+      "macd": 7.248,
+      "signal": 7.497,
+      "hist": -0.249,
+      "hist_prev": -0.922,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 224.94,
-      "lower": 161.25,
-      "mid": 193.09,
-      "pctb": 0.637,
+      "upper": 225.07,
+      "lower": 166.14,
+      "mid": 195.61,
+      "pctb": 0.782,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 70.94,
-      "read": "71% above its 52-week low"
+      "value": 79.8,
+      "read": "80% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -39.99,
-      "read": "40% below its 52-week high"
+      "value": -36.88,
+      "read": "37% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 166.27,
-      "pct": 21.37,
-      "read": "21% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 166.2,
+      "pct": 27.71,
+      "read": "28% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 9.36,
-      "pct_of_price": 4.64,
+      "value": 9.67,
+      "pct_of_price": 4.56,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.71,
+      "value": 1.23,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 63.2,
+      "value": 71.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 118.05,
   "high_52w": 336.27,
-  "ma50": 180.28,
-  "ma200": 166.27
+  "ma50": 181.58,
+  "ma200": 166.2
 }

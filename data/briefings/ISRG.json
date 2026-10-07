@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-06T01:30:10.628804-07:00",
+  "generated_at": "2026-10-07T01:03:22.355765-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Jim Cramer Has Soured on Intuitive Surgical (ISRG). The Reason is Johnson & Johnson",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=bdf8418f87165d23312194e0e17076b00a74df9674e630b0287ab8ee4385bf67",
+      "datetime": 1791344599,
+      "summary": "Intuitive Surgical, Inc. (NASDAQ:ISRG) was turned down by Jim Cramer on Mad Money on October 6, when a caller asked whether the robotic surgery company counted as a broken stock rather than a broken company. The shares traded at around $404 on October 6, 7.82% lower over twelve months. His objection was not the company. [\u2026]"
+    },
+    {
+      "headline": "What Could Lift ISRG Stock?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=28642705afdda98124992b0c52567853c795c00a7ef0ae1ab9907db34012c607",
+      "datetime": 1791295357,
+      "summary": "Intuitive Surgical (ISRG) stock has lost 8.2% over the past twelve months, while the S&P 500 returned 17.1%. If you own it, you have watched the market move on without you, and if you do not, the lower price may look tempting. Either way, you are counting on the business behind the da Vinci systems. So what would Intuitive have to sell more of for the stock to climb again."
+    },
+    {
+      "headline": "If The MiniMed Split-Off Stalls, What Happens To Your Medtronic Stock?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=88e9ab5aabd1b5ea758ed0da36e8174c31ae584da8b1871cec70ef3e2c56d64a",
+      "datetime": 1791289120,
+      "summary": "Medtronic (MDT) is offering its shareholders a swap: hand in Medtronic shares and receive shares of MiniMed, its diabetes business. The offer is worth about $4 billion, and a Barron's report on October 2 said it is losing its allure. If you own Medtronic, you may wonder what a stalled swap would leave you holding. First, where does the swap stand today."
+    },
     {
       "headline": "Zacks Industry Outlook Globus Medical, Intuitive Surgical  and Thermo Fisher Scientific",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=1f77c39883a9badee4aa990a5a3ba091bade1d44a2219c6b9579dcec43b2ea63",
       "datetime": 1791211920,
       "summary": "INSP gains new Category I CPT codes for Inspire V procedures, creating a dedicated coding framework effective Jan. 1, 2028."
-    },
-    {
-      "headline": "2 Beaten-Down Stocks Worth Buying and Holding for the Next Decade",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9a8446b29893ed776afd8f7df5382a84c8a272693782a498d5bdcef5dfc2d64b",
-      "datetime": 1791210000,
-      "summary": "These companies haven't said their last words."
-    },
-    {
-      "headline": "3 Medical Instruments Stocks Using GenAI to Navigate Industry Woes",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f987b82e10c30a2cd67e4bc788910979834699e3ed062c3df727464a3feb5f5a",
-      "datetime": 1791202680,
-      "summary": "GenAI offers growth opportunities for GMED, ISRG and TMO, but evolving regulations and industry risks are likely to shape adoption."
-    },
-    {
-      "headline": "Intuitive Surgical: A Surgical Leader Facing A Valuation Problem",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=5f3b3cd28c9a30ebb8fe49e36f4bc48561e522b542d779a45257c34c41146a55",
-      "datetime": 1791009513,
-      "summary": "Intuitive Surgical is rated HOLD at $406.63, with a probability-weighted fair value of ~$430/share and 82% confidence in the rating. Click for more on ISRG."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-05",
+  "data_asof": "2026-10-06",
   "price": {
-    "last": 406.48,
-    "open": 389.76,
-    "prev_close": 391.95,
-    "move_day_pct": 3.71,
-    "move_open_close_pct": 4.29,
-    "move_week_pct": -2.0
+    "last": 404.76,
+    "open": 405.2,
+    "prev_close": 406.48,
+    "move_day_pct": -0.42,
+    "move_open_close_pct": -0.11,
+    "move_week_pct": -1.8
   },
   "indicators": {
     "rsi14": {
-      "value": 59.2,
+      "value": 58.0,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 7.586,
-      "signal": 6.792,
-      "hist": 0.794,
-      "hist_prev": 0.861,
+      "macd": 7.465,
+      "signal": 6.926,
+      "hist": 0.538,
+      "hist_prev": 0.794,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 427.09,
-      "lower": 351.64,
-      "mid": 389.36,
-      "pctb": 0.727,
+      "upper": 425.76,
+      "lower": 358.43,
+      "mid": 392.09,
+      "pctb": 0.688,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 22.43,
+      "value": 21.91,
       "read": "22% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -31.44,
-      "read": "31% below its 52-week high"
+      "value": -31.73,
+      "read": "32% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 446.48,
-      "pct": -8.96,
+      "ma200": 445.71,
+      "pct": -9.19,
       "read": "9% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 11.78,
-      "pct_of_price": 2.9,
+      "value": 11.46,
+      "pct_of_price": 2.83,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.76,
+      "value": 0.75,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 72.1,
+      "value": 71.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 332.02,
   "high_52w": 592.85,
-  "ma50": 381.42,
-  "ma200": 446.48
+  "ma50": 382.38,
+  "ma200": 445.71
 }

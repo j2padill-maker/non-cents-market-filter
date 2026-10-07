@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-06T01:30:11.427429-07:00",
+  "generated_at": "2026-10-07T01:03:22.928774-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "Uncover the latest developments among S&P500 stocks in today's session.",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=799cd2ca19736d45c52db9faa5f9160ef65f2f81c348e1bda7366c44deea05c5",
+      "datetime": 1791313501,
+      "summary": "Curious about the top performers within the S&P500 index one hour before the close of the markets on Tuesday? Dive into the list of today's session's top gainers and losers for a comprehensive overview."
+    },
+    {
+      "headline": "Multiply Labs Raises $75 Million Series B to Close the Gap Between Drug Discovery and Drug Manufacturing",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=6b242ecd6026462e9307a0b256b9dd0afe86ba8df37fc01dd1fcea6a75164d1b",
+      "datetime": 1791311160,
+      "summary": "SAN FRANCISCO, October 06, 2026--Multiply Labs raises $75M Series B led by Dr. Patrick Soon-Shiong to scale robotic manufacturing to help patients access next-generation drugs."
+    },
+    {
+      "headline": "Which S&P500 stocks are moving on Tuesday?",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=77d86f15549f5f68cb794b92dd883f9ce67028af48767f3a173cdb7c589f7e8d",
+      "datetime": 1791304502,
+      "summary": "Stay updated with the movement of S&P500 stocks in today's session. Discover which S&P500 stocks are making waves on Tuesday."
+    },
+    {
+      "headline": "Teradyne Gains 130% YTD: Should You Hold or Fold the Stock?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=5cab22ace9ab071897d02fce2ce6bc393d81c92d3c0e881df01c730571d81f5a",
+      "datetime": 1791299220,
+      "summary": "TER's AI-driven memory test growth and upbeat Q3 outlook support momentum, but premium valuation, competition, and margin pressures cloud the case."
+    },
+    {
+      "headline": "Teradyne Introduces Titan HP Platform with Burn-In Capabilities for Advanced AI Data Center Devices",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d109e0ce91b66ffb8b439404681a2c1e3327f1def3d20d553d85300f2499cb9d",
+      "datetime": 1791291600,
+      "summary": "NORTH READING, Mass., October 06, 2026--Teradyne introduces Titan HP with burn-in for advanced AI data center devices to reduce cost of test and factory floor space, speeding time to market."
+    },
+    {
       "headline": "Teradyne (TER) Stock Declines While Market Improves: Some Information for Investors",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=cc7b79cb4e7bec135195d13d5cde551ef9c9b10b423ebcf7501466368d5eb868",
       "datetime": 1791234006,
       "summary": "In the latest trading session, Teradyne (TER) closed at $444.53, marking a -1% move from the previous day."
-    },
-    {
-      "headline": "Nvidia Testing Partner Takes Aim At AI-Fueled Breakout. Robotics Give Shares A Boost.",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3efa9d5c5c6c2ed2c58d6d7f4d0a97fb2b5111a9cbdcc6509596149eda45e4a3",
-      "datetime": 1791211876,
-      "summary": "As semiconductor testing, robotics and physical AI partner Nvidia remains in buy range, Teradyne has plans to join it."
-    },
-    {
-      "headline": "Teradyne Makes Strategic Investment in Bright Machines to Advance AI Infrastructure Manufacturing",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=34b83add1f0384469becbd3bc96224a14ec17b35bba882f98e4830935d51f11e",
-      "datetime": 1791205200,
-      "summary": "Investment and planned collaboration pair Teradyne robotics and test technologies with Bright Machines' software-defined manufacturing platformNORTH READING, Mass. and SAN FRANCISCO, Oct. 05, 2026 (GLOBE NEWSWIRE) -- Teradyne, Inc. (NASDAQ: TER), a leading provider of automated test equipment and advanced robotics systems, and Bright Machines, Inc., a next-generation manufacturer bringing AI and d"
-    },
-    {
-      "headline": "Teradyne Makes Strategic Investment In Bright Machines To Advance AI Infrastructure Manufacturing And Integrate Robotics, Test Technologies",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=df88b3b6dab694f38da0a72464edd9dda8bf40a49a5fe725034de32f5740179d",
-      "datetime": 1791191805,
-      "summary": "Teradyne, Inc. (NASDAQ:TER), a leading provider of automated test equipment and advanced robotics systems, and Bright Machines, Inc., a next-generation manufacturer bringing AI and data center infrastructure production"
-    },
-    {
-      "headline": "US Stock Market Today: S&P 500 Futures Climb On Cooling Jobs And Firm Factory Data",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=667c3608a67a4a3ff5733b4cf38ba93f3a8c23915e0f88377f9149cc9e5cdce7",
-      "datetime": 1791187630,
-      "summary": "The Morning Bull - US Market Morning Update Monday, Oct, 5 2026 US stock futures are pointing higher this morning, with E-mini S&P 500 contracts up about 0.7%, as investors weigh cooler job growth against hotter manufacturing and price signals. The latest non-farm payrolls report shows only 29,000 new jobs in September and unemployment at 4.2%, which hints that hiring is losing steam and pay rises"
-    },
-    {
-      "headline": "MARKETS LIVE: US futures dip amid Fed and oil uncertainty",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=bbbf76f0bbd10fcc4a03aec7ca958794192d794356992d8479ae0be9c0156286",
-      "datetime": 1791180180,
-      "summary": "Dow Jones futures: 51,438 points, down 1 S&P 500 futures: 7,772.75 points, up 2.25 Nasdaq 100 futures: 31,016.75 points, up 15 9.30 EDT: S&P and Nasdaq futures pare losses as Dow slips S&P 500 and Nasdaq 100 futures climbed since the last update, while Dow Jones futures..."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-05",
+  "data_asof": "2026-10-06",
   "price": {
-    "last": 444.53,
-    "open": 447.09,
-    "prev_close": 449.04,
-    "move_day_pct": -1.0,
-    "move_open_close_pct": -0.57,
-    "move_week_pct": 10.77
+    "last": 430.32,
+    "open": 445.07,
+    "prev_close": 444.53,
+    "move_day_pct": -3.2,
+    "move_open_close_pct": -3.31,
+    "move_week_pct": 6.77
   },
   "indicators": {
     "rsi14": {
-      "value": 67.7,
+      "value": 62.0,
       "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 16.779,
-      "signal": 8.886,
-      "hist": 7.893,
-      "hist_prev": 7.37,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "macd": 17.41,
+      "signal": 10.591,
+      "hist": 6.819,
+      "hist_prev": 7.893,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 447.16,
-      "lower": 323.19,
-      "mid": 385.18,
-      "pctb": 0.979,
+      "upper": 452.75,
+      "lower": 323.43,
+      "mid": 388.09,
+      "pctb": 0.827,
       "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 237.21,
-      "read": "237% above its 52-week low"
+      "value": 226.43,
+      "read": "226% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -8.09,
+      "value": -11.03,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 336.13,
-      "pct": 32.25,
-      "read": "32% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 337.36,
+      "pct": 27.56,
+      "read": "28% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 19.97,
-      "pct_of_price": 4.49,
+      "value": 20.04,
+      "pct_of_price": 4.66,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.7,
+      "value": 0.85,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 73.3,
+      "value": 66.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 131.82,
   "high_52w": 483.65,
-  "ma50": 376.74,
-  "ma200": 336.13
+  "ma50": 378.65,
+  "ma200": 337.36
 }

@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-06T01:30:07.177086-07:00",
+  "generated_at": "2026-10-07T01:03:19.496310-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "Meta\u2019s Enterprise Push Could Turn AI From a SaaS Feature Into a SaaS Competitor",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e0f9e572499df78e6a53f294c1d33f2c6882cbb4dc6279e451d7a79c96c3a7a9",
+      "datetime": 1791341971,
+      "summary": "Meta Platforms, Inc. (NASDAQ:META) launched the Meta Enterprise Platform on September 28 as a new business pillar focused on its AI technology stack. The platform will give businesses and developers access to tools such as the Meta Business Agent, Muse Code, Muse Agent, and Muse API. The market quickly interpreted the launch as a competitive [\u2026]"
+    },
+    {
+      "headline": "XYZ's Square Expands Merchant Base With Pike Place Fish Market Deal",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c0de8bbb852ecb0c2d147c7444c332b81e4ba00e94dc002f41e46a06e3392fe9",
+      "datetime": 1791301680,
+      "summary": "Square wins Pike Place Fish Market as a merchant, bringing unified commerce tools to a business managing seasonal traffic and online orders."
+    },
+    {
+      "headline": "Zacks Investment Ideas feature highlights: NVIDIA's, Alphabet's, Meta, Expedia, Apple and MongoDB",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=28d4f9293b76613111469c9017c7a2a5a51c1a97e2ea62dfcf91b6c4a77a56a1",
+      "datetime": 1791260940,
+      "summary": "NVIDIA's, Alphabet's, Meta, Expedia, Apple and MongoDB have been highlighted in this Investment Ideas article."
+    },
+    {
+      "headline": "3 Stocks Benefiting From AI Demand Just Announced Major Buybacks",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ab01fbbf49310dad8e98c78665829ae81f64a4cd84723a0a14e0495eae563329",
+      "datetime": 1791216300,
+      "summary": "NVIDIA, MongoDB, and Talen Energy announced major buyback expansions, totaling $235 billion, $1.35 billion, and $3.0 billion respectively, signaling confidence amid differing 2026 stock performance."
+    },
+    {
+      "headline": "Amazon, Alphabet, Tesla Stock Rises: Robinhood Traders Sell Anyway",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=ccec0f8de4bac32df2ef97340f7653988c13c344a1c6939209889d21cbc81b13",
+      "datetime": 1791212485,
+      "summary": "Amazon, Alphabet and Tesla rose Friday, but Robinhood traders sold all three. The monthly data suggests profit-taking, not an AI trade exit."
+    },
+    {
       "headline": "Meta Just Poached a Public Company CEO. Here\u2019s What It\u2019s Really Building",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=885642e86bbc4601f638dd4aa717641c9f5d6611b98055b8c66e72cd31b0a058",
       "datetime": 1791175052,
       "summary": "Key TakeawaysMeta hired MongoDB CEO CJ Desai to lead a new enterprise AI platform, a push Mark Zuckerberg called \u201csomewhat of a new muscle\u201d for the company. Free cash flow fell to $1."
-    },
-    {
-      "headline": "Firing on All Cylinders: MongoDB (NASDAQ:MDB) Q2 Earnings Lead the Way",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=40b0b8bbbccf0d048fc15bd90a3f9b7a104dd4f220f0aa2da1f0806e0a467e7d",
-      "datetime": 1790971083,
-      "summary": "As the craze of earnings season draws to a close, here\u2019s a look back at some of the most exciting (and some less so) results from Q2. Today, we are looking at data storage stocks, starting with MongoDB (NASDAQ:MDB)."
-    },
-    {
-      "headline": "Investing.com\u2019s stocks of the week",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=60b50aaf8b3d0a9a5f8ac56b16d6a122dc5d31251a03f48742f3bbce6a2fd1fa",
-      "datetime": 1790966056,
-      "summary": "Investing.com -- Corporate upheaval drove much of the week's action, with a surprise CEO departure and takeover interest in a household name resulting in sharp moves."
-    },
-    {
-      "headline": "Why Palantir Could\u00a0Be One of\u00a0the Decade\u2019s Biggest\u00a0Growth Stocks",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5f545f6d2d04f3d20775c744fd6e00c6aa8962c1b254f88b8eb1979b240f143f",
-      "datetime": 1790949651,
-      "summary": "Palantir just posted numbers that left Wall Street scrambling to justify its own cautious price targets, and the real question is whether the valuation ceiling everyone keeps citing is about to become a floor."
-    },
-    {
-      "headline": "Can Oracle's Database Business Sustain Margins over the Long Term?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=71f0d10285647fca4c17c86f84f7e168c35c54a460b4ab09a63545f3a350e92f",
-      "datetime": 1790935620,
-      "summary": "ORCL's shift to a consumption-based cloud database can drive growth, but rising infrastructure costs may pressure its historically strong margins."
-    },
-    {
-      "headline": "Cantor Fitzgerald Reiterates Overweight on MongoDB, Maintains $540 Price Target",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=f3e5c0083ad189f2e6f5e0a9753b9af4fa8de4ac9ab6476fcbcdf0b124bd5434",
-      "datetime": 1790925594,
-      "summary": "Cantor Fitzgerald  analyst Thomas Blakey   reiterates MongoDB (NASDAQ:MDB) with a Overweight and maintains $540 price target."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-05",
+  "data_asof": "2026-10-06",
   "price": {
-    "last": 359.23,
-    "open": 360.36,
-    "prev_close": 357.96,
-    "move_day_pct": 0.35,
-    "move_open_close_pct": -0.31,
-    "move_week_pct": 7.34
+    "last": 360.71,
+    "open": 364.8,
+    "prev_close": 359.23,
+    "move_day_pct": 0.41,
+    "move_open_close_pct": -1.12,
+    "move_week_pct": 6.98
   },
   "indicators": {
     "rsi14": {
-      "value": 43.9,
+      "value": 44.4,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -10.038,
-      "signal": -5.436,
-      "hist": -4.602,
-      "hist_prev": -5.43,
+      "macd": -10.059,
+      "signal": -6.36,
+      "hist": -3.698,
+      "hist_prev": -4.602,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 434.11,
-      "lower": 320.73,
-      "mid": 377.42,
-      "pctb": 0.34,
+      "upper": 434.02,
+      "lower": 321.28,
+      "mid": 377.65,
+      "pctb": 0.35,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 58.99,
-      "read": "59% above its 52-week low"
+      "value": 59.64,
+      "read": "60% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -23.94,
+      "value": -23.63,
       "read": "24% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 342.56,
-      "pct": 4.87,
+      "ma200": 342.3,
+      "pct": 5.38,
       "read": "5% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 26.15,
-      "pct_of_price": 7.28,
+      "value": 25.4,
+      "pct_of_price": 7.04,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.01,
+      "value": 0.55,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 52.7,
+      "value": 55.6,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 390.89,
-  "ma200": 342.56
+  "ma50": 391.91,
+  "ma200": 342.3
 }

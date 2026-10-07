@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-06T01:30:11.056266-07:00",
+  "generated_at": "2026-10-07T01:03:22.614047-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "An AI Rally Built On Infrastructure",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=3797dfd4cefa8badd6b170dbda82f5e7e386baf5736b6a70f4e8087a18ec4a0d",
+      "datetime": 1791326700,
+      "summary": "AI has been a winning theme this year, but which part of the theme you own has made a big difference."
+    },
     {
       "headline": "Symbotic Inc. (SYM) Stock Sinks As Market Gains: Here's Why",
       "source": "Yahoo",
@@ -36,27 +43,6 @@
       "url": "https://finnhub.io/api/news?id=f8e4884a3ea8d348a29ba1c42cb0080f3885ae3c4489a4b0d84825e06b3042b4",
       "datetime": 1790824601,
       "summary": "Global tariffs, court challenges, and shifting trade rules are reshaping where products get made and how supply chains are built. That uncertainty can punish some businesses yet open the door for others tied more closely to US production and automation. This piece looks at how Trump tariff headlines connect to that theme and walks through 3 stocks from the US onshoring and domestic manufacturing s"
-    },
-    {
-      "headline": "Why Symbotic Inc. (SYM) Dipped More Than Broader Market Today",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5566e1a985827745419f4687e524f61b3778600220691a7de430727e42fb2e22",
-      "datetime": 1790715605,
-      "summary": "Symbotic Inc. (SYM) closed the most recent trading day at $41.39, moving 1.45% from the previous trading session."
-    },
-    {
-      "headline": "SCSC vs. SYM: Which Stock Is the Better Value Option?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8d951f9bf73d49168947b254d5d3e3e15c9b5af5b288d1566dcdea4757cfbf14",
-      "datetime": 1790692802,
-      "summary": "SCSC vs. SYM: Which Stock Is the Better Value Option?"
-    },
-    {
-      "headline": "Jim Cramer Is Not Going To Go With This Consumer Cyclical Stock",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=79c43eefb84504a5a0e60c887425a14b2cd784e9d49acaa741d2f088df593061",
-      "datetime": 1790678489,
-      "summary": "Cramer avoids Polaris, likes Forgent despite its valuation, finds Symbotic too expensive, and hasn\u2019t reviewed Corteva; all four stocks fell."
     }
   ],
   "filings": [
@@ -82,63 +68,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-05",
+  "data_asof": "2026-10-06",
   "price": {
-    "last": 42.87,
-    "open": 43.29,
-    "prev_close": 43.28,
-    "move_day_pct": -0.95,
-    "move_open_close_pct": -0.97,
-    "move_week_pct": 2.07
+    "last": 44.15,
+    "open": 43.21,
+    "prev_close": 42.87,
+    "move_day_pct": 2.99,
+    "move_open_close_pct": 2.18,
+    "move_week_pct": 6.36
   },
   "indicators": {
     "rsi14": {
-      "value": 51.2,
+      "value": 55.7,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 0.262,
-      "signal": 0.326,
-      "hist": -0.064,
-      "hist_prev": -0.061,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": 0.346,
+      "signal": 0.33,
+      "hist": 0.016,
+      "hist_prev": -0.064,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 44.99,
-      "lower": 40.84,
-      "mid": 42.91,
-      "pctb": 0.49,
+      "upper": 45.09,
+      "lower": 40.82,
+      "mid": 42.96,
+      "pctb": 0.779,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 12.17,
-      "read": "Just off its 52-week low"
+      "value": 15.52,
+      "read": "16% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -50.89,
-      "read": "51% below its 52-week high"
+      "value": -49.43,
+      "read": "49% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 50.34,
-      "pct": -14.84,
-      "read": "15% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 50.28,
+      "pct": -12.19,
+      "read": "12% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 1.73,
-      "pct_of_price": 4.03,
-      "read": "High daily volatility"
+      "value": 1.72,
+      "pct_of_price": 3.91,
+      "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.86,
+      "value": 1.02,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 56.9,
+      "value": 56.1,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 38.22,
   "high_52w": 87.3,
-  "ma50": 42.16,
-  "ma200": 50.34
+  "ma50": 42.21,
+  "ma200": 50.28
 }

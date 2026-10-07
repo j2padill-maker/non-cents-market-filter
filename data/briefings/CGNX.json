@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-06T01:30:10.207798-07:00",
+  "generated_at": "2026-10-07T01:03:22.017219-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Is Cognex (CGNX) Outperforming Other Computer and Technology Stocks This Year?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=07eae7e1bb96b3f4dfe16b67ed88a2fe1b12a8b998e4c6a27f47553401113f87",
+      "datetime": 1791290404,
+      "summary": "Here is how Cognex Corporation (CGNX) and JFrog Ltd. (FROG) have performed compared to their sector so far this year."
+    },
+    {
+      "headline": "Truist Securities Maintains Hold on Cognex, Lowers Price Target to $74",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=c189f8a6cf1ec25cc1999eaf32d3e4fbaf2c37bfd8955d7df5e07c4e5e04b568",
+      "datetime": 1791205340,
+      "summary": "Truist Securities  analyst Jamie Cook   maintains Cognex (NASDAQ:CGNX) with a Hold and lowers the price target from $78 to $74."
+    },
     {
       "headline": "Is Cognex\u2019s (CGNX) New AI Wafer ID System Quietly Reshaping Its Automation Edge?",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=188b4d8ee71a8e52b66809d406cc7c293d8b00b7f1c9f28a4df221dd0b53d09c",
       "datetime": 1790946023,
       "summary": ""
-    },
-    {
-      "headline": "3 Volatile Stocks We Keep Off Our Radar",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3fea5d6436053cdcf9cab8186413bb2d1715c1ac77e5d7f3dc24ba5c72869e79",
-      "datetime": 1790932203,
-      "summary": "Market swings can be tough to stomach, and volatile stocks often experience exaggerated moves in both directions. While many thrive during risk-on environments, many also struggle to maintain investor confidence when the ride gets bumpy."
-    },
-    {
-      "headline": "Cognex: AI And Robotics Have Potential, But Near-Term Upside Looks Limited",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=6443ad0a2e73e1af06074b065a99f8671f9015561354cdc21ff370ef965acdf1",
-      "datetime": 1790809712,
-      "summary": "Cognex (CGNX) gains from logistics, packaging and semis demand; AI products + RealSense expand markets and robotics upside. See more here."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-05",
+  "data_asof": "2026-10-06",
   "price": {
-    "last": 64.37,
-    "open": 65.2,
-    "prev_close": 64.97,
-    "move_day_pct": -0.92,
-    "move_open_close_pct": -1.27,
-    "move_week_pct": 9.57
+    "last": 66.35,
+    "open": 64.86,
+    "prev_close": 64.37,
+    "move_day_pct": 3.08,
+    "move_open_close_pct": 2.3,
+    "move_week_pct": 11.19
   },
   "indicators": {
     "rsi14": {
-      "value": 59.5,
-      "read": "Neutral"
+      "value": 63.8,
+      "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 0.191,
-      "signal": -0.447,
-      "hist": 0.638,
-      "hist_prev": 0.516,
+      "macd": 0.567,
+      "signal": -0.244,
+      "hist": 0.811,
+      "hist_prev": 0.638,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 64.97,
-      "lower": 56.8,
-      "mid": 60.89,
-      "pctb": 0.926,
-      "read": "Near the upper band"
+      "upper": 65.8,
+      "lower": 56.38,
+      "mid": 61.09,
+      "pctb": 1.059,
+      "read": "Above the upper band \u2014 stretched to the upside"
     },
     "pct_from_52w_low": {
-      "value": 85.75,
-      "read": "86% above its 52-week low"
+      "value": 91.47,
+      "read": "91% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -10.99,
+      "value": -8.25,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 55.79,
-      "pct": 15.38,
-      "read": "15% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 55.94,
+      "pct": 18.61,
+      "read": "19% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
       "value": 2.16,
-      "pct_of_price": 3.35,
+      "pct_of_price": 3.26,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 1.48,
-      "read": "Above-average volume"
+      "value": 1.24,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 66.4,
+      "value": 67.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 34.65,
   "high_52w": 72.32,
-  "ma50": 62.02,
-  "ma200": 55.79
+  "ma50": 62.12,
+  "ma200": 55.94
 }
