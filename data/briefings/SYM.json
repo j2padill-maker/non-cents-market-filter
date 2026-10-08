@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-07T01:03:22.614047-07:00",
+  "generated_at": "2026-10-08T01:20:49.447404-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,11 +17,25 @@
   ],
   "news": [
     {
+      "headline": "Cathie Wood Bets $31M On Amazon, CoreWeave And Meta, While Pulling $26.5M Out of This Hot AI Stock",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=28dbcd65dbce38ae2f3b8328534b933a2bcc649d525973dcac0e31c2a4ecf8da",
+      "datetime": 1791363774,
+      "summary": "Cathie Wood\u2019s ARK Invest poured $31 million into Amazon, CoreWeave and Meta, but also trimmed $26.5 million of Teradyne."
+    },
+    {
       "headline": "An AI Rally Built On Infrastructure",
       "source": "SeekingAlpha",
       "url": "https://finnhub.io/api/news?id=3797dfd4cefa8badd6b170dbda82f5e7e386baf5736b6a70f4e8087a18ec4a0d",
       "datetime": 1791326700,
       "summary": "AI has been a winning theme this year, but which part of the theme you own has made a big difference."
+    },
+    {
+      "headline": "8 Industrials Stocks With Whale Alerts In Today\u2019s Session",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=89ae248e4cb6ff90091853ac65a6f3dd0090a2ba58b7310b7d7b6fa20b10225d",
+      "datetime": 1791293722,
+      "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders often"
     },
     {
       "headline": "Symbotic Inc. (SYM) Stock Sinks As Market Gains: Here's Why",
@@ -68,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-06",
+  "data_asof": "2026-10-07",
   "price": {
-    "last": 44.15,
-    "open": 43.21,
-    "prev_close": 42.87,
-    "move_day_pct": 2.99,
-    "move_open_close_pct": 2.18,
-    "move_week_pct": 6.36
+    "last": 43.31,
+    "open": 43.27,
+    "prev_close": 44.15,
+    "move_day_pct": -1.9,
+    "move_open_close_pct": 0.09,
+    "move_week_pct": 2.95
   },
   "indicators": {
     "rsi14": {
-      "value": 55.7,
+      "value": 52.3,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 0.346,
-      "signal": 0.33,
-      "hist": 0.016,
-      "hist_prev": -0.064,
+      "macd": 0.341,
+      "signal": 0.332,
+      "hist": 0.009,
+      "hist_prev": 0.016,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 45.09,
-      "lower": 40.82,
-      "mid": 42.96,
-      "pctb": 0.779,
+      "upper": 45.13,
+      "lower": 40.85,
+      "mid": 42.99,
+      "pctb": 0.575,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 15.52,
-      "read": "16% above its 52-week low"
+      "value": 13.32,
+      "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -49.43,
-      "read": "49% below its 52-week high"
+      "value": -50.39,
+      "read": "50% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 50.28,
-      "pct": -12.19,
-      "read": "12% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 50.21,
+      "pct": -13.74,
+      "read": "14% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 1.72,
-      "pct_of_price": 3.91,
+      "value": 1.73,
+      "pct_of_price": 3.99,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 1.02,
+      "value": 0.84,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 56.1,
+      "value": 47.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 38.22,
   "high_52w": 87.3,
-  "ma50": 42.21,
-  "ma200": 50.28
+  "ma50": 42.23,
+  "ma200": 50.21
 }

@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-07T01:03:22.017219-07:00",
+  "generated_at": "2026-10-08T01:20:48.854215-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Why Cognex (CGNX) Stock Is Falling Today",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b9a23a9c5c6a9d3e755db6f1400b3873894b7ef1fbf03e62da43c8f90bdbefa6",
+      "datetime": 1791401327,
+      "summary": "Shares of machine vision technology company Cognex (NASDAQ:CGNX) fell 7.5% in the afternoon session after rising Treasury yields and climbing oil prices dampened investor sentiment ahead of the release of the Federal Reserve's September meeting minutes. CNBC reported that Treasury yields climbed back to multiyear highs, ahead of the Federal Reserve\u2019s September meeting minutes. The 10-year yield wa"
+    },
+    {
+      "headline": "Computer Vision - Global Strategic Business Report: Capitalize on 21.9% CAGR and a US$76.8B Market by 2032; Track Intel, Cognex, AMETEK, Basler and Cadence",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ff363004f6ad6559e94dd4cb2e7e3fd78bce59f0e6fff9b93fb29eb39d5f9672",
+      "datetime": 1791370500,
+      "summary": "Boost ROI with computer vision automation that cuts labor costs, improves accuracy and efficiency, and enables real-time insights across key industries.Dublin, Oct. 07, 2026 (GLOBE NEWSWIRE) -- \"Computer Vision - Global Strategic Business Report\" has been added to ResearchAndMarkets.com's offering. The global computer vision market was valued at an estimated US$19.2 billion in 2025 and is projecte"
+    },
     {
       "headline": "Is Cognex (CGNX) Outperforming Other Computer and Technology Stocks This Year?",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=45aa9516b416b3e29532dab88fc2d16a69f6894b8d177c9b077cf781fbf315ff",
       "datetime": 1791187790,
       "summary": "CNBC traders favor Nvidia, Okta, Cognex and Delta; analysts cite upside, raised targets, RealSense acquisition and upcoming earnings."
-    },
-    {
-      "headline": "Cognex: Wait For A Better Time To Buy",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=d08b078eea1e1e90fa71159444cfe8247be5a4a90ac2ad5d1beac7eb85c24a19",
-      "datetime": 1791012183,
-      "summary": "Cognex has a differentiated offering that has been substantially enhanced by AI but gets a Hold rating amid concerns of Chinese competition. Click for more."
-    },
-    {
-      "headline": "Hesai Says Co Selected By NVIDIA As Lidar Partner For NVIDIA DRIVE Hyperion 10",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=188b4d8ee71a8e52b66809d406cc7c293d8b00b7f1c9f28a4df221dd0b53d09c",
-      "datetime": 1790946023,
-      "summary": ""
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-06",
+  "data_asof": "2026-10-07",
   "price": {
-    "last": 66.35,
-    "open": 64.86,
-    "prev_close": 64.37,
-    "move_day_pct": 3.08,
-    "move_open_close_pct": 2.3,
-    "move_week_pct": 11.19
+    "last": 61.21,
+    "open": 64.64,
+    "prev_close": 66.35,
+    "move_day_pct": -7.75,
+    "move_open_close_pct": -5.31,
+    "move_week_pct": 0.92
   },
   "indicators": {
     "rsi14": {
-      "value": 63.8,
-      "read": "Firm \u2014 approaching overbought"
+      "value": 49.0,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": 0.567,
-      "signal": -0.244,
-      "hist": 0.811,
-      "hist_prev": 0.638,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "macd": 0.446,
+      "signal": -0.106,
+      "hist": 0.552,
+      "hist_prev": 0.811,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 65.8,
-      "lower": 56.38,
-      "mid": 61.09,
-      "pctb": 1.059,
-      "read": "Above the upper band \u2014 stretched to the upside"
+      "upper": 65.75,
+      "lower": 56.37,
+      "mid": 61.06,
+      "pctb": 0.516,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 91.47,
-      "read": "91% above its 52-week low"
+      "value": 76.64,
+      "read": "77% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -8.25,
-      "read": "Modestly below its 52-week high"
+      "value": -15.36,
+      "read": "15% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 55.94,
-      "pct": 18.61,
-      "read": "19% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 56.07,
+      "pct": 9.17,
+      "read": "9% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 2.16,
-      "pct_of_price": 3.26,
-      "read": "Elevated volatility"
+      "value": 2.46,
+      "pct_of_price": 4.01,
+      "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.24,
-      "read": "Roughly average volume"
+      "value": 1.84,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 67.4,
+      "value": 58.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 34.65,
   "high_52w": 72.32,
-  "ma50": 62.12,
-  "ma200": 55.94
+  "ma50": 62.14,
+  "ma200": 56.07
 }

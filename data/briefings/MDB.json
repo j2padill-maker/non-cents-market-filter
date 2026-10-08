@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-07T01:03:19.496310-07:00",
+  "generated_at": "2026-10-08T01:20:46.340664-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "The One Number That Could Decide Palantir\u2019s Next Big Move",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=987c1940d70877384702e11fb25befb34ec042f77f6031638bd862c38b9b21b4",
+      "datetime": 1791391555,
+      "summary": "Palantir just posted its ninth straight earnings beat and the stock surged, but one metric buried in the quarterly report now controls whether the premium multiple holds or collapses under rising costs and slowing momentum."
+    },
     {
       "headline": "Meta\u2019s Enterprise Push Could Turn AI From a SaaS Feature Into a SaaS Competitor",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=ccec0f8de4bac32df2ef97340f7653988c13c344a1c6939209889d21cbc81b13",
       "datetime": 1791212485,
       "summary": "Amazon, Alphabet and Tesla rose Friday, but Robinhood traders sold all three. The monthly data suggests profit-taking, not an AI trade exit."
-    },
-    {
-      "headline": "Meta Just Poached a Public Company CEO. Here\u2019s What It\u2019s Really Building",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=885642e86bbc4601f638dd4aa717641c9f5d6611b98055b8c66e72cd31b0a058",
-      "datetime": 1791175052,
-      "summary": "Key TakeawaysMeta hired MongoDB CEO CJ Desai to lead a new enterprise AI platform, a push Mark Zuckerberg called \u201csomewhat of a new muscle\u201d for the company. Free cash flow fell to $1."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-06",
+  "data_asof": "2026-10-07",
   "price": {
-    "last": 360.71,
-    "open": 364.8,
-    "prev_close": 359.23,
-    "move_day_pct": 0.41,
-    "move_open_close_pct": -1.12,
-    "move_week_pct": 6.98
+    "last": 363.03,
+    "open": 362.13,
+    "prev_close": 360.71,
+    "move_day_pct": 0.64,
+    "move_open_close_pct": 0.25,
+    "move_week_pct": 4.14
   },
   "indicators": {
     "rsi14": {
-      "value": 44.4,
+      "value": 45.2,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -10.059,
-      "signal": -6.36,
-      "hist": -3.698,
-      "hist_prev": -4.602,
+      "macd": -9.775,
+      "signal": -7.043,
+      "hist": -2.732,
+      "hist_prev": -3.698,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 434.02,
-      "lower": 321.28,
-      "mid": 377.65,
-      "pctb": 0.35,
+      "upper": 433.97,
+      "lower": 321.8,
+      "mid": 377.88,
+      "pctb": 0.368,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 59.64,
-      "read": "60% above its 52-week low"
+      "value": 60.67,
+      "read": "61% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -23.63,
-      "read": "24% below its 52-week high"
+      "value": -23.13,
+      "read": "23% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 342.3,
-      "pct": 5.38,
-      "read": "5% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 341.99,
+      "pct": 6.15,
+      "read": "6% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 25.4,
-      "pct_of_price": 7.04,
+      "value": 24.3,
+      "pct_of_price": 6.69,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.55,
-      "read": "Roughly average volume"
+      "value": 0.45,
+      "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 55.6,
+      "value": 52.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 391.91,
-  "ma200": 342.3
+  "ma50": 392.96,
+  "ma200": 341.99
 }

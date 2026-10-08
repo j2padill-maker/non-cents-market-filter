@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-07T01:03:22.928774-07:00",
+  "generated_at": "2026-10-08T01:20:49.766386-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Uncover the latest developments among S&P500 stocks in today's session.",
+      "headline": "IPG Photonics, Nova, Teradyne, NXP Semiconductors, and Microchip Technology Stocks Trade Down, What You Need To Know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=66eba06d43edb6824763f8aebb19f3791b1dfc8656f991969b5d35267dbf2be2",
+      "datetime": 1791413327,
+      "summary": "A number of stocks fell in the afternoon session after surging 10-year Treasury yields heightened borrowing cost concerns after the Federal Reserve\u2019s September meeting minutes showed most officials expect another rate increase this year. CNBC reported that the 10-year Treasury yield climbed back above 5.3% on Wednesday and earlier touched its highest level since 2002. The minutes, released Wednesd"
+    },
+    {
+      "headline": "Exploring the top movers within the S&P500 index during today's session.",
       "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=799cd2ca19736d45c52db9faa5f9160ef65f2f81c348e1bda7366c44deea05c5",
-      "datetime": 1791313501,
-      "summary": "Curious about the top performers within the S&P500 index one hour before the close of the markets on Tuesday? Dive into the list of today's session's top gainers and losers for a comprehensive overview."
+      "url": "https://finnhub.io/api/news?id=4969bb37167e933cfd7558289b21f83b2434a2d4a02d1d83b878f78ff6fb8b48",
+      "datetime": 1791399901,
+      "summary": "Uncover the latest developments among S&P500 stocks in today's session. Stay tuned to the S&P500 index's top gainers and losers on Wednesday."
     },
     {
-      "headline": "Multiply Labs Raises $75 Million Series B to Close the Gap Between Drug Discovery and Drug Manufacturing",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6b242ecd6026462e9307a0b256b9dd0afe86ba8df37fc01dd1fcea6a75164d1b",
-      "datetime": 1791311160,
-      "summary": "SAN FRANCISCO, October 06, 2026--Multiply Labs raises $75M Series B led by Dr. Patrick Soon-Shiong to scale robotic manufacturing to help patients access next-generation drugs."
-    },
-    {
-      "headline": "Which S&P500 stocks are moving on Tuesday?",
+      "headline": "Wednesday's session: top gainers and losers in the S&P500 index",
       "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=77d86f15549f5f68cb794b92dd883f9ce67028af48767f3a173cdb7c589f7e8d",
-      "datetime": 1791304502,
-      "summary": "Stay updated with the movement of S&P500 stocks in today's session. Discover which S&P500 stocks are making waves on Tuesday."
+      "url": "https://finnhub.io/api/news?id=683287b687d95e857a785c1de492dffd35b70d6ff8db3972eb817f9a09d627d2",
+      "datetime": 1791390901,
+      "summary": "Stay updated with the movements of the S&P500 index in the middle of the day on Wednesday. Discover which stocks are leading as top gainers and losers in today's session."
     },
     {
-      "headline": "Teradyne Gains 130% YTD: Should You Hold or Fold the Stock?",
+      "headline": "1 Robotics Stock With the Kind of Setup That Built Amazon Millionaires",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5cab22ace9ab071897d02fce2ce6bc393d81c92d3c0e881df01c730571d81f5a",
-      "datetime": 1791299220,
-      "summary": "TER's AI-driven memory test growth and upbeat Q3 outlook support momentum, but premium valuation, competition, and margin pressures cloud the case."
+      "url": "https://finnhub.io/api/news?id=d5e00b18bc8f517aa217990851a64a0b4c1c46c8de2d9b994285e473452a3a10",
+      "datetime": 1791386400,
+      "summary": "A test equipment giant's robotics arm is chasing physical AI with an early playbook that echoes Amazon's historic rise."
     },
     {
-      "headline": "Teradyne Introduces Titan HP Platform with Burn-In Capabilities for Advanced AI Data Center Devices",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d109e0ce91b66ffb8b439404681a2c1e3327f1def3d20d553d85300f2499cb9d",
-      "datetime": 1791291600,
-      "summary": "NORTH READING, Mass., October 06, 2026--Teradyne introduces Titan HP with burn-in for advanced AI data center devices to reduce cost of test and factory floor space, speeding time to market."
+      "headline": "Wednesday's session: gap up and gap down stock in the S&P500 index",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=4d08e570036effc9d9a1d410348b52c79dd8f3d30d008a5e3b2a975922e3c9a4",
+      "datetime": 1791383702,
+      "summary": "Looking for the S&P500 stocks that are experiencing notable gaps on Wednesday? Find out which stocks are gapping up and gapping down in the S&P500 index during today's session."
     },
     {
-      "headline": "Teradyne (TER) Stock Declines While Market Improves: Some Information for Investors",
+      "headline": "What You Need to Know Ahead of Teradyne\u2019s Earnings Release",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=cc7b79cb4e7bec135195d13d5cde551ef9c9b10b423ebcf7501466368d5eb868",
-      "datetime": 1791234006,
-      "summary": "In the latest trading session, Teradyne (TER) closed at $444.53, marking a -1% move from the previous day."
+      "url": "https://finnhub.io/api/news?id=80e55f62f2d8b4317a61f4d645648897f6cbb07487d48bf8a4d9b894261c2bb2",
+      "datetime": 1791376488,
+      "summary": "Teradyne is set to report its Q3 earnings soon, with analysts expecting strong triple-digit year-over-year EPS growth."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-06",
+  "data_asof": "2026-10-07",
   "price": {
-    "last": 430.32,
-    "open": 445.07,
-    "prev_close": 444.53,
-    "move_day_pct": -3.2,
-    "move_open_close_pct": -3.31,
-    "move_week_pct": 6.77
+    "last": 411.78,
+    "open": 415.18,
+    "prev_close": 430.32,
+    "move_day_pct": -4.31,
+    "move_open_close_pct": -0.82,
+    "move_week_pct": 2.71
   },
   "indicators": {
     "rsi14": {
-      "value": 62.0,
-      "read": "Firm \u2014 approaching overbought"
+      "value": 55.5,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": 17.41,
-      "signal": 10.591,
-      "hist": 6.819,
-      "hist_prev": 7.893,
+      "macd": 16.227,
+      "signal": 11.718,
+      "hist": 4.509,
+      "hist_prev": 6.819,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 452.75,
-      "lower": 323.43,
-      "mid": 388.09,
-      "pctb": 0.827,
-      "read": "Near the upper band"
+      "upper": 454.93,
+      "lower": 324.06,
+      "mid": 389.49,
+      "pctb": 0.67,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 226.43,
-      "read": "226% above its 52-week low"
+      "value": 212.37,
+      "read": "212% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -11.03,
+      "value": -14.86,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 337.36,
-      "pct": 27.56,
-      "read": "28% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 338.46,
+      "pct": 21.66,
+      "read": "22% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 20.04,
-      "pct_of_price": 4.66,
+      "value": 20.43,
+      "pct_of_price": 4.96,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.85,
+      "value": 1.0,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 66.5,
+      "value": 59.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 131.82,
   "high_52w": 483.65,
-  "ma50": 378.65,
-  "ma200": 337.36
+  "ma50": 380.48,
+  "ma200": 338.46
 }

@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-07T01:03:23.201055-07:00",
+  "generated_at": "2026-10-08T01:20:50.073662-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Market Concentration: Building For More Than One Outcome",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=83fb4faea38726b84f6c4dc3c1ffbeda918b465156cb516c80b729d0b429c6ef",
+      "datetime": 1791378600,
+      "summary": "Market concentration has remained elevated throughout the AI-led market cycle and could sustain further if another generation of large AI companies enters public benchmarks. Read more here."
+    },
+    {
+      "headline": "October Market Digest",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=3c99cd402bf7a6ded1b915c597a59e4394f70093fbf5fa1ccc893475d22914d9",
+      "datetime": 1791358200,
+      "summary": "The U.S. economy continued to demonstrate resilience in September, with signs of strength across both businesses and consumers. Read more here."
+    },
     {
       "headline": "The Ever-Widening Overton Window Of AI Safety",
       "source": "SeekingAlpha",
@@ -43,70 +57,56 @@
       "url": "https://finnhub.io/api/news?id=f6ecf20e0fafbd372d581dda2af8a3326c7ce6564ef33eb3b1df2121c05cb3c6",
       "datetime": 1790951700,
       "summary": "Why investors may want to reconsider assumptions about China\u00e2\u0080\u0099s role on the global stage and how the AI race could reshape economic, technological and geopolitical power."
-    },
-    {
-      "headline": "Equity Outlook: AI, Higher Rates Raise The Bar For Diversification",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=3c283439e404b9450f6e0b12e4ab991f7294be20772fc180e4c1d4b42341c073",
-      "datetime": 1790944800,
-      "summary": "Global equities advanced in the third quarter as market returns broadened away from technology. Read more here."
-    },
-    {
-      "headline": "AI: Will The World Go Dead Or Markets Continue To Surge Ahead?",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=24f0c28137ba8659420f83e17babce68560377471ca94adb765414fca07af1a3",
-      "datetime": 1790928300,
-      "summary": "While AI dominates the headlines, other macroeconomic variables continue to shape the financial markets. Investors, however, took a measured view of the noise. Read more here..."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-06",
+  "data_asof": "2026-10-07",
   "price": {
-    "last": 36.17,
-    "open": 36.31,
-    "prev_close": 36.2,
-    "move_day_pct": -0.08,
-    "move_open_close_pct": -0.4,
-    "move_week_pct": 2.64
+    "last": 35.67,
+    "open": 35.7,
+    "prev_close": 36.17,
+    "move_day_pct": -1.38,
+    "move_open_close_pct": -0.08,
+    "move_week_pct": 1.25
   },
   "indicators": {
     "rsi14": {
-      "value": 57.4,
+      "value": 50.8,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 0.044,
-      "signal": -0.1,
-      "hist": 0.143,
-      "hist_prev": 0.129,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "macd": 0.043,
+      "signal": -0.071,
+      "hist": 0.114,
+      "hist_prev": 0.143,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 36.27,
-      "lower": 34.4,
-      "mid": 35.34,
-      "pctb": 0.946,
-      "read": "Near the upper band"
+      "upper": 36.3,
+      "lower": 34.42,
+      "mid": 35.36,
+      "pctb": 0.664,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 13.12,
+      "value": 11.56,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -13.07,
+      "value": -14.27,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
       "ma200": 36.87,
-      "pct": -1.9,
-      "read": "2% below its 200-day average \u2014 long-term downtrend"
+      "pct": -3.25,
+      "read": "3% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.5,
-      "pct_of_price": 1.37,
+      "value": 0.51,
+      "pct_of_price": 1.43,
       "read": "Calm \u2014 low volatility"
     },
     "rel_volume": {
@@ -114,12 +114,12 @@
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 73.2,
+      "value": 66.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 31.97,
   "high_52w": 41.61,
-  "ma50": 35.85,
+  "ma50": 35.88,
   "ma200": 36.87
 }
