@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-08T01:20:50.510608-07:00",
+  "generated_at": "2026-10-09T01:20:06.966970-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Zscaler\u2019s $10 billion long-term ARR target looks ambitious, says Jefferies",
+      "headline": "What Sent Cloudflare Stock Higher?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=375f99bb7949b6d57f629dee873f0a1d1966f2a42463457105f57c680c7a85d4",
-      "datetime": 1791391620,
-      "summary": "Zscaler Inc. (NASDAQ:ZS)\u2019s reaffirmation of its fiscal 2027 guidance supports confidence in its near-term growth outlook, but its $10 billion annual recurring revenue target for fiscal 2031 looks ambitious, Jefferies said. The cybersecurity company reaffirmed its first-quarter and fiscal 2027..."
+      "url": "https://finnhub.io/api/news?id=50ab2e7a240c66209f6b88bfbd9da3b3eb265d3a4ad8136c9e6ad4235cf2014e",
+      "datetime": 1791504733,
+      "summary": "Cloudflare (NET) stock heavily outpaced the broader market this year, returning 87.6% in the nine months to October 7, 2026, while the S&P 500 returned 13.0%. That momentum coincided with a series of announcements and a second-quarter report on August 6 that firmly linked the company to the rise of AI agents. So what did Cloudflare tell investors."
     },
     {
-      "headline": "Zscaler on Track as AI, Sales Push Expand Growth, Oppenheimer Says",
+      "headline": "OpenAI Takes Another Executive from Musk\u2019s SpaceX as It Pushes into Global Sales",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ef4947a21e85dd668e028c58f0a0a303d4a7b0272fdbdb15e14d2aaf01f6a964",
-      "datetime": 1791387483,
-      "summary": "Zscaler (ZS) should benefit from growing AI security demand, stronger new-customer sales, more sales"
+      "url": "https://finnhub.io/api/news?id=b3778f73986cd2d89d744a66c5e1289384135c24d9328a4d624ce1a408c8c88c",
+      "datetime": 1791493682,
+      "summary": "OpenAI has hired Ismail Elmas as vice president of sales for Europe, the Middle East and Africa, based in Munich, Germany, as the artificial intelligence company looks to expand its global staffing. Before joining OpenAI, Elmas worked at coding automation..."
     },
     {
-      "headline": "Zscaler's Long-Term Outlook Reinforces Growth Potential as Execution Remains Key, Morgan Stanley Says",
+      "headline": "Zscaler Soars 45% in 3 Months: Hold the Stock or Book Profits?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=fade695b7d23c6dfd99e2932fafd14e712c949b811d1fe692c42cfd106ef48bc",
-      "datetime": 1791386749,
-      "summary": "Zscaler's (ZS) long-term targets underscore its growth potential in cybersecurity but an unchanged f"
+      "url": "https://finnhub.io/api/news?id=b999e17872ec443fa9e0f6ca9aaf785c6482d6bd481e6d9270b62b395d48572f",
+      "datetime": 1791464280,
+      "summary": "ZS's 45% three-month rally, strong AI security demand and attractive valuation support holding shares, but slowing growth and rising costs pose risks."
     },
     {
-      "headline": "Zscaler's Disclosures Strengthen Cross-Selling Story, Broaden Customer Entry Points, Morgan Stanley Says",
+      "headline": "OpenAI hires EMEA sales VP from SpaceX's Cursor",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f42af91295fcb3b570b6ec9720a224530e2022695294bdaad664564a4a65998c",
-      "datetime": 1791384540,
-      "summary": "Zscaler's (ZS) new disclosures strengthen its cross-selling story and broaden customer entry points,"
+      "url": "https://finnhub.io/api/news?id=ab38a7001a55f99a6cdac4aadcd17d65bd072c279905c6faf2a85c72306530e4",
+      "datetime": 1791461565,
+      "summary": "Ismail Elmas becomes the second senior Cursor alumnus recruited by OpenAI for a sales role in the past month"
     },
     {
-      "headline": "Strengthen Your Portfolio With These Cybersecurity ETFs",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4ed62fb1d36dc76368e9c360fa766013e31f7b36576d625b52a5040e549262cd",
-      "datetime": 1791381660,
-      "summary": "AI safety concerns and rising cyber threats are fueling demand for cybersecurity. Here are ETFs positioned to benefit from growing security needs."
+      "headline": "Amerx Initiates Coverage On Zscaler with Buy Rating, Announces Price Target of $305",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=9645f542c5bfca204a486d4d5642c9f3a83f78fc5ae1bb9a347d4a92ab27a54d",
+      "datetime": 1791448578,
+      "summary": "Amerx  analyst Casey Ryan   initiates coverage on Zscaler (NASDAQ:ZS) with a Buy rating and announces Price Target of $305."
     },
     {
-      "headline": "A $1,000 Bet on Palo Alto Networks Beat the S&P 500 by More Than 5x Over Ten Years",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c17411a8e417e3dbc2e86c96f0969dfec3b4fc4a7eadae11339ede99524b02e5",
-      "datetime": 1791381628,
-      "summary": "Palo Alto Networks turned a humble firewall appliance into a sprawling AI security platform, and investors who held through three brutal drawdowns since 2020 found out just how much patience can pay off. But at today's valuation, the next decade looks nothing like the last."
+      "headline": "Macquarie Maintains Outperform on Zscaler, Raises Price Target to $250",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=79a37f63dc68b77165e258d3cc01e575b5f040935230ba116e729adaf044d9bd",
+      "datetime": 1791395096,
+      "summary": "Macquarie  analyst Steve Koenig   maintains Zscaler (NASDAQ:ZS) with a Outperform and raises the price target from $200 to $250."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-07",
+  "data_asof": "2026-10-08",
   "price": {
-    "last": 213.55,
-    "open": 216.46,
-    "prev_close": 212.25,
-    "move_day_pct": 0.61,
-    "move_open_close_pct": -1.34,
-    "move_week_pct": 7.09
+    "last": 216.81,
+    "open": 214.38,
+    "prev_close": 213.55,
+    "move_day_pct": 1.53,
+    "move_open_close_pct": 1.13,
+    "move_week_pct": 9.07
   },
   "indicators": {
     "rsi14": {
-      "value": 64.3,
+      "value": 65.9,
       "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 7.748,
-      "signal": 7.547,
-      "hist": 0.2,
-      "hist_prev": -0.249,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": 8.31,
+      "signal": 7.7,
+      "hist": 0.61,
+      "hist_prev": 0.2,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 225.11,
-      "lower": 170.85,
-      "mid": 197.98,
-      "pctb": 0.787,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 223.89,
+      "lower": 177.4,
+      "mid": 200.65,
+      "pctb": 0.848,
+      "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 80.9,
-      "read": "81% above its 52-week low"
+      "value": 83.66,
+      "read": "84% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -36.49,
+      "value": -35.53,
       "read": "36% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 166.11,
-      "pct": 28.56,
-      "read": "29% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 166.03,
+      "pct": 30.58,
+      "read": "31% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 9.47,
-      "pct_of_price": 4.43,
+      "value": 9.25,
+      "pct_of_price": 4.27,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.77,
+      "value": 1.06,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 71.7,
+      "value": 71.2,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 118.05,
   "high_52w": 336.27,
-  "ma50": 182.82,
-  "ma200": 166.11
+  "ma50": 184.08,
+  "ma200": 166.03
 }

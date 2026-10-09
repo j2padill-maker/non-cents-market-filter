@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-08T01:20:48.854215-07:00",
+  "generated_at": "2026-10-09T01:20:05.277441-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,11 +17,32 @@
   ],
   "news": [
     {
+      "headline": "Stocks making big moves yesterday: Champion Homes, Strategy, Penguin Solutions, Cognex, and FuelCell Energy",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=896c7232f15a3d7b8be6b93f3214206ecfc6b08bc0d288199db3de2796fc44a5",
+      "datetime": 1791487209,
+      "summary": "Check out the companies making headlines yesterday:"
+    },
+    {
       "headline": "Why Cognex (CGNX) Stock Is Falling Today",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=b9a23a9c5c6a9d3e755db6f1400b3873894b7ef1fbf03e62da43c8f90bdbefa6",
       "datetime": 1791401327,
       "summary": "Shares of machine vision technology company Cognex (NASDAQ:CGNX) fell 7.5% in the afternoon session after rising Treasury yields and climbing oil prices dampened investor sentiment ahead of the release of the Federal Reserve's September meeting minutes. CNBC reported that Treasury yields climbed back to multiyear highs, ahead of the Federal Reserve\u2019s September meeting minutes. The 10-year yield wa"
+    },
+    {
+      "headline": "Socket Mobile Announced A New Update To Its React Native CaptureSDK To Supports The React Native Version 0.75.4 And Enables Developers To Customize The SocketCam Viewfinder Within Their Applications",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=09abd19b8b3b59baafc8fa905928c55d77beb81dbef1cd2ed7c1d01f589cf43d",
+      "datetime": 1791388124,
+      "summary": ""
+    },
+    {
+      "headline": "Stock Market Today: S&P 500, Russell 2000 Fall as 30-Year Yield Hits 5.7%",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=3cd840d2106dd0682bcd5aa27f152dff7c8162be169768553abb4c1d2c068bdc",
+      "datetime": 1791377617,
+      "summary": "Stocks fell and small caps slumped Wednesday as the 30-year Treasury yield hit 5.7%, a 24-year high, with Fed minutes and bond auctions ahead."
     },
     {
       "headline": "Computer Vision - Global Strategic Business Report: Capitalize on 21.9% CAGR and a US$76.8B Market by 2032; Track Intel, Cognex, AMETEK, Basler and Cadence",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=07eae7e1bb96b3f4dfe16b67ed88a2fe1b12a8b998e4c6a27f47553401113f87",
       "datetime": 1791290404,
       "summary": "Here is how Cognex Corporation (CGNX) and JFrog Ltd. (FROG) have performed compared to their sector so far this year."
-    },
-    {
-      "headline": "Truist Securities Maintains Hold on Cognex, Lowers Price Target to $74",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=c189f8a6cf1ec25cc1999eaf32d3e4fbaf2c37bfd8955d7df5e07c4e5e04b568",
-      "datetime": 1791205340,
-      "summary": "Truist Securities  analyst Jamie Cook   maintains Cognex (NASDAQ:CGNX) with a Hold and lowers the price target from $78 to $74."
-    },
-    {
-      "headline": "Is Cognex\u2019s (CGNX) New AI Wafer ID System Quietly Reshaping Its Automation Edge?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=1e02fedc5b9832747de2fae5f8444e3df637e6c22ac8a6be6ead32e8a5806a25",
-      "datetime": 1791198356,
-      "summary": "In September 2026, Cognex Corporation launched the In-Sight 1750 Series, an AI-enabled wafer and panel identification system aimed at helping semiconductor manufacturers improve traceability, reduce production disruptions, and maintain throughput without major process changes. The system\u2019s ability to read degraded marks on challenging substrates and support seamless upgrades from the In-Sight 1740"
-    },
-    {
-      "headline": "Nvidia, Okta, Cognex And An Industrial Stock On CNBC\u2019s \u2018Final Trades\u2019",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=45aa9516b416b3e29532dab88fc2d16a69f6894b8d177c9b077cf781fbf315ff",
-      "datetime": 1791187790,
-      "summary": "CNBC traders favor Nvidia, Okta, Cognex and Delta; analysts cite upside, raised targets, RealSense acquisition and upcoming earnings."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-07",
+  "data_asof": "2026-10-08",
   "price": {
-    "last": 61.21,
-    "open": 64.64,
-    "prev_close": 66.35,
-    "move_day_pct": -7.75,
-    "move_open_close_pct": -5.31,
-    "move_week_pct": 0.92
+    "last": 60.91,
+    "open": 60.5,
+    "prev_close": 61.21,
+    "move_day_pct": -0.49,
+    "move_open_close_pct": 0.68,
+    "move_week_pct": -2.11
   },
   "indicators": {
     "rsi14": {
-      "value": 49.0,
+      "value": 48.3,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 0.446,
-      "signal": -0.106,
-      "hist": 0.552,
-      "hist_prev": 0.811,
+      "macd": 0.321,
+      "signal": -0.021,
+      "hist": 0.342,
+      "hist_prev": 0.552,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 65.75,
-      "lower": 56.37,
-      "mid": 61.06,
-      "pctb": 0.516,
+      "upper": 65.7,
+      "lower": 56.33,
+      "mid": 61.02,
+      "pctb": 0.488,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 76.64,
-      "read": "77% above its 52-week low"
+      "value": 75.77,
+      "read": "76% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -15.36,
-      "read": "15% below its 52-week high"
+      "value": -15.78,
+      "read": "16% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 56.07,
-      "pct": 9.17,
-      "read": "9% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 56.19,
+      "pct": 8.4,
+      "read": "8% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 2.46,
-      "pct_of_price": 4.01,
-      "read": "High daily volatility"
+      "value": 2.39,
+      "pct_of_price": 3.92,
+      "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 1.84,
-      "read": "Above-average volume"
+      "value": 1.14,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 58.3,
+      "value": 51.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 34.65,
   "high_52w": 72.32,
-  "ma50": 62.14,
-  "ma200": 56.07
+  "ma50": 62.2,
+  "ma200": 56.19
 }

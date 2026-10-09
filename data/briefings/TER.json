@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-08T01:20:49.766386-07:00",
+  "generated_at": "2026-10-09T01:20:06.094784-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "What Does Teradyne (TER) Mean For AI Infrastructure Manufacturing Now?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=88a6ba25c8898306cc40136ae5ad8cc48c3184580fc972147985138a6875cc74",
+      "datetime": 1791479570,
+      "summary": "Teradyne (NasdaqGS:TER) announced a collaboration and investment in Bright Machines to support AI infrastructure manufacturing using software defined production and robotics. The partnership integrates Teradyne test platforms with Bright Machines automation to target AI data center and related hardware assembly and verification. Teradyne introduced its Titan HP platform with advanced burn in featu"
+    },
+    {
+      "headline": "Citi names 5 top chip picks ahead of Q3 earnings",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=af698d789443b7d7d798666bf1c69af3f167f53b1d92d329f85a3297de1d5da2",
+      "datetime": 1791456334,
+      "summary": "Investing.com -- Citi named AMD, Texas Instruments, Lam Research, Teradyne and Synopsys as its top buy-rated semiconductor picks ahead of third-quarter earnings, as the bank says it is becoming \"increasingly selective\" on the sector after a sharp rebound."
+    },
     {
       "headline": "IPG Photonics, Nova, Teradyne, NXP Semiconductors, and Microchip Technology Stocks Trade Down, What You Need To Know",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=d5e00b18bc8f517aa217990851a64a0b4c1c46c8de2d9b994285e473452a3a10",
       "datetime": 1791386400,
       "summary": "A test equipment giant's robotics arm is chasing physical AI with an early playbook that echoes Amazon's historic rise."
-    },
-    {
-      "headline": "Wednesday's session: gap up and gap down stock in the S&P500 index",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=4d08e570036effc9d9a1d410348b52c79dd8f3d30d008a5e3b2a975922e3c9a4",
-      "datetime": 1791383702,
-      "summary": "Looking for the S&P500 stocks that are experiencing notable gaps on Wednesday? Find out which stocks are gapping up and gapping down in the S&P500 index during today's session."
-    },
-    {
-      "headline": "What You Need to Know Ahead of Teradyne\u2019s Earnings Release",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=80e55f62f2d8b4317a61f4d645648897f6cbb07487d48bf8a4d9b894261c2bb2",
-      "datetime": 1791376488,
-      "summary": "Teradyne is set to report its Q3 earnings soon, with analysts expecting strong triple-digit year-over-year EPS growth."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-07",
+  "data_asof": "2026-10-08",
   "price": {
-    "last": 411.78,
-    "open": 415.18,
-    "prev_close": 430.32,
-    "move_day_pct": -4.31,
-    "move_open_close_pct": -0.82,
-    "move_week_pct": 2.71
+    "last": 398.72,
+    "open": 405.0,
+    "prev_close": 411.78,
+    "move_day_pct": -3.17,
+    "move_open_close_pct": -1.55,
+    "move_week_pct": -4.11
   },
   "indicators": {
     "rsi14": {
-      "value": 55.5,
+      "value": 51.4,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 16.227,
-      "signal": 11.718,
-      "hist": 4.509,
-      "hist_prev": 6.819,
+      "macd": 14.074,
+      "signal": 12.189,
+      "hist": 1.884,
+      "hist_prev": 4.509,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 454.93,
-      "lower": 324.06,
-      "mid": 389.49,
-      "pctb": 0.67,
+      "upper": 455.85,
+      "lower": 325.99,
+      "mid": 390.92,
+      "pctb": 0.56,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 212.37,
-      "read": "212% above its 52-week low"
+      "value": 202.46,
+      "read": "202% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -14.86,
-      "read": "Modestly below its 52-week high"
+      "value": -17.56,
+      "read": "18% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 338.46,
-      "pct": 21.66,
-      "read": "22% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 339.48,
+      "pct": 17.45,
+      "read": "17% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 20.43,
-      "pct_of_price": 4.96,
+      "value": 20.61,
+      "pct_of_price": 5.17,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.0,
-      "read": "Roughly average volume"
+      "value": 1.39,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 59.0,
+      "value": 47.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 131.82,
   "high_52w": 483.65,
-  "ma50": 380.48,
-  "ma200": 338.46
+  "ma50": 382.07,
+  "ma200": 339.48
 }

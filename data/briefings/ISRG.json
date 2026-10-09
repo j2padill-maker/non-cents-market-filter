@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-08T01:20:49.159833-07:00",
+  "generated_at": "2026-10-09T01:20:05.564953-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Is Intuitive Surgical (ISRG) a Buy as Wall Street Analysts Look Optimistic?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=4033ed6ae8ed17606a1ceae187e57795d32b87189e2c0a317bee21a00a136507",
+      "datetime": 1791462604,
+      "summary": "Based on the average brokerage recommendation (ABR), Intuitive Surgical (ISRG) should be added to one's portfolio. Wall Street analysts' overly optimistic recommendations cast doubt on the effectiveness of this highly sought-after metric. So, is the stock worth buying?"
+    },
+    {
+      "headline": "The Monopolistic Razor-and-Blade Engine I Can\u2019t Stop Buying",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=53bbe4aa9c11aaa912b85bc6ec7e10cf64b2e86085ceb4c77aa34351fd789f03",
+      "datetime": 1791458154,
+      "summary": "A 26% price drop on a stock with a near-monopoly business model and 85% recurring revenue sounds like a warning, but one investor sees it as an invitation to keep buying."
+    },
+    {
+      "headline": "Intuitive Surgical (NASDAQ:ISRG) Combines Strong Growth With a Constructive Technical Setup",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=df1cd6419db9df0bf5af0ef0817b082b8dddd428cba634f9389c9499cb3054f7",
+      "datetime": 1791452447,
+      "summary": "Intuitive Surgical shows strong growth, top-tier profits, and a technical setup that could signal a breakout. See the full ISRG stock analysis."
+    },
     {
       "headline": "2 Profitable Stocks with Exciting Potential and 1 We Question",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=ff2ed7a5beb73e35243ed3d30aed4bf2f06a4bcf4cb325bc124d29601709cd1e",
       "datetime": 1791408531,
       "summary": "During the October 5 episode of Mad Money, a caller asked whether Intuitive Surgical, Inc. (NASDAQ:ISRG) was a broken stock and whether they should consider buying it. Jim Cramer replied: I don\u2019t like that particular business anymore because there\u2019s too many companies that want to be in it, particularly Johnson & Johnson. Anything can bounce, [\u2026]"
-    },
-    {
-      "headline": "Intuitive Surgical, Inc. (ISRG) Gains As Market Dips: What You Should Know",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=24566e888d8c3fe4dd2ce63ee3e0c85c1100b3c7194e5bc2098cf4ee51d44531",
-      "datetime": 1791406804,
-      "summary": "Intuitive Surgical, Inc. (ISRG) reached $414.52 at the closing of the latest trading day, reflecting a +2.41% change compared to its last close."
-    },
-    {
-      "headline": "Can ISRG's Single-Port Platform Become the Next Billion-Dollar Franchise?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c7662009b9ace98cff37eb649fd5c094fe1d8023fc1a1ff779048499c9832520",
-      "datetime": 1791394260,
-      "summary": "Intuitive Surgical SP platform is gaining momentum as procedures, utilization and placements rise, with expanding indications and global adoption fueling growth."
-    },
-    {
-      "headline": "Intel downgraded, Marvell upgraded: Wall Street's top analyst calls",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c9045c53ac19ad80d94a07c2e8320fa134ac76c18ad5824d79898864952688d5",
-      "datetime": 1791381613,
-      "summary": "Intel downgraded, Marvell upgraded: Wall Street's top analyst calls"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-07",
+  "data_asof": "2026-10-08",
   "price": {
-    "last": 414.52,
-    "open": 405.07,
-    "prev_close": 404.76,
-    "move_day_pct": 2.41,
-    "move_open_close_pct": 2.33,
-    "move_week_pct": 1.94
+    "last": 415.41,
+    "open": 411.6,
+    "prev_close": 414.52,
+    "move_day_pct": 0.21,
+    "move_open_close_pct": 0.93,
+    "move_week_pct": 3.53
   },
   "indicators": {
     "rsi14": {
-      "value": 62.6,
+      "value": 63.0,
       "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 8.063,
-      "signal": 7.154,
-      "hist": 0.91,
-      "hist_prev": 0.538,
+      "macd": 8.512,
+      "signal": 7.425,
+      "hist": 1.086,
+      "hist_prev": 0.91,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 425.07,
-      "lower": 365.25,
-      "mid": 395.16,
-      "pctb": 0.824,
+      "upper": 424.47,
+      "lower": 371.34,
+      "mid": 397.91,
+      "pctb": 0.829,
       "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 24.85,
+      "value": 25.12,
       "read": "25% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -30.08,
+      "value": -29.93,
       "read": "30% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 444.98,
-      "pct": -6.85,
-      "read": "7% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 444.19,
+      "pct": -6.48,
+      "read": "6% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 11.54,
-      "pct_of_price": 2.78,
+      "value": 11.36,
+      "pct_of_price": 2.74,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.86,
+      "value": 1.13,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 71.4,
+      "value": 69.2,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 332.02,
   "high_52w": 592.85,
-  "ma50": 383.43,
-  "ma200": 444.98
+  "ma50": 384.68,
+  "ma200": 444.19
 }

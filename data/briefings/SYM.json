@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-08T01:20:49.447404-07:00",
+  "generated_at": "2026-10-09T01:20:05.842137-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Symbotic: Behind The Strong Growth Lies A Major Risk",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=8599e3bdbe67641a8d41c14325456d46e7a6db369ae168ae4c3792c1fdce4cb9",
+      "datetime": 1791466549,
+      "summary": "Symbotic shows strong revenue growth, rising margins, and a $22.5B backlog\u00e2\u0080\u0094but valuation is rich, and Walmart risk looms. Click for more on SYM."
+    },
     {
       "headline": "Cathie Wood Bets $31M On Amazon, CoreWeave And Meta, While Pulling $26.5M Out of This Hot AI Stock",
       "source": "Benzinga",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=d8a68f7ed089e990effd530ab78091d66bcea1e5a1e56f7d8494dc255f3238fb",
       "datetime": 1790953838,
       "summary": "Symbotic (SYM) shows strong warehouse automation growth, but high valuation and customer concentration risk persist. Click to read my analysis for more details."
-    },
-    {
-      "headline": "3 US Onshoring Stocks To Watch As Tariff Rules Reshape Supply Chains",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f8e4884a3ea8d348a29ba1c42cb0080f3885ae3c4489a4b0d84825e06b3042b4",
-      "datetime": 1790824601,
-      "summary": "Global tariffs, court challenges, and shifting trade rules are reshaping where products get made and how supply chains are built. That uncertainty can punish some businesses yet open the door for others tied more closely to US production and automation. This piece looks at how Trump tariff headlines connect to that theme and walks through 3 stocks from the US onshoring and domestic manufacturing s"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-07",
+  "data_asof": "2026-10-08",
   "price": {
-    "last": 43.31,
-    "open": 43.27,
-    "prev_close": 44.15,
-    "move_day_pct": -1.9,
-    "move_open_close_pct": 0.09,
-    "move_week_pct": 2.95
+    "last": 42.06,
+    "open": 42.48,
+    "prev_close": 43.31,
+    "move_day_pct": -2.89,
+    "move_open_close_pct": -0.99,
+    "move_week_pct": -2.57
   },
   "indicators": {
     "rsi14": {
-      "value": 52.3,
+      "value": 47.6,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 0.341,
-      "signal": 0.332,
-      "hist": 0.009,
-      "hist_prev": 0.016,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": 0.233,
+      "signal": 0.313,
+      "hist": -0.079,
+      "hist_prev": 0.009,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 45.13,
-      "lower": 40.85,
-      "mid": 42.99,
-      "pctb": 0.575,
+      "upper": 45.04,
+      "lower": 41.03,
+      "mid": 43.04,
+      "pctb": 0.256,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 13.32,
+      "value": 10.05,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -50.39,
-      "read": "50% below its 52-week high"
+      "value": -51.82,
+      "read": "52% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 50.21,
-      "pct": -13.74,
-      "read": "14% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 50.12,
+      "pct": -16.08,
+      "read": "16% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 1.73,
-      "pct_of_price": 3.99,
-      "read": "Elevated volatility"
+      "value": 1.74,
+      "pct_of_price": 4.13,
+      "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.84,
+      "value": 1.21,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 47.9,
+      "value": 52.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 38.22,
   "high_52w": 87.3,
-  "ma50": 42.23,
-  "ma200": 50.21
+  "ma50": 42.27,
+  "ma200": 50.12
 }

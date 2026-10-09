@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-08T01:20:47.779478-07:00",
+  "generated_at": "2026-10-09T01:20:04.518159-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Jim Cramer Loves Cloudflare (NET), but There\u2019s a Catch",
+      "headline": "What Sent Cloudflare Stock Higher?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0c07183b75c4b022c8feccdcbfd331cf4133d3531b785bbb39c7d23b6942eba9",
-      "datetime": 1791410739,
-      "summary": "During the October 1 episode of Mad Money, Jim Cramer discussed Cloudflare, Inc. (NYSE:NET) as a beneficiary of growing AI traffic, while expressing reservations about buying at its current valuation. Cramer called Cloudflare one of his favorites in a September episode and also mentioned another \u201cterrific\u201d company with it. AI Agents Are Changing Internet Traffic [\u2026]"
+      "url": "https://finnhub.io/api/news?id=50ab2e7a240c66209f6b88bfbd9da3b3eb265d3a4ad8136c9e6ad4235cf2014e",
+      "datetime": 1791504733,
+      "summary": "Cloudflare (NET) stock heavily outpaced the broader market this year, returning 87.6% in the nine months to October 7, 2026, while the S&P 500 returned 13.0%. That momentum coincided with a series of announcements and a second-quarter report on August 6 that firmly linked the company to the rise of AI agents. So what did Cloudflare tell investors."
     },
     {
-      "headline": "BeInCrypto Launches The State of AI Agent Payments 2026 Report at TOKEN2049 Singapore",
+      "headline": "Cloudflare (NET) Stock May Be Overvalued After Post Quantum Security Push",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f3064ccf9c34200e2689ef685866543ea3b28fe726a8fcae1bfd41215a45b548",
-      "datetime": 1791382871,
-      "summary": "Developed with input from members of the BeInCrypto Expert Council, including experts from AWS and Cloudflare, our new report looks at what the observable activity shows, how much money is moving, and where the hype runs ahead of the data. By BeInCrypto Research AI agents that can pay for things on their own are one"
+      "url": "https://finnhub.io/api/news?id=25bb484ebc7b1a2bf2f6c831a02c2799e8540bb264e9039d4ec8913e89769f6c",
+      "datetime": 1791482971,
+      "summary": "Cloudflare has been on a powerful run over the past few years, and the share price now reflects very strong expectations. The question for you as an investor is whether that current valuation is supported by the company\u2019s sales. Over the past 3 years the stock has returned roughly 4.3x, which puts real pressure on today\u2019s price to be backed up by Cloudflare\u2019s revenue base and what it may deliver o"
     },
     {
-      "headline": "Cloudflare's Data Platform Expands: Is Basin the Next Growth Driver?",
+      "headline": "2 Growth Stocks Set to Flourish and 1 Facing Headwinds",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a578a10b882b9c37fbb6dcdfb4847461a81d1c266c4ffac6220bf26bee653392",
-      "datetime": 1791377880,
-      "summary": "NET's Basin launch simplifies data management with serverless analytics, open formats and no cross-cloud transfer fees, supporting AI workloads."
+      "url": "https://finnhub.io/api/news?id=1ff3d9786790f462f48c2bf3f9bb52f8faa230fbe54d842e3c9f6e16b23cd541",
+      "datetime": 1791467529,
+      "summary": "Growth is oxygen. But when it evaporates, the consequences can be severe - ask anyone who bought Cisco in the Dot-Com Bubble or newer investors who lived through the 2020 to 2022 COVID cycle."
     },
     {
-      "headline": "Brokers Suggest Investing in Cloudflare (NET): Read This Before Placing a Bet",
+      "headline": "Why Cloudflare Stock Rallied Nearly 14% in September",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9a608812d085e6851fcdb46122a1b4fcd6171e52f8f129af9563fa309ad0a700",
-      "datetime": 1791376203,
-      "summary": "The average brokerage recommendation (ABR) for Cloudflare (NET) is equivalent to a Buy. The overly optimistic recommendations of Wall Street analysts make the effectiveness of this highly sought-after metric questionable. So, is it worth buying the stock?"
+      "url": "https://finnhub.io/api/news?id=27272816558c95389703f3e8c0112ca3cf141a3dec3ca1c100113f43bc95574a",
+      "datetime": 1791467281,
+      "summary": "The internet traffic cop continues to benefit from the shift to AI."
     },
     {
-      "headline": "An AI Rally Built On Infrastructure",
+      "headline": "What Could Cloudflare (NET) New Trust And Data Push Mean For Its Future?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f506227af279c527260bf4f2265740a3c23d77da70a9cdde99a2196daf90de9d",
+      "datetime": 1791465516,
+      "summary": "Cloudflare (NYSE:NET) has become a public Certificate Authority, issuing post-quantum ready TLS certificates to external organizations. The company introduced Basin, an open-source serverless data platform aimed at handling application data without dedicated infrastructure management. Cloudflare entered a major partnership with Deutsche Telekom to offer joint security and connectivity services to "
+    },
+    {
+      "headline": "Wall Street Lunch: Starbucks Puts Chipotle On Its Takeover Menu",
       "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=3797dfd4cefa8badd6b170dbda82f5e7e386baf5736b6a70f4e8087a18ec4a0d",
-      "datetime": 1791326700,
-      "summary": "AI has been a winning theme this year, but which part of the theme you own has made a big difference."
-    },
-    {
-      "headline": "Closing Cyber-Insurance Gap: Cowbell CEO, Founder & Chairman Jack Kudale, Live at Nasdaq",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=cc7e6a000744c4840a5bda864a9845eb68f3248c807013ed934880d0c5fc9534",
-      "datetime": 1791318355,
-      "summary": "Tech Edge hosted a fireside chat at Nasdaq MarketSite on Oct. 5 with Jack Kudale, Chief Executive Officer, Founder and Chairman of Cowbell. The in-person interview was joined by Editor-in-Chief John Jannarone and they discussed: How Cowbell\u2019s focus is closing the cyber-insurance gap for businesses. Mr. Kudale explained Cowbell\u2019s approach to combining technology, data, and [\u2026] The post Closing Cybe"
+      "url": "https://finnhub.io/api/news?id=c018240ef167e2a959907fdaead23ba01ffa70435f7bfd5f13ecac9ddddaa4da",
+      "datetime": 1791462420,
+      "summary": "Chipotle Mexican Grill (CMG) is up after a report that Starbucks (SBUX) has explored a takeover of the chain."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-07",
+  "data_asof": "2026-10-08",
   "price": {
-    "last": 342.97,
-    "open": 353.04,
-    "prev_close": 355.01,
-    "move_day_pct": -3.39,
-    "move_open_close_pct": -2.85,
-    "move_week_pct": -1.24
+    "last": 341.89,
+    "open": 340.02,
+    "prev_close": 342.97,
+    "move_day_pct": -0.31,
+    "move_open_close_pct": 0.55,
+    "move_week_pct": -2.6
   },
   "indicators": {
     "rsi14": {
-      "value": 54.7,
+      "value": 54.2,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 13.059,
-      "signal": 14.449,
-      "hist": -1.39,
-      "hist_prev": -0.272,
+      "macd": 11.676,
+      "signal": 13.894,
+      "hist": -2.219,
+      "hist_prev": -1.39,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 372.66,
-      "lower": 310.68,
-      "mid": 341.67,
-      "pctb": 0.521,
+      "upper": 370.86,
+      "lower": 315.55,
+      "mid": 343.21,
+      "pctb": 0.476,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 114.1,
-      "read": "114% above its 52-week low"
+      "value": 113.43,
+      "read": "113% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -4.6,
+      "value": -4.9,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 237.58,
-      "pct": 44.36,
-      "read": "44% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 238.31,
+      "pct": 43.46,
+      "read": "43% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 15.92,
-      "pct_of_price": 4.64,
+      "value": 15.69,
+      "pct_of_price": 4.59,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.75,
+      "value": 0.79,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 57.5,
+      "value": 60.1,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 359.49,
-  "ma50": 313.04,
-  "ma200": 237.58
+  "ma50": 314.47,
+  "ma200": 238.31
 }

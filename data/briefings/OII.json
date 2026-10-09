@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-08T01:20:50.260337-07:00",
+  "generated_at": "2026-10-09T01:20:06.598667-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Oceaneering International: Q3 Expectations Support A Buy Rating",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=26ad6548e3aa5c7fb48e3e4154545750f4c0c5389d31a25b7d96147afe3c769d",
+      "datetime": 1791444323,
+      "summary": "Oceaneering (OII) Buy thesis at ~$44.97: Q3 EBITDA $115\u00e2\u0080\u0093$125M, ROV pricing/utilization & defense tailwinds\u00e2\u0080\u0094watch cash flow, margins & risks. See more here."
+    },
     {
       "headline": "Oceaneering: Trading Above Its Fundamental Value",
       "source": "SeekingAlpha",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=f9bd4db4cd16eeff6c505abdc0f7525ab7a04213f77372df0e2a501e510ced4f",
       "datetime": 1791208620,
       "summary": "WildFire is reshaping MGY's growth outlook, with higher production, faster deleveraging and new cost synergies."
-    },
-    {
-      "headline": "Oceaneering Lands $154M U.S. Navy Contract for ADTech Segment",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=14e102749f9c0e3680bcd9dedc5269aef35141e9546d6dde8840e97b18d0da7d",
-      "datetime": 1791206700,
-      "summary": "OII's $154 million Navy award expands ADTech's defense exposure, reinforces its Dry Deck Shelter role and adds potential revenue visibility."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-07",
+  "data_asof": "2026-10-08",
   "price": {
-    "last": 43.7,
-    "open": 44.81,
-    "prev_close": 44.97,
-    "move_day_pct": -2.82,
-    "move_open_close_pct": -2.48,
-    "move_week_pct": 0.16
+    "last": 44.58,
+    "open": 44.16,
+    "prev_close": 43.7,
+    "move_day_pct": 2.01,
+    "move_open_close_pct": 0.95,
+    "move_week_pct": 0.5
   },
   "indicators": {
     "rsi14": {
-      "value": 37.0,
-      "read": "Oversold"
+      "value": 41.7,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": -1.285,
-      "signal": -1.164,
-      "hist": -0.121,
-      "hist_prev": -0.098,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -1.243,
+      "signal": -1.179,
+      "hist": -0.063,
+      "hist_prev": -0.121,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 49.92,
-      "lower": 42.37,
-      "mid": 46.15,
-      "pctb": 0.176,
-      "read": "Near the lower band"
+      "upper": 49.09,
+      "lower": 42.61,
+      "mid": 45.85,
+      "pctb": 0.305,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 96.85,
-      "read": "97% above its 52-week low"
+      "value": 100.81,
+      "read": "101% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -19.24,
-      "read": "19% below its 52-week high"
+      "value": -17.61,
+      "read": "18% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 38.86,
-      "pct": 12.45,
-      "read": "12% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 38.97,
+      "pct": 14.4,
+      "read": "14% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 1.77,
-      "pct_of_price": 4.05,
-      "read": "High daily volatility"
+      "value": 1.73,
+      "pct_of_price": 3.89,
+      "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 1.01,
+      "value": 0.86,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 32.6,
+      "value": 45.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 22.2,
   "high_52w": 54.11,
-  "ma50": 48.82,
-  "ma200": 38.86
+  "ma50": 48.78,
+  "ma200": 38.97
 }

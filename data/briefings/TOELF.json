@@ -2,7 +2,7 @@
   "ticker": "TOELF",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-08T01:20:47.197956-07:00",
+  "generated_at": "2026-10-09T01:20:03.889847-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -22,90 +22,69 @@
       "url": "https://finnhub.io/api/news?id=9cb259582ae44d98309f1cdac6161953d58cf74f5667ae68485365d6c7148ad8",
       "datetime": 1791173677,
       "summary": "TOKYO (AP) \u2014 Tokyo shares advanced Monday at the start of a busy week for U. economic updates, while stock prices were little changed in Sydney and Hong Kong."
-    },
-    {
-      "headline": "Japanese chipmakers rally as Micron earnings boost AI trade",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7fc8e3716737dd355d350365a96a742cff24f0bcaefc5a915c02c880407154bf",
-      "datetime": 1790830499,
-      "summary": "Investing.com-- Japanese chip stocks surged on Thursday, tracking a stronger-than-expected outlook from U.S. memory-chip maker Micron Technology (NASDAQ:MU) and renewed optimism over AI-related semiconductor demand."
-    },
-    {
-      "headline": "Asia stocks rise on chipmaker gains, soft U.S. inflation; Nikkei outperforms",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ecd21b7e538cd5c891215557fd3720249c0da81429b05051466ebc76a448bca9",
-      "datetime": 1790829395,
-      "summary": "Investing.com-- Asian stocks were mostly higher on Thursday, with Japanese chipmakers leading gains after strong results from Micron Technology, while softer-than-expected U.S. inflation data eased expectations of another Federal Reserve rate hike this month."
-    },
-    {
-      "headline": "Asian shares mostly rise amid market optimism about AI, despite Iran worries",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7e2be8e3eb1abfa9cb4aa843e5a165a8118df8741e7762217e25870e2d4f1e89",
-      "datetime": 1790824743,
-      "summary": "Asian shares mostly rose in early Thursday trading amid investor interest in technology-related issues, despite ongoing worries about the war in Iran.  In Tokyo trading, issues expected to get a boost from the solid demand in computer chips and AI-related growth have been rising in recent sessions, including Advantest Corp., Tokyo Electron and SoftBank Group Corp."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-07",
+  "data_asof": "2026-10-08",
   "price": {
-    "last": 80.0,
-    "open": 76.55,
-    "prev_close": 82.7,
-    "move_day_pct": -3.26,
-    "move_open_close_pct": 4.51,
-    "move_week_pct": 4.64
+    "last": 77.67,
+    "open": 77.65,
+    "prev_close": 80.0,
+    "move_day_pct": -2.91,
+    "move_open_close_pct": 0.03,
+    "move_week_pct": 3.13
   },
   "indicators": {
     "rsi14": {
-      "value": 63.1,
-      "read": "Firm \u2014 approaching overbought"
+      "value": 58.4,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": 3.37,
-      "signal": 1.852,
-      "hist": 1.517,
-      "hist_prev": 1.753,
+      "macd": 3.258,
+      "signal": 2.133,
+      "hist": 1.125,
+      "hist_prev": 1.517,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 83.99,
-      "lower": 57.73,
-      "mid": 70.86,
-      "pctb": 0.848,
-      "read": "Near the upper band"
+      "upper": 84.7,
+      "lower": 58.2,
+      "mid": 71.45,
+      "pctb": 0.735,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 127.11,
-      "read": "127% above its 52-week low"
+      "value": 120.5,
+      "read": "120% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -16.51,
-      "read": "17% below its 52-week high"
+      "value": -18.94,
+      "read": "19% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 62.15,
-      "pct": 28.72,
-      "read": "29% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 62.35,
+      "pct": 24.57,
+      "read": "25% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 5.33,
-      "pct_of_price": 6.66,
+      "value": 5.3,
+      "pct_of_price": 6.83,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 4.06,
-      "read": "Heavy volume \u2014 well above average"
+      "value": 0.95,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 38.6,
+      "value": 32.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 35.22,
   "high_52w": 95.82,
-  "ma50": 69.08,
-  "ma200": 62.15
+  "ma50": 69.42,
+  "ma200": 62.35
 }

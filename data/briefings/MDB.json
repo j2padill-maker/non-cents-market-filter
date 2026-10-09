@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-08T01:20:46.340664-07:00",
+  "generated_at": "2026-10-09T01:20:03.223121-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,11 +17,32 @@
   ],
   "news": [
     {
+      "headline": "Is MongoDB (MDB) Fully Priced After Raised Growth Targets?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f3100e2d1e8b783c7ca51c9f7280b48adfc14cba9baf7c894f07551ecd62f374",
+      "datetime": 1791522801,
+      "summary": "MongoDB has had a mixed share price journey, with a small gain over three years but a decline over five, which puts fresh focus on whether the current US$371.35 level lines up with the cash the business can produce over time. The question for you is whether recent momentum in the underlying business has changed the gap between what the market is paying today and what its cash flows can justify. Ov"
+    },
+    {
+      "headline": "MongoDB (MDB) Unveils New AI Tools While Investors Ask If The Stock Is A Bargain",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7fb9b3e5909c521da4df6de36b80dfcda6b60104d709cdec5de9472b5421a769",
+      "datetime": 1791465208,
+      "summary": "MongoDB (MDB) used its late September Investor Day to roll out Atlas Agent Engine, MongoDB 9.0, and Atlas Infinite, a trio of releases aimed at AI-heavy, real-time application workloads. MongoDB shares at US$363.03 have inched higher over the past week, yet remain down about 9% on a year-to-date share price basis. The 1-year total shareholder return of roughly 11% signals longer term holders have "
+    },
+    {
       "headline": "The One Number That Could Decide Palantir\u2019s Next Big Move",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=987c1940d70877384702e11fb25befb34ec042f77f6031638bd862c38b9b21b4",
       "datetime": 1791391555,
       "summary": "Palantir just posted its ninth straight earnings beat and the stock surged, but one metric buried in the quarterly report now controls whether the premium multiple holds or collapses under rising costs and slowing momentum."
+    },
+    {
+      "headline": "Meta Enterprise Platform: The \"Next Major Pillar\" of Zuckerberg's AI Vision",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=1dda39812454706382c17d146fb0c0daf574df7ea5f33f30f170252614d85387",
+      "datetime": 1791382800,
+      "summary": "Meta unveils the Meta Enterprise Platform and Muse for Small Business, new AI tools aimed at businesses, as it hires former MongoDB CEO CJ Desai to lead the effort."
     },
     {
       "headline": "Meta\u2019s Enterprise Push Could Turn AI From a SaaS Feature Into a SaaS Competitor",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=c0de8bbb852ecb0c2d147c7444c332b81e4ba00e94dc002f41e46a06e3392fe9",
       "datetime": 1791301680,
       "summary": "Square wins Pike Place Fish Market as a merchant, bringing unified commerce tools to a business managing seasonal traffic and online orders."
-    },
-    {
-      "headline": "Zacks Investment Ideas feature highlights: NVIDIA's, Alphabet's, Meta, Expedia, Apple and MongoDB",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=28d4f9293b76613111469c9017c7a2a5a51c1a97e2ea62dfcf91b6c4a77a56a1",
-      "datetime": 1791260940,
-      "summary": "NVIDIA's, Alphabet's, Meta, Expedia, Apple and MongoDB have been highlighted in this Investment Ideas article."
-    },
-    {
-      "headline": "3 Stocks Benefiting From AI Demand Just Announced Major Buybacks",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ab01fbbf49310dad8e98c78665829ae81f64a4cd84723a0a14e0495eae563329",
-      "datetime": 1791216300,
-      "summary": "NVIDIA, MongoDB, and Talen Energy announced major buyback expansions, totaling $235 billion, $1.35 billion, and $3.0 billion respectively, signaling confidence amid differing 2026 stock performance."
-    },
-    {
-      "headline": "Amazon, Alphabet, Tesla Stock Rises: Robinhood Traders Sell Anyway",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=ccec0f8de4bac32df2ef97340f7653988c13c344a1c6939209889d21cbc81b13",
-      "datetime": 1791212485,
-      "summary": "Amazon, Alphabet and Tesla rose Friday, but Robinhood traders sold all three. The monthly data suggests profit-taking, not an AI trade exit."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-07",
+  "data_asof": "2026-10-08",
   "price": {
-    "last": 363.03,
-    "open": 362.13,
-    "prev_close": 360.71,
-    "move_day_pct": 0.64,
-    "move_open_close_pct": 0.25,
-    "move_week_pct": 4.14
+    "last": 371.35,
+    "open": 359.9,
+    "prev_close": 363.03,
+    "move_day_pct": 2.29,
+    "move_open_close_pct": 3.18,
+    "move_week_pct": 5.58
   },
   "indicators": {
     "rsi14": {
-      "value": 45.2,
+      "value": 48.0,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -9.775,
-      "signal": -7.043,
-      "hist": -2.732,
-      "hist_prev": -3.698,
+      "macd": -8.778,
+      "signal": -7.39,
+      "hist": -1.388,
+      "hist_prev": -2.732,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 433.97,
-      "lower": 321.8,
-      "mid": 377.88,
-      "pctb": 0.368,
+      "upper": 433.89,
+      "lower": 321.62,
+      "mid": 377.76,
+      "pctb": 0.443,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 60.67,
-      "read": "61% above its 52-week low"
+      "value": 64.35,
+      "read": "64% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -23.13,
-      "read": "23% below its 52-week high"
+      "value": -21.37,
+      "read": "21% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 341.99,
-      "pct": 6.15,
-      "read": "6% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 341.69,
+      "pct": 8.68,
+      "read": "9% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 24.3,
-      "pct_of_price": 6.69,
+      "value": 23.66,
+      "pct_of_price": 6.37,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.45,
-      "read": "Light \u2014 quiet trading"
+      "value": 0.63,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 52.8,
+      "value": 55.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 392.96,
-  "ma200": 341.99
+  "ma50": 393.97,
+  "ma200": 341.69
 }

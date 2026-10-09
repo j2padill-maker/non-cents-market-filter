@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-08T01:20:50.073662-07:00",
+  "generated_at": "2026-10-09T01:20:06.391613-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "AI Beyond Tech: How Artificial Intelligence Is Reshaping The Economy",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=ed498aaf5c4e901c518442c723162fd289a2cdbf345400d4a46eedd7eb6296b1",
+      "datetime": 1791459900,
+      "summary": "BlackRock\u00e2\u0080\u0099s Jay Jacobs discusses how the AI economy is evolving, where AI adoption is taking hold, and why infrastructure is becoming increasingly important to the AI build-out."
+    },
+    {
+      "headline": "Growth Holds, Risks Widen",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=2bc6d5f41088e1fc4812bf15aae7d04124f5f10941c4e5118fa68685dcbc0051",
+      "datetime": 1791436800,
+      "summary": "As geopolitical fragmentation continues, most major economies are absorbing higher energy prices and tariffs better than expected. Read more here."
+    },
     {
       "headline": "Market Concentration: Building For More Than One Outcome",
       "source": "SeekingAlpha",
@@ -43,83 +57,69 @@
       "url": "https://finnhub.io/api/news?id=32f3d5748bcecbe962f07e4f291082025d34de1c1609e1945654a1ced6f719e3",
       "datetime": 1790996400,
       "summary": "In the third quarter, markets absorbed higher rates, rising oil prices, and renewed inflation concerns, and continued to advance. Read more here."
-    },
-    {
-      "headline": "The Case For A Fed Pause Strengthens",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=36bc9a7db8328007f5458539f8ab568f5ae780ceaab076cb06a9e68e5fe06b42",
-      "datetime": 1790995200,
-      "summary": "Softer U.S. inflation and labor data as well as more cautious comments from Federal Reserve officials shifted the rates outlook this week. Read more here."
-    },
-    {
-      "headline": "U.S., China And The Race For Global AI Leadership",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=f6ecf20e0fafbd372d581dda2af8a3326c7ce6564ef33eb3b1df2121c05cb3c6",
-      "datetime": 1790951700,
-      "summary": "Why investors may want to reconsider assumptions about China\u00e2\u0080\u0099s role on the global stage and how the AI race could reshape economic, technological and geopolitical power."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-07",
+  "data_asof": "2026-10-08",
   "price": {
-    "last": 35.67,
-    "open": 35.7,
-    "prev_close": 36.17,
-    "move_day_pct": -1.38,
-    "move_open_close_pct": -0.08,
-    "move_week_pct": 1.25
+    "last": 34.83,
+    "open": 35.16,
+    "prev_close": 35.67,
+    "move_day_pct": -2.35,
+    "move_open_close_pct": -0.94,
+    "move_week_pct": -1.69
   },
   "indicators": {
     "rsi14": {
-      "value": 50.8,
+      "value": 42.0,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 0.043,
-      "signal": -0.071,
-      "hist": 0.114,
-      "hist_prev": 0.143,
+      "macd": -0.026,
+      "signal": -0.062,
+      "hist": 0.037,
+      "hist_prev": 0.114,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
       "upper": 36.3,
-      "lower": 34.42,
+      "lower": 34.43,
       "mid": 35.36,
-      "pctb": 0.664,
+      "pctb": 0.214,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 11.56,
+      "value": 8.93,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -14.27,
-      "read": "Modestly below its 52-week high"
+      "value": -16.29,
+      "read": "16% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 36.87,
-      "pct": -3.25,
-      "read": "3% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 36.86,
+      "pct": -5.51,
+      "read": "6% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.51,
-      "pct_of_price": 1.43,
+      "value": 0.54,
+      "pct_of_price": 1.56,
       "read": "Calm \u2014 low volatility"
     },
     "rel_volume": {
-      "value": 0.85,
+      "value": 1.04,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 66.9,
+      "value": 65.2,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 31.97,
   "high_52w": 41.61,
-  "ma50": 35.88,
-  "ma200": 36.87
+  "ma50": 35.91,
+  "ma200": 36.86
 }
