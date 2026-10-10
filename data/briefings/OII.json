@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-09T01:20:06.598667-07:00",
+  "generated_at": "2026-10-10T01:04:38.844044-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "Shell Partially Restarts Qatar Pearl GTL Plant After War Damage",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=fe026bb0ff0afff745a18c1299bba7792410927bd16c0118a95c2bc23238d52b",
+      "datetime": 1791550860,
+      "summary": "SHEL partially restarts its Pearl GTL plant in Qatar as naphtha shipments resume, but full recovery hinges on repairs and regional shipping security."
+    },
+    {
+      "headline": "Drilling Tools International Expands Global Reach With Saltire Deal",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=71f1c3ea4f2d0e24b700c46faf5688e2ed18a7e23a08e9bf369b0bc7865cb235",
+      "datetime": 1791550800,
+      "summary": "DTI aims to expand its international footprint through the Saltire and Foxley deal, with new markets, broader product offerings and potential cash flow gains."
+    },
+    {
+      "headline": "Oceaneering: Undersea Robotics Adds To Already Diverse Offshore Portfolio, Driving Growth And Cash Flow",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=014e85802a0b163406746bc4c3045af64e3f4a2d0e45ff29d8d0381163b4b6b0",
+      "datetime": 1791542785,
+      "summary": "Buy Oceaneering International (OII): subsea robotics growth, strong ROE and cash flow support upside through 2027 despite volatility. Click here to read."
+    },
+    {
+      "headline": "3 Low-Volatility Stocks with Warning Signs",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=469e00f1933b64bcf81407ddff9b757b95687df604cf2a40475ff5637d6901e0",
+      "datetime": 1791533950,
+      "summary": "Low-volatility stocks may offer stability, but that often comes at the cost of slower growth and the upside potential of more dynamic companies."
+    },
+    {
       "headline": "Oceaneering International: Q3 Expectations Support A Buy Rating",
       "source": "SeekingAlpha",
       "url": "https://finnhub.io/api/news?id=26ad6548e3aa5c7fb48e3e4154545750f4c0c5389d31a25b7d96147afe3c769d",
@@ -29,34 +57,6 @@
       "url": "https://finnhub.io/api/news?id=f099f0366e29dc6319306f97839f011b217996e450a860c6eb2c78914d94edce",
       "datetime": 1791423456,
       "summary": "Oceaneering is a leading subsea robotics and offshore services provider, currently recovering. Find out why OII stock is a Hold."
-    },
-    {
-      "headline": "Best Momentum Stocks to Buy for October 7th",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=07443f22213fa53a159a4c12e2709f9617e17833ba9f5345fca90b74e7af52fa",
-      "datetime": 1791378000,
-      "summary": "MU, EQNR and OII made it to the Zacks Rank #1 (Strong Buy) momentum stocks list on October 7th, 2026."
-    },
-    {
-      "headline": "3 Undervalued Stocks To Watch With Up To 38% ROE",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=cf1f6892c7dabc9fe9204051c53444b6e730e7108d19abd0dab0528ace48ddf3",
-      "datetime": 1791367995,
-      "summary": "IMF warnings about high public debt and sticky inflation have pushed big institutions toward crowded mega caps, while smaller quality businesses get ignored. That neglect can create a pricing gap. When capital is cautious and distracted, strong small caps with clean balance sheets and resilient cash flows can be hiding in plain sight. This article highlights three such underfollowed stocks from ou"
-    },
-    {
-      "headline": "Suncor's Offshore Asset Sale to Boost Focus on Oil Sands Growth",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a1c76f19fe0400d6774938fb3d0d24b56dae3341780d2203de3be059d0287264",
-      "datetime": 1791211860,
-      "summary": "SU's C$1.2B offshore asset sale sharpens its oil sands focus, reduces future liabilities and supports higher shareholder returns."
-    },
-    {
-      "headline": "Magnolia Oil & Gas Strengthens Outlook After WildFire Acquisition",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f9bd4db4cd16eeff6c505abdc0f7525ab7a04213f77372df0e2a501e510ced4f",
-      "datetime": 1791208620,
-      "summary": "WildFire is reshaping MGY's growth outlook, with higher production, faster deleveraging and new cost synergies."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-08",
+  "data_asof": "2026-10-09",
   "price": {
-    "last": 44.58,
-    "open": 44.16,
-    "prev_close": 43.7,
-    "move_day_pct": 2.01,
-    "move_open_close_pct": 0.95,
-    "move_week_pct": 0.5
+    "last": 44.81,
+    "open": 44.64,
+    "prev_close": 44.58,
+    "move_day_pct": 0.52,
+    "move_open_close_pct": 0.38,
+    "move_week_pct": 1.11
   },
   "indicators": {
     "rsi14": {
-      "value": 41.7,
+      "value": 42.8,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -1.243,
+      "macd": -1.177,
       "signal": -1.179,
-      "hist": -0.063,
-      "hist_prev": -0.121,
-      "read": "Bearish \u2014 MACD below signal"
+      "hist": 0.002,
+      "hist_prev": -0.063,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 49.09,
-      "lower": 42.61,
-      "mid": 45.85,
-      "pctb": 0.305,
+      "upper": 47.73,
+      "lower": 43.34,
+      "mid": 45.53,
+      "pctb": 0.335,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 100.81,
-      "read": "101% above its 52-week low"
+      "value": 101.85,
+      "read": "102% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -17.61,
-      "read": "18% below its 52-week high"
+      "value": -17.19,
+      "read": "17% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 38.97,
-      "pct": 14.4,
-      "read": "14% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 39.07,
+      "pct": 14.69,
+      "read": "15% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 1.73,
-      "pct_of_price": 3.89,
+      "value": 1.66,
+      "pct_of_price": 3.71,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.86,
-      "read": "Roughly average volume"
+      "value": 0.39,
+      "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 45.0,
+      "value": 50.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 22.2,
   "high_52w": 54.11,
-  "ma50": 48.78,
-  "ma200": 38.97
+  "ma50": 48.72,
+  "ma200": 39.07
 }

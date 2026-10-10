@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-09T01:20:06.094784-07:00",
+  "generated_at": "2026-10-10T01:04:38.292555-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,11 +17,25 @@
   ],
   "news": [
     {
+      "headline": "Robotics Stocks Diverge as AI and Semiconductor Automation Leaders Pull Ahead",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=27e8d3f00645503716d12005bb437ba0b6b20dbe570fc2a96917ce4cb616786e",
+      "datetime": 1791549375,
+      "summary": "Robotics and automation stocks are splitting: AI, semiconductor, and healthcare robotics lead while traditional industrial and software automation lag."
+    },
+    {
       "headline": "What Does Teradyne (TER) Mean For AI Infrastructure Manufacturing Now?",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=88a6ba25c8898306cc40136ae5ad8cc48c3184580fc972147985138a6875cc74",
       "datetime": 1791479570,
       "summary": "Teradyne (NasdaqGS:TER) announced a collaboration and investment in Bright Machines to support AI infrastructure manufacturing using software defined production and robotics. The partnership integrates Teradyne test platforms with Bright Machines automation to target AI data center and related hardware assembly and verification. Teradyne introduced its Titan HP platform with advanced burn in featu"
+    },
+    {
+      "headline": "IonQ shares are trading higher after the company announced it was awarded a contract in the Defense Advanced Research Projects Agency Heterogeneous Architectures for Quantum program.",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=5fe8825463cb7a54de2fd31f6e1ac760445488eed16709f861a6ae8139cbd42e",
+      "datetime": 1791469088,
+      "summary": ""
     },
     {
       "headline": "Citi names 5 top chip picks ahead of Q3 earnings",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=4969bb37167e933cfd7558289b21f83b2434a2d4a02d1d83b878f78ff6fb8b48",
       "datetime": 1791399901,
       "summary": "Uncover the latest developments among S&P500 stocks in today's session. Stay tuned to the S&P500 index's top gainers and losers on Wednesday."
-    },
-    {
-      "headline": "Wednesday's session: top gainers and losers in the S&P500 index",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=683287b687d95e857a785c1de492dffd35b70d6ff8db3972eb817f9a09d627d2",
-      "datetime": 1791390901,
-      "summary": "Stay updated with the movements of the S&P500 index in the middle of the day on Wednesday. Discover which stocks are leading as top gainers and losers in today's session."
-    },
-    {
-      "headline": "1 Robotics Stock With the Kind of Setup That Built Amazon Millionaires",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d5e00b18bc8f517aa217990851a64a0b4c1c46c8de2d9b994285e473452a3a10",
-      "datetime": 1791386400,
-      "summary": "A test equipment giant's robotics arm is chasing physical AI with an early playbook that echoes Amazon's historic rise."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-08",
+  "data_asof": "2026-10-09",
   "price": {
-    "last": 398.72,
-    "open": 405.0,
-    "prev_close": 411.78,
-    "move_day_pct": -3.17,
-    "move_open_close_pct": -1.55,
-    "move_week_pct": -4.11
+    "last": 402.68,
+    "open": 405.19,
+    "prev_close": 398.72,
+    "move_day_pct": 0.99,
+    "move_open_close_pct": -0.62,
+    "move_week_pct": -10.32
   },
   "indicators": {
     "rsi14": {
-      "value": 51.4,
+      "value": 52.6,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 14.074,
-      "signal": 12.189,
-      "hist": 1.884,
-      "hist_prev": 4.509,
+      "macd": 12.542,
+      "signal": 12.26,
+      "hist": 0.282,
+      "hist_prev": 1.884,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 455.85,
-      "lower": 325.99,
-      "mid": 390.92,
-      "pctb": 0.56,
+      "upper": 456.98,
+      "lower": 327.16,
+      "mid": 392.07,
+      "pctb": 0.582,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 202.46,
-      "read": "202% above its 52-week low"
+      "value": 205.47,
+      "read": "205% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -17.56,
-      "read": "18% below its 52-week high"
+      "value": -16.74,
+      "read": "17% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 339.48,
-      "pct": 17.45,
-      "read": "17% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 340.51,
+      "pct": 18.26,
+      "read": "18% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 20.61,
-      "pct_of_price": 5.17,
+      "value": 20.25,
+      "pct_of_price": 5.03,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.39,
-      "read": "Above-average volume"
+      "value": 0.75,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 47.7,
+      "value": 45.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 131.82,
   "high_52w": 483.65,
-  "ma50": 382.07,
-  "ma200": 339.48
+  "ma50": 382.81,
+  "ma200": 340.51
 }

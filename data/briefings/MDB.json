@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-09T01:20:03.223121-07:00",
+  "generated_at": "2026-10-10T01:04:34.722556-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Snowflake vs. MongoDB: Does Faster Growth Justify Twice the Cash-Flow Price?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=69be22d5f054b79b36aa048aa2fc09256eb57614c98e1bd749f681b0d1b76679",
+      "datetime": 1791580730,
+      "summary": "Snowflake Inc. (NYSE:SNOW) and MongoDB, Inc. (NASDAQ:MDB) let investors own different layers of enterprise data spending. Snowflake focuses on analytics and governed data workloads; MongoDB supports application databases. Both stocks depend on customers expanding paid workloads. Snowflake\u2019s latest total revenue grew 35%, against MongoDB\u2019s 30%. At the October 7 close, Snowflake cost about 98 times "
+    },
+    {
+      "headline": "ServiceNow Stock And Other Cloud Software Names With Real AI Revenue Exposure",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=6bd2335c235e55b4ebd7b979825e07d1ca73dfff83eb841c5c0f8ebf66e7b1b5",
+      "datetime": 1791533645,
+      "summary": "AI enthusiasm just hit a reality check as OpenAI\u2019s revenue reset and eye catching $1.4b valuation talks whipsawed cloud and chip stocks, yet the company still targets an annualized $70b run rate by year end. That mix of excitement and doubt is where opportunities often emerge. This article walks through 3 stocks from our Global AI Exposed Cloud & Hyperscaler Platforms screener that appear particul"
+    },
     {
       "headline": "Is MongoDB (MDB) Fully Priced After Raised Growth Targets?",
       "source": "Yahoo",
@@ -31,32 +45,18 @@
       "summary": "MongoDB (MDB) used its late September Investor Day to roll out Atlas Agent Engine, MongoDB 9.0, and Atlas Infinite, a trio of releases aimed at AI-heavy, real-time application workloads. MongoDB shares at US$363.03 have inched higher over the past week, yet remain down about 9% on a year-to-date share price basis. The 1-year total shareholder return of roughly 11% signals longer term holders have "
     },
     {
+      "headline": "Scotiabank Maintains Sector Outperform on MongoDB, Raises Price Target to $450",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=b0d773dd39ae156d62296c36ec81dab3e9e27d4e797b327de543753d3f9b3f41",
+      "datetime": 1791457433,
+      "summary": "Scotiabank  analyst Patrick Colville   maintains MongoDB (NASDAQ:MDB) with a Sector Outperform and raises the price target from $440 to $450."
+    },
+    {
       "headline": "The One Number That Could Decide Palantir\u2019s Next Big Move",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=987c1940d70877384702e11fb25befb34ec042f77f6031638bd862c38b9b21b4",
       "datetime": 1791391555,
       "summary": "Palantir just posted its ninth straight earnings beat and the stock surged, but one metric buried in the quarterly report now controls whether the premium multiple holds or collapses under rising costs and slowing momentum."
-    },
-    {
-      "headline": "Meta Enterprise Platform: The \"Next Major Pillar\" of Zuckerberg's AI Vision",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=1dda39812454706382c17d146fb0c0daf574df7ea5f33f30f170252614d85387",
-      "datetime": 1791382800,
-      "summary": "Meta unveils the Meta Enterprise Platform and Muse for Small Business, new AI tools aimed at businesses, as it hires former MongoDB CEO CJ Desai to lead the effort."
-    },
-    {
-      "headline": "Meta\u2019s Enterprise Push Could Turn AI From a SaaS Feature Into a SaaS Competitor",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e0f9e572499df78e6a53f294c1d33f2c6882cbb4dc6279e451d7a79c96c3a7a9",
-      "datetime": 1791341971,
-      "summary": "Meta Platforms, Inc. (NASDAQ:META) launched the Meta Enterprise Platform on September 28 as a new business pillar focused on its AI technology stack. The platform will give businesses and developers access to tools such as the Meta Business Agent, Muse Code, Muse Agent, and Muse API. The market quickly interpreted the launch as a competitive [\u2026]"
-    },
-    {
-      "headline": "XYZ's Square Expands Merchant Base With Pike Place Fish Market Deal",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c0de8bbb852ecb0c2d147c7444c332b81e4ba00e94dc002f41e46a06e3392fe9",
-      "datetime": 1791301680,
-      "summary": "Square wins Pike Place Fish Market as a merchant, bringing unified commerce tools to a business managing seasonal traffic and online orders."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-08",
+  "data_asof": "2026-10-09",
   "price": {
-    "last": 371.35,
-    "open": 359.9,
-    "prev_close": 363.03,
-    "move_day_pct": 2.29,
-    "move_open_close_pct": 3.18,
-    "move_week_pct": 5.58
+    "last": 385.93,
+    "open": 375.85,
+    "prev_close": 371.35,
+    "move_day_pct": 3.93,
+    "move_open_close_pct": 2.68,
+    "move_week_pct": 7.81
   },
   "indicators": {
     "rsi14": {
-      "value": 48.0,
+      "value": 52.5,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -8.778,
-      "signal": -7.39,
-      "hist": -1.388,
-      "hist_prev": -2.732,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -6.733,
+      "signal": -7.259,
+      "hist": 0.525,
+      "hist_prev": -1.388,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 433.89,
-      "lower": 321.62,
-      "mid": 377.76,
-      "pctb": 0.443,
+      "upper": 434.72,
+      "lower": 323.17,
+      "mid": 378.94,
+      "pctb": 0.563,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 64.35,
-      "read": "64% above its 52-week low"
+      "value": 70.8,
+      "read": "71% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -21.37,
-      "read": "21% below its 52-week high"
+      "value": -18.29,
+      "read": "18% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 341.69,
-      "pct": 8.68,
-      "read": "9% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 341.42,
+      "pct": 13.04,
+      "read": "13% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 23.66,
-      "pct_of_price": 6.37,
+      "value": 23.15,
+      "pct_of_price": 6.0,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.63,
+      "value": 0.66,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 55.9,
+      "value": 56.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 393.97,
-  "ma200": 341.69
+  "ma50": 395.17,
+  "ma200": 341.42
 }

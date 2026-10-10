@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-09T01:20:06.391613-07:00",
+  "generated_at": "2026-10-10T01:04:38.595748-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Where Are The Tripwires",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=d8236ca7514899ad4462ca5133d02873066546b45d3ab513125f1f4e52d5ad65",
+      "datetime": 1791598800,
+      "summary": "In the Treasury market, the tripwire most often invoked is the yield beyond which lie monsters. Read more here."
+    },
+    {
+      "headline": "Stock Prices, Earnings And Cash Flows: The AI Effect Plays Through",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=3d72b8e5889c3871d9a5571419918545847be57ebf30ac455b554becdcd3ec97",
+      "datetime": 1791541200,
+      "summary": "The market added $2.5 trillion in market capitalization across all stocks in September 2026, but almost $1.5 trillion of that came from technology. Read more here."
+    },
+    {
+      "headline": "Why Calls To Slow AI Development Are Unlikely To Derail The Investment Cycle",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=1751cf549858e7c5b1d234cd947da1ab27b407876a656fc2f6e2490078d73847",
+      "datetime": 1791523500,
+      "summary": "As calls to slow the development of cutting-edge AI models increase, capital spending, cybersecurity and data production are likely to power forward. Read more here."
+    },
     {
       "headline": "AI Beyond Tech: How Artificial Intelligence Is Reshaping The Economy",
       "source": "SeekingAlpha",
@@ -36,90 +57,69 @@
       "url": "https://finnhub.io/api/news?id=83fb4faea38726b84f6c4dc3c1ffbeda918b465156cb516c80b729d0b429c6ef",
       "datetime": 1791378600,
       "summary": "Market concentration has remained elevated throughout the AI-led market cycle and could sustain further if another generation of large AI companies enters public benchmarks. Read more here."
-    },
-    {
-      "headline": "October Market Digest",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=3c99cd402bf7a6ded1b915c597a59e4394f70093fbf5fa1ccc893475d22914d9",
-      "datetime": 1791358200,
-      "summary": "The U.S. economy continued to demonstrate resilience in September, with signs of strength across both businesses and consumers. Read more here."
-    },
-    {
-      "headline": "The Ever-Widening Overton Window Of AI Safety",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=7b514b87531224a9104acb327963737a314e451b33315174ea3623a7ed1afe93",
-      "datetime": 1790998500,
-      "summary": "AI alignment or safety used to be a bit of a fringe issue primarily discussed in some corners in the Silicon Valley offline or in the pages of LessWrong."
-    },
-    {
-      "headline": "Q3 Recap: Resilience Is Reshaping The Outlook",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=32f3d5748bcecbe962f07e4f291082025d34de1c1609e1945654a1ced6f719e3",
-      "datetime": 1790996400,
-      "summary": "In the third quarter, markets absorbed higher rates, rising oil prices, and renewed inflation concerns, and continued to advance. Read more here."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-08",
+  "data_asof": "2026-10-09",
   "price": {
-    "last": 34.83,
-    "open": 35.16,
-    "prev_close": 35.67,
-    "move_day_pct": -2.35,
-    "move_open_close_pct": -0.94,
-    "move_week_pct": -1.69
+    "last": 35.48,
+    "open": 35.33,
+    "prev_close": 34.83,
+    "move_day_pct": 1.87,
+    "move_open_close_pct": 0.42,
+    "move_week_pct": -1.53
   },
   "indicators": {
     "rsi14": {
-      "value": 42.0,
+      "value": 49.3,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.026,
-      "signal": -0.062,
-      "hist": 0.037,
-      "hist_prev": 0.114,
+      "macd": -0.027,
+      "signal": -0.055,
+      "hist": 0.028,
+      "hist_prev": 0.037,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 36.3,
-      "lower": 34.43,
-      "mid": 35.36,
-      "pctb": 0.214,
+      "upper": 36.31,
+      "lower": 34.44,
+      "mid": 35.37,
+      "pctb": 0.557,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 8.93,
+      "value": 10.97,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -16.29,
-      "read": "16% below its 52-week high"
+      "value": -14.73,
+      "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
       "ma200": 36.86,
-      "pct": -5.51,
-      "read": "6% below its 200-day average \u2014 long-term downtrend"
+      "pct": -3.74,
+      "read": "4% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.54,
+      "value": 0.55,
       "pct_of_price": 1.56,
       "read": "Calm \u2014 low volatility"
     },
     "rel_volume": {
-      "value": 1.04,
+      "value": 0.82,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 65.2,
+      "value": 63.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 31.97,
   "high_52w": 41.61,
-  "ma50": 35.91,
+  "ma50": 35.92,
   "ma200": 36.86
 }

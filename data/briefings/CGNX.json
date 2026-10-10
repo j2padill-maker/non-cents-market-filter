@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-09T01:20:05.277441-07:00",
+  "generated_at": "2026-10-10T01:04:37.359708-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "3 Reasons CGNX is Risky and 1 Stock to Buy Instead",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f01a8eaf4bfaee6f9e8e3f79936f80c2b8b8e27141389ad5cf605873944e9f23",
+      "datetime": 1791569950,
+      "summary": "Cognex trades at $60.45 per share and has stayed right on track with the overall market, gaining 12.1% over the last six months. At the same time, the S&P 500 has returned 14.3%."
+    },
+    {
+      "headline": "2 Mid-Cap Stocks to Target This Week and 1 We Ignore",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=20ce0e893cd2dd65c8c6b59f47824977831a6b2bce93e923d9566f9d47a67e24",
+      "datetime": 1791554110,
+      "summary": "Many investors pay attention to mid-cap stocks because they have established business models and expansive market opportunities. However, their paths to becoming $100 billion corporations are ripe with competition, ranging from giants with vast resources to agile upstarts eager to disrupt the status quo."
+    },
     {
       "headline": "Stocks making big moves yesterday: Champion Homes, Strategy, Penguin Solutions, Cognex, and FuelCell Energy",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=3cd840d2106dd0682bcd5aa27f152dff7c8162be169768553abb4c1d2c068bdc",
       "datetime": 1791377617,
       "summary": "Stocks fell and small caps slumped Wednesday as the 30-year Treasury yield hit 5.7%, a 24-year high, with Fed minutes and bond auctions ahead."
-    },
-    {
-      "headline": "Computer Vision - Global Strategic Business Report: Capitalize on 21.9% CAGR and a US$76.8B Market by 2032; Track Intel, Cognex, AMETEK, Basler and Cadence",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ff363004f6ad6559e94dd4cb2e7e3fd78bce59f0e6fff9b93fb29eb39d5f9672",
-      "datetime": 1791370500,
-      "summary": "Boost ROI with computer vision automation that cuts labor costs, improves accuracy and efficiency, and enables real-time insights across key industries.Dublin, Oct. 07, 2026 (GLOBE NEWSWIRE) -- \"Computer Vision - Global Strategic Business Report\" has been added to ResearchAndMarkets.com's offering. The global computer vision market was valued at an estimated US$19.2 billion in 2025 and is projecte"
-    },
-    {
-      "headline": "Is Cognex (CGNX) Outperforming Other Computer and Technology Stocks This Year?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=07eae7e1bb96b3f4dfe16b67ed88a2fe1b12a8b998e4c6a27f47553401113f87",
-      "datetime": 1791290404,
-      "summary": "Here is how Cognex Corporation (CGNX) and JFrog Ltd. (FROG) have performed compared to their sector so far this year."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-08",
+  "data_asof": "2026-10-09",
   "price": {
-    "last": 60.91,
-    "open": 60.5,
-    "prev_close": 61.21,
-    "move_day_pct": -0.49,
-    "move_open_close_pct": 0.68,
-    "move_week_pct": -2.11
+    "last": 62.92,
+    "open": 61.67,
+    "prev_close": 60.91,
+    "move_day_pct": 3.3,
+    "move_open_close_pct": 2.03,
+    "move_week_pct": -3.16
   },
   "indicators": {
     "rsi14": {
-      "value": 48.3,
+      "value": 53.2,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 0.321,
-      "signal": -0.021,
-      "hist": 0.342,
-      "hist_prev": 0.552,
+      "macd": 0.38,
+      "signal": 0.06,
+      "hist": 0.321,
+      "hist_prev": 0.342,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 65.7,
-      "lower": 56.33,
-      "mid": 61.02,
-      "pctb": 0.488,
+      "upper": 65.49,
+      "lower": 56.42,
+      "mid": 60.95,
+      "pctb": 0.717,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 75.77,
-      "read": "76% above its 52-week low"
+      "value": 81.57,
+      "read": "82% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -15.78,
-      "read": "16% below its 52-week high"
+      "value": -13.0,
+      "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 56.19,
-      "pct": 8.4,
-      "read": "8% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 56.32,
+      "pct": 11.72,
+      "read": "12% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 2.39,
-      "pct_of_price": 3.92,
+      "value": 2.4,
+      "pct_of_price": 3.82,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 1.14,
+      "value": 1.23,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 51.0,
+      "value": 51.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 34.65,
   "high_52w": 72.32,
-  "ma50": 62.2,
-  "ma200": 56.19
+  "ma50": 62.21,
+  "ma200": 56.32
 }

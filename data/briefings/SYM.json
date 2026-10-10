@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-09T01:20:05.842137-07:00",
+  "generated_at": "2026-10-10T01:04:37.961369-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -50,13 +50,6 @@
       "url": "https://finnhub.io/api/news?id=308c51e54476a9a287748eca7347601587c070b9bd60f7293da8ece32417a9cf",
       "datetime": 1791234006,
       "summary": "In the latest trading session, Symbotic Inc. (SYM) closed at $42.59, marking a -1.59% move from the previous day."
-    },
-    {
-      "headline": "Symbotic: Real Warehouse Progress, A Demanding Share Price",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=d8a68f7ed089e990effd530ab78091d66bcea1e5a1e56f7d8494dc255f3238fb",
-      "datetime": 1790953838,
-      "summary": "Symbotic (SYM) shows strong warehouse automation growth, but high valuation and customer concentration risk persist. Click to read my analysis for more details."
     }
   ],
   "filings": [
@@ -82,63 +75,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-08",
+  "data_asof": "2026-10-09",
   "price": {
-    "last": 42.06,
-    "open": 42.48,
-    "prev_close": 43.31,
-    "move_day_pct": -2.89,
-    "move_open_close_pct": -0.99,
-    "move_week_pct": -2.57
+    "last": 42.63,
+    "open": 42.68,
+    "prev_close": 42.06,
+    "move_day_pct": 1.36,
+    "move_open_close_pct": -0.12,
+    "move_week_pct": -1.5
   },
   "indicators": {
     "rsi14": {
-      "value": 47.6,
+      "value": 49.8,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 0.233,
-      "signal": 0.313,
-      "hist": -0.079,
-      "hist_prev": 0.009,
+      "macd": 0.192,
+      "signal": 0.288,
+      "hist": -0.096,
+      "hist_prev": -0.079,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 45.04,
-      "lower": 41.03,
-      "mid": 43.04,
-      "pctb": 0.256,
+      "upper": 45.03,
+      "lower": 41.09,
+      "mid": 43.06,
+      "pctb": 0.39,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 10.05,
+      "value": 11.54,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -51.82,
-      "read": "52% below its 52-week high"
+      "value": -51.17,
+      "read": "51% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 50.12,
-      "pct": -16.08,
-      "read": "16% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 50.04,
+      "pct": -14.81,
+      "read": "15% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 1.74,
-      "pct_of_price": 4.13,
-      "read": "High daily volatility"
+      "value": 1.7,
+      "pct_of_price": 3.99,
+      "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 1.21,
+      "value": 0.71,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 52.5,
+      "value": 50.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 38.22,
   "high_52w": 87.3,
-  "ma50": 42.27,
-  "ma200": 50.12
+  "ma50": 42.26,
+  "ma200": 50.04
 }

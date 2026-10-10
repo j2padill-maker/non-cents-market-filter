@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-09T01:20:04.201593-07:00",
+  "generated_at": "2026-10-10T01:04:36.066521-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "Why Is Datadog (DDOG) Stock Soaring Today",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=0b10151d98782d453bdf6c19f70189408fee9632ece006d361a812d031127138",
+      "datetime": 1791594430,
+      "summary": "Shares of cloud monitoring platform Datadog (NASDAQ:DDOG) jumped 6.6% in the afternoon session after CIBC boosted its outlook and lifted its price target on the company while reiterating an Outperform rating, amid a broader rebound across the artificial intelligence sector."
+    },
+    {
+      "headline": "Discover which S&P500 stocks are making waves on Friday.",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=fa69fc8000049deee244f45ce89b56b001c6c1c2df31ee60616bdbf8d43bd682",
+      "datetime": 1791572701,
+      "summary": "Stay updated with the movements of the S&P500 index one hour before the close of the markets on Friday. Discover which stocks are leading as top gainers and losers in today's session."
+    },
+    {
+      "headline": "Datadog Is On The Hunt. Here's Why Wall Street Is Wagging Its Tail.",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ab8953b25601443283d9659be8a9b64dd8b6d27d0ce68d34161bcf0cb646654a",
+      "datetime": 1791569920,
+      "summary": "Landing a spot on the latest monthly list of new buys by the best mutual funds, Datadog stock has a treat in sight."
+    },
+    {
+      "headline": "Fastly Spikes 15% as Oppenheimer Upgrades to Outperform With $35 Target; Datadog Rises 4%, Cloudflare Gains 2%",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=4fb8bf5291da84d99e4e73f545e0b637cfa35a21824c8d3627da199ceefb590f",
+      "datetime": 1791561097,
+      "summary": "Fastly (NYSE:FSLY) shares gained 15% to $29.04 after Oppenheimer upgraded the edge network operator to Outperform from Neutral. The call highlights how directly Fastly\u2019s traffic-metered business sits in front of fast-growing artificial intelligence (AI) workloads, a link Oppenheimer believes the market hasn\u2019t fully priced. Meanwhile, Datadog (NASDAQ:DDOG) shares are at $284.62, up 4%. Cloudflare ("
+    },
+    {
+      "headline": "Datadog (DDOG): Capitalizing on AI-Native Adoption and Cloud Observability Demand",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c3310e7a7014835ef4d0a7f60bc652ac940897e4655ee90357de7731937df60a",
+      "datetime": 1791555157,
+      "summary": "Vision Capital Fund, an investment management company, released its third-quarter 2026 investor letter. The letter can be downloaded here. The fund delivered +14.4% net return (unaudited) in Q3 2026, significantly outperforming the S&P 500\u2019s +2.3%. The cumulative gross and net returns from inception (1 Oct 2024) were +28.9% and +21.4%, respectively, versus +36.1% for the [\u2026]"
+    },
+    {
       "headline": "AI Agents Don't Clock Out, So Cloud Software Keeps Billing",
       "source": "SeekingAlpha",
       "url": "https://finnhub.io/api/news?id=c7832e2dd445d00b3c34ef4a528dc3f06c9719fd0086d071ab085774b958ad88",
       "datetime": 1791468596,
       "summary": "Agentic AI tools are shifting software pricing models from per-seat to consumption-based, increasing billable usage and benefiting certain vendors. Read what investors need to know."
-    },
-    {
-      "headline": "Trump August disclosure: Meta stock, SpaceX debt purchases",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=11749583e4ce41c914ce462dfb279f1ec6f1a5e00367612c2c82029a4d5705a4",
-      "datetime": 1791466916,
-      "summary": "The August filing covers more than 500 transactions totaling between roughly $74M and $273M, according to a CNBC analysis"
-    },
-    {
-      "headline": "Palantir Stock Has a Secret Weapon in the AI Boom, Goldman Sachs Says",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2665d6faca11b9d5d8402af622dcb94b47d9f4deee92c60b0cea58a5c913545c",
-      "datetime": 1791463500,
-      "summary": "Goldman Sachs upgrades Palantir Technologies to Buy from Neutral, citing an explosion of demand for sovereign and bespoke AI."
-    },
-    {
-      "headline": "Datadog Sniffs At Buy Point. Here's Why Wall Street Is Wagging Its Tail.",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3136ef72c26b7e0f5f3a029fc4c6d2025ab25cbe52d7839c237f64180c15a3bc",
-      "datetime": 1791458229,
-      "summary": "Landing a spot on the latest monthly list of new buys by the best mutual funds, Datadog stock has a treat in sight."
-    },
-    {
-      "headline": "3 Market-Beating Stocks with Competitive Advantages",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=679a7066a89e4722b4f7ac9a86617d7b9712752ea7a1e39025ebc09e22c4deb8",
-      "datetime": 1791452649,
-      "summary": "Stocks that outperform the market usually share key traits such as rising sales, expanding margins, and increasing returns on capital. The select few that can do all three for many years are often the ones that make you life-changing money."
-    },
-    {
-      "headline": "Palantir Gets Goldman Sachs Upgrade as Sovereign AI Opens New Market",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=24d83edd6b0817ee7fecdcbb4d618f4fb0e5fa3b921beb167aba824c94e272a0",
-      "datetime": 1791451087,
-      "summary": "Goldman Sachs upgraded Palantir to Buy, citing sovereign AI and custom applications as growth drivers."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-08",
+  "data_asof": "2026-10-09",
   "price": {
-    "last": 273.8,
-    "open": 271.73,
-    "prev_close": 271.34,
-    "move_day_pct": 0.91,
-    "move_open_close_pct": 0.76,
-    "move_week_pct": -0.96
+    "last": 293.26,
+    "open": 275.42,
+    "prev_close": 273.8,
+    "move_day_pct": 7.11,
+    "move_open_close_pct": 6.48,
+    "move_week_pct": 5.79
   },
   "indicators": {
     "rsi14": {
-      "value": 64.8,
-      "read": "Firm \u2014 approaching overbought"
+      "value": 73.4,
+      "read": "Overbought"
     },
     "macd": {
-      "macd": 11.039,
-      "signal": 9.163,
-      "hist": 1.876,
-      "hist_prev": 2.588,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": 12.275,
+      "signal": 9.785,
+      "hist": 2.49,
+      "hist_prev": 1.876,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 294.55,
-      "lower": 216.64,
-      "mid": 255.59,
-      "pctb": 0.734,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 298.1,
+      "lower": 220.3,
+      "mid": 259.2,
+      "pctb": 0.938,
+      "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 166.82,
-      "read": "167% above its 52-week low"
+      "value": 185.79,
+      "read": "186% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -4.98,
-      "read": "Modestly below its 52-week high"
+      "value": 0.0,
+      "read": "At or near its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 187.56,
-      "pct": 45.98,
-      "read": "46% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 188.31,
+      "pct": 55.73,
+      "read": "56% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 11.15,
-      "pct_of_price": 4.07,
+      "value": 11.8,
+      "pct_of_price": 4.02,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.88,
+      "value": 1.11,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 73.6,
+      "value": 74.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
-  "high_52w": 288.15,
-  "ma50": 246.38,
-  "ma200": 187.56
+  "high_52w": 293.26,
+  "ma50": 246.88,
+  "ma200": 188.31
 }
