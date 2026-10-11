@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-10T01:04:36.368177-07:00",
+  "generated_at": "2026-10-11T01:11:26.361146-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Cloudflare acquires Deno to improve its Workers programming model",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ac1d75d0c92c1bad0e903b505a360379caa4ebda024cc30fae7da62740f4c209",
+      "datetime": 1791649542,
+      "summary": "Cloudflare will use this acquisition to improve its Workers programming model and platform."
+    },
+    {
+      "headline": "Why Cloudflare (NET) Stock Is Up Today",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ebb09b1960f2f324378965134bb5ca446c22f677e8e3f70d28ef208ceb4c3051",
+      "datetime": 1791595870,
+      "summary": "Shares of cloud security and performance company Cloudflare (NYSE:NET) jumped 6% in the afternoon session after the company announced that the Deno team joined its platform to simplify self-hosting Workers and Durable Objects, while StreetInsider reported that Oppenheimer simultaneously raised its price target on the stock to $430 amid a broad tech sector recovery."
+    },
     {
       "headline": "Tech Edge Will be Onsite at Money20/20 2026 in Las Vegas",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=47c1366f453811b9ca41177d8a41d1dec3d41affc270d91abea376778b45da40",
       "datetime": 1791557308,
       "summary": "Cloudflare (NET) is likely to post third-quarter results above its guidance amid growing adoption of"
-    },
-    {
-      "headline": "Beyond Chips: The 3 Layers Of The AI Value Chain",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=9e2b85f1eed83a8f84bded34028ed16567c80869864ca968b3d0b40a66d370e7",
-      "datetime": 1791553260,
-      "summary": "For most of this AI cycle, the surprises came from chips. This year, we are seeing more also come from higher up the chain: the model companies, and a new wave of AI applications."
-    },
-    {
-      "headline": "Cloudflare, Inc. (NET) Is a Trending Stock: Facts to Know Before Betting on It",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9510c1fb07082fde132735312dd5f377f56076604a9f9f8f018aa22eec36b2b6",
-      "datetime": 1791547203,
-      "summary": "Zacks.com users have recently been watching Cloudflare (NET) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects."
     }
   ],
   "filings": [

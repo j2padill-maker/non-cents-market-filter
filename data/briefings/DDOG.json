@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-10T01:04:36.066521-07:00",
+  "generated_at": "2026-10-11T01:11:26.130221-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Datadog Stock Jumped 7% to a 52-Week High. Here\u2019s What Its Doubled Valuation Has to Survive",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=52cf8452a5ad3de8748a3787d376d5a68076614201a2d9e3283edaf27a393e18",
+      "datetime": 1791646221,
+      "summary": "Key Stats for Datadog StockCurrent Price: $293. 26Target Price (Mid): ~$730Street Target: ~$288Potential Total Return: ~149%Annualized IRR: ~24% / yearWhat Happened?Datadog (DDOG) closed at $293."
+    },
     {
       "headline": "Why Is Datadog (DDOG) Stock Soaring Today",
       "source": "Yahoo",
@@ -45,18 +52,11 @@
       "summary": "Fastly (NYSE:FSLY) shares gained 15% to $29.04 after Oppenheimer upgraded the edge network operator to Outperform from Neutral. The call highlights how directly Fastly\u2019s traffic-metered business sits in front of fast-growing artificial intelligence (AI) workloads, a link Oppenheimer believes the market hasn\u2019t fully priced. Meanwhile, Datadog (NASDAQ:DDOG) shares are at $284.62, up 4%. Cloudflare ("
     },
     {
-      "headline": "Datadog (DDOG): Capitalizing on AI-Native Adoption and Cloud Observability Demand",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c3310e7a7014835ef4d0a7f60bc652ac940897e4655ee90357de7731937df60a",
-      "datetime": 1791555157,
-      "summary": "Vision Capital Fund, an investment management company, released its third-quarter 2026 investor letter. The letter can be downloaded here. The fund delivered +14.4% net return (unaudited) in Q3 2026, significantly outperforming the S&P 500\u2019s +2.3%. The cumulative gross and net returns from inception (1 Oct 2024) were +28.9% and +21.4%, respectively, versus +36.1% for the [\u2026]"
-    },
-    {
-      "headline": "AI Agents Don't Clock Out, So Cloud Software Keeps Billing",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=c7832e2dd445d00b3c34ef4a528dc3f06c9719fd0086d071ab085774b958ad88",
-      "datetime": 1791468596,
-      "summary": "Agentic AI tools are shifting software pricing models from per-seat to consumption-based, increasing billable usage and benefiting certain vendors. Read what investors need to know."
+      "headline": "CIBC Maintains Outperformer on Datadog, Raises Price Target to $315",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=b5e48b13a4fde1f8ca865189611db5ee87fa92a0acfea6123b2e0924bbc8e843",
+      "datetime": 1791555671,
+      "summary": "CIBC  analyst Todd Coupland   maintains Datadog (NASDAQ:DDOG) with a Outperformer and raises the price target from $280 to $315."
     }
   ],
   "filings": [

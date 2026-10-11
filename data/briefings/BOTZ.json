@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-10T01:04:38.595748-07:00",
+  "generated_at": "2026-10-11T01:11:28.193586-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Global Equities Find Strength Beyond AI Exposure",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=135fce27244800ad9e16efe533e9ea7de33cdb66ae9cb4258e6fe0f5939d7879",
+      "datetime": 1791612480,
+      "summary": ""
+    },
+    {
+      "headline": "Investors Need Convincing Despite Cooling Jobs And Strong AI Earnings",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=3179fe1beaaa0c6ce0b43b59b76c7a1ba37e98974a8a8710c712546a99a65d36",
+      "datetime": 1791611400,
+      "summary": "Payrolls increased by 29,000, below expectations of around 90,000, while unemployment edged up to a still relatively healthy 4.2%. Read more here."
+    },
+    {
+      "headline": "S&P 500 Index Concentration - Room At The Top",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=5222804a331d6195d734c895846797694e420afaf28c306ce296846077083e17",
+      "datetime": 1791606300,
+      "summary": "The combined market cap of the bottom 434 companies in the S&P 500 equals that of the top 5."
+    },
     {
       "headline": "Where Are The Tripwires",
       "source": "SeekingAlpha",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=1751cf549858e7c5b1d234cd947da1ab27b407876a656fc2f6e2490078d73847",
       "datetime": 1791523500,
       "summary": "As calls to slow the development of cutting-edge AI models increase, capital spending, cybersecurity and data production are likely to power forward. Read more here."
-    },
-    {
-      "headline": "AI Beyond Tech: How Artificial Intelligence Is Reshaping The Economy",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=ed498aaf5c4e901c518442c723162fd289a2cdbf345400d4a46eedd7eb6296b1",
-      "datetime": 1791459900,
-      "summary": "BlackRock\u00e2\u0080\u0099s Jay Jacobs discusses how the AI economy is evolving, where AI adoption is taking hold, and why infrastructure is becoming increasingly important to the AI build-out."
-    },
-    {
-      "headline": "Growth Holds, Risks Widen",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=2bc6d5f41088e1fc4812bf15aae7d04124f5f10941c4e5118fa68685dcbc0051",
-      "datetime": 1791436800,
-      "summary": "As geopolitical fragmentation continues, most major economies are absorbing higher energy prices and tariffs better than expected. Read more here."
-    },
-    {
-      "headline": "Market Concentration: Building For More Than One Outcome",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=83fb4faea38726b84f6c4dc3c1ffbeda918b465156cb516c80b729d0b429c6ef",
-      "datetime": 1791378600,
-      "summary": "Market concentration has remained elevated throughout the AI-led market cycle and could sustain further if another generation of large AI companies enters public benchmarks. Read more here."
     }
   ],
   "filings": [],

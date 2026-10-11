@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-10T01:04:39.156868-07:00",
+  "generated_at": "2026-10-11T01:11:28.727021-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "International Business Machines (IBM) Unveils Real Time App Security Collaboration",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d9c9364653491b2ff99e2b810fcf1a37ad3ee428933cc6462811803ea7808311",
+      "datetime": 1791688586,
+      "summary": "International Business Machines (NYSE: IBM) announced a new collaboration with Zscaler and Red Hat to tighten application security for enterprise clients. The joint effort combines IBM and Red Hat software platforms with Zscaler threat intelligence to provide real-time protections at the application layer. The partners plan to coordinate vulnerability discovery, automated policy updates, and valid"
+    },
     {
       "headline": "Zscaler (ZS) Stock Trades Up, Here Is Why",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=3e089bf8a2b0d7c5cdc677b94e35145cc97faa1f1e6fca9df30ab06e37c4e162",
       "datetime": 1791561479,
       "summary": "After a major META stock rally, the New York Times suggests Meta rushed its Muse agent out the door despite major safety concerns."
-    },
-    {
-      "headline": "Zscaler (ZS) Is Up 9.1% After Reaffirming 2027 Outlook and Expanding AI Security Partnership",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=75f382bb43016a41d707d3e6ff747ba4ae002d3623298358fe11ad0515105136",
-      "datetime": 1791551675,
-      "summary": "Earlier this week, Zscaler reaffirmed its fiscal 2027 outlook, guiding first-quarter revenue to about US$935 million\u2013US$939 million and full-year revenue to roughly US$3.91 billion\u2013US$3.94 billion, while also outlining a long-term ambition for much higher annual recurring revenue. At the same time, Zscaler announced a collaboration with IBM and Red Hat that aims to protect private applications bet"
     }
   ],
   "filings": [

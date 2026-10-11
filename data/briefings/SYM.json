@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-10T01:04:37.961369-07:00",
+  "generated_at": "2026-10-11T01:11:27.600747-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "3 Robotics Stocks Investors Are Watching For The Next AI Automation Wave",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8955f8a637ada0206ff64a22825c2ac61a2a489fc0d8583544ad7461cdf40703",
+      "datetime": 1791613029,
+      "summary": "Global capital is again chasing artificial intelligence, and this time the spotlight is on robotics and automation pure plays that could sit in the slipstream of a potential US$100b SoftBank AI push. Middle Eastern money, a possible Roze IPO and fresh acquisition firepower together create a feeling that the next wave might arrive before most investors are ready. This piece unpacks 3 stocks from th"
+    },
     {
       "headline": "Symbotic: Behind The Strong Growth Lies A Major Risk",
       "source": "SeekingAlpha",
