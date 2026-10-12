@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-12T01:28:46.439957-07:00",
+  "generated_at": "2026-10-12T16:53:51.944567-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Zscaler: Reasonably Valued Cybersecurity Player That Can Enter The Growth Acceleration Phase",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=5b04b4790ce02eab427add2c998a2c764dd0d438a86de722b942ba0bb93f394e",
+      "datetime": 1791805436,
+      "summary": "Zscaler (ZS) buy thesis: AI-driven, usage-based growth to $8\u00e2\u0080\u009310B ARR by FY31, $15B upsell whitespace, and rising backlog."
+    },
     {
       "headline": "Zscaler Powered By Agentic AI Growth",
       "source": "SeekingAlpha",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=255e002b8b8e829734f40a14ca72e35da4b59d0a226e3970fa7ede5c8e921368",
       "datetime": 1791575925,
       "summary": "Investing.com -- Major farm equipment manufacturers were set to close the week lower as the sector faced a dual blow from a federal regulatory inquiry and worsening crop market conditions."
-    },
-    {
-      "headline": "Zscaler Jumps 6% on Reaffirmed Revenue Outlook and IBM Security Pact; Palo Alto and CrowdStrike Gain 4%",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=82de1eb01993e246713a0e4a071ab3ac09182c985e39a17d96ab5bea53e72a15",
-      "datetime": 1791568952,
-      "summary": "Zscaler just dropped two pieces of news that sent the entire cybersecurity sector surging well past the broader market, and the debate over whether the rally holds any staying power is only getting louder."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-09",
+  "data_asof": "2026-10-12",
   "price": {
-    "last": 233.73,
-    "open": 221.48,
-    "prev_close": 216.81,
-    "move_day_pct": 7.8,
-    "move_open_close_pct": 5.53,
-    "move_week_pct": 18.89
+    "last": 225.78,
+    "open": 237.22,
+    "prev_close": 233.73,
+    "move_day_pct": -3.4,
+    "move_open_close_pct": -4.82,
+    "move_week_pct": 11.88
   },
   "indicators": {
     "rsi14": {
-      "value": 72.9,
-      "read": "Overbought"
+      "value": 66.1,
+      "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 10.007,
-      "signal": 8.161,
-      "hist": 1.845,
-      "hist_prev": 0.61,
+      "macd": 10.587,
+      "signal": 8.646,
+      "hist": 1.941,
+      "hist_prev": 1.845,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 225.33,
-      "lower": 182.88,
-      "mid": 204.11,
-      "pctb": 1.198,
-      "read": "Above the upper band \u2014 stretched to the upside"
+      "upper": 228.22,
+      "lower": 183.4,
+      "mid": 205.81,
+      "pctb": 0.946,
+      "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 97.99,
-      "read": "98% above its 52-week low"
+      "value": 91.26,
+      "read": "91% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -30.49,
-      "read": "30% below its 52-week high"
+      "value": -32.86,
+      "read": "33% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 166.04,
-      "pct": 40.77,
-      "read": "41% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 166.02,
+      "pct": 36.0,
+      "read": "36% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 9.84,
-      "pct_of_price": 4.21,
+      "value": 10.04,
+      "pct_of_price": 4.45,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.08,
+      "value": 0.75,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 72.3,
+      "value": 65.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 118.05,
   "high_52w": 336.27,
-  "ma50": 185.78,
-  "ma200": 166.04
+  "ma50": 187.27,
+  "ma200": 166.02
 }

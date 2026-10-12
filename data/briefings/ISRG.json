@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-12T01:28:44.318196-07:00",
+  "generated_at": "2026-10-12T16:53:46.262945-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "Abbott Laboratories vs. Intuitive Surgical: Which Healthcare Stock Is a Better Buy in 2026?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=07f64436b15bb515cf5704a99d822bb9995517764231539e379bbadc26ca483a",
+      "datetime": 1791831601,
+      "summary": "Abbott trades at a 18x forward P/E with $7.4B in free cash flow, while Intuitive Surgical commands a 39x multiple backed by zero debt and 20% revenue growth."
+    },
+    {
+      "headline": "Has Medtronic Stock Become A Different Bet?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=5b549af35f8c34e8aff5bf2125e0b56139f22e32e5010a2ac3f69e489b9878c2",
+      "datetime": 1791825387,
+      "summary": "Medtronic (MDT) stock trades at 21.6 times earnings, sitting about level with the S&P 500 at 21.9. Shareholders paying that market price need to know what they are buying, particularly as corporate priorities shift. During its fiscal Q2 2025 call in November 2024, management first reviewed its fastest-growing businesses, including cardiac ablation, before turning to its established market leaders."
+    },
+    {
+      "headline": "4 Healthcare Stocks Worth Owning for the Next Decade",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e56eedd987cc94a618712e6a1e61bc2c1f2659bbfefcac8700a32838ef55df07",
+      "datetime": 1791819300,
+      "summary": "Two healthcare stocks that are leading their niches, and two that investors aren't giving enough credit to in the same niches."
+    },
+    {
+      "headline": "Amazon To $310? Here Are 10 Top Analyst Forecasts For Monday",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=f389101aa4c1f3ce5a1e056dd6abe2c42740272aa5c798e83d3cd32e7df70d89",
+      "datetime": 1791793164,
+      "summary": "Analysts raised targets for CRBG, MTN, CRM and FSLR, while cutting targets for PVLA, SPOT and AMZN; CRM and FSLR were upgraded."
+    },
+    {
+      "headline": "BTIG Maintains Buy on Intuitive Surgical, Lowers Price Target to $454",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=3bf6d542571ae4cf122316a76cd02d326c41fa3347beeca99512457d5a5a22f1",
+      "datetime": 1791785226,
+      "summary": "BTIG  analyst Ryan Zimmerman   maintains Intuitive Surgical (NASDAQ:ISRG) with a Buy and lowers the price target from $469 to $454."
+    },
+    {
       "headline": "Intuitive Surgical, Inc. (ISRG) Exceeds Market Returns: Some Facts to Consider",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=c2ad58dfcffc67be42d9aee482b6541acc4da1f113f0f04758dc0e01fbfb8e0f",
       "datetime": 1791579002,
       "summary": "Intuitive Surgical, Inc. (ISRG) concluded the recent trading session at $423.96, signifying a +2.06% move from its prior day's close."
-    },
-    {
-      "headline": "Robotics Stocks Diverge as AI and Semiconductor Automation Leaders Pull Ahead",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=27e8d3f00645503716d12005bb437ba0b6b20dbe570fc2a96917ce4cb616786e",
-      "datetime": 1791549375,
-      "summary": "Robotics and automation stocks are splitting: AI, semiconductor, and healthcare robotics lead while traditional industrial and software automation lag."
-    },
-    {
-      "headline": "Is Intuitive Surgical (ISRG) a Buy as Wall Street Analysts Look Optimistic?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4033ed6ae8ed17606a1ceae187e57795d32b87189e2c0a317bee21a00a136507",
-      "datetime": 1791462604,
-      "summary": "Based on the average brokerage recommendation (ABR), Intuitive Surgical (ISRG) should be added to one's portfolio. Wall Street analysts' overly optimistic recommendations cast doubt on the effectiveness of this highly sought-after metric. So, is the stock worth buying?"
-    },
-    {
-      "headline": "The Monopolistic Razor-and-Blade Engine I Can\u2019t Stop Buying",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=53bbe4aa9c11aaa912b85bc6ec7e10cf64b2e86085ceb4c77aa34351fd789f03",
-      "datetime": 1791458154,
-      "summary": "A 26% price drop on a stock with a near-monopoly business model and 85% recurring revenue sounds like a warning, but one investor sees it as an invitation to keep buying."
-    },
-    {
-      "headline": "Intuitive Surgical (NASDAQ:ISRG) Combines Strong Growth With a Constructive Technical Setup",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=df1cd6419db9df0bf5af0ef0817b082b8dddd428cba634f9389c9499cb3054f7",
-      "datetime": 1791452447,
-      "summary": "Intuitive Surgical shows strong growth, top-tier profits, and a technical setup that could signal a breakout. See the full ISRG stock analysis."
-    },
-    {
-      "headline": "2 Profitable Stocks with Exciting Potential and 1 We Question",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=259b9f14a2c4c0e2f9a8e774ad3a21f8bed4e08dfd5889115e5ef149f544e134",
-      "datetime": 1791445449,
-      "summary": "Not all profitable companies are built to last - some rely on outdated models or unsustainable advantages. Just because a business is in the green today doesn\u2019t mean it will thrive tomorrow."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-09",
+  "data_asof": "2026-10-12",
   "price": {
-    "last": 423.96,
-    "open": 416.39,
-    "prev_close": 415.41,
-    "move_day_pct": 2.06,
-    "move_open_close_pct": 1.82,
-    "move_week_pct": 8.17
+    "last": 427.64,
+    "open": 423.02,
+    "prev_close": 423.96,
+    "move_day_pct": 0.87,
+    "move_open_close_pct": 1.09,
+    "move_week_pct": 5.21
   },
   "indicators": {
     "rsi14": {
-      "value": 66.7,
+      "value": 68.2,
       "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 9.448,
-      "signal": 7.83,
-      "hist": 1.618,
-      "hist_prev": 1.086,
+      "macd": 10.367,
+      "signal": 8.337,
+      "hist": 2.03,
+      "hist_prev": 1.618,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 426.06,
-      "lower": 375.23,
-      "mid": 400.65,
-      "pctb": 0.959,
+      "upper": 428.9,
+      "lower": 377.36,
+      "mid": 403.13,
+      "pctb": 0.976,
       "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 27.69,
-      "read": "28% above its 52-week low"
+      "value": 28.8,
+      "read": "29% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -28.49,
+      "value": -27.87,
       "read": "28% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 443.41,
-      "pct": -4.39,
-      "read": "4% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 442.66,
+      "pct": -3.39,
+      "read": "3% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 11.42,
-      "pct_of_price": 2.69,
+      "value": 11.19,
+      "pct_of_price": 2.62,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.79,
+      "value": 0.72,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 67.9,
+      "value": 67.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 332.02,
   "high_52w": 592.85,
-  "ma50": 386.1,
-  "ma200": 443.41
+  "ma50": 387.58,
+  "ma200": 442.66
 }

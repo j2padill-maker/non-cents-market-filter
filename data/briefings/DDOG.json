@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-12T01:28:42.185887-07:00",
+  "generated_at": "2026-10-12T16:53:41.768359-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "RBC Capital Maintains Outperform on Datadog, Raises Price Target to $320",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=0d5cd04e1ebf30640d11e5f7cd28cb0931f4d0b946d1539e3f22c2625bf933e6",
+      "datetime": 1791797692,
+      "summary": "RBC Capital  analyst Matthew Hedberg   maintains Datadog (NASDAQ:DDOG) with a Outperform and raises the price target from $280 to $320."
+    },
     {
       "headline": "Vision Capital Fund Q3 2026 Portfolio Activity",
       "source": "SeekingAlpha",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=ab8953b25601443283d9659be8a9b64dd8b6d27d0ce68d34161bcf0cb646654a",
       "datetime": 1791569920,
       "summary": "Landing a spot on the latest monthly list of new buys by the best mutual funds, Datadog stock has a treat in sight."
-    },
-    {
-      "headline": "Fastly Spikes 15% as Oppenheimer Upgrades to Outperform With $35 Target; Datadog Rises 4%, Cloudflare Gains 2%",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4fb8bf5291da84d99e4e73f545e0b637cfa35a21824c8d3627da199ceefb590f",
-      "datetime": 1791561097,
-      "summary": "Fastly (NYSE:FSLY) shares gained 15% to $29.04 after Oppenheimer upgraded the edge network operator to Outperform from Neutral. The call highlights how directly Fastly\u2019s traffic-metered business sits in front of fast-growing artificial intelligence (AI) workloads, a link Oppenheimer believes the market hasn\u2019t fully priced. Meanwhile, Datadog (NASDAQ:DDOG) shares are at $284.62, up 4%. Cloudflare ("
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-09",
+  "data_asof": "2026-10-12",
   "price": {
-    "last": 293.26,
-    "open": 275.42,
-    "prev_close": 273.8,
-    "move_day_pct": 7.11,
-    "move_open_close_pct": 6.48,
-    "move_week_pct": 5.79
+    "last": 287.29,
+    "open": 299.0,
+    "prev_close": 293.26,
+    "move_day_pct": -2.04,
+    "move_open_close_pct": -3.92,
+    "move_week_pct": 3.93
   },
   "indicators": {
     "rsi14": {
-      "value": 73.4,
-      "read": "Overbought"
+      "value": 67.9,
+      "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 12.275,
-      "signal": 9.785,
-      "hist": 2.49,
-      "hist_prev": 1.876,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "macd": 12.627,
+      "signal": 10.354,
+      "hist": 2.274,
+      "hist_prev": 2.49,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 298.1,
-      "lower": 220.3,
-      "mid": 259.2,
-      "pctb": 0.938,
+      "upper": 300.38,
+      "lower": 223.74,
+      "mid": 262.06,
+      "pctb": 0.829,
       "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 185.79,
-      "read": "186% above its 52-week low"
+      "value": 179.97,
+      "read": "180% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": 0.0,
+      "value": -2.04,
       "read": "At or near its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 188.31,
-      "pct": 55.73,
-      "read": "56% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 189.04,
+      "pct": 51.97,
+      "read": "52% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 11.8,
-      "pct_of_price": 4.02,
+      "value": 11.97,
+      "pct_of_price": 4.17,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.11,
+      "value": 0.82,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 74.5,
+      "value": 74.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 293.26,
-  "ma50": 246.88,
-  "ma200": 188.31
+  "ma50": 247.26,
+  "ma200": 189.04
 }

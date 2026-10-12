@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-12T01:28:45.513724-07:00",
+  "generated_at": "2026-10-12T16:53:49.858655-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Upgrading U.S. Treasuries To Lock In Income",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=a7d5fb6e760170bf9a0dcc117908cff64981a87bf6be1abb134a6afeb737948e",
+      "datetime": 1791811200,
+      "summary": "We upgrade Treasuries, favoring short-term bonds. We also take profits: downgrading US equities to neutral to manage potential volatility around AI buildout and trimming our JGB underweight."
+    },
+    {
+      "headline": "AI Bubble Ready to Burst? Investor Raises Alarm Over Anthropic's Sky-High Valuation",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=66d7c4f479a455f004bf55fe2e8944bb57943b7396d1575969c51f616beeba70",
+      "datetime": 1791786383,
+      "summary": "Anthropic eyes a late 2026 IPO, while OpenAI delays until 2027. Experts weigh revenue growth against AI bubble risks."
+    },
     {
       "headline": "Global Equities Find Strength Beyond AI Exposure",
       "source": "SeekingAlpha",
@@ -43,83 +57,69 @@
       "url": "https://finnhub.io/api/news?id=d8236ca7514899ad4462ca5133d02873066546b45d3ab513125f1f4e52d5ad65",
       "datetime": 1791598800,
       "summary": "In the Treasury market, the tripwire most often invoked is the yield beyond which lie monsters. Read more here."
-    },
-    {
-      "headline": "Stock Prices, Earnings And Cash Flows: The AI Effect Plays Through",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=3d72b8e5889c3871d9a5571419918545847be57ebf30ac455b554becdcd3ec97",
-      "datetime": 1791541200,
-      "summary": "The market added $2.5 trillion in market capitalization across all stocks in September 2026, but almost $1.5 trillion of that came from technology. Read more here."
-    },
-    {
-      "headline": "Why Calls To Slow AI Development Are Unlikely To Derail The Investment Cycle",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=1751cf549858e7c5b1d234cd947da1ab27b407876a656fc2f6e2490078d73847",
-      "datetime": 1791523500,
-      "summary": "As calls to slow the development of cutting-edge AI models increase, capital spending, cybersecurity and data production are likely to power forward. Read more here."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-09",
+  "data_asof": "2026-10-12",
   "price": {
-    "last": 35.48,
-    "open": 35.33,
-    "prev_close": 34.83,
-    "move_day_pct": 1.87,
-    "move_open_close_pct": 0.42,
-    "move_week_pct": -1.53
+    "last": 34.9,
+    "open": 35.17,
+    "prev_close": 35.48,
+    "move_day_pct": -1.63,
+    "move_open_close_pct": -0.75,
+    "move_week_pct": -3.59
   },
   "indicators": {
     "rsi14": {
-      "value": 49.3,
+      "value": 44.0,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.027,
-      "signal": -0.055,
-      "hist": 0.028,
-      "hist_prev": 0.037,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": -0.074,
+      "signal": -0.059,
+      "hist": -0.015,
+      "hist_prev": 0.028,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 36.31,
-      "lower": 34.44,
-      "mid": 35.37,
-      "pctb": 0.557,
+      "upper": 36.3,
+      "lower": 34.46,
+      "mid": 35.38,
+      "pctb": 0.238,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 10.97,
+      "value": 9.15,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -14.73,
-      "read": "Modestly below its 52-week high"
+      "value": -16.12,
+      "read": "16% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 36.86,
-      "pct": -3.74,
-      "read": "4% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 36.85,
+      "pct": -5.29,
+      "read": "5% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.55,
-      "pct_of_price": 1.56,
+      "value": 0.56,
+      "pct_of_price": 1.6,
       "read": "Calm \u2014 low volatility"
     },
     "rel_volume": {
-      "value": 0.82,
+      "value": 0.79,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 63.8,
+      "value": 56.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 31.97,
   "high_52w": 41.61,
-  "ma50": 35.92,
-  "ma200": 36.86
+  "ma50": 35.91,
+  "ma200": 36.85
 }

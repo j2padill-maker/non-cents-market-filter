@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-12T01:28:45.094894-07:00",
+  "generated_at": "2026-10-12T16:53:48.750459-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "FormFactor stock rises on $300M Teradyne investment deal",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=3ade1486118f0a9ad7c71d8a19bc2b4e79a4b5c4647e99f0a0292590fd734af9",
+      "datetime": 1791838127,
+      "summary": "Investing.com -- FormFactor Inc (NASDAQ:FORM) shares rose 3.6% in after-hours trading Monday following the announcement of a strategic technology collaboration with Teradyne Inc (NASDAQ:TER) and a $300 million equity investment from the automated test equipment provider."
+    },
+    {
+      "headline": "FormFactor and Teradyne Announce Strategic Collaboration to Accelerate Next-Generation Semiconductor Testing",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=00107915edf1601d8c6e57d7a5a5ced759cf7c7389aad29503afd091d5dc926d",
+      "datetime": 1791835260,
+      "summary": "Companies to combine leadership in probe, interface, and test technologies to accelerate AI and high-performance compute deploymentsLIVERMORE, Calif., Oct. 12, 2026 (GLOBE NEWSWIRE) -- FormFactor, Inc. (Nasdaq: FORM), a leading provider of semiconductor test and measurement technologies, and Teradyne, Inc. (Nasdaq: TER), a leading provider of automated test equipment and advanced robotics, today a"
+    },
+    {
+      "headline": "Teradyne Boosts Test Portfolio With Titan HP: Can It Beat KLAC & COHU?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=14fa67455c5e09ae7082343fcf044768d8d719411081585dc867c9aeb0584e4f",
+      "datetime": 1791817860,
+      "summary": "TER's enhanced Titan HP platform strengthens its AI chip testing portfolio as soaring semiconductor test revenues fuel competition with KLA and Cohu."
+    },
+    {
+      "headline": "Teradyne Introduces UltraFLEXplus S Series for Edge AI Applications",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e38ed90d4226f212ee61353f0e423da250f592bb6ac3f24728b4a646453ec6b7",
+      "datetime": 1791810000,
+      "summary": "NORTH READING, Mass., October 12, 2026--Teradyne introduces UltraFLEXplus S series for edge AI, delivering superior floor space economics for high-mix, variable-volume manufacturing."
+    },
+    {
       "headline": "3 US Growth Stocks With AI Earnings Momentum Retail Investors Should Track",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=88fa697a350088392534b77299224b53c83ddf2bda8aa47af9d620061aac8dcd",
@@ -29,34 +57,6 @@
       "url": "https://finnhub.io/api/news?id=27e8d3f00645503716d12005bb437ba0b6b20dbe570fc2a96917ce4cb616786e",
       "datetime": 1791549375,
       "summary": "Robotics and automation stocks are splitting: AI, semiconductor, and healthcare robotics lead while traditional industrial and software automation lag."
-    },
-    {
-      "headline": "What Does Teradyne (TER) Mean For AI Infrastructure Manufacturing Now?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=88a6ba25c8898306cc40136ae5ad8cc48c3184580fc972147985138a6875cc74",
-      "datetime": 1791479570,
-      "summary": "Teradyne (NasdaqGS:TER) announced a collaboration and investment in Bright Machines to support AI infrastructure manufacturing using software defined production and robotics. The partnership integrates Teradyne test platforms with Bright Machines automation to target AI data center and related hardware assembly and verification. Teradyne introduced its Titan HP platform with advanced burn in featu"
-    },
-    {
-      "headline": "IonQ shares are trading higher after the company announced it was awarded a contract in the Defense Advanced Research Projects Agency Heterogeneous Architectures for Quantum program.",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=5fe8825463cb7a54de2fd31f6e1ac760445488eed16709f861a6ae8139cbd42e",
-      "datetime": 1791469088,
-      "summary": ""
-    },
-    {
-      "headline": "Citi names 5 top chip picks ahead of Q3 earnings",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=af698d789443b7d7d798666bf1c69af3f167f53b1d92d329f85a3297de1d5da2",
-      "datetime": 1791456334,
-      "summary": "Investing.com -- Citi named AMD, Texas Instruments, Lam Research, Teradyne and Synopsys as its top buy-rated semiconductor picks ahead of third-quarter earnings, as the bank says it is becoming \"increasingly selective\" on the sector after a sharp rebound."
-    },
-    {
-      "headline": "IPG Photonics, Nova, Teradyne, NXP Semiconductors, and Microchip Technology Stocks Trade Down, What You Need To Know",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=66eba06d43edb6824763f8aebb19f3791b1dfc8656f991969b5d35267dbf2be2",
-      "datetime": 1791413327,
-      "summary": "A number of stocks fell in the afternoon session after surging 10-year Treasury yields heightened borrowing cost concerns after the Federal Reserve\u2019s September meeting minutes showed most officials expect another rate increase this year. CNBC reported that the 10-year Treasury yield climbed back above 5.3% on Wednesday and earlier touched its highest level since 2002. The minutes, released Wednesd"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-09",
+  "data_asof": "2026-10-12",
   "price": {
-    "last": 402.68,
-    "open": 405.19,
-    "prev_close": 398.72,
-    "move_day_pct": 0.99,
-    "move_open_close_pct": -0.62,
-    "move_week_pct": -10.32
+    "last": 383.85,
+    "open": 393.7,
+    "prev_close": 402.68,
+    "move_day_pct": -4.68,
+    "move_open_close_pct": -2.5,
+    "move_week_pct": -13.65
   },
   "indicators": {
     "rsi14": {
-      "value": 52.6,
+      "value": 46.9,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 12.542,
-      "signal": 12.26,
-      "hist": 0.282,
-      "hist_prev": 1.884,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": 9.697,
+      "signal": 11.747,
+      "hist": -2.05,
+      "hist_prev": 0.282,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 456.98,
-      "lower": 327.16,
-      "mid": 392.07,
-      "pctb": 0.582,
+      "upper": 453.17,
+      "lower": 336.43,
+      "mid": 394.8,
+      "pctb": 0.406,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 205.47,
-      "read": "205% above its 52-week low"
+      "value": 191.18,
+      "read": "191% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -16.74,
-      "read": "17% below its 52-week high"
+      "value": -20.64,
+      "read": "21% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 340.51,
-      "pct": 18.26,
-      "read": "18% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 341.44,
+      "pct": 12.42,
+      "read": "12% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 20.25,
-      "pct_of_price": 5.03,
+      "value": 20.29,
+      "pct_of_price": 5.29,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.75,
+      "value": 1.12,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 45.3,
+      "value": 37.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 131.82,
   "high_52w": 483.65,
-  "ma50": 382.81,
-  "ma200": 340.51
+  "ma50": 383.14,
+  "ma200": 341.44
 }

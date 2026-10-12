@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-12T01:28:43.860016-07:00",
+  "generated_at": "2026-10-12T16:53:44.906289-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Jumping On The Robotics Train: Initiating Buy On Cognex",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=b0bc1eccfbc326a9596c406479bbc2bfeae51d6932b7f9fd2087d7c8a0c84fcc",
+      "datetime": 1791792887,
+      "summary": "Cognex (CGNX) outlook: machine vision growth plus RealSense robotics catalyst."
+    },
     {
       "headline": "3 Reasons CGNX is Risky and 1 Stock to Buy Instead",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=09abd19b8b3b59baafc8fa905928c55d77beb81dbef1cd2ed7c1d01f589cf43d",
       "datetime": 1791388124,
       "summary": ""
-    },
-    {
-      "headline": "Stock Market Today: S&P 500, Russell 2000 Fall as 30-Year Yield Hits 5.7%",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=3cd840d2106dd0682bcd5aa27f152dff7c8162be169768553abb4c1d2c068bdc",
-      "datetime": 1791377617,
-      "summary": "Stocks fell and small caps slumped Wednesday as the 30-year Treasury yield hit 5.7%, a 24-year high, with Fed minutes and bond auctions ahead."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-09",
+  "data_asof": "2026-10-12",
   "price": {
-    "last": 62.92,
-    "open": 61.67,
-    "prev_close": 60.91,
-    "move_day_pct": 3.3,
-    "move_open_close_pct": 2.03,
-    "move_week_pct": -3.16
+    "last": 61.82,
+    "open": 62.82,
+    "prev_close": 62.92,
+    "move_day_pct": -1.75,
+    "move_open_close_pct": -1.59,
+    "move_week_pct": -3.96
   },
   "indicators": {
     "rsi14": {
-      "value": 53.2,
+      "value": 50.4,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 0.38,
-      "signal": 0.06,
-      "hist": 0.321,
-      "hist_prev": 0.342,
+      "macd": 0.335,
+      "signal": 0.115,
+      "hist": 0.22,
+      "hist_prev": 0.321,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 65.49,
-      "lower": 56.42,
-      "mid": 60.95,
-      "pctb": 0.717,
+      "upper": 65.58,
+      "lower": 56.52,
+      "mid": 61.05,
+      "pctb": 0.585,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 81.57,
-      "read": "82% above its 52-week low"
+      "value": 78.4,
+      "read": "78% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -13.0,
+      "value": -14.52,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 56.32,
-      "pct": 11.72,
-      "read": "12% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 56.45,
+      "pct": 9.51,
+      "read": "10% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 2.4,
-      "pct_of_price": 3.82,
+      "value": 2.37,
+      "pct_of_price": 3.84,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 1.23,
+      "value": 0.74,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 51.9,
+      "value": 54.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 34.65,
   "high_52w": 72.32,
-  "ma50": 62.21,
-  "ma200": 56.32
+  "ma50": 62.15,
+  "ma200": 56.45
 }
