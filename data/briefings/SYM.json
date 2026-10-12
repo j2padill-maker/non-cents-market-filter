@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-11T01:11:27.600747-07:00",
+  "generated_at": "2026-10-12T01:28:44.673199-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Symbotic Has a $22.5 Billion Backlog. Here's Why It Could Be the Best Robotics Stock Nobody Talks About.",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c99b1bba648c9db02557556a992f458d3b8769d7f3eb10a3324edc67132603db",
+      "datetime": 1791714900,
+      "summary": "Just because a solution isn't jaw-droppingly futuristic doesn't mean it's not incredibly marketable."
+    },
     {
       "headline": "3 Robotics Stocks Investors Are Watching For The Next AI Automation Wave",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=89ae248e4cb6ff90091853ac65a6f3dd0090a2ba58b7310b7d7b6fa20b10225d",
       "datetime": 1791293722,
       "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders often"
-    },
-    {
-      "headline": "Symbotic Inc. (SYM) Stock Sinks As Market Gains: Here's Why",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=308c51e54476a9a287748eca7347601587c070b9bd60f7293da8ece32417a9cf",
-      "datetime": 1791234006,
-      "summary": "In the latest trading session, Symbotic Inc. (SYM) closed at $42.59, marking a -1.59% move from the previous day."
     }
   ],
   "filings": [

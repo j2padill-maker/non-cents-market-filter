@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-11T01:11:28.727021-07:00",
+  "generated_at": "2026-10-12T01:28:46.439957-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Zscaler Powered By Agentic AI Growth",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=22b7d93c6a062ccaad32447c0847e9945147afa34f5740184e973f0b6f7626a7",
+      "datetime": 1791707400,
+      "summary": "Zscaler is executing well, and the company could benefit from accelerating growth due to agentic AI. See why ZS stock is a Buy."
+    },
     {
       "headline": "International Business Machines (IBM) Unveils Real Time App Security Collaboration",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=82de1eb01993e246713a0e4a071ab3ac09182c985e39a17d96ab5bea53e72a15",
       "datetime": 1791568952,
       "summary": "Zscaler just dropped two pieces of news that sent the entire cybersecurity sector surging well past the broader market, and the debate over whether the rally holds any staying power is only getting louder."
-    },
-    {
-      "headline": "Meta Stock Stalls as Safety Concerns Over Its Fastest-Growing AI Product Emerge \u2014 And a $3.9 Billion Tax Strategy Adds to the Scrutiny",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3e089bf8a2b0d7c5cdc677b94e35145cc97faa1f1e6fca9df30ab06e37c4e162",
-      "datetime": 1791561479,
-      "summary": "After a major META stock rally, the New York Times suggests Meta rushed its Muse agent out the door despite major safety concerns."
     }
   ],
   "filings": [

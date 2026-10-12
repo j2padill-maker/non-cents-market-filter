@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-11T01:11:27.970004-07:00",
+  "generated_at": "2026-10-12T01:28:45.094894-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "3 US Growth Stocks With AI Earnings Momentum Retail Investors Should Track",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=88fa697a350088392534b77299224b53c83ddf2bda8aa47af9d620061aac8dcd",
+      "datetime": 1791709772,
+      "summary": "Right now, investors are watching a rare mix of forces collide, from hotly anticipated US inflation data and an aggressive Q3 earnings season to fresh stimulus rolling out of China, all while AI keeps pulling more attention into a tight group of large-cap growth stocks. That combination can punish hesitation and reward selective risk taking. This article walks through 3 AI-linked US giants exposed"
+    },
     {
       "headline": "Robotics Stocks Diverge as AI and Semiconductor Automation Leaders Pull Ahead",
       "source": "ChartMill",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=66eba06d43edb6824763f8aebb19f3791b1dfc8656f991969b5d35267dbf2be2",
       "datetime": 1791413327,
       "summary": "A number of stocks fell in the afternoon session after surging 10-year Treasury yields heightened borrowing cost concerns after the Federal Reserve\u2019s September meeting minutes showed most officials expect another rate increase this year. CNBC reported that the 10-year Treasury yield climbed back above 5.3% on Wednesday and earlier touched its highest level since 2002. The minutes, released Wednesd"
-    },
-    {
-      "headline": "Exploring the top movers within the S&P500 index during today's session.",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=4969bb37167e933cfd7558289b21f83b2434a2d4a02d1d83b878f78ff6fb8b48",
-      "datetime": 1791399901,
-      "summary": "Uncover the latest developments among S&P500 stocks in today's session. Stay tuned to the S&P500 index's top gainers and losers on Wednesday."
     }
   ],
   "filings": [

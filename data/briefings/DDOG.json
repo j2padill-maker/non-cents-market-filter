@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-11T01:11:26.130221-07:00",
+  "generated_at": "2026-10-12T01:28:42.185887-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Vision Capital Fund Q3 2026 Portfolio Activity",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=5c19ee5421d34fef1971ba73213fd087b4ab8dcd1b3bcd076bae72ed480ed884",
+      "datetime": 1791720120,
+      "summary": "We exited The Trade Desk in the quarter. Its revenue growth continues to lag that of peers such as Amazon, Meta, Google, and Walmart. Read more here."
+    },
     {
       "headline": "Datadog Stock Jumped 7% to a 52-Week High. Here\u2019s What Its Doubled Valuation Has to Survive",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=4fb8bf5291da84d99e4e73f545e0b637cfa35a21824c8d3627da199ceefb590f",
       "datetime": 1791561097,
       "summary": "Fastly (NYSE:FSLY) shares gained 15% to $29.04 after Oppenheimer upgraded the edge network operator to Outperform from Neutral. The call highlights how directly Fastly\u2019s traffic-metered business sits in front of fast-growing artificial intelligence (AI) workloads, a link Oppenheimer believes the market hasn\u2019t fully priced. Meanwhile, Datadog (NASDAQ:DDOG) shares are at $284.62, up 4%. Cloudflare ("
-    },
-    {
-      "headline": "CIBC Maintains Outperformer on Datadog, Raises Price Target to $315",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=b5e48b13a4fde1f8ca865189611db5ee87fa92a0acfea6123b2e0924bbc8e843",
-      "datetime": 1791555671,
-      "summary": "CIBC  analyst Todd Coupland   maintains Datadog (NASDAQ:DDOG) with a Outperformer and raises the price target from $280 to $315."
     }
   ],
   "filings": [
