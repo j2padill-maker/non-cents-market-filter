@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-12T16:53:51.944567-07:00",
+  "generated_at": "2026-10-13T01:51:22.645155-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "Does Zscaler Stock's Run Make Any Sense?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=249e433b6132cd8b509cb1567dc4dd1c6a45a67d1dbea92e9749b70dbad68cf1",
+      "datetime": 1791845288,
+      "summary": "Zscaler (ZS) stock has climbed 56% over the past three months, comfortably outpacing the 2.8% gain for the S&P 500. Over twelve months, however, the stock is still down 26%. During this recent three-month stretch, the cybersecurity company posted 25% sales growth for fiscal Q4 2026 but projected slower growth for the year ahead. Management then reiterated that conservative outlook at an Investor D"
+    },
+    {
+      "headline": "What Did Fastly Stock Investors Miss Before The Run?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=3e9b3c3e92243fc55a7a1b8c503791b3c2ef5235ed5794dd60275f6609715106",
+      "datetime": 1791843609,
+      "summary": "Fastly (FSLY) stock returned 241.5% in the twelve months to October 9, 2026, easily outpacing the 17.0% gain for the S&P 500. Buyers appear to have been paying for a clear shift in the underlying business: sales began growing faster again, and losses shrank. Investors stepping in today are betting that this momentum will hold, while observers who missed the rally might wonder if the company offere"
+    },
+    {
+      "headline": "Should You Sell Your Okta Stock After It Tripled In Six Months?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b9fde4f0898fdd1054667d66bde8265af9e09d69780c49e2e46f8108e6afe790",
+      "datetime": 1791840101,
+      "summary": "Okta (OKTA) stock has returned 225% over the past six months, far outpacing the S&P 500's 14.4% return. Investors holding the shares are sitting on a large gain, raising the question of whether to hold or take profits. The company sells identity software to more than 20,000 customers, and recent buyers may be betting on its new products designed for AI agents. So how much are you paying today for "
+    },
+    {
+      "headline": "Cybersecurity Stocks In Focus After IonQ\u2019s Elisity Deal Move",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=4ffca7b14dd6d2cd4e3d9c8e1c6576afce2d0fa9e64967d12db7a3c6cc2a518e",
+      "datetime": 1791839299,
+      "summary": "Quantum computing specialist IonQ just moved deeper into cybersecurity with a proposed Elisity takeover worth up to US$1.3b, and that kind of pivot can quietly reshuffle where future investor attention goes. When a hardware-focused player starts eyeing cyber threats linked to AI and quantum tech, it can redirect interest across related security stocks. This piece breaks down three cybersecurity co"
+    },
+    {
+      "headline": "Zscaler's Growth Likely to Slow to 17%: Can AI Products Close the Gap?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a063fbeaacc9f4f32703d1260a75c0675604ee3029a47ca04cdd464b4071a5a2",
+      "datetime": 1791805920,
+      "summary": "ZS' revenue growth is set to slow to 17% in fiscal 2027, but rising AI security demand and expanding product offerings are likely to help bridge the growth gap."
+    },
+    {
       "headline": "Zscaler: Reasonably Valued Cybersecurity Player That Can Enter The Growth Acceleration Phase",
       "source": "SeekingAlpha",
       "url": "https://finnhub.io/api/news?id=5b04b4790ce02eab427add2c998a2c764dd0d438a86de722b942ba0bb93f394e",
       "datetime": 1791805436,
       "summary": "Zscaler (ZS) buy thesis: AI-driven, usage-based growth to $8\u00e2\u0080\u009310B ARR by FY31, $15B upsell whitespace, and rising backlog."
-    },
-    {
-      "headline": "Zscaler Powered By Agentic AI Growth",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=22b7d93c6a062ccaad32447c0847e9945147afa34f5740184e973f0b6f7626a7",
-      "datetime": 1791707400,
-      "summary": "Zscaler is executing well, and the company could benefit from accelerating growth due to agentic AI. See why ZS stock is a Buy."
-    },
-    {
-      "headline": "International Business Machines (IBM) Unveils Real Time App Security Collaboration",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d9c9364653491b2ff99e2b810fcf1a37ad3ee428933cc6462811803ea7808311",
-      "datetime": 1791688586,
-      "summary": "International Business Machines (NYSE: IBM) announced a new collaboration with Zscaler and Red Hat to tighten application security for enterprise clients. The joint effort combines IBM and Red Hat software platforms with Zscaler threat intelligence to provide real-time protections at the application layer. The partners plan to coordinate vulnerability discovery, automated policy updates, and valid"
-    },
-    {
-      "headline": "Zscaler (ZS) Stock Trades Up, Here Is Why",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d01011d4f1cd8ae0dc931d7ca23a5d0e189cf7447b2376512a9b80533bba8086",
-      "datetime": 1791587230,
-      "summary": "Shares of cloud security platform Zscaler (NASDAQ:ZS) jumped 4% in the morning session as markets took a breather following an AI driven sell-off in the previous session."
-    },
-    {
-      "headline": "Zscaler Stock Is Priced for Success. Can Its AI Growth Deliver?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=75885c22137794cd560c080115ebe04fa0c403c059d830d6663d330b028174ba",
-      "datetime": 1791584937,
-      "summary": "Zscaler Inc. (NASDAQ:ZS) reaffirmed its first-quarter and fiscal 2027 guidance at its investor day, sending shares 5% higher. The company did not raise its outlook, while some analysts had described expectations as \u201cmuted.\u201d The key question now is what investors are paying for. The stock\u2019s strong reaction is only part of the story. There\u2019s another [\u2026]"
-    },
-    {
-      "headline": "Farm equipment stocks fall on regulatory probe and falling crop prices",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=255e002b8b8e829734f40a14ca72e35da4b59d0a226e3970fa7ede5c8e921368",
-      "datetime": 1791575925,
-      "summary": "Investing.com -- Major farm equipment manufacturers were set to close the week lower as the sector faced a dual blow from a federal regulatory inquiry and worsening crop market conditions."
     }
   ],
   "filings": [
@@ -85,10 +85,10 @@
   "data_asof": "2026-10-12",
   "price": {
     "last": 225.78,
-    "open": 237.22,
+    "open": 236.11,
     "prev_close": 233.73,
     "move_day_pct": -3.4,
-    "move_open_close_pct": -4.82,
+    "move_open_close_pct": -4.38,
     "move_week_pct": 11.88
   },
   "indicators": {

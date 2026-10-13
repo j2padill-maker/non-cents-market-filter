@@ -2,7 +2,7 @@
   "ticker": "TOELF",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-12T16:53:40.799455-07:00",
+  "generated_at": "2026-10-13T01:51:18.175487-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,11 +17,11 @@
   ],
   "news": [
     {
-      "headline": "Tokyo shares are higher as easing worries over inflation reduce odds for another Fed rate hike",
+      "headline": "South Korea's Kospi index sinks more than 7% on semiconductor share sell-off over AI boom worries",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9cb259582ae44d98309f1cdac6161953d58cf74f5667ae68485365d6c7148ad8",
-      "datetime": 1791173677,
-      "summary": "TOKYO (AP) \u2014 Tokyo shares advanced Monday at the start of a busy week for U. economic updates, while stock prices were little changed in Sydney and Hong Kong."
+      "url": "https://finnhub.io/api/news?id=daa5ba8aa9b20902d5ae142ea94e15b7ed22a1a8ab9871e0907d8d97a477985c",
+      "datetime": 1791860166,
+      "summary": "HONG KONG (AP) \u2014 South Korea\u2019s benchmark Kospi index dropped more than 7% on Tuesday on a sell-off of chip shares, and Asian shares mostly declined after U. futures were also mixed, and oil prices fell as escalating tensions in the Middle East continued."
     }
   ],
   "filings": [],
@@ -30,56 +30,56 @@
   "status": "ok",
   "data_asof": "2026-10-12",
   "price": {
-    "last": 76.7,
-    "open": 77.0,
+    "last": 76.73,
+    "open": 79.91,
     "prev_close": 78.33,
-    "move_day_pct": -2.08,
-    "move_open_close_pct": -0.39,
-    "move_week_pct": -5.03
+    "move_day_pct": -2.04,
+    "move_open_close_pct": -3.98,
+    "move_week_pct": -4.99
   },
   "indicators": {
     "rsi14": {
-      "value": 56.0,
+      "value": 56.1,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 2.964,
+      "macd": 2.966,
       "signal": 2.468,
-      "hist": 0.496,
+      "hist": 0.498,
       "hist_prev": 0.842,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
       "upper": 85.58,
-      "lower": 59.85,
+      "lower": 59.84,
       "mid": 72.71,
-      "pctb": 0.655,
+      "pctb": 0.656,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 117.74,
+      "value": 117.83,
       "read": "118% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -19.95,
+      "value": -19.92,
       "read": "20% below its 52-week high"
     },
     "price_vs_ma200": {
       "ma200": 62.73,
-      "pct": 22.27,
+      "pct": 22.32,
       "read": "22% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 4.77,
-      "pct_of_price": 6.22,
+      "value": 4.92,
+      "pct_of_price": 6.41,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.05,
+      "value": 0.32,
       "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 29.1,
+      "value": 28.2,
       "read": "Neutral money flow"
     }
   },

@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-12T16:53:48.750459-07:00",
+  "generated_at": "2026-10-13T01:51:21.577311-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Lattice Semiconductor, Amkor, Himax, Teradyne, and Kulicke and Soffa Shares Plummet, What You Need To Know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=aed9813f4ac67b91711f57b611d99f4bfd6a865f1570237d5761036897a1ed18",
+      "datetime": 1791851463,
+      "summary": "A number of stocks fell in the afternoon session after worries weighed on memory chipmakers and sparked selling pressure across the broader semiconductor sector, following news of domestic Chinese technological advancements and looming labor strikes in Taiwan."
+    },
+    {
+      "headline": "Here's Why Teradyne (TER) Fell More Than Broader Market",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e9eb4d76a640b964aecdff9acba753bbbc99489b0a3caecb40f18723471584bf",
+      "datetime": 1791839702,
+      "summary": "Teradyne (TER) closed at $383.85 in the latest trading session, marking a -4.68% move from the prior day."
+    },
     {
       "headline": "FormFactor stock rises on $300M Teradyne investment deal",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=e38ed90d4226f212ee61353f0e423da250f592bb6ac3f24728b4a646453ec6b7",
       "datetime": 1791810000,
       "summary": "NORTH READING, Mass., October 12, 2026--Teradyne introduces UltraFLEXplus S series for edge AI, delivering superior floor space economics for high-mix, variable-volume manufacturing."
-    },
-    {
-      "headline": "3 US Growth Stocks With AI Earnings Momentum Retail Investors Should Track",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=88fa697a350088392534b77299224b53c83ddf2bda8aa47af9d620061aac8dcd",
-      "datetime": 1791709772,
-      "summary": "Right now, investors are watching a rare mix of forces collide, from hotly anticipated US inflation data and an aggressive Q3 earnings season to fresh stimulus rolling out of China, all while AI keeps pulling more attention into a tight group of large-cap growth stocks. That combination can punish hesitation and reward selective risk taking. This article walks through 3 AI-linked US giants exposed"
-    },
-    {
-      "headline": "Robotics Stocks Diverge as AI and Semiconductor Automation Leaders Pull Ahead",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=27e8d3f00645503716d12005bb437ba0b6b20dbe570fc2a96917ce4cb616786e",
-      "datetime": 1791549375,
-      "summary": "Robotics and automation stocks are splitting: AI, semiconductor, and healthcare robotics lead while traditional industrial and software automation lag."
     }
   ],
   "filings": [
@@ -85,10 +85,10 @@
   "data_asof": "2026-10-12",
   "price": {
     "last": 383.85,
-    "open": 393.7,
+    "open": 394.09,
     "prev_close": 402.68,
     "move_day_pct": -4.68,
-    "move_open_close_pct": -2.5,
+    "move_open_close_pct": -2.6,
     "move_week_pct": -13.65
   },
   "indicators": {
@@ -124,7 +124,7 @@
       "read": "12% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 20.29,
+      "value": 20.3,
       "pct_of_price": 5.29,
       "read": "High daily volatility"
     },

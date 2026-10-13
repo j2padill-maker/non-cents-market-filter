@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-12T16:53:47.571933-07:00",
+  "generated_at": "2026-10-13T01:51:21.053585-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Symbotic Inc. (SYM) Declines More Than Market: Some Information for Investors",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=9420ce2d0cc0a241d1e2369eb51d2e509172751977cb1e07beee09a28f948fd3",
+      "datetime": 1791838807,
+      "summary": "Symbotic Inc. (SYM) closed the most recent trading day at $40.76, moving 4.39% from the previous trading session."
+    },
     {
       "headline": "Symbotic Has a $22.5 Billion Backlog. Here's Why It Could Be the Best Robotics Stock Nobody Talks About.",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=3797dfd4cefa8badd6b170dbda82f5e7e386baf5736b6a70f4e8087a18ec4a0d",
       "datetime": 1791326700,
       "summary": "AI has been a winning theme this year, but which part of the theme you own has made a big difference."
-    },
-    {
-      "headline": "8 Industrials Stocks With Whale Alerts In Today\u2019s Session",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=89ae248e4cb6ff90091853ac65a6f3dd0090a2ba58b7310b7d7b6fa20b10225d",
-      "datetime": 1791293722,
-      "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders often"
     }
   ],
   "filings": [
@@ -85,10 +85,10 @@
   "data_asof": "2026-10-12",
   "price": {
     "last": 40.78,
-    "open": 42.49,
+    "open": 42.26,
     "prev_close": 42.63,
     "move_day_pct": -4.34,
-    "move_open_close_pct": -4.02,
+    "move_open_close_pct": -3.5,
     "move_week_pct": -4.88
   },
   "indicators": {

@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-12T16:53:41.768359-07:00",
+  "generated_at": "2026-10-13T01:51:18.719263-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Why Did PLTR, DT, DDOG Stocks Surge To 52-Week Highs Today?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f2e8c7447d4852c7f2db8f8f20fcc34b5b988e07039cb5ee089ffb86825423fd",
+      "datetime": 1791864262,
+      "summary": "Enterprise software stocks gained momentum as companies expanded AI capabilities, pursued new government contracts and benefited from stronger Wall Street optimism."
+    },
+    {
+      "headline": "Does Dynatrace Stock's Valuation Make Sense?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ec85d85d38a6cade3c60cc92f77318d1982412312c45f39c22bc59007acb2923",
+      "datetime": 1791843848,
+      "summary": "Dynatrace (DT) stock currently trades at about 122 times its profit over the past twelve months. That represents a steep premium compared to an average of about 69 over its last three years. Investors buying at this multiple are paying mostly for profit Dynatrace has not earned yet. So what does Dynatrace have to deliver for a price like that to hold."
+    },
     {
       "headline": "RBC Capital Maintains Outperform on Datadog, Raises Price Target to $320",
       "source": "Benzinga",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=0b10151d98782d453bdf6c19f70189408fee9632ece006d361a812d031127138",
       "datetime": 1791594430,
       "summary": "Shares of cloud monitoring platform Datadog (NASDAQ:DDOG) jumped 6.6% in the afternoon session after CIBC boosted its outlook and lifted its price target on the company while reiterating an Outperform rating, amid a broader rebound across the artificial intelligence sector."
-    },
-    {
-      "headline": "Discover which S&P500 stocks are making waves on Friday.",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=fa69fc8000049deee244f45ce89b56b001c6c1c2df31ee60616bdbf8d43bd682",
-      "datetime": 1791572701,
-      "summary": "Stay updated with the movements of the S&P500 index one hour before the close of the markets on Friday. Discover which stocks are leading as top gainers and losers in today's session."
-    },
-    {
-      "headline": "Datadog Is On The Hunt. Here's Why Wall Street Is Wagging Its Tail.",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ab8953b25601443283d9659be8a9b64dd8b6d27d0ce68d34161bcf0cb646654a",
-      "datetime": 1791569920,
-      "summary": "Landing a spot on the latest monthly list of new buys by the best mutual funds, Datadog stock has a treat in sight."
     }
   ],
   "filings": [

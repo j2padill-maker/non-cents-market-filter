@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-12T16:53:50.802059-07:00",
+  "generated_at": "2026-10-13T01:51:22.176237-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Ovintiv Stock Rallies 13% in the Past 3 Months: Is It a Buy or Hold?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=75d5e40dd1d16a387f3a4a301a36d54675975f6d5c181e31f3c727cd072a5ca5",
+      "datetime": 1791811080,
+      "summary": "OVV outperforms its subindustry over three months as higher oil output, strong free cash flow and a deep drilling inventory support growth, despite natural gas headwinds."
+    },
+    {
+      "headline": "Petrobras Signs Major Four-Year Deal for Offshore Pump Services",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=edf6c3340793dc4c7c43c69db1d818bae1318b8b4d007cd674105c59f0f880e8",
+      "datetime": 1791810840,
+      "summary": "PBR signs a four-year Framo deal to service pumps across 30 FPSOs, strengthening offshore maintenance support as Brazil's oil and gas market expands."
+    },
     {
       "headline": "Shell Partially Restarts Qatar Pearl GTL Plant After War Damage",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=469e00f1933b64bcf81407ddff9b757b95687df604cf2a40475ff5637d6901e0",
       "datetime": 1791533950,
       "summary": "Low-volatility stocks may offer stability, but that often comes at the cost of slower growth and the upside potential of more dynamic companies."
-    },
-    {
-      "headline": "Oceaneering International: Q3 Expectations Support A Buy Rating",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=26ad6548e3aa5c7fb48e3e4154545750f4c0c5389d31a25b7d96147afe3c769d",
-      "datetime": 1791444323,
-      "summary": "Oceaneering (OII) Buy thesis at ~$44.97: Q3 EBITDA $115\u00e2\u0080\u0093$125M, ROV pricing/utilization & defense tailwinds\u00e2\u0080\u0094watch cash flow, margins & risks. See more here."
-    },
-    {
-      "headline": "Oceaneering: Trading Above Its Fundamental Value",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=f099f0366e29dc6319306f97839f011b217996e450a860c6eb2c78914d94edce",
-      "datetime": 1791423456,
-      "summary": "Oceaneering is a leading subsea robotics and offshore services provider, currently recovering. Find out why OII stock is a Hold."
     }
   ],
   "filings": [
@@ -129,7 +129,7 @@
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.75,
+      "value": 0.76,
       "read": "Roughly average volume"
     },
     "mfi14": {
