@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-13T01:51:21.577311-07:00",
+  "generated_at": "2026-10-14T00:04:17.055717-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "AI Chips Need Testing, and Teradyne (TER) Is Winning. Is the Valuation Too High?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=387059904245df473a84861135fee850ded20f77a11e93e7fc35275cc6bc1683",
+      "datetime": 1791929986,
+      "summary": "Robots get the headlines at Teradyne (NASDAQ:TER). Chip testers pay the bills. In the second quarter of 2026, the company\u2019s robotics arm brought in $100 million. Its semiconductor test business brought in $1.12 billion over the same three months. That split matters, because the stock isn\u2019t cheap. Teradyne builds the machines that check chips for [\u2026]"
+    },
+    {
+      "headline": "Teradyne to Announce Third Quarter 2026 Results",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=89d22f423a5afa56d73eeaa2fea5a43684531d21cadfae869680763647735d46",
+      "datetime": 1791923400,
+      "summary": "NORTH READING, Mass., October 13, 2026--Teradyne, Inc. (NASDAQ: TER) will release financial results for the third quarter 2026 on Tuesday, October 27, 2026 at 4:30 p.m. Eastern Time (ET) or later."
+    },
+    {
+      "headline": "Data Reveals Next Big AI Robotics Stock Investments",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ac16810eee766376c7b99fe73d6bc4b25bc151644337d4557392f19999c3228e",
+      "datetime": 1791922339,
+      "summary": "If you're looking for a smart, lower-risk way to invest in the booming\u00a0robotics and AI infrastructure sector, Eric Bleeker, the co-host of The AI Investor Podcast, may have the perfect pick. Eric recently discussed how industrial powerhouses like Regal Rexnord (RRX) offer investors a powerful \"call option\" on robotics growth without necessarily risking the farm.\u00a0Among the benefits discussed was th"
+    },
+    {
+      "headline": "ASML Earnings Put Semiconductor Equipment Stocks' Momentum to the Test After Sharp Pullback",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=adc386d7638d79620a3a78f93b3d0c22274363e9d219950a490b6513c180ade5",
+      "datetime": 1791893194,
+      "summary": "Semiconductor equipment stocks face a key ASML earnings test after a sharp pullback, with strong long-term gains but elevated valuations."
+    },
+    {
       "headline": "Lattice Semiconductor, Amkor, Himax, Teradyne, and Kulicke and Soffa Shares Plummet, What You Need To Know",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=aed9813f4ac67b91711f57b611d99f4bfd6a865f1570237d5761036897a1ed18",
@@ -29,34 +57,6 @@
       "url": "https://finnhub.io/api/news?id=e9eb4d76a640b964aecdff9acba753bbbc99489b0a3caecb40f18723471584bf",
       "datetime": 1791839702,
       "summary": "Teradyne (TER) closed at $383.85 in the latest trading session, marking a -4.68% move from the prior day."
-    },
-    {
-      "headline": "FormFactor stock rises on $300M Teradyne investment deal",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3ade1486118f0a9ad7c71d8a19bc2b4e79a4b5c4647e99f0a0292590fd734af9",
-      "datetime": 1791838127,
-      "summary": "Investing.com -- FormFactor Inc (NASDAQ:FORM) shares rose 3.6% in after-hours trading Monday following the announcement of a strategic technology collaboration with Teradyne Inc (NASDAQ:TER) and a $300 million equity investment from the automated test equipment provider."
-    },
-    {
-      "headline": "FormFactor and Teradyne Announce Strategic Collaboration to Accelerate Next-Generation Semiconductor Testing",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=00107915edf1601d8c6e57d7a5a5ced759cf7c7389aad29503afd091d5dc926d",
-      "datetime": 1791835260,
-      "summary": "Companies to combine leadership in probe, interface, and test technologies to accelerate AI and high-performance compute deploymentsLIVERMORE, Calif., Oct. 12, 2026 (GLOBE NEWSWIRE) -- FormFactor, Inc. (Nasdaq: FORM), a leading provider of semiconductor test and measurement technologies, and Teradyne, Inc. (Nasdaq: TER), a leading provider of automated test equipment and advanced robotics, today a"
-    },
-    {
-      "headline": "Teradyne Boosts Test Portfolio With Titan HP: Can It Beat KLAC & COHU?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=14fa67455c5e09ae7082343fcf044768d8d719411081585dc867c9aeb0584e4f",
-      "datetime": 1791817860,
-      "summary": "TER's enhanced Titan HP platform strengthens its AI chip testing portfolio as soaring semiconductor test revenues fuel competition with KLA and Cohu."
-    },
-    {
-      "headline": "Teradyne Introduces UltraFLEXplus S Series for Edge AI Applications",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e38ed90d4226f212ee61353f0e423da250f592bb6ac3f24728b4a646453ec6b7",
-      "datetime": 1791810000,
-      "summary": "NORTH READING, Mass., October 12, 2026--Teradyne introduces UltraFLEXplus S series for edge AI, delivering superior floor space economics for high-mix, variable-volume manufacturing."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-12",
+  "data_asof": "2026-10-13",
   "price": {
-    "last": 383.85,
-    "open": 394.09,
-    "prev_close": 402.68,
-    "move_day_pct": -4.68,
-    "move_open_close_pct": -2.6,
-    "move_week_pct": -13.65
+    "last": 380.29,
+    "open": 371.5,
+    "prev_close": 383.85,
+    "move_day_pct": -0.93,
+    "move_open_close_pct": 2.37,
+    "move_week_pct": -11.63
   },
   "indicators": {
     "rsi14": {
-      "value": 46.9,
+      "value": 45.9,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 9.697,
-      "signal": 11.747,
-      "hist": -2.05,
-      "hist_prev": 0.282,
+      "macd": 7.073,
+      "signal": 10.812,
+      "hist": -3.739,
+      "hist_prev": -2.05,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 453.17,
-      "lower": 336.43,
-      "mid": 394.8,
-      "pctb": 0.406,
+      "upper": 448.73,
+      "lower": 345.61,
+      "mid": 397.17,
+      "pctb": 0.336,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 191.18,
-      "read": "191% above its 52-week low"
+      "value": 178.18,
+      "read": "178% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -20.64,
+      "value": -21.37,
       "read": "21% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 341.44,
-      "pct": 12.42,
-      "read": "12% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 342.35,
+      "pct": 11.08,
+      "read": "11% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 20.3,
-      "pct_of_price": 5.29,
+      "value": 20.37,
+      "pct_of_price": 5.36,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.12,
+      "value": 1.11,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 37.5,
+      "value": 36.7,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": 131.82,
+  "low_52w": 136.71,
   "high_52w": 483.65,
-  "ma50": 383.14,
-  "ma200": 341.44
+  "ma50": 383.43,
+  "ma200": 342.35
 }

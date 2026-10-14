@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-13T01:51:21.903920-07:00",
+  "generated_at": "2026-10-14T00:04:17.313873-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "BOTZ: Robotics Adoption Is Accelerating, But The Valuation Still Calls For Patience",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=39e30e87b55efe176670301f2fa7ebeb3301b5d05931de60f59d6dbe44ffec0e",
+      "datetime": 1791886938,
+      "summary": "BOTZ ETF review: 32x P/E, weak 5-year returns, and high concentration risk."
+    },
     {
       "headline": "Upgrading U.S. Treasuries To Lock In Income",
       "source": "SeekingAlpha",
@@ -50,76 +57,69 @@
       "url": "https://finnhub.io/api/news?id=5222804a331d6195d734c895846797694e420afaf28c306ce296846077083e17",
       "datetime": 1791606300,
       "summary": "The combined market cap of the bottom 434 companies in the S&P 500 equals that of the top 5."
-    },
-    {
-      "headline": "Where Are The Tripwires",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=d8236ca7514899ad4462ca5133d02873066546b45d3ab513125f1f4e52d5ad65",
-      "datetime": 1791598800,
-      "summary": "In the Treasury market, the tripwire most often invoked is the yield beyond which lie monsters. Read more here."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-12",
+  "data_asof": "2026-10-13",
   "price": {
-    "last": 34.9,
-    "open": 35.17,
-    "prev_close": 35.48,
-    "move_day_pct": -1.63,
-    "move_open_close_pct": -0.75,
-    "move_week_pct": -3.59
+    "last": 34.96,
+    "open": 34.91,
+    "prev_close": 34.9,
+    "move_day_pct": 0.17,
+    "move_open_close_pct": 0.14,
+    "move_week_pct": -3.35
   },
   "indicators": {
     "rsi14": {
-      "value": 44.0,
+      "value": 44.6,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.074,
-      "signal": -0.059,
-      "hist": -0.015,
-      "hist_prev": 0.028,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -0.105,
+      "signal": -0.068,
+      "hist": -0.037,
+      "hist_prev": -0.015,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 36.3,
-      "lower": 34.46,
-      "mid": 35.38,
-      "pctb": 0.238,
+      "upper": 36.27,
+      "lower": 34.52,
+      "mid": 35.4,
+      "pctb": 0.25,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 9.15,
+      "value": 9.34,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -16.12,
+      "value": -15.98,
       "read": "16% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 36.85,
-      "pct": -5.29,
+      "ma200": 36.84,
+      "pct": -5.1,
       "read": "5% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.56,
-      "pct_of_price": 1.6,
+      "value": 0.54,
+      "pct_of_price": 1.54,
       "read": "Calm \u2014 low volatility"
     },
     "rel_volume": {
-      "value": 0.79,
+      "value": 0.77,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 56.5,
+      "value": 59.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 31.97,
   "high_52w": 41.61,
-  "ma50": 35.91,
-  "ma200": 36.85
+  "ma50": 35.89,
+  "ma200": 36.84
 }

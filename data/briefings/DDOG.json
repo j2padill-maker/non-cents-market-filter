@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-13T01:51:18.719263-07:00",
+  "generated_at": "2026-10-14T00:04:15.266261-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Datadog (DDOG) Dips More Than Broader Market: What You Should Know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=33c5af3383ebcaeeacb2123802d01cb9df6cfff2e6e5e3dbedd0ab6b85a0785d",
+      "datetime": 1791924302,
+      "summary": "The latest trading day saw Datadog (DDOG) settling at $283.34, representing a -1.37% change from its previous close."
+    },
+    {
+      "headline": "3 Software Stocks Banks May Need As AI Rules Tighten",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c6214a528e124f85f595a7942727983e729d985af2b3b5d70f259ba74bc020a8",
+      "datetime": 1791915145,
+      "summary": "Regulators on both sides of the Atlantic are suddenly treating bank AI systems, backup hardware and data centers as potential fault lines, not just plumbing. That shift turns once invisible infrastructure into a live topic for risk, spending and opportunity. If you care where the next wave of bank tech budgets may flow, the next three sections explain how 3 stocks from this AI and data infrastruct"
+    },
+    {
+      "headline": "Is Datadog (DDOG) a Buy as Wall Street Analysts Look Optimistic?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=273b2a2cb674118a2fc9e4ab58b1edd417bf238d169bb28c9bd3478f5a145105",
+      "datetime": 1791894603,
+      "summary": "The average brokerage recommendation (ABR) for Datadog (DDOG) is equivalent to a Buy. The overly optimistic recommendations of Wall Street analysts make the effectiveness of this highly sought-after metric questionable. So, is it worth buying the stock?"
+    },
     {
       "headline": "Why Did PLTR, DT, DDOG Stocks Surge To 52-Week Highs Today?",
       "source": "Yahoo",
@@ -31,32 +52,11 @@
       "summary": "Dynatrace (DT) stock currently trades at about 122 times its profit over the past twelve months. That represents a steep premium compared to an average of about 69 over its last three years. Investors buying at this multiple are paying mostly for profit Dynatrace has not earned yet. So what does Dynatrace have to deliver for a price like that to hold."
     },
     {
-      "headline": "RBC Capital Maintains Outperform on Datadog, Raises Price Target to $320",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=0d5cd04e1ebf30640d11e5f7cd28cb0931f4d0b946d1539e3f22c2625bf933e6",
-      "datetime": 1791797692,
-      "summary": "RBC Capital  analyst Matthew Hedberg   maintains Datadog (NASDAQ:DDOG) with a Outperform and raises the price target from $280 to $320."
-    },
-    {
-      "headline": "Vision Capital Fund Q3 2026 Portfolio Activity",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=5c19ee5421d34fef1971ba73213fd087b4ab8dcd1b3bcd076bae72ed480ed884",
-      "datetime": 1791720120,
-      "summary": "We exited The Trade Desk in the quarter. Its revenue growth continues to lag that of peers such as Amazon, Meta, Google, and Walmart. Read more here."
-    },
-    {
-      "headline": "Datadog Stock Jumped 7% to a 52-Week High. Here\u2019s What Its Doubled Valuation Has to Survive",
+      "headline": "OpenAI's Revenue Scare Could Be a Big Opportunity for Investors",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=52cf8452a5ad3de8748a3787d376d5a68076614201a2d9e3283edaf27a393e18",
-      "datetime": 1791646221,
-      "summary": "Key Stats for Datadog StockCurrent Price: $293. 26Target Price (Mid): ~$730Street Target: ~$288Potential Total Return: ~149%Annualized IRR: ~24% / yearWhat Happened?Datadog (DDOG) closed at $293."
-    },
-    {
-      "headline": "Why Is Datadog (DDOG) Stock Soaring Today",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0b10151d98782d453bdf6c19f70189408fee9632ece006d361a812d031127138",
-      "datetime": 1791594430,
-      "summary": "Shares of cloud monitoring platform Datadog (NASDAQ:DDOG) jumped 6.6% in the afternoon session after CIBC boosted its outlook and lifted its price target on the company while reiterating an Outperform rating, amid a broader rebound across the artificial intelligence sector."
+      "url": "https://finnhub.io/api/news?id=0df46f7a8ef52f1d7b7dc60937a7df07ae79814c2e3f038dc2320c0d23d1b421",
+      "datetime": 1791821100,
+      "summary": "OpenAI's reported $50 billion revenue run rate, below earlier estimates, raises IPO valuation questions and stirs concern over Oracle's $300 billion contract and AI compute demand."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-12",
+  "data_asof": "2026-10-13",
   "price": {
-    "last": 287.29,
-    "open": 299.0,
-    "prev_close": 293.26,
-    "move_day_pct": -2.04,
-    "move_open_close_pct": -3.92,
-    "move_week_pct": 3.93
+    "last": 283.34,
+    "open": 285.61,
+    "prev_close": 287.29,
+    "move_day_pct": -1.37,
+    "move_open_close_pct": -0.79,
+    "move_week_pct": 1.83
   },
   "indicators": {
     "rsi14": {
-      "value": 67.9,
+      "value": 64.5,
       "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 12.627,
-      "signal": 10.354,
-      "hist": 2.274,
-      "hist_prev": 2.49,
+      "macd": 12.444,
+      "signal": 10.772,
+      "hist": 1.673,
+      "hist_prev": 2.274,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 300.38,
-      "lower": 223.74,
-      "mid": 262.06,
-      "pctb": 0.829,
-      "read": "Near the upper band"
+      "upper": 301.16,
+      "lower": 228.26,
+      "mid": 264.71,
+      "pctb": 0.756,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 179.97,
-      "read": "180% above its 52-week low"
+      "value": 176.12,
+      "read": "176% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -2.04,
-      "read": "At or near its 52-week high"
+      "value": -3.38,
+      "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 189.04,
-      "pct": 51.97,
-      "read": "52% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 189.77,
+      "pct": 49.31,
+      "read": "49% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 11.97,
-      "pct_of_price": 4.17,
+      "value": 11.9,
+      "pct_of_price": 4.2,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.82,
+      "value": 0.58,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 74.8,
+      "value": 69.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 293.26,
-  "ma50": 247.26,
-  "ma200": 189.04
+  "ma50": 247.46,
+  "ma200": 189.77
 }

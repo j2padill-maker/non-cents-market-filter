@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-13T01:51:17.170777-07:00",
+  "generated_at": "2026-10-14T00:04:14.152938-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Snowflake vs. MongoDB: Does Faster Growth Justify Twice the Cash-Flow Price?",
+      "headline": "Why MongoDB (MDB) Stock Is Trading Up Today",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=69be22d5f054b79b36aa048aa2fc09256eb57614c98e1bd749f681b0d1b76679",
-      "datetime": 1791580730,
-      "summary": "Snowflake Inc. (NYSE:SNOW) and MongoDB, Inc. (NASDAQ:MDB) let investors own different layers of enterprise data spending. Snowflake focuses on analytics and governed data workloads; MongoDB supports application databases. Both stocks depend on customers expanding paid workloads. Snowflake\u2019s latest total revenue grew 35%, against MongoDB\u2019s 30%. At the October 7 close, Snowflake cost about 98 times "
+      "url": "https://finnhub.io/api/news?id=ec75bed6d55a47374b782a9ecca1443f2fc6900f7f05cd481f2b7b8bdbdaa8b7",
+      "datetime": 1791918424,
+      "summary": "Shares of database platform company MongoDB (NASDAQ:MDB) jumped 3.4% in the afternoon session after analysts became more positive on the company, with Scotiabank adding the stock to its top picks list and Bank of America praising the company's investor day."
     },
     {
-      "headline": "ServiceNow Stock And Other Cloud Software Names With Real AI Revenue Exposure",
+      "headline": "Sizing up Meta\u2019s push into the crowded world of enterprise AI",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6bd2335c235e55b4ebd7b979825e07d1ca73dfff83eb841c5c0f8ebf66e7b1b5",
-      "datetime": 1791533645,
-      "summary": "AI enthusiasm just hit a reality check as OpenAI\u2019s revenue reset and eye catching $1.4b valuation talks whipsawed cloud and chip stocks, yet the company still targets an annualized $70b run rate by year end. That mix of excitement and doubt is where opportunities often emerge. This article walks through 3 stocks from our Global AI Exposed Cloud & Hyperscaler Platforms screener that appear particul"
+      "url": "https://finnhub.io/api/news?id=37496a16993a12054703614a37776164d4e22e84c1ec2caa4bd4e7d9ca05f030",
+      "datetime": 1791917002,
+      "summary": "Marketing and business leaders say Muse is compelling, but they have security and trust concerns."
     },
     {
-      "headline": "Is MongoDB (MDB) Fully Priced After Raised Growth Targets?",
+      "headline": "MongoDB wins Bank of America backing on AI growth prospects",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f3100e2d1e8b783c7ca51c9f7280b48adfc14cba9baf7c894f07551ecd62f374",
-      "datetime": 1791522801,
-      "summary": "MongoDB has had a mixed share price journey, with a small gain over three years but a decline over five, which puts fresh focus on whether the current US$371.35 level lines up with the cash the business can produce over time. The question for you is whether recent momentum in the underlying business has changed the gap between what the market is paying today and what its cash flows can justify. Ov"
+      "url": "https://finnhub.io/api/news?id=357d400a483aca55c0e18a40fdecfa7b7724e1bf5ba7502f783fd2742ca96930",
+      "datetime": 1791913140,
+      "summary": "MongoDB Inc (NASDAQ:MDB), the US database software company, has retained a 'Buy' rating from Bank of America Securities and $540 price target, with the broker citing its long-term growth prospects in artificial intelligence and enterprise modernisation. Analysts reaffirmed the rating..."
     },
     {
-      "headline": "MongoDB (MDB) Unveils New AI Tools While Investors Ask If The Stock Is A Bargain",
+      "headline": "MongoDB gains as BofA highlights long-term AI strategy potential",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7fb9b3e5909c521da4df6de36b80dfcda6b60104d709cdec5de9472b5421a769",
-      "datetime": 1791465208,
-      "summary": "MongoDB (MDB) used its late September Investor Day to roll out Atlas Agent Engine, MongoDB 9.0, and Atlas Infinite, a trio of releases aimed at AI-heavy, real-time application workloads. MongoDB shares at US$363.03 have inched higher over the past week, yet remain down about 9% on a year-to-date share price basis. The 1-year total shareholder return of roughly 11% signals longer term holders have "
+      "url": "https://finnhub.io/api/news?id=5757900c536534057d03457a6bea3e4aca1ce5822203c8ac2065a450e47f8952",
+      "datetime": 1791909788,
+      "summary": "Investing.com -- MongoDB (NASDAQ:MDB) stock jumped over 3% in Tuesday trading after Bank of America Securities analyst Koji Ikeda reiterated a Buy rating and a $540.00 price target on the company, citing renewed confidence in its long-term strategy for artificial intelligence."
     },
     {
-      "headline": "Scotiabank Maintains Sector Outperform on MongoDB, Raises Price Target to $450",
+      "headline": "Bumble, Fermi, Xtend AI Robotics And Other Big Stocks Moving Higher On Tuesday",
       "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=b0d773dd39ae156d62296c36ec81dab3e9e27d4e797b327de543753d3f9b3f41",
-      "datetime": 1791457433,
-      "summary": "Scotiabank  analyst Patrick Colville   maintains MongoDB (NASDAQ:MDB) with a Sector Outperform and raises the price target from $440 to $450."
+      "url": "https://finnhub.io/api/news?id=122001287ad80ca03a90ceda40cfcca7b69002cdfd2a3218dcd5d0d272e15b2f",
+      "datetime": 1791886333,
+      "summary": "U.S. stocks mostly fell; Bumble surged 56.7% on Ithaca\u2019s $6.05 buyout offer, while Fermi, Enerflex, BigBear.ai and others gained."
     },
     {
-      "headline": "The One Number That Could Decide Palantir\u2019s Next Big Move",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=987c1940d70877384702e11fb25befb34ec042f77f6031638bd862c38b9b21b4",
-      "datetime": 1791391555,
-      "summary": "Palantir just posted its ninth straight earnings beat and the stock surged, but one metric buried in the quarterly report now controls whether the premium multiple holds or collapses under rising costs and slowing momentum."
+      "headline": "Needham Reiterates Buy on MongoDB, Maintains $430 Price Target",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=89391e9618c0294e053ce015e9d0885314309de98f36fa82a4319dc5ad71aa82",
+      "datetime": 1791872827,
+      "summary": "Needham  analyst Mike Cikos   reiterates MongoDB (NASDAQ:MDB) with a Buy and maintains $430 price target."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-12",
+  "data_asof": "2026-10-13",
   "price": {
-    "last": 381.29,
-    "open": 389.0,
-    "prev_close": 385.93,
-    "move_day_pct": -1.2,
-    "move_open_close_pct": -1.98,
-    "move_week_pct": 6.14
+    "last": 373.07,
+    "open": 379.5,
+    "prev_close": 381.29,
+    "move_day_pct": -2.16,
+    "move_open_close_pct": -1.69,
+    "move_week_pct": 3.43
   },
   "indicators": {
     "rsi14": {
-      "value": 51.0,
+      "value": 48.3,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -5.425,
-      "signal": -6.892,
-      "hist": 1.467,
-      "hist_prev": 0.525,
+      "macd": -4.994,
+      "signal": -6.512,
+      "hist": 1.519,
+      "hist_prev": 1.467,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 434.65,
-      "lower": 323.13,
-      "mid": 378.89,
-      "pctb": 0.521,
+      "upper": 434.48,
+      "lower": 322.85,
+      "mid": 378.66,
+      "pctb": 0.45,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 68.75,
-      "read": "69% above its 52-week low"
+      "value": 65.11,
+      "read": "65% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -19.27,
-      "read": "19% below its 52-week high"
+      "value": -21.01,
+      "read": "21% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 341.14,
-      "pct": 11.77,
-      "read": "12% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 340.83,
+      "pct": 9.46,
+      "read": "9% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 22.48,
-      "pct_of_price": 5.9,
+      "value": 23.69,
+      "pct_of_price": 6.35,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.34,
-      "read": "Light \u2014 quiet trading"
+      "value": 1.01,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 55.3,
+      "value": 56.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 396.04,
-  "ma200": 341.14
+  "ma50": 396.35,
+  "ma200": 340.83
 }

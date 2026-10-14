@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-13T01:51:20.261018-07:00",
+  "generated_at": "2026-10-14T00:04:16.109272-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Barclays Maintains Overweight on Cognex, Raises Price Target to $85",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=a0cfaf50b411ae997221de15d9bc19610b868827684ac8ec98a126e62362fe9a",
+      "datetime": 1791818452,
+      "summary": "Barclays  analyst Guy Hardwick   maintains Cognex (NASDAQ:CGNX) with a Overweight and raises the price target from $80 to $85."
+    },
     {
       "headline": "Jumping On The Robotics Train: Initiating Buy On Cognex",
       "source": "SeekingAlpha",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=b9a23a9c5c6a9d3e755db6f1400b3873894b7ef1fbf03e62da43c8f90bdbefa6",
       "datetime": 1791401327,
       "summary": "Shares of machine vision technology company Cognex (NASDAQ:CGNX) fell 7.5% in the afternoon session after rising Treasury yields and climbing oil prices dampened investor sentiment ahead of the release of the Federal Reserve's September meeting minutes. CNBC reported that Treasury yields climbed back to multiyear highs, ahead of the Federal Reserve\u2019s September meeting minutes. The 10-year yield wa"
-    },
-    {
-      "headline": "Socket Mobile Announced A New Update To Its React Native CaptureSDK To Supports The React Native Version 0.75.4 And Enables Developers To Customize The SocketCam Viewfinder Within Their Applications",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=09abd19b8b3b59baafc8fa905928c55d77beb81dbef1cd2ed7c1d01f589cf43d",
-      "datetime": 1791388124,
-      "summary": ""
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-12",
+  "data_asof": "2026-10-13",
   "price": {
-    "last": 61.82,
-    "open": 62.82,
-    "prev_close": 62.92,
-    "move_day_pct": -1.75,
-    "move_open_close_pct": -1.59,
-    "move_week_pct": -3.96
+    "last": 60.01,
+    "open": 60.91,
+    "prev_close": 61.82,
+    "move_day_pct": -2.93,
+    "move_open_close_pct": -1.48,
+    "move_week_pct": -9.56
   },
   "indicators": {
     "rsi14": {
-      "value": 50.4,
+      "value": 46.1,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 0.335,
-      "signal": 0.115,
-      "hist": 0.22,
-      "hist_prev": 0.321,
+      "macd": 0.151,
+      "signal": 0.122,
+      "hist": 0.029,
+      "hist_prev": 0.22,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 65.58,
-      "lower": 56.52,
-      "mid": 61.05,
-      "pctb": 0.585,
+      "upper": 65.56,
+      "lower": 56.62,
+      "mid": 61.09,
+      "pctb": 0.379,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 78.4,
-      "read": "78% above its 52-week low"
+      "value": 73.17,
+      "read": "73% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -14.52,
-      "read": "Modestly below its 52-week high"
+      "value": -17.02,
+      "read": "17% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 56.45,
-      "pct": 9.51,
-      "read": "10% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 56.56,
+      "pct": 6.1,
+      "read": "6% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 2.37,
-      "pct_of_price": 3.84,
-      "read": "Elevated volatility"
+      "value": 2.41,
+      "pct_of_price": 4.01,
+      "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.74,
+      "value": 1.15,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 54.3,
+      "value": 54.1,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 34.65,
   "high_52w": 72.32,
-  "ma50": 62.15,
-  "ma200": 56.45
+  "ma50": 62.0,
+  "ma200": 56.56
 }

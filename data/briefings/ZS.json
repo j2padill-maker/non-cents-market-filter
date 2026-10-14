@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-13T01:51:22.645155-07:00",
+  "generated_at": "2026-10-14T00:04:17.814608-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "What Was Cloudflare Telling You Before Its Stock Ran?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=2158e3b0f7c6d345344175c805c08fa9dbe8e357e4fcec5dd694d4aaf733bd8a",
+      "datetime": 1791924504,
+      "summary": "Cloudflare (NET) stock returned 58.8% over the twelve months to October 12, 2026. During its August 2026 call, management credited growth to a more productive sales force alongside AI agent workloads on its network and its Workers developer platform. Neither theme was new by then. How early did Cloudflare start talking about them."
+    },
+    {
+      "headline": "Investors Heavily Search Zscaler, Inc. (ZS): Here is What You Need to Know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=1b9794a59ffecb32f0790e443f2f8d1ba46e3168ca6ee285e36479ad466084a6",
+      "datetime": 1791892803,
+      "summary": "Zscaler (ZS) has been one of the stocks most watched by Zacks.com users lately. So, it is worth exploring what lies ahead for the stock."
+    },
     {
       "headline": "Does Zscaler Stock's Run Make Any Sense?",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=4ffca7b14dd6d2cd4e3d9c8e1c6576afce2d0fa9e64967d12db7a3c6cc2a518e",
       "datetime": 1791839299,
       "summary": "Quantum computing specialist IonQ just moved deeper into cybersecurity with a proposed Elisity takeover worth up to US$1.3b, and that kind of pivot can quietly reshuffle where future investor attention goes. When a hardware-focused player starts eyeing cyber threats linked to AI and quantum tech, it can redirect interest across related security stocks. This piece breaks down three cybersecurity co"
-    },
-    {
-      "headline": "Zscaler's Growth Likely to Slow to 17%: Can AI Products Close the Gap?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a063fbeaacc9f4f32703d1260a75c0675604ee3029a47ca04cdd464b4071a5a2",
-      "datetime": 1791805920,
-      "summary": "ZS' revenue growth is set to slow to 17% in fiscal 2027, but rising AI security demand and expanding product offerings are likely to help bridge the growth gap."
-    },
-    {
-      "headline": "Zscaler: Reasonably Valued Cybersecurity Player That Can Enter The Growth Acceleration Phase",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=5b04b4790ce02eab427add2c998a2c764dd0d438a86de722b942ba0bb93f394e",
-      "datetime": 1791805436,
-      "summary": "Zscaler (ZS) buy thesis: AI-driven, usage-based growth to $8\u00e2\u0080\u009310B ARR by FY31, $15B upsell whitespace, and rising backlog."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-12",
+  "data_asof": "2026-10-13",
   "price": {
-    "last": 225.78,
-    "open": 236.11,
-    "prev_close": 233.73,
-    "move_day_pct": -3.4,
-    "move_open_close_pct": -4.38,
-    "move_week_pct": 11.88
+    "last": 228.66,
+    "open": 224.61,
+    "prev_close": 225.78,
+    "move_day_pct": 1.28,
+    "move_open_close_pct": 1.8,
+    "move_week_pct": 7.73
   },
   "indicators": {
     "rsi14": {
-      "value": 66.1,
+      "value": 67.3,
       "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 10.587,
-      "signal": 8.646,
-      "hist": 1.941,
-      "hist_prev": 1.845,
+      "macd": 11.151,
+      "signal": 9.147,
+      "hist": 2.004,
+      "hist_prev": 1.941,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 228.22,
-      "lower": 183.4,
-      "mid": 205.81,
-      "pctb": 0.946,
+      "upper": 231.34,
+      "lower": 183.75,
+      "mid": 207.55,
+      "pctb": 0.944,
       "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 91.26,
-      "read": "91% above its 52-week low"
+      "value": 93.7,
+      "read": "94% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -32.86,
-      "read": "33% below its 52-week high"
+      "value": -32.0,
+      "read": "32% below its 52-week high"
     },
     "price_vs_ma200": {
       "ma200": 166.02,
-      "pct": 36.0,
-      "read": "36% above its 200-day average \u2014 long-term uptrend"
+      "pct": 37.73,
+      "read": "38% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 10.04,
-      "pct_of_price": 4.45,
+      "value": 10.15,
+      "pct_of_price": 4.44,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.75,
+      "value": 0.85,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 65.4,
+      "value": 66.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 118.05,
   "high_52w": 336.27,
-  "ma50": 187.27,
+  "ma50": 188.76,
   "ma200": 166.02
 }

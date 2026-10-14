@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-13T01:51:21.053585-07:00",
+  "generated_at": "2026-10-14T00:04:16.737921-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Symbotic Makes Another Robotics Power Play With German Automation Acquisition",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c82881857ce308cabdee79b5e2d48ae9aace946dca42452b9b7c5cc131c5ce52",
+      "datetime": 1791901984,
+      "summary": "Symbotic Inc. (NASDAQ:SYM) announced Tuesday that it has acquired Germany-based automation company cellumation GmbH, expanding its AI-powered warehouse robotics capabilities and strengthening its presence in Europe.The acquisition adds cellumation\u2019s patented celluveyor technology to Symbotic\u2019s portfolio. The software-driven system aims to improve warehouse efficiency, increase processing capacity "
+    },
+    {
+      "headline": "Symbotic Announces Acquisition of cellumation, Advancing Next-Generation Sortation Technology for the Global Supply Chain",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=bed1561467bf7509bbf20cfb2d2ff1a6545493d8c651e71a0d3e2788b74e9f38",
+      "datetime": 1791885600,
+      "summary": "Acquisition adds the celluveyor\u2122, a software-driven sortation platform that replaces traditional conveyor infrastructure with intelligent, omnidirectional movement, enabling greater density, throughput, and efficiency cellumation will continue to operate under its own name from its headquarters in Bremen, Germany, serving its global customer-base while accelerating Symbotic's expansion across Euro"
+    },
+    {
+      "headline": "Symbotic Acquires German Automation Company Cellumation; Financial Terms Not Disclosed",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=38702fda7ebd6a84efd9c338518f9d83c52fca74b1611f2c7f3df55f5f38cda5",
+      "datetime": 1791872229,
+      "summary": "cellumation GmbH (cellumation) is a Bremen, Germany-based automation company and creator of the celluveyor, a patented, software-driven sortation technology.Beyond the Conveyor: A Denser, Smarter Symbotic SystemThe"
+    },
     {
       "headline": "Symbotic Inc. (SYM) Declines More Than Market: Some Information for Investors",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=8955f8a637ada0206ff64a22825c2ac61a2a489fc0d8583544ad7461cdf40703",
       "datetime": 1791613029,
       "summary": "Global capital is again chasing artificial intelligence, and this time the spotlight is on robotics and automation pure plays that could sit in the slipstream of a potential US$100b SoftBank AI push. Middle Eastern money, a possible Roze IPO and fresh acquisition firepower together create a feeling that the next wave might arrive before most investors are ready. This piece unpacks 3 stocks from th"
-    },
-    {
-      "headline": "Symbotic: Behind The Strong Growth Lies A Major Risk",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=8599e3bdbe67641a8d41c14325456d46e7a6db369ae168ae4c3792c1fdce4cb9",
-      "datetime": 1791466549,
-      "summary": "Symbotic shows strong revenue growth, rising margins, and a $22.5B backlog\u00e2\u0080\u0094but valuation is rich, and Walmart risk looms. Click for more on SYM."
-    },
-    {
-      "headline": "Cathie Wood Bets $31M On Amazon, CoreWeave And Meta, While Pulling $26.5M Out of This Hot AI Stock",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=28dbcd65dbce38ae2f3b8328534b933a2bcc649d525973dcac0e31c2a4ecf8da",
-      "datetime": 1791363774,
-      "summary": "Cathie Wood\u2019s ARK Invest poured $31 million into Amazon, CoreWeave and Meta, but also trimmed $26.5 million of Teradyne."
-    },
-    {
-      "headline": "An AI Rally Built On Infrastructure",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=3797dfd4cefa8badd6b170dbda82f5e7e386baf5736b6a70f4e8087a18ec4a0d",
-      "datetime": 1791326700,
-      "summary": "AI has been a winning theme this year, but which part of the theme you own has made a big difference."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-12",
+  "data_asof": "2026-10-13",
   "price": {
-    "last": 40.78,
-    "open": 42.26,
-    "prev_close": 42.63,
-    "move_day_pct": -4.34,
-    "move_open_close_pct": -3.5,
-    "move_week_pct": -4.88
+    "last": 40.89,
+    "open": 40.15,
+    "prev_close": 40.78,
+    "move_day_pct": 0.27,
+    "move_open_close_pct": 1.84,
+    "move_week_pct": -7.38
   },
   "indicators": {
     "rsi14": {
-      "value": 43.4,
+      "value": 43.8,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 0.01,
-      "signal": 0.233,
-      "hist": -0.223,
-      "hist_prev": -0.096,
+      "macd": -0.124,
+      "signal": 0.161,
+      "hist": -0.286,
+      "hist_prev": -0.223,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 45.14,
-      "lower": 40.9,
-      "mid": 43.02,
-      "pctb": -0.029,
-      "read": "Below the lower band \u2014 stretched to the downside"
+      "upper": 45.24,
+      "lower": 40.62,
+      "mid": 42.93,
+      "pctb": 0.059,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 6.7,
+      "value": 6.99,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -53.29,
+      "value": -53.16,
       "read": "53% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 49.95,
-      "pct": -18.36,
+      "ma200": 49.86,
+      "pct": -17.99,
       "read": "18% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 1.72,
-      "pct_of_price": 4.21,
+      "value": 1.71,
+      "pct_of_price": 4.18,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.7,
+      "value": 0.78,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 42.2,
+      "value": 43.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 38.22,
   "high_52w": 87.3,
-  "ma50": 42.22,
-  "ma200": 49.95
+  "ma50": 42.12,
+  "ma200": 49.86
 }

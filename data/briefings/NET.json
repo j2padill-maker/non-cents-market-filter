@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-13T01:51:19.032616-07:00",
+  "generated_at": "2026-10-14T00:04:15.495788-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Does Zscaler Stock's Run Make Any Sense?",
+      "headline": "What Was Cloudflare Telling You Before Its Stock Ran?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=249e433b6132cd8b509cb1567dc4dd1c6a45a67d1dbea92e9749b70dbad68cf1",
-      "datetime": 1791845288,
-      "summary": "Zscaler (ZS) stock has climbed 56% over the past three months, comfortably outpacing the 2.8% gain for the S&P 500. Over twelve months, however, the stock is still down 26%. During this recent three-month stretch, the cybersecurity company posted 25% sales growth for fiscal Q4 2026 but projected slower growth for the year ahead. Management then reiterated that conservative outlook at an Investor D"
+      "url": "https://finnhub.io/api/news?id=2158e3b0f7c6d345344175c805c08fa9dbe8e357e4fcec5dd694d4aaf733bd8a",
+      "datetime": 1791924504,
+      "summary": "Cloudflare (NET) stock returned 58.8% over the twelve months to October 12, 2026. During its August 2026 call, management credited growth to a more productive sales force alongside AI agent workloads on its network and its Workers developer platform. Neither theme was new by then. How early did Cloudflare start talking about them."
     },
     {
-      "headline": "What Did Fastly Stock Investors Miss Before The Run?",
+      "headline": "Cloudflare Announces Date of Third Quarter 2026 Financial Results",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3e9b3c3e92243fc55a7a1b8c503791b3c2ef5235ed5794dd60275f6609715106",
-      "datetime": 1791843609,
-      "summary": "Fastly (FSLY) stock returned 241.5% in the twelve months to October 9, 2026, easily outpacing the 17.0% gain for the S&P 500. Buyers appear to have been paying for a clear shift in the underlying business: sales began growing faster again, and losses shrank. Investors stepping in today are betting that this momentum will hold, while observers who missed the rally might wonder if the company offere"
+      "url": "https://finnhub.io/api/news?id=bcd66fef80d0960f47f60e513b40fe5f4d43b0c2bc582d59da29569dd76fdfa3",
+      "datetime": 1791922500,
+      "summary": "SAN FRANCISCO, October 13, 2026--Cloudflare, Inc. (NYSE: NET), the leading connectivity cloud company, today announced that it will report its financial results for the third quarter ended September 30, 2026 after the U.S. market closes on Thursday, November 5, 2026."
     },
     {
-      "headline": "Cloudflare (NET) Suffers a Larger Drop Than the General Market: Key Insights",
+      "headline": "FRUIT Introduces PAVE, an Approach to Bringing Human Judgment Into AI Systems",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5b5584b03cc4deddcced2e7182fe6ee0c7253b62af3ddf74ce2b7a239ed72d11",
-      "datetime": 1791838806,
-      "summary": "In the most recent trading session, Cloudflare (NET) closed at $350.87, indicating a -2.79% shift from the previous trading day."
+      "url": "https://finnhub.io/api/news?id=c4ca5ebab7a8c941019fb569e47ac332850b5089b35229fe83703ae4c1f8e5c1",
+      "datetime": 1791917880,
+      "summary": "As AI systems take on more work, PAVE introduces a way for human judgment, authority, and attribution to be represented within agentic systems. FRUIT introduces PAVE, a protocol in development designed to make human judgment accessible to AI systems through machine-readable Judgment Lenses, enabling informed decisions while maintaining permissions, accountability, and attribution. Miami, FL, Oct. "
     },
     {
-      "headline": "Microsoft CEO\u2019s AI Warning Draws Little Reaction From Cybersecurity Stocks",
+      "headline": "Is Cloudflare\u2019s Post\u2011Quantum CA Push And Data Platform Expansion Altering The Investment Case For Cloudflare (NET)?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=08aac8d3566a0b3c7f9a2b7ee44946f663a624b7b71ab710f150c97619d5740e",
-      "datetime": 1791814680,
-      "summary": "Microsoft CEO Satya Nadella called for stronger AI safeguards, but cybersecurity stocks showed little reaction Monday."
+      "url": "https://finnhub.io/api/news?id=a9b86d354bc481b5412c8edac97d960b2042c7744891cba2a4214ec8767a7af4",
+      "datetime": 1791907979,
+      "summary": "In early October 2026, Cloudflare announced plans to become a public Certificate Authority with support for both traditional TLS and post-quantum Merkle Tree Certificates, alongside launching Cloudflare Basin, an open, serverless Apache Iceberg\u2013based data platform now generally available. The company also expanded its reach in Europe through a partnership with Deutsche Telekom and reported Q2 2026"
     },
     {
-      "headline": "Nebius Slides 3% Despite Rosenblatt\u2019s New Buy Rating; CoreWeave Slips",
+      "headline": "Cloudflare (NET) Targets Web Trust, Is The Stock Overvalued?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4a93055a65542d636393963647d04004a15c6432aac136e0e7445bdf2f953915",
-      "datetime": 1791808000,
-      "summary": "A fresh Wall Street Buy rating landed on Nebius last week, yet the stock has kept falling anyway. What the bulls see in the neocloud trade and what the bears are betting against tells a more complicated story than either side admits."
+      "url": "https://finnhub.io/api/news?id=01b5d12c0d5ccda85d571e17fc7f5475a63ad47f6553f8b65489003ebe64e1b7",
+      "datetime": 1791904359,
+      "summary": "What Cloudflare\u2019s new certificate authority could mean for investors Cloudflare (NET) shook up the security conversation on 1 October by announcing plans to become a public certificate authority and support post quantum Merkle Tree Certificates, directly targeting long term web encryption risks. This move puts the company closer to the trust layer of the internet, where every secure session starts"
     },
     {
-      "headline": "3 Momentum  Stocks to Target This Week",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b7d310c02badcba6b5491cdf01827cd87d65bc4f68e94038d857b7107ee5ec73",
-      "datetime": 1791803463,
-      "summary": "Each stock in this article is trading near its 52-week high. These elevated prices usually indicate some degree of investor confidence, business improvements, or favorable market conditions."
+      "headline": "Cloudflare's Ride Will Likely End Soon",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=9423ee34f70a52ac951433a76e7696dd33853fcaa8641fa5a70c00c66154df2c",
+      "datetime": 1791899756,
+      "summary": "Cloudflare looks overvalued at ~278x forward P/E vs. peers and expectations. Click for more on NET stock."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-12",
+  "data_asof": "2026-10-13",
   "price": {
-    "last": 350.87,
-    "open": 362.0,
-    "prev_close": 360.93,
-    "move_day_pct": -2.79,
-    "move_open_close_pct": -3.07,
-    "move_week_pct": -2.4
+    "last": 347.7,
+    "open": 345.28,
+    "prev_close": 350.87,
+    "move_day_pct": -0.9,
+    "move_open_close_pct": 0.7,
+    "move_week_pct": -2.06
   },
   "indicators": {
     "rsi14": {
-      "value": 56.4,
+      "value": 54.8,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 11.275,
-      "signal": 13.064,
-      "hist": -1.789,
-      "hist_prev": -1.533,
+      "macd": 10.344,
+      "signal": 12.52,
+      "hist": -2.176,
+      "hist_prev": -1.789,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 368.89,
-      "lower": 325.01,
-      "mid": 346.95,
-      "pctb": 0.589,
+      "upper": 367.96,
+      "lower": 327.99,
+      "mid": 347.97,
+      "pctb": 0.493,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 119.03,
-      "read": "119% above its 52-week low"
+      "value": 117.05,
+      "read": "117% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -2.79,
-      "read": "At or near its 52-week high"
+      "value": -3.67,
+      "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 239.85,
-      "pct": 46.29,
-      "read": "46% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 240.57,
+      "pct": 44.53,
+      "read": "45% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 16.13,
-      "pct_of_price": 4.6,
+      "value": 15.9,
+      "pct_of_price": 4.57,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.55,
+      "value": 0.6,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 52.8,
+      "value": 46.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 360.93,
-  "ma50": 317.46,
-  "ma200": 239.85
+  "ma50": 318.76,
+  "ma200": 240.57
 }
