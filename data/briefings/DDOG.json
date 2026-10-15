@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-14T00:04:15.266261-07:00",
+  "generated_at": "2026-10-14T23:50:43.534014-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "Datadog Announces Date of Third Quarter Fiscal Year 2026 Earnings Call",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=5d44b8bc282e83ac2e3c8647e4395387d9f166529e7588b6cbc32e01e039fea4",
+      "datetime": 1792008300,
+      "summary": "NEW YORK, Oct. 14, 2026 (GLOBE NEWSWIRE) -- Datadog, Inc. (NASDAQ:DDOG), the leading AI-powered observability and security platform, today announced that it will report its third quarter fiscal year 2026 financial results before the U.S. financial markets open on Wednesday, November 4, 2026. In conjunction with this announcement, Datadog will host a conference call on Wednesday, November 4, 2026 a"
+    },
+    {
+      "headline": "Liberty All-Star\u00ae Growth Fund, Inc. September 2026 Monthly Update",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b6275f90ccaed1d768e7b9b0b6759e778d3a83e60dd01e9ef842c1700e2c259f",
+      "datetime": 1792000200,
+      "summary": "BOSTON, October 14, 2026--Liberty All-Star\u00ae Growth Fund, Inc. September 2026 Monthly Update"
+    },
+    {
+      "headline": "MongoDB Falls 11% YTD: Here's Why You Should Buy the Stock Now",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=494c33dc58447895e1148484630abbf1e40a6f4e83b9c4aeb459ea3b4a8b1163",
+      "datetime": 1791986220,
+      "summary": "MDB's shares are down 11.1% YTD, but strong Atlas growth, expanding AI capabilities and rising earnings estimates make the pullback a buying opportunity."
+    },
+    {
+      "headline": "CIBC to launch additional U.S. Canadian Depositary Receipts",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=438120ffde9775af72c243c75dffe1796b2b14de58c6775d05928ecea5d80129",
+      "datetime": 1791979200,
+      "summary": "Today, CIBC announced its intention to list 11 new U.S. Canadian Depositary Receipts (\"CDRs\") on the TSX, with trading expected to begin on October 20, 2026. With these additions, CIBC will now offer 144 CDRs across six countries."
+    },
+    {
+      "headline": "Rotation Away From AI Lately",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=163e2d3002b77bf45cc2b11b0d0cea2616186f17f76a7f3662022b311546fe52",
+      "datetime": 1791946800,
+      "summary": "There's been a big divergence between large caps and small caps lately."
+    },
+    {
       "headline": "Datadog (DDOG) Dips More Than Broader Market: What You Should Know",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=33c5af3383ebcaeeacb2123802d01cb9df6cfff2e6e5e3dbedd0ab6b85a0785d",
       "datetime": 1791924302,
       "summary": "The latest trading day saw Datadog (DDOG) settling at $283.34, representing a -1.37% change from its previous close."
-    },
-    {
-      "headline": "3 Software Stocks Banks May Need As AI Rules Tighten",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c6214a528e124f85f595a7942727983e729d985af2b3b5d70f259ba74bc020a8",
-      "datetime": 1791915145,
-      "summary": "Regulators on both sides of the Atlantic are suddenly treating bank AI systems, backup hardware and data centers as potential fault lines, not just plumbing. That shift turns once invisible infrastructure into a live topic for risk, spending and opportunity. If you care where the next wave of bank tech budgets may flow, the next three sections explain how 3 stocks from this AI and data infrastruct"
-    },
-    {
-      "headline": "Is Datadog (DDOG) a Buy as Wall Street Analysts Look Optimistic?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=273b2a2cb674118a2fc9e4ab58b1edd417bf238d169bb28c9bd3478f5a145105",
-      "datetime": 1791894603,
-      "summary": "The average brokerage recommendation (ABR) for Datadog (DDOG) is equivalent to a Buy. The overly optimistic recommendations of Wall Street analysts make the effectiveness of this highly sought-after metric questionable. So, is it worth buying the stock?"
-    },
-    {
-      "headline": "Why Did PLTR, DT, DDOG Stocks Surge To 52-Week Highs Today?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f2e8c7447d4852c7f2db8f8f20fcc34b5b988e07039cb5ee089ffb86825423fd",
-      "datetime": 1791864262,
-      "summary": "Enterprise software stocks gained momentum as companies expanded AI capabilities, pursued new government contracts and benefited from stronger Wall Street optimism."
-    },
-    {
-      "headline": "Does Dynatrace Stock's Valuation Make Sense?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ec85d85d38a6cade3c60cc92f77318d1982412312c45f39c22bc59007acb2923",
-      "datetime": 1791843848,
-      "summary": "Dynatrace (DT) stock currently trades at about 122 times its profit over the past twelve months. That represents a steep premium compared to an average of about 69 over its last three years. Investors buying at this multiple are paying mostly for profit Dynatrace has not earned yet. So what does Dynatrace have to deliver for a price like that to hold."
-    },
-    {
-      "headline": "OpenAI's Revenue Scare Could Be a Big Opportunity for Investors",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0df46f7a8ef52f1d7b7dc60937a7df07ae79814c2e3f038dc2320c0d23d1b421",
-      "datetime": 1791821100,
-      "summary": "OpenAI's reported $50 billion revenue run rate, below earlier estimates, raises IPO valuation questions and stirs concern over Oracle's $300 billion contract and AI compute demand."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-13",
+  "data_asof": "2026-10-14",
   "price": {
-    "last": 283.34,
-    "open": 285.61,
-    "prev_close": 287.29,
-    "move_day_pct": -1.37,
-    "move_open_close_pct": -0.79,
-    "move_week_pct": 1.83
+    "last": 269.33,
+    "open": 281.11,
+    "prev_close": 283.34,
+    "move_day_pct": -4.94,
+    "move_open_close_pct": -4.19,
+    "move_week_pct": -0.74
   },
   "indicators": {
     "rsi14": {
-      "value": 64.5,
-      "read": "Firm \u2014 approaching overbought"
+      "value": 54.0,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": 12.444,
-      "signal": 10.772,
-      "hist": 1.673,
-      "hist_prev": 2.274,
+      "macd": 11.042,
+      "signal": 10.826,
+      "hist": 0.216,
+      "hist_prev": 1.673,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 301.16,
-      "lower": 228.26,
-      "mid": 264.71,
-      "pctb": 0.756,
+      "upper": 299.62,
+      "lower": 233.66,
+      "mid": 266.64,
+      "pctb": 0.541,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 176.12,
-      "read": "176% above its 52-week low"
+      "value": 162.47,
+      "read": "162% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -3.38,
+      "value": -8.16,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 189.77,
-      "pct": 49.31,
-      "read": "49% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 190.42,
+      "pct": 41.44,
+      "read": "41% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 11.9,
-      "pct_of_price": 4.2,
+      "value": 12.23,
+      "pct_of_price": 4.54,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.58,
+      "value": 0.92,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 69.4,
+      "value": 61.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 293.26,
-  "ma50": 247.46,
-  "ma200": 189.77
+  "ma50": 247.08,
+  "ma200": 190.42
 }

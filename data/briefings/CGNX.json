@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-14T00:04:16.109272-07:00",
+  "generated_at": "2026-10-14T23:50:44.514285-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Cognex, Insight Enterprises, and SAIC Stocks Trade Down, What You Need To Know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=fb6df18e30eb763f86a14ca91ace0f81ee79a4f4afd0da39f926c83b65e64e3e",
+      "datetime": 1792006327,
+      "summary": "A number of stocks fell in the afternoon session after a broad pickup in energy expenses lifted September inflation to 3.7%, surpassing expectations and driving bond yields higher."
+    },
     {
       "headline": "Barclays Maintains Overweight on Cognex, Raises Price Target to $85",
       "source": "Benzinga",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=896c7232f15a3d7b8be6b93f3214206ecfc6b08bc0d288199db3de2796fc44a5",
       "datetime": 1791487209,
       "summary": "Check out the companies making headlines yesterday:"
-    },
-    {
-      "headline": "Why Cognex (CGNX) Stock Is Falling Today",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b9a23a9c5c6a9d3e755db6f1400b3873894b7ef1fbf03e62da43c8f90bdbefa6",
-      "datetime": 1791401327,
-      "summary": "Shares of machine vision technology company Cognex (NASDAQ:CGNX) fell 7.5% in the afternoon session after rising Treasury yields and climbing oil prices dampened investor sentiment ahead of the release of the Federal Reserve's September meeting minutes. CNBC reported that Treasury yields climbed back to multiyear highs, ahead of the Federal Reserve\u2019s September meeting minutes. The 10-year yield wa"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-13",
+  "data_asof": "2026-10-14",
   "price": {
-    "last": 60.01,
-    "open": 60.91,
-    "prev_close": 61.82,
-    "move_day_pct": -2.93,
-    "move_open_close_pct": -1.48,
-    "move_week_pct": -9.56
+    "last": 57.27,
+    "open": 58.73,
+    "prev_close": 60.01,
+    "move_day_pct": -4.57,
+    "move_open_close_pct": -2.49,
+    "move_week_pct": -6.44
   },
   "indicators": {
     "rsi14": {
-      "value": 46.1,
+      "value": 40.5,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 0.151,
-      "signal": 0.122,
-      "hist": 0.029,
-      "hist_prev": 0.22,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": -0.214,
+      "signal": 0.055,
+      "hist": -0.268,
+      "hist_prev": 0.029,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 65.56,
-      "lower": 56.62,
-      "mid": 61.09,
-      "pctb": 0.379,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 65.71,
+      "lower": 56.2,
+      "mid": 60.95,
+      "pctb": 0.113,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 73.17,
-      "read": "73% above its 52-week low"
+      "value": 65.27,
+      "read": "65% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -17.02,
-      "read": "17% below its 52-week high"
+      "value": -20.81,
+      "read": "21% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 56.56,
-      "pct": 6.1,
-      "read": "6% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 56.67,
+      "pct": 1.06,
+      "read": "1% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 2.41,
-      "pct_of_price": 4.01,
+      "value": 2.46,
+      "pct_of_price": 4.29,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.15,
-      "read": "Roughly average volume"
+      "value": 1.34,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 54.1,
+      "value": 52.2,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 34.65,
   "high_52w": 72.32,
-  "ma50": 62.0,
-  "ma200": 56.56
+  "ma50": 61.72,
+  "ma200": 56.67
 }

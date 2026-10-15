@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-14T00:04:14.152938-07:00",
+  "generated_at": "2026-10-14T23:50:42.592697-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "MongoDB lets apps pay only for what they use",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d97384798bbc292b802110ee2003d991dbc98ddcb1c369473474b42a4bab2016",
+      "datetime": 1792034220,
+      "summary": "The impact of executive departures remains an open question, along with whether customers\u2019 overall spending will dip."
+    },
+    {
+      "headline": "MongoDB Falls 11% YTD: Here's Why You Should Buy the Stock Now",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=494c33dc58447895e1148484630abbf1e40a6f4e83b9c4aeb459ea3b4a8b1163",
+      "datetime": 1791986220,
+      "summary": "MDB's shares are down 11.1% YTD, but strong Atlas growth, expanding AI capabilities and rising earnings estimates make the pullback a buying opportunity."
+    },
     {
       "headline": "Why MongoDB (MDB) Stock Is Trading Up Today",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=5757900c536534057d03457a6bea3e4aca1ce5822203c8ac2065a450e47f8952",
       "datetime": 1791909788,
       "summary": "Investing.com -- MongoDB (NASDAQ:MDB) stock jumped over 3% in Tuesday trading after Bank of America Securities analyst Koji Ikeda reiterated a Buy rating and a $540.00 price target on the company, citing renewed confidence in its long-term strategy for artificial intelligence."
-    },
-    {
-      "headline": "Bumble, Fermi, Xtend AI Robotics And Other Big Stocks Moving Higher On Tuesday",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=122001287ad80ca03a90ceda40cfcca7b69002cdfd2a3218dcd5d0d272e15b2f",
-      "datetime": 1791886333,
-      "summary": "U.S. stocks mostly fell; Bumble surged 56.7% on Ithaca\u2019s $6.05 buyout offer, while Fermi, Enerflex, BigBear.ai and others gained."
-    },
-    {
-      "headline": "Needham Reiterates Buy on MongoDB, Maintains $430 Price Target",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=89391e9618c0294e053ce015e9d0885314309de98f36fa82a4319dc5ad71aa82",
-      "datetime": 1791872827,
-      "summary": "Needham  analyst Mike Cikos   reiterates MongoDB (NASDAQ:MDB) with a Buy and maintains $430 price target."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-13",
+  "data_asof": "2026-10-14",
   "price": {
-    "last": 373.07,
-    "open": 379.5,
-    "prev_close": 381.29,
-    "move_day_pct": -2.16,
-    "move_open_close_pct": -1.69,
-    "move_week_pct": 3.43
+    "last": 356.29,
+    "open": 369.18,
+    "prev_close": 373.07,
+    "move_day_pct": -4.5,
+    "move_open_close_pct": -3.49,
+    "move_week_pct": -1.86
   },
   "indicators": {
     "rsi14": {
-      "value": 48.3,
+      "value": 43.3,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -4.994,
-      "signal": -6.512,
-      "hist": 1.519,
-      "hist_prev": 1.467,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "macd": -5.937,
+      "signal": -6.397,
+      "hist": 0.46,
+      "hist_prev": 1.519,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 434.48,
-      "lower": 322.85,
-      "mid": 378.66,
-      "pctb": 0.45,
+      "upper": 434.32,
+      "lower": 321.0,
+      "mid": 377.66,
+      "pctb": 0.311,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 65.11,
-      "read": "65% above its 52-week low"
+      "value": 57.69,
+      "read": "58% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -21.01,
-      "read": "21% below its 52-week high"
+      "value": -24.56,
+      "read": "25% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 340.83,
-      "pct": 9.46,
-      "read": "9% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 340.43,
+      "pct": 4.66,
+      "read": "5% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 23.69,
-      "pct_of_price": 6.35,
+      "value": 23.48,
+      "pct_of_price": 6.59,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.01,
-      "read": "Roughly average volume"
+      "value": 0.46,
+      "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 56.8,
+      "value": 56.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 396.35,
-  "ma200": 340.83
+  "ma50": 395.87,
+  "ma200": 340.43
 }

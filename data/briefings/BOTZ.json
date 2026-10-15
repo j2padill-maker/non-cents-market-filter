@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-14T00:04:17.313873-07:00",
+  "generated_at": "2026-10-14T23:50:45.249519-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "Grab These ETFs to Capitalize on the Physical AI Wave",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=85d5c4c945f30b09894facf65161972377f39cde24c921ee35346a5ce0b4196f",
+      "datetime": 1791979740,
+      "summary": "Physical AI is reshaping robotics, autonomous vehicles and smart manufacturing. Discover three ETFs offering diversified exposure to this fast-growing market."
+    },
+    {
+      "headline": "Have Rate Hikes Tipped The Scales Toward Value Equities?",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=47d2eec9b359577d719b5aba48a9e7cd730f01dd20942b628fb630758f524658",
+      "datetime": 1791977700,
+      "summary": "Higher capital costs may add fuel to value equities with shorter-duration cash flows. Read more here."
+    },
+    {
+      "headline": "Could Higher Rates Break The Boom Loop?",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=9f9b67638d7a1a4d332566e9812771a52ea634f4e09663802fcb53486e12587b",
+      "datetime": 1791957900,
+      "summary": "The big U.S. banks reported today. The boom loop we've been talking about since March is in these numbers, and in what the CEOs said about AI. Read more here..."
+    },
+    {
+      "headline": "Rethinking Trend Investing: Alternative Signals, Not Alternative Markets",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=99bd5934f4f075d4f046e0e8f5151ff81fb902fe2339f478ff866c94778c4ad1",
+      "datetime": 1791949200,
+      "summary": "In our view, the key is to dig deeper for actionable signals while maintaining liquidity. Read more here."
+    },
+    {
       "headline": "BOTZ: Robotics Adoption Is Accelerating, But The Valuation Still Calls For Patience",
       "source": "SeekingAlpha",
       "url": "https://finnhub.io/api/news?id=39e30e87b55efe176670301f2fa7ebeb3301b5d05931de60f59d6dbe44ffec0e",
@@ -29,97 +57,69 @@
       "url": "https://finnhub.io/api/news?id=a7d5fb6e760170bf9a0dcc117908cff64981a87bf6be1abb134a6afeb737948e",
       "datetime": 1791811200,
       "summary": "We upgrade Treasuries, favoring short-term bonds. We also take profits: downgrading US equities to neutral to manage potential volatility around AI buildout and trimming our JGB underweight."
-    },
-    {
-      "headline": "AI Bubble Ready to Burst? Investor Raises Alarm Over Anthropic's Sky-High Valuation",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=66d7c4f479a455f004bf55fe2e8944bb57943b7396d1575969c51f616beeba70",
-      "datetime": 1791786383,
-      "summary": "Anthropic eyes a late 2026 IPO, while OpenAI delays until 2027. Experts weigh revenue growth against AI bubble risks."
-    },
-    {
-      "headline": "Global Equities Find Strength Beyond AI Exposure",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=135fce27244800ad9e16efe533e9ea7de33cdb66ae9cb4258e6fe0f5939d7879",
-      "datetime": 1791612480,
-      "summary": ""
-    },
-    {
-      "headline": "Investors Need Convincing Despite Cooling Jobs And Strong AI Earnings",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=3179fe1beaaa0c6ce0b43b59b76c7a1ba37e98974a8a8710c712546a99a65d36",
-      "datetime": 1791611400,
-      "summary": "Payrolls increased by 29,000, below expectations of around 90,000, while unemployment edged up to a still relatively healthy 4.2%. Read more here."
-    },
-    {
-      "headline": "S&P 500 Index Concentration - Room At The Top",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=5222804a331d6195d734c895846797694e420afaf28c306ce296846077083e17",
-      "datetime": 1791606300,
-      "summary": "The combined market cap of the bottom 434 companies in the S&P 500 equals that of the top 5."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-13",
+  "data_asof": "2026-10-14",
   "price": {
-    "last": 34.96,
-    "open": 34.91,
-    "prev_close": 34.9,
-    "move_day_pct": 0.17,
-    "move_open_close_pct": 0.14,
-    "move_week_pct": -3.35
+    "last": 34.11,
+    "open": 34.62,
+    "prev_close": 34.96,
+    "move_day_pct": -2.43,
+    "move_open_close_pct": -1.47,
+    "move_week_pct": -4.37
   },
   "indicators": {
     "rsi14": {
-      "value": 44.6,
-      "read": "Neutral"
+      "value": 37.8,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -0.105,
-      "signal": -0.068,
-      "hist": -0.037,
-      "hist_prev": -0.015,
+      "macd": -0.196,
+      "signal": -0.094,
+      "hist": -0.102,
+      "hist_prev": -0.037,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 36.27,
-      "lower": 34.52,
-      "mid": 35.4,
-      "pctb": 0.25,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 36.37,
+      "lower": 34.37,
+      "mid": 35.37,
+      "pctb": -0.128,
+      "read": "Below the lower band \u2014 stretched to the downside"
     },
     "pct_from_52w_low": {
-      "value": 9.34,
+      "value": 6.68,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -15.98,
-      "read": "16% below its 52-week high"
+      "value": -18.02,
+      "read": "18% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 36.84,
-      "pct": -5.1,
-      "read": "5% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 36.83,
+      "pct": -7.39,
+      "read": "7% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.54,
-      "pct_of_price": 1.54,
+      "value": 0.57,
+      "pct_of_price": 1.67,
       "read": "Calm \u2014 low volatility"
     },
     "rel_volume": {
-      "value": 0.77,
+      "value": 1.18,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 59.4,
+      "value": 57.2,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 31.97,
   "high_52w": 41.61,
-  "ma50": 35.89,
-  "ma200": 36.84
+  "ma50": 35.83,
+  "ma200": 36.83
 }

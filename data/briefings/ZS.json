@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-14T00:04:17.814608-07:00",
+  "generated_at": "2026-10-14T23:50:45.558718-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Zscaler (ZS) Falls More Steeply Than Broader Market: What Investors Need to Know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=5c0e1e58ff703d396e87217be929381d43e6220eda3897fb9c3cd996149ef386",
+      "datetime": 1792010706,
+      "summary": "In the closing of the recent trading day, Zscaler (ZS) stood at $220.79, denoting a -3.44% move from the preceding trading day."
+    },
+    {
+      "headline": "Cybersecurity Stocks Fall Amid Report Of OpenAI Acquisition",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=33d7709ea7b0280cc9a3cd848d26d56b67ac0bf9fcfc439807bd4ee9c2ba2e89",
+      "datetime": 1791987668,
+      "summary": "Cybersecurity stocks fell amid a report artificial intelligence system maker OpenAI plans to acquire an industry startup."
+    },
+    {
+      "headline": "Zscaler: The Best Value In Cybersecurity Already Got Its Re-Rating",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=74ea63b5f6a73430b922ab2b69a088f5124ae59d6264576251b7f7bcae066fa8",
+      "datetime": 1791955721,
+      "summary": "Zscaler is rated hold after a recent price surge erased its prior risk/reward asymmetry, despite strong business momentum. Read more on ZS stock here."
+    },
     {
       "headline": "What Was Cloudflare Telling You Before Its Stock Ran?",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=249e433b6132cd8b509cb1567dc4dd1c6a45a67d1dbea92e9749b70dbad68cf1",
       "datetime": 1791845288,
       "summary": "Zscaler (ZS) stock has climbed 56% over the past three months, comfortably outpacing the 2.8% gain for the S&P 500. Over twelve months, however, the stock is still down 26%. During this recent three-month stretch, the cybersecurity company posted 25% sales growth for fiscal Q4 2026 but projected slower growth for the year ahead. Management then reiterated that conservative outlook at an Investor D"
-    },
-    {
-      "headline": "What Did Fastly Stock Investors Miss Before The Run?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3e9b3c3e92243fc55a7a1b8c503791b3c2ef5235ed5794dd60275f6609715106",
-      "datetime": 1791843609,
-      "summary": "Fastly (FSLY) stock returned 241.5% in the twelve months to October 9, 2026, easily outpacing the 17.0% gain for the S&P 500. Buyers appear to have been paying for a clear shift in the underlying business: sales began growing faster again, and losses shrank. Investors stepping in today are betting that this momentum will hold, while observers who missed the rally might wonder if the company offere"
-    },
-    {
-      "headline": "Should You Sell Your Okta Stock After It Tripled In Six Months?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b9fde4f0898fdd1054667d66bde8265af9e09d69780c49e2e46f8108e6afe790",
-      "datetime": 1791840101,
-      "summary": "Okta (OKTA) stock has returned 225% over the past six months, far outpacing the S&P 500's 14.4% return. Investors holding the shares are sitting on a large gain, raising the question of whether to hold or take profits. The company sells identity software to more than 20,000 customers, and recent buyers may be betting on its new products designed for AI agents. So how much are you paying today for "
-    },
-    {
-      "headline": "Cybersecurity Stocks In Focus After IonQ\u2019s Elisity Deal Move",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4ffca7b14dd6d2cd4e3d9c8e1c6576afce2d0fa9e64967d12db7a3c6cc2a518e",
-      "datetime": 1791839299,
-      "summary": "Quantum computing specialist IonQ just moved deeper into cybersecurity with a proposed Elisity takeover worth up to US$1.3b, and that kind of pivot can quietly reshuffle where future investor attention goes. When a hardware-focused player starts eyeing cyber threats linked to AI and quantum tech, it can redirect interest across related security stocks. This piece breaks down three cybersecurity co"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-13",
+  "data_asof": "2026-10-14",
   "price": {
-    "last": 228.66,
-    "open": 224.61,
-    "prev_close": 225.78,
-    "move_day_pct": 1.28,
-    "move_open_close_pct": 1.8,
-    "move_week_pct": 7.73
+    "last": 220.79,
+    "open": 223.5,
+    "prev_close": 228.66,
+    "move_day_pct": -3.44,
+    "move_open_close_pct": -1.21,
+    "move_week_pct": 3.39
   },
   "indicators": {
     "rsi14": {
-      "value": 67.3,
+      "value": 60.9,
       "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 11.151,
-      "signal": 9.147,
-      "hist": 2.004,
-      "hist_prev": 1.941,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "macd": 10.838,
+      "signal": 9.486,
+      "hist": 1.353,
+      "hist_prev": 2.004,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 231.34,
-      "lower": 183.75,
-      "mid": 207.55,
-      "pctb": 0.944,
-      "read": "Near the upper band"
+      "upper": 232.28,
+      "lower": 185.73,
+      "mid": 209.01,
+      "pctb": 0.753,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 93.7,
-      "read": "94% above its 52-week low"
+      "value": 87.03,
+      "read": "87% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -32.0,
-      "read": "32% below its 52-week high"
+      "value": -34.34,
+      "read": "34% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 166.02,
-      "pct": 37.73,
-      "read": "38% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 165.97,
+      "pct": 33.03,
+      "read": "33% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 10.15,
-      "pct_of_price": 4.44,
+      "value": 10.04,
+      "pct_of_price": 4.55,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.85,
+      "value": 0.81,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 66.0,
+      "value": 59.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 118.05,
   "high_52w": 336.27,
-  "ma50": 188.76,
-  "ma200": 166.02
+  "ma50": 189.91,
+  "ma200": 165.97
 }
