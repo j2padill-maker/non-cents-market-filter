@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-14T23:50:42.592697-07:00",
+  "generated_at": "2026-10-15T18:49:44.239331-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "MongoDB (MDB) Laps the Stock Market: Here's Why",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=74a21c6ae54e720aaea01de0f7ae355f0f02376e293569c8112832e2f9a25d90",
+      "datetime": 1792098905,
+      "summary": "In the closing of the recent trading day, MongoDB (MDB) stood at $366.49, denoting a +2.86% move from the preceding trading day."
+    },
+    {
+      "headline": "MongoDB's Enterprise Customer Base Grows: Can Atlas Sustain Momentum?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=11ebe40f8603c2964e9c035d9b9916ec766ae0cd86a18f90625a7cb85fae6838",
+      "datetime": 1792077840,
+      "summary": "MDB's growing large-enterprise customer base is driving Atlas consumption, higher recurring revenues and broader adoption of AI-powered database capabilities."
+    },
     {
       "headline": "MongoDB lets apps pay only for what they use",
       "source": "Yahoo",
@@ -43,23 +57,15 @@
       "url": "https://finnhub.io/api/news?id=37496a16993a12054703614a37776164d4e22e84c1ec2caa4bd4e7d9ca05f030",
       "datetime": 1791917002,
       "summary": "Marketing and business leaders say Muse is compelling, but they have security and trust concerns."
-    },
-    {
-      "headline": "MongoDB wins Bank of America backing on AI growth prospects",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=357d400a483aca55c0e18a40fdecfa7b7724e1bf5ba7502f783fd2742ca96930",
-      "datetime": 1791913140,
-      "summary": "MongoDB Inc (NASDAQ:MDB), the US database software company, has retained a 'Buy' rating from Bank of America Securities and $540 price target, with the broker citing its long-term growth prospects in artificial intelligence and enterprise modernisation. Analysts reaffirmed the rating..."
-    },
-    {
-      "headline": "MongoDB gains as BofA highlights long-term AI strategy potential",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5757900c536534057d03457a6bea3e4aca1ce5822203c8ac2065a450e47f8952",
-      "datetime": 1791909788,
-      "summary": "Investing.com -- MongoDB (NASDAQ:MDB) stock jumped over 3% in Tuesday trading after Bank of America Securities analyst Koji Ikeda reiterated a Buy rating and a $540.00 price target on the company, citing renewed confidence in its long-term strategy for artificial intelligence."
     }
   ],
   "filings": [
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-10-15",
+      "url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026065934/mdb-20261012.htm"
+    },
     {
       "form": "8-K",
       "title": "Material event (8-K)",
@@ -71,74 +77,68 @@
       "title": "Material event (8-K)",
       "date": "2026-09-28",
       "url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026063657/mdb-20260924.htm"
-    },
-    {
-      "form": "10-Q",
-      "title": "Quarterly report (10-Q)",
-      "date": "2026-09-01",
-      "url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026059830/mdb-20260731.htm"
     }
   ],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-14",
+  "data_asof": "2026-10-15",
   "price": {
-    "last": 356.29,
-    "open": 369.18,
-    "prev_close": 373.07,
-    "move_day_pct": -4.5,
-    "move_open_close_pct": -3.49,
-    "move_week_pct": -1.86
+    "last": 366.49,
+    "open": 344.34,
+    "prev_close": 356.29,
+    "move_day_pct": 2.86,
+    "move_open_close_pct": 6.43,
+    "move_week_pct": -1.31
   },
   "indicators": {
     "rsi14": {
-      "value": 43.3,
+      "value": 46.9,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -5.937,
-      "signal": -6.397,
-      "hist": 0.46,
-      "hist_prev": 1.519,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": -5.796,
+      "signal": -6.277,
+      "hist": 0.481,
+      "hist_prev": 0.46,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 434.32,
-      "lower": 321.0,
-      "mid": 377.66,
-      "pctb": 0.311,
+      "upper": 432.69,
+      "lower": 319.94,
+      "mid": 376.32,
+      "pctb": 0.413,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 57.69,
-      "read": "58% above its 52-week low"
+      "value": 62.2,
+      "read": "62% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -24.56,
-      "read": "25% below its 52-week high"
+      "value": -22.4,
+      "read": "22% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 340.43,
-      "pct": 4.66,
-      "read": "5% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 340.15,
+      "pct": 7.74,
+      "read": "8% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 23.48,
-      "pct_of_price": 6.59,
+      "value": 23.66,
+      "pct_of_price": 6.46,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.46,
+      "value": 0.49,
       "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 56.9,
+      "value": 57.2,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 395.87,
-  "ma200": 340.43
+  "ma50": 395.67,
+  "ma200": 340.15
 }

@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-14T23:50:44.881746-07:00",
+  "generated_at": "2026-10-15T18:49:59.777915-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "SCSC or SYM: Which Is the Better Value Stock Right Now?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=4f1b1e1da13f040b6d189bcda4485d64e58e51c63e7c17306e567ceeb00112df",
+      "datetime": 1792075203,
+      "summary": "SCSC vs. SYM: Which Stock Is the Better Value Option?"
+    },
+    {
+      "headline": "Trading Halt: Halt status updated at 8:55:00 AM ET: Quotation Resumption: News and Resumption Times",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=699523801bb94e09fc3e005144b10c38696e4a3e830ba8c18914c07785fb751d",
+      "datetime": 1791981188,
+      "summary": ""
+    },
     {
       "headline": "Symbotic Makes Another Robotics Power Play With German Automation Acquisition",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=9420ce2d0cc0a241d1e2369eb51d2e509172751977cb1e07beee09a28f948fd3",
       "datetime": 1791838807,
       "summary": "Symbotic Inc. (SYM) closed the most recent trading day at $40.76, moving 4.39% from the previous trading session."
-    },
-    {
-      "headline": "Symbotic Has a $22.5 Billion Backlog. Here's Why It Could Be the Best Robotics Stock Nobody Talks About.",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c99b1bba648c9db02557556a992f458d3b8769d7f3eb10a3324edc67132603db",
-      "datetime": 1791714900,
-      "summary": "Just because a solution isn't jaw-droppingly futuristic doesn't mean it's not incredibly marketable."
-    },
-    {
-      "headline": "3 Robotics Stocks Investors Are Watching For The Next AI Automation Wave",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8955f8a637ada0206ff64a22825c2ac61a2a489fc0d8583544ad7461cdf40703",
-      "datetime": 1791613029,
-      "summary": "Global capital is again chasing artificial intelligence, and this time the spotlight is on robotics and automation pure plays that could sit in the slipstream of a potential US$100b SoftBank AI push. Middle Eastern money, a possible Roze IPO and fresh acquisition firepower together create a feeling that the next wave might arrive before most investors are ready. This piece unpacks 3 stocks from th"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-14",
+  "data_asof": "2026-10-15",
   "price": {
-    "last": 37.9,
-    "open": 40.01,
-    "prev_close": 40.89,
-    "move_day_pct": -7.31,
-    "move_open_close_pct": -5.27,
-    "move_week_pct": -12.49
+    "last": 39.76,
+    "open": 36.94,
+    "prev_close": 37.9,
+    "move_day_pct": 4.91,
+    "move_open_close_pct": 7.63,
+    "move_week_pct": -5.47
   },
   "indicators": {
     "rsi14": {
-      "value": 35.4,
-      "read": "Oversold"
+      "value": 42.8,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": -0.467,
-      "signal": 0.036,
-      "hist": -0.502,
-      "hist_prev": -0.286,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -0.581,
+      "signal": -0.088,
+      "hist": -0.493,
+      "hist_prev": -0.502,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 45.85,
-      "lower": 39.49,
-      "mid": 42.67,
-      "pctb": -0.249,
-      "read": "Below the lower band \u2014 stretched to the downside"
+      "upper": 45.72,
+      "lower": 39.13,
+      "mid": 42.42,
+      "pctb": 0.095,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 0.0,
+      "value": 4.91,
       "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -56.59,
-      "read": "57% below its 52-week high"
+      "value": -54.46,
+      "read": "54% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 49.76,
-      "pct": -23.83,
-      "read": "24% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 49.66,
+      "pct": -19.94,
+      "read": "20% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 1.84,
-      "pct_of_price": 4.86,
+      "value": 1.99,
+      "pct_of_price": 5.0,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.07,
-      "read": "Roughly average volume"
+      "value": 1.51,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 43.3,
+      "value": 47.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 37.9,
   "high_52w": 87.3,
-  "ma50": 41.93,
-  "ma200": 49.76
+  "ma50": 41.79,
+  "ma200": 49.66
 }

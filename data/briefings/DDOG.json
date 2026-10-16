@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-14T23:50:43.534014-07:00",
+  "generated_at": "2026-10-15T18:49:53.129771-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Datadog (NASDAQ:DDOG) Pairs High Growth Momentum With a Breakout Setup",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=73fb92a4299cb75a2a3f22e6611534cf00fead61a05cdd661cb9335382b95e8d",
+      "datetime": 1792057282,
+      "summary": "Datadog (DDOG) stock pairs high growth momentum with strong technical and setup ratings, offering a defined breakout entry."
+    },
     {
       "headline": "Datadog Announces Date of Third Quarter Fiscal Year 2026 Earnings Call",
       "source": "Yahoo",
@@ -38,25 +45,18 @@
       "summary": "MDB's shares are down 11.1% YTD, but strong Atlas growth, expanding AI capabilities and rising earnings estimates make the pullback a buying opportunity."
     },
     {
+      "headline": "Shares of software companies are trading lower, possibly in response to escalating tensions in the Middle East and renewed inflation concerns that may shift the Fed towards a rate hike. Concerns about key economic data due later this week may prompt traders to rotate out of growth stocks.",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=c69408f6b2e2de87abefeb217619a19db915930e139f14fc71586990a574b37b",
+      "datetime": 1791980980,
+      "summary": ""
+    },
+    {
       "headline": "CIBC to launch additional U.S. Canadian Depositary Receipts",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=438120ffde9775af72c243c75dffe1796b2b14de58c6775d05928ecea5d80129",
       "datetime": 1791979200,
       "summary": "Today, CIBC announced its intention to list 11 new U.S. Canadian Depositary Receipts (\"CDRs\") on the TSX, with trading expected to begin on October 20, 2026. With these additions, CIBC will now offer 144 CDRs across six countries."
-    },
-    {
-      "headline": "Rotation Away From AI Lately",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=163e2d3002b77bf45cc2b11b0d0cea2616186f17f76a7f3662022b311546fe52",
-      "datetime": 1791946800,
-      "summary": "There's been a big divergence between large caps and small caps lately."
-    },
-    {
-      "headline": "Datadog (DDOG) Dips More Than Broader Market: What You Should Know",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=33c5af3383ebcaeeacb2123802d01cb9df6cfff2e6e5e3dbedd0ab6b85a0785d",
-      "datetime": 1791924302,
-      "summary": "The latest trading day saw Datadog (DDOG) settling at $283.34, representing a -1.37% change from its previous close."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-14",
+  "data_asof": "2026-10-15",
   "price": {
-    "last": 269.33,
-    "open": 281.11,
-    "prev_close": 283.34,
-    "move_day_pct": -4.94,
-    "move_open_close_pct": -4.19,
-    "move_week_pct": -0.74
+    "last": 266.25,
+    "open": 260.72,
+    "prev_close": 269.33,
+    "move_day_pct": -1.14,
+    "move_open_close_pct": 2.12,
+    "move_week_pct": -2.76
   },
   "indicators": {
     "rsi14": {
-      "value": 54.0,
+      "value": 52.1,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 11.042,
-      "signal": 10.826,
-      "hist": 0.216,
-      "hist_prev": 1.673,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": 9.571,
+      "signal": 10.575,
+      "hist": -1.004,
+      "hist_prev": 0.216,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 299.62,
-      "lower": 233.66,
-      "mid": 266.64,
-      "pctb": 0.541,
+      "upper": 298.0,
+      "lower": 238.3,
+      "mid": 268.15,
+      "pctb": 0.468,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 162.47,
-      "read": "162% above its 52-week low"
+      "value": 159.46,
+      "read": "159% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -8.16,
+      "value": -9.21,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 190.42,
-      "pct": 41.44,
-      "read": "41% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 191.07,
+      "pct": 39.35,
+      "read": "39% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 12.23,
-      "pct_of_price": 4.54,
+      "value": 12.29,
+      "pct_of_price": 4.62,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.92,
+      "value": 0.9,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 61.7,
+      "value": 51.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 293.26,
-  "ma50": 247.08,
-  "ma200": 190.42
+  "ma50": 246.74,
+  "ma200": 191.07
 }

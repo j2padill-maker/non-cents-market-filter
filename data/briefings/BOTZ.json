@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-14T23:50:45.249519-07:00",
+  "generated_at": "2026-10-15T18:50:02.375328-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Equity Outlook Q4 2026: Rising Rates Shift The Balance Of Risks",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=784487fdb7b4f6aaaf6eda9ce91e66bd244efeab65767a3368fd45a02b9dd179",
+      "datetime": 1792063560,
+      "summary": "We believe a combination of higher yields, potential earnings growth pressure and overall market fragility has shifted the balance of risks."
+    },
     {
       "headline": "Grab These ETFs to Capitalize on the Physical AI Wave",
       "source": "Yahoo",
@@ -50,76 +57,69 @@
       "url": "https://finnhub.io/api/news?id=39e30e87b55efe176670301f2fa7ebeb3301b5d05931de60f59d6dbe44ffec0e",
       "datetime": 1791886938,
       "summary": "BOTZ ETF review: 32x P/E, weak 5-year returns, and high concentration risk."
-    },
-    {
-      "headline": "Upgrading U.S. Treasuries To Lock In Income",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=a7d5fb6e760170bf9a0dcc117908cff64981a87bf6be1abb134a6afeb737948e",
-      "datetime": 1791811200,
-      "summary": "We upgrade Treasuries, favoring short-term bonds. We also take profits: downgrading US equities to neutral to manage potential volatility around AI buildout and trimming our JGB underweight."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-14",
+  "data_asof": "2026-10-15",
   "price": {
-    "last": 34.11,
-    "open": 34.62,
-    "prev_close": 34.96,
-    "move_day_pct": -2.43,
-    "move_open_close_pct": -1.47,
-    "move_week_pct": -4.37
+    "last": 33.74,
+    "open": 33.24,
+    "prev_close": 34.11,
+    "move_day_pct": -1.08,
+    "move_open_close_pct": 1.5,
+    "move_week_pct": -3.13
   },
   "indicators": {
     "rsi14": {
-      "value": 37.8,
+      "value": 35.2,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -0.196,
-      "signal": -0.094,
-      "hist": -0.102,
-      "hist_prev": -0.037,
+      "macd": -0.295,
+      "signal": -0.134,
+      "hist": -0.161,
+      "hist_prev": -0.102,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 36.37,
-      "lower": 34.37,
-      "mid": 35.37,
-      "pctb": -0.128,
+      "upper": 36.52,
+      "lower": 34.07,
+      "mid": 35.3,
+      "pctb": -0.136,
       "read": "Below the lower band \u2014 stretched to the downside"
     },
     "pct_from_52w_low": {
-      "value": 6.68,
+      "value": 5.52,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -18.02,
-      "read": "18% below its 52-week high"
+      "value": -18.91,
+      "read": "19% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 36.83,
-      "pct": -7.39,
-      "read": "7% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 36.82,
+      "pct": -8.37,
+      "read": "8% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.57,
-      "pct_of_price": 1.67,
+      "value": 0.61,
+      "pct_of_price": 1.8,
       "read": "Calm \u2014 low volatility"
     },
     "rel_volume": {
-      "value": 1.18,
-      "read": "Roughly average volume"
+      "value": 1.66,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 57.2,
+      "value": 48.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 31.97,
   "high_52w": 41.61,
-  "ma50": 35.83,
-  "ma200": 36.83
+  "ma50": 35.76,
+  "ma200": 36.82
 }

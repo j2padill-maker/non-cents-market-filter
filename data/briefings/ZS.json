@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-14T23:50:45.558718-07:00",
+  "generated_at": "2026-10-15T18:50:04.397058-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Cybersecurity Stocks Retreat From Record Highs \u2014 Citi Raises CRWD, PANW, ZS Targets On Improving Spending Momentum",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=5ac5539f58d773fe04b11968b66f7e0911950c95ad4a9a1cb3b2ae48af6341e7",
+      "datetime": 1792065736,
+      "summary": "Wells Fargo said ten detailed discussions with channel partners and its reseller survey indicated cybersecurity spending was gaining momentum heading into 2027, according to The Fly."
+    },
     {
       "headline": "Zscaler (ZS) Falls More Steeply Than Broader Market: What Investors Need to Know",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=1b9794a59ffecb32f0790e443f2f8d1ba46e3168ca6ee285e36479ad466084a6",
       "datetime": 1791892803,
       "summary": "Zscaler (ZS) has been one of the stocks most watched by Zacks.com users lately. So, it is worth exploring what lies ahead for the stock."
-    },
-    {
-      "headline": "Does Zscaler Stock's Run Make Any Sense?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=249e433b6132cd8b509cb1567dc4dd1c6a45a67d1dbea92e9749b70dbad68cf1",
-      "datetime": 1791845288,
-      "summary": "Zscaler (ZS) stock has climbed 56% over the past three months, comfortably outpacing the 2.8% gain for the S&P 500. Over twelve months, however, the stock is still down 26%. During this recent three-month stretch, the cybersecurity company posted 25% sales growth for fiscal Q4 2026 but projected slower growth for the year ahead. Management then reiterated that conservative outlook at an Investor D"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-14",
+  "data_asof": "2026-10-15",
   "price": {
-    "last": 220.79,
-    "open": 223.5,
-    "prev_close": 228.66,
-    "move_day_pct": -3.44,
-    "move_open_close_pct": -1.21,
-    "move_week_pct": 3.39
+    "last": 220.43,
+    "open": 216.77,
+    "prev_close": 220.79,
+    "move_day_pct": -0.16,
+    "move_open_close_pct": 1.69,
+    "move_week_pct": 1.67
   },
   "indicators": {
     "rsi14": {
-      "value": 60.9,
+      "value": 60.6,
       "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 10.838,
-      "signal": 9.486,
-      "hist": 1.353,
-      "hist_prev": 2.004,
+      "macd": 10.441,
+      "signal": 9.677,
+      "hist": 0.764,
+      "hist_prev": 1.353,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 232.28,
-      "lower": 185.73,
-      "mid": 209.01,
-      "pctb": 0.753,
+      "upper": 233.31,
+      "lower": 187.0,
+      "mid": 210.16,
+      "pctb": 0.722,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 87.03,
+      "value": 86.73,
       "read": "87% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -34.34,
+      "value": -34.45,
       "read": "34% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 165.97,
-      "pct": 33.03,
+      "ma200": 165.93,
+      "pct": 32.85,
       "read": "33% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 10.04,
-      "pct_of_price": 4.55,
+      "value": 10.07,
+      "pct_of_price": 4.57,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.81,
+      "value": 0.67,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 59.3,
+      "value": 65.1,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 118.05,
   "high_52w": 336.27,
-  "ma50": 189.91,
-  "ma200": 165.97
+  "ma50": 191.09,
+  "ma200": 165.93
 }

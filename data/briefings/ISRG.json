@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-14T23:50:44.727354-07:00",
+  "generated_at": "2026-10-15T18:49:58.314202-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Is Medtronic Stock A Buy Now That Sales Growth Has Picked Up?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=98c466238a1dcdfedbdbfd830252eb68f2e76c05efe213aa068bd61a3c79061f",
+      "datetime": 1792098071,
+      "summary": "Investors considering Medtronic (MDT) stock face an immediate concern: the shares returned 1.9% over the past year, trailing the 17.3% gain for the S&P 500. Yet Medtronic raised its outlook for the year in September, following higher fiscal first-quarter profit and sales. The company is also splitting off MiniMed Group, meaning the business you buy today is changing. So how much faster is Medtroni"
+    },
+    {
+      "headline": "Intuitive Surgical, Inc. (ISRG) Beats Stock Market Upswing: What Investors Need to Know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c969885b70ca41332cfbf314e1cf31e7e87f8235cbb197b7d18e9c3bab308752",
+      "datetime": 1792098004,
+      "summary": "Intuitive Surgical, Inc. (ISRG) reached $427.86 at the closing of the latest trading day, reflecting a +1.81% change compared to its last close."
+    },
+    {
+      "headline": "Countdown to Intuitive Surgical (ISRG) Q3 Earnings: A Look at Estimates Beyond Revenue and EPS",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ecf10b2884d94cecf909fea93af65b8b6dd11f3573adfd329c9236a5c639f145",
+      "datetime": 1792066519,
+      "summary": "Evaluate the expected performance of Intuitive Surgical (ISRG) for the quarter ended September 2026, looking beyond the conventional Wall Street top-and-bottom-line estimates and examining some of its key metrics for better insight."
+    },
     {
       "headline": "ISRG Gains Nearly 12% in a Month: Should You Buy, Hold or Sell?",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=12c0cbf3f5dcfe6506779b2f7c642f0f8476ff11b7ea185cba807dcfb53f7235",
       "datetime": 1791979680,
       "summary": "Chipotle, BP and Intuitive Surgical stand out as sales growth stocks to watch, with 2026 revenue forecasts ranging from 9% to 28.9% as Q3 earnings begin."
-    },
-    {
-      "headline": "Intuitive Surgical (ISRG) Could Be 31% Overvalued After Earnings Outlook Upgrade",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=be72b4137093491a94b01709e7a08dca52310dcfb8761a6c088cd7b245769cf5",
-      "datetime": 1791919291,
-      "summary": "Intuitive Surgical (ISRG) is back in focus after an upgrade in its earnings outlook, driven by higher analyst estimates, a strong recent quarter, and new GI robotics work moving through early regulatory review. The recent optimism around Intuitive Surgical is aligning with the price action. The share price has climbed 15.8% over the past 30 days and 12.7% over 90 days. However, the year-to-date sh"
-    },
-    {
-      "headline": "Surgical Precision, Sustainable Returns: Johnson & Johnson Secures Its Cash Flow Runway",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=adf173ee50953562e0ae1cdf9b2c1cefbb6710ead1ce833494cb94db0da39a7c",
-      "datetime": 1791910200,
-      "summary": "Johnson & Johnson posted Q3 revenue growth of 5.9% to $25.4 billion, raised guidance, and gained analyst support as its OTTAVA surgical system and talc settlement shape its long-term outlook."
-    },
-    {
-      "headline": "ISRG Is Expanding Beyond Surgery: Here's Why the GI Opportunity Matters",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d4643b3a17cd63a799572f885eb84caf3c32471817891d8fb50fba5d6da03535",
-      "datetime": 1791909600,
-      "summary": "Intuitive Surgical is targeting GI care with a next-generation robotic endoscope submitted to the FDA, opening a potential growth avenue beyond surgery."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-14",
+  "data_asof": "2026-10-15",
   "price": {
-    "last": 420.24,
-    "open": 424.81,
-    "prev_close": 422.06,
-    "move_day_pct": -0.43,
-    "move_open_close_pct": -1.08,
-    "move_week_pct": 1.38
+    "last": 427.86,
+    "open": 425.5,
+    "prev_close": 420.24,
+    "move_day_pct": 1.81,
+    "move_open_close_pct": 0.55,
+    "move_week_pct": 3.0
   },
   "indicators": {
     "rsi14": {
-      "value": 62.1,
+      "value": 65.7,
       "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 10.382,
-      "signal": 9.096,
-      "hist": 1.286,
-      "hist_prev": 1.75,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": 10.76,
+      "signal": 9.429,
+      "hist": 1.331,
+      "hist_prev": 1.286,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 429.72,
-      "lower": 384.83,
-      "mid": 407.27,
-      "pctb": 0.789,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 430.85,
+      "lower": 388.13,
+      "mid": 409.49,
+      "pctb": 0.93,
+      "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 26.57,
-      "read": "27% above its 52-week low"
+      "value": 28.87,
+      "read": "29% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -29.12,
-      "read": "29% below its 52-week high"
+      "value": -27.83,
+      "read": "28% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 441.1,
-      "pct": -4.73,
-      "read": "5% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 440.36,
+      "pct": -2.84,
+      "read": "3% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 11.33,
-      "pct_of_price": 2.7,
+      "value": 11.26,
+      "pct_of_price": 2.63,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.86,
+      "value": 0.92,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 60.6,
+      "value": 60.2,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 332.02,
   "high_52w": 592.85,
-  "ma50": 389.56,
-  "ma200": 441.1
+  "ma50": 390.61,
+  "ma200": 440.36
 }

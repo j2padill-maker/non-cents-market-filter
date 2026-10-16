@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-14T23:50:45.056813-07:00",
+  "generated_at": "2026-10-15T18:50:01.094317-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "Which S&P500 stocks are moving on Thursday?",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=0a55e4262ba83c57add2dd4522f58e0401ec7c209d2260b3cb61b9795f28f103",
+      "datetime": 1792091102,
+      "summary": "Curious about the top performers within the S&P500 index one hour before the close of the markets on Thursday? Dive into the list of today's session's top gainers and losers for a comprehensive overview."
+    },
+    {
+      "headline": "FormFactor, Teradyne, Applied Materials, AMD, and Intel Shares Plummet, What You Need To Know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=6cc178efc4c11fa0f16b6115ba0fcae460e042ec5b5ad7607f5abb0cfee00528",
+      "datetime": 1792085787,
+      "summary": "A number of stocks fell in the morning session after hotter-than-expected inflation data compounded fears that elevated borrowing costs will curb artificial intelligence infrastructure spending."
+    },
+    {
+      "headline": "Discover which S&P500 stocks are making waves on Thursday.",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=5f62ae2ffc34d09948943f0a9e59acd49547181c65388b6c0146533f57da300c",
+      "datetime": 1792082102,
+      "summary": "Wondering what's happening in today's session for the S&P500 index? Stay informed with the top movers within the S&P500 index on Thursday."
+    },
+    {
+      "headline": "Penguin Solutions shares are trading higher after the company reported better-than-expected Q2 financial results and raised its FY26 guidance. Also, Needham maintained its Buy rating on the stock and raised its price target from $25 to $27.",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=9d9c822bcb1834c9b38e026f50f9e56f536ff484a94ca974826ab31a4e35d4c6",
+      "datetime": 1792060788,
+      "summary": ""
+    },
+    {
       "headline": "Is Teradyne (TER) Using Edge AI Test Expansion To Redefine Its Long\u2011Term Competitive Moat?",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=534373288ba6b5eaf6967b533d4844be6099b6edd510a27decedda0cc5b989cb",
@@ -29,34 +57,6 @@
       "url": "https://finnhub.io/api/news?id=775896cd94260186e0ee96b7cf498ab2fed96ba9ca364184059dff718c687f68",
       "datetime": 1792005244,
       "summary": "Teradyne (TER) is in focus after a broad technology collaboration with FormFactor and the launch of its UltraFLEXplus S test platform for edge AI, with both updates landing ahead of upcoming earnings. Those test and robotics updates are landing after a powerful run in Teradyne\u2019s shares, with the 1-year total shareholder return above 170% and the year-to-date share price return above 80%. However, "
-    },
-    {
-      "headline": "Teradyne (TER) Deepens Edge AI Test Push",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9904cc160e52f71b99fb51f01fdb91f53b76bcee217d64db609e947eb4fa3e1d",
-      "datetime": 1792001865,
-      "summary": "Teradyne (NasdaqGS:TER) has introduced the UltraFLEXplus S series, a test platform tailored for edge AI chips and high mix production. The UltraFLEXplus S system targets complex semiconductor devices used in automotive, industrial and consumer edge AI applications. Teradyne has entered a broad technology partnership with FormFactor that includes a significant equity investment by Teradyne. The Ult"
-    },
-    {
-      "headline": "Is Teradyne (TER) Too Expensive For Its Earnings Power?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=fb6fe0e44ec763b68861507cbcf60a253f5974e97f854101d2488ffb3c2d76cc",
-      "datetime": 1791998148,
-      "summary": "Teradyne has turned into a striking long term winner for shareholders, so the question now is whether the current price is still grounded in what its earnings can support. With the stock recently around US$380 per share after a volatile few weeks, investors are asking how much of the business's profit power is already reflected in that tag. Over the past 3 years, Teradyne has returned about 298.3%"
-    },
-    {
-      "headline": "T\u00dcV Rheinland North America Honors Teradyne with 2026 Excellence in Safety and Sustainability Leadership Award",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=30213f009c04dc21e0e2d05d94a3a2fa7772be20b740061344aadf21465c8212",
-      "datetime": 1791980160,
-      "summary": "BOXBOROUGH, Mass., October 14, 2026--T\u00dcV Rheinland North America honors Teradyne with its 2026 Safety and Sustainability Leadership Award for excellence in safety and sustainability."
-    },
-    {
-      "headline": "AI Chips Need Testing, and Teradyne (TER) Is Winning. Is the Valuation Too High?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=387059904245df473a84861135fee850ded20f77a11e93e7fc35275cc6bc1683",
-      "datetime": 1791929986,
-      "summary": "Robots get the headlines at Teradyne (NASDAQ:TER). Chip testers pay the bills. In the second quarter of 2026, the company\u2019s robotics arm brought in $100 million. Its semiconductor test business brought in $1.12 billion over the same three months. That split matters, because the stock isn\u2019t cheap. Teradyne builds the machines that check chips for [\u2026]"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-14",
+  "data_asof": "2026-10-15",
   "price": {
-    "last": 359.44,
-    "open": 368.04,
-    "prev_close": 380.29,
-    "move_day_pct": -5.48,
-    "move_open_close_pct": -2.34,
-    "move_week_pct": -12.71
+    "last": 343.21,
+    "open": 341.8,
+    "prev_close": 359.44,
+    "move_day_pct": -4.52,
+    "move_open_close_pct": 0.41,
+    "move_week_pct": -13.92
   },
   "indicators": {
     "rsi14": {
-      "value": 40.4,
-      "read": "Neutral"
+      "value": 36.7,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": 3.274,
-      "signal": 9.305,
-      "hist": -6.031,
-      "hist_prev": -3.739,
+      "macd": -1.035,
+      "signal": 7.237,
+      "hist": -8.272,
+      "hist_prev": -6.031,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 446.17,
-      "lower": 350.0,
-      "mid": 398.09,
-      "pctb": 0.098,
-      "read": "Near the lower band"
+      "upper": 447.68,
+      "lower": 347.5,
+      "mid": 397.59,
+      "pctb": -0.043,
+      "read": "Below the lower band \u2014 stretched to the downside"
     },
     "pct_from_52w_low": {
-      "value": 162.93,
-      "read": "163% above its 52-week low"
+      "value": 148.9,
+      "read": "149% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -25.68,
-      "read": "26% below its 52-week high"
+      "value": -29.04,
+      "read": "29% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 343.15,
-      "pct": 4.75,
-      "read": "5% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 343.88,
+      "pct": -0.19,
+      "read": "0% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 20.74,
-      "pct_of_price": 5.77,
+      "value": 21.23,
+      "pct_of_price": 6.19,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.5,
+      "value": 1.75,
       "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 34.4,
+      "value": 27.8,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": 136.71,
+  "low_52w": 137.89,
   "high_52w": 483.65,
-  "ma50": 382.55,
-  "ma200": 343.15
+  "ma50": 381.63,
+  "ma200": 343.88
 }

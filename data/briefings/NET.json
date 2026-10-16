@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-14T23:50:43.707986-07:00",
+  "generated_at": "2026-10-15T18:49:54.575387-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Cloudflare (NET) Stock Slides as Market Rises: Facts to Know Before You Trade",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f814eb9fbbf6924b463de30e2300c43c33e2982a743771ccc1654990247c5100",
+      "datetime": 1792097404,
+      "summary": "In the most recent trading session, Cloudflare (NET) closed at $316.13, indicating a -2.53% shift from the previous trading day."
+    },
+    {
+      "headline": "Software Stock Pullback Signaling Bulls to Move In",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=2ca51e5ee88b18ae3b993ea9c64add2400e80a2e61a319f3fa5cb429da290bc4",
+      "datetime": 1792087752,
+      "summary": "Cloudflare stock has pulled back to a historically bullish trendline"
+    },
     {
       "headline": "Liberty All-Star\u00ae Growth Fund, Inc. September 2026 Monthly Update",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=f238c2c7c067b7f1dac8f202779b09993a1982919b6ea069ce1b87c1dffe99b4",
       "datetime": 1791980887,
       "summary": "Expensive stocks typically earn their valuations through superior growth rates that other companies simply can\u2019t match. The flip side though is that these lofty expectations make them particularly susceptible to drawdowns when market sentiment shifts."
-    },
-    {
-      "headline": "The Uncomfortable Truth Behind 90% of AI Payments",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c0bb4dbfc81b5bc3a2fb17c1b07d5f207e68ec5d8ea55f9391085016b11f21da",
-      "datetime": 1791970196,
-      "summary": "Over 90% of AI agent payments are worth less than a penny. BeInCrypto's 2026 report reveals why the machine economy is struggling to gain adoption."
-    },
-    {
-      "headline": "What Was Cloudflare Telling You Before Its Stock Ran?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2158e3b0f7c6d345344175c805c08fa9dbe8e357e4fcec5dd694d4aaf733bd8a",
-      "datetime": 1791924504,
-      "summary": "Cloudflare (NET) stock returned 58.8% over the twelve months to October 12, 2026. During its August 2026 call, management credited growth to a more productive sales force alongside AI agent workloads on its network and its Workers developer platform. Neither theme was new by then. How early did Cloudflare start talking about them."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-14",
+  "data_asof": "2026-10-15",
   "price": {
-    "last": 324.33,
-    "open": 340.59,
-    "prev_close": 347.7,
-    "move_day_pct": -6.72,
-    "move_open_close_pct": -4.77,
-    "move_week_pct": -5.43
+    "last": 316.32,
+    "open": 310.55,
+    "prev_close": 324.33,
+    "move_day_pct": -2.47,
+    "move_open_close_pct": 1.86,
+    "move_week_pct": -7.48
   },
   "indicators": {
     "rsi14": {
-      "value": 44.8,
+      "value": 42.0,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 7.632,
-      "signal": 11.542,
-      "hist": -3.911,
-      "hist_prev": -2.176,
+      "macd": 4.781,
+      "signal": 10.19,
+      "hist": -5.409,
+      "hist_prev": -3.911,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 368.02,
-      "lower": 327.9,
-      "mid": 347.96,
-      "pctb": -0.089,
+      "upper": 370.75,
+      "lower": 323.41,
+      "mid": 347.08,
+      "pctb": -0.15,
       "read": "Below the lower band \u2014 stretched to the downside"
     },
     "pct_from_52w_low": {
-      "value": 102.47,
-      "read": "102% above its 52-week low"
+      "value": 97.47,
+      "read": "97% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -10.14,
+      "value": -12.36,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 241.18,
-      "pct": 34.48,
-      "read": "34% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 241.76,
+      "pct": 30.84,
+      "read": "31% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 16.52,
-      "pct_of_price": 5.09,
+      "value": 16.72,
+      "pct_of_price": 5.29,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.26,
-      "read": "Roughly average volume"
+      "value": 1.5,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 37.1,
+      "value": 36.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 360.93,
-  "ma50": 319.22,
-  "ma200": 241.18
+  "ma50": 319.68,
+  "ma200": 241.76
 }
