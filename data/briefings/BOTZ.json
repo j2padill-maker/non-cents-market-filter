@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-15T23:45:12.262039-07:00",
+  "generated_at": "2026-10-16T23:35:26.967448-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,109 +17,109 @@
   ],
   "news": [
     {
-      "headline": "Equity Outlook Q4 2026: Rising Rates Shift The Balance Of Risks",
+      "headline": "The AI Supercycle, Asia, And Why This Time Is Different",
       "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=784487fdb7b4f6aaaf6eda9ce91e66bd244efeab65767a3368fd45a02b9dd179",
-      "datetime": 1792063560,
-      "summary": "We believe a combination of higher yields, potential earnings growth pressure and overall market fragility has shifted the balance of risks."
+      "url": "https://finnhub.io/api/news?id=38742d1d5916af83c5350ce68f0ddd46c425ebcdfad5d8e9debba1de9eaf54f6",
+      "datetime": 1792197000,
+      "summary": "The AI race is about more than who builds the best model. Click here to read more."
     },
     {
-      "headline": "Grab These ETFs to Capitalize on the Physical AI Wave",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=85d5c4c945f30b09894facf65161972377f39cde24c921ee35346a5ce0b4196f",
-      "datetime": 1791979740,
-      "summary": "Physical AI is reshaping robotics, autonomous vehicles and smart manufacturing. Discover three ETFs offering diversified exposure to this fast-growing market."
+      "headline": "Surprise! Bonds As Safe Havens, Again",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=65af7b0b5793c27fdaec88f5aacb94f1adfbce029188819583960a96b5a5d104",
+      "datetime": 1792192800,
+      "summary": "As the week got underway, yields on US Treasuries were close to their recent decades-long highs."
     },
     {
-      "headline": "Have Rate Hikes Tipped The Scales Toward Value Equities?",
+      "headline": "It's All About Interest Rates",
       "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=47d2eec9b359577d719b5aba48a9e7cd730f01dd20942b628fb630758f524658",
-      "datetime": 1791977700,
-      "summary": "Higher capital costs may add fuel to value equities with shorter-duration cash flows. Read more here."
+      "url": "https://finnhub.io/api/news?id=7cbbdda2668a72e3341de4ba6f7dab3c0da73b31f8719d004f1e635d4cdb57cb",
+      "datetime": 1792150200,
+      "summary": "Inflation concerns, elevated oil prices and uncertainty over the Iran conflict are driving interest rates higher. Higher rates raise the bar for investing in broad data center expansion."
     },
     {
-      "headline": "Could Higher Rates Break The Boom Loop?",
+      "headline": "AI Boom At Risk? Geopolitics, China, And Market Opportunities For 2027",
       "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=9f9b67638d7a1a4d332566e9812771a52ea634f4e09663802fcb53486e12587b",
-      "datetime": 1791957900,
-      "summary": "The big U.S. banks reported today. The boom loop we've been talking about since March is in these numbers, and in what the CEOs said about AI. Read more here..."
+      "url": "https://finnhub.io/api/news?id=03817ef15ccda05c82624757ebd8ba3e52585270ff5620041ba2e5fe8670ca71",
+      "datetime": 1792148700,
+      "summary": "Peter Boockvar, CIO at OnePoint BFG Wealth Partners, and Allison Fedirka, Co-Founder of the Allonia Group, explore the biggest risks and opportunities facing investors. Read more here..."
     },
     {
-      "headline": "Rethinking Trend Investing: Alternative Signals, Not Alternative Markets",
+      "headline": "Osterweis Capital Management Q4 2026 Strategic Income Outlook",
       "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=99bd5934f4f075d4f046e0e8f5151ff81fb902fe2339f478ff866c94778c4ad1",
-      "datetime": 1791949200,
-      "summary": "In our view, the key is to dig deeper for actionable signals while maintaining liquidity. Read more here."
+      "url": "https://finnhub.io/api/news?id=91ea3622820bde6915028632ed98f2b8cd5dd67f4ac74a82da4e165ad7b2712d",
+      "datetime": 1792144800,
+      "summary": "Over the long arc of our careers, we have seen many radical changes in financial services. Read more here."
     },
     {
-      "headline": "BOTZ: Robotics Adoption Is Accelerating, But The Valuation Still Calls For Patience",
+      "headline": "The AI Investment Boom Goes Beyond America",
       "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=39e30e87b55efe176670301f2fa7ebeb3301b5d05931de60f59d6dbe44ffec0e",
-      "datetime": 1791886938,
-      "summary": "BOTZ ETF review: 32x P/E, weak 5-year returns, and high concentration risk."
+      "url": "https://finnhub.io/api/news?id=5ebed60a423b8c1cbae5bf391eb6ea1003cf965e06c6491e2ca78bba49f33961",
+      "datetime": 1792133100,
+      "summary": ""
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-15",
+  "data_asof": "2026-10-16",
   "price": {
-    "last": 33.74,
-    "open": 33.24,
-    "prev_close": 34.11,
-    "move_day_pct": -1.08,
-    "move_open_close_pct": 1.5,
-    "move_week_pct": -3.13
+    "last": 33.02,
+    "open": 33.86,
+    "prev_close": 33.74,
+    "move_day_pct": -2.13,
+    "move_open_close_pct": -2.48,
+    "move_week_pct": -6.93
   },
   "indicators": {
     "rsi14": {
-      "value": 35.2,
+      "value": 30.9,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -0.295,
-      "signal": -0.134,
-      "hist": -0.161,
-      "hist_prev": -0.102,
+      "macd": -0.426,
+      "signal": -0.193,
+      "hist": -0.234,
+      "hist_prev": -0.161,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 36.52,
-      "lower": 34.07,
-      "mid": 35.3,
-      "pctb": -0.136,
+      "upper": 36.77,
+      "lower": 33.62,
+      "mid": 35.19,
+      "pctb": -0.189,
       "read": "Below the lower band \u2014 stretched to the downside"
     },
     "pct_from_52w_low": {
-      "value": 5.52,
-      "read": "Just off its 52-week low"
+      "value": 3.27,
+      "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -18.91,
-      "read": "19% below its 52-week high"
+      "value": -20.64,
+      "read": "21% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 36.82,
-      "pct": -8.37,
-      "read": "8% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 36.8,
+      "pct": -10.27,
+      "read": "10% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.61,
-      "pct_of_price": 1.8,
+      "value": 0.63,
+      "pct_of_price": 1.9,
       "read": "Calm \u2014 low volatility"
     },
     "rel_volume": {
-      "value": 1.66,
+      "value": 1.44,
       "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 48.3,
+      "value": 45.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 31.97,
   "high_52w": 41.61,
-  "ma50": 35.76,
-  "ma200": 36.82
+  "ma50": 35.68,
+  "ma200": 36.8
 }

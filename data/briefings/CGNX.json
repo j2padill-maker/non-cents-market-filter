@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-15T23:45:11.124265-07:00",
+  "generated_at": "2026-10-16T23:35:25.298696-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -43,20 +43,6 @@
       "url": "https://finnhub.io/api/news?id=b0bc1eccfbc326a9596c406479bbc2bfeae51d6932b7f9fd2087d7c8a0c84fcc",
       "datetime": 1791792887,
       "summary": "Cognex (CGNX) outlook: machine vision growth plus RealSense robotics catalyst."
-    },
-    {
-      "headline": "3 Reasons CGNX is Risky and 1 Stock to Buy Instead",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f01a8eaf4bfaee6f9e8e3f79936f80c2b8b8e27141389ad5cf605873944e9f23",
-      "datetime": 1791569950,
-      "summary": "Cognex trades at $60.45 per share and has stayed right on track with the overall market, gaining 12.1% over the last six months. At the same time, the S&P 500 has returned 14.3%."
-    },
-    {
-      "headline": "2 Mid-Cap Stocks to Target This Week and 1 We Ignore",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=20ce0e893cd2dd65c8c6b59f47824977831a6b2bce93e923d9566f9d47a67e24",
-      "datetime": 1791554110,
-      "summary": "Many investors pay attention to mid-cap stocks because they have established business models and expansive market opportunities. However, their paths to becoming $100 billion corporations are ripe with competition, ranging from giants with vast resources to agile upstarts eager to disrupt the status quo."
     }
   ],
   "filings": [
@@ -82,63 +68,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-15",
+  "data_asof": "2026-10-16",
   "price": {
-    "last": 55.67,
-    "open": 55.38,
-    "prev_close": 57.27,
-    "move_day_pct": -2.79,
-    "move_open_close_pct": 0.52,
-    "move_week_pct": -8.6
+    "last": 53.99,
+    "open": 55.59,
+    "prev_close": 55.67,
+    "move_day_pct": -3.02,
+    "move_open_close_pct": -2.88,
+    "move_week_pct": -14.19
   },
   "indicators": {
     "rsi14": {
-      "value": 37.6,
+      "value": 34.8,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -0.624,
-      "signal": -0.081,
-      "hist": -0.543,
-      "hist_prev": -0.268,
+      "macd": -1.073,
+      "signal": -0.279,
+      "hist": -0.794,
+      "hist_prev": -0.543,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 65.98,
-      "lower": 55.41,
-      "mid": 60.69,
-      "pctb": 0.025,
-      "read": "Near the lower band"
+      "upper": 66.33,
+      "lower": 54.3,
+      "mid": 60.31,
+      "pctb": -0.026,
+      "read": "Below the lower band \u2014 stretched to the downside"
     },
     "pct_from_52w_low": {
-      "value": 60.65,
-      "read": "61% above its 52-week low"
+      "value": 55.8,
+      "read": "56% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -23.02,
-      "read": "23% below its 52-week high"
+      "value": -25.34,
+      "read": "25% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 56.76,
-      "pct": -1.92,
-      "read": "2% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 56.85,
+      "pct": -5.03,
+      "read": "5% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 2.58,
-      "pct_of_price": 4.63,
+      "value": 2.55,
+      "pct_of_price": 4.73,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 2.25,
-      "read": "Heavy volume \u2014 well above average"
+      "value": 1.09,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 42.9,
+      "value": 37.2,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 34.65,
   "high_52w": 72.32,
-  "ma50": 61.42,
-  "ma200": 56.76
+  "ma50": 61.15,
+  "ma200": 56.85
 }

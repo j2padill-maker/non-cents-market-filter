@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-15T23:45:12.457590-07:00",
+  "generated_at": "2026-10-16T23:35:27.268786-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,13 @@
   ],
   "news": [
     {
+      "headline": "3 Profitable Stocks We\u2019re Skeptical Of",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=19e7f8b053a17aa710c2f44d50c628d0c3f839d8ea08a4654b37bcd8b50a671b",
+      "datetime": 1792148859,
+      "summary": "Even if a company is profitable, it doesn\u2019t always mean it\u2019s a great investment. Some struggle to maintain growth, face looming threats, or fail to reinvest wisely, limiting their future potential."
+    },
+    {
       "headline": "Ovintiv Stock Rallies 13% in the Past 3 Months: Is It a Buy or Hold?",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=75d5e40dd1d16a387f3a4a301a36d54675975f6d5c181e31f3c727cd072a5ca5",
@@ -29,34 +36,6 @@
       "url": "https://finnhub.io/api/news?id=edf6c3340793dc4c7c43c69db1d818bae1318b8b4d007cd674105c59f0f880e8",
       "datetime": 1791810840,
       "summary": "PBR signs a four-year Framo deal to service pumps across 30 FPSOs, strengthening offshore maintenance support as Brazil's oil and gas market expands."
-    },
-    {
-      "headline": "Shell Partially Restarts Qatar Pearl GTL Plant After War Damage",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=fe026bb0ff0afff745a18c1299bba7792410927bd16c0118a95c2bc23238d52b",
-      "datetime": 1791550860,
-      "summary": "SHEL partially restarts its Pearl GTL plant in Qatar as naphtha shipments resume, but full recovery hinges on repairs and regional shipping security."
-    },
-    {
-      "headline": "Drilling Tools International Expands Global Reach With Saltire Deal",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=71f1c3ea4f2d0e24b700c46faf5688e2ed18a7e23a08e9bf369b0bc7865cb235",
-      "datetime": 1791550800,
-      "summary": "DTI aims to expand its international footprint through the Saltire and Foxley deal, with new markets, broader product offerings and potential cash flow gains."
-    },
-    {
-      "headline": "Oceaneering: Undersea Robotics Adds To Already Diverse Offshore Portfolio, Driving Growth And Cash Flow",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=014e85802a0b163406746bc4c3045af64e3f4a2d0e45ff29d8d0381163b4b6b0",
-      "datetime": 1791542785,
-      "summary": "Buy Oceaneering International (OII): subsea robotics growth, strong ROE and cash flow support upside through 2027 despite volatility. Click here to read."
-    },
-    {
-      "headline": "3 Low-Volatility Stocks with Warning Signs",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=469e00f1933b64bcf81407ddff9b757b95687df604cf2a40475ff5637d6901e0",
-      "datetime": 1791533950,
-      "summary": "Low-volatility stocks may offer stability, but that often comes at the cost of slower growth and the upside potential of more dynamic companies."
     }
   ],
   "filings": [
@@ -82,63 +61,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-15",
+  "data_asof": "2026-10-16",
   "price": {
-    "last": 43.05,
-    "open": 42.88,
-    "prev_close": 43.53,
-    "move_day_pct": -1.1,
-    "move_open_close_pct": 0.4,
-    "move_week_pct": -3.43
+    "last": 43.79,
+    "open": 43.55,
+    "prev_close": 43.05,
+    "move_day_pct": 1.72,
+    "move_open_close_pct": 0.55,
+    "move_week_pct": -2.28
   },
   "indicators": {
     "rsi14": {
-      "value": 36.7,
-      "read": "Oversold"
+      "value": 41.1,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": -1.16,
-      "signal": -1.146,
-      "hist": -0.014,
-      "hist_prev": 0.036,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -1.129,
+      "signal": -1.143,
+      "hist": 0.014,
+      "hist_prev": -0.014,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 47.09,
-      "lower": 42.85,
-      "mid": 44.97,
-      "pctb": 0.047,
-      "read": "Near the lower band"
+      "upper": 46.93,
+      "lower": 42.76,
+      "mid": 44.84,
+      "pctb": 0.247,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 90.91,
-      "read": "91% above its 52-week low"
+      "value": 94.19,
+      "read": "94% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -20.44,
-      "read": "20% below its 52-week high"
+      "value": -19.07,
+      "read": "19% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 39.46,
-      "pct": 9.1,
-      "read": "9% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 39.56,
+      "pct": 10.69,
+      "read": "11% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 1.64,
+      "value": 1.67,
       "pct_of_price": 3.81,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.92,
+      "value": 1.0,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 31.4,
+      "value": 38.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 22.55,
   "high_52w": 54.11,
-  "ma50": 48.32,
-  "ma200": 39.46
+  "ma50": 48.21,
+  "ma200": 39.56
 }

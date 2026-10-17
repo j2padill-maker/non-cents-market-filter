@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-15T23:45:10.484337-07:00",
+  "generated_at": "2026-10-16T23:35:23.843732-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Dow Jones Futures: S&P 500, Nasdaq Break Key Levels As CoreWeave, Dell Dive; Tesla, SpaceX, Meta Loom",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ee156952ef7059ac64685a0da859b784eb19aa7d52ebe0fff3f734fbc8a111e9",
+      "datetime": 1792184887,
+      "summary": "The S&P 500 and Nasdaq knifed below their 50-day lines as CoreWeave led a broad tech sell-off. Tesla, SpaceX, Meta earnings loom."
+    },
+    {
+      "headline": "AKAM vs. ANET: Which AI Infrastructure Stock is the Better Buy Now?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7e45662ee7b125e2722f2c6f112592d010cc636b376a015b96e68762897e2993",
+      "datetime": 1792160040,
+      "summary": "Akamai and Arista are tapping into the AI infrastructure boom, but differences in growth prospects, profitability and valuation could shape which stock has the edge."
+    },
+    {
+      "headline": "Can Akamai's Expanding Cloud Business Boost Its Competitive Edge?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=9fa5d7053b0e8f57d4818df5b4c23158a2c38b0bd58ddbed6a6ffa43973bdb65",
+      "datetime": 1792156980,
+      "summary": "AKAM is expanding its cloud computing business as AI demand grows, with specialized GPU infrastructure and cloud-native services attracting enterprise customers across industries."
+    },
     {
       "headline": "Cloudflare (NET) Stock Slides as Market Rises: Facts to Know Before You Trade",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=b6275f90ccaed1d768e7b9b0b6759e778d3a83e60dd01e9ef842c1700e2c259f",
       "datetime": 1792000200,
       "summary": "BOSTON, October 14, 2026--Liberty All-Star\u00ae Growth Fund, Inc. September 2026 Monthly Update"
-    },
-    {
-      "headline": "GoDaddy, Infoblox, Google and Cloudflare Demonstrate Secure AI Agent Transactions Across Platforms",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ae3c6ab37530f330d9dce4c265734b1b50c3758d64102f10a789a1cc2a346a5d",
-      "datetime": 1791982800,
-      "summary": "GoDaddy (NYSE: GDDY), Infoblox, Google and Cloudflare today demonstrated how AI agents can securely complete transactions across independent online platforms using existing internet standards."
-    },
-    {
-      "headline": "NET vs. FTNT: Which Cybersecurity Stock Should You Buy Right Now?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=41129ef35fe1bea4246b8fd5f4b3ba9805409df94b52541a363af27e7e288f19",
-      "datetime": 1791981720,
-      "summary": "Fortinet outshines Cloudflare with strong SASE growth, rising service revenues and a lower valuation, while NET faces mounting gross-margin pressure."
-    },
-    {
-      "headline": "2 High-Flying Stocks with Impressive Fundamentals and 1 We Turn Down",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f238c2c7c067b7f1dac8f202779b09993a1982919b6ea069ce1b87c1dffe99b4",
-      "datetime": 1791980887,
-      "summary": "Expensive stocks typically earn their valuations through superior growth rates that other companies simply can\u2019t match. The flip side though is that these lofty expectations make them particularly susceptible to drawdowns when market sentiment shifts."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-15",
+  "data_asof": "2026-10-16",
   "price": {
-    "last": 316.32,
-    "open": 310.55,
-    "prev_close": 324.33,
-    "move_day_pct": -2.47,
-    "move_open_close_pct": 1.86,
-    "move_week_pct": -7.48
+    "last": 296.3,
+    "open": 319.0,
+    "prev_close": 316.32,
+    "move_day_pct": -6.33,
+    "move_open_close_pct": -7.12,
+    "move_week_pct": -17.91
   },
   "indicators": {
     "rsi14": {
-      "value": 42.0,
-      "read": "Neutral"
+      "value": 35.9,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": 4.781,
-      "signal": 10.19,
-      "hist": -5.409,
-      "hist_prev": -3.911,
+      "macd": 0.896,
+      "signal": 8.331,
+      "hist": -7.435,
+      "hist_prev": -5.409,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 370.75,
-      "lower": 323.41,
-      "mid": 347.08,
-      "pctb": -0.15,
+      "upper": 376.67,
+      "lower": 314.76,
+      "mid": 345.71,
+      "pctb": -0.298,
       "read": "Below the lower band \u2014 stretched to the downside"
     },
     "pct_from_52w_low": {
-      "value": 97.47,
-      "read": "97% above its 52-week low"
+      "value": 84.97,
+      "read": "85% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -12.36,
-      "read": "Modestly below its 52-week high"
+      "value": -17.91,
+      "read": "18% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 241.76,
-      "pct": 30.84,
-      "read": "31% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 242.25,
+      "pct": 22.31,
+      "read": "22% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 16.72,
-      "pct_of_price": 5.29,
+      "value": 17.63,
+      "pct_of_price": 5.95,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.5,
+      "value": 1.39,
       "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 36.3,
+      "value": 35.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 360.93,
-  "ma50": 319.68,
-  "ma200": 241.76
+  "ma50": 319.92,
+  "ma200": 242.25
 }

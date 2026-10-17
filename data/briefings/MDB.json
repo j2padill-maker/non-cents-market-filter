@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-15T23:45:09.206466-07:00",
+  "generated_at": "2026-10-16T23:35:21.426610-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Qualys, DigitalOcean, Twilio, CrowdStrike, and MongoDB Shares Are Falling, What You Need To Know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=cb043257a060e0a9a3a0d8abd0461af1f83ce214893f03b0d78da245f3ede34a",
+      "datetime": 1792179099,
+      "summary": "A number of stocks fell in the afternoon session after investors shifted their focus from what AI technology can do toward concerns over how companies will finance it."
+    },
     {
       "headline": "MongoDB (MDB) Laps the Stock Market: Here's Why",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=ec75bed6d55a47374b782a9ecca1443f2fc6900f7f05cd481f2b7b8bdbdaa8b7",
       "datetime": 1791918424,
       "summary": "Shares of database platform company MongoDB (NASDAQ:MDB) jumped 3.4% in the afternoon session after analysts became more positive on the company, with Scotiabank adding the stock to its top picks list and Bank of America praising the company's investor day."
-    },
-    {
-      "headline": "Sizing up Meta\u2019s push into the crowded world of enterprise AI",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=37496a16993a12054703614a37776164d4e22e84c1ec2caa4bd4e7d9ca05f030",
-      "datetime": 1791917002,
-      "summary": "Marketing and business leaders say Muse is compelling, but they have security and trust concerns."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-15",
+  "data_asof": "2026-10-16",
   "price": {
-    "last": 366.49,
-    "open": 344.34,
-    "prev_close": 356.29,
-    "move_day_pct": 2.86,
-    "move_open_close_pct": 6.43,
-    "move_week_pct": -1.31
+    "last": 337.57,
+    "open": 367.57,
+    "prev_close": 366.49,
+    "move_day_pct": -7.89,
+    "move_open_close_pct": -8.16,
+    "move_week_pct": -12.53
   },
   "indicators": {
     "rsi14": {
-      "value": 46.9,
-      "read": "Neutral"
+      "value": 39.3,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -5.796,
-      "signal": -6.277,
-      "hist": 0.481,
-      "hist_prev": 0.46,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "macd": -7.925,
+      "signal": -6.607,
+      "hist": -1.319,
+      "hist_prev": 0.481,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 432.69,
-      "lower": 319.94,
-      "mid": 376.32,
-      "pctb": 0.413,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 432.73,
+      "lower": 315.3,
+      "mid": 374.02,
+      "pctb": 0.19,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 62.2,
-      "read": "62% above its 52-week low"
+      "value": 49.4,
+      "read": "49% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -22.4,
-      "read": "22% below its 52-week high"
+      "value": -28.52,
+      "read": "29% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 340.15,
-      "pct": 7.74,
-      "read": "8% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 339.73,
+      "pct": -0.64,
+      "read": "1% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 23.66,
-      "pct_of_price": 6.46,
+      "value": 25.19,
+      "pct_of_price": 7.46,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.49,
-      "read": "Light \u2014 quiet trading"
+      "value": 1.02,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 57.2,
+      "value": 76.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 395.67,
-  "ma200": 340.15
+  "ma50": 395.03,
+  "ma200": 339.73
 }

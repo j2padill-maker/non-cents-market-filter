@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-15T23:45:12.011154-07:00",
+  "generated_at": "2026-10-16T23:35:26.559211-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Teradyne (TER) Falls More Steeply Than Broader Market: What Investors Need to Know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=0d3981ca6126b2b501825862da7a44de9330414458c34486290acb99b3d98430",
+      "datetime": 1792184406,
+      "summary": "Teradyne (TER) closed the most recent trading day at $325.2, moving 5.25% from the previous trading session."
+    },
+    {
+      "headline": "Vishay Intertechnology, FormFactor, Teradyne, Penguin Solutions, and Applied Materials Stocks Trade Down, What You Need To Know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=feddd21dbc57d9671c3569ab1ef31bff2623f01d5467a2785907acba3ab5093a",
+      "datetime": 1792181979,
+      "summary": "A number of stocks fell in the afternoon session after investors weighed escalating borrowing costs and Federal Reserve remarks emphasizing price stability over rate cut signals."
+    },
     {
       "headline": "Which S&P500 stocks are moving on Thursday?",
       "source": "ChartMill",
@@ -31,32 +45,18 @@
       "summary": "A number of stocks fell in the morning session after hotter-than-expected inflation data compounded fears that elevated borrowing costs will curb artificial intelligence infrastructure spending."
     },
     {
+      "headline": "Here's How Much $1000 Invested In Teradyne 20 Years Ago Would Be Worth Today",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=0b5f56f47bf5033486d84f23d5f067c6ff56aea840307e9f28cee14934a9a56c",
+      "datetime": 1792083654,
+      "summary": "Teradyne (NASDAQ:TER) has outperformed the market over the past 20 years by 8.44% on an annualized basis producing an average annual return of 17.43%. Currently, Teradyne has a market capitalization of $59.54 billion."
+    },
+    {
       "headline": "Discover which S&P500 stocks are making waves on Thursday.",
       "source": "ChartMill",
       "url": "https://finnhub.io/api/news?id=5f62ae2ffc34d09948943f0a9e59acd49547181c65388b6c0146533f57da300c",
       "datetime": 1792082102,
       "summary": "Wondering what's happening in today's session for the S&P500 index? Stay informed with the top movers within the S&P500 index on Thursday."
-    },
-    {
-      "headline": "Penguin Solutions shares are trading higher after the company reported better-than-expected Q2 financial results and raised its FY26 guidance. Also, Needham maintained its Buy rating on the stock and raised its price target from $25 to $27.",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=9d9c822bcb1834c9b38e026f50f9e56f536ff484a94ca974826ab31a4e35d4c6",
-      "datetime": 1792060788,
-      "summary": ""
-    },
-    {
-      "headline": "Is Teradyne (TER) Using Edge AI Test Expansion To Redefine Its Long\u2011Term Competitive Moat?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=534373288ba6b5eaf6967b533d4844be6099b6edd510a27decedda0cc5b989cb",
-      "datetime": 1792009047,
-      "summary": "Earlier this week, FormFactor, Inc. and Teradyne, Inc. announced a broad technology collaboration, including a US$300 million Teradyne equity investment, alongside Teradyne\u2019s launch of the UltraFLEXplus S series to support high\u2011mix edge AI semiconductor testing. Together, the FormFactor partnership and UltraFLEXplus S platform extend Teradyne\u2019s test reach from wafer to data center, strengthening i"
-    },
-    {
-      "headline": "Teradyne (TER) Launches Edge AI Test Platform, Is The Upside Already Priced In?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=775896cd94260186e0ee96b7cf498ab2fed96ba9ca364184059dff718c687f68",
-      "datetime": 1792005244,
-      "summary": "Teradyne (TER) is in focus after a broad technology collaboration with FormFactor and the launch of its UltraFLEXplus S test platform for edge AI, with both updates landing ahead of upcoming earnings. Those test and robotics updates are landing after a powerful run in Teradyne\u2019s shares, with the 1-year total shareholder return above 170% and the year-to-date share price return above 80%. However, "
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-15",
+  "data_asof": "2026-10-16",
   "price": {
-    "last": 343.21,
-    "open": 341.8,
-    "prev_close": 359.44,
-    "move_day_pct": -4.52,
-    "move_open_close_pct": 0.41,
-    "move_week_pct": -13.92
+    "last": 325.0,
+    "open": 339.14,
+    "prev_close": 343.21,
+    "move_day_pct": -5.31,
+    "move_open_close_pct": -4.17,
+    "move_week_pct": -19.29
   },
   "indicators": {
     "rsi14": {
-      "value": 36.7,
+      "value": 33.1,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -1.035,
-      "signal": 7.237,
-      "hist": -8.272,
-      "hist_prev": -6.031,
+      "macd": -5.851,
+      "signal": 4.619,
+      "hist": -10.471,
+      "hist_prev": -8.272,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 447.68,
-      "lower": 347.5,
-      "mid": 397.59,
-      "pctb": -0.043,
+      "upper": 453.62,
+      "lower": 336.91,
+      "mid": 395.27,
+      "pctb": -0.102,
       "read": "Below the lower band \u2014 stretched to the downside"
     },
     "pct_from_52w_low": {
-      "value": 148.9,
-      "read": "149% above its 52-week low"
+      "value": 135.69,
+      "read": "136% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -29.04,
-      "read": "29% below its 52-week high"
+      "value": -32.8,
+      "read": "33% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 343.88,
-      "pct": -0.19,
-      "read": "0% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 344.53,
+      "pct": -5.67,
+      "read": "6% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 21.23,
-      "pct_of_price": 6.19,
+      "value": 21.08,
+      "pct_of_price": 6.49,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.75,
-      "read": "Above-average volume"
+      "value": 1.21,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 27.8,
+      "value": 27.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 137.89,
   "high_52w": 483.65,
-  "ma50": 381.63,
-  "ma200": 343.88
+  "ma50": 380.44,
+  "ma200": 344.53
 }

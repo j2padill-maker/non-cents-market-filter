@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-15T23:45:10.235096-07:00",
+  "generated_at": "2026-10-16T23:35:23.454805-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Okta, Datadog, Palantir Technologies, Zscaler, and Elastic Shares Are Falling, What You Need To Know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=649b24e772b4a907cf9b96bf8387ccb6fe52fbfa821947b7d71162ceaab1eb81",
+      "datetime": 1792180539,
+      "summary": "A number of stocks fell in the afternoon session after investors shifted their focus from what AI technology can do toward concerns over how companies will finance it."
+    },
+    {
+      "headline": "Record Revenue, Guidance See Datadog Shares Jump Higher",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=930f8b588000f7e8d01d375359261038096a62b99b3380a7708bc21cda961d9b",
+      "datetime": 1792168572,
+      "summary": "Datadog, Inc. (DDOG) shares rise 280% since institutions first bought big in 2020."
+    },
+    {
+      "headline": "Mizuho Maintains Outperform on Datadog, Raises Price Target to $330",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=7aff076f25996c9b3c0ce31354840de1698f8d9bcd8cb78c1328dc2d1c58a149",
+      "datetime": 1792071489,
+      "summary": "Mizuho  analyst Gregg Moskowitz   maintains Datadog (NASDAQ:DDOG) with a Outperform and raises the price target from $300 to $330."
+    },
     {
       "headline": "Datadog (NASDAQ:DDOG) Pairs High Growth Momentum With a Breakout Setup",
       "source": "ChartMill",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=b6275f90ccaed1d768e7b9b0b6759e778d3a83e60dd01e9ef842c1700e2c259f",
       "datetime": 1792000200,
       "summary": "BOSTON, October 14, 2026--Liberty All-Star\u00ae Growth Fund, Inc. September 2026 Monthly Update"
-    },
-    {
-      "headline": "MongoDB Falls 11% YTD: Here's Why You Should Buy the Stock Now",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=494c33dc58447895e1148484630abbf1e40a6f4e83b9c4aeb459ea3b4a8b1163",
-      "datetime": 1791986220,
-      "summary": "MDB's shares are down 11.1% YTD, but strong Atlas growth, expanding AI capabilities and rising earnings estimates make the pullback a buying opportunity."
-    },
-    {
-      "headline": "Shares of software companies are trading lower, possibly in response to escalating tensions in the Middle East and renewed inflation concerns that may shift the Fed towards a rate hike. Concerns about key economic data due later this week may prompt traders to rotate out of growth stocks.",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=c69408f6b2e2de87abefeb217619a19db915930e139f14fc71586990a574b37b",
-      "datetime": 1791980980,
-      "summary": ""
-    },
-    {
-      "headline": "CIBC to launch additional U.S. Canadian Depositary Receipts",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=438120ffde9775af72c243c75dffe1796b2b14de58c6775d05928ecea5d80129",
-      "datetime": 1791979200,
-      "summary": "Today, CIBC announced its intention to list 11 new U.S. Canadian Depositary Receipts (\"CDRs\") on the TSX, with trading expected to begin on October 20, 2026. With these additions, CIBC will now offer 144 CDRs across six countries."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-15",
+  "data_asof": "2026-10-16",
   "price": {
-    "last": 266.25,
-    "open": 260.72,
-    "prev_close": 269.33,
-    "move_day_pct": -1.14,
-    "move_open_close_pct": 2.12,
-    "move_week_pct": -2.76
+    "last": 247.11,
+    "open": 265.41,
+    "prev_close": 266.25,
+    "move_day_pct": -7.19,
+    "move_open_close_pct": -6.89,
+    "move_week_pct": -15.74
   },
   "indicators": {
     "rsi14": {
-      "value": 52.1,
+      "value": 41.8,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 9.571,
-      "signal": 10.575,
-      "hist": -1.004,
-      "hist_prev": 0.216,
+      "macd": 6.783,
+      "signal": 9.816,
+      "hist": -3.033,
+      "hist_prev": -1.004,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 298.0,
-      "lower": 238.3,
-      "mid": 268.15,
-      "pctb": 0.468,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 295.17,
+      "lower": 242.85,
+      "mid": 269.01,
+      "pctb": 0.081,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 159.46,
-      "read": "159% above its 52-week low"
+      "value": 140.81,
+      "read": "141% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -9.21,
-      "read": "Modestly below its 52-week high"
+      "value": -15.74,
+      "read": "16% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 191.07,
-      "pct": 39.35,
-      "read": "39% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 191.61,
+      "pct": 28.97,
+      "read": "29% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 12.29,
-      "pct_of_price": 4.62,
+      "value": 13.23,
+      "pct_of_price": 5.36,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.9,
+      "value": 1.21,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 51.8,
+      "value": 51.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 293.26,
-  "ma50": 246.74,
-  "ma200": 191.07
+  "ma50": 247.1,
+  "ma200": 191.61
 }
