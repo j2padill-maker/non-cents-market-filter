@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-16T23:35:23.843732-07:00",
+  "generated_at": "2026-10-17T23:57:53.113674-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Dow Jones Futures: What To Do After S&P 500, Nasdaq Break Key Levels; Will Meta, SpaceX Earnings Save AI?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=686d644d0adbe7ef949d5b9c024965e24572acc9fbe93595fcc792281a93851b",
+      "datetime": 1792280825,
+      "summary": "The S&P 500, Nasdaq and leading stocks broke key support. Can Meta, Tesla, SpaceX earnings and capex revive the AI sector?"
+    },
     {
       "headline": "Dow Jones Futures: S&P 500, Nasdaq Break Key Levels As CoreWeave, Dell Dive; Tesla, SpaceX, Meta Loom",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=2ca51e5ee88b18ae3b993ea9c64add2400e80a2e61a319f3fa5cb429da290bc4",
       "datetime": 1792087752,
       "summary": "Cloudflare stock has pulled back to a historically bullish trendline"
-    },
-    {
-      "headline": "Liberty All-Star\u00ae Growth Fund, Inc. September 2026 Monthly Update",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b6275f90ccaed1d768e7b9b0b6759e778d3a83e60dd01e9ef842c1700e2c259f",
-      "datetime": 1792000200,
-      "summary": "BOSTON, October 14, 2026--Liberty All-Star\u00ae Growth Fund, Inc. September 2026 Monthly Update"
     }
   ],
   "filings": [

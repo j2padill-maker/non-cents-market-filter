@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-16T23:35:26.559211-07:00",
+  "generated_at": "2026-10-17T23:57:55.417704-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "SoftBank Wants to Buy America\u2019s Biggest Security Guard Company and Use Robots",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=af67078aff295958f93376b50d73aec10b203bc4e1012a6b551b3e7daf746b90",
+      "datetime": 1792242431,
+      "summary": "SoftBank is eyeing an $18 billion deal to take over the largest private security firm in America, with plans to swap out guards for robots at scale. The math only works if machines can do the job, and that question is far from settled."
+    },
+    {
+      "headline": "Teradyne (NASDAQ:TER) Shows High-Growth Fundamentals as Earnings Revisions and Sales Surge",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=726d4da3575d173a303380a56be6e169fe4d1445d472f59259929899d23ed1f5",
+      "datetime": 1792234869,
+      "summary": "Teradyne (TER) clears Navellier\u2019s growth screen with strong EPS revisions, earnings beats, sales growth, margins, cash flow and high ROE."
+    },
     {
       "headline": "Teradyne (TER) Falls More Steeply Than Broader Market: What Investors Need to Know",
       "source": "Yahoo",
@@ -31,32 +45,18 @@
       "summary": "A number of stocks fell in the afternoon session after investors weighed escalating borrowing costs and Federal Reserve remarks emphasizing price stability over rate cut signals."
     },
     {
+      "headline": "Chip Stocks Endure Longest Losing Streak Since 2006 as CoreWeave Credit Concerns Mount: This Week on Wall Street",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=328e539d02f6ec1e545493a515a7031aa23f1d5f1a8924788fb6b6401273b092",
+      "datetime": 1792166574,
+      "summary": "The iShares Semiconductor ETF is on a nine-session losing run unseen since May 2006, as the KOSPI posts its worst week since 2008, optical names suffer dot-com-era drops and Bank of America sees a Cisco echo."
+    },
+    {
       "headline": "Which S&P500 stocks are moving on Thursday?",
       "source": "ChartMill",
       "url": "https://finnhub.io/api/news?id=0a55e4262ba83c57add2dd4522f58e0401ec7c209d2260b3cb61b9795f28f103",
       "datetime": 1792091102,
       "summary": "Curious about the top performers within the S&P500 index one hour before the close of the markets on Thursday? Dive into the list of today's session's top gainers and losers for a comprehensive overview."
-    },
-    {
-      "headline": "FormFactor, Teradyne, Applied Materials, AMD, and Intel Shares Plummet, What You Need To Know",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6cc178efc4c11fa0f16b6115ba0fcae460e042ec5b5ad7607f5abb0cfee00528",
-      "datetime": 1792085787,
-      "summary": "A number of stocks fell in the morning session after hotter-than-expected inflation data compounded fears that elevated borrowing costs will curb artificial intelligence infrastructure spending."
-    },
-    {
-      "headline": "Here's How Much $1000 Invested In Teradyne 20 Years Ago Would Be Worth Today",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=0b5f56f47bf5033486d84f23d5f067c6ff56aea840307e9f28cee14934a9a56c",
-      "datetime": 1792083654,
-      "summary": "Teradyne (NASDAQ:TER) has outperformed the market over the past 20 years by 8.44% on an annualized basis producing an average annual return of 17.43%. Currently, Teradyne has a market capitalization of $59.54 billion."
-    },
-    {
-      "headline": "Discover which S&P500 stocks are making waves on Thursday.",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=5f62ae2ffc34d09948943f0a9e59acd49547181c65388b6c0146533f57da300c",
-      "datetime": 1792082102,
-      "summary": "Wondering what's happening in today's session for the S&P500 index? Stay informed with the top movers within the S&P500 index on Thursday."
     }
   ],
   "filings": [

@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-16T23:35:27.599486-07:00",
+  "generated_at": "2026-10-17T23:57:56.420978-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Zscaler (ZS) Stock Still Looks Undervalued As Shares Fell 33% In Five Years",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8a5ae3f5736880c4cef37fcc8ffc2020dfbee4f3419ef07452506e57e933ea1e",
+      "datetime": 1792228303,
+      "summary": "Zscaler has been a volatile ride for shareholders lately, and the swing in sentiment raises a straightforward question for you as an investor: is the current share price properly anchored to the cash flows the business is expected to generate? Over the past 5 years, Zscaler shares have declined 32.6%, which puts the spotlight firmly on whether the cash the company can produce justifies sticking wi"
+    },
     {
       "headline": "Okta, Datadog, Palantir Technologies, Zscaler, and Elastic Shares Are Falling, What You Need To Know",
       "source": "Yahoo",
@@ -49,13 +56,6 @@
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=f3c03c87add9fb8313f399b509fd36c0f0817fcfe5fc12aaf92e5342eecf00fd",
       "datetime": 1792157853,
-      "summary": "Emerald Wealth Partners, an independent asset and wealth management firm based in Zurich, released its Q3 2026 investor letter for the \u201cGrowth Equity Strategy\u201d. The letter can be downloaded here. In Q3 2026, market performance was defined by pronounced sector rotations, as a rebound in software equities contrasted with a sharp correction in semiconductors, particularly [\u2026]"
-    },
-    {
-      "headline": "Meta Platforms (META): Distribution Reach and Muse AI Catalyst Bridge the Capex Return Gap",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ee13036e4f2c7725155aba5f8f6c545498790f3038c8a4dd67dab8e43fb32810",
-      "datetime": 1792157747,
       "summary": "Emerald Wealth Partners, an independent asset and wealth management firm based in Zurich, released its Q3 2026 investor letter for the \u201cGrowth Equity Strategy\u201d. The letter can be downloaded here. In Q3 2026, market performance was defined by pronounced sector rotations, as a rebound in software equities contrasted with a sharp correction in semiconductors, particularly [\u2026]"
     }
   ],

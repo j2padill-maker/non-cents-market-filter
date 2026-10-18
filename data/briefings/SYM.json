@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-16T23:35:26.192532-07:00",
+  "generated_at": "2026-10-17T23:57:55.114212-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "SoftBank Wants to Buy America\u2019s Biggest Security Guard Company and Use Robots",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=af67078aff295958f93376b50d73aec10b203bc4e1012a6b551b3e7daf746b90",
+      "datetime": 1792242431,
+      "summary": "SoftBank is eyeing an $18 billion deal to take over the largest private security firm in America, with plans to swap out guards for robots at scale. The math only works if machines can do the job, and that question is far from settled."
+    },
     {
       "headline": "SCSC or SYM: Which Is the Better Value Stock Right Now?",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=38702fda7ebd6a84efd9c338518f9d83c52fca74b1611f2c7f3df55f5f38cda5",
       "datetime": 1791872229,
       "summary": "cellumation GmbH (cellumation) is a Bremen, Germany-based automation company and creator of the celluveyor, a patented, software-driven sortation technology.Beyond the Conveyor: A Denser, Smarter Symbotic SystemThe"
-    },
-    {
-      "headline": "Symbotic Inc. (SYM) Declines More Than Market: Some Information for Investors",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9420ce2d0cc0a241d1e2369eb51d2e509172751977cb1e07beee09a28f948fd3",
-      "datetime": 1791838807,
-      "summary": "Symbotic Inc. (SYM) closed the most recent trading day at $40.76, moving 4.39% from the previous trading session."
     }
   ],
   "filings": [

@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-16T23:35:26.967448-07:00",
+  "generated_at": "2026-10-17T23:57:55.807952-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Osterweis Capital Management Q4 2026 Equity Outlook",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=fff01f85ced320d24001763713dc867a820ccd67a3ecee3a5e25e43eaeb29b24",
+      "datetime": 1792206600,
+      "summary": "We believe we are currently in the early stages of a transformative era in technology that should be a significant catalyst for future economic growth. Read more here."
+    },
     {
       "headline": "The AI Supercycle, Asia, And Why This Time Is Different",
       "source": "SeekingAlpha",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=91ea3622820bde6915028632ed98f2b8cd5dd67f4ac74a82da4e165ad7b2712d",
       "datetime": 1792144800,
       "summary": "Over the long arc of our careers, we have seen many radical changes in financial services. Read more here."
-    },
-    {
-      "headline": "The AI Investment Boom Goes Beyond America",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=5ebed60a423b8c1cbae5bf391eb6ea1003cf965e06c6491e2ca78bba49f33961",
-      "datetime": 1792133100,
-      "summary": ""
     }
   ],
   "filings": [],
