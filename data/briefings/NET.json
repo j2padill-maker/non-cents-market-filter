@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-17T23:57:53.113674-07:00",
+  "generated_at": "2026-10-19T00:17:37.252433-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Dow Jones Futures Rebound After AI Sell-Off; Meta, SpaceX, Tesla Earnings Key",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7ccf03be8481c9a0b30bc0679d5ff5912cb567bac2d203c032f6082fd7495c79",
+      "datetime": 1792372598,
+      "summary": "Futures rise after the S&P 500, Nasdaq and leading stocks broke key support. Can Meta, Tesla, SpaceX earnings and capex revive the AI sector?"
+    },
+    {
+      "headline": "Dow Jones Futures Loom After S&P 500, Nasdaq Break Support; Will Meta Earnings Save AI?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=1059199285a6a8fe190c546bd82ab818cf2c30fa064961311b69c1ebc6045210",
+      "datetime": 1792292259,
+      "summary": "The S&P 500, Nasdaq and leading stocks broke key support. Can Meta, Tesla, SpaceX earnings and capex revive the AI sector?"
+    },
     {
       "headline": "Dow Jones Futures: What To Do After S&P 500, Nasdaq Break Key Levels; Will Meta, SpaceX Earnings Save AI?",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=9fa5d7053b0e8f57d4818df5b4c23158a2c38b0bd58ddbed6a6ffa43973bdb65",
       "datetime": 1792156980,
       "summary": "AKAM is expanding its cloud computing business as AI demand grows, with specialized GPU infrastructure and cloud-native services attracting enterprise customers across industries."
-    },
-    {
-      "headline": "Cloudflare (NET) Stock Slides as Market Rises: Facts to Know Before You Trade",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f814eb9fbbf6924b463de30e2300c43c33e2982a743771ccc1654990247c5100",
-      "datetime": 1792097404,
-      "summary": "In the most recent trading session, Cloudflare (NET) closed at $316.13, indicating a -2.53% shift from the previous trading day."
-    },
-    {
-      "headline": "Software Stock Pullback Signaling Bulls to Move In",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2ca51e5ee88b18ae3b993ea9c64add2400e80a2e61a319f3fa5cb429da290bc4",
-      "datetime": 1792087752,
-      "summary": "Cloudflare stock has pulled back to a historically bullish trendline"
     }
   ],
   "filings": [

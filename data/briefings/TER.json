@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-17T23:57:55.417704-07:00",
+  "generated_at": "2026-10-19T00:17:38.714662-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "3 AI Infrastructure Stocks Retail Investors Are Watching In US Tech",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e87b2bfda0706b794773d369aa3d12e1c2289e384f092b15d09074cce989f1ff",
+      "datetime": 1792346948,
+      "summary": "Government-backed \u201cInnovation Accounts\u201d that pour fresh cash into tech and AI index funds would not just tweak the market, they could gradually reshape who participates in the next leg of returns. Policy talk around OpenAI, public stakes and worker-focused equity programs turns the Nasdaq-100 into more than a benchmark. It becomes a policy story. This piece walks through 3 stocks exposed to that s"
+    },
     {
       "headline": "SoftBank Wants to Buy America\u2019s Biggest Security Guard Company and Use Robots",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=328e539d02f6ec1e545493a515a7031aa23f1d5f1a8924788fb6b6401273b092",
       "datetime": 1792166574,
       "summary": "The iShares Semiconductor ETF is on a nine-session losing run unseen since May 2006, as the KOSPI posts its worst week since 2008, optical names suffer dot-com-era drops and Bank of America sees a Cisco echo."
-    },
-    {
-      "headline": "Which S&P500 stocks are moving on Thursday?",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=0a55e4262ba83c57add2dd4522f58e0401ec7c209d2260b3cb61b9795f28f103",
-      "datetime": 1792091102,
-      "summary": "Curious about the top performers within the S&P500 index one hour before the close of the markets on Thursday? Dive into the list of today's session's top gainers and losers for a comprehensive overview."
     }
   ],
   "filings": [

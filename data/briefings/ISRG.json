@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-17T23:57:54.836613-07:00",
+  "generated_at": "2026-10-19T00:17:38.200457-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Intuitive Surgical Earnings: What To Look For From ISRG",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a14703401b8c841024958b2e7c0ae42360175dc567c76473a8868605fc607639",
+      "datetime": 1792381817,
+      "summary": "Medical technology company Intuitive Surgical (NASDAQ:ISRG) will be announcing earnings results this Tuesday after market hours. Here\u2019s what investors should know."
+    },
     {
       "headline": "Intuitive Surgical (ISRG) Stock Is Down 25% Year to Date. History Says Patient Investors Get Rewarded.",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=5ee039845c93603c162b72340b6e17e3af6754126e2d4a9f97386223f410f4f3",
       "datetime": 1792158060,
       "summary": "The Dow looks to close higher for its second-straight week, while the Nasdaq hopes to avoid its worst trading week since July."
-    },
-    {
-      "headline": "Intuitive Surgical (ISRG) Stock May Be Fairly Valued On New Robotics Competition",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9452b3a63e5551668602840351f5ff1a56b3aeb3ce94c8b2561ce65d7e3a7a34",
-      "datetime": 1792152570,
-      "summary": "Intuitive Surgical has rewarded patient shareholders over the past few years. With the share price at US$427.86 and fresh competition emerging, the real issue is whether that valuation is still grounded in the cash the business can generate. Over the past 3 years the stock has gained 56.5%. This puts real pressure on the question of how far its future cash flows can stretch to support that climb. "
     }
   ],
   "filings": [
