@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-19T00:17:39.455421-07:00",
+  "generated_at": "2026-10-20T00:02:52.488538-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "What Needs To Be True To Buy Cloudflare Stock?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=88aec58154004a1f184575706f5ab0a033c3399c1e6e81c86da4128cccd7c363",
+      "datetime": 1792447179,
+      "summary": "Investors in Cloudflare (NET) are paying a steep premium for a company that still reports a loss. The stock trades at 41.8 times its sales, compared with 3.1 times for the S&P 500. Buyers paying that price appear to be betting on the company's Workers developer platform and on agentic workloads, which are the tasks AI agents perform across its network. Management reported rapid growth in both. Is "
+    },
+    {
+      "headline": "What Was Okta Telling You Before Its Stock Doubled?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c720546c959918d0ea6f309e0566f46ad34bf3a1dda63cb29e2420da4248dd3c",
+      "datetime": 1792423604,
+      "summary": "Shares of Okta (OKTA) returned 112% from October 15, 2025, to October 16, 2026. This performance easily cleared the 16.2% return for the S&P 500, following an 11.6% drop for the stock over the previous six months. During that same year, the identity security company widened its narrow profits, and its newer products, led by Okta Identity Governance, became a large part of what it sells. Was any of"
+    },
+    {
+      "headline": "Zscaler Stock Slid 8% This Week and Sits 38% Below Its High. Here\u2019s What Comes Next",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f93c2f54f0eab78166468c981367126425ed0d2bb971392371d86e1422dd2d7b",
+      "datetime": 1792418835,
+      "summary": "Key Stats for Zscaler StockPast week performance: -8. 1%52-week range: $115 to $337Valuation model target price: $312Implied upside: 50."
+    },
+    {
+      "headline": "Should You Invest in Zscaler (ZS) Based on Bullish Wall Street Views?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=bbc36b5b9a361ffe4d45cdf54d8bb1a0e7c88b89d2f0132a21c447efb98d9672",
+      "datetime": 1792413003,
+      "summary": "Based on the average brokerage recommendation (ABR), Zscaler (ZS) should be added to one's portfolio. Wall Street analysts' overly optimistic recommendations cast doubt on the effectiveness of this highly sought-after metric. So, is the stock worth buying?"
+    },
+    {
       "headline": "Zscaler (ZS) Stock Still Looks Undervalued As Shares Fell 33% In Five Years",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=8a5ae3f5736880c4cef37fcc8ffc2020dfbee4f3419ef07452506e57e933ea1e",
@@ -29,34 +57,6 @@
       "url": "https://finnhub.io/api/news?id=649b24e772b4a907cf9b96bf8387ccb6fe52fbfa821947b7d71162ceaab1eb81",
       "datetime": 1792180539,
       "summary": "A number of stocks fell in the afternoon session after investors shifted their focus from what AI technology can do toward concerns over how companies will finance it."
-    },
-    {
-      "headline": "Zscaler (ZS) Draws Pomerantz Probe After Fraud Claims Stir Governance Questions",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=668aec613b0c579de4389897f18a80011b554c197957e5d0c549da3213ec9cf3",
-      "datetime": 1792174681,
-      "summary": "Zscaler (NasdaqGS: ZS) is under investigation by Pomerantz LLP for potential securities fraud and other unlawful business practices. The law firm\u2019s inquiry follows recent financial guidance revisions that coincided with sharp volatility in Zscaler\u2019s share price. Pomerantz is also reviewing circumstances around a recent senior executive departure that has drawn fresh scrutiny from Zscaler investors"
-    },
-    {
-      "headline": "Cybersecurity Stocks Slide as AI Financing Jitters Spread: Palo Alto Falls 7%, SentinelOne Sinks 9%, Zscaler Drops 6%",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e04d176c9562ca58a52b9d0f93749bdc07c221c893851be29d20b9b790678ec2",
-      "datetime": 1792169819,
-      "summary": "AI financing jitters are hammering cybersecurity stocks far harder than the broader Nasdaq, leaving investors to wonder whether the sector's demand story can survive the selloff or whether the AI trade just entered its painful second half."
-    },
-    {
-      "headline": "Sell-Off In Cybersecurity Stocks Intensifies Amid Palo Alto Vulnerability",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ed2b99c982cf092c4681976953f6f5127e0a19cbebfe68bae06ff7d9a97afca5",
-      "datetime": 1792168984,
-      "summary": "Cybersecurity stocks sold off again on Friday amid a hacker vulnerability involving a Palo Alto Networks network firewall platform."
-    },
-    {
-      "headline": "Here\u2019s Why the Strategy Exited Uber Technologies (UBER)",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f3c03c87add9fb8313f399b509fd36c0f0817fcfe5fc12aaf92e5342eecf00fd",
-      "datetime": 1792157853,
-      "summary": "Emerald Wealth Partners, an independent asset and wealth management firm based in Zurich, released its Q3 2026 investor letter for the \u201cGrowth Equity Strategy\u201d. The letter can be downloaded here. In Q3 2026, market performance was defined by pronounced sector rotations, as a rebound in software equities contrasted with a sharp correction in semiconductors, particularly [\u2026]"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-16",
+  "data_asof": "2026-10-19",
   "price": {
-    "last": 207.38,
-    "open": 223.28,
-    "prev_close": 220.43,
-    "move_day_pct": -5.92,
-    "move_open_close_pct": -7.12,
-    "move_week_pct": -11.27
+    "last": 212.53,
+    "open": 209.91,
+    "prev_close": 207.38,
+    "move_day_pct": 2.48,
+    "move_open_close_pct": 1.25,
+    "move_week_pct": -5.87
   },
   "indicators": {
     "rsi14": {
-      "value": 51.4,
+      "value": 54.3,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 8.969,
-      "signal": 9.535,
-      "hist": -0.566,
-      "hist_prev": 0.764,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": 8.125,
+      "signal": 9.253,
+      "hist": -1.128,
+      "hist_prev": -0.566,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 233.1,
-      "lower": 188.22,
-      "mid": 210.66,
-      "pctb": 0.427,
+      "upper": 233.32,
+      "lower": 188.54,
+      "mid": 210.93,
+      "pctb": 0.536,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 75.67,
-      "read": "76% above its 52-week low"
+      "value": 80.03,
+      "read": "80% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -38.33,
-      "read": "38% below its 52-week high"
+      "value": -36.8,
+      "read": "37% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 165.83,
-      "pct": 25.06,
-      "read": "25% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 165.77,
+      "pct": 28.21,
+      "read": "28% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 10.97,
-      "pct_of_price": 5.29,
+      "value": 10.72,
+      "pct_of_price": 5.05,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.82,
+      "value": 0.53,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 66.3,
+      "value": 62.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 118.05,
   "high_52w": 336.27,
-  "ma50": 191.98,
-  "ma200": 165.83
+  "ma50": 192.86,
+  "ma200": 165.77
 }

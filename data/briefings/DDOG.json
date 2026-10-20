@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-19T00:17:37.009611-07:00",
+  "generated_at": "2026-10-20T00:02:49.024643-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Datadog (DDOG) Dropped, So What Is Driving Attention Now?",
+      "headline": "Datadog Stock Gains Attention After Analyst Upgrade On AI Demand",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=59901763b0c9dffbcaf18803add83d7463165ad740ac95ef54ffa2f45ba61e82",
-      "datetime": 1792242644,
-      "summary": "Datadog (DDOG) has been drawing attention after recent share price swings, including a daily decline of about 7% and a pullback of roughly 16% over the past week. Those sharp declines sit against a far stronger backdrop. Datadog still carries an 84.73% year to date share price return and a 61.65% 1 year total shareholder return, so the recent pullback appears more like fading momentum than a broke"
+      "url": "https://finnhub.io/api/news?id=d2ec6e35cc8a9c4a1724e5a810d21f6343c9bb496756077723d285b209860e3f",
+      "datetime": 1792455870,
+      "summary": "Datadog has been upgraded to Outperform by Bernstein after the broker highlighted stronger demand from artificial intelligence customers and upcoming third quarter fiscal 2026 results as key checkpoints for how AI heavy workloads are affecting the observability and security platform. The research points to rapidly growing AI token consumption at large labs and raises the question of whether Datado"
     },
     {
-      "headline": "The Next Hollywood Trailer May Talk Back: Tech CEO Predicts Interactive Technology Could Change How Audiences Experience Movies",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=79442cecd6ebd350ab3016cb19e24b57f6248849eff6f973ccabf793ba9b2c3f",
-      "datetime": 1792231219,
-      "summary": "Flam CEO Shourya Agarwal expects nearly every Hollywood studio to adopt interactive trailers, allowing viewers to engage in real time."
-    },
-    {
-      "headline": "Okta, Datadog, Palantir Technologies, Zscaler, and Elastic Shares Are Falling, What You Need To Know",
+      "headline": "Bernstein Just Upgraded Datadog Stock. Here's Why.",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=649b24e772b4a907cf9b96bf8387ccb6fe52fbfa821947b7d71162ceaab1eb81",
-      "datetime": 1792180539,
-      "summary": "A number of stocks fell in the afternoon session after investors shifted their focus from what AI technology can do toward concerns over how companies will finance it."
+      "url": "https://finnhub.io/api/news?id=22a9cc50ecf9334261ddbd8d884d0aa8f47eae5d9ad1bf12b18b704468eeeb83",
+      "datetime": 1792447123,
+      "summary": "Bernstein analyst Peter Weed issues a bullish research note on Datadog stock. Here\u2019s why he recommends owning DDOG shares at current price."
     },
     {
-      "headline": "S&P 500 Top Movers: Today's Gainers and Losers",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=1623819f3bfa1555899d10dbc1cb3e08c5703c2ee3ac84cc9b6bc50bda3f12b0",
-      "datetime": 1792177598,
-      "summary": "Today's S&P 500 top movers include FANG, EOG, EQT, APA, NI, HONA, TRGP, KMI, RTX and NOC among gainers, while TWLO, MRNA, SMCI, DDOG and PANW lead decliners."
-    },
-    {
-      "headline": "S&P 500 Top Movers Today: HONA Tops Gainers, TWLO Tops Decliners",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=71b17cbd30cf9aa4ef3c77c0f458131845b037c6290603b9f3dd4fe992b04de2",
-      "datetime": 1792168603,
-      "summary": "S&P 500 top movers today: HONA, EOG, EXE, NI, EQT, MSI, BKR, KMI, IDXX and SLB gained, while TWLO, MRNA, SMCI, CRWD, FTNT, DDOG, PLTR, COHR, FLEX and STX declined."
-    },
-    {
-      "headline": "Record Revenue, Guidance See Datadog Shares Jump Higher",
+      "headline": "Datadog (DDOG) Stock Is Up, What You Need To Know",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=930f8b588000f7e8d01d375359261038096a62b99b3380a7708bc21cda961d9b",
-      "datetime": 1792168572,
-      "summary": "Datadog, Inc. (DDOG) shares rise 280% since institutions first bought big in 2020."
+      "url": "https://finnhub.io/api/news?id=9dba88756594652928885b64ed9fad7cae21757912835c02ae20a0d26cf6036a",
+      "datetime": 1792445815,
+      "summary": "Shares of cloud monitoring platform Datadog (NASDAQ:DDOG) jumped 4.7% in the morning session after easing Treasury yields and broad dip-buying spurred a relief rebound across enterprise software, amplified by Bernstein SocGen Group upgrading the stock to Outperform with a $350 price target."
+    },
+    {
+      "headline": "Palantir, Datadog and chip stocks bounce back as Amazon lifts Wall Street",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8d8e4792eb9f757b3f947c827e21b609c1daaa5df0015cea6ee8cf1aecda4b4a",
+      "datetime": 1792442443,
+      "summary": "Tech's rebound lifted the indexes Monday, but most stocks missed the comeback."
+    },
+    {
+      "headline": "Sandisk, Datadog, Amazon Lead S&P 500 As AI Stocks Rebound",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=6ac09fd8226d2dfa8ca863bc99fe2bc50972d453fb7adfef6ba028c2e9f58c70",
+      "datetime": 1792440900,
+      "summary": "Western Digital, Sandisk, Datadog, Twilio and Amazon led the S&P 500 index in Monday's stock market trading as artificial intelligence plays rebounded. Western Digital (WDC) gained 6.1% to 352.21 on Monday, still below all its key moving averages. Western Digital stock plunged 16.4% last week. The hard-drive disk maker reports fiscal Q1 results late Thursday, kicking off earnings for memory..."
+    },
+    {
+      "headline": "Datadog Soars 6% on Bernstein Upgrade as AI Token Use Has \u201cGrown at Least 50%\u201d",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b257331d91302b3d9a14902e7062ff65651cab24ad12fabe7f6be0f6d95c7878",
+      "datetime": 1792436788,
+      "summary": "Key TakeawaysDatadog shares rose 6% today after Bernstein upgraded the stock to Outperform and raised its price target to $350 from $237. Bernstein\u2019s case for faster AI-driven growth looks well-founded, but the stock already prices in a lot of it."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-16",
+  "data_asof": "2026-10-19",
   "price": {
-    "last": 247.11,
-    "open": 265.41,
-    "prev_close": 266.25,
-    "move_day_pct": -7.19,
-    "move_open_close_pct": -6.89,
-    "move_week_pct": -15.74
+    "last": 260.36,
+    "open": 257.83,
+    "prev_close": 247.11,
+    "move_day_pct": 5.36,
+    "move_open_close_pct": 0.98,
+    "move_week_pct": -9.37
   },
   "indicators": {
     "rsi14": {
-      "value": 41.8,
+      "value": 49.2,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 6.783,
-      "signal": 9.816,
-      "hist": -3.033,
-      "hist_prev": -1.004,
+      "macd": 5.578,
+      "signal": 8.969,
+      "hist": -3.39,
+      "hist_prev": -3.033,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 295.17,
-      "lower": 242.85,
-      "mid": 269.01,
-      "pctb": 0.081,
-      "read": "Near the lower band"
+      "upper": 293.9,
+      "lower": 245.65,
+      "mid": 269.78,
+      "pctb": 0.305,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 140.81,
-      "read": "141% above its 52-week low"
+      "value": 153.73,
+      "read": "154% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -15.74,
-      "read": "16% below its 52-week high"
+      "value": -11.22,
+      "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 191.61,
-      "pct": 28.97,
-      "read": "29% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 192.24,
+      "pct": 35.43,
+      "read": "35% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 13.23,
-      "pct_of_price": 5.36,
+      "value": 13.64,
+      "pct_of_price": 5.24,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.21,
+      "value": 0.94,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 51.7,
+      "value": 51.6,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 293.26,
-  "ma50": 247.1,
-  "ma200": 191.61
+  "ma50": 247.63,
+  "ma200": 192.24
 }

@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-19T00:17:39.167790-07:00",
+  "generated_at": "2026-10-20T00:02:52.139436-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -22,20 +22,6 @@
       "url": "https://finnhub.io/api/news?id=19e7f8b053a17aa710c2f44d50c628d0c3f839d8ea08a4654b37bcd8b50a671b",
       "datetime": 1792148859,
       "summary": "Even if a company is profitable, it doesn\u2019t always mean it\u2019s a great investment. Some struggle to maintain growth, face looming threats, or fail to reinvest wisely, limiting their future potential."
-    },
-    {
-      "headline": "Ovintiv Stock Rallies 13% in the Past 3 Months: Is It a Buy or Hold?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=75d5e40dd1d16a387f3a4a301a36d54675975f6d5c181e31f3c727cd072a5ca5",
-      "datetime": 1791811080,
-      "summary": "OVV outperforms its subindustry over three months as higher oil output, strong free cash flow and a deep drilling inventory support growth, despite natural gas headwinds."
-    },
-    {
-      "headline": "Petrobras Signs Major Four-Year Deal for Offshore Pump Services",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=edf6c3340793dc4c7c43c69db1d818bae1318b8b4d007cd674105c59f0f880e8",
-      "datetime": 1791810840,
-      "summary": "PBR signs a four-year Framo deal to service pumps across 30 FPSOs, strengthening offshore maintenance support as Brazil's oil and gas market expands."
     }
   ],
   "filings": [
@@ -61,63 +47,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-16",
+  "data_asof": "2026-10-19",
   "price": {
-    "last": 43.79,
-    "open": 43.55,
-    "prev_close": 43.05,
-    "move_day_pct": 1.72,
-    "move_open_close_pct": 0.55,
-    "move_week_pct": -2.28
+    "last": 44.43,
+    "open": 44.1,
+    "prev_close": 43.79,
+    "move_day_pct": 1.46,
+    "move_open_close_pct": 0.75,
+    "move_week_pct": 0.02
   },
   "indicators": {
     "rsi14": {
-      "value": 41.1,
+      "value": 44.6,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -1.129,
-      "signal": -1.143,
-      "hist": 0.014,
-      "hist_prev": -0.014,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": -1.041,
+      "signal": -1.122,
+      "hist": 0.082,
+      "hist_prev": 0.014,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 46.93,
-      "lower": 42.76,
-      "mid": 44.84,
-      "pctb": 0.247,
+      "upper": 46.8,
+      "lower": 42.74,
+      "mid": 44.77,
+      "pctb": 0.416,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 94.19,
-      "read": "94% above its 52-week low"
+      "value": 96.51,
+      "read": "97% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -19.07,
-      "read": "19% below its 52-week high"
+      "value": -17.89,
+      "read": "18% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 39.56,
-      "pct": 10.69,
-      "read": "11% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 39.66,
+      "pct": 12.03,
+      "read": "12% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 1.67,
-      "pct_of_price": 3.81,
+      "value": 1.63,
+      "pct_of_price": 3.66,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 1.0,
+      "value": 0.63,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 38.4,
+      "value": 45.4,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": 22.55,
+  "low_52w": 22.61,
   "high_52w": 54.11,
-  "ma50": 48.21,
-  "ma200": 39.56
+  "ma50": 48.14,
+  "ma200": 39.66
 }

@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-19T00:17:38.959086-07:00",
+  "generated_at": "2026-10-20T00:02:51.893154-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Weekly Market Pulse: Reality Bites",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=a02a3b1553e88ac2154d3ea698c43c97449dc78581de65f33a65edba64f8d22f",
+      "datetime": 1792379640,
+      "summary": "The AI trade hit some turbulence last week as concerns emerged about the growth rate of the industry."
+    },
     {
       "headline": "Osterweis Capital Management Q4 2026 Equity Outlook",
       "source": "SeekingAlpha",
@@ -50,76 +57,69 @@
       "url": "https://finnhub.io/api/news?id=03817ef15ccda05c82624757ebd8ba3e52585270ff5620041ba2e5fe8670ca71",
       "datetime": 1792148700,
       "summary": "Peter Boockvar, CIO at OnePoint BFG Wealth Partners, and Allison Fedirka, Co-Founder of the Allonia Group, explore the biggest risks and opportunities facing investors. Read more here..."
-    },
-    {
-      "headline": "Osterweis Capital Management Q4 2026 Strategic Income Outlook",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=91ea3622820bde6915028632ed98f2b8cd5dd67f4ac74a82da4e165ad7b2712d",
-      "datetime": 1792144800,
-      "summary": "Over the long arc of our careers, we have seen many radical changes in financial services. Read more here."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-16",
+  "data_asof": "2026-10-19",
   "price": {
-    "last": 33.02,
-    "open": 33.86,
-    "prev_close": 33.74,
-    "move_day_pct": -2.13,
-    "move_open_close_pct": -2.48,
-    "move_week_pct": -6.93
+    "last": 33.35,
+    "open": 33.45,
+    "prev_close": 33.02,
+    "move_day_pct": 1.0,
+    "move_open_close_pct": -0.3,
+    "move_week_pct": -4.44
   },
   "indicators": {
     "rsi14": {
-      "value": 30.9,
+      "value": 34.8,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -0.426,
-      "signal": -0.193,
-      "hist": -0.234,
-      "hist_prev": -0.161,
+      "macd": -0.498,
+      "signal": -0.254,
+      "hist": -0.244,
+      "hist_prev": -0.234,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 36.77,
-      "lower": 33.62,
-      "mid": 35.19,
-      "pctb": -0.189,
-      "read": "Below the lower band \u2014 stretched to the downside"
+      "upper": 36.81,
+      "lower": 33.33,
+      "mid": 35.07,
+      "pctb": 0.006,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 3.27,
+      "value": 4.3,
       "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -20.64,
-      "read": "21% below its 52-week high"
+      "value": -19.85,
+      "read": "20% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 36.8,
-      "pct": -10.27,
-      "read": "10% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 36.79,
+      "pct": -9.35,
+      "read": "9% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
       "value": 0.63,
-      "pct_of_price": 1.9,
+      "pct_of_price": 1.89,
       "read": "Calm \u2014 low volatility"
     },
     "rel_volume": {
-      "value": 1.44,
-      "read": "Above-average volume"
+      "value": 0.93,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 45.7,
+      "value": 44.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 31.97,
   "high_52w": 41.61,
-  "ma50": 35.68,
-  "ma200": 36.8
+  "ma50": 35.6,
+  "ma200": 36.79
 }

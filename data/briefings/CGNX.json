@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-19T00:17:37.937955-07:00",
+  "generated_at": "2026-10-20T00:02:50.417461-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,13 @@
   ],
   "news": [
     {
+      "headline": "Cognex (CGNX) Stock Looks Rich After Fresh Robotics Demand News",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=4cc9abc49b7ebae8a41c0d0ffcd91a47e6c8182db7e390dc857a025d6e28bd6c",
+      "datetime": 1792466159,
+      "summary": "Cognex has ridden a sharp multi year upswing, yet the recent pullback leaves investors asking a simple question: Does the current share price still line up with what the business earns today? Over the past 3 years Cognex has returned 55.5%, which puts real weight on whether that gain is fully grounded in its earnings power. Goldman Sachs' projection for millions of additional robot units by 2035 h"
+    },
+    {
       "headline": "Cognex Announces Third Quarter 2026 Earnings Release and Conference Call Dates",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=4391c983bd81a9ddbd11c6676db8b5f6f037119ffbd5492bd9137d399c2a4200",
@@ -29,20 +36,6 @@
       "url": "https://finnhub.io/api/news?id=fb6df18e30eb763f86a14ca91ace0f81ee79a4f4afd0da39f926c83b65e64e3e",
       "datetime": 1792006327,
       "summary": "A number of stocks fell in the afternoon session after a broad pickup in energy expenses lifted September inflation to 3.7%, surpassing expectations and driving bond yields higher."
-    },
-    {
-      "headline": "Barclays Maintains Overweight on Cognex, Raises Price Target to $85",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=a0cfaf50b411ae997221de15d9bc19610b868827684ac8ec98a126e62362fe9a",
-      "datetime": 1791818452,
-      "summary": "Barclays  analyst Guy Hardwick   maintains Cognex (NASDAQ:CGNX) with a Overweight and raises the price target from $80 to $85."
-    },
-    {
-      "headline": "Jumping On The Robotics Train: Initiating Buy On Cognex",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=b0bc1eccfbc326a9596c406479bbc2bfeae51d6932b7f9fd2087d7c8a0c84fcc",
-      "datetime": 1791792887,
-      "summary": "Cognex (CGNX) outlook: machine vision growth plus RealSense robotics catalyst."
     }
   ],
   "filings": [
@@ -68,63 +61,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-16",
+  "data_asof": "2026-10-19",
   "price": {
-    "last": 53.99,
-    "open": 55.59,
-    "prev_close": 55.67,
-    "move_day_pct": -3.02,
-    "move_open_close_pct": -2.88,
-    "move_week_pct": -14.19
+    "last": 55.16,
+    "open": 55.08,
+    "prev_close": 53.99,
+    "move_day_pct": 2.17,
+    "move_open_close_pct": 0.15,
+    "move_week_pct": -10.77
   },
   "indicators": {
     "rsi14": {
-      "value": 34.8,
+      "value": 38.2,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -1.073,
-      "signal": -0.279,
-      "hist": -0.794,
-      "hist_prev": -0.543,
+      "macd": -1.319,
+      "signal": -0.487,
+      "hist": -0.832,
+      "hist_prev": -0.794,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 66.33,
-      "lower": 54.3,
-      "mid": 60.31,
-      "pctb": -0.026,
-      "read": "Below the lower band \u2014 stretched to the downside"
+      "upper": 66.34,
+      "lower": 53.61,
+      "mid": 59.97,
+      "pctb": 0.122,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 55.8,
-      "read": "56% above its 52-week low"
+      "value": 59.18,
+      "read": "59% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -25.34,
-      "read": "25% below its 52-week high"
+      "value": -23.73,
+      "read": "24% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 56.85,
-      "pct": -5.03,
-      "read": "5% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 56.95,
+      "pct": -3.14,
+      "read": "3% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 2.55,
-      "pct_of_price": 4.73,
+      "value": 2.54,
+      "pct_of_price": 4.6,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.09,
+      "value": 0.86,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 37.2,
+      "value": 38.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 34.65,
   "high_52w": 72.32,
-  "ma50": 61.15,
-  "ma200": 56.85
+  "ma50": 60.92,
+  "ma200": 56.95
 }
