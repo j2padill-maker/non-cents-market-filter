@@ -13,6 +13,7 @@ REM 1. Discard any stale local changes to GENERATED files so they never enter
 REM    the pull. This is the fix for the recurring cache.json rebase conflict:
 REM    we regenerate these below, so a local copy is never worth keeping.
 git checkout -- data\cache.json data\watchlist.json >> "%LOGFILE%" 2>&1
+git checkout -- data\universe.json >> "%LOGFILE%" 2>&1
 
 REM 2. Commit any real (code) changes you made before syncing.
 git commit -am "Pre-sync auto-commit %date% %time%" >> "%LOGFILE%" 2>&1
@@ -34,7 +35,7 @@ if errorlevel 1 (
 python scripts\build_briefings.py --session close >> "%LOGFILE%" 2>&1
 
 REM 5. Commit the freshly generated data and push (clean fast-forward).
-git add scripts\fetch_data.py data\cache.json data\watchlist.json data\briefings >> "%LOGFILE%" 2>&1
+git add scripts\fetch_data.py data\cache.json data\watchlist.json data\universe.json data\briefings >> "%LOGFILE%" 2>&1
 git commit -m "Daily data update %date%" >> "%LOGFILE%" 2>&1
 git push origin main >> "%LOGFILE%" 2>&1
 

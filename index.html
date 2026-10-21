@@ -3005,10 +3005,15 @@ function rsiDisplay(s){
   return `<span class="rsi-neutral">${n.toFixed(1)}</span>`;
 }
 function sectorColor(s){
-  const c={'AI Hardware':'#00c853','AI Software':'#7b61ff','Robotics':'#00ff9d','Homebuilders':'#ff9500','Fintech':'#ff6b9d','Nuclear Energy':'#ffcc00','Drones':'#ff6b35','Mining & Materials':'#a8b2c4','Energy':'#ff8c42','S&P500 Core':'#4a9eff','Nasdaq100 Core':'#8b5cf6','Watchlist':'#ffd54a'};
+  const c={'AI Hardware':'#00c853','AI Software':'#7b61ff','Robotics':'#00ff9d','Homebuilders':'#ff9500','Fintech':'#ff6b9d','Nuclear Energy':'#ffcc00','Drones':'#ff6b35','Mining & Materials':'#a8b2c4','Energy':'#ff8c42','S&P500 Core':'#4a9eff','Nasdaq100 Core':'#8b5cf6','Watchlist':'#ffd54a',
+    'Information Technology':'#4a9eff','Communication Services':'#8b5cf6','Health Care':'#2ec4b6','Financials':'#7bd389','Consumer Discretionary':'#f4a261','Consumer Staples':'#c9ada7','Industrials':'#9aa5b1','Utilities':'#e9c46a','Real Estate':'#b5838d','Materials':'#a8b2c4'};
   return c[s]||'#8899bb';
 }
-function isOverreaction(s){return(s.change_pct||0)<=-8&&(s.volume_ratio||0)>=2&&(s.rsi14||100)<=45&&(s.market_cap||0)>=2000;}
+// Spilled milk: a >=8% one-day flush within the last 3 sessions, on >=2x volume THAT day,
+// RSI still <=40, market cap >=$2B. Mirrors overreaction_candidates in fetch_data.py.
+function isOverreaction(s){return(s.drop_worst_1d??0)<=-8&&(s.drop_day_volume_ratio||0)>=2&&s.rsi14!=null&&s.rsi14<=40&&(s.market_cap||0)>=2000;}
+function dropOf(s){return Math.min(s.drop_worst_1d??0,s.change_pct??0);}
+function dropWhen(s){const d=s.drop_worst_1d_days_ago;return d==null||dropOf(s)===(s.change_pct??0)?"TODAY":d===0?"TODAY":d===1?"1 SESSION AGO":d+" SESSIONS AGO";}
 
 /* BIG DROP badge. The flag means "down 6%+ within the last 3 sessions, either
    in one session or combined across them" — so the badge has to say WHICH and
@@ -3104,22 +3109,25 @@ function sortTable(key){
 
 /* ─── OVERREACTION ─── */
 function renderOverreaction(){
-  const candidates=allStocks.filter(s=>s.change_pct<=-8||(s.rsi14!=null&&s.rsi14<=45&&s.abrupt_drop_flag)).sort((a,b)=>(a.change_pct||0)-(b.change_pct||0)).slice(0,20);
+  // Strict spilled-milk names first, then the broader "big drop + RSI<=45" watch list.
+  const candidates=allStocks.filter(s=>isOverreaction(s)||s.change_pct<=-8||(s.rsi14!=null&&s.rsi14<=45&&s.abrupt_drop_flag))
+    .sort((a,b)=>(isOverreaction(b)-isOverreaction(a))||(dropOf(a)-dropOf(b))).slice(0,30);
   const el=document.getElementById('overreaction-list');
   if(!candidates.length){el.innerHTML='<div class="empty-state"><div class="icon">✅</div><p>No overreaction candidates today. Markets appear stable.</p></div>';return;}
   el.innerHTML=candidates.map(s=>`
     <div class="overreaction-card" onclick="showModal('${s.ticker}')">
       <div class="overreaction-header">
-        <div><span class="overreaction-ticker">${s.ticker}</span><span style="font-size:13px;color:var(--text3);margin-left:10px;">${s.sector}</span></div>
+        <div><span class="overreaction-ticker">${s.ticker}</span><span style="font-size:13px;color:var(--text3);margin-left:10px;">${s.sector}</span>${isOverreaction(s)?'<span class="drop-flag" style="margin-left:10px">SPILLED MILK</span>':''}</div>
         <div style="text-align:right">
-          <div style="font-size:24px;font-weight:800;font-family:var(--font-display);color:var(--red)">${s.change_pct!=null?(s.change_pct>0?'+':'')+fmt(s.change_pct)+'%':'—'}</div>
-          <div style="font-size:10px;color:var(--text3);letter-spacing:0.08em">TODAY'S MOVE</div>
+          <div style="font-size:24px;font-weight:800;font-family:var(--font-display);color:var(--red)">${fmt(dropOf(s))}%</div>
+          <div style="font-size:10px;color:var(--text3);letter-spacing:0.08em">WORST DAY · ${dropWhen(s)}</div>
+          <div style="font-size:11px;color:var(--text2);margin-top:2px">Today ${s.change_pct!=null?(s.change_pct>0?'+':'')+fmt(s.change_pct)+'%':'—'}</div>
         </div>
       </div>
       <div class="overreaction-metrics">
         <div><div class="stat-label">PRICE</div><div style="font-size:18px;font-weight:700;font-family:var(--font-display)">$${fmt(s.price)}</div></div>
         <div><div class="stat-label">RSI(14)</div><div style="font-size:18px;font-weight:700">${rsiDisplay(s)}</div></div>
-        <div><div class="stat-label">VOL RATIO</div><div style="font-size:18px;font-weight:700;color:${(s.volume_ratio||0)>=2?'var(--red)':'var(--text2)'}">×${fmt(s.volume_ratio,1)}</div></div>
+        <div><div class="stat-label">DROP-DAY VOL</div><div style="font-size:18px;font-weight:700;color:${(s.drop_day_volume_ratio??s.volume_ratio??0)>=2?'var(--red)':'var(--text2)'}">×${fmt(s.drop_day_volume_ratio??s.volume_ratio,1)}</div></div>
         <div><div class="stat-label">MKT CAP</div><div style="font-size:18px;font-weight:700">${fmtCap(s.market_cap)}</div></div>
         <div><div class="stat-label">52W LOW</div><div style="font-size:18px;font-weight:700;color:var(--red)">${s.low_52w?'$'+fmt(s.low_52w):'—'}</div></div>
         <div><div class="stat-label">% FROM LOW</div><div style="font-size:18px;font-weight:700">${fmt(s.pct_from_52w_low)}%</div></div>

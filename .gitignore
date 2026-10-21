@@ -4,3 +4,5 @@ __pycache__/
 *.pyc
 ~$*
 index_*.html
+# Weekly profile/fundamentals cache - local to each machine
+data/fundamentals.json

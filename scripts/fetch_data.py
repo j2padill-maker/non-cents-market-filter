@@ -2,6 +2,7 @@ import os
 import sys
 import json
 import math
+import random
 import time
 import requests
 from datetime import datetime, timedelta
@@ -26,7 +27,8 @@ WATCHLIST_SECTOR = "Watchlist"
 SECTORS = {
     "AI Hardware": [
         "NVDA", "AMD", "INTC", "MU", "AMAT", "LRCX", "AVGO", "ASML", "TSM",
-        "DELL", "SMCI", "VRT", "ETN", "ATKR", "MOD", "NVT", "FORM", "COHR", "ATSK"
+        "DELL", "SMCI", "VRT", "ETN", "ATKR", "MOD", "NVT", "FORM", "COHR", "ATSK",
+        "CRWV", "NBIS"   # AI cloud / neocloud
     ],
     "AI Software": [
         "NET", "DDOG", "DT", "FSLY", "CRWD", "PANW", "ZS", "SNOW", "PLTR",
@@ -291,6 +293,121 @@ SYMBOLS_MAX_AGE_DAYS = 30
 DROP_THRESHOLD = -6.0
 DROP_SESSIONS = 3
 
+# ── SPILLED MILK (overreaction) rule ──────────────────────────────────────────
+# A real one-day flush, judged on the day it happened, not on whatever day the
+# job happens to run. Old rule required today's change, today's volume and
+# today's RSI to line up at once — it almost never fired, and missed every
+# drop the laptop wasn't awake for.
+OVR_DROP_PCT = -8.0        # worst single session within DROP_SESSIONS
+OVR_DROP_DAY_VOL = 2.0     # volume on that drop day vs. prior 30-day average
+OVR_MAX_RSI = 40           # RSI(14) now
+OVR_MIN_MCAP = 2000        # $M (Finnhub reports market cap in millions)
+
+# ── BROAD UNIVERSE (S&P 500 + Nasdaq-100) ─────────────────────────────────────
+# Built by scripts/build_universe.py. Themed sectors above always win the
+# sector label; index-only names get their GICS sector ("Health Care", ...).
+UNIVERSE_FILE = "data/universe.json"
+UNIVERSE_MAX_AGE_DAYS = 30
+# The old hand-made index lists are only used if universe.json can't be built.
+LEGACY_INDEX_SECTORS = ("S&P500 Core", "Nasdaq100 Core")
+
+# Liquidity floor for index-only names. Themed names (your picks, including
+# deliberate small caps like RCAT/UMAC/SERV) and watchlist names are exempt.
+FLOOR_MIN_MCAP = 2000          # $M  → $2B
+FLOOR_MIN_DOLLAR_VOL = 20e6    # 30-day average shares × price → $20M/day
+
+# Company profile + fundamentals change slowly, so they're cached for a week
+# instead of costing 2 extra API calls per stock every night.
+FUND_CACHE_FILE = "data/fundamentals.json"
+FUND_MAX_AGE_DAYS = 7
+PROFILE_KEYS = ("name", "finnhubIndustry", "exchange", "country", "ipo",
+                "weburl", "currency", "logo")
+METRIC_KEYS = ("marketCapitalization", "peBasicExclExtraTTM", "epsTTM", "beta",
+               "currentDividendYieldTTM", "revenueGrowthTTMYoy",
+               "52WeekHigh", "52WeekLow")
+
+
+def refresh_universe_if_stale():
+    """Run build_universe.py when universe.json is missing or a month old."""
+    import subprocess
+    if os.path.exists(UNIVERSE_FILE):
+        age_days = (time.time() - os.path.getmtime(UNIVERSE_FILE)) / 86400
+        if age_days < UNIVERSE_MAX_AGE_DAYS:
+            print(f"  Index universe is {age_days:.1f} days old — still fresh.")
+            return
+        print(f"  Index universe is {age_days:.1f} days old — rebuilding.")
+    else:
+        print("  No index universe yet — building it.")
+    script = os.path.join(os.path.dirname(os.path.abspath(__file__)), "build_universe.py")
+    result = subprocess.run([sys.executable, script], capture_output=True, text=True)
+    print("  " + (result.stdout.strip().replace("\n", "\n  ") or "(no output)"))
+    if result.returncode != 0:
+        print(f"  ⚠ Universe build failed — using the existing list if there is one. "
+              f"{result.stderr.strip()[-200:]}")
+
+
+def load_universe():
+    """
+    ([{ticker, name, sector, indexes}], {"sp500": n, "nasdaq100": n})
+    or (None, {}) if no universe file exists.
+    """
+    if not os.path.exists(UNIVERSE_FILE):
+        return None, {}
+    try:
+        with open(UNIVERSE_FILE, encoding="utf-8") as f:
+            data = json.load(f)
+        return (data.get("tickers") or None), (data.get("counts") or {})
+    except Exception as e:
+        print(f"  ⚠ Could not read {UNIVERSE_FILE}: {e}")
+        return None, {}
+
+
+def load_fund_cache():
+    try:
+        with open(FUND_CACHE_FILE, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def save_fund_cache(cache):
+    os.makedirs("data", exist_ok=True)
+    with open(FUND_CACHE_FILE, "w", encoding="utf-8") as f:
+        json.dump(sanitize(cache), f, separators=(",", ":"), sort_keys=True)
+
+
+def get_cached_fundamentals(ticker, fund_cache, price):
+    """
+    Profile + basic financials, refreshed weekly. Market cap is scaled by the
+    price move since the cache was written, so it stays current in between.
+    """
+    entry = fund_cache.get(ticker)
+    fresh = False
+    if entry:
+        age = time.time() - entry.get("ts", 0)
+        fresh = age < FUND_MAX_AGE_DAYS * 86400
+    if not fresh:
+        profile = get_company_profile(ticker) or {}
+        fins = get_basic_financials(ticker) or {}
+        metric = fins.get("metric") or {}
+        if profile or metric:
+            # Keep only the fields we use (the full metric payload is ~5 KB per
+            # stock). Back-date the timestamp by up to 3 days so 650 entries
+            # don't all expire on the same night and make one run very slow.
+            entry = {"ts": time.time() - random.uniform(0, 3 * 86400),
+                     "price": price,
+                     "profile": {k: profile.get(k) for k in PROFILE_KEYS if k in profile},
+                     "metric": {k: metric.get(k) for k in METRIC_KEYS if k in metric}}
+            fund_cache[ticker] = entry
+    if not entry:
+        return {}, {}
+    metric = dict(entry.get("metric") or {})
+    cap = metric.get("marketCapitalization")
+    then = entry.get("price")
+    if cap and then and price:
+        metric["marketCapitalization"] = round(cap * price / then, 2)
+    return entry.get("profile") or {}, metric
+
 
 def refresh_symbols_if_stale():
     """
@@ -391,27 +508,73 @@ def get_sector_news(sector):
 
 # ── YFINANCE FOR CANDLES / RSI ────────────────────────────────────────────────
 
+def yf_symbol(ticker):
+    """Yahoo writes share classes with a dash: BRK.B → BRK-B, BF.B → BF-B."""
+    return ticker.replace(".", "-")
+
+
+def _series_from_hist(hist):
+    """Closes/volumes from a yfinance frame, with the old extreme-range guard."""
+    hist = hist.dropna(subset=["Close"])
+    if hist.empty:
+        return None
+    closes = [float(x) for x in hist["Close"].tolist()]
+    volumes = [float(x) if x == x else 0.0 for x in hist["Volume"].tolist()]
+    if len(closes) > 10:
+        price_min, price_max = min(closes), max(closes)
+        if price_min > 0 and (price_max - price_min) / price_min * 100 > 500:
+            # Same guard as before (reverse splits, bad history): keep ~6 months.
+            print(f"  ⚠ Extreme price range — using 6 month window")
+            closes, volumes = closes[-126:], volumes[-126:]
+    return {"closes": closes, "volumes": volumes}
+
+
+def batch_yfinance(tickers, chunk=100):
+    """
+    Download 2 years of daily candles for many tickers in a few big requests
+    instead of one request per stock. Anything missing from a batch is simply
+    absent from the result; process_ticker falls back to a single fetch.
+    """
+    import yfinance as yf
+    out = {}
+    syms = {yf_symbol(t): t for t in tickers}
+    keys = list(syms)
+    for i in range(0, len(keys), chunk):
+        part = keys[i:i + chunk]
+        print(f"  yfinance batch {i // chunk + 1}/{(len(keys) + chunk - 1) // chunk} "
+              f"({len(part)} tickers)...")
+        try:
+            df = yf.download(part, period="2y", auto_adjust=True, group_by="ticker",
+                             threads=True, progress=False)
+        except Exception as e:
+            print(f"  ⚠ batch failed ({e}) — those tickers will be fetched one by one")
+            continue
+        if df is None or df.empty:
+            continue
+        for sym in part:
+            try:
+                if hasattr(df.columns, "levels") and sym in df.columns.get_level_values(0):
+                    sub = df[sym]
+                elif len(part) == 1:
+                    sub = df
+                else:
+                    continue
+                data = _series_from_hist(sub)
+                if data:
+                    out[syms[sym]] = data
+            except Exception:
+                continue
+    print(f"  ✓ yfinance batch: {len(out)}/{len(tickers)} tickers")
+    return out
+
+
 def get_yfinance_data(ticker):
     try:
         import yfinance as yf
-        stock = yf.Ticker(ticker)
-        hist = stock.history(period="2y", auto_adjust=True)
+        hist = yf.Ticker(yf_symbol(ticker)).history(period="2y", auto_adjust=True)
         if hist.empty:
             return None
-        closes = hist["Close"].tolist()
-        volumes = hist["Volume"].tolist()
-        if len(closes) > 10:
-            price_min = min(closes)
-            price_max = max(closes)
-            if price_min > 0:
-                price_range_pct = (price_max - price_min) / price_min * 100
-                if price_range_pct > 500:
-                    print(f"  ⚠ Extreme price range {price_range_pct:.0f}% — using 6 month window")
-                    hist_6m = stock.history(period="6mo", auto_adjust=True)
-                    if not hist_6m.empty:
-                        closes = hist_6m["Close"].tolist()
-                        volumes = hist_6m["Volume"].tolist()
-        return {"closes": closes, "volumes": volumes}
+        return _series_from_hist(hist)
     except Exception as e:
         print(f"  yfinance error for {ticker}: {e}")
         return None
@@ -463,8 +626,11 @@ def sanitize(obj):
 
 # ── PROCESS ONE TICKER ────────────────────────────────────────────────────────
 
-def process_ticker(ticker, sector, force_news=False):
+def process_ticker(ticker, sector, force_news=False, yf_data=None, fund_cache=None):
     """
+    yf_data: candles already pulled by batch_yfinance (None → fetch singly).
+    fund_cache: weekly profile/fundamentals cache (None → fetch live).
+
     force_news: watchlist tickers always get news attached, regardless of RSI
     or drop flags. You put them on a list because you care about them, so the
     headlines should be there when you open the row.
@@ -499,7 +665,9 @@ def process_ticker(ticker, sector, force_news=False):
     else:
         record["change_pct"] = finnhub_change_pct
 
-    profile = get_company_profile(ticker)
+    if fund_cache is None:
+        fund_cache = {}
+    profile, metric = get_cached_fundamentals(ticker, fund_cache, record["price"])
     if profile and profile.get("name"):
         name = profile.get("name", "")
         industry = profile.get("finnhubIndustry", "")
@@ -534,13 +702,17 @@ def process_ticker(ticker, sector, force_news=False):
             desc_parts.append(f"Website: {weburl}")
         record["description"] = ". ".join(desc_parts) + "." if desc_parts else ""
 
-    yf_data = get_yfinance_data(ticker)
+    if yf_data is None:
+        yf_data = get_yfinance_data(ticker)
     if yf_data:
         closes = yf_data["closes"]
         volumes = yf_data["volumes"]
         current_price = record.get("price", 0)
-        raw_low = min(closes)
-        raw_high = max(closes)
+        # 52 weeks ≈ 252 trading sessions. The 2-year history is still used
+        # for RSI/MA200; it used to leak into the "52W" high/low as well.
+        year = closes[-252:]
+        raw_low = min(year)
+        raw_high = max(year)
 
         is_foreign_price_series = (
             current_price > 0 and (
@@ -579,6 +751,8 @@ def process_ticker(ticker, sector, force_news=False):
             record["volume_avg_30d"] = round(avg_vol_30, 0)
             record["volume_ratio"] = round(
                 volumes[-1] / avg_vol_30, 2) if avg_vol_30 > 0 else None
+            # Liquidity in dollars — what the universe floor is judged on.
+            record["dollar_volume_avg_30d"] = round(avg_vol_30 * (current_price or closes[-1]), 0)
 
         if len(closes) >= 200:
             record["ma200"] = round(sum(closes[-200:]) / 200, 2)
@@ -613,6 +787,16 @@ def process_ticker(ticker, sector, force_news=False):
 
             record["drop_worst_1d"] = round(worst, 2)
             record["drop_worst_1d_days_ago"] = days_ago
+
+            # Volume ON the worst day vs. the 30 sessions before it. A flush
+            # comes with its volume spike that day; by the next run, "today's"
+            # volume has usually calmed down and the old rule missed it.
+            drop_idx = len(closes) - 1 - days_ago
+            prior = volumes[max(0, drop_idx - 30):drop_idx]
+            prior_avg = (sum(prior) / len(prior)) if prior else 0
+            record["drop_day_volume_ratio"] = (
+                round(volumes[drop_idx] / prior_avg, 2)
+                if prior_avg > 0 and drop_idx < len(volumes) else None)
             record["drop_cum_3d"] = round(cum, 2)
             record["abrupt_drop_flag"] = single_hit or cum_hit
             record["drop_trigger"] = (
@@ -637,9 +821,8 @@ def process_ticker(ticker, sector, force_news=False):
         record["worst_day_30d"] = round(worst_day, 2)
 
     else:
-        fins = get_basic_financials(ticker)
-        if fins and "metric" in fins:
-            m = fins["metric"]
+        if metric:
+            m = metric
             high_52w = m.get("52WeekHigh")
             low_52w = m.get("52WeekLow")
             if high_52w and low_52w and record.get("price"):
@@ -652,9 +835,8 @@ def process_ticker(ticker, sector, force_news=False):
                     record["pct_from_52w_high"] = round(
                         (price - high_52w) / high_52w * 100, 2)
 
-    fins = get_basic_financials(ticker)
-    if fins and "metric" in fins:
-        m = fins["metric"]
+    if metric:
+        m = metric
         record["market_cap"] = m.get("marketCapitalization")
         record["pe_ratio"] = m.get("peBasicExclExtraTTM")
         record["eps_ttm"] = m.get("epsTTM")
@@ -752,11 +934,42 @@ def main():
     except Exception as e:
         print(f"  ⚠ Symbol index refresh skipped: {e}")
 
+    print("\nLoading index universe (S&P 500 + Nasdaq-100)...")
+    try:
+        refresh_universe_if_stale()
+    except Exception as e:
+        print(f"  ⚠ Universe refresh skipped: {e}")
+    index_rows, index_counts = load_universe()
+    # Built-in lists stand in for whichever index the universe file lacks.
+    replaced = set()
+    if index_rows and index_counts.get("sp500"):
+        replaced.add("S&P500 Core")
+    if index_rows and index_counts.get("nasdaq100"):
+        replaced.add("Nasdaq100 Core")
+
+    # Order matters: the first sector a ticker is seen in is its label.
+    # 1) your themed sectors, 2) index names by GICS sector, 3) watchlist-only.
     seen = {}
+    themed = set()
     for sector, tickers in SECTORS.items():
+        if sector in replaced:
+            continue   # replaced by the real index lists below
         for t in tickers:
             if t not in seen:
                 seen[t] = sector
+                if sector not in LEGACY_INDEX_SECTORS:
+                    themed.add(t)
+    index_only = set()
+    if index_rows:
+        for row in index_rows:
+            t = row["ticker"]
+            if t not in seen:
+                seen[t] = row.get("sector") or "Other"
+                index_only.add(t)
+        print(f"  ✓ {len(index_rows)} index names loaded "
+              f"({len(index_only)} not already in your themed sectors)")
+    else:
+        print("  ⚠ No universe.json — falling back to the built-in S&P/Nasdaq core lists.")
 
     # Watchlist tickers already in the core universe keep their real sector —
     # they just gain a `watchlists` tag. Only names that exist nowhere else get
@@ -770,8 +983,14 @@ def main():
 
     universe = list(seen.items())
     print(f"\nUniverse: {len(universe)} unique tickers "
-          f"({len(universe) - len(watchlist_only)} core + "
+          f"({len(themed)} themed + {len(index_only)} index + "
           f"{len(watchlist_only)} watchlist-only)\n")
+
+    print("Downloading price history in batches...")
+    yf_batch = batch_yfinance([t for t, _ in universe])
+    fund_cache = load_fund_cache()
+    print(f"  Fundamentals cache: {len(fund_cache)} entries "
+          f"(refreshed every {FUND_MAX_AGE_DAYS} days)\n")
 
     results = []
     errors = []
@@ -785,7 +1004,8 @@ def main():
         tag = " ⭐" if on_watchlist else ""
         print(f"[{i+1}/{len(universe)}] {ticker} ({sector}){tag}...")
         try:
-            record = process_ticker(ticker, sector, force_news=on_watchlist)
+            record = process_ticker(ticker, sector, force_news=on_watchlist,
+                                    yf_data=yf_batch.get(ticker), fund_cache=fund_cache)
             if record:
                 # Empty list for non-watchlist names keeps the field's shape
                 # stable so the front-end never has to null-check it.
@@ -806,16 +1026,44 @@ def main():
             if on_watchlist:
                 watchlist_unresolved.append(ticker)
 
+    try:
+        save_fund_cache(fund_cache)
+    except Exception as e:
+        print(f"  ⚠ Could not save fundamentals cache: {e}")
+
+    # ── Liquidity floor for index-only names ─────────────────────────────────
+    # Themed and watchlist names are always kept. A name missing market cap or
+    # volume data is kept rather than silently dropped.
+    below_floor = []
+    kept = []
+    for r in results:
+        t = r["ticker"]
+        if t in index_only and t not in ticker_to_lists:
+            cap = r.get("market_cap")
+            dvol = r.get("dollar_volume_avg_30d")
+            if (cap is not None and cap < FLOOR_MIN_MCAP) or \
+               (dvol is not None and dvol < FLOOR_MIN_DOLLAR_VOL):
+                below_floor.append({"ticker": t, "market_cap": cap,
+                                    "dollar_volume_avg_30d": dvol})
+                continue
+        kept.append(r)
+    results = kept
+    if below_floor:
+        print(f"\n  Floor ($2B cap, $20M/day): dropped {len(below_floor)} index name(s): "
+              f"{', '.join(b['ticker'] for b in below_floor)}")
+
     print(f"\nBuilding sector summaries and fetching news...")
     sector_summaries = build_sector_summaries(results)
 
-    overreaction = [
+    # Spilled milk: a ≥8% one-day flush within the last 3 sessions, on ≥2×
+    # volume that day, RSI still ≤40, and a real company (≥$2B).
+    overreaction = sorted([
         r for r in results
-        if r.get("change_pct", 0) <= -8
-        and r.get("volume_ratio", 0) >= 2
-        and (r.get("rsi14", 100) or 100) <= 35
-        and (r.get("market_cap") or 0) >= 2000
-    ]
+        if (r.get("drop_worst_1d") or 0) <= OVR_DROP_PCT
+        and (r.get("drop_day_volume_ratio") or 0) >= OVR_DROP_DAY_VOL
+        and r.get("rsi14") is not None and r["rsi14"] <= OVR_MAX_RSI
+        and (r.get("market_cap") or 0) >= OVR_MIN_MCAP
+    ], key=lambda r: r.get("drop_worst_1d") or 0)
 
     near_lows = sorted(
         [r for r in results if r.get("pct_from_52w_low", 100) <= 5],
@@ -839,6 +1087,9 @@ def main():
         "overreaction_candidates": overreaction,
         "near_52w_lows": near_lows[:50],
         "errors": errors,
+        "below_floor": below_floor,
+        "universe_counts": {"themed": len(themed), "index": len(index_only),
+                            "watchlist_only": len(watchlist_only)},
 
         # ── Watchlist contract with the front-end ────────────────────────────
         # watchlist_lists      the list definitions this run fetched against.
