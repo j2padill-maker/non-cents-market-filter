@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-20T00:02:51.131692-07:00",
+  "generated_at": "2026-10-20T23:56:33.084431-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Symbotic Inc. (SYM) Outperforms Broader Market: What You Need to Know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=22bd301c6ba6a05301d65fd9c211c51e45aec0851cf2b7968ce565be497f5a6a",
+      "datetime": 1792530005,
+      "summary": "In the latest trading session, Symbotic Inc. (SYM) closed at $39.69, marking a +1.74% move from the previous day."
+    },
+    {
+      "headline": "3 Stocks to Watch as Onshoring Reshapes Supply Chains",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d356fc6f3a70fb4f471535b550f7729a2972f33c5c4d43775be2f2d3d4cc0aaa",
+      "datetime": 1792480220,
+      "summary": "Monetary policy is shifting, trade rules are being rewritten, and global supply chains are being rebuilt in real time, which is exactly where market mispricing often appears. Investors who ignore how reshoring and localization reshape costs, pricing power, and bargaining strength risk missing some of the clearest medium term stories around. This article introduces three stocks exposed to those pol"
+    },
     {
       "headline": "SoftBank Wants to Buy America\u2019s Biggest Security Guard Company and Use Robots",
       "source": "Yahoo",
@@ -36,27 +50,6 @@
       "url": "https://finnhub.io/api/news?id=699523801bb94e09fc3e005144b10c38696e4a3e830ba8c18914c07785fb751d",
       "datetime": 1791981188,
       "summary": ""
-    },
-    {
-      "headline": "Symbotic Makes Another Robotics Power Play With German Automation Acquisition",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c82881857ce308cabdee79b5e2d48ae9aace946dca42452b9b7c5cc131c5ce52",
-      "datetime": 1791901984,
-      "summary": "Symbotic Inc. (NASDAQ:SYM) announced Tuesday that it has acquired Germany-based automation company cellumation GmbH, expanding its AI-powered warehouse robotics capabilities and strengthening its presence in Europe.The acquisition adds cellumation\u2019s patented celluveyor technology to Symbotic\u2019s portfolio. The software-driven system aims to improve warehouse efficiency, increase processing capacity "
-    },
-    {
-      "headline": "Symbotic Announces Acquisition of cellumation, Advancing Next-Generation Sortation Technology for the Global Supply Chain",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=bed1561467bf7509bbf20cfb2d2ff1a6545493d8c651e71a0d3e2788b74e9f38",
-      "datetime": 1791885600,
-      "summary": "Acquisition adds the celluveyor\u2122, a software-driven sortation platform that replaces traditional conveyor infrastructure with intelligent, omnidirectional movement, enabling greater density, throughput, and efficiency cellumation will continue to operate under its own name from its headquarters in Bremen, Germany, serving its global customer-base while accelerating Symbotic's expansion across Euro"
-    },
-    {
-      "headline": "Symbotic Acquires German Automation Company Cellumation; Financial Terms Not Disclosed",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=38702fda7ebd6a84efd9c338518f9d83c52fca74b1611f2c7f3df55f5f38cda5",
-      "datetime": 1791872229,
-      "summary": "cellumation GmbH (cellumation) is a Bremen, Germany-based automation company and creator of the celluveyor, a patented, software-driven sortation technology.Beyond the Conveyor: A Denser, Smarter Symbotic SystemThe"
     }
   ],
   "filings": [
@@ -82,50 +75,50 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-19",
+  "data_asof": "2026-10-20",
   "price": {
-    "last": 39.01,
-    "open": 39.77,
-    "prev_close": 38.77,
-    "move_day_pct": 0.62,
-    "move_open_close_pct": -1.91,
-    "move_week_pct": -4.34
+    "last": 39.69,
+    "open": 38.7,
+    "prev_close": 39.01,
+    "move_day_pct": 1.74,
+    "move_open_close_pct": 2.56,
+    "move_week_pct": -2.93
   },
   "indicators": {
     "rsi14": {
-      "value": 41.1,
+      "value": 43.8,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.842,
-      "signal": -0.343,
-      "hist": -0.499,
-      "hist_prev": -0.524,
+      "macd": -0.856,
+      "signal": -0.446,
+      "hist": -0.41,
+      "hist_prev": -0.499,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 45.85,
-      "lower": 38.19,
-      "mid": 42.02,
-      "pctb": 0.107,
-      "read": "Near the lower band"
+      "upper": 45.44,
+      "lower": 38.07,
+      "mid": 41.75,
+      "pctb": 0.22,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 2.93,
+      "value": 4.72,
       "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -55.32,
+      "value": -54.54,
       "read": "55% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 49.45,
-      "pct": -21.11,
-      "read": "21% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 49.32,
+      "pct": -19.53,
+      "read": "20% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 1.98,
-      "pct_of_price": 5.08,
+      "value": 1.99,
+      "pct_of_price": 5.03,
       "read": "High daily volatility"
     },
     "rel_volume": {
@@ -133,12 +126,12 @@
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 52.2,
+      "value": 52.6,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 37.9,
   "high_52w": 87.3,
-  "ma50": 41.75,
-  "ma200": 49.45
+  "ma50": 41.74,
+  "ma200": 49.32
 }

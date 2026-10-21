@@ -2,7 +2,7 @@
   "ticker": "TOELF",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-20T00:02:48.560728-07:00",
+  "generated_at": "2026-10-20T23:56:30.976730-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -29,76 +29,69 @@
       "url": "https://finnhub.io/api/news?id=5998d6a73c14a3ca64b0f508dd16264c86ecf20dec8849f02cb860d31fa193b4",
       "datetime": 1792029023,
       "summary": "HONG KONG (AP) \u2014 South Korea\u2019s benchmark Kospi index sank more than 7% on Thursday as a sell-off of technology shares deepened after U. stocks fell on hotter-than-expected inflation data."
-    },
-    {
-      "headline": "South Korea's Kospi index sinks more than 7% on semiconductor share sell-off over AI boom worries",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=daa5ba8aa9b20902d5ae142ea94e15b7ed22a1a8ab9871e0907d8d97a477985c",
-      "datetime": 1791860166,
-      "summary": "HONG KONG (AP) \u2014 South Korea\u2019s benchmark Kospi index dropped more than 7% on Tuesday on a sell-off of chip shares, and Asian shares mostly declined after U. futures were also mixed, and oil prices fell as escalating tensions in the Middle East continued."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-19",
+  "data_asof": "2026-10-20",
   "price": {
-    "last": 65.24,
-    "open": 65.24,
-    "prev_close": 64.25,
-    "move_day_pct": 1.54,
-    "move_open_close_pct": 0.0,
-    "move_week_pct": -14.97
+    "last": 64.44,
+    "open": 64.23,
+    "prev_close": 65.24,
+    "move_day_pct": -1.23,
+    "move_open_close_pct": 0.33,
+    "move_week_pct": -11.54
   },
   "indicators": {
     "rsi14": {
-      "value": 39.0,
+      "value": 37.9,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -0.404,
-      "signal": 1.264,
-      "hist": -1.668,
-      "hist_prev": -1.505,
+      "macd": -0.917,
+      "signal": 0.828,
+      "hist": -1.745,
+      "hist_prev": -1.668,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 84.9,
-      "lower": 62.05,
-      "mid": 73.47,
-      "pctb": 0.14,
+      "upper": 85.17,
+      "lower": 61.38,
+      "mid": 73.28,
+      "pctb": 0.129,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 78.51,
-      "read": "79% above its 52-week low"
+      "value": 76.33,
+      "read": "76% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -31.91,
-      "read": "32% below its 52-week high"
+      "value": -32.75,
+      "read": "33% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 63.39,
-      "pct": 2.92,
-      "read": "3% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 63.51,
+      "pct": 1.46,
+      "read": "1% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 4.56,
-      "pct_of_price": 7.0,
+      "value": 4.43,
+      "pct_of_price": 6.88,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 4.38,
+      "value": 3.28,
       "read": "Heavy volume \u2014 well above average"
     },
     "mfi14": {
-      "value": 19.9,
+      "value": 17.8,
       "read": "Oversold \u2014 money flowing out"
     }
   },
   "low_52w": 36.55,
   "high_52w": 95.82,
-  "ma50": 69.7,
-  "ma200": 63.39
+  "ma50": 69.62,
+  "ma200": 63.51
 }

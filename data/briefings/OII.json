@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-20T00:02:52.139436-07:00",
+  "generated_at": "2026-10-20T23:56:33.860771-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Oceaneering (OII) Q3 Earnings: What To Expect",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e5627c9759842b6e8bef404bbdf18726f16c4d5125619b2598f6524b5827fb99",
+      "datetime": 1792496510,
+      "summary": "Offshore services provider Oceaneering International (NYSE:OII) will be reporting results this Wednesday after the bell. Here\u2019s what you need to know."
+    },
     {
       "headline": "3 Profitable Stocks We\u2019re Skeptical Of",
       "source": "Yahoo",
@@ -47,63 +54,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-19",
+  "data_asof": "2026-10-20",
   "price": {
-    "last": 44.43,
-    "open": 44.1,
-    "prev_close": 43.79,
-    "move_day_pct": 1.46,
-    "move_open_close_pct": 0.75,
-    "move_week_pct": 0.02
+    "last": 44.07,
+    "open": 44.73,
+    "prev_close": 44.43,
+    "move_day_pct": -0.81,
+    "move_open_close_pct": -1.48,
+    "move_week_pct": -1.63
   },
   "indicators": {
     "rsi14": {
-      "value": 44.6,
+      "value": 43.1,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -1.041,
-      "signal": -1.122,
-      "hist": 0.082,
-      "hist_prev": 0.014,
+      "macd": -0.988,
+      "signal": -1.096,
+      "hist": 0.107,
+      "hist_prev": 0.082,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 46.8,
-      "lower": 42.74,
-      "mid": 44.77,
-      "pctb": 0.416,
+      "upper": 46.62,
+      "lower": 42.71,
+      "mid": 44.67,
+      "pctb": 0.347,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 96.51,
-      "read": "97% above its 52-week low"
+      "value": 94.91,
+      "read": "95% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -17.89,
-      "read": "18% below its 52-week high"
+      "value": -18.55,
+      "read": "19% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 39.66,
-      "pct": 12.03,
-      "read": "12% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 39.76,
+      "pct": 10.84,
+      "read": "11% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 1.63,
-      "pct_of_price": 3.66,
+      "value": 1.59,
+      "pct_of_price": 3.61,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.63,
+      "value": 0.51,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 45.4,
+      "value": 49.1,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 22.61,
   "high_52w": 54.11,
-  "ma50": 48.14,
-  "ma200": 39.66
+  "ma50": 48.0,
+  "ma200": 39.76
 }

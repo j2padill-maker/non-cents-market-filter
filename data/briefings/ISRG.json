@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-20T00:02:50.801970-07:00",
+  "generated_at": "2026-10-20T23:56:32.853001-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,49 +17,55 @@
   ],
   "news": [
     {
-      "headline": "3 Wall Street Analysts See Intuitive Surgical Hitting $500. Here's the Bull Case.",
+      "headline": "What Intuitive Surgical (ISRG) Said on Its Q3 Earnings Call",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6fc1de7203db33a2382cf4d66bd9c541645c0bb4b1b60dee288f463e9e04e5c0",
-      "datetime": 1792417800,
-      "summary": "Robotic surgery is growing, procedures are climbing, and da Vinci 5 is rolling out. Is Intuitive Surgical's premium valuation worth paying?"
+      "url": "https://finnhub.io/api/news?id=b22afae0c7b66cb0cf7b8159629cff5bf27006fad471cbc040e73210fa6b7226",
+      "datetime": 1792540978,
+      "summary": "Intuitive Surgical (NASDAQ:ISRG) reported third-quarter 2026 revenue growth of 22% to just over $3 billion as procedure growth, system placements and adoption of newer platforms supported results. The company said 84% of quarterly revenue was recurring revenue, while non-GAAP earnings per share rose"
     },
     {
-      "headline": "Stryker Enters Soft-Tissue Robotics With $400 Million CMR Deal",
+      "headline": "Intuitive Surgical (ISRG) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f4eaaedff97b4972d50dc0563b022d88089a838a0b6e9ab48df93d50dbe497ea",
-      "datetime": 1792415700,
-      "summary": "SYK's $400 million investment in CMR Surgical marks its entry into soft-tissue robotics, expanding its surgical portfolio with Versius technology."
+      "url": "https://finnhub.io/api/news?id=846e6c3c655aa2f76707afe8fa524b3bdb5a4fae4d8806e7c4835dfae32da9b2",
+      "datetime": 1792533602,
+      "summary": "The headline numbers for Intuitive Surgical (ISRG) give insight into how the company performed in the quarter ended September 2026, but it may be worthwhile to compare some of its key metrics to Wall Street estimates and the year-ago actuals."
     },
     {
-      "headline": "Zacks Investment Ideas feature highlights: Intuitive Surgical",
+      "headline": "Dow Jones Futures Rise As SpaceX Crushes Views, Eyes Tesla Merger; Meta Looms",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=68c9321c0027ea4ceddf4569dd92eef5969ebf0757baddb131e653b18db46ae1",
-      "datetime": 1792398600,
-      "summary": "Intuitive Surgical has rebounded from recent lows, with double-digit sales growth projected and potential 43% upside as its robotic surgery business expands."
+      "url": "https://finnhub.io/api/news?id=514e5ced8a575e9d239671a711d97708460e8f3944db5d2aee88c6e36b85e8c6",
+      "datetime": 1792532086,
+      "summary": "The Dow and S&P 500 reclaimed their 50-day line. SpaceX crushed earnings views and is mulling a Tesla merger. Meta looms."
     },
     {
-      "headline": "Intuitive Surgical Earnings: What To Look For From ISRG",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a14703401b8c841024958b2e7c0ae42360175dc567c76473a8868605fc607639",
-      "datetime": 1792381817,
-      "summary": "Medical technology company Intuitive Surgical (NASDAQ:ISRG) will be announcing earnings results this Tuesday after market hours. Here\u2019s what investors should know."
+      "headline": "Intuitive Surgical, Inc. (ISRG) Q3 2026 Earnings Call Transcript",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=37a30b17e2f372c1014599769302ec40abcd3210860e4ab8e70c1380dd125c4f",
+      "datetime": 1792531448,
+      "summary": "Intuitive Surgical, Inc. (ISRG) Q3 2026 Earnings Call October 20, 2026 4:30 PM EDTCompany ParticipantsDaniel Connally - VP & Head of Investor..."
     },
     {
-      "headline": "Intuitive Surgical (ISRG) Stock Is Down 25% Year to Date. History Says Patient Investors Get Rewarded.",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=13b7fc1a129237e6bd7974e8106c69b79d2eb7408bda7a8d371aec27bb065fce",
-      "datetime": 1792246800,
-      "summary": "I'm a shareholder, myself, with no plans to sell."
+      "headline": "S&P 500 After-Hours Movers: Oct. 20 Gainers and Decliners",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=c64ac84300eb06af8778d97c23770198223fcac002263e5deebf7dd9a10e0385",
+      "datetime": 1792530359,
+      "summary": "Super Micro Computer and Capital One led S&P 500 after-hours gainers on Oct. 20, while Lowe's and Intuitive Surgical led decliners."
     },
     {
-      "headline": "Forget AI Stocks: Buy Med-Tech Stock ISRG Now for 40% Upside",
+      "headline": "Intuitive Surgical Tumbles After Robotic Surgery Behemoth Narrows 2026 Outlook",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4db4de74806b0e5104f5f77118d9ce95cdc886f0252f7f43af6b42e9db72fde1",
-      "datetime": 1792180320,
-      "summary": "Intuitive Surgical stock earns a Zacks Rank #2 (Buy) and looks poised for a potential technical breakout as it overtakes vital long-term levels heading into its Q3 earnings release on October 20."
+      "url": "https://finnhub.io/api/news?id=662c96d482611a0a1334b0971c189cccd38f24b080c3b26747987958aaeed58b",
+      "datetime": 1792530275,
+      "summary": "Intuitive Surgical stock tumbled late Tuesday after the company narrowed its guidance for 2026 da Vinci procedure growth."
     }
   ],
   "filings": [
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-10-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000067/isrg-20261020.htm"
+    },
     {
       "form": "8-K",
       "title": "Material event (8-K)",
@@ -71,74 +77,68 @@
       "title": "Quarterly report (10-Q)",
       "date": "2026-07-21",
       "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000058/isrg-20260630.htm"
-    },
-    {
-      "form": "8-K",
-      "title": "Material event (8-K)",
-      "date": "2026-07-16",
-      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000047/isrg-20260716.htm"
     }
   ],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-19",
+  "data_asof": "2026-10-20",
   "price": {
-    "last": 433.18,
-    "open": 428.79,
-    "prev_close": 426.7,
-    "move_day_pct": 1.52,
-    "move_open_close_pct": 1.02,
-    "move_week_pct": 1.3
+    "last": 438.0,
+    "open": 433.5,
+    "prev_close": 433.18,
+    "move_day_pct": 1.11,
+    "move_open_close_pct": 1.04,
+    "move_week_pct": 3.78
   },
   "indicators": {
     "rsi14": {
-      "value": 67.7,
+      "value": 69.7,
       "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 11.298,
-      "signal": 10.029,
-      "hist": 1.27,
-      "hist_prev": 1.13,
+      "macd": 11.912,
+      "signal": 10.406,
+      "hist": 1.507,
+      "hist_prev": 1.27,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 435.56,
-      "lower": 389.91,
-      "mid": 412.73,
-      "pctb": 0.948,
+      "upper": 439.29,
+      "lower": 389.77,
+      "mid": 414.53,
+      "pctb": 0.974,
       "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 30.47,
-      "read": "30% above its 52-week low"
+      "value": 31.92,
+      "read": "32% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -26.93,
-      "read": "27% below its 52-week high"
+      "value": -26.12,
+      "read": "26% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 438.97,
-      "pct": -1.32,
-      "read": "1% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 438.35,
+      "pct": -0.08,
+      "read": "0% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 10.89,
-      "pct_of_price": 2.52,
+      "value": 10.72,
+      "pct_of_price": 2.45,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 1.11,
-      "read": "Roughly average volume"
+      "value": 1.5,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 68.4,
+      "value": 76.2,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 332.02,
   "high_52w": 592.85,
-  "ma50": 392.76,
-  "ma200": 438.97
+  "ma50": 393.65,
+  "ma200": 438.35
 }

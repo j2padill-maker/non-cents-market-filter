@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-20T00:02:51.459149-07:00",
+  "generated_at": "2026-10-20T23:56:33.332549-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -31,6 +31,13 @@
       "summary": "S&P 500 top movers for today's session: SNDK, MRVL and DDOG led gainers, while NRG, MOS and AMP led losers."
     },
     {
+      "headline": "Stock Market Today: Nasdaq 100 Rises as AI Chip Rout Reverses, SanDisk Jumps 7%",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=f6b57f4b5bdeed64354447674353d7e4568ac6cb312e07adac5ad57d66116b4e",
+      "datetime": 1792414702,
+      "summary": "Tech rebounded from last week&#39;s rout as chip stocks bounced and steel maker Cleveland-Cliffs soared on earnings, while the 10-year yield climbed to 5.14%."
+    },
+    {
       "headline": "S&P 500 Premarket Movers: Gainers and Losers on Oct. 19, 2026",
       "source": "ChartMill",
       "url": "https://finnhub.io/api/news?id=0c9d1cca5c75581761f42ca2abf92c95b06d611e34185f4fde9cdead51cd00c2",
@@ -45,18 +52,11 @@
       "summary": "Applied Materials just suffered one of its steepest drops in years, yet analysts keep raising their earnings estimates and some price targets sit nearly double the current share price. Here is what the disconnect reveals about where semiconductor equipment spending may be headed."
     },
     {
-      "headline": "Live On CNBC, Josh Brown Hosts Segment Titled \"Josh's Best Stocks In The Market: KLA Corp\"",
+      "headline": "Qnity Electronics shares are trading higher after RBC Capital maintained its Outperform rating on the stock and raised its price target from $139 to $150.",
       "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=e7a202569163ffa578a240c0c85b29cec02d7407f8714f480fe06ba7d2b61cca",
+      "url": "https://finnhub.io/api/news?id=a67a99dc4c72488d87c7d9cc846310792f9f7945dddf541d19ccaa4ee0d86994",
       "datetime": 1792406171,
       "summary": ""
-    },
-    {
-      "headline": "Chip Stocks Repeated a Lehman-Era Losing Streak: Is The Bottom Now In?",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=1fc94f10ac00e510cdb9f7af9a54decff8b8465bde369838cde767fa686faf63",
-      "datetime": 1792398274,
-      "summary": "The SOX fell eight straight sessions for the first time since 2008. Cantor\u2019s C.J. Muse says equipment is sold out as JPMorgan upgrades Intel."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-19",
+  "data_asof": "2026-10-20",
   "price": {
-    "last": 335.53,
-    "open": 341.5,
-    "prev_close": 325.0,
-    "move_day_pct": 3.24,
-    "move_open_close_pct": -1.75,
-    "move_week_pct": -12.59
+    "last": 336.59,
+    "open": 328.03,
+    "prev_close": 335.53,
+    "move_day_pct": 0.32,
+    "move_open_close_pct": 2.61,
+    "move_week_pct": -11.49
   },
   "indicators": {
     "rsi14": {
-      "value": 37.0,
+      "value": 37.4,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -8.719,
-      "signal": 1.952,
-      "hist": -10.67,
-      "hist_prev": -10.471,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -10.781,
+      "signal": -0.595,
+      "hist": -10.186,
+      "hist_prev": -10.67,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 456.69,
-      "lower": 329.25,
-      "mid": 392.97,
-      "pctb": 0.049,
+      "upper": 458.06,
+      "lower": 321.67,
+      "mid": 389.86,
+      "pctb": 0.109,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 143.33,
+      "value": 142.9,
       "read": "143% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -30.63,
-      "read": "31% below its 52-week high"
+      "value": -30.41,
+      "read": "30% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 345.24,
-      "pct": -2.81,
+      "ma200": 345.88,
+      "pct": -2.69,
       "read": "3% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 21.24,
-      "pct_of_price": 6.33,
+      "value": 21.2,
+      "pct_of_price": 6.3,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.27,
+      "value": 0.91,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 27.9,
+      "value": 27.5,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": 137.89,
+  "low_52w": 138.57,
   "high_52w": 483.65,
-  "ma50": 379.56,
-  "ma200": 345.24
+  "ma50": 379.0,
+  "ma200": 345.88
 }

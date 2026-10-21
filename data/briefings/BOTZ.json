@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-20T00:02:51.893154-07:00",
+  "generated_at": "2026-10-20T23:56:33.668796-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "Choppy Trading Leaves Dow Higher And Nasdaq Flat",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=75f43f3fa0765253b630db98a765d149c37a05c0670952d060ea25fa8fd63ea3",
+      "datetime": 1792525500,
+      "summary": "Investors are likely waiting on earnings for market direction. SpaceX posts its first quarterly profit."
+    },
+    {
+      "headline": "All Booms End In A Bust - The AI Boom Is Likely No Different",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=aac91a5b1efbc743283c029bfcd8f317fb927319a8c003547b989a1ca736ec6b",
+      "datetime": 1792487100,
+      "summary": "We believe AI will be transformative, but we also believe the investment boom surrounding it has become a bubble that may burst sooner than most analysts expect. Read more here..."
+    },
+    {
+      "headline": "AI Bubble Or Not, Investors Should Manage The Risk Now",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=20a01a5552827718f7886ca9208249d00be3c3613cb265d8daa9e83373302daa",
+      "datetime": 1792481700,
+      "summary": "Despite headlines about large inflows and outflows, Bitcoin ETFs have maintained their total assets under management in BTC terms since the beginning of the year. Read more here."
+    },
+    {
+      "headline": "How Geopolitics Is Redefining Defense, Energy, Technology And Global Markets",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=66ff0661bc4830db3dd81d328b8b4662c0f4bed1e795e8c822578493bc831042",
+      "datetime": 1792467600,
+      "summary": "Geopolitical tensions are increasingly reshaping the global economy. Learn why geopolitical fragmentation is reshaping the global economy and increasing the focus on resilience."
+    },
+    {
       "headline": "Weekly Market Pulse: Reality Bites",
       "source": "SeekingAlpha",
       "url": "https://finnhub.io/api/news?id=a02a3b1553e88ac2154d3ea698c43c97449dc78581de65f33a65edba64f8d22f",
@@ -29,97 +57,69 @@
       "url": "https://finnhub.io/api/news?id=fff01f85ced320d24001763713dc867a820ccd67a3ecee3a5e25e43eaeb29b24",
       "datetime": 1792206600,
       "summary": "We believe we are currently in the early stages of a transformative era in technology that should be a significant catalyst for future economic growth. Read more here."
-    },
-    {
-      "headline": "The AI Supercycle, Asia, And Why This Time Is Different",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=38742d1d5916af83c5350ce68f0ddd46c425ebcdfad5d8e9debba1de9eaf54f6",
-      "datetime": 1792197000,
-      "summary": "The AI race is about more than who builds the best model. Click here to read more."
-    },
-    {
-      "headline": "Surprise! Bonds As Safe Havens, Again",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=65af7b0b5793c27fdaec88f5aacb94f1adfbce029188819583960a96b5a5d104",
-      "datetime": 1792192800,
-      "summary": "As the week got underway, yields on US Treasuries were close to their recent decades-long highs."
-    },
-    {
-      "headline": "It's All About Interest Rates",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=7cbbdda2668a72e3341de4ba6f7dab3c0da73b31f8719d004f1e635d4cdb57cb",
-      "datetime": 1792150200,
-      "summary": "Inflation concerns, elevated oil prices and uncertainty over the Iran conflict are driving interest rates higher. Higher rates raise the bar for investing in broad data center expansion."
-    },
-    {
-      "headline": "AI Boom At Risk? Geopolitics, China, And Market Opportunities For 2027",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=03817ef15ccda05c82624757ebd8ba3e52585270ff5620041ba2e5fe8670ca71",
-      "datetime": 1792148700,
-      "summary": "Peter Boockvar, CIO at OnePoint BFG Wealth Partners, and Allison Fedirka, Co-Founder of the Allonia Group, explore the biggest risks and opportunities facing investors. Read more here..."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-19",
+  "data_asof": "2026-10-20",
   "price": {
-    "last": 33.35,
-    "open": 33.45,
-    "prev_close": 33.02,
-    "move_day_pct": 1.0,
-    "move_open_close_pct": -0.3,
-    "move_week_pct": -4.44
+    "last": 33.59,
+    "open": 33.3,
+    "prev_close": 33.35,
+    "move_day_pct": 0.72,
+    "move_open_close_pct": 0.87,
+    "move_week_pct": -3.92
   },
   "indicators": {
     "rsi14": {
-      "value": 34.8,
+      "value": 37.6,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -0.498,
-      "signal": -0.254,
-      "hist": -0.244,
-      "hist_prev": -0.234,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -0.529,
+      "signal": -0.309,
+      "hist": -0.221,
+      "hist_prev": -0.244,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 36.81,
-      "lower": 33.33,
-      "mid": 35.07,
-      "pctb": 0.006,
+      "upper": 36.75,
+      "lower": 33.15,
+      "mid": 34.95,
+      "pctb": 0.122,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 4.3,
-      "read": "Sitting right at its 52-week low"
+      "value": 5.05,
+      "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -19.85,
-      "read": "20% below its 52-week high"
+      "value": -19.27,
+      "read": "19% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 36.79,
-      "pct": -9.35,
+      "ma200": 36.77,
+      "pct": -8.65,
       "read": "9% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.63,
-      "pct_of_price": 1.89,
+      "value": 0.62,
+      "pct_of_price": 1.86,
       "read": "Calm \u2014 low volatility"
     },
     "rel_volume": {
-      "value": 0.93,
+      "value": 1.24,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 44.9,
+      "value": 47.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 31.97,
   "high_52w": 41.61,
-  "ma50": 35.6,
-  "ma200": 36.79
+  "ma50": 35.52,
+  "ma200": 36.77
 }
