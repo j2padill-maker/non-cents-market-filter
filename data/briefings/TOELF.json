@@ -2,7 +2,7 @@
   "ticker": "TOELF",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-20T23:56:30.976730-07:00",
+  "generated_at": "2026-10-21T23:59:26.957337-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -35,14 +35,14 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-20",
+  "data_asof": "2026-10-21",
   "price": {
-    "last": 64.44,
-    "open": 64.23,
-    "prev_close": 65.24,
-    "move_day_pct": -1.23,
-    "move_open_close_pct": 0.33,
-    "move_week_pct": -11.54
+    "last": 64.38,
+    "open": 65.77,
+    "prev_close": 64.44,
+    "move_day_pct": -0.09,
+    "move_open_close_pct": -2.11,
+    "move_week_pct": -7.02
   },
   "indicators": {
     "rsi14": {
@@ -50,48 +50,48 @@
       "read": "Oversold"
     },
     "macd": {
-      "macd": -0.917,
-      "signal": 0.828,
-      "hist": -1.745,
-      "hist_prev": -1.668,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -1.314,
+      "signal": 0.399,
+      "hist": -1.714,
+      "hist_prev": -1.745,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 85.17,
-      "lower": 61.38,
-      "mid": 73.28,
-      "pctb": 0.129,
+      "upper": 85.41,
+      "lower": 60.79,
+      "mid": 73.1,
+      "pctb": 0.146,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 76.33,
+      "value": 76.16,
       "read": "76% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -32.75,
+      "value": -32.81,
       "read": "33% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 63.51,
-      "pct": 1.46,
+      "ma200": 63.6,
+      "pct": 1.23,
       "read": "1% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 4.43,
-      "pct_of_price": 6.88,
+      "value": 4.22,
+      "pct_of_price": 6.55,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 3.28,
-      "read": "Heavy volume \u2014 well above average"
+      "value": 1.11,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 17.8,
-      "read": "Oversold \u2014 money flowing out"
+      "value": 20.3,
+      "read": "Neutral money flow"
     }
   },
   "low_52w": 36.55,
   "high_52w": 95.82,
-  "ma50": 69.62,
-  "ma200": 63.51
+  "ma50": 69.57,
+  "ma200": 63.6
 }

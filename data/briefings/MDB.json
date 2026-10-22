@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-20T23:56:30.000047-07:00",
+  "generated_at": "2026-10-21T23:59:25.975958-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -15,50 +15,7 @@
     "rel_volume",
     "mfi14"
   ],
-  "news": [
-    {
-      "headline": "Can MongoDB (MDB) Hold Its Guidance After Losing Its Chief Executive?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e2149338627e850c50112455fa405d06d59383e1b7668242bbc94870292e6c50",
-      "datetime": 1792507842,
-      "summary": "MongoDB, Inc. (NASDAQ:MDB) closed at $348.69 on October 19. The stock returned 32% over the last 6 months, compared with an 11.6% return for the Insider Monkey Billionaire Index and 8.7% for the State Street SPDR S&P 500 ETF Trust. MongoDB lost its chief executive on September 28. Chirantan Desai left with immediate effect to join [\u2026]"
-    },
-    {
-      "headline": "Qualys, DigitalOcean, Twilio, CrowdStrike, and MongoDB Shares Are Falling, What You Need To Know",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=cb043257a060e0a9a3a0d8abd0461af1f83ce214893f03b0d78da245f3ede34a",
-      "datetime": 1792179099,
-      "summary": "A number of stocks fell in the afternoon session after investors shifted their focus from what AI technology can do toward concerns over how companies will finance it."
-    },
-    {
-      "headline": "MongoDB (MDB) Laps the Stock Market: Here's Why",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=74a21c6ae54e720aaea01de0f7ae355f0f02376e293569c8112832e2f9a25d90",
-      "datetime": 1792098905,
-      "summary": "In the closing of the recent trading day, MongoDB (MDB) stood at $366.49, denoting a +2.86% move from the preceding trading day."
-    },
-    {
-      "headline": "MongoDB's Enterprise Customer Base Grows: Can Atlas Sustain Momentum?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=11ebe40f8603c2964e9c035d9b9916ec766ae0cd86a18f90625a7cb85fae6838",
-      "datetime": 1792077840,
-      "summary": "MDB's growing large-enterprise customer base is driving Atlas consumption, higher recurring revenues and broader adoption of AI-powered database capabilities."
-    },
-    {
-      "headline": "MongoDB lets apps pay only for what they use",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d97384798bbc292b802110ee2003d991dbc98ddcb1c369473474b42a4bab2016",
-      "datetime": 1792034220,
-      "summary": "The impact of executive departures remains an open question, along with whether customers\u2019 overall spending will dip."
-    },
-    {
-      "headline": "MongoDB Falls 11% YTD: Here's Why You Should Buy the Stock Now",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=494c33dc58447895e1148484630abbf1e40a6f4e83b9c4aeb459ea3b4a8b1163",
-      "datetime": 1791986220,
-      "summary": "MDB's shares are down 11.1% YTD, but strong Atlas growth, expanding AI capabilities and rising earnings estimates make the pullback a buying opportunity."
-    }
-  ],
+  "news": [],
   "filings": [
     {
       "form": "8-K",
@@ -82,63 +39,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-20",
+  "data_asof": "2026-10-21",
   "price": {
-    "last": 366.18,
-    "open": 346.32,
-    "prev_close": 348.69,
-    "move_day_pct": 5.02,
-    "move_open_close_pct": 5.73,
-    "move_week_pct": -1.85
+    "last": 390.75,
+    "open": 368.04,
+    "prev_close": 366.18,
+    "move_day_pct": 6.71,
+    "move_open_close_pct": 6.17,
+    "move_week_pct": 9.67
   },
   "indicators": {
     "rsi14": {
-      "value": 48.6,
+      "value": 55.2,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -7.665,
-      "signal": -7.14,
-      "hist": -0.525,
-      "hist_prev": -1.608,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -4.872,
+      "signal": -6.686,
+      "hist": 1.814,
+      "hist_prev": -0.525,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 419.45,
-      "lower": 316.57,
-      "mid": 368.01,
-      "pctb": 0.482,
+      "upper": 410.92,
+      "lower": 321.34,
+      "mid": 366.13,
+      "pctb": 0.775,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 62.06,
-      "read": "62% above its 52-week low"
+      "value": 72.94,
+      "read": "73% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -22.47,
-      "read": "22% below its 52-week high"
+      "value": -17.26,
+      "read": "17% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 339.21,
-      "pct": 7.95,
-      "read": "8% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 339.06,
+      "pct": 15.25,
+      "read": "15% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 24.54,
-      "pct_of_price": 6.7,
+      "value": 24.84,
+      "pct_of_price": 6.36,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.51,
+      "value": 0.94,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 66.4,
+      "value": 75.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 393.01,
-  "ma200": 339.21
+  "ma50": 392.05,
+  "ma200": 339.06
 }

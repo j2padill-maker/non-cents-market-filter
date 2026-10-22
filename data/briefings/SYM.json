@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-20T23:56:33.084431-07:00",
+  "generated_at": "2026-10-21T23:59:29.437718-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -43,13 +43,6 @@
       "url": "https://finnhub.io/api/news?id=4f1b1e1da13f040b6d189bcda4485d64e58e51c63e7c17306e567ceeb00112df",
       "datetime": 1792075203,
       "summary": "SCSC vs. SYM: Which Stock Is the Better Value Option?"
-    },
-    {
-      "headline": "Trading Halt: Halt status updated at 8:55:00 AM ET: Quotation Resumption: News and Resumption Times",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=699523801bb94e09fc3e005144b10c38696e4a3e830ba8c18914c07785fb751d",
-      "datetime": 1791981188,
-      "summary": ""
     }
   ],
   "filings": [
@@ -75,63 +68,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-20",
+  "data_asof": "2026-10-21",
   "price": {
-    "last": 39.69,
-    "open": 38.7,
-    "prev_close": 39.01,
-    "move_day_pct": 1.74,
-    "move_open_close_pct": 2.56,
-    "move_week_pct": -2.93
+    "last": 41.73,
+    "open": 40.36,
+    "prev_close": 39.69,
+    "move_day_pct": 5.14,
+    "move_open_close_pct": 3.39,
+    "move_week_pct": 10.11
   },
   "indicators": {
     "rsi14": {
-      "value": 43.8,
+      "value": 51.1,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.856,
-      "signal": -0.446,
-      "hist": -0.41,
-      "hist_prev": -0.499,
+      "macd": -0.695,
+      "signal": -0.496,
+      "hist": -0.199,
+      "hist_prev": -0.41,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 45.44,
-      "lower": 38.07,
-      "mid": 41.75,
-      "pctb": 0.22,
+      "upper": 45.23,
+      "lower": 38.08,
+      "mid": 41.65,
+      "pctb": 0.511,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 4.72,
-      "read": "Sitting right at its 52-week low"
+      "value": 10.11,
+      "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -54.54,
-      "read": "55% below its 52-week high"
+      "value": -52.2,
+      "read": "52% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 49.32,
-      "pct": -19.53,
-      "read": "20% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 49.19,
+      "pct": -15.17,
+      "read": "15% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 1.99,
-      "pct_of_price": 5.03,
+      "value": 2.04,
+      "pct_of_price": 4.88,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.89,
-      "read": "Roughly average volume"
+      "value": 1.35,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 52.6,
+      "value": 53.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 37.9,
   "high_52w": 87.3,
   "ma50": 41.74,
-  "ma200": 49.32
+  "ma200": 49.19
 }

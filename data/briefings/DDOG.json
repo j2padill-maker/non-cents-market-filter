@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-20T23:56:31.314566-07:00",
+  "generated_at": "2026-10-21T23:59:27.403781-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Cloudflare Soars 6% as PHP Flaw Hitting 70% of Websites Lifts Security Stocks",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=be5ac054ce51d42ab908798e8028bbc705b0b88a2b8d006122426113e26bae50",
+      "datetime": 1792610609,
+      "summary": "Key TakeawaysCloudflare stock rose 6% and Datadog rose 7% today after PHP patched two critical flaws in software that runs an estimated 70% of websites. Cloudflare gave every customer firewall rules against the known attacks, including free users, which shows why its place in front of millions of sites is valuable."
+    },
+    {
+      "headline": "3 Big Reasons to Love Datadog (DDOG)",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=4d1a6325927e3e1f565d9836e84c5a1a00529faffeb95e21ed856ff5a58f47c6",
+      "datetime": 1792608879,
+      "summary": "Datadog has been on fire lately. In the past six months alone, the company\u2019s stock price has rocketed 99.7%, reaching $258.22 per share. This was partly thanks to its solid quarterly results, and the performance may have investors wondering how to approach the situation."
+    },
+    {
+      "headline": "Arista Networks vs. Datadog: Which Technology Stock Is a Better Buy in 2026?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=701f310f04ba1f08eed26771d996652dba505f5b3c73f58ef6c915979f9e0e03",
+      "datetime": 1792593644,
+      "summary": "One powers the physical backbone of AI infrastructure, while the other monitors it. Their valuations tell starkly different stories."
+    },
     {
       "headline": "Datadog (DDOG) Stock Falls Amid Market Uptick: What Investors Need to Know",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=f638110ff1af37f8617e3c0cddf2fe1a5da6c542de5be1bd79af595c28438af5",
       "datetime": 1792504190,
       "summary": "Check out the companies making headlines yesterday:"
-    },
-    {
-      "headline": "Bernstein Upgrades Datadog Stock As AI Tailwinds Boost Growth",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6e7828fa30cfd7356c2a4e68049c2a1b8901b6fcc06d5bfbd5fc90c3449a5033",
-      "datetime": 1792498427,
-      "summary": "Key Stats for Datadog StockPrice change for Datadog stock in last 6 months: 104%$DDOG Stock Price as of Oct. 19: $26052-Week High: $301$DDOG Stock Price Target: $290What Happened?Bernstein upgraded Datadog (DDOG:NASDAQ) to Outperform from Market-Perform on Monday and raised its price target to $350 from $237, , Investing."
-    },
-    {
-      "headline": "Is Most-Watched Stock Datadog, Inc. (DDOG) Worth Betting on Now?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0b56c9058556cfae2ff24b3a511cdaaf7231f8977151322d5b9a74dd26d6866c",
-      "datetime": 1792497603,
-      "summary": "Datadog (DDOG) has been one of the stocks most watched by Zacks.com users lately. So, it is worth exploring what lies ahead for the stock."
-    },
-    {
-      "headline": "Rep. Jonathan Jackson Has Bought Up to $250K Worth Of Datadog Stock: Here\u2019s What You Should Know",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=c0dafefa5731a3de3559e72abe2db816c6b1987296a2359b2ad8866d0931b005",
-      "datetime": 1792494006,
-      "summary": "A report on October 19, 2026 shows that Representative Jonathan Jackson from Illinois purchase stock in Datadog (NASDAQ:DDOG), valued between $115,003 and $250,000. According to the October filing, the transaction"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-20",
+  "data_asof": "2026-10-21",
   "price": {
-    "last": 256.43,
-    "open": 257.12,
-    "prev_close": 260.36,
-    "move_day_pct": -1.51,
-    "move_open_close_pct": -0.27,
-    "move_week_pct": -9.5
+    "last": 273.09,
+    "open": 259.77,
+    "prev_close": 256.43,
+    "move_day_pct": 6.5,
+    "move_open_close_pct": 5.13,
+    "move_week_pct": 1.4
   },
   "indicators": {
     "rsi14": {
-      "value": 47.3,
+      "value": 55.3,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 4.257,
-      "signal": 8.027,
-      "hist": -3.769,
-      "hist_prev": -3.39,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": 4.503,
+      "signal": 7.322,
+      "hist": -2.819,
+      "hist_prev": -3.769,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 292.97,
-      "lower": 247.48,
-      "mid": 270.22,
-      "pctb": 0.197,
-      "read": "Near the lower band"
+      "upper": 292.38,
+      "lower": 250.23,
+      "mid": 271.3,
+      "pctb": 0.542,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 149.9,
-      "read": "150% above its 52-week low"
+      "value": 166.13,
+      "read": "166% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -12.56,
+      "value": -6.88,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 192.85,
-      "pct": 32.97,
-      "read": "33% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 193.55,
+      "pct": 41.1,
+      "read": "41% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 13.22,
-      "pct_of_price": 5.15,
+      "value": 13.76,
+      "pct_of_price": 5.04,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.72,
+      "value": 0.98,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 45.0,
+      "value": 44.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 293.26,
-  "ma50": 247.54,
-  "ma200": 192.85
+  "ma50": 248.07,
+  "ma200": 193.55
 }

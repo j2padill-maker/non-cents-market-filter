@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-20T23:56:32.517771-07:00",
+  "generated_at": "2026-10-21T23:59:28.683999-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -29,13 +29,6 @@
       "url": "https://finnhub.io/api/news?id=4391c983bd81a9ddbd11c6676db8b5f6f037119ffbd5492bd9137d399c2a4200",
       "datetime": 1792065600,
       "summary": "Cognex Corporation (NASDAQ: CGNX), the global technology leader in industrial machine vision, will release earnings for the third quarter of 2026 on Wednesday, November 4, 2026, after market close."
-    },
-    {
-      "headline": "Cognex, Insight Enterprises, and SAIC Stocks Trade Down, What You Need To Know",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=fb6df18e30eb763f86a14ca91ace0f81ee79a4f4afd0da39f926c83b65e64e3e",
-      "datetime": 1792006327,
-      "summary": "A number of stocks fell in the afternoon session after a broad pickup in energy expenses lifted September inflation to 3.7%, surpassing expectations and driving bond yields higher."
     }
   ],
   "filings": [
@@ -61,63 +54,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-20",
+  "data_asof": "2026-10-21",
   "price": {
-    "last": 56.77,
-    "open": 54.19,
-    "prev_close": 55.16,
-    "move_day_pct": 2.92,
-    "move_open_close_pct": 4.76,
-    "move_week_pct": -5.4
+    "last": 58.05,
+    "open": 57.97,
+    "prev_close": 56.77,
+    "move_day_pct": 2.25,
+    "move_open_close_pct": 0.14,
+    "move_week_pct": 1.36
   },
   "indicators": {
     "rsi14": {
-      "value": 42.7,
+      "value": 46.1,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -1.368,
-      "signal": -0.664,
-      "hist": -0.705,
-      "hist_prev": -0.832,
+      "macd": -1.289,
+      "signal": -0.789,
+      "hist": -0.5,
+      "hist_prev": -0.705,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
       "upper": 66.37,
-      "lower": 53.36,
+      "lower": 53.35,
       "mid": 59.86,
-      "pctb": 0.262,
+      "pctb": 0.361,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 63.82,
-      "read": "64% above its 52-week low"
+      "value": 67.52,
+      "read": "68% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -21.5,
-      "read": "22% below its 52-week high"
+      "value": -19.73,
+      "read": "20% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 57.05,
-      "pct": -0.49,
-      "read": "0% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 57.15,
+      "pct": 1.57,
+      "read": "2% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 2.59,
-      "pct_of_price": 4.56,
+      "value": 2.53,
+      "pct_of_price": 4.35,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.82,
+      "value": 0.74,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 37.4,
+      "value": 36.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 34.65,
   "high_52w": 72.32,
-  "ma50": 60.77,
-  "ma200": 57.05
+  "ma50": 60.67,
+  "ma200": 57.15
 }

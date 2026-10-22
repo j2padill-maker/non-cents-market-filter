@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-20T23:56:33.668796-07:00",
+  "generated_at": "2026-10-21T23:59:30.164535-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Europe's Debt, U.S. Big Tech Put To The Test",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=96946c42e8fcf3c306a2a40ffd8c2648d4e538b69c6731f291e79db2d67c6759",
+      "datetime": 1792580700,
+      "summary": "France\u00e2\u0080\u0099s 10-year borrowing cost climbed to more than 1.5 percentage points over Germany\u00e2\u0080\u0099s on Tuesday. It's the widest risk premium to own French government debt since 2012. Read more here."
+    },
     {
       "headline": "Choppy Trading Leaves Dow Higher And Nasdaq Flat",
       "source": "SeekingAlpha",
@@ -50,27 +57,20 @@
       "url": "https://finnhub.io/api/news?id=a02a3b1553e88ac2154d3ea698c43c97449dc78581de65f33a65edba64f8d22f",
       "datetime": 1792379640,
       "summary": "The AI trade hit some turbulence last week as concerns emerged about the growth rate of the industry."
-    },
-    {
-      "headline": "Osterweis Capital Management Q4 2026 Equity Outlook",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=fff01f85ced320d24001763713dc867a820ccd67a3ecee3a5e25e43eaeb29b24",
-      "datetime": 1792206600,
-      "summary": "We believe we are currently in the early stages of a transformative era in technology that should be a significant catalyst for future economic growth. Read more here."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-20",
+  "data_asof": "2026-10-21",
   "price": {
     "last": 33.59,
-    "open": 33.3,
-    "prev_close": 33.35,
-    "move_day_pct": 0.72,
-    "move_open_close_pct": 0.87,
-    "move_week_pct": -3.92
+    "open": 33.54,
+    "prev_close": 33.59,
+    "move_day_pct": 0.0,
+    "move_open_close_pct": 0.13,
+    "move_week_pct": -1.52
   },
   "indicators": {
     "rsi14": {
@@ -78,17 +78,17 @@
       "read": "Oversold"
     },
     "macd": {
-      "macd": -0.529,
-      "signal": -0.309,
-      "hist": -0.221,
-      "hist_prev": -0.244,
+      "macd": -0.548,
+      "signal": -0.357,
+      "hist": -0.191,
+      "hist_prev": -0.221,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
       "upper": 36.75,
-      "lower": 33.15,
-      "mid": 34.95,
-      "pctb": 0.122,
+      "lower": 32.98,
+      "mid": 34.86,
+      "pctb": 0.162,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
@@ -100,26 +100,26 @@
       "read": "19% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 36.77,
-      "pct": -8.65,
+      "ma200": 36.75,
+      "pct": -8.6,
       "read": "9% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.62,
-      "pct_of_price": 1.86,
+      "value": 0.6,
+      "pct_of_price": 1.8,
       "read": "Calm \u2014 low volatility"
     },
     "rel_volume": {
-      "value": 1.24,
-      "read": "Roughly average volume"
+      "value": 1.47,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 47.0,
+      "value": 48.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 31.97,
   "high_52w": 41.61,
-  "ma50": 35.52,
-  "ma200": 36.77
+  "ma50": 35.44,
+  "ma200": 36.75
 }

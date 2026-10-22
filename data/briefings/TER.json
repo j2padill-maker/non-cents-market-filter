@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-20T23:56:33.332549-07:00",
+  "generated_at": "2026-10-21T23:59:29.757423-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "Teradyne, Vishay Intertechnology, Allegro MicroSystems, Entegris, and AMD shares are soaring, what you need to know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=9c16256bf7810db8a068f4b7675cb5e907b1469fdd3a824ee1c0a29e605ef853",
+      "datetime": 1792624719,
+      "summary": "A number of stocks jumped in the afternoon session after strong demand for artificial intelligence hardware and robust corporate earnings reignited investor optimism across the broader AI technology landscape."
+    },
+    {
+      "headline": "5 Strong Buy Growth Stocks With High Margins to Grab Before Earnings",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=20e7034c34acac7dc4f09bb5e60ded3c6ef038487ad6564a6f9c131d1a69fbc8",
+      "datetime": 1792605600,
+      "summary": "Five Strong Buy stocks stand out ahead of earnings, combining high operating margins, revenue growth and exposure to AI, healthcare, energy and digital payments."
+    },
+    {
+      "headline": "Teradyne Robotics and Sereact Partner to Scale Physical AI Solutions for Retail and Logistics",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f5bcec68f4f640cda99d68ddaa1baeb336af02ccb89cef2b61c8134b2641639b",
+      "datetime": 1792585560,
+      "summary": "BERLIN, October 21, 2026--Sereact and Teradyne Robotics to scale unpredictable, hard-to-automate tasks such as processing fashion item returns. Announcement today at GTC Berlin"
+    },
+    {
+      "headline": "Chip Equipment Stocks Face Earnings Test as Strong Fundamentals Meet Weak Momentum",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=15fd6acc1faf6e64f9a332d67c6c8eb230b5328a9da8ce6103316ce164cfd3b1",
+      "datetime": 1792584389,
+      "summary": "Chip equipment stocks LRCX, KLAC and TER face earnings tests after sharp pullbacks, as strong profits and growth battle weak technical momentum."
+    },
+    {
       "headline": "FormFactor, Teradyne, Entegris, Kulicke and Soffa, and Seagate Shares Skyrocket, What You Need To Know",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=4464fc708eb1e906f4a60f16724ad358b064c041cc885327a0294888f8ffd8d4",
@@ -29,34 +57,6 @@
       "url": "https://finnhub.io/api/news?id=3362613351db4d6a74448bb963f75ec36210e4268fca8dcaeb4513a8fdfebbae",
       "datetime": 1792427757,
       "summary": "S&P 500 top movers for today's session: SNDK, MRVL and DDOG led gainers, while NRG, MOS and AMP led losers."
-    },
-    {
-      "headline": "Stock Market Today: Nasdaq 100 Rises as AI Chip Rout Reverses, SanDisk Jumps 7%",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=f6b57f4b5bdeed64354447674353d7e4568ac6cb312e07adac5ad57d66116b4e",
-      "datetime": 1792414702,
-      "summary": "Tech rebounded from last week&#39;s rout as chip stocks bounced and steel maker Cleveland-Cliffs soared on earnings, while the 10-year yield climbed to 5.14%."
-    },
-    {
-      "headline": "S&P 500 Premarket Movers: Gainers and Losers on Oct. 19, 2026",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=0c9d1cca5c75581761f42ca2abf92c95b06d611e34185f4fde9cdead51cd00c2",
-      "datetime": 1792413343,
-      "summary": "S&P 500 premarket trading on Oct. 19, 2026, shows tech and semiconductor stocks rebounding while financial, payments, beverage and energy shares lag."
-    },
-    {
-      "headline": "Applied Materials Cratered 20% Since July: Multiple Wall Street Firms Predict It\u2019s Going to More Than Double From Here",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0d45f0502e7885a4923cbfc1f33746accdfb7bcf4f02d5931b61327ba1c5b02a",
-      "datetime": 1792408522,
-      "summary": "Applied Materials just suffered one of its steepest drops in years, yet analysts keep raising their earnings estimates and some price targets sit nearly double the current share price. Here is what the disconnect reveals about where semiconductor equipment spending may be headed."
-    },
-    {
-      "headline": "Qnity Electronics shares are trading higher after RBC Capital maintained its Outperform rating on the stock and raised its price target from $139 to $150.",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=a67a99dc4c72488d87c7d9cc846310792f9f7945dddf541d19ccaa4ee0d86994",
-      "datetime": 1792406171,
-      "summary": ""
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-20",
+  "data_asof": "2026-10-21",
   "price": {
-    "last": 336.59,
-    "open": 328.03,
-    "prev_close": 335.53,
-    "move_day_pct": 0.32,
-    "move_open_close_pct": 2.61,
-    "move_week_pct": -11.49
+    "last": 345.49,
+    "open": 345.55,
+    "prev_close": 336.59,
+    "move_day_pct": 2.64,
+    "move_open_close_pct": -0.02,
+    "move_week_pct": -3.88
   },
   "indicators": {
     "rsi14": {
-      "value": 37.4,
-      "read": "Oversold"
+      "value": 40.7,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": -10.781,
-      "signal": -0.595,
-      "hist": -10.186,
-      "hist_prev": -10.67,
+      "macd": -11.564,
+      "signal": -2.789,
+      "hist": -8.775,
+      "hist_prev": -10.186,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 458.06,
-      "lower": 321.67,
-      "mid": 389.86,
-      "pctb": 0.109,
-      "read": "Near the lower band"
+      "upper": 458.57,
+      "lower": 316.79,
+      "mid": 387.68,
+      "pctb": 0.202,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 142.9,
-      "read": "143% above its 52-week low"
+      "value": 149.32,
+      "read": "149% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -30.41,
-      "read": "30% below its 52-week high"
+      "value": -28.57,
+      "read": "29% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 345.88,
-      "pct": -2.69,
-      "read": "3% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 346.52,
+      "pct": -0.3,
+      "read": "0% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 21.2,
-      "pct_of_price": 6.3,
+      "value": 20.78,
+      "pct_of_price": 6.02,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.91,
+      "value": 0.8,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 27.5,
+      "value": 27.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 138.57,
   "high_52w": 483.65,
-  "ma50": 379.0,
-  "ma200": 345.88
+  "ma50": 378.32,
+  "ma200": 346.52
 }

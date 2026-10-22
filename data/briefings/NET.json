@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-20T23:56:31.569497-07:00",
+  "generated_at": "2026-10-21T23:59:27.718384-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "Rapid7, CrowdStrike, Cloudflare, Okta, and JFrog shares skyrocket, what you need to know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b35ec475a5281f37c3e7166a7b2a29f8137c5a85f01c51a993fe9080d3f77228",
+      "datetime": 1792615119,
+      "summary": "A number of stocks jumped in the afternoon session after sentiment across the broader software and cybersecurity space continued to improve amid receding fears of artificial intelligence disruption."
+    },
+    {
+      "headline": "Cloudflare Soars 6% as PHP Flaw Hitting 70% of Websites Lifts Security Stocks",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=be5ac054ce51d42ab908798e8028bbc705b0b88a2b8d006122426113e26bae50",
+      "datetime": 1792610609,
+      "summary": "Key TakeawaysCloudflare stock rose 6% and Datadog rose 7% today after PHP patched two critical flaws in software that runs an estimated 70% of websites. Cloudflare gave every customer firewall rules against the known attacks, including free users, which shows why its place in front of millions of sites is valuable."
+    },
+    {
+      "headline": "PHP patches critical flaw hitting 70% of websites; Cloudflare, others surge",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d0abfc193f6f1c1f16562fd38e90d45827e2ba0c11c7489107dd200d8fcc7a49",
+      "datetime": 1792595452,
+      "summary": "Investing.com -- PHP released emergency patches today fixing two critical remote code execution vulnerabilities rated CVSS v4.0 9.2, affecting every web server running PHP 5.4 or later \u2014 a population spanning an estimated 70% of the world\u2019s websites."
+    },
+    {
+      "headline": "Commerce and Cloudflare Bring AI Shopping Assistants to BigCommerce Merchants\u2019 Online Stores with WebMCP",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=4f2853fc24380448cb8a5b088666689d312b029b6035b792948107b3905f2b23",
+      "datetime": 1792584000,
+      "summary": "Shoppers\u2019 browser-based AI agents can now find products and fill a cart on merchants\u2019 own stores while the checkout remains on the storefrontAUSTIN, Texas, Oct. 21, 2026 (GLOBE NEWSWIRE) -- Commerce.com (Nasdaq: CMRC), the open commerce ecosystem built to help merchants win as AI reshapes how customers discover and buy, today announced a partnership with Cloudflare that lets AI agents in a custome"
+    },
+    {
+      "headline": "Is the AI Agent Economy Really Booming? 6.4M Payments Tell a Different Story",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a51ac160ecb1cbee428b60aa54d00042b4bc39a304a54be332e9cc753af5f0ad",
+      "datetime": 1792579665,
+      "summary": "Is the AI agent economy really booming? A new report analyzes 6.4 million payments worth just $120K as industry experts question real-world adoption."
+    },
+    {
       "headline": "Are You Sure You Understand Cloudflare Stock's Risk?",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=c6aefa83dd6239faedd4aad50043d91380fa43a94aaf949d37374c14ed2c0f61",
       "datetime": 1792544661,
       "summary": "Cloudflare (NET) stock returned 39.6% over the past year to October 19, 2026, compared with 17.4% for the S&P 500, and its sales grew 36% in fiscal Q2 2026. Numbers like those can make a stock look as if it has earned some calm. Yet the shares fell 15.2% in the week to October 19, 2026, while the S&P 500 lost 1.5%. So how far has Cloudflare stock fallen when the whole market turned, and how long d"
-    },
-    {
-      "headline": "Cloudflare (NET) Deepens Cloudflare OS Ties With Enterprise Software",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d79ac3bbfd373f016e1906526fb972ed06d0563cba9808db7b6be0a90bc7a9e9",
-      "datetime": 1792538045,
-      "summary": "Cloudflare (NYSE:NET) expanded its AI workspace platform, Cloudflare OS, with new integrations into leading enterprise software tools. The company broadened its partner ecosystem to support wider deployment options for Cloudflare OS across large corporate IT environments. New connections are aimed at helping businesses centralize AI workflows while keeping data flows and access controls within Clo"
-    },
-    {
-      "headline": "What Does GoDaddy Offer That Akamai Does Not?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9e98c633669b6abc9396a18c88400adc8ff4ada3955bf36f91d6ff2dce9ee05a",
-      "datetime": 1792529258,
-      "summary": "Akamai Technologies (AKAM) and GoDaddy (GDDY) are both bought to capture the same trend: businesses paying for AI over the internet. Akamai sells the computing power for AI through its cloud infrastructure services. GoDaddy sells its AI tools, called Airo, to the small businesses that already buy its domains. One company is building new capacity, while the other sells from a platform it already ru"
-    },
-    {
-      "headline": "Cloudflare Just Dropped 15% in a Week: Is It Time to Sell, or Load Up?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a55c76791267cc7d793b3e426d937b3758725414f70835abede6a9d8bebebd37",
-      "datetime": 1792522635,
-      "summary": "Key TakeawaysCloudflare stock fell 15% in the past week (through Monday\u2019s close), while the Nasdaq 100 fell 3. 7%."
-    },
-    {
-      "headline": "Is Cloudflare (NET) Worth It When Most of Its Users Pay Nothing?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2111cbdd1249da471c36de1a91334e2ec003e4a219498a994fe2755e72afb132",
-      "datetime": 1792507718,
-      "summary": "Cloudflare, Inc. (NYSE:NET) closed at $297.58 on October 19. The stock returned 45.3% over the last 6 months, compared with an 11.6% return for the Insider Monkey Billionaire Index and 8.7% for the State Street SPDR S&P 500 ETF Trust. Cloudflare sits between a website and the people visiting it, speeding up what it can and [\u2026]"
-    },
-    {
-      "headline": "More than 10 Million Developers Are Building on Cloudflare",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=1930042cf9e9fb08537e1835908d8fa60567b753b874f8abc9bf072f5774a4bc",
-      "datetime": 1792501200,
-      "summary": "SAN FRANCISCO, October 20, 2026--Cloudflare, Inc. (NYSE: NET), the leading connectivity cloud company, today announced that more than 10 million developers are building on Cloudflare, up from 7.4 million in the prior quarter. What began with Workers, Cloudflare's serverless compute platform, has grown into a full stack for building modern applications across compute, storage, databases, AI, media,"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-20",
+  "data_asof": "2026-10-21",
   "price": {
-    "last": 291.69,
-    "open": 291.17,
-    "prev_close": 297.58,
-    "move_day_pct": -1.98,
-    "move_open_close_pct": 0.18,
-    "move_week_pct": -16.11
+    "last": 307.22,
+    "open": 298.12,
+    "prev_close": 291.69,
+    "move_day_pct": 5.32,
+    "move_open_close_pct": 3.05,
+    "move_week_pct": -5.28
   },
   "indicators": {
     "rsi14": {
-      "value": 34.8,
-      "read": "Oversold"
+      "value": 42.5,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": -4.815,
-      "signal": 4.04,
-      "hist": -8.855,
-      "hist_prev": -8.31,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -5.683,
+      "signal": 2.095,
+      "hist": -7.779,
+      "hist_prev": -8.855,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 383.01,
-      "lower": 296.88,
-      "mid": 339.94,
-      "pctb": -0.06,
-      "read": "Below the lower band \u2014 stretched to the downside"
+      "upper": 382.6,
+      "lower": 292.77,
+      "mid": 337.69,
+      "pctb": 0.161,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 82.09,
-      "read": "82% above its 52-week low"
+      "value": 91.78,
+      "read": "92% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -19.18,
-      "read": "19% below its 52-week high"
+      "value": -14.88,
+      "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 243.23,
-      "pct": 19.92,
-      "read": "20% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 243.77,
+      "pct": 26.03,
+      "read": "26% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 16.86,
-      "pct_of_price": 5.78,
+      "value": 17.35,
+      "pct_of_price": 5.65,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.74,
+      "value": 1.2,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 30.0,
+      "value": 38.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 360.93,
   "ma50": 319.49,
-  "ma200": 243.23
+  "ma200": 243.77
 }

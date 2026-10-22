@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-20T23:56:33.860771-07:00",
+  "generated_at": "2026-10-21T23:59:30.418989-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Oceaneering (NYSE:OII) beats Q3 2026 revenue but misses expectations on adjusted EPS",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=3dc345ce925217379abf894e636f2c21e76765fb0905cf3b434f4bcb29c1b3bb",
+      "datetime": 1792617939,
+      "summary": "Offshore services provider Oceaneering International (NYSE:OII) reported Q3 2026 results beating Wall Street\u2019s revenue expectations, with sales up 5.6% year on year to $784.6 million. Its non-GAAP profit of $0.50 per share was 15.1% below analysts\u2019 consensus estimates."
+    },
+    {
+      "headline": "Oceaneering International: Q3 Earnings Snapshot",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=501f12c56453d01bb768b0e4f8214262adadf4e5f37795bebbc91b4cfc641ef8",
+      "datetime": 1792617021,
+      "summary": "HOUSTON (AP) \u2014 HOUSTON (AP) \u2014 Oceaneering International Inc. (OII) on Wednesday reported net income of $52."
+    },
+    {
+      "headline": "Oceaneering Reports Third Quarter 2026 Results",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=5fb91853e7d4f98de60326d6daf4f80b908f358d6e3ff5a4be13c33b3e7679a5",
+      "datetime": 1792616460,
+      "summary": "HOUSTON, October 21, 2026--Oceaneering Reports Third Quarter 2026 Results"
+    },
     {
       "headline": "Oceaneering (OII) Q3 Earnings: What To Expect",
       "source": "Yahoo",
@@ -35,6 +56,12 @@
     {
       "form": "8-K",
       "title": "Material event (8-K)",
+      "date": "2026-10-21",
+      "url": "https://www.sec.gov/Archives/edgar/data/73756/000007375626000152/oii-20261021.htm"
+    },
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
       "date": "2026-09-08",
       "url": "https://www.sec.gov/Archives/edgar/data/73756/000007375626000147/oii-20260908.htm"
     },
@@ -43,74 +70,68 @@
       "title": "Material event (8-K)",
       "date": "2026-07-24",
       "url": "https://www.sec.gov/Archives/edgar/data/73756/000007375626000138/oii-20260724.htm"
-    },
-    {
-      "form": "10-Q",
-      "title": "Quarterly report (10-Q)",
-      "date": "2026-07-23",
-      "url": "https://www.sec.gov/Archives/edgar/data/73756/000007375626000136/oii-20260630.htm"
     }
   ],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-20",
+  "data_asof": "2026-10-21",
   "price": {
-    "last": 44.07,
-    "open": 44.73,
-    "prev_close": 44.43,
-    "move_day_pct": -0.81,
-    "move_open_close_pct": -1.48,
-    "move_week_pct": -1.63
+    "last": 44.09,
+    "open": 44.21,
+    "prev_close": 44.07,
+    "move_day_pct": 0.05,
+    "move_open_close_pct": -0.27,
+    "move_week_pct": 1.29
   },
   "indicators": {
     "rsi14": {
-      "value": 43.1,
+      "value": 43.2,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.988,
-      "signal": -1.096,
-      "hist": 0.107,
-      "hist_prev": 0.082,
+      "macd": -0.934,
+      "signal": -1.063,
+      "hist": 0.129,
+      "hist_prev": 0.107,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 46.62,
-      "lower": 42.71,
-      "mid": 44.67,
-      "pctb": 0.347,
+      "upper": 46.39,
+      "lower": 42.73,
+      "mid": 44.56,
+      "pctb": 0.372,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 94.91,
+      "value": 95.0,
       "read": "95% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -18.55,
+      "value": -18.52,
       "read": "19% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 39.76,
-      "pct": 10.84,
+      "ma200": 39.85,
+      "pct": 10.64,
       "read": "11% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 1.59,
-      "pct_of_price": 3.61,
+      "value": 1.56,
+      "pct_of_price": 3.55,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.51,
+      "value": 0.97,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 49.1,
+      "value": 49.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 22.61,
   "high_52w": 54.11,
-  "ma50": 48.0,
-  "ma200": 39.76
+  "ma50": 47.87,
+  "ma200": 39.85
 }
