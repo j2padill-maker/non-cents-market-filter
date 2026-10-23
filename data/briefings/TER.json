@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-22T18:02:10.809437-07:00",
+  "generated_at": "2026-10-22T19:17:45.582695-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-21",
+  "data_asof": "2026-10-22",
   "price": {
-    "last": 345.49,
-    "open": 345.55,
-    "prev_close": 336.59,
-    "move_day_pct": 2.64,
-    "move_open_close_pct": -0.02,
-    "move_week_pct": -3.88
+    "last": 308.75,
+    "open": 323.66,
+    "prev_close": 345.49,
+    "move_day_pct": -10.63,
+    "move_open_close_pct": -4.61,
+    "move_week_pct": -10.04
   },
   "indicators": {
     "rsi14": {
-      "value": 40.7,
-      "read": "Neutral"
+      "value": 32.9,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -11.564,
-      "signal": -2.789,
-      "hist": -8.775,
-      "hist_prev": -10.186,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -14.976,
+      "signal": -5.226,
+      "hist": -9.75,
+      "hist_prev": -8.775,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 458.57,
-      "lower": 316.79,
-      "mid": 387.68,
-      "pctb": 0.202,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 462.53,
+      "lower": 304.93,
+      "mid": 383.73,
+      "pctb": 0.024,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 149.32,
-      "read": "149% above its 52-week low"
+      "value": 122.81,
+      "read": "123% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -28.57,
-      "read": "29% below its 52-week high"
+      "value": -36.16,
+      "read": "36% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 346.52,
-      "pct": -0.3,
-      "read": "0% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 346.92,
+      "pct": -11.0,
+      "read": "11% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 20.78,
-      "pct_of_price": 6.02,
+      "value": 22.06,
+      "pct_of_price": 7.14,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.8,
-      "read": "Roughly average volume"
+      "value": 2.11,
+      "read": "Heavy volume \u2014 well above average"
     },
     "mfi14": {
-      "value": 27.7,
-      "read": "Neutral money flow"
+      "value": 17.2,
+      "read": "Oversold \u2014 money flowing out"
     }
   },
   "low_52w": 138.57,
   "high_52w": 483.65,
-  "ma50": 378.32,
-  "ma200": 346.52
+  "ma50": 376.44,
+  "ma200": 346.92
 }

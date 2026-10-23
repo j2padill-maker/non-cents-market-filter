@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-22T18:01:59.975218-07:00",
+  "generated_at": "2026-10-22T19:17:33.297048-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Agentic AI Foundation Surpasses 300 Members in Less Than One Year",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a6c6109840b5e21860a1b5acac66ac3e76fe9ff998717a5d4be12bdccf576b3d",
+      "datetime": 1792684800,
+      "summary": "AGNTCon + MCPCon North America \u2014 The Agentic AI Foundation (AAIF) today announced the addition of 7 new Gold Members, 33 new Silver Members, and 18 new Associate Members in the past quarter, bringing total membership to 305 organizations worldwide."
+    },
+    {
+      "headline": "Best Growth Stocks to Buy for October 22nd",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=bb2bb6c70e1eec1f2c9e8855ea9fe630a37782d253635a72d617806fc6b80a44",
+      "datetime": 1792669020,
+      "summary": "MDB, MPC and ATI made it to the Zacks Rank #1 (Strong Buy) growth stocks list on October 22, 2026."
+    },
     {
       "headline": "Can MongoDB's Subscription Model Drive Sustainable Long-Term Growth?",
       "source": "Yahoo",
@@ -61,63 +75,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-21",
+  "data_asof": "2026-10-22",
   "price": {
-    "last": 390.75,
-    "open": 368.04,
-    "prev_close": 366.18,
-    "move_day_pct": 6.71,
-    "move_open_close_pct": 6.17,
-    "move_week_pct": 9.67
+    "last": 362.24,
+    "open": 385.44,
+    "prev_close": 390.75,
+    "move_day_pct": -7.3,
+    "move_open_close_pct": -6.02,
+    "move_week_pct": -1.16
   },
   "indicators": {
     "rsi14": {
-      "value": 55.2,
+      "value": 47.6,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -4.872,
-      "signal": -6.686,
-      "hist": 1.814,
-      "hist_prev": -0.525,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "macd": -4.902,
+      "signal": -6.33,
+      "hist": 1.427,
+      "hist_prev": 1.814,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 410.92,
-      "lower": 321.34,
-      "mid": 366.13,
-      "pctb": 0.775,
+      "upper": 400.1,
+      "lower": 326.24,
+      "mid": 363.17,
+      "pctb": 0.487,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 72.94,
-      "read": "73% above its 52-week low"
+      "value": 60.32,
+      "read": "60% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -17.26,
-      "read": "17% below its 52-week high"
+      "value": -23.3,
+      "read": "23% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 339.06,
-      "pct": 15.25,
-      "read": "15% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 338.69,
+      "pct": 6.95,
+      "read": "7% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 24.84,
-      "pct_of_price": 6.36,
+      "value": 25.27,
+      "pct_of_price": 6.98,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.94,
+      "value": 0.76,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 75.8,
+      "value": 67.6,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 392.05,
-  "ma200": 339.06
+  "ma50": 390.53,
+  "ma200": 338.69
 }
