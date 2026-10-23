@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-21T23:59:28.683999-07:00",
+  "generated_at": "2026-10-22T18:02:06.778098-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -22,13 +22,6 @@
       "url": "https://finnhub.io/api/news?id=4cc9abc49b7ebae8a41c0d0ffcd91a47e6c8182db7e390dc857a025d6e28bd6c",
       "datetime": 1792466159,
       "summary": "Cognex has ridden a sharp multi year upswing, yet the recent pullback leaves investors asking a simple question: Does the current share price still line up with what the business earns today? Over the past 3 years Cognex has returned 55.5%, which puts real weight on whether that gain is fully grounded in its earnings power. Goldman Sachs' projection for millions of additional robot units by 2035 h"
-    },
-    {
-      "headline": "Cognex Announces Third Quarter 2026 Earnings Release and Conference Call Dates",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4391c983bd81a9ddbd11c6676db8b5f6f037119ffbd5492bd9137d399c2a4200",
-      "datetime": 1792065600,
-      "summary": "Cognex Corporation (NASDAQ: CGNX), the global technology leader in industrial machine vision, will release earnings for the third quarter of 2026 on Wednesday, November 4, 2026, after market close."
     }
   ],
   "filings": [

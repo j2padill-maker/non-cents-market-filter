@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-21T23:59:29.757423-07:00",
+  "generated_at": "2026-10-22T18:02:10.809437-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Teradyne, Vishay Intertechnology, Allegro MicroSystems, Entegris, and AMD shares are soaring, what you need to know",
+      "headline": "Allegro MicroSystems, Lattice Semiconductor, Amkor, Teradyne, and Entegris shares plummet, what you need to know",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9c16256bf7810db8a068f4b7675cb5e907b1469fdd3a824ee1c0a29e605ef853",
-      "datetime": 1792624719,
-      "summary": "A number of stocks jumped in the afternoon session after strong demand for artificial intelligence hardware and robust corporate earnings reignited investor optimism across the broader AI technology landscape."
+      "url": "https://finnhub.io/api/news?id=e8fc29fcdfb52a7e2be2177484ef152ae9c45cac3adef583bed12340b810e2bf",
+      "datetime": 1792713953,
+      "summary": "A number of stocks fell in the afternoon session after warnings emerged that ongoing component supply chain bottlenecks and cleanroom space constraints will restrict semiconductor equipment makers from meeting demand through 2027."
     },
     {
-      "headline": "5 Strong Buy Growth Stocks With High Margins to Grab Before Earnings",
+      "headline": "Teradyne (TER) Registers a Bigger Fall Than the Market: Important Facts to Note",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=20e7034c34acac7dc4f09bb5e60ded3c6ef038487ad6564a6f9c131d1a69fbc8",
-      "datetime": 1792605600,
-      "summary": "Five Strong Buy stocks stand out ahead of earnings, combining high operating margins, revenue growth and exposure to AI, healthcare, energy and digital payments."
+      "url": "https://finnhub.io/api/news?id=148cc42edc9e9f538cd0b96bb046290f2bdba0fe0d694ce42c960b1ad19462dc",
+      "datetime": 1792703703,
+      "summary": "Teradyne (TER) closed the most recent trading day at $308.75, moving 10.63% from the previous trading session."
     },
     {
-      "headline": "Teradyne Robotics and Sereact Partner to Scale Physical AI Solutions for Retail and Logistics",
+      "headline": "What Could Go Wrong With Symbotic Stock?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f5bcec68f4f640cda99d68ddaa1baeb336af02ccb89cef2b61c8134b2641639b",
-      "datetime": 1792585560,
-      "summary": "BERLIN, October 21, 2026--Sereact and Teradyne Robotics to scale unpredictable, hard-to-automate tasks such as processing fashion item returns. Announcement today at GTC Berlin"
+      "url": "https://finnhub.io/api/news?id=10bb258a3296048ca22b7b702b2dfb894343be0ffccb62061d9438e94ffa6c29",
+      "datetime": 1792698651,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
     },
     {
-      "headline": "Chip Equipment Stocks Face Earnings Test as Strong Fundamentals Meet Weak Momentum",
+      "headline": "S&P 500 Top Movers: Gainers and Losers for Oct. 22, 2026",
       "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=15fd6acc1faf6e64f9a332d67c6c8eb230b5328a9da8ce6103316ce164cfd3b1",
-      "datetime": 1792584389,
-      "summary": "Chip equipment stocks LRCX, KLAC and TER face earnings tests after sharp pullbacks, as strong profits and growth battle weak technical momentum."
-    },
-    {
-      "headline": "FormFactor, Teradyne, Entegris, Kulicke and Soffa, and Seagate Shares Skyrocket, What You Need To Know",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4464fc708eb1e906f4a60f16724ad358b064c041cc885327a0294888f8ffd8d4",
-      "datetime": 1792444855,
-      "summary": "A number of stocks jumped in the morning session after investors cautiously returned to beaten-down stocks following the previous week's technology retreat, helped by an analyst upgrade for Intel."
+      "url": "https://finnhub.io/api/news?id=391c657cf8b8bd35500edd8dd058ed723150150e5d1af02abfbbe21633204915",
+      "datetime": 1792695971,
+      "summary": "Roper Technologies, Allegion and Lennar led S&P 500 gainers on Oct. 22, 2026, while Moderna, Coherent and Lumentum were among the biggest decliners."
     },
     {
       "headline": "S&P 500 Top Movers: Gainers and Losers in Today's Session",
       "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=3362613351db4d6a74448bb963f75ec36210e4268fca8dcaeb4513a8fdfebbae",
-      "datetime": 1792427757,
-      "summary": "S&P 500 top movers for today's session: SNDK, MRVL and DDOG led gainers, while NRG, MOS and AMP led losers."
+      "url": "https://finnhub.io/api/news?id=51f992e7d1a0d25e891ecf23d9ee9e29de2639e286d463e8e3dcaab8e7305397",
+      "datetime": 1792686972,
+      "summary": "S&P 500 top movers for today's session, led by ALLE, ROP, LEN, NDAQ and BX among gainers, while COHR, LRCX, FLEX, VST and CIEN ranked among losers."
+    },
+    {
+      "headline": "S&P 500 Gap-Up and Gap-Down Movers in Today's Session",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=b64b1675fefb4698e90c91b13a3bd84b8afa72c0ad07e0b0aa287e90b8342fea",
+      "datetime": 1792679747,
+      "summary": "S&P 500 gap movers in today's session include ALLE, LMT, CSX, PG and ROP among gap-up leaders, while COHR, FLEX, GEV, LRCX and TER were among gap-down laggards."
     }
   ],
   "filings": [

@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-21T23:59:27.718384-07:00",
+  "generated_at": "2026-10-22T18:02:04.906743-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -38,25 +38,25 @@
       "summary": "Investing.com -- PHP released emergency patches today fixing two critical remote code execution vulnerabilities rated CVSS v4.0 9.2, affecting every web server running PHP 5.4 or later \u2014 a population spanning an estimated 70% of the world\u2019s websites."
     },
     {
+      "headline": "Ex-Google CEO Eric Schmidt Says AI Could Eliminate 20% of Jobs at Large Companies",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=afe93a1ce318587dd73b506236cf97976f4c01c673ac91add95ea1d2ba59e4b4",
+      "datetime": 1792594935,
+      "summary": "Eric Schmidt says AI could cut staffing at large companies by about 20% as agents automate management and administrative work."
+    },
+    {
+      "headline": "10 Information Technology Stocks With Whale Alerts In Today\u2019s Session",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=566fca24da79f71a186b29a7c6645456304bf6ad8e97c2b4fbc040f6a9470cd5",
+      "datetime": 1792589714,
+      "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders will"
+    },
+    {
       "headline": "Commerce and Cloudflare Bring AI Shopping Assistants to BigCommerce Merchants\u2019 Online Stores with WebMCP",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=4f2853fc24380448cb8a5b088666689d312b029b6035b792948107b3905f2b23",
       "datetime": 1792584000,
       "summary": "Shoppers\u2019 browser-based AI agents can now find products and fill a cart on merchants\u2019 own stores while the checkout remains on the storefrontAUSTIN, Texas, Oct. 21, 2026 (GLOBE NEWSWIRE) -- Commerce.com (Nasdaq: CMRC), the open commerce ecosystem built to help merchants win as AI reshapes how customers discover and buy, today announced a partnership with Cloudflare that lets AI agents in a custome"
-    },
-    {
-      "headline": "Is the AI Agent Economy Really Booming? 6.4M Payments Tell a Different Story",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a51ac160ecb1cbee428b60aa54d00042b4bc39a304a54be332e9cc753af5f0ad",
-      "datetime": 1792579665,
-      "summary": "Is the AI agent economy really booming? A new report analyzes 6.4 million payments worth just $120K as industry experts question real-world adoption."
-    },
-    {
-      "headline": "Are You Sure You Understand Cloudflare Stock's Risk?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c6aefa83dd6239faedd4aad50043d91380fa43a94aaf949d37374c14ed2c0f61",
-      "datetime": 1792544661,
-      "summary": "Cloudflare (NET) stock returned 39.6% over the past year to October 19, 2026, compared with 17.4% for the S&P 500, and its sales grew 36% in fiscal Q2 2026. Numbers like those can make a stock look as if it has earned some calm. Yet the shares fell 15.2% in the week to October 19, 2026, while the S&P 500 lost 1.5%. So how far has Cloudflare stock fallen when the whole market turned, and how long d"
     }
   ],
   "filings": [

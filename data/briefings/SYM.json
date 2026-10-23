@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-21T23:59:29.437718-07:00",
+  "generated_at": "2026-10-22T18:02:09.756954-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "What Could Go Wrong With Symbotic Stock?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=10bb258a3296048ca22b7b702b2dfb894343be0ffccb62061d9438e94ffa6c29",
+      "datetime": 1792698651,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
+    },
+    {
+      "headline": "Here is What to Know Beyond Why Symbotic Inc. (SYM) is a Trending Stock",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ef67d4b005b7654e93b1c2b1b91a4461a0884a6dba728e88ac6451ac56067ee8",
+      "datetime": 1792670402,
+      "summary": "SYMBOTIC INC (SYM) has received quite a bit of attention from Zacks.com users lately. Therefore, it is wise to be aware of the facts that can impact the stock's prospects."
+    },
+    {
+      "headline": "TD Cowen Maintains Buy on Symbotic, Lowers Price Target to $70",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=7abc1aef1e42082745e3057cb1bf1e6a404f482ebfc8d97b3b80e7c8f1ba99b3",
+      "datetime": 1792662393,
+      "summary": "TD Cowen  analyst Joe Giordano   maintains Symbotic (NASDAQ:SYM) with a Buy and lowers the price target from $75 to $70."
+    },
+    {
+      "headline": "Another Deal Unveiled By Vanguard Natural Resources",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=c5023c55ccdaa49f787c29300b09201d8caf8061f3d273633dd89e8493931b0e",
+      "datetime": 1792590852,
+      "summary": ""
+    },
+    {
       "headline": "Symbotic Inc. (SYM) Outperforms Broader Market: What You Need to Know",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=22bd301c6ba6a05301d65fd9c211c51e45aec0851cf2b7968ce565be497f5a6a",
@@ -29,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=d356fc6f3a70fb4f471535b550f7729a2972f33c5c4d43775be2f2d3d4cc0aaa",
       "datetime": 1792480220,
       "summary": "Monetary policy is shifting, trade rules are being rewritten, and global supply chains are being rebuilt in real time, which is exactly where market mispricing often appears. Investors who ignore how reshoring and localization reshape costs, pricing power, and bargaining strength risk missing some of the clearest medium term stories around. This article introduces three stocks exposed to those pol"
-    },
-    {
-      "headline": "SoftBank Wants to Buy America\u2019s Biggest Security Guard Company and Use Robots",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=af67078aff295958f93376b50d73aec10b203bc4e1012a6b551b3e7daf746b90",
-      "datetime": 1792242431,
-      "summary": "SoftBank is eyeing an $18 billion deal to take over the largest private security firm in America, with plans to swap out guards for robots at scale. The math only works if machines can do the job, and that question is far from settled."
-    },
-    {
-      "headline": "SCSC or SYM: Which Is the Better Value Stock Right Now?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4f1b1e1da13f040b6d189bcda4485d64e58e51c63e7c17306e567ceeb00112df",
-      "datetime": 1792075203,
-      "summary": "SCSC vs. SYM: Which Stock Is the Better Value Option?"
     }
   ],
   "filings": [

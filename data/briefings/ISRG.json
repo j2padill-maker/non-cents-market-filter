@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-21T23:59:29.139904-07:00",
+  "generated_at": "2026-10-22T18:02:08.474920-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "Cathie Wood Goes Bargain Hunting: 3 Stocks She Just Bought",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=28a95d10a4f0e1d323fc0351e20b62acb5676612d8445d4eda03b103924f16db",
+      "datetime": 1792684860,
+      "summary": "Ark Invest bought into some market laggards on Wednesday."
+    },
+    {
+      "headline": "Revvity Launches Signals LabGistics to Coordinate Scientific Workflows",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a76f0ed353a1c120d797e571e941ea44b4c416e3059d34b06d12f5e99c709e26",
+      "datetime": 1792676040,
+      "summary": "RVTY's AI-first Signals LabGistics aims to streamline scientific workflows, enhance R&D-to-manufacturing coordination and expand software growth opportunities."
+    },
+    {
+      "headline": "How Has Intuitive Surgical's Story Changed?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=fdbe53f2595a5de5919ca73be85ac9673fb0d02bf0496e8d5d803d017c5d89b4",
+      "datetime": 1792667326,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
+    },
+    {
+      "headline": "Intuitive Surgical (ISRG) Stock Faces A Q3 Earnings Valuation Reality Check",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=762c77612a0876132157b10f3a76f519103ca734b917bf560d75db8ae7917fe3",
+      "datetime": 1792663837,
+      "summary": "Intuitive Surgical stock came into Thursday with strong recent momentum, then slipped about 2% after the market had its first clean look at Q3 2026 numbers. The initial reaction focused on the headline gap between rich expectations and reality. The company delivered roughly US$3.0b in quarterly revenue and about US$1.50 in basic earnings per share, solid figures for a surgical robotics leader but "
+    },
+    {
       "headline": "2 Healthcare Stocks to Buy After Crushing Q3 Earnings Expectations: ELV & ISRG",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=9f0ab54d9a8a48c4749e2d0c32b39d7ff080f86fd0d18c9bdcb5686978ed15e5",
@@ -29,34 +57,6 @@
       "url": "https://finnhub.io/api/news?id=e722afd6f141b441ab22ae0c84ba7565a1bd8e76924b9d811f94edfdfd2a56d7",
       "datetime": 1792611759,
       "summary": "Medical technology company Intuitive Surgical (NASDAQ:ISRG) beat Wall Street\u2019s revenue expectations in Q3 2026, with sales up 21.7% year on year to $3.05 billion. Its non-GAAP profit of $3 per share was 13.6% above analysts\u2019 consensus estimates."
-    },
-    {
-      "headline": "Intuitive Surgical Hammered As Elevated Buy-Side Views Outshine Solid Numbers",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9e032ac5e9602b6ba0c000c123074509533d91cc3f372ef2da39d02bcb1a1369",
-      "datetime": 1792601725,
-      "summary": "Intuitive Surgical stock tumbled Wednesday as elevated expectations from the buy-side hampered the solid third-quarter report."
-    },
-    {
-      "headline": "Intuitive Surgical to Face Potential Risks in 2027 Procedure Momentum From Pricing Actions, RBC Says",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d40f259e3e2c4896d265826e5389dc6556775e169be35addcc4a71a802d56b42",
-      "datetime": 1792598441,
-      "summary": "Intuitive Surgical (ISRG) will face potential risks to its 2027 procedure momentum from pricing acti"
-    },
-    {
-      "headline": "Intuitive Surgical: 3 Key Takeaways for Long-Term Investors",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=97fc6635001902b73e8b03e2b05d1f780e61c0f485cd63dc109d8cff1cf9b9dc",
-      "datetime": 1792598281,
-      "summary": "Resolving a major litigation settlement while expanding into cost-sensitive outpatient centers positions the company for sustained procedure growth."
-    },
-    {
-      "headline": "Intuitive Surgical (ISRG) Q3 2026 Earnings Call Transcript",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=234fb2e2a95f29a080772385a788735416a980de5a39b0c0641e490706e08cee",
-      "datetime": 1792592934,
-      "summary": "Revenue hit $3.05 billion as procedure volumes surged and system placements accelerated."
     }
   ],
   "filings": [

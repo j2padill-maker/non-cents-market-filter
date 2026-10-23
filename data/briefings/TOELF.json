@@ -2,7 +2,7 @@
   "ticker": "TOELF",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-21T23:59:26.957337-07:00",
+  "generated_at": "2026-10-22T18:02:03.047287-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -15,22 +15,7 @@
     "rel_volume",
     "mfi14"
   ],
-  "news": [
-    {
-      "headline": "Asian markets plunge as AI fears deepen tech sell-off",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c3d404b50e9c4040e509e066d543674cecc46ee8483dace388cae27ceb15199b",
-      "datetime": 1792046135,
-      "summary": "Asian stock markets plummeted on Thursday as fears of a slowdown in the AI boom triggered a tech sell-off."
-    },
-    {
-      "headline": "South Korea\u2019s benchmark Kospi index sinks more than 7% as tech sell-off deepens",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5998d6a73c14a3ca64b0f508dd16264c86ecf20dec8849f02cb860d31fa193b4",
-      "datetime": 1792029023,
-      "summary": "HONG KONG (AP) \u2014 South Korea\u2019s benchmark Kospi index sank more than 7% on Thursday as a sell-off of technology shares deepened after U. stocks fell on hotter-than-expected inflation data."
-    }
-  ],
+  "news": [],
   "filings": [],
   "script_text": null,
   "audio_cached": false,

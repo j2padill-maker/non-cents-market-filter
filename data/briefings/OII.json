@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-21T23:59:30.418989-07:00",
+  "generated_at": "2026-10-22T18:02:12.413116-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,42 +17,55 @@
   ],
   "news": [
     {
+      "headline": "Why Oceaneering (OII) stock is nosediving",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=9c1811d03e1b7fcf35133f72d70a68f99efccea8cd40c09eca6430c83ffd22aa",
+      "datetime": 1792712033,
+      "summary": "Shares of offshore services provider Oceaneering International (NYSE:OII) fell 17.5% in the afternoon session after the company reported a 26% year-over-year decline in net income attributable to the company for the third quarter of 2026."
+    },
+    {
+      "headline": "Oceaneering International Q3 Earnings Call Highlights",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=37556d1e35b6acdec0b431d82085c0de35cea0fc8ffc35c424568ef74221987f",
+      "datetime": 1792706656,
+      "summary": "Oceaneering International (NYSE:OII) reported third-quarter 2026 revenue growth across all of its operating segments, with adjusted EBITDA reaching its highest quarterly level since the fourth quarter of 2015. Revenue rose 6% from a year earlier to $785 million, while operating income increased 7%"
+    },
+    {
+      "headline": "Oceaneering (OII) Q3 2026 Earnings Call Transcript",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=6f646cf3d87e157d9edba4153362daaa788defb8610ec2a0681a06053239d862",
+      "datetime": 1792698423,
+      "summary": "Subsea robotics pricing gains and defense contracts drive 2027 EBITDA guidance of $430M\u2013$480M."
+    },
+    {
+      "headline": "Oceaneering International, Inc. Q3 2026 Earnings Call Summary",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=3efa51a93dd5881ca5a174d4a78d12b2c175284d83e8777f0bbd0dbe19401ce8",
+      "datetime": 1792672200,
+      "summary": "Moby summary of Oceaneering International, Inc.'s Q3 2026 earnings call"
+    },
+    {
+      "headline": "Oceaneering (NYSE:OII) Shares Slip on Inline Q3 Revenue but Earnings Miss",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=f8665d75219b5fd8a15b4e555028d63d4253f175b87687f57d04d5419988352e",
+      "datetime": 1792625467,
+      "summary": "Oceaneering Q3 2026 revenue met estimates but EPS missed, sending shares lower; focus shifts to margins, taxes, and 2027 outlook."
+    },
+    {
       "headline": "Oceaneering (NYSE:OII) beats Q3 2026 revenue but misses expectations on adjusted EPS",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=3dc345ce925217379abf894e636f2c21e76765fb0905cf3b434f4bcb29c1b3bb",
       "datetime": 1792617939,
       "summary": "Offshore services provider Oceaneering International (NYSE:OII) reported Q3 2026 results beating Wall Street\u2019s revenue expectations, with sales up 5.6% year on year to $784.6 million. Its non-GAAP profit of $0.50 per share was 15.1% below analysts\u2019 consensus estimates."
-    },
-    {
-      "headline": "Oceaneering International: Q3 Earnings Snapshot",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=501f12c56453d01bb768b0e4f8214262adadf4e5f37795bebbc91b4cfc641ef8",
-      "datetime": 1792617021,
-      "summary": "HOUSTON (AP) \u2014 HOUSTON (AP) \u2014 Oceaneering International Inc. (OII) on Wednesday reported net income of $52."
-    },
-    {
-      "headline": "Oceaneering Reports Third Quarter 2026 Results",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5fb91853e7d4f98de60326d6daf4f80b908f358d6e3ff5a4be13c33b3e7679a5",
-      "datetime": 1792616460,
-      "summary": "HOUSTON, October 21, 2026--Oceaneering Reports Third Quarter 2026 Results"
-    },
-    {
-      "headline": "Oceaneering (OII) Q3 Earnings: What To Expect",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e5627c9759842b6e8bef404bbdf18726f16c4d5125619b2598f6524b5827fb99",
-      "datetime": 1792496510,
-      "summary": "Offshore services provider Oceaneering International (NYSE:OII) will be reporting results this Wednesday after the bell. Here\u2019s what you need to know."
-    },
-    {
-      "headline": "3 Profitable Stocks We\u2019re Skeptical Of",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=19e7f8b053a17aa710c2f44d50c628d0c3f839d8ea08a4654b37bcd8b50a671b",
-      "datetime": 1792148859,
-      "summary": "Even if a company is profitable, it doesn\u2019t always mean it\u2019s a great investment. Some struggle to maintain growth, face looming threats, or fail to reinvest wisely, limiting their future potential."
     }
   ],
   "filings": [
+    {
+      "form": "10-Q",
+      "title": "Quarterly report (10-Q)",
+      "date": "2026-10-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/73756/000007375626000154/oii-20260930.htm"
+    },
     {
       "form": "8-K",
       "title": "Material event (8-K)",
@@ -64,12 +77,6 @@
       "title": "Material event (8-K)",
       "date": "2026-09-08",
       "url": "https://www.sec.gov/Archives/edgar/data/73756/000007375626000147/oii-20260908.htm"
-    },
-    {
-      "form": "8-K",
-      "title": "Material event (8-K)",
-      "date": "2026-07-24",
-      "url": "https://www.sec.gov/Archives/edgar/data/73756/000007375626000138/oii-20260724.htm"
     }
   ],
   "script_text": null,

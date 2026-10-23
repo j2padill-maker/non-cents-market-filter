@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-21T23:59:27.403781-07:00",
+  "generated_at": "2026-10-22T18:02:03.858312-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,11 +17,32 @@
   ],
   "news": [
     {
+      "headline": "Datadog Reportedly Bids Nearly $4B For Cloud Security Startup Upwind To Fortify AI Defenses",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=192ffba332302c422a15275b1c0ddbefb046899d121e3b3e7e11961740f229a2",
+      "datetime": 1792698819,
+      "summary": "Cloud monitoring giant Datadog has reportedly offered nearly $4 billion to acquire cloud security startup Upwind, The Information reported."
+    },
+    {
+      "headline": "Palantir Just Gained 7% in a Month: Take Profits, or Buy More?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=755d65df2629bd2b266c476fa5a1c26911ffda254d850f70d983e9801d9d1204",
+      "datetime": 1792685042,
+      "summary": "Key TakeawaysPalantir stock rose 7% in the past month as five Wall Street firms, including Goldman Sachs and Barclays, set targets of $230 to $265, while the Nasdaq 100 fell 2%. A 7% software-wide drop on Oct."
+    },
+    {
       "headline": "Cloudflare Soars 6% as PHP Flaw Hitting 70% of Websites Lifts Security Stocks",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=be5ac054ce51d42ab908798e8028bbc705b0b88a2b8d006122426113e26bae50",
       "datetime": 1792610609,
       "summary": "Key TakeawaysCloudflare stock rose 6% and Datadog rose 7% today after PHP patched two critical flaws in software that runs an estimated 70% of websites. Cloudflare gave every customer firewall rules against the known attacks, including free users, which shows why its place in front of millions of sites is valuable."
+    },
+    {
+      "headline": "S&P 500 Top Movers: Oct. 21, 2026 US Session",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=03f1395faaf1ce153aa8663ed2fb43ca91d55ee324ae7eadc3091391898f4941",
+      "datetime": 1792609569,
+      "summary": "S&P 500 top movers on Oct. 21, 2026: CRL, SMCI and BE led gainers, while T, CMG and DXCM led decliners in the US session."
     },
     {
       "headline": "3 Big Reasons to Love Datadog (DDOG)",
@@ -31,32 +52,11 @@
       "summary": "Datadog has been on fire lately. In the past six months alone, the company\u2019s stock price has rocketed 99.7%, reaching $258.22 per share. This was partly thanks to its solid quarterly results, and the performance may have investors wondering how to approach the situation."
     },
     {
-      "headline": "Arista Networks vs. Datadog: Which Technology Stock Is a Better Buy in 2026?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=701f310f04ba1f08eed26771d996652dba505f5b3c73f58ef6c915979f9e0e03",
-      "datetime": 1792593644,
-      "summary": "One powers the physical backbone of AI infrastructure, while the other monitors it. Their valuations tell starkly different stories."
-    },
-    {
-      "headline": "Datadog (DDOG) Stock Falls Amid Market Uptick: What Investors Need to Know",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=460a9e273d1b372dfa7fea3760fc41f022baee37921faac45292b42cabc7ad6a",
-      "datetime": 1792529103,
-      "summary": "Datadog (DDOG) closed at $256.37 in the latest trading session, marking a -1.53% move from the prior day."
-    },
-    {
-      "headline": "Datadog\u2019s (DDOG) Expectations Have Outrun Its Earnings. What Lies Ahead?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9d9cd8621541229318c2bae1b6ec71e94b7b2c94f7fc78c175fd8537d24332d6",
-      "datetime": 1792507330,
-      "summary": "Datadog, Inc. (NASDAQ:DDOG) watches software while it runs. When an application slows or breaks, its tools are what the engineers look at first. The stock closed at $260.36 on October 19. It has returned 97.7% over the last 6 months, compared with an 11.6% return for the Insider Monkey Billionaire Index and 8.7% for the [\u2026]"
-    },
-    {
-      "headline": "Stocks making big moves yesterday: Datadog, SolarEdge, AMD, Western Digital, and Amazon",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f638110ff1af37f8617e3c0cddf2fe1a5da6c542de5be1bd79af595c28438af5",
-      "datetime": 1792504190,
-      "summary": "Check out the companies making headlines yesterday:"
+      "headline": "S&P 500 Top Movers on Oct. 21, 2026: Supermicro Leads Gainers, Dexcom Leads Losers",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=e2c12db8e0def243d28efc6e5dc8649bede831bd251ec679d9ab82d85e6f4247",
+      "datetime": 1792600602,
+      "summary": "S&P 500 top movers for Oct. 21, 2026: Supermicro rose 9.18% among gainers, while Dexcom fell 6.22% among losers."
     }
   ],
   "filings": [

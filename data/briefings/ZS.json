@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-21T23:59:30.730797-07:00",
+  "generated_at": "2026-10-22T18:02:13.480335-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "Zscaler Gains 3% on $270 Price Target Raise as Cyber Rally Extends: \u201cA COVID-Like Wave\u201d",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=2d362fe692dd4a180049c7db6ac6a6c449dee39e924d55ea8543724b2274535c",
+      "datetime": 1792702563,
+      "summary": "Key TakeawaysZscaler shares rose 3% today after Freedom Broker raised its price target to $270 from $230 and kept a Buy rating. AI found two critical flaws in PHP, and that sent security stocks higher."
+    },
+    {
+      "headline": "Zscaler (ZS) Ascends While Market Falls: Some Facts to Note",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f44641ae74abe7d11698aa3db283a4a7d37d63d862c4366bcf4300a3c78b68bf",
+      "datetime": 1792701904,
+      "summary": "In the most recent trading session, Zscaler (ZS) closed at $237.5, indicating a +2.67% shift from the previous trading day."
+    },
+    {
+      "headline": "Zscaler Just Gained 14% in a Month: Take Profits, or Buy More?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a4e81e8d50689d293e19a9e8416fde69639e19f60ad4a8840b767833c4301484",
+      "datetime": 1792684549,
+      "summary": "Key TakeawaysZscaler stock rose 14% in the past month, despite a 10% one-day drop when its chief revenue officer stepped down. An Investor Day that reaffirmed guidance and set a base case of more than $8 billion of ARR by fiscal 2031 brought a wave of price-target raises."
+    },
+    {
+      "headline": "Zscaler's Data Security Push: Can Its Security Tools Win More Deals?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=67fd733120e3311239dc70772f575d878d5a03aaecae6bdd52fdf38ca01e423f",
+      "datetime": 1792673940,
+      "summary": "ZS' Data Security ARR tops $500 million in Q3, while its tools get featured in about 70% of Security for AI deals in Q4. Can that traction drive bigger deal wins?"
+    },
+    {
+      "headline": "Why Is Zscaler Stock Going Up?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8013b19329a6f2072e7d7212d70c579243345f19768bb7c9824120832f42ac00",
+      "datetime": 1792667602,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
+    },
+    {
       "headline": "Zscaler and Tenable shares are soaring, what you need to know",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=d1dd37e357ac32c9df34feca5924f856d47558a7f442cadba5d7a821723e5084",
       "datetime": 1792615599,
       "summary": "A number of stocks jumped in the afternoon session after sentiment across the broader software and cybersecurity space continued to improve amid receding fears of artificial intelligence disruption."
-    },
-    {
-      "headline": "CrowdStrike Gains 3.6% on Expanded NVIDIA AI Agent Security Deal: \u201cSetting the Standard\u201d",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=958583b1e72ae7acdb4c9769ca127d7115b2689e0c3b50f8553600c447c8f2e0",
-      "datetime": 1792595950,
-      "summary": "Key TakeawaysCrowdStrike shares rose 3. 6% today after it expanded its AI agent security work with NVIDIA, and Zscaler, Okta and Palo Alto Networks, which are also NVIDIA security partners, rose too."
-    },
-    {
-      "headline": "Netflix downgraded, Zoom upgraded: Wall Street's top analyst calls",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=26247b9537d494957ab5a5e9a79eb28dc099b1882e4e003b13099886a472a6d8",
-      "datetime": 1792590191,
-      "summary": "Netflix downgraded, Zoom upgraded: Wall Street's top analyst calls"
-    },
-    {
-      "headline": "Here Are Wednesday\u2019s Top Wall Street Analyst Research Calls: Applied Digital, Chipotle Mexican Grill, Cirrus Logic, Costco, Digital Realty Trust, Intuitive Surgical, Netflix, Robinhood Markets, Zscaler, and More",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a744fcf6f3cb56383a80a3b10d8031e7644cdc0e23137d5aa23698a8a8d28a19",
-      "datetime": 1792584142,
-      "summary": "Wall Street analysts delivered a flurry of bold calls Wednesday, including a double-downgrade that shocked one cybersecurity giant and a sharp cut on a beloved restaurant chain. Find out which stocks got upgraded, buried, or newly covered before the market opens."
-    },
-    {
-      "headline": "This Equinix Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Wednesday",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=2d1e65830ef9d6f941d93d2ef56a09d6955554d2651864a6ab843a57e7ebb6ad",
-      "datetime": 1792574624,
-      "summary": "Analysts initiate coverage: Buy on AIR Global, Robinhood and Kazia; Outperform on Equinix; Neutral on Zscaler, with price targets."
-    },
-    {
-      "headline": "DA Davidson Initiates Coverage On Zscaler with Neutral Rating, Announces Price Target of $215",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=4c85067f6ff52d5f6132f3d0be051479200fe74467281d8aee67bc11cfd847fe",
-      "datetime": 1792570602,
-      "summary": "DA Davidson  analyst Rudy Kessinger   initiates coverage on Zscaler (NASDAQ:ZS) with a Neutral rating and announces Price Target of $215."
     }
   ],
   "filings": [
