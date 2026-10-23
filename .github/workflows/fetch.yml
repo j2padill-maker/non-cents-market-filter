@@ -1,8 +1,9 @@
 name: Fetch Market Data
 
 on:
-  schedule:
-    - cron: '0 2 * * *'  # Runs every night at 2am UTC (6pm/7pm Pacific)
+  # schedule: disabled 10/22/2026 - Actions can't get yfinance data (no RSI, half the universe)
+  # and its nightly push was overwriting the good laptop data. Manual runs still work.
+  #   - cron: '0 2 * * *'
   workflow_dispatch:       # Allows you to run it manually anytime
 
 jobs:

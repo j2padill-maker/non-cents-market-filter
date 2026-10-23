@@ -1078,6 +1078,17 @@ def main():
             "Check FINNHUB_API_KEY and network access."
         )
 
+    # -- SAFETY GUARD: don't publish a half-empty run --
+    # Catch-up runs fire right after the laptop is turned on, sometimes before
+    # Wi-Fi is fully up. If most tickers came back empty, keep the last good
+    # cache.json instead of overwriting it. Exit 1 makes run_non_cents.bat skip
+    # the commit/push.
+    MIN_SUCCESS = 0.70
+    if universe and len(results) < MIN_SUCCESS * len(universe):
+        print(f"\nABORT: only {len(results)}/{len(universe)} tickers returned data "
+              f"(need {MIN_SUCCESS:.0%}). Network problem? Keeping the existing cache.json.")
+        sys.exit(1)
+
     os.makedirs("data", exist_ok=True)
     cache = {
         "generated": datetime.now(ZoneInfo("America/Los_Angeles")).isoformat(),

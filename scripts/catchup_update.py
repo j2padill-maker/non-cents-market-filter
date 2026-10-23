@@ -9,8 +9,8 @@ it calls the existing run_non_cents.bat, so the update logic stays in one place.
   - the most recent scheduled slot (SLOTS) passed more than GRACE_MIN ago,
     so the regular 4:30 PM task gets its chance first
   - the last commit on GitHub (origin/main) touching data/cache.json is
-    older than that slot. Any updater counts: this laptop, the home laptop,
-    or the GitHub Action
+    older than that slot. Laptop runs count: this laptop or the home laptop
+    (GitHub Action commits are ignored)
   - no update is running right now (today's logs\\update_*.log was
     written to in the last BUSY_MIN minutes)
 
@@ -74,7 +74,9 @@ def update_in_progress():
 
 def last_remote_update():
     git_out("fetch", "origin", "--quiet")
-    ts = git_out("log", "-1", "--format=%ct", "origin/main", "--", "data/cache.json")
+    # Only laptop runs count. GitHub Action data is degraded (no RSI, partial
+    # universe), so it must not satisfy the "already updated" check.
+    ts = git_out("log", "-1", "--format=%ct", "--author=j2padill-maker", "origin/main", "--", "data/cache.json")
     return datetime.fromtimestamp(int(ts)) if ts else datetime.min
 
 
