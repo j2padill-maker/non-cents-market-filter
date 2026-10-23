@@ -889,7 +889,7 @@ td { padding:10px 14px; white-space:nowrap; }
   background: linear-gradient(160deg, var(--bg3) 0%, var(--bg2) 100%);
   border:1px solid var(--glass-border);
   border-radius:14px;
-  width:100%; max-width:620px;
+  width:100%; max-width:880px;
   max-height:90vh;
   overflow-y:auto;
   box-shadow:0 32px 80px rgba(0,0,0,0.7), 0 1px 0 rgba(255,255,255,0.06) inset;
@@ -932,6 +932,15 @@ td { padding:10px 14px; white-space:nowrap; }
   margin-bottom:5px;
 }
 .modal-metric-value { font-size:22px; font-weight:700; font-family:var(--font-display); }
+/* Price chart inside the ticker panel (TradingView widget) */
+.tv-section { margin:0 0 22px; }
+.tv-range { display:flex; gap:6px; flex-wrap:wrap; margin-bottom:10px; align-items:center; }
+.tv-range-label { font-size:9px; color:var(--text3); text-transform:uppercase; letter-spacing:.12em; margin-right:4px; }
+.tv-chart-wrap { height:440px; border:1px solid var(--border); border-radius:10px; overflow:hidden; background:var(--bg2); box-shadow:inset 0 2px 8px rgba(0,0,0,0.3); }
+#tv-chart, #tv-chart .tradingview-widget-container { height:100%; width:100%; }
+.tv-foot { font-size:10px; color:var(--text3); margin-top:6px; display:flex; justify-content:space-between; gap:8px; flex-wrap:wrap; }
+.tv-foot a { color:var(--text3); }
+@media(max-width:600px){ .tv-chart-wrap { height:340px; } }
 .progress-bar-wrap { margin-top:20px; }
 .progress-label {
   font-size:11px; color:var(--text3);
@@ -1574,7 +1583,7 @@ td { padding:10px 14px; white-space:nowrap; }
         <div style="font-family:var(--font-display);font-size:28px;font-weight:800;color:var(--accent);text-shadow:0 0 24px rgba(0,200,83,0.3)" id="modal-ticker"></div>
         <div style="font-size:11px;color:var(--text3)" id="modal-sector"></div>
       </div>
-      <button class="modal-close" onclick="document.getElementById('modal').classList.remove('open')">✕</button>
+      <button class="modal-close" onclick="document.getElementById('modal').classList.remove('open');tvClear()">✕</button>
     </div>
     <div class="modal-body" id="modal-body"></div>
   </div>
@@ -3263,6 +3272,82 @@ function renderBottlenecks(){
 }
 
 /* ─── MODAL ─── */
+/* ─── PRICE CHART (TradingView Advanced Chart widget) ───
+   One chart inside the ticker panel, so every tab that opens the panel
+   (Screener, Sectors, Overreaction, Rankings, Bottlenecks, Lists) gets it. */
+const TV_RANGES = {
+  '1D': { range:'1D',  interval:'5',  label:'Day'      },
+  '1W': { range:'5D',  interval:'30', label:'Week'     },
+  '3M': { range:'3M',  interval:'D',  label:'3 Month'  },
+  '6M': { range:'6M',  interval:'D',  label:'6 Month'  },
+  '1Y': { range:'12M', interval:'D',  label:'1 Year'   }
+};
+let tvSym = null;
+
+// Finnhub exchange name -> TradingView prefix. Anything not listed (ADRs like
+// ASML/TSM/RIO whose "exchange" is their home market, ETFs with no exchange)
+// goes in bare and TradingView resolves it to the US listing.
+function tvSymbol(s){
+  const ex = (s.exchange || '').toUpperCase();
+  const t = s.ticker;
+  if (ex.startsWith('NASDAQ')) return 'NASDAQ:' + t;
+  if (ex.startsWith('NYSE MKT') || ex.includes('AMERICAN')) return 'AMEX:' + t;
+  if (ex.startsWith('NEW YORK STOCK EXCHANGE') || ex === 'NYSE') return 'NYSE:' + t;
+  if (ex.includes('TOKYO') && /^[A-Z]{4}F$/.test(t)) return 'OTC:' + t;  // US OTC lines like HSYDF
+  return t;
+}
+function tvGetRange(){ try { return localStorage.getItem('ncmf_chart_range') || '3M'; } catch(e){ return '3M'; } }
+function tvSetRange(key){
+  try { localStorage.setItem('ncmf_chart_range', key); } catch(e){}
+  tvRender(key);
+}
+function tvRender(key){
+  const box = document.getElementById('tv-chart');
+  if (!box || !tvSym) return;
+  const r = TV_RANGES[key] || TV_RANGES['3M'];
+  document.querySelectorAll('.tv-range .filter-btn').forEach(b =>
+    b.classList.toggle('active', b.dataset.range === key));
+  box.innerHTML = '<div class="tradingview-widget-container"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div></div>';
+  const sc = document.createElement('script');
+  sc.src = 'https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js';
+  sc.async = true;
+  sc.text = JSON.stringify({
+    autosize: true,
+    symbol: tvSym,
+    interval: r.interval,
+    range: r.range,
+    timezone: 'America/New_York',
+    theme: 'dark',
+    style: '1',
+    locale: 'en',
+    backgroundColor: '#0b1020',
+    gridColor: 'rgba(255,255,255,0.04)',
+    allow_symbol_change: false,
+    hide_side_toolbar: window.innerWidth < 700,
+    save_image: false,
+    calendar: false,
+    studies: ['STD;RSI'],
+    support_host: 'https://www.tradingview.com'
+  });
+  box.firstChild.appendChild(sc);
+}
+function tvClear(){
+  const box = document.getElementById('tv-chart');
+  if (box) box.innerHTML = '';   // stops the widget so it isn't running behind a closed panel
+  tvSym = null;
+}
+function tvChartBlock(s){
+  const cur = tvGetRange();
+  const btns = Object.keys(TV_RANGES).map(k =>
+    `<button class="filter-btn${k===cur?' active':''}" data-range="${k}" onclick="tvSetRange('${k}')">${TV_RANGES[k].label}</button>`).join('');
+  return `<div class="tv-section">
+    <div class="tv-range"><span class="tv-range-label">Chart</span>${btns}</div>
+    <div class="tv-chart-wrap"><div id="tv-chart"></div></div>
+    <div class="tv-foot"><span>Live chart by TradingView · RSI(14) panel below price</span>
+      <a href="https://www.tradingview.com/symbols/${tvSymbol(s).replace(':','-')}/" target="_blank" rel="noopener">Open full chart ↗</a></div>
+  </div>`;
+}
+
 function showModal(ticker){
   const s=allStocks.find(x=>x.ticker===ticker);
   if(!s) return;
@@ -3277,6 +3362,7 @@ function showModal(ticker){
       ${s.exchange&&!['NYSE','NASDAQ','AMEX','NYSE ARCA','NASDAQ NMS - GLOBAL MARKET','NYSE MKT'].includes(s.exchange)?`<span style="background:rgba(255,204,0,0.1);padding:2px 9px;border-radius:4px;border:1px solid rgba(255,204,0,0.25);color:var(--yellow)">⚠ Foreign Exchange</span>`:''}
     </div>`:''}
     ${s.description?`<div style="font-size:12px;color:var(--text2);line-height:1.8;margin-bottom:20px;padding:14px;background:var(--bg4);border-radius:8px;border-left:3px solid var(--accent);max-height:120px;overflow-y:auto;box-shadow:inset 0 2px 8px rgba(0,0,0,0.3)">${s.description}</div>`:''}
+    ${tvChartBlock(s)}
     <div class="modal-metrics">
       <div><div class="modal-metric-label">Price</div><div class="modal-metric-value">$${fmt(s.price)}</div></div>
       <div><div class="modal-metric-label">Today's Change</div><div class="modal-metric-value ${pctClass(s.change_pct)}">${s.change_pct!=null?(s.change_pct>0?'+':'')+fmt(s.change_pct)+'%':'—'}</div></div>
@@ -3307,8 +3393,10 @@ function showModal(ticker){
       </span></div>`:''}`;
   document.getElementById('modal').classList.add('open');
   animateModalOpen();
+  tvSym = tvSymbol(s);
+  tvRender(tvGetRange());
 }
-function closeModal(e){if(e.target===document.getElementById('modal')) document.getElementById('modal').classList.remove('open');}
+function closeModal(e){if(e.target===document.getElementById('modal')){ document.getElementById('modal').classList.remove('open'); tvClear(); }}
 
 /* ─── STAT CARD CLICK → SCREENER FILTER ─── */
 // Maps stat card filter keys to the matching activeFilters key + filter button selector

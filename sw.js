@@ -1,6 +1,6 @@
 // Bump this on every index.html change, or installed PWAs keep serving the
 // old shell from the previous cache and your changes appear to do nothing.
-const CACHE = 'ncmf-v24';
+const CACHE = 'ncmf-v25';
 const ASSETS = [
   '/',
   '/index.html',
@@ -39,6 +39,12 @@ self.addEventListener('activate', e => {
 // cache first for everything else
 self.addEventListener('fetch', e => {
   const url = new URL(e.request.url);
+
+  // Only handle our own site. Third-party requests (the TradingView chart and
+  // its iframe, CDN scripts) go straight to the network untouched. Without this
+  // the chart's iframe counts as a "navigation" and would be cached as
+  // /index.html, breaking the app offline.
+  if (url.origin !== self.location.origin) return;
 
   // Navigations (the app shell) — NETWORK FIRST, cache only as the offline
   // fallback. Cache-first here is what makes an installed PWA keep showing an
