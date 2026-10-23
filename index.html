@@ -3237,7 +3237,7 @@ function renderRankings(){
       <div class="ranking-card-header" style="color:var(--green)">🟢 Most Momentum Sectors</div>
       ${momentum.map((s,i)=>`<div class="ranking-item" onclick="switchTab('sectors',null);setTimeout(()=>showSectorDetail('${s.sector}'),100)">
         <div class="ranking-num" style="color:${i<3?'var(--green)':'var(--text3)'}">${i+1}</div>
-        <div class="ranking-info"><div class="ranking-name" style="color:${sectorColor(s.sector)}">${s.sector}</div><div class="ranking-sub">${s.avgFromLow.toFixed(1)}% avg above 52W low · ${s.count} stocks</div></div>
+        <div class="ranking-info"><div class="ranking-name" style="color:${sectorColor(s.sector)}">${s.sector}</div><div class="ranking-sub">${s.avgFromLow.toFixed(1)}% avg above 52W low · Avg RSI ${s.avgRsi!=null?s.avgRsi.toFixed(1):'—'} · ${s.count} stocks</div></div>
         <div class="ranking-score" style="color:var(--green)">${s.avgFromLow.toFixed(1)}%</div>
       </div>`).join('')}
     </div>`;
