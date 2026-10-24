@@ -1,4 +1,4 @@
-# Non-Cents scheduled task setup. Safe to re-run any time.
+﻿# Non-Cents scheduled task setup. Safe to re-run any time.
 # Run from an ADMINISTRATOR PowerShell:
 #   powershell -ExecutionPolicy Bypass -File C:\non-cents\setup_tasks.ps1
 #
@@ -23,7 +23,8 @@ Get-ScheduledTask | Where-Object {
 }
 
 # 2. Create the catch-up task
-$action = New-ScheduledTaskAction -Execute "$repo\catchup_update.bat" -WorkingDirectory $repo
+# conhost --headless runs the .bat with no visible window (Windows 10 1809+ / 11)
+$action = New-ScheduledTaskAction -Execute "conhost.exe" -Argument "--headless `"$repo\catchup_update.bat`"" -WorkingDirectory $repo
 
 $atLogon = New-ScheduledTaskTrigger -AtLogOn -User $user
 $atLogon.Delay = 'PT3M'     # give Wi-Fi a few minutes to connect
