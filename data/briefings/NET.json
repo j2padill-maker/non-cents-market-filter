@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-23T18:03:36.793812-07:00",
+  "generated_at": "2026-10-24T16:48:25.763795-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Cloudflare (NET) Stock May Trade At A Rich Sales Premium",
+      "headline": "Qualys, Tenable, Cloudflare, CrowdStrike, and Okta shares skyrocket, what you need to know",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7764c21b1212576f6b2fead6a245740eb6fe2e3852a05e01f84f29f3f02cde4c",
-      "datetime": 1792729675,
-      "summary": "Cloudflare\u2019s stock has surged over the past few years as investors have latched onto its role in web security and edge computing. With the shares now around US$303.61, the open question is whether that price tag is still supported by its sales base. Cloudflare has delivered a very large 3 year share price gain of about 4.5x, which makes the gap between its long term share performance and its under"
+      "url": "https://finnhub.io/api/news?id=0332ceb3621b1b332e9e0f09486ab15a5eca9692ee6470b993684b2b686bacf8",
+      "datetime": 1792823559,
+      "summary": "A number of stocks jumped in the afternoon session after cybersecurity stocks surged as investors reacted to a massive new wave of artificial intelligence-enabled cyber threats that industry experts have dubbed \"Black October.\""
     },
     {
-      "headline": "Cloudflare (NET) Stock Moves -1.18%: What You Should Know",
+      "headline": "Cathie Wood-Led Ark Invest Sells PLTR, GOOG, SHOP Stocks \u2014 But Loads Up On PACB, FRNM And Other Biotech Firms",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=bb64847be94797d43a393ad39fcb4aea49932de258467b534d2781123090a527",
-      "datetime": 1792702804,
-      "summary": "The latest trading day saw Cloudflare (NET) settling at $303.61, representing a -1.18% change from its previous close."
+      "url": "https://finnhub.io/api/news?id=33927fa26277641fa5b6f5fa1c4dc824ca3cd17137af270649e92bc55f0e321e",
+      "datetime": 1792819795,
+      "summary": "Ark Invest reduced its exposure to several widely followed technology stocks during the session."
     },
     {
-      "headline": "Palo Alto +3% on Deutsche Bank AI Call as CEO Warns: \u201cMore of These, Not Less\u201d",
+      "headline": "The PHP Bugs That Could Have Let Anyone Run Code on Your Server \u2013 Uneasy Money",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7aaacf74d9ad0b468ceaa0b50ff4d529c4f0e0a4638ad37e6ad5d69b46012849",
-      "datetime": 1792687292,
-      "summary": "Key TakeawaysPalo Alto Networks shares rose 3% today after Deutsche Bank named it one of three standouts among companies set to gain from rising AI usage, while the Nasdaq fell about 2%. CEO Nikesh Arora warned that more AI-found flaws like this week\u2019s PHP bug are coming, and Cloudflare rose [4%] as the cybersecurity rally carried on."
+      "url": "https://finnhub.io/api/news?id=21973039c40492721abb847ec5a5dfbe46efadeaccd8a83509fc6b66f7f3264d",
+      "datetime": 1792789231,
+      "summary": "Uneasy Money, from Unchained: Two remote code execution bugs in PHP could let anyone run code on unpatched servers. Taylor Monahan on why patching is so hard and how Cloudflare is buying time."
     },
     {
-      "headline": "Website PHP Flaws Spur a Cybersecurity Stock Rally\u2014but Not All Are Buys",
+      "headline": "Investing.com\u2019s stocks of the week",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0b0c039328743e22bf869626313fe680a4e623c75bb3f09a2dd404a214cb7730",
-      "datetime": 1792684920,
-      "summary": "Cloudflare and other cybersecurity stocks have gained as website operators rush to patch PHP flaws, but price targets suggest uneven upside."
+      "url": "https://finnhub.io/api/news?id=03f151951b7c0f2f9e114d2cfe06c89f37fb6a64f57c5a572b616d670ec67d7d",
+      "datetime": 1792780173,
+      "summary": "Investing.com -- Cybersecurity names gained ground on a global software alert while Meta declined and a fresh escalation in the Middle East pushed crude to highs."
     },
     {
-      "headline": "Nebius Declines 6% Despite Fresh Citi Financing; CoreWeave Drops 5%, Cloudflare Edges Higher",
+      "headline": "Palo Alto and Crowdstrike Jumped 6%, and Okta Up 5% as Evercore Survey Flags Stronger Cyber Demand",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b8e98a18a0a653634caff7f050c9606cae84fc06c3732ac859fb4b99c8ad072f",
-      "datetime": 1792680449,
-      "summary": "Citi handed Nebius a fresh credit line to fund its GPU buildout, and investors sold the news anyway. The reaction inside the neocloud group tells a story about leverage, trust, and how much runway debt-funded AI builders actually have left."
+      "url": "https://finnhub.io/api/news?id=1eb186d8707c50fc8239ada263e826653373e571904500e3e2b811a2556cb24c",
+      "datetime": 1792779389,
+      "summary": "Key TakeawaysPalo Alto Networks rose 6. 5% today, CrowdStrike rose 6."
     },
     {
-      "headline": "Brown Advisory Sees Accelerating Growth at Cloudflare, Inc. (NET)",
+      "headline": "AI-powered cyber threats light a fire under cybersecurity stocks",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2578206ce3a730f3a20863a43805d6b8e67bbb52d58a8d89aabb6ffbb08ffef4",
-      "datetime": 1792676619,
-      "summary": "Brown Advisory, an investment management company, released its \u201cMid-Cap Growth Strategy\u201d Q3 2026 investor letter. A copy of the letter can be downloaded here. The strategy outperformed its benchmark in the third quarter of 2026, as sharp market volatility and a reversal in investor sentiment toward artificial intelligence infrastructure created opportunities for active stock selection. [\u2026]"
+      "url": "https://finnhub.io/api/news?id=b8659ba6a15319c53174132379c7bfdfe82ec064902bd1d8361ba5b6e5cce001",
+      "datetime": 1792770008,
+      "summary": "Investing.com -- An emergency security update for PHP, the programming language used by roughly 70% of websites worldwide, has triggered a global cybersecurity alert. Two critical vulnerabilities disclosed this week could allow hackers to take control of affected servers remotely. The incident highlights a growing challenge for businesses and investors alike: artificial intelligence (AI) is accele"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-22",
+  "data_asof": "2026-10-23",
   "price": {
-    "last": 303.61,
-    "open": 314.5,
-    "prev_close": 307.22,
-    "move_day_pct": -1.18,
-    "move_open_close_pct": -3.46,
-    "move_week_pct": -4.02
+    "last": 325.73,
+    "open": 306.7,
+    "prev_close": 303.61,
+    "move_day_pct": 7.29,
+    "move_open_close_pct": 6.2,
+    "move_week_pct": 9.93
   },
   "indicators": {
     "rsi14": {
-      "value": 41.3,
+      "value": 50.6,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -6.587,
-      "signal": 0.359,
-      "hist": -6.945,
-      "hist_prev": -7.779,
+      "macd": -5.455,
+      "signal": -0.804,
+      "hist": -4.651,
+      "hist_prev": -6.945,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 381.08,
-      "lower": 288.77,
-      "mid": 334.93,
-      "pctb": 0.161,
-      "read": "Near the lower band"
+      "upper": 379.61,
+      "lower": 287.92,
+      "mid": 333.76,
+      "pctb": 0.412,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 89.53,
-      "read": "90% above its 52-week low"
+      "value": 103.34,
+      "read": "103% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -15.88,
-      "read": "16% below its 52-week high"
+      "value": -9.75,
+      "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 244.3,
-      "pct": 24.28,
-      "read": "24% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 244.92,
+      "pct": 32.99,
+      "read": "33% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 17.65,
-      "pct_of_price": 5.81,
+      "value": 18.44,
+      "pct_of_price": 5.66,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.56,
+      "value": 1.33,
       "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 40.2,
+      "value": 41.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 360.93,
-  "ma50": 319.34,
-  "ma200": 244.3
+  "ma50": 319.24,
+  "ma200": 244.92
 }

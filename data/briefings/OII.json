@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-23T18:03:48.557572-07:00",
+  "generated_at": "2026-10-24T16:48:37.338697-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Is Oceaneering International (OII) Trading At A Discount To Cash Flow?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=da70762a0a843fe9b3681ae131afe802af7e401ee572ce265bdd84d9f857e00f",
+      "datetime": 1792818924,
+      "summary": "Oceaneering International has pulled back sharply in recent weeks after a strong multi\u2011year run. This puts the focus squarely on whether the current share price lines up with the cash the business is expected to generate. With that kind of setup, the key issue for you as an investor is whether the recent weakness changes the story that the market has been pricing into its future cash flows. Over t"
+    },
+    {
+      "headline": "Stocks making big moves this week: Braze, Amkor, Oceaneering, Arhaus, and Silgan Holdings",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=3f1e8fbf3792bf403adeb02205b4e8b878af47b7b3266b9d910132567256c5a9",
+      "datetime": 1792811079,
+      "summary": "Check out the companies making headlines this week:"
+    },
+    {
+      "headline": "Imperial Oil shares are trading lower after the company reported worse-than-expected Q4 sales results.",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=1f714709ab7ddf7f6cb7144cca446464e468587349f49f9b62558fa0d4ae9f57",
+      "datetime": 1792758719,
+      "summary": ""
+    },
     {
       "headline": "OII Q3 deep dive: margin pressures and mixed outlook drive negative market reaction",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=9c1811d03e1b7fcf35133f72d70a68f99efccea8cd40c09eca6430c83ffd22aa",
       "datetime": 1792712033,
       "summary": "Shares of offshore services provider Oceaneering International (NYSE:OII) fell 17.5% in the afternoon session after the company reported a 26% year-over-year decline in net income attributable to the company for the third quarter of 2026."
-    },
-    {
-      "headline": "Oceaneering International Q3 Earnings Call Highlights",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=37556d1e35b6acdec0b431d82085c0de35cea0fc8ffc35c424568ef74221987f",
-      "datetime": 1792706656,
-      "summary": "Oceaneering International (NYSE:OII) reported third-quarter 2026 revenue growth across all of its operating segments, with adjusted EBITDA reaching its highest quarterly level since the fourth quarter of 2015. Revenue rose 6% from a year earlier to $785 million, while operating income increased 7%"
-    },
-    {
-      "headline": "Oceaneering (OII) Q3 2026 Earnings Call Transcript",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6f646cf3d87e157d9edba4153362daaa788defb8610ec2a0681a06053239d862",
-      "datetime": 1792698423,
-      "summary": "Subsea robotics pricing gains and defense contracts drive 2027 EBITDA guidance of $430M\u2013$480M."
-    },
-    {
-      "headline": "Oceaneering International, Inc. Q3 2026 Earnings Call Summary",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3efa51a93dd5881ca5a174d4a78d12b2c175284d83e8777f0bbd0dbe19401ce8",
-      "datetime": 1792672200,
-      "summary": "Moby summary of Oceaneering International, Inc.'s Q3 2026 earnings call"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-22",
+  "data_asof": "2026-10-23",
   "price": {
-    "last": 36.62,
-    "open": 39.43,
-    "prev_close": 44.09,
-    "move_day_pct": -16.94,
-    "move_open_close_pct": -7.13,
-    "move_week_pct": -14.94
+    "last": 39.27,
+    "open": 36.6,
+    "prev_close": 36.62,
+    "move_day_pct": 7.24,
+    "move_open_close_pct": 7.3,
+    "move_week_pct": -10.32
   },
   "indicators": {
     "rsi14": {
-      "value": 23.4,
-      "read": "Extremely oversold"
+      "value": 34.8,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -1.478,
-      "signal": -1.146,
-      "hist": -0.331,
-      "hist_prev": 0.129,
+      "macd": -1.675,
+      "signal": -1.252,
+      "hist": -0.423,
+      "hist_prev": -0.331,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 47.81,
-      "lower": 40.31,
-      "mid": 44.06,
-      "pctb": -0.492,
+      "upper": 47.85,
+      "lower": 39.56,
+      "mid": 43.71,
+      "pctb": -0.035,
       "read": "Below the lower band \u2014 stretched to the downside"
     },
     "pct_from_52w_low": {
-      "value": 61.96,
-      "read": "62% above its 52-week low"
+      "value": 73.68,
+      "read": "74% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -32.32,
-      "read": "32% below its 52-week high"
+      "value": -27.43,
+      "read": "27% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 39.9,
-      "pct": -8.22,
-      "read": "8% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 39.97,
+      "pct": -1.75,
+      "read": "2% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 2.11,
-      "pct_of_price": 5.75,
+      "value": 2.17,
+      "pct_of_price": 5.53,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 3.68,
+      "value": 2.49,
       "read": "Heavy volume \u2014 well above average"
     },
     "mfi14": {
-      "value": 34.9,
+      "value": 41.1,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 22.61,
   "high_52w": 54.11,
-  "ma50": 47.58,
-  "ma200": 39.9
+  "ma50": 47.34,
+  "ma200": 39.97
 }

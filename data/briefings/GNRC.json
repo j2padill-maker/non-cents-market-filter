@@ -2,7 +2,7 @@
   "ticker": "GNRC",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-23T18:03:38.447938-07:00",
+  "generated_at": "2026-10-24T16:48:27.407869-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Piper Sandler Maintains Overweight on Generac Holdings, Lowers Price Target to $279",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=88a1ed2f3896b52d34ef9c9153b63e060b3ca9748829ed97bb99e49416b915ff",
+      "datetime": 1792757446,
+      "summary": "Piper Sandler  analyst Dimple Gosai   maintains Generac Holdings (NYSE:GNRC) with a Overweight and lowers the price target from $303 to $279."
+    },
     {
       "headline": "Generac Holdings Earnings Preview: What to Expect",
       "source": "Yahoo",
@@ -75,54 +82,54 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-22",
+  "data_asof": "2026-10-23",
   "price": {
-    "last": 188.02,
-    "open": 196.4,
-    "prev_close": 203.14,
-    "move_day_pct": -7.44,
-    "move_open_close_pct": -4.27,
-    "move_week_pct": -5.23
+    "last": 186.92,
+    "open": 185.0,
+    "prev_close": 188.02,
+    "move_day_pct": -0.59,
+    "move_open_close_pct": 1.04,
+    "move_week_pct": -2.99
   },
   "indicators": {
     "rsi14": {
-      "value": 39.4,
+      "value": 38.8,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -2.209,
-      "signal": 0.703,
-      "hist": -2.912,
-      "hist_prev": -2.465,
+      "macd": -3.192,
+      "signal": -0.076,
+      "hist": -3.116,
+      "hist_prev": -2.912,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 230.84,
-      "lower": 185.92,
-      "mid": 208.38,
-      "pctb": 0.047,
+      "upper": 231.65,
+      "lower": 182.99,
+      "mid": 207.32,
+      "pctb": 0.081,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 37.87,
-      "read": "38% above its 52-week low"
+      "value": 37.07,
+      "read": "37% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -36.38,
-      "read": "36% below its 52-week high"
+      "value": -36.75,
+      "read": "37% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 217.21,
-      "pct": -13.44,
-      "read": "13% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 217.44,
+      "pct": -14.04,
+      "read": "14% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 10.59,
-      "pct_of_price": 5.63,
+      "value": 10.41,
+      "pct_of_price": 5.57,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.84,
+      "value": 0.8,
       "read": "Roughly average volume"
     },
     "mfi14": {
@@ -132,6 +139,6 @@
   },
   "low_52w": 136.37,
   "high_52w": 295.54,
-  "ma50": 201.33,
-  "ma200": 217.21
+  "ma50": 200.74,
+  "ma200": 217.44
 }

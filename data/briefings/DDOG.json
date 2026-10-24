@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-23T18:03:35.153135-07:00",
+  "generated_at": "2026-10-24T16:48:24.281045-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Datadog Reportedly Offered Nearly $4 Billion for Upwind. Here\u2019s What Its CFO Said About Buying a Platform",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=3265a08c9534b2676cbed4bc525ed48ad8222f5fbd93c097ec11578ea23a5a45",
+      "datetime": 1792855185,
+      "summary": "Key Stats for Datadog StockCurrent Price: $269. 65Target Price (Mid): ~$730Street Target: ~$292Potential Total Return: ~170%Annualized IRR: ~27% / year__Now Live: Discover how much upside your favorite stocks could have using TIKR\u2019s new Valuation Model (It\u2019s free)__ >>> What Happened?Datadog (DDOG) CFO David Obstler told a Goldman Sachs conference in September that companies trying to build an int"
+    },
+    {
+      "headline": "CrowdStrike\u2019s CEO Says a Wave of Cyber Attacks Are Coming",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a7fafb529ab0675918f049335131c407816d8e1baa3233600c5ab1bc70bb65c7",
+      "datetime": 1792849542,
+      "summary": "CrowdStrike's CEO just warned that newly discovered flaws in the software powering most of the internet will trigger a wave of break-ins, and the stock market rewarded that forecast immediately. Whether investors are buying a real threat or a vendor's sales pitch is a question worth answering before the next earnings report."
+    },
+    {
+      "headline": "Palo Alto Networks, Datadog, Zscaler, and SentinelOne shares skyrocket, what you need to know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=46110093d871409c2e111019a78d53c12059a67198fd90eef7f5ed88239dcbd1",
+      "datetime": 1792821639,
+      "summary": "A number of stocks jumped in the afternoon session after cybersecurity stocks surged as investors reacted to a massive new wave of artificial intelligence-enabled cyber threats that industry experts have dubbed \"Black October.\""
+    },
     {
       "headline": "Today's S&P 500 Top Movers: Crown Castle Leads Gainers, Bloom Energy Leads Losers",
       "source": "ChartMill",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=bb2f323eb7fb1ec443efa32f734a18f25ee52779bec61fc70bce8e5e5e8c8678",
       "datetime": 1792772789,
       "summary": "Daytona is building a cloud for agents that's like giving every agent its own computer. It has attracted founders of Stripe, Perplextity, Datadog, Mercor, and others as angels, it says."
-    },
-    {
-      "headline": "Datadog Soars 5% as BofA Lifts Price Target to $335 Ahead of Q3 Earnings",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=986394339514ee8dc49a1ec1ff54aa5d32db15e084ad6844a4437c0a7204b14e",
-      "datetime": 1792771566,
-      "summary": "Key TakeawaysDatadog shares rose 5% today after BofA raised its price target to $335 from $305 and kept its Buy rating. The rise follows Thursday\u2019s 4% drop, which came after a report that Datadog had offered nearly $4 billion for cloud security startup Upwind."
-    },
-    {
-      "headline": "3 Investment Grade Bond Ideas Riding Big Tech AI Capex Plans",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=10484f97b5b04ec706bf39dbae4ee6a1f5602644fdd0d973936c3d601c58713d",
-      "datetime": 1792754174,
-      "summary": "Big Tech just put eye watering long term spending on the table, with Meta, Tesla and SpaceX sketching hundreds of billions in future AI and chip infrastructure outlays while Apple keeps its cash engine on a tighter leash. That mix of ambition and restraint is shaking credit markets and bond spreads. This piece walks through three US investment grade issuers tied to those headlines and shows where "
-    },
-    {
-      "headline": "Datadog (DDOG) Stock Looks Undervalued Even After A 216% Run",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=479b3798bda453eff77b59197a8f0273c06b0ebb02118e4ffd8bc017a9ad8dd7",
-      "datetime": 1792739794,
-      "summary": "Datadog has delivered a powerful run over the past few years, helped by growing interest in observability tools and rising attention on AI workloads. With the share price now well above where it traded three years ago, the key question for investors is whether that move aligns with the cash the business can produce over time. Datadog has returned 215.6% over the past three years, which places sign"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-22",
+  "data_asof": "2026-10-23",
   "price": {
-    "last": 257.75,
-    "open": 271.49,
-    "prev_close": 273.09,
-    "move_day_pct": -5.62,
-    "move_open_close_pct": -5.06,
-    "move_week_pct": -3.19
+    "last": 269.65,
+    "open": 259.34,
+    "prev_close": 257.75,
+    "move_day_pct": 4.62,
+    "move_open_close_pct": 3.98,
+    "move_week_pct": 9.12
   },
   "indicators": {
     "rsi14": {
-      "value": 48.1,
+      "value": 53.2,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 3.42,
-      "signal": 6.542,
-      "hist": -3.121,
-      "hist_prev": -2.819,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": 3.483,
+      "signal": 5.93,
+      "hist": -2.447,
+      "hist_prev": -3.121,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 292.31,
-      "lower": 250.38,
-      "mid": 271.35,
-      "pctb": 0.176,
-      "read": "Near the lower band"
+      "upper": 292.35,
+      "lower": 250.49,
+      "mid": 271.42,
+      "pctb": 0.458,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 151.18,
-      "read": "151% above its 52-week low"
+      "value": 162.78,
+      "read": "163% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -12.11,
+      "value": -8.05,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 194.15,
-      "pct": 32.76,
-      "read": "33% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 194.79,
+      "pct": 38.43,
+      "read": "38% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 14.16,
-      "pct_of_price": 5.49,
+      "value": 14.5,
+      "pct_of_price": 5.38,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.27,
+      "value": 0.75,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 37.5,
+      "value": 43.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 293.26,
-  "ma50": 248.4,
-  "ma200": 194.15
+  "ma50": 248.75,
+  "ma200": 194.79
 }
