@@ -533,6 +533,14 @@ td { padding:10px 14px; white-space:nowrap; }
 .pct-up { color:var(--green); }
 .pct-down { color:var(--red); }
 .pct-neutral { color:var(--text2); }
+.pct-near { color:var(--yellow); }
+.at-low-text { color:var(--red); }
+.near-low-text { color:var(--yellow); }
+.near-low-flag.near { background:var(--yellow); box-shadow:0 0 6px rgba(255,204,0,0.6); animation:pulseY 1.6s ease-in-out infinite; }
+@keyframes pulseY {
+  0%,100%{ opacity:1; box-shadow:0 0 6px rgba(255,204,0,0.6); }
+  50%{ opacity:0.3; box-shadow:0 0 2px rgba(255,204,0,0.2); }
+}
 .rsi-badge {
   display:inline-block;
   padding:2px 9px;
@@ -1393,9 +1401,14 @@ td { padding:10px 14px; white-space:nowrap; }
       <div class="stat-value" id="stat-total">—</div>
       <div class="stat-card-hint">↩ SHOW ALL</div>
     </div>
-    <div class="stat-card red-card" data-filter="near52low" onclick="statCardClick('near52low',this)">
-      <div class="stat-label">NEAR 52W LOW</div>
-      <div class="stat-value red" id="stat-near-low">—</div>
+    <div class="stat-card red-card" data-filter="at52low" onclick="statCardClick('at52low',this)">
+      <div class="stat-label">AT 52W LOW ≤5%</div>
+      <div class="stat-value red" id="stat-at-low">—</div>
+      <div class="stat-card-hint">↩ FILTER SCREENER</div>
+    </div>
+    <div class="stat-card yellow-card" data-filter="near52low" onclick="statCardClick('near52low',this)">
+      <div class="stat-label">NEAR 52W LOW 5–10%</div>
+      <div class="stat-value yellow" id="stat-near-low">—</div>
       <div class="stat-card-hint">↩ FILTER SCREENER</div>
     </div>
     <div class="stat-card yellow-card" data-filter="oversold" onclick="statCardClick('oversold',this)">
@@ -1424,6 +1437,7 @@ td { padding:10px 14px; white-space:nowrap; }
     </div>
     <div class="filter-row">
       <span style="font-size:9px;color:var(--text3);margin-right:4px;letter-spacing:0.1em;">FILTER:</span>
+      <button class="filter-btn red-filter" onclick="toggleFilter('at52low',this)">At 52W Low</button>
       <button class="filter-btn" onclick="toggleFilter('near52low',this)">Near 52W Low</button>
       <button class="filter-btn red-filter" onclick="toggleFilter('oversold',this)">RSI ≤ 45</button>
       <button class="filter-btn red-filter" onclick="toggleFilter('extreme',this)">RSI &lt; 30</button>
@@ -1500,7 +1514,7 @@ td { padding:10px 14px; white-space:nowrap; }
 <!-- ═══════════ RANKINGS ═══════════ -->
 <div id="tab-rankings" class="panel">
   <div class="panel-heading">📈 Downtrodden vs. Momentum</div>
-  <div class="panel-sub">Sectors ranked by concentration near 52-week lows (downtrodden) and distance above lows (momentum).</div>
+  <div class="panel-sub">Downtrodden score: stocks at their 52-week low (≤5%) count fully, stocks near it (5–10%) count half and distance above lows (momentum).</div>
   <div class="ranking-grid" id="ranking-grid"><div class="loading"><div class="loading-spinner"></div><div class="loading-text">CALCULATING...</div></div></div>
 </div>
 
@@ -1748,6 +1762,20 @@ gsap.from('.tab', { opacity: 0, y: -8, duration: 0.4, stagger: 0.07, ease: 'powe
 ════════════════════════════════════════════ -->
 <script>
 let allStocks=[],sectorSummaries=[],activeFilters=new Set(),sortKey='pct_from_52w_low',sortDir='asc',screenerSearch='';
+/* 52-week-low tiers. One place to change the thresholds.
+   at   = within AT_LOW_PCT of the 52w low   (red)
+   near = above that, within NEAR_LOW_PCT     (yellow) */
+const AT_LOW_PCT=5, NEAR_LOW_PCT=10;
+// Downtrodden score: a stock AT its low counts fully, one NEAR it counts half.
+const NEAR_LOW_WEIGHT=0.5;
+function lowTier(p){ if(p==null) return null; return p<=AT_LOW_PCT?'at':(p<=NEAR_LOW_PCT?'near':null); }
+function lowCls(p){ const t=lowTier(p); return t==='at'?'pct-down':t==='near'?'pct-near':'pct-neutral'; }
+function lowFlag(s){
+  const t=lowTier(s.pct_from_52w_low);
+  if(t==='at') return '<span class="at-low-text"><span class="near-low-flag"></span>At Low</span>';
+  if(t==='near') return '<span class="near-low-text"><span class="near-low-flag near"></span>Near Low</span>';
+  return '';
+}
 
 /* What the LAST fetch run knew about, read from cache.json. Lets the UI tell
    "not exported yet" apart from "exported, fetched, provider had no data". */
@@ -2800,8 +2828,7 @@ function wlTable(tickers, listId, showLists){
     // Same flag logic the screener uses, so a watchlist row carries every
     // signal the main table would show for the same stock.
     const flags = [];
-    if (s.pct_from_52w_low != null && s.pct_from_52w_low <= 5)
-      flags.push('<span class="near-low-flag"></span>Near Low');
+    if (lowTier(s.pct_from_52w_low)) flags.push(lowFlag(s));
     if (s.abrupt_drop_flag) flags.push(dropBadge(s));
     if (isOverreaction(s)) flags.push('<span class="drop-flag">OVERREACTION</span>');
     html += `<tr onclick="showModal('${s.ticker}')" style="border-bottom:1px solid var(--border);cursor:pointer;transition:background 0.12s;" onmouseover="this.style.background='rgba(255,255,255,0.025)'" onmouseout="this.style.background=''">
@@ -2813,7 +2840,7 @@ function wlTable(tickers, listId, showLists){
       <td style="${td}">${rsiDisplay(s)}</td>
       <td style="${td}color:var(--red);">${s.low_52w?'$'+fmt(s.low_52w):'—'}</td>
       <td style="${td}color:var(--green);">${s.high_52w?'$'+fmt(s.high_52w):'—'}</td>
-      <td style="${td}" class="${s.pct_from_52w_low!=null&&s.pct_from_52w_low<=5?'pct-down':'pct-neutral'}">${fmt(s.pct_from_52w_low)}%</td>
+      <td style="${td}" class="${lowCls(s.pct_from_52w_low)}">${fmt(s.pct_from_52w_low)}%</td>
       <td style="${td}">${fmtCap(s.market_cap)}</td>
       <td style="${td}">${fmt(s.pe_ratio,1)}</td>
       <td style="${td}">${flags.join(' ') || '—'}</td>
@@ -2868,7 +2895,7 @@ function wlPortfolioTable(list){
     const val = wlPosVal(t, shares);
     const weight = (val != null && haveValue && total > 0) ? (val / total * 100) : null;
     const flags = [];
-    if (s.pct_from_52w_low != null && s.pct_from_52w_low <= 5) flags.push('<span class="near-low-flag"></span>Near Low');
+    if (lowTier(s.pct_from_52w_low)) flags.push(lowFlag(s));
     if (s.abrupt_drop_flag) flags.push(dropBadge(s));
     if (isOverreaction(s)) flags.push('<span class="drop-flag">OVERREACTION</span>');
     rows += '<tr onclick="showModal(\'' + s.ticker + '\')" style="cursor:pointer;transition:background .12s;" onmouseover="this.style.background=\'rgba(255,255,255,0.025)\'" onmouseout="this.style.background=\'\'">'
@@ -2880,7 +2907,7 @@ function wlPortfolioTable(list){
       + '<td class="r pf-val">' + (val != null ? money(val) : '—') + '</td>'
       + '<td class="r">' + (weight != null ? weight.toFixed(1) + '%' : '—') + '</td>'
       + '<td class="r">' + rsiDisplay(s) + '</td>'
-      + '<td class="r ' + (s.pct_from_52w_low != null && s.pct_from_52w_low <= 5 ? 'pct-down' : 'pct-neutral') + '">' + fmt(s.pct_from_52w_low) + '%</td>'
+      + '<td class="r ' + lowCls(s.pct_from_52w_low) + '">' + fmt(s.pct_from_52w_low) + '%</td>'
       + '<td class="r"><button class="pf-x" title="Remove" onclick="event.stopPropagation();wlRemove(\'' + s.ticker + '\',\'' + list.id + '\')">✕</button></td>'
       + '</tr>';
   }
@@ -2975,13 +3002,15 @@ async function loadData(){
 
     const d=new Date(data.generated);
     document.getElementById('last-updated').textContent=d.toLocaleDateString()+' '+d.toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'});
-    const nearLow=allStocks.filter(s=>s.pct_from_52w_low!=null&&s.pct_from_52w_low<=5).length;
+    const atLow=allStocks.filter(s=>lowTier(s.pct_from_52w_low)==='at').length;
+    const nearLow=allStocks.filter(s=>lowTier(s.pct_from_52w_low)==='near').length;
     const oversold=allStocks.filter(s=>s.rsi14!=null&&s.rsi14<=45).length;
     const overreaction=allStocks.filter(s=>isOverreaction(s)).length;
     // "Watchlist" is a personal bucket, not an industry — don't count it.
     const sectors=[...new Set(allStocks.map(s=>s.sector))].filter(x=>x!==WATCHLIST_SECTOR).length;
     // Animated counters via GSAP
     animateCounter(document.getElementById('stat-total'), allStocks.length);
+    animateCounter(document.getElementById('stat-at-low'), atLow);
     animateCounter(document.getElementById('stat-near-low'), nearLow);
     animateCounter(document.getElementById('stat-oversold'), oversold);
     animateCounter(document.getElementById('stat-overreaction'), overreaction);
@@ -3050,7 +3079,8 @@ function dropBadge(s){
 function getFilteredStocks(){
   let s=[...allStocks];
   if(screenerSearch){const q=screenerSearch.toLowerCase();s=s.filter(x=>x.ticker.toLowerCase().includes(q)||(x.sector||'').toLowerCase().includes(q));}
-  if(activeFilters.has('near52low')) s=s.filter(x=>x.pct_from_52w_low!=null&&x.pct_from_52w_low<=5);
+  if(activeFilters.has('at52low')) s=s.filter(x=>lowTier(x.pct_from_52w_low)==='at');
+  if(activeFilters.has('near52low')) s=s.filter(x=>lowTier(x.pct_from_52w_low)==='near');
   if(activeFilters.has('oversold')) s=s.filter(x=>x.rsi14!=null&&x.rsi14<=45);
   if(activeFilters.has('extreme')) s=s.filter(x=>x.rsi14!=null&&x.rsi14<30);
   if(activeFilters.has('abrupt')) s=s.filter(x=>x.abrupt_drop_flag);
@@ -3076,7 +3106,7 @@ function renderScreener(){
   }
   tbody.innerHTML=stocks.map(s=>{
     const flags=[];
-    if(s.pct_from_52w_low!=null&&s.pct_from_52w_low<=5) flags.push('<span class="near-low-flag"></span>Near Low');
+    if(lowTier(s.pct_from_52w_low)) flags.push(lowFlag(s));
     if(s.abrupt_drop_flag) flags.push(dropBadge(s));
     return`<tr onclick="showModal('${s.ticker}')">
       <td class="ticker-cell">${s.ticker}</td>
@@ -3086,7 +3116,7 @@ function renderScreener(){
       <td>${rsiDisplay(s)}</td>
       <td class="pct-down">${s.low_52w?'$'+fmt(s.low_52w):'—'}</td>
       <td class="pct-up">${s.high_52w?'$'+fmt(s.high_52w):'—'}</td>
-      <td class="${s.pct_from_52w_low!=null&&s.pct_from_52w_low<=5?'pct-down':'pct-neutral'}">${fmt(s.pct_from_52w_low)}%</td>
+      <td class="${lowCls(s.pct_from_52w_low)}">${fmt(s.pct_from_52w_low)}%</td>
       <td>${fmtCap(s.market_cap)}</td>
       <td>${fmt(s.pe_ratio,1)}</td>
       <td>${flags.join(' ')||'—'}</td>
@@ -3155,8 +3185,8 @@ function renderSectors(){
     const withRsi=stocks.filter(s=>s.rsi14!=null);
     const withLow=stocks.filter(s=>s.pct_from_52w_low!=null);
     const avgRsi=withRsi.length?(withRsi.reduce((a,s)=>a+s.rsi14,0)/withRsi.length):null;
-    const nearLow=withLow.filter(s=>s.pct_from_52w_low<=5).length;
-    const nearLowPct=withLow.length?Math.round(nearLow/withLow.length*100):0;
+    const atLowPct=withLow.length?Math.round(withLow.filter(s=>lowTier(s.pct_from_52w_low)==='at').length/withLow.length*100):0;
+    const nearLowPct=withLow.length?Math.round(withLow.filter(s=>lowTier(s.pct_from_52w_low)==='near').length/withLow.length*100):0;
     const avgFromLow=withLow.length?(withLow.reduce((a,s)=>a+s.pct_from_52w_low,0)/withLow.length):null;
     const color=sectorColor(sector);
     const bts=BOTTLENECKS[sector]||[];
@@ -3166,12 +3196,12 @@ function renderSectors(){
       <div class="sector-card-header"><div class="sector-name" style="color:${color}">${sector}</div><div style="font-size:10px;color:var(--text3)">${stocks.length} stocks</div></div>
       <div class="sector-metrics">
         <div><div class="sector-metric-label">Avg RSI</div><div class="sector-metric-value" style="color:${avgRsi!=null&&avgRsi<=45?'var(--yellow)':'var(--text)'}">${avgRsi!=null?avgRsi.toFixed(1):'—'}</div></div>
-        <div><div class="sector-metric-label">Near 52W Low</div><div class="sector-metric-value" style="color:${nearLowPct>=40?'var(--red)':'var(--text)'}">${nearLowPct}%</div></div>
+        <div><div class="sector-metric-label">At / Near Low</div><div class="sector-metric-value"><span style="color:var(--red)">${atLowPct}%</span><span style="color:var(--text3)"> / </span><span style="color:var(--yellow)">${nearLowPct}%</span></div></div>
         <div><div class="sector-metric-label">Avg From Low</div><div class="sector-metric-value" style="color:${avgFromLow!=null&&avgFromLow<=10?'var(--yellow)':'var(--green)'}">${avgFromLow!=null?avgFromLow.toFixed(1)+'%':'—'}</div></div>
       </div>
       <div class="sector-bar-wrap">
-        <div class="sector-bar-label"><span>% near 52W low</span><span style="color:${nearLowPct>=40?'var(--red)':'var(--text3)'}">${nearLowPct}%</span></div>
-        <div class="sector-bar"><div class="sector-bar-fill" style="width:${Math.min(nearLowPct,100)}%;background:${nearLowPct>=40?'var(--red)':nearLowPct>=20?'var(--yellow)':'var(--green)'};color:${nearLowPct>=40?'var(--red)':nearLowPct>=20?'var(--yellow)':'var(--green)'}"></div></div>
+        <div class="sector-bar-label"><span><span style="color:var(--red)">at ≤5%</span> · <span style="color:var(--yellow)">near 5–10%</span></span><span><span style="color:var(--red)">${atLowPct}%</span> · <span style="color:var(--yellow)">${nearLowPct}%</span></span></div>
+        <div class="sector-bar" style="display:flex"><div class="sector-bar-fill" style="width:${Math.min(atLowPct,100)}%;background:var(--red);color:var(--red);border-radius:3px 0 0 3px"></div><div class="sector-bar-fill" style="width:${Math.min(nearLowPct,100-Math.min(atLowPct,100))}%;background:var(--yellow);color:var(--yellow);border-radius:0 3px 3px 0"></div></div>
       </div>
       ${bts.length?`<div class="sector-bottlenecks"><div class="bottleneck-title">⚠ Key Bottlenecks</div>${bts.slice(0,3).map(b=>`<div class="bottleneck-item">${b}</div>`).join('')}</div>`:''}
       ${news.length?`<div style="padding:8px 16px 12px;border-top:1px solid var(--border)"><div style="font-size:9px;color:var(--text3);text-transform:uppercase;letter-spacing:.1em;margin-bottom:6px;">📰 Latest News</div>${news.slice(0,2).map(n=>`<div style="font-size:11px;color:var(--text2);margin-bottom:4px;padding-left:8px;border-left:2px solid var(--border)"><a href="${n.url}" target="_blank" onclick="event.stopPropagation()" style="color:var(--accent);text-decoration:none">${(n.headline||'').substring(0,80)}${(n.headline||'').length>80?'...':''}</a></div>`).join('')}</div>`:''}
@@ -3190,7 +3220,7 @@ function showSectorDetail(sector){
       <td>${rsiDisplay(s)}</td>
       <td class="pct-down">${s.low_52w?'$'+fmt(s.low_52w):'—'}</td>
       <td class="pct-up">${s.high_52w?'$'+fmt(s.high_52w):'—'}</td>
-      <td class="${s.pct_from_52w_low!=null&&s.pct_from_52w_low<=5?'pct-down':'pct-neutral'}">${fmt(s.pct_from_52w_low)}%</td>
+      <td class="${lowCls(s.pct_from_52w_low)}">${fmt(s.pct_from_52w_low)}%</td>
       <td class="pct-down">${fmt(s.pct_from_52w_high)}%</td>
       <td>${fmtCap(s.market_cap)}</td>
       <td>${fmt(s.pe_ratio,1)}</td>
@@ -3215,22 +3245,25 @@ function renderRankings(){
   const data=sectors.map(sector=>{
     const stocks=allStocks.filter(s=>s.sector===sector&&s.pct_from_52w_low!=null);
     if(!stocks.length) return null;
-    const nearLow=stocks.filter(s=>s.pct_from_52w_low<=5).length;
-    const nearLowPct=Math.round(nearLow/stocks.length*100);
+    const atLowPct=Math.round(stocks.filter(s=>lowTier(s.pct_from_52w_low)==='at').length/stocks.length*100);
+    const nearLowPct=Math.round(stocks.filter(s=>lowTier(s.pct_from_52w_low)==='near').length/stocks.length*100);
+    const atN=stocks.filter(s=>lowTier(s.pct_from_52w_low)==='at').length;
+    const nearN=stocks.filter(s=>lowTier(s.pct_from_52w_low)==='near').length;
+    const lowScore=Math.round((atN+NEAR_LOW_WEIGHT*nearN)/stocks.length*100);
     const avgFromLow=stocks.reduce((a,s)=>a+s.pct_from_52w_low,0)/stocks.length;
     const withRsi=stocks.filter(s=>s.rsi14!=null);
     const avgRsi=withRsi.length?withRsi.reduce((a,s)=>a+s.rsi14,0)/withRsi.length:null;
-    return{sector,nearLowPct,avgFromLow,avgRsi,count:stocks.length};
+    return{sector,atLowPct,nearLowPct,lowScore,avgFromLow,avgRsi,count:stocks.length};
   }).filter(Boolean);
-  const downtrodden=[...data].sort((a,b)=>b.nearLowPct-a.nearLowPct);
+  const downtrodden=[...data].sort((a,b)=>(b.lowScore-a.lowScore)||(b.atLowPct-a.atLowPct));
   const momentum=[...data].sort((a,b)=>b.avgFromLow-a.avgFromLow);
   document.getElementById('ranking-grid').innerHTML=`
     <div class="ranking-card">
       <div class="ranking-card-header" style="color:var(--red)">🔴 Most Downtrodden Sectors</div>
       ${downtrodden.map((s,i)=>`<div class="ranking-item" onclick="switchTab('sectors',null);setTimeout(()=>showSectorDetail('${s.sector}'),100)">
         <div class="ranking-num" style="color:${i<3?'var(--red)':'var(--text3)'}">${i+1}</div>
-        <div class="ranking-info"><div class="ranking-name" style="color:${sectorColor(s.sector)}">${s.sector}</div><div class="ranking-sub">${s.nearLowPct}% near 52W low · Avg RSI ${s.avgRsi!=null?s.avgRsi.toFixed(1):'—'}</div></div>
-        <div class="ranking-score" style="color:var(--red)">${s.nearLowPct}%</div>
+        <div class="ranking-info"><div class="ranking-name" style="color:${sectorColor(s.sector)}">${s.sector}</div><div class="ranking-sub"><span style="color:var(--red)">${s.atLowPct}% at</span> · <span style="color:var(--yellow)">${s.nearLowPct}% near</span> 52W low · Avg RSI ${s.avgRsi!=null?s.avgRsi.toFixed(1):'—'}</div></div>
+        <div class="ranking-score" style="color:var(--red)">${s.lowScore}%</div>
       </div>`).join('')}
     </div>
     <div class="ranking-card">
@@ -3370,7 +3403,7 @@ function showModal(ticker){
       <div><div class="modal-metric-label">RSI Status</div><div style="font-size:14px;margin-top:4px;color:${s.rsi_note?'var(--text3)':s.rsi14!=null&&s.rsi14<30?'var(--red)':s.rsi14!=null&&s.rsi14<=45?'var(--yellow)':'var(--text)'}">${s.rsi_note==='foreign_exchange'?'Foreign stock — RSI not calculated':s.rsi_note==='extreme_value'?'RSI calculation error':s.rsi_label||'—'}</div></div>
       <div><div class="modal-metric-label">52W Low</div><div class="modal-metric-value" style="color:var(--red)">${s.low_52w?'$'+fmt(s.low_52w):'—'}</div></div>
       <div><div class="modal-metric-label">52W High</div><div class="modal-metric-value" style="color:var(--green)">${s.high_52w?'$'+fmt(s.high_52w):'—'}</div></div>
-      <div><div class="modal-metric-label">% From Low</div><div class="modal-metric-value ${s.pct_from_52w_low!=null&&s.pct_from_52w_low<=5?'red':''}">${fmt(s.pct_from_52w_low)}%</div></div>
+      <div><div class="modal-metric-label">% From Low</div><div class="modal-metric-value ${lowTier(s.pct_from_52w_low)==='at'?'red':lowTier(s.pct_from_52w_low)==='near'?'yellow':''}">${fmt(s.pct_from_52w_low)}%</div></div>
       <div><div class="modal-metric-label">Market Cap</div><div class="modal-metric-value">${fmtCap(s.market_cap)}</div></div>
       <div><div class="modal-metric-label">P/E Ratio</div><div class="modal-metric-value">${fmt(s.pe_ratio,1)}</div></div>
       <div><div class="modal-metric-label">EPS (TTM)</div><div class="modal-metric-value" style="color:${s.eps_ttm!=null&&s.eps_ttm>0?'var(--green)':'var(--red)'}">${fmt(s.eps_ttm,2)}</div></div>
@@ -3401,6 +3434,7 @@ function closeModal(e){if(e.target===document.getElementById('modal')){ document
 /* ─── STAT CARD CLICK → SCREENER FILTER ─── */
 // Maps stat card filter keys to the matching activeFilters key + filter button selector
 const STAT_FILTER_MAP = {
+  'at52low':      { filter: 'at52low',     btnText: 'At 52W Low' },
   'near52low':    { filter: 'near52low',   btnText: 'Near 52W Low' },
   'oversold':     { filter: 'oversold',    btnText: 'RSI ≤ 45' },
   'overreaction': { filter: 'overreaction', btnText: null }  // custom — no existing btn
@@ -3430,12 +3464,15 @@ function statCardClick(key, cardEl) {
   document.querySelectorAll('.stat-card').forEach(c => c.classList.remove('stat-active'));
   clearAllFilters();
   // Apply correct filter
-  if (key === 'near52low') {
-    activeFilters.add('near52low');
+  if (key === 'at52low') {
+    activeFilters.add('at52low');
     highlightFilterBtn(0);
+  } else if (key === 'near52low') {
+    activeFilters.add('near52low');
+    highlightFilterBtn(1);
   } else if (key === 'oversold') {
     activeFilters.add('oversold');
-    highlightFilterBtn(1);
+    highlightFilterBtn(2);
   } else if (key === 'overreaction') {
     activeFilters.add('overreaction_stat');
   }

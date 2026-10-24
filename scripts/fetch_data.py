@@ -298,6 +298,10 @@ DROP_SESSIONS = 3
 # job happens to run. Old rule required today's change, today's volume and
 # today's RSI to line up at once — it almost never fired, and missed every
 # drop the laptop wasn't awake for.
+# 52-week-low tiers (keep in sync with AT_LOW_PCT / NEAR_LOW_PCT in index.html)
+AT_LOW_PCT = 5.0            # at the 52w low: within 5%
+NEAR_LOW_PCT = 10.0         # near the 52w low: 5-10%
+
 OVR_DROP_PCT = -8.0        # worst single session within DROP_SESSIONS
 OVR_DROP_DAY_VOL = 2.0     # volume on that drop day vs. prior 30-day average
 OVR_MAX_RSI = 40           # RSI(14) now
@@ -869,7 +873,10 @@ def build_sector_summaries(stocks):
             continue
         with_rsi = [m for m in members if m.get("rsi14") is not None]
         with_low = [m for m in members if m.get("pct_from_52w_low") is not None]
-        near_low = [m for m in with_low if m["pct_from_52w_low"] <= 5]
+        # Tiers match index.html: at = within AT_LOW_PCT, near = AT_LOW_PCT..NEAR_LOW_PCT
+        at_low = [m for m in with_low if m["pct_from_52w_low"] <= AT_LOW_PCT]
+        near_low = [m for m in with_low
+                    if AT_LOW_PCT < m["pct_from_52w_low"] <= NEAR_LOW_PCT]
 
         avg_rsi = round(
             sum(m["rsi14"] for m in with_rsi) / len(with_rsi), 1
@@ -877,6 +884,9 @@ def build_sector_summaries(stocks):
         avg_from_low = round(
             sum(m["pct_from_52w_low"] for m in with_low) / len(with_low), 1
         ) if with_low else None
+        at_low_pct = round(
+            len(at_low) / len(with_low) * 100, 1
+        ) if with_low else 0
         near_low_pct = round(
             len(near_low) / len(with_low) * 100, 1
         ) if with_low else 0
@@ -888,9 +898,11 @@ def build_sector_summaries(stocks):
             "sector": sector,
             "stock_count": len(members),
             "avg_rsi": avg_rsi,
+            "pct_at_52w_low": at_low_pct,
             "pct_near_52w_low": near_low_pct,
             "avg_pct_from_52w_low": avg_from_low,
-            "downtrodden_score": near_low_pct,
+            # at the low counts fully, near it counts half (matches index.html)
+            "downtrodden_score": round(at_low_pct + 0.5 * near_low_pct, 1),
             "momentum_score": avg_from_low or 0,
             "bottlenecks": BOTTLENECKS.get(sector, []),
             "news": sector_news,
@@ -1066,7 +1078,7 @@ def main():
     ], key=lambda r: r.get("drop_worst_1d") or 0)
 
     near_lows = sorted(
-        [r for r in results if r.get("pct_from_52w_low", 100) <= 5],
+        [r for r in results if r.get("pct_from_52w_low", 100) <= NEAR_LOW_PCT],
         key=lambda x: x.get("pct_from_52w_low", 100)
     )
 
