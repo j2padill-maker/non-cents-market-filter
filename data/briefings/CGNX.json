@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-22T19:17:42.487886-07:00",
+  "generated_at": "2026-10-23T17:47:12.785571-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Is Cognex Stock's Market Price Justified?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=52e9183033d0df58ab53c2c5aac6d2e9a490a62511bcf340014731983177a112",
+      "datetime": 1792750445,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
+    },
     {
       "headline": "Cognex (CGNX) Stock Looks Rich After Fresh Robotics Demand News",
       "source": "Yahoo",

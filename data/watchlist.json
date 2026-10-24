@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated": "2026-09-25T18:47:58.850Z",
-  "rev": 55,
+  "updated": "2026-10-23T12:44:54.639Z",
+  "rev": 56,
   "source": "sync",
   "lists": [
     {
@@ -12,7 +12,8 @@
         "TOELF",
         "TRDCF",
         "DDOG",
-        "NET"
+        "NET",
+        "GNRC"
       ],
       "briefings": true
     },

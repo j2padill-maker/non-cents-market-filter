@@ -2,7 +2,7 @@
   "ticker": "TOELF",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-22T19:17:38.736323-07:00",
+  "generated_at": "2026-10-23T17:47:08.606906-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -15,7 +15,15 @@
     "rel_volume",
     "mfi14"
   ],
-  "news": [],
+  "news": [
+    {
+      "headline": "Tokyo Electron Ltd. Controls 87% of This Semiconductor Equipment Market. Can Smaller Rivals Break In?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=5dcdd1b8fa6f0982d46c8662e3b255b43477527e0b57142d4a55b39d164d24c7",
+      "datetime": 1792689618,
+      "summary": "Tokyo Electron controls an almost incomprehensible share of the global photoresist track equipment market, yet a small New Jersey manufacturer believes a fundamentally different wafer-handling architecture can carve out ground that the giant has left exposed."
+    }
+  ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,

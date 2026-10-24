@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-22T19:17:47.515427-07:00",
+  "generated_at": "2026-10-23T17:47:17.251030-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "OII Q3 deep dive: margin pressures and mixed outlook drive negative market reaction",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=2e82110691fe1ce5ba0b7ae67a5f7c95232fb9ea5c6b0027435746d79577f114",
+      "datetime": 1792755399,
+      "summary": "Offshore services provider Oceaneering International (NYSE:OII) announced better-than-expected revenue in Q3 2026, with sales up 5.6% year on year to $784.6 million. Its non-GAAP profit of $0.50 per share was 15.1% below analysts\u2019 consensus estimates."
+    },
+    {
+      "headline": "The top 5 analyst questions from Oceaneering\u2019s Q3 earnings call",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=46aac6badeb1acdb33c6b4b6f0585d90b5450dad1f45707f61f5e43659552b00",
+      "datetime": 1792747239,
+      "summary": "Oceaneering\u2019s third quarter results drew a sharp negative market reaction, with shares falling significantly following the announcement. Management pointed to strong performance in Subsea Robotics, higher contract wins, and resilience in key segments as main drivers. However, non-GAAP profit missed Wall Street estimates, and CEO Roderick Larson cited a one-time debt refinancing loss and ongoing ma"
+    },
     {
       "headline": "Why Oceaneering (OII) stock is nosediving",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=3efa51a93dd5881ca5a174d4a78d12b2c175284d83e8777f0bbd0dbe19401ce8",
       "datetime": 1792672200,
       "summary": "Moby summary of Oceaneering International, Inc.'s Q3 2026 earnings call"
-    },
-    {
-      "headline": "Oceaneering (NYSE:OII) Shares Slip on Inline Q3 Revenue but Earnings Miss",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=f8665d75219b5fd8a15b4e555028d63d4253f175b87687f57d04d5419988352e",
-      "datetime": 1792625467,
-      "summary": "Oceaneering Q3 2026 revenue met estimates but EPS missed, sending shares lower; focus shifts to margins, taxes, and 2027 outlook."
-    },
-    {
-      "headline": "Oceaneering (NYSE:OII) beats Q3 2026 revenue but misses expectations on adjusted EPS",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3dc345ce925217379abf894e636f2c21e76765fb0905cf3b434f4bcb29c1b3bb",
-      "datetime": 1792617939,
-      "summary": "Offshore services provider Oceaneering International (NYSE:OII) reported Q3 2026 results beating Wall Street\u2019s revenue expectations, with sales up 5.6% year on year to $784.6 million. Its non-GAAP profit of $0.50 per share was 15.1% below analysts\u2019 consensus estimates."
     }
   ],
   "filings": [

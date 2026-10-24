@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-22T19:17:33.297048-07:00",
+  "generated_at": "2026-10-23T17:47:06.030219-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -43,13 +43,6 @@
       "url": "https://finnhub.io/api/news?id=e2149338627e850c50112455fa405d06d59383e1b7668242bbc94870292e6c50",
       "datetime": 1792507842,
       "summary": "MongoDB, Inc. (NASDAQ:MDB) closed at $348.69 on October 19. The stock returned 32% over the last 6 months, compared with an 11.6% return for the Insider Monkey Billionaire Index and 8.7% for the State Street SPDR S&P 500 ETF Trust. MongoDB lost its chief executive on September 28. Chirantan Desai left with immediate effect to join [\u2026]"
-    },
-    {
-      "headline": "Qualys, DigitalOcean, Twilio, CrowdStrike, and MongoDB Shares Are Falling, What You Need To Know",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=cb043257a060e0a9a3a0d8abd0461af1f83ce214893f03b0d78da245f3ede34a",
-      "datetime": 1792179099,
-      "summary": "A number of stocks fell in the afternoon session after investors shifted their focus from what AI technology can do toward concerns over how companies will finance it."
     }
   ],
   "filings": [

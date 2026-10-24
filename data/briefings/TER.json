@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-22T19:17:45.582695-07:00",
+  "generated_at": "2026-10-23T17:47:15.677186-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Allegro MicroSystems, Lattice Semiconductor, Amkor, Teradyne, and Entegris shares plummet, what you need to know",
+      "headline": "Should You Buy, Sell, or Hold TER Stock Before Q3 Earnings Release?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e8fc29fcdfb52a7e2be2177484ef152ae9c45cac3adef583bed12340b810e2bf",
-      "datetime": 1792713953,
-      "summary": "A number of stocks fell in the afternoon session after warnings emerged that ongoing component supply chain bottlenecks and cleanroom space constraints will restrict semiconductor equipment makers from meeting demand through 2027."
+      "url": "https://finnhub.io/api/news?id=54b9dda99218e2cb8da758d99be542a9d3807b3ce1595f8ec772addc0a093f26",
+      "datetime": 1792773960,
+      "summary": "Teradyne's strong AI-driven demand, expanding semiconductor testing opportunities, and upbeat Q3 earnings outlook make the stock an attractive investment choice."
     },
     {
-      "headline": "Teradyne (TER) Registers a Bigger Fall Than the Market: Important Facts to Note",
+      "headline": "TER vs. AMD: Which AI Component Supplier Stock Is the Better Buy?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=148cc42edc9e9f538cd0b96bb046290f2bdba0fe0d694ce42c960b1ad19462dc",
-      "datetime": 1792703703,
-      "summary": "Teradyne (TER) closed the most recent trading day at $308.75, moving 10.63% from the previous trading session."
+      "url": "https://finnhub.io/api/news?id=7bb4a5450df076e9533e5d40868789c086b056481e4ecf223b97d0a39c226779",
+      "datetime": 1792773840,
+      "summary": "Teradyne offers greater growth potential than Advanced Micro Devices, backed by stronger earnings surprises, a diversified AI-focused portfolio, and surging semiconductor test demand."
     },
     {
-      "headline": "What Could Go Wrong With Symbotic Stock?",
+      "headline": "How Rare Is Keysight's Record Sales Growth?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=10bb258a3296048ca22b7b702b2dfb894343be0ffccb62061d9438e94ffa6c29",
-      "datetime": 1792698651,
+      "url": "https://finnhub.io/api/news?id=a8f16d04ebd10f851decdf3bd32dd52699fb28698cd9b0e7ccc2148e79f4b752",
+      "datetime": 1792773310,
       "summary": "For questions about this article or underlying research, email help@trefis.com."
     },
     {
-      "headline": "S&P 500 Top Movers: Gainers and Losers for Oct. 22, 2026",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=391c657cf8b8bd35500edd8dd058ed723150150e5d1af02abfbbe21633204915",
-      "datetime": 1792695971,
-      "summary": "Roper Technologies, Allegion and Lennar led S&P 500 gainers on Oct. 22, 2026, while Moderna, Coherent and Lumentum were among the biggest decliners."
+      "headline": "Should KLAC Stock Be in Your Portfolio Pre-Q1 Earnings Results?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=111c61ad16d18b20d3b8bf33b8f8e84dacc6f5ada7c97d1ae03f03c943e69737",
+      "datetime": 1792761120,
+      "summary": "KLA's fiscal Q1 earnings outlook is fueled by AI investments, HBM demand and advanced packaging growth, but premium valuation and margin pressures warrant attention."
     },
     {
-      "headline": "S&P 500 Top Movers: Gainers and Losers in Today's Session",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=51f992e7d1a0d25e891ecf23d9ee9e29de2639e286d463e8e3dcaab8e7305397",
-      "datetime": 1792686972,
-      "summary": "S&P 500 top movers for today's session, led by ALLE, ROP, LEN, NDAQ and BX among gainers, while COHR, LRCX, FLEX, VST and CIEN ranked among losers."
+      "headline": "MaxLinear's Q3 Earnings Top Estimates, Revenues Increase Y/Y",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=3fe9ed9653194ba5f7b48ae93b869b5aac55b7944ebc53efae26f7ffaa79d5d6",
+      "datetime": 1792760820,
+      "summary": "MXL's Q3'26 earnings beat estimates as revenues surge 72%, fueled by AI data center demand. Strong infrastructure growth lifts its Q4 revenue outlook."
     },
     {
-      "headline": "S&P 500 Gap-Up and Gap-Down Movers in Today's Session",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=b64b1675fefb4698e90c91b13a3bd84b8afa72c0ad07e0b0aa287e90b8342fea",
-      "datetime": 1792679747,
-      "summary": "S&P 500 gap movers in today's session include ALLE, LMT, CSX, PG and ROP among gap-up leaders, while COHR, FLEX, GEV, LRCX and TER were among gap-down laggards."
+      "headline": "Teradyne Stock Faces A New Test As Warehouse Robotics Partnership Expands",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=cbb298e4f2f144d31d294bb516e029b85b2f98a731d2b6e1f5eae2516ebb5669",
+      "datetime": 1792729592,
+      "summary": "Teradyne Robotics and Sereact announced a partnership that pairs Sereact\u2019s Cortex physical AI platform with Universal Robots\u2019 collaborative arms to automate complex logistics tasks such as returns handling for Zalando\u2019s European fulfillment centers. The rollout of hundreds of dual arm UR systems and a live NVIDIA GTC Berlin demo signals that Teradyne is pushing robotics deeper into high volume, un"
     }
   ],
   "filings": [

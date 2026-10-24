@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-22T19:17:46.606517-07:00",
+  "generated_at": "2026-10-23T17:47:16.725065-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Anthropic\u2019s Path to $1.5 Trillion Demands 30% Margins: Plausible, but Delivering Is Another Matter",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=d4b9eb8fc6b110826fedc212f814637ccbd6f20c22a9e568e084072ed7df6328",
+      "datetime": 1792734950,
+      "summary": "Aswath Damodaran warns Anthropic\u2019s $1.5T IPO is about pricing, not intrinsic valuation. ARR may mask deep cash flow risks."
+    },
+    {
+      "headline": "Cathie Wood\u2019s 1,100% Tesla Stock Forecast Puts These 3 Robotics ETFs in Focus",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=8b82fe4c15e7c3b2e3c9be53935ed5f1bd6cd896c6b16045c678e6e570ce621f",
+      "datetime": 1792667722,
+      "summary": "Cathie Wood sees Tesla stock rising nearly 1,100% by 2031. Here are three robotics ETFs offering exposure to the robotaxi and AI buildout."
+    },
     {
       "headline": "Europe's Debt, U.S. Big Tech Put To The Test",
       "source": "SeekingAlpha",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=20a01a5552827718f7886ca9208249d00be3c3613cb265d8daa9e83373302daa",
       "datetime": 1792481700,
       "summary": "Despite headlines about large inflows and outflows, Bitcoin ETFs have maintained their total assets under management in BTC terms since the beginning of the year. Read more here."
-    },
-    {
-      "headline": "How Geopolitics Is Redefining Defense, Energy, Technology And Global Markets",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=66ff0661bc4830db3dd81d328b8b4662c0f4bed1e795e8c822578493bc831042",
-      "datetime": 1792467600,
-      "summary": "Geopolitical tensions are increasingly reshaping the global economy. Learn why geopolitical fragmentation is reshaping the global economy and increasing the focus on resilience."
-    },
-    {
-      "headline": "Weekly Market Pulse: Reality Bites",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=a02a3b1553e88ac2154d3ea698c43c97449dc78581de65f33a65edba64f8d22f",
-      "datetime": 1792379640,
-      "summary": "The AI trade hit some turbulence last week as concerns emerged about the growth rate of the industry."
     }
   ],
   "filings": [],

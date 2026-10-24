@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-22T19:17:40.620043-07:00",
+  "generated_at": "2026-10-23T17:47:10.288155-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Rapid7, CrowdStrike, Cloudflare, Okta, and JFrog shares skyrocket, what you need to know",
+      "headline": "Cloudflare (NET) Stock May Trade At A Rich Sales Premium",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b35ec475a5281f37c3e7166a7b2a29f8137c5a85f01c51a993fe9080d3f77228",
-      "datetime": 1792615119,
-      "summary": "A number of stocks jumped in the afternoon session after sentiment across the broader software and cybersecurity space continued to improve amid receding fears of artificial intelligence disruption."
+      "url": "https://finnhub.io/api/news?id=7764c21b1212576f6b2fead6a245740eb6fe2e3852a05e01f84f29f3f02cde4c",
+      "datetime": 1792729675,
+      "summary": "Cloudflare\u2019s stock has surged over the past few years as investors have latched onto its role in web security and edge computing. With the shares now around US$303.61, the open question is whether that price tag is still supported by its sales base. Cloudflare has delivered a very large 3 year share price gain of about 4.5x, which makes the gap between its long term share performance and its under"
     },
     {
-      "headline": "Cloudflare Soars 6% as PHP Flaw Hitting 70% of Websites Lifts Security Stocks",
+      "headline": "Cloudflare (NET) Stock Moves -1.18%: What You Should Know",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=be5ac054ce51d42ab908798e8028bbc705b0b88a2b8d006122426113e26bae50",
-      "datetime": 1792610609,
-      "summary": "Key TakeawaysCloudflare stock rose 6% and Datadog rose 7% today after PHP patched two critical flaws in software that runs an estimated 70% of websites. Cloudflare gave every customer firewall rules against the known attacks, including free users, which shows why its place in front of millions of sites is valuable."
+      "url": "https://finnhub.io/api/news?id=bb64847be94797d43a393ad39fcb4aea49932de258467b534d2781123090a527",
+      "datetime": 1792702804,
+      "summary": "The latest trading day saw Cloudflare (NET) settling at $303.61, representing a -1.18% change from its previous close."
     },
     {
-      "headline": "PHP patches critical flaw hitting 70% of websites; Cloudflare, others surge",
+      "headline": "Palo Alto +3% on Deutsche Bank AI Call as CEO Warns: \u201cMore of These, Not Less\u201d",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d0abfc193f6f1c1f16562fd38e90d45827e2ba0c11c7489107dd200d8fcc7a49",
-      "datetime": 1792595452,
-      "summary": "Investing.com -- PHP released emergency patches today fixing two critical remote code execution vulnerabilities rated CVSS v4.0 9.2, affecting every web server running PHP 5.4 or later \u2014 a population spanning an estimated 70% of the world\u2019s websites."
+      "url": "https://finnhub.io/api/news?id=7aaacf74d9ad0b468ceaa0b50ff4d529c4f0e0a4638ad37e6ad5d69b46012849",
+      "datetime": 1792687292,
+      "summary": "Key TakeawaysPalo Alto Networks shares rose 3% today after Deutsche Bank named it one of three standouts among companies set to gain from rising AI usage, while the Nasdaq fell about 2%. CEO Nikesh Arora warned that more AI-found flaws like this week\u2019s PHP bug are coming, and Cloudflare rose [4%] as the cybersecurity rally carried on."
     },
     {
-      "headline": "Ex-Google CEO Eric Schmidt Says AI Could Eliminate 20% of Jobs at Large Companies",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=afe93a1ce318587dd73b506236cf97976f4c01c673ac91add95ea1d2ba59e4b4",
-      "datetime": 1792594935,
-      "summary": "Eric Schmidt says AI could cut staffing at large companies by about 20% as agents automate management and administrative work."
-    },
-    {
-      "headline": "10 Information Technology Stocks With Whale Alerts In Today\u2019s Session",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=566fca24da79f71a186b29a7c6645456304bf6ad8e97c2b4fbc040f6a9470cd5",
-      "datetime": 1792589714,
-      "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders will"
-    },
-    {
-      "headline": "Commerce and Cloudflare Bring AI Shopping Assistants to BigCommerce Merchants\u2019 Online Stores with WebMCP",
+      "headline": "Website PHP Flaws Spur a Cybersecurity Stock Rally\u2014but Not All Are Buys",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4f2853fc24380448cb8a5b088666689d312b029b6035b792948107b3905f2b23",
-      "datetime": 1792584000,
-      "summary": "Shoppers\u2019 browser-based AI agents can now find products and fill a cart on merchants\u2019 own stores while the checkout remains on the storefrontAUSTIN, Texas, Oct. 21, 2026 (GLOBE NEWSWIRE) -- Commerce.com (Nasdaq: CMRC), the open commerce ecosystem built to help merchants win as AI reshapes how customers discover and buy, today announced a partnership with Cloudflare that lets AI agents in a custome"
+      "url": "https://finnhub.io/api/news?id=0b0c039328743e22bf869626313fe680a4e623c75bb3f09a2dd404a214cb7730",
+      "datetime": 1792684920,
+      "summary": "Cloudflare and other cybersecurity stocks have gained as website operators rush to patch PHP flaws, but price targets suggest uneven upside."
+    },
+    {
+      "headline": "Nebius Declines 6% Despite Fresh Citi Financing; CoreWeave Drops 5%, Cloudflare Edges Higher",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b8e98a18a0a653634caff7f050c9606cae84fc06c3732ac859fb4b99c8ad072f",
+      "datetime": 1792680449,
+      "summary": "Citi handed Nebius a fresh credit line to fund its GPU buildout, and investors sold the news anyway. The reaction inside the neocloud group tells a story about leverage, trust, and how much runway debt-funded AI builders actually have left."
+    },
+    {
+      "headline": "Brown Advisory Sees Accelerating Growth at Cloudflare, Inc. (NET)",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=2578206ce3a730f3a20863a43805d6b8e67bbb52d58a8d89aabb6ffbb08ffef4",
+      "datetime": 1792676619,
+      "summary": "Brown Advisory, an investment management company, released its \u201cMid-Cap Growth Strategy\u201d Q3 2026 investor letter. A copy of the letter can be downloaded here. The strategy outperformed its benchmark in the third quarter of 2026, as sharp market volatility and a reversal in investor sentiment toward artificial intelligence infrastructure created opportunities for active stock selection. [\u2026]"
     }
   ],
   "filings": [

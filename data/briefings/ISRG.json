@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-22T19:17:43.508334-07:00",
+  "generated_at": "2026-10-23T17:47:13.760511-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "Intuitive Surgical, Inc. 2026 Q3 - Results - Earnings Call Presentation",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=9b0a5c86ee933b744aa646a1a5d35f5857433e2702c448bf807b2427b0659dac",
+      "datetime": 1792782233,
+      "summary": "2026-10-23. The following slide deck was published by Intuitive Surgical, Inc."
+    },
+    {
+      "headline": "Intuitive Surgical Sinks 6% as U.S. da Vinci Growth Slows to \u201cLowest We\u2019ve Seen Since COVID\u201d",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e36832fa3f57c787dc1d3ebebe144fa14a49edce59e88b445930408a6f9c6ee0",
+      "datetime": 1792775330,
+      "summary": "Key TakeawaysIntuitive Surgical shares fell 6% today after U. S."
+    },
+    {
+      "headline": "Gemini Latest Stock Portfolio: Top 4 Stock Picks",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=37ea55814c0e91d7498878dbf683ac0f7503f7e5e60a52881390880d67c94ef9",
+      "datetime": 1792769279,
+      "summary": "In just two to three years, the debate around AI and stock picking has shifted drastically. Not long ago, many said there was no point in letting AI chatbots pick stocks, and that you could only use them for research. Today, many firms and companies are handing portfolios over to AI agents amid a fast [\u2026]"
+    },
+    {
+      "headline": "FMS Launches multiFiltratePRO System for U.S. Patients With Acute AKI",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ec6c070a8c232953c0366c1bb329ad27ffb702b5d05430634956710fcc13ec37",
+      "datetime": 1792763700,
+      "summary": "Fresenius Medical Care launches multiFiltratePRO kidney therapy system in the United States, expanding critical care options and growth opportunities."
+    },
+    {
+      "headline": "New Strong Buy Stocks for October 23rd",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e336868a2db5442772bf3d89ee96d915c8123bbcefdc8a95bffee1687ab5ff78",
+      "datetime": 1792741620,
+      "summary": "UVE, HAS, TXN, URI and ISRG have been added to the Zacks Rank #1 (Strong Buy) List on October 23, 2026."
+    },
+    {
       "headline": "Cathie Wood Goes Bargain Hunting: 3 Stocks She Just Bought",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=28a95d10a4f0e1d323fc0351e20b62acb5676612d8445d4eda03b103924f16db",
       "datetime": 1792684860,
       "summary": "Ark Invest bought into some market laggards on Wednesday."
-    },
-    {
-      "headline": "Revvity Launches Signals LabGistics to Coordinate Scientific Workflows",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a76f0ed353a1c120d797e571e941ea44b4c416e3059d34b06d12f5e99c709e26",
-      "datetime": 1792676040,
-      "summary": "RVTY's AI-first Signals LabGistics aims to streamline scientific workflows, enhance R&D-to-manufacturing coordination and expand software growth opportunities."
-    },
-    {
-      "headline": "How Has Intuitive Surgical's Story Changed?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=fdbe53f2595a5de5919ca73be85ac9673fb0d02bf0496e8d5d803d017c5d89b4",
-      "datetime": 1792667326,
-      "summary": "For questions about this article or underlying research, email help@trefis.com."
-    },
-    {
-      "headline": "Intuitive Surgical (ISRG) Stock Faces A Q3 Earnings Valuation Reality Check",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=762c77612a0876132157b10f3a76f519103ca734b917bf560d75db8ae7917fe3",
-      "datetime": 1792663837,
-      "summary": "Intuitive Surgical stock came into Thursday with strong recent momentum, then slipped about 2% after the market had its first clean look at Q3 2026 numbers. The initial reaction focused on the headline gap between rich expectations and reality. The company delivered roughly US$3.0b in quarterly revenue and about US$1.50 in basic earnings per share, solid figures for a surgical robotics leader but "
-    },
-    {
-      "headline": "2 Healthcare Stocks to Buy After Crushing Q3 Earnings Expectations: ELV & ISRG",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9f0ab54d9a8a48c4749e2d0c32b39d7ff080f86fd0d18c9bdcb5686978ed15e5",
-      "datetime": 1792615560,
-      "summary": "Intuitive Surgical (ISRG) and Elevance Health (ELV) delivered impressive Q3 earnings beats, making both healthcare stocks worth considering as their growth outlooks improve."
-    },
-    {
-      "headline": "ISRG Q3 deep dive: margin pressure overshadows strong adoption and international growth",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e722afd6f141b441ab22ae0c84ba7565a1bd8e76924b9d811f94edfdfd2a56d7",
-      "datetime": 1792611759,
-      "summary": "Medical technology company Intuitive Surgical (NASDAQ:ISRG) beat Wall Street\u2019s revenue expectations in Q3 2026, with sales up 21.7% year on year to $3.05 billion. Its non-GAAP profit of $3 per share was 13.6% above analysts\u2019 consensus estimates."
     }
   ],
   "filings": [

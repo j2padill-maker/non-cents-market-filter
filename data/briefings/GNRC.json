@@ -1,0 +1,137 @@
+{
+  "ticker": "GNRC",
+  "user_id": "local",
+  "session": "close",
+  "generated_at": "2026-10-23T17:47:11.210092-07:00",
+  "disclaimer": "Informational only. Not financial advice.",
+  "selected_indicators": [
+    "rsi14",
+    "macd",
+    "bollinger_pctb",
+    "pct_from_52w_low",
+    "pct_from_52w_high",
+    "price_vs_ma200",
+    "atr14",
+    "rel_volume",
+    "mfi14"
+  ],
+  "news": [
+    {
+      "headline": "Generac Holdings Earnings Preview: What to Expect",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=3543dc5522d5045ffa0308197ec04a70108bcad90393245eb50104f4fcde7510",
+      "datetime": 1792753577,
+      "summary": "Generac Holdings will announce its third-quarter earnings next week, and analysts anticipate a double-digit rise on its EPS."
+    },
+    {
+      "headline": "Ingersoll Rand (IR) Earnings Expected to Grow: Should You Buy?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=1c1d1005c969663543176ec1703a97bc64f7f944fd4aa3b1784cb913ac5f23eb",
+      "datetime": 1792674018,
+      "summary": "Ingersoll (IR) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations."
+    },
+    {
+      "headline": "Generac Holdings (GNRC) Reports Next Week: Wall Street Expects Earnings Growth",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=47cc0cad4ede95ed0d057d711b1e417f2c24e51f2ccc9316e93b9c9cf728f1c8",
+      "datetime": 1792587623,
+      "summary": "Generac Holdings (GNRC) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations."
+    },
+    {
+      "headline": "1 Beaten-Down AI Stock That Analysts Say Could Jump 50%",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=3f8600a16f95336e20bf12df6ea70026b3ea24183c0722971e5be6ed1d0eb63c",
+      "datetime": 1792582202,
+      "summary": "This \u201churricane\u201d stock is turning into an AI stock as unstoppable data center demand lifts its sales."
+    },
+    {
+      "headline": "3 Power Grid Stocks With Revenue Growth Up To 16%",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=da840c70f2cc1fb90f057e8af3419bc6e36a4c655297b50eb606a413df5f10f5",
+      "datetime": 1792282611,
+      "summary": "Energy shortages and high fuel costs across Europe have put electricity reliability back in the spotlight. When power is tight, the real bottleneck is not just generation. It is the pipes and wires that move electrons to where they are needed. That is where high voltage equipment makers and grid construction specialists come in. This article walks through three grid focused stocks from our screene"
+    }
+  ],
+  "filings": [
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-09-16",
+      "url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926030550/gnrc20260915_8k.htm"
+    },
+    {
+      "form": "10-Q",
+      "title": "Quarterly report (10-Q)",
+      "date": "2026-08-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926025669/gnrc20260630_10q.htm"
+    },
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-07-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926024731/gnrc20260728_8k.htm"
+    }
+  ],
+  "script_text": null,
+  "audio_cached": false,
+  "status": "ok",
+  "data_asof": "2026-10-22",
+  "price": {
+    "last": 188.02,
+    "open": 196.4,
+    "prev_close": 203.14,
+    "move_day_pct": -7.44,
+    "move_open_close_pct": -4.27,
+    "move_week_pct": -5.23
+  },
+  "indicators": {
+    "rsi14": {
+      "value": 39.4,
+      "read": "Oversold"
+    },
+    "macd": {
+      "macd": -2.209,
+      "signal": 0.703,
+      "hist": -2.912,
+      "hist_prev": -2.465,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+    },
+    "bollinger_pctb": {
+      "upper": 230.84,
+      "lower": 185.92,
+      "mid": 208.38,
+      "pctb": 0.047,
+      "read": "Near the lower band"
+    },
+    "pct_from_52w_low": {
+      "value": 37.87,
+      "read": "38% above its 52-week low"
+    },
+    "pct_from_52w_high": {
+      "value": -36.38,
+      "read": "36% below its 52-week high"
+    },
+    "price_vs_ma200": {
+      "ma200": 217.21,
+      "pct": -13.44,
+      "read": "13% below its 200-day average \u2014 long-term downtrend"
+    },
+    "atr14": {
+      "value": 10.59,
+      "pct_of_price": 5.63,
+      "read": "High daily volatility"
+    },
+    "rel_volume": {
+      "value": 0.84,
+      "read": "Roughly average volume"
+    },
+    "mfi14": {
+      "value": 33.2,
+      "read": "Neutral money flow"
+    }
+  },
+  "low_52w": 136.37,
+  "high_52w": 295.54,
+  "ma50": 201.33,
+  "ma200": 217.21
+}

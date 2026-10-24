@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-22T19:17:39.556850-07:00",
+  "generated_at": "2026-10-23T17:47:09.341149-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Datadog Reportedly Bids Nearly $4B For Cloud Security Startup Upwind To Fortify AI Defenses",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=192ffba332302c422a15275b1c0ddbefb046899d121e3b3e7e11961740f229a2",
-      "datetime": 1792698819,
-      "summary": "Cloud monitoring giant Datadog has reportedly offered nearly $4 billion to acquire cloud security startup Upwind, The Information reported."
-    },
-    {
-      "headline": "Palantir Just Gained 7% in a Month: Take Profits, or Buy More?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=755d65df2629bd2b266c476fa5a1c26911ffda254d850f70d983e9801d9d1204",
-      "datetime": 1792685042,
-      "summary": "Key TakeawaysPalantir stock rose 7% in the past month as five Wall Street firms, including Goldman Sachs and Barclays, set targets of $230 to $265, while the Nasdaq 100 fell 2%. A 7% software-wide drop on Oct."
-    },
-    {
-      "headline": "Cloudflare Soars 6% as PHP Flaw Hitting 70% of Websites Lifts Security Stocks",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=be5ac054ce51d42ab908798e8028bbc705b0b88a2b8d006122426113e26bae50",
-      "datetime": 1792610609,
-      "summary": "Key TakeawaysCloudflare stock rose 6% and Datadog rose 7% today after PHP patched two critical flaws in software that runs an estimated 70% of websites. Cloudflare gave every customer firewall rules against the known attacks, including free users, which shows why its place in front of millions of sites is valuable."
-    },
-    {
-      "headline": "S&P 500 Top Movers: Oct. 21, 2026 US Session",
+      "headline": "Today's S&P 500 Top Movers: Crown Castle Leads Gainers, Bloom Energy Leads Losers",
       "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=03f1395faaf1ce153aa8663ed2fb43ca91d55ee324ae7eadc3091391898f4941",
-      "datetime": 1792609569,
-      "summary": "S&P 500 top movers on Oct. 21, 2026: CRL, SMCI and BE led gainers, while T, CMG and DXCM led decliners in the US session."
+      "url": "https://finnhub.io/api/news?id=62fb6c4f4b9177f203d1ec1af8f087343a02195568908b04d69c27d077dc0317",
+      "datetime": 1792782376,
+      "summary": "Crown Castle rose 10.08% and Bloom Energy fell 10.71% among S&P 500 top movers, with Palo Alto Networks, SLB, AT&T and T-Mobile also posting notable moves."
     },
     {
-      "headline": "3 Big Reasons to Love Datadog (DDOG)",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4d1a6325927e3e1f565d9836e84c5a1a00529faffeb95e21ed856ff5a58f47c6",
-      "datetime": 1792608879,
-      "summary": "Datadog has been on fire lately. In the past six months alone, the company\u2019s stock price has rocketed 99.7%, reaching $258.22 per share. This was partly thanks to its solid quarterly results, and the performance may have investors wondering how to approach the situation."
-    },
-    {
-      "headline": "S&P 500 Top Movers on Oct. 21, 2026: Supermicro Leads Gainers, Dexcom Leads Losers",
+      "headline": "S&P 500 Top Movers: CCI Gains 10.31%, BE Falls 12.26% in Today's Session",
       "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=e2c12db8e0def243d28efc6e5dc8649bede831bd251ec679d9ab82d85e6f4247",
-      "datetime": 1792600602,
-      "summary": "S&P 500 top movers for Oct. 21, 2026: Supermicro rose 9.18% among gainers, while Dexcom fell 6.22% among losers."
+      "url": "https://finnhub.io/api/news?id=bf140cf42daae8d0fecab5aef068cca09a8048927197261447b1d628b6604bab",
+      "datetime": 1792773395,
+      "summary": "S&P 500 top movers today: CCI led gainers with a 10.31% rise, while BE led losers with a 12.26% decline among the strongest and weakest constituents."
+    },
+    {
+      "headline": "Agent cloud startup Daytona hits $1B valuation backed by FirstMark and a who\u2019s who of angels",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=bb2f323eb7fb1ec443efa32f734a18f25ee52779bec61fc70bce8e5e5e8c8678",
+      "datetime": 1792772789,
+      "summary": "Daytona is building a cloud for agents that's like giving every agent its own computer. It has attracted founders of Stripe, Perplextity, Datadog, Mercor, and others as angels, it says."
+    },
+    {
+      "headline": "Datadog Soars 5% as BofA Lifts Price Target to $335 Ahead of Q3 Earnings",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=986394339514ee8dc49a1ec1ff54aa5d32db15e084ad6844a4437c0a7204b14e",
+      "datetime": 1792771566,
+      "summary": "Key TakeawaysDatadog shares rose 5% today after BofA raised its price target to $335 from $305 and kept its Buy rating. The rise follows Thursday\u2019s 4% drop, which came after a report that Datadog had offered nearly $4 billion for cloud security startup Upwind."
+    },
+    {
+      "headline": "3 Investment Grade Bond Ideas Riding Big Tech AI Capex Plans",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=10484f97b5b04ec706bf39dbae4ee6a1f5602644fdd0d973936c3d601c58713d",
+      "datetime": 1792754174,
+      "summary": "Big Tech just put eye watering long term spending on the table, with Meta, Tesla and SpaceX sketching hundreds of billions in future AI and chip infrastructure outlays while Apple keeps its cash engine on a tighter leash. That mix of ambition and restraint is shaking credit markets and bond spreads. This piece walks through three US investment grade issuers tied to those headlines and shows where "
+    },
+    {
+      "headline": "Datadog (DDOG) Stock Looks Undervalued Even After A 216% Run",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=479b3798bda453eff77b59197a8f0273c06b0ebb02118e4ffd8bc017a9ad8dd7",
+      "datetime": 1792739794,
+      "summary": "Datadog has delivered a powerful run over the past few years, helped by growing interest in observability tools and rising attention on AI workloads. With the share price now well above where it traded three years ago, the key question for investors is whether that move aligns with the cash the business can produce over time. Datadog has returned 215.6% over the past three years, which places sign"
     }
   ],
   "filings": [
