@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-24T16:48:18.943276-07:00",
+  "generated_at": "2026-10-27T17:01:28.371791-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "3 US Tech Stocks To Watch As Fed Signals Higher Rates",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=92853e88f8fc420fdebda2ab38d44732013fb2569bed332697080ef60095d78a",
+      "datetime": 1792898334,
+      "summary": "Rates are holding steady for now, yet the Fed is openly pointing to tighter money ahead, and that mix is reshaping how large-cap growth and technology stocks trade around every meeting. When policy feels predictable, but the path still tilts higher for longer, mispricing can creep in and chances appear quickly. This article spotlights three U.S. tech heavyweights exposed to that rate story and exp"
+    },
     {
       "headline": "MongoDB (MDB) Stock May Be Fully Priced Despite Fiduciary Duty Probe",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=a6c6109840b5e21860a1b5acac66ac3e76fe9ff998717a5d4be12bdccf576b3d",
       "datetime": 1792684800,
       "summary": "AGNTCon + MCPCon North America \u2014 The Agentic AI Foundation (AAIF) today announced the addition of 7 new Gold Members, 33 new Silver Members, and 18 new Associate Members in the past quarter, bringing total membership to 305 organizations worldwide."
-    },
-    {
-      "headline": "Best Growth Stocks to Buy for October 22nd",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=bb2bb6c70e1eec1f2c9e8855ea9fe630a37782d253635a72d617806fc6b80a44",
-      "datetime": 1792669020,
-      "summary": "MDB, MPC and ATI made it to the Zacks Rank #1 (Strong Buy) growth stocks list on October 22, 2026."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-23",
+  "data_asof": "2026-10-26",
   "price": {
-    "last": 371.09,
-    "open": 362.01,
-    "prev_close": 362.24,
-    "move_day_pct": 2.44,
-    "move_open_close_pct": 2.51,
-    "move_week_pct": 9.93
+    "last": 389.11,
+    "open": 373.47,
+    "prev_close": 371.09,
+    "move_day_pct": 4.86,
+    "move_open_close_pct": 4.19,
+    "move_week_pct": 11.59
   },
   "indicators": {
     "rsi14": {
-      "value": 49.9,
+      "value": 54.3,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -4.164,
-      "signal": -5.896,
-      "hist": 1.732,
-      "hist_prev": 1.427,
+      "macd": -2.101,
+      "signal": -5.137,
+      "hist": 3.036,
+      "hist_prev": 1.732,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 391.43,
-      "lower": 330.98,
-      "mid": 361.2,
-      "pctb": 0.664,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 393.91,
+      "lower": 333.94,
+      "mid": 363.93,
+      "pctb": 0.92,
+      "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 64.24,
-      "read": "64% above its 52-week low"
+      "value": 72.21,
+      "read": "72% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -21.43,
-      "read": "21% below its 52-week high"
+      "value": -17.61,
+      "read": "18% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 338.34,
-      "pct": 9.68,
-      "read": "10% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 338.22,
+      "pct": 15.05,
+      "read": "15% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 24.75,
-      "pct_of_price": 6.67,
+      "value": 24.4,
+      "pct_of_price": 6.27,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.48,
+      "value": 0.4,
       "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 60.3,
+      "value": 59.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 388.51,
-  "ma200": 338.34
+  "ma50": 387.09,
+  "ma200": 338.22
 }

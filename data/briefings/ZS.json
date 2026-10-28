@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-24T16:48:38.966107-07:00",
+  "generated_at": "2026-10-27T17:01:56.931154-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "AI Ushers in New Era of Cybersecurity Needs",
+      "headline": "Netskope Vs. Zscaler: The Challenger Is Catching Up",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=484e4c501bb6e25ee3481351b44a884f2cd8bd88337d754617ff75a4a4d34661",
+      "datetime": 1793108966,
+      "summary": "See why Netskope, Inc., and Zscaler, Inc., stand out in cloud security as ransomware and AI-driven threats rise, plus risks. Click for this NTSK and ZS comparison."
+    },
+    {
+      "headline": "Zscaler: AI Tailwinds Appear To Be Mostly Priced In",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=397c33bec579478466784e8178ba9616f7a6fe1198f2baf77568e82932e92e7d",
+      "datetime": 1793084194,
+      "summary": "Zscaler is rated 'hold' due to a diminished margin of safety and reliance on an upside scenario for market-beating returns. Learn more on ZS stock here."
+    },
+    {
+      "headline": "What Sent Cloudflare Stock Higher?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0c2c5d6842d1564255edd969b3411a62fbd2b3571564e386064825884d3cf126",
-      "datetime": 1792787375,
-      "summary": "The US government is working to address and stop any potential cybersecurity issues stemming from flaws in PHP, a widely used open-source software, that may impact federal agencies and American critical infrastructure, according to a White House official.\u00a0 The programming language, called PHP, contains two vulnerabilities which could potentially expose organizations using it in websites and softwa"
+      "url": "https://finnhub.io/api/news?id=6e8534a6cd7989d4713ae0f219ec21a3b24547e610414365647d9c4d7f2ca4c8",
+      "datetime": 1793047827,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
     },
     {
-      "headline": "Palo Alto and Crowdstrike Jumped 6%, and Okta Up 5% as Evercore Survey Flags Stronger Cyber Demand",
+      "headline": "Top Analyst Reports for Intel, Novartis & Itau Unibanco",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=1eb186d8707c50fc8239ada263e826653373e571904500e3e2b811a2556cb24c",
-      "datetime": 1792779389,
-      "summary": "Key TakeawaysPalo Alto Networks rose 6. 5% today, CrowdStrike rose 6."
+      "url": "https://finnhub.io/api/news?id=7481a76e11433e997e2e804e967bcd278caa6ec86f97abe592f7aa9008e58984",
+      "datetime": 1793043180,
+      "summary": "Intel's manufacturing recovery and AI expansion, Novartis' growth drugs and Itau Unibanco's strategic moves headline today's top analyst reports."
     },
     {
-      "headline": "OptionMetrics flags hidden gems in commodities as wheat, soybeans outshine copper",
+      "headline": "Fortinet Stock Before Q3 Earnings: Buy Now or Wait for Results?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b9e1c9b5b657a0f4e97f416c32537c6a38869c26e0cd2323604320a21bde4d74",
-      "datetime": 1792776415,
-      "summary": "Investing.com -- Wheat, soybeans and sugar have quietly posted sizeable gains this year with strong risk-adjusted returns, while copper has underwhelmed despite heavy media attention, according to a recent OptionMetrics post."
+      "url": "https://finnhub.io/api/news?id=72f4f70db58f1dd3c3fe5af304112899baa216125f7ddd98e04682ef72498325",
+      "datetime": 1793027760,
+      "summary": "FTNT heads into Q3 earnings with strong SASE Firewall demand, AI-security expansion and buybacks, but premium valuation and margin pressures raise questions."
     },
     {
-      "headline": "Why Did Zscaler (ZS) Move Today?",
+      "headline": "CrowdStrike CEO Competes on Model Pricing: \u201cOurs Is Like Three Cents\u201d",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=43f050c63aedbbf4c121473df83f8d340ccedd5f7e44be4c14fca3f9a3fe7742",
-      "datetime": 1792771778,
-      "summary": "Zscaler (ZS) moved back into focus after Pomerantz LLP announced an investigation into potential securities law breaches, following earlier volatility tied to guidance and the departure of the company\u2019s chief revenue officer. Recent trading tells a mixed story for Zscaler. The share price is up 13.1% over 30 days and 67.1% over 90 days, yet the 1 year total shareholder return is down 25.4%. This p"
-    },
-    {
-      "headline": "Mid-Afternoon Market Update: Dow Falls 80 Points; Pure Storage Shares Surge On Upbeat Earnings",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=f3b10e6cbadd9c950e052fc8deaadb39292b87de81f21d5ce0ef4843e520cb85",
-      "datetime": 1792768970,
-      "summary": ""
-    },
-    {
-      "headline": "ServiceNow, Zscaler and a Music Streaming Giant on CNBC\u2019s \u2018Final Trades\u2019",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=9cbe61171ec5eda1b98fd034ed2bccd5445681062c89e0da37c9ad62cd7fe549",
-      "datetime": 1792741886,
-      "summary": "CNBC traders picked Zscaler, ServiceNow and Spotify; analyst targets supported the first two, while Spotify jumped 11.1% despite a Q3 earnings miss."
+      "url": "https://finnhub.io/api/news?id=0d8f94ffe959e405523ee88ce1d501f7093332d3216bdf50b17955ec517a114e",
+      "datetime": 1793025277,
+      "summary": "Key TakeawaysCrowdStrike CEO George Kurtz said a general remediation task costs about $10 on the best frontier cyber model and about three cents on CrowdStrike\u2019s own model. That cost gap lets CrowdStrike undercut the AI labs on price and still keep the roughly 75% gross margin it has held for the last three fiscal years."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-23",
+  "data_asof": "2026-10-26",
   "price": {
-    "last": 255.15,
-    "open": 238.81,
-    "prev_close": 237.76,
-    "move_day_pct": 7.31,
-    "move_open_close_pct": 6.84,
-    "move_week_pct": 23.04
+    "last": 260.45,
+    "open": 255.42,
+    "prev_close": 255.15,
+    "move_day_pct": 2.08,
+    "move_open_close_pct": 1.97,
+    "move_week_pct": 22.55
   },
   "indicators": {
     "rsi14": {
-      "value": 72.0,
+      "value": 73.4,
       "read": "Overbought"
     },
     "macd": {
-      "macd": 11.447,
-      "signal": 9.412,
-      "hist": 2.035,
-      "hist_prev": 0.451,
+      "macd": 13.379,
+      "signal": 10.205,
+      "hist": 3.173,
+      "hist_prev": 2.035,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 246.91,
-      "lower": 185.59,
-      "mid": 216.25,
-      "pctb": 1.134,
+      "upper": 254.46,
+      "lower": 184.14,
+      "mid": 219.3,
+      "pctb": 1.085,
       "read": "Above the upper band \u2014 stretched to the upside"
     },
     "pct_from_52w_low": {
-      "value": 116.14,
-      "read": "116% above its 52-week low"
+      "value": 120.63,
+      "read": "121% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -24.12,
-      "read": "24% below its 52-week high"
+      "value": -22.55,
+      "read": "23% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 165.98,
-      "pct": 53.72,
-      "read": "54% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 166.18,
+      "pct": 56.73,
+      "read": "57% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 11.73,
-      "pct_of_price": 4.6,
+      "value": 11.54,
+      "pct_of_price": 4.43,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.26,
+      "value": 0.95,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 70.8,
+      "value": 70.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 118.05,
   "high_52w": 336.27,
-  "ma50": 197.22,
-  "ma200": 165.98
+  "ma50": 198.76,
+  "ma200": 166.18
 }

@@ -2,7 +2,7 @@
   "ticker": "TOELF",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-24T16:48:23.260256-07:00",
+  "generated_at": "2026-10-27T17:01:39.802441-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,20 @@
   ],
   "news": [
     {
+      "headline": "Asia chipmaking, AI stocks surge on Anthropic IPO cheer",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8cb9475447b201cc18f1f1d6a6b7e6b7991d753ab5a50a54e5eeba5bd71262cc",
+      "datetime": 1793074199,
+      "summary": "Investing.com-- Asian chipmakers and artificial intelligence-related stocks rallied on Tuesday after Anthropic filed for an initial public offering, reviving optimism about AI demand."
+    },
+    {
+      "headline": "Asia stocks slip as chipmakers retreat; earnings, central bank meetings loom",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=55562e2af678874b108376ebf4bf312b14392cd6f7744e8deb2267d2c172b38a",
+      "datetime": 1792989932,
+      "summary": "Investing.com-- Asian shares edged lower on Monday as concerns over the sustainability of AI spending weighed on semiconductor stocks, while investors braced for a busy week of corporate earnings and central bank decisions."
+    },
+    {
       "headline": "Tokyo Electron Ltd. Controls 87% of This Semiconductor Equipment Market. Can Smaller Rivals Break In?",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=5dcdd1b8fa6f0982d46c8662e3b255b43477527e0b57142d4a55b39d164d24c7",
@@ -28,63 +42,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-23",
+  "data_asof": "2026-10-26",
   "price": {
-    "last": 59.92,
-    "open": 61.5,
-    "prev_close": 59.76,
-    "move_day_pct": 0.27,
-    "move_open_close_pct": -2.57,
-    "move_week_pct": -6.74
+    "last": 58.1,
+    "open": 58.29,
+    "prev_close": 59.92,
+    "move_day_pct": -3.04,
+    "move_open_close_pct": -0.33,
+    "move_week_pct": -10.94
   },
   "indicators": {
     "rsi14": {
-      "value": 32.5,
+      "value": 30.4,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -2.464,
-      "signal": -0.554,
-      "hist": -1.91,
-      "hist_prev": -1.903,
+      "macd": -2.961,
+      "signal": -1.035,
+      "hist": -1.926,
+      "hist_prev": -1.91,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 86.7,
-      "lower": 57.85,
-      "mid": 72.27,
-      "pctb": 0.072,
+      "upper": 87.33,
+      "lower": 55.95,
+      "mid": 71.64,
+      "pctb": 0.069,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 63.96,
-      "read": "64% above its 52-week low"
+      "value": 57.9,
+      "read": "58% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -37.46,
-      "read": "37% below its 52-week high"
+      "value": -39.36,
+      "read": "39% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 63.74,
-      "pct": -5.99,
-      "read": "6% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 63.8,
+      "pct": -8.93,
+      "read": "9% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 4.24,
-      "pct_of_price": 7.08,
+      "value": 4.12,
+      "pct_of_price": 7.1,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.87,
-      "read": "Above-average volume"
+      "value": 0.67,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 18.4,
+      "value": 17.8,
       "read": "Oversold \u2014 money flowing out"
     }
   },
-  "low_52w": 36.55,
+  "low_52w": 36.79,
   "high_52w": 95.82,
-  "ma50": 69.1,
-  "ma200": 63.74
+  "ma50": 68.86,
+  "ma200": 63.8
 }

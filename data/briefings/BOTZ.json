@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-24T16:48:36.370477-07:00",
+  "generated_at": "2026-10-27T17:01:54.411546-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,109 +17,109 @@
   ],
   "news": [
     {
-      "headline": "Anthropic\u2019s Path to $1.5 Trillion Demands 30% Margins: Plausible, but Delivering Is Another Matter",
+      "headline": "Turning Point? - Weekly Blog # 964",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=01277022dc10294624d5b5a1596a7cfc977b786929d79cf3f549d27ba9b84b78",
+      "datetime": 1793099100,
+      "summary": "As an equity analyst I look for clues in the uncertain worlds of commodities, economies and global politics, particularly when they appear to be out of balance. Read more here..."
+    },
+    {
+      "headline": "Anthropic Could Defy the AI Spending Curse: Analysts See Early Profit Signs and Massive Cash Cushion",
       "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=d4b9eb8fc6b110826fedc212f814637ccbd6f20c22a9e568e084072ed7df6328",
-      "datetime": 1792734950,
-      "summary": "Aswath Damodaran warns Anthropic\u2019s $1.5T IPO is about pricing, not intrinsic valuation. ARR may mask deep cash flow risks."
+      "url": "https://finnhub.io/api/news?id=ce5dba5c789d098bea0bd78c24a07ee1555f67a98cbd97041c217025d8738ea8",
+      "datetime": 1793081272,
+      "summary": "Anthropic heads toward its IPO with surging enterprise revenue, early signs of profitability, and massive cash cushion against compute costs."
     },
     {
-      "headline": "Cathie Wood\u2019s 1,100% Tesla Stock Forecast Puts These 3 Robotics ETFs in Focus",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=8b82fe4c15e7c3b2e3c9be53935ed5f1bd6cd896c6b16045c678e6e570ce621f",
-      "datetime": 1792667722,
-      "summary": "Cathie Wood sees Tesla stock rising nearly 1,100% by 2031. Here are three robotics ETFs offering exposure to the robotaxi and AI buildout."
-    },
-    {
-      "headline": "Europe's Debt, U.S. Big Tech Put To The Test",
+      "headline": "Tech Risk Premium Rising Ahead Of Key Earnings",
       "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=96946c42e8fcf3c306a2a40ffd8c2648d4e538b69c6731f291e79db2d67c6759",
-      "datetime": 1792580700,
-      "summary": "France\u00e2\u0080\u0099s 10-year borrowing cost climbed to more than 1.5 percentage points over Germany\u00e2\u0080\u0099s on Tuesday. It's the widest risk premium to own French government debt since 2012. Read more here."
+      "url": "https://finnhub.io/api/news?id=00a123f06f52629f73021ec6b4340c291950d176ef2d424285f771d291717163",
+      "datetime": 1793075100,
+      "summary": "Implied volatilities rose across asset classes last week as oil prices gained on rising geopolitical tensions and investors pulled back from Tech & AI stocks ahead of key earnings."
     },
     {
-      "headline": "Choppy Trading Leaves Dow Higher And Nasdaq Flat",
+      "headline": "Anthropic S-1 Registration Dominates, Leads Nasdaq Higher",
       "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=75f43f3fa0765253b630db98a765d149c37a05c0670952d060ea25fa8fd63ea3",
-      "datetime": 1792525500,
-      "summary": "Investors are likely waiting on earnings for market direction. SpaceX posts its first quarterly profit."
+      "url": "https://finnhub.io/api/news?id=cedbf48b450d86ed15c6049f114ecd25170def171dcdbefbec25c6875036410f",
+      "datetime": 1793043600,
+      "summary": "The S&P 500 Index snapped its three-session losing period. Meta says it needs $95 billion to finance AI and core business."
     },
     {
-      "headline": "All Booms End In A Bust - The AI Boom Is Likely No Different",
+      "headline": "Bonds, AI, And A Bull Market That Has Kept Going",
       "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=aac91a5b1efbc743283c029bfcd8f317fb927319a8c003547b989a1ca736ec6b",
-      "datetime": 1792487100,
-      "summary": "We believe AI will be transformative, but we also believe the investment boom surrounding it has become a bubble that may burst sooner than most analysts expect. Read more here..."
+      "url": "https://finnhub.io/api/news?id=16e70a7bdb4d4abd1d864223ce727df8f148d6c67daa3bcd4353c3683b4d948f",
+      "datetime": 1793037900,
+      "summary": ""
     },
     {
-      "headline": "AI Bubble Or Not, Investors Should Manage The Risk Now",
+      "headline": "Above The Noise: Perspective On Bubble Fears",
       "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=20a01a5552827718f7886ca9208249d00be3c3613cb265d8daa9e83373302daa",
-      "datetime": 1792481700,
-      "summary": "Despite headlines about large inflows and outflows, Bitcoin ETFs have maintained their total assets under management in BTC terms since the beginning of the year. Read more here."
+      "url": "https://finnhub.io/api/news?id=6d3366cb95f522f86265997e3c176e477015960483fc55fd53be4979fbeba414",
+      "datetime": 1793035200,
+      "summary": "A lot of investment isn\u00e2\u0080\u0099t evidence of a bubble. The question is whether that investment has been excessive relative to the opportunity and relative to today\u00e2\u0080\u0099s revenues. Read more here..."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-23",
+  "data_asof": "2026-10-26",
   "price": {
-    "last": 33.02,
-    "open": 32.75,
-    "prev_close": 32.68,
-    "move_day_pct": 1.04,
-    "move_open_close_pct": 0.82,
-    "move_week_pct": 0.0
+    "last": 33.14,
+    "open": 33.1,
+    "prev_close": 33.02,
+    "move_day_pct": 0.36,
+    "move_open_close_pct": 0.12,
+    "move_week_pct": -0.63
   },
   "indicators": {
     "rsi14": {
-      "value": 35.8,
+      "value": 37.2,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -0.658,
-      "signal": -0.46,
-      "hist": -0.197,
-      "hist_prev": -0.218,
+      "macd": -0.664,
+      "signal": -0.501,
+      "hist": -0.163,
+      "hist_prev": -0.197,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 36.82,
-      "lower": 32.41,
-      "mid": 34.62,
-      "pctb": 0.137,
+      "upper": 36.8,
+      "lower": 32.24,
+      "mid": 34.52,
+      "pctb": 0.198,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 3.27,
+      "value": 3.65,
       "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -20.64,
-      "read": "21% below its 52-week high"
+      "value": -20.35,
+      "read": "20% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 36.7,
-      "pct": -10.03,
+      "ma200": 36.68,
+      "pct": -9.65,
       "read": "10% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.62,
-      "pct_of_price": 1.88,
+      "value": 0.6,
+      "pct_of_price": 1.82,
       "read": "Calm \u2014 low volatility"
     },
     "rel_volume": {
-      "value": 1.13,
+      "value": 1.28,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 40.4,
+      "value": 41.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 31.97,
   "high_52w": 41.61,
-  "ma50": 35.24,
-  "ma200": 36.7
+  "ma50": 35.15,
+  "ma200": 36.68
 }

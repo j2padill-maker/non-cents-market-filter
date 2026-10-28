@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-24T16:48:24.281045-07:00",
+  "generated_at": "2026-10-27T17:01:41.027054-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Datadog Reportedly Offered Nearly $4 Billion for Upwind. Here\u2019s What Its CFO Said About Buying a Platform",
+      "headline": "Datadog valuation in focus as UBS lifts price target ahead of Q3 results",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3265a08c9534b2676cbed4bc525ed48ad8222f5fbd93c097ec11578ea23a5a45",
-      "datetime": 1792855185,
-      "summary": "Key Stats for Datadog StockCurrent Price: $269. 65Target Price (Mid): ~$730Street Target: ~$292Potential Total Return: ~170%Annualized IRR: ~27% / year__Now Live: Discover how much upside your favorite stocks could have using TIKR\u2019s new Valuation Model (It\u2019s free)__ >>> What Happened?Datadog (DDOG) CFO David Obstler told a Goldman Sachs conference in September that companies trying to build an int"
+      "url": "https://finnhub.io/api/news?id=c751bb53424a078f96b1dbf27c7746c65df864ec4700acb18610bce3dccff448",
+      "datetime": 1793123700,
+      "summary": "Datadog Inc (NASDAQ:DDOG) faces a test of investor expectations when it reports third-quarter results on November 4, with UBS raising its price target to $320 from $280 while warning that its elevated valuation and mixed enterprise spending trends leave little room for disappointment. Datadog..."
     },
     {
-      "headline": "CrowdStrike\u2019s CEO Says a Wave of Cyber Attacks Are Coming",
+      "headline": "Here's What to Expect From Datadog's Next Earnings Report",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a7fafb529ab0675918f049335131c407816d8e1baa3233600c5ab1bc70bb65c7",
-      "datetime": 1792849542,
-      "summary": "CrowdStrike's CEO just warned that newly discovered flaws in the software powering most of the internet will trigger a wave of break-ins, and the stock market rewarded that forecast immediately. Whether investors are buying a real threat or a vendor's sales pitch is a question worth answering before the next earnings report."
+      "url": "https://finnhub.io/api/news?id=9145fdfe4b6b6785f77f6106dc93b8cb338f865e318b0d51c461041932867cad",
+      "datetime": 1793094923,
+      "summary": "Datadog is set to announce its third-quarter earnings in November, and analysts expect double-digit EPS growth."
     },
     {
-      "headline": "Palo Alto Networks, Datadog, Zscaler, and SentinelOne shares skyrocket, what you need to know",
+      "headline": "DDOG Stock Has Doubled This Year: Analysts Still See Upside, List AI Catalysts",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=46110093d871409c2e111019a78d53c12059a67198fd90eef7f5ed88239dcbd1",
-      "datetime": 1792821639,
-      "summary": "A number of stocks jumped in the afternoon session after cybersecurity stocks surged as investors reacted to a massive new wave of artificial intelligence-enabled cyber threats that industry experts have dubbed \"Black October.\""
+      "url": "https://finnhub.io/api/news?id=88acca96b7e3f8ce827b5f8d453de07a84461e99a34f9b223943d70fbcd5e48e",
+      "datetime": 1793090464,
+      "summary": "Analysts see up to 18% upside for Datadog ahead of third-quarter earnings."
     },
     {
-      "headline": "Today's S&P 500 Top Movers: Crown Castle Leads Gainers, Bloom Energy Leads Losers",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=62fb6c4f4b9177f203d1ec1af8f087343a02195568908b04d69c27d077dc0317",
-      "datetime": 1792782376,
-      "summary": "Crown Castle rose 10.08% and Bloom Energy fell 10.71% among S&P 500 top movers, with Palo Alto Networks, SLB, AT&T and T-Mobile also posting notable moves."
-    },
-    {
-      "headline": "S&P 500 Top Movers: CCI Gains 10.31%, BE Falls 12.26% in Today's Session",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=bf140cf42daae8d0fecab5aef068cca09a8048927197261447b1d628b6604bab",
-      "datetime": 1792773395,
-      "summary": "S&P 500 top movers today: CCI led gainers with a 10.31% rise, while BE led losers with a 12.26% decline among the strongest and weakest constituents."
-    },
-    {
-      "headline": "Agent cloud startup Daytona hits $1B valuation backed by FirstMark and a who\u2019s who of angels",
+      "headline": "Top infrastructure software stocks ahead of earnings: BofA Securities",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=bb2f323eb7fb1ec443efa32f734a18f25ee52779bec61fc70bce8e5e5e8c8678",
-      "datetime": 1792772789,
-      "summary": "Daytona is building a cloud for agents that's like giving every agent its own computer. It has attracted founders of Stripe, Perplextity, Datadog, Mercor, and others as angels, it says."
+      "url": "https://finnhub.io/api/news?id=8fcf789c666b588c9a3df93b67e6345a247e141384ddf8de443daffe65cae4cf",
+      "datetime": 1793040976,
+      "summary": "Investing.com -- BofA Securities has identified infrastructure software as an attractive sector heading into third-quarter earnings, highlighting two companies as top picks in the space."
+    },
+    {
+      "headline": "IBD Stock Of The Day: Software Stock Elastic Rises In Buy Zone After 150% Rally",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d740e2e4e72dea6ebe396dc27f58386997eaa4188d49de0baee1dddbc72754b2",
+      "datetime": 1793034761,
+      "summary": "Elastic stock is rising in a buy zone following Friday's cup-with-handle breakout. ESTC has rallied 150% since April amid AI optimism."
+    },
+    {
+      "headline": "Datadog Soars 4% as Oppenheimer Lifts Price Target to $330 Ahead of Nov. 4 Earnings",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=61f77393ce08a971a08d7fb5050a4cabea5876bbfc814c60c935549b793a0cd6",
+      "datetime": 1793032903,
+      "summary": "Key TakeawaysDatadog shares rose 4% today after Oppenheimer raised its price target to $330 from $300 and kept its Outperform rating. This is the third target raise in a week, after Bernstein\u2019s upgrade and BofA\u2019s $335, and the consensus target has climbed from $169 to $293 over the past year."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-23",
+  "data_asof": "2026-10-26",
   "price": {
-    "last": 269.65,
-    "open": 259.34,
-    "prev_close": 257.75,
-    "move_day_pct": 4.62,
-    "move_open_close_pct": 3.98,
-    "move_week_pct": 9.12
+    "last": 280.24,
+    "open": 271.55,
+    "prev_close": 269.65,
+    "move_day_pct": 3.93,
+    "move_open_close_pct": 3.2,
+    "move_week_pct": 7.64
   },
   "indicators": {
     "rsi14": {
-      "value": 53.2,
+      "value": 57.3,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 3.483,
-      "signal": 5.93,
-      "hist": -2.447,
-      "hist_prev": -3.121,
+      "macd": 4.336,
+      "signal": 5.611,
+      "hist": -1.275,
+      "hist_prev": -2.447,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 292.35,
-      "lower": 250.49,
-      "mid": 271.42,
-      "pctb": 0.458,
+      "upper": 293.23,
+      "lower": 250.77,
+      "mid": 272.0,
+      "pctb": 0.694,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 162.78,
-      "read": "163% above its 52-week low"
+      "value": 173.1,
+      "read": "173% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -8.05,
+      "value": -4.44,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 194.79,
-      "pct": 38.43,
-      "read": "38% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 195.54,
+      "pct": 43.32,
+      "read": "43% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 14.5,
-      "pct_of_price": 5.38,
+      "value": 14.73,
+      "pct_of_price": 5.26,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.75,
+      "value": 0.91,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 43.4,
+      "value": 44.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 293.26,
-  "ma50": 248.75,
-  "ma200": 194.79
+  "ma50": 249.25,
+  "ma200": 195.54
 }

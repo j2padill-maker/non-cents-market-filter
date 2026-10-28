@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-24T16:48:37.338697-07:00",
+  "generated_at": "2026-10-27T17:01:55.335276-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Barclays Maintains Equal-Weight on Oceaneering International, Lowers Price Target to $42",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=7b5040b435632579ea889c94bbb93207a993299e3f1a3789343591194a3c3658",
+      "datetime": 1793012517,
+      "summary": "Barclays  analyst David Anderson   maintains Oceaneering International (NYSE:OII) with a Equal-Weight and lowers the price target from $47 to $42."
+    },
     {
       "headline": "Is Oceaneering International (OII) Trading At A Discount To Cash Flow?",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=46aac6badeb1acdb33c6b4b6f0585d90b5450dad1f45707f61f5e43659552b00",
       "datetime": 1792747239,
       "summary": "Oceaneering\u2019s third quarter results drew a sharp negative market reaction, with shares falling significantly following the announcement. Management pointed to strong performance in Subsea Robotics, higher contract wins, and resilience in key segments as main drivers. However, non-GAAP profit missed Wall Street estimates, and CEO Roderick Larson cited a one-time debt refinancing loss and ongoing ma"
-    },
-    {
-      "headline": "Why Oceaneering (OII) stock is nosediving",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9c1811d03e1b7fcf35133f72d70a68f99efccea8cd40c09eca6430c83ffd22aa",
-      "datetime": 1792712033,
-      "summary": "Shares of offshore services provider Oceaneering International (NYSE:OII) fell 17.5% in the afternoon session after the company reported a 26% year-over-year decline in net income attributable to the company for the third quarter of 2026."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-23",
+  "data_asof": "2026-10-26",
   "price": {
-    "last": 39.27,
-    "open": 36.6,
-    "prev_close": 36.62,
-    "move_day_pct": 7.24,
-    "move_open_close_pct": 7.3,
-    "move_week_pct": -10.32
+    "last": 40.24,
+    "open": 38.62,
+    "prev_close": 39.27,
+    "move_day_pct": 2.47,
+    "move_open_close_pct": 4.19,
+    "move_week_pct": -9.43
   },
   "indicators": {
     "rsi14": {
-      "value": 34.8,
+      "value": 38.4,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -1.675,
-      "signal": -1.252,
-      "hist": -0.423,
-      "hist_prev": -0.331,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -1.733,
+      "signal": -1.348,
+      "hist": -0.385,
+      "hist_prev": -0.423,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 47.85,
-      "lower": 39.56,
-      "mid": 43.71,
-      "pctb": -0.035,
-      "read": "Below the lower band \u2014 stretched to the downside"
+      "upper": 47.71,
+      "lower": 39.14,
+      "mid": 43.43,
+      "pctb": 0.128,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 73.68,
-      "read": "74% above its 52-week low"
+      "value": 77.97,
+      "read": "78% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -27.43,
-      "read": "27% below its 52-week high"
+      "value": -25.63,
+      "read": "26% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 39.97,
-      "pct": -1.75,
-      "read": "2% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 40.03,
+      "pct": 0.52,
+      "read": "1% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
       "value": 2.17,
-      "pct_of_price": 5.53,
+      "pct_of_price": 5.4,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 2.49,
-      "read": "Heavy volume \u2014 well above average"
+      "value": 1.44,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 41.1,
+      "value": 48.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 22.61,
   "high_52w": 54.11,
-  "ma50": 47.34,
-  "ma200": 39.97
+  "ma50": 47.1,
+  "ma200": 40.03
 }

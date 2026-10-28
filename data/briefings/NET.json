@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-24T16:48:25.763795-07:00",
+  "generated_at": "2026-10-27T17:01:42.477669-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Qualys, Tenable, Cloudflare, CrowdStrike, and Okta shares skyrocket, what you need to know",
+      "headline": "What Sent Cloudflare Stock Higher?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0332ceb3621b1b332e9e0f09486ab15a5eca9692ee6470b993684b2b686bacf8",
-      "datetime": 1792823559,
-      "summary": "A number of stocks jumped in the afternoon session after cybersecurity stocks surged as investors reacted to a massive new wave of artificial intelligence-enabled cyber threats that industry experts have dubbed \"Black October.\""
+      "url": "https://finnhub.io/api/news?id=6e8534a6cd7989d4713ae0f219ec21a3b24547e610414365647d9c4d7f2ca4c8",
+      "datetime": 1793047827,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
     },
     {
-      "headline": "Cathie Wood-Led Ark Invest Sells PLTR, GOOG, SHOP Stocks \u2014 But Loads Up On PACB, FRNM And Other Biotech Firms",
+      "headline": "Cloudflare (NET) Exceeds Market Returns: Some Facts to Consider",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=33927fa26277641fa5b6f5fa1c4dc824ca3cd17137af270649e92bc55f0e321e",
-      "datetime": 1792819795,
-      "summary": "Ark Invest reduced its exposure to several widely followed technology stocks during the session."
+      "url": "https://finnhub.io/api/news?id=2b73aa870c723680fd506f3cac7e0439ca8c7a30204bc9c64870e30ba2e9c0bf",
+      "datetime": 1793047803,
+      "summary": "In the latest trading session, Cloudflare (NET) closed at $331.86, marking a +1.88% move from the previous day."
     },
     {
-      "headline": "The PHP Bugs That Could Have Let Anyone Run Code on Your Server \u2013 Uneasy Money",
+      "headline": "Clustering and Load Balancing Market Report 2026: Global Size, Trends, and Forecast to 2030 | Capitalize on AI, Kubernetes, and Multicloud with AWS, Microsoft, F5, and Cloudflare",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=21973039c40492721abb847ec5a5dfbe46efadeaccd8a83509fc6b66f7f3264d",
-      "datetime": 1792789231,
-      "summary": "Uneasy Money, from Unchained: Two remote code execution bugs in PHP could let anyone run code on unpatched servers. Taylor Monahan on why patching is so hard and how Cloudflare is buying time."
+      "url": "https://finnhub.io/api/news?id=2366ac5ba7fd29a6a7fc8390ddc08a2692a80ab9379fcac7dbbc43672798a27c",
+      "datetime": 1793026440,
+      "summary": "Microsoft, Alibaba, AWS, Huawei and Tencent. Profiles cover clustering and load-balancing offerings, including traffic routing, scalability and monitoring.Dublin, Oct. 26, 2026 (GLOBE NEWSWIRE) -- \"Clustering and Load Balancing Market Report 2026\" has been added to ResearchAndMarkets.com's offering. Clustering and Load Balancing Market to Reach $6.19 Billion by 2030 as Cloud Adoption Accelerates T"
     },
     {
-      "headline": "Investing.com\u2019s stocks of the week",
+      "headline": "Edge Caching Platform Market 2026: Global Size, Trends, and 2030 Forecast | Capitalize on 18% CAGR as AWS, Microsoft, Akamai, Cloudflare, and Fastly Scale AI-Driven Delivery",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=03f151951b7c0f2f9e114d2cfe06c89f37fb6a64f57c5a572b616d670ec67d7d",
-      "datetime": 1792780173,
-      "summary": "Investing.com -- Cybersecurity names gained ground on a global software alert while Meta declined and a fresh escalation in the Middle East pushed crude to highs."
+      "url": "https://finnhub.io/api/news?id=c389fd6245345a4014bbf7b95f2cc7dbf33e9f3d80a23ed560a6425a2157e723",
+      "datetime": 1793025720,
+      "summary": "Boost ROI with AI-driven caching, cloud-edge integration and local edge nodes to cut latency, bandwidth and hardware costs while improving scalability.Dublin, Oct. 26, 2026 (GLOBE NEWSWIRE) -- \"Edge Caching Platform Market Report 2026\" has been added to ResearchAndMarkets.com's offering. Edge Caching Platform Market to Reach $10.43 Billion by 2030 as Streaming and Cloud-Edge Demand Accelerate The "
     },
     {
-      "headline": "Palo Alto and Crowdstrike Jumped 6%, and Okta Up 5% as Evercore Survey Flags Stronger Cyber Demand",
+      "headline": "Is Cloudflare (NET) a Buy as Wall Street Analysts Look Optimistic?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=1eb186d8707c50fc8239ada263e826653373e571904500e3e2b811a2556cb24c",
-      "datetime": 1792779389,
-      "summary": "Key TakeawaysPalo Alto Networks rose 6. 5% today, CrowdStrike rose 6."
+      "url": "https://finnhub.io/api/news?id=abbf149797e559931b672746875650f567103cb33e3dd62ca00e8237ed8704fe",
+      "datetime": 1793017802,
+      "summary": "Based on the average brokerage recommendation (ABR), Cloudflare (NET) should be added to one's portfolio. Wall Street analysts' overly optimistic recommendations cast doubt on the effectiveness of this highly sought-after metric. So, is the stock worth buying?"
     },
     {
-      "headline": "AI-powered cyber threats light a fire under cybersecurity stocks",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b8659ba6a15319c53174132379c7bfdfe82ec064902bd1d8361ba5b6e5cce001",
-      "datetime": 1792770008,
-      "summary": "Investing.com -- An emergency security update for PHP, the programming language used by roughly 70% of websites worldwide, has triggered a global cybersecurity alert. Two critical vulnerabilities disclosed this week could allow hackers to take control of affected servers remotely. The incident highlights a growing challenge for businesses and investors alike: artificial intelligence (AI) is accele"
+      "headline": "First Eagle U.S. Value Fund Q3 2026 Portfolio Review",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=57e35b2bd284eb30a47293b8018e99be671d9e323f6d25cb064a537adbbe968a",
+      "datetime": 1793017800,
+      "summary": "The First Eagle U.S. Fund reported a 4.36% return for Q3 2026, outperforming the S&P 500. Read the full analysis for more details."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-23",
+  "data_asof": "2026-10-26",
   "price": {
-    "last": 325.73,
-    "open": 306.7,
-    "prev_close": 303.61,
-    "move_day_pct": 7.29,
-    "move_open_close_pct": 6.2,
-    "move_week_pct": 9.93
+    "last": 331.86,
+    "open": 327.94,
+    "prev_close": 325.73,
+    "move_day_pct": 1.88,
+    "move_open_close_pct": 1.2,
+    "move_week_pct": 11.52
   },
   "indicators": {
     "rsi14": {
-      "value": 50.6,
+      "value": 52.8,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -5.455,
-      "signal": -0.804,
-      "hist": -4.651,
-      "hist_prev": -6.945,
+      "macd": -4.017,
+      "signal": -1.446,
+      "hist": -2.57,
+      "hist_prev": -4.651,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 379.61,
-      "lower": 287.92,
-      "mid": 333.76,
-      "pctb": 0.412,
+      "upper": 377.55,
+      "lower": 287.76,
+      "mid": 332.66,
+      "pctb": 0.491,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 103.34,
-      "read": "103% above its 52-week low"
+      "value": 107.17,
+      "read": "107% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -9.75,
+      "value": -8.05,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 244.92,
-      "pct": 32.99,
-      "read": "33% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 245.64,
+      "pct": 35.1,
+      "read": "35% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 18.44,
-      "pct_of_price": 5.66,
+      "value": 18.42,
+      "pct_of_price": 5.55,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.33,
-      "read": "Above-average volume"
+      "value": 0.89,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 41.0,
+      "value": 40.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 360.93,
-  "ma50": 319.24,
-  "ma200": 244.92
+  "ma50": 319.56,
+  "ma200": 245.64
 }

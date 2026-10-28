@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-24T16:48:33.261136-07:00",
+  "generated_at": "2026-10-27T17:01:51.606743-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Symbotic Inc. (SYM) Stock Drops Despite Market Gains: Important Facts to Note",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e53a6c0c742498663385a447c9f3d1cb828c86dd9a574c801a9e99116c5bbcd1",
+      "datetime": 1793048402,
+      "summary": "In the latest trading session, Symbotic Inc. (SYM) closed at $37.9, marking a -3.51% move from the previous day."
+    },
     {
       "headline": "What Could Go Wrong With Symbotic Stock?",
       "source": "Yahoo",
@@ -43,20 +50,6 @@
       "url": "https://finnhub.io/api/news?id=c5023c55ccdaa49f787c29300b09201d8caf8061f3d273633dd89e8493931b0e",
       "datetime": 1792590852,
       "summary": ""
-    },
-    {
-      "headline": "Symbotic Inc. (SYM) Outperforms Broader Market: What You Need to Know",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=22bd301c6ba6a05301d65fd9c211c51e45aec0851cf2b7968ce565be497f5a6a",
-      "datetime": 1792530005,
-      "summary": "In the latest trading session, Symbotic Inc. (SYM) closed at $39.69, marking a +1.74% move from the previous day."
-    },
-    {
-      "headline": "3 Stocks to Watch as Onshoring Reshapes Supply Chains",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d356fc6f3a70fb4f471535b550f7729a2972f33c5c4d43775be2f2d3d4cc0aaa",
-      "datetime": 1792480220,
-      "summary": "Monetary policy is shifting, trade rules are being rewritten, and global supply chains are being rebuilt in real time, which is exactly where market mispricing often appears. Investors who ignore how reshoring and localization reshape costs, pricing power, and bargaining strength risk missing some of the clearest medium term stories around. This article introduces three stocks exposed to those pol"
     }
   ],
   "filings": [
@@ -82,63 +75,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-23",
+  "data_asof": "2026-10-26",
   "price": {
-    "last": 39.28,
-    "open": 39.81,
-    "prev_close": 40.36,
-    "move_day_pct": -2.68,
-    "move_open_close_pct": -1.33,
-    "move_week_pct": 1.32
+    "last": 37.9,
+    "open": 39.6,
+    "prev_close": 39.28,
+    "move_day_pct": -3.51,
+    "move_open_close_pct": -4.29,
+    "move_week_pct": -2.85
   },
   "indicators": {
     "rsi14": {
-      "value": 43.5,
-      "read": "Neutral"
+      "value": 39.8,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -0.728,
-      "signal": -0.57,
-      "hist": -0.158,
-      "hist_prev": -0.139,
+      "macd": -0.876,
+      "signal": -0.631,
+      "hist": -0.245,
+      "hist_prev": -0.158,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 44.7,
-      "lower": 37.82,
-      "mid": 41.26,
-      "pctb": 0.212,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 44.77,
+      "lower": 37.34,
+      "mid": 41.06,
+      "pctb": 0.076,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 3.64,
+      "value": 0.0,
       "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -55.01,
-      "read": "55% below its 52-week high"
+      "value": -56.59,
+      "read": "57% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 48.89,
-      "pct": -19.66,
-      "read": "20% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 48.72,
+      "pct": -22.21,
+      "read": "22% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 2.0,
-      "pct_of_price": 5.09,
+      "value": 1.98,
+      "pct_of_price": 5.22,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.98,
+      "value": 0.79,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 46.6,
+      "value": 39.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 37.9,
   "high_52w": 87.3,
-  "ma50": 41.68,
-  "ma200": 48.89
+  "ma50": 41.58,
+  "ma200": 48.72
 }
