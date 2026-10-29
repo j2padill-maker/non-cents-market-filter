@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-27T17:01:53.035780-07:00",
+  "generated_at": "2026-10-28T18:25:27.884937-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,49 +17,55 @@
   ],
   "news": [
     {
-      "headline": "S&P 500 Postmarket Decliners After Tuesday's Close",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=36049fdcc33ba9c44810913b63f61982d2126838ac72df78c901a12a3d328770",
-      "datetime": 1793138762,
-      "summary": "S&P 500 postmarket decliners after Tuesday's close included CoStar Group, NXP Semiconductors, Robinhood, Teradyne and Seagate."
-    },
-    {
-      "headline": "Teradyne (NASDAQ:TER) Falls After Hours Despite Q3 Beat as AI Expectations Remain High",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=10efa47015d4d76df64f5857abf23d9c662b572d45133ee22b40fd7b56abb995",
-      "datetime": 1793137039,
-      "summary": "Teradyne beat Q3 estimates with 69.8% revenue growth but shares fell after hours as in-line Q4 guidance met high AI-driven expectations."
-    },
-    {
-      "headline": "Teradyne Stock Falls Despite Chip-Gear Maker Beating Q3 Goals",
+      "headline": "FormFactor, Inc. Reports 2026 Third Quarter Results",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=cb55d11418ed911327a35358d06a3996826f0392a4a3e637eaad3e4d6daf53fb",
-      "datetime": 1793135410,
-      "summary": "Teradyne topped Wall Street's targets for the third quarter and with its guidance for Q4. But Teradyne stock fell."
+      "url": "https://finnhub.io/api/news?id=864a1f95969cedaeb98f633a9e158a06aa5daf1375879bc34b34584b623c55ef",
+      "datetime": 1793217660,
+      "summary": "Delivers Revenue, Gross Margin, and Earnings Per Share Exceeding the High End of the Outlook Range; Sees Continued Strong Broad Based DemandLIVERMORE, Calif., Oct. 28, 2026 (GLOBE NEWSWIRE) -- FormFactor, Inc. (Nasdaq: FORM) today announced its financial results for the third quarter of fiscal 2026 ended September 26, 2026. Quarterly revenues were $280.5 million, an increase of 8.6% compared to $2"
     },
     {
-      "headline": "Teradyne (NASDAQ:TER) exceeds Q3 expectations but stock drops",
+      "headline": "Teradyne: Q3 Earnings Snapshot",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f767b851b55bd3847505436e07ef3e483fda346b75c151767ed450e25e738dad",
-      "datetime": 1793134213,
-      "summary": "Semiconductor testing company Teradyne (NASDAQ:TER) announced better-than-expected revenue in Q3 2026, with revenue up 69.8% year on year to $1.31 billion. Guidance for next quarter\u2019s revenue was better than expected at $1.3 billion at the midpoint, 1.8% above analysts\u2019 consensus estimates. Its non-GAAP profit of $2.29 per share was 11.2% above analysts\u2019 consensus estimates."
+      "url": "https://finnhub.io/api/news?id=03cd720cf8c43d6b0801760c9dad15250f2f9efc8e801d44df14c3d942a4844f",
+      "datetime": 1793212572,
+      "summary": "(TER) on Tuesday reported third-quarter net income of $342.The North Reading, Massachusetts-based company said it had profit of $2."
     },
     {
-      "headline": "Teradyne Reports Third Quarter 2026 Results",
+      "headline": "Teradyne (TER) Q3 2026 Earnings Call Transcript",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=12b974f715c0a2d2ea6015cf85109178825ac4fbee18acd84c7b4cda7164e317",
-      "datetime": 1793133000,
-      "summary": "NORTH READING, Mass., October 27, 2026--Teradyne, Inc. (NASDAQ: TER):"
+      "url": "https://finnhub.io/api/news?id=ca05d41de59ffd4bb5a2b844155821c38bad48f920d4e700ede2055a4b58dd2d",
+      "datetime": 1793207066,
+      "summary": "AI demand drove 70% revenue growth and 150% EPS surge."
     },
     {
-      "headline": "Equities Bounce: 3 Top Ranked Stocks to Buy Now (TER, LRCX, ATI)",
+      "headline": "Teradyne Q3 Earnings Beat Estimates, Revenues Increase Year over Year",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e894b13ccebe3f70037fe518bad9135457969606789e26d74856cae9e30d31dd",
-      "datetime": 1793120580,
-      "summary": "Shares of Teradyne, ATI INC and Lam Research stand out for their long term growth forecasts, and now compelling valuations following the recent selloff."
+      "url": "https://finnhub.io/api/news?id=a9ab6037e7ebb9b788308cfca4bd89cdec3bd33b5a8422b770410aef8577e1c0",
+      "datetime": 1793206980,
+      "summary": "TER's Q3 2026 earnings surge 169.4% as AI-driven demand fuels record revenues in Memory and Integrated Systems Test, boosting sales and profitability."
+    },
+    {
+      "headline": "What Teradyne (TER) Said on Its Q3 Earnings Call",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7754b740391b4986be9f10da72a0166bcf297f63d2f5e0d3838cc488effb6b64",
+      "datetime": 1793203486,
+      "summary": "Teradyne (NASDAQ:TER) reported third-quarter 2026 revenue above $1.3 billion, up 70% from a year earlier, as demand tied to artificial intelligence continued to support its semiconductor test, product test and robotics businesses. Non-GAAP earnings per share were $2.29, up more than 150% year over"
+    },
+    {
+      "headline": "Teradyne, Inc. (TER) Q3 2026 Earnings Call Transcript",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=3f8c9d104de32c977d9ffb968dc704ee13cf7e7fae128c9c0be4a0b4c5e8c6c1",
+      "datetime": 1793198428,
+      "summary": "Teradyne, Inc. (TER) Q3 2026 Earnings Call October 28, 2026 8:30 AM EDTCompany ParticipantsAmy McAndrews - Vice President of Corporate AffairsGregory Smith..."
     }
   ],
   "filings": [
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-10-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/97210/000119312526434981/ter-20261027.htm"
+    },
     {
       "form": "8-K",
       "title": "Material event (8-K)",
@@ -71,74 +77,68 @@
       "title": "Quarterly report (10-Q)",
       "date": "2026-07-31",
       "url": "https://www.sec.gov/Archives/edgar/data/97210/000119312526327715/ter-20260628.htm"
-    },
-    {
-      "form": "8-K",
-      "title": "Material event (8-K)",
-      "date": "2026-07-29",
-      "url": "https://www.sec.gov/Archives/edgar/data/97210/000119312526321933/ter-20260728.htm"
     }
   ],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-26",
+  "data_asof": "2026-10-27",
   "price": {
-    "last": 309.0,
-    "open": 314.33,
-    "prev_close": 308.85,
-    "move_day_pct": 0.05,
-    "move_open_close_pct": -1.7,
-    "move_week_pct": -7.91
+    "last": 323.68,
+    "open": 318.04,
+    "prev_close": 309.0,
+    "move_day_pct": 4.75,
+    "move_open_close_pct": 1.77,
+    "move_week_pct": -3.84
   },
   "indicators": {
     "rsi14": {
-      "value": 33.0,
+      "value": 38.9,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -19.215,
-      "signal": -9.983,
-      "hist": -9.232,
-      "hist_prev": -9.796,
+      "macd": -19.191,
+      "signal": -11.825,
+      "hist": -7.366,
+      "hist_prev": -9.232,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 464.15,
-      "lower": 285.13,
-      "mid": 374.64,
-      "pctb": 0.133,
-      "read": "Near the lower band"
+      "upper": 461.82,
+      "lower": 279.53,
+      "mid": 370.67,
+      "pctb": 0.242,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 114.58,
-      "read": "115% above its 52-week low"
+      "value": 124.62,
+      "read": "125% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -36.11,
-      "read": "36% below its 52-week high"
+      "value": -33.08,
+      "read": "33% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 347.81,
-      "pct": -11.16,
-      "read": "11% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 348.35,
+      "pct": -7.08,
+      "read": "7% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 20.89,
-      "pct_of_price": 6.76,
+      "value": 20.81,
+      "pct_of_price": 6.43,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.11,
-      "read": "Roughly average volume"
+      "value": 1.48,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 23.2,
+      "value": 31.0,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": 144.0,
+  "low_52w": 144.1,
   "high_52w": 483.65,
-  "ma50": 372.22,
-  "ma200": 347.81
+  "ma50": 369.83,
+  "ma200": 348.35
 }

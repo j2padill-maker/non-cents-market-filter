@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-27T17:01:48.386429-07:00",
+  "generated_at": "2026-10-28T18:25:22.790622-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Conestoga SMid Cap Composite Q3 2026 Portfolio Activity",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=7ab60d493b93a145a8226d89f1115b2f349fa82e7f59c335b1544bf24fbd1fb3",
+      "datetime": 1793198520,
+      "summary": "Conestoga added to positions on twelve occasions and trimmed stocks on thirteen occasions during 3Q26."
+    },
     {
       "headline": "Is Cognex Stock's Market Price Justified?",
       "source": "Yahoo",
@@ -47,63 +54,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-26",
+  "data_asof": "2026-10-27",
   "price": {
-    "last": 55.63,
-    "open": 56.35,
-    "prev_close": 55.55,
-    "move_day_pct": 0.14,
-    "move_open_close_pct": -1.28,
-    "move_week_pct": 0.85
+    "last": 58.22,
+    "open": 56.62,
+    "prev_close": 55.63,
+    "move_day_pct": 4.66,
+    "move_open_close_pct": 2.83,
+    "move_week_pct": 2.55
   },
   "indicators": {
     "rsi14": {
-      "value": 42.1,
+      "value": 48.8,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -1.576,
-      "signal": -1.157,
-      "hist": -0.418,
-      "hist_prev": -0.498,
+      "macd": -1.371,
+      "signal": -1.2,
+      "hist": -0.171,
+      "hist_prev": -0.418,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 66.66,
-      "lower": 52.12,
-      "mid": 59.39,
-      "pctb": 0.241,
+      "upper": 66.6,
+      "lower": 52.03,
+      "mid": 59.32,
+      "pctb": 0.425,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 60.53,
-      "read": "61% above its 52-week low"
+      "value": 68.01,
+      "read": "68% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -23.08,
-      "read": "23% below its 52-week high"
+      "value": -19.49,
+      "read": "19% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 57.41,
-      "pct": -3.1,
-      "read": "3% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 57.51,
+      "pct": 1.23,
+      "read": "1% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 2.53,
-      "pct_of_price": 4.55,
+      "value": 2.55,
+      "pct_of_price": 4.37,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.88,
+      "value": 0.73,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 33.6,
+      "value": 41.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 34.65,
   "high_52w": 72.32,
-  "ma50": 60.24,
-  "ma200": 57.41
+  "ma50": 60.07,
+  "ma200": 57.51
 }

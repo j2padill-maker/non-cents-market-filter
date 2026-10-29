@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-27T17:01:28.371791-07:00",
+  "generated_at": "2026-10-28T18:25:08.986212-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "3 Internet Software Stocks to Buy From a Prospering Industry",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=bb86a3a3337eb7387eaf34ec2d55c7b61a7dca9eda31e911c6aab857251440f2",
+      "datetime": 1793209140,
+      "summary": "The Zacks Internet Software industry participants like MDB, AFRM and ESTC are benefiting from high demand for AI-infused software, as well as autonomous AI agents."
+    },
+    {
+      "headline": "Is Oracle Stock Worth Buying as Autonomous Database Use Keeps Growing?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=dd64a6baff0d4596ddff642dc52caddca847b10df0ec86f0cc294c2b992dfbdb",
+      "datetime": 1793205540,
+      "summary": "ORCL's autonomous database adoption is accelerating, with multicloud revenues surging 353% and fiscal 2027 guidance pointing to strong growth, despite rising capital spending."
+    },
     {
       "headline": "3 US Tech Stocks To Watch As Fed Signals Higher Rates",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=56258b03a2c07efc5983e19f345108b4842aeb8c969b24f426f059dc8c413409",
       "datetime": 1792762510,
       "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders will"
-    },
-    {
-      "headline": "MongoDB (MDB) Could Be 20% Undervalued On Its Agentic AI Foundation Move",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=74bbafe2b1088926904da1c63fc4dd45a44fcfb7d8fe2c323b84c5dfda14c4ab",
-      "datetime": 1792742942,
-      "summary": "MongoDB (MDB) has joined the Agentic AI Foundation as a Gold Member, aligning itself with more than 300 organizations that are working on standards for interoperable, secure, and governed agentic AI infrastructure. Recent trading has been choppy for MongoDB, with the share price down 7.3% over the last session and 15.3% over 30 days, yet still up 21.5% over 90 days and delivering a 9.8% total shar"
-    },
-    {
-      "headline": "Agentic AI Foundation Surpasses 300 Members in Less Than One Year",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a6c6109840b5e21860a1b5acac66ac3e76fe9ff998717a5d4be12bdccf576b3d",
-      "datetime": 1792684800,
-      "summary": "AGNTCon + MCPCon North America \u2014 The Agentic AI Foundation (AAIF) today announced the addition of 7 new Gold Members, 33 new Silver Members, and 18 new Associate Members in the past quarter, bringing total membership to 305 organizations worldwide."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-26",
+  "data_asof": "2026-10-27",
   "price": {
-    "last": 389.11,
-    "open": 373.47,
-    "prev_close": 371.09,
-    "move_day_pct": 4.86,
-    "move_open_close_pct": 4.19,
-    "move_week_pct": 11.59
+    "last": 389.84,
+    "open": 390.32,
+    "prev_close": 389.11,
+    "move_day_pct": 0.19,
+    "move_open_close_pct": -0.12,
+    "move_week_pct": 6.46
   },
   "indicators": {
     "rsi14": {
-      "value": 54.3,
+      "value": 54.5,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -2.101,
-      "signal": -5.137,
-      "hist": 3.036,
-      "hist_prev": 1.732,
+      "macd": -0.403,
+      "signal": -4.19,
+      "hist": 3.788,
+      "hist_prev": 3.036,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 393.91,
-      "lower": 333.94,
-      "mid": 363.93,
-      "pctb": 0.92,
+      "upper": 395.93,
+      "lower": 337.18,
+      "mid": 366.56,
+      "pctb": 0.896,
       "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 72.21,
-      "read": "72% above its 52-week low"
+      "value": 72.53,
+      "read": "73% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -17.61,
-      "read": "18% below its 52-week high"
+      "value": -17.46,
+      "read": "17% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 338.22,
-      "pct": 15.05,
+      "ma200": 338.13,
+      "pct": 15.29,
       "read": "15% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 24.4,
-      "pct_of_price": 6.27,
+      "value": 23.42,
+      "pct_of_price": 6.01,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.4,
+      "value": 0.33,
       "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 59.5,
+      "value": 64.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 387.09,
-  "ma200": 338.22
+  "ma50": 386.11,
+  "ma200": 338.13
 }

@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-27T17:01:42.477669-07:00",
+  "generated_at": "2026-10-28T18:25:16.833514-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "Cloudflare Inc - Class A (NYSE:NET) Meets Minervini Trend Template but Setup Rating Calls for Patience",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=22e5691dcc1d4e0553009ff846bacca8939b3e4f859bec3b2705f34ce9d24544",
+      "datetime": 1793193082,
+      "summary": "Cloudflare (NET) meets Minervini\u2019s Trend Template and high-growth momentum criteria, but weak setup rating suggests waiting for tighter consolidation."
+    },
+    {
+      "headline": "Wells Fargo Maintains Overweight on Cloudflare, Raises Price Target to $400",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=dee9611954b5797fb42dd118b8bd03d4596167bf5e3e55a872384f772de51ced",
+      "datetime": 1793182608,
+      "summary": "Wells Fargo  analyst Ryan Macwilliams   maintains Cloudflare (NYSE:NET) with a Overweight and raises the price target from $380 to $400."
+    },
+    {
+      "headline": "Calamos Convertible Fund: Q3 2026 Contributors And Detractors",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=39aae2c830051ca9a66d8036cb0c3729fbcab04fa026f011c58672ffd903d399",
+      "datetime": 1793169000,
+      "summary": "The Calamos Convertible Fund detailed performance drivers for Q3 2026 amid market volatility. Read the full analysis for more details."
+    },
+    {
+      "headline": "Carillon Scout Mid Cap Fund Q3 2026 Portfolio Review",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=0dc8c00ca273f7f64512fe143d9e7a2f5000419fb2e1f6d871347b0d6b96ac14",
+      "datetime": 1793135400,
+      "summary": "The Carillon Scout Mid Cap Fund reviews its performance and key security contributors and detractors for Q3 2026. Read the full analysis for more details."
+    },
+    {
+      "headline": "Black October Is Changing How Companies Buy Cybersecurity. 5 Stocks in the Line of Fire",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=16d3ea3d0d790300e93c5d48b9bb4e3ed19162f215af062a65c5b62b1a1b634c",
+      "datetime": 1793100003,
+      "summary": "A surge of AI-discovered vulnerabilities have shaken companies to their core, and five cybersecurity stocks moved hard on a single day. But with some already up over 150% this year, investors now face a sharper question than whether the threat is real."
+    },
+    {
       "headline": "What Sent Cloudflare Stock Higher?",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=6e8534a6cd7989d4713ae0f219ec21a3b24547e610414365647d9c4d7f2ca4c8",
       "datetime": 1793047827,
       "summary": "For questions about this article or underlying research, email help@trefis.com."
-    },
-    {
-      "headline": "Cloudflare (NET) Exceeds Market Returns: Some Facts to Consider",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2b73aa870c723680fd506f3cac7e0439ca8c7a30204bc9c64870e30ba2e9c0bf",
-      "datetime": 1793047803,
-      "summary": "In the latest trading session, Cloudflare (NET) closed at $331.86, marking a +1.88% move from the previous day."
-    },
-    {
-      "headline": "Clustering and Load Balancing Market Report 2026: Global Size, Trends, and Forecast to 2030 | Capitalize on AI, Kubernetes, and Multicloud with AWS, Microsoft, F5, and Cloudflare",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2366ac5ba7fd29a6a7fc8390ddc08a2692a80ab9379fcac7dbbc43672798a27c",
-      "datetime": 1793026440,
-      "summary": "Microsoft, Alibaba, AWS, Huawei and Tencent. Profiles cover clustering and load-balancing offerings, including traffic routing, scalability and monitoring.Dublin, Oct. 26, 2026 (GLOBE NEWSWIRE) -- \"Clustering and Load Balancing Market Report 2026\" has been added to ResearchAndMarkets.com's offering. Clustering and Load Balancing Market to Reach $6.19 Billion by 2030 as Cloud Adoption Accelerates T"
-    },
-    {
-      "headline": "Edge Caching Platform Market 2026: Global Size, Trends, and 2030 Forecast | Capitalize on 18% CAGR as AWS, Microsoft, Akamai, Cloudflare, and Fastly Scale AI-Driven Delivery",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c389fd6245345a4014bbf7b95f2cc7dbf33e9f3d80a23ed560a6425a2157e723",
-      "datetime": 1793025720,
-      "summary": "Boost ROI with AI-driven caching, cloud-edge integration and local edge nodes to cut latency, bandwidth and hardware costs while improving scalability.Dublin, Oct. 26, 2026 (GLOBE NEWSWIRE) -- \"Edge Caching Platform Market Report 2026\" has been added to ResearchAndMarkets.com's offering. Edge Caching Platform Market to Reach $10.43 Billion by 2030 as Streaming and Cloud-Edge Demand Accelerate The "
-    },
-    {
-      "headline": "Is Cloudflare (NET) a Buy as Wall Street Analysts Look Optimistic?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=abbf149797e559931b672746875650f567103cb33e3dd62ca00e8237ed8704fe",
-      "datetime": 1793017802,
-      "summary": "Based on the average brokerage recommendation (ABR), Cloudflare (NET) should be added to one's portfolio. Wall Street analysts' overly optimistic recommendations cast doubt on the effectiveness of this highly sought-after metric. So, is the stock worth buying?"
-    },
-    {
-      "headline": "First Eagle U.S. Value Fund Q3 2026 Portfolio Review",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=57e35b2bd284eb30a47293b8018e99be671d9e323f6d25cb064a537adbbe968a",
-      "datetime": 1793017800,
-      "summary": "The First Eagle U.S. Fund reported a 4.36% return for Q3 2026, outperforming the S&P 500. Read the full analysis for more details."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-26",
+  "data_asof": "2026-10-27",
   "price": {
-    "last": 331.86,
-    "open": 327.94,
-    "prev_close": 325.73,
-    "move_day_pct": 1.88,
-    "move_open_close_pct": 1.2,
-    "move_week_pct": 11.52
+    "last": 327.8,
+    "open": 331.95,
+    "prev_close": 331.86,
+    "move_day_pct": -1.22,
+    "move_open_close_pct": -1.25,
+    "move_week_pct": 12.38
   },
   "indicators": {
     "rsi14": {
-      "value": 52.8,
+      "value": 51.1,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -4.017,
-      "signal": -1.446,
-      "hist": -2.57,
-      "hist_prev": -4.651,
+      "macd": -3.168,
+      "signal": -1.791,
+      "hist": -1.377,
+      "hist_prev": -2.57,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 377.55,
-      "lower": 287.76,
-      "mid": 332.66,
-      "pctb": 0.491,
+      "upper": 375.45,
+      "lower": 287.41,
+      "mid": 331.43,
+      "pctb": 0.459,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 107.17,
-      "read": "107% above its 52-week low"
+      "value": 104.63,
+      "read": "105% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -8.05,
+      "value": -9.18,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 245.64,
-      "pct": 35.1,
-      "read": "35% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 246.37,
+      "pct": 33.05,
+      "read": "33% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 18.42,
-      "pct_of_price": 5.55,
+      "value": 17.76,
+      "pct_of_price": 5.42,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.89,
+      "value": 0.74,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 40.9,
+      "value": 46.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 360.93,
-  "ma50": 319.56,
-  "ma200": 245.64
+  "ma50": 319.97,
+  "ma200": 246.37
 }

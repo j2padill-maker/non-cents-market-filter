@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-27T17:01:50.223587-07:00",
+  "generated_at": "2026-10-28T18:25:24.614993-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "BSX Q3 Earnings Meet Estimates, Revenues Rise Y/Y, Stock Down",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8bdea02545d8cf5421ddf537c2f4795d01270c15cfb12ad789cec751e56599fb",
+      "datetime": 1793200800,
+      "summary": "Boston Scientific's third-quarter revenues beat estimates, but contracting margins, weaker segment sales and reduced 2026 guidance weigh on shares."
+    },
+    {
+      "headline": "GEHC Q3 Earnings Beat Estimates on Strong Growth, '26 View Raised",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=fcab308b57bc03a3bd201273e286443279b70eff9eb32974e876f554b588bcd1",
+      "datetime": 1793196300,
+      "summary": "GE HealthCare's Q3 earnings and revenues beat estimates on strong segment growth and higher margins, driving raised 2026 guidance as shares gain 8.3%."
+    },
+    {
+      "headline": "Cencora to Acquire AON in $2.4B Deal to Expand Oncology Network",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=800ca77ecea004d6239357c8f0ba9702f5505b082312536843e13fefe1cad206",
+      "datetime": 1793191020,
+      "summary": "COR's $2.4B acquisition of AON aims to expand its oncology services platform, strengthen community cancer care and support long-term growth."
+    },
+    {
+      "headline": "What Would A Short Seller Say About Stryker?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b097ef726609b34ae25a1dd428a94232e38826f497f6eeaee167dd3a6d22cad7",
+      "datetime": 1793183875,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
+    },
+    {
+      "headline": "Is Intuitive Surgical (ISRG) Undervalued As Upbeat Earnings Lifted Sentiment?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a05a315107b5fc646f7f8a917c48a0869969ae09b8ff5758fbcc81faa6ba1644",
+      "datetime": 1793174852,
+      "summary": "Intuitive Surgical (ISRG) is back in focus after its latest earnings report, which paired higher quarterly revenue with lower net income and earnings per share, giving investors a mixed but important update on performance. At a share price of US$445.88, Intuitive Surgical has logged a 26.32% 90-day share price return and a 7.50% 30-day share price return. However, the year-to-date share price is d"
+    },
+    {
       "headline": "2 unpopular stocks that deserve a second chance and 1 that underwhelm",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=1bcb98b1094f367b447fdbe30d9bf5f6966162a86411ba309dd772458da67fcd",
       "datetime": 1793120567,
       "summary": "Wall Street\u2019s bearish price targets for the stocks in this article signal serious concerns. Such forecasts are uncommon in an industry where maintaining cordial corporate relationships often trumps delivering the hard truth."
-    },
-    {
-      "headline": "Waters & Labcorp Expand Access to FDA-Approved HPV Screening Tests",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=123b58ad24fb079a3b83666a65de7d0245153a3ccc25616bf707bddfad20d273",
-      "datetime": 1793115060,
-      "summary": "WAT partners with Labcorp to expand access to FDA-approved HPV testing by late 2026, potentially boosting diagnostics adoption and cervical cancer screening."
-    },
-    {
-      "headline": "Is It Worth Investing in Intuitive Surgical (ISRG) Based on Wall Street's Bullish Views?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4e4d45ca45587cb34d78a36b253745267497abad84f165fa6350771561eba0ad",
-      "datetime": 1793104202,
-      "summary": "The average brokerage recommendation (ABR) for Intuitive Surgical (ISRG) is equivalent to a Buy. The overly optimistic recommendations of Wall Street analysts make the effectiveness of this highly sought-after metric questionable. So, is it worth buying the stock?"
-    },
-    {
-      "headline": "2 large-cap stocks for long-term investors and 1 we brush off",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=febd46ffeb2686ae1657d58376881c0fb00058b26f9724bec56ecfd7a544dd53",
-      "datetime": 1793046167,
-      "summary": "Large-cap stocks are known for their staying power and ability to weather market storms better than smaller competitors. However, their sheer size makes it more challenging to maintain high growth rates as they\u2019ve already captured significant portions of their markets."
-    },
-    {
-      "headline": "Intuitive Surgical (ISRG) is an Incredible Growth Stock: 3 Reasons Why",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6ce9dbe984568e73495db2f531a5dcca8da8a2e33347cf6df21a6c4d10f30ed2",
-      "datetime": 1793029502,
-      "summary": "Intuitive Surgical (ISRG) possesses solid growth attributes, which could help it handily outperform the market."
-    },
-    {
-      "headline": "Earnings Estimates Moving Higher for Intuitive Surgical (ISRG): Time to Buy?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7b9c5f2b1e4d22adc9b03a9a79e91ef3ac0efc8b42809993326becdab0e5bd8c",
-      "datetime": 1793028002,
-      "summary": "Intuitive Surgical, Inc. (ISRG) shares have started gaining and might continue moving higher in the near term, as indicated by solid earnings estimate revisions."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-26",
+  "data_asof": "2026-10-27",
   "price": {
-    "last": 451.63,
-    "open": 451.93,
-    "prev_close": 452.29,
-    "move_day_pct": -0.15,
-    "move_open_close_pct": -0.07,
-    "move_week_pct": 4.26
+    "last": 445.88,
+    "open": 451.63,
+    "prev_close": 451.63,
+    "move_day_pct": -1.27,
+    "move_open_close_pct": -1.27,
+    "move_week_pct": 1.8
   },
   "indicators": {
     "rsi14": {
-      "value": 70.3,
-      "read": "Overbought"
+      "value": 65.6,
+      "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 14.079,
-      "signal": 11.962,
-      "hist": 2.117,
-      "hist_prev": 1.956,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "macd": 14.0,
+      "signal": 12.37,
+      "hist": 1.63,
+      "hist_prev": 2.117,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 454.33,
-      "lower": 390.54,
-      "mid": 422.44,
-      "pctb": 0.958,
+      "upper": 457.21,
+      "lower": 391.03,
+      "mid": 424.12,
+      "pctb": 0.829,
       "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 36.02,
-      "read": "36% above its 52-week low"
+      "value": 34.29,
+      "read": "34% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -23.82,
-      "read": "24% below its 52-week high"
+      "value": -24.79,
+      "read": "25% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 435.54,
-      "pct": 3.69,
-      "read": "4% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 434.84,
+      "pct": 2.54,
+      "read": "3% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 13.08,
-      "pct_of_price": 2.9,
+      "value": 12.71,
+      "pct_of_price": 2.85,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 1.3,
-      "read": "Above-average volume"
+      "value": 0.72,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 76.9,
+      "value": 71.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 332.02,
   "high_52w": 592.85,
-  "ma50": 397.2,
-  "ma200": 435.54
+  "ma50": 398.31,
+  "ma200": 434.84
 }

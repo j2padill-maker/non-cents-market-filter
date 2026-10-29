@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-27T17:01:41.027054-07:00",
+  "generated_at": "2026-10-28T18:25:15.161295-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "Upwind raises $400M after walking away from Datadog acquisition offer",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f84beae951c16c9763b5a1aa373929617f7d8084feb9b10a4a616f2fd277518b",
+      "datetime": 1793229300,
+      "summary": "The cloud security startup raised a Series C at a $3.8B valuation, instead of selling itself for the same price."
+    },
+    {
+      "headline": "Datadog (DDOG) Earnings Expected to Grow: Should You Buy?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=2f7fe2665c375848d5f7eb567e2f0ddacda4ee76f6627f7e334a5d7ce68fff80",
+      "datetime": 1793192428,
+      "summary": "Datadog (DDOG) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations."
+    },
+    {
+      "headline": "What iShares Russell Mid-Cap ETF (IWR) Bought: Marathon Leads on Oct. 26",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a3cb9c3defa70afddc1fdd415a7071894e176e9281d6d1d79c51135476b5ad0b",
+      "datetime": 1793185457,
+      "summary": "The fund added $317.3 million in gross purchases, increasing all 801 positions it traded and making no sales."
+    },
+    {
+      "headline": "Wells Fargo Maintains Overweight on Datadog, Raises Price Target to $325",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=0d4b011278a6d70dce795fa24a5fee959f58d20ff86fb39d480fcfe19e6d0f35",
+      "datetime": 1793183128,
+      "summary": "Wells Fargo  analyst Ryan Macwilliams   maintains Datadog (NASDAQ:DDOG) with a Overweight and raises the price target from $295 to $325."
+    },
+    {
       "headline": "Datadog valuation in focus as UBS lifts price target ahead of Q3 results",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=c751bb53424a078f96b1dbf27c7746c65df864ec4700acb18610bce3dccff448",
@@ -24,39 +52,11 @@
       "summary": "Datadog Inc (NASDAQ:DDOG) faces a test of investor expectations when it reports third-quarter results on November 4, with UBS raising its price target to $320 from $280 while warning that its elevated valuation and mixed enterprise spending trends leave little room for disappointment. Datadog..."
     },
     {
-      "headline": "Here's What to Expect From Datadog's Next Earnings Report",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9145fdfe4b6b6785f77f6106dc93b8cb338f865e318b0d51c461041932867cad",
-      "datetime": 1793094923,
-      "summary": "Datadog is set to announce its third-quarter earnings in November, and analysts expect double-digit EPS growth."
-    },
-    {
-      "headline": "DDOG Stock Has Doubled This Year: Analysts Still See Upside, List AI Catalysts",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=88acca96b7e3f8ce827b5f8d453de07a84461e99a34f9b223943d70fbcd5e48e",
-      "datetime": 1793090464,
-      "summary": "Analysts see up to 18% upside for Datadog ahead of third-quarter earnings."
-    },
-    {
-      "headline": "Top infrastructure software stocks ahead of earnings: BofA Securities",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8fcf789c666b588c9a3df93b67e6345a247e141384ddf8de443daffe65cae4cf",
-      "datetime": 1793040976,
-      "summary": "Investing.com -- BofA Securities has identified infrastructure software as an attractive sector heading into third-quarter earnings, highlighting two companies as top picks in the space."
-    },
-    {
-      "headline": "IBD Stock Of The Day: Software Stock Elastic Rises In Buy Zone After 150% Rally",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d740e2e4e72dea6ebe396dc27f58386997eaa4188d49de0baee1dddbc72754b2",
-      "datetime": 1793034761,
-      "summary": "Elastic stock is rising in a buy zone following Friday's cup-with-handle breakout. ESTC has rallied 150% since April amid AI optimism."
-    },
-    {
-      "headline": "Datadog Soars 4% as Oppenheimer Lifts Price Target to $330 Ahead of Nov. 4 Earnings",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=61f77393ce08a971a08d7fb5050a4cabea5876bbfc814c60c935549b793a0cd6",
-      "datetime": 1793032903,
-      "summary": "Key TakeawaysDatadog shares rose 4% today after Oppenheimer raised its price target to $330 from $300 and kept its Outperform rating. This is the third target raise in a week, after Bernstein\u2019s upgrade and BofA\u2019s $335, and the consensus target has climbed from $169 to $293 over the past year."
+      "headline": "UBS Maintains Buy on Datadog, Raises Price Target to $320",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=a4ffcd86aa2f9bf662267b0765108bb667676f284fed2e96a369a35acfef625f",
+      "datetime": 1793119457,
+      "summary": "UBS  analyst Karl Keirstead   maintains Datadog (NASDAQ:DDOG) with a Buy and raises the price target from $280 to $320."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-26",
+  "data_asof": "2026-10-27",
   "price": {
-    "last": 280.24,
-    "open": 271.55,
-    "prev_close": 269.65,
-    "move_day_pct": 3.93,
-    "move_open_close_pct": 3.2,
-    "move_week_pct": 7.64
+    "last": 280.82,
+    "open": 278.97,
+    "prev_close": 280.24,
+    "move_day_pct": 0.21,
+    "move_open_close_pct": 0.66,
+    "move_week_pct": 9.51
   },
   "indicators": {
     "rsi14": {
-      "value": 57.3,
+      "value": 57.5,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 4.336,
-      "signal": 5.611,
-      "hist": -1.275,
-      "hist_prev": -2.447,
+      "macd": 5.002,
+      "signal": 5.489,
+      "hist": -0.487,
+      "hist_prev": -1.275,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 293.23,
-      "lower": 250.77,
-      "mid": 272.0,
-      "pctb": 0.694,
+      "upper": 294.12,
+      "lower": 251.11,
+      "mid": 272.61,
+      "pctb": 0.691,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 173.1,
-      "read": "173% above its 52-week low"
+      "value": 173.66,
+      "read": "174% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -4.44,
+      "value": -4.24,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 195.54,
-      "pct": 43.32,
+      "ma200": 196.31,
+      "pct": 43.05,
       "read": "43% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 14.73,
-      "pct_of_price": 5.26,
+      "value": 14.3,
+      "pct_of_price": 5.09,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.91,
+      "value": 0.93,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 44.8,
+      "value": 50.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 293.26,
-  "ma50": 249.25,
-  "ma200": 195.54
+  "ma50": 249.92,
+  "ma200": 196.31
 }
