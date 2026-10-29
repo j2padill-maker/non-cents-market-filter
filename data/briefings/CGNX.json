@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-28T18:25:22.790622-07:00",
+  "generated_at": "2026-10-29T11:06:17.432669-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Cognex to Present at Upcoming Investor Conferences",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=9b608bb76eee312811a228eb5ab905c08b2a6fe007ebf61d43f463a0d7e26879",
+      "datetime": 1793275200,
+      "summary": "Cognex Corporation (NASDAQ: CGNX), the global technology leader in industrial machine vision, today announced that it is scheduled to present at four upcoming investor conferences:"
+    },
     {
       "headline": "Conestoga SMid Cap Composite Q3 2026 Portfolio Activity",
       "source": "SeekingAlpha",
@@ -54,63 +61,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-27",
+  "data_asof": "2026-10-29",
   "price": {
-    "last": 58.22,
-    "open": 56.62,
-    "prev_close": 55.63,
-    "move_day_pct": 4.66,
-    "move_open_close_pct": 2.83,
-    "move_week_pct": 2.55
+    "last": 58.96,
+    "open": 57.64,
+    "prev_close": 58.43,
+    "move_day_pct": 0.91,
+    "move_open_close_pct": 2.29,
+    "move_week_pct": 7.99
   },
   "indicators": {
     "rsi14": {
-      "value": 48.8,
+      "value": 50.6,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -1.371,
-      "signal": -1.2,
-      "hist": -0.171,
-      "hist_prev": -0.418,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -0.971,
+      "signal": -1.151,
+      "hist": 0.18,
+      "hist_prev": 0.018,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 66.6,
-      "lower": 52.03,
-      "mid": 59.32,
-      "pctb": 0.425,
+      "upper": 66.18,
+      "lower": 51.91,
+      "mid": 59.04,
+      "pctb": 0.494,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 68.01,
-      "read": "68% above its 52-week low"
+      "value": 70.14,
+      "read": "70% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -19.49,
-      "read": "19% below its 52-week high"
+      "value": -18.47,
+      "read": "18% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 57.51,
-      "pct": 1.23,
-      "read": "1% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 57.7,
+      "pct": 2.18,
+      "read": "2% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 2.55,
-      "pct_of_price": 4.37,
+      "value": 2.54,
+      "pct_of_price": 4.31,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.73,
-      "read": "Roughly average volume"
+      "value": 0.36,
+      "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 41.4,
+      "value": 44.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 34.65,
   "high_52w": 72.32,
-  "ma50": 60.07,
-  "ma200": 57.51
+  "ma50": 59.94,
+  "ma200": 57.7
 }

@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-28T18:25:26.256897-07:00",
+  "generated_at": "2026-10-29T11:06:27.424248-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "MediaAlpha, Inc. (MAX) Beats Q3 Earnings and Revenue Estimates",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=52264a6985b297f75b9f3a75b3d676aaf104ca31d1289a75819e69e032d79521",
+      "datetime": 1793220306,
+      "summary": "MediaAlpha (MAX) delivered earnings and revenue surprises of +39.39% and +8.13%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?"
+    },
     {
       "headline": "Symbotic Inc. (SYM) Stock Drops Despite Market Gains: Important Facts to Note",
       "source": "Yahoo",
@@ -68,63 +75,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-27",
+  "data_asof": "2026-10-29",
   "price": {
-    "last": 38.98,
-    "open": 38.34,
-    "prev_close": 37.9,
-    "move_day_pct": 2.85,
-    "move_open_close_pct": 1.67,
-    "move_week_pct": -1.79
+    "last": 37.74,
+    "open": 38.1,
+    "prev_close": 38.97,
+    "move_day_pct": -3.17,
+    "move_open_close_pct": -0.96,
+    "move_week_pct": -6.5
   },
   "indicators": {
     "rsi14": {
-      "value": 43.9,
+      "value": 40.3,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.896,
-      "signal": -0.684,
-      "hist": -0.212,
-      "hist_prev": -0.245,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -0.995,
+      "signal": -0.781,
+      "hist": -0.214,
+      "hist_prev": -0.174,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 44.75,
-      "lower": 37.11,
-      "mid": 40.93,
-      "pctb": 0.245,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 44.43,
+      "lower": 36.58,
+      "mid": 40.5,
+      "pctb": 0.147,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 2.85,
+      "value": 0.0,
       "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -55.35,
-      "read": "55% below its 52-week high"
+      "value": -56.78,
+      "read": "57% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 48.56,
-      "pct": -19.73,
-      "read": "20% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 48.23,
+      "pct": -21.76,
+      "read": "22% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 1.96,
-      "pct_of_price": 5.02,
+      "value": 1.89,
+      "pct_of_price": 5.01,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.83,
-      "read": "Roughly average volume"
+      "value": 0.45,
+      "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 45.9,
+      "value": 51.1,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": 37.9,
+  "low_52w": 37.74,
   "high_52w": 87.3,
-  "ma50": 41.51,
-  "ma200": 48.56
+  "ma50": 41.4,
+  "ma200": 48.23
 }

@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-28T18:25:29.505580-07:00",
+  "generated_at": "2026-10-29T11:06:37.918871-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Is AI Crowding Out The Rest Of The Economy?",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=c45ef79b66d51ee7f4839f08c719cd4bf34c86fe3c962767fd25cc8f73d9d42c",
+      "datetime": 1793254140,
+      "summary": "Despite an investment surge driving U.S. demand, overall U.S. growth has remained moderate, suggesting gains from AI are being offset elsewhere."
+    },
     {
       "headline": "Anthropic's Filing Shows AI Revenue Outrunning Compute Costs While Scarce Capacity Stays The Constraint",
       "source": "SeekingAlpha",
@@ -50,76 +57,69 @@
       "url": "https://finnhub.io/api/news?id=ce5dba5c789d098bea0bd78c24a07ee1555f67a98cbd97041c217025d8738ea8",
       "datetime": 1793081272,
       "summary": "Anthropic heads toward its IPO with surging enterprise revenue, early signs of profitability, and massive cash cushion against compute costs."
-    },
-    {
-      "headline": "Tech Risk Premium Rising Ahead Of Key Earnings",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=00a123f06f52629f73021ec6b4340c291950d176ef2d424285f771d291717163",
-      "datetime": 1793075100,
-      "summary": "Implied volatilities rose across asset classes last week as oil prices gained on rising geopolitical tensions and investors pulled back from Tech & AI stocks ahead of key earnings."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-27",
+  "data_asof": "2026-10-29",
   "price": {
-    "last": 33.48,
-    "open": 33.28,
-    "prev_close": 33.14,
-    "move_day_pct": 1.03,
-    "move_open_close_pct": 0.6,
-    "move_week_pct": -0.33
+    "last": 33.28,
+    "open": 33.46,
+    "prev_close": 34.03,
+    "move_day_pct": -2.22,
+    "move_open_close_pct": -0.55,
+    "move_week_pct": 1.82
   },
   "indicators": {
     "rsi14": {
-      "value": 41.2,
+      "value": 41.0,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.633,
-      "signal": -0.528,
-      "hist": -0.106,
-      "hist_prev": -0.163,
+      "macd": -0.554,
+      "signal": -0.538,
+      "hist": -0.016,
+      "hist_prev": -0.025,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 36.73,
-      "lower": 32.13,
-      "mid": 34.43,
-      "pctb": 0.293,
+      "upper": 36.53,
+      "lower": 32.0,
+      "mid": 34.26,
+      "pctb": 0.282,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 4.71,
+      "value": 4.07,
       "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -19.54,
+      "value": -20.03,
       "read": "20% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 36.65,
-      "pct": -8.65,
+      "ma200": 36.61,
+      "pct": -9.11,
       "read": "9% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.59,
-      "pct_of_price": 1.76,
+      "value": 0.61,
+      "pct_of_price": 1.82,
       "read": "Calm \u2014 low volatility"
     },
     "rel_volume": {
-      "value": 1.48,
-      "read": "Above-average volume"
+      "value": 0.71,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 49.2,
+      "value": 51.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 31.97,
   "high_52w": 41.61,
-  "ma50": 35.07,
-  "ma200": 36.65
+  "ma50": 34.95,
+  "ma200": 36.61
 }

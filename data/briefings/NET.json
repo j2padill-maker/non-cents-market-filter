@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-28T18:25:16.833514-07:00",
+  "generated_at": "2026-10-29T11:06:07.987733-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Rapid7 Acquires Kenzo Security; Amount Not Disclosed",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=cbbb32b23c25c3eb056d0f41b46dd49c6aaa0ce6190c8372f02bb239581aae1e",
+      "datetime": 1793207432,
+      "summary": ""
+    },
+    {
+      "headline": "The AI trade is back, and it's sorting software stocks into winners and losers",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=13b15d7e15a00b0d292f8177d578f8befc46d95df0c3d14c676bb5d7cf2554a3",
+      "datetime": 1793199826,
+      "summary": "The chip rebound is sorting software stocks into winners and losers, with October's biggest gainers now falling the hardest."
+    },
     {
       "headline": "Cloudflare Inc - Class A (NYSE:NET) Meets Minervini Trend Template but Setup Rating Calls for Patience",
       "source": "ChartMill",
@@ -31,32 +45,18 @@
       "summary": "Wells Fargo  analyst Ryan Macwilliams   maintains Cloudflare (NYSE:NET) with a Overweight and raises the price target from $380 to $400."
     },
     {
-      "headline": "Calamos Convertible Fund: Q3 2026 Contributors And Detractors",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=39aae2c830051ca9a66d8036cb0c3729fbcab04fa026f011c58672ffd903d399",
-      "datetime": 1793169000,
-      "summary": "The Calamos Convertible Fund detailed performance drivers for Q3 2026 amid market volatility. Read the full analysis for more details."
-    },
-    {
-      "headline": "Carillon Scout Mid Cap Fund Q3 2026 Portfolio Review",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=0dc8c00ca273f7f64512fe143d9e7a2f5000419fb2e1f6d871347b0d6b96ac14",
-      "datetime": 1793135400,
-      "summary": "The Carillon Scout Mid Cap Fund reviews its performance and key security contributors and detractors for Q3 2026. Read the full analysis for more details."
-    },
-    {
-      "headline": "Black October Is Changing How Companies Buy Cybersecurity. 5 Stocks in the Line of Fire",
+      "headline": "Did AI Partnerships Just Shift Cloudflare (NET) Stock Narrative?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=16d3ea3d0d790300e93c5d48b9bb4e3ed19162f215af062a65c5b62b1a1b634c",
-      "datetime": 1793100003,
-      "summary": "A surge of AI-discovered vulnerabilities have shaken companies to their core, and five cybersecurity stocks moved hard on a single day. But with some already up over 150% this year, investors now face a sharper question than whether the threat is real."
+      "url": "https://finnhub.io/api/news?id=d7c9be618ed41d2a28ee79b7b87d88489bb922014f8c40abf1cea41df90b09bd",
+      "datetime": 1793178983,
+      "summary": "Commerce.com and Cloudflare partnered to let AI agents shop directly on eligible BigCommerce stores using WebMCP, while Cloudflare also broadened its Cloudflare OS partner ecosystem to connect popular enterprise tools like Asana, Box, GitHub, and more. These AI focused collaborations position Cloudflare closer to real transaction flows in both e-commerce and workplace productivity, tying its infra"
     },
     {
-      "headline": "What Sent Cloudflare Stock Higher?",
+      "headline": "Cloudflare (NET) Could Be 49% Overvalued Following Fresh AI Commerce Traction",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6e8534a6cd7989d4713ae0f219ec21a3b24547e610414365647d9c4d7f2ca4c8",
-      "datetime": 1793047827,
-      "summary": "For questions about this article or underlying research, email help@trefis.com."
+      "url": "https://finnhub.io/api/news?id=9589199fb5564fd03a07b34c369e88c2af163dba38e5ad7b99317cb738809b16",
+      "datetime": 1793171349,
+      "summary": "Cloudflare (NET) is back in focus after Commerce.com rolled out a browser based AI shopping experience for BigCommerce merchants that runs on Cloudflare infrastructure and is enabled by default for eligible stores. For context, Cloudflare shares trade at US$327.80. That price sits on top of a 7 day share price return of 12.38% and a 90 day gain of 21.24%, even after a 30 day share price decline of"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-27",
+  "data_asof": "2026-10-29",
   "price": {
-    "last": 327.8,
-    "open": 331.95,
-    "prev_close": 331.86,
-    "move_day_pct": -1.22,
-    "move_open_close_pct": -1.25,
-    "move_week_pct": 12.38
+    "last": 301.88,
+    "open": 304.65,
+    "prev_close": 318.72,
+    "move_day_pct": -5.29,
+    "move_open_close_pct": -0.91,
+    "move_week_pct": -0.57
   },
   "indicators": {
     "rsi14": {
-      "value": 51.1,
+      "value": 41.7,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -3.168,
-      "signal": -1.791,
-      "hist": -1.377,
-      "hist_prev": -2.57,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -4.517,
+      "signal": -2.56,
+      "hist": -1.957,
+      "hist_prev": -1.121,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 375.45,
-      "lower": 287.41,
-      "mid": 331.43,
-      "pctb": 0.459,
+      "upper": 371.79,
+      "lower": 283.3,
+      "mid": 327.55,
+      "pctb": 0.21,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 104.63,
-      "read": "105% above its 52-week low"
+      "value": 88.45,
+      "read": "88% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -9.18,
-      "read": "Modestly below its 52-week high"
+      "value": -16.36,
+      "read": "16% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 246.37,
-      "pct": 33.05,
-      "read": "33% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 247.59,
+      "pct": 21.93,
+      "read": "22% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 17.76,
-      "pct_of_price": 5.42,
+      "value": 18.05,
+      "pct_of_price": 5.98,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.74,
+      "value": 0.79,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 46.4,
+      "value": 40.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 360.93,
-  "ma50": 319.97,
-  "ma200": 246.37
+  "ma50": 320.52,
+  "ma200": 247.59
 }

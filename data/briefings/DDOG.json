@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-28T18:25:15.161295-07:00",
+  "generated_at": "2026-10-29T11:06:03.908307-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,27 @@
   ],
   "news": [
     {
+      "headline": "This software stock is one of TD Cowen\u2019s top picks into Q3 earnings",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ddd14ebb6aeb36541735afdbfac9dd494738c1c1791a95bfd3d7b0f7b8233af2",
+      "datetime": 1793282939,
+      "summary": "Investing.com -- TD Cowen has identified its top stock pick heading into third-quarter earnings season, highlighting a cloud monitoring and observability software firm as a standout opportunity ahead of its November 4 report."
+    },
+    {
+      "headline": "Lightspeed Commerce Inc. (LSPD) Reports Next Week: What Awaits?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=461aa4b2c4a85937e798abe3ec1a4cfee8159adef150637186af68fc7938e33a",
+      "datetime": 1793278833,
+      "summary": "Lightspeed POS (LSPD) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations."
+    },
+    {
+      "headline": "Datadog (NASDAQ:DDOG) Meets Minervini Trend Template With High-Growth Momentum",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=e137b891238ae6f8bcd41a2ace65e703c77070d301652e742b317d873ed33d3d",
+      "datetime": 1793274054,
+      "summary": "DDOG passes Minervini Trend Template with high-growth momentum, strong relative strength and accelerating fundamentals; watch resistance and margins."
+    },
+    {
       "headline": "Upwind raises $400M after walking away from Datadog acquisition offer",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=f84beae951c16c9763b5a1aa373929617f7d8084feb9b10a4a616f2fd277518b",
@@ -24,39 +45,18 @@
       "summary": "The cloud security startup raised a Series C at a $3.8B valuation, instead of selling itself for the same price."
     },
     {
+      "headline": "Rapid7 Acquires Kenzo Security; Amount Not Disclosed",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=cbbb32b23c25c3eb056d0f41b46dd49c6aaa0ce6190c8372f02bb239581aae1e",
+      "datetime": 1793207432,
+      "summary": ""
+    },
+    {
       "headline": "Datadog (DDOG) Earnings Expected to Grow: Should You Buy?",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=2f7fe2665c375848d5f7eb567e2f0ddacda4ee76f6627f7e334a5d7ce68fff80",
       "datetime": 1793192428,
       "summary": "Datadog (DDOG) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations."
-    },
-    {
-      "headline": "What iShares Russell Mid-Cap ETF (IWR) Bought: Marathon Leads on Oct. 26",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a3cb9c3defa70afddc1fdd415a7071894e176e9281d6d1d79c51135476b5ad0b",
-      "datetime": 1793185457,
-      "summary": "The fund added $317.3 million in gross purchases, increasing all 801 positions it traded and making no sales."
-    },
-    {
-      "headline": "Wells Fargo Maintains Overweight on Datadog, Raises Price Target to $325",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=0d4b011278a6d70dce795fa24a5fee959f58d20ff86fb39d480fcfe19e6d0f35",
-      "datetime": 1793183128,
-      "summary": "Wells Fargo  analyst Ryan Macwilliams   maintains Datadog (NASDAQ:DDOG) with a Overweight and raises the price target from $295 to $325."
-    },
-    {
-      "headline": "Datadog valuation in focus as UBS lifts price target ahead of Q3 results",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c751bb53424a078f96b1dbf27c7746c65df864ec4700acb18610bce3dccff448",
-      "datetime": 1793123700,
-      "summary": "Datadog Inc (NASDAQ:DDOG) faces a test of investor expectations when it reports third-quarter results on November 4, with UBS raising its price target to $320 from $280 while warning that its elevated valuation and mixed enterprise spending trends leave little room for disappointment. Datadog..."
-    },
-    {
-      "headline": "UBS Maintains Buy on Datadog, Raises Price Target to $320",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=a4ffcd86aa2f9bf662267b0765108bb667676f284fed2e96a369a35acfef625f",
-      "datetime": 1793119457,
-      "summary": "UBS  analyst Karl Keirstead   maintains Datadog (NASDAQ:DDOG) with a Buy and raises the price target from $280 to $320."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-27",
+  "data_asof": "2026-10-29",
   "price": {
-    "last": 280.82,
-    "open": 278.97,
-    "prev_close": 280.24,
-    "move_day_pct": 0.21,
-    "move_open_close_pct": 0.66,
-    "move_week_pct": 9.51
+    "last": 263.77,
+    "open": 269.55,
+    "prev_close": 278.41,
+    "move_day_pct": -5.26,
+    "move_open_close_pct": -2.14,
+    "move_week_pct": 2.34
   },
   "indicators": {
     "rsi14": {
-      "value": 57.5,
+      "value": 49.1,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 5.002,
-      "signal": 5.489,
-      "hist": -0.487,
-      "hist_prev": -1.275,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": 4.26,
+      "signal": 5.209,
+      "hist": -0.949,
+      "hist_prev": -0.172,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 294.12,
-      "lower": 251.11,
-      "mid": 272.61,
-      "pctb": 0.691,
+      "upper": 294.14,
+      "lower": 250.28,
+      "mid": 272.21,
+      "pctb": 0.308,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 173.66,
-      "read": "174% above its 52-week low"
+      "value": 157.05,
+      "read": "157% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -4.24,
+      "value": -10.06,
       "read": "Modestly below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 196.31,
-      "pct": 43.05,
-      "read": "43% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 197.77,
+      "pct": 33.37,
+      "read": "33% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 14.3,
-      "pct_of_price": 5.09,
+      "value": 14.24,
+      "pct_of_price": 5.4,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.93,
+      "value": 0.53,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 50.5,
+      "value": 50.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 293.26,
-  "ma50": 249.92,
-  "ma200": 196.31
+  "ma50": 251.17,
+  "ma200": 197.77
 }

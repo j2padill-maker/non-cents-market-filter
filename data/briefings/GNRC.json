@@ -2,7 +2,7 @@
   "ticker": "GNRC",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-28T18:25:18.514265-07:00",
+  "generated_at": "2026-10-29T11:06:11.790490-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "Caterpillar Drops 7% as Moderate Sales Outlook Overshadows Beat; Deere Sits Out the Selloff, PACCAR Dips",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d063fbb256a399f5cc9baadf72a4236d19e6e8141f44f7a8adce7f438b559535",
+      "datetime": 1793285932,
+      "summary": "Caterpillar crushed earnings estimates and posted record orders stretching into 2030, yet the stock cratered while its machinery rivals barely flinched. The gap between what Wall Street expected and what management delivered reveals a fault line worth understanding before the next quarterly test arrives."
+    },
+    {
+      "headline": "ecobee Introduces Home Summary to Simplify the Connected Home",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=bbea2dab76dc0af49b9b366df6a756642933ae23e847a984ff2876cfc5f21427",
+      "datetime": 1793284200,
+      "summary": "TORONTO, October 29, 2026--ecobee today introduced Home Summary, an opt-in AI-powered feature that provides a convenient and comprehensive daily summary of meaningful household activity in the ecobee app. By bringing together information across heating, cooling, security, occupancy, and weather, Home Summary helps customers understand what's happening in and around their home. Personalized insight"
+    },
+    {
+      "headline": "Stifel Maintains Buy on Generac Holdings, Raises Price Target to $325",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=583e6c714a2b7aca6476c69fe60933a33dc292d9b6dca4c8e28480680f5f3c5c",
+      "datetime": 1793263459,
+      "summary": "Stifel  analyst Stephen Gengaro   maintains Generac Holdings (NYSE:GNRC) with a Buy and raises the price target from $290 to $325."
+    },
+    {
+      "headline": "Terex Q3 Earnings Call Highlights",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=0193963a85ed0a1ea2cc25fe0f7336d2d1602a5cec2c2bb65ea1dad0fa4a5577",
+      "datetime": 1793261064,
+      "summary": "Terex (NYSE:TEX) reported higher third-quarter sales, adjusted EBITDA and cash flow, while order activity accelerated across all four business segments. The company also refined its 2026 outlook, citing strong performance in Materials Processing and Specialty Vehicles, offset in part by lower near-t"
+    },
+    {
+      "headline": "Needham Maintains Buy on Generac Holdings, Raises Price Target to $288",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=964dfb115eefc01b14f91e4d8c3b0c3e4c138a4f37058e59dcc7d6d0ccdc332c",
+      "datetime": 1793255726,
+      "summary": "Needham  analyst Sean Milligan   maintains Generac Holdings (NYSE:GNRC) with a Buy and raises the price target from $283 to $288."
+    },
+    {
       "headline": "25 Stocks That Could Rally 45% or More",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=c0a1eb53c6ab74b61c4cf682fceab202f8cdff8903c32ca13cf78da93694ff2b",
       "datetime": 1793226588,
       "summary": "Analysts say these S&P 500 stocks have at least 45% price upside over the next year or so."
-    },
-    {
-      "headline": "Generac reports record sales of $1.29 billion, driven by data centers",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7b408335346ef12dbb2d2dd850ffc411511ed8cdd93614600f661cf69494a4b9",
-      "datetime": 1793217565,
-      "summary": "Generac had a profit of $109 million compared to $66 million in 2025."
-    },
-    {
-      "headline": "Generac Is Getting Within Range Of My Buy Target",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=834f02da7a969f8280740b50e6edd79a8c4da14c23ff8538266d0e52f19d5d50",
-      "datetime": 1793217158,
-      "summary": "Generac Holdings Inc. is now rated a cautious Buy after a recent share price pullback and mixed Q3 results. Click for this updated look at GNRC stock."
-    },
-    {
-      "headline": "From Cooling to Backup Power, Data Center Demand Is Showing Up in Quarterly Results",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0b798c3b950a1408b90be983818d13136a5c6d0366bb5bb5083a0aa941f99d66",
-      "datetime": 1793212620,
-      "summary": "Equity Insider News Commentary - The money going into data centers is showing up in the results of the companies that supply their power, cooling and real estate. Over the past two days, four of those suppliers reported quarterly results that address the data center market directly, and three of them raised or initiated full-year outlooks. The longer-range forecasts point the same way: Precedence "
-    },
-    {
-      "headline": "Generac Holdings: Q3 Earnings Snapshot",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9d5cfa5ad628dc91cc037471bd00641b1aeff97b665bfdc62976f662bb51be75",
-      "datetime": 1793212594,
-      "summary": "(GNRC) on Wednesday reported third-quarter earnings of $109.The Waukesha, Wisconsin-based company said it had net income of $1."
-    },
-    {
-      "headline": "Generac Holdings Inc. Q3 2026 Earnings Call Summary",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=794cbb064706152fc639f7deb2f98517313bea9e70c61a7abad1fcfab5e1ce97",
-      "datetime": 1793211636,
-      "summary": "Moby summary of Generac Holdings Inc.'s Q3 2026 earnings call"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-27",
+  "data_asof": "2026-10-29",
   "price": {
-    "last": 193.71,
-    "open": 192.99,
-    "prev_close": 189.23,
-    "move_day_pct": 2.37,
-    "move_open_close_pct": 0.37,
-    "move_week_pct": -0.46
+    "last": 204.39,
+    "open": 202.26,
+    "prev_close": 201.34,
+    "move_day_pct": 1.51,
+    "move_open_close_pct": 1.05,
+    "move_week_pct": 8.71
   },
   "indicators": {
     "rsi14": {
-      "value": 44.6,
+      "value": 52.4,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -3.773,
-      "signal": -1.402,
-      "hist": -2.371,
-      "hist_prev": -2.933,
+      "macd": -2.374,
+      "signal": -1.875,
+      "hist": -0.499,
+      "hist_prev": -1.395,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 231.61,
-      "lower": 179.58,
-      "mid": 205.59,
-      "pctb": 0.272,
+      "upper": 231.19,
+      "lower": 179.09,
+      "mid": 205.14,
+      "pctb": 0.486,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 42.05,
-      "read": "42% above its 52-week low"
+      "value": 49.88,
+      "read": "50% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -34.46,
-      "read": "34% below its 52-week high"
+      "value": -30.84,
+      "read": "31% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 217.84,
-      "pct": -11.08,
-      "read": "11% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 218.3,
+      "pct": -6.37,
+      "read": "6% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 9.83,
-      "pct_of_price": 5.08,
+      "value": 10.79,
+      "pct_of_price": 5.28,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.73,
+      "value": 0.8,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 39.0,
+      "value": 39.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 136.37,
   "high_52w": 295.54,
-  "ma50": 199.59,
-  "ma200": 217.84
+  "ma50": 199.25,
+  "ma200": 218.3
 }

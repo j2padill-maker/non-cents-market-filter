@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-28T18:25:24.614993-07:00",
+  "generated_at": "2026-10-29T11:06:21.177367-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "What Sent GE HealthCare Stock Higher?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=6d6112464353e7744caf82df02d17909b41867ac51692195afed55c4d6a4964d",
+      "datetime": 1793280092,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
+    },
+    {
+      "headline": "What Have Medtronic Stock Holders Really Earned?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a901467482648eaf9c9a75d01523e1a52832bbbcc39dc22223363d4f823ed4a3",
+      "datetime": 1793278040,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
+    },
+    {
+      "headline": "Is Intuitive Surgical Stock's Market Price Justified?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e14303edfa0e7af312b6688243b3cc43ce63894301a9c845c600c57c9b1adadf",
+      "datetime": 1793273245,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
+    },
     {
       "headline": "BSX Q3 Earnings Meet Estimates, Revenues Rise Y/Y, Stock Down",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=800ca77ecea004d6239357c8f0ba9702f5505b082312536843e13fefe1cad206",
       "datetime": 1793191020,
       "summary": "COR's $2.4B acquisition of AON aims to expand its oncology services platform, strengthen community cancer care and support long-term growth."
-    },
-    {
-      "headline": "What Would A Short Seller Say About Stryker?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b097ef726609b34ae25a1dd428a94232e38826f497f6eeaee167dd3a6d22cad7",
-      "datetime": 1793183875,
-      "summary": "For questions about this article or underlying research, email help@trefis.com."
-    },
-    {
-      "headline": "Is Intuitive Surgical (ISRG) Undervalued As Upbeat Earnings Lifted Sentiment?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a05a315107b5fc646f7f8a917c48a0869969ae09b8ff5758fbcc81faa6ba1644",
-      "datetime": 1793174852,
-      "summary": "Intuitive Surgical (ISRG) is back in focus after its latest earnings report, which paired higher quarterly revenue with lower net income and earnings per share, giving investors a mixed but important update on performance. At a share price of US$445.88, Intuitive Surgical has logged a 26.32% 90-day share price return and a 7.50% 30-day share price return. However, the year-to-date share price is d"
-    },
-    {
-      "headline": "2 unpopular stocks that deserve a second chance and 1 that underwhelm",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=1bcb98b1094f367b447fdbe30d9bf5f6966162a86411ba309dd772458da67fcd",
-      "datetime": 1793120567,
-      "summary": "Wall Street\u2019s bearish price targets for the stocks in this article signal serious concerns. Such forecasts are uncommon in an industry where maintaining cordial corporate relationships often trumps delivering the hard truth."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-27",
+  "data_asof": "2026-10-29",
   "price": {
-    "last": 445.88,
-    "open": 451.63,
-    "prev_close": 451.63,
-    "move_day_pct": -1.27,
-    "move_open_close_pct": -1.27,
-    "move_week_pct": 1.8
+    "last": 448.28,
+    "open": 447.85,
+    "prev_close": 444.18,
+    "move_day_pct": 0.92,
+    "move_open_close_pct": 0.1,
+    "move_week_pct": 1.0
   },
   "indicators": {
     "rsi14": {
-      "value": 65.6,
+      "value": 66.1,
       "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 14.0,
-      "signal": 12.37,
-      "hist": 1.63,
-      "hist_prev": 2.117,
+      "macd": 13.535,
+      "signal": 12.807,
+      "hist": 0.729,
+      "hist_prev": 1.019,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 457.21,
-      "lower": 391.03,
-      "mid": 424.12,
-      "pctb": 0.829,
+      "upper": 460.83,
+      "lower": 395.87,
+      "mid": 428.35,
+      "pctb": 0.807,
       "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 34.29,
-      "read": "34% above its 52-week low"
+      "value": 35.02,
+      "read": "35% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -24.79,
-      "read": "25% below its 52-week high"
+      "value": -24.39,
+      "read": "24% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 434.84,
-      "pct": 2.54,
+      "ma200": 433.63,
+      "pct": 3.38,
       "read": "3% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 12.71,
-      "pct_of_price": 2.85,
+      "value": 12.16,
+      "pct_of_price": 2.71,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.72,
-      "read": "Roughly average volume"
+      "value": 0.37,
+      "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 71.9,
+      "value": 65.2,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 332.02,
   "high_52w": 592.85,
-  "ma50": 398.31,
-  "ma200": 434.84
+  "ma50": 400.38,
+  "ma200": 433.63
 }

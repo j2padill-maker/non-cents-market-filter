@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-28T18:25:32.653424-07:00",
+  "generated_at": "2026-10-29T11:06:43.462209-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "ServiceNow Posts Downbeat Q3 Earnings, Joins Sprouts Farmers Market, Alphabet And Other Big Stocks Moving Lower In Thursday\u2019s Pre-Market Session",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=601613b7d1e7fffbd86a100c50caabcc6e27a28c70878e2eb893a5e20293d26a",
+      "datetime": 1793260873,
+      "summary": "U.S. stock futures were mixed as ServiceNow plunged 18.5% after missing earnings estimates, while Fortinet, Sprouts and Alphabet also fell."
+    },
+    {
+      "headline": "Why Is Fortinet Stock Falling Thursday?",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=bce7499c3b260a7cbb69d500fb35c170d4f286ae3e895b8a9ea9331c12769fc7",
+      "datetime": 1793259710,
+      "summary": "Fortinet stock plunges 26% despite beating Q3 earnings as slowing growth and lower service revenue guidance trigger an investor sell-off."
+    },
     {
       "headline": "Zscaler (ZS) Stock Dips While Market Gains: Key Facts",
       "source": "Yahoo",
@@ -38,25 +52,11 @@
       "summary": "Markets are on edge as the Fed weighs its next move, hyperscalers like Microsoft and Alphabet prepare to update investors on AI and cloud spending, and chip stocks react to fresh profit headlines from SK Hynix and Micron. Together, these forces could influence how money flows across large-cap AI and cloud leaders. This article walks through three stocks from our screener that appear especially exp"
     },
     {
-      "headline": "Zscaler vs. Alphabet: Which Cloud Security Stock Has the Edge?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=969e6eda1243bf4dbf8976a54b5e971f65a04400cfe60bd2f7761c2323c2c1b5",
-      "datetime": 1793111760,
-      "summary": "Both Zscaler and Alphabet target AI-driven cloud security demand, but their growth, earnings revisions and valuation are likely to determine which stock has the edge."
-    },
-    {
-      "headline": "Netskope Vs. Zscaler: The Challenger Is Catching Up",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=484e4c501bb6e25ee3481351b44a884f2cd8bd88337d754617ff75a4a4d34661",
-      "datetime": 1793108966,
-      "summary": "See why Netskope, Inc., and Zscaler, Inc., stand out in cloud security as ransomware and AI-driven threats rise, plus risks. Click for this NTSK and ZS comparison."
-    },
-    {
-      "headline": "Zscaler, Inc. (ZS) Is a Trending Stock: Facts to Know Before Betting on It",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2326bb3de6bb8ffca3df36485d3106927d38f736931eec4eb7bc2181d793d2f5",
-      "datetime": 1793102403,
-      "summary": "Zscaler (ZS) has been one of the stocks most watched by Zacks.com users lately. So, it is worth exploring what lies ahead for the stock."
+      "headline": "Cybersecurity Stocks Drop After Hours: Here's Why",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=db8f8821a5b638c765057e56d74daa328446e13b5d3adcb772e0b3a0434c7d39",
+      "datetime": 1793209426,
+      "summary": "Cybersecurity stocks are getting torched late Wednesday on the heels of Fortinet Inc&#39;s (NASDAQ:FTNT) third-quarter results."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-27",
+  "data_asof": "2026-10-29",
   "price": {
-    "last": 260.15,
-    "open": 258.38,
-    "prev_close": 260.45,
-    "move_day_pct": -0.12,
-    "move_open_close_pct": 0.69,
-    "move_week_pct": 21.28
+    "last": 244.69,
+    "open": 235.51,
+    "prev_close": 255.8,
+    "move_day_pct": -4.34,
+    "move_open_close_pct": 3.9,
+    "move_week_pct": 2.91
   },
   "indicators": {
     "rsi14": {
-      "value": 73.2,
-      "read": "Overbought"
+      "value": 61.6,
+      "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 14.716,
-      "signal": 11.107,
-      "hist": 3.608,
-      "hist_prev": 3.173,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "macd": 14.606,
+      "signal": 12.47,
+      "hist": 2.136,
+      "hist_prev": 3.313,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 260.39,
-      "lower": 184.39,
-      "mid": 222.39,
-      "pctb": 0.997,
-      "read": "Near the upper band"
+      "upper": 265.52,
+      "lower": 189.49,
+      "mid": 227.51,
+      "pctb": 0.726,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 120.37,
-      "read": "120% above its 52-week low"
+      "value": 107.28,
+      "read": "107% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -22.64,
-      "read": "23% below its 52-week high"
+      "value": -27.23,
+      "read": "27% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 166.4,
-      "pct": 56.34,
-      "read": "56% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 166.73,
+      "pct": 46.76,
+      "read": "47% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 11.61,
-      "pct_of_price": 4.46,
+      "value": 12.4,
+      "pct_of_price": 5.07,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.85,
+      "value": 0.62,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 70.6,
+      "value": 56.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 118.05,
   "high_52w": 336.27,
-  "ma50": 200.27,
-  "ma200": 166.4
+  "ma50": 202.87,
+  "ma200": 166.73
 }
