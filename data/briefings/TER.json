@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-29T11:06:34.211758-07:00",
+  "generated_at": "2026-10-31T13:06:01.976470-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,49 +17,55 @@
   ],
   "news": [
     {
-      "headline": "Did The Market Read Lam Research Stock Right?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=070bf6e51424a90322a1d92362def33891460198d912d8aa3452cdd2aef83491",
-      "datetime": 1793283846,
-      "summary": "For questions about this article or underlying research, email help@trefis.com."
+      "headline": "Robotics Stocks Diverge as Strong Earnings Meet Uneven Price Action",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=5fa872ffb1b98303d87800faf843447ca48e4ec7441c37c5bce7c00dd4ace35a",
+      "datetime": 1793453782,
+      "summary": "Robotics automation theme cools as investors get selective, with earnings-price disconnects and healthcare robotics holding up as quality counterweight."
     },
     {
-      "headline": "Teradyne (TER) Dropped, So What Is Behind The Latest Attention?",
+      "headline": "FORM Drops 12% Post Q3 Earnings: Should You Buy the Stock on the Dip?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b6ba1c40b9b0a4499ef43b0c18dcc02d3e705c519f51d9e4b69c4bf210e1c88f",
-      "datetime": 1793276181,
-      "summary": "Teradyne (TER) just posted third quarter 2026 results that surprised the market, with revenue of US$1.31b and net income of US$342.4 million. However, the stock dropped after the release. Teradyne\u2019s shares fell 3.23% on the day of the release and are down 22.28% over the past month. However, the year-to-date share price return of 50.92% and 1-year total shareholder return of 77.43% indicate that l"
+      "url": "https://finnhub.io/api/news?id=8a2d437135de5eff29b8fe5b4ed9c29c13846f3b035b064f267a182f7a75e1ac",
+      "datetime": 1793379720,
+      "summary": "FormFactor shares plunge nearly 12% after Q3 earnings as weak Q4 guidance and capacity constraints weigh on sentiment. Can AI demand and expansion fuel a rebound?"
     },
     {
-      "headline": "Here's How Much $1000 Invested In Teradyne 10 Years Ago Would Be Worth Today",
+      "headline": "FORM's HBM and Foundry Testing Gain From AI Demand: What's Ahead?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8dfcfc3d86ca6ceb2d59c1e4e5c2735091d69c15d94778dd11212612b88893ce",
+      "datetime": 1793367420,
+      "summary": "FormFactor's HBM4 testing and growing foundry business are benefiting from AI chip complexity."
+    },
+    {
+      "headline": "Black Friday Came Early for Chipmakers: Intel and 10 Other Stocks Are More Than 20% Off This Month",
       "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=5986d40e456fdaa88cc74e2c4a2f3a7b5af02300c8553b371124ce89cdbc29c8",
-      "datetime": 1793270735,
-      "summary": "Teradyne (NASDAQ:TER) has outperformed the market over the past 10 years by 15.26% on an annualized basis producing an average annual return of 29.14%. Currently, Teradyne has a market capitalization of $49.04 billion."
+      "url": "https://finnhub.io/api/news?id=3ff4847199255c6615ac2b73efc97f60730b92ba6c23760e4148d49a5e983e5b",
+      "datetime": 1793364307,
+      "summary": "Intel and 10 other chip stocks, from Cerebras to Marvell, have lost more than 20% in October, yet 10 of the 11 remain up for 2026. SOXX is down 16.5%."
     },
     {
-      "headline": "Teradyne (TER) Stock May Be Above Fair Value Despite Record AI Demand",
+      "headline": "Is FormFactor (FORM) Priced About Right After Record Earnings?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=cbf4de2510f613e40f1e101a88e67a0deae22f8f385da9c8545c55c5741569d3",
-      "datetime": 1793262279,
-      "summary": "Teradyne has enjoyed a powerful share price run in recent years, helped by rising interest in AI hardware and factory automation, and that puts a sharper spotlight on whether the current valuation is fully backed by the cash flows the business can generate. With the stock now trading near recent highs, the core issue for you is how much of Teradyne's cash flow potential is already reflected in tha"
+      "url": "https://finnhub.io/api/news?id=f2ae821ff60aae6ddc0653fb423905422005aeb18a13545e75a0101b09bee223",
+      "datetime": 1793362186,
+      "summary": "FormFactor has been through a sharp share price swing in recent years, and with earnings now in sharper focus, the live question is whether the current valuation really lines up with what the business is generating per share. Over the past 3 years, FormFactor has delivered a share price gain of 189.5%, which puts a lot of weight on the idea that its earnings can carry that move. Record profitabili"
     },
     {
-      "headline": "FormFactor, Inc. Reports 2026 Third Quarter Results",
+      "headline": "FormFactor Sinks 12% Despite Record Quarter as Factory Nears \u201cCapacity Limits\u201d",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=864a1f95969cedaeb98f633a9e158a06aa5daf1375879bc34b34584b623c55ef",
-      "datetime": 1793217660,
-      "summary": "Delivers Revenue, Gross Margin, and Earnings Per Share Exceeding the High End of the Outlook Range; Sees Continued Strong Broad Based DemandLIVERMORE, Calif., Oct. 28, 2026 (GLOBE NEWSWIRE) -- FormFactor, Inc. (Nasdaq: FORM) today announced its financial results for the third quarter of fiscal 2026 ended September 26, 2026. Quarterly revenues were $280.5 million, an increase of 8.6% compared to $2"
-    },
-    {
-      "headline": "Teradyne: Q3 Earnings Snapshot",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=03cd720cf8c43d6b0801760c9dad15250f2f9efc8e801d44df14c3d942a4844f",
-      "datetime": 1793212572,
-      "summary": "(TER) on Tuesday reported third-quarter net income of $342.The North Reading, Massachusetts-based company said it had profit of $2."
+      "url": "https://finnhub.io/api/news?id=ff0d3fa10ff1f7542afb2538fb4b073f400ec997f559b2e46c10545cbcb7f36f",
+      "datetime": 1793306014,
+      "summary": "Key TakeawaysFormFactor fell 12% today despite record third-quarter revenue of $280. 5 million and an outlook above estimates."
     }
   ],
   "filings": [
+    {
+      "form": "10-Q",
+      "title": "Quarterly report (10-Q)",
+      "date": "2026-10-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/97210/000119312526441091/ter-20260927.htm"
+    },
     {
       "form": "8-K",
       "title": "Material event (8-K)",
@@ -71,74 +77,68 @@
       "title": "Material event (8-K)",
       "date": "2026-08-10",
       "url": "https://www.sec.gov/Archives/edgar/data/97210/000119312526342367/ter-20260807.htm"
-    },
-    {
-      "form": "10-Q",
-      "title": "Quarterly report (10-Q)",
-      "date": "2026-07-31",
-      "url": "https://www.sec.gov/Archives/edgar/data/97210/000119312526327715/ter-20260628.htm"
     }
   ],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-29",
+  "data_asof": "2026-10-30",
   "price": {
-    "last": 293.65,
-    "open": 303.05,
-    "prev_close": 313.24,
-    "move_day_pct": -6.25,
-    "move_open_close_pct": -3.1,
-    "move_week_pct": -4.89
+    "last": 274.37,
+    "open": 277.54,
+    "prev_close": 296.23,
+    "move_day_pct": -7.38,
+    "move_open_close_pct": -1.14,
+    "move_week_pct": -11.16
   },
   "indicators": {
     "rsi14": {
-      "value": 32.3,
-      "read": "Oversold"
+      "value": 28.9,
+      "read": "Extremely oversold"
     },
     "macd": {
-      "macd": -21.59,
-      "signal": -15.052,
-      "hist": -6.538,
-      "hist_prev": -6.369,
+      "macd": -24.136,
+      "signal": -16.836,
+      "hist": -7.301,
+      "hist_prev": -6.374,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 455.7,
-      "lower": 264.67,
-      "mid": 360.18,
-      "pctb": 0.152,
+      "upper": 444.6,
+      "lower": 258.55,
+      "mid": 351.58,
+      "pctb": 0.085,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 88.72,
-      "read": "89% above its 52-week low"
+      "value": 76.33,
+      "read": "76% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -39.29,
-      "read": "39% below its 52-week high"
+      "value": -43.27,
+      "read": "43% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 349.12,
-      "pct": -15.89,
-      "read": "16% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 349.35,
+      "pct": -21.46,
+      "read": "21% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 21.6,
-      "pct_of_price": 7.36,
+      "value": 22.19,
+      "pct_of_price": 8.09,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.72,
-      "read": "Roughly average volume"
+      "value": 2.82,
+      "read": "Heavy volume \u2014 well above average"
     },
     "mfi14": {
-      "value": 26.2,
+      "value": 23.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 155.6,
   "high_52w": 483.65,
-  "ma50": 366.3,
-  "ma200": 349.12
+  "ma50": 364.18,
+  "ma200": 349.35
 }

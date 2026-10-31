@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-29T11:06:07.987733-07:00",
+  "generated_at": "2026-10-31T13:05:47.484388-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Rapid7 Acquires Kenzo Security; Amount Not Disclosed",
+      "headline": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=0cef08ea889b2b7e946c4c2bede5dc95d1a4873376275e0c36a9e292b8615a57",
+      "datetime": 1793393516,
+      "summary": "Techs led another stock market sell-off. It's a time to be defensive. Apple, Palantir, jobs and midterm elections loom."
+    },
+    {
+      "headline": "Cloudflare CEO: Agent Traffic Will Be \u201ca Thousand Times Human Traffic.\u201d Its Pricing Has to Change",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a8613155461343a8fb6e6b94e03d041250468030fb9b2f08efd1df69284b437a",
+      "datetime": 1793383750,
+      "summary": "Key TakeawaysCloudflare CEO Matthew Prince said on TBPN that agent traffic could reach a thousand times human traffic within five years if current trends continue. He expects agents to pay a tiny fee each time they access a page, and Cloudflare has already released a gateway that lets sites collect those payments."
+    },
+    {
+      "headline": "Cybersecurity Stocks Tumble in Tech Selloff. A Crypto Bombshell Should Have Helped.",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=56e677bd1229daa79d091bfd06db35a74522082ce9e7b2ced4592158dbde5964",
+      "datetime": 1793383080,
+      "summary": "Investor fears over tech stocks, fueled by shrinking cash flows at Intel and Amazon due to AI spending, outweighed the impact of the Binance hack."
+    },
+    {
+      "headline": "Trading Halt: Halt status updated at 8:55:00 AM ET: Quotation Resumption: News and Resumption Times",
       "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=cbbb32b23c25c3eb056d0f41b46dd49c6aaa0ce6190c8372f02bb239581aae1e",
-      "datetime": 1793207432,
+      "url": "https://finnhub.io/api/news?id=83a6fc1b8761f53971e99515bab3ebe39a51264dd31d8db112bd3c86f8b8d5d5",
+      "datetime": 1793369738,
       "summary": ""
     },
     {
-      "headline": "The AI trade is back, and it's sorting software stocks into winners and losers",
+      "headline": "Cloudflare Slips Before Q3 After Facing Millions of PHP Exploit Attempts",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=13b15d7e15a00b0d292f8177d578f8befc46d95df0c3d14c676bb5d7cf2554a3",
-      "datetime": 1793199826,
-      "summary": "The chip rebound is sorting software stocks into winners and losers, with October's biggest gainers now falling the hardest."
+      "url": "https://finnhub.io/api/news?id=8e973cb4e33a83774ed5785eb39a528082a858bdf5ac3cd98bb58baf4151980e",
+      "datetime": 1793359164,
+      "summary": "Key TakeawaysCloudflare shares fell 2. 7% to $310 on Thursday ahead of its November 5 report, after gaining about 46% over six months."
     },
     {
-      "headline": "Cloudflare Inc - Class A (NYSE:NET) Meets Minervini Trend Template but Setup Rating Calls for Patience",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=22e5691dcc1d4e0553009ff846bacca8939b3e4f859bec3b2705f34ce9d24544",
-      "datetime": 1793193082,
-      "summary": "Cloudflare (NET) meets Minervini\u2019s Trend Template and high-growth momentum criteria, but weak setup rating suggests waiting for tighter consolidation."
-    },
-    {
-      "headline": "Wells Fargo Maintains Overweight on Cloudflare, Raises Price Target to $400",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=dee9611954b5797fb42dd118b8bd03d4596167bf5e3e55a872384f772de51ced",
-      "datetime": 1793182608,
-      "summary": "Wells Fargo  analyst Ryan Macwilliams   maintains Cloudflare (NYSE:NET) with a Overweight and raises the price target from $380 to $400."
-    },
-    {
-      "headline": "Did AI Partnerships Just Shift Cloudflare (NET) Stock Narrative?",
+      "headline": "5 Best Cybersecurity Stocks to Buy: Picked By Hedge Funds",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d7c9be618ed41d2a28ee79b7b87d88489bb922014f8c40abf1cea41df90b09bd",
-      "datetime": 1793178983,
-      "summary": "Commerce.com and Cloudflare partnered to let AI agents shop directly on eligible BigCommerce stores using WebMCP, while Cloudflare also broadened its Cloudflare OS partner ecosystem to connect popular enterprise tools like Asana, Box, GitHub, and more. These AI focused collaborations position Cloudflare closer to real transaction flows in both e-commerce and workplace productivity, tying its infra"
-    },
-    {
-      "headline": "Cloudflare (NET) Could Be 49% Overvalued Following Fresh AI Commerce Traction",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9589199fb5564fd03a07b34c369e88c2af163dba38e5ad7b99317cb738809b16",
-      "datetime": 1793171349,
-      "summary": "Cloudflare (NET) is back in focus after Commerce.com rolled out a browser based AI shopping experience for BigCommerce merchants that runs on Cloudflare infrastructure and is enabled by default for eligible stores. For context, Cloudflare shares trade at US$327.80. That price sits on top of a 7 day share price return of 12.38% and a 90 day gain of 21.24%, even after a 30 day share price decline of"
+      "url": "https://finnhub.io/api/news?id=566ab3bf9a604dbfe4eebe8ebc5d71f014e1a5cd35e22db3d1cb0cf7b9a0c2e7",
+      "datetime": 1793296218,
+      "summary": "Previously we covered the 10 Best Cybersecurity Stocks to Buy According to Analysts. In this article we are going to take a look at hedge funds\u2019 top cybersecurity stock picks. Hedge funds are highly sensitive to valuation multiples. When high-growth cloud security stocks reach \u201cnosebleed\u201d price-to-sales multiples, hedge funds often take profits and rotate into [\u2026]"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-29",
+  "data_asof": "2026-10-30",
   "price": {
-    "last": 301.88,
-    "open": 304.65,
-    "prev_close": 318.72,
-    "move_day_pct": -5.29,
-    "move_open_close_pct": -0.91,
-    "move_week_pct": -0.57
+    "last": 280.7,
+    "open": 299.69,
+    "prev_close": 310.3,
+    "move_day_pct": -9.54,
+    "move_open_close_pct": -6.34,
+    "move_week_pct": -13.82
   },
   "indicators": {
     "rsi14": {
-      "value": 41.7,
-      "read": "Neutral"
+      "value": 35.7,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -4.517,
-      "signal": -2.56,
-      "hist": -1.957,
-      "hist_prev": -1.121,
+      "macd": -6.675,
+      "signal": -3.276,
+      "hist": -3.399,
+      "hist_prev": -1.419,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 371.79,
-      "lower": 283.3,
-      "mid": 327.55,
-      "pctb": 0.21,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 371.41,
+      "lower": 277.69,
+      "mid": 324.55,
+      "pctb": 0.032,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 88.45,
-      "read": "88% above its 52-week low"
+      "value": 75.23,
+      "read": "75% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -16.36,
-      "read": "16% below its 52-week high"
+      "value": -22.23,
+      "read": "22% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 247.59,
-      "pct": 21.93,
-      "read": "22% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 248.1,
+      "pct": 13.14,
+      "read": "13% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 18.05,
-      "pct_of_price": 5.98,
+      "value": 19.53,
+      "pct_of_price": 6.96,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.79,
-      "read": "Roughly average volume"
+      "value": 1.63,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 40.7,
+      "value": 37.1,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 360.93,
-  "ma50": 320.52,
-  "ma200": 247.59
+  "ma50": 320.72,
+  "ma200": 248.1
 }

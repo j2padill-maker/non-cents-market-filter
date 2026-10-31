@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-29T11:06:43.462209-07:00",
+  "generated_at": "2026-10-31T13:06:07.965687-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "ServiceNow Posts Downbeat Q3 Earnings, Joins Sprouts Farmers Market, Alphabet And Other Big Stocks Moving Lower In Thursday\u2019s Pre-Market Session",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=601613b7d1e7fffbd86a100c50caabcc6e27a28c70878e2eb893a5e20293d26a",
-      "datetime": 1793260873,
-      "summary": "U.S. stock futures were mixed as ServiceNow plunged 18.5% after missing earnings estimates, while Fortinet, Sprouts and Alphabet also fell."
-    },
-    {
-      "headline": "Why Is Fortinet Stock Falling Thursday?",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=bce7499c3b260a7cbb69d500fb35c170d4f286ae3e895b8a9ea9331c12769fc7",
-      "datetime": 1793259710,
-      "summary": "Fortinet stock plunges 26% despite beating Q3 earnings as slowing growth and lower service revenue guidance trigger an investor sell-off."
-    },
-    {
-      "headline": "Zscaler (ZS) Stock Dips While Market Gains: Key Facts",
+      "headline": "Cybersecurity Stocks Tumble in Tech Selloff. A Crypto Bombshell Should Have Helped.",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7bb47e61fd2d2f2c94c8854e890aa57a95217bbd2264262418c4759c1aa531ac",
-      "datetime": 1793220302,
-      "summary": "Zscaler (ZS) reached $255.91 at the closing of the latest trading day, reflecting a -1.63% change compared to its last close."
+      "url": "https://finnhub.io/api/news?id=56e677bd1229daa79d091bfd06db35a74522082ce9e7b2ced4592158dbde5964",
+      "datetime": 1793383080,
+      "summary": "Investor fears over tech stocks, fueled by shrinking cash flows at Intel and Amazon due to AI spending, outweighed the impact of the Binance hack."
     },
     {
-      "headline": "Fortinet (FTNT) Q3 Earnings and Revenues Top Estimates",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9c846a10f226b19a75c375f58ea25405f96a4ffd85a2ec1bc9883dd3d16c8626",
-      "datetime": 1793218802,
-      "summary": "Fortinet (FTNT) delivered earnings and revenue surprises of +7.06% and +0.79%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?"
-    },
-    {
-      "headline": "3 AI Cloud Stocks Retail Investors Are Watching Before Big Tech Earnings",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=03bcbd8f5745d6794d208f871b0e5d5583b0328058cac8af2077e367cedbd4da",
-      "datetime": 1793214543,
-      "summary": "Markets are on edge as the Fed weighs its next move, hyperscalers like Microsoft and Alphabet prepare to update investors on AI and cloud spending, and chip stocks react to fresh profit headlines from SK Hynix and Micron. Together, these forces could influence how money flows across large-cap AI and cloud leaders. This article walks through three stocks from our screener that appear especially exp"
-    },
-    {
-      "headline": "Cybersecurity Stocks Drop After Hours: Here's Why",
+      "headline": "Paramount Global Says Nickelodeon Added Spin Master's Unicorn Academy and Vida the Vet to July Lineup, Marking US Linear Debuts on Nickelodeon and Nick Jr.",
       "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=db8f8821a5b638c765057e56d74daa328446e13b5d3adcb772e0b3a0434c7d39",
-      "datetime": 1793209426,
-      "summary": "Cybersecurity stocks are getting torched late Wednesday on the heels of Fortinet Inc&#39;s (NASDAQ:FTNT) third-quarter results."
+      "url": "https://finnhub.io/api/news?id=216ac7290878078c87a7ce44230c5c214af4cc7777b101993f53c53a200a6b9f",
+      "datetime": 1793369689,
+      "summary": ""
+    },
+    {
+      "headline": "What Is Behind The Move In Fortinet Stock?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=4ef8ebb6750b958d46a1c2a43476282148230921138b61a6c9017f15ec253520",
+      "datetime": 1793358948,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
+    },
+    {
+      "headline": "Fortinet Stock Heads for Record Two-Day Rout. A Key Revenue Driver May Be to Blame.",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=503714e2c30619cbae50f4f8170fff2b9623d20ed7f849bfcc090c00d1a2ea6e",
+      "datetime": 1793296440,
+      "summary": "Fortinet reports better-than-expected third-quarter earnings. But red flags are emerging."
+    },
+    {
+      "headline": "Why Did Cloudflare Stock Jump?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=5a68b4013f4c254738af8d3d7ce304585029f5da7ad4b086e3ff9702336048d3",
+      "datetime": 1793284781,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
+    },
+    {
+      "headline": "Fortinet Sinks 20% Despite Q3 Beat and Raise as BofA Flags \u201cDisappointing Slowdown\u201d",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=3cc916f51fa51d13f27ee7d0840120dc64e381f648083e400f68e9d531d1983e",
+      "datetime": 1793283878,
+      "summary": "Key TakeawaysFortinet fell 20% today despite beating third-quarter estimates and raising its 2026 outlook. Palo Alto Networks, CrowdStrike and Zscaler fell with it, and Check Point reports next week."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-29",
+  "data_asof": "2026-10-30",
   "price": {
-    "last": 244.69,
-    "open": 235.51,
-    "prev_close": 255.8,
-    "move_day_pct": -4.34,
-    "move_open_close_pct": 3.9,
-    "move_week_pct": 2.91
+    "last": 237.83,
+    "open": 244.24,
+    "prev_close": 247.82,
+    "move_day_pct": -4.03,
+    "move_open_close_pct": -2.63,
+    "move_week_pct": -6.79
   },
   "indicators": {
     "rsi14": {
-      "value": 61.6,
-      "read": "Firm \u2014 approaching overbought"
+      "value": 57.1,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": 14.606,
-      "signal": 12.47,
-      "hist": 2.136,
-      "hist_prev": 3.313,
+      "macd": 13.582,
+      "signal": 12.732,
+      "hist": 0.85,
+      "hist_prev": 2.336,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 265.52,
-      "lower": 189.49,
-      "mid": 227.51,
-      "pctb": 0.726,
+      "upper": 265.49,
+      "lower": 193.96,
+      "mid": 229.73,
+      "pctb": 0.613,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 107.28,
-      "read": "107% above its 52-week low"
+      "value": 101.47,
+      "read": "101% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -27.23,
-      "read": "27% below its 52-week high"
+      "value": -29.27,
+      "read": "29% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 166.73,
-      "pct": 46.76,
-      "read": "47% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 166.86,
+      "pct": 42.53,
+      "read": "43% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 12.4,
-      "pct_of_price": 5.07,
+      "value": 12.7,
+      "pct_of_price": 5.34,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.62,
+      "value": 0.8,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 56.3,
+      "value": 55.2,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 118.05,
   "high_52w": 336.27,
-  "ma50": 202.87,
-  "ma200": 166.73
+  "ma50": 204.19,
+  "ma200": 166.86
 }

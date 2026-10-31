@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-29T11:06:37.918871-07:00",
+  "generated_at": "2026-10-31T13:06:04.227355-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,109 +17,109 @@
   ],
   "news": [
     {
+      "headline": "Anatomy Of A Bubble",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=1b66723f2159c1df11f3a0782f857c74daaf74bce64eb05b2090f1e4304b50f0",
+      "datetime": 1793423400,
+      "summary": "After touching its latest year-to-date high on October 7, the Nasdaq Composite index finished the day Thursday around six percent below that high. Read more here."
+    },
+    {
+      "headline": "3 Things I Think I Think",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=2fde9df7bea0a52780c197e76d77bed1f473889eb5454af6eb10621ee144ad10",
+      "datetime": 1793410200,
+      "summary": "While tech stocks are down about 10% from their all-time highs, the S&P 500 is only down about 3.6% - the AI trade is at work. Read more here."
+    },
+    {
+      "headline": "Agents Show Up In The Numbers",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=5f42a7d0649941a747b2946a8c234e8eee78723d94c6a3f698013fd9a164b504",
+      "datetime": 1793369400,
+      "summary": "Anthropic's S-1 reignited interest in AI this week, with investors discussing a $1.5\u00e2\u0080\u00932 trillion valuation. The megacaps that reported after it failed to impress. Read more here..."
+    },
+    {
+      "headline": "AI Reality Check: Looking Beyond The Adoption Curve",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=18c6cf69cd71b13e4625503bfb20c8238472a181865a11bc9515a845f0b0c537",
+      "datetime": 1793364300,
+      "summary": "AI is moving from promise to practice as adoption surges and businesses scale its deployment. Read more here."
+    },
+    {
+      "headline": "Big Tech Is Quietly Turning Into A Low-Margin Utility",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=74f6139b756a6c7e52cbef4f805445d5b0b0c7acee80a7ef6c65ed5bb86de235",
+      "datetime": 1793319654,
+      "summary": "Big Tech profits may be overstated as AI server chip costs pile up. Depreciation schedules stretch real costs over years. See more here."
+    },
+    {
       "headline": "Is AI Crowding Out The Rest Of The Economy?",
       "source": "SeekingAlpha",
       "url": "https://finnhub.io/api/news?id=c45ef79b66d51ee7f4839f08c719cd4bf34c86fe3c962767fd25cc8f73d9d42c",
       "datetime": 1793254140,
       "summary": "Despite an investment surge driving U.S. demand, overall U.S. growth has remained moderate, suggesting gains from AI are being offset elsewhere."
-    },
-    {
-      "headline": "Anthropic's Filing Shows AI Revenue Outrunning Compute Costs While Scarce Capacity Stays The Constraint",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=82ea9f7349633d7cc918e94d4aeeec64fd1f6263cadcf46f39fe4cd10cfd6680",
-      "datetime": 1793165400,
-      "summary": ""
-    },
-    {
-      "headline": "2026 ABS East Conference Takeaways: Overcast Skies",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=6bdb250014fcd2c0c157585fafe3c600d4603f5db251fc7956c89d51c69bc515",
-      "datetime": 1793156700,
-      "summary": "Macro outlooks diverged, but investors broadly expected spreads to widen and rates to stay elevated. Read more here."
-    },
-    {
-      "headline": "Higher Hurdle: Rising Investor Expectations Poses Risk To The AI Trade",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=4368fd659ff1d58e5f187bac6e7e9f3dd9d977cc165316ff3a97dc9fa39eaa55",
-      "datetime": 1793151600,
-      "summary": "Jeff Evans looks at what a potential Anthropic IPO could mean for AI-related investments and why diversification remains part of the conversation. Read more here."
-    },
-    {
-      "headline": "Turning Point? - Weekly Blog # 964",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=01277022dc10294624d5b5a1596a7cfc977b786929d79cf3f549d27ba9b84b78",
-      "datetime": 1793099100,
-      "summary": "As an equity analyst I look for clues in the uncertain worlds of commodities, economies and global politics, particularly when they appear to be out of balance. Read more here..."
-    },
-    {
-      "headline": "Anthropic Could Defy the AI Spending Curse: Analysts See Early Profit Signs and Massive Cash Cushion",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=ce5dba5c789d098bea0bd78c24a07ee1555f67a98cbd97041c217025d8738ea8",
-      "datetime": 1793081272,
-      "summary": "Anthropic heads toward its IPO with surging enterprise revenue, early signs of profitability, and massive cash cushion against compute costs."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-29",
+  "data_asof": "2026-10-30",
   "price": {
-    "last": 33.28,
-    "open": 33.46,
-    "prev_close": 34.03,
-    "move_day_pct": -2.22,
-    "move_open_close_pct": -0.55,
-    "move_week_pct": 1.82
+    "last": 32.22,
+    "open": 32.6,
+    "prev_close": 33.42,
+    "move_day_pct": -3.59,
+    "move_open_close_pct": -1.17,
+    "move_week_pct": -2.42
   },
   "indicators": {
     "rsi14": {
-      "value": 41.0,
-      "read": "Neutral"
+      "value": 34.3,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -0.554,
-      "signal": -0.538,
-      "hist": -0.016,
-      "hist_prev": -0.025,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -0.619,
+      "signal": -0.552,
+      "hist": -0.067,
+      "hist_prev": -0.007,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 36.53,
-      "lower": 32.0,
-      "mid": 34.26,
-      "pctb": 0.282,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 36.35,
+      "lower": 31.81,
+      "mid": 34.08,
+      "pctb": 0.091,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 4.07,
+      "value": 0.77,
       "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -20.03,
-      "read": "20% below its 52-week high"
+      "value": -22.57,
+      "read": "23% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 36.61,
-      "pct": -9.11,
-      "read": "9% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 36.58,
+      "pct": -11.92,
+      "read": "12% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.61,
-      "pct_of_price": 1.82,
-      "read": "Calm \u2014 low volatility"
+      "value": 0.67,
+      "pct_of_price": 2.08,
+      "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.71,
-      "read": "Roughly average volume"
+      "value": 1.36,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 51.3,
+      "value": 48.2,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 31.97,
   "high_52w": 41.61,
-  "ma50": 34.95,
-  "ma200": 36.61
+  "ma50": 34.88,
+  "ma200": 36.58
 }

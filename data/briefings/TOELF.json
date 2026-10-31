@@ -2,7 +2,7 @@
   "ticker": "TOELF",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-29T11:06:00.589741-07:00",
+  "generated_at": "2026-10-31T13:05:43.354882-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Tokyo Electron Q2 profit jumps 27% as AI demand drives outlook, \u00a5150 bln buyback",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=5258ddae1711dccb129abeb2262a8fba208839f49ec1ad44ed4d7d8616567b13",
+      "datetime": 1793345241,
+      "summary": "Investing.com --Tokyo Electron (TYO:8035) reported stronger second-quarter earnings on Friday as expanding investment in AI servers and data-centre infrastructure boosted demand for semiconductor equipment, while the company introduced an upbeat full-year forecast and announced a \u00a5150 billion share buyback."
+    },
+    {
+      "headline": "Asian tech stocks slump as AI rout deepens on disappointing U.S. earnings",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e2aab4ad857049953af7d3fdef1971a8b2a85552cc23483601d631d7602cd565",
+      "datetime": 1793335704,
+      "summary": "Investing.com-- Asian technology stocks fell sharply on Friday, extending recent declines as worries over the slowing artificial intelligence trade were amplified by weak earnings from major U.S. companies."
+    },
     {
       "headline": "Applied Materials: Top Quality And Undervalued AI Leader",
       "source": "SeekingAlpha",
@@ -36,76 +50,69 @@
       "url": "https://finnhub.io/api/news?id=55562e2af678874b108376ebf4bf312b14392cd6f7744e8deb2267d2c172b38a",
       "datetime": 1792989932,
       "summary": "Investing.com-- Asian shares edged lower on Monday as concerns over the sustainability of AI spending weighed on semiconductor stocks, while investors braced for a busy week of corporate earnings and central bank decisions."
-    },
-    {
-      "headline": "Tokyo Electron Ltd. Controls 87% of This Semiconductor Equipment Market. Can Smaller Rivals Break In?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5dcdd1b8fa6f0982d46c8662e3b255b43477527e0b57142d4a55b39d164d24c7",
-      "datetime": 1792689618,
-      "summary": "Tokyo Electron controls an almost incomprehensible share of the global photoresist track equipment market, yet a small New Jersey manufacturer believes a fundamentally different wafer-handling architecture can carve out ground that the giant has left exposed."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-28",
+  "data_asof": "2026-10-30",
   "price": {
-    "last": 63.45,
-    "open": 63.45,
-    "prev_close": 61.02,
-    "move_day_pct": 3.98,
-    "move_open_close_pct": 0.0,
-    "move_week_pct": -1.44
+    "last": 62.26,
+    "open": 62.52,
+    "prev_close": 63.38,
+    "move_day_pct": -1.77,
+    "move_open_close_pct": -0.42,
+    "move_week_pct": 3.91
   },
   "indicators": {
     "rsi14": {
-      "value": 42.5,
+      "value": 40.6,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -2.952,
-      "signal": -1.746,
-      "hist": -1.205,
-      "hist_prev": -1.639,
+      "macd": -2.774,
+      "signal": -2.124,
+      "hist": -0.65,
+      "hist_prev": -0.859,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 86.21,
-      "lower": 54.02,
-      "mid": 70.12,
-      "pctb": 0.293,
+      "upper": 84.22,
+      "lower": 52.99,
+      "mid": 68.6,
+      "pctb": 0.297,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 72.44,
-      "read": "72% above its 52-week low"
+      "value": 69.21,
+      "read": "69% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -33.78,
-      "read": "34% below its 52-week high"
+      "value": -35.02,
+      "read": "35% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 63.94,
-      "pct": -0.77,
-      "read": "1% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 64.08,
+      "pct": -2.84,
+      "read": "3% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 3.94,
-      "pct_of_price": 6.21,
+      "value": 4.13,
+      "pct_of_price": 6.64,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 2.07,
-      "read": "Heavy volume \u2014 well above average"
+      "value": 0.25,
+      "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 35.7,
+      "value": 36.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 36.79,
   "high_52w": 95.82,
-  "ma50": 68.53,
-  "ma200": 63.94
+  "ma50": 68.44,
+  "ma200": 64.08
 }

@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-29T11:06:17.432669-07:00",
+  "generated_at": "2026-10-31T13:05:55.165372-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,25 +17,46 @@
   ],
   "news": [
     {
+      "headline": "What Did It Take To Hold Novanta Stock?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=00cc592efe7f1aed349082b0b23de5766808bafef40519e7bd379db3c3c149bc",
+      "datetime": 1793454461,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
+    },
+    {
+      "headline": "Robotics Stocks Diverge as Strong Earnings Meet Uneven Price Action",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=5fa872ffb1b98303d87800faf843447ca48e4ec7441c37c5bce7c00dd4ace35a",
+      "datetime": 1793453782,
+      "summary": "Robotics automation theme cools as investors get selective, with earnings-price disconnects and healthcare robotics holding up as quality counterweight."
+    },
+    {
+      "headline": "12 Information Technology Stocks Moving In Friday's After-Market Session",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=34aa586a05bfd60a9a4a8e8e0188d325773666434ee03308baf5d98f9b2cee67",
+      "datetime": 1793379959,
+      "summary": "Gainers\n\nClearOne (NASDAQ:CLRO) stock rose 51.3% to $5.16 during Friday&#39;s after-market session. The market value of their outstanding shares is at $13.3 million. \nDarkHorse Technologies (NASDAQ:DRK) shares rose"
+    },
+    {
+      "headline": "Shares of broader software stocks are trading lower amid broader market weakness as Treasury yields rise, weighing on tech stocks.",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=a602ca353952fa5b32f69afdd0e6b39979da938d15d03470ae84f025b19e2929",
+      "datetime": 1793370103,
+      "summary": ""
+    },
+    {
+      "headline": "Here\u2019s What Strengthen Investment Case for Cognex (CGNX)",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=15e09fdb4c3a14a656a0287bec6f1dda8e47c9a53c1bb2ee5f0959483655c44f",
+      "datetime": 1793290215,
+      "summary": "Conestoga Capital Advisors, an asset management company, released its third-quarter 2026 investor letter. The letter can be downloaded here. Small Caps began 2026 on solid footing, fueled by favorable domestic conditions and attractive relative valuations. That momentum reversed in 3Q26 as rising oil prices, sticky inflation, and Federal Reserve policy shifts weighed on smaller-cap equities. A [\u2026]"
+    },
+    {
       "headline": "Cognex to Present at Upcoming Investor Conferences",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=9b608bb76eee312811a228eb5ab905c08b2a6fe007ebf61d43f463a0d7e26879",
       "datetime": 1793275200,
       "summary": "Cognex Corporation (NASDAQ: CGNX), the global technology leader in industrial machine vision, today announced that it is scheduled to present at four upcoming investor conferences:"
-    },
-    {
-      "headline": "Conestoga SMid Cap Composite Q3 2026 Portfolio Activity",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=7ab60d493b93a145a8226d89f1115b2f349fa82e7f59c335b1544bf24fbd1fb3",
-      "datetime": 1793198520,
-      "summary": "Conestoga added to positions on twelve occasions and trimmed stocks on thirteen occasions during 3Q26."
-    },
-    {
-      "headline": "Is Cognex Stock's Market Price Justified?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=52e9183033d0df58ab53c2c5aac6d2e9a490a62511bcf340014731983177a112",
-      "datetime": 1792750445,
-      "summary": "For questions about this article or underlying research, email help@trefis.com."
     }
   ],
   "filings": [
@@ -61,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-29",
+  "data_asof": "2026-10-30",
   "price": {
-    "last": 58.96,
-    "open": 57.64,
-    "prev_close": 58.43,
-    "move_day_pct": 0.91,
-    "move_open_close_pct": 2.29,
-    "move_week_pct": 7.99
+    "last": 56.15,
+    "open": 56.43,
+    "prev_close": 58.97,
+    "move_day_pct": -4.78,
+    "move_open_close_pct": -0.5,
+    "move_week_pct": 1.08
   },
   "indicators": {
     "rsi14": {
-      "value": 50.6,
+      "value": 44.0,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.971,
-      "signal": -1.151,
-      "hist": 0.18,
-      "hist_prev": 0.018,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "macd": -1.022,
+      "signal": -1.125,
+      "hist": 0.103,
+      "hist_prev": 0.18,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 66.18,
+      "upper": 65.3,
       "lower": 51.91,
-      "mid": 59.04,
-      "pctb": 0.494,
+      "mid": 58.6,
+      "pctb": 0.317,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 70.14,
-      "read": "70% above its 52-week low"
+      "value": 62.03,
+      "read": "62% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -18.47,
-      "read": "18% below its 52-week high"
+      "value": -22.36,
+      "read": "22% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 57.7,
-      "pct": 2.18,
-      "read": "2% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 57.79,
+      "pct": -2.84,
+      "read": "3% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 2.54,
-      "pct_of_price": 4.31,
+      "value": 2.64,
+      "pct_of_price": 4.71,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.36,
-      "read": "Light \u2014 quiet trading"
+      "value": 0.86,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 44.5,
+      "value": 46.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 34.65,
   "high_52w": 72.32,
-  "ma50": 59.94,
-  "ma200": 57.7
+  "ma50": 59.87,
+  "ma200": 57.79
 }

@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-29T11:05:46.038995-07:00",
+  "generated_at": "2026-10-31T13:05:29.746375-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "Trading Halt: Halt status updated at 8:55:00 AM ET: Quotation Resumption: News and Resumption Times",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=83a6fc1b8761f53971e99515bab3ebe39a51264dd31d8db112bd3c86f8b8d5d5",
+      "datetime": 1793369738,
+      "summary": ""
+    },
+    {
+      "headline": "Why MongoDB (MDB) Dipped More Than Broader Market Today",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=610b90252a5e7d5de62ef04370a26649fffa0892feda394a7030676f0db7af74",
+      "datetime": 1793308503,
+      "summary": "In the closing of the recent trading day, MongoDB (MDB) stood at $384.95, denoting a -2.16% move from the preceding trading day."
+    },
+    {
+      "headline": "Microsoft vs. MongoDB: Which Technology Stock Is the Better Buy?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=fad15dcdfb10fd3a7be5fa005cbb13f228ab9c7347263da1cb23694930a3d2e0",
+      "datetime": 1793285520,
+      "summary": "MDB gains an edge over Microsoft with raised growth targets, expanding margins and lower capital needs, while AI investments weigh on Microsoft's near-term upside."
+    },
+    {
+      "headline": "Zacks Industry Outlook Highlights MongoDB, Affirm and Elastic",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e262bc7eafa4a97460bf2c1357a041dc71ca5d35e20db996c383f4202c269767",
+      "datetime": 1793274840,
+      "summary": "AI adoption is creating new growth opportunities for MongoDB, Affirm and Elastic, as agentic AI, cloud databases and AI-powered search reshape the software industry."
+    },
+    {
       "headline": "3 Internet Software Stocks to Buy From a Prospering Industry",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=bb86a3a3337eb7387eaf34ec2d55c7b61a7dca9eda31e911c6aab857251440f2",
@@ -29,34 +57,6 @@
       "url": "https://finnhub.io/api/news?id=534a1af072b97124c32f48f28dfeca225a63f1916fbcd693a65465857f8cb221",
       "datetime": 1793207151,
       "summary": ""
-    },
-    {
-      "headline": "Is Oracle Stock Worth Buying as Autonomous Database Use Keeps Growing?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=dd64a6baff0d4596ddff642dc52caddca847b10df0ec86f0cc294c2b992dfbdb",
-      "datetime": 1793205540,
-      "summary": "ORCL's autonomous database adoption is accelerating, with multicloud revenues surging 353% and fiscal 2027 guidance pointing to strong growth, despite rising capital spending."
-    },
-    {
-      "headline": "3 US Tech Stocks To Watch As Fed Signals Higher Rates",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=92853e88f8fc420fdebda2ab38d44732013fb2569bed332697080ef60095d78a",
-      "datetime": 1792898334,
-      "summary": "Rates are holding steady for now, yet the Fed is openly pointing to tighter money ahead, and that mix is reshaping how large-cap growth and technology stocks trade around every meeting. When policy feels predictable, but the path still tilts higher for longer, mispricing can creep in and chances appear quickly. This article spotlights three U.S. tech heavyweights exposed to that rate story and exp"
-    },
-    {
-      "headline": "MongoDB (MDB) Stock May Be Fully Priced Despite Fiduciary Duty Probe",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=91a06a64fac1fb19ca1fc52e7b9cf01d396d8e5700a605c4a8c550c42fdb9c66",
-      "datetime": 1792829422,
-      "summary": "MongoDB has delivered mixed share price results in recent years, and the question now is whether the current valuation is properly anchored to the cash flows the business can generate. With the spotlight back on corporate governance and shareholder protections, investors are asking how much of today\u2019s price is really supported by the company\u2019s underlying cash flow profile. The stock has declined 2"
-    },
-    {
-      "headline": "MongoDB (MDB) Advances While Market Declines: Some Information for Investors",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ecd797c27faaa16930c0cda99e878db670f9bea726a489ab141567becf84cbbc",
-      "datetime": 1792790104,
-      "summary": "In the closing of the recent trading day, MongoDB (MDB) stood at $371.09, denoting a +2.44% move from the preceding trading day."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-29",
+  "data_asof": "2026-10-30",
   "price": {
-    "last": 381.79,
-    "open": 375.91,
-    "prev_close": 393.44,
-    "move_day_pct": -2.96,
-    "move_open_close_pct": 1.56,
-    "move_week_pct": 5.4
+    "last": 352.96,
+    "open": 370.81,
+    "prev_close": 384.95,
+    "move_day_pct": -8.31,
+    "move_open_close_pct": -4.81,
+    "move_week_pct": -4.89
   },
   "indicators": {
     "rsi14": {
-      "value": 51.8,
+      "value": 44.1,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 1.548,
-      "signal": -2.177,
-      "hist": 3.725,
-      "hist_prev": 4.328,
+      "macd": -0.318,
+      "signal": -1.765,
+      "hist": 1.447,
+      "hist_prev": 3.927,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 400.12,
-      "lower": 340.48,
-      "mid": 370.3,
-      "pctb": 0.693,
+      "upper": 400.8,
+      "lower": 339.63,
+      "mid": 370.21,
+      "pctb": 0.218,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 68.97,
-      "read": "69% above its 52-week low"
+      "value": 56.21,
+      "read": "56% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -19.16,
-      "read": "19% below its 52-week high"
+      "value": -25.27,
+      "read": "25% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 337.86,
-      "pct": 13.0,
-      "read": "13% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 337.71,
+      "pct": 4.52,
+      "read": "5% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 22.71,
-      "pct_of_price": 5.95,
+      "value": 24.22,
+      "pct_of_price": 6.86,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.26,
-      "read": "Light \u2014 quiet trading"
+      "value": 0.61,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 57.6,
+      "value": 49.1,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 384.11,
-  "ma200": 337.86
+  "ma50": 382.82,
+  "ma200": 337.71
 }

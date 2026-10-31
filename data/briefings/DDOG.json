@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-29T11:06:03.908307-07:00",
+  "generated_at": "2026-10-31T13:05:45.171923-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "This software stock is one of TD Cowen\u2019s top picks into Q3 earnings",
+      "headline": "Cloudflare Sinks 14% and Datadog 13% in a Week as Software Selloff Hits Cloud Stocks",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ddd14ebb6aeb36541735afdbfac9dd494738c1c1791a95bfd3d7b0f7b8233af2",
-      "datetime": 1793282939,
-      "summary": "Investing.com -- TD Cowen has identified its top stock pick heading into third-quarter earnings season, highlighting a cloud monitoring and observability software firm as a standout opportunity ahead of its November 4 report."
+      "url": "https://finnhub.io/api/news?id=092889993c6b8e656a0aafc3fa1e9a052f51aad4851bca5eb287c48174563c62",
+      "datetime": 1793443449,
+      "summary": "Key TakeawaysCloudflare stock fell 14% in the week to Oct. 30, and Datadog fell 13%, though neither company reported weak results."
     },
     {
-      "headline": "Lightspeed Commerce Inc. (LSPD) Reports Next Week: What Awaits?",
+      "headline": "MongoDB, Datadog, Snowflake, Bandwidth, and DigitalOcean stocks trade down, what you need to know",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=461aa4b2c4a85937e798abe3ec1a4cfee8159adef150637186af68fc7938e33a",
-      "datetime": 1793278833,
-      "summary": "Lightspeed POS (LSPD) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations."
+      "url": "https://finnhub.io/api/news?id=a6661ee8b81b40644db7da0f79e95347b33840b9751f323bfa4b2e9f57df6f57",
+      "datetime": 1793438129,
+      "summary": "A number of stocks fell in the afternoon session after underwhelming earnings reports from tech giants Amazon and Intel (after mediocre earnings reports from Alphabet and ServiceNow the previous day) sparked widespread investor anxiety regarding aggressive artificial intelligence spending and sustained cash burn."
     },
     {
-      "headline": "Datadog (NASDAQ:DDOG) Meets Minervini Trend Template With High-Growth Momentum",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=e137b891238ae6f8bcd41a2ace65e703c77070d301652e742b317d873ed33d3d",
-      "datetime": 1793274054,
-      "summary": "DDOG passes Minervini Trend Template with high-growth momentum, strong relative strength and accelerating fundamentals; watch resistance and margins."
-    },
-    {
-      "headline": "Upwind raises $400M after walking away from Datadog acquisition offer",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f84beae951c16c9763b5a1aa373929617f7d8084feb9b10a4a616f2fd277518b",
-      "datetime": 1793229300,
-      "summary": "The cloud security startup raised a Series C at a $3.8B valuation, instead of selling itself for the same price."
-    },
-    {
-      "headline": "Rapid7 Acquires Kenzo Security; Amount Not Disclosed",
+      "headline": "Benzinga's 'Stock Whisper' Index: Five Stocks Investors Secretly Monitor But Don't Talk About Yet",
       "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=cbbb32b23c25c3eb056d0f41b46dd49c6aaa0ce6190c8372f02bb239581aae1e",
-      "datetime": 1793207432,
-      "summary": ""
+      "url": "https://finnhub.io/api/news?id=f9959dcb791cb0c49dbe24c3ca575e8f144576d0cb1b688a1df5173f55923076",
+      "datetime": 1793437207,
+      "summary": "The Stock Whisper Index is a market indicator highlighting stocks that are attracting heightened interest from traders and investors over the last trading week."
     },
     {
-      "headline": "Datadog (DDOG) Earnings Expected to Grow: Should You Buy?",
+      "headline": "Datadog Stock Fell Nearly 12% as AI Spending Fears Hit Cloud Stocks. Its Earnings Estimates Didn\u2019t Move",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2f7fe2665c375848d5f7eb567e2f0ddacda4ee76f6627f7e334a5d7ce68fff80",
-      "datetime": 1793192428,
-      "summary": "Datadog (DDOG) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations."
+      "url": "https://finnhub.io/api/news?id=29980047c762bd412317ae36c8a184f06de4becc07202010f507fdd6fdd9fd6d",
+      "datetime": 1793431099,
+      "summary": "Key Stats for Datadog StockCurrent Price: $235. 27Target Price (Mid): ~$733Street Target: ~$294Potential Total Return: ~211%Annualized IRR: ~31% / yearWhat Happened?Datadog (DDOG:NASDAQ) closed at $235."
+    },
+    {
+      "headline": "S&P 500 Top Movers: Gainers and Losers in Today's Session",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=c7fdf0d093916eaabf7e3b5a1192bc4933eff6dc79e5caf546977cc4495f5410",
+      "datetime": 1793381768,
+      "summary": "S&P 500 top movers for today's session include FDXF up 16.16% and INTC down 30.00%, with double-digit gains and losses across the index."
+    },
+    {
+      "headline": "Datadog Sinks 12%, CrowdStrike Falls 4% Despite $6.3 Billion Binance Hack Spotlighting Cyber Defense; Palo Alto and Fortinet Slide 3%",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b1832bfb99183111f765895d99ae8f19cab09470e2744fb17bb0753a6c780e6e",
+      "datetime": 1793377058,
+      "summary": "A $6.3 billion crypto heist put cybersecurity in the headlines, yet the stocks that should benefit are tumbling alongside the rest of tech. The reason traces back to something far bigger than one hack."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-29",
+  "data_asof": "2026-10-30",
   "price": {
-    "last": 263.77,
-    "open": 269.55,
-    "prev_close": 278.41,
-    "move_day_pct": -5.26,
-    "move_open_close_pct": -2.14,
-    "move_week_pct": 2.34
+    "last": 235.27,
+    "open": 253.62,
+    "prev_close": 265.84,
+    "move_day_pct": -11.5,
+    "move_open_close_pct": -7.23,
+    "move_week_pct": -12.75
   },
   "indicators": {
     "rsi14": {
-      "value": 49.1,
-      "read": "Neutral"
+      "value": 38.7,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": 4.26,
-      "signal": 5.209,
-      "hist": -0.949,
-      "hist_prev": -0.172,
+      "macd": 1.27,
+      "signal": 4.448,
+      "hist": -3.177,
+      "hist_prev": -0.817,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 294.14,
-      "lower": 250.28,
-      "mid": 272.21,
-      "pctb": 0.308,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 297.17,
+      "lower": 243.25,
+      "mid": 270.21,
+      "pctb": -0.148,
+      "read": "Below the lower band \u2014 stretched to the downside"
     },
     "pct_from_52w_low": {
-      "value": 157.05,
-      "read": "157% above its 52-week low"
+      "value": 129.27,
+      "read": "129% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -10.06,
-      "read": "Modestly below its 52-week high"
+      "value": -19.77,
+      "read": "20% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 197.77,
-      "pct": 33.37,
-      "read": "33% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 198.34,
+      "pct": 18.62,
+      "read": "19% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 14.24,
-      "pct_of_price": 5.4,
+      "value": 15.88,
+      "pct_of_price": 6.75,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.53,
-      "read": "Roughly average volume"
+      "value": 1.96,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 50.7,
+      "value": 38.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 293.26,
-  "ma50": 251.17,
-  "ma200": 197.77
+  "ma50": 251.27,
+  "ma200": 198.34
 }

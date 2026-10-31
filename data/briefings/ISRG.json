@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-29T11:06:21.177367-07:00",
+  "generated_at": "2026-10-31T13:05:57.454501-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "What Sent GE HealthCare Stock Higher?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6d6112464353e7744caf82df02d17909b41867ac51692195afed55c4d6a4964d",
-      "datetime": 1793280092,
-      "summary": "For questions about this article or underlying research, email help@trefis.com."
+      "headline": "Robotics Stocks Diverge as Strong Earnings Meet Uneven Price Action",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=5fa872ffb1b98303d87800faf843447ca48e4ec7441c37c5bce7c00dd4ace35a",
+      "datetime": 1793453782,
+      "summary": "Robotics automation theme cools as investors get selective, with earnings-price disconnects and healthcare robotics holding up as quality counterweight."
     },
     {
-      "headline": "What Have Medtronic Stock Holders Really Earned?",
+      "headline": "Intuitive Surgical vs. Boston Scientific: Which Stock Is a Better Buy Now?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a901467482648eaf9c9a75d01523e1a52832bbbcc39dc22223363d4f823ed4a3",
-      "datetime": 1793278040,
-      "summary": "For questions about this article or underlying research, email help@trefis.com."
+      "url": "https://finnhub.io/api/news?id=7736309c7aebb9f1109967201f110f19e6296cd3d331549dc4dbd813ac209063",
+      "datetime": 1793382960,
+      "summary": "Intuitive Surgical's surging robotic surgery demand and stronger earnings momentum make it a better buy than Boston Scientific despite its valuation premium."
     },
     {
-      "headline": "Is Intuitive Surgical Stock's Market Price Justified?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e14303edfa0e7af312b6688243b3cc43ce63894301a9c845c600c57c9b1adadf",
-      "datetime": 1793273245,
-      "summary": "For questions about this article or underlying research, email help@trefis.com."
+      "headline": "Here's How Much $100 Invested In Intuitive Surgical 20 Years Ago Would Be Worth Today",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=d59adf56420b5dad38521b553b61202f66f4c3aef28de66c63b0d96acfd29675",
+      "datetime": 1793378737,
+      "summary": "Intuitive Surgical (NASDAQ:ISRG) has outperformed the market over the past 20 years by 11.31% on an annualized basis producing an average annual return of 20.16%. Currently, Intuitive Surgical has a market"
     },
     {
-      "headline": "BSX Q3 Earnings Meet Estimates, Revenues Rise Y/Y, Stock Down",
+      "headline": "DaVita Q3 Earnings Beat Estimates on IKC Strength, Revenues Rise Y/Y",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8bdea02545d8cf5421ddf537c2f4795d01270c15cfb12ad789cec751e56599fb",
-      "datetime": 1793200800,
-      "summary": "Boston Scientific's third-quarter revenues beat estimates, but contracting margins, weaker segment sales and reduced 2026 guidance weigh on shares."
+      "url": "https://finnhub.io/api/news?id=82b797a0e1f10cd5fbf074fef60bebf98bd2fd26f9ca1ceb1c0b25d4b2007d74",
+      "datetime": 1793368620,
+      "summary": "DVA's Q3 earnings surge 52.2% as revenues rise 4.6%, fueled by strong kidney care and international growth despite rising costs and margin pressure."
     },
     {
-      "headline": "GEHC Q3 Earnings Beat Estimates on Strong Growth, '26 View Raised",
+      "headline": "RMD Stock Up on Q1 Earnings and Revenue Beat, Gross Margin Climbs",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=fcab308b57bc03a3bd201273e286443279b70eff9eb32974e876f554b588bcd1",
-      "datetime": 1793196300,
-      "summary": "GE HealthCare's Q3 earnings and revenues beat estimates on strong segment growth and higher margins, driving raised 2026 guidance as shares gain 8.3%."
+      "url": "https://finnhub.io/api/news?id=7fef578c9d60cfcce3de115efdfe0dd5034dfcce3642c534f665bba1d99b8227",
+      "datetime": 1793356080,
+      "summary": "ResMed's first-quarter fiscal 2027 earnings and revenues top estimates as sustained sleep device demand, productivity gains and gross margin expansion drive growth."
     },
     {
-      "headline": "Cencora to Acquire AON in $2.4B Deal to Expand Oncology Network",
+      "headline": "ISRG Sales Jump 22%: Can Growth Stay Ahead of Procedure Volumes?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=800ca77ecea004d6239357c8f0ba9702f5505b082312536843e13fefe1cad206",
-      "datetime": 1793191020,
-      "summary": "COR's $2.4B acquisition of AON aims to expand its oncology services platform, strengthen community cancer care and support long-term growth."
+      "url": "https://finnhub.io/api/news?id=c48b3920f53b67bc694a0170eb5e2c106dd27724134e2be551b8b59b2def6e78",
+      "datetime": 1793285940,
+      "summary": "Intuitive Surgical's third-quarter sales surged 22%, outpacing procedure growth. Can system placements, new technologies and recurring revenues offset pricing pressures?"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-29",
+  "data_asof": "2026-10-30",
   "price": {
-    "last": 448.28,
-    "open": 447.85,
-    "prev_close": 444.18,
-    "move_day_pct": 0.92,
-    "move_open_close_pct": 0.1,
-    "move_week_pct": 1.0
+    "last": 432.01,
+    "open": 453.6,
+    "prev_close": 448.76,
+    "move_day_pct": -3.73,
+    "move_open_close_pct": -4.76,
+    "move_week_pct": -4.48
   },
   "indicators": {
     "rsi14": {
-      "value": 66.1,
-      "read": "Firm \u2014 approaching overbought"
+      "value": 54.2,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": 13.535,
-      "signal": 12.807,
-      "hist": 0.729,
-      "hist_prev": 1.019,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": 12.028,
+      "signal": 12.657,
+      "hist": -0.629,
+      "hist_prev": 0.759,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 460.83,
-      "lower": 395.87,
-      "mid": 428.35,
-      "pctb": 0.807,
-      "read": "Near the upper band"
+      "upper": 458.3,
+      "lower": 402.45,
+      "mid": 430.38,
+      "pctb": 0.529,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 35.02,
-      "read": "35% above its 52-week low"
+      "value": 30.12,
+      "read": "30% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -24.39,
-      "read": "24% below its 52-week high"
+      "value": -27.13,
+      "read": "27% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 433.63,
-      "pct": 3.38,
-      "read": "3% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 433.06,
+      "pct": -0.24,
+      "read": "0% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 12.16,
-      "pct_of_price": 2.71,
+      "value": 13.0,
+      "pct_of_price": 3.01,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.37,
-      "read": "Light \u2014 quiet trading"
+      "value": 1.54,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 65.2,
+      "value": 58.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 332.02,
   "high_52w": 592.85,
-  "ma50": 400.38,
-  "ma200": 433.63
+  "ma50": 401.54,
+  "ma200": 433.06
 }

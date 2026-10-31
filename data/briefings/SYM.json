@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-29T11:06:27.424248-07:00",
+  "generated_at": "2026-10-31T13:05:59.671112-07:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,42 +17,55 @@
   ],
   "news": [
     {
-      "headline": "MediaAlpha, Inc. (MAX) Beats Q3 Earnings and Revenue Estimates",
+      "headline": "What Walmart (WMT)'s $6b Warehouse Automation Deal Means For Shareholders",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=52264a6985b297f75b9f3a75b3d676aaf104ca31d1289a75819e69e032d79521",
-      "datetime": 1793220306,
-      "summary": "MediaAlpha (MAX) delivered earnings and revenue surprises of +39.39% and +8.13%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?"
+      "url": "https://finnhub.io/api/news?id=cc5d245bbd5a6af5ebe03e3bc382c392043cf749d6e57fb4487cc879f85f9fa5",
+      "datetime": 1793395119,
+      "summary": "Walmart Inc. signed an expanded commercial agreement with Symbotic Inc., committing about US$6b to automate 25 U.S. regional distribution centers and support broader supply chain projects over several years. This large automation spend signals that Walmart is putting significant capital behind warehouse robotics and e-commerce focused inventory management, with attention on storage density, fulfil"
     },
     {
-      "headline": "Symbotic Inc. (SYM) Stock Drops Despite Market Gains: Important Facts to Note",
+      "headline": "Symbotic stock jumps on $6B Walmart automation deal",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e53a6c0c742498663385a447c9f3d1cb828c86dd9a574c801a9e99116c5bbcd1",
-      "datetime": 1793048402,
-      "summary": "In the latest trading session, Symbotic Inc. (SYM) closed at $37.9, marking a -3.51% move from the previous day."
+      "url": "https://finnhub.io/api/news?id=f8d153990a71123e4d130decf6e91655d5c9868fb9c4be069532650b7f103b6b",
+      "datetime": 1793365571,
+      "summary": "Investing.com -- Symbotic Inc (NASDAQ:SYM) shares rose 3.7% in premarket trading Friday following the announcement of an expanded commercial agreement with Walmart Inc (NASDAQ:WMT) valued at approximately $6 billion."
     },
     {
-      "headline": "What Could Go Wrong With Symbotic Stock?",
+      "headline": "Walmart Gains as It Commits $6 Billion to Expand Symbotic Robotics",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=10bb258a3296048ca22b7b702b2dfb894343be0ffccb62061d9438e94ffa6c29",
-      "datetime": 1792698651,
-      "summary": "For questions about this article or underlying research, email help@trefis.com."
+      "url": "https://finnhub.io/api/news?id=64435ca4a74b8548da9b37a3d0223d08469a4e4b19b45391dece561ecb4457a1",
+      "datetime": 1793358857,
+      "summary": "Key TakeawaysWalmart shares rose 2. 1% after it committed about $6 billion over several years to expand Symbotic automation across 25 U."
     },
     {
-      "headline": "Here is What to Know Beyond Why Symbotic Inc. (SYM) is a Trending Stock",
+      "headline": "Walmart (WMT) Expands Automation Deal, Is The Stock Already Pricey?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ef67d4b005b7654e93b1c2b1b91a4461a0884a6dba728e88ac6451ac56067ee8",
-      "datetime": 1792670402,
-      "summary": "SYMBOTIC INC (SYM) has received quite a bit of attention from Zacks.com users lately. Therefore, it is wise to be aware of the facts that can impact the stock's prospects."
+      "url": "https://finnhub.io/api/news?id=f71a7c7ade33d5b8ff76976cccc4849d63e49cc3b29b9f5f2dfa23557eba2c20",
+      "datetime": 1793351557,
+      "summary": "Walmart (WMT) extended its automation push with a new commercial agreement with Symbotic that carries an initial commitment of about US$6b. The rollout targets 25 U.S. regional distribution centers and broader supply chain projects. These automation headlines are landing against a strong backdrop for Walmart, with the share price at US$121.25 and a roughly 13.5% 1 month share price return that has"
     },
     {
-      "headline": "TD Cowen Maintains Buy on Symbotic, Lowers Price Target to $70",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=7abc1aef1e42082745e3057cb1bf1e6a404f482ebfc8d97b3b80e7c8f1ba99b3",
-      "datetime": 1792662393,
-      "summary": "TD Cowen  analyst Joe Giordano   maintains Symbotic (NASDAQ:SYM) with a Buy and lowers the price target from $75 to $70."
+      "headline": "Walmart and Symbotic Expand Commercial Agreement to Support Supply Chain Transformation",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a712793639419ba9409846834f100dd4cf1794e86ff3d78761c8f5d2a7412f31",
+      "datetime": 1793304120,
+      "summary": "Building on more than a decade of collaboration, the companies will expand Symbotic automation across 25 U.S. regional distribution centers, while supporting opportunities across Walmart's global supply chainWILMINGTON, Mass., Oct. 29, 2026 (GLOBE NEWSWIRE) -- Symbotic Inc. (Nasdaq: SYM), a leader in A.I.-enabled robotics technology for the supply chain, and Walmart Inc. (Nasdaq: WMT) today announ"
+    },
+    {
+      "headline": "Symbotic Announces Date for Reporting Fourth Quarter and Fiscal Year 2026 Financial Results",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=706c57baa28fdc8e5d07dcd28a36122b4d427fc1c911862b81b0eda84dbe8366",
+      "datetime": 1793304060,
+      "summary": "WILMINGTON, Mass., Oct. 29, 2026 (GLOBE NEWSWIRE) -- Symbotic Inc. (Nasdaq: SYM), a leader in A.I.-enabled robotics technology for the supply chain, today announced it will release fourth quarter and fiscal year 2026 financial results after the market close on Monday, November 23, 2026. The press release will also be available on the Symbotic Investor Relations website: www.ir.symbotic.com. The co"
     }
   ],
   "filings": [
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/1837240/000119312526437874/d182210d8k.htm"
+    },
     {
       "form": "10-Q",
       "title": "Quarterly report (10-Q)",
@@ -64,74 +77,68 @@
       "title": "Material event (8-K)",
       "date": "2026-08-05",
       "url": "https://www.sec.gov/Archives/edgar/data/1837240/000183724026000042/sym-20260803.htm"
-    },
-    {
-      "form": "10-Q",
-      "title": "Quarterly report (10-Q)",
-      "date": "2026-05-06",
-      "url": "https://www.sec.gov/Archives/edgar/data/1837240/000183724026000024/sym-20260328.htm"
     }
   ],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-29",
+  "data_asof": "2026-10-30",
   "price": {
-    "last": 37.74,
-    "open": 38.1,
-    "prev_close": 38.97,
-    "move_day_pct": -3.17,
-    "move_open_close_pct": -0.96,
-    "move_week_pct": -6.5
+    "last": 37.93,
+    "open": 38.33,
+    "prev_close": 37.4,
+    "move_day_pct": 1.42,
+    "move_open_close_pct": -1.04,
+    "move_week_pct": -3.44
   },
   "indicators": {
     "rsi14": {
-      "value": 40.3,
+      "value": 41.5,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.995,
-      "signal": -0.781,
-      "hist": -0.214,
-      "hist_prev": -0.174,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -1.061,
+      "signal": -0.841,
+      "hist": -0.22,
+      "hist_prev": -0.235,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 44.43,
-      "lower": 36.58,
-      "mid": 40.5,
-      "pctb": 0.147,
-      "read": "Near the lower band"
+      "upper": 44.12,
+      "lower": 36.31,
+      "mid": 40.22,
+      "pctb": 0.207,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 0.0,
+      "value": 1.42,
       "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -56.78,
+      "value": -56.55,
       "read": "57% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 48.23,
-      "pct": -21.76,
-      "read": "22% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 48.08,
+      "pct": -21.11,
+      "read": "21% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 1.89,
-      "pct_of_price": 5.01,
+      "value": 1.97,
+      "pct_of_price": 5.2,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.45,
-      "read": "Light \u2014 quiet trading"
+      "value": 1.75,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 51.1,
+      "value": 45.7,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": 37.74,
+  "low_52w": 37.4,
   "high_52w": 87.3,
-  "ma50": 41.4,
-  "ma200": 48.23
+  "ma50": 41.32,
+  "ma200": 48.08
 }
