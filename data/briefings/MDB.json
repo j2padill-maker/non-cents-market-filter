@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-31T13:05:29.746375-07:00",
+  "generated_at": "2026-11-01T13:22:16.072380-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "MongoDB, Datadog, Snowflake, Bandwidth, and DigitalOcean stocks trade down, what you need to know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a6661ee8b81b40644db7da0f79e95347b33840b9751f323bfa4b2e9f57df6f57",
+      "datetime": 1793438129,
+      "summary": "A number of stocks fell in the afternoon session after underwhelming earnings reports from tech giants Amazon and Intel (after mediocre earnings reports from Alphabet and ServiceNow the previous day) sparked widespread investor anxiety regarding aggressive artificial intelligence spending and sustained cash burn."
+    },
     {
       "headline": "Trading Halt: Halt status updated at 8:55:00 AM ET: Quotation Resumption: News and Resumption Times",
       "source": "Benzinga",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=bb86a3a3337eb7387eaf34ec2d55c7b61a7dca9eda31e911c6aab857251440f2",
       "datetime": 1793209140,
       "summary": "The Zacks Internet Software industry participants like MDB, AFRM and ESTC are benefiting from high demand for AI-infused software, as well as autonomous AI agents."
-    },
-    {
-      "headline": "Monday.Com shares are trading lower after Jefferies downgraded the stock from Buy to Hold rating and lowered the price target from $260 to $80.",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=534a1af072b97124c32f48f28dfeca225a63f1916fbcd693a65465857f8cb221",
-      "datetime": 1793207151,
-      "summary": ""
     }
   ],
   "filings": [

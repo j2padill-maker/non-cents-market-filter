@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-31T13:05:47.484388-07:00",
+  "generated_at": "2026-11-01T13:22:21.376255-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Earnings Volatility Watch: 10 Stocks Are Set to Swing More Than 10% This Week",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=11580ea46adbde2a6243b452b62d658eeaae614850c1595b883ece0ea213f70f",
+      "datetime": 1793521807,
+      "summary": "Ten stocks carry implied earnings moves above 10% next week, led by Moderna and AppLovin. Five are tech names hit in Friday&#39;s chip rout."
+    },
+    {
+      "headline": "Cloudflare Sinks 14% and Datadog 13% in a Week as Software Selloff Hits Cloud Stocks",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=092889993c6b8e656a0aafc3fa1e9a052f51aad4851bca5eb287c48174563c62",
+      "datetime": 1793443449,
+      "summary": "Key TakeawaysCloudflare stock fell 14% in the week to Oct. 30, and Datadog fell 13%, though neither company reported weak results."
+    },
+    {
+      "headline": "Cloudflare, Fastly, Oracle, JFrog, and Okta shares plummet, what you need to know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=3b38043529d02ca5530b80ecb788320809362385f7683c670dd90433827cf907",
+      "datetime": 1793438609,
+      "summary": "A number of stocks fell in the afternoon session after underwhelming earnings reports from tech giants Amazon and Intel (after mediocre earnings reports from Alphabet and ServiceNow the previous day) sparked widespread investor anxiety regarding aggressive artificial intelligence spending and sustained cash burn."
+    },
     {
       "headline": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=56e677bd1229daa79d091bfd06db35a74522082ce9e7b2ced4592158dbde5964",
       "datetime": 1793383080,
       "summary": "Investor fears over tech stocks, fueled by shrinking cash flows at Intel and Amazon due to AI spending, outweighed the impact of the Binance hack."
-    },
-    {
-      "headline": "Trading Halt: Halt status updated at 8:55:00 AM ET: Quotation Resumption: News and Resumption Times",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=83a6fc1b8761f53971e99515bab3ebe39a51264dd31d8db112bd3c86f8b8d5d5",
-      "datetime": 1793369738,
-      "summary": ""
-    },
-    {
-      "headline": "Cloudflare Slips Before Q3 After Facing Millions of PHP Exploit Attempts",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8e973cb4e33a83774ed5785eb39a528082a858bdf5ac3cd98bb58baf4151980e",
-      "datetime": 1793359164,
-      "summary": "Key TakeawaysCloudflare shares fell 2. 7% to $310 on Thursday ahead of its November 5 report, after gaining about 46% over six months."
-    },
-    {
-      "headline": "5 Best Cybersecurity Stocks to Buy: Picked By Hedge Funds",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=566ab3bf9a604dbfe4eebe8ebc5d71f014e1a5cd35e22db3d1cb0cf7b9a0c2e7",
-      "datetime": 1793296218,
-      "summary": "Previously we covered the 10 Best Cybersecurity Stocks to Buy According to Analysts. In this article we are going to take a look at hedge funds\u2019 top cybersecurity stock picks. Hedge funds are highly sensitive to valuation multiples. When high-growth cloud security stocks reach \u201cnosebleed\u201d price-to-sales multiples, hedge funds often take profits and rotate into [\u2026]"
     }
   ],
   "filings": [

@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-31T13:06:07.965687-07:00",
+  "generated_at": "2026-11-01T13:22:30.982135-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Zscaler (ZS) Stock May Be 14% Undervalued As AI Security Demand Builds",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=5d266f32916f28bc3a05b67e8963bb187e92b60765ac96437f5f0e235fa2e287",
+      "datetime": 1793470463,
+      "summary": "Zscaler has been pulled back into the spotlight as cybersecurity headlines and AI security concerns keep the sector in focus. This puts a fresh question on the table for you as an investor. With the share price resetting over recent years, the real issue is whether the current market value lines up with the cash flows the business can generate. Over the past 3 years, Zscaler has delivered a total "
+    },
     {
       "headline": "Cybersecurity Stocks Tumble in Tech Selloff. A Crypto Bombshell Should Have Helped.",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=5a68b4013f4c254738af8d3d7ce304585029f5da7ad4b086e3ff9702336048d3",
       "datetime": 1793284781,
       "summary": "For questions about this article or underlying research, email help@trefis.com."
-    },
-    {
-      "headline": "Fortinet Sinks 20% Despite Q3 Beat and Raise as BofA Flags \u201cDisappointing Slowdown\u201d",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3cc916f51fa51d13f27ee7d0840120dc64e381f648083e400f68e9d531d1983e",
-      "datetime": 1793283878,
-      "summary": "Key TakeawaysFortinet fell 20% today despite beating third-quarter estimates and raising its 2026 outlook. Palo Alto Networks, CrowdStrike and Zscaler fell with it, and Check Point reports next week."
     }
   ],
   "filings": [

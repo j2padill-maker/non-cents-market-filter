@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-31T13:05:45.171923-07:00",
+  "generated_at": "2026-11-01T13:22:20.107474-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Earnings Volatility Watch: 10 Stocks Are Set to Swing More Than 10% This Week",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=11580ea46adbde2a6243b452b62d658eeaae614850c1595b883ece0ea213f70f",
+      "datetime": 1793521807,
+      "summary": "Ten stocks carry implied earnings moves above 10% next week, led by Moderna and AppLovin. Five are tech names hit in Friday&#39;s chip rout."
+    },
+    {
+      "headline": "Top Wall Street analysts are bullish on these 3 stocks for the long haul",
+      "source": "CNBC",
+      "url": "https://finnhub.io/api/news?id=712486064d13b5f25523c36b6150be88b55f07863e61ec57ea999b3832a9482d",
+      "datetime": 1793518433,
+      "summary": "Investors looking beyond short-term noise and focusing on long-term returns can track top analysts to pick the right stocks, backed by strong research."
+    },
     {
       "headline": "Cloudflare Sinks 14% and Datadog 13% in a Week as Software Selloff Hits Cloud Stocks",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=29980047c762bd412317ae36c8a184f06de4becc07202010f507fdd6fdd9fd6d",
       "datetime": 1793431099,
       "summary": "Key Stats for Datadog StockCurrent Price: $235. 27Target Price (Mid): ~$733Street Target: ~$294Potential Total Return: ~211%Annualized IRR: ~31% / yearWhat Happened?Datadog (DDOG:NASDAQ) closed at $235."
-    },
-    {
-      "headline": "S&P 500 Top Movers: Gainers and Losers in Today's Session",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=c7fdf0d093916eaabf7e3b5a1192bc4933eff6dc79e5caf546977cc4495f5410",
-      "datetime": 1793381768,
-      "summary": "S&P 500 top movers for today's session include FDXF up 16.16% and INTC down 30.00%, with double-digit gains and losses across the index."
-    },
-    {
-      "headline": "Datadog Sinks 12%, CrowdStrike Falls 4% Despite $6.3 Billion Binance Hack Spotlighting Cyber Defense; Palo Alto and Fortinet Slide 3%",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b1832bfb99183111f765895d99ae8f19cab09470e2744fb17bb0753a6c780e6e",
-      "datetime": 1793377058,
-      "summary": "A $6.3 billion crypto heist put cybersecurity in the headlines, yet the stocks that should benefit are tumbling alongside the rest of tech. The reason traces back to something far bigger than one hack."
     }
   ],
   "filings": [

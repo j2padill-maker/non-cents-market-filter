@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-31T13:06:05.617581-07:00",
+  "generated_at": "2026-11-01T13:22:29.704329-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -50,13 +50,6 @@
       "url": "https://finnhub.io/api/news?id=7b5040b435632579ea889c94bbb93207a993299e3f1a3789343591194a3c3658",
       "datetime": 1793012517,
       "summary": "Barclays  analyst David Anderson   maintains Oceaneering International (NYSE:OII) with a Equal-Weight and lowers the price target from $47 to $42."
-    },
-    {
-      "headline": "Is Oceaneering International (OII) Trading At A Discount To Cash Flow?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=da70762a0a843fe9b3681ae131afe802af7e401ee572ce265bdd84d9f857e00f",
-      "datetime": 1792818924,
-      "summary": "Oceaneering International has pulled back sharply in recent weeks after a strong multi\u2011year run. This puts the focus squarely on whether the current share price lines up with the cash the business is expected to generate. With that kind of setup, the key issue for you as an investor is whether the recent weakness changes the story that the market has been pricing into its future cash flows. Over t"
     }
   ],
   "filings": [

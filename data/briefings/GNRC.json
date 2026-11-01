@@ -2,7 +2,7 @@
   "ticker": "GNRC",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-10-31T13:05:49.762851-07:00",
+  "generated_at": "2026-11-01T13:22:22.467148-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "3 Stocks Tied To AI Data Center Power Demand Investors Should Watch",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=228638acb140f4220fe551c2b4d19cfb012903aac07bcf87743335c9ad26c3db",
+      "datetime": 1793503223,
+      "summary": "An AI capex race is reshaping how much power the cloud giants need and where they get it. Data centers cannot run on headlines; they run on electricity and grid capacity. That shift may create fresh winners for investors who look beyond chip stories and into the wiring behind them. This article unpacks that theme and walks through three stocks that appear especially exposed to this AI build out. T"
+    },
     {
       "headline": "BrenX Shares Halted On Circuit Breaker To The Upside, Stock Now Up 54.49%",
       "source": "Benzinga",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=d063fbb256a399f5cc9baadf72a4236d19e6e8141f44f7a8adce7f438b559535",
       "datetime": 1793285932,
       "summary": "Caterpillar crushed earnings estimates and posted record orders stretching into 2030, yet the stock cratered while its machinery rivals barely flinched. The gap between what Wall Street expected and what management delivered reveals a fault line worth understanding before the next quarterly test arrives."
-    },
-    {
-      "headline": "ecobee Introduces Home Summary to Simplify the Connected Home",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=bbea2dab76dc0af49b9b366df6a756642933ae23e847a984ff2876cfc5f21427",
-      "datetime": 1793284200,
-      "summary": "TORONTO, October 29, 2026--ecobee today introduced Home Summary, an opt-in AI-powered feature that provides a convenient and comprehensive daily summary of meaningful household activity in the ecobee app. By bringing together information across heating, cooling, security, occupancy, and weather, Home Summary helps customers understand what's happening in and around their home. Personalized insight"
     }
   ],
   "filings": [
