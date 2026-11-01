@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-01T13:22:25.740779-08:00",
+  "generated_at": "2026-11-01T15:22:19.855318-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Intuitive Surgical Stock Just Fell Despite a 22% Revenue Jump. Here's What Investors Are Missing.",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=dbaaecaf210141bb97e9169e1e81898751549fef3cda6b754c6291f582c008a6",
+      "datetime": 1793565300,
+      "summary": "Selling surgical robots is not the largest source of Intuitive Surgical's revenue."
+    },
     {
       "headline": "Robotics Stocks Diverge as Strong Earnings Meet Uneven Price Action",
       "source": "ChartMill",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=7fef578c9d60cfcce3de115efdfe0dd5034dfcce3642c534f665bba1d99b8227",
       "datetime": 1793356080,
       "summary": "ResMed's first-quarter fiscal 2027 earnings and revenues top estimates as sustained sleep device demand, productivity gains and gross margin expansion drive growth."
-    },
-    {
-      "headline": "ISRG Sales Jump 22%: Can Growth Stay Ahead of Procedure Volumes?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c48b3920f53b67bc694a0170eb5e2c106dd27724134e2be551b8b59b2def6e78",
-      "datetime": 1793285940,
-      "summary": "Intuitive Surgical's third-quarter sales surged 22%, outpacing procedure growth. Can system placements, new technologies and recurring revenues offset pricing pressures?"
     }
   ],
   "filings": [
