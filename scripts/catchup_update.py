@@ -76,8 +76,15 @@ def last_remote_update():
     git_out("fetch", "origin", "--quiet")
     # Only laptop runs count. GitHub Action data is degraded (no RSI, partial
     # universe), so it must not satisfy the "already updated" check.
-    ts = git_out("log", "-1", "--format=%ct", "--author=j2padill-maker", "origin/main", "--", "data/cache.json")
-    return datetime.fromtimestamp(int(ts)) if ts else datetime.min
+    # Filter OUT the Action rather than matching your own name: the laptop's git
+    # name changed from "j2padill-maker" to "Jason" on 10/28 and the old
+    # name-match stopped seeing any of your updates.
+    out = git_out("log", "-30", "--format=%ct|%an", "origin/main", "--", "data/cache.json")
+    for line in out.splitlines():
+        ts, _, author = line.partition("|")
+        if "github-actions" not in author.lower():
+            return datetime.fromtimestamp(int(ts))
+    return datetime.min
 
 
 def main():
