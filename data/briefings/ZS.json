@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-01T16:46:59.105359-08:00",
+  "generated_at": "2026-11-04T20:14:19.845678-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Zscaler (ZS) Stock May Be 14% Undervalued As AI Security Demand Builds",
+      "headline": "Should Twilio Stock Holders Look At Fortinet Instead?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5d266f32916f28bc3a05b67e8963bb187e92b60765ac96437f5f0e235fa2e287",
-      "datetime": 1793470463,
-      "summary": "Zscaler has been pulled back into the spotlight as cybersecurity headlines and AI security concerns keep the sector in focus. This puts a fresh question on the table for you as an investor. With the share price resetting over recent years, the real issue is whether the current market value lines up with the cash flows the business can generate. Over the past 3 years, Zscaler has delivered a total "
-    },
-    {
-      "headline": "Cybersecurity Stocks Tumble in Tech Selloff. A Crypto Bombshell Should Have Helped.",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=56e677bd1229daa79d091bfd06db35a74522082ce9e7b2ced4592158dbde5964",
-      "datetime": 1793383080,
-      "summary": "Investor fears over tech stocks, fueled by shrinking cash flows at Intel and Amazon due to AI spending, outweighed the impact of the Binance hack."
-    },
-    {
-      "headline": "Paramount Global Says Nickelodeon Added Spin Master's Unicorn Academy and Vida the Vet to July Lineup, Marking US Linear Debuts on Nickelodeon and Nick Jr.",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=216ac7290878078c87a7ce44230c5c214af4cc7777b101993f53c53a200a6b9f",
-      "datetime": 1793369689,
-      "summary": ""
-    },
-    {
-      "headline": "What Is Behind The Move In Fortinet Stock?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4ef8ebb6750b958d46a1c2a43476282148230921138b61a6c9017f15ec253520",
-      "datetime": 1793358948,
+      "url": "https://finnhub.io/api/news?id=fd085bb9ccc42c528f0c6204c3c9d1f05d2448db8120f5dce0dddea522be9297",
+      "datetime": 1793822418,
       "summary": "For questions about this article or underlying research, email help@trefis.com."
     },
     {
-      "headline": "Fortinet Stock Heads for Record Two-Day Rout. A Key Revenue Driver May Be to Blame.",
+      "headline": "Zscaler Lags Cybersecurity Peers: Should Investors Hold the Stock?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=503714e2c30619cbae50f4f8170fff2b9623d20ed7f849bfcc090c00d1a2ea6e",
-      "datetime": 1793296440,
-      "summary": "Fortinet reports better-than-expected third-quarter earnings. But red flags are emerging."
+      "url": "https://finnhub.io/api/news?id=82f3614074cfe2f3234851c8ea73ad5113ed1f58fd827e3afb87868378e90c29",
+      "datetime": 1793803500,
+      "summary": "ZS' slowing growth and rising spending weigh on its stock, but AI security momentum, Zero Trust adoption and attractive valuation support a hold strategy."
     },
     {
-      "headline": "Why Did Cloudflare Stock Jump?",
+      "headline": "Varonis Systems (VRNS) Q3 Earnings and Revenues Surpass Estimates",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5a68b4013f4c254738af8d3d7ce304585029f5da7ad4b086e3ff9702336048d3",
-      "datetime": 1793284781,
+      "url": "https://finnhub.io/api/news?id=b83491e05ade354bdc9afabf483572aa3eb2dbe1b91ebea0b8aa2627583451d3",
+      "datetime": 1793742609,
+      "summary": "Varonis (VRNS) delivered earnings and revenue surprises of +200.00% and +1.36%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?"
+    },
+    {
+      "headline": "Palo Alto Networks Surges 92% YTD: Time to Hold or Fold the Stock?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7b657917b8ea13207e17dee2f22993e869bba2006285e137e3ce506608b50524",
+      "datetime": 1793712960,
+      "summary": "PANW shares surge 91.6% YTD as AI security demand and platformization fuel growth, but rising costs and premium valuation warrant caution."
+    },
+    {
+      "headline": "Is Okta Stock Worth The Wait?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7c009ba20e062c9d465ba062b6e0ef53cf0cccb5d51d2e2aaffb03b792753581",
+      "datetime": 1793707035,
       "summary": "For questions about this article or underlying research, email help@trefis.com."
+    },
+    {
+      "headline": "Zacks Industry Outlook Highlights Fortinet, Zscaler and Qualys",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=74f872d603941f17a1707ee4b248e9a86c65faafb44bff5dc2194755601528d0",
+      "datetime": 1793706660,
+      "summary": "Fortinet, Zscaler and Qualys are positioned to benefit from rising cybersecurity demand, with AI innovation and earnings momentum shaping their growth prospects."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-30",
+  "data_asof": "2026-11-04",
   "price": {
-    "last": 237.83,
-    "open": 244.24,
-    "prev_close": 247.82,
-    "move_day_pct": -4.03,
-    "move_open_close_pct": -2.63,
-    "move_week_pct": -6.79
+    "last": 224.44,
+    "open": 223.8,
+    "prev_close": 225.09,
+    "move_day_pct": -0.29,
+    "move_open_close_pct": 0.29,
+    "move_week_pct": -12.26
   },
   "indicators": {
     "rsi14": {
-      "value": 57.1,
+      "value": 49.6,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 13.582,
-      "signal": 12.732,
-      "hist": 0.85,
-      "hist_prev": 2.336,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": 7.928,
+      "signal": 11.072,
+      "hist": -3.145,
+      "hist_prev": -2.356,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 265.49,
-      "lower": 193.96,
-      "mid": 229.73,
-      "pctb": 0.613,
+      "upper": 263.72,
+      "lower": 200.3,
+      "mid": 232.01,
+      "pctb": 0.381,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 101.47,
-      "read": "101% above its 52-week low"
+      "value": 90.12,
+      "read": "90% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -29.27,
-      "read": "29% below its 52-week high"
+      "value": -32.25,
+      "read": "32% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 166.86,
-      "pct": 42.53,
-      "read": "43% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 167.08,
+      "pct": 34.33,
+      "read": "34% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 12.7,
-      "pct_of_price": 5.34,
+      "value": 12.43,
+      "pct_of_price": 5.54,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.8,
+      "value": 0.58,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 55.2,
+      "value": 55.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 118.05,
-  "high_52w": 336.27,
-  "ma50": 204.19,
-  "ma200": 166.86
+  "high_52w": 331.29,
+  "ma50": 207.14,
+  "ma200": 167.08
 }

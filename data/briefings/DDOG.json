@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-01T16:46:47.745574-08:00",
+  "generated_at": "2026-11-04T20:14:07.183102-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,128 +17,128 @@
   ],
   "news": [
     {
-      "headline": "Earnings Volatility Watch: 10 Stocks Are Set to Swing More Than 10% This Week",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=11580ea46adbde2a6243b452b62d658eeaae614850c1595b883ece0ea213f70f",
-      "datetime": 1793521807,
-      "summary": "Ten stocks carry implied earnings moves above 10% next week, led by Moderna and AppLovin. Five are tech names hit in Friday&#39;s chip rout."
-    },
-    {
-      "headline": "Top Wall Street analysts are bullish on these 3 stocks for the long haul",
-      "source": "CNBC",
-      "url": "https://finnhub.io/api/news?id=712486064d13b5f25523c36b6150be88b55f07863e61ec57ea999b3832a9482d",
-      "datetime": 1793518433,
-      "summary": "Investors looking beyond short-term noise and focusing on long-term returns can track top analysts to pick the right stocks, backed by strong research."
-    },
-    {
-      "headline": "Cloudflare Sinks 14% and Datadog 13% in a Week as Software Selloff Hits Cloud Stocks",
+      "headline": "Datadog: 3 Key Takeaways for Long-Term Investors",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=092889993c6b8e656a0aafc3fa1e9a052f51aad4851bca5eb287c48174563c62",
-      "datetime": 1793443449,
-      "summary": "Key TakeawaysCloudflare stock fell 14% in the week to Oct. 30, and Datadog fell 13%, though neither company reported weak results."
+      "url": "https://finnhub.io/api/news?id=84c481c59be29e2fa32bd1290a1582ff8069edd8c76fd4b80db68bc2087bc4d0",
+      "datetime": 1793846034,
+      "summary": "All 15 of the top 15 AI leaders use Datadog's tools, and its non-AI business is also accelerating."
     },
     {
-      "headline": "MongoDB, Datadog, Snowflake, Bandwidth, and DigitalOcean stocks trade down, what you need to know",
+      "headline": "Datadog (DDOG) Reports Q3 Earnings: What Key Metrics Have to Say",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a6661ee8b81b40644db7da0f79e95347b33840b9751f323bfa4b2e9f57df6f57",
-      "datetime": 1793438129,
-      "summary": "A number of stocks fell in the afternoon session after underwhelming earnings reports from tech giants Amazon and Intel (after mediocre earnings reports from Alphabet and ServiceNow the previous day) sparked widespread investor anxiety regarding aggressive artificial intelligence spending and sustained cash burn."
+      "url": "https://finnhub.io/api/news?id=3c182b8cddfccadac770c2dcb704b232abf6cc5282e7442662e2bc0ccc985b20",
+      "datetime": 1793842201,
+      "summary": "Although the revenue and EPS for Datadog (DDOG) give a sense of how its business performed in the quarter ended September 2026, it might be worth considering how some key metrics compare with Wall Street estimates and the year-ago numbers."
     },
     {
-      "headline": "Benzinga's 'Stock Whisper' Index: Five Stocks Investors Secretly Monitor But Don't Talk About Yet",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=f9959dcb791cb0c49dbe24c3ca575e8f144576d0cb1b688a1df5173f55923076",
-      "datetime": 1793437207,
-      "summary": "The Stock Whisper Index is a market indicator highlighting stocks that are attracting heightened interest from traders and investors over the last trading week."
-    },
-    {
-      "headline": "Datadog Stock Fell Nearly 12% as AI Spending Fears Hit Cloud Stocks. Its Earnings Estimates Didn\u2019t Move",
+      "headline": "Datadog Inc (DDOG) Q3 2026 Earnings Call Highlights: Revenue Surges 35% to $1. ...",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=29980047c762bd412317ae36c8a184f06de4becc07202010f507fdd6fdd9fd6d",
-      "datetime": 1793431099,
-      "summary": "Key Stats for Datadog StockCurrent Price: $235. 27Target Price (Mid): ~$733Street Target: ~$294Potential Total Return: ~211%Annualized IRR: ~31% / yearWhat Happened?Datadog (DDOG:NASDAQ) closed at $235."
+      "url": "https://finnhub.io/api/news?id=32f650d25fb3493153ddc61bb9c7a0f3668a94f820cd3e62919cc4cab79b3546",
+      "datetime": 1793826396,
+      "summary": "Datadog Inc (DDOG) beat guidance with broad-based growth, expanding AI customer base, and deepening product adoption, though Q4 guidance points to a near-term deceleration."
+    },
+    {
+      "headline": "Sector Update: Tech Stocks Mixed Late Afternoon",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=0fbf9c4b86cf2982bda625ad2de5c394ae9a0fa1f9234a43803a6406a0e921e4",
+      "datetime": 1793825128,
+      "summary": "Tech stocks were mixed late Wednesday afternoon, with the State Street Technology Select Sector SPDR"
+    },
+    {
+      "headline": "S&P 500 Top Movers: Gainers and Losers in Today's US Session",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=00de67f364a0e9c6936a8e31ef13f5ce904883d14b7a6c891acd5b259df9a819",
+      "datetime": 1793822768,
+      "summary": "S&P 500 top movers for today's US session, with XYZ leading gainers at 15.99% and FIS leading losers at -24.87%."
+    },
+    {
+      "headline": "Datadog Stock Crashes 14% Despite an Earnings Beat. Is It a Buy?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=635d834ee0a59752393df071b6dd6d3dc028ef2957ff51e3fb53610835c7837d",
+      "datetime": 1793821675,
+      "summary": "Datadog beat estimates, raised its full-year outlook for the third straight quarter, and still watched its stock crater 14%. The reason buried in the guidance tells a more complicated story than the sell-off suggests."
     }
   ],
   "filings": [
     {
       "form": "10-Q",
       "title": "Quarterly report (10-Q)",
+      "date": "2026-11-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026070292/ddog-20260930.htm"
+    },
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-11-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026069792/ddog-20261104.htm"
+    },
+    {
+      "form": "10-Q",
+      "title": "Quarterly report (10-Q)",
       "date": "2026-08-06",
       "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026054458/ddog-20260630.htm"
-    },
-    {
-      "form": "8-K",
-      "title": "Material event (8-K)",
-      "date": "2026-08-06",
-      "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026053829/ddog-20260806.htm"
-    },
-    {
-      "form": "8-K",
-      "title": "Material event (8-K)",
-      "date": "2026-06-16",
-      "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026043590/ddog-20260615.htm"
     }
   ],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-30",
+  "data_asof": "2026-11-04",
   "price": {
-    "last": 235.27,
-    "open": 253.62,
-    "prev_close": 265.84,
-    "move_day_pct": -11.5,
-    "move_open_close_pct": -7.23,
-    "move_week_pct": -12.75
+    "last": 188.72,
+    "open": 199.74,
+    "prev_close": 220.52,
+    "move_day_pct": -14.42,
+    "move_open_close_pct": -5.52,
+    "move_week_pct": -32.22
   },
   "indicators": {
     "rsi14": {
-      "value": 38.7,
-      "read": "Oversold"
+      "value": 28.7,
+      "read": "Extremely oversold"
     },
     "macd": {
-      "macd": 1.27,
-      "signal": 4.448,
-      "hist": -3.177,
-      "hist_prev": -0.817,
+      "macd": -10.145,
+      "signal": -0.984,
+      "hist": -9.161,
+      "hist_prev": -6.813,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 297.17,
-      "lower": 243.25,
-      "mid": 270.21,
-      "pctb": -0.148,
+      "upper": 312.25,
+      "lower": 208.11,
+      "mid": 260.18,
+      "pctb": -0.186,
       "read": "Below the lower band \u2014 stretched to the downside"
     },
     "pct_from_52w_low": {
-      "value": 129.27,
-      "read": "129% above its 52-week low"
+      "value": 83.91,
+      "read": "84% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -19.77,
-      "read": "20% below its 52-week high"
+      "value": -35.65,
+      "read": "36% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 198.34,
-      "pct": 18.62,
-      "read": "19% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 199.68,
+      "pct": -5.49,
+      "read": "5% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 15.88,
-      "pct_of_price": 6.75,
+      "value": 17.13,
+      "pct_of_price": 9.08,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.96,
-      "read": "Above-average volume"
+      "value": 3.73,
+      "read": "Heavy volume \u2014 well above average"
     },
     "mfi14": {
-      "value": 38.3,
+      "value": 30.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 293.26,
-  "ma50": 251.27,
-  "ma200": 198.34
+  "ma50": 250.09,
+  "ma200": 199.68
 }

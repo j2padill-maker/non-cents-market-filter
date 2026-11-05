@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-01T16:46:48.869017-08:00",
+  "generated_at": "2026-11-04T20:14:08.314939-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Earnings Volatility Watch: 10 Stocks Are Set to Swing More Than 10% This Week",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=11580ea46adbde2a6243b452b62d658eeaae614850c1595b883ece0ea213f70f",
-      "datetime": 1793521807,
-      "summary": "Ten stocks carry implied earnings moves above 10% next week, led by Moderna and AppLovin. Five are tech names hit in Friday&#39;s chip rout."
+      "headline": "Vertex (VERX) Surpasses Q3 Earnings and Revenue Estimates",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=062a239d1907c846bde723f493c157b9e842881990490728e4d2ff1b9ddce971",
+      "datetime": 1793829010,
+      "summary": "Vertex (VERX) delivered earnings and revenue surprises of +18.18% and +1.70%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?"
     },
     {
-      "headline": "Cloudflare Sinks 14% and Datadog 13% in a Week as Software Selloff Hits Cloud Stocks",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=092889993c6b8e656a0aafc3fa1e9a052f51aad4851bca5eb287c48174563c62",
-      "datetime": 1793443449,
-      "summary": "Key TakeawaysCloudflare stock fell 14% in the week to Oct. 30, and Datadog fell 13%, though neither company reported weak results."
+      "headline": "Polen 5Perspectives Large Growth Composite Q3 2026 Portfolio Performance And Attribution",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=4c40bc9a1af541e9d335df7fd5798645b67b781609cedb7fe7397e93d2289939",
+      "datetime": 1793820300,
+      "summary": "Review the Q3 2026 performance and portfolio activity for the Polen Large Growth Composite. Read the full commentary for details."
     },
     {
-      "headline": "Cloudflare, Fastly, Oracle, JFrog, and Okta shares plummet, what you need to know",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3b38043529d02ca5530b80ecb788320809362385f7683c670dd90433827cf907",
-      "datetime": 1793438609,
-      "summary": "A number of stocks fell in the afternoon session after underwhelming earnings reports from tech giants Amazon and Intel (after mediocre earnings reports from Alphabet and ServiceNow the previous day) sparked widespread investor anxiety regarding aggressive artificial intelligence spending and sustained cash burn."
+      "headline": "Polen 5Perspectives Small Growth Composite Q3 2026 Portfolio Attribution And Activity",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=07a96d48f9e4d9b73852d43bd8ac5d7b282e70fc520b05efa7d0c71885a2d62d",
+      "datetime": 1793819400,
+      "summary": "Review Polen 5Perspectives Small Growth Composite Portfolio Q3 2026 performance highlights and strategy. Read now for complete investment commentary."
     },
     {
-      "headline": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
+      "headline": "5 Large Cap Tech Stocks to Buy According to Billionaires",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0cef08ea889b2b7e946c4c2bede5dc95d1a4873376275e0c36a9e292b8615a57",
-      "datetime": 1793393516,
-      "summary": "Techs led another stock market sell-off. It's a time to be defensive. Apple, Palantir, jobs and midterm elections loom."
+      "url": "https://finnhub.io/api/news?id=2dc477639845c964c6f23176fbda4c1c8007a18f4767bcf42989fe42e97560b1",
+      "datetime": 1793815181,
+      "summary": "The recent selloff in technology stocks has raised questions about how much investors are willing to pay for growth, particularly as the cost of expanding AI infrastructure continues to rise. Even established technology companies have not been immune. In late October, Fortinet and ServiceNow suffered steep single-day share-price declines as investors questioned their growth prospects [\u2026]"
     },
     {
-      "headline": "Cloudflare CEO: Agent Traffic Will Be \u201ca Thousand Times Human Traffic.\u201d Its Pricing Has to Change",
+      "headline": "Datadog Sinks 13% as Flat Q4 Revenue Outlook Overshadows Earnings Beat",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a8613155461343a8fb6e6b94e03d041250468030fb9b2f08efd1df69284b437a",
-      "datetime": 1793383750,
-      "summary": "Key TakeawaysCloudflare CEO Matthew Prince said on TBPN that agent traffic could reach a thousand times human traffic within five years if current trends continue. He expects agents to pay a tiny fee each time they access a page, and Cloudflare has already released a gateway that lets sites collect those payments."
+      "url": "https://finnhub.io/api/news?id=8dcaf599c5c77818048d8d57b18119249cda7faa975abd3c781bda54d945bc9e",
+      "datetime": 1793802979,
+      "summary": "Key TakeawaysDatadog shares sank 13% today as a flat fourth-quarter revenue outlook overshadowed 35% revenue growth and an earnings beat. Datadog has beaten the top of its revenue guidance four quarters running, so the flat outlook looks like its usual caution."
     },
     {
-      "headline": "Cybersecurity Stocks Tumble in Tech Selloff. A Crypto Bombshell Should Have Helped.",
+      "headline": "Cloudflare (NET) Shares Outperform Following Accelerating Revenue Growth and Raised Outlook",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=56e677bd1229daa79d091bfd06db35a74522082ce9e7b2ced4592158dbde5964",
-      "datetime": 1793383080,
-      "summary": "Investor fears over tech stocks, fueled by shrinking cash flows at Intel and Amazon due to AI spending, outweighed the impact of the Binance hack."
+      "url": "https://finnhub.io/api/news?id=fec38ce89e1ec0a3c9d1254d2cdfcc21affba10341c3037f9d73caff9db732dc",
+      "datetime": 1793802824,
+      "summary": "Polen Capital, an investment management company, released its \u201c5Perspectives Large Growth Strategy\u201d Q3 2026 investor letter. The letter can be downloaded here. In Q3 2026, the Polen 5Perspectives Large Growth Composite returned 0.0%, trailing the Russell 1000 Growth Index\u2019s 0.9%. The quarter saw heightened market volatility, particularly among AI equities, driven by concerns over hyperscaler [\u2026]"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-30",
+  "data_asof": "2026-11-04",
   "price": {
-    "last": 280.7,
-    "open": 299.69,
-    "prev_close": 310.3,
-    "move_day_pct": -9.54,
-    "move_open_close_pct": -6.34,
-    "move_week_pct": -13.82
+    "last": 266.58,
+    "open": 268.2,
+    "prev_close": 273.62,
+    "move_day_pct": -2.57,
+    "move_open_close_pct": -0.6,
+    "move_week_pct": -16.36
   },
   "indicators": {
     "rsi14": {
-      "value": 35.7,
+      "value": 34.1,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -6.675,
-      "signal": -3.276,
-      "hist": -3.399,
-      "hist_prev": -1.419,
+      "macd": -13.796,
+      "signal": -7.63,
+      "hist": -6.167,
+      "hist_prev": -5.826,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 371.41,
-      "lower": 277.69,
-      "mid": 324.55,
-      "pctb": 0.032,
+      "upper": 366.34,
+      "lower": 257.55,
+      "mid": 311.95,
+      "pctb": 0.083,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 75.23,
-      "read": "75% above its 52-week low"
+      "value": 66.41,
+      "read": "66% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -22.23,
-      "read": "22% below its 52-week high"
+      "value": -26.14,
+      "read": "26% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 248.1,
-      "pct": 13.14,
-      "read": "13% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 249.39,
+      "pct": 6.89,
+      "read": "7% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 19.53,
-      "pct_of_price": 6.96,
+      "value": 18.72,
+      "pct_of_price": 7.02,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.63,
-      "read": "Above-average volume"
+      "value": 1.1,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 37.1,
+      "value": 44.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 360.93,
-  "ma50": 320.72,
-  "ma200": 248.1
+  "ma50": 319.81,
+  "ma200": 249.39
 }

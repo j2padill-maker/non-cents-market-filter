@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-01T16:46:43.757801-08:00",
+  "generated_at": "2026-11-04T20:14:00.511622-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "MongoDB, Datadog, Snowflake, Bandwidth, and DigitalOcean stocks trade down, what you need to know",
+      "headline": "What Was Gen Digital Telling You Before Its Stock Ran?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a6661ee8b81b40644db7da0f79e95347b33840b9751f323bfa4b2e9f57df6f57",
-      "datetime": 1793438129,
-      "summary": "A number of stocks fell in the afternoon session after underwhelming earnings reports from tech giants Amazon and Intel (after mediocre earnings reports from Alphabet and ServiceNow the previous day) sparked widespread investor anxiety regarding aggressive artificial intelligence spending and sustained cash burn."
+      "url": "https://finnhub.io/api/news?id=124ff3b0250035fed945b7bbc6e4962ef2b0730ed4f75319a22651f77ca5253a",
+      "datetime": 1793834763,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
     },
     {
-      "headline": "Trading Halt: Halt status updated at 8:55:00 AM ET: Quotation Resumption: News and Resumption Times",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=83a6fc1b8761f53971e99515bab3ebe39a51264dd31d8db112bd3c86f8b8d5d5",
-      "datetime": 1793369738,
-      "summary": ""
+      "headline": "MongoDB (MDB) Stock Dips While Market Gains: Key Facts",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=3060e066592739fabb0b6634f13c8fc23573133e69929e995872afb04e9b1de6",
+      "datetime": 1793830502,
+      "summary": "In the closing of the recent trading day, MongoDB (MDB) stood at $328.38, denoting a -2.08% move from the preceding trading day."
     },
     {
-      "headline": "Why MongoDB (MDB) Dipped More Than Broader Market Today",
+      "headline": "Should Twilio Stock Holders Look At Fortinet Instead?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=610b90252a5e7d5de62ef04370a26649fffa0892feda394a7030676f0db7af74",
-      "datetime": 1793308503,
-      "summary": "In the closing of the recent trading day, MongoDB (MDB) stood at $384.95, denoting a -2.16% move from the preceding trading day."
+      "url": "https://finnhub.io/api/news?id=fd085bb9ccc42c528f0c6204c3c9d1f05d2448db8120f5dce0dddea522be9297",
+      "datetime": 1793822418,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
     },
     {
-      "headline": "Microsoft vs. MongoDB: Which Technology Stock Is the Better Buy?",
+      "headline": "What Did CrowdStrike Do That MongoDB Did Not?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=fad15dcdfb10fd3a7be5fa005cbb13f228ab9c7347263da1cb23694930a3d2e0",
-      "datetime": 1793285520,
-      "summary": "MDB gains an edge over Microsoft with raised growth targets, expanding margins and lower capital needs, while AI investments weigh on Microsoft's near-term upside."
+      "url": "https://finnhub.io/api/news?id=f8b7193dc897f711c44824672ec15b93a33f3f9c3e1c0d79b431223e8833d841",
+      "datetime": 1793805262,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
     },
     {
-      "headline": "Zacks Industry Outlook Highlights MongoDB, Affirm and Elastic",
+      "headline": "Datadog Tumbles 11% Despite Earnings Beat as Soft Revenue Outlook Weighs; MongoDB Slides 3%, Snowflake Dips",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e262bc7eafa4a97460bf2c1357a041dc71ca5d35e20db996c383f4202c269767",
-      "datetime": 1793274840,
-      "summary": "AI adoption is creating new growth opportunities for MongoDB, Affirm and Elastic, as agentic AI, cloud databases and AI-powered search reshape the software industry."
+      "url": "https://finnhub.io/api/news?id=dd5a735ddc58c2d4f7e5bfc50373d4ffb544da8f65de97edc7b3ce9f4a0bdd1c",
+      "datetime": 1793803626,
+      "summary": "Datadog beat estimates and raised its full-year forecast, yet traders punished the stock anyway. The reason buried in management's Q4 guidance reveals something unsettling about where AI spending may be heading."
     },
     {
-      "headline": "3 Internet Software Stocks to Buy From a Prospering Industry",
+      "headline": "Best Growth Stocks to Buy for November 4th",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=bb86a3a3337eb7387eaf34ec2d55c7b61a7dca9eda31e911c6aab857251440f2",
-      "datetime": 1793209140,
-      "summary": "The Zacks Internet Software industry participants like MDB, AFRM and ESTC are benefiting from high demand for AI-infused software, as well as autonomous AI agents."
+      "url": "https://finnhub.io/api/news?id=a8f64b0489a3e16898c499db760a66a7ea61b6385c9a7f1a5154213d79f55702",
+      "datetime": 1793782440,
+      "summary": "MDB, ATI, and OSCR it to the Zacks Rank #1 (Strong Buy) growth stocks list on November 4, 2026."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-30",
+  "data_asof": "2026-11-04",
   "price": {
-    "last": 352.96,
-    "open": 370.81,
-    "prev_close": 384.95,
-    "move_day_pct": -8.31,
-    "move_open_close_pct": -4.81,
-    "move_week_pct": -4.89
+    "last": 328.38,
+    "open": 332.05,
+    "prev_close": 335.37,
+    "move_day_pct": -2.08,
+    "move_open_close_pct": -1.11,
+    "move_week_pct": -16.54
   },
   "indicators": {
     "rsi14": {
-      "value": 44.1,
-      "read": "Neutral"
+      "value": 39.3,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -0.318,
-      "signal": -1.765,
-      "hist": 1.447,
-      "hist_prev": 3.927,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": -8.305,
+      "signal": -4.014,
+      "hist": -4.292,
+      "hist_prev": -3.098,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 400.8,
-      "lower": 339.63,
-      "mid": 370.21,
-      "pctb": 0.218,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 407.16,
+      "lower": 324.38,
+      "mid": 365.77,
+      "pctb": 0.048,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 56.21,
-      "read": "56% above its 52-week low"
+      "value": 45.33,
+      "read": "45% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -25.27,
-      "read": "25% below its 52-week high"
+      "value": -30.47,
+      "read": "30% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 337.71,
-      "pct": 4.52,
-      "read": "5% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 336.81,
+      "pct": -2.5,
+      "read": "2% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 24.22,
-      "pct_of_price": 6.86,
+      "value": 22.89,
+      "pct_of_price": 6.97,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.61,
+      "value": 0.58,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 49.1,
+      "value": 39.1,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 382.82,
-  "ma200": 337.71
+  "ma50": 377.94,
+  "ma200": 336.81
 }

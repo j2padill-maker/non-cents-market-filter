@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-01T16:46:58.000148-08:00",
+  "generated_at": "2026-11-04T20:14:17.865077-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Oceaneering International Eyes New Opportunities in Offshore Markets",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=59df913612ed16e7404d834f7b2e1398c70653362449bd1f41dd2b741b249ba9",
+      "datetime": 1793628480,
+      "summary": "OII sees Brazil, Guyana and Mozambique driving offshore growth in 2027, with rising subsea demand, $180 million in new contracts and EBITDA guidance of $430-$480 million."
+    },
+    {
+      "headline": "Oceaneering International Consensus Price Target Decreased by 10.87% to $41.82",
+      "source": "Fintel",
+      "url": "https://finnhub.io/api/news?id=f67aa776ef51e9bdd96e500ac083c78a8e481e43496b9d35f023b73219c1d00f",
+      "datetime": 1793612184,
+      "summary": ""
+    },
     {
       "headline": "Oceaneering: 3 Key Takeaways for Long-Term Investors",
       "source": "Yahoo",
@@ -43,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=5775383323f721a91d4ec74281761903d818abd091f6d332f7f839ecf54c9f2c",
       "datetime": 1793276845,
       "summary": "Energy businesses quietly power the physical things we depend on, from cars and homes to e-commerce infrastructure. But they are at the whim of volatile macroeconomic factors that sway capital spending, like interest rates and commodity prices. Wariness surrounding these influences has caused the industry to underperform the market as it was flat over the past six months while the S&P 500 climbed "
-    },
-    {
-      "headline": "Barclays Maintains Equal-Weight on Oceaneering International, Lowers Price Target to $42",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=7b5040b435632579ea889c94bbb93207a993299e3f1a3789343591194a3c3658",
-      "datetime": 1793012517,
-      "summary": "Barclays  analyst David Anderson   maintains Oceaneering International (NYSE:OII) with a Equal-Weight and lowers the price target from $47 to $42."
     }
   ],
   "filings": [
@@ -75,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-30",
+  "data_asof": "2026-11-04",
   "price": {
-    "last": 40.86,
-    "open": 40.79,
-    "prev_close": 41.57,
-    "move_day_pct": -1.71,
-    "move_open_close_pct": 0.17,
-    "move_week_pct": 4.05
+    "last": 36.39,
+    "open": 37.85,
+    "prev_close": 38.17,
+    "move_day_pct": -4.66,
+    "move_open_close_pct": -3.86,
+    "move_week_pct": -12.55
   },
   "indicators": {
     "rsi14": {
-      "value": 41.1,
-      "read": "Neutral"
+      "value": 30.5,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -1.466,
-      "signal": -1.455,
-      "hist": -0.01,
-      "hist_prev": -0.038,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -1.978,
+      "signal": -1.632,
+      "hist": -0.346,
+      "hist_prev": -0.215,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 47.36,
-      "lower": 38.39,
-      "mid": 42.88,
-      "pctb": 0.275,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 47.28,
+      "lower": 36.32,
+      "mid": 41.8,
+      "pctb": 0.007,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 80.72,
-      "read": "81% above its 52-week low"
+      "value": 60.95,
+      "read": "61% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -24.49,
-      "read": "24% below its 52-week high"
+      "value": -32.75,
+      "read": "33% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 40.33,
-      "pct": 1.31,
-      "read": "1% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 40.48,
+      "pct": -10.1,
+      "read": "10% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 1.95,
-      "pct_of_price": 4.78,
+      "value": 1.98,
+      "pct_of_price": 5.43,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.91,
+      "value": 1.1,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 51.5,
+      "value": 49.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 22.61,
   "high_52w": 54.11,
-  "ma50": 46.16,
-  "ma200": 40.33
+  "ma50": 45.35,
+  "ma200": 40.48
 }

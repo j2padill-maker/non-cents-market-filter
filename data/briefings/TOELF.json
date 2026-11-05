@@ -2,7 +2,7 @@
   "ticker": "TOELF",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-01T16:46:47.008628-08:00",
+  "generated_at": "2026-11-04T20:14:06.414706-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,13 @@
   ],
   "news": [
     {
+      "headline": "Polen Global Growth Q3 2026 Portfolio Activity",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=fb98e754dfafa6f91e94566f6907239a138075d8422a6b9c3531dd369deb71eb",
+      "datetime": 1793788380,
+      "summary": "ServiceNow was the Portfolio\u00e2\u0080\u0099s top-performing holding during the quarter as improving sentiment toward high-quality software companies coincided with another strong earnings report."
+    },
+    {
       "headline": "Tokyo Electron Q2 profit jumps 27% as AI demand drives outlook, \u00a5150 bln buyback",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=5258ddae1711dccb129abeb2262a8fba208839f49ec1ad44ed4d7d8616567b13",
@@ -29,41 +36,20 @@
       "url": "https://finnhub.io/api/news?id=e2aab4ad857049953af7d3fdef1971a8b2a85552cc23483601d631d7602cd565",
       "datetime": 1793335704,
       "summary": "Investing.com-- Asian technology stocks fell sharply on Friday, extending recent declines as worries over the slowing artificial intelligence trade were amplified by weak earnings from major U.S. companies."
-    },
-    {
-      "headline": "Applied Materials: Top Quality And Undervalued AI Leader",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=0734994590dc54495b48efa9e0deee1da0bc04c15349b6150bdbbb7cae5c3090",
-      "datetime": 1793172601,
-      "summary": "Applied Materials has an impeccable track record of growth and profitability, along with a history of buybacks. Learn more about AMAT stock here."
-    },
-    {
-      "headline": "Asia chipmaking, AI stocks surge on Anthropic IPO cheer",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8cb9475447b201cc18f1f1d6a6b7e6b7991d753ab5a50a54e5eeba5bd71262cc",
-      "datetime": 1793074199,
-      "summary": "Investing.com-- Asian chipmakers and artificial intelligence-related stocks rallied on Tuesday after Anthropic filed for an initial public offering, reviving optimism about AI demand."
-    },
-    {
-      "headline": "Asia stocks slip as chipmakers retreat; earnings, central bank meetings loom",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=55562e2af678874b108376ebf4bf312b14392cd6f7744e8deb2267d2c172b38a",
-      "datetime": 1792989932,
-      "summary": "Investing.com-- Asian shares edged lower on Monday as concerns over the sustainability of AI spending weighed on semiconductor stocks, while investors braced for a busy week of corporate earnings and central bank decisions."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-30",
+  "data_asof": "2026-11-04",
   "price": {
-    "last": 62.26,
-    "open": 62.52,
-    "prev_close": 63.38,
-    "move_day_pct": -1.77,
-    "move_open_close_pct": -0.42,
-    "move_week_pct": 3.91
+    "last": 61.81,
+    "open": 65.0,
+    "prev_close": 61.5,
+    "move_day_pct": 0.5,
+    "move_open_close_pct": -4.91,
+    "move_week_pct": -2.58
   },
   "indicators": {
     "rsi14": {
@@ -71,48 +57,48 @@
       "read": "Neutral"
     },
     "macd": {
-      "macd": -2.774,
-      "signal": -2.124,
-      "hist": -0.65,
-      "hist_prev": -0.859,
+      "macd": -2.58,
+      "signal": -2.367,
+      "hist": -0.214,
+      "hist_prev": -0.332,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 84.22,
-      "lower": 52.99,
-      "mid": 68.6,
-      "pctb": 0.297,
+      "upper": 77.65,
+      "lower": 53.83,
+      "mid": 65.74,
+      "pctb": 0.335,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 69.21,
-      "read": "69% above its 52-week low"
+      "value": 67.99,
+      "read": "68% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -35.02,
+      "value": -35.49,
       "read": "35% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 64.08,
-      "pct": -2.84,
-      "read": "3% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 64.25,
+      "pct": -3.8,
+      "read": "4% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 4.13,
-      "pct_of_price": 6.64,
+      "value": 3.89,
+      "pct_of_price": 6.29,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.25,
+      "value": 0.06,
       "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 36.8,
+      "value": 54.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 36.79,
   "high_52w": 95.82,
-  "ma50": 68.44,
-  "ma200": 64.08
+  "ma50": 68.24,
+  "ma200": 64.25
 }

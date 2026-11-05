@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-01T16:46:52.054586-08:00",
+  "generated_at": "2026-11-04T20:14:11.980436-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,49 +17,55 @@
   ],
   "news": [
     {
-      "headline": "What Did It Take To Hold Novanta Stock?",
+      "headline": "Cognex Corporation (CGNX) Q3 Earnings and Revenues Beat Estimates",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=00cc592efe7f1aed349082b0b23de5766808bafef40519e7bd379db3c3c149bc",
-      "datetime": 1793454461,
-      "summary": "For questions about this article or underlying research, email help@trefis.com."
+      "url": "https://finnhub.io/api/news?id=0a4bb2e931c875903bcedb9d3bbf9dfac1c59f8d05ddb111c863899ca1a82e75",
+      "datetime": 1793835918,
+      "summary": "Cognex (CGNX) delivered earnings and revenue surprises of +3.92% and +0.51%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?"
     },
     {
-      "headline": "Robotics Stocks Diverge as Strong Earnings Meet Uneven Price Action",
+      "headline": "Cognex (NASDAQ:CGNX) Slips Despite In-Line Q3 2026 Results",
       "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=5fa872ffb1b98303d87800faf843447ca48e4ec7441c37c5bce7c00dd4ace35a",
-      "datetime": 1793453782,
-      "summary": "Robotics automation theme cools as investors get selective, with earnings-price disconnects and healthcare robotics holding up as quality counterweight."
+      "url": "https://finnhub.io/api/news?id=d9df36587b4286fa6bfb2b884fda92ba28d48828a0f9778851f1db4423c7689f",
+      "datetime": 1793834328,
+      "summary": "Cognex Q3 2026 results met expectations with 13.2% revenue growth and EPS of $0.53, but shares fell 6% as sales slightly missed consensus."
     },
     {
-      "headline": "12 Information Technology Stocks Moving In Friday's After-Market Session",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=34aa586a05bfd60a9a4a8e8e0188d325773666434ee03308baf5d98f9b2cee67",
-      "datetime": 1793379959,
-      "summary": "Gainers\n\nClearOne (NASDAQ:CLRO) stock rose 51.3% to $5.16 during Friday&#39;s after-market session. The market value of their outstanding shares is at $13.3 million. \nDarkHorse Technologies (NASDAQ:DRK) shares rose"
-    },
-    {
-      "headline": "Shares of broader software stocks are trading lower amid broader market weakness as Treasury yields rise, weighing on tech stocks.",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=a602ca353952fa5b32f69afdd0e6b39979da938d15d03470ae84f025b19e2929",
-      "datetime": 1793370103,
-      "summary": ""
-    },
-    {
-      "headline": "Here\u2019s What Strengthen Investment Case for Cognex (CGNX)",
+      "headline": "Cognex (NASDAQ:CGNX) reports Q3 2026 in line with expectations but stock drops",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=15e09fdb4c3a14a656a0287bec6f1dda8e47c9a53c1bb2ee5f0959483655c44f",
-      "datetime": 1793290215,
-      "summary": "Conestoga Capital Advisors, an asset management company, released its third-quarter 2026 investor letter. The letter can be downloaded here. Small Caps began 2026 on solid footing, fueled by favorable domestic conditions and attractive relative valuations. That momentum reversed in 3Q26 as rising oil prices, sticky inflation, and Federal Reserve policy shifts weighed on smaller-cap equities. A [\u2026]"
+      "url": "https://finnhub.io/api/news?id=80c28cb3ae343a33c942452ecb33caa0aea6decc4cdea0de0e0298d3bac4523c",
+      "datetime": 1793831209,
+      "summary": "Machine vision technology company Cognex (NASDAQ:CGNX) met Wall Street\u2019s revenue expectations in Q3 2026, with revenue up 13.2% year on year to $313.4 million. The company expects next quarter\u2019s revenue to be around $280 million, coming in 2.9% above analysts\u2019 consensus estimates. Its non-GAAP profit of $0.53 per share was 2% above analysts\u2019 consensus estimates."
     },
     {
-      "headline": "Cognex to Present at Upcoming Investor Conferences",
+      "headline": "Cognex Reports Third Quarter 2026 Results",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9b608bb76eee312811a228eb5ab905c08b2a6fe007ebf61d43f463a0d7e26879",
-      "datetime": 1793275200,
-      "summary": "Cognex Corporation (NASDAQ: CGNX), the global technology leader in industrial machine vision, today announced that it is scheduled to present at four upcoming investor conferences:"
+      "url": "https://finnhub.io/api/news?id=510e0fa1682982261a2e1aa2d4f81c522bb936d7a5d8fe42cd2db1d4d71c150a",
+      "datetime": 1793827800,
+      "summary": "Cognex Corporation (NASDAQ: CGNX), the global technology leader in industrial machine vision, today reported financial results for the third quarter ended October 4, 2026."
+    },
+    {
+      "headline": "12 Information Technology Stocks Moving In Tuesday's After-Market Session",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=b25f697433b78653c6fc7e43ef05398e34405c33facfaa18331d0e9083b37813",
+      "datetime": 1793725559,
+      "summary": "Gainers\n\nAurora Mobile (NASDAQ:JG) shares rose 17.5% to $6.5 during Tuesday&#39;s after-market session. The company&#39;s market cap stands at $39.5 million. \nDatavault AI (NASDAQ:DVLT) shares moved upwards by 4.12% to"
+    },
+    {
+      "headline": "Ametek (AME) Q3 Earnings and Revenues Beat Estimates",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=107a5a3b7fbf47e2b8559f9634cae212a9708d18175d9cddc1d643b726441990",
+      "datetime": 1793708102,
+      "summary": "Ametek (AME) delivered earnings and revenue surprises of +4.25% and +2.62%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?"
     }
   ],
   "filings": [
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-11-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/851205/000085120526000079/cgnx-20261104.htm"
+    },
     {
       "form": "8-K",
       "title": "Material event (8-K)",
@@ -71,74 +77,68 @@
       "title": "Quarterly report (10-Q)",
       "date": "2026-08-06",
       "url": "https://www.sec.gov/Archives/edgar/data/851205/000085120526000065/cgnx-20260705.htm"
-    },
-    {
-      "form": "8-K",
-      "title": "Material event (8-K)",
-      "date": "2026-08-05",
-      "url": "https://www.sec.gov/Archives/edgar/data/851205/000085120526000061/cgnx-20260805.htm"
     }
   ],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-30",
+  "data_asof": "2026-11-04",
   "price": {
-    "last": 56.15,
-    "open": 56.43,
-    "prev_close": 58.97,
-    "move_day_pct": -4.78,
-    "move_open_close_pct": -0.5,
-    "move_week_pct": 1.08
+    "last": 53.06,
+    "open": 58.34,
+    "prev_close": 58.11,
+    "move_day_pct": -8.69,
+    "move_open_close_pct": -9.05,
+    "move_week_pct": -9.19
   },
   "indicators": {
     "rsi14": {
-      "value": 44.0,
-      "read": "Neutral"
+      "value": 39.0,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -1.022,
-      "signal": -1.125,
-      "hist": 0.103,
-      "hist_prev": 0.18,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": -1.17,
+      "signal": -1.084,
+      "hist": -0.086,
+      "hist_prev": 0.174,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 65.3,
-      "lower": 51.91,
-      "mid": 58.6,
-      "pctb": 0.317,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 62.49,
+      "lower": 52.28,
+      "mid": 57.39,
+      "pctb": 0.076,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 62.03,
-      "read": "62% above its 52-week low"
+      "value": 53.12,
+      "read": "53% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -22.36,
-      "read": "22% below its 52-week high"
+      "value": -26.63,
+      "read": "27% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 57.79,
-      "pct": -2.84,
-      "read": "3% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 58.02,
+      "pct": -8.55,
+      "read": "9% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 2.64,
-      "pct_of_price": 4.71,
+      "value": 3.01,
+      "pct_of_price": 5.68,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.86,
-      "read": "Roughly average volume"
+      "value": 2.23,
+      "read": "Heavy volume \u2014 well above average"
     },
     "mfi14": {
-      "value": 46.4,
+      "value": 63.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 34.65,
   "high_52w": 72.32,
-  "ma50": 59.87,
-  "ma200": 57.79
+  "ma50": 59.64,
+  "ma200": 58.02
 }

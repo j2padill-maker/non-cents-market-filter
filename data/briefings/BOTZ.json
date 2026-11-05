@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-01T16:46:57.283766-08:00",
+  "generated_at": "2026-11-04T20:14:17.104861-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Voters Are Turning Against Data Centers, Making Permitted AI Capacity Scarcer And More Valuable",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=30277ab05b259eaf5b8518cf0e71ae360a4c84d6b63388e3e096c1f72afa56ae",
+      "datetime": 1793782500,
+      "summary": "Demand for computing power is accelerating. But political permission to build it is about to get harder. That means widening the already existing gap between demand and supply of compute."
+    },
+    {
+      "headline": "AI's Worst-Case Elections Scenario Is Here",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=6eed7c2ed7a12bc64ad86ba90365e9a70ca20d4c07ef3f327576a0089cde9fa1",
+      "datetime": 1793779522,
+      "summary": "Democratic sweep clears market uncertainty. Discover why AI infrastructure stocks and the S&P 500 may offer a timely buy-the-news opportunity now."
+    },
+    {
+      "headline": "The Next Phase Of AI: Why Selectivity Matters",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=e7d5317b5ab4fb0bb403231bbdc7dc09a51de7f19466250d90aacacbed25dc67",
+      "datetime": 1793667360,
+      "summary": "The shift in investor focus from broad exposure to execution is already reshaping the dynamics of the tech sector."
+    },
     {
       "headline": "Anatomy Of A Bubble",
       "source": "SeekingAlpha",
@@ -36,90 +57,69 @@
       "url": "https://finnhub.io/api/news?id=5f42a7d0649941a747b2946a8c234e8eee78723d94c6a3f698013fd9a164b504",
       "datetime": 1793369400,
       "summary": "Anthropic's S-1 reignited interest in AI this week, with investors discussing a $1.5\u00e2\u0080\u00932 trillion valuation. The megacaps that reported after it failed to impress. Read more here..."
-    },
-    {
-      "headline": "AI Reality Check: Looking Beyond The Adoption Curve",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=18c6cf69cd71b13e4625503bfb20c8238472a181865a11bc9515a845f0b0c537",
-      "datetime": 1793364300,
-      "summary": "AI is moving from promise to practice as adoption surges and businesses scale its deployment. Read more here."
-    },
-    {
-      "headline": "Big Tech Is Quietly Turning Into A Low-Margin Utility",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=74f6139b756a6c7e52cbef4f805445d5b0b0c7acee80a7ef6c65ed5bb86de235",
-      "datetime": 1793319654,
-      "summary": "Big Tech profits may be overstated as AI server chip costs pile up. Depreciation schedules stretch real costs over years. See more here."
-    },
-    {
-      "headline": "Is AI Crowding Out The Rest Of The Economy?",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=c45ef79b66d51ee7f4839f08c719cd4bf34c86fe3c962767fd25cc8f73d9d42c",
-      "datetime": 1793254140,
-      "summary": "Despite an investment surge driving U.S. demand, overall U.S. growth has remained moderate, suggesting gains from AI are being offset elsewhere."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-30",
+  "data_asof": "2026-11-04",
   "price": {
-    "last": 32.22,
-    "open": 32.6,
-    "prev_close": 33.42,
-    "move_day_pct": -3.59,
-    "move_open_close_pct": -1.17,
-    "move_week_pct": -2.42
+    "last": 32.81,
+    "open": 32.74,
+    "prev_close": 32.32,
+    "move_day_pct": 1.52,
+    "move_open_close_pct": 0.21,
+    "move_week_pct": -3.59
   },
   "indicators": {
     "rsi14": {
-      "value": 34.3,
-      "read": "Oversold"
+      "value": 40.9,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": -0.619,
-      "signal": -0.552,
-      "hist": -0.067,
-      "hist_prev": -0.007,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -0.669,
+      "signal": -0.613,
+      "hist": -0.056,
+      "hist_prev": -0.096,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 36.35,
-      "lower": 31.81,
-      "mid": 34.08,
-      "pctb": 0.091,
-      "read": "Near the lower band"
+      "upper": 35.38,
+      "lower": 31.72,
+      "mid": 33.55,
+      "pctb": 0.299,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 0.77,
+      "value": 2.61,
       "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -22.57,
-      "read": "23% below its 52-week high"
+      "value": -21.15,
+      "read": "21% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 36.58,
-      "pct": -11.92,
-      "read": "12% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 36.5,
+      "pct": -10.11,
+      "read": "10% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.67,
-      "pct_of_price": 2.08,
-      "read": "Elevated volatility"
+      "value": 0.65,
+      "pct_of_price": 1.98,
+      "read": "Calm \u2014 low volatility"
     },
     "rel_volume": {
-      "value": 1.36,
-      "read": "Above-average volume"
+      "value": 1.17,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 48.2,
+      "value": 62.6,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 31.97,
   "high_52w": 41.61,
-  "ma50": 34.88,
-  "ma200": 36.58
+  "ma50": 34.69,
+  "ma200": 36.5
 }

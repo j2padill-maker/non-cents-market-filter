@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-01T16:46:55.991730-08:00",
+  "generated_at": "2026-11-04T20:14:15.755845-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Robotics Stocks Diverge as Strong Earnings Meet Uneven Price Action",
+      "headline": "Should You Buy, Sell, or Hold TER Stock After a 53% Rise in One Year?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=dce42e63cb3ea2a78742ff5009f5f45cf07362f1ed68c2df0591175074e9895a",
+      "datetime": 1793815440,
+      "summary": "Teradyne stock rallies 53% in a year, driven by strong AI infrastructure demand, semiconductor testing growth, and robotics momentum, supporting a positive outlook."
+    },
+    {
+      "headline": "Is Teradyne (TER) Changing The Robotics Story With Its New Physical AI Push?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b56d7a331690f3b9591960c0ca65af1400a5385c71f348167ae1cea3afaea8a2",
+      "datetime": 1793805417,
+      "summary": "Teradyne (NasdaqGS:TER) unit Teradyne Robotics has partnered with German AI firm Sereact to deploy physical AI systems for retail and logistics operations. The collaboration features Sereact's vision language action platform for automated returns handling and piece picking in fulfillment centers. Real world deployments are already running at major European logistics hubs serving Zalando, with a jo"
+    },
+    {
+      "headline": "S&P 500 After-Hours Gainers: Tuesday Postmarket Movers",
       "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=5fa872ffb1b98303d87800faf843447ca48e4ec7441c37c5bce7c00dd4ace35a",
-      "datetime": 1793453782,
-      "summary": "Robotics automation theme cools as investors get selective, with earnings-price disconnects and healthcare robotics holding up as quality counterweight."
+      "url": "https://finnhub.io/api/news?id=b841c0cf723b24b85d977911a7fc41eb245d56271544418191a11d5cc383e566",
+      "datetime": 1793743560,
+      "summary": "S&P 500 after-hours gainers from Tuesday's US close, led by ANET, SMCI, AMD, XYZ, HPE, BE, CIEN, COHR, DELL and TER, measured from Tuesday closing prices."
     },
     {
-      "headline": "FORM Drops 12% Post Q3 Earnings: Should You Buy the Stock on the Dip?",
+      "headline": "Teradyne Lost 17% in a Week. UBS Still Sees 61% Upside",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8a2d437135de5eff29b8fe5b4ed9c29c13846f3b035b064f267a182f7a75e1ac",
-      "datetime": 1793379720,
-      "summary": "FormFactor shares plunge nearly 12% after Q3 earnings as weak Q4 guidance and capacity constraints weigh on sentiment. Can AI demand and expansion fuel a rebound?"
+      "url": "https://finnhub.io/api/news?id=b283bbb08d320558fc511432a883035f561fe31a7073b52308d66bfa8dac0a08",
+      "datetime": 1793737209,
+      "summary": "Key TakeawaysTeradyne stock fell 17% in a week despite a third quarter that beat estimates, with revenue up 70% to $1. 31 billion."
     },
     {
-      "headline": "FORM's HBM and Foundry Testing Gain From AI Demand: What's Ahead?",
+      "headline": "Teradyne (TER) is an Incredible Growth Stock: 3 Reasons Why",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8dfcfc3d86ca6ceb2d59c1e4e5c2735091d69c15d94778dd11212612b88893ce",
-      "datetime": 1793367420,
-      "summary": "FormFactor's HBM4 testing and growing foundry business are benefiting from AI chip complexity."
+      "url": "https://finnhub.io/api/news?id=4f32c9d264cae8425401bf7894bd962db1d1d7e352d73b380f7353a90b97214f",
+      "datetime": 1793724302,
+      "summary": "Teradyne (TER) possesses solid growth attributes, which could help it handily outperform the market."
     },
     {
-      "headline": "Black Friday Came Early for Chipmakers: Intel and 10 Other Stocks Are More Than 20% Off This Month",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=3ff4847199255c6615ac2b73efc97f60730b92ba6c23760e4148d49a5e983e5b",
-      "datetime": 1793364307,
-      "summary": "Intel and 10 other chip stocks, from Cerebras to Marvell, have lost more than 20% in October, yet 10 of the 11 remain up for 2026. SOXX is down 16.5%."
-    },
-    {
-      "headline": "Is FormFactor (FORM) Priced About Right After Record Earnings?",
+      "headline": "FLEX or TER: Which Is the Better Value Stock Right Now?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f2ae821ff60aae6ddc0653fb423905422005aeb18a13545e75a0101b09bee223",
-      "datetime": 1793362186,
-      "summary": "FormFactor has been through a sharp share price swing in recent years, and with earnings now in sharper focus, the live question is whether the current valuation really lines up with what the business is generating per share. Over the past 3 years, FormFactor has delivered a share price gain of 189.5%, which puts a lot of weight on the idea that its earnings can carry that move. Record profitabili"
-    },
-    {
-      "headline": "FormFactor Sinks 12% Despite Record Quarter as Factory Nears \u201cCapacity Limits\u201d",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ff0d3fa10ff1f7542afb2538fb4b073f400ec997f559b2e46c10545cbcb7f36f",
-      "datetime": 1793306014,
-      "summary": "Key TakeawaysFormFactor fell 12% today despite record third-quarter revenue of $280. 5 million and an outlook above estimates."
+      "url": "https://finnhub.io/api/news?id=911b78c07a0bcc33c84612162e9a737105f4883c2875ea216d83730ebbc2f4f8",
+      "datetime": 1793720402,
+      "summary": "FLEX vs. TER: Which Stock Is the Better Value Option?"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-10-30",
+  "data_asof": "2026-11-04",
   "price": {
-    "last": 274.37,
-    "open": 277.54,
-    "prev_close": 296.23,
-    "move_day_pct": -7.38,
-    "move_open_close_pct": -1.14,
-    "move_week_pct": -11.16
+    "last": 250.99,
+    "open": 264.74,
+    "prev_close": 269.35,
+    "move_day_pct": -6.82,
+    "move_open_close_pct": -5.19,
+    "move_week_pct": -19.87
   },
   "indicators": {
     "rsi14": {
-      "value": 28.9,
+      "value": 27.1,
       "read": "Extremely oversold"
     },
     "macd": {
-      "macd": -24.136,
-      "signal": -16.836,
-      "hist": -7.301,
-      "hist_prev": -6.374,
+      "macd": -30.605,
+      "signal": -22.754,
+      "hist": -7.85,
+      "hist_prev": -7.626,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 444.6,
-      "lower": 258.55,
-      "mid": 351.58,
-      "pctb": 0.085,
+      "upper": 412.47,
+      "lower": 240.15,
+      "mid": 326.31,
+      "pctb": 0.063,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 76.33,
-      "read": "76% above its 52-week low"
+      "value": 61.31,
+      "read": "61% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -43.27,
-      "read": "43% below its 52-week high"
+      "value": -48.11,
+      "read": "48% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 349.35,
-      "pct": -21.46,
-      "read": "21% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 349.86,
+      "pct": -28.26,
+      "read": "28% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 22.19,
-      "pct_of_price": 8.09,
+      "value": 21.55,
+      "pct_of_price": 8.59,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 2.82,
-      "read": "Heavy volume \u2014 well above average"
+      "value": 1.37,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 23.3,
+      "value": 29.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 155.6,
   "high_52w": 483.65,
-  "ma50": 364.18,
-  "ma200": 349.35
+  "ma50": 357.67,
+  "ma200": 349.86
 }
