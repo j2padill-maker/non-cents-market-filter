@@ -1,6 +1,6 @@
 // Bump this on every index.html change, or installed PWAs keep serving the
 // old shell from the previous cache and your changes appear to do nothing.
-const CACHE = 'ncmf-v29';
+const CACHE = 'ncmf-v30';
 const ASSETS = [
   '/',
   '/index.html',
