@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-04T20:14:13.158147-08:00",
+  "generated_at": "2026-11-05T16:48:08.490401-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Here's Why You Should Retain BTSG Stock in Your Portfolio for Now",
+      "headline": "ISRG System Placements Rise 28%: Is Capital Equipment Demand Rising?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=75a3914eb1d63ca9b9bea2b202c9ed40e184173f24f5b6acb0bac6b9d97a2104",
-      "datetime": 1793808300,
-      "summary": "BrightSpring's specialty pharmacy growth, Provider Services expansion and operational gains fuel optimism, but IRA pressures and integration risks remain."
+      "url": "https://finnhub.io/api/news?id=199a55f479c39c03533bf20d84723efd7daa24835e50f3d6d612811ffd030f05",
+      "datetime": 1793901600,
+      "summary": "Intuitive Surgical's Q3 system placements surge 28%, fueled by multisystem orders and upgrades, but does this signal sustained capital equipment demand?"
     },
     {
-      "headline": "Philips Launches HyperVue Integrated System to Improve PCI Workflows",
+      "headline": "2 Growth Stocks to Buy in November Without Any Hesitation",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=1f6b820b5aa36f6a8239b513a04ae3969a76a85c296e087cde2df398c4388394",
-      "datetime": 1793807820,
-      "summary": "PHG launches HyperVue Integrated in the U.S., combining advanced coronary imaging and AI-driven physiology assessment to streamline cath lab workflows."
+      "url": "https://finnhub.io/api/news?id=48158e38d59ae2908eadc529946f93f96bf6a01a5f649f977fb29a4779dab1c7",
+      "datetime": 1793900040,
+      "summary": "They have both outperformed the broader equity market over the long run."
     },
     {
-      "headline": "Today's S&P 500 Gap Movers: XYZ and ZBH Lead Gap-Ups, FIS and TRMB Top Gap-Downs",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=e529c5258033b90232cc48825b175958f03281b5b20038d1a63260517485474d",
-      "datetime": 1793806608,
-      "summary": "S&P 500 gap movers today: XYZ, ZBH, SWK and FSLR led gap-ups, while FIS, TRMB, FIX and SWKS topped gap-downs, with opening gaps, percentage changes and prices."
+      "headline": "BDX Stock Down in Pre-Market Despite Q4 Earnings & Revenue Beat",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=15cf4bc37c4724026172bc93b933b0adc5ac5cfe5ade560f8f41cfda6ecf1430",
+      "datetime": 1793897100,
+      "summary": "BD stock lost 6.4% in pre-market trading despite Q4 earnings and revenue beat, as its subdued fiscal 2027 revenue growth outlook raises investor concerns."
     },
     {
-      "headline": "CVS Q3 Earnings & Revenues Top Estimates, Stock Up in Pre-Market",
+      "headline": "GE HealthCare Unveils Allia Celeo to Advance Interventional Imaging",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f1d00d250783f58f57b3958149f3baaabfb6fea5d016ed729b593e269eab8e7f",
-      "datetime": 1793802300,
-      "summary": "CVS Health's Q3 earnings and revenues beat estimates as stronger margins and improved operating performance prompt management to raise its 2026 outlook."
+      "url": "https://finnhub.io/api/news?id=307024bcb8bef555f1ebb8b2c3f6cee9f4c70655ac6d165ab6ea69d8ab3e0b4e",
+      "datetime": 1793896020,
+      "summary": "GEHC's Allia Celeo launch expands its interventional imaging portfolio with AI-powered precision, flexible workflows and predictive service capabilities."
     },
     {
-      "headline": "Charles River Q3 Earnings & Revenues Top Estimates, Stock Rises",
+      "headline": "CAH Q1 Earnings & Revenues Beat Estimates on Pharma Strength",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b4205c7cf99345af9bd0bb6b84ad22fe87d8b1063386de3870468a831a4320f9",
-      "datetime": 1793800860,
-      "summary": "CRL beats Q3 earnings and revenue estimates as organic growth and margin expansion drive results, prompting the company to raise its 2026 outlook."
+      "url": "https://finnhub.io/api/news?id=29102baac33e85fdbd7651d9e577e8ad9a9e4b38e6a9d3d2e465caca92724705",
+      "datetime": 1793895360,
+      "summary": "Cardinal Health beats Q1 FY27 earnings and revenue estimates, fueled by pharmaceutical sales growth, and raises its full-year earnings outlook."
     },
     {
-      "headline": "Zimmer Biomet Stock Up on Q3 Earnings & Revenue Beat, '26 View Up",
+      "headline": "STE Stock Up on Q2 Earnings & Revenue Beat, '27 EPS View Up",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=888455b8abb4e115a65f15a0f3de8b47ef69219ab7691832d6457de6ee46286e",
-      "datetime": 1793799600,
-      "summary": "ZBH beats Q3 earnings and revenue estimates, lifting its 2026 outlook as strong Hips and S.E.T. sales offset weakness in Knees amid margin pressure."
+      "url": "https://finnhub.io/api/news?id=43a55517b1660581815d04dc70cbf01ebd4209e1cb8c74277da84661743901b7",
+      "datetime": 1793883300,
+      "summary": "STERIS beats Q2 fiscal 2027 earnings and revenue estimates, fueled by strong segment growth and margin gains, and raises its full-year adjusted EPS outlook."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-04",
+  "data_asof": "2026-11-05",
   "price": {
-    "last": 482.1,
-    "open": 458.99,
-    "prev_close": 440.75,
-    "move_day_pct": 9.38,
-    "move_open_close_pct": 5.03,
-    "move_week_pct": 8.54
+    "last": 468.52,
+    "open": 482.88,
+    "prev_close": 482.1,
+    "move_day_pct": -2.82,
+    "move_open_close_pct": -2.97,
+    "move_week_pct": 4.4
   },
   "indicators": {
     "rsi14": {
-      "value": 72.6,
-      "read": "Overbought"
+      "value": 64.8,
+      "read": "Firm \u2014 approaching overbought"
     },
     "macd": {
-      "macd": 13.232,
-      "signal": 12.223,
-      "hist": 1.009,
-      "hist_prev": -1.472,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": 14.14,
+      "signal": 12.607,
+      "hist": 1.533,
+      "hist_prev": 1.009,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 466.56,
-      "lower": 407.58,
-      "mid": 437.07,
-      "pctb": 1.263,
-      "read": "Above the upper band \u2014 stretched to the upside"
+      "upper": 470.48,
+      "lower": 408.98,
+      "mid": 439.73,
+      "pctb": 0.968,
+      "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 45.2,
-      "read": "45% above its 52-week low"
+      "value": 41.11,
+      "read": "41% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -18.68,
-      "read": "19% below its 52-week high"
+      "value": -20.97,
+      "read": "21% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 431.84,
-      "pct": 11.64,
-      "read": "12% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 431.56,
+      "pct": 8.56,
+      "read": "9% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 15.15,
-      "pct_of_price": 3.14,
+      "value": 15.78,
+      "pct_of_price": 3.37,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 2.01,
-      "read": "Heavy volume \u2014 well above average"
+      "value": 1.87,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 67.9,
+      "value": 58.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 332.02,
   "high_52w": 592.85,
-  "ma50": 406.25,
-  "ma200": 431.84
+  "ma50": 408.22,
+  "ma200": 431.56
 }

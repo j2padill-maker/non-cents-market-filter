@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-04T20:14:00.511622-08:00",
+  "generated_at": "2026-11-05T16:47:58.012611-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "MongoDB, Inc. Announces Date of Third Quarter Fiscal 2027 Earnings Call",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e8e29aacb9e97b8b06ded83d34f9265af5ba6cd40ba24d4244db27fc81a9f112",
+      "datetime": 1793887200,
+      "summary": "MongoDB, Inc. (NASDAQ: MDB) will report its third quarter fiscal year 2027 financial results for the three months ended October 31, 2026, after the U.S. financial markets close on Tuesday, December 1, 2026."
+    },
+    {
+      "headline": "VictoriaMetrics Expands in North America as Spotify and MongoDB Use Its Open-Source Stack to Run Observability at Scale",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=2e6f85fd94761babb8523d978ba9edb3c5818d07832451fe2708beed4b2b39df",
+      "datetime": 1793887200,
+      "summary": "SAN FRANCISCO, November 05, 2026--VictoriaMetrics, a provider of open-source observability solutions, today announced it\u2019s building momentum for its next phase of growth with a fast-growing open-source community, continued product innovation and expanding enterprise adoption. The company is increasing its investment in North America to bring its cost-efficient observability technology to more engi"
+    },
+    {
+      "headline": "TWLO Declines 12% Since Q3 Results: Is This a Buy-the-Dip Opportunity?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=966d98a392bd61fca1e150439979ba1d7d8a9acd1bddabeeed47622bade5edee",
+      "datetime": 1793886720,
+      "summary": "Twilio shares have lost 12% since Q3 results, but rising profits, record cash flow and AI opportunities are likely to make the recent dip an attractive buying opportunity."
+    },
     {
       "headline": "What Was Gen Digital Telling You Before Its Stock Ran?",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=fd085bb9ccc42c528f0c6204c3c9d1f05d2448db8120f5dce0dddea522be9297",
       "datetime": 1793822418,
       "summary": "For questions about this article or underlying research, email help@trefis.com."
-    },
-    {
-      "headline": "What Did CrowdStrike Do That MongoDB Did Not?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f8b7193dc897f711c44824672ec15b93a33f3f9c3e1c0d79b431223e8833d841",
-      "datetime": 1793805262,
-      "summary": "For questions about this article or underlying research, email help@trefis.com."
-    },
-    {
-      "headline": "Datadog Tumbles 11% Despite Earnings Beat as Soft Revenue Outlook Weighs; MongoDB Slides 3%, Snowflake Dips",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=dd5a735ddc58c2d4f7e5bfc50373d4ffb544da8f65de97edc7b3ce9f4a0bdd1c",
-      "datetime": 1793803626,
-      "summary": "Datadog beat estimates and raised its full-year forecast, yet traders punished the stock anyway. The reason buried in management's Q4 guidance reveals something unsettling about where AI spending may be heading."
-    },
-    {
-      "headline": "Best Growth Stocks to Buy for November 4th",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a8f64b0489a3e16898c499db760a66a7ea61b6385c9a7f1a5154213d79f55702",
-      "datetime": 1793782440,
-      "summary": "MDB, ATI, and OSCR it to the Zacks Rank #1 (Strong Buy) growth stocks list on November 4, 2026."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-04",
+  "data_asof": "2026-11-05",
   "price": {
-    "last": 328.38,
-    "open": 332.05,
-    "prev_close": 335.37,
-    "move_day_pct": -2.08,
-    "move_open_close_pct": -1.11,
-    "move_week_pct": -16.54
+    "last": 304.59,
+    "open": 319.21,
+    "prev_close": 328.38,
+    "move_day_pct": -7.24,
+    "move_open_close_pct": -4.58,
+    "move_week_pct": -20.88
   },
   "indicators": {
     "rsi14": {
-      "value": 39.3,
+      "value": 34.5,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -8.305,
-      "signal": -4.014,
-      "hist": -4.292,
-      "hist_prev": -3.098,
+      "macd": -11.884,
+      "signal": -5.588,
+      "hist": -6.296,
+      "hist_prev": -4.292,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 407.16,
-      "lower": 324.38,
-      "mid": 365.77,
-      "pctb": 0.048,
-      "read": "Near the lower band"
+      "upper": 411.54,
+      "lower": 313.33,
+      "mid": 362.43,
+      "pctb": -0.089,
+      "read": "Below the lower band \u2014 stretched to the downside"
     },
     "pct_from_52w_low": {
-      "value": 45.33,
-      "read": "45% above its 52-week low"
+      "value": 34.8,
+      "read": "35% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -30.47,
-      "read": "30% below its 52-week high"
+      "value": -35.51,
+      "read": "36% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 336.81,
-      "pct": -2.5,
-      "read": "2% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 336.42,
+      "pct": -9.46,
+      "read": "9% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 22.89,
-      "pct_of_price": 6.97,
+      "value": 23.53,
+      "pct_of_price": 7.72,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.58,
+      "value": 0.75,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 39.1,
+      "value": 40.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 377.94,
-  "ma200": 336.81
+  "ma50": 375.91,
+  "ma200": 336.42
 }

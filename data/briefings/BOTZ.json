@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-04T20:14:17.104861-08:00",
+  "generated_at": "2026-11-05T16:48:12.066699-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "With Echoes Of 1974, A Decisive Victory For The Democratic Party",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=318c5195cfeba744b563456e671c0cc2ea0f548ab549cc973b03032c828a84ac",
+      "datetime": 1793889480,
+      "summary": "The 2026 U.S. midterm election resembles previous blue waves, and its legacy may be a new era of oversight, political gridlock, and AI restrictions."
+    },
+    {
+      "headline": "Democratic Midterm Sweep: What's Next For Markets, The Economy, And Canada",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=25ddcbf75df3613b840e01da7ea3fd68c7cf5423a05fd6550f97bd35c9e287ca",
+      "datetime": 1793886120,
+      "summary": "Michael Craig and Christian Medeiros join Kim Parlee to discuss what the election results could mean for markets, the economy, and Canadian investors."
+    },
+    {
+      "headline": "AI Infrastructure Free Fall",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=67158c0afb4e741069094eb97c76cd872087acb0bf006814a748a8296b9286cb",
+      "datetime": 1793883900,
+      "summary": "While not necessarily the most in-focus issue on ballots, anti-data center/AI rhetoric was prevalent during the election. The AI trade had a rough day in response to the blue wave."
+    },
+    {
+      "headline": "AI Gold Rush: Digging For Gold Or Digging A Grave?",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=1d405863a5bb177ce1a1831bb8f5523d9334e2e45c22c558bf20f55581b5a534",
+      "datetime": 1793876700,
+      "summary": ""
+    },
+    {
       "headline": "Voters Are Turning Against Data Centers, Making Permitted AI Capacity Scarcer And More Valuable",
       "source": "SeekingAlpha",
       "url": "https://finnhub.io/api/news?id=30277ab05b259eaf5b8518cf0e71ae360a4c84d6b63388e3e096c1f72afa56ae",
@@ -29,97 +57,69 @@
       "url": "https://finnhub.io/api/news?id=6eed7c2ed7a12bc64ad86ba90365e9a70ca20d4c07ef3f327576a0089cde9fa1",
       "datetime": 1793779522,
       "summary": "Democratic sweep clears market uncertainty. Discover why AI infrastructure stocks and the S&P 500 may offer a timely buy-the-news opportunity now."
-    },
-    {
-      "headline": "The Next Phase Of AI: Why Selectivity Matters",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=e7d5317b5ab4fb0bb403231bbdc7dc09a51de7f19466250d90aacacbed25dc67",
-      "datetime": 1793667360,
-      "summary": "The shift in investor focus from broad exposure to execution is already reshaping the dynamics of the tech sector."
-    },
-    {
-      "headline": "Anatomy Of A Bubble",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=1b66723f2159c1df11f3a0782f857c74daaf74bce64eb05b2090f1e4304b50f0",
-      "datetime": 1793423400,
-      "summary": "After touching its latest year-to-date high on October 7, the Nasdaq Composite index finished the day Thursday around six percent below that high. Read more here."
-    },
-    {
-      "headline": "3 Things I Think I Think",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=2fde9df7bea0a52780c197e76d77bed1f473889eb5454af6eb10621ee144ad10",
-      "datetime": 1793410200,
-      "summary": "While tech stocks are down about 10% from their all-time highs, the S&P 500 is only down about 3.6% - the AI trade is at work. Read more here."
-    },
-    {
-      "headline": "Agents Show Up In The Numbers",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=5f42a7d0649941a747b2946a8c234e8eee78723d94c6a3f698013fd9a164b504",
-      "datetime": 1793369400,
-      "summary": "Anthropic's S-1 reignited interest in AI this week, with investors discussing a $1.5\u00e2\u0080\u00932 trillion valuation. The megacaps that reported after it failed to impress. Read more here..."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-04",
+  "data_asof": "2026-11-05",
   "price": {
-    "last": 32.81,
-    "open": 32.74,
-    "prev_close": 32.32,
-    "move_day_pct": 1.52,
-    "move_open_close_pct": 0.21,
-    "move_week_pct": -3.59
+    "last": 30.64,
+    "open": 32.01,
+    "prev_close": 32.81,
+    "move_day_pct": -6.61,
+    "move_open_close_pct": -4.28,
+    "move_week_pct": -8.32
   },
   "indicators": {
     "rsi14": {
-      "value": 40.9,
-      "read": "Neutral"
+      "value": 29.1,
+      "read": "Extremely oversold"
     },
     "macd": {
-      "macd": -0.669,
-      "signal": -0.613,
-      "hist": -0.056,
-      "hist_prev": -0.096,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -0.814,
+      "signal": -0.654,
+      "hist": -0.161,
+      "hist_prev": -0.056,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 35.38,
-      "lower": 31.72,
-      "mid": 33.55,
-      "pctb": 0.299,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 35.47,
+      "lower": 31.21,
+      "mid": 33.34,
+      "pctb": -0.133,
+      "read": "Below the lower band \u2014 stretched to the downside"
     },
     "pct_from_52w_low": {
-      "value": 2.61,
+      "value": 0.0,
       "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -21.15,
-      "read": "21% below its 52-week high"
+      "value": -26.36,
+      "read": "26% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 36.5,
-      "pct": -10.11,
-      "read": "10% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 36.46,
+      "pct": -15.96,
+      "read": "16% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.65,
-      "pct_of_price": 1.98,
-      "read": "Calm \u2014 low volatility"
+      "value": 0.77,
+      "pct_of_price": 2.5,
+      "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 1.17,
-      "read": "Roughly average volume"
+      "value": 2.81,
+      "read": "Heavy volume \u2014 well above average"
     },
     "mfi14": {
-      "value": 62.6,
+      "value": 57.4,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": 31.97,
+  "low_52w": 30.64,
   "high_52w": 41.61,
-  "ma50": 34.69,
-  "ma200": 36.5
+  "ma50": 34.59,
+  "ma200": 36.46
 }

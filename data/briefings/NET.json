@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-04T20:14:08.314939-08:00",
+  "generated_at": "2026-11-05T16:48:04.213264-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,11 +17,25 @@
   ],
   "news": [
     {
+      "headline": "Cloudflare Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=04dfe29c8e7c756f4d512bf22f385042909abc8c3930a53cd9b79e4063ee9b78",
+      "datetime": 1793870946,
+      "summary": "Cloudflare will report Q3 results Nov. 5; analysts expect EPS of $0.34 and revenue of $739.4M."
+    },
+    {
       "headline": "Vertex (VERX) Surpasses Q3 Earnings and Revenue Estimates",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=062a239d1907c846bde723f493c157b9e842881990490728e4d2ff1b9ddce971",
       "datetime": 1793829010,
       "summary": "Vertex (VERX) delivered earnings and revenue surprises of +18.18% and +1.70%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?"
+    },
+    {
+      "headline": "Ahead of Cloudflare Earnings, Here's What Barchart Data Says Comes Next for NET Stock",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=9ebcd13c777291ba54905e86c8d2111aafb62abbe241858a6b78e767178d7629",
+      "datetime": 1793822918,
+      "summary": "Cloudflare is set to report its fiscal Q3 earnings on Nov. 5. Options data suggests NET shares are worth buying heading into the quarterly print."
     },
     {
       "headline": "Polen 5Perspectives Large Growth Composite Q3 2026 Portfolio Performance And Attribution",
@@ -43,102 +57,88 @@
       "url": "https://finnhub.io/api/news?id=2dc477639845c964c6f23176fbda4c1c8007a18f4767bcf42989fe42e97560b1",
       "datetime": 1793815181,
       "summary": "The recent selloff in technology stocks has raised questions about how much investors are willing to pay for growth, particularly as the cost of expanding AI infrastructure continues to rise. Even established technology companies have not been immune. In late October, Fortinet and ServiceNow suffered steep single-day share-price declines as investors questioned their growth prospects [\u2026]"
-    },
-    {
-      "headline": "Datadog Sinks 13% as Flat Q4 Revenue Outlook Overshadows Earnings Beat",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8dcaf599c5c77818048d8d57b18119249cda7faa975abd3c781bda54d945bc9e",
-      "datetime": 1793802979,
-      "summary": "Key TakeawaysDatadog shares sank 13% today as a flat fourth-quarter revenue outlook overshadowed 35% revenue growth and an earnings beat. Datadog has beaten the top of its revenue guidance four quarters running, so the flat outlook looks like its usual caution."
-    },
-    {
-      "headline": "Cloudflare (NET) Shares Outperform Following Accelerating Revenue Growth and Raised Outlook",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=fec38ce89e1ec0a3c9d1254d2cdfcc21affba10341c3037f9d73caff9db732dc",
-      "datetime": 1793802824,
-      "summary": "Polen Capital, an investment management company, released its \u201c5Perspectives Large Growth Strategy\u201d Q3 2026 investor letter. The letter can be downloaded here. In Q3 2026, the Polen 5Perspectives Large Growth Composite returned 0.0%, trailing the Russell 1000 Growth Index\u2019s 0.9%. The quarter saw heightened market volatility, particularly among AI equities, driven by concerns over hyperscaler [\u2026]"
     }
   ],
   "filings": [
+    {
+      "form": "10-Q",
+      "title": "Quarterly report (10-Q)",
+      "date": "2026-11-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000061/cloud-20260930.htm"
+    },
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-11-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000060/cloud-20261105.htm"
+    },
     {
       "form": "8-K",
       "title": "Material event (8-K)",
       "date": "2026-08-13",
       "url": "https://www.sec.gov/Archives/edgar/data/1477333/000095010326012340/dp251721_8k.htm"
-    },
-    {
-      "form": "10-Q",
-      "title": "Quarterly report (10-Q)",
-      "date": "2026-08-06",
-      "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000054/cloud-20260630.htm"
-    },
-    {
-      "form": "8-K",
-      "title": "Material event (8-K)",
-      "date": "2026-08-06",
-      "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000053/cloud-20260806.htm"
     }
   ],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-04",
+  "data_asof": "2026-11-05",
   "price": {
-    "last": 266.58,
-    "open": 268.2,
-    "prev_close": 273.62,
-    "move_day_pct": -2.57,
-    "move_open_close_pct": -0.6,
-    "move_week_pct": -16.36
+    "last": 244.51,
+    "open": 251.53,
+    "prev_close": 266.58,
+    "move_day_pct": -8.28,
+    "move_open_close_pct": -2.79,
+    "move_week_pct": -21.2
   },
   "indicators": {
     "rsi14": {
-      "value": 34.1,
-      "read": "Oversold"
+      "value": 29.4,
+      "read": "Extremely oversold"
     },
     "macd": {
-      "macd": -13.796,
-      "signal": -7.63,
-      "hist": -6.167,
-      "hist_prev": -5.826,
+      "macd": -16.874,
+      "signal": -9.478,
+      "hist": -7.396,
+      "hist_prev": -6.167,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 366.34,
-      "lower": 257.55,
-      "mid": 311.95,
-      "pctb": 0.083,
-      "read": "Near the lower band"
+      "upper": 367.03,
+      "lower": 247.13,
+      "mid": 307.08,
+      "pctb": -0.022,
+      "read": "Below the lower band \u2014 stretched to the downside"
     },
     "pct_from_52w_low": {
-      "value": 66.41,
-      "read": "66% above its 52-week low"
+      "value": 52.64,
+      "read": "53% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -26.14,
-      "read": "26% below its 52-week high"
+      "value": -32.26,
+      "read": "32% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 249.39,
-      "pct": 6.89,
-      "read": "7% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 249.77,
+      "pct": -2.11,
+      "read": "2% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 18.72,
-      "pct_of_price": 7.02,
+      "value": 19.74,
+      "pct_of_price": 8.07,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.1,
-      "read": "Roughly average volume"
+      "value": 2.52,
+      "read": "Heavy volume \u2014 well above average"
     },
     "mfi14": {
-      "value": 44.0,
+      "value": 41.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 360.93,
-  "ma50": 319.81,
-  "ma200": 249.39
+  "ma50": 319.0,
+  "ma200": 249.77
 }

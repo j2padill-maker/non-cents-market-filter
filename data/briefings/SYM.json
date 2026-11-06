@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-04T20:14:14.440660-08:00",
+  "generated_at": "2026-11-05T16:48:09.651178-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Should Investors Bet on SYM Stock Post the Walmart Deal Expansion?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=3465ef1086e043628f148042ec2af7907c1eb1b591065040e82a9181a5ea17ab",
+      "datetime": 1793893800,
+      "summary": "Symbotic's lucrative Walmart deal, $22.5 B backlog, robust revenue growth and strategic acquisitions strengthen its outlook. Is SYM stock a buy now?"
+    },
+    {
+      "headline": "Xperi (XPER) Q3 Earnings and Revenues Miss Estimates",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=512d7f92e48c51c2ba668176763e491400e29655baa4f7a6a8baccb4dcf3927a",
+      "datetime": 1793835918,
+      "summary": "Xperi (XPER) delivered earnings and revenue surprises of -4.00% and -0.92%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?"
+    },
     {
       "headline": "VVX vs. SYM: Which Stock Should Value Investors Buy Now?",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=754746f0197fddc0ef090d75d8ad4ae4ac1ff28cbe737dabf81116c52bef155e",
       "datetime": 1793742179,
       "summary": "Walmart is investing heavily to automate more big warehouse facilities. The post Walmart in $6B Symbiotic deal to automate warehouses appeared first on FreightWaves."
-    },
-    {
-      "headline": "Here's Why Symbotic Inc. (SYM) Fell More Than Broader Market",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ebd26adf5e594c4a976c3a876a6c97d578ccf697e96ef61b13fea698353bdf36",
-      "datetime": 1793656803,
-      "summary": "The latest trading day saw Symbotic Inc. (SYM) settling at $37.22, representing a -1.87% change from its previous close."
-    },
-    {
-      "headline": "Walmart doubles down on warehouse robots as holiday rush nears",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=428330419f88ab131038a08fd8bab01b800fa66c192632b9e7b2ad9ec59b6efc",
-      "datetime": 1793640780,
-      "summary": "Walmart is betting its supply chain can keep up with how people shop now."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-04",
+  "data_asof": "2026-11-05",
   "price": {
-    "last": 37.51,
-    "open": 37.7,
-    "prev_close": 37.52,
-    "move_day_pct": -0.03,
-    "move_open_close_pct": -0.5,
-    "move_week_pct": -3.75
+    "last": 35.04,
+    "open": 37.41,
+    "prev_close": 37.51,
+    "move_day_pct": -6.58,
+    "move_open_close_pct": -6.34,
+    "move_week_pct": -6.31
   },
   "indicators": {
     "rsi14": {
-      "value": 40.8,
-      "read": "Neutral"
+      "value": 33.8,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -1.164,
-      "signal": -0.995,
-      "hist": -0.17,
-      "hist_prev": -0.207,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -1.352,
+      "signal": -1.066,
+      "hist": -0.286,
+      "hist_prev": -0.17,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 42.52,
-      "lower": 36.11,
-      "mid": 39.31,
-      "pctb": 0.219,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 42.42,
+      "lower": 35.51,
+      "mid": 38.96,
+      "pctb": -0.068,
+      "read": "Below the lower band \u2014 stretched to the downside"
     },
     "pct_from_52w_low": {
-      "value": 0.75,
+      "value": 0.0,
       "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -57.03,
-      "read": "57% below its 52-week high"
+      "value": -59.86,
+      "read": "60% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 47.65,
-      "pct": -21.28,
-      "read": "21% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 47.52,
+      "pct": -26.26,
+      "read": "26% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 2.02,
-      "pct_of_price": 5.38,
+      "value": 2.19,
+      "pct_of_price": 6.26,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.99,
-      "read": "Roughly average volume"
+      "value": 1.8,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 44.6,
+      "value": 36.3,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": 37.23,
+  "low_52w": 35.04,
   "high_52w": 87.3,
-  "ma50": 41.12,
-  "ma200": 47.65
+  "ma50": 41.01,
+  "ma200": 47.52
 }

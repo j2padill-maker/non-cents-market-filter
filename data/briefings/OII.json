@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-04T20:14:17.865077-08:00",
+  "generated_at": "2026-11-05T16:48:12.629666-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Insider Decision: Roderick A Larson Offloads $264K Worth Of Oceaneering International Stock",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=39e7c7c571d434796db6f39c15efb6a3376643a95943635325c008103079fcab",
+      "datetime": 1793790075,
+      "summary": "Revealing a significant insider sell on November 3, Roderick A Larson, President and CEO at Oceaneering International (NYSE:OII), as per the latest SEC filing.\nWhat Happened: Larson&#39;s decision to sell 6,000 shares"
+    },
     {
       "headline": "Oceaneering International Eyes New Opportunities in Offshore Markets",
       "source": "Yahoo",
@@ -43,20 +50,6 @@
       "url": "https://finnhub.io/api/news?id=1cb4a3b8b038bd639ff0d213e8ad2eab11a1eec07f6906ad066f8028597b5bf9",
       "datetime": 1793378004,
       "summary": "For questions about this article or underlying research, email help@trefis.com."
-    },
-    {
-      "headline": "Citigroup Maintains Neutral on Oceaneering International, Lowers Price Target to $45",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=849b61e0465a838b8b77bebaa5c933df222c2654d3b8601cc3ae0c0f67b59420",
-      "datetime": 1793290533,
-      "summary": "Citigroup  analyst Scott Gruber   maintains Oceaneering International (NYSE:OII) with a Neutral and lowers the price target from $52 to $45."
-    },
-    {
-      "headline": "3 energy stocks we approach with caution",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5775383323f721a91d4ec74281761903d818abd091f6d332f7f839ecf54c9f2c",
-      "datetime": 1793276845,
-      "summary": "Energy businesses quietly power the physical things we depend on, from cars and homes to e-commerce infrastructure. But they are at the whim of volatile macroeconomic factors that sway capital spending, like interest rates and commodity prices. Wariness surrounding these influences has caused the industry to underperform the market as it was flat over the past six months while the S&P 500 climbed "
     }
   ],
   "filings": [
@@ -82,63 +75,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-04",
+  "data_asof": "2026-11-05",
   "price": {
-    "last": 36.39,
-    "open": 37.85,
-    "prev_close": 38.17,
-    "move_day_pct": -4.66,
-    "move_open_close_pct": -3.86,
-    "move_week_pct": -12.55
+    "last": 34.03,
+    "open": 36.39,
+    "prev_close": 36.39,
+    "move_day_pct": -6.49,
+    "move_open_close_pct": -6.49,
+    "move_week_pct": -18.14
   },
   "indicators": {
     "rsi14": {
-      "value": 30.5,
-      "read": "Oversold"
+      "value": 26.3,
+      "read": "Extremely oversold"
     },
     "macd": {
-      "macd": -1.978,
-      "signal": -1.632,
-      "hist": -0.346,
-      "hist_prev": -0.215,
+      "macd": -2.314,
+      "signal": -1.769,
+      "hist": -0.546,
+      "hist_prev": -0.346,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 47.28,
-      "lower": 36.32,
-      "mid": 41.8,
-      "pctb": 0.007,
-      "read": "Near the lower band"
+      "upper": 47.56,
+      "lower": 34.99,
+      "mid": 41.27,
+      "pctb": -0.076,
+      "read": "Below the lower band \u2014 stretched to the downside"
     },
     "pct_from_52w_low": {
-      "value": 60.95,
-      "read": "61% above its 52-week low"
+      "value": 50.51,
+      "read": "51% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -32.75,
-      "read": "33% below its 52-week high"
+      "value": -37.11,
+      "read": "37% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 40.48,
-      "pct": -10.1,
-      "read": "10% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 40.51,
+      "pct": -16.0,
+      "read": "16% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 1.98,
-      "pct_of_price": 5.43,
+      "value": 2.03,
+      "pct_of_price": 5.96,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.1,
+      "value": 1.03,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 49.9,
+      "value": 44.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 22.61,
   "high_52w": 54.11,
-  "ma50": 45.35,
-  "ma200": 40.48
+  "ma50": 45.04,
+  "ma200": 40.51
 }
