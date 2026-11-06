@@ -28,6 +28,7 @@ from pathlib import Path
 SLOTS = ["16:30"]   # matches the NonCentsUpdate task on this laptop
 GRACE_MIN = 60      # wait this long after a slot before treating it as missed
 BUSY_MIN = 40       # an update log written this recently means a run is in progress
+LOCK_MAX_MIN = 120  # an update.lock older than this is left over from a crashed run
 # -------------------------------------------------------------------------
 
 REPO = Path(__file__).resolve().parent.parent
@@ -65,6 +66,10 @@ def last_slot(now):
 
 
 def update_in_progress():
+    # Primary signal: run_non_cents.bat holds logs\update.lock for the whole run.
+    lock = LOG_DIR / "update.lock"
+    if lock.exists() and (time.time() - lock.stat().st_mtime) / 60 < LOCK_MAX_MIN:
+        return True
     newest = max(LOG_DIR.glob("update_*.log"), key=lambda p: p.stat().st_mtime, default=None)
     if newest is None:
         return False

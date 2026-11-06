@@ -6,6 +6,21 @@ set "LOGDIR=C:\non-cents\logs"
 if not exist "%LOGDIR%" mkdir "%LOGDIR%"
 set "LOGFILE=%LOGDIR%\update_%date:~-4%-%date:~4,2%-%date:~7,2%.log"
 
+REM Live logging: without this Python holds its output until the very end, so
+REM the log looks frozen mid-run and the catch-up can't tell a run is active.
+set "PYTHONUNBUFFERED=1"
+
+REM One update at a time. A run that's still going (lock under 2 hours old)
+REM means this one exits. Overlapping runs all hit Finnhub at once, throttle
+REM each other, and pile up - that's what hung the 11/04 updates.
+set "LOCK=%LOGDIR%\update.lock"
+powershell -NoProfile -Command "if ((Test-Path '%LOCK%') -and (((Get-Date) - (Get-Item '%LOCK%').LastWriteTime).TotalMinutes -lt 120)) { exit 1 } else { exit 0 }"
+if errorlevel 1 (
+    echo %date% %time% Another update is already running - skipped. >> "%LOGFILE%"
+    exit /b 0
+)
+echo %date% %time% > "%LOCK%"
+
 echo ============================================================ >> "%LOGFILE%"
 echo Run started: %date% %time% >> "%LOGFILE%"
 
@@ -40,5 +55,6 @@ git commit -m "Daily data update %date%" >> "%LOGFILE%" 2>&1
 git push origin main >> "%LOGFILE%" 2>&1
 
 :end
+del "%LOCK%" 2>nul
 echo Run finished: %date% %time% >> "%LOGFILE%"
 echo. >> "%LOGFILE%"
