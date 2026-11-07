@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-05T16:48:09.651178-08:00",
+  "generated_at": "2026-11-06T17:27:32.819411-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -22,6 +22,13 @@
       "url": "https://finnhub.io/api/news?id=3465ef1086e043628f148042ec2af7907c1eb1b591065040e82a9181a5ea17ab",
       "datetime": 1793893800,
       "summary": "Symbotic's lucrative Walmart deal, $22.5 B backlog, robust revenue growth and strategic acquisitions strengthen its outlook. Is SYM stock a buy now?"
+    },
+    {
+      "headline": "INLIF LIMITED Regains Nasdaq Compliance",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=c9593a39293aeeb74e9685708b07dc372c3751456939984094533ca02506ed67",
+      "datetime": 1793888274,
+      "summary": ""
     },
     {
       "headline": "Xperi (XPER) Q3 Earnings and Revenues Miss Estimates",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=1b305c081842bf138831b3047c61912faad586c1d3d3015abe479a9cbbb2bef7",
       "datetime": 1793750103,
       "summary": "Cricut (CRCT) delivered earnings and revenue surprises of +333.33% and +8.58%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?"
-    },
-    {
-      "headline": "Walmart in $6B Symbiotic deal to automate warehouses",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=754746f0197fddc0ef090d75d8ad4ae4ac1ff28cbe737dabf81116c52bef155e",
-      "datetime": 1793742179,
-      "summary": "Walmart is investing heavily to automate more big warehouse facilities. The post Walmart in $6B Symbiotic deal to automate warehouses appeared first on FreightWaves."
     }
   ],
   "filings": [
@@ -124,7 +124,7 @@
       "read": "26% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 2.19,
+      "value": 2.2,
       "pct_of_price": 6.26,
       "read": "High daily volatility"
     },

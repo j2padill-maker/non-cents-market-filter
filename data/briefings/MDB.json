@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-05T16:47:58.012611-08:00",
+  "generated_at": "2026-11-06T17:27:12.129101-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Best Growth Stocks to Buy for November 6th",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=2233b74fb08d225af8f6a7d30d6e1e9c430581b223ac63d2c2b837617aa138a7",
+      "datetime": 1793945640,
+      "summary": "MDB, INGM, and OSCR it to the Zacks Rank #1 (Strong Buy) growth stocks list on November 6, 2026."
+    },
+    {
+      "headline": "Snowflake shares are trading lower. The company announced the appointment of Jonathan Beaulier as Chief Revenue Officer and reaffirmed its FY27 guidance.",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=32bf72c36bab6f5e4b49f08cd60e709fadc8a7b3ebe0aae6882cd8560ce7fb27",
+      "datetime": 1793889358,
+      "summary": ""
+    },
     {
       "headline": "MongoDB, Inc. Announces Date of Third Quarter Fiscal 2027 Earnings Call",
       "source": "Yahoo",
@@ -42,20 +56,6 @@
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=124ff3b0250035fed945b7bbc6e4962ef2b0730ed4f75319a22651f77ca5253a",
       "datetime": 1793834763,
-      "summary": "For questions about this article or underlying research, email help@trefis.com."
-    },
-    {
-      "headline": "MongoDB (MDB) Stock Dips While Market Gains: Key Facts",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3060e066592739fabb0b6634f13c8fc23573133e69929e995872afb04e9b1de6",
-      "datetime": 1793830502,
-      "summary": "In the closing of the recent trading day, MongoDB (MDB) stood at $328.38, denoting a -2.08% move from the preceding trading day."
-    },
-    {
-      "headline": "Should Twilio Stock Holders Look At Fortinet Instead?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=fd085bb9ccc42c528f0c6204c3c9d1f05d2448db8120f5dce0dddea522be9297",
-      "datetime": 1793822418,
       "summary": "For questions about this article or underlying research, email help@trefis.com."
     }
   ],

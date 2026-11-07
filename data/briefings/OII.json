@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-05T16:48:12.629666-08:00",
+  "generated_at": "2026-11-06T17:27:37.429137-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -36,23 +36,15 @@
       "url": "https://finnhub.io/api/news?id=f67aa776ef51e9bdd96e500ac083c78a8e481e43496b9d35f023b73219c1d00f",
       "datetime": 1793612184,
       "summary": ""
-    },
-    {
-      "headline": "Oceaneering: 3 Key Takeaways for Long-Term Investors",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9a05e1ceaa5d27e39f84485f6ce03913a51b62cb1bbc491dca56cad69b6e1fbb",
-      "datetime": 1793380803,
-      "summary": "Aerospace expansion without acquisitions and strengthening deepwater markets set up a pivotal 2027 for margin growth."
-    },
-    {
-      "headline": "What Just Happened To TechnipFMC Stock?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=1cb4a3b8b038bd639ff0d213e8ad2eab11a1eec07f6906ad066f8028597b5bf9",
-      "datetime": 1793378004,
-      "summary": "For questions about this article or underlying research, email help@trefis.com."
     }
   ],
   "filings": [
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-11-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/73756/000007375626000158/oii-20261105.htm"
+    },
     {
       "form": "10-Q",
       "title": "Quarterly report (10-Q)",
@@ -64,12 +56,6 @@
       "title": "Material event (8-K)",
       "date": "2026-10-21",
       "url": "https://www.sec.gov/Archives/edgar/data/73756/000007375626000152/oii-20261021.htm"
-    },
-    {
-      "form": "8-K",
-      "title": "Material event (8-K)",
-      "date": "2026-09-08",
-      "url": "https://www.sec.gov/Archives/edgar/data/73756/000007375626000147/oii-20260908.htm"
     }
   ],
   "script_text": null,
@@ -117,8 +103,8 @@
       "read": "16% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 2.03,
-      "pct_of_price": 5.96,
+      "value": 2.07,
+      "pct_of_price": 6.09,
       "read": "High daily volatility"
     },
     "rel_volume": {

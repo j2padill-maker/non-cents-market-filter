@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-05T16:48:07.378206-08:00",
+  "generated_at": "2026-11-06T17:27:29.324860-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Dividend Champion, Contender, And Challenger Highlights: Week of November 8",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=179932ced585c47b91f7c497290f9405d62b1ac2a2bf533cfb1fe4d053589441",
+      "datetime": 1793989837,
+      "summary": "Get the latest dividend activity for Dividend Champions, Contenders, and Challengers. Read this week's list here."
+    },
+    {
+      "headline": "CGNX Q3 Earnings Call Highlights Outlook and Margin Expansion",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=47b0ce9a1b30adbe4dbd831895a80e474d2f65b7b05e92e0e1d4e4beb9a49de4",
+      "datetime": 1793973600,
+      "summary": "Cognex beats Q3 earnings estimates, raises its 2026 outlook and targets further margin expansion as logistics demand strengthens and RealSense adds growth opportunities."
+    },
+    {
+      "headline": "Needham Maintains Buy on Cognex, Lowers Price Target to $70",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=3abb6beff3f57b7d00d307bb2b4ac6f0d3d527396b976fee8c563dcb3433d510",
+      "datetime": 1793946605,
+      "summary": "Needham  analyst Robert Jamieson   maintains Cognex (NASDAQ:CGNX) with a Buy and lowers the price target from $80 to $70."
+    },
     {
       "headline": "Cognex Corp (CGNX) (Q3 2026) Earnings Call Highlights: Record Revenue, 1,340 Basis Point Margin ...",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=2bc257dacd96661ee06680dccdbeba9678495e636bad525d8246dd5abcd4335b",
       "datetime": 1793906081,
       "summary": "Cognex (NASDAQ:CGNX) reported record third-quarter revenue and raised its full-year 2026 outlook, citing broad-based demand, stronger logistics growth and cost controls. The machine vision company also said it expects its acquisition of RealSense to close in the fourth quarter. Revenue rose 19% yea"
-    },
-    {
-      "headline": "Cognex Corporation (CGNX) Q3 2026 Earnings Call Transcript",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=4e070b7e836b641332d353e0f7995a0a5e0dde59f4b941c3f8c1e0b7b00c14d3",
-      "datetime": 1793905480,
-      "summary": "Cognex Corporation (CGNX) Q3 2026 Earnings Call November 5, 2026 8:30 AM ESTCompany ParticipantsGreer Aviv - Head of Investor RelationsMatt Moschner -..."
-    },
-    {
-      "headline": "Cognex Q3 Earnings Beat on Strong Demand and Margin Expansion",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b3e056a100c22afe7aee8950091f65664f52d00379f0c161f2e62f779b6a0184",
-      "datetime": 1793898960,
-      "summary": "CGNX beats Q3 earnings estimates as strong automation demand, margin expansion and cost discipline drive growth, prompting a higher 2026 outlook."
-    },
-    {
-      "headline": "Earnings Beat Could Change The Case For Cognex Stock",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0379276a66ac909a2bd4e2018f922b740ea06e303b29dc86bf3572ee9efe507c",
-      "datetime": 1793880960,
-      "summary": "Cognex reported third quarter 2026 sales of US$313.39 million and net income of US$84.82 million, with basic earnings per share from continuing operations of US$0.50, and raised full year guidance alongside outlining growth from AI-enabled vision and the pending RealSense acquisition. The combination of record quarterly revenue, a higher earnings outlook and Cognex\u2019s move into depth sensing throug"
     }
   ],
   "filings": [
@@ -84,12 +84,12 @@
   "status": "ok",
   "data_asof": "2026-11-05",
   "price": {
-    "last": 47.49,
+    "last": 47.5,
     "open": 50.39,
     "prev_close": 53.06,
-    "move_day_pct": -10.49,
-    "move_open_close_pct": -5.75,
-    "move_week_pct": -19.46
+    "move_day_pct": -10.48,
+    "move_open_close_pct": -5.74,
+    "move_week_pct": -19.45
   },
   "indicators": {
     "rsi14": {
@@ -97,7 +97,7 @@
       "read": "Oversold"
     },
     "macd": {
-      "macd": -1.822,
+      "macd": -1.821,
       "signal": -1.231,
       "hist": -0.59,
       "hist_prev": -0.086,
@@ -111,16 +111,16 @@
       "read": "Below the lower band \u2014 stretched to the downside"
     },
     "pct_from_52w_low": {
-      "value": 37.06,
+      "value": 37.07,
       "read": "37% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -34.33,
+      "value": -34.32,
       "read": "34% below its 52-week high"
     },
     "price_vs_ma200": {
       "ma200": 58.06,
-      "pct": -18.2,
+      "pct": -18.19,
       "read": "18% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
@@ -129,11 +129,11 @@
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 2.68,
+      "value": 2.73,
       "read": "Heavy volume \u2014 well above average"
     },
     "mfi14": {
-      "value": 57.0,
+      "value": 56.8,
       "read": "Neutral money flow"
     }
   },

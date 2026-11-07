@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-05T16:48:02.892827-08:00",
+  "generated_at": "2026-11-06T17:27:23.610160-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Datadog Just Dropped 34% in a Week. Is It Time to Sell, or Load Up?",
+      "headline": "CarMax Strategy Shows Promise, but Don\u2019t Buy the Stock Yes, Says Analyst. Plus, Datadog and 3 More.",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=91618ef2e9291dbb7eb8eebc748c06c1840804be0dd3b404b814f044c8f812d1",
-      "datetime": 1793917053,
-      "summary": "Key TakeawaysDatadog stock fell 34% in a week, first in a software selloff that also hit ServiceNow and Cloudflare, then on a flat fourth-quarter outlook. That outlook assumes Datadog\u2019s largest customer, an AI company, pays only its minimum; growth from everyone else is guided to the low to mid-30s."
+      "url": "https://finnhub.io/api/news?id=f943f892f22e0506071edf90578f8b01bb03ba62f04ab33b64b2297938c8b4a7",
+      "datetime": 1794007500,
+      "summary": "Analysts also report on Navitas Semiconductor, Owens Corning, and Resolve Group."
     },
     {
-      "headline": "56% Upside for Datadog? Canaccord Genuity Thinks So, and Here\u2019s How",
+      "headline": "Datadog And 2 Top Cybersecurity Stocks",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ecaa3b9460d35adc97284807769c75a9869eaf0dc0a08548cf83b24f8407f874",
-      "datetime": 1793901905,
-      "summary": "Key TakeawaysDatadog beat Wall Street\u2019s third-quarter estimates, but a flat fourth-quarter revenue outlook left the stock 36% below its October high. Canaccord Genuity kept its Buy rating and $295 target on Nov."
+      "url": "https://finnhub.io/api/news?id=7eec6a0cd917806096d836ba0817e60b5608425ac325441f03d4fd06e7e9d6b9",
+      "datetime": 1793999715,
+      "summary": "Global stocks just suffered a sharp selloff as fears around an AI slowdown rippled through markets. When confidence in headline tech stories wobbles, attention often shifts to what keeps that digital world secure in the first place. Cybersecurity providers that protect data and networks are central to that discussion. This article highlights three stocks from a global security screener with high g"
     },
     {
-      "headline": "Datadog Q3 Earnings & Revenues Surpass Estimates, Both Rise Y/Y",
+      "headline": "3 AI Infrastructure Stocks Retail Investors Are Watching After The Global Selloff",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2dbcc9948231e939b07d1d310c2e83f7fe14b0f02c846c5f2721abc7d523ff6d",
-      "datetime": 1793895600,
-      "summary": "DDOG's Q3 EPS rises 47.3% and revenues climb 35.2%, beating estimates as AI adoption widens. Q4 guidance assumes its largest customer's minimum commitment."
+      "url": "https://finnhub.io/api/news?id=8603e2741f67c7e64b574e8f5c16fa9eb87d4632e174bad7e1d089936dab4a43",
+      "datetime": 1793999563,
+      "summary": "A sharp global selloff tied to AI regulation fears has rattled markets, but it has also thrown a spotlight on some of the biggest data centre and AI infrastructure stocks on the planet. When investors rush for the exit, strong businesses occasionally get marked down with everything else, creating moments that feel rare once the dust settles. This article explains how that shock ties into AI and da"
     },
     {
-      "headline": "DDOG Q3 Earnings Call Highlights AI Growth and Customer Renewals",
+      "headline": "Datadog's Infrastructure Monitoring Tops $2B ARR in Q3, Revenues Beat",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9a977410b86b4e624e491d99d8361173676c582d276be85f4358d0be281a4dac",
-      "datetime": 1793887200,
-      "summary": "Datadog's Q3 revenues surge 35%, with adjusted EPS beating estimates, but AI customer discounts and cautious Q4 guidance temper its growth outlook."
+      "url": "https://finnhub.io/api/news?id=818be73061ecca5bcd425e429117c51f979ad33f2fdd84a758444fa10ddb65b7",
+      "datetime": 1793977740,
+      "summary": "DDOG's Infrastructure Monitoring surpasses $2B in ARR as Q3 revenues beat estimates, with broad-based growth, rising AI adoption and expanding platform usage."
     },
     {
-      "headline": "Needham\u2019s $300 Target Says Datadog\u2019s Selloff Went Too Far",
+      "headline": "Sterling Brokers Acquires Lucite, Bringing AI and Enterprise-Grade Tools to Canada\u2019s Independent Benefits Brokers",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0e8d5eda1d565eb1b03ee435d4ecdc5beef1f9cfec466cd3fea61250860cdf4b",
-      "datetime": 1793874685,
-      "summary": "Key TakeawaysDatadog stock is down 36% from its October high, most recently after a fourth-quarter outlook that showed flat revenue from the third quarter. Needham repeated its Buy rating and $300 target on Wednesday, 59% above the close and near the $296 consensus target."
+      "url": "https://finnhub.io/api/news?id=99e291e5573ccbe79ca11f40e9b17e56aa8b0ab79312bb4b0c1cd637a414290f",
+      "datetime": 1793973600,
+      "summary": "TORONTO, November 06, 2026--Sterling Brokers, a Canadian employee benefits brokerage, today announced its acquisition of Lucite, an AI platform that helps benefits brokers analyze data, automate workflows and deliver improved service to clients. The acquisition expands Sterling\u2019s reach beyond its own brokerage, bringing technology and administration services to independent brokers across Canada."
     },
     {
-      "headline": "Wedbush Maintains Outperform on Datadog, Lowers Price Target to $240",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=89c40f67bb788d0a3b4acea9634125310b92c1af9e8090d3b7158d8f177856d4",
-      "datetime": 1793872480,
-      "summary": "Wedbush  analyst Steven Wahrhaftig   maintains Datadog (NASDAQ:DDOG) with a Outperform and lowers the price target from $275 to $240."
+      "headline": "Datadog (DDOG) Stock Could Still Be Undervalued As AI Hopes Swing",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=0c20c05d95bdee56e8b58fe394024de58f4b0d9603f032d482ed1476283a43de",
+      "datetime": 1793956770,
+      "summary": "Datadog shares have swung sharply in recent months, and the question now is whether the current US$174.60 price can still be explained by the cash the business is expected to generate. With sentiment pulled around by AI excitement and sector-wide worries, the key issue is how that market mood lines up with the company\u2019s underlying cash flows. Over the past 3 years, Datadog has delivered a total sh"
     }
   ],
   "filings": [
@@ -129,7 +129,7 @@
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 2.68,
+      "value": 2.7,
       "read": "Heavy volume \u2014 well above average"
     },
     "mfi14": {

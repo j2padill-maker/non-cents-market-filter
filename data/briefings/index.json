@@ -2,7 +2,7 @@
   "version": 1,
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-05T16:47:58.012589-08:00",
+  "generated_at": "2026-11-06T17:27:12.129065-08:00",
   "lists": [
     "My Watchlist",
     "robotics"
@@ -21,7 +21,7 @@
       "ticker": "TOELF",
       "status": "ok",
       "file": "data/briefings/TOELF.json",
-      "data_asof": "2026-11-05",
+      "data_asof": "2026-11-06",
       "lists": [
         "My Watchlist"
       ]

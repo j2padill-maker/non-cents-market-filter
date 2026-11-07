@@ -2,7 +2,7 @@
   "ticker": "GNRC",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-05T16:48:05.361133-08:00",
+  "generated_at": "2026-11-06T17:27:26.832795-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -45,18 +45,18 @@
       "summary": "Here is how Generac Holdings (GNRC) and Murata Manufacturing Inc. (MRAAY) have performed compared to their sector so far this year."
     },
     {
+      "headline": "Shares of several companies in the broader industrials space are trading higher amid overall market strength on hopes of a debt ceiling resolution. Additionally, strength in bank stocks is also lifting overall market sentiment.",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=5a67d6598f63571d394d62eff54f88c852022a3e07971f589cf987f6088b4b73",
+      "datetime": 1793884638,
+      "summary": ""
+    },
+    {
       "headline": "Why Did Enphase Stock Jump?",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=ef0c3f9fed5bd01905f61884167d9e9aa729f62aab16515fffc0bf5f8adef41d",
       "datetime": 1793814786,
       "summary": "For questions about this article or underlying research, email help@trefis.com."
-    },
-    {
-      "headline": "Today's S&P 500 Gap Movers: XYZ and ZBH Lead Gap-Ups, FIS and TRMB Top Gap-Downs",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=e529c5258033b90232cc48825b175958f03281b5b20038d1a63260517485474d",
-      "datetime": 1793806608,
-      "summary": "S&P 500 gap movers today: XYZ, ZBH, SWK and FSLR led gap-ups, while FIS, TRMB, FIX and SWKS topped gap-downs, with opening gaps, percentage changes and prices."
     }
   ],
   "filings": [
@@ -124,8 +124,8 @@
       "read": "21% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 12.6,
-      "pct_of_price": 7.31,
+      "value": 12.61,
+      "pct_of_price": 7.32,
       "read": "High daily volatility"
     },
     "rel_volume": {

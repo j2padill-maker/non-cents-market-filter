@@ -2,7 +2,7 @@
   "ticker": "TOELF",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-05T16:48:02.100276-08:00",
+  "generated_at": "2026-11-06T17:27:22.570092-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,88 +17,81 @@
   ],
   "news": [
     {
+      "headline": "Shares advance after Wall Street rally following US midterm elections",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=dea3d444261ce3eb59972a8d34c2728f12721a71ab4451fd064b44e1e31f3a90",
+      "datetime": 1793868865,
+      "summary": "Ahead of the European markets opening, Asian shares mostly gained on Thursday after US stocks rallied following the midterm elections, with the Dow Jones Industrial Average jumping more than 3% after President Donald Trump\u2019s party lost its sole control of Washington.View on euronews"
+    },
+    {
       "headline": "Polen Global Growth Q3 2026 Portfolio Activity",
       "source": "SeekingAlpha",
       "url": "https://finnhub.io/api/news?id=fb98e754dfafa6f91e94566f6907239a138075d8422a6b9c3531dd369deb71eb",
       "datetime": 1793788380,
       "summary": "ServiceNow was the Portfolio\u00e2\u0080\u0099s top-performing holding during the quarter as improving sentiment toward high-quality software companies coincided with another strong earnings report."
-    },
-    {
-      "headline": "Tokyo Electron Q2 profit jumps 27% as AI demand drives outlook, \u00a5150 bln buyback",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5258ddae1711dccb129abeb2262a8fba208839f49ec1ad44ed4d7d8616567b13",
-      "datetime": 1793345241,
-      "summary": "Investing.com --Tokyo Electron (TYO:8035) reported stronger second-quarter earnings on Friday as expanding investment in AI servers and data-centre infrastructure boosted demand for semiconductor equipment, while the company introduced an upbeat full-year forecast and announced a \u00a5150 billion share buyback."
-    },
-    {
-      "headline": "Asian tech stocks slump as AI rout deepens on disappointing U.S. earnings",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e2aab4ad857049953af7d3fdef1971a8b2a85552cc23483601d631d7602cd565",
-      "datetime": 1793335704,
-      "summary": "Investing.com-- Asian technology stocks fell sharply on Friday, extending recent declines as worries over the slowing artificial intelligence trade were amplified by weak earnings from major U.S. companies."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-05",
+  "data_asof": "2026-11-06",
   "price": {
-    "last": 49.52,
-    "open": 54.65,
-    "prev_close": 61.81,
-    "move_day_pct": -19.88,
-    "move_open_close_pct": -9.39,
-    "move_week_pct": -21.87
+    "last": 54.43,
+    "open": 54.43,
+    "prev_close": 49.52,
+    "move_day_pct": 9.92,
+    "move_open_close_pct": 0.0,
+    "move_week_pct": -12.58
   },
   "indicators": {
     "rsi14": {
-      "value": 25.9,
-      "read": "Extremely oversold"
+      "value": 35.9,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -3.481,
-      "signal": -2.589,
-      "hist": -0.891,
-      "hist_prev": -0.214,
+      "macd": -3.755,
+      "signal": -2.823,
+      "hist": -0.932,
+      "hist_prev": -0.891,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 76.9,
-      "lower": 51.76,
-      "mid": 64.33,
-      "pctb": -0.089,
-      "read": "Below the lower band \u2014 stretched to the downside"
+      "upper": 74.66,
+      "lower": 51.62,
+      "mid": 63.14,
+      "pctb": 0.122,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 34.58,
-      "read": "35% above its 52-week low"
+      "value": 47.93,
+      "read": "48% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -48.32,
-      "read": "48% below its 52-week high"
+      "value": -43.19,
+      "read": "43% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 64.24,
-      "pct": -22.91,
-      "read": "23% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 64.25,
+      "pct": -15.28,
+      "read": "15% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 4.45,
-      "pct_of_price": 8.99,
+      "value": 4.48,
+      "pct_of_price": 8.24,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.07,
+      "value": 0.0,
       "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 62.6,
+      "value": 41.6,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 36.79,
   "high_52w": 95.82,
-  "ma50": 67.85,
-  "ma200": 64.24
+  "ma50": 67.61,
+  "ma200": 64.25
 }

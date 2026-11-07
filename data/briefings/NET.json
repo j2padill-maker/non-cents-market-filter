@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-05T16:48:04.213264-08:00",
+  "generated_at": "2026-11-06T17:27:25.211578-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Cloudflare Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
+      "headline": "Premarket Movers Nov. 6: DBGI and CIIT Rebound, FEAM and EFXT Slide",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=0a9b74e80e7627c6d8af04b81889f73f9ac67a7f507669ac2f44c0bfe2bcf581",
+      "datetime": 1793971831,
+      "summary": "Nov. 6 premarket movers: DBGI, CIIT and RCT led gainers while FEAM, EFXT and BDMD fell, as low-priced names rebounded and larger companies faced pressure."
+    },
+    {
+      "headline": "Keybanc Reiterates Overweight on Cloudflare, Maintains $375 Price Target",
       "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=04dfe29c8e7c756f4d512bf22f385042909abc8c3930a53cd9b79e4063ee9b78",
-      "datetime": 1793870946,
-      "summary": "Cloudflare will report Q3 results Nov. 5; analysts expect EPS of $0.34 and revenue of $739.4M."
+      "url": "https://finnhub.io/api/news?id=99ac6688547112e0b7f1885da5dbb7a6fa0778cc8307ddce60f7d75c646569e5",
+      "datetime": 1793960356,
+      "summary": "Keybanc  analyst Jackson Ader   reiterates Cloudflare (NYSE:NET) with a Overweight and maintains $375 price target."
     },
     {
-      "headline": "Vertex (VERX) Surpasses Q3 Earnings and Revenue Estimates",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=062a239d1907c846bde723f493c157b9e842881990490728e4d2ff1b9ddce971",
-      "datetime": 1793829010,
-      "summary": "Vertex (VERX) delivered earnings and revenue surprises of +18.18% and +1.70%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?"
+      "headline": "Piper Sandler Reiterates Overweight on Cloudflare, Raises Price Target to $337",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=1f27eedd374e1727c36cfe6d8658730b1f3a6ffbf0da3798e6a0685c3ea0b265",
+      "datetime": 1793959898,
+      "summary": "Piper Sandler  analyst James Fish   reiterates Cloudflare (NYSE:NET) with a Overweight and raises the price target from $333 to $337."
     },
     {
-      "headline": "Ahead of Cloudflare Earnings, Here's What Barchart Data Says Comes Next for NET Stock",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9ebcd13c777291ba54905e86c8d2111aafb62abbe241858a6b78e767178d7629",
-      "datetime": 1793822918,
-      "summary": "Cloudflare is set to report its fiscal Q3 earnings on Nov. 5. Options data suggests NET shares are worth buying heading into the quarterly print."
+      "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Mixed as October Jobs Rose by 165,000\u2014 Airbnb, Cloudflare, Lam Research in Focus (UPDATED)",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=35f9bc5469afcfe8a619e696314bbfdefed6d667ff9d05763f70d7a93d76c6f5",
+      "datetime": 1793957973,
+      "summary": "U.S. stocks were mixed on Friday, with the Dow Jones, S&amp;P 500, and Nasdaq 100 index futures moving in different directions."
     },
     {
-      "headline": "Polen 5Perspectives Large Growth Composite Q3 2026 Portfolio Performance And Attribution",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=4c40bc9a1af541e9d335df7fd5798645b67b781609cedb7fe7397e93d2289939",
-      "datetime": 1793820300,
-      "summary": "Review the Q3 2026 performance and portfolio activity for the Polen Large Growth Composite. Read the full commentary for details."
+      "headline": "Guggenheim Maintains Sell on Cloudflare, Raises Price Target to $190",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=8db86756d7e0427a6972b708f1a98026a737a07d43024d97656604b7271150a2",
+      "datetime": 1793957768,
+      "summary": "Guggenheim  analyst John Difucci   maintains Cloudflare (NYSE:NET) with a Sell and raises the price target from $160 to $190."
     },
     {
-      "headline": "Polen 5Perspectives Small Growth Composite Q3 2026 Portfolio Attribution And Activity",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=07a96d48f9e4d9b73852d43bd8ac5d7b282e70fc520b05efa7d0c71885a2d62d",
-      "datetime": 1793819400,
-      "summary": "Review Polen 5Perspectives Small Growth Composite Portfolio Q3 2026 performance highlights and strategy. Read now for complete investment commentary."
-    },
-    {
-      "headline": "5 Large Cap Tech Stocks to Buy According to Billionaires",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2dc477639845c964c6f23176fbda4c1c8007a18f4767bcf42989fe42e97560b1",
-      "datetime": 1793815181,
-      "summary": "The recent selloff in technology stocks has raised questions about how much investors are willing to pay for growth, particularly as the cost of expanding AI infrastructure continues to rise. Even established technology companies have not been immune. In late October, Fortinet and ServiceNow suffered steep single-day share-price declines as investors questioned their growth prospects [\u2026]"
+      "headline": "Cloudflare Shares Power Higher Friday: What's Going On?",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=57dbb320d6897039918a6357cbde535c4437ec918e284c2bdf8759ebe05a6380",
+      "datetime": 1793956916,
+      "summary": "Cloudflare shares are trading higher Friday after it reported a Q3 beat, issued Q4 guidance above estimates, and raised its FY26 outlook."
     }
   ],
   "filings": [
@@ -129,11 +129,11 @@
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 2.52,
+      "value": 2.61,
       "read": "Heavy volume \u2014 well above average"
     },
     "mfi14": {
-      "value": 41.9,
+      "value": 41.7,
       "read": "Neutral money flow"
     }
   },

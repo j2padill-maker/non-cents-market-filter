@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-05T16:48:14.223555-08:00",
+  "generated_at": "2026-11-06T17:27:39.130034-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Should Twilio Stock Holders Look At Fortinet Instead?",
+      "headline": "Palo Alto Networks vs. Zscaler: Which Cybersecurity Stock Is a Better Buy Going Into 2027?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=fd085bb9ccc42c528f0c6204c3c9d1f05d2448db8120f5dce0dddea522be9297",
-      "datetime": 1793822418,
+      "url": "https://finnhub.io/api/news?id=27281f3e804d5eef13de5969cb08aa7973bda94d450047e75009c26f3d1231df",
+      "datetime": 1793942016,
+      "summary": "Palo Alto Networks trades at a steep premium to Zscaler on sales and forward earnings, but its platform strategy and 24.5% revenue growth complicate the valuation debate."
+    },
+    {
+      "headline": "Why Zscaler (ZS) Dipped More Than Broader Market Today",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=0b45ff44150e64fd5d50c97779dbda64750dc6a3569bae3aff76cc41b569a032",
+      "datetime": 1793915103,
+      "summary": "The latest trading day saw Zscaler (ZS) settling at $203.88, representing a -9.16% change from its previous close."
+    },
+    {
+      "headline": "CrowdStrike Sinks 9%, Palo Alto Down 8%, Cloudflare Down 9% as AI Trade Unwinds",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b8c9590d11b3131ed10099c3d4f727f98362921c8783a92f9b8e92c904c05c18",
+      "datetime": 1793902736,
+      "summary": "Key TakeawaysCrowdStrike shares fell 10% as investors sold off AI stocks, and the company had no news to explain the drop. Palo Alto Networks, Zscaler and Cloudflare fell with it, as the market sold cybersecurity as a group."
+    },
+    {
+      "headline": "CRWD Stock Plunges 13% in a Month: Should You Hold or Book Profits?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=5890b28f6b0582b2c21639b00db1a0085121566f8e64372c9904ec638f1d7fd1",
+      "datetime": 1793887260,
+      "summary": "CrowdStrike shares plunge 13.4% in a month. Slowing revenue growth, premium valuation and rising competition raise concerns about CRWD's outlook."
+    },
+    {
+      "headline": "Zscaler to Host First Quarter Fiscal Year 2027 Earnings Conference Call",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a0ff10e88756d0625f1940a1e64692dd08d5bafc36253512ffdb95c3d41baa5c",
+      "datetime": 1793883600,
+      "summary": "SAN JOSE, Calif., Nov. 05, 2026 (GLOBE NEWSWIRE) -- Zscaler, Inc. (NASDAQ: ZS), the cybersecurity platform for the AI era, will release its first quarter fiscal year 2027 earnings after the market closes on Wednesday, December 2, 2026. The company will host an investor conference call that day at 1:30 p.m. Pacific Time (4:30 p.m. Eastern Time) to discuss the results. Date:Wednesday, December 2, 20"
+    },
+    {
+      "headline": "Can CrowdStrike Stock Rally 50% After This Dip?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=3eedb5960ca0d87d4be1869074778d6026d244ad0e84cc0bcae93544f59bf416",
+      "datetime": 1793874922,
       "summary": "For questions about this article or underlying research, email help@trefis.com."
-    },
-    {
-      "headline": "Zscaler Lags Cybersecurity Peers: Should Investors Hold the Stock?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=82f3614074cfe2f3234851c8ea73ad5113ed1f58fd827e3afb87868378e90c29",
-      "datetime": 1793803500,
-      "summary": "ZS' slowing growth and rising spending weigh on its stock, but AI security momentum, Zero Trust adoption and attractive valuation support a hold strategy."
-    },
-    {
-      "headline": "Varonis Systems (VRNS) Q3 Earnings and Revenues Surpass Estimates",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b83491e05ade354bdc9afabf483572aa3eb2dbe1b91ebea0b8aa2627583451d3",
-      "datetime": 1793742609,
-      "summary": "Varonis (VRNS) delivered earnings and revenue surprises of +200.00% and +1.36%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?"
-    },
-    {
-      "headline": "Palo Alto Networks Surges 92% YTD: Time to Hold or Fold the Stock?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7b657917b8ea13207e17dee2f22993e869bba2006285e137e3ce506608b50524",
-      "datetime": 1793712960,
-      "summary": "PANW shares surge 91.6% YTD as AI security demand and platformization fuel growth, but rising costs and premium valuation warrant caution."
-    },
-    {
-      "headline": "Is Okta Stock Worth The Wait?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7c009ba20e062c9d465ba062b6e0ef53cf0cccb5d51d2e2aaffb03b792753581",
-      "datetime": 1793707035,
-      "summary": "For questions about this article or underlying research, email help@trefis.com."
-    },
-    {
-      "headline": "Zacks Industry Outlook Highlights Fortinet, Zscaler and Qualys",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=74f872d603941f17a1707ee4b248e9a86c65faafb44bff5dc2194755601528d0",
-      "datetime": 1793706660,
-      "summary": "Fortinet, Zscaler and Qualys are positioned to benefit from rising cybersecurity demand, with AI innovation and earnings momentum shaping their growth prospects."
     }
   ],
   "filings": [
@@ -129,11 +129,11 @@
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.06,
+      "value": 1.07,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 55.8,
+      "value": 55.7,
       "read": "Neutral money flow"
     }
   },

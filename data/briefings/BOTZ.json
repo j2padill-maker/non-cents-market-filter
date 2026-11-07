@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-05T16:48:12.066699-08:00",
+  "generated_at": "2026-11-06T17:27:36.477252-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "With Echoes Of 1974, A Decisive Victory For The Democratic Party",
+      "headline": "Slower Builds, Scarcer Compute",
       "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=318c5195cfeba744b563456e671c0cc2ea0f548ab549cc973b03032c828a84ac",
-      "datetime": 1793889480,
-      "summary": "The 2026 U.S. midterm election resembles previous blue waves, and its legacy may be a new era of oversight, political gridlock, and AI restrictions."
+      "url": "https://finnhub.io/api/news?id=44294d80c7c71a3958c3670443c3bdf6b0f419b935a5a4b9f0122fe46269bf8c",
+      "datetime": 1793979600,
+      "summary": "Democrats won both chambers of Congress, along with governorships of Texas, Georgia & Ohio. Investors priced in the risk that many data centers never get built. The reality is more nuanced."
     },
     {
-      "headline": "Democratic Midterm Sweep: What's Next For Markets, The Economy, And Canada",
+      "headline": "Solving For 2027",
       "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=25ddcbf75df3613b840e01da7ea3fd68c7cf5423a05fd6550f97bd35c9e287ca",
-      "datetime": 1793886120,
-      "summary": "Michael Craig and Christian Medeiros join Kim Parlee to discuss what the election results could mean for markets, the economy, and Canadian investors."
+      "url": "https://finnhub.io/api/news?id=942f81c64df36a5fc958da024e8f45aecb522a31ad761ac8f3540ce4d121530b",
+      "datetime": 1793966460,
+      "summary": "The AI buildout played out as the dominant trade of 2026: buying chips and building data centers lifted earnings, multiples and portfolios together."
     },
     {
-      "headline": "AI Infrastructure Free Fall",
+      "headline": "AI Meets Politics: A New Test For Tech Stocks",
       "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=67158c0afb4e741069094eb97c76cd872087acb0bf006814a748a8296b9286cb",
-      "datetime": 1793883900,
-      "summary": "While not necessarily the most in-focus issue on ballots, anti-data center/AI rhetoric was prevalent during the election. The AI trade had a rough day in response to the blue wave."
+      "url": "https://finnhub.io/api/news?id=39e46ea0a22942629062d3525159824b0d26906bb6aa911f626b62efda5a10c5",
+      "datetime": 1793951700,
+      "summary": "Skeptics of the AI-fueled surge in the stock market have long warned that a bubble may be forming. Read more here."
     },
     {
-      "headline": "AI Gold Rush: Digging For Gold Or Digging A Grave?",
+      "headline": "Global Technology Investing: AI And Beyond",
       "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=1d405863a5bb177ce1a1831bb8f5523d9334e2e45c22c558bf20f55581b5a534",
-      "datetime": 1793876700,
-      "summary": ""
+      "url": "https://finnhub.io/api/news?id=c168fc6b0b3427efe84c20428fd550cc500a47b677cb8e077b87617d8d0f9132",
+      "datetime": 1793951400,
+      "summary": "We sat down with our global technology portfolio managers to get insight into what they\u00e2\u0080\u0099re watching across the sector. Read more here."
     },
     {
-      "headline": "Voters Are Turning Against Data Centers, Making Permitted AI Capacity Scarcer And More Valuable",
+      "headline": "Chart Of The Day: Now, That's What I Call A Fake-Out",
       "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=30277ab05b259eaf5b8518cf0e71ae360a4c84d6b63388e3e096c1f72afa56ae",
-      "datetime": 1793782500,
-      "summary": "Demand for computing power is accelerating. But political permission to build it is about to get harder. That means widening the already existing gap between demand and supply of compute."
+      "url": "https://finnhub.io/api/news?id=7d4dc6e1cfd29e500fd1886a81c5615e7ff98dfbe034b42e93cdba3ecea8cf1a",
+      "datetime": 1793945100,
+      "summary": "In the wake of the midterm elections, traders seemed to make peace with the results - buying initial weakness and sending QQQ higher on Wednesday. But what a fake-out that turned out to be!"
     },
     {
-      "headline": "AI's Worst-Case Elections Scenario Is Here",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=6eed7c2ed7a12bc64ad86ba90365e9a70ca20d4c07ef3f327576a0089cde9fa1",
-      "datetime": 1793779522,
-      "summary": "Democratic sweep clears market uncertainty. Discover why AI infrastructure stocks and the S&P 500 may offer a timely buy-the-news opportunity now."
+      "headline": "Beyond AI ETFs: 4 Investment Themes Wall Street Could Bet on After Midterms",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=fae312ac47f9f8a16d7eae5281048eabc233c0924a95ad3ded5f4a08f4bf9759",
+      "datetime": 1793894395,
+      "summary": "VistaShares CEO highlights ETF opportunities beyond Big Tech as Wall Street shifts focus after the US midterm elections."
     }
   ],
   "filings": [],
@@ -110,7 +110,7 @@
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 2.81,
+      "value": 2.82,
       "read": "Heavy volume \u2014 well above average"
     },
     "mfi14": {

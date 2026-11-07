@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-05T16:48:08.490401-08:00",
+  "generated_at": "2026-11-06T17:27:30.911128-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "ISRG System Placements Rise 28%: Is Capital Equipment Demand Rising?",
+      "headline": "What Should Investors Watch After Intuitive Surgical (ISRG) Added Aaron Martin To Its Board?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=199a55f479c39c03533bf20d84723efd7daa24835e50f3d6d612811ffd030f05",
-      "datetime": 1793901600,
-      "summary": "Intuitive Surgical's Q3 system placements surge 28%, fueled by multisystem orders and upgrades, but does this signal sustained capital equipment demand?"
+      "url": "https://finnhub.io/api/news?id=d3d86beffcaa60d3aa1bfcc47d7d16c69652e19f481d71c8fe258ccb938c1a99",
+      "datetime": 1794003253,
+      "summary": "Intuitive Surgical (NasdaqGS: ISRG) has appointed healthcare executive Aaron Martin to its board of directors, effective January 2027. Martin previously led Amazon Health Services and has held senior roles at Humana and Providence St. Joseph Health. His background spans digital health, telemedicine initiatives, and insurance operations across large US healthcare systems. There is more to assess at"
     },
     {
-      "headline": "2 Growth Stocks to Buy in November Without Any Hesitation",
+      "headline": "10x Genomics Launches Sentira AI Tool to Simplify Cell Analysis",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=48158e38d59ae2908eadc529946f93f96bf6a01a5f649f977fb29a4779dab1c7",
-      "datetime": 1793900040,
-      "summary": "They have both outperformed the broader equity market over the long run."
+      "url": "https://finnhub.io/api/news?id=d1f5046d2bcba35cd46448e47ee88d6bbade569adf14f7f72ac751bcbdf95d4a",
+      "datetime": 1793980440,
+      "summary": "TXG launches Sentira Single Cell, a Claude-powered AI tool to simplify complex data analysis, accelerate research and unlock recurring revenue potential."
     },
     {
-      "headline": "BDX Stock Down in Pre-Market Despite Q4 Earnings & Revenue Beat",
+      "headline": "Here's Why You Should Retain MMSI Stock in Your Portfolio for Now",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=15cf4bc37c4724026172bc93b933b0adc5ac5cfe5ade560f8f41cfda6ecf1430",
-      "datetime": 1793897100,
-      "summary": "BD stock lost 6.4% in pre-market trading despite Q4 earnings and revenue beat, as its subdued fiscal 2027 revenue growth outlook raises investor concerns."
+      "url": "https://finnhub.io/api/news?id=a746a31e9a93f68fd21f335d08e35747fd609f416eb5cdb29f82ae3c9be555d0",
+      "datetime": 1793979840,
+      "summary": "Merit Medical's strong product demand, innovation and acquisitions fuel growth, while tariffs, China market pressures and competition remain key challenges."
     },
     {
-      "headline": "GE HealthCare Unveils Allia Celeo to Advance Interventional Imaging",
+      "headline": "Reasons to Add HealthEquity Stock to Your Portfolio for Now",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=307024bcb8bef555f1ebb8b2c3f6cee9f4c70655ac6d165ab6ea69d8ab3e0b4e",
-      "datetime": 1793896020,
-      "summary": "GEHC's Allia Celeo launch expands its interventional imaging portfolio with AI-powered precision, flexible workflows and predictive service capabilities."
+      "url": "https://finnhub.io/api/news?id=9ffbdd3046d95a092d9cf531e4ca7d7902df7c84f407b1f673353e3c5499cb4a",
+      "datetime": 1793977500,
+      "summary": "HQY's strong HSA growth, AI-driven efficiencies and raised fiscal 2027 outlook support momentum, though cybersecurity risks remain a concern."
     },
     {
-      "headline": "CAH Q1 Earnings & Revenues Beat Estimates on Pharma Strength",
+      "headline": "SOLV Q3 Earnings Beat Estimates Despite ERP-Related Revenues Decline",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=29102baac33e85fdbd7651d9e577e8ad9a9e4b38e6a9d3d2e465caca92724705",
-      "datetime": 1793895360,
-      "summary": "Cardinal Health beats Q1 FY27 earnings and revenue estimates, fueled by pharmaceutical sales growth, and raises its full-year earnings outlook."
+      "url": "https://finnhub.io/api/news?id=1d90c6753032608e22aa9e9d1a641a5bb3ba45fa449bff61e1b10b3f98bf9bce",
+      "datetime": 1793977320,
+      "summary": "Solventum beats Q3 earnings estimates despite an ERP-driven revenue decline, raises its 2026 EPS outlook and advances its portfolio transformation."
     },
     {
-      "headline": "STE Stock Up on Q2 Earnings & Revenue Beat, '27 EPS View Up",
+      "headline": "Mettler-Toledo Stock Up on Q3 Earnings & Revenue Beat, '26 View Up",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=43a55517b1660581815d04dc70cbf01ebd4209e1cb8c74277da84661743901b7",
-      "datetime": 1793883300,
-      "summary": "STERIS beats Q2 fiscal 2027 earnings and revenue estimates, fueled by strong segment growth and margin gains, and raises its full-year adjusted EPS outlook."
+      "url": "https://finnhub.io/api/news?id=95f1db351ceb140653115e2a3bece04d349e620cdca5a6732ebd12ffb13eae63",
+      "datetime": 1793970480,
+      "summary": "MTD beats Q3 earnings and revenue estimates on strong Asian demand, expands margins and raises its 2026 outlook while projecting growth for 2027."
     }
   ],
   "filings": [
@@ -129,7 +129,7 @@
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 1.87,
+      "value": 1.88,
       "read": "Above-average volume"
     },
     "mfi14": {
