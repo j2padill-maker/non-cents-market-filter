@@ -3521,6 +3521,13 @@ function setScreenerHeight() {
   const rect = wrap.getBoundingClientRect();
   const available = window.innerHeight - rect.top - 16;
   wrap.style.maxHeight = Math.max(available, 200) + 'px';
+  // Trim whatever still spills past the window (page padding below the table)
+  // so the whole page fits exactly and the browser drops the useless
+  // page-level scrollbar on this tab. The table keeps its own scrollbar.
+  const over = document.documentElement.scrollHeight - window.innerHeight;
+  if (over > 0 && available - over >= 200) {
+    wrap.style.maxHeight = (available - over) + 'px';
+  }
 }
 window.addEventListener('resize', setScreenerHeight);
 
