@@ -70,11 +70,9 @@ def update_in_progress():
     lock = LOG_DIR / "update.lock"
     if lock.exists() and (time.time() - lock.stat().st_mtime) / 60 < LOCK_MAX_MIN:
         return True
-    newest = max(LOG_DIR.glob("update_*.log"), key=lambda p: p.stat().st_mtime, default=None)
-    if newest is None:
-        return False
-    age_min = (time.time() - newest.stat().st_mtime) / 60
-    return age_min < BUSY_MIN
+    # The lock is the only signal now. The old "log written recently" check
+    # misfired right after a run FINISHED and logged "already running".
+    return False
 
 
 def last_remote_update():
