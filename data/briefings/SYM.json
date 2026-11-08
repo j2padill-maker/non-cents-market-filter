@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-06T17:27:32.819411-08:00",
+  "generated_at": "2026-11-07T16:51:41.538136-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-05",
+  "data_asof": "2026-11-06",
   "price": {
-    "last": 35.04,
-    "open": 37.41,
-    "prev_close": 37.51,
-    "move_day_pct": -6.58,
-    "move_open_close_pct": -6.34,
-    "move_week_pct": -6.31
+    "last": 36.82,
+    "open": 36.06,
+    "prev_close": 35.04,
+    "move_day_pct": 5.08,
+    "move_open_close_pct": 2.11,
+    "move_week_pct": -2.93
   },
   "indicators": {
     "rsi14": {
-      "value": 33.8,
-      "read": "Oversold"
+      "value": 41.6,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": -1.352,
-      "signal": -1.066,
-      "hist": -0.286,
-      "hist_prev": -0.17,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -1.342,
+      "signal": -1.121,
+      "hist": -0.221,
+      "hist_prev": -0.286,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 42.42,
-      "lower": 35.51,
-      "mid": 38.96,
-      "pctb": -0.068,
-      "read": "Below the lower band \u2014 stretched to the downside"
+      "upper": 41.81,
+      "lower": 35.54,
+      "mid": 38.67,
+      "pctb": 0.205,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 0.0,
-      "read": "Sitting right at its 52-week low"
+      "value": 5.08,
+      "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -59.86,
-      "read": "60% below its 52-week high"
+      "value": -57.82,
+      "read": "58% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 47.52,
-      "pct": -26.26,
-      "read": "26% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 47.39,
+      "pct": -22.3,
+      "read": "22% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 2.2,
-      "pct_of_price": 6.26,
+      "value": 2.19,
+      "pct_of_price": 5.94,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.8,
-      "read": "Above-average volume"
+      "value": 0.74,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 36.3,
+      "value": 41.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 35.04,
   "high_52w": 87.3,
-  "ma50": 41.01,
-  "ma200": 47.52
+  "ma50": 40.92,
+  "ma200": 47.39
 }

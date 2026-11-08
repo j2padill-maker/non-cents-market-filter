@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-06T17:27:30.911128-08:00",
+  "generated_at": "2026-11-07T16:51:39.594224-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Is Intuitive Surgical's Next Big Thing Already Here?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=565abe922a38cf0e4ae1f621d5a6ec89e9641576353b2458fb817ef6d5c97fc6",
+      "datetime": 1794046140,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
+    },
+    {
+      "headline": "Hims & Hers Health vs. Intuitive Surgical: Which Healthcare Stock Is a Better Buy for 2027?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f26cba8cde51514add0970676dc8872e4b0bde66d76d3bb4a41f53aec9e09079",
+      "datetime": 1794021902,
+      "summary": "Both are disruptors, but one of these growth stocks stands out over the other."
+    },
+    {
+      "headline": "How Earnings Upgrades At Intuitive Surgical Stock Have Changed Its Investment Story",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=2f9b69562011a7dd9f53332168bc4f073d669c859e32e8114e8c8648d23233dc",
+      "datetime": 1794010300,
+      "summary": "Intuitive Surgical recently added Aaron Martin, currently President of Insurance at Humana and former Amazon healthcare executive, to its board, expanding the board from 10 to 11 directors effective January 1, 2027. Martin\u2019s mix of telehealth, payer, and health system experience directly connects Intuitive Surgical\u2019s robotics platform to real world reimbursement, digital care delivery, and hospita"
+    },
     {
       "headline": "What Should Investors Watch After Intuitive Surgical (ISRG) Added Aaron Martin To Its Board?",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=a746a31e9a93f68fd21f335d08e35747fd609f416eb5cdb29f82ae3c9be555d0",
       "datetime": 1793979840,
       "summary": "Merit Medical's strong product demand, innovation and acquisitions fuel growth, while tariffs, China market pressures and competition remain key challenges."
-    },
-    {
-      "headline": "Reasons to Add HealthEquity Stock to Your Portfolio for Now",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9ffbdd3046d95a092d9cf531e4ca7d7902df7c84f407b1f673353e3c5499cb4a",
-      "datetime": 1793977500,
-      "summary": "HQY's strong HSA growth, AI-driven efficiencies and raised fiscal 2027 outlook support momentum, though cybersecurity risks remain a concern."
-    },
-    {
-      "headline": "SOLV Q3 Earnings Beat Estimates Despite ERP-Related Revenues Decline",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=1d90c6753032608e22aa9e9d1a641a5bb3ba45fa449bff61e1b10b3f98bf9bce",
-      "datetime": 1793977320,
-      "summary": "Solventum beats Q3 earnings estimates despite an ERP-driven revenue decline, raises its 2026 EPS outlook and advances its portfolio transformation."
-    },
-    {
-      "headline": "Mettler-Toledo Stock Up on Q3 Earnings & Revenue Beat, '26 View Up",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=95f1db351ceb140653115e2a3bece04d349e620cdca5a6732ebd12ffb13eae63",
-      "datetime": 1793970480,
-      "summary": "MTD beats Q3 earnings and revenue estimates on strong Asian demand, expands margins and raises its 2026 outlook while projecting growth for 2027."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-05",
+  "data_asof": "2026-11-06",
   "price": {
-    "last": 468.52,
-    "open": 482.88,
-    "prev_close": 482.1,
-    "move_day_pct": -2.82,
-    "move_open_close_pct": -2.97,
-    "move_week_pct": 4.4
+    "last": 452.8,
+    "open": 457.0,
+    "prev_close": 468.52,
+    "move_day_pct": -3.36,
+    "move_open_close_pct": -0.92,
+    "move_week_pct": 4.81
   },
   "indicators": {
     "rsi14": {
-      "value": 64.8,
-      "read": "Firm \u2014 approaching overbought"
+      "value": 57.2,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": 14.14,
-      "signal": 12.607,
-      "hist": 1.533,
-      "hist_prev": 1.009,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "macd": 13.435,
+      "signal": 12.772,
+      "hist": 0.663,
+      "hist_prev": 1.533,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 470.48,
-      "lower": 408.98,
-      "mid": 439.73,
-      "pctb": 0.968,
-      "read": "Near the upper band"
+      "upper": 471.53,
+      "lower": 410.82,
+      "mid": 441.17,
+      "pctb": 0.692,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 41.11,
-      "read": "41% above its 52-week low"
+      "value": 36.38,
+      "read": "36% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -20.97,
-      "read": "21% below its 52-week high"
+      "value": -23.62,
+      "read": "24% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 431.56,
-      "pct": 8.56,
-      "read": "9% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 431.2,
+      "pct": 5.01,
+      "read": "5% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 15.78,
-      "pct_of_price": 3.37,
+      "value": 15.94,
+      "pct_of_price": 3.52,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 1.88,
-      "read": "Above-average volume"
+      "value": 0.86,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 58.4,
+      "value": 53.1,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 332.02,
   "high_52w": 592.85,
-  "ma50": 408.22,
-  "ma200": 431.56
+  "ma50": 409.93,
+  "ma200": 431.2
 }

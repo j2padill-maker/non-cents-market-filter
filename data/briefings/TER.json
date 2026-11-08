@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-06T17:27:34.690168-08:00",
+  "generated_at": "2026-11-07T16:51:43.689439-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "FormFactor\u2019s $300 Million Vote of Confidence from Teradyne Suggests Billionaires Are Right",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=aa54907957ac13bff9b51ef0b33791925cb3792473cdddd738cfb0e69cdb97ca",
+      "datetime": 1794079102,
+      "summary": "We just published the list of 10 Best Memory Stocks to Buy According to Billionaires and FormFactor Inc (NASDAQ:FORM) ranked 7th on the list. In the first half of the year, memory was the hottest AI trade. Hyperscalers poured billions of dollars into data centers where high-bandwidth memory was one of the tightest bottlenecks in [\u2026]"
+    },
+    {
+      "headline": "What Just Lifted Lam Research Stock?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d85e266727d069aea615299ee2586ec948bdb7781c6d3902db0020a7fccaee6b",
+      "datetime": 1794055792,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
+    },
     {
       "headline": "What Is The True Hidden Price Of Lam Research Stock?",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=616376f59e8341143f45536a15aa336dac1054a7c236b808e33da94cb7a35e62",
       "datetime": 1793910000,
       "summary": "The tech selloff is presenting compelling buying opportunities in these four Strong Buy stocks that are benefiting from booming demand for AI infrastructure and semiconductors."
-    },
-    {
-      "headline": "Chip Stocks Just Had Their Worst Day Since 2020: 28 of 30 Biggest Names Are in a Bear Market",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=07afc0d5d5fec577ce56c2cdc10d55d88227160c29216e556ef6803fb331a6ad",
-      "datetime": 1793906208,
-      "summary": "Chip stocks posted their worst day since March 2020 as 28 of the 30 stocks in the iShares Semiconductor ETF now trade at least 20% below record highs."
-    },
-    {
-      "headline": "Applied Materials Sinks 12%, Lam Research Down 14% as Chip Stock Rout Deepens After Midterms",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5db09675ebe4fefdea33cf21acdc3422be3945f0b8e147e3e859392e89b0f576",
-      "datetime": 1793902000,
-      "summary": "Key TakeawaysApplied Materials fell 12% today as the chip sell-off that began after the midterms deepened, pulling down Lam Research, KLA and Teradyne. Investors fear data-center spending will slow, and Qualcomm\u2019s weak guidance didn\u2019t help."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-05",
+  "data_asof": "2026-11-06",
   "price": {
-    "last": 212.74,
-    "open": 242.05,
-    "prev_close": 250.99,
-    "move_day_pct": -15.24,
-    "move_open_close_pct": -12.11,
-    "move_week_pct": -28.18
+    "last": 218.22,
+    "open": 231.73,
+    "prev_close": 212.74,
+    "move_day_pct": 2.58,
+    "move_open_close_pct": -5.83,
+    "move_week_pct": -20.47
   },
   "indicators": {
     "rsi14": {
-      "value": 22.2,
+      "value": 24.3,
       "read": "Extremely oversold"
     },
     "macd": {
-      "macd": -35.02,
-      "signal": -25.207,
-      "hist": -9.813,
-      "hist_prev": -7.85,
+      "macd": -37.644,
+      "signal": -27.695,
+      "hist": -9.949,
+      "hist_prev": -9.813,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 409.8,
-      "lower": 224.23,
-      "mid": 317.01,
-      "pctb": -0.062,
-      "read": "Below the lower band \u2014 stretched to the downside"
+      "upper": 401.35,
+      "lower": 214.23,
+      "mid": 307.79,
+      "pctb": 0.021,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 36.72,
-      "read": "37% above its 52-week low"
+      "value": 40.25,
+      "read": "40% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -56.01,
-      "read": "56% below its 52-week high"
+      "value": -54.88,
+      "read": "55% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 349.77,
-      "pct": -39.18,
-      "read": "39% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 349.72,
+      "pct": -37.6,
+      "read": "38% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 22.82,
-      "pct_of_price": 10.73,
+      "value": 22.8,
+      "pct_of_price": 10.45,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 3.11,
-      "read": "Heavy volume \u2014 well above average"
+      "value": 1.43,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 27.2,
+      "value": 21.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 155.6,
   "high_52w": 483.65,
-  "ma50": 354.67,
-  "ma200": 349.77
+  "ma50": 351.59,
+  "ma200": 349.72
 }

@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-06T17:27:29.324860-08:00",
+  "generated_at": "2026-11-07T16:51:37.143436-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -24,6 +24,13 @@
       "summary": "Get the latest dividend activity for Dividend Champions, Contenders, and Challengers. Read this week's list here."
     },
     {
+      "headline": "Stephens & Co. Maintains Overweight on Cognex, Lowers Price Target to $70",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=71eb7217c608c59dd6ec5459b12e08e0fd8e5041f6c16dfa118f7e933d2dcd09",
+      "datetime": 1793983592,
+      "summary": "Stephens &amp; Co.  analyst Tommy Moll   maintains Cognex (NASDAQ:CGNX) with a Overweight and lowers the price target from $85 to $70."
+    },
+    {
       "headline": "CGNX Q3 Earnings Call Highlights Outlook and Margin Expansion",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=47b0ce9a1b30adbe4dbd831895a80e474d2f65b7b05e92e0e1d4e4beb9a49de4",
@@ -31,32 +38,25 @@
       "summary": "Cognex beats Q3 earnings estimates, raises its 2026 outlook and targets further margin expansion as logistics demand strengthens and RealSense adds growth opportunities."
     },
     {
+      "headline": "Truist Securities Maintains Hold on Cognex, Lowers Price Target to $57",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=69fa4a68d435f19e5d91096743426bee7fe7e9b1c6ed51be2319b7401aa73210",
+      "datetime": 1793973281,
+      "summary": "Truist Securities  analyst Jamie Cook   maintains Cognex (NASDAQ:CGNX) with a Hold and lowers the price target from $74 to $57."
+    },
+    {
+      "headline": "Keybanc Maintains Overweight on Cognex, Lowers Price Target to $65",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=60bde22d81abb9e2a90b3161f9286c9c601679e27f550dea71111b58aeeaf7c2",
+      "datetime": 1793959967,
+      "summary": "Keybanc  analyst Ken Newman   maintains Cognex (NASDAQ:CGNX) with a Overweight and lowers the price target from $80 to $65."
+    },
+    {
       "headline": "Needham Maintains Buy on Cognex, Lowers Price Target to $70",
       "source": "Benzinga",
       "url": "https://finnhub.io/api/news?id=3abb6beff3f57b7d00d307bb2b4ac6f0d3d527396b976fee8c563dcb3433d510",
       "datetime": 1793946605,
       "summary": "Needham  analyst Robert Jamieson   maintains Cognex (NASDAQ:CGNX) with a Buy and lowers the price target from $80 to $70."
-    },
-    {
-      "headline": "Cognex Corp (CGNX) (Q3 2026) Earnings Call Highlights: Record Revenue, 1,340 Basis Point Margin ...",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b4512a2838f96559e628bb188e080ef295f7bc4704198e29d577de6679faad60",
-      "datetime": 1793920755,
-      "summary": "Cognex Corp (CGNX) posts record Q3 revenue of $313 million and record EPS of $0.53, with broad-based growth across four of five end markets and a ninth straight quarter of margin expansion."
-    },
-    {
-      "headline": "Cognex (CGNX) Q3 2026 Earnings Call Transcript",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2425d80ef5476815a2f52d9a24bd1071eb4475c27f3dbb8da64134d5166e9045",
-      "datetime": 1793906089,
-      "summary": "Record revenue and margins as AI and semiconductor demand surge across markets."
-    },
-    {
-      "headline": "Cognex Q3 Earnings Call Highlights",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2bc257dacd96661ee06680dccdbeba9678495e636bad525d8246dd5abcd4335b",
-      "datetime": 1793906081,
-      "summary": "Cognex (NASDAQ:CGNX) reported record third-quarter revenue and raised its full-year 2026 outlook, citing broad-based demand, stronger logistics growth and cost controls. The machine vision company also said it expects its acquisition of RealSense to close in the fourth quarter. Revenue rose 19% yea"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-05",
+  "data_asof": "2026-11-06",
   "price": {
-    "last": 47.5,
-    "open": 50.39,
-    "prev_close": 53.06,
-    "move_day_pct": -10.48,
-    "move_open_close_pct": -5.74,
-    "move_week_pct": -19.45
+    "last": 47.78,
+    "open": 48.95,
+    "prev_close": 47.5,
+    "move_day_pct": 0.59,
+    "move_open_close_pct": -2.39,
+    "move_week_pct": -14.91
   },
   "indicators": {
     "rsi14": {
-      "value": 31.2,
+      "value": 31.9,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -1.821,
-      "signal": -1.231,
-      "hist": -0.59,
-      "hist_prev": -0.086,
+      "macd": -2.288,
+      "signal": -1.443,
+      "hist": -0.846,
+      "hist_prev": -0.59,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 63.14,
-      "lower": 50.29,
-      "mid": 56.71,
-      "pctb": -0.217,
+      "upper": 62.83,
+      "lower": 49.08,
+      "mid": 55.96,
+      "pctb": -0.095,
       "read": "Below the lower band \u2014 stretched to the downside"
     },
     "pct_from_52w_low": {
-      "value": 37.07,
-      "read": "37% above its 52-week low"
+      "value": 37.88,
+      "read": "38% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -34.32,
+      "value": -33.93,
       "read": "34% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 58.06,
-      "pct": -18.19,
+      "ma200": 58.09,
+      "pct": -17.75,
       "read": "18% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 3.26,
-      "pct_of_price": 6.86,
+      "value": 3.19,
+      "pct_of_price": 6.68,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 2.73,
-      "read": "Heavy volume \u2014 well above average"
+      "value": 1.85,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 56.8,
+      "value": 48.1,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 34.65,
   "high_52w": 72.32,
-  "ma50": 59.36,
-  "ma200": 58.06
+  "ma50": 59.05,
+  "ma200": 58.09
 }

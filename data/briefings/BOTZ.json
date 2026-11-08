@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-06T17:27:36.477252-08:00",
+  "generated_at": "2026-11-07T16:51:45.610557-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -63,63 +63,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-05",
+  "data_asof": "2026-11-06",
   "price": {
-    "last": 30.64,
-    "open": 32.01,
-    "prev_close": 32.81,
-    "move_day_pct": -6.61,
-    "move_open_close_pct": -4.28,
-    "move_week_pct": -8.32
+    "last": 31.05,
+    "open": 30.97,
+    "prev_close": 30.64,
+    "move_day_pct": 1.34,
+    "move_open_close_pct": 0.26,
+    "move_week_pct": -3.63
   },
   "indicators": {
     "rsi14": {
-      "value": 29.1,
-      "read": "Extremely oversold"
+      "value": 33.0,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -0.814,
-      "signal": -0.654,
-      "hist": -0.161,
-      "hist_prev": -0.056,
+      "macd": -0.886,
+      "signal": -0.7,
+      "hist": -0.186,
+      "hist_prev": -0.161,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 35.47,
-      "lower": 31.21,
-      "mid": 33.34,
-      "pctb": -0.133,
-      "read": "Below the lower band \u2014 stretched to the downside"
+      "upper": 35.23,
+      "lower": 31.0,
+      "mid": 33.12,
+      "pctb": 0.011,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 0.0,
+      "value": 1.34,
       "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -26.36,
-      "read": "26% below its 52-week high"
+      "value": -25.38,
+      "read": "25% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 36.46,
-      "pct": -15.96,
-      "read": "16% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 36.43,
+      "pct": -14.77,
+      "read": "15% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.77,
-      "pct_of_price": 2.5,
+      "value": 0.75,
+      "pct_of_price": 2.43,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 2.82,
-      "read": "Heavy volume \u2014 well above average"
+      "value": 1.62,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 57.4,
+      "value": 50.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 30.64,
   "high_52w": 41.61,
-  "ma50": 34.59,
-  "ma200": 36.46
+  "ma50": 34.49,
+  "ma200": 36.43
 }

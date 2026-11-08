@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-06T17:27:25.211578-08:00",
+  "generated_at": "2026-11-07T16:51:31.681290-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "Cloudflare, Inc. (NET) Q3 2026 Earnings Call Transcript",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=210c35c7fef2258251bb5727dd1a339fb79d2843aa4447545912a40441a18503",
+      "datetime": 1794054275,
+      "summary": "Cloudflare, Inc. (NET) Q3 2026 Earnings Call November 5, 2026 5:00 PM ESTCompany ParticipantsPhilip Winslow - Vice President of Strategic Finance, Treasury..."
+    },
+    {
+      "headline": "Jefferies Maintains Hold on Cloudflare, Lowers Price Target to $315",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=6ef7f72d95ea7dd881553418884a226b72baf65384c9d2586a70f231943b943d",
+      "datetime": 1793996972,
+      "summary": "Jefferies  analyst Joseph Gallo   maintains Cloudflare (NYSE:NET) with a Hold and lowers the price target from $320 to $315."
+    },
+    {
+      "headline": "JP Morgan Maintains Overweight on Cloudflare, Raises Price Target to $375",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=71f71aea948ae398a532891140756d983ffdc3ceca288fc554a12a3223eaf550",
+      "datetime": 1793990522,
+      "summary": "JP Morgan  analyst Samik Chatterjee   maintains Cloudflare (NYSE:NET) with a Overweight and raises the price target from $350 to $375."
+    },
+    {
+      "headline": "Scotiabank Maintains Sector Outperform on Cloudflare, Lowers Price Target to $360",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=d0b34b06dada082221c6bd4373f9c0f8f41c37025ff8082a5ab9367aa5d610c4",
+      "datetime": 1793975312,
+      "summary": "Scotiabank  analyst Patrick Colville   maintains Cloudflare (NYSE:NET) with a Sector Outperform and lowers the price target from $390 to $360."
+    },
+    {
+      "headline": "RBC Capital Maintains Outperform on Cloudflare, Lowers Price Target to $350",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=bc1b8bd767e38c98a2406fda52bb6e76231fb75e07b560a80ed125b7329c3129",
+      "datetime": 1793974346,
+      "summary": "RBC Capital  analyst Matthew Hedberg   maintains Cloudflare (NYSE:NET) with a Outperform and lowers the price target from $405 to $350."
+    },
+    {
       "headline": "Premarket Movers Nov. 6: DBGI and CIIT Rebound, FEAM and EFXT Slide",
       "source": "ChartMill",
       "url": "https://finnhub.io/api/news?id=0a9b74e80e7627c6d8af04b81889f73f9ac67a7f507669ac2f44c0bfe2bcf581",
       "datetime": 1793971831,
       "summary": "Nov. 6 premarket movers: DBGI, CIIT and RCT led gainers while FEAM, EFXT and BDMD fell, as low-priced names rebounded and larger companies faced pressure."
-    },
-    {
-      "headline": "Keybanc Reiterates Overweight on Cloudflare, Maintains $375 Price Target",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=99ac6688547112e0b7f1885da5dbb7a6fa0778cc8307ddce60f7d75c646569e5",
-      "datetime": 1793960356,
-      "summary": "Keybanc  analyst Jackson Ader   reiterates Cloudflare (NYSE:NET) with a Overweight and maintains $375 price target."
-    },
-    {
-      "headline": "Piper Sandler Reiterates Overweight on Cloudflare, Raises Price Target to $337",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=1f27eedd374e1727c36cfe6d8658730b1f3a6ffbf0da3798e6a0685c3ea0b265",
-      "datetime": 1793959898,
-      "summary": "Piper Sandler  analyst James Fish   reiterates Cloudflare (NYSE:NET) with a Overweight and raises the price target from $333 to $337."
-    },
-    {
-      "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Mixed as October Jobs Rose by 165,000\u2014 Airbnb, Cloudflare, Lam Research in Focus (UPDATED)",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=35f9bc5469afcfe8a619e696314bbfdefed6d667ff9d05763f70d7a93d76c6f5",
-      "datetime": 1793957973,
-      "summary": "U.S. stocks were mixed on Friday, with the Dow Jones, S&amp;P 500, and Nasdaq 100 index futures moving in different directions."
-    },
-    {
-      "headline": "Guggenheim Maintains Sell on Cloudflare, Raises Price Target to $190",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=8db86756d7e0427a6972b708f1a98026a737a07d43024d97656604b7271150a2",
-      "datetime": 1793957768,
-      "summary": "Guggenheim  analyst John Difucci   maintains Cloudflare (NYSE:NET) with a Sell and raises the price target from $160 to $190."
-    },
-    {
-      "headline": "Cloudflare Shares Power Higher Friday: What's Going On?",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=57dbb320d6897039918a6357cbde535c4437ec918e284c2bdf8759ebe05a6380",
-      "datetime": 1793956916,
-      "summary": "Cloudflare shares are trading higher Friday after it reported a Q3 beat, issued Q4 guidance above estimates, and raised its FY26 outlook."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-05",
+  "data_asof": "2026-11-06",
   "price": {
-    "last": 244.51,
-    "open": 251.53,
-    "prev_close": 266.58,
-    "move_day_pct": -8.28,
-    "move_open_close_pct": -2.79,
-    "move_week_pct": -21.2
+    "last": 268.75,
+    "open": 286.97,
+    "prev_close": 244.51,
+    "move_day_pct": 9.91,
+    "move_open_close_pct": -6.35,
+    "move_week_pct": -4.26
   },
   "indicators": {
     "rsi14": {
-      "value": 29.4,
-      "read": "Extremely oversold"
+      "value": 39.4,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -16.874,
-      "signal": -9.478,
-      "hist": -7.396,
-      "hist_prev": -6.167,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -17.16,
+      "signal": -11.015,
+      "hist": -6.145,
+      "hist_prev": -7.396,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 367.03,
-      "lower": 247.13,
-      "mid": 307.08,
-      "pctb": -0.022,
-      "read": "Below the lower band \u2014 stretched to the downside"
+      "upper": 359.24,
+      "lower": 245.7,
+      "mid": 302.47,
+      "pctb": 0.203,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 52.64,
-      "read": "53% above its 52-week low"
+      "value": 67.77,
+      "read": "68% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -32.26,
-      "read": "32% below its 52-week high"
+      "value": -25.54,
+      "read": "26% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 249.77,
-      "pct": -2.11,
-      "read": "2% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 250.24,
+      "pct": 7.4,
+      "read": "7% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 19.74,
-      "pct_of_price": 8.07,
+      "value": 21.36,
+      "pct_of_price": 7.95,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 2.61,
+      "value": 2.69,
       "read": "Heavy volume \u2014 well above average"
     },
     "mfi14": {
-      "value": 41.7,
+      "value": 52.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 360.93,
-  "ma50": 319.0,
-  "ma200": 249.77
+  "ma50": 318.21,
+  "ma200": 250.24
 }

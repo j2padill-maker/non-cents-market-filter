@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-06T17:27:12.129101-08:00",
+  "generated_at": "2026-11-07T16:51:23.944911-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "3 AI Infrastructure Stocks Retail Investors Are Watching After The Global Selloff",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8603e2741f67c7e64b574e8f5c16fa9eb87d4632e174bad7e1d089936dab4a43",
+      "datetime": 1793999563,
+      "summary": "A sharp global selloff tied to AI regulation fears has rattled markets, but it has also thrown a spotlight on some of the biggest data centre and AI infrastructure stocks on the planet. When investors rush for the exit, strong businesses occasionally get marked down with everything else, creating moments that feel rare once the dust settles. This article explains how that shock ties into AI and da"
+    },
+    {
+      "headline": "MongoDB (MDB) Shares Dropped, So What Is Driving Attention Now?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e5682ec728f8835b5fd72985411e912925959ca4df28f619ba794378b0d917c7",
+      "datetime": 1793985607,
+      "summary": "MongoDB (MDB) has a firm date on the calendar. The company is set to report third quarter fiscal 2027 results on 1 December 2026, followed by a conference call outlining its business outlook. MongoDB\u2019s share price has retreated sharply ahead of the results, with a 1-day share price return of down 7.24% and a 30-day share price return of down 16.10%, contributing to a year-to-date share price retur"
+    },
+    {
+      "headline": "Why MongoDB (MDB) Could Beat Earnings Estimates Again",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=73a7702b6b60e20be572c046804f399e31646165863440657305249a46fa43be",
+      "datetime": 1793981401,
+      "summary": "MongoDB (MDB) has an impressive earnings surprise history and currently possesses the right combination of the two key ingredients for a likely beat in its next quarterly report."
+    },
     {
       "headline": "Best Growth Stocks to Buy for November 6th",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=e8e29aacb9e97b8b06ded83d34f9265af5ba6cd40ba24d4244db27fc81a9f112",
       "datetime": 1793887200,
       "summary": "MongoDB, Inc. (NASDAQ: MDB) will report its third quarter fiscal year 2027 financial results for the three months ended October 31, 2026, after the U.S. financial markets close on Tuesday, December 1, 2026."
-    },
-    {
-      "headline": "VictoriaMetrics Expands in North America as Spotify and MongoDB Use Its Open-Source Stack to Run Observability at Scale",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2e6f85fd94761babb8523d978ba9edb3c5818d07832451fe2708beed4b2b39df",
-      "datetime": 1793887200,
-      "summary": "SAN FRANCISCO, November 05, 2026--VictoriaMetrics, a provider of open-source observability solutions, today announced it\u2019s building momentum for its next phase of growth with a fast-growing open-source community, continued product innovation and expanding enterprise adoption. The company is increasing its investment in North America to bring its cost-efficient observability technology to more engi"
-    },
-    {
-      "headline": "TWLO Declines 12% Since Q3 Results: Is This a Buy-the-Dip Opportunity?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=966d98a392bd61fca1e150439979ba1d7d8a9acd1bddabeeed47622bade5edee",
-      "datetime": 1793886720,
-      "summary": "Twilio shares have lost 12% since Q3 results, but rising profits, record cash flow and AI opportunities are likely to make the recent dip an attractive buying opportunity."
-    },
-    {
-      "headline": "What Was Gen Digital Telling You Before Its Stock Ran?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=124ff3b0250035fed945b7bbc6e4962ef2b0730ed4f75319a22651f77ca5253a",
-      "datetime": 1793834763,
-      "summary": "For questions about this article or underlying research, email help@trefis.com."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-05",
+  "data_asof": "2026-11-06",
   "price": {
-    "last": 304.59,
-    "open": 319.21,
-    "prev_close": 328.38,
-    "move_day_pct": -7.24,
-    "move_open_close_pct": -4.58,
-    "move_week_pct": -20.88
+    "last": 312.83,
+    "open": 317.52,
+    "prev_close": 304.59,
+    "move_day_pct": 2.71,
+    "move_open_close_pct": -1.48,
+    "move_week_pct": -11.37
   },
   "indicators": {
     "rsi14": {
-      "value": 34.5,
+      "value": 37.4,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -11.884,
-      "signal": -5.588,
-      "hist": -6.296,
-      "hist_prev": -4.292,
+      "macd": -13.894,
+      "signal": -7.249,
+      "hist": -6.645,
+      "hist_prev": -6.296,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 411.54,
-      "lower": 313.33,
-      "mid": 362.43,
-      "pctb": -0.089,
-      "read": "Below the lower band \u2014 stretched to the downside"
+      "upper": 411.12,
+      "lower": 306.44,
+      "mid": 358.78,
+      "pctb": 0.061,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 34.8,
-      "read": "35% above its 52-week low"
+      "value": 38.45,
+      "read": "38% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -35.51,
-      "read": "36% below its 52-week high"
+      "value": -33.76,
+      "read": "34% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 336.42,
-      "pct": -9.46,
-      "read": "9% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 335.96,
+      "pct": -6.88,
+      "read": "7% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 23.53,
-      "pct_of_price": 7.72,
+      "value": 23.09,
+      "pct_of_price": 7.38,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.75,
-      "read": "Roughly average volume"
+      "value": 0.45,
+      "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 40.9,
+      "value": 39.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 375.91,
-  "ma200": 336.42
+  "ma50": 373.35,
+  "ma200": 335.96
 }

@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-06T17:27:39.130034-08:00",
+  "generated_at": "2026-11-07T16:51:48.492397-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Datadog And 2 Top Cybersecurity Stocks",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7eec6a0cd917806096d836ba0817e60b5608425ac325441f03d4fd06e7e9d6b9",
+      "datetime": 1793999715,
+      "summary": "Global stocks just suffered a sharp selloff as fears around an AI slowdown rippled through markets. When confidence in headline tech stories wobbles, attention often shifts to what keeps that digital world secure in the first place. Cybersecurity providers that protect data and networks are central to that discussion. This article highlights three stocks from a global security screener with high g"
+    },
+    {
+      "headline": "Zscaler Just Dropped 14% in a Week. Is It Time to Sell, or Load Up?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=625bdb97a491376d4d7148f05d41b664490968e9bac2e7125c379e785228214a",
+      "datetime": 1793997389,
+      "summary": "Key TakeawaysZscaler fell 9. 2% on Thursday to $204, down 14% in a week but still 78% above its June low, with 15% upside to the $235 average target."
+    },
+    {
+      "headline": "CrowdStrike Rebounds 2%, Palo Alto Up 2% as Cloudflare Finds \u201cAn Even Higher Gear\u201d",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=9beb91a7ef5931bfad97752b06611a9010789cb9e0a9e6e4db648a4eae0c65d9",
+      "datetime": 1793983175,
+      "summary": "Key TakeawaysCrowdStrike rose 2% today after Cloudflare reported 39% revenue growth and raised its full-year outlook. Cloudflare tied its growth to escalating digital threats, a good sign for security spending."
+    },
     {
       "headline": "Palo Alto Networks vs. Zscaler: Which Cybersecurity Stock Is a Better Buy Going Into 2027?",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=b8c9590d11b3131ed10099c3d4f727f98362921c8783a92f9b8e92c904c05c18",
       "datetime": 1793902736,
       "summary": "Key TakeawaysCrowdStrike shares fell 10% as investors sold off AI stocks, and the company had no news to explain the drop. Palo Alto Networks, Zscaler and Cloudflare fell with it, as the market sold cybersecurity as a group."
-    },
-    {
-      "headline": "CRWD Stock Plunges 13% in a Month: Should You Hold or Book Profits?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5890b28f6b0582b2c21639b00db1a0085121566f8e64372c9904ec638f1d7fd1",
-      "datetime": 1793887260,
-      "summary": "CrowdStrike shares plunge 13.4% in a month. Slowing revenue growth, premium valuation and rising competition raise concerns about CRWD's outlook."
-    },
-    {
-      "headline": "Zscaler to Host First Quarter Fiscal Year 2027 Earnings Conference Call",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a0ff10e88756d0625f1940a1e64692dd08d5bafc36253512ffdb95c3d41baa5c",
-      "datetime": 1793883600,
-      "summary": "SAN JOSE, Calif., Nov. 05, 2026 (GLOBE NEWSWIRE) -- Zscaler, Inc. (NASDAQ: ZS), the cybersecurity platform for the AI era, will release its first quarter fiscal year 2027 earnings after the market closes on Wednesday, December 2, 2026. The company will host an investor conference call that day at 1:30 p.m. Pacific Time (4:30 p.m. Eastern Time) to discuss the results. Date:Wednesday, December 2, 20"
-    },
-    {
-      "headline": "Can CrowdStrike Stock Rally 50% After This Dip?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3eedb5960ca0d87d4be1869074778d6026d244ad0e84cc0bcae93544f59bf416",
-      "datetime": 1793874922,
-      "summary": "For questions about this article or underlying research, email help@trefis.com."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-05",
+  "data_asof": "2026-11-06",
   "price": {
-    "last": 203.88,
-    "open": 216.62,
-    "prev_close": 224.44,
-    "move_day_pct": -9.16,
-    "move_open_close_pct": -5.88,
-    "move_week_pct": -17.73
+    "last": 197.66,
+    "open": 209.53,
+    "prev_close": 203.88,
+    "move_day_pct": -3.05,
+    "move_open_close_pct": -5.67,
+    "move_week_pct": -16.89
   },
   "indicators": {
     "rsi14": {
-      "value": 39.9,
+      "value": 37.5,
       "read": "Oversold"
     },
     "macd": {
-      "macd": 4.963,
-      "signal": 9.85,
-      "hist": -4.887,
-      "hist_prev": -3.145,
+      "macd": 2.088,
+      "signal": 8.298,
+      "hist": -6.21,
+      "hist_prev": -4.887,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 264.77,
-      "lower": 197.96,
-      "mid": 231.36,
-      "pctb": 0.089,
+      "upper": 266.02,
+      "lower": 193.1,
+      "mid": 229.56,
+      "pctb": 0.062,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 72.71,
-      "read": "73% above its 52-week low"
+      "value": 67.44,
+      "read": "67% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -38.46,
-      "read": "38% below its 52-week high"
+      "value": -40.34,
+      "read": "40% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 167.05,
-      "pct": 22.05,
-      "read": "22% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 167.0,
+      "pct": 18.36,
+      "read": "18% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 13.08,
-      "pct_of_price": 6.41,
+      "value": 13.1,
+      "pct_of_price": 6.63,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.07,
+      "value": 1.03,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 55.7,
+      "value": 54.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 118.05,
   "high_52w": 331.29,
-  "ma50": 207.81,
-  "ma200": 167.05
+  "ma50": 208.01,
+  "ma200": 167.0
 }
