@@ -1,0 +1,144 @@
+{
+  "ticker": "TPL",
+  "user_id": "local",
+  "session": "close",
+  "generated_at": "2026-11-10T16:44:50.881806-08:00",
+  "disclaimer": "Informational only. Not financial advice.",
+  "selected_indicators": [
+    "rsi14",
+    "macd",
+    "bollinger_pctb",
+    "pct_from_52w_low",
+    "pct_from_52w_high",
+    "price_vs_ma200",
+    "atr14",
+    "rel_volume",
+    "mfi14"
+  ],
+  "news": [
+    {
+      "headline": "Is Crescent Energy's Royalty Business Its Next Big Growth Engine?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7396bca749d2d16c3dcb91196f4e712c0c13f9608d85a0c097619ee9821b138e",
+      "datetime": 1794334380,
+      "summary": "CRGY's capital-light royalties business offers cash flow without drilling costs, while the Devon deal could bring a major boost in scale and output."
+    },
+    {
+      "headline": "10 Dividend Growth Stocks: November 2026",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=c67b9a47ea6c615bf0d5bc6fdcfed3bbde147a7a6f6be7a86125a9b7340981eb",
+      "datetime": 1794301203,
+      "summary": "Analyst sees TPL as the only top-10 dividend growth pick for a new position; all 10 returned 12%+ over five years and trade at or below fair value. See more here."
+    },
+    {
+      "headline": "Texas Pacific Land Corporation 2026 Q3 - Results - Earnings Call Presentation",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=f7f6f550fa77f5f8fa6a49daff1cffd7ac6504ca2ee8a1afedc52a5a4409de39",
+      "datetime": 1794272533,
+      "summary": "2026-11-10. The following slide deck was published by Texas Pacific Land Corporation in conjunction with their 2026 Q3 earnings call."
+    },
+    {
+      "headline": "5 revealing analyst questions from Texas Pacific Land\u2019s Q3 2026 earnings call",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=56e4cdc36f72b6465bf09cdc1444ca7294c7bfba28efd65aa951d0ce632b0e53",
+      "datetime": 1794203376,
+      "summary": "Texas Pacific Land\u2019s latest quarter reflected continued momentum from robust Permian Basin activity, with management citing record oil and gas royalty production and expanding infrastructure demand as key drivers of double-digit revenue growth. CEO Ty Glover attributed these results to \u201ccontinued strong development activity across our royalty acreage, supportive commodity price realizations, incre"
+    },
+    {
+      "headline": "Texas Pacific Land Corp (TPL) (Q3 2026) Earnings Call Highlights: Record Revenue, Net Income, ...",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f6a8615087b55b9f1f213e3317bb652b3fbb1cf0235b43034dbc41402f70d703",
+      "datetime": 1794164682,
+      "summary": "Texas Pacific Land Corp (TPL) posted record quarterly revenue of $273 million, up 35% year-over-year, with oil production reaching a record 17,100 barrels per day and adjusted EBITDA margin of 87%."
+    },
+    {
+      "headline": "Texas Pacific Land Q3 Earnings Call Highlights",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8ffb339f51b9991ca2d6219867ddaa8b04ea3a8bd5bbb9a012e0a3bf8993b23f",
+      "datetime": 1794150862,
+      "summary": "Texas Pacific Land (NYSE:TPL) reported record third-quarter revenue, net income and free cash flow, as higher oil and gas production, elevated commodity prices and increased water and infrastructure revenue supported its results. Revenue rose 35% from a year earlier to $273 million, while net incom"
+    }
+  ],
+  "filings": [
+    {
+      "form": "10-Q",
+      "title": "Quarterly report (10-Q)",
+      "date": "2026-11-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1811074/000181107426000077/tpl-20260930.htm"
+    },
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-11-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1811074/000181107426000075/tpl-20261104.htm"
+    },
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-09-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/1811074/000110465926111009/tm2626094d1_8k.htm"
+    }
+  ],
+  "script_text": null,
+  "audio_cached": false,
+  "status": "ok",
+  "data_asof": "2026-11-10",
+  "price": {
+    "last": 274.63,
+    "open": 273.56,
+    "prev_close": 278.28,
+    "move_day_pct": -1.31,
+    "move_open_close_pct": 0.39,
+    "move_week_pct": -17.28
+  },
+  "indicators": {
+    "rsi14": {
+      "value": 25.7,
+      "read": "Extremely oversold"
+    },
+    "macd": {
+      "macd": -18.959,
+      "signal": -12.641,
+      "hist": -6.318,
+      "hist_prev": -6.623,
+      "read": "Bearish \u2014 MACD below signal"
+    },
+    "bollinger_pctb": {
+      "upper": 377.97,
+      "lower": 267.79,
+      "mid": 322.88,
+      "pctb": 0.062,
+      "read": "Near the lower band"
+    },
+    "pct_from_52w_low": {
+      "value": 0.9,
+      "read": "Sitting right at its 52-week low"
+    },
+    "pct_from_52w_high": {
+      "value": -48.96,
+      "read": "49% below its 52-week high"
+    },
+    "price_vs_ma200": {
+      "ma200": 399.21,
+      "pct": -31.21,
+      "read": "31% below its 200-day average \u2014 long-term downtrend"
+    },
+    "atr14": {
+      "value": 15.85,
+      "pct_of_price": 5.77,
+      "read": "High daily volatility"
+    },
+    "rel_volume": {
+      "value": 1.27,
+      "read": "Roughly average volume"
+    },
+    "mfi14": {
+      "value": 29.6,
+      "read": "Neutral money flow"
+    }
+  },
+  "low_52w": 272.18,
+  "high_52w": 538.1,
+  "ma50": 342.11,
+  "ma200": 399.21
+}

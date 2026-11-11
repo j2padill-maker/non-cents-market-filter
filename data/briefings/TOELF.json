@@ -2,7 +2,7 @@
   "ticker": "TOELF",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-07T16:51:28.855231-08:00",
+  "generated_at": "2026-11-10T16:44:27.106428-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Asian stocks rise after technology shares advance on Wall Street",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=0ae706b0584b0bc2ccce2ece51ee28315a968745b83328e3b93485db53c3533e",
+      "datetime": 1794282261,
+      "summary": "HONG KONG (AP) \u2014 Asian stocks advanced Tuesday after U. stocks rallied, recovering most of their big losses from last week."
+    },
     {
       "headline": "Shares advance after Wall Street rally following US midterm elections",
       "source": "Yahoo",
@@ -35,63 +42,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-06",
+  "data_asof": "2026-11-10",
   "price": {
-    "last": 53.45,
-    "open": 54.43,
-    "prev_close": 49.52,
-    "move_day_pct": 7.94,
-    "move_open_close_pct": -1.8,
-    "move_week_pct": -14.15
+    "last": 56.0,
+    "open": 56.75,
+    "prev_close": 57.92,
+    "move_day_pct": -3.31,
+    "move_open_close_pct": -1.32,
+    "move_week_pct": -8.94
   },
   "indicators": {
     "rsi14": {
-      "value": 34.1,
+      "value": 39.8,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -3.833,
-      "signal": -2.838,
-      "hist": -0.995,
-      "hist_prev": -0.891,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -3.723,
+      "signal": -3.154,
+      "hist": -0.568,
+      "hist_prev": -0.697,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 74.76,
-      "lower": 51.41,
-      "mid": 63.09,
-      "pctb": 0.087,
-      "read": "Near the lower band"
+      "upper": 70.4,
+      "lower": 52.21,
+      "mid": 61.31,
+      "pctb": 0.208,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 45.26,
-      "read": "45% above its 52-week low"
+      "value": 52.2,
+      "read": "52% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -44.22,
-      "read": "44% below its 52-week high"
+      "value": -41.56,
+      "read": "42% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 64.24,
-      "pct": -16.8,
-      "read": "17% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 64.3,
+      "pct": -12.91,
+      "read": "13% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 4.48,
-      "pct_of_price": 8.39,
+      "value": 4.35,
+      "pct_of_price": 7.77,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.21,
+      "value": 0.04,
       "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 42.3,
+      "value": 56.6,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 36.79,
   "high_52w": 95.82,
-  "ma50": 67.59,
-  "ma200": 64.24
+  "ma50": 67.19,
+  "ma200": 64.3
 }

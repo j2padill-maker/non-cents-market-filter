@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-07T16:51:23.944911-08:00",
+  "generated_at": "2026-11-10T16:44:08.951119-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "This MongoDB Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Tuesday",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=cae6cddbeece383d86dce69b7e8f5a149e32429d608bd78642c46f935bb55898",
+      "datetime": 1794303108,
+      "summary": "Analysts initiated coverage on Mentari, MongoDB, Comfort Systems and Ross Stores; City Therapeutics received an early-stage biotech rating."
+    },
+    {
+      "headline": "BTIG Initiates Coverage On MongoDB with Buy Rating, Announces Price Target of $417",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=1f718fcadb35cfe15c5b4efb9f563c32f0f4af55ffc1e72ae6372f87c5749ad5",
+      "datetime": 1794294336,
+      "summary": "BTIG  analyst Gray Powell   initiates coverage on MongoDB (NASDAQ:MDB) with a Buy rating and announces Price Target of $417."
+    },
+    {
+      "headline": "Best Growth Stocks to Buy for November 10th",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=55ea54e7accf5daf45f5130be2ab38283537465f406fe5ee75af6a03eac29dd2",
+      "datetime": 1794293760,
+      "summary": "MDB, INGM, and OSCR it to the Zacks Rank #1 (Strong Buy) growth stocks list on November 10, 2026."
+    },
+    {
+      "headline": "A $4.7 Billion Fund Bought These 3 Stocks",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=144d1220590bb0d2bcec73858973f437f009376814913027447194974f433062",
+      "datetime": 1794207442,
+      "summary": "Key TakeawaysA fund whose firm manages $4. 73 billion held new stakes in SpaceX (SPCX:NASDAQ) and Snowflake (SNOW:NYSE) as of June 30, and a much bigger one in MongoDB (MDB:NASDAQ), its latest 13F shows."
+    },
+    {
       "headline": "3 AI Infrastructure Stocks Retail Investors Are Watching After The Global Selloff",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=8603e2741f67c7e64b574e8f5c16fa9eb87d4632e174bad7e1d089936dab4a43",
@@ -29,34 +57,6 @@
       "url": "https://finnhub.io/api/news?id=e5682ec728f8835b5fd72985411e912925959ca4df28f619ba794378b0d917c7",
       "datetime": 1793985607,
       "summary": "MongoDB (MDB) has a firm date on the calendar. The company is set to report third quarter fiscal 2027 results on 1 December 2026, followed by a conference call outlining its business outlook. MongoDB\u2019s share price has retreated sharply ahead of the results, with a 1-day share price return of down 7.24% and a 30-day share price return of down 16.10%, contributing to a year-to-date share price retur"
-    },
-    {
-      "headline": "Why MongoDB (MDB) Could Beat Earnings Estimates Again",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=73a7702b6b60e20be572c046804f399e31646165863440657305249a46fa43be",
-      "datetime": 1793981401,
-      "summary": "MongoDB (MDB) has an impressive earnings surprise history and currently possesses the right combination of the two key ingredients for a likely beat in its next quarterly report."
-    },
-    {
-      "headline": "Best Growth Stocks to Buy for November 6th",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2233b74fb08d225af8f6a7d30d6e1e9c430581b223ac63d2c2b837617aa138a7",
-      "datetime": 1793945640,
-      "summary": "MDB, INGM, and OSCR it to the Zacks Rank #1 (Strong Buy) growth stocks list on November 6, 2026."
-    },
-    {
-      "headline": "Snowflake shares are trading lower. The company announced the appointment of Jonathan Beaulier as Chief Revenue Officer and reaffirmed its FY27 guidance.",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=32bf72c36bab6f5e4b49f08cd60e709fadc8a7b3ebe0aae6882cd8560ce7fb27",
-      "datetime": 1793889358,
-      "summary": ""
-    },
-    {
-      "headline": "MongoDB, Inc. Announces Date of Third Quarter Fiscal 2027 Earnings Call",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e8e29aacb9e97b8b06ded83d34f9265af5ba6cd40ba24d4244db27fc81a9f112",
-      "datetime": 1793887200,
-      "summary": "MongoDB, Inc. (NASDAQ: MDB) will report its third quarter fiscal year 2027 financial results for the three months ended October 31, 2026, after the U.S. financial markets close on Tuesday, December 1, 2026."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-06",
+  "data_asof": "2026-11-10",
   "price": {
-    "last": 312.83,
-    "open": 317.52,
-    "prev_close": 304.59,
-    "move_day_pct": 2.71,
-    "move_open_close_pct": -1.48,
-    "move_week_pct": -11.37
+    "last": 331.98,
+    "open": 327.42,
+    "prev_close": 327.37,
+    "move_day_pct": 1.41,
+    "move_open_close_pct": 1.39,
+    "move_week_pct": -1.01
   },
   "indicators": {
     "rsi14": {
-      "value": 37.4,
-      "read": "Oversold"
+      "value": 43.5,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": -13.894,
-      "signal": -7.249,
-      "hist": -6.645,
-      "hist_prev": -6.296,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -13.824,
+      "signal": -9.668,
+      "hist": -4.156,
+      "hist_prev": -5.522,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 411.12,
-      "lower": 306.44,
-      "mid": 358.78,
-      "pctb": 0.061,
-      "read": "Near the lower band"
+      "upper": 407.39,
+      "lower": 300.66,
+      "mid": 354.03,
+      "pctb": 0.293,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 38.45,
-      "read": "38% above its 52-week low"
+      "value": 46.93,
+      "read": "47% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -33.76,
-      "read": "34% below its 52-week high"
+      "value": -29.71,
+      "read": "30% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 335.96,
-      "pct": -6.88,
-      "read": "7% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 335.21,
+      "pct": -0.96,
+      "read": "1% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 23.09,
-      "pct_of_price": 7.38,
+      "value": 22.54,
+      "pct_of_price": 6.79,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.45,
-      "read": "Light \u2014 quiet trading"
+      "value": 0.64,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 39.9,
+      "value": 33.1,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 373.35,
-  "ma200": 335.96
+  "ma50": 368.54,
+  "ma200": 335.21
 }

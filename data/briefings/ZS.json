@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-07T16:51:48.492397-08:00",
+  "generated_at": "2026-11-10T16:44:45.161544-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Datadog And 2 Top Cybersecurity Stocks",
+      "headline": "Zscaler (ZS) Faces A Valuation Test, Is The Pullback A Buying Opportunity?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7eec6a0cd917806096d836ba0817e60b5608425ac325441f03d4fd06e7e9d6b9",
-      "datetime": 1793999715,
-      "summary": "Global stocks just suffered a sharp selloff as fears around an AI slowdown rippled through markets. When confidence in headline tech stories wobbles, attention often shifts to what keeps that digital world secure in the first place. Cybersecurity providers that protect data and networks are central to that discussion. This article highlights three stocks from a global security screener with high g"
+      "url": "https://finnhub.io/api/news?id=e3cb9cb6da379ebe0b0e57392451b9289333ac6a66e0055e8f14067fc334490a",
+      "datetime": 1794337854,
+      "summary": "Alex Stamos argues that AI is pushing the cost of cyberattacks toward zero while keeping defense expensive, which is shifting budgets toward security platforms like Zscaler (ZS) and placing its stock under closer investor scrutiny. For Zscaler, the story in the chart has cooled recently, with the share price at US$199.04 after a 7 day share price decline of 11.06% and a 30 day share price drop of "
     },
     {
-      "headline": "Zscaler Just Dropped 14% in a Week. Is It Time to Sell, or Load Up?",
+      "headline": "Meta\u2019s Former Security Chief: AI Attack Costs Are \u201cGoing Towards Zero.\u201d CrowdStrike Sells the Defense",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=625bdb97a491376d4d7148f05d41b664490968e9bac2e7125c379e785228214a",
-      "datetime": 1793997389,
-      "summary": "Key TakeawaysZscaler fell 9. 2% on Thursday to $204, down 14% in a week but still 78% above its June low, with 15% upside to the $235 average target."
+      "url": "https://finnhub.io/api/news?id=6f7047bf5bf9a3bcaa42ba0eae10ae9062de5a30751aaddf7c7dc2111790d986",
+      "datetime": 1794328778,
+      "summary": "Key TakeawaysAlex Stamos, Facebook\u2019s former security chief, says AI is driving the cost of cyberattacks toward zero while defense stays expensive. He said it after a record $6."
     },
     {
-      "headline": "CrowdStrike Rebounds 2%, Palo Alto Up 2% as Cloudflare Finds \u201cAn Even Higher Gear\u201d",
+      "headline": "Cloudflare Is Up 11% in a Week. Is Its \u201cEven Higher Gear\u201d Really That Good?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9beb91a7ef5931bfad97752b06611a9010789cb9e0a9e6e4db648a4eae0c65d9",
-      "datetime": 1793983175,
-      "summary": "Key TakeawaysCrowdStrike rose 2% today after Cloudflare reported 39% revenue growth and raised its full-year outlook. Cloudflare tied its growth to escalating digital threats, a good sign for security spending."
+      "url": "https://finnhub.io/api/news?id=1c2da0eea2c2b4feb5b42c0c6b3b6a61b90f95813ef7806cf572edb9b5bf0373",
+      "datetime": 1794317721,
+      "summary": "Key TakeawaysCloudflare is up 11% in a week after third-quarter revenue rose 39% to $782. 5 million and its guidance beat estimates."
     },
     {
-      "headline": "Palo Alto Networks vs. Zscaler: Which Cybersecurity Stock Is a Better Buy Going Into 2027?",
+      "headline": "Commvault Announces Strategic Partnership with Zscaler to Help Enterprises Adopt AI with Confidence, Control, and Resilience",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=27281f3e804d5eef13de5969cb08aa7973bda94d450047e75009c26f3d1231df",
-      "datetime": 1793942016,
-      "summary": "Palo Alto Networks trades at a steep premium to Zscaler on sales and forward earnings, but its platform strategy and 24.5% revenue growth complicate the valuation debate."
+      "url": "https://finnhub.io/api/news?id=0f4097881fb157cf4468219b15718ab0f39926d82028dd8e8a2eb953c7431586",
+      "datetime": 1794317400,
+      "summary": "Commvault (NASDAQ: CVLT), delivering continuous recovery for the AI era, today announced a strategic partnership with Zscaler, the cybersecurity platform for the AI era, that will help customers adopt AI with confidence and control while also being able to rollback and recover from harmful agentic activity."
     },
     {
-      "headline": "Why Zscaler (ZS) Dipped More Than Broader Market Today",
+      "headline": "Zscaler, Inc. (ZS) is Attracting Investor Attention: Here is What You Should Know",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0b45ff44150e64fd5d50c97779dbda64750dc6a3569bae3aff76cc41b569a032",
-      "datetime": 1793915103,
-      "summary": "The latest trading day saw Zscaler (ZS) settling at $203.88, representing a -9.16% change from its previous close."
+      "url": "https://finnhub.io/api/news?id=a5231e43b8fc390283c150bf0ee6c62cb9ac3fd9922bd91adae159b8f4e8606c",
+      "datetime": 1794315603,
+      "summary": "Recently, Zacks.com users have been paying close attention to Zscaler (ZS). This makes it worthwhile to examine what the stock has in store."
     },
     {
-      "headline": "CrowdStrike Sinks 9%, Palo Alto Down 8%, Cloudflare Down 9% as AI Trade Unwinds",
+      "headline": "Zscaler Sinks 11% in a Week as Security Stocks Slide. Dan Ives Sees Budgets \u201cPotentially Double\u201d",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b8c9590d11b3131ed10099c3d4f727f98362921c8783a92f9b8e92c904c05c18",
-      "datetime": 1793902736,
-      "summary": "Key TakeawaysCrowdStrike shares fell 10% as investors sold off AI stocks, and the company had no news to explain the drop. Palo Alto Networks, Zscaler and Cloudflare fell with it, as the market sold cybersecurity as a group."
+      "url": "https://finnhub.io/api/news?id=497c3033305b5c3cc9bb436079b0dbef4f899b591e913a8322ee4d9ae4aec63c",
+      "datetime": 1794314636,
+      "summary": "Key TakeawaysZscaler fell 11% in the past week with no news of its own, as a selloff that began at Fortinet hit security stocks. Cloudflare just posted strong results, and tech analyst Dan Ives says security budgets could double."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-06",
+  "data_asof": "2026-11-10",
   "price": {
-    "last": 197.66,
-    "open": 209.53,
-    "prev_close": 203.88,
-    "move_day_pct": -3.05,
-    "move_open_close_pct": -5.67,
-    "move_week_pct": -16.89
+    "last": 194.92,
+    "open": 196.27,
+    "prev_close": 199.04,
+    "move_day_pct": -2.07,
+    "move_open_close_pct": -0.69,
+    "move_week_pct": -13.4
   },
   "indicators": {
     "rsi14": {
-      "value": 37.5,
+      "value": 36.7,
       "read": "Oversold"
     },
     "macd": {
-      "macd": 2.088,
-      "signal": 8.298,
-      "hist": -6.21,
-      "hist_prev": -4.887,
+      "macd": -2.104,
+      "signal": 4.877,
+      "hist": -6.981,
+      "hist_prev": -6.701,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 266.02,
-      "lower": 193.1,
-      "mid": 229.56,
-      "pctb": 0.062,
+      "upper": 267.96,
+      "lower": 185.11,
+      "mid": 226.54,
+      "pctb": 0.118,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 67.44,
-      "read": "67% above its 52-week low"
+      "value": 65.12,
+      "read": "65% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -40.34,
-      "read": "40% below its 52-week high"
+      "value": -41.16,
+      "read": "41% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 167.0,
-      "pct": 18.36,
-      "read": "18% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 166.85,
+      "pct": 16.82,
+      "read": "17% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 13.1,
-      "pct_of_price": 6.63,
+      "value": 12.65,
+      "pct_of_price": 6.49,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.03,
+      "value": 0.87,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 54.5,
+      "value": 43.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 118.05,
   "high_52w": 331.29,
-  "ma50": 208.01,
-  "ma200": 167.0
+  "ma50": 208.44,
+  "ma200": 166.85
 }

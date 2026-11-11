@@ -1,0 +1,144 @@
+{
+  "ticker": "GOOG",
+  "user_id": "local",
+  "session": "close",
+  "generated_at": "2026-11-10T16:44:55.046072-08:00",
+  "disclaimer": "Informational only. Not financial advice.",
+  "selected_indicators": [
+    "rsi14",
+    "macd",
+    "bollinger_pctb",
+    "pct_from_52w_low",
+    "pct_from_52w_high",
+    "price_vs_ma200",
+    "atr14",
+    "rel_volume",
+    "mfi14"
+  ],
+  "news": [
+    {
+      "headline": "OpenAI's Q3 results and Nvidia's scandal impact on the AI ecosystem",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b440c43fc8c6e917b383290be7b03b2fbef8347df0a1fcece3b908d39d7a52c8",
+      "datetime": 1794349412,
+      "summary": "Deidre Bosa is joined by Khosla Ventures Founder Vinod Khosla to discuss OpenAI's (OPAI.PVT) Q3 results from an investor perspective, how OpenAI compares with Anthropic (ANTH.PVT), and how the Nvidia scandal impacts the AI ecosystem. Deidre Bosa then sits down with OpenAI CFO Sarah Friar to discuss OpenAI's push into enterprise AI, their 'dots' rollout, and the global AI model race. 'Deirdre Bosa "
+    },
+    {
+      "headline": "California Privacy Agency Fines FedEx Nearly $3M",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d60e7159ac9f164a5e0184c940d7c1c91bcd3017bd611eacc560af6617428772",
+      "datetime": 1794346763,
+      "summary": "California has fined FedEx nearly $3 million over alleged privacy violations - including failing to honor opt-out commands sent through the Global Privacy Control."
+    },
+    {
+      "headline": "Why the Data Center Backlash Could Fall Flat: Increased Costs \u201ca Trade That These Hyperscalers Are Still Going to Want to Make\u201d",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=cf864062aaf5c72f00a31cc670f1bf590fcd669ca6f44e80ee9534cb46a79e5a",
+      "datetime": 1794346697,
+      "summary": "Key TakeawaysTexas governor-elect Gina Hinojosa plans to make newly permitted data centers pay taxes, avoid raising consumer power prices and use union labor. Gene Munster puts soft costs at about 15% of a data center\u2019s bill, so a 30% jump in them raises the total only about 5%."
+    },
+    {
+      "headline": "Alphabet Inc. (GOOGL) Is Part of a Massive AI Spending Race: Can the Investment Deliver Enough Returns?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=0b31db05b3ac3c67edcc351d9c0f1481d085c7b8ce23d34f2bcfc3201b58a136",
+      "datetime": 1794346013,
+      "summary": "Moon Capital Management an investment management company, recently released its Q3 2026 investor letter. A copy of the letter can be downloaded here. The letter reported that its equity portfolio gained approximately 4% during the first nine months of 2026, compared with an approximately 12% year-to-date return for the S&P 500. The firm noted that [\u2026]"
+    },
+    {
+      "headline": "\u201cFive-Nines\u201d: Larry Page Reportedly Sees 99.999% of Compute in Orbit, and Musk Agrees",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b1bb0e66019dbb725c19a4c2070948a50b9e2aea07c95258614e73ec7ffd1fd6",
+      "datetime": 1794345522,
+      "summary": "Key TakeawaysInvestor Patrick O\u2019Shaughnessy said he heard secondhand that Larry Page, co-founder of Google and its parent Alphabet, expects 99. 999% of compute to end up in orbit, and Elon Musk called it one of Page\u2019s many accurate predictions."
+    },
+    {
+      "headline": "Alphabet Is Set to Become an Even Bigger Anthropic Shareholder After the IPO",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=70b14d5748c789c72d0b6284277e4bcf361ad758db62a14926ffe6936193e610",
+      "datetime": 1794344220,
+      "summary": "Does Google's bigger Anthropic stake move the needle for Alphabet? Anthropic's amended S-1 filing shows the size, the price, and the risks."
+    }
+  ],
+  "filings": [
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-11-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526449835/d174184d8k.htm"
+    },
+    {
+      "form": "10-Q",
+      "title": "Quarterly report (10-Q)",
+      "date": "2026-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm"
+    },
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-10-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/goog-20261028.htm"
+    }
+  ],
+  "script_text": null,
+  "audio_cached": false,
+  "status": "ok",
+  "data_asof": "2026-11-10",
+  "price": {
+    "last": 284.92,
+    "open": 287.27,
+    "prev_close": 286.01,
+    "move_day_pct": -0.38,
+    "move_open_close_pct": -0.82,
+    "move_week_pct": 2.39
+  },
+  "indicators": {
+    "rsi14": {
+      "value": 31.4,
+      "read": "Oversold"
+    },
+    "macd": {
+      "macd": -15.202,
+      "signal": -13.48,
+      "hist": -1.721,
+      "hist_prev": -2.531,
+      "read": "Bearish \u2014 MACD below signal"
+    },
+    "bollinger_pctb": {
+      "upper": 358.1,
+      "lower": 258.36,
+      "mid": 308.23,
+      "pctb": 0.266,
+      "read": "Mid-band \u2014 no extreme"
+    },
+    "pct_from_52w_low": {
+      "value": 4.44,
+      "read": "Sitting right at its 52-week low"
+    },
+    "pct_from_52w_high": {
+      "value": -28.51,
+      "read": "29% below its 52-week high"
+    },
+    "price_vs_ma200": {
+      "ma200": 336.78,
+      "pct": -15.4,
+      "read": "15% below its 200-day average \u2014 long-term downtrend"
+    },
+    "atr14": {
+      "value": 10.3,
+      "pct_of_price": 3.61,
+      "read": "Elevated volatility"
+    },
+    "rel_volume": {
+      "value": 0.66,
+      "read": "Roughly average volume"
+    },
+    "mfi14": {
+      "value": 38.6,
+      "read": "Neutral money flow"
+    }
+  },
+  "low_52w": 272.8,
+  "high_52w": 398.54,
+  "ma50": 327.63,
+  "ma200": 336.78
+}

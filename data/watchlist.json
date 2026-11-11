@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated": "2026-10-23T12:44:54.639Z",
-  "rev": 56,
+  "updated": "2026-11-09T00:25:25.073Z",
+  "rev": 63,
   "source": "sync",
   "lists": [
     {
@@ -70,6 +70,18 @@
       "kind": "watchlist",
       "tickers": [],
       "briefings": false
+    },
+    {
+      "name": "crash of novemeber list",
+      "kind": "watchlist",
+      "tickers": [
+        "AVGO",
+        "FSLY",
+        "TPL",
+        "CAT",
+        "GOOG"
+      ],
+      "briefings": true
     }
   ]
 }

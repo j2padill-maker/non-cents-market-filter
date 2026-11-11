@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-07T16:51:46.596393-08:00",
+  "generated_at": "2026-11-10T16:44:42.865705-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,25 +17,25 @@
   ],
   "news": [
     {
+      "headline": "Core Natural Resources, Bristow Group, CVR Energy, Baker Hughes, and Oceaneering shares plummet, what you need to know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=2bd763f3f46930f256bad40b46e2fcee7905cd0d87a109127c5090f9cc747539",
+      "datetime": 1794162096,
+      "summary": "A number of stocks fell in the afternoon session after easing fears of a wider war with Iran continued to push oil prices lower."
+    },
+    {
+      "headline": "Oceaneering International (OII) Stock Sees Fair Value Cut After Split Analyst Revisions",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=702b16ccf0ad716c02dfe02fe0d7ab2f6db53ff52e6807da2a8bfa357b6d5e87",
+      "datetime": 1794103969,
+      "summary": "The latest analyst update on Oceaneering International centers on a fair value cut from US$44 to US$41, a reduction of about 6.8% in the updated price target framework. That move sits against a backdrop where some analysts are lifting targets into the US$47 to US$52 range, while others are trimming them toward US$41 to US$42, reflecting different views on how much recent offshore and earnings news"
+    },
+    {
       "headline": "Insider Decision: Roderick A Larson Offloads $264K Worth Of Oceaneering International Stock",
       "source": "Benzinga",
       "url": "https://finnhub.io/api/news?id=39e7c7c571d434796db6f39c15efb6a3376643a95943635325c008103079fcab",
       "datetime": 1793790075,
       "summary": "Revealing a significant insider sell on November 3, Roderick A Larson, President and CEO at Oceaneering International (NYSE:OII), as per the latest SEC filing.\nWhat Happened: Larson&#39;s decision to sell 6,000 shares"
-    },
-    {
-      "headline": "Oceaneering International Eyes New Opportunities in Offshore Markets",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=59df913612ed16e7404d834f7b2e1398c70653362449bd1f41dd2b741b249ba9",
-      "datetime": 1793628480,
-      "summary": "OII sees Brazil, Guyana and Mozambique driving offshore growth in 2027, with rising subsea demand, $180 million in new contracts and EBITDA guidance of $430-$480 million."
-    },
-    {
-      "headline": "Oceaneering International Consensus Price Target Decreased by 10.87% to $41.82",
-      "source": "Fintel",
-      "url": "https://finnhub.io/api/news?id=f67aa776ef51e9bdd96e500ac083c78a8e481e43496b9d35f023b73219c1d00f",
-      "datetime": 1793612184,
-      "summary": ""
     }
   ],
   "filings": [
@@ -61,63 +61,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-06",
+  "data_asof": "2026-11-10",
   "price": {
-    "last": 34.24,
-    "open": 34.43,
-    "prev_close": 34.03,
-    "move_day_pct": 0.62,
-    "move_open_close_pct": -0.55,
-    "move_week_pct": -16.2
+    "last": 35.06,
+    "open": 34.15,
+    "prev_close": 34.85,
+    "move_day_pct": 0.6,
+    "move_open_close_pct": 2.66,
+    "move_week_pct": -8.15
   },
   "indicators": {
     "rsi14": {
-      "value": 27.3,
-      "read": "Extremely oversold"
+      "value": 31.1,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -2.535,
-      "signal": -1.922,
-      "hist": -0.613,
-      "hist_prev": -0.546,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -2.657,
+      "signal": -2.182,
+      "hist": -0.475,
+      "hist_prev": -0.566,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 47.51,
-      "lower": 33.98,
-      "mid": 40.74,
-      "pctb": 0.019,
+      "upper": 46.81,
+      "lower": 32.75,
+      "mid": 39.78,
+      "pctb": 0.164,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 51.44,
+      "value": 50.67,
       "read": "51% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -36.72,
-      "read": "37% below its 52-week high"
+      "value": -35.21,
+      "read": "35% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 40.54,
-      "pct": -15.54,
-      "read": "16% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 40.6,
+      "pct": -13.65,
+      "read": "14% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 1.99,
-      "pct_of_price": 5.82,
+      "value": 1.95,
+      "pct_of_price": 5.55,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.8,
-      "read": "Above-average volume"
+      "value": 0.65,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 38.7,
+      "value": 38.5,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": 22.61,
+  "low_52w": 23.27,
   "high_52w": 54.11,
-  "ma50": 44.7,
-  "ma200": 40.54
+  "ma50": 44.05,
+  "ma200": 40.6
 }

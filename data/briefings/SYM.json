@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-07T16:51:41.538136-08:00",
+  "generated_at": "2026-11-10T16:44:37.857923-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Symbotic Inc. (SYM) Outperforms Broader Market: What You Need to Know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b8e57a926bf2358525bc36c9a27b1b3f54055507a5aec44a6101b43559ed4551",
+      "datetime": 1794261602,
+      "summary": "The latest trading day saw Symbotic Inc. (SYM) settling at $37.78, representing a +2.61% change from its previous close."
+    },
+    {
+      "headline": "5 Stocks to Watch from Morgan Stanley\u2019s Ultra-Selective Tailwinds Strategy",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=910a130acbbc0bb6844cb96ed9df94c4955ec1dce07f1da9197171f3281454e9",
+      "datetime": 1794060701,
+      "summary": "Artificial intelligence is rapidly reshaping the current corporate landscape. However, the next phase of its economic impact may extend well beyond the companies developing AI models, semiconductors, and data centers. In its September 2026 report, AI Beneficiaries: Investing in Second-Order Effects \u2013 Update: 100x AI Cultures, Morgan Stanley argued that investors should keep a close [\u2026]"
+    },
     {
       "headline": "Should Investors Bet on SYM Stock Post the Walmart Deal Expansion?",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=c9478498d2e4aa164ae05b324d87205299c31c8c7c8bced9fea4e2f832af36e0",
       "datetime": 1793806801,
       "summary": "VVX vs. SYM: Which Stock Is the Better Value Option?"
-    },
-    {
-      "headline": "Investors Heavily Search Symbotic Inc. (SYM): Here is What You Need to Know",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b5e7908a4c2355613e7bb4852a6290527aa11e0567364ec36ad4f0b16e52f84f",
-      "datetime": 1793797202,
-      "summary": "SYMBOTIC INC (SYM) has been one of the stocks most watched by Zacks.com users lately. So, it is worth exploring what lies ahead for the stock."
-    },
-    {
-      "headline": "Cricut, Inc. (CRCT) Q3 Earnings and Revenues Top Estimates",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=1b305c081842bf138831b3047c61912faad586c1d3d3015abe479a9cbbb2bef7",
-      "datetime": 1793750103,
-      "summary": "Cricut (CRCT) delivered earnings and revenue surprises of +333.33% and +8.58%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-06",
+  "data_asof": "2026-11-10",
   "price": {
-    "last": 36.82,
-    "open": 36.06,
-    "prev_close": 35.04,
-    "move_day_pct": 5.08,
-    "move_open_close_pct": 2.11,
-    "move_week_pct": -2.93
+    "last": 37.62,
+    "open": 36.99,
+    "prev_close": 37.79,
+    "move_day_pct": -0.45,
+    "move_open_close_pct": 1.7,
+    "move_week_pct": 0.27
   },
   "indicators": {
     "rsi14": {
-      "value": 41.6,
+      "value": 44.8,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -1.342,
-      "signal": -1.121,
-      "hist": -0.221,
-      "hist_prev": -0.286,
+      "macd": -1.162,
+      "signal": -1.149,
+      "hist": -0.013,
+      "hist_prev": -0.096,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 41.81,
+      "upper": 41.18,
       "lower": 35.54,
-      "mid": 38.67,
-      "pctb": 0.205,
+      "mid": 38.36,
+      "pctb": 0.369,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 5.08,
+      "value": 7.36,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -57.82,
-      "read": "58% below its 52-week high"
+      "value": -56.91,
+      "read": "57% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 47.39,
-      "pct": -22.3,
-      "read": "22% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 47.16,
+      "pct": -20.23,
+      "read": "20% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 2.19,
-      "pct_of_price": 5.94,
+      "value": 2.14,
+      "pct_of_price": 5.68,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.74,
+      "value": 0.72,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 41.4,
+      "value": 33.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 35.04,
   "high_52w": 87.3,
-  "ma50": 40.92,
-  "ma200": 47.39
+  "ma50": 40.84,
+  "ma200": 47.16
 }

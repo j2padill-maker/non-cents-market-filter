@@ -1,0 +1,144 @@
+{
+  "ticker": "CAT",
+  "user_id": "local",
+  "session": "close",
+  "generated_at": "2026-11-10T16:44:53.145094-08:00",
+  "disclaimer": "Informational only. Not financial advice.",
+  "selected_indicators": [
+    "rsi14",
+    "macd",
+    "bollinger_pctb",
+    "pct_from_52w_low",
+    "pct_from_52w_high",
+    "price_vs_ma200",
+    "atr14",
+    "rel_volume",
+    "mfi14"
+  ],
+  "news": [
+    {
+      "headline": "Is The Market Underpricing Caterpillar Stock?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=387b11e09534c359df3d088a79b560fda927325ed8b415a899813c7d7729d8d9",
+      "datetime": 1794354171,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
+    },
+    {
+      "headline": "Caterpillar Stock Is Waiting On One Answer",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=9aa443862ede7b9285384de2d8ff6dee0a6c65bdb3a919bc7a1f0759504967aa",
+      "datetime": 1794346712,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
+    },
+    {
+      "headline": "Caterpillar (CAT) Is Amongst The Notable Names Insiders Are Loading Up On After the Recent Crash",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=9e94b532c6398cf0e18b24a36e37615c491260179e5bfe346ca5298492515b9a",
+      "datetime": 1794337827,
+      "summary": "We just published a list of 10 Buy the Dip Stocks Insiders Are Loading Up On After the Recent Market Sell-Off, and Caterpillar Inc. (NYSE:CAT) ranked 8th on this list. Thursday, November 5 represented the worst trading session for the U.S. market in over a year. the Nasdaq Composite dropped 5.52%, the S&P 500 fell [\u2026]"
+    },
+    {
+      "headline": "How AI Power Order Will Impact Caterpillar (CAT) Investors",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=fdf9cbf3f1cc724cdb8ab01712295da0d610ab04a18cac66a9698dfe22cf6331",
+      "datetime": 1794334406,
+      "summary": "Caterpillar reported record third quarter 2026 results with US$20,682 million in revenue and US$3,287 million in net income, and confirmed guidance for moderate fourth quarter sales growth and full year 2026 sales and revenues expected to rise in the mid to high teens. The US$3.4 billion Anthropic gas generator agreement highlights how AI driven power demand links directly into Caterpillar's Power"
+    },
+    {
+      "headline": "The 'Big Short' Investor Locks in Profits on Overlooked Blue-Chip Stock",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c8daf7dc89eae42458dd04aca4fa624e924daf1150521b7505f0a22d3d850c67",
+      "datetime": 1794331033,
+      "summary": "A famous market bear is taking money off the table."
+    },
+    {
+      "headline": "Stock Market Today: Dow Dips On Hot Inflation Data; Nvidia Falls Again, Anthropic Sets IPO Range (Live Coverage)",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=da4b6468f7b07843e1b9de42fc190efda0a049a2abd6c729c74866c400d1cd24",
+      "datetime": 1794330181,
+      "summary": "Stock Market Today: The Dow Jones index falls Tuesday on a hot inflation report. Anthropic prices its IPO range. Nvidia sells off."
+    }
+  ],
+  "filings": [
+    {
+      "form": "10-Q",
+      "title": "Quarterly report (10-Q)",
+      "date": "2026-11-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000057/cat-20260930.htm"
+    },
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000052/cat-20261029.htm"
+    },
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-10-15",
+      "url": "https://www.sec.gov/Archives/edgar/data/18230/000110465926116198/tm2627668d1_8k.htm"
+    }
+  ],
+  "script_text": null,
+  "audio_cached": false,
+  "status": "ok",
+  "data_asof": "2026-11-10",
+  "price": {
+    "last": 584.57,
+    "open": 569.75,
+    "prev_close": 598.88,
+    "move_day_pct": -2.39,
+    "move_open_close_pct": 2.6,
+    "move_week_pct": -6.31
+  },
+  "indicators": {
+    "rsi14": {
+      "value": 31.1,
+      "read": "Oversold"
+    },
+    "macd": {
+      "macd": -54.594,
+      "signal": -47.648,
+      "hist": -6.947,
+      "hist_prev": -9.274,
+      "read": "Bearish \u2014 MACD below signal"
+    },
+    "bollinger_pctb": {
+      "upper": 792.58,
+      "lower": 537.17,
+      "mid": 664.87,
+      "pctb": 0.186,
+      "read": "Near the lower band"
+    },
+    "pct_from_52w_low": {
+      "value": 7.95,
+      "read": "Just off its 52-week low"
+    },
+    "pct_from_52w_high": {
+      "value": -44.87,
+      "read": "45% below its 52-week high"
+    },
+    "price_vs_ma200": {
+      "ma200": 805.01,
+      "pct": -27.38,
+      "read": "27% below its 200-day average \u2014 long-term downtrend"
+    },
+    "atr14": {
+      "value": 30.49,
+      "pct_of_price": 5.22,
+      "read": "High daily volatility"
+    },
+    "rel_volume": {
+      "value": 1.2,
+      "read": "Roughly average volume"
+    },
+    "mfi14": {
+      "value": 26.9,
+      "read": "Neutral money flow"
+    }
+  },
+  "low_52w": 541.53,
+  "high_52w": 1060.41,
+  "ma50": 750.63,
+  "ma200": 805.01
+}

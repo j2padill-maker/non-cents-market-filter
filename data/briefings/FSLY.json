@@ -1,0 +1,144 @@
+{
+  "ticker": "FSLY",
+  "user_id": "local",
+  "session": "close",
+  "generated_at": "2026-11-10T16:44:49.067967-08:00",
+  "disclaimer": "Informational only. Not financial advice.",
+  "selected_indicators": [
+    "rsi14",
+    "macd",
+    "bollinger_pctb",
+    "pct_from_52w_low",
+    "pct_from_52w_high",
+    "price_vs_ma200",
+    "atr14",
+    "rel_volume",
+    "mfi14"
+  ],
+  "news": [
+    {
+      "headline": "Stocks making big moves this week: Sprout Social, Redwire, Inspire Medical Systems, Fastly, and Marvell Technology",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=71b6e3e90f3f31670ab8da7663a928d8e7419d3587e82ee9588542b803e412f2",
+      "datetime": 1794277776,
+      "summary": "Check out the companies making headlines this week:"
+    },
+    {
+      "headline": "Fastly: From Pipes To Protection, Hold Through Near-Term Volatility",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=0c4d45f4fd1fd462a02d00d05eca526da0649bb2d32bc6801531f62e23faef20",
+      "datetime": 1794276616,
+      "summary": "Fastly pivots from content delivery to a higher-margin edge cloud and security platform. Find out why FSLY stock is a Hold."
+    },
+    {
+      "headline": "Fastly: Magnificent Opportunity To 'Buy' This Dip",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=fe15ae97b0eb2ab2812f45367fe0c13163c20782a4671808a812b1ed26732128",
+      "datetime": 1794248267,
+      "summary": ""
+    },
+    {
+      "headline": "Freedom Broker Maintains Buy on Fastly, Lowers Price Target to $35",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=0ea0281e505f349beae1d93d119e65961aa4449b1404ad050c3a4c66f86eb924",
+      "datetime": 1794240375,
+      "summary": "Freedom Broker  analyst Almas Almaganbetov   maintains Fastly (NASDAQ:FSLY) with a Buy and lowers the price target from $37 to $35."
+    },
+    {
+      "headline": "5 insightful analyst questions from Fastly\u2019s Q3 2026 earnings call",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=af1d3c82e2c7aa33713a151707539375ed6d8878fcd578c23163836ea5fe4b90",
+      "datetime": 1794163056,
+      "summary": "Fastly\u2019s third quarter results were highlighted by revenue and non-GAAP profit both coming in well above Wall Street expectations. Management attributed outperformance to the continued expansion of its largest customers and accelerated adoption of security and AI-focused products. CEO Kip Compton highlighted that 74% of large customers now use two or more product suites, and 34% are adopting four "
+    },
+    {
+      "headline": "Fastly, Inc. 2026 Q3 - Results - Earnings Call Presentation",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=722dfeded19fd5e214e5651ecb64d9b9b3dcbf1c902c45381e0d8918e801b7ca",
+      "datetime": 1794075660,
+      "summary": "2026-11-07. The following slide deck was published by Fastly, Inc."
+    }
+  ],
+  "filings": [
+    {
+      "form": "10-Q",
+      "title": "Quarterly report (10-Q)",
+      "date": "2026-11-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1517413/000151741326000345/fsly-20260930.htm"
+    },
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-11-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1517413/000151741326000343/fsly-20261030.htm"
+    },
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-11-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1517413/000151741326000342/fsly-20261104.htm"
+    }
+  ],
+  "script_text": null,
+  "audio_cached": false,
+  "status": "ok",
+  "data_asof": "2026-11-10",
+  "price": {
+    "last": 16.24,
+    "open": 15.78,
+    "prev_close": 15.98,
+    "move_day_pct": 1.63,
+    "move_open_close_pct": 2.92,
+    "move_week_pct": -22.92
+  },
+  "indicators": {
+    "rsi14": {
+      "value": 33.0,
+      "read": "Oversold"
+    },
+    "macd": {
+      "macd": -2.191,
+      "signal": -1.233,
+      "hist": -0.958,
+      "hist_prev": -1.018,
+      "read": "Bearish \u2014 MACD below signal"
+    },
+    "bollinger_pctb": {
+      "upper": 29.39,
+      "lower": 14.88,
+      "mid": 22.13,
+      "pctb": 0.094,
+      "read": "Near the lower band"
+    },
+    "pct_from_52w_low": {
+      "value": 104.02,
+      "read": "104% above its 52-week low"
+    },
+    "pct_from_52w_high": {
+      "value": -51.52,
+      "read": "52% below its 52-week high"
+    },
+    "price_vs_ma200": {
+      "ma200": 21.77,
+      "pct": -25.4,
+      "read": "25% below its 200-day average \u2014 long-term downtrend"
+    },
+    "atr14": {
+      "value": 2.14,
+      "pct_of_price": 13.15,
+      "read": "High daily volatility"
+    },
+    "rel_volume": {
+      "value": 0.8,
+      "read": "Roughly average volume"
+    },
+    "mfi14": {
+      "value": 38.1,
+      "read": "Neutral money flow"
+    }
+  },
+  "low_52w": 7.96,
+  "high_52w": 33.5,
+  "ma50": 23.7,
+  "ma200": 21.77
+}

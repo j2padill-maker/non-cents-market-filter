@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-07T16:51:39.594224-08:00",
+  "generated_at": "2026-11-10T16:44:35.824313-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Is Intuitive Surgical's Next Big Thing Already Here?",
+      "headline": "GEHC Expands Vscan Air AI Capabilities With Lung Guidance & AutoAS",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=565abe922a38cf0e4ae1f621d5a6ec89e9641576353b2458fb817ef6d5c97fc6",
-      "datetime": 1794046140,
+      "url": "https://finnhub.io/api/news?id=adf402b6822ad408d7f965b517380ff38d462dbe9ef17447a302ccfa37f2327b",
+      "datetime": 1794333480,
+      "summary": "GE HealthCare expands Vscan Air's AI capabilities with Lung Guidance and AutoAS, enhancing cardiopulmonary assessments and point-of-care diagnostic support."
+    },
+    {
+      "headline": "Is Current Price Of Stryker Stock A Strong Support?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=68b0aee21a86199e38276207ddbb1621137a3b81914d056caad961c785cd4893",
+      "datetime": 1794329286,
       "summary": "For questions about this article or underlying research, email help@trefis.com."
     },
     {
-      "headline": "Hims & Hers Health vs. Intuitive Surgical: Which Healthcare Stock Is a Better Buy for 2027?",
+      "headline": "Nasdaq-100 Correction: 2 Proven Winners That Can Buck Historic Volatility",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f26cba8cde51514add0970676dc8872e4b0bde66d76d3bb4a41f53aec9e09079",
-      "datetime": 1794021902,
-      "summary": "Both are disruptors, but one of these growth stocks stands out over the other."
+      "url": "https://finnhub.io/api/news?id=9b03a498425f0d2644a6ebe56322a5094919b704a20460fabc3c50851e6d2c0c",
+      "datetime": 1794313563,
+      "summary": "Two non-tech stocks are the perfect buys amid a 15% correction in the Nasdaq-100."
     },
     {
-      "headline": "How Earnings Upgrades At Intuitive Surgical Stock Have Changed Its Investment Story",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2f9b69562011a7dd9f53332168bc4f073d669c859e32e8114e8c8648d23233dc",
-      "datetime": 1794010300,
-      "summary": "Intuitive Surgical recently added Aaron Martin, currently President of Insurance at Humana and former Amazon healthcare executive, to its board, expanding the board from 10 to 11 directors effective January 1, 2027. Martin\u2019s mix of telehealth, payer, and health system experience directly connects Intuitive Surgical\u2019s robotics platform to real world reimbursement, digital care delivery, and hospita"
+      "headline": "Intuitive Surgical (NASDAQ:ISRG): Strong Growth Meets a Constructive Technical Setup",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=b11ef7bad2b87b46ca290d8c606c013f259eb64d810cb1fc653466cb7941fe1b",
+      "datetime": 1794312056,
+      "summary": "Intuitive Surgical pairs strong growth, high margins and a debt-free balance sheet with a tight technical setup near resistance, though valuation risk remains."
     },
     {
-      "headline": "What Should Investors Watch After Intuitive Surgical (ISRG) Added Aaron Martin To Its Board?",
+      "headline": "The Zacks Analyst Blog Highlights ASML, Alibaba, Intuitive Surgical, Paul Mueller and Presurance",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d3d86beffcaa60d3aa1bfcc47d7d16c69652e19f481d71c8fe258ccb938c1a99",
-      "datetime": 1794003253,
-      "summary": "Intuitive Surgical (NasdaqGS: ISRG) has appointed healthcare executive Aaron Martin to its board of directors, effective January 2027. Martin previously led Amazon Health Services and has held senior roles at Humana and Providence St. Joseph Health. His background spans digital health, telemedicine initiatives, and insurance operations across large US healthcare systems. There is more to assess at"
+      "url": "https://finnhub.io/api/news?id=72e017f7664d6b7f10ed7b82843f957de6eb4e58ee210881d6796a1f0038c907",
+      "datetime": 1794292080,
+      "summary": "ASML, BABA, ISRG, MUEL and PRHI feature in Zacks reports, highlighting growth drivers, challenges and performance outlooks."
     },
     {
-      "headline": "10x Genomics Launches Sentira AI Tool to Simplify Cell Analysis",
+      "headline": "Top Research Reports for ASML, Alibaba & Intuitive Surgical",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d1f5046d2bcba35cd46448e47ee88d6bbade569adf14f7f72ac751bcbdf95d4a",
-      "datetime": 1793980440,
-      "summary": "TXG launches Sentira Single Cell, a Claude-powered AI tool to simplify complex data analysis, accelerate research and unlock recurring revenue potential."
-    },
-    {
-      "headline": "Here's Why You Should Retain MMSI Stock in Your Portfolio for Now",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a746a31e9a93f68fd21f335d08e35747fd609f416eb5cdb29f82ae3c9be555d0",
-      "datetime": 1793979840,
-      "summary": "Merit Medical's strong product demand, innovation and acquisitions fuel growth, while tariffs, China market pressures and competition remain key challenges."
+      "url": "https://finnhub.io/api/news?id=8997313777850e60e73f1cdf370abadfa53a7d6fea09b3fe69ff661dd51bff50",
+      "datetime": 1794256380,
+      "summary": "Today's Research Daily features new research reports on 16 major stocks, including ASML Holding N.V. (ASML), Alibaba Group Holding Limited (BABA), Intuitive Surgical, Inc. (ISRG) as well as two micro-cap stocks, Paul Mueller Company (MUEL) and Presurance Holdings, Inc. (PRHI)."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-06",
+  "data_asof": "2026-11-10",
   "price": {
-    "last": 452.8,
-    "open": 457.0,
-    "prev_close": 468.52,
-    "move_day_pct": -3.36,
-    "move_open_close_pct": -0.92,
-    "move_week_pct": 4.81
+    "last": 450.04,
+    "open": 458.0,
+    "prev_close": 460.56,
+    "move_day_pct": -2.28,
+    "move_open_close_pct": -1.74,
+    "move_week_pct": 2.11
   },
   "indicators": {
     "rsi14": {
-      "value": 57.2,
+      "value": 55.0,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 13.435,
-      "signal": 12.772,
-      "hist": 0.663,
-      "hist_prev": 1.533,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": 12.291,
+      "signal": 12.768,
+      "hist": -0.478,
+      "hist_prev": 0.462,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 471.53,
-      "lower": 410.82,
-      "mid": 441.17,
-      "pctb": 0.692,
+      "upper": 473.64,
+      "lower": 414.8,
+      "mid": 444.22,
+      "pctb": 0.599,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 36.38,
+      "value": 35.55,
       "read": "36% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -23.62,
+      "value": -24.09,
       "read": "24% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 431.2,
-      "pct": 5.01,
+      "ma200": 430.49,
+      "pct": 4.54,
       "read": "5% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 15.94,
-      "pct_of_price": 3.52,
+      "value": 15.59,
+      "pct_of_price": 3.46,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.86,
+      "value": 0.67,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 53.1,
+      "value": 55.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 332.02,
   "high_52w": 592.85,
-  "ma50": 409.93,
-  "ma200": 431.2
+  "ma50": 413.15,
+  "ma200": 430.49
 }

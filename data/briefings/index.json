@@ -2,17 +2,18 @@
   "version": 1,
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-07T16:51:23.944853-08:00",
+  "generated_at": "2026-11-10T16:44:08.951037-08:00",
   "lists": [
     "My Watchlist",
-    "robotics"
+    "robotics",
+    "crash of novemeber list"
   ],
   "briefings": [
     {
       "ticker": "MDB",
       "status": "ok",
       "file": "data/briefings/MDB.json",
-      "data_asof": "2026-11-06",
+      "data_asof": "2026-11-10",
       "lists": [
         "My Watchlist"
       ]
@@ -21,7 +22,7 @@
       "ticker": "TOELF",
       "status": "ok",
       "file": "data/briefings/TOELF.json",
-      "data_asof": "2026-11-06",
+      "data_asof": "2026-11-10",
       "lists": [
         "My Watchlist"
       ]
@@ -39,7 +40,7 @@
       "ticker": "DDOG",
       "status": "ok",
       "file": "data/briefings/DDOG.json",
-      "data_asof": "2026-11-06",
+      "data_asof": "2026-11-10",
       "lists": [
         "My Watchlist"
       ]
@@ -48,7 +49,7 @@
       "ticker": "NET",
       "status": "ok",
       "file": "data/briefings/NET.json",
-      "data_asof": "2026-11-06",
+      "data_asof": "2026-11-10",
       "lists": [
         "My Watchlist"
       ]
@@ -57,7 +58,7 @@
       "ticker": "GNRC",
       "status": "ok",
       "file": "data/briefings/GNRC.json",
-      "data_asof": "2026-11-06",
+      "data_asof": "2026-11-10",
       "lists": [
         "My Watchlist"
       ]
@@ -75,7 +76,7 @@
       "ticker": "CGNX",
       "status": "ok",
       "file": "data/briefings/CGNX.json",
-      "data_asof": "2026-11-06",
+      "data_asof": "2026-11-10",
       "lists": [
         "robotics"
       ]
@@ -84,7 +85,7 @@
       "ticker": "ISRG",
       "status": "ok",
       "file": "data/briefings/ISRG.json",
-      "data_asof": "2026-11-06",
+      "data_asof": "2026-11-10",
       "lists": [
         "robotics"
       ]
@@ -93,7 +94,7 @@
       "ticker": "SYM",
       "status": "ok",
       "file": "data/briefings/SYM.json",
-      "data_asof": "2026-11-06",
+      "data_asof": "2026-11-10",
       "lists": [
         "robotics"
       ]
@@ -102,7 +103,7 @@
       "ticker": "TER",
       "status": "ok",
       "file": "data/briefings/TER.json",
-      "data_asof": "2026-11-06",
+      "data_asof": "2026-11-10",
       "lists": [
         "robotics"
       ]
@@ -111,7 +112,7 @@
       "ticker": "BOTZ",
       "status": "ok",
       "file": "data/briefings/BOTZ.json",
-      "data_asof": "2026-11-06",
+      "data_asof": "2026-11-10",
       "lists": [
         "robotics"
       ]
@@ -120,7 +121,7 @@
       "ticker": "OII",
       "status": "ok",
       "file": "data/briefings/OII.json",
-      "data_asof": "2026-11-06",
+      "data_asof": "2026-11-10",
       "lists": [
         "robotics"
       ]
@@ -129,9 +130,54 @@
       "ticker": "ZS",
       "status": "ok",
       "file": "data/briefings/ZS.json",
-      "data_asof": "2026-11-06",
+      "data_asof": "2026-11-10",
       "lists": [
         "robotics"
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "status": "ok",
+      "file": "data/briefings/AVGO.json",
+      "data_asof": "2026-11-10",
+      "lists": [
+        "crash of novemeber list"
+      ]
+    },
+    {
+      "ticker": "FSLY",
+      "status": "ok",
+      "file": "data/briefings/FSLY.json",
+      "data_asof": "2026-11-10",
+      "lists": [
+        "crash of novemeber list"
+      ]
+    },
+    {
+      "ticker": "TPL",
+      "status": "ok",
+      "file": "data/briefings/TPL.json",
+      "data_asof": "2026-11-10",
+      "lists": [
+        "crash of novemeber list"
+      ]
+    },
+    {
+      "ticker": "CAT",
+      "status": "ok",
+      "file": "data/briefings/CAT.json",
+      "data_asof": "2026-11-10",
+      "lists": [
+        "crash of novemeber list"
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "status": "ok",
+      "file": "data/briefings/GOOG.json",
+      "data_asof": "2026-11-10",
+      "lists": [
+        "crash of novemeber list"
       ]
     }
   ]

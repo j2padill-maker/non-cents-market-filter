@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-07T16:51:45.610557-08:00",
+  "generated_at": "2026-11-10T16:44:41.830784-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,109 +17,109 @@
   ],
   "news": [
     {
-      "headline": "Slower Builds, Scarcer Compute",
+      "headline": "Nvidia's CEO Scandal Adds Risk, But Loose Policy Says The AI Boom Isn't Over",
       "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=44294d80c7c71a3958c3670443c3bdf6b0f419b935a5a4b9f0122fe46269bf8c",
-      "datetime": 1793979600,
-      "summary": "Democrats won both chambers of Congress, along with governorships of Texas, Georgia & Ohio. Investors priced in the risk that many data centers never get built. The reality is more nuanced."
+      "url": "https://finnhub.io/api/news?id=28cccfd22580111d9e842c06c05c2ac812ab550d2284379769945b267ae2c744",
+      "datetime": 1794291600,
+      "summary": "Nvidia's board opened an independent investigation into Jensen Huang. On Oct 28, the day before the story ran, NVDA traded at $220. At the lows on Monday, it was 23% below that Oct 28 level."
     },
     {
-      "headline": "Solving For 2027",
+      "headline": "Market Brief: Oil Lifted Stocks And Gold\u00a0- Bitcoin Couldn't Keep Up",
       "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=942f81c64df36a5fc958da024e8f45aecb522a31ad761ac8f3540ce4d121530b",
-      "datetime": 1793966460,
-      "summary": "The AI buildout played out as the dominant trade of 2026: buying chips and building data centers lifted earnings, multiples and portfolios together."
+      "url": "https://finnhub.io/api/news?id=c427d1a41f061fcd7292335b65438075a8b0ab4e683ce8177b4361d2b5643290",
+      "datetime": 1794285900,
+      "summary": "Lower oil gave stocks and gold a reason to rally, while Bitcoin traded like a risk asset that is losing buyers. Read more here."
     },
     {
-      "headline": "AI Meets Politics: A New Test For Tech Stocks",
+      "headline": "What Midterm Results Mean For Policy And Data Center Risk",
       "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=39e46ea0a22942629062d3525159824b0d26906bb6aa911f626b62efda5a10c5",
-      "datetime": 1793951700,
-      "summary": "Skeptics of the AI-fueled surge in the stock market have long warned that a bubble may be forming. Read more here."
+      "url": "https://finnhub.io/api/news?id=2078713fe9e28dca3a0d5566858acadf81d24a7ccb948993c735aa2a948650ad",
+      "datetime": 1794285600,
+      "summary": "A divided government makes major federal policy changes unlikely. The election leaves our broad market outlook unchanged, while adding political and execution risks to watch into 2027."
     },
     {
-      "headline": "Global Technology Investing: AI And Beyond",
+      "headline": "What Is Coming? - Weekly Blog #966",
       "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=c168fc6b0b3427efe84c20428fd550cc500a47b677cb8e077b87617d8d0f9132",
-      "datetime": 1793951400,
-      "summary": "We sat down with our global technology portfolio managers to get insight into what they\u00e2\u0080\u0099re watching across the sector. Read more here."
+      "url": "https://finnhub.io/api/news?id=cd1f9457e3f194366eddb9c3dc675eb34107516f9bf03702f01c18e04a433aeb",
+      "datetime": 1794265200,
+      "summary": ""
     },
     {
-      "headline": "Chart Of The Day: Now, That's What I Call A Fake-Out",
+      "headline": "A Reset Is Not The End Of The AI Story",
       "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=7d4dc6e1cfd29e500fd1886a81c5615e7ff98dfbe034b42e93cdba3ecea8cf1a",
-      "datetime": 1793945100,
-      "summary": "In the wake of the midterm elections, traders seemed to make peace with the results - buying initial weakness and sending QQQ higher on Wednesday. But what a fake-out that turned out to be!"
+      "url": "https://finnhub.io/api/news?id=91a69c86056c48ac04f5c7b1aa40fda6f7d09a597e98118f74ffbd2d9784d699",
+      "datetime": 1794244200,
+      "summary": "The AI build has seemed due for a reset. We saw those worries translate into a sharp market selloff. But it doesn't change our longer-term view that AI represents a powerful investment theme"
     },
     {
-      "headline": "Beyond AI ETFs: 4 Investment Themes Wall Street Could Bet on After Midterms",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=fae312ac47f9f8a16d7eae5281048eabc233c0924a95ad3ded5f4a08f4bf9759",
-      "datetime": 1793894395,
-      "summary": "VistaShares CEO highlights ETF opportunities beyond Big Tech as Wall Street shifts focus after the US midterm elections."
+      "headline": "What A Slower AI Buildout May Mean For Markets",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=bc21b5645bf4872f0d900e3d3eef08a5707a09db13b3cad2426a772647ac0e12",
+      "datetime": 1794242700,
+      "summary": "The fundamental case for AI hasn\u00e2\u0080\u0099t disappeared. A slower buildout may impose greater AI spending discipline, take pressure off interest rates, and ease pressure on valuations. Read more here"
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-06",
+  "data_asof": "2026-11-10",
   "price": {
-    "last": 31.05,
-    "open": 30.97,
-    "prev_close": 30.64,
-    "move_day_pct": 1.34,
-    "move_open_close_pct": 0.26,
-    "move_week_pct": -3.63
+    "last": 31.57,
+    "open": 31.75,
+    "prev_close": 31.88,
+    "move_day_pct": -0.97,
+    "move_open_close_pct": -0.57,
+    "move_week_pct": -2.32
   },
   "indicators": {
     "rsi14": {
-      "value": 33.0,
+      "value": 38.6,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -0.886,
-      "signal": -0.7,
-      "hist": -0.186,
-      "hist_prev": -0.161,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -0.865,
+      "signal": -0.76,
+      "hist": -0.105,
+      "hist_prev": -0.133,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 35.23,
-      "lower": 31.0,
-      "mid": 33.12,
-      "pctb": 0.011,
+      "upper": 34.68,
+      "lower": 30.92,
+      "mid": 32.8,
+      "pctb": 0.174,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 1.34,
+      "value": 3.04,
       "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -25.38,
-      "read": "25% below its 52-week high"
+      "value": -24.13,
+      "read": "24% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 36.43,
-      "pct": -14.77,
-      "read": "15% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 36.37,
+      "pct": -13.2,
+      "read": "13% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.75,
-      "pct_of_price": 2.43,
+      "value": 0.76,
+      "pct_of_price": 2.4,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 1.62,
-      "read": "Above-average volume"
+      "value": 1.07,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 50.4,
+      "value": 43.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 30.64,
   "high_52w": 41.61,
-  "ma50": 34.49,
-  "ma200": 36.43
+  "ma50": 34.32,
+  "ma200": 36.37
 }

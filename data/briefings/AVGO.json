@@ -1,0 +1,144 @@
+{
+  "ticker": "AVGO",
+  "user_id": "local",
+  "session": "close",
+  "generated_at": "2026-11-10T16:44:47.184358-08:00",
+  "disclaimer": "Informational only. Not financial advice.",
+  "selected_indicators": [
+    "rsi14",
+    "macd",
+    "bollinger_pctb",
+    "pct_from_52w_low",
+    "pct_from_52w_high",
+    "price_vs_ma200",
+    "atr14",
+    "rel_volume",
+    "mfi14"
+  ],
+  "news": [
+    {
+      "headline": "S&P 500 Top Gainers and Losers for Today's Session",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=6fce76dd7876e030d37b388ebacf02dc819d615b61dee883f327a61f69708576",
+      "datetime": 1794341167,
+      "summary": "S&P 500 market movers for today's session: Charter Communications led gainers at 9.68%, while Carvana led losers at 6.32%."
+    },
+    {
+      "headline": "5 Best Tech Stocks That Pay Dividends",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=deac1c09e5d675c435bf5b2fe037f6d37b584ea7d0c5bee2b944b2e6f6050a8e",
+      "datetime": 1794339702,
+      "summary": "The idea that technology companies don\u2019t pay dividends comes from the industry\u2019s early years, when most businesses focused on growing as quickly as possible. During the dot-com boom of the late 1990s and early 2000s, tech companies typically reinvested their profits into expansion, new products, and gaining market share. Returning cash to shareholders was rarely [\u2026]"
+    },
+    {
+      "headline": "Will Broadcom Inc. (AVGO) Beat Estimates Again in Its Next Earnings Report?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=93247fed5168ea262d0d22a595fd5fbd7a39c976fd9c8f3444c67f8f01c2bfdb",
+      "datetime": 1794339567,
+      "summary": "Broadcom Inc. (AVGO) has an impressive earnings surprise history and currently possesses the right combination of the two key ingredients for a likely beat in its next quarterly report."
+    },
+    {
+      "headline": "Should You Buy, Sell, or Hold Cerebras Systems Stock Before Q3 Earnings?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=47cbb5792cedf3355996e1c3fa5de48640916bdc8c6464175d22ccb5c48ea194",
+      "datetime": 1794339180,
+      "summary": "CBRS Q3 results are likely to reflect strong AI inference demand and growing cloud adoption, but margin pressure, persistent losses, and valuation risks remain."
+    },
+    {
+      "headline": "Texas Instruments Stock Surges 70% YTD: Is the Rally Set to Continue?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d7db2714d29a58dd161cf34a770d44480e31f91e2bbcf199302c7a3b3f7008a1",
+      "datetime": 1794336780,
+      "summary": "TXN surges 70% YTD. Strong earnings, rising AI data center demand and robust cash flow could fuel further gains despite a premium valuation."
+    },
+    {
+      "headline": "AMD and Coherent: What the Biggest Gainers Since the Midterms Selloff Say About the AI Trade",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=841222901ac783cb44e5817a841b091539fdd7c76b58e7db0d59dc6eba535370",
+      "datetime": 1794336540,
+      "summary": "AMD and Coherent are the best-performing S&P 500 stocks since last Thursday\u2019s AI trade selloff."
+    }
+  ],
+  "filings": [
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-10-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526434271/d148323d8k.htm"
+    },
+    {
+      "form": "10-Q",
+      "title": "Quarterly report (10-Q)",
+      "date": "2026-09-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm"
+    },
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-09-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-20260902.htm"
+    }
+  ],
+  "script_text": null,
+  "audio_cached": false,
+  "status": "ok",
+  "data_asof": "2026-11-10",
+  "price": {
+    "last": 331.98,
+    "open": 316.76,
+    "prev_close": 319.48,
+    "move_day_pct": 3.91,
+    "move_open_close_pct": 4.8,
+    "move_week_pct": -0.05
+  },
+  "indicators": {
+    "rsi14": {
+      "value": 49.4,
+      "read": "Neutral"
+    },
+    "macd": {
+      "macd": -9.609,
+      "signal": -9.005,
+      "hist": -0.604,
+      "hist_prev": -2.401,
+      "read": "Bearish \u2014 MACD below signal"
+    },
+    "bollinger_pctb": {
+      "upper": 359.22,
+      "lower": 298.97,
+      "mid": 329.1,
+      "pctb": 0.548,
+      "read": "Mid-band \u2014 no extreme"
+    },
+    "pct_from_52w_low": {
+      "value": 13.88,
+      "read": "Just off its 52-week low"
+    },
+    "pct_from_52w_high": {
+      "value": -30.83,
+      "read": "31% below its 52-week high"
+    },
+    "price_vs_ma200": {
+      "ma200": 366.15,
+      "pct": -9.33,
+      "read": "9% below its 200-day average \u2014 long-term downtrend"
+    },
+    "atr14": {
+      "value": 15.95,
+      "pct_of_price": 4.8,
+      "read": "High daily volatility"
+    },
+    "rel_volume": {
+      "value": 1.17,
+      "read": "Roughly average volume"
+    },
+    "mfi14": {
+      "value": 46.1,
+      "read": "Neutral money flow"
+    }
+  },
+  "low_52w": 291.53,
+  "high_52w": 479.94,
+  "ma50": 345.96,
+  "ma200": 366.15
+}
