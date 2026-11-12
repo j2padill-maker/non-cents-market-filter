@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-10T16:57:34.508724-08:00",
+  "generated_at": "2026-11-11T16:37:55.297550-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "5 Stocks Analysts Are Upgrading Right Now",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b131d70adbc7df0362b484d39710e767a11bd112d03923b633fd23a80fd8f0bc",
+      "datetime": 1794429534,
+      "summary": "Wall Street spent the week swinging between relief and worry. Stocks rallied hard on Monday, then slipped on Tuesday, when a hotter-than-expected inflation report arrived just as Federal Reserve officials were openly talking about raising interest rates again. The swings followed the S&P 500\u2019s biggest weekly drop since April 2025. Hot Inflation Data Revives Rate-Hike [\u2026]"
+    },
+    {
+      "headline": "DraftKings downgraded, Sarepta upgraded: Wall Street's top analyst calls",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=710b127f7a812eb47cc79a57e40915d26fb10c81b18decc7806183660d289f17",
+      "datetime": 1794322018,
+      "summary": "DraftKings downgraded, Sarepta upgraded: Wall Street's top analyst calls"
+    },
+    {
+      "headline": "MNDY Q3 Earnings Beat Estimates on Cost Cuts, Revenues Rise Y/Y",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=9f2c0f3e533b2c73cebe609a6ac394db3481d2c644520afa88feec5430daca7e",
+      "datetime": 1794317100,
+      "summary": "monday.com's Q3 earnings surge 84.5% as cost cuts lift non-GAAP operating margin to a record 24%, despite slower demand and longer enterprise sales cycles."
+    },
+    {
+      "headline": "Buy, Sell, or Hold? Tuesday\u2019s Top Upgrades and Downgrades: Cloudflare, Deckers Outdoors, DraftKings, MongoDB, Nike, Oneok, Philip Morris International, Riot Platforms, Wix.com, and More",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8c0e403d54f13a81bd3be0149efab9164e3023c1700591c38884145142a2219c",
+      "datetime": 1794314826,
+      "summary": "A two-day rally built partly on short covering faces its first real test when October inflation data lands at 8:30 ET. Meanwhile, analysts flipped hard on Wix and DraftKings, while a surprise double upgrade lifted a bitcoin miner's target."
+    },
+    {
       "headline": "This MongoDB Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Tuesday",
       "source": "Benzinga",
       "url": "https://finnhub.io/api/news?id=cae6cddbeece383d86dce69b7e8f5a149e32429d608bd78642c46f935bb55898",
@@ -29,34 +57,6 @@
       "url": "https://finnhub.io/api/news?id=1f718fcadb35cfe15c5b4efb9f563c32f0f4af55ffc1e72ae6372f87c5749ad5",
       "datetime": 1794294336,
       "summary": "BTIG  analyst Gray Powell   initiates coverage on MongoDB (NASDAQ:MDB) with a Buy rating and announces Price Target of $417."
-    },
-    {
-      "headline": "Best Growth Stocks to Buy for November 10th",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=55ea54e7accf5daf45f5130be2ab38283537465f406fe5ee75af6a03eac29dd2",
-      "datetime": 1794293760,
-      "summary": "MDB, INGM, and OSCR it to the Zacks Rank #1 (Strong Buy) growth stocks list on November 10, 2026."
-    },
-    {
-      "headline": "A $4.7 Billion Fund Bought These 3 Stocks",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=144d1220590bb0d2bcec73858973f437f009376814913027447194974f433062",
-      "datetime": 1794207442,
-      "summary": "Key TakeawaysA fund whose firm manages $4. 73 billion held new stakes in SpaceX (SPCX:NASDAQ) and Snowflake (SNOW:NYSE) as of June 30, and a much bigger one in MongoDB (MDB:NASDAQ), its latest 13F shows."
-    },
-    {
-      "headline": "3 AI Infrastructure Stocks Retail Investors Are Watching After The Global Selloff",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8603e2741f67c7e64b574e8f5c16fa9eb87d4632e174bad7e1d089936dab4a43",
-      "datetime": 1793999563,
-      "summary": "A sharp global selloff tied to AI regulation fears has rattled markets, but it has also thrown a spotlight on some of the biggest data centre and AI infrastructure stocks on the planet. When investors rush for the exit, strong businesses occasionally get marked down with everything else, creating moments that feel rare once the dust settles. This article explains how that shock ties into AI and da"
-    },
-    {
-      "headline": "MongoDB (MDB) Shares Dropped, So What Is Driving Attention Now?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e5682ec728f8835b5fd72985411e912925959ca4df28f619ba794378b0d917c7",
-      "datetime": 1793985607,
-      "summary": "MongoDB (MDB) has a firm date on the calendar. The company is set to report third quarter fiscal 2027 results on 1 December 2026, followed by a conference call outlining its business outlook. MongoDB\u2019s share price has retreated sharply ahead of the results, with a 1-day share price return of down 7.24% and a 30-day share price return of down 16.10%, contributing to a year-to-date share price retur"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-10",
+  "data_asof": "2026-11-11",
   "price": {
-    "last": 331.98,
-    "open": 327.42,
-    "prev_close": 327.37,
-    "move_day_pct": 1.41,
-    "move_open_close_pct": 1.39,
-    "move_week_pct": -1.01
+    "last": 338.12,
+    "open": 346.0,
+    "prev_close": 331.98,
+    "move_day_pct": 1.85,
+    "move_open_close_pct": -2.28,
+    "move_week_pct": 2.97
   },
   "indicators": {
     "rsi14": {
-      "value": 43.5,
+      "value": 45.5,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -13.824,
-      "signal": -9.668,
-      "hist": -4.156,
-      "hist_prev": -5.522,
+      "macd": -12.92,
+      "signal": -10.319,
+      "hist": -2.601,
+      "hist_prev": -4.156,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 407.39,
-      "lower": 300.66,
-      "mid": 354.03,
-      "pctb": 0.293,
+      "upper": 406.92,
+      "lower": 299.32,
+      "mid": 353.12,
+      "pctb": 0.361,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 46.93,
-      "read": "47% above its 52-week low"
+      "value": 49.64,
+      "read": "50% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -29.71,
-      "read": "30% below its 52-week high"
+      "value": -28.41,
+      "read": "28% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 335.21,
-      "pct": -0.96,
-      "read": "1% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 334.84,
+      "pct": 0.98,
+      "read": "1% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 22.54,
-      "pct_of_price": 6.79,
+      "value": 21.93,
+      "pct_of_price": 6.49,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.64,
+      "value": 0.53,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 33.1,
+      "value": 40.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 368.54,
-  "ma200": 335.21
+  "ma50": 366.62,
+  "ma200": 334.84
 }

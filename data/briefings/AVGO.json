@@ -2,7 +2,7 @@
   "ticker": "AVGO",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-10T16:58:03.535830-08:00",
+  "generated_at": "2026-11-11T16:38:10.861901-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "S&P 500 Top Gainers and Losers for Today's Session",
+      "headline": "S&P 500 After-Hours Movers: MNST, RDDT Among Gainers; VEEV, LLY Among Losers in Latest Session",
       "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=6fce76dd7876e030d37b388ebacf02dc819d615b61dee883f327a61f69708576",
-      "datetime": 1794341167,
-      "summary": "S&P 500 market movers for today's session: Charter Communications led gainers at 9.68%, while Carvana led losers at 6.32%."
+      "url": "https://finnhub.io/api/news?id=06de5c4551d7b705cba423430683dacc7cdf38df3419851f1401334c05734b82",
+      "datetime": 1794434779,
+      "summary": "S&P 500 after-hours movers from the latest U.S. session include MNST and RDDT among gainers, while VEEV and LLY posted sharp after-hours declines."
     },
     {
-      "headline": "5 Best Tech Stocks That Pay Dividends",
+      "headline": "Cathie Wood, Brad Gerstner and 8 Other Big Funds Bought Cerebras. Is It a Buy Before Earnings?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=deac1c09e5d675c435bf5b2fe037f6d37b584ea7d0c5bee2b944b2e6f6050a8e",
-      "datetime": 1794339702,
-      "summary": "The idea that technology companies don\u2019t pay dividends comes from the industry\u2019s early years, when most businesses focused on growing as quickly as possible. During the dot-com boom of the late 1990s and early 2000s, tech companies typically reinvested their profits into expansion, new products, and gaining market share. Returning cash to shareholders was rarely [\u2026]"
+      "url": "https://finnhub.io/api/news?id=68f60a3ede1ca172a9ff4199fcbc654822ad3aeef0402c46f30c85662e8fe5ed",
+      "datetime": 1794429194,
+      "summary": "Key TakeawaysCathie Wood\u2019s ARK Invest, Brad Gerstner\u2019s Altimeter Capital and eight other big funds reported new Cerebras stakes as of June 30, and the stock is down 58% since. Several of the same funds held far bigger positions in NVIDIA, Taiwan Semiconductor and Broadcom, which trade below or near their usual multiples."
     },
     {
-      "headline": "Will Broadcom Inc. (AVGO) Beat Estimates Again in Its Next Earnings Report?",
+      "headline": "Anthropic\u2019s IPO Prospectus by the Head-Spinning Numbers",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=93247fed5168ea262d0d22a595fd5fbd7a39c976fd9c8f3444c67f8f01c2bfdb",
-      "datetime": 1794339567,
-      "summary": "Broadcom Inc. (AVGO) has an impressive earnings surprise history and currently possesses the right combination of the two key ingredients for a likely beat in its next quarterly report."
+      "url": "https://finnhub.io/api/news?id=09e76893412cb427fdcfea0bca7bc8c9bcf4678903f790c38246dfd90b99f939",
+      "datetime": 1794429120,
+      "summary": "The AI lab\u2019s initial public offering documents are packed with fantastic figures."
     },
     {
-      "headline": "Should You Buy, Sell, or Hold Cerebras Systems Stock Before Q3 Earnings?",
+      "headline": "S&P 500's Earnings Growth to Slow in 2027, 2028, UBS Says",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=47cbb5792cedf3355996e1c3fa5de48640916bdc8c6464175d22ccb5c48ea194",
-      "datetime": 1794339180,
-      "summary": "CBRS Q3 results are likely to reflect strong AI inference demand and growing cloud adoption, but margin pressure, persistent losses, and valuation risks remain."
+      "url": "https://finnhub.io/api/news?id=bebdc467b86986fec3d42c51fb56b0f91caf7baf111d6f8db55cc6f1e084b8f6",
+      "datetime": 1794425757,
+      "summary": "S&P 500 earnings growth will likely slow annually through 2027 and 2028 amid potential headwinds, in"
     },
     {
-      "headline": "Texas Instruments Stock Surges 70% YTD: Is the Rally Set to Continue?",
+      "headline": "Nvidia Just Had Its Worst 5 Days Since 2022, Worse Than the DeepSeek Crash",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d7db2714d29a58dd161cf34a770d44480e31f91e2bbcf199302c7a3b3f7008a1",
-      "datetime": 1794336780,
-      "summary": "TXN surges 70% YTD. Strong earnings, rising AI data center demand and robust cash flow could fuel further gains despite a premium valuation."
+      "url": "https://finnhub.io/api/news?id=cca09520a17ffb2451d4b119286a0cdfc4576a792cdfb91ca67e85d7938f07ab",
+      "datetime": 1794425257,
+      "summary": "A board investigation into Jensen Huang, a report on billions in chips reaching China, and a hot inflation print hit Nvidia at once. Analysts still see enormous upside, so who is misreading the market before November 17 earnings?"
     },
     {
-      "headline": "AMD and Coherent: What the Biggest Gainers Since the Midterms Selloff Say About the AI Trade",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=841222901ac783cb44e5817a841b091539fdd7c76b58e7db0d59dc6eba535370",
-      "datetime": 1794336540,
-      "summary": "AMD and Coherent are the best-performing S&P 500 stocks since last Thursday\u2019s AI trade selloff."
+      "headline": "S&P 500 Most Active Stocks on Nov. 11, 2026: Semiconductor and Tech Names Dominate",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=45f0cdb466f24946a3518dbe4409736c9f91709fe4c0cfaf72d0141bfdba5b74",
+      "datetime": 1794423988,
+      "summary": "On Nov. 11, 2026, NVIDIA, Intel and AMD were among the most active S&P 500 stocks, with semiconductor and technology names dominating trading."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-10",
+  "data_asof": "2026-11-11",
   "price": {
-    "last": 331.98,
-    "open": 316.76,
-    "prev_close": 319.48,
-    "move_day_pct": 3.91,
-    "move_open_close_pct": 4.8,
-    "move_week_pct": -0.05
+    "last": 345.22,
+    "open": 350.22,
+    "prev_close": 331.98,
+    "move_day_pct": 3.99,
+    "move_open_close_pct": -1.43,
+    "move_week_pct": 6.06
   },
   "indicators": {
     "rsi14": {
-      "value": 49.4,
+      "value": 53.9,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -9.609,
-      "signal": -9.005,
-      "hist": -0.604,
-      "hist_prev": -2.401,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -7.154,
+      "signal": -8.635,
+      "hist": 1.481,
+      "hist_prev": -0.604,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 359.22,
-      "lower": 298.97,
-      "mid": 329.1,
-      "pctb": 0.548,
+      "upper": 359.06,
+      "lower": 299.03,
+      "mid": 329.04,
+      "pctb": 0.769,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 13.88,
-      "read": "Just off its 52-week low"
+      "value": 18.42,
+      "read": "18% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -30.83,
-      "read": "31% below its 52-week high"
+      "value": -28.07,
+      "read": "28% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 366.15,
-      "pct": -9.33,
-      "read": "9% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 366.22,
+      "pct": -5.73,
+      "read": "6% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 15.95,
+      "value": 16.58,
       "pct_of_price": 4.8,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.17,
-      "read": "Roughly average volume"
+      "value": 1.33,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 46.1,
+      "value": 54.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 291.53,
   "high_52w": 479.94,
-  "ma50": 345.96,
-  "ma200": 366.15
+  "ma50": 345.49,
+  "ma200": 366.22
 }

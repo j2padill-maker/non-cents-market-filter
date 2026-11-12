@@ -2,7 +2,7 @@
   "ticker": "FSLY",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-10T16:58:05.334856-08:00",
+  "generated_at": "2026-11-11T16:38:12.021097-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "How Big Could Cloudflare Stock's Next Fall Be?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=64fd3cae7835915f985d914062e2fcef69fe782d13378b066735625f9f3a94b7",
+      "datetime": 1794434703,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
+    },
+    {
+      "headline": "Fastly Is Still Down 40% in the Past Month: Can FSLY Stock Get Back to $30?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d00bce1cef1819e9d34de679ad0fc9ec683e13826c92442d85f76de8ba61f183",
+      "datetime": 1794427334,
+      "summary": "A sharp post-earnings drop has turned Fastly (NASDAQ:FSLY) into one of the more contested recovery stories in edge cloud computing. Fastly shares are down 40% over the past month to $17.56 in recent trading. That price includes an 8% gain from the prior close, as a broad tech rally tied to the latest quarterly results [\u2026]"
+    },
+    {
+      "headline": "Datadog vs. Fastly: Which Cloud Tech Stock Is a Better Buy for 2027?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=0dfaf86b60ed99f0b062316711887c5ae35bc025ba8c6ffe19141f19866706a3",
+      "datetime": 1794424802,
+      "summary": "Datadog's revenue grew nearly 28% in FY 2025, while Fastly still posted a net loss, but one valuation gap may matter more than either growth or losses."
+    },
+    {
+      "headline": "Can Rising Adoption of Workers Platform Boost NET's Long-Term Growth?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ba9513365b411407802ea3492badd075138cc8602009e74983c53dd485b04217",
+      "datetime": 1794413580,
+      "summary": "Cloudflare's Workers platform surpassed 10 million developers, with rising enterprise adoption driving larger contracts and stronger customer spending."
+    },
+    {
       "headline": "Stocks making big moves this week: Sprout Social, Redwire, Inspire Medical Systems, Fastly, and Marvell Technology",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=71b6e3e90f3f31670ab8da7663a928d8e7419d3587e82ee9588542b803e412f2",
@@ -29,34 +57,6 @@
       "url": "https://finnhub.io/api/news?id=0c4d45f4fd1fd462a02d00d05eca526da0649bb2d32bc6801531f62e23faef20",
       "datetime": 1794276616,
       "summary": "Fastly pivots from content delivery to a higher-margin edge cloud and security platform. Find out why FSLY stock is a Hold."
-    },
-    {
-      "headline": "Fastly: Magnificent Opportunity To 'Buy' This Dip",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=fe15ae97b0eb2ab2812f45367fe0c13163c20782a4671808a812b1ed26732128",
-      "datetime": 1794248267,
-      "summary": ""
-    },
-    {
-      "headline": "Freedom Broker Maintains Buy on Fastly, Lowers Price Target to $35",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=0ea0281e505f349beae1d93d119e65961aa4449b1404ad050c3a4c66f86eb924",
-      "datetime": 1794240375,
-      "summary": "Freedom Broker  analyst Almas Almaganbetov   maintains Fastly (NASDAQ:FSLY) with a Buy and lowers the price target from $37 to $35."
-    },
-    {
-      "headline": "5 insightful analyst questions from Fastly\u2019s Q3 2026 earnings call",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=af1d3c82e2c7aa33713a151707539375ed6d8878fcd578c23163836ea5fe4b90",
-      "datetime": 1794163056,
-      "summary": "Fastly\u2019s third quarter results were highlighted by revenue and non-GAAP profit both coming in well above Wall Street expectations. Management attributed outperformance to the continued expansion of its largest customers and accelerated adoption of security and AI-focused products. CEO Kip Compton highlighted that 74% of large customers now use two or more product suites, and 34% are adopting four "
-    },
-    {
-      "headline": "Fastly, Inc. 2026 Q3 - Results - Earnings Call Presentation",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=722dfeded19fd5e214e5651ecb64d9b9b3dcbf1c902c45381e0d8918e801b7ca",
-      "datetime": 1794075660,
-      "summary": "2026-11-07. The following slide deck was published by Fastly, Inc."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-10",
+  "data_asof": "2026-11-11",
   "price": {
-    "last": 16.24,
-    "open": 15.78,
-    "prev_close": 15.98,
-    "move_day_pct": 1.63,
-    "move_open_close_pct": 2.92,
-    "move_week_pct": -22.92
+    "last": 17.26,
+    "open": 17.11,
+    "prev_close": 16.24,
+    "move_day_pct": 6.28,
+    "move_open_close_pct": 0.85,
+    "move_week_pct": -17.95
   },
   "indicators": {
     "rsi14": {
-      "value": 33.0,
+      "value": 36.8,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -2.191,
-      "signal": -1.233,
-      "hist": -0.958,
-      "hist_prev": -1.018,
+      "macd": -2.225,
+      "signal": -1.431,
+      "hist": -0.794,
+      "hist_prev": -0.958,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 29.39,
-      "lower": 14.88,
-      "mid": 22.13,
-      "pctb": 0.094,
+      "upper": 29.18,
+      "lower": 14.32,
+      "mid": 21.75,
+      "pctb": 0.198,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 104.02,
-      "read": "104% above its 52-week low"
+      "value": 116.83,
+      "read": "117% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -51.52,
-      "read": "52% below its 52-week high"
+      "value": -48.48,
+      "read": "48% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 21.77,
-      "pct": -25.4,
-      "read": "25% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 21.81,
+      "pct": -20.86,
+      "read": "21% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 2.14,
-      "pct_of_price": 13.15,
+      "value": 2.11,
+      "pct_of_price": 12.21,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.8,
+      "value": 0.94,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 38.1,
+      "value": 43.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 7.96,
   "high_52w": 33.5,
-  "ma50": 23.7,
-  "ma200": 21.77
+  "ma50": 23.62,
+  "ma200": 21.81
 }

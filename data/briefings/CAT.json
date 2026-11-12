@@ -2,7 +2,7 @@
   "ticker": "CAT",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-10T16:58:09.037152-08:00",
+  "generated_at": "2026-11-11T16:38:14.292499-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Is The Market Underpricing Caterpillar Stock?",
+      "headline": "Caterpillar (CAT) Stock Looks Like A Bargain On Its 222% Run",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=387b11e09534c359df3d088a79b560fda927325ed8b415a899813c7d7729d8d9",
-      "datetime": 1794354171,
+      "url": "https://finnhub.io/api/news?id=d302d2e4631425345b13826ce63c4362e128ecd88e8ea2ae1a2d35edb1014bf3",
+      "datetime": 1794438875,
+      "summary": "Caterpillar has climbed sharply over the past few years and now trades at US$601.61, which naturally raises a simple question for anyone looking at the ticker today. Is that price still anchored in what the business can earn in cash terms, or has the share move run ahead of the company\u2019s underlying cash flows? Over 5 years the stock has returned 222.0%, so a lot of future cash generation already h"
+    },
+    {
+      "headline": "Michael Burry just made a big move on Caterpillar stock",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b9831ad92324da73b6d2962e47c841fc1eeb74c34225163f0a52901676ab6a4c",
+      "datetime": 1794438420,
+      "summary": "Caterpillar\u2019s worst week in over a year handed Burry a payday. He isn\u2019t walking away from the trade just yet."
+    },
+    {
+      "headline": "Can Caterpillar Stock Hit $820?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e5e427969b3cb7eeb4a02500c81e0bd9572b25604bceb6d2a1368cf21e970733",
+      "datetime": 1794433467,
       "summary": "For questions about this article or underlying research, email help@trefis.com."
     },
     {
-      "headline": "Caterpillar Stock Is Waiting On One Answer",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9aa443862ede7b9285384de2d8ff6dee0a6c65bdb3a919bc7a1f0759504967aa",
-      "datetime": 1794346712,
-      "summary": "For questions about this article or underlying research, email help@trefis.com."
+      "headline": "Dow Jones Top Gainers for Nov. 11, 2026 US Session",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=52010dd848c4a06a44129ee77efe056791a7e08544d2f8547f7b9dcfa4e80d84",
+      "datetime": 1794427848,
+      "summary": "Dow Jones top gainers for Nov. 11, 2026: NVDA rose 4.06%, CSCO 3.6%, CAT 3.37%, GOOGL 2.47% and GS 2.09% during the US session."
     },
     {
-      "headline": "Caterpillar (CAT) Is Amongst The Notable Names Insiders Are Loading Up On After the Recent Crash",
+      "headline": "Caterpillar faces further valuation risks despite machinery strength, Bank of America warns",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9e94b532c6398cf0e18b24a36e37615c491260179e5bfe346ca5298492515b9a",
-      "datetime": 1794337827,
-      "summary": "We just published a list of 10 Buy the Dip Stocks Insiders Are Loading Up On After the Recent Market Sell-Off, and Caterpillar Inc. (NYSE:CAT) ranked 8th on this list. Thursday, November 5 represented the worst trading session for the U.S. market in over a year. the Nasdaq Composite dropped 5.52%, the S&P 500 fell [\u2026]"
+      "url": "https://finnhub.io/api/news?id=8fc582a11c0678b8eacf72afb144c9b4ca29af3b59dcd20dacd960d3351fedd5",
+      "datetime": 1794423600,
+      "summary": "Bank of America has maintained its 'buy' rating on Caterpillar Inc (NYSE:CAT, XETRA:CAT) despite warning that its valuation could fall further as uncertainty over data centre investment persists. The bank noted that Caterpillar's valuation multiple had fallen from 30 times earnings to 17..."
     },
     {
-      "headline": "How AI Power Order Will Impact Caterpillar (CAT) Investors",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=fdf9cbf3f1cc724cdb8ab01712295da0d610ab04a18cac66a9698dfe22cf6331",
-      "datetime": 1794334406,
-      "summary": "Caterpillar reported record third quarter 2026 results with US$20,682 million in revenue and US$3,287 million in net income, and confirmed guidance for moderate fourth quarter sales growth and full year 2026 sales and revenues expected to rise in the mid to high teens. The US$3.4 billion Anthropic gas generator agreement highlights how AI driven power demand links directly into Caterpillar's Power"
-    },
-    {
-      "headline": "The 'Big Short' Investor Locks in Profits on Overlooked Blue-Chip Stock",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c8daf7dc89eae42458dd04aca4fa624e924daf1150521b7505f0a22d3d850c67",
-      "datetime": 1794331033,
-      "summary": "A famous market bear is taking money off the table."
-    },
-    {
-      "headline": "Stock Market Today: Dow Dips On Hot Inflation Data; Nvidia Falls Again, Anthropic Sets IPO Range (Live Coverage)",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=da4b6468f7b07843e1b9de42fc190efda0a049a2abd6c729c74866c400d1cd24",
-      "datetime": 1794330181,
-      "summary": "Stock Market Today: The Dow Jones index falls Tuesday on a hot inflation report. Anthropic prices its IPO range. Nvidia sells off."
+      "headline": "Dow Jones Gainers in Today's US Session",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=c581ca49a8f48a031b7f53656bc4346ad6eafbeb7cb5584b7499369291f77823",
+      "datetime": 1794418864,
+      "summary": "Dow Jones top gainers in today's US session included NVIDIA, Cisco, Caterpillar, Goldman Sachs, Alphabet and Salesforce, with NVDA up 4.27%."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-10",
+  "data_asof": "2026-11-11",
   "price": {
-    "last": 584.57,
-    "open": 569.75,
-    "prev_close": 598.88,
-    "move_day_pct": -2.39,
-    "move_open_close_pct": 2.6,
-    "move_week_pct": -6.31
+    "last": 601.61,
+    "open": 600.7,
+    "prev_close": 584.57,
+    "move_day_pct": 2.91,
+    "move_open_close_pct": 0.15,
+    "move_week_pct": 1.74
   },
   "indicators": {
     "rsi14": {
-      "value": 31.1,
+      "value": 35.5,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -54.594,
-      "signal": -47.648,
-      "hist": -6.947,
-      "hist_prev": -9.274,
+      "macd": -52.15,
+      "signal": -48.548,
+      "hist": -3.602,
+      "hist_prev": -6.947,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 792.58,
-      "lower": 537.17,
-      "mid": 664.87,
-      "pctb": 0.186,
-      "read": "Near the lower band"
+      "upper": 782.26,
+      "lower": 532.93,
+      "mid": 657.59,
+      "pctb": 0.275,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 7.95,
+      "value": 11.1,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -44.87,
-      "read": "45% below its 52-week high"
+      "value": -43.27,
+      "read": "43% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 805.01,
-      "pct": -27.38,
-      "read": "27% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 804.84,
+      "pct": -25.25,
+      "read": "25% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 30.49,
-      "pct_of_price": 5.22,
+      "value": 30.17,
+      "pct_of_price": 5.01,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.2,
+      "value": 1.05,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 26.9,
+      "value": 32.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 541.53,
   "high_52w": 1060.41,
-  "ma50": 750.63,
-  "ma200": 805.01
+  "ma50": 747.12,
+  "ma200": 804.84
 }

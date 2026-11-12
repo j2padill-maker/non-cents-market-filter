@@ -2,7 +2,7 @@
   "ticker": "GOOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-10T16:58:10.988550-08:00",
+  "generated_at": "2026-11-11T16:38:15.394016-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "OpenAI's Q3 results and Nvidia's scandal impact on the AI ecosystem",
+      "headline": "Zelda remake becomes fastest-selling Nintendo Switch 2 game ever",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b440c43fc8c6e917b383290be7b03b2fbef8347df0a1fcece3b908d39d7a52c8",
-      "datetime": 1794349412,
-      "summary": "Deidre Bosa is joined by Khosla Ventures Founder Vinod Khosla to discuss OpenAI's (OPAI.PVT) Q3 results from an investor perspective, how OpenAI compares with Anthropic (ANTH.PVT), and how the Nvidia scandal impacts the AI ecosystem. Deidre Bosa then sits down with OpenAI CFO Sarah Friar to discuss OpenAI's push into enterprise AI, their 'dots' rollout, and the global AI model race. 'Deirdre Bosa "
+      "url": "https://finnhub.io/api/news?id=02b4e9466697e379c3d95bb527b6c2b774aa9fb40c2eb2789b5b19747da80abc",
+      "datetime": 1794439050,
+      "summary": "Yahoo Finance's Deirdre Bosa reports on \"The Legend of Zelda: Ocarina of Time\" selling 5.2 million copies in its first four days on Nintendo (NTDOY) Switch 2, the device's fastest-selling game ever, ahead of next week's Grand Theft Auto 6 launch."
     },
     {
-      "headline": "California Privacy Agency Fines FedEx Nearly $3M",
+      "headline": "Nvidia and Alphabet Just Agreed to Buy $10 Billion Each of Anthropic Stock at Its IPO Price",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d60e7159ac9f164a5e0184c940d7c1c91bcd3017bd611eacc560af6617428772",
-      "datetime": 1794346763,
-      "summary": "California has fined FedEx nearly $3 million over alleged privacy violations - including failing to honor opt-out commands sent through the Global Privacy Control."
+      "url": "https://finnhub.io/api/news?id=13132d03c5b8d69d4f31c02910a3f58b434d3e8ce498d01778b6101fa2f7c561",
+      "datetime": 1794438421,
+      "summary": "Anthropic's filing ties two of the seven checks to deals already in place -- though not the chipmaker's."
     },
     {
-      "headline": "Why the Data Center Backlash Could Fall Flat: Increased Costs \u201ca Trade That These Hyperscalers Are Still Going to Want to Make\u201d",
+      "headline": "Fusion's Next Race Is Over Superconducting Tape, Not Plasma",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=cf864062aaf5c72f00a31cc670f1bf590fcd669ca6f44e80ee9534cb46a79e5a",
-      "datetime": 1794346697,
-      "summary": "Key TakeawaysTexas governor-elect Gina Hinojosa plans to make newly permitted data centers pay taxes, avoid raising consumer power prices and use union labor. Gene Munster puts soft costs at about 15% of a data center\u2019s bill, so a 30% jump in them raises the total only about 5%."
+      "url": "https://finnhub.io/api/news?id=5deaac082d38d7e5742c95f8543b43b792bc36f8e813b5ab3b043c25f0219979",
+      "datetime": 1794438000,
+      "summary": "Proxima Fusion signed deals with Japan's Fujikura and Kyoto Fusioneering to build a European fusion supply chain, starting with superconducting tape."
     },
     {
-      "headline": "Alphabet Inc. (GOOGL) Is Part of a Massive AI Spending Race: Can the Investment Deliver Enough Returns?",
+      "headline": "GE Vernova Fell 25% on Data Center Fears. Only About 20% of Its Gas Turbine Customers Are Data Centers. Time to Buy?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0b31db05b3ac3c67edcc351d9c0f1481d085c7b8ce23d34f2bcfc3201b58a136",
-      "datetime": 1794346013,
-      "summary": "Moon Capital Management an investment management company, recently released its Q3 2026 investor letter. A copy of the letter can be downloaded here. The letter reported that its equity portfolio gained approximately 4% during the first nine months of 2026, compared with an approximately 12% year-to-date return for the S&P 500. The firm noted that [\u2026]"
+      "url": "https://finnhub.io/api/news?id=91db2ef353218b9c334adfaad3b015cf802ede0e7ab3df268dcbeede1d813606",
+      "datetime": 1794435900,
+      "summary": "Investors may be viewing this company's future as being more dependent on the AI industry than it actually is."
     },
     {
-      "headline": "\u201cFive-Nines\u201d: Larry Page Reportedly Sees 99.999% of Compute in Orbit, and Musk Agrees",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b1bb0e66019dbb725c19a4c2070948a50b9e2aea07c95258614e73ec7ffd1fd6",
-      "datetime": 1794345522,
-      "summary": "Key TakeawaysInvestor Patrick O\u2019Shaughnessy said he heard secondhand that Larry Page, co-founder of Google and its parent Alphabet, expects 99. 999% of compute to end up in orbit, and Elon Musk called it one of Page\u2019s many accurate predictions."
+      "headline": "S&P 500 After-Hours Movers: MNST, RDDT Among Gainers; VEEV, LLY Among Losers in Latest Session",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=06de5c4551d7b705cba423430683dacc7cdf38df3419851f1401334c05734b82",
+      "datetime": 1794434779,
+      "summary": "S&P 500 after-hours movers from the latest U.S. session include MNST and RDDT among gainers, while VEEV and LLY posted sharp after-hours declines."
     },
     {
-      "headline": "Alphabet Is Set to Become an Even Bigger Anthropic Shareholder After the IPO",
+      "headline": "Hugging Face co-founder says AI hacks show even the biggest labs haven't figured out AI alignment",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=70b14d5748c789c72d0b6284277e4bcf361ad758db62a14926ffe6936193e610",
-      "datetime": 1794344220,
-      "summary": "Does Google's bigger Anthropic stake move the needle for Alphabet? Anthropic's amended S-1 filing shows the size, the price, and the risks."
+      "url": "https://finnhub.io/api/news?id=8d0d2feb72798790606b29b9f0b84c66c519f56ca616d297445fa9347d1a7bbe",
+      "datetime": 1794434400,
+      "summary": "Hugging Face cofounder Thomas Wolf says AI alignment is a key issue the company is focusing on following OpenAI hack."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-10",
+  "data_asof": "2026-11-11",
   "price": {
-    "last": 284.92,
-    "open": 287.27,
-    "prev_close": 286.01,
-    "move_day_pct": -0.38,
-    "move_open_close_pct": -0.82,
-    "move_week_pct": 2.39
+    "last": 290.63,
+    "open": 287.57,
+    "prev_close": 284.92,
+    "move_day_pct": 2.0,
+    "move_open_close_pct": 1.07,
+    "move_week_pct": 1.16
   },
   "indicators": {
     "rsi14": {
-      "value": 31.4,
+      "value": 36.9,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -15.202,
-      "signal": -13.48,
-      "hist": -1.721,
-      "hist_prev": -2.531,
+      "macd": -14.275,
+      "signal": -13.639,
+      "hist": -0.636,
+      "hist_prev": -1.721,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 358.1,
-      "lower": 258.36,
-      "mid": 308.23,
-      "pctb": 0.266,
+      "upper": 353.23,
+      "lower": 257.94,
+      "mid": 305.58,
+      "pctb": 0.343,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 4.44,
-      "read": "Sitting right at its 52-week low"
+      "value": 6.54,
+      "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -28.51,
-      "read": "29% below its 52-week high"
+      "value": -27.08,
+      "read": "27% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 336.78,
-      "pct": -15.4,
-      "read": "15% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 336.56,
+      "pct": -13.65,
+      "read": "14% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 10.3,
-      "pct_of_price": 3.61,
+      "value": 10.14,
+      "pct_of_price": 3.49,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.66,
+      "value": 0.8,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 38.6,
+      "value": 43.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 272.8,
   "high_52w": 398.54,
-  "ma50": 327.63,
-  "ma200": 336.78
+  "ma50": 326.8,
+  "ma200": 336.56
 }

@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-10T16:58:01.647492-08:00",
+  "generated_at": "2026-11-11T16:38:09.792111-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "How Big Could Cloudflare Stock's Next Fall Be?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=64fd3cae7835915f985d914062e2fcef69fe782d13378b066735625f9f3a94b7",
+      "datetime": 1794434703,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
+    },
+    {
+      "headline": "Atlassian vs. Zscaler: Which Technology Stock Is a Better Buy for 2027?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e88d12603b32fb3450904aa8065f589b31b611e1530789da1c25038c9a73c4c0",
+      "datetime": 1794432761,
+      "summary": "Atlassian is growing fast and now turning a profit, but its stock fell on slower guidance. Zscaler is a major cloud security player that recently posted a small loss."
+    },
+    {
+      "headline": "Zscaler's Cross-Selling Strategy: Can Data Security Lift Revenues?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7703a477d6e17435385c9dd5ab9cf713af544bdef625be12cbed2437f4b21859",
+      "datetime": 1794413280,
+      "summary": "ZS' Data Security business gains momentum as strong ARR growth, rising AI security demand and cross-selling opportunities open new avenues for revenue growth."
+    },
     {
       "headline": "Zscaler (ZS) Faces A Valuation Test, Is The Pullback A Buying Opportunity?",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=1c2da0eea2c2b4feb5b42c0c6b3b6a61b90f95813ef7806cf572edb9b5bf0373",
       "datetime": 1794317721,
       "summary": "Key TakeawaysCloudflare is up 11% in a week after third-quarter revenue rose 39% to $782. 5 million and its guidance beat estimates."
-    },
-    {
-      "headline": "Commvault Announces Strategic Partnership with Zscaler to Help Enterprises Adopt AI with Confidence, Control, and Resilience",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0f4097881fb157cf4468219b15718ab0f39926d82028dd8e8a2eb953c7431586",
-      "datetime": 1794317400,
-      "summary": "Commvault (NASDAQ: CVLT), delivering continuous recovery for the AI era, today announced a strategic partnership with Zscaler, the cybersecurity platform for the AI era, that will help customers adopt AI with confidence and control while also being able to rollback and recover from harmful agentic activity."
-    },
-    {
-      "headline": "Zscaler, Inc. (ZS) is Attracting Investor Attention: Here is What You Should Know",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a5231e43b8fc390283c150bf0ee6c62cb9ac3fd9922bd91adae159b8f4e8606c",
-      "datetime": 1794315603,
-      "summary": "Recently, Zacks.com users have been paying close attention to Zscaler (ZS). This makes it worthwhile to examine what the stock has in store."
-    },
-    {
-      "headline": "Zscaler Sinks 11% in a Week as Security Stocks Slide. Dan Ives Sees Budgets \u201cPotentially Double\u201d",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=497c3033305b5c3cc9bb436079b0dbef4f899b591e913a8322ee4d9ae4aec63c",
-      "datetime": 1794314636,
-      "summary": "Key TakeawaysZscaler fell 11% in the past week with no news of its own, as a selloff that began at Fortinet hit security stocks. Cloudflare just posted strong results, and tech analyst Dan Ives says security budgets could double."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-10",
+  "data_asof": "2026-11-11",
   "price": {
-    "last": 194.92,
-    "open": 196.27,
-    "prev_close": 199.04,
-    "move_day_pct": -2.07,
-    "move_open_close_pct": -0.69,
-    "move_week_pct": -13.4
+    "last": 193.79,
+    "open": 200.14,
+    "prev_close": 194.92,
+    "move_day_pct": -0.58,
+    "move_open_close_pct": -3.17,
+    "move_week_pct": -13.65
   },
   "indicators": {
     "rsi14": {
-      "value": 36.7,
+      "value": 36.2,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -2.104,
-      "signal": 4.877,
-      "hist": -6.981,
-      "hist_prev": -6.701,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -3.756,
+      "signal": 3.151,
+      "hist": -6.907,
+      "hist_prev": -6.981,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 267.96,
-      "lower": 185.11,
-      "mid": 226.54,
-      "pctb": 0.118,
+      "upper": 268.96,
+      "lower": 181.41,
+      "mid": 225.19,
+      "pctb": 0.141,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 65.12,
-      "read": "65% above its 52-week low"
+      "value": 64.16,
+      "read": "64% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -41.16,
-      "read": "41% below its 52-week high"
+      "value": -41.5,
+      "read": "42% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 166.85,
-      "pct": 16.82,
-      "read": "17% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 166.72,
+      "pct": 16.24,
+      "read": "16% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 12.65,
-      "pct_of_price": 6.49,
+      "value": 12.45,
+      "pct_of_price": 6.43,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.87,
+      "value": 0.69,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 43.8,
+      "value": 39.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 118.05,
   "high_52w": 331.29,
-  "ma50": 208.44,
-  "ma200": 166.85
+  "ma50": 208.75,
+  "ma200": 166.72
 }

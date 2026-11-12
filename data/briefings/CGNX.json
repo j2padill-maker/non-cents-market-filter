@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-10T16:57:51.482195-08:00",
+  "generated_at": "2026-11-11T16:38:03.418189-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "4 Industrial Tech Stocks Riding the AI Boom and Paying Dividends Along the Way",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=305022129d951054d58fb7410757803c1cf07b15ff6d984d204a555f5110cd06",
+      "datetime": 1794430044,
+      "summary": "Four Nasdaq industrial names feed the AI data center and factory buildout, yet each sends shareholders a quarterly check. Their payouts look tiny, but the real story is how little of the profit they claim and which one has raised longest."
+    },
+    {
+      "headline": "Jefferies Initiates Coverage On Cognex with Buy Rating, Announces Price Target of $64",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=3e2e660fbda1d4c0ac979d70d0c5da65318cb8f6ab73ec81d04acbf36d66b92c",
+      "datetime": 1794391994,
+      "summary": "Jefferies  analyst Dushyant Ailani   initiates coverage on Cognex (NASDAQ:CGNX) with a Buy rating and announces Price Target of $64."
+    },
+    {
+      "headline": "Cognex Corporation 2026 Q3 - Results - Earnings Call Presentation",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=fd89fb916077fa879a93c71232ea789460bcd795cc0918397916fe8ff1253ab7",
+      "datetime": 1794353746,
+      "summary": "2026-11-10. The following slide deck was published by Cognex Corporation in conjunction with their 2026 Q3 earnings call."
+    },
     {
       "headline": "Cognex Corporation (CGNX) Presents at Baird 2026 Global Industrial Conference 2026 Transcript",
       "source": "SeekingAlpha",
@@ -35,27 +56,6 @@
       "source": "Benzinga",
       "url": "https://finnhub.io/api/news?id=f997744b4b50e27154dd05290396415a3f064d4c0bfb8d8d90f7fd8f1aa1876f",
       "datetime": 1794238528,
-      "summary": ""
-    },
-    {
-      "headline": "DA Davidson Maintains Neutral on Cognex, Lowers Price Target to $55",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=5fb7aa4f890224ba231e25f5b915b5e49a4bf44a66385a321c853b8a2e981cea",
-      "datetime": 1794237988,
-      "summary": "DA Davidson  analyst Matthew Summerville   maintains Cognex (NASDAQ:CGNX) with a Neutral and lowers the price target from $65 to $55."
-    },
-    {
-      "headline": "5 insightful analyst questions from Cognex\u2019s Q3 2026 earnings call",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2efa2f28ba9264db3901c83f932c6838cd00e162a9fa434efea6582751c2fc2f",
-      "datetime": 1794209616,
-      "summary": "Cognex delivered quarterly results that met Wall Street\u2019s revenue expectations, but the market responded negatively despite a double-digit sales increase and widened margins. Management credited the performance to broad-based demand across logistics, packaging, and electronics, as well as benefits from recent portfolio optimization and disciplined cost management. CEO Matt Moschner cited the compa"
-    },
-    {
-      "headline": "Dividend Announcements: October 31-November 6, 2026 (Part 2 Of 2)",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=1dd09dc7ff5068d7c04b0d06a48a13150347567f1bacbdfc8fb715d22a228100",
-      "datetime": 1794168330,
       "summary": ""
     }
   ],
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-10",
+  "data_asof": "2026-11-11",
   "price": {
-    "last": 50.8,
-    "open": 49.58,
-    "prev_close": 50.34,
-    "move_day_pct": 0.91,
-    "move_open_close_pct": 2.46,
-    "move_week_pct": -12.58
+    "last": 51.72,
+    "open": 53.23,
+    "prev_close": 50.8,
+    "move_day_pct": 1.81,
+    "move_open_close_pct": -2.84,
+    "move_week_pct": -2.53
   },
   "indicators": {
     "rsi14": {
-      "value": 39.5,
-      "read": "Oversold"
+      "value": 41.8,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": -2.466,
-      "signal": -1.804,
-      "hist": -0.662,
-      "hist_prev": -0.785,
+      "macd": -2.397,
+      "signal": -1.923,
+      "hist": -0.474,
+      "hist_prev": -0.662,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 61.59,
-      "lower": 48.26,
-      "mid": 54.92,
-      "pctb": 0.191,
-      "read": "Near the lower band"
+      "upper": 61.36,
+      "lower": 47.93,
+      "mid": 54.65,
+      "pctb": 0.282,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 46.6,
-      "read": "47% above its 52-week low"
+      "value": 49.25,
+      "read": "49% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -29.76,
-      "read": "30% below its 52-week high"
+      "value": -28.48,
+      "read": "28% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 58.2,
-      "pct": -12.71,
-      "read": "13% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 58.27,
+      "pct": -11.24,
+      "read": "11% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 3.13,
-      "pct_of_price": 6.16,
+      "value": 3.12,
+      "pct_of_price": 6.04,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.34,
-      "read": "Above-average volume"
+      "value": 0.84,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 51.9,
+      "value": 57.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 34.65,
   "high_52w": 72.32,
-  "ma50": 58.65,
-  "ma200": 58.2
+  "ma50": 58.48,
+  "ma200": 58.27
 }

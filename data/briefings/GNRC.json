@@ -2,7 +2,7 @@
   "ticker": "GNRC",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-10T16:57:48.780713-08:00",
+  "generated_at": "2026-11-11T16:38:01.218737-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,11 +17,25 @@
   ],
   "news": [
     {
+      "headline": "Generac: 3 Key Takeaways for Long-Term Investors",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c20957cbd6c05c19d7b1dec3cb6e6a66fce60f92090cfbfafa7ae863a92fd2d5",
+      "datetime": 1794434702,
+      "summary": "Manufacturing is working to triple production with minimal capital spending, a structural advantage that reshapes return-on-investment expectations."
+    },
+    {
       "headline": "AI Data Center Suppliers Report Growth as October Inflation Data Reaches Wall Street",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=dfa16c625436befa4d3f62e9a7d35dc45c7bfb9c1691a5c7a3551b1176a7c5bd",
       "datetime": 1794334200,
       "summary": "Equity Insider News Commentary - U.S. stocks were lower in late morning trading on Tuesday, the day the Bureau of Labor Statistics published its October Consumer Price Index. As of 11:42 a.m. ET, the S&P 500 was down 57.20 points, or 0.76%, at 7,492.74, the Nasdaq Composite was down 269.19 points, or 1.07%, at 24,983.95, and the Dow Jones Industrial Average was down 357.50 points, or 0.68%, at 52,"
+    },
+    {
+      "headline": "Stem Acquires Software Assets Of raicoon For Automated Fault Detection And Workflow Management In Solar Portfolios; Terms Not Disclosed",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=16e82977bee56ffad394c13a7ee4aabbb77846e2aaedc180df67a2bfb4501f9c",
+      "datetime": 1794323283,
+      "summary": ""
     },
     {
       "headline": "S&P 500 Premarket Losers: GEV, CAT, VRT Fall After Yesterday's Gains",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=9a8775de03c79b681411ecda0250c44272ad24cf863ae8d270fff9143186d1f7",
       "datetime": 1794228660,
       "summary": "A Democratic takeover of Congress could boost clean energy policy support, while rising AI power demand creates opportunities for four stocks."
-    },
-    {
-      "headline": "Piper Sandler Maintains Overweight on Generac Holdings, Lowers Price Target to $266",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=b839e0c18ff5fd3fb855cf79cc553417fb41c7bb41e332bfa10de328fbeb4921",
-      "datetime": 1794225504,
-      "summary": "Piper Sandler  analyst Dimple Gosai   maintains Generac Holdings (NYSE:GNRC) with a Overweight and lowers the price target from $279 to $266."
-    },
-    {
-      "headline": "3 Power Stocks Retail Investors Are Watching As AI Data Centers Chase New Supply",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=54136526da585f65cf6458744a13fed3952f4b83ca8c8057206595ecbfecd79c",
-      "datetime": 1794161323,
-      "summary": "A single AI deal just turned power into the new bottleneck, with Anthropic committing $3.4b to secure 1.7 GW of gas generators so its data centers do not go dark. That kind of check focuses attention on who supplies the heavy equipment and grid muscle behind the hype. This piece walks through three stocks exposed to that same story, and how this AI power grab might shape their risk and reward. The"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-10",
+  "data_asof": "2026-11-11",
   "price": {
-    "last": 181.78,
-    "open": 181.7,
-    "prev_close": 188.75,
-    "move_day_pct": -3.69,
-    "move_open_close_pct": 0.04,
-    "move_week_pct": -13.14
+    "last": 194.0,
+    "open": 189.82,
+    "prev_close": 181.78,
+    "move_day_pct": 6.72,
+    "move_open_close_pct": 2.2,
+    "move_week_pct": 2.47
   },
   "indicators": {
     "rsi14": {
-      "value": 42.7,
+      "value": 49.3,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -5.198,
-      "signal": -3.523,
-      "hist": -1.675,
-      "hist_prev": -1.673,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -4.494,
+      "signal": -3.717,
+      "hist": -0.777,
+      "hist_prev": -1.675,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 211.12,
-      "lower": 174.98,
-      "mid": 193.05,
-      "pctb": 0.188,
-      "read": "Near the lower band"
+      "upper": 210.78,
+      "lower": 174.92,
+      "mid": 192.85,
+      "pctb": 0.532,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 33.3,
-      "read": "33% above its 52-week low"
+      "value": 42.26,
+      "read": "42% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -38.49,
-      "read": "38% below its 52-week high"
+      "value": -34.36,
+      "read": "34% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 219.23,
-      "pct": -17.08,
-      "read": "17% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 219.34,
+      "pct": -11.55,
+      "read": "12% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 12.35,
-      "pct_of_price": 6.79,
+      "value": 12.38,
+      "pct_of_price": 6.38,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.33,
-      "read": "Above-average volume"
+      "value": 0.69,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 53.0,
+      "value": 57.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 136.37,
   "high_52w": 295.54,
-  "ma50": 197.77,
-  "ma200": 219.23
+  "ma50": 198.02,
+  "ma200": 219.34
 }

@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-10T16:57:58.842284-08:00",
+  "generated_at": "2026-11-11T16:38:07.900924-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "The AI Trade Deconstructed: AI Builders, AI Suppliers And AI Product Firms",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=6641435c945aad1cf70f3b81616bbc6fff2ba528969271678dc9abad88a172ce",
+      "datetime": 1794389400,
+      "summary": ""
+    },
+    {
+      "headline": "AI Development And Its Role In Eurozone Capital Investment",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=61470c58d2925b4256eda0f56594b5f6c3632bb365973fb5e326c6e9c3c07974",
+      "datetime": 1794370200,
+      "summary": "Inflation-adjusted intellectual property investment rose 15% between early 2022 and Q2 2026, compared with 8% for total investment. Read more here."
+    },
+    {
+      "headline": "AI In 2027: 20 Questions For The Global Economy",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=8a5480e954805b2076cffdbc48627ab2955bd58914fe433081d713009fd60b84",
+      "datetime": 1794357000,
+      "summary": "The AI boom is reshaping growth, productivity, trade, jobs and markets. Read more here."
+    },
     {
       "headline": "Nvidia's CEO Scandal Adds Risk, But Loose Policy Says The AI Boom Isn't Over",
       "source": "SeekingAlpha",
@@ -36,90 +57,69 @@
       "url": "https://finnhub.io/api/news?id=2078713fe9e28dca3a0d5566858acadf81d24a7ccb948993c735aa2a948650ad",
       "datetime": 1794285600,
       "summary": "A divided government makes major federal policy changes unlikely. The election leaves our broad market outlook unchanged, while adding political and execution risks to watch into 2027."
-    },
-    {
-      "headline": "What Is Coming? - Weekly Blog #966",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=cd1f9457e3f194366eddb9c3dc675eb34107516f9bf03702f01c18e04a433aeb",
-      "datetime": 1794265200,
-      "summary": ""
-    },
-    {
-      "headline": "A Reset Is Not The End Of The AI Story",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=91a69c86056c48ac04f5c7b1aa40fda6f7d09a597e98118f74ffbd2d9784d699",
-      "datetime": 1794244200,
-      "summary": "The AI build has seemed due for a reset. We saw those worries translate into a sharp market selloff. But it doesn't change our longer-term view that AI represents a powerful investment theme"
-    },
-    {
-      "headline": "What A Slower AI Buildout May Mean For Markets",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=bc21b5645bf4872f0d900e3d3eef08a5707a09db13b3cad2426a772647ac0e12",
-      "datetime": 1794242700,
-      "summary": "The fundamental case for AI hasn\u00e2\u0080\u0099t disappeared. A slower buildout may impose greater AI spending discipline, take pressure off interest rates, and ease pressure on valuations. Read more here"
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-10",
+  "data_asof": "2026-11-11",
   "price": {
-    "last": 31.57,
-    "open": 31.75,
-    "prev_close": 31.88,
-    "move_day_pct": -0.97,
-    "move_open_close_pct": -0.57,
-    "move_week_pct": -2.32
+    "last": 32.23,
+    "open": 32.21,
+    "prev_close": 31.57,
+    "move_day_pct": 2.09,
+    "move_open_close_pct": 0.06,
+    "move_week_pct": -1.77
   },
   "indicators": {
     "rsi14": {
-      "value": 38.6,
-      "read": "Oversold"
+      "value": 43.9,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": -0.865,
-      "signal": -0.76,
-      "hist": -0.105,
-      "hist_prev": -0.133,
+      "macd": -0.802,
+      "signal": -0.768,
+      "hist": -0.034,
+      "hist_prev": -0.105,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 34.68,
-      "lower": 30.92,
-      "mid": 32.8,
-      "pctb": 0.174,
-      "read": "Near the lower band"
+      "upper": 34.5,
+      "lower": 30.91,
+      "mid": 32.7,
+      "pctb": 0.368,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 3.04,
-      "read": "Sitting right at its 52-week low"
+      "value": 5.19,
+      "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -24.13,
-      "read": "24% below its 52-week high"
+      "value": -22.54,
+      "read": "23% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 36.37,
-      "pct": -13.2,
-      "read": "13% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 36.34,
+      "pct": -11.31,
+      "read": "11% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
       "value": 0.76,
-      "pct_of_price": 2.4,
+      "pct_of_price": 2.37,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 1.07,
+      "value": 0.79,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 43.4,
+      "value": 50.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 30.64,
   "high_52w": 41.61,
-  "ma50": 34.32,
-  "ma200": 36.37
+  "ma50": 34.27,
+  "ma200": 36.34
 }
