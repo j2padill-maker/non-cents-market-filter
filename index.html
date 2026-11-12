@@ -1171,46 +1171,55 @@ td { padding:10px 14px; white-space:nowrap; }
 .rot-help summary { cursor:pointer; color:var(--text2); }
 .rot-help p { margin:8px 0 0; }
 .rot-chart {
-  position:relative; height:420px; border:1px solid var(--border);
+  position:relative; height:440px; border:1px solid var(--border);
   border-radius:8px; overflow:hidden; background:rgba(6,10,22,0.6);
 }
-.rot-q { position:absolute; }
-.rot-qlabel { position:absolute; font-family:var(--font-display); font-weight:700; font-size:11px; letter-spacing:1px; pointer-events:none; }
+.rot-band { position:absolute; left:0; right:0; }
+.rot-blabel { position:absolute; right:6px; font-family:var(--font-display); font-weight:700; font-size:10px; letter-spacing:1px; pointer-events:none; background:rgba(6,10,22,0.75); padding:2px 6px; border-radius:4px; }
 .rot-line { position:absolute; background:var(--border); }
-.rot-plot { position:absolute; left:22px; right:22px; top:26px; bottom:26px; }
+.rot-plot { position:absolute; left:28px; right:28px; top:0; bottom:0; }
 .rot-dot {
-  position:absolute; width:24px; height:24px; margin:-12px 0 0 -12px; border-radius:50%;
+  position:absolute; width:22px; height:22px; margin:-11px 0 0 -11px; border-radius:50%;
   border:none; padding:0; cursor:pointer; font-family:var(--font-display); font-weight:800;
-  font-size:11px; color:#060a16; display:flex; align-items:center; justify-content:center;
+  font-size:10px; color:#060a16; display:flex; align-items:center; justify-content:center;
   transition:transform 0.15s;
 }
-.rot-dot:hover, .rot-dot.sel { transform:scale(1.25); z-index:2; outline:2px solid #fff; }
+.rot-dot:hover, .rot-dot.sel { transform:scale(1.3); z-index:2; }
 .rot-axis { display:flex; justify-content:space-between; font-size:10px; color:var(--text2); margin-top:6px; }
+.rot-legend { display:flex; flex-wrap:wrap; gap:6px 16px; font-size:10px; color:var(--text2); margin-top:10px; align-items:center; }
+.rot-legend i { display:inline-block; width:10px; height:10px; border-radius:50%; margin-right:4px; vertical-align:-1px; }
 .rot-empty { padding:28px 16px; text-align:center; font-size:12px; color:var(--text2); line-height:1.7; border:1px dashed var(--border); border-radius:8px; }
-.quad-badge { display:inline-block; font-size:9px; letter-spacing:0.5px; padding:2px 6px; border-radius:4px; border:1px solid currentColor; margin-left:6px; vertical-align:1px; }
+.mini-dot { display:inline-block; width:12px; height:12px; border-radius:50%; margin-left:8px; vertical-align:-1px; }
+.sig-badge { display:inline-block; font-size:9px; letter-spacing:0.5px; padding:2px 6px; border-radius:4px; border:1px solid currentColor; margin-left:6px; vertical-align:1px; }
 .rank-detail { padding:4px 18px 16px 58px; border-bottom:1px solid rgba(26,38,64,0.5); background:rgba(255,255,255,0.015); }
 .rank-why { font-size:12px; color:var(--text); line-height:1.6; margin-bottom:10px; }
 .rank-stats { display:grid; grid-template-columns:repeat(4, minmax(0,1fr)); gap:8px; margin-bottom:10px; }
 .rank-stat { border:1px solid var(--border); border-radius:6px; padding:6px 8px; }
 .rank-stat-k { font-size:9px; color:var(--text2); letter-spacing:0.5px; }
+.rank-stat-k .fx { color:var(--green); margin-left:4px; }
 .rank-stat-v { font-family:var(--font-display); font-weight:700; font-size:14px; color:var(--text); margin-top:2px; }
+.rank-stat-s { font-size:9px; color:var(--text2); margin-top:2px; }
+button.rank-stat { font:inherit; text-align:left; background:transparent; color:inherit; cursor:pointer; min-height:44px; }
+button.rank-stat:hover { border-color:var(--accent-dim); }
+button.rank-stat.on { background:rgba(255,255,255,0.04); }
+.rank-signals { border:1px solid var(--border); border-radius:6px; padding:8px 10px; margin-bottom:10px; }
+.rank-signals-h { display:flex; justify-content:space-between; align-items:center; font-size:10px; color:var(--text2); letter-spacing:0.5px; margin-bottom:6px; }
+.rank-sig { display:flex; gap:8px; align-items:baseline; font-size:11px; line-height:1.5; padding:3px 0; color:var(--text); }
+.rank-sig .mk { font-weight:700; width:14px; flex-shrink:0; }
+.rank-sig .need { color:var(--text2); margin-left:4px; }
+.rank-formula { border:1px solid var(--accent-dim); border-radius:6px; padding:10px 12px; margin:-2px 0 10px; font-size:11px; line-height:1.7; color:var(--text2); }
+.rank-formula b { color:var(--text); font-weight:700; }
+.rank-formula code { font-family:var(--font-mono); color:var(--green); background:rgba(0,200,83,0.08); padding:1px 5px; border-radius:4px; }
+.rank-formula p { margin:0 0 6px; }
+.rank-formula p:last-child { margin-bottom:0; }
 .rank-movers { font-size:10px; color:var(--text2); margin:6px 0 4px; }
 .rank-chips { display:flex; flex-wrap:wrap; gap:6px; }
 .rank-chip { font-family:var(--font-mono); font-size:11px; padding:6px 8px; min-height:32px; border-radius:6px; border:1px solid var(--border); background:var(--bg2); color:var(--text); cursor:pointer; }
 .rank-chip span { color:var(--text2); margin-left:4px; }
 .rank-open { margin-top:12px; font-family:var(--font-mono); font-size:11px; padding:8px 12px; min-height:36px; border-radius:8px; border:1px solid var(--accent-dim); background:transparent; color:var(--green); cursor:pointer; }
 .rank-thin { font-size:10px; color:var(--yellow); margin-bottom:8px; }
-button.rank-stat { font:inherit; text-align:left; background:transparent; color:inherit; cursor:pointer; min-height:44px; }
-button.rank-stat:hover { border-color:var(--accent-dim); }
-button.rank-stat.on { border-color:var(--accent); background:rgba(0,200,83,0.08); }
-.rank-stat-k .fx { color:var(--green); margin-left:4px; }
-.rank-formula { border:1px solid var(--accent-dim); border-radius:6px; padding:10px 12px; margin:-2px 0 10px; font-size:11px; line-height:1.7; color:var(--text2); }
-.rank-formula b { color:var(--text); font-weight:700; }
-.rank-formula code { font-family:var(--font-mono); color:var(--green); background:rgba(0,200,83,0.08); padding:1px 5px; border-radius:4px; }
-.rank-formula p { margin:0 0 6px; }
-.rank-formula p:last-child { margin-bottom:0; }
 @media(max-width:600px){
-  .rot-chart { height:380px; }
+  .rot-chart { height:400px; }
   .rank-detail { padding:4px 14px 14px 14px; }
   .rank-stats { grid-template-columns:repeat(2, minmax(0,1fr)); }
 }
@@ -1581,7 +1590,7 @@ button.rank-stat.on { border-color:var(--accent); background:rgba(0,200,83,0.08)
 <!-- ═══════════ RANKINGS ═══════════ -->
 <div id="tab-rankings" class="panel">
   <div class="panel-heading">📈 Downtrodden vs. Momentum</div>
-  <div class="panel-sub">Downtrodden score: stocks at their 52-week low (≤5%) count fully, stocks near it (5–10%) count half. Momentum score: each stock ranked 0–100 on RSI and on distance above its 52-week low, averaged; a sector scores the median of its stocks.</div>
+  <div class="panel-sub">Downtrodden score: stocks at their 52-week low (≤5%) count fully, stocks near it (5–10%) count half. Momentum: sectors ordered by strength score (RSI and distance above the 52-week low, ranked 0–100). Dot fill = RSI zone; ring = momentum signals. Tap a sector for the reasoning.</div>
   <div id="rotation-wrap"></div>
   <div class="ranking-grid" id="ranking-grid"><div class="loading"><div class="loading-spinner"></div><div class="loading-text">CALCULATING...</div></div></div>
 </div>
@@ -3306,19 +3315,21 @@ function showSectorList(){
 }
 
 /* ─── RANKINGS ─── */
-// Momentum = each stock ranked 0–100 against the whole universe on RSI and on
-// % above its 52-week low, averaged; a sector's score is the median of its
-// stocks (a median so one bad data point can't drag a sector). The rotation
-// chart places each sector by 52-week range position (up/down) and RSI change
-// over RSI_CHANGE_DAYS sessions (left/right).
-const RSI_CHANGE_DAYS=10;
+// Momentum tab logic, two separate questions:
+//  1. How strong? → Strength score: each stock ranked 0–100 against the whole
+//     universe on RSI and on % above its 52-week low, averaged; a sector scores
+//     the median of its stocks. The Momentum list is ordered by this.
+//  2. Colors: the dot FILL is the sector's median RSI zone (57+ green, 50–57
+//     blue, 40–50 orange, below 40 red). The dot RING is how many of three
+//     momentum signals pass (3 green, 2 blue, 1 orange, 0 red):
+//       a) typical stock's RSI change over RSI_CHANGE_DAYS ≥ +SIG_CHG
+//       b) ≥ SIG_SHARE of the sector's stocks have RSI rising
+//       c) ≥ SIG_SHARE of the sector's stocks trade above their 50-day average
+const RSI_CHANGE_DAYS=10, SIG_CHG=3, SIG_SHARE=0.55;
+const ZCOL={green:'#00ff9d',blue:'#5aa9ff',orange:'#ff8a4c',red:'#ff3b5c',none:'#6b7f9e'};
+const ZNAME={green:'green',blue:'blue',orange:'orange',red:'red',none:'grey'};
+const RING_BY_COUNT=['red','orange','blue','green'];
 const MARKET_SECTORS=new Set(['Communication Services','Consumer Discretionary','Consumer Staples','Energy','Financials','Health Care','Industrials','Information Technology','Materials','Real Estate','Utilities','S&P500 Core','Nasdaq100 Core']);
-const QUAD={
-  lead:{name:'Leading',color:'#00ff9d',desc:'high in its range, RSI rising'},
-  fade:{name:'Fading',color:'#ff8a4c',desc:'high in its range, RSI falling'},
-  turn:{name:'Turning up',color:'#5aa9ff',desc:'low in its range, RSI rising'},
-  fall:{name:'Falling',color:'#ff3b5c',desc:'low in its range, RSI falling'}
-};
 let rotFilter='all', rotOpen=null, rotFormula=null;
 function rotAttr(v){return String(v).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;');}
 function medianOf(a){if(!a.length)return null;const s=[...a].sort((x,y)=>x-y),m=s.length>>1;return s.length%2?s[m]:(s[m-1]+s[m])/2;}
@@ -3331,6 +3342,13 @@ function rangePos(s){
   if(s.price==null||s.low_52w==null||s.high_52w==null||s.high_52w<=s.low_52w) return null;
   return Math.max(0,Math.min(1,(s.price-s.low_52w)/(s.high_52w-s.low_52w)));
 }
+function rsiZone(v){
+  if(v==null) return {key:'none',band:'—'};
+  if(v>=57) return {key:'green',band:'57+'};
+  if(v>=50) return {key:'blue',band:'50–57'};
+  if(v>=40) return {key:'orange',band:'40–50'};
+  return {key:'red',band:'below 40'};
+}
 function computeMomentum(){
   const base=allStocks.filter(s=>s.sector!==WATCHLIST_SECTOR&&s.rsi14!=null&&s.pct_from_52w_low!=null);
   const rr=pctRanker(base.map(s=>s.rsi14)), lr=pctRanker(base.map(s=>s.pct_from_52w_low));
@@ -3338,28 +3356,41 @@ function computeMomentum(){
   base.forEach(s=>{s._rr=rr(s.rsi14);s._lr=lr(s.pct_from_52w_low);s._mscore=0.5*s._rr+0.5*s._lr;(by[s.sector]=by[s.sector]||[]).push(s);});
   return Object.entries(by).map(([sector,st])=>{
     const pos=st.map(rangePos).filter(v=>v!=null);
-    const chg=st.map(s=>s.rsi_change).filter(v=>v!=null);
-    const prev=st.map(s=>s.rsi14_prev).filter(v=>v!=null);
+    const withChg=st.filter(s=>s.rsi_change!=null);
+    const withMa=st.filter(s=>s.ma50!=null&&s.price!=null);
     const r={sector,count:st.length,universe:base.length,thin:st.length<5,
       score:Math.round(medianOf(st.map(s=>s._mscore))),
       rsi:medianOf(st.map(s=>s.rsi14)),fromLow:medianOf(st.map(s=>s.pct_from_52w_low)),
       pos:pos.length?medianOf(pos):null,
-      // need RSI change on at least half the sector before trusting the median
-      chg:chg.length>=Math.ceil(st.length/2)?medianOf(chg):null,
-      rsiPrev:prev.length>=Math.ceil(st.length/2)?medianOf(prev):null,
+      // need RSI change on at least half the sector before trusting it
+      chg:withChg.length>=Math.ceil(st.length/2)?medianOf(withChg.map(s=>s.rsi_change)):null,
+      nChg:withChg.length, nUp:withChg.filter(s=>s.rsi_change>0).length,
+      nMa:withMa.length, nAbove:withMa.filter(s=>s.price>s.ma50).length,
       stocks:[...st].sort((a,b)=>b._mscore-a._mscore)};
-    r.quad=(r.pos==null||r.chg==null)?null:(r.pos>=0.5?(r.chg>=0?'lead':'fade'):(r.chg>=0?'turn':'fall'));
+    r.zone=rsiZone(r.rsi);
+    if(r.chg==null){r.signals=null;r.sigCount=null;r.ring='none';}
+    else{
+      const upShare=r.nUp/r.nChg, maShare=r.nMa?r.nAbove/r.nMa:null;
+      r.signals=[
+        {pass:r.chg>=SIG_CHG,text:`Typical RSI change: <b>${r.chg>0?'+':''}${r.chg.toFixed(1)}</b> pts over ${RSI_CHANGE_DAYS} sessions`,need:`needs +${SIG_CHG} or more`},
+        {pass:upShare>=SIG_SHARE,text:`RSI rising: <b>${r.nUp} of ${r.nChg}</b> stocks (${Math.round(upShare*100)}%)`,need:`needs ${Math.round(SIG_SHARE*100)}%+`},
+        {pass:maShare!=null&&maShare>=SIG_SHARE,text:maShare!=null?`Above 50-day average: <b>${r.nAbove} of ${r.nMa}</b> stocks (${Math.round(maShare*100)}%)`:'Above 50-day average: no data',need:`needs ${Math.round(SIG_SHARE*100)}%+`}
+      ];
+      r.sigCount=r.signals.filter(x=>x.pass).length;
+      r.ring=RING_BY_COUNT[r.sigCount];
+    }
     return r;
   }).sort((a,b)=>b.score-a.score);
 }
+function dotStyle(r,size){
+  return `background:${ZCOL[r.zone.key]};box-shadow:0 0 0 ${size>14?3:2}px #060a16,0 0 0 ${size>14?6:4}px ${ZCOL[r.ring]}`;
+}
 function whySentence(r){
-  if(r.pos==null) return 'Not enough 52-week data to place this sector.';
-  const p=Math.round(r.pos*100);
-  const where=r.pos>=0.8?`Near the top of its 52-week range (${p}%)`:r.pos>=0.5?`In the upper half of its 52-week range (${p}%)`:r.pos>=0.2?`In the lower half of its 52-week range (${p}%)`:`Near the bottom of its 52-week range (${p}%)`;
-  if(r.chg==null) return where+'. RSI trend appears after the next data run.';
-  const c=(r.chg>0?'+':'')+r.chg.toFixed(1);
-  const move=r.chg>=3?`RSI is rising (${c} pts`:r.chg<=-3?`RSI is falling (${c} pts`:`RSI is roughly flat (${c} pts`;
-  return `${where}, and ${move} over ${RSI_CHANGE_DAYS} sessions${r.rsiPrev!=null?`, ${r.rsiPrev.toFixed(0)} → ${r.rsi.toFixed(0)}`:''}).`;
+  const z=`Middle RSI <b>${r.rsi.toFixed(1)}</b> puts it in the <b style="color:${ZCOL[r.zone.key]}">${ZNAME[r.zone.key]} zone</b> (${r.zone.band}).`;
+  if(r.sigCount==null) return z+' Momentum signals appear after the next data run.';
+  const strong=r.zone.key==='green'||r.zone.key==='blue', building=r.sigCount>=2;
+  const read=strong&&building?'Strong and still building.':strong?'Holding up, but momentum is fading.':building?'Still weak, but momentum is improving.':'Weak, with no sign of a turn yet.';
+  return `${z} <b style="color:${ZCOL[r.ring]}">${r.sigCount} of 3</b> momentum signals pass → ${ZNAME[r.ring]} ring. ${read}`;
 }
 function setRotFilter(f){rotFilter=f;renderRankings();}
 function toggleFormula(k){rotFormula=rotFormula===k?null:k;renderRankings();}
@@ -3369,40 +3400,34 @@ function openSectorFromRank(el){const s=el.dataset.sector;switchTab('sectors',nu
 function renderRotation(list){
   const wrap=document.getElementById('rotation-wrap'); if(!wrap) return;
   const chip=(k,l)=>`<button class="rot-filter${rotFilter===k?' on':''}" onclick="setRotFilter('${k}')">${l}</button>`;
-  const placed=list.filter(r=>r.quad);
+  const placed=list.filter(r=>r.chg!=null);
   let chart;
   if(!placed.length){
-    chart=`<div class="rot-empty">The rotation chart needs RSI change, which is added on the next data run.<br>The Momentum ranking below already uses the new score.</div>`;
+    chart=`<div class="rot-empty">The chart needs RSI change, which is added on the next data run.<br>The Momentum list below already works.</div>`;
   }else{
     const xmax=Math.max(4,...placed.map(r=>Math.abs(r.chg)))*1.15;
-    const ys=placed.map(r=>r.pos);
-    const ymin=Math.max(0,Math.min(0.5,...ys)-0.05), ymax=Math.min(1,Math.max(0.5,...ys)+0.05);
+    const rs=placed.map(r=>r.rsi);
+    const ymin=Math.min(36,Math.min(...rs)-3), ymax=Math.max(62,Math.max(...rs)+3);
     const X=v=>(v+xmax)/(2*xmax)*100, Y=v=>(ymax-v)/(ymax-ymin)*100;
-    // the plot is inset 22px/26px; quadrant splits are computed inside that inset
-    const cx=`calc(22px + (100% - 44px) * ${X(0)/100})`, cy=`calc(26px + (100% - 52px) * ${Y(0.5)/100})`;
-    const dots=placed.map(r=>{const q=QUAD[r.quad];
-      return `<button class="rot-dot${rotOpen===r.sector?' sel':''}" data-sector="${rotAttr(r.sector)}" onclick="toggleRot(this)" title="${rotAttr(r.sector)}" aria-label="${rotAttr(r.sector)}" style="left:${X(r.chg).toFixed(1)}%;top:${Y(r.pos).toFixed(1)}%;background:${q.color};box-shadow:0 0 10px ${q.color}88">${r.rank}</button>`;}).join('');
+    const band=(hi,lo,key,label)=>`<div class="rot-band" style="top:${Y(hi).toFixed(2)}%;height:${(Y(lo)-Y(hi)).toFixed(2)}%;background:${ZCOL[key]}12;border-top:1px solid ${ZCOL[key]}30"></div><div class="rot-blabel" style="top:calc(${Y(hi).toFixed(2)}% + 6px);color:${ZCOL[key]}">${label}</div>`;
+    const x0=`calc(28px + (100% - 56px) * ${(X(0)/100).toFixed(4)})`;
+    const dots=placed.map(r=>`<button class="rot-dot${rotOpen===r.sector?' sel':''}" data-sector="${rotAttr(r.sector)}" onclick="toggleRot(this)" title="${rotAttr(r.sector)}" aria-label="${rotAttr(r.sector)}: RSI ${r.rsi.toFixed(1)}, ${r.sigCount} of 3 momentum signals" style="left:${X(r.chg).toFixed(1)}%;top:${Y(r.rsi).toFixed(1)}%;${dotStyle(r,22)}${rotOpen===r.sector?',0 0 0 9px #ffffff':''}">${r.rank}</button>`).join('');
     chart=`<div class="rot-chart">
-      <div class="rot-q" style="left:0;top:0;width:${cx};height:${cy};background:rgba(255,138,76,0.06)"></div>
-      <div class="rot-q" style="left:${cx};right:0;top:0;height:${cy};background:rgba(0,255,157,0.06)"></div>
-      <div class="rot-q" style="left:0;top:${cy};width:${cx};bottom:0;background:rgba(255,59,92,0.06)"></div>
-      <div class="rot-q" style="left:${cx};right:0;top:${cy};bottom:0;background:rgba(90,169,255,0.06)"></div>
-      <div class="rot-line" style="left:${cx};top:0;bottom:0;width:1px"></div>
-      <div class="rot-line" style="top:${cy};left:0;right:0;height:1px"></div>
-      <div class="rot-qlabel" style="left:8px;top:6px;color:${QUAD.fade.color}">FADING</div>
-      <div class="rot-qlabel" style="right:8px;top:6px;color:${QUAD.lead.color}">LEADING</div>
-      <div class="rot-qlabel" style="left:8px;bottom:6px;color:${QUAD.fall.color}">FALLING</div>
-      <div class="rot-qlabel" style="right:8px;bottom:6px;color:${QUAD.turn.color}">TURNING UP</div>
+      ${band(ymax,57,'green','RSI 57+')}${band(57,50,'blue','RSI 50–57')}${band(50,40,'orange','RSI 40–50')}${band(40,ymin,'red','RSI BELOW 40')}
+      <div class="rot-line" style="left:${x0};top:0;bottom:0;width:1px"></div>
       <div class="rot-plot">${dots}</div>
     </div>
-    <div class="rot-axis"><span>← RSI falling</span><span>Range ${Math.round(ymin*100)}–${Math.round(ymax*100)}% shown</span><span>RSI rising →</span></div>`;
+    <div class="rot-axis"><span>← RSI falling</span><span>10-session RSI change</span><span>RSI rising →</span></div>
+    <div class="rot-legend"><span><b>Fill</b> = RSI zone</span><span><b>Ring</b> = momentum signals:</span>
+      <span><i style="background:${ZCOL.green}"></i>3 of 3</span><span><i style="background:${ZCOL.blue}"></i>2</span><span><i style="background:${ZCOL.orange}"></i>1</span><span><i style="background:${ZCOL.red}"></i>0</span></div>`;
   }
   wrap.innerHTML=`<div class="rot-card">
-    <div class="rot-top"><div class="rot-title">Sector rotation</div>
+    <div class="rot-top"><div class="rot-title">Sector momentum map</div>
       <div class="rot-filters">${chip('all','ALL')}${chip('themed','THEMED')}${chip('market','MARKET')}</div></div>
     <details class="rot-help"><summary>How to read this</summary>
-      <p>Up/down: where the sector's median stock sits in its 52-week range (top = near its high). Left/right: change in median RSI over the last ${RSI_CHANGE_DAYS} sessions. The chart zooms to fit the sectors, so the middle lines mark 50% of range and zero RSI change.</p>
-      <p>Sectors tend to rotate Turning up → Leading → Fading → Falling, but this shows where they are now, not where they'll go. Dot numbers match the Momentum on the Rise list, which puts rising sectors first: Leading, then Turning up, then Fading, then Falling, by score within each. Tap a dot for details.</p>
+      <p>Up/down: the sector's middle RSI, in colored zones (57+ green, 50–57 blue, 40–50 orange, below 40 red). The dot is filled with its zone color. Left/right: how much that RSI changed over the last ${RSI_CHANGE_DAYS} sessions.</p>
+      <p>The ring counts three momentum signals: typical RSI change of +${SIG_CHG} or more, ${Math.round(SIG_SHARE*100)}%+ of stocks with RSI rising, and ${Math.round(SIG_SHARE*100)}%+ of stocks above their 50-day average. All three = green ring, two = blue, one = orange, none = red. A red dot with a green ring is weak but building; a green dot with a red ring is strong but fading.</p>
+      <p>Dot numbers match the Momentum list, which is ordered by strength score. Tap a dot to see the reasoning. This shows where sectors are now, not where they'll go.</p>
     </details>
     ${chart}
   </div>`;
@@ -3416,7 +3441,7 @@ function formulaBox(r,k){
     const s=nearestTo(r.stocks,r.score,x=>x._mscore);
     return `<div class="rank-formula">
       <p><b>Stock score</b> = <code>(RSI rank + 52W-low rank) ÷ 2</code></p>
-      <p>A rank is the % of all ${u} stocks scoring lower on that metric, so 0 = lowest, 100 = highest.</p>
+      <p>A rank is the % of all ${u} stocks scoring lower on that metric, so 0 = lowest, 100 = highest. Higher = stronger right now. It says nothing about direction; the ring does that.</p>
       ${s?`<p>Example, <b>${s.ticker}</b>: RSI ${s.rsi14.toFixed(1)} ranks <b>${Math.round(s._rr)}</b>; ${s.pct_from_52w_low.toFixed(1)}% above its low ranks <b>${Math.round(s._lr)}</b> → (${Math.round(s._rr)} + ${Math.round(s._lr)}) ÷ 2 = <b>${Math.round(s._mscore)}</b></p>`:''}
       <p><b>Sector score</b> = median of its ${n} stock scores = <b>${r.score}</b></p>
     </div>`;
@@ -3434,10 +3459,10 @@ function formulaBox(r,k){
     const s=nearestTo(r.stocks,r.rsi,x=>x.rsi14);
     return `<div class="rank-formula">
       <p><b>RSI (14)</b> = <code>100 − 100 ÷ (1 + avg gain ÷ avg loss)</code></p>
-      <p>Average daily gain and loss over the last 14 sessions (Wilder smoothing). Above 70 = overbought, below 30 = oversold.</p>
-      <p><b>RSI change</b> = <code>RSI now − RSI ${RSI_CHANGE_DAYS} sessions ago</code>${r.chg!=null?` → sector median <b>${r.chg>0?'+':''}${r.chg.toFixed(1)}</b>`:' (appears after the next data run)'}</p>
-      ${s?`<p>Example, <b>${s.ticker}</b>: RSI <b>${s.rsi14.toFixed(1)}</b>${s.rsi14_prev!=null?`, ${RSI_CHANGE_DAYS} sessions ago ${s.rsi14_prev.toFixed(1)}`:''}</p>`:''}
-      <p><b>Sector</b> = median of its ${n} stocks = <b>${r.rsi.toFixed(1)}</b></p>
+      <p>Average daily gain and loss over the last 14 sessions (Wilder smoothing). Above 50 = buyers have had the edge.</p>
+      <p><b>Zones</b>: <span style="color:${ZCOL.green}">57+ green</span> · <span style="color:${ZCOL.blue}">50–57 blue</span> · <span style="color:${ZCOL.orange}">40–50 orange</span> · <span style="color:${ZCOL.red}">below 40 red</span></p>
+      ${s?`<p>Example, <b>${s.ticker}</b>: RSI <b>${s.rsi14.toFixed(1)}</b>${s.rsi14_prev!=null?` (${RSI_CHANGE_DAYS} sessions ago ${s.rsi14_prev.toFixed(1)})`:''}</p>`:''}
+      <p><b>Sector</b> = median of its ${n} stocks = <b style="color:${ZCOL[r.zone.key]}">${r.rsi.toFixed(1)}</b> → ${ZNAME[r.zone.key]} zone</p>
     </div>`;
   }
   if(k==='low'){
@@ -3468,26 +3493,27 @@ function renderRankings(){
   }).filter(Boolean);
   const downtrodden=[...data].sort((a,b)=>(b.lowScore-a.lowScore)||(b.atLowPct-a.atLowPct));
   const momentum=computeMomentum().filter(r=>rotFilter==='all'||(rotFilter==='market')===MARKET_SECTORS.has(r.sector));
-  // "On the rise" order: rising sectors first. Leading (high + RSI rising),
-  // then Turning up (low + rising), then Fading, then Falling; by score within
-  // each group. Before RSI change exists, it's plain score order.
-  const QORDER={lead:0,turn:1,fade:2,fall:3};
-  momentum.sort((a,b)=>((QORDER[a.quad]??4)-(QORDER[b.quad]??4))||(b.score-a.score));
   momentum.forEach((r,i)=>r.rank=i+1);
   renderRotation(momentum);
   const chipFor=s=>`<button class="rank-chip" onclick="event.stopPropagation();showModal('${s.ticker}')">${s.ticker}<span>${Math.round(s._mscore)}</span></button>`;
+  const tile=(k,label,val,color,sub)=>`<button class="rank-stat${rotFormula===k?' on':''}" onclick="toggleFormula('${k}')" aria-expanded="${rotFormula===k}" style="${rotFormula===k?`border-color:${color||'var(--accent)'}`:''}"><div class="rank-stat-k">${label}<span class="fx">ƒ</span></div><div class="rank-stat-v"${color?` style="color:${color}"`:''}>${val}</div>${sub?`<div class="rank-stat-s">${sub}</div>`:''}</button>`;
   const detail=r=>{
     const strong=r.stocks.slice(0,3), weak=r.stocks.slice(-3).reverse().filter(s=>!strong.includes(s));
+    const sigBox=r.signals?`<div class="rank-signals" style="border-color:${ZCOL[r.ring]}66">
+        <div class="rank-signals-h"><span>MOMENTUM SIGNALS → RING</span><span style="color:${ZCOL[r.ring]};font-weight:700">${r.sigCount} OF 3 · ${ZNAME[r.ring].toUpperCase()}</span></div>
+        ${r.signals.map(x=>`<div class="rank-sig"><span class="mk" style="color:${x.pass?ZCOL.green:ZCOL.red}">${x.pass?'✓':'✗'}</span><span>${x.text}<span class="need">(${x.need})</span></span></div>`).join('')}
+      </div>`:'';
     return `<div class="rank-detail">
       ${r.thin?`<div class="rank-thin">Only ${r.count} stocks — treat this score loosely.</div>`:''}
       <div class="rank-why">${whySentence(r)}</div>
       <div class="rank-stats">
-        <button class="rank-stat${rotFormula==='score'?' on':''}" onclick="toggleFormula('score')" aria-expanded="${rotFormula==='score'}"><div class="rank-stat-k">SCORE<span class="fx">ƒ</span></div><div class="rank-stat-v">${r.score}</div></button>
-        <button class="rank-stat${rotFormula==='rsi'?' on':''}" onclick="toggleFormula('rsi')" aria-expanded="${rotFormula==='rsi'}"><div class="rank-stat-k">RSI ${r.rsiPrev!=null?RSI_CHANGE_DAYS+'D AGO → NOW':'(MEDIAN)'}<span class="fx">ƒ</span></div><div class="rank-stat-v">${r.rsiPrev!=null?r.rsiPrev.toFixed(0)+' → ':''}${r.rsi.toFixed(0)}</div></button>
-        <button class="rank-stat${rotFormula==='range'?' on':''}" onclick="toggleFormula('range')" aria-expanded="${rotFormula==='range'}"><div class="rank-stat-k">52W RANGE<span class="fx">ƒ</span></div><div class="rank-stat-v">${r.pos!=null?Math.round(r.pos*100)+'%':'—'}</div></button>
-        <button class="rank-stat${rotFormula==='low'?' on':''}" onclick="toggleFormula('low')" aria-expanded="${rotFormula==='low'}"><div class="rank-stat-k">ABOVE 52W LOW<span class="fx">ƒ</span></div><div class="rank-stat-v">${r.fromLow.toFixed(0)}%</div></button>
+        ${tile('score','STRENGTH SCORE',r.score,null,'0–100, higher = stronger')}
+        ${tile('rsi','RSI (MEDIAN)',r.rsi.toFixed(1),ZCOL[r.zone.key],`${ZNAME[r.zone.key]} zone · ${r.zone.band}`)}
+        ${tile('range','52W RANGE',r.pos!=null?Math.round(r.pos*100)+'%':'—',null,'0% = low, 100% = high')}
+        ${tile('low','ABOVE 52W LOW',r.fromLow.toFixed(0)+'%',null,'median stock')}
       </div>
       ${rotFormula?formulaBox(r,rotFormula):''}
+      ${sigBox}
       <div class="rank-movers">Strongest (stock score)</div><div class="rank-chips">${strong.map(chipFor).join('')}</div>
       ${weak.length?`<div class="rank-movers">Weakest</div><div class="rank-chips">${weak.map(chipFor).join('')}</div>`:''}
       <button class="rank-open" data-sector="${rotAttr(r.sector)}" onclick="openSectorFromRank(this)">Open sector →</button>
@@ -3503,12 +3529,12 @@ function renderRankings(){
       </div>`).join('')}
     </div>
     <div class="ranking-card">
-      <div class="ranking-card-header" style="color:var(--green)">🟢 Momentum on the Rise</div>
-      ${momentum.map((r,i)=>{const q=r.quad?QUAD[r.quad]:null;return `<div class="ranking-item" data-sector="${rotAttr(r.sector)}" onclick="toggleRot(this)">
+      <div class="ranking-card-header" style="color:var(--green)">🟢 Momentum: Strongest First</div>
+      ${momentum.map((r,i)=>`<div class="ranking-item" data-sector="${rotAttr(r.sector)}" onclick="toggleRot(this)">
         <div class="ranking-num" style="color:${i<3?'var(--green)':'var(--text3)'}">${r.rank}</div>
-        <div class="ranking-info"><div class="ranking-name" style="color:${sectorColor(r.sector)}">${r.sector}${q?`<span class="quad-badge" style="color:${q.color}">${q.name.toUpperCase()}</span>`:''}</div><div class="ranking-sub">RSI ${r.rsi.toFixed(1)}${r.chg!=null?` (${r.chg>0?'+':''}${r.chg.toFixed(1)})`:''} · ${r.fromLow.toFixed(0)}% above low · ${r.count} stocks${r.thin?' · thin':''}</div></div>
+        <div class="ranking-info"><div class="ranking-name" style="color:${sectorColor(r.sector)}">${r.sector}<span class="mini-dot" style="${dotStyle(r,12)}"></span>${r.sigCount!=null?`<span class="sig-badge" style="color:${ZCOL[r.ring]};margin-left:10px">MOMENTUM ${r.sigCount}/3</span>`:''}</div><div class="ranking-sub">RSI <span style="color:${ZCOL[r.zone.key]}">${r.rsi.toFixed(1)}</span>${r.chg!=null?` (${r.chg>0?'+':''}${r.chg.toFixed(1)})`:''} · ${r.fromLow.toFixed(0)}% above low · ${r.count} stocks${r.thin?' · thin':''}</div></div>
         <div class="ranking-score" style="color:var(--green)">${r.score}</div>
-      </div>${rotOpen===r.sector?detail(r):''}`;}).join('')}
+      </div>${rotOpen===r.sector?detail(r):''}`).join('')}
     </div>`;
 }
 
