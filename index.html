@@ -3322,10 +3322,13 @@ function showSectorList(){
 //  2. Colors: the dot FILL is the sector's median RSI zone (57+ green, 50–57
 //     blue, 40–50 orange, below 40 red). The dot RING is how many of three
 //     momentum signals pass (3 green, 2 blue, 1 orange, 0 red):
-//       a) typical stock's RSI change over RSI_CHANGE_DAYS ≥ +SIG_CHG
-//       b) ≥ SIG_SHARE of the sector's stocks have RSI rising
-//       c) ≥ SIG_SHARE of the sector's stocks trade above their 50-day average
-const RSI_CHANGE_DAYS=10, SIG_CHG=3, SIG_SHARE=0.55;
+//       a) typical (median) stock's 5-session price change ≥ +SIG_RET %
+//       b) ≥ SIG_SHARE of the sector's stocks are up over 5 sessions
+//       c) typical stock's RSI change over RSI_CHANGE_DAYS ≥ +SIG_CHG
+//     a/b catch fast price moves that RSI (a 14-session average) is slow to
+//     show; c is the slower confirmation. The 50-day average is shown as
+//     context only: it lags too much to vote.
+const RSI_CHANGE_DAYS=10, SIG_CHG=3, SIG_SHARE=0.55, SIG_RET=2, RET_DAYS=5;
 const ZCOL={green:'#00ff9d',blue:'#5aa9ff',orange:'#ff8a4c',red:'#ff3b5c',none:'#6b7f9e'};
 const ZNAME={green:'green',blue:'blue',orange:'orange',red:'red',none:'grey'};
 const RING_BY_COUNT=['red','orange','blue','green'];
@@ -3358,6 +3361,7 @@ function computeMomentum(){
     const pos=st.map(rangePos).filter(v=>v!=null);
     const withChg=st.filter(s=>s.rsi_change!=null);
     const withMa=st.filter(s=>s.ma50!=null&&s.price!=null);
+    const withRet=st.filter(s=>s.ret_5d!=null);
     const r={sector,count:st.length,universe:base.length,thin:st.length<5,
       score:Math.round(medianOf(st.map(s=>s._mscore))),
       rsi:medianOf(st.map(s=>s.rsi14)),fromLow:medianOf(st.map(s=>s.pct_from_52w_low)),
@@ -3366,15 +3370,17 @@ function computeMomentum(){
       chg:withChg.length>=Math.ceil(st.length/2)?medianOf(withChg.map(s=>s.rsi_change)):null,
       nChg:withChg.length, nUp:withChg.filter(s=>s.rsi_change>0).length,
       nMa:withMa.length, nAbove:withMa.filter(s=>s.price>s.ma50).length,
+      ret:withRet.length>=Math.ceil(st.length/2)?medianOf(withRet.map(s=>s.ret_5d)):null,
+      nRet:withRet.length, nRetUp:withRet.filter(s=>s.ret_5d>0).length,
       stocks:[...st].sort((a,b)=>b._mscore-a._mscore)};
     r.zone=rsiZone(r.rsi);
-    if(r.chg==null){r.signals=null;r.sigCount=null;r.ring='none';}
+    if(r.chg==null||r.ret==null){r.signals=null;r.sigCount=null;r.ring='none';}
     else{
-      const upShare=r.nUp/r.nChg, maShare=r.nMa?r.nAbove/r.nMa:null;
+      const retShare=r.nRetUp/r.nRet;
       r.signals=[
-        {pass:r.chg>=SIG_CHG,text:`Typical RSI change: <b>${r.chg>0?'+':''}${r.chg.toFixed(1)}</b> pts over ${RSI_CHANGE_DAYS} sessions`,need:`needs +${SIG_CHG} or more`},
-        {pass:upShare>=SIG_SHARE,text:`RSI rising: <b>${r.nUp} of ${r.nChg}</b> stocks (${Math.round(upShare*100)}%)`,need:`needs ${Math.round(SIG_SHARE*100)}%+`},
-        {pass:maShare!=null&&maShare>=SIG_SHARE,text:maShare!=null?`Above 50-day average: <b>${r.nAbove} of ${r.nMa}</b> stocks (${Math.round(maShare*100)}%)`:'Above 50-day average: no data',need:`needs ${Math.round(SIG_SHARE*100)}%+`}
+        {pass:r.ret>=SIG_RET,text:`Typical ${RET_DAYS}-session price change: <b>${r.ret>0?'+':''}${r.ret.toFixed(1)}%</b>`,need:`needs +${SIG_RET}% or more`},
+        {pass:retShare>=SIG_SHARE,text:`Up over ${RET_DAYS} sessions: <b>${r.nRetUp} of ${r.nRet}</b> stocks (${Math.round(retShare*100)}%)`,need:`needs ${Math.round(SIG_SHARE*100)}%+`},
+        {pass:r.chg>=SIG_CHG,text:`Typical RSI change: <b>${r.chg>0?'+':''}${r.chg.toFixed(1)}</b> pts over ${RSI_CHANGE_DAYS} sessions`,need:`needs +${SIG_CHG} or more`}
       ];
       r.sigCount=r.signals.filter(x=>x.pass).length;
       r.ring=RING_BY_COUNT[r.sigCount];
@@ -3387,7 +3393,7 @@ function dotStyle(r,size){
 }
 function whySentence(r){
   const z=`Middle RSI <b>${r.rsi.toFixed(1)}</b> puts it in the <b style="color:${ZCOL[r.zone.key]}">${ZNAME[r.zone.key]} zone</b> (${r.zone.band}).`;
-  if(r.sigCount==null) return z+' Momentum signals appear after the next data run.';
+  if(r.sigCount==null) return z+' Momentum signals (ring) appear after the next data run.';
   const strong=r.zone.key==='green'||r.zone.key==='blue', building=r.sigCount>=2;
   const read=strong&&building?'Strong and still building.':strong?'Holding up, but momentum is fading.':building?'Still weak, but momentum is improving.':'Weak, with no sign of a turn yet.';
   return `${z} <b style="color:${ZCOL[r.ring]}">${r.sigCount} of 3</b> momentum signals pass → ${ZNAME[r.ring]} ring. ${read}`;
@@ -3426,7 +3432,7 @@ function renderRotation(list){
       <div class="rot-filters">${chip('all','ALL')}${chip('themed','THEMED')}${chip('market','MARKET')}</div></div>
     <details class="rot-help"><summary>How to read this</summary>
       <p>Up/down: the sector's middle RSI, in colored zones (57+ green, 50–57 blue, 40–50 orange, below 40 red). The dot is filled with its zone color. Left/right: how much that RSI changed over the last ${RSI_CHANGE_DAYS} sessions.</p>
-      <p>The ring counts three momentum signals: typical RSI change of +${SIG_CHG} or more, ${Math.round(SIG_SHARE*100)}%+ of stocks with RSI rising, and ${Math.round(SIG_SHARE*100)}%+ of stocks above their 50-day average. All three = green ring, two = blue, one = orange, none = red. A red dot with a green ring is weak but building; a green dot with a red ring is strong but fading.</p>
+      <p>The ring counts three momentum signals: the typical stock up ${SIG_RET}%+ over ${RET_DAYS} sessions, ${Math.round(SIG_SHARE*100)}%+ of stocks up over ${RET_DAYS} sessions, and typical RSI change of +${SIG_CHG} or more over ${RSI_CHANGE_DAYS} sessions. All three = green ring, two = blue, one = orange, none = red. A red or orange dot with a green or blue ring is weak but improving; a green dot with a red ring is strong but fading.</p>
       <p>Dot numbers match the Momentum list, which is ordered by strength score. Tap a dot to see the reasoning. This shows where sectors are now, not where they'll go.</p>
     </details>
     ${chart}
@@ -3502,6 +3508,7 @@ function renderRankings(){
     const sigBox=r.signals?`<div class="rank-signals" style="border-color:${ZCOL[r.ring]}66">
         <div class="rank-signals-h"><span>MOMENTUM SIGNALS → RING</span><span style="color:${ZCOL[r.ring]};font-weight:700">${r.sigCount} OF 3 · ${ZNAME[r.ring].toUpperCase()}</span></div>
         ${r.signals.map(x=>`<div class="rank-sig"><span class="mk" style="color:${x.pass?ZCOL.green:ZCOL.red}">${x.pass?'✓':'✗'}</span><span>${x.text}<span class="need">(${x.need})</span></span></div>`).join('')}
+        ${r.nMa?`<div class="rank-sig" style="color:var(--text2)"><span class="mk">·</span><span>Context, not counted: ${r.nAbove} of ${r.nMa} stocks above their 50-day average (${Math.round(r.nAbove/r.nMa*100)}%)</span></div>`:''}
       </div>`:'';
     return `<div class="rank-detail">
       ${r.thin?`<div class="rank-thin">Only ${r.count} stocks — treat this score loosely.</div>`:''}

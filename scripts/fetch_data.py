@@ -739,6 +739,10 @@ def process_ticker(ticker, sector, force_news=False, yf_data=None, fund_cache=No
                     (current_price - record["low_52w"]) / record["low_52w"] * 100, 2)
                 record["pct_from_52w_high"] = round(
                     (current_price - record["high_52w"]) / record["high_52w"] * 100, 2)
+                # Momentum tab: 5-session price change, so fast moves count
+                # before the slower RSI catches up.
+                if len(closes) >= 6 and closes[-6]:
+                    record["ret_5d"] = round((closes[-1] / closes[-6] - 1) * 100, 2)
                 # Where price sits in its 52-week range: 0 = at the low, 1 = at the high.
                 rng = record["high_52w"] - record["low_52w"]
                 if rng > 0:
