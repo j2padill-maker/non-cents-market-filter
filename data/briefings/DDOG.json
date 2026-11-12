@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-11T17:57:34.055077-08:00",
+  "generated_at": "2026-11-11T20:01:01.900637-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "What Are Datadog Investors Betting On?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=af6fcf47e8dd321907d459b098081648527e0e790dc7edd06cde212875a4f59a",
+      "datetime": 1794443185,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
+    },
     {
       "headline": "Datadog to Present at Upcoming Investor Conferences",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=7d4122cb509d8ce387602982ba59153669e9a33f18fc3a3a8214287dbbdc24b2",
       "datetime": 1794413552,
       "summary": "If you only glanced at Datadog headlines this year, the sharp selloffs after cautious guidance might stick in your mind more than the blockbuster AI wins. Holding Datadog from the start of the year would have returned 33.4%, including dividends. If you were weighing the bullish US$160 and bearish US$105 fair value views back in January, what in that early record could have helped you judge whether"
-    },
-    {
-      "headline": "Should You Buy The Dip In Datadog Stock?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6530c2e29dade080652f4c6222be2bc4759d7bd69f36455c4f8fa3f4eef47a50",
-      "datetime": 1794362175,
-      "summary": "For questions about this article or underlying research, email help@trefis.com."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-10",
+  "data_asof": "2026-11-11",
   "price": {
-    "last": 178.4,
-    "open": 176.93,
-    "prev_close": 179.62,
-    "move_day_pct": -0.68,
-    "move_open_close_pct": 0.83,
-    "move_week_pct": -19.1
+    "last": 184.38,
+    "open": 185.15,
+    "prev_close": 178.4,
+    "move_day_pct": 3.35,
+    "move_open_close_pct": -0.42,
+    "move_week_pct": -2.3
   },
   "indicators": {
     "rsi14": {
-      "value": 28.3,
-      "read": "Extremely oversold"
+      "value": 31.5,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -21.682,
-      "signal": -11.761,
-      "hist": -9.92,
-      "hist_prev": -10.815,
+      "macd": -22.199,
+      "signal": -13.849,
+      "hist": -8.35,
+      "hist_prev": -9.92,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 315.05,
-      "lower": 162.7,
-      "mid": 238.88,
-      "pctb": 0.103,
+      "upper": 312.98,
+      "lower": 156.28,
+      "mid": 234.63,
+      "pctb": 0.179,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 73.85,
-      "read": "74% above its 52-week low"
+      "value": 79.68,
+      "read": "80% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -39.17,
-      "read": "39% below its 52-week high"
+      "value": -37.13,
+      "read": "37% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 200.63,
-      "pct": -11.08,
-      "read": "11% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 200.86,
+      "pct": -8.2,
+      "read": "8% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 15.48,
-      "pct_of_price": 8.68,
+      "value": 15.11,
+      "pct_of_price": 8.19,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.93,
+      "value": 0.92,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 24.9,
+      "value": 29.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 293.26,
-  "ma50": 245.43,
-  "ma200": 200.63
+  "ma50": 244.64,
+  "ma200": 200.86
 }

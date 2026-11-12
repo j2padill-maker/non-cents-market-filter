@@ -2,7 +2,7 @@
   "ticker": "GOOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-11T17:57:54.859217-08:00",
+  "generated_at": "2026-11-11T20:01:22.239546-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Alphabet Kicks Off Asia Bond Sale as AI Firms Face Scrutiny",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=1cb8315c64b1c0a928809ef4a8867850861990e5a016c0e0ff9b00eb9422f7f8",
+      "datetime": 1794445969,
+      "summary": "Alphabet Inc. began marketing its inaugural Hong Kong and Singapore dollar bond sale, testing investor interest at a time of increasing volatility for companies focused on artificial intelligence."
+    },
     {
       "headline": "Zelda remake becomes fastest-selling Nintendo Switch 2 game ever",
       "source": "Yahoo",
@@ -38,25 +45,18 @@
       "summary": "Proxima Fusion signed deals with Japan's Fujikura and Kyoto Fusioneering to build a European fusion supply chain, starting with superconducting tape."
     },
     {
+      "headline": "Big Tech's expected big payday with Anthropic IPO, and Nintendo's big week with Zelda",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f5b8daf032339deaf029b38a97d5074d52957af80cb0fb5aadb825fd3784e47a",
+      "datetime": 1794436151,
+      "summary": "Deirdre Bosa discusses Anthropic's (ANTH.PVT) oversubscribed IPO, how Jensen Huang's stance on China has evolved over the years, and Nintendo's (NTDOY) The Legend of Zelda: Ocarina of Time, which has sold over 5 million copies. Deirdre Bosa then sits down with Hugging Face Co-Founder Thomas Wolf to talk about the company's best month in October, on controlling AI, and open-source models. 'Deirdre "
+    },
+    {
       "headline": "GE Vernova Fell 25% on Data Center Fears. Only About 20% of Its Gas Turbine Customers Are Data Centers. Time to Buy?",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=91db2ef353218b9c334adfaad3b015cf802ede0e7ab3df268dcbeede1d813606",
       "datetime": 1794435900,
       "summary": "Investors may be viewing this company's future as being more dependent on the AI industry than it actually is."
-    },
-    {
-      "headline": "S&P 500 After-Hours Movers: MNST, RDDT Among Gainers; VEEV, LLY Among Losers in Latest Session",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=06de5c4551d7b705cba423430683dacc7cdf38df3419851f1401334c05734b82",
-      "datetime": 1794434779,
-      "summary": "S&P 500 after-hours movers from the latest U.S. session include MNST and RDDT among gainers, while VEEV and LLY posted sharp after-hours declines."
-    },
-    {
-      "headline": "Hugging Face co-founder says AI hacks show even the biggest labs haven't figured out AI alignment",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8d0d2feb72798790606b29b9f0b84c66c519f56ca616d297445fa9347d1a7bbe",
-      "datetime": 1794434400,
-      "summary": "Hugging Face cofounder Thomas Wolf says AI alignment is a key issue the company is focusing on following OpenAI hack."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-10",
+  "data_asof": "2026-11-11",
   "price": {
-    "last": 284.92,
-    "open": 287.14,
-    "prev_close": 286.01,
-    "move_day_pct": -0.38,
-    "move_open_close_pct": -0.77,
-    "move_week_pct": 2.39
+    "last": 290.63,
+    "open": 287.57,
+    "prev_close": 284.92,
+    "move_day_pct": 2.0,
+    "move_open_close_pct": 1.07,
+    "move_week_pct": 1.16
   },
   "indicators": {
     "rsi14": {
-      "value": 31.4,
+      "value": 36.9,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -15.202,
-      "signal": -13.48,
-      "hist": -1.721,
-      "hist_prev": -2.531,
+      "macd": -14.275,
+      "signal": -13.639,
+      "hist": -0.636,
+      "hist_prev": -1.721,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 358.1,
-      "lower": 258.36,
-      "mid": 308.23,
-      "pctb": 0.266,
+      "upper": 353.23,
+      "lower": 257.94,
+      "mid": 305.58,
+      "pctb": 0.343,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 4.44,
-      "read": "Sitting right at its 52-week low"
+      "value": 6.54,
+      "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -28.51,
-      "read": "29% below its 52-week high"
+      "value": -27.08,
+      "read": "27% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 336.78,
-      "pct": -15.4,
-      "read": "15% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 336.56,
+      "pct": -13.65,
+      "read": "14% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 10.3,
-      "pct_of_price": 3.61,
+      "value": 10.14,
+      "pct_of_price": 3.49,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.67,
+      "value": 0.81,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 38.6,
+      "value": 43.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 272.8,
   "high_52w": 398.54,
-  "ma50": 327.63,
-  "ma200": 336.78
+  "ma50": 326.8,
+  "ma200": 336.56
 }
