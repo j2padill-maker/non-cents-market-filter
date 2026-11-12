@@ -2,7 +2,7 @@
   "ticker": "FSLY",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-11T16:38:12.021097-08:00",
+  "generated_at": "2026-11-11T17:57:50.441371-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-11",
+  "data_asof": "2026-11-10",
   "price": {
-    "last": 17.26,
-    "open": 17.11,
-    "prev_close": 16.24,
-    "move_day_pct": 6.28,
-    "move_open_close_pct": 0.85,
-    "move_week_pct": -17.95
+    "last": 16.24,
+    "open": 15.73,
+    "prev_close": 15.98,
+    "move_day_pct": 1.63,
+    "move_open_close_pct": 3.24,
+    "move_week_pct": -22.92
   },
   "indicators": {
     "rsi14": {
-      "value": 36.8,
+      "value": 33.0,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -2.225,
-      "signal": -1.431,
-      "hist": -0.794,
-      "hist_prev": -0.958,
+      "macd": -2.191,
+      "signal": -1.233,
+      "hist": -0.958,
+      "hist_prev": -1.018,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 29.18,
-      "lower": 14.32,
-      "mid": 21.75,
-      "pctb": 0.198,
+      "upper": 29.39,
+      "lower": 14.88,
+      "mid": 22.13,
+      "pctb": 0.094,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 116.83,
-      "read": "117% above its 52-week low"
+      "value": 104.02,
+      "read": "104% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -48.48,
-      "read": "48% below its 52-week high"
+      "value": -51.52,
+      "read": "52% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 21.81,
-      "pct": -20.86,
-      "read": "21% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 21.77,
+      "pct": -25.4,
+      "read": "25% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 2.11,
-      "pct_of_price": 12.21,
+      "value": 2.14,
+      "pct_of_price": 13.15,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.94,
+      "value": 0.8,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 43.4,
+      "value": 38.1,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 7.96,
   "high_52w": 33.5,
-  "ma50": 23.62,
-  "ma200": 21.81
+  "ma50": 23.7,
+  "ma200": 21.77
 }
