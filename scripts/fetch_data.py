@@ -301,6 +301,7 @@ DROP_SESSIONS = 3
 # 52-week-low tiers (keep in sync with AT_LOW_PCT / NEAR_LOW_PCT in index.html)
 AT_LOW_PCT = 5.0            # at the 52w low: within 5%
 NEAR_LOW_PCT = 10.0         # near the 52w low: 5-10%
+RSI_CHANGE_DAYS = 10        # Momentum tab: RSI now vs this many sessions ago
 
 OVR_DROP_PCT = -8.0        # worst single session within DROP_SESSIONS
 OVR_DROP_DAY_VOL = 2.0     # volume on that drop day vs. prior 30-day average
@@ -738,6 +739,11 @@ def process_ticker(ticker, sector, force_news=False, yf_data=None, fund_cache=No
                     (current_price - record["low_52w"]) / record["low_52w"] * 100, 2)
                 record["pct_from_52w_high"] = round(
                     (current_price - record["high_52w"]) / record["high_52w"] * 100, 2)
+                # Where price sits in its 52-week range: 0 = at the low, 1 = at the high.
+                rng = record["high_52w"] - record["low_52w"]
+                if rng > 0:
+                    record["range_pos_52w"] = round(
+                        max(0.0, min(1.0, (current_price - record["low_52w"]) / rng)), 3)
 
             rsi = compute_rsi(closes)
             if rsi is not None and (rsi < 5 or rsi > 95):
@@ -748,6 +754,13 @@ def process_ticker(ticker, sector, force_news=False, yf_data=None, fund_cache=No
             else:
                 record["rsi14"] = rsi
                 record["rsi_label"] = rsi_label(rsi)
+                # RSI trajectory. Wilder smoothing only looks backward, so RSI on
+                # the series cut short by N sessions IS the RSI from N sessions ago.
+                if rsi is not None and len(closes) > RSI_CHANGE_DAYS + 30:
+                    rsi_prev = compute_rsi(closes[:-RSI_CHANGE_DAYS])
+                    if rsi_prev is not None and 5 <= rsi_prev <= 95:
+                        record["rsi14_prev"] = rsi_prev
+                        record["rsi_change"] = round(rsi - rsi_prev, 1)
 
         if len(volumes) >= 30:
             avg_vol_30 = sum(volumes[-30:]) / 30

@@ -1149,6 +1149,63 @@ td { padding:10px 14px; white-space:nowrap; }
 }
 .wl-sync-pill[onclick]:hover { border-color:var(--yellow); color:var(--yellow); }
 
+/* ─── SECTOR ROTATION (Momentum) ─── */
+.rot-card {
+  background: linear-gradient(150deg, var(--bg3), var(--bg2));
+  border:1px solid var(--glass-border);
+  border-radius: var(--radius);
+  box-shadow: var(--card-shadow);
+  padding:16px 18px 18px;
+  margin-bottom:20px;
+}
+.rot-top { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:10px; margin-bottom:10px; }
+.rot-title { font-family:var(--font-display); font-weight:700; font-size:16px; color:var(--text); }
+.rot-filters { display:flex; gap:6px; flex-wrap:wrap; }
+.rot-filter {
+  font-family:var(--font-mono); font-size:11px; letter-spacing:0.5px;
+  padding:8px 12px; min-height:36px; border-radius:8px; cursor:pointer;
+  background:transparent; border:1px solid var(--border); color:var(--text2);
+}
+.rot-filter.on { border-color:var(--accent); background:rgba(0,200,83,0.12); color:var(--green); }
+.rot-help { font-size:11px; color:var(--text2); line-height:1.7; margin-bottom:12px; }
+.rot-help summary { cursor:pointer; color:var(--text2); }
+.rot-help p { margin:8px 0 0; }
+.rot-chart {
+  position:relative; height:420px; border:1px solid var(--border);
+  border-radius:8px; overflow:hidden; background:rgba(6,10,22,0.6);
+}
+.rot-q { position:absolute; }
+.rot-qlabel { position:absolute; font-family:var(--font-display); font-weight:700; font-size:11px; letter-spacing:1px; pointer-events:none; }
+.rot-line { position:absolute; background:var(--border); }
+.rot-plot { position:absolute; left:22px; right:22px; top:26px; bottom:26px; }
+.rot-dot {
+  position:absolute; width:24px; height:24px; margin:-12px 0 0 -12px; border-radius:50%;
+  border:none; padding:0; cursor:pointer; font-family:var(--font-display); font-weight:800;
+  font-size:11px; color:#060a16; display:flex; align-items:center; justify-content:center;
+  transition:transform 0.15s;
+}
+.rot-dot:hover, .rot-dot.sel { transform:scale(1.25); z-index:2; outline:2px solid #fff; }
+.rot-axis { display:flex; justify-content:space-between; font-size:10px; color:var(--text2); margin-top:6px; }
+.rot-empty { padding:28px 16px; text-align:center; font-size:12px; color:var(--text2); line-height:1.7; border:1px dashed var(--border); border-radius:8px; }
+.quad-badge { display:inline-block; font-size:9px; letter-spacing:0.5px; padding:2px 6px; border-radius:4px; border:1px solid currentColor; margin-left:6px; vertical-align:1px; }
+.rank-detail { padding:4px 18px 16px 58px; border-bottom:1px solid rgba(26,38,64,0.5); background:rgba(255,255,255,0.015); }
+.rank-why { font-size:12px; color:var(--text); line-height:1.6; margin-bottom:10px; }
+.rank-stats { display:grid; grid-template-columns:repeat(4, minmax(0,1fr)); gap:8px; margin-bottom:10px; }
+.rank-stat { border:1px solid var(--border); border-radius:6px; padding:6px 8px; }
+.rank-stat-k { font-size:9px; color:var(--text2); letter-spacing:0.5px; }
+.rank-stat-v { font-family:var(--font-display); font-weight:700; font-size:14px; color:var(--text); margin-top:2px; }
+.rank-movers { font-size:10px; color:var(--text2); margin:6px 0 4px; }
+.rank-chips { display:flex; flex-wrap:wrap; gap:6px; }
+.rank-chip { font-family:var(--font-mono); font-size:11px; padding:6px 8px; min-height:32px; border-radius:6px; border:1px solid var(--border); background:var(--bg2); color:var(--text); cursor:pointer; }
+.rank-chip span { color:var(--text2); margin-left:4px; }
+.rank-open { margin-top:12px; font-family:var(--font-mono); font-size:11px; padding:8px 12px; min-height:36px; border-radius:8px; border:1px solid var(--accent-dim); background:transparent; color:var(--green); cursor:pointer; }
+.rank-thin { font-size:10px; color:var(--yellow); margin-bottom:8px; }
+@media(max-width:600px){
+  .rot-chart { height:380px; }
+  .rank-detail { padding:4px 14px 14px 14px; }
+  .rank-stats { grid-template-columns:repeat(2, minmax(0,1fr)); }
+}
+
 /* ─── SECTION HEADINGS ─── */
 .panel-heading {
   font-family:var(--font-display);
@@ -1515,7 +1572,8 @@ td { padding:10px 14px; white-space:nowrap; }
 <!-- ═══════════ RANKINGS ═══════════ -->
 <div id="tab-rankings" class="panel">
   <div class="panel-heading">📈 Downtrodden vs. Momentum</div>
-  <div class="panel-sub">Downtrodden score: stocks at their 52-week low (≤5%) count fully, stocks near it (5–10%) count half and distance above lows (momentum).</div>
+  <div class="panel-sub">Downtrodden score: stocks at their 52-week low (≤5%) count fully, stocks near it (5–10%) count half. Momentum score: each stock ranked 0–100 on RSI and on distance above its 52-week low, averaged; a sector scores the median of its stocks.</div>
+  <div id="rotation-wrap"></div>
   <div class="ranking-grid" id="ranking-grid"><div class="loading"><div class="loading-spinner"></div><div class="loading-text">CALCULATING...</div></div></div>
 </div>
 
@@ -3239,6 +3297,106 @@ function showSectorList(){
 }
 
 /* ─── RANKINGS ─── */
+// Momentum = each stock ranked 0–100 against the whole universe on RSI and on
+// % above its 52-week low, averaged; a sector's score is the median of its
+// stocks (a median so one bad data point can't drag a sector). The rotation
+// chart places each sector by 52-week range position (up/down) and RSI change
+// over RSI_CHANGE_DAYS sessions (left/right).
+const RSI_CHANGE_DAYS=10;
+const MARKET_SECTORS=new Set(['Communication Services','Consumer Discretionary','Consumer Staples','Energy','Financials','Health Care','Industrials','Information Technology','Materials','Real Estate','Utilities','S&P500 Core','Nasdaq100 Core']);
+const QUAD={
+  lead:{name:'Leading',color:'#00ff9d',desc:'high in its range, RSI rising'},
+  fade:{name:'Fading',color:'#ff8a4c',desc:'high in its range, RSI falling'},
+  turn:{name:'Turning up',color:'#5aa9ff',desc:'low in its range, RSI rising'},
+  fall:{name:'Falling',color:'#ff3b5c',desc:'low in its range, RSI falling'}
+};
+let rotFilter='all', rotOpen=null;
+function rotAttr(v){return String(v).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;');}
+function medianOf(a){if(!a.length)return null;const s=[...a].sort((x,y)=>x-y),m=s.length>>1;return s.length%2?s[m]:(s[m-1]+s[m])/2;}
+function pctRanker(vals){
+  const s=[...vals].sort((a,b)=>a-b),n=s.length;
+  return v=>{if(n<2)return 50;let lo=0,hi=n;while(lo<hi){const m=(lo+hi)>>1;if(s[m]<v)lo=m+1;else hi=m;}return lo/(n-1)*100;};
+}
+function rangePos(s){
+  if(s.range_pos_52w!=null) return s.range_pos_52w;
+  if(s.price==null||s.low_52w==null||s.high_52w==null||s.high_52w<=s.low_52w) return null;
+  return Math.max(0,Math.min(1,(s.price-s.low_52w)/(s.high_52w-s.low_52w)));
+}
+function computeMomentum(){
+  const base=allStocks.filter(s=>s.sector!==WATCHLIST_SECTOR&&s.rsi14!=null&&s.pct_from_52w_low!=null);
+  const rr=pctRanker(base.map(s=>s.rsi14)), lr=pctRanker(base.map(s=>s.pct_from_52w_low));
+  const by={};
+  base.forEach(s=>{s._mscore=0.5*rr(s.rsi14)+0.5*lr(s.pct_from_52w_low);(by[s.sector]=by[s.sector]||[]).push(s);});
+  return Object.entries(by).map(([sector,st])=>{
+    const pos=st.map(rangePos).filter(v=>v!=null);
+    const chg=st.map(s=>s.rsi_change).filter(v=>v!=null);
+    const prev=st.map(s=>s.rsi14_prev).filter(v=>v!=null);
+    const r={sector,count:st.length,thin:st.length<5,
+      score:Math.round(medianOf(st.map(s=>s._mscore))),
+      rsi:medianOf(st.map(s=>s.rsi14)),fromLow:medianOf(st.map(s=>s.pct_from_52w_low)),
+      pos:pos.length?medianOf(pos):null,
+      // need RSI change on at least half the sector before trusting the median
+      chg:chg.length>=Math.ceil(st.length/2)?medianOf(chg):null,
+      rsiPrev:prev.length>=Math.ceil(st.length/2)?medianOf(prev):null,
+      stocks:[...st].sort((a,b)=>b._mscore-a._mscore)};
+    r.quad=(r.pos==null||r.chg==null)?null:(r.pos>=0.5?(r.chg>=0?'lead':'fade'):(r.chg>=0?'turn':'fall'));
+    return r;
+  }).sort((a,b)=>b.score-a.score);
+}
+function whySentence(r){
+  if(r.pos==null) return 'Not enough 52-week data to place this sector.';
+  const p=Math.round(r.pos*100);
+  const where=r.pos>=0.8?`Near the top of its 52-week range (${p}%)`:r.pos>=0.5?`In the upper half of its 52-week range (${p}%)`:r.pos>=0.2?`In the lower half of its 52-week range (${p}%)`:`Near the bottom of its 52-week range (${p}%)`;
+  if(r.chg==null) return where+'. RSI trend appears after the next data run.';
+  const c=(r.chg>0?'+':'')+r.chg.toFixed(1);
+  const move=r.chg>=3?`RSI is rising (${c} pts`:r.chg<=-3?`RSI is falling (${c} pts`:`RSI is roughly flat (${c} pts`;
+  return `${where}, and ${move} over ${RSI_CHANGE_DAYS} sessions${r.rsiPrev!=null?`, ${r.rsiPrev.toFixed(0)} → ${r.rsi.toFixed(0)}`:''}).`;
+}
+function setRotFilter(f){rotFilter=f;renderRankings();}
+function toggleRot(el){const s=el.dataset.sector;rotOpen=rotOpen===s?null:s;renderRankings();
+  if(rotOpen){const row=document.querySelector(`.ranking-item[data-sector="${CSS.escape(rotOpen)}"]`);if(row)row.scrollIntoView({behavior:'smooth',block:'center'});}}
+function openSectorFromRank(el){const s=el.dataset.sector;switchTab('sectors',null);setTimeout(()=>showSectorDetail(s),100);}
+function renderRotation(list){
+  const wrap=document.getElementById('rotation-wrap'); if(!wrap) return;
+  const chip=(k,l)=>`<button class="rot-filter${rotFilter===k?' on':''}" onclick="setRotFilter('${k}')">${l}</button>`;
+  const placed=list.filter(r=>r.quad);
+  let chart;
+  if(!placed.length){
+    chart=`<div class="rot-empty">The rotation chart needs RSI change, which is added on the next data run.<br>The Momentum ranking below already uses the new score.</div>`;
+  }else{
+    const xmax=Math.max(4,...placed.map(r=>Math.abs(r.chg)))*1.15;
+    const ys=placed.map(r=>r.pos);
+    const ymin=Math.max(0,Math.min(0.5,...ys)-0.05), ymax=Math.min(1,Math.max(0.5,...ys)+0.05);
+    const X=v=>(v+xmax)/(2*xmax)*100, Y=v=>(ymax-v)/(ymax-ymin)*100;
+    // the plot is inset 22px/26px; quadrant splits are computed inside that inset
+    const cx=`calc(22px + (100% - 44px) * ${X(0)/100})`, cy=`calc(26px + (100% - 52px) * ${Y(0.5)/100})`;
+    const dots=placed.map(r=>{const q=QUAD[r.quad];
+      return `<button class="rot-dot${rotOpen===r.sector?' sel':''}" data-sector="${rotAttr(r.sector)}" onclick="toggleRot(this)" title="${rotAttr(r.sector)}" aria-label="${rotAttr(r.sector)}" style="left:${X(r.chg).toFixed(1)}%;top:${Y(r.pos).toFixed(1)}%;background:${q.color};box-shadow:0 0 10px ${q.color}88">${r.rank}</button>`;}).join('');
+    chart=`<div class="rot-chart">
+      <div class="rot-q" style="left:0;top:0;width:${cx};height:${cy};background:rgba(255,138,76,0.06)"></div>
+      <div class="rot-q" style="left:${cx};right:0;top:0;height:${cy};background:rgba(0,255,157,0.06)"></div>
+      <div class="rot-q" style="left:0;top:${cy};width:${cx};bottom:0;background:rgba(255,59,92,0.06)"></div>
+      <div class="rot-q" style="left:${cx};right:0;top:${cy};bottom:0;background:rgba(90,169,255,0.06)"></div>
+      <div class="rot-line" style="left:${cx};top:0;bottom:0;width:1px"></div>
+      <div class="rot-line" style="top:${cy};left:0;right:0;height:1px"></div>
+      <div class="rot-qlabel" style="left:8px;top:6px;color:${QUAD.fade.color}">FADING</div>
+      <div class="rot-qlabel" style="right:8px;top:6px;color:${QUAD.lead.color}">LEADING</div>
+      <div class="rot-qlabel" style="left:8px;bottom:6px;color:${QUAD.fall.color}">FALLING</div>
+      <div class="rot-qlabel" style="right:8px;bottom:6px;color:${QUAD.turn.color}">TURNING UP</div>
+      <div class="rot-plot">${dots}</div>
+    </div>
+    <div class="rot-axis"><span>← RSI falling</span><span>Range ${Math.round(ymin*100)}–${Math.round(ymax*100)}% shown</span><span>RSI rising →</span></div>`;
+  }
+  wrap.innerHTML=`<div class="rot-card">
+    <div class="rot-top"><div class="rot-title">Sector rotation</div>
+      <div class="rot-filters">${chip('all','ALL')}${chip('themed','THEMED')}${chip('market','MARKET')}</div></div>
+    <details class="rot-help"><summary>How to read this</summary>
+      <p>Up/down: where the sector's median stock sits in its 52-week range (top = near its high). Left/right: change in median RSI over the last ${RSI_CHANGE_DAYS} sessions. The chart zooms to fit the sectors, so the middle lines mark 50% of range and zero RSI change.</p>
+      <p>Sectors tend to rotate Turning up → Leading → Fading → Falling, but this shows where they are now, not where they'll go. Dot numbers match the Momentum ranking; tap one for details.</p>
+    </details>
+    ${chart}
+  </div>`;
+}
 function renderRankings(){
   // Same exclusion as renderSectors — a watchlist bucket in the downtrodden
   // ranking would be noise, not a cyclical-bottom signal.
@@ -3251,13 +3409,31 @@ function renderRankings(){
     const atN=stocks.filter(s=>lowTier(s.pct_from_52w_low)==='at').length;
     const nearN=stocks.filter(s=>lowTier(s.pct_from_52w_low)==='near').length;
     const lowScore=Math.round((atN+NEAR_LOW_WEIGHT*nearN)/stocks.length*100);
-    const avgFromLow=stocks.reduce((a,s)=>a+s.pct_from_52w_low,0)/stocks.length;
     const withRsi=stocks.filter(s=>s.rsi14!=null);
     const avgRsi=withRsi.length?withRsi.reduce((a,s)=>a+s.rsi14,0)/withRsi.length:null;
-    return{sector,atLowPct,nearLowPct,lowScore,avgFromLow,avgRsi,count:stocks.length};
+    return{sector,atLowPct,nearLowPct,lowScore,avgRsi};
   }).filter(Boolean);
   const downtrodden=[...data].sort((a,b)=>(b.lowScore-a.lowScore)||(b.atLowPct-a.atLowPct));
-  const momentum=[...data].sort((a,b)=>b.avgFromLow-a.avgFromLow);
+  const momentum=computeMomentum().filter(r=>rotFilter==='all'||(rotFilter==='market')===MARKET_SECTORS.has(r.sector));
+  momentum.forEach((r,i)=>r.rank=i+1);
+  renderRotation(momentum);
+  const chipFor=s=>`<button class="rank-chip" onclick="event.stopPropagation();showModal('${s.ticker}')">${s.ticker}<span>${Math.round(s._mscore)}</span></button>`;
+  const detail=r=>{
+    const strong=r.stocks.slice(0,3), weak=r.stocks.slice(-3).reverse().filter(s=>!strong.includes(s));
+    return `<div class="rank-detail">
+      ${r.thin?`<div class="rank-thin">Only ${r.count} stocks — treat this score loosely.</div>`:''}
+      <div class="rank-why">${whySentence(r)}</div>
+      <div class="rank-stats">
+        <div class="rank-stat"><div class="rank-stat-k">SCORE</div><div class="rank-stat-v">${r.score}</div></div>
+        <div class="rank-stat"><div class="rank-stat-k">RSI ${r.rsiPrev!=null?RSI_CHANGE_DAYS+'D AGO → NOW':'(MEDIAN)'}</div><div class="rank-stat-v">${r.rsiPrev!=null?r.rsiPrev.toFixed(0)+' → ':''}${r.rsi.toFixed(0)}</div></div>
+        <div class="rank-stat"><div class="rank-stat-k">52W RANGE</div><div class="rank-stat-v">${r.pos!=null?Math.round(r.pos*100)+'%':'—'}</div></div>
+        <div class="rank-stat"><div class="rank-stat-k">ABOVE 52W LOW</div><div class="rank-stat-v">${r.fromLow.toFixed(0)}%</div></div>
+      </div>
+      <div class="rank-movers">Strongest (stock score)</div><div class="rank-chips">${strong.map(chipFor).join('')}</div>
+      ${weak.length?`<div class="rank-movers">Weakest</div><div class="rank-chips">${weak.map(chipFor).join('')}</div>`:''}
+      <button class="rank-open" data-sector="${rotAttr(r.sector)}" onclick="openSectorFromRank(this)">Open sector →</button>
+    </div>`;
+  };
   document.getElementById('ranking-grid').innerHTML=`
     <div class="ranking-card">
       <div class="ranking-card-header" style="color:var(--red)">🔴 Most Downtrodden Sectors</div>
@@ -3268,12 +3444,12 @@ function renderRankings(){
       </div>`).join('')}
     </div>
     <div class="ranking-card">
-      <div class="ranking-card-header" style="color:var(--green)">🟢 Most Momentum Sectors</div>
-      ${momentum.map((s,i)=>`<div class="ranking-item" onclick="switchTab('sectors',null);setTimeout(()=>showSectorDetail('${s.sector}'),100)">
-        <div class="ranking-num" style="color:${i<3?'var(--green)':'var(--text3)'}">${i+1}</div>
-        <div class="ranking-info"><div class="ranking-name" style="color:${sectorColor(s.sector)}">${s.sector}</div><div class="ranking-sub">${s.avgFromLow.toFixed(1)}% avg above 52W low · Avg RSI ${s.avgRsi!=null?s.avgRsi.toFixed(1):'—'} · ${s.count} stocks</div></div>
-        <div class="ranking-score" style="color:var(--green)">${s.avgFromLow.toFixed(1)}%</div>
-      </div>`).join('')}
+      <div class="ranking-card-header" style="color:var(--green)">🟢 Momentum Score</div>
+      ${momentum.map((r,i)=>{const q=r.quad?QUAD[r.quad]:null;return `<div class="ranking-item" data-sector="${rotAttr(r.sector)}" onclick="toggleRot(this)">
+        <div class="ranking-num" style="color:${i<3?'var(--green)':'var(--text3)'}">${r.rank}</div>
+        <div class="ranking-info"><div class="ranking-name" style="color:${sectorColor(r.sector)}">${r.sector}${q?`<span class="quad-badge" style="color:${q.color}">${q.name.toUpperCase()}</span>`:''}</div><div class="ranking-sub">RSI ${r.rsi.toFixed(1)}${r.chg!=null?` (${r.chg>0?'+':''}${r.chg.toFixed(1)})`:''} · ${r.fromLow.toFixed(0)}% above low · ${r.count} stocks${r.thin?' · thin':''}</div></div>
+        <div class="ranking-score" style="color:var(--green)">${r.score}</div>
+      </div>${rotOpen===r.sector?detail(r):''}`;}).join('')}
     </div>`;
 }
 
