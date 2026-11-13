@@ -2,7 +2,7 @@
   "ticker": "FSLY",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-12T16:50:26.384381-08:00",
+  "generated_at": "2026-11-12T17:36:32.031446-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Fastly Named a Leader in 2026 Gartner\u00ae Magic Quadrant\u2122 for Edge Distribution Platforms",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=45e01d4cf64edd78bb42464a0ea77daa78c534fb77d5b70f309f046424fe1f20",
+      "datetime": 1794503760,
+      "summary": "SAN FRANCISCO, November 12, 2026--Fastly, Inc. (NASDAQ: FSLY), a leader in global edge cloud platforms, today announced it has been named a Leader in the 2026 Gartner\u00ae Magic Quadrant\u2122 for Edge Distribution Platforms."
+    },
+    {
+      "headline": "What Did Cloudflare Stock Investors Miss Before The Run?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8b30dcba42e2d8a827f00657dc289c7912f0b80f7d10b429d68c68554e6c30e5",
+      "datetime": 1794496395,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
+    },
     {
       "headline": "How Big Could Cloudflare Stock's Next Fall Be?",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=91885764079b94d60ad1a459fe5b34ed4f180bdcbbbd50e18c20218f19c046ac",
       "datetime": 1794415366,
       "summary": ""
-    },
-    {
-      "headline": "Can Rising Adoption of Workers Platform Boost NET's Long-Term Growth?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ba9513365b411407802ea3492badd075138cc8602009e74983c53dd485b04217",
-      "datetime": 1794413580,
-      "summary": "Cloudflare's Workers platform surpassed 10 million developers, with rising enterprise adoption driving larger contracts and stronger customer spending."
-    },
-    {
-      "headline": "Stocks making big moves this week: Sprout Social, Redwire, Inspire Medical Systems, Fastly, and Marvell Technology",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=71b6e3e90f3f31670ab8da7663a928d8e7419d3587e82ee9588542b803e412f2",
-      "datetime": 1794277776,
-      "summary": "Check out the companies making headlines this week:"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-12",
+  "data_asof": "2026-11-11",
   "price": {
-    "last": 17.19,
-    "open": 16.58,
-    "prev_close": 17.26,
-    "move_day_pct": -0.41,
-    "move_open_close_pct": 3.71,
-    "move_week_pct": 11.77
+    "last": 17.26,
+    "open": 17.07,
+    "prev_close": 16.24,
+    "move_day_pct": 6.28,
+    "move_open_close_pct": 1.11,
+    "move_week_pct": -17.95
   },
   "indicators": {
     "rsi14": {
-      "value": 36.7,
+      "value": 36.8,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -2.232,
-      "signal": -1.591,
-      "hist": -0.641,
-      "hist_prev": -0.794,
+      "macd": -2.225,
+      "signal": -1.431,
+      "hist": -0.794,
+      "hist_prev": -0.958,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 28.87,
-      "lower": 13.83,
-      "mid": 21.35,
-      "pctb": 0.223,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 29.18,
+      "lower": 14.32,
+      "mid": 21.75,
+      "pctb": 0.198,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 115.95,
-      "read": "116% above its 52-week low"
+      "value": 116.83,
+      "read": "117% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -48.69,
-      "read": "49% below its 52-week high"
+      "value": -48.48,
+      "read": "48% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 21.84,
-      "pct": -21.29,
+      "ma200": 21.81,
+      "pct": -20.86,
       "read": "21% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 2.02,
-      "pct_of_price": 11.78,
+      "value": 2.11,
+      "pct_of_price": 12.21,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.75,
+      "value": 0.94,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 37.9,
+      "value": 43.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 7.96,
   "high_52w": 33.5,
-  "ma50": 23.56,
-  "ma200": 21.84
+  "ma50": 23.62,
+  "ma200": 21.81
 }

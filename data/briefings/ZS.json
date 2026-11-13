@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-12T16:50:23.262814-08:00",
+  "generated_at": "2026-11-12T17:36:28.798886-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Top Cybersecurity Stocks to Watch, According to Mizuho",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=32990ab805ab5d9c3763f86c4b30718ac5101c2147fe38f3aa2d440c3fd9f2e4",
+      "datetime": 1794504565,
+      "summary": "Investing.com -- Mizuho has released its latest rankings of top-performing cybersecurity stocks, with analysts highlighting strong momentum across multiple companies based on quarterly channel checks and partner feedback. The firm's analysis points to robust demand for data warehousing, zero trust solutions, and cyber-resiliency products."
+    },
+    {
+      "headline": "What Did Cloudflare Stock Investors Miss Before The Run?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8b30dcba42e2d8a827f00657dc289c7912f0b80f7d10b429d68c68554e6c30e5",
+      "datetime": 1794496395,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
+    },
     {
       "headline": "Zscaler: A Stock Left Behind",
       "source": "SeekingAlpha",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=7703a477d6e17435385c9dd5ab9cf713af544bdef625be12cbed2437f4b21859",
       "datetime": 1794413280,
       "summary": "ZS' Data Security business gains momentum as strong ARR growth, rising AI security demand and cross-selling opportunities open new avenues for revenue growth."
-    },
-    {
-      "headline": "Zscaler (ZS) Faces A Valuation Test, Is The Pullback A Buying Opportunity?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e3cb9cb6da379ebe0b0e57392451b9289333ac6a66e0055e8f14067fc334490a",
-      "datetime": 1794337854,
-      "summary": "Alex Stamos argues that AI is pushing the cost of cyberattacks toward zero while keeping defense expensive, which is shifting budgets toward security platforms like Zscaler (ZS) and placing its stock under closer investor scrutiny. For Zscaler, the story in the chart has cooled recently, with the share price at US$199.04 after a 7 day share price decline of 11.06% and a 30 day share price drop of "
-    },
-    {
-      "headline": "Meta\u2019s Former Security Chief: AI Attack Costs Are \u201cGoing Towards Zero.\u201d CrowdStrike Sells the Defense",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6f7047bf5bf9a3bcaa42ba0eae10ae9062de5a30751aaddf7c7dc2111790d986",
-      "datetime": 1794328778,
-      "summary": "Key TakeawaysAlex Stamos, Facebook\u2019s former security chief, says AI is driving the cost of cyberattacks toward zero while defense stays expensive. He said it after a record $6."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-12",
+  "data_asof": "2026-11-11",
   "price": {
-    "last": 193.22,
-    "open": 188.55,
-    "prev_close": 193.79,
-    "move_day_pct": -0.3,
-    "move_open_close_pct": 2.48,
-    "move_week_pct": -5.23
+    "last": 193.79,
+    "open": 201.0,
+    "prev_close": 194.92,
+    "move_day_pct": -0.58,
+    "move_open_close_pct": -3.58,
+    "move_week_pct": -13.65
   },
   "indicators": {
     "rsi14": {
-      "value": 36.0,
+      "value": 36.2,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -5.054,
-      "signal": 1.51,
-      "hist": -6.564,
-      "hist_prev": -6.907,
+      "macd": -3.756,
+      "signal": 3.151,
+      "hist": -6.907,
+      "hist_prev": -6.981,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 269.75,
-      "lower": 177.9,
-      "mid": 223.83,
-      "pctb": 0.167,
+      "upper": 268.96,
+      "lower": 181.41,
+      "mid": 225.19,
+      "pctb": 0.141,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 63.68,
+      "value": 64.16,
       "read": "64% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -39.06,
-      "read": "39% below its 52-week high"
+      "value": -41.5,
+      "read": "42% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 166.61,
-      "pct": 15.97,
+      "ma200": 166.72,
+      "pct": 16.24,
       "read": "16% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 12.26,
-      "pct_of_price": 6.35,
+      "value": 12.45,
+      "pct_of_price": 6.43,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.68,
+      "value": 0.69,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 29.7,
+      "value": 39.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 118.05,
-  "high_52w": 317.08,
-  "ma50": 209.16,
-  "ma200": 166.61
+  "high_52w": 331.29,
+  "ma50": 208.75,
+  "ma200": 166.72
 }

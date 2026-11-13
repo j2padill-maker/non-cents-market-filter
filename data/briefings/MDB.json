@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-12T16:50:03.150929-08:00",
+  "generated_at": "2026-11-12T17:36:09.606919-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Will MongoDB Stock Ever Get Back To Its Old High?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=0e11b7aeabe3e97ec76ef7229b835da0fe3b404e8882a68fb39d80515907fa9a",
+      "datetime": 1794498357,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
+    },
+    {
+      "headline": "Best Growth Stocks to Buy for November 12th",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=32162152ba86e5ff62c1cbc069228fc82450ca52e63ec94f4edf61e5d590191f",
+      "datetime": 1794471720,
+      "summary": "MDB, INGM, and OSCR it to the Zacks Rank #1 (Strong Buy) growth stocks list on November 12, 2026."
+    },
     {
       "headline": "5 Stocks Analysts Are Upgrading Right Now",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=8c0e403d54f13a81bd3be0149efab9164e3023c1700591c38884145142a2219c",
       "datetime": 1794314826,
       "summary": "A two-day rally built partly on short covering faces its first real test when October inflation data lands at 8:30 ET. Meanwhile, analysts flipped hard on Wix and DraftKings, while a surprise double upgrade lifted a bitcoin miner's target."
-    },
-    {
-      "headline": "This MongoDB Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Tuesday",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=cae6cddbeece383d86dce69b7e8f5a149e32429d608bd78642c46f935bb55898",
-      "datetime": 1794303108,
-      "summary": "Analysts initiated coverage on Mentari, MongoDB, Comfort Systems and Ross Stores; City Therapeutics received an early-stage biotech rating."
-    },
-    {
-      "headline": "BTIG Initiates Coverage On MongoDB with Buy Rating, Announces Price Target of $417",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=1f718fcadb35cfe15c5b4efb9f563c32f0f4af55ffc1e72ae6372f87c5749ad5",
-      "datetime": 1794294336,
-      "summary": "BTIG  analyst Gray Powell   initiates coverage on MongoDB (NASDAQ:MDB) with a Buy rating and announces Price Target of $417."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-12",
+  "data_asof": "2026-11-11",
   "price": {
-    "last": 339.78,
-    "open": 330.05,
-    "prev_close": 338.12,
-    "move_day_pct": 0.49,
-    "move_open_close_pct": 2.95,
-    "move_week_pct": 11.55
+    "last": 338.12,
+    "open": 346.44,
+    "prev_close": 331.98,
+    "move_day_pct": 1.85,
+    "move_open_close_pct": -2.4,
+    "move_week_pct": 2.97
   },
   "indicators": {
     "rsi14": {
-      "value": 46.0,
+      "value": 45.5,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -11.932,
-      "signal": -10.642,
-      "hist": -1.291,
-      "hist_prev": -2.601,
+      "macd": -12.92,
+      "signal": -10.319,
+      "hist": -2.601,
+      "hist_prev": -4.156,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 405.51,
-      "lower": 298.05,
-      "mid": 351.78,
-      "pctb": 0.388,
+      "upper": 406.92,
+      "lower": 299.32,
+      "mid": 353.12,
+      "pctb": 0.361,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 50.38,
+      "value": 49.64,
       "read": "50% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -28.06,
+      "value": -28.41,
       "read": "28% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 334.49,
-      "pct": 1.58,
-      "read": "2% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 334.84,
+      "pct": 0.98,
+      "read": "1% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 21.78,
-      "pct_of_price": 6.41,
+      "value": 21.96,
+      "pct_of_price": 6.5,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.52,
+      "value": 0.53,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 41.6,
+      "value": 40.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 365.91,
-  "ma200": 334.49
+  "ma50": 366.62,
+  "ma200": 334.84
 }

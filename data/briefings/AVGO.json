@@ -2,7 +2,7 @@
   "ticker": "AVGO",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-12T16:50:24.808252-08:00",
+  "generated_at": "2026-11-12T17:36:30.309157-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -31,6 +31,13 @@
       "summary": "Jensen Huang's departure from Nvidia is raising questions about whether rivals can chip away at the company's dominance of the AI semiconductor market. Bloomberg Intelligence analysts Robert Schiffman and Mandeep Singh say demand for AI computing remains strong, but Huang's exit could create opportunities for Broadcom, AMD, Google and others as customers look for alternatives and potentially push "
     },
     {
+      "headline": "Now Comes the Hard Part for the Stock Market",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=0e1d618381f3b22e16ac4a799c7d672956a74ffb518d09b50f4878e3aa34aeaf",
+      "datetime": 1794523980,
+      "summary": "The S&P 500 has held up through Nvidia\u2019s steep decline. But Huang\u2019s departure raises new questions about the AI trade and the broader market outlook."
+    },
+    {
       "headline": "Stock Market Today, Nov. 12: Nvidia CEO's Stunning Exit Sends Wall Street Lower as Rivals Surge",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=c2b52f3c31e6af5600be62940cb6af9c78ac92f7715ae5e1db8fadad7117678d",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=016f8fd16e50452a9e5d510d15e0c24587f421822205857248dd6292ddffb186",
       "datetime": 1794521920,
       "summary": "Today, Nov. 12, 2026, Nvidia's sharp drop and fresh analyst downgrades put its leadership's future squarely in focus for investors."
-    },
-    {
-      "headline": "S&P 500 Recovered $1 Trillion in 90 Minutes Despite Wider Market Crash",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e9d62ca4f64b0199f2062265b9aa4d9255ec8f18f1511c411e103638e5a16ff9",
-      "datetime": 1794518083,
-      "summary": "The S&P 500 erased early losses as $1 trillion returned to US stocks. See the key levels on the path to a record high."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-12",
+  "data_asof": "2026-11-11",
   "price": {
-    "last": 364.36,
-    "open": 356.79,
-    "prev_close": 345.22,
-    "move_day_pct": 5.54,
-    "move_open_close_pct": 2.12,
-    "move_week_pct": 24.98
+    "last": 345.22,
+    "open": 350.0,
+    "prev_close": 331.98,
+    "move_day_pct": 3.99,
+    "move_open_close_pct": -1.37,
+    "move_week_pct": 6.06
   },
   "indicators": {
     "rsi14": {
-      "value": 59.5,
+      "value": 53.9,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -3.623,
-      "signal": -7.632,
-      "hist": 4.01,
-      "hist_prev": 1.481,
+      "macd": -7.154,
+      "signal": -8.635,
+      "hist": 1.481,
+      "hist_prev": -0.604,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 363.2,
-      "lower": 296.89,
-      "mid": 330.05,
-      "pctb": 1.017,
-      "read": "Above the upper band \u2014 stretched to the upside"
+      "upper": 359.06,
+      "lower": 299.03,
+      "mid": 329.04,
+      "pctb": 0.769,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 24.98,
-      "read": "25% above its 52-week low"
+      "value": 18.42,
+      "read": "18% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -24.08,
-      "read": "24% below its 52-week high"
+      "value": -28.07,
+      "read": "28% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 366.39,
-      "pct": -0.55,
-      "read": "1% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 366.22,
+      "pct": -5.73,
+      "read": "6% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 17.16,
-      "pct_of_price": 4.71,
+      "value": 16.58,
+      "pct_of_price": 4.8,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.72,
+      "value": 1.36,
       "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 62.0,
+      "value": 54.6,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 291.53,
   "high_52w": 479.94,
-  "ma50": 345.44,
-  "ma200": 366.39
+  "ma50": 345.49,
+  "ma200": 366.22
 }

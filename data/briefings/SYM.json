@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-12T16:50:17.488560-08:00",
+  "generated_at": "2026-11-12T17:36:23.175836-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "3 US Automation Stocks Riding The Reshoring Capex Boom",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ce293d7fa3dcc97336f9a9cfbfac63d34673e978902cfa8b15e6334082a261a5",
+      "datetime": 1794496277,
+      "summary": "AI-driven capex, reshoring and a 12.7% jump in non-residential investment are reshaping where US$ flows in the real economy, and the factory floor is right in the firing line. Strong US growth and large data centre build-outs are creating new potential beneficiaries for investors who can identify which businesses appear most directly affected by this spending trend. This article breaks down 3 stoc"
+    },
+    {
+      "headline": "Bit Digital, Inc. (BTBT) Q3 Earnings Top Estimates",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c13c29eabac2e120eeda94bebe6341ebdd6f7a2211085fb5c8c700dacfdf3cab",
+      "datetime": 1794491402,
+      "summary": "Bit Digital (BTBT) delivered earnings and revenue surprises of +220.00% and -21.60%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?"
+    },
     {
       "headline": "Symbotic: I'm Keeping An Eye On Only One Financial Performance Metric (Earnings Preview)",
       "source": "SeekingAlpha",
@@ -68,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-12",
+  "data_asof": "2026-11-11",
   "price": {
-    "last": 35.44,
-    "open": 35.71,
-    "prev_close": 37.11,
-    "move_day_pct": -4.5,
-    "move_open_close_pct": -0.76,
-    "move_week_pct": 1.14
+    "last": 37.11,
+    "open": 38.26,
+    "prev_close": 37.62,
+    "move_day_pct": -1.36,
+    "move_open_close_pct": -3.01,
+    "move_week_pct": -1.07
   },
   "indicators": {
     "rsi14": {
-      "value": 38.1,
-      "read": "Oversold"
+      "value": 43.1,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": -1.22,
-      "signal": -1.16,
-      "hist": -0.061,
-      "hist_prev": 0.017,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -1.127,
+      "signal": -1.144,
+      "hist": 0.017,
+      "hist_prev": -0.013,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 41.15,
-      "lower": 35.06,
-      "mid": 38.1,
-      "pctb": 0.063,
-      "read": "Near the lower band"
+      "upper": 41.19,
+      "lower": 35.45,
+      "mid": 38.32,
+      "pctb": 0.289,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 1.14,
-      "read": "Sitting right at its 52-week low"
+      "value": 5.91,
+      "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -59.4,
-      "read": "59% below its 52-week high"
+      "value": -57.49,
+      "read": "57% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 46.95,
-      "pct": -24.52,
-      "read": "25% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 47.05,
+      "pct": -21.13,
+      "read": "21% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 2.13,
-      "pct_of_price": 6.01,
+      "value": 2.09,
+      "pct_of_price": 5.64,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.17,
+      "value": 0.62,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 38.1,
+      "value": 38.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 35.04,
   "high_52w": 87.3,
-  "ma50": 40.73,
-  "ma200": 46.95
+  "ma50": 40.82,
+  "ma200": 47.05
 }
