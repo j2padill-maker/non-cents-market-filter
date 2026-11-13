@@ -1665,7 +1665,7 @@ button.rank-stat.on { background:rgba(255,255,255,0.04); }
       </div>
       <span id="wl-to-label" style="font-size:11px;color:var(--text3);letter-spacing:0.06em;">TO</span>
       <select id="wl-target" class="wl-select" title="Which list to add this ticker to" onchange="wlSyncSharesField()"></select>
-      <select id="wl-sector" class="wl-select" title="Also track it on the screener under a sector" onfocus="trkFillSelect(this,'List only (no sector)')" onmousedown="trkFillSelect(this,'List only (no sector)')" ontouchstart="trkFillSelect(this,'List only (no sector)')" onchange="trkSectorChange('wl-sector','wl-newsector')"><option value="">List only (no sector)</option></select>
+      <select id="wl-sector" class="wl-select" title="Also track it on the screener. Auto picks the sector from the company profile." onfocus="trkFillSelect(this,'list')" onmousedown="trkFillSelect(this,'list')" ontouchstart="trkFillSelect(this,'list')" onchange="trkSectorChange('wl-sector','wl-newsector')"><option value="__auto" selected>Auto sector (track on screener)</option><option value="">List only (no sector)</option></select>
       <input id="wl-newsector" class="search-input" type="text" maxlength="40" placeholder="New sector name" style="width:170px;display:none;" autocomplete="off">
       <span id="wl-add-target-hint" style="display:none;font-size:11px;color:var(--text2);letter-spacing:0.04em;"></span>
       <input id="wl-shares" class="search-input" type="number" min="0" step="any" placeholder="Shares"
@@ -2102,6 +2102,9 @@ function symOnInput(){
    A sector name nobody else uses simply creates a new sector.
    ═══════════════════════════════════════════════════════════════════════ */
 const TRACK_PREFIX='Tracked · ';
+// Tickers whose sector the data job picks from the company's profile and its
+// similar companies (resolve_auto_sector in fetch_data.py).
+const TRACK_AUTO='(auto)';
 function trkIsReserved(name){return typeof name==='string'&&name.startsWith(TRACK_PREFIX);}
 function trkSplit(lists){
   const normal=[], tracked={};
@@ -2139,16 +2142,19 @@ function trkSet(t,sector){
 // Sectors offered in pickers: every sector on the screener plus your own.
 function trkSectors(){
   const set=new Set(allStocks.map(s=>s.sector).filter(x=>x&&x!==WATCHLIST_SECTOR));
-  Object.keys(wlData.tracked||{}).forEach(k=>set.add(k));
+  Object.keys(wlData.tracked||{}).forEach(k=>{if(k!==TRACK_AUTO)set.add(k);});
   return [...set].sort((a,b)=>a.localeCompare(b));
 }
-function trkOptionsHtml(firstLabel,selected){
-  return `<option value="">${wlEsc(firstLabel)}</option>`+trkSectors().map(x=>`<option value="${wlEsc(x)}"${x===selected?' selected':''}>${wlEsc(x)}</option>`).join('')+`<option value="__new"${selected==='__new'?' selected':''}>+ New sector…</option>`;
+// mode 'screener': Auto first. mode 'list': Auto, then List only.
+function trkOptionsHtml(mode,selected){
+  const head=`<option value="__auto"${selected==='__auto'?' selected':''}>Auto sector${mode==='list'?' (track on screener)':' (from company profile)'}</option>`
+    +(mode==='list'?`<option value=""${selected===''?' selected':''}>List only (no sector)</option>`:'');
+  return head+trkSectors().map(x=>`<option value="${wlEsc(x)}"${x===selected?' selected':''}>${wlEsc(x)}</option>`).join('')+`<option value="__new"${selected==='__new'?' selected':''}>+ New sector…</option>`;
 }
-function trkFillSelect(sel,firstLabel){
-  if(!sel) return; const v=sel.value;
-  sel.innerHTML=trkOptionsHtml(firstLabel,v);
-  if([...sel.options].some(o=>o.value===v)) sel.value=v;
+function trkFillSelect(sel,mode){
+  if(!sel) return; const v=sel.options.length?sel.value:'__auto';
+  sel.innerHTML=trkOptionsHtml(mode,v);
+  sel.value=[...sel.options].some(o=>o.value===v)?v:'__auto';
 }
 function trkSectorChange(selId,inpId){
   const sel=document.getElementById(selId), inp=document.getElementById(inpId);
@@ -2163,7 +2169,7 @@ function trkCheckSectorName(name){
   if(!name) return {error:'Type a name for the new sector.'};
   if(name.length<2||name.length>40) return {error:'Sector names must be 2–40 characters.'};
   if(!/^[A-Za-z0-9 &\-\/.,()']+$/.test(name)) return {error:'Use letters, numbers, spaces and & - / . , ( ) only.'};
-  if(name.toLowerCase()===WATCHLIST_SECTOR.toLowerCase()) return {error:'"Watchlist" is reserved — pick another name.'};
+  if(name.toLowerCase()===WATCHLIST_SECTOR.toLowerCase()||name.toLowerCase()===TRACK_AUTO||name.toLowerCase()==='auto') return {error:`"${name}" is reserved — pick another name.`};
   const match=trkSectors().find(x=>x.toLowerCase()===name.toLowerCase());
   return {name:match||name, isNew:!match};
 }
@@ -2174,6 +2180,7 @@ function trkReadPicker(t,selId,inpId){
   const core=!trkSectorOf(t)&&allStocks.find(s=>s.ticker===t&&s.sector!==WATCHLIST_SECTOR&&!s.user_added);
   if(core) return {note:`${t} is already tracked under ${core.sector}.`};
   if(!v) return {};
+  if(v==='__auto') return {sector:TRACK_AUTO,auto:true};
   if(v==='__new'){const r=trkCheckSectorName((document.getElementById(inpId)||{}).value);if(r.error) return {error:r.error};return {sector:r.name,isNew:r.isNew};}
   return {sector:v};
 }
@@ -2198,16 +2205,16 @@ function trkRender(){
         <input id="trk-input" class="search-input" type="text" placeholder="Ticker or company name" autocomplete="off"
           style="text-transform:uppercase;width:240px;" oninput="this.value=this.value.toUpperCase();trkOnInput()" onkeydown="if(event.key==='Enter')trkAdd()">
         <label for="trk-sector" style="position:absolute;left:-9999px;">Sector</label>
-        <select id="trk-sector" class="wl-select" onchange="trkSectorChange('trk-sector','trk-newsector')"></select>
+        <select id="trk-sector" class="wl-select" onchange="trkSectorChange('trk-sector','trk-newsector')"><option value="__auto" selected>Auto sector (from company profile)</option></select>
         <input id="trk-newsector" class="search-input" type="text" maxlength="40" placeholder="New sector name" style="width:180px;display:none;" autocomplete="off" onkeydown="if(event.key==='Enter')trkAdd()">
         <button type="button" class="btn-add" onclick="trkAdd()">+ ADD</button>
       </div>
       <div id="trk-suggest" style="margin-top:8px;"></div>
       <div id="trk-msg" class="trk-msg"></div>
       <div id="trk-mine" class="trk-mine"></div>
-      <p class="trk-note">The stock joins the screener and counts toward its sector's scores, the momentum map and the Downtrodden ranking. Full data arrives on the next data run. Pick "+ New sector…" when nothing fits.</p>`;
+      <p class="trk-note">Leave the sector on Auto and the data job picks it: first from similar companies already in your themed sectors (e.g. a nuclear stock lands in Nuclear Energy), otherwise from the company's industry. You can still pick a sector yourself. The stock then counts toward that sector's scores, the momentum map and Downtrodden. Full data arrives on the next data run.</p>`;
   }
-  trkFillSelect(document.getElementById('trk-sector'),'Choose sector…');
+  trkFillSelect(document.getElementById('trk-sector'),'screener');
   trkRenderMine();
 }
 function trkRenderMine(){
@@ -2216,8 +2223,11 @@ function trkRenderMine(){
   if(!all.length){el.innerHTML='';return;}
   el.innerHTML=`<div class="trk-mine-h">ADDED BY YOU (${all.length})</div><div class="trk-chips">${all.sort((a,b)=>a[1].localeCompare(b[1])||a[0].localeCompare(b[0])).map(([t,sec])=>{
     const live=allStocks.find(s=>s.ticker===t);
-    const st=!live?'pending next run':live.sector===sec?'live':'moves next run';
-    return `<span class="trk-chip"><strong>${wlEsc(t)}</strong><small>${wlEsc(sec)} · ${st}</small><button type="button" aria-label="Stop tracking ${wlEsc(t)}" title="Stop tracking" onclick="trkRemove('${wlEsc(t)}')">✕</button></span>`;}).join('')}</div>`;
+    const auto=sec===TRACK_AUTO;
+    const label=auto?(live&&live.user_added?`auto → ${live.sector}`:'auto sector'):sec;
+    const st=!live?'pending next run':(auto||live.sector===sec)?'live':'moves next run';
+    const tip=auto&&live&&live.sector_auto?` title="Why: ${wlEsc(live.sector_auto)}"`:'';
+    return `<span class="trk-chip"${tip}><strong>${wlEsc(t)}</strong><small>${wlEsc(label)} · ${st}</small><button type="button" aria-label="Stop tracking ${wlEsc(t)}" title="Stop tracking" onclick="trkRemove('${wlEsc(t)}')">✕</button></span>`;}).join('')}</div>`;
 }
 function trkOnInput(){
   if(symLoadState==='idle') symLoad();
@@ -2227,7 +2237,7 @@ function trkOnInput(){
   const t=wlNormTicker(raw);
   const core=allStocks.find(s=>s.ticker===t&&s.sector!==WATCHLIST_SECTOR);
   const mine=trkSectorOf(t);
-  if(mine){el.innerHTML=`<span style="color:var(--text2);font-size:11px;">${wlEsc(t)} is already added under <strong>${wlEsc(mine)}</strong>. Pick another sector to move it.</span>`;return;}
+  if(mine){el.innerHTML=`<span style="color:var(--text2);font-size:11px;">${wlEsc(t)} is already added under <strong>${wlEsc(mine===TRACK_AUTO?'Auto sector':mine)}</strong>. Pick another sector to move it.</span>`;return;}
   if(core){el.innerHTML=`<span style="color:var(--text2);font-size:11px;">${wlEsc(t)} is already tracked under <strong>${wlEsc(core.sector)}</strong>.</span>`;return;}
   if(symLoadState!=='ready'){el.innerHTML='';return;}
   const hit=symLookup(t);
@@ -2242,24 +2252,27 @@ function trkAdd(){
   if(!t){trkMsg('Enter a ticker or pick one from the suggestions.');return;}
   if(t.length>8){trkMsg('Ticker seems too long — check the symbol.');return;}
   const sel=document.getElementById('trk-sector');
-  if(!sel||!sel.value){trkMsg('Choose a sector, or "+ New sector…".');return;}
+  if(sel&&!sel.value) sel.value='__auto';
   const r=trkReadPicker(t,'trk-sector','trk-newsector');
   if(r.error){trkMsg(r.error);return;}
   if(r.note){trkMsg(r.note);return;}
   const prev=trkSectorOf(t);
-  if(prev===r.sector){trkMsg(`${t} is already added under ${r.sector}.`);return;}
+  const nice=x=>x===TRACK_AUTO?'Auto sector':x;
+  if(prev===r.sector){trkMsg(`${t} is already added under ${nice(r.sector)}.`);return;}
   trkSet(t,r.sector); wlSave();
   const hit=symLookup(t); const label=hit?`${t} (${hit.name})`:t;
-  trkMsg((prev?`${t} moved from ${prev} to ${r.sector}.`:`${label} added under ${r.sector}${r.isNew?' (new sector)':''}. Full data arrives on the next data run.`)
+  trkMsg((prev?`${t} moved from ${nice(prev)} to ${nice(r.sector)}.`
+    :r.auto?`${label} added. Its sector is picked from its company profile on the next data run.`
+    :`${label} added under ${r.sector}${r.isNew?' (new sector)':''}. Full data arrives on the next data run.`)
     +(symLoadState==='ready'&&!hit?' It is not in the symbol index, so it may return no data.':'')+trkSyncWarning(),!trkSyncWarning());
   inp.value=''; const ns=document.getElementById('trk-newsector'); if(ns){ns.value='';ns.style.display='none';}
   document.getElementById('trk-suggest').innerHTML='';
-  trkFillSelect(sel,'Choose sector…'); sel.value='';
+  trkFillSelect(sel,'screener'); sel.value='__auto';
   trkRenderMine();
 }
 function trkRemove(t){
   const sec=trkSectorOf(t); if(!sec) return;
-  if(!confirm(`Stop tracking ${t} under ${sec}? It leaves the screener on the next data run (unless it is on one of your lists).`)) return;
+  if(!confirm(`Stop tracking ${t}${sec===TRACK_AUTO?'':' under '+sec}? It leaves the screener on the next data run (unless it is on one of your lists).`)) return;
   const tr=wlData.tracked; tr[sec]=tr[sec].filter(x=>x!==t); if(!tr[sec].length) delete tr[sec];
   wlSave(); trkMsg(`${t} removed. It drops off on the next data run.`,true); trkRenderMine();
 }
@@ -2890,10 +2903,11 @@ function wlAdd(){
   else                          wlMsg(t + ' added, but it is not in the symbol index — it may return no data.');
   {
     const el = document.getElementById('wl-msg');
-    if (el && trk.sector) el.textContent += ' Tracked on the screener under ' + trk.sector + '.' + trkSyncWarning();
+    if (el && trk.auto) el.textContent += ' Tracked on the screener; its sector is picked automatically on the next data run.' + trkSyncWarning();
+    else if (el && trk.sector) el.textContent += ' Tracked on the screener under ' + trk.sector + '.' + trkSyncWarning();
     else if (el && trk.note) el.textContent += ' ' + trk.note;
     const sec = document.getElementById('wl-sector'), ns = document.getElementById('wl-newsector');
-    if (trk.sector && sec) { trkFillSelect(sec, 'List only (no sector)'); sec.value = ''; }
+    if (trk.sector && sec) { trkFillSelect(sec, 'list'); sec.value = '__auto'; }
     if (ns) { ns.value = ''; ns.style.display = 'none'; }
     trkRenderMine();
   }

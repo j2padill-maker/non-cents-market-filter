@@ -159,6 +159,9 @@ SYNC_CONFIG_FILE = "data/sync-config.json"
 # each ticker joins the tracked universe under that sector (a new sector name
 # simply creates the sector). Keep in sync with TRACK_PREFIX in index.html.
 TRACK_PREFIX = "Tracked · "
+# "Tracked · (auto)" holds tickers whose sector the data job picks itself
+# (see resolve_auto_sector). Keep in sync with TRACK_AUTO in index.html.
+AUTO_SECTOR = "(auto)"
 
 
 def fetch_watchlist_from_sync():
@@ -275,7 +278,8 @@ def load_watchlist():
             if sector and sector != WATCHLIST_SECTOR:
                 for raw in (entry.get("tickers") or []):
                     t = normalize_ticker(raw)
-                    if t:
+                    # A sector you picked by hand beats "(auto)" if both exist.
+                    if t and not (sector == AUTO_SECTOR and t in tracked):
                         tracked[t] = sector
             continue
         tickers = []
@@ -947,6 +951,55 @@ def build_sector_summaries(stocks):
     summaries.sort(key=lambda x: x["downtrodden_score"], reverse=True)
     return summaries
 
+# ── AUTO SECTOR ──────────────────────────────────────────────────────────────
+
+def industry_to_sector_map(index_rows, fund_cache):
+    """
+    Finnhub industry -> sector, learned from our own data: for every index
+    stock we know both its GICS sector (universe.json) and its Finnhub industry
+    (fundamentals cache), so each industry maps to the sector most of its
+    stocks are in ("Semiconductors" -> Information Technology, "Machinery" ->
+    Industrials). No hand-made table to keep up to date.
+    """
+    from collections import Counter
+    gics = {r["ticker"]: r.get("sector") for r in (index_rows or [])}
+    votes = {}
+    for t, entry in (fund_cache or {}).items():
+        ind = ((entry or {}).get("profile") or {}).get("finnhubIndustry")
+        sec = gics.get(t)
+        if ind and sec:
+            votes.setdefault(ind, Counter())[sec] += 1
+    return {ind: c.most_common(1)[0][0] for ind, c in votes.items()}
+
+
+def resolve_auto_sector(ticker, seen, themed, industry_map, fund_cache):
+    """
+    Pick a sector for a ticker added from the app with "Auto".
+      1) Peers: Finnhub's list of similar companies. If 2+ of them sit in one
+         of your themed sectors (Nuclear Energy, Drones, ...), use that — the
+         themed sectors are what an industry code can't see.
+      2) Industry: map its Finnhub industry to a sector (industry_to_sector_map).
+      3) An industry no index stock shares becomes its own sector name.
+    Returns (sector, reason).
+    """
+    from collections import Counter
+    peers = finnhub_get("/stock/peers", {"symbol": ticker}) or []
+    if isinstance(peers, list):
+        hits = Counter(seen[p] for p in peers
+                       if isinstance(p, str) and p != ticker and p in themed)
+        if hits:
+            sec, n = hits.most_common(1)[0]
+            if n >= 2:
+                return sec, f"{n} similar companies are in {sec}"
+    prof = ((fund_cache.get(ticker) or {}).get("profile")) or (get_company_profile(ticker) or {})
+    ind = (prof or {}).get("finnhubIndustry")
+    if ind and ind in industry_map:
+        return industry_map[ind], f"industry: {ind}"
+    if ind:
+        return str(ind)[:40], f"industry: {ind} (no matching sector, so it gets its own)"
+    return "Other", "no company profile found"
+
+
 # ── MAIN ──────────────────────────────────────────────────────────────────────
 
 def main():
@@ -1010,10 +1063,19 @@ def main():
     #     the index GICS label (you chose it on purpose) and, like themed names,
     #     are exempt from the liquidity floor. A themed sector still wins.
     user_added = set()
+    auto_reason = {}
+    if any(sec == AUTO_SECTOR for sec in tracked.values()):
+        _fc = load_fund_cache()
+        _imap = industry_to_sector_map(index_rows, _fc)
     for t, sector in tracked.items():
-        if t not in seen:
-            seen[t] = sector
-            user_added.add(t)
+        if t in seen:
+            continue
+        if sector == AUTO_SECTOR:
+            sector, why = resolve_auto_sector(t, seen, themed, _imap, _fc)
+            auto_reason[t] = why
+            print(f"  auto sector: {t} -> {sector} ({why})")
+        seen[t] = sector
+        user_added.add(t)
     if user_added:
         print(f"  + {len(user_added)} ticker(s) added from the app: "
               f"{', '.join(sorted(user_added))}")
@@ -1070,6 +1132,8 @@ def main():
                 record["watchlists"] = ticker_to_lists.get(ticker, [])
                 if ticker in user_added:
                     record["user_added"] = True
+                    if ticker in auto_reason:
+                        record["sector_auto"] = auto_reason[ticker]
                 results.append(record)
                 rsi_str = f"RSI:{record['rsi14']}" if record.get('rsi14') else "RSI:—"
                 low_str = f"52wL:${record['low_52w']}" if record.get('low_52w') else "52wL:—"
