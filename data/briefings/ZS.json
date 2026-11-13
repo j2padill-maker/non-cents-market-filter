@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-11T20:01:15.103202-08:00",
+  "generated_at": "2026-11-12T16:50:23.262814-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Zscaler: A Stock Left Behind",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=e893e490cabf41980b7d720132c1bf464166574957e582d37c93968a76b4492e",
+      "datetime": 1794472582,
+      "summary": "Zscaler is rated a buy with undervaluation and low expectations supporting more upside ahead. Click here to read an analysis of ZS stock now."
+    },
     {
       "headline": "How Big Could Cloudflare Stock's Next Fall Be?",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=6f7047bf5bf9a3bcaa42ba0eae10ae9062de5a30751aaddf7c7dc2111790d986",
       "datetime": 1794328778,
       "summary": "Key TakeawaysAlex Stamos, Facebook\u2019s former security chief, says AI is driving the cost of cyberattacks toward zero while defense stays expensive. He said it after a record $6."
-    },
-    {
-      "headline": "Cloudflare Is Up 11% in a Week. Is Its \u201cEven Higher Gear\u201d Really That Good?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=1c2da0eea2c2b4feb5b42c0c6b3b6a61b90f95813ef7806cf572edb9b5bf0373",
-      "datetime": 1794317721,
-      "summary": "Key TakeawaysCloudflare is up 11% in a week after third-quarter revenue rose 39% to $782. 5 million and its guidance beat estimates."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-11",
+  "data_asof": "2026-11-12",
   "price": {
-    "last": 193.79,
-    "open": 201.0,
-    "prev_close": 194.92,
-    "move_day_pct": -0.58,
-    "move_open_close_pct": -3.58,
-    "move_week_pct": -13.65
+    "last": 193.22,
+    "open": 188.55,
+    "prev_close": 193.79,
+    "move_day_pct": -0.3,
+    "move_open_close_pct": 2.48,
+    "move_week_pct": -5.23
   },
   "indicators": {
     "rsi14": {
-      "value": 36.2,
+      "value": 36.0,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -3.756,
-      "signal": 3.151,
-      "hist": -6.907,
-      "hist_prev": -6.981,
+      "macd": -5.054,
+      "signal": 1.51,
+      "hist": -6.564,
+      "hist_prev": -6.907,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 268.96,
-      "lower": 181.41,
-      "mid": 225.19,
-      "pctb": 0.141,
+      "upper": 269.75,
+      "lower": 177.9,
+      "mid": 223.83,
+      "pctb": 0.167,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 64.16,
+      "value": 63.68,
       "read": "64% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -41.5,
-      "read": "42% below its 52-week high"
+      "value": -39.06,
+      "read": "39% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 166.72,
-      "pct": 16.24,
+      "ma200": 166.61,
+      "pct": 15.97,
       "read": "16% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 12.45,
-      "pct_of_price": 6.43,
+      "value": 12.26,
+      "pct_of_price": 6.35,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.69,
+      "value": 0.68,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 39.9,
+      "value": 29.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 118.05,
-  "high_52w": 331.29,
-  "ma50": 208.75,
-  "ma200": 166.72
+  "high_52w": 317.08,
+  "ma50": 209.16,
+  "ma200": 166.61
 }

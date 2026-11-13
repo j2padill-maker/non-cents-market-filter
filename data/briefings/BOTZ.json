@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-11T20:01:12.975496-08:00",
+  "generated_at": "2026-11-12T16:50:20.660788-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Central Banks Tighten Into The AI Boom, But Late '90s History Says Real Rates Matter Most",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=0ee8d357c3ec41b90a70b1ae1bc132cb79f43b675a3d612759e59951b83a68d8",
+      "datetime": 1794469800,
+      "summary": "The world's major central banks are tightening into an AI boom. Does that end it? Read more here..."
+    },
     {
       "headline": "The AI Trade Deconstructed: AI Builders, AI Suppliers And AI Product Firms",
       "source": "SeekingAlpha",
@@ -50,76 +57,69 @@
       "url": "https://finnhub.io/api/news?id=c427d1a41f061fcd7292335b65438075a8b0ab4e683ce8177b4361d2b5643290",
       "datetime": 1794285900,
       "summary": "Lower oil gave stocks and gold a reason to rally, while Bitcoin traded like a risk asset that is losing buyers. Read more here."
-    },
-    {
-      "headline": "What Midterm Results Mean For Policy And Data Center Risk",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=2078713fe9e28dca3a0d5566858acadf81d24a7ccb948993c735aa2a948650ad",
-      "datetime": 1794285600,
-      "summary": "A divided government makes major federal policy changes unlikely. The election leaves our broad market outlook unchanged, while adding political and execution risks to watch into 2027."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-11",
+  "data_asof": "2026-11-12",
   "price": {
-    "last": 32.23,
-    "open": 32.25,
-    "prev_close": 31.57,
-    "move_day_pct": 2.09,
-    "move_open_close_pct": -0.06,
-    "move_week_pct": -1.77
+    "last": 31.42,
+    "open": 31.39,
+    "prev_close": 32.23,
+    "move_day_pct": -2.51,
+    "move_open_close_pct": 0.1,
+    "move_week_pct": 2.55
   },
   "indicators": {
     "rsi14": {
-      "value": 43.9,
-      "read": "Neutral"
+      "value": 39.4,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -0.802,
-      "signal": -0.768,
-      "hist": -0.034,
-      "hist_prev": -0.105,
+      "macd": -0.808,
+      "signal": -0.776,
+      "hist": -0.032,
+      "hist_prev": -0.034,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 34.5,
-      "lower": 30.91,
-      "mid": 32.7,
-      "pctb": 0.368,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 34.4,
+      "lower": 30.78,
+      "mid": 32.59,
+      "pctb": 0.178,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 5.19,
-      "read": "Just off its 52-week low"
+      "value": 2.55,
+      "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -22.54,
-      "read": "23% below its 52-week high"
+      "value": -24.49,
+      "read": "24% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 36.34,
-      "pct": -11.31,
-      "read": "11% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 36.3,
+      "pct": -13.44,
+      "read": "13% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.76,
-      "pct_of_price": 2.37,
+      "value": 0.78,
+      "pct_of_price": 2.47,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.8,
+      "value": 0.83,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 50.3,
+      "value": 44.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 30.64,
   "high_52w": 41.61,
-  "ma50": 34.27,
-  "ma200": 36.34
+  "ma50": 34.19,
+  "ma200": 36.3
 }

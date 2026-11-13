@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-11T20:01:01.900637-08:00",
+  "generated_at": "2026-11-12T16:50:08.625115-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "Zeta Q3: Just Let Your Winners Run",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=36d7cc6c1d66b9ce2b260dc5463b18ce2306399a32388e03f3c520a58df04c68",
+      "datetime": 1794508318,
+      "summary": "Zeta Global Holdings Corp. is rated a Buy with a raised $70 target as Q3 FY26 revenue grew 46% for its 21st straight beat-and-raise quarter."
+    },
+    {
+      "headline": "Palantir\u2019s Growth Story Could Be Just Getting Started",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e131fb867fdb6fcb81600962a8fefd5f44cc85f901e0d679dd7e431489db705f",
+      "datetime": 1794501215,
+      "summary": "Palantir just posted the fastest growth in its public history, yet shares dropped over 20% in a week. Behind the selloff sit a puzzling bookings number, rising dilution, and a valuation that leaves no room for error."
+    },
+    {
+      "headline": "Palo Alto Networks Heads 3 Top Cybersecurity Stocks To Watch",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f45949dc59c7b681c564010e251c95fd5941b60dbba665ff098a9f10ae7c2c8e",
+      "datetime": 1794496283,
+      "summary": "Cybersecurity quietly became front-page business news when AI firms started hiring former intelligence officers to guard against espionage and data theft. That shift highlights how protecting critical information is moving from a technical concern to a boardroom priority. For investors, this raises interest in companies that secure networks and data worldwide. This article breaks down three stocks"
+    },
+    {
+      "headline": "Rocket Companies Appoints Datadog COO Adam Blitzer to Board of Directors",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=1318b6a9402f2c622bc0c2902ab2d84744754e1be40582b87b4cd65d051fdbb9",
+      "datetime": 1794492000,
+      "summary": "Rocket Companies (NYSE: RKT), the Detroit-based homeownership platform, today announced the appointment of Adam Blitzer, Chief Operating Officer of Datadog, as an independent director to its Board of Directors."
+    },
+    {
+      "headline": "Palantir Grew Revenue 96%. Its Stock Fell 7% Because Bookings Rose Just 6%",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=0aac333cccf49ba1cf7cf9c73348a8d254070283fba21e06ea3f23d106ac8983",
+      "datetime": 1794458036,
+      "summary": "Key TakeawaysPalantir\u2019s third-quarter revenue rose 96% to $2. 313 billion, beating the $2."
+    },
+    {
       "headline": "What Are Datadog Investors Betting On?",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=af6fcf47e8dd321907d459b098081648527e0e790dc7edd06cde212875a4f59a",
       "datetime": 1794443185,
       "summary": "For questions about this article or underlying research, email help@trefis.com."
-    },
-    {
-      "headline": "Datadog to Present at Upcoming Investor Conferences",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=63532972218a5c00daea4f6ad111d5336b71646f6b0ccae28ba33a446ad95f53",
-      "datetime": 1794431100,
-      "summary": "NEW YORK, Nov. 11, 2026 (GLOBE NEWSWIRE) -- Datadog, Inc. (NASDAQ:DDOG), the leading AI-powered observability and security platform, today announced that management will present at the following investor conferences: The RBC Global TIMT Conference. The presentation is scheduled for Wednesday, November 18, 2026, at 10:40 a.m. ET.The UBS Global Technology and AI Conference. The presentation is sched"
-    },
-    {
-      "headline": "Is It Worth Investing in Datadog (DDOG) Based on Wall Street's Bullish Views?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2e8c77cd2d7e9026877898988ff0d5a8d63f79aaae5c59da405654687447da27",
-      "datetime": 1794428563,
-      "summary": "Based on the average brokerage recommendation (ABR), Datadog (DDOG) should be added to one's portfolio. Wall Street analysts' overly optimistic recommendations cast doubt on the effectiveness of this highly sought-after metric. So, is the stock worth buying?"
-    },
-    {
-      "headline": "Down 37% in 4 Weeks, Here's Why Datadog (DDOG) Looks Ripe for a Turnaround",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3f5d00587d29fa97505247c3338782622cc97dced1469450e4309db6f8ae895b",
-      "datetime": 1794428150,
-      "summary": "The heavy selling pressure might have exhausted for Datadog (DDOG) as it is technically in oversold territory now. In addition to this technical measure, strong agreement among Wall Street analysts in revising earnings estimates higher indicates that the stock is ripe for a trend reversal."
-    },
-    {
-      "headline": "Datadog vs. Fastly: Which Cloud Tech Stock Is a Better Buy for 2027?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0dfaf86b60ed99f0b062316711887c5ae35bc025ba8c6ffe19141f19866706a3",
-      "datetime": 1794424802,
-      "summary": "Datadog's revenue grew nearly 28% in FY 2025, while Fastly still posted a net loss, but one valuation gap may matter more than either growth or losses."
-    },
-    {
-      "headline": "What Datadog Holders Saw Early",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7d4122cb509d8ce387602982ba59153669e9a33f18fc3a3a8214287dbbdc24b2",
-      "datetime": 1794413552,
-      "summary": "If you only glanced at Datadog headlines this year, the sharp selloffs after cautious guidance might stick in your mind more than the blockbuster AI wins. Holding Datadog from the start of the year would have returned 33.4%, including dividends. If you were weighing the bullish US$160 and bearish US$105 fair value views back in January, what in that early record could have helped you judge whether"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-11",
+  "data_asof": "2026-11-12",
   "price": {
-    "last": 184.38,
-    "open": 185.15,
-    "prev_close": 178.4,
-    "move_day_pct": 3.35,
-    "move_open_close_pct": -0.42,
-    "move_week_pct": -2.3
+    "last": 184.46,
+    "open": 178.7,
+    "prev_close": 184.38,
+    "move_day_pct": 0.04,
+    "move_open_close_pct": 3.22,
+    "move_week_pct": 5.65
   },
   "indicators": {
     "rsi14": {
-      "value": 31.5,
+      "value": 31.6,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -22.199,
-      "signal": -13.849,
-      "hist": -8.35,
-      "hist_prev": -9.92,
+      "macd": -22.345,
+      "signal": -15.548,
+      "hist": -6.797,
+      "hist_prev": -8.35,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 312.98,
-      "lower": 156.28,
-      "mid": 234.63,
-      "pctb": 0.179,
-      "read": "Near the lower band"
+      "upper": 310.39,
+      "lower": 150.69,
+      "mid": 230.54,
+      "pctb": 0.211,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 79.68,
+      "value": 79.76,
       "read": "80% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -37.13,
+      "value": -37.1,
       "read": "37% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 200.86,
-      "pct": -8.2,
+      "ma200": 201.08,
+      "pct": -8.27,
       "read": "8% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 15.11,
-      "pct_of_price": 8.19,
+      "value": 14.75,
+      "pct_of_price": 8.0,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.92,
+      "value": 0.75,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 29.8,
+      "value": 26.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 293.26,
-  "ma50": 244.64,
-  "ma200": 200.86
+  "ma50": 244.14,
+  "ma200": 201.08
 }

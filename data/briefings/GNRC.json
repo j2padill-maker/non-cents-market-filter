@@ -2,7 +2,7 @@
   "ticker": "GNRC",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-11T20:01:04.762087-08:00",
+  "generated_at": "2026-11-12T16:50:11.925954-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "ZBRA Exhibits Strong Prospects Despite Persisting Headwinds",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=660b413339e3eff27a5fd55b83821b641e4d7d9bdd7b14474be9d983cf9c216d",
+      "datetime": 1794494640,
+      "summary": "Zebra Technologies benefits from strong segment growth, acquisitions and share buybacks, but rising costs and geopolitical risks pose challenges."
+    },
+    {
+      "headline": "Xylem Acquires Cornell Pump and Roper Pump to Expand Portfolio",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7337d927aa94facb207d1fd8d91b68487517d37049c9a21e397c0bc6d4e9ee7e",
+      "datetime": 1794494160,
+      "summary": "XYL expands its engineered pumping technologies portfolio with Cornell Pump and Roper Pump acquisitions, targeting industrial and municipal markets."
+    },
     {
       "headline": "Generac: 3 Key Takeaways for Long-Term Investors",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=f17d401fae34a1d9ee203ac968a63655755792f5520d52d6ee6c97e343e3b847",
       "datetime": 1794317761,
       "summary": "S&P 500 premarket losers include GEV, CAT, VRT, COHR, BE, GNRC, LITE, MRVL, CIEN and INTC, each down after gains in yesterday's session."
-    },
-    {
-      "headline": "Generac Encourages Homeowners to Prepare for an Unpredictable and Potentially Historic El Ni\u00f1o Winter",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4a4fc3b4fe91d744b8cedf34694e6ca80eee0ade9b1224208e9eaed6c45d92c0",
-      "datetime": 1794312000,
-      "summary": "Generac Holdings Inc. (NYSE: GNRC), a leading global designer, manufacturer and provider of energy technology solutions and other power products, is encouraging homeowners to prepare for unpredictable winter weather and potential outages caused by snow, ice, wind and extreme cold. The company's new 2026 Winter Weather Preparedness Guide answers practical questions about preparing homes for winter "
-    },
-    {
-      "headline": "Renewable Energy & Battery Stocks to Buy as Blue Wave Sweeps US Congress",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9a8775de03c79b681411ecda0250c44272ad24cf863ae8d270fff9143186d1f7",
-      "datetime": 1794228660,
-      "summary": "A Democratic takeover of Congress could boost clean energy policy support, while rising AI power demand creates opportunities for four stocks."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-11",
+  "data_asof": "2026-11-12",
   "price": {
-    "last": 194.0,
-    "open": 189.82,
-    "prev_close": 181.78,
-    "move_day_pct": 6.72,
-    "move_open_close_pct": 2.2,
-    "move_week_pct": 2.47
+    "last": 192.88,
+    "open": 188.62,
+    "prev_close": 194.0,
+    "move_day_pct": -0.58,
+    "move_open_close_pct": 2.26,
+    "move_week_pct": 11.92
   },
   "indicators": {
     "rsi14": {
-      "value": 49.3,
+      "value": 48.8,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -4.494,
-      "signal": -3.717,
-      "hist": -0.777,
-      "hist_prev": -1.675,
+      "macd": -3.981,
+      "signal": -3.77,
+      "hist": -0.211,
+      "hist_prev": -0.777,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 210.78,
-      "lower": 174.92,
-      "mid": 192.85,
-      "pctb": 0.532,
+      "upper": 210.32,
+      "lower": 174.82,
+      "mid": 192.57,
+      "pctb": 0.509,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 42.26,
-      "read": "42% above its 52-week low"
+      "value": 41.44,
+      "read": "41% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -34.36,
-      "read": "34% below its 52-week high"
+      "value": -34.74,
+      "read": "35% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 219.34,
-      "pct": -11.55,
+      "ma200": 219.44,
+      "pct": -12.1,
       "read": "12% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 12.38,
-      "pct_of_price": 6.38,
+      "value": 12.17,
+      "pct_of_price": 6.31,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.69,
+      "value": 0.66,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 57.9,
+      "value": 62.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 136.37,
   "high_52w": 295.54,
-  "ma50": 198.02,
-  "ma200": 219.34
+  "ma50": 198.27,
+  "ma200": 219.44
 }

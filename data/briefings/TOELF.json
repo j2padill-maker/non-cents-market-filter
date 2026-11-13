@@ -2,7 +2,7 @@
   "ticker": "TOELF",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-11T20:01:00.924123-08:00",
+  "generated_at": "2026-11-12T16:50:07.597516-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -22,27 +22,20 @@
       "url": "https://finnhub.io/api/news?id=0ae706b0584b0bc2ccce2ece51ee28315a968745b83328e3b93485db53c3533e",
       "datetime": 1794282261,
       "summary": "HONG KONG (AP) \u2014 Asian stocks advanced Tuesday after U. stocks rallied, recovering most of their big losses from last week."
-    },
-    {
-      "headline": "Shares advance after Wall Street rally following US midterm elections",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=dea3d444261ce3eb59972a8d34c2728f12721a71ab4451fd064b44e1e31f3a90",
-      "datetime": 1793868865,
-      "summary": "Ahead of the European markets opening, Asian shares mostly gained on Thursday after US stocks rallied following the midterm elections, with the Dow Jones Industrial Average jumping more than 3% after President Donald Trump\u2019s party lost its sole control of Washington.View on euronews"
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-11",
+  "data_asof": "2026-11-12",
   "price": {
-    "last": 59.55,
-    "open": 59.0,
-    "prev_close": 55.74,
-    "move_day_pct": 6.84,
-    "move_open_close_pct": 0.93,
-    "move_week_pct": -3.66
+    "last": 59.49,
+    "open": 58.5,
+    "prev_close": 59.56,
+    "move_day_pct": -0.12,
+    "move_open_close_pct": 1.69,
+    "move_week_pct": 20.13
   },
   "indicators": {
     "rsi14": {
@@ -50,48 +43,48 @@
       "read": "Neutral"
     },
     "macd": {
-      "macd": -3.424,
-      "signal": -3.212,
-      "hist": -0.212,
-      "hist_prev": -0.585,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -3.138,
+      "signal": -3.197,
+      "hist": 0.059,
+      "hist_prev": -0.211,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 69.19,
-      "lower": 52.42,
-      "mid": 60.81,
-      "pctb": 0.425,
+      "upper": 68.2,
+      "lower": 52.61,
+      "mid": 60.4,
+      "pctb": 0.441,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 61.84,
+      "value": 61.68,
       "read": "62% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -37.85,
+      "value": -37.91,
       "read": "38% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 64.33,
-      "pct": -7.43,
-      "read": "7% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 64.36,
+      "pct": -7.57,
+      "read": "8% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 4.37,
-      "pct_of_price": 7.34,
+      "value": 4.14,
+      "pct_of_price": 6.95,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.04,
+      "value": 0.02,
       "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 55.8,
+      "value": 64.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 36.79,
   "high_52w": 95.82,
-  "ma50": 66.99,
-  "ma200": 64.33
+  "ma50": 66.83,
+  "ma200": 64.36
 }

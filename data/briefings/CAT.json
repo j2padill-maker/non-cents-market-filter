@@ -2,7 +2,7 @@
   "ticker": "CAT",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-11T20:01:20.727915-08:00",
+  "generated_at": "2026-11-12T16:50:29.760302-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Caterpillar (CAT) Stock Looks Like A Bargain On Its 222% Run",
+      "headline": "How Much Downside Is Left In Caterpillar Stock?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d302d2e4631425345b13826ce63c4362e128ecd88e8ea2ae1a2d35edb1014bf3",
-      "datetime": 1794438875,
-      "summary": "Caterpillar has climbed sharply over the past few years and now trades at US$601.61, which naturally raises a simple question for anyone looking at the ticker today. Is that price still anchored in what the business can earn in cash terms, or has the share move run ahead of the company\u2019s underlying cash flows? Over 5 years the stock has returned 222.0%, so a lot of future cash generation already h"
-    },
-    {
-      "headline": "Michael Burry just made a big move on Caterpillar stock",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b9831ad92324da73b6d2962e47c841fc1eeb74c34225163f0a52901676ab6a4c",
-      "datetime": 1794438420,
-      "summary": "Caterpillar\u2019s worst week in over a year handed Burry a payday. He isn\u2019t walking away from the trade just yet."
-    },
-    {
-      "headline": "Can Caterpillar Stock Hit $820?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e5e427969b3cb7eeb4a02500c81e0bd9572b25604bceb6d2a1368cf21e970733",
-      "datetime": 1794433467,
+      "url": "https://finnhub.io/api/news?id=44a02afc22c9a0b25bb5abf74fa56e339f989db887ca74f8df337d9429ca3d8d",
+      "datetime": 1794518997,
       "summary": "For questions about this article or underlying research, email help@trefis.com."
     },
     {
-      "headline": "Dow Jones Top Gainers for Nov. 11, 2026 US Session",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=52010dd848c4a06a44129ee77efe056791a7e08544d2f8547f7b9dcfa4e80d84",
-      "datetime": 1794427848,
-      "summary": "Dow Jones top gainers for Nov. 11, 2026: NVDA rose 4.06%, CSCO 3.6%, CAT 3.37%, GOOGL 2.47% and GS 2.09% during the US session."
-    },
-    {
-      "headline": "Caterpillar faces further valuation risks despite machinery strength, Bank of America warns",
+      "headline": "3 Legacy Industrial Dividend Stocks That Never Go Out of Style",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8fc582a11c0678b8eacf72afb144c9b4ca29af3b59dcd20dacd960d3351fedd5",
-      "datetime": 1794423600,
-      "summary": "Bank of America has maintained its 'buy' rating on Caterpillar Inc (NYSE:CAT, XETRA:CAT) despite warning that its valuation could fall further as uncertainty over data centre investment persists. The bank noted that Caterpillar's valuation multiple had fallen from 30 times earnings to 17..."
+      "url": "https://finnhub.io/api/news?id=801aa827850817c1df3cb8f49e92c20a4a5c8f2e48016d327a873bd9eae7866a",
+      "datetime": 1794500389,
+      "summary": "Two recessions and a pandemic could not stop these three industrial giants from paying shareholders. Each one also hides a risk retirees should weigh before counting on the next raise, and one stock has already tumbled 24% in a month."
     },
     {
-      "headline": "Dow Jones Gainers in Today's US Session",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=c581ca49a8f48a031b7f53656bc4346ad6eafbeb7cb5584b7499369291f77823",
-      "datetime": 1794418864,
-      "summary": "Dow Jones top gainers in today's US session included NVIDIA, Cisco, Caterpillar, Goldman Sachs, Alphabet and Salesforce, with NVDA up 4.27%."
+      "headline": "3 Autonomous Vehicle Stocks With Earnings Growth Up To 38%",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=70befcfbbbaf12ab6b8f2c7928dbf0e7771a560da819c7c1fed35a56fc3b246b",
+      "datetime": 1794499999,
+      "summary": "Oil supply shocks through the Strait of Hormuz have pushed electrification back into the spotlight. Suddenly, anything that reduces dependence on fuel looks less like a niche story and more like a hedge against energy volatility. That is where companies tied to electric and self driving vehicles come in. This article walks through three stocks from this theme so you can decide whether they deserve"
+    },
+    {
+      "headline": "Global Landscape Attachments and Implements Market Report 2026: Size, Trends, and Forecast to 2030 | Deere, Caterpillar, Kubota, and Bobcat Capitalize on Smart Quick-Attach Demand",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=401a5d81797285971f084b65597189b4aa12210ad2e029d9775ec04ef7c07557",
+      "datetime": 1794492720,
+      "summary": "Players: Deere & Company, Caterpillar, Kubota, Bobcat and Husqvarna. Profiles cover landscape equipment offerings, innovations, growth drivers, trends and regional activity.Dublin, Nov. 12, 2026 (GLOBE NEWSWIRE) -- \"Landscape Attachments and Implements Market Report 2026\" has been added to ResearchAndMarkets.com's offering. The global landscape attachments and implements market is experiencing str"
+    },
+    {
+      "headline": "Industry Leaders Reflect on Engines\u2019 Role in Building America and Powering the Future During \"Engines Power America at 250\" Webinar",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8ebdf432c75f997bcd1189eba23681baf19260d713e425a7e0b71f5c12827da5",
+      "datetime": 1794490800,
+      "summary": "Washington, DC, Nov. 12, 2026 (GLOBE NEWSWIRE) -- The Engine Technology Forum recently hosted a special webinar, \"Engines Power America at 250,\" bringing together senior leaders from some of the nation's foremost engine, equipment, and transportation companies to discuss how internal combustion engines helped build America and how advanced engine technologies will continue to support the country's"
+    },
+    {
+      "headline": "EnerSys And 2 Other Top Autonomous Vehicle Stocks",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=62b78bcce67b58983dd3231f878e9ec86d7de01918f55b064cad5fe7edf6e454",
+      "datetime": 1794488985,
+      "summary": "The Strait of Hormuz shock in 2026 has pushed energy security back into the spotlight. Oil flows turned fragile, and attention shifted to transport that relies less on fuel that can be choked off by a single shipping lane. That is where electric and self-driving vehicle companies come in. This article walks through three US stocks from our cleaner transport screener that aim to benefit from this l"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-11",
+  "data_asof": "2026-11-12",
   "price": {
-    "last": 601.61,
-    "open": 600.7,
-    "prev_close": 584.57,
-    "move_day_pct": 2.91,
-    "move_open_close_pct": 0.15,
-    "move_week_pct": 1.74
+    "last": 605.28,
+    "open": 592.91,
+    "prev_close": 601.61,
+    "move_day_pct": 0.61,
+    "move_open_close_pct": 2.09,
+    "move_week_pct": 9.33
   },
   "indicators": {
     "rsi14": {
-      "value": 35.5,
+      "value": 36.4,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -52.15,
-      "signal": -48.548,
-      "hist": -3.602,
-      "hist_prev": -6.947,
+      "macd": -49.347,
+      "signal": -48.708,
+      "hist": -0.639,
+      "hist_prev": -3.602,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 782.26,
-      "lower": 532.93,
-      "mid": 657.59,
-      "pctb": 0.275,
+      "upper": 772.65,
+      "lower": 529.68,
+      "mid": 651.16,
+      "pctb": 0.311,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 11.1,
+      "value": 11.77,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -43.27,
+      "value": -42.92,
       "read": "43% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 804.84,
-      "pct": -25.25,
+      "ma200": 804.67,
+      "pct": -24.78,
       "read": "25% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 30.17,
-      "pct_of_price": 5.01,
+      "value": 29.64,
+      "pct_of_price": 4.9,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.05,
+      "value": 0.72,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 32.7,
+      "value": 37.2,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 541.53,
   "high_52w": 1060.41,
-  "ma50": 747.12,
-  "ma200": 804.84
+  "ma50": 743.41,
+  "ma200": 804.67
 }

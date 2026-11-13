@@ -2,7 +2,7 @@
   "ticker": "GOOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-11T20:01:22.239546-08:00",
+  "generated_at": "2026-11-12T16:50:31.644146-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Alphabet Kicks Off Asia Bond Sale as AI Firms Face Scrutiny",
+      "headline": "Alphabet Draws $5 Billion in Orders as AI Frenzy Builds",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=1cb8315c64b1c0a928809ef4a8867850861990e5a016c0e0ff9b00eb9422f7f8",
-      "datetime": 1794445969,
-      "summary": "Alphabet Inc. began marketing its inaugural Hong Kong and Singapore dollar bond sale, testing investor interest at a time of increasing volatility for companies focused on artificial intelligence."
+      "url": "https://finnhub.io/api/news?id=9065d293b3155149849b94771ecd903e2f64bab5f1f307bd32ecf4c084ce1640",
+      "datetime": 1794524759,
+      "summary": "Strong institutional demand masks a growing financial balancing act."
     },
     {
-      "headline": "Zelda remake becomes fastest-selling Nintendo Switch 2 game ever",
+      "headline": "Google's Next Big AI Push Has Apple in the Picture",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=02b4e9466697e379c3d95bb527b6c2b774aa9fb40c2eb2789b5b19747da80abc",
-      "datetime": 1794439050,
-      "summary": "Yahoo Finance's Deirdre Bosa reports on \"The Legend of Zelda: Ocarina of Time\" selling 5.2 million copies in its first four days on Nintendo (NTDOY) Switch 2, the device's fastest-selling game ever, ahead of next week's Grand Theft Auto 6 launch."
+      "url": "https://finnhub.io/api/news?id=fca59ee8f61ace5223fd1411a35e5e479088f5e9b00305a4767a403c9cbfd23e",
+      "datetime": 1794524685,
+      "summary": "A familiar driving experience is getting a major upgrade."
     },
     {
-      "headline": "Nvidia and Alphabet Just Agreed to Buy $10 Billion Each of Anthropic Stock at Its IPO Price",
+      "headline": "Can Huang's Exit Create Chip Competition",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=13132d03c5b8d69d4f31c02910a3f58b434d3e8ce498d01778b6101fa2f7c561",
-      "datetime": 1794438421,
-      "summary": "Anthropic's filing ties two of the seven checks to deals already in place -- though not the chipmaker's."
+      "url": "https://finnhub.io/api/news?id=86c761c898c0936982bf6391253c9845d1d438f475c968d05759d78a72b635a1",
+      "datetime": 1794524439,
+      "summary": "Jensen Huang's departure from Nvidia is raising questions about whether rivals can chip away at the company's dominance of the AI semiconductor market. Bloomberg Intelligence analysts Robert Schiffman and Mandeep Singh say demand for AI computing remains strong, but Huang's exit could create opportunities for Broadcom, AMD, Google and others as customers look for alternatives and potentially push "
     },
     {
-      "headline": "Fusion's Next Race Is Over Superconducting Tape, Not Plasma",
+      "headline": "5 Unrivaled Stocks to Buy for the Next Decade",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5deaac082d38d7e5742c95f8543b43b792bc36f8e813b5ab3b043c25f0219979",
-      "datetime": 1794438000,
-      "summary": "Proxima Fusion signed deals with Japan's Fujikura and Kyoto Fusioneering to build a European fusion supply chain, starting with superconducting tape."
+      "url": "https://finnhub.io/api/news?id=cb77d3e0b5eb8217ac9779f53d7dc1aa7e42a080403b7014d557254896406ca1",
+      "datetime": 1794522801,
+      "summary": "Wall Street had its worst day since April 2025 last Thursday. The Nasdaq Composite fell 5.5%, the S&P 500 dropped 4.4%, and the Philadelphia Semiconductor Index plunged 12.2%. Two worries drove the selling. Investors doubt that heavy spending on artificial intelligence will pay off, and candidates who ran against data center expansion won races in [\u2026]"
     },
     {
-      "headline": "Big Tech's expected big payday with Anthropic IPO, and Nintendo's big week with Zelda",
+      "headline": "Nvidia Needs a Colossus to Replace Jensen Huang, and Eric Schmidt May Be the Only One Who Fits",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f5b8daf032339deaf029b38a97d5074d52957af80cb0fb5aadb825fd3784e47a",
-      "datetime": 1794436151,
-      "summary": "Deirdre Bosa discusses Anthropic's (ANTH.PVT) oversubscribed IPO, how Jensen Huang's stance on China has evolved over the years, and Nintendo's (NTDOY) The Legend of Zelda: Ocarina of Time, which has sold over 5 million copies. Deirdre Bosa then sits down with Hugging Face Co-Founder Thomas Wolf to talk about the company's best month in October, on controlling AI, and open-source models. 'Deirdre "
+      "url": "https://finnhub.io/api/news?id=034f14283f4fcbd3268f00172f916edeffd0fb70ffdd8f7b7d8f3850c8c9df44",
+      "datetime": 1794522653,
+      "summary": "Nvidia (NASDAQ: NVDA) needs a new chief executive, and 24/7 Wall St. co-founder Douglas A. McIntyre has a candidate in mind: Eric Schmidt."
     },
     {
-      "headline": "GE Vernova Fell 25% on Data Center Fears. Only About 20% of Its Gas Turbine Customers Are Data Centers. Time to Buy?",
+      "headline": "Why Alphabet Stock Was Moving Higher Today",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=91db2ef353218b9c334adfaad3b015cf802ede0e7ab3df268dcbeede1d813606",
-      "datetime": 1794435900,
-      "summary": "Investors may be viewing this company's future as being more dependent on the AI industry than it actually is."
+      "url": "https://finnhub.io/api/news?id=4e826b3cfc64c9cf7ddc3e2e3c616db6d97556294d12c76a38b832c35ec2b539",
+      "datetime": 1794522219,
+      "summary": "Trouble at Nvidia could create an opening for Alphabet's chip business."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-11",
+  "data_asof": "2026-11-12",
   "price": {
-    "last": 290.63,
-    "open": 287.57,
-    "prev_close": 284.92,
-    "move_day_pct": 2.0,
-    "move_open_close_pct": 1.07,
-    "move_week_pct": 1.16
+    "last": 295.35,
+    "open": 290.69,
+    "prev_close": 290.63,
+    "move_day_pct": 1.62,
+    "move_open_close_pct": 1.6,
+    "move_week_pct": 4.83
   },
   "indicators": {
     "rsi14": {
-      "value": 36.9,
-      "read": "Oversold"
+      "value": 41.2,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": -14.275,
-      "signal": -13.639,
-      "hist": -0.636,
-      "hist_prev": -1.721,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -13.01,
+      "signal": -13.514,
+      "hist": 0.503,
+      "hist_prev": -0.636,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 353.23,
-      "lower": 257.94,
-      "mid": 305.58,
-      "pctb": 0.343,
+      "upper": 347.34,
+      "lower": 258.87,
+      "mid": 303.11,
+      "pctb": 0.412,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 6.54,
+      "value": 8.27,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -27.08,
-      "read": "27% below its 52-week high"
+      "value": -25.89,
+      "read": "26% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 336.56,
-      "pct": -13.65,
-      "read": "14% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 336.36,
+      "pct": -12.19,
+      "read": "12% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 10.14,
-      "pct_of_price": 3.49,
+      "value": 10.04,
+      "pct_of_price": 3.4,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.81,
+      "value": 0.96,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 43.3,
+      "value": 47.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 272.8,
   "high_52w": 398.54,
-  "ma50": 326.8,
-  "ma200": 336.56
+  "ma50": 326.04,
+  "ma200": 336.36
 }

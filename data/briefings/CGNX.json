@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-11T20:01:07.223306-08:00",
+  "generated_at": "2026-11-12T16:50:14.405046-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Cognex Sees Strong 2026 Growth as AI and Automation Fuel Demand",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=eb5258a7a605db9054574e8830517813b948ea62e3fa3f2810022f5f571c83a1",
+      "datetime": 1794467523,
+      "summary": "Cognex (NASDAQ:CGNX) expects a strong year of growth across its industrial machine vision business, with demand spanning logistics, electronics, packaging and semiconductors, President and CEO Matt Moschner said during a presentation hosted by Baird. Moschner said the company\u2019s full-year 2026 reven"
+    },
     {
       "headline": "4 Industrial Tech Stocks Riding the AI Boom and Paying Dividends Along the Way",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=0a248f8e8cf0202625c899c51a3d500cb5a816a5607280545ce23a036cc4eba2",
       "datetime": 1794273504,
       "summary": "Management's push, from cutting costs to squeezing more output from existing resources, could determine whether margin gains last through the cycle."
-    },
-    {
-      "headline": "Teledyne Technologies shares are trading higher after the company reported better-than-expected Q1 financial results and raised its FY26 adjusted EPS guidance above estimates. Also, the company raised its FY26 GAAP EPS guidance.",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=f997744b4b50e27154dd05290396415a3f064d4c0bfb8d8d90f7fd8f1aa1876f",
-      "datetime": 1794238528,
-      "summary": ""
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-11",
+  "data_asof": "2026-11-12",
   "price": {
-    "last": 51.72,
-    "open": 53.23,
-    "prev_close": 50.8,
-    "move_day_pct": 1.81,
-    "move_open_close_pct": -2.84,
-    "move_week_pct": -2.53
+    "last": 50.77,
+    "open": 49.55,
+    "prev_close": 51.72,
+    "move_day_pct": -1.84,
+    "move_open_close_pct": 2.46,
+    "move_week_pct": 6.88
   },
   "indicators": {
     "rsi14": {
-      "value": 41.8,
+      "value": 40.1,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -2.397,
-      "signal": -1.923,
-      "hist": -0.474,
-      "hist_prev": -0.662,
+      "macd": -2.392,
+      "signal": -2.017,
+      "hist": -0.375,
+      "hist_prev": -0.474,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 61.36,
-      "lower": 47.93,
-      "mid": 54.65,
-      "pctb": 0.282,
+      "upper": 61.3,
+      "lower": 47.5,
+      "mid": 54.4,
+      "pctb": 0.237,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 49.25,
-      "read": "49% above its 52-week low"
+      "value": 46.51,
+      "read": "47% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -28.48,
-      "read": "28% below its 52-week high"
+      "value": -29.8,
+      "read": "30% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 58.27,
-      "pct": -11.24,
-      "read": "11% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 58.32,
+      "pct": -12.95,
+      "read": "13% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 3.12,
+      "value": 3.07,
       "pct_of_price": 6.04,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.84,
+      "value": 0.92,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 57.0,
+      "value": 52.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 34.65,
   "high_52w": 72.32,
-  "ma50": 58.48,
-  "ma200": 58.27
+  "ma50": 58.3,
+  "ma200": 58.32
 }

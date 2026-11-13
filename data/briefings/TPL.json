@@ -2,7 +2,7 @@
   "ticker": "TPL",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-11T20:01:19.319451-08:00",
+  "generated_at": "2026-11-12T16:50:27.995625-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "The Blue Wave Crashed on Texas Pacific Land. That Could Be an Opportunity.",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=550f3fdf3a7c3725c4862d700383f46125ec0a1dd10b0b9173b44f191bc49591",
+      "datetime": 1794525240,
+      "summary": "Data centers may be on the outs with voters, but the owner of vast amounts of land has gotten hit harder than it deserves."
+    },
+    {
+      "headline": "The Texas AI Meltdown: Buy The Toll Road, Not The Dream",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=3fb83e2a84f05862ff58d6294cc0e9d341d6d5b966981abdb1551223313e0390",
+      "datetime": 1794470403,
+      "summary": "Texas Pacific Land's durable cash flows are expected to drive about 30% total returns in 12 months, independent of AI data-center outcomes. See more analysis here."
+    },
+    {
+      "headline": "I'm Putting My Financial Future Behind These Stocks",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=e154a8131f1f2d8e7a7dd572cd9a8a3bcbbcc9a6d1ba9da08ea407e4e1e37c54",
+      "datetime": 1794468600,
+      "summary": "Looking for long-term investment ideas? Click here to read about the bull case for Texas Pacific Land (TPL) and QXO."
+    },
     {
       "headline": "Is Crescent Energy's Royalty Business Its Next Big Growth Engine?",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=f7f6f550fa77f5f8fa6a49daff1cffd7ac6504ca2ee8a1afedc52a5a4409de39",
       "datetime": 1794272533,
       "summary": "2026-11-10. The following slide deck was published by Texas Pacific Land Corporation in conjunction with their 2026 Q3 earnings call."
-    },
-    {
-      "headline": "5 revealing analyst questions from Texas Pacific Land\u2019s Q3 2026 earnings call",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=56e4cdc36f72b6465bf09cdc1444ca7294c7bfba28efd65aa951d0ce632b0e53",
-      "datetime": 1794203376,
-      "summary": "Texas Pacific Land\u2019s latest quarter reflected continued momentum from robust Permian Basin activity, with management citing record oil and gas royalty production and expanding infrastructure demand as key drivers of double-digit revenue growth. CEO Ty Glover attributed these results to \u201ccontinued strong development activity across our royalty acreage, supportive commodity price realizations, incre"
-    },
-    {
-      "headline": "Texas Pacific Land Corp (TPL) (Q3 2026) Earnings Call Highlights: Record Revenue, Net Income, ...",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f6a8615087b55b9f1f213e3317bb652b3fbb1cf0235b43034dbc41402f70d703",
-      "datetime": 1794164682,
-      "summary": "Texas Pacific Land Corp (TPL) posted record quarterly revenue of $273 million, up 35% year-over-year, with oil production reaching a record 17,100 barrels per day and adjusted EBITDA margin of 87%."
-    },
-    {
-      "headline": "Texas Pacific Land Q3 Earnings Call Highlights",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8ffb339f51b9991ca2d6219867ddaa8b04ea3a8bd5bbb9a012e0a3bf8993b23f",
-      "datetime": 1794150862,
-      "summary": "Texas Pacific Land (NYSE:TPL) reported record third-quarter revenue, net income and free cash flow, as higher oil and gas production, elevated commodity prices and increased water and infrastructure revenue supported its results. Revenue rose 35% from a year earlier to $273 million, while net incom"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-11",
+  "data_asof": "2026-11-12",
   "price": {
-    "last": 281.42,
+    "last": 281.18,
     "open": 280.0,
-    "prev_close": 274.63,
-    "move_day_pct": 2.47,
-    "move_open_close_pct": 0.51,
-    "move_week_pct": -2.17
+    "prev_close": 281.42,
+    "move_day_pct": -0.09,
+    "move_open_close_pct": 0.42,
+    "move_week_pct": 3.31
   },
   "indicators": {
     "rsi14": {
-      "value": 30.6,
+      "value": 30.5,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -19.2,
-      "signal": -13.953,
-      "hist": -5.247,
-      "hist_prev": -6.318,
+      "macd": -19.189,
+      "signal": -15.0,
+      "hist": -4.189,
+      "hist_prev": -5.247,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 375.11,
-      "lower": 263.33,
-      "mid": 319.22,
-      "pctb": 0.162,
+      "upper": 372.71,
+      "lower": 259.19,
+      "mid": 315.95,
+      "pctb": 0.194,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 3.39,
+      "value": 3.31,
       "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -47.7,
+      "value": -47.75,
       "read": "48% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 398.9,
+      "ma200": 398.54,
       "pct": -29.45,
       "read": "29% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 15.39,
-      "pct_of_price": 5.47,
+      "value": 14.9,
+      "pct_of_price": 5.3,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.14,
+      "value": 0.89,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 35.2,
+      "value": 35.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 272.18,
   "high_52w": 538.1,
-  "ma50": 340.34,
-  "ma200": 398.9
+  "ma50": 338.62,
+  "ma200": 398.54
 }
