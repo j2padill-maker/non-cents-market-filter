@@ -154,6 +154,12 @@ def normalize_ticker(raw):
 
 SYNC_CONFIG_FILE = "data/sync-config.json"
 
+# Stocks added from the app's "+ Add ticker" panel travel through the same sync
+# store as reserved lists named "Tracked · <sector>". They are NOT watchlists:
+# each ticker joins the tracked universe under that sector (a new sector name
+# simply creates the sector). Keep in sync with TRACK_PREFIX in index.html.
+TRACK_PREFIX = "Tracked · "
+
 
 def fetch_watchlist_from_sync():
     """
@@ -241,27 +247,36 @@ def load_watchlist():
     else:
         if not os.path.exists(WATCHLIST_FILE):
             print(f"  No {WATCHLIST_FILE} found — core universe only.")
-            return [], {}
+            return [], {}, {}
         try:
             with open(WATCHLIST_FILE) as f:
                 data = json.load(f)
         except Exception as e:
             print(f"  ⚠ Could not parse {WATCHLIST_FILE}: {e} — core universe only.")
-            return [], {}
+            return [], {}, {}
 
     raw_lists = data.get("lists") or []
     if not isinstance(raw_lists, list):
         print(f"  ⚠ {WATCHLIST_FILE} has no 'lists' array — core universe only.")
-        return [], {}
+        return [], {}, {}
 
     clean_lists = []
     ticker_to_lists = {}
+    tracked = {}    # ticker -> sector, from "Tracked · <sector>" lists
 
     for entry in raw_lists:
         if not isinstance(entry, dict):
             continue
         name = (entry.get("name") or "").strip()
         if not name:
+            continue
+        if name.startswith(TRACK_PREFIX):
+            sector = name[len(TRACK_PREFIX):].strip()
+            if sector and sector != WATCHLIST_SECTOR:
+                for raw in (entry.get("tickers") or []):
+                    t = normalize_ticker(raw)
+                    if t:
+                        tracked[t] = sector
             continue
         tickers = []
         for raw in (entry.get("tickers") or []):
@@ -278,7 +293,10 @@ def load_watchlist():
     print(f"  Watchlist: {len(clean_lists)} list(s), {total} unique ticker(s)")
     for lst in clean_lists:
         print(f"    · {lst['name']}: {len(lst['tickers'])} ticker(s)")
-    return clean_lists, ticker_to_lists
+    if tracked:
+        print(f"  Added from the app: {len(tracked)} ticker(s) in "
+              f"{len(set(tracked.values()))} sector(s)")
+    return clean_lists, ticker_to_lists, tracked
 
 
 SYMBOLS_FILE = "data/symbols.json"
@@ -953,7 +971,7 @@ def main():
     print("yfinance: candles + true RSI(14) + 52W high/low + volume")
 
     print("\nLoading watchlist...")
-    wl_lists, ticker_to_lists = load_watchlist()
+    wl_lists, ticker_to_lists, tracked = load_watchlist()
 
     # Keep the browser-side symbol index fresh. One API call, and only when the
     # file is missing or over a week old. Wrapped because a stale symbol index
@@ -988,6 +1006,17 @@ def main():
                 seen[t] = sector
                 if sector not in LEGACY_INDEX_SECTORS:
                     themed.add(t)
+    # 1b) Stocks you added from the app, under the sector you picked. They beat
+    #     the index GICS label (you chose it on purpose) and, like themed names,
+    #     are exempt from the liquidity floor. A themed sector still wins.
+    user_added = set()
+    for t, sector in tracked.items():
+        if t not in seen:
+            seen[t] = sector
+            user_added.add(t)
+    if user_added:
+        print(f"  + {len(user_added)} ticker(s) added from the app: "
+              f"{', '.join(sorted(user_added))}")
     index_only = set()
     if index_rows:
         for row in index_rows:
@@ -1039,6 +1068,8 @@ def main():
                 # Empty list for non-watchlist names keeps the field's shape
                 # stable so the front-end never has to null-check it.
                 record["watchlists"] = ticker_to_lists.get(ticker, [])
+                if ticker in user_added:
+                    record["user_added"] = True
                 results.append(record)
                 rsi_str = f"RSI:{record['rsi14']}" if record.get('rsi14') else "RSI:—"
                 low_str = f"52wL:${record['low_52w']}" if record.get('low_52w') else "52wL:—"

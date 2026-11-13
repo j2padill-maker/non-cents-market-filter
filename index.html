@@ -1378,6 +1378,24 @@ button.rank-stat.on { background:rgba(255,255,255,0.04); }
 .wl-icon-btn.on,.wl-brief-btn.on{border-color:var(--accent);color:var(--accent);}
 
 /* ─── ADD BUTTON (WATCHLIST) ─── */
+.trk-btn {
+  font-family:var(--font-mono); font-size:11px; letter-spacing:0.06em; font-weight:700;
+  padding:9px 14px; min-height:40px; border-radius:8px; cursor:pointer; white-space:nowrap;
+  background:rgba(0,200,83,0.10); border:1px solid var(--accent); color:var(--green);
+}
+.trk-btn:hover, .trk-btn[aria-expanded="true"] { background:rgba(0,200,83,0.2); }
+.trk-panel { padding:14px 18px 16px; border-bottom:1px solid var(--border); background:rgba(0,200,83,0.03); }
+.trk-row { display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+.trk-row .search-input { min-height:40px; }
+.trk-msg { font-size:11px; min-height:16px; margin-top:8px; line-height:1.6; }
+.trk-mine { margin-top:10px; }
+.trk-mine-h { font-size:10px; color:var(--text2); letter-spacing:0.06em; margin-bottom:6px; }
+.trk-chips { display:flex; flex-wrap:wrap; gap:6px; }
+.trk-chip { display:inline-flex; align-items:center; gap:6px; font-size:11px; padding:4px 4px 4px 9px; border:1px solid var(--border); border-radius:6px; background:var(--bg2); color:var(--text); }
+.trk-chip small { color:var(--text2); font-size:10px; }
+.trk-chip button { background:transparent; border:none; color:var(--text2); cursor:pointer; font-size:12px; min-width:28px; min-height:28px; border-radius:4px; }
+.trk-chip button:hover { color:var(--red); background:rgba(255,59,92,0.1); }
+.trk-note { font-size:10px; color:var(--text2); line-height:1.6; margin:10px 0 0; }
 .btn-add {
   background:linear-gradient(135deg, var(--accent), #00a844);
   border:none; border-radius:7px;
@@ -1506,11 +1524,15 @@ button.rank-stat.on { background:rgba(255,255,255,0.04); }
   <div class="table-wrap">
     <div class="table-header">
       <div class="table-title">All Stocks</div>
-      <div class="search-wrap">
-        <span>🔍</span>
-        <input class="search-input" id="screener-search" placeholder="Search ticker or sector..." oninput="filterScreener()">
+      <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+        <button type="button" id="trk-btn" class="trk-btn" onclick="trkToggle()" aria-expanded="false" aria-controls="trk-panel">+ Add ticker</button>
+        <div class="search-wrap">
+          <span>🔍</span>
+          <input class="search-input" id="screener-search" placeholder="Search ticker or sector..." oninput="filterScreener()">
+        </div>
       </div>
     </div>
+    <div id="trk-panel" class="trk-panel" style="display:none;"></div>
     <div class="filter-row">
       <span style="font-size:9px;color:var(--text3);margin-right:4px;letter-spacing:0.1em;">FILTER:</span>
       <button class="filter-btn red-filter" onclick="toggleFilter('at52low',this)">At 52W Low</button>
@@ -1643,6 +1665,8 @@ button.rank-stat.on { background:rgba(255,255,255,0.04); }
       </div>
       <span id="wl-to-label" style="font-size:11px;color:var(--text3);letter-spacing:0.06em;">TO</span>
       <select id="wl-target" class="wl-select" title="Which list to add this ticker to" onchange="wlSyncSharesField()"></select>
+      <select id="wl-sector" class="wl-select" title="Also track it on the screener under a sector" onfocus="trkFillSelect(this,'List only (no sector)')" onmousedown="trkFillSelect(this,'List only (no sector)')" ontouchstart="trkFillSelect(this,'List only (no sector)')" onchange="trkSectorChange('wl-sector','wl-newsector')"><option value="">List only (no sector)</option></select>
+      <input id="wl-newsector" class="search-input" type="text" maxlength="40" placeholder="New sector name" style="width:170px;display:none;" autocomplete="off">
       <span id="wl-add-target-hint" style="display:none;font-size:11px;color:var(--text2);letter-spacing:0.04em;"></span>
       <input id="wl-shares" class="search-input" type="number" min="0" step="any" placeholder="Shares"
         style="width:110px;display:none;" autocomplete="off"
@@ -1892,7 +1916,7 @@ const WL_KEY = 'ncmf_watchlists';
 const WL_LEGACY_KEY = 'ncmf_watchlist';   // the old flat array
 const WL_ALL = 'ALL';
 
-let wlData = { version: 1, lists: [], activeId: WL_ALL };
+let wlData = { version: 1, lists: [], activeId: WL_ALL, tracked: {} };
 // Inline list-create / rename state. prompt()/confirm() are blocked in installed
 // PWAs and unreliable on mobile, so naming happens in real in-page inputs.
 let wlNewListOpen = false;
@@ -2067,6 +2091,179 @@ function symOnInput(){
   symRenderStatus();
 }
 
+/* ═══════════════════════════════════════════════════════════════════════
+   TRACKED ADDITIONS — stocks you add to the tracked universe under a sector
+
+   wlData.tracked = { "Nuclear Energy": ["SMR","NNE"], "Space": ["RKLB"] }
+   They ride the existing sync Worker as reserved lists named
+   "Tracked · <sector>" (no Worker change needed), and are split back out the
+   moment they arrive, so they never show up as watchlists. fetch_data.py reads
+   the same prefix (TRACK_PREFIX) and fetches each ticker under that sector.
+   A sector name nobody else uses simply creates a new sector.
+   ═══════════════════════════════════════════════════════════════════════ */
+const TRACK_PREFIX='Tracked · ';
+function trkIsReserved(name){return typeof name==='string'&&name.startsWith(TRACK_PREFIX);}
+function trkSplit(lists){
+  const normal=[], tracked={};
+  (lists||[]).forEach(l=>{
+    if(!l) return;
+    if(trkIsReserved(l.name)){
+      const sector=l.name.slice(TRACK_PREFIX.length).trim(); if(!sector) return;
+      const arr=tracked[sector]||(tracked[sector]=[]);
+      (l.tickers||[]).map(wlNormTicker).filter(Boolean).forEach(t=>{if(!arr.includes(t))arr.push(t);});
+    } else normal.push(l);
+  });
+  return {normal,tracked};
+}
+function trkClean(tr){
+  const out={}, seen=new Set();
+  Object.entries(tr||{}).forEach(([sec,ts])=>{
+    sec=String(sec).trim().slice(0,40); if(!sec||sec===WATCHLIST_SECTOR) return;
+    const arr=[...new Set((ts||[]).map(wlNormTicker).filter(Boolean))].filter(t=>!seen.has(t));
+    arr.forEach(t=>seen.add(t));
+    if(arr.length) out[sec]=arr;
+  });
+  return out;
+}
+function trkToLists(){
+  return Object.entries(wlData.tracked||{}).filter(([,ts])=>ts&&ts.length)
+    .map(([sec,ts])=>({name:TRACK_PREFIX+sec,kind:'watchlist',tickers:[...ts],briefings:false}));
+}
+function trkSectorOf(t){for(const [sec,ts] of Object.entries(wlData.tracked||{})) if(ts.includes(t)) return sec; return null;}
+function trkFingerprint(){const tr=wlData.tracked||{};return JSON.stringify(Object.keys(tr).sort().map(k=>[k,[...tr[k]].sort()]));}
+function trkSet(t,sector){
+  const tr=wlData.tracked||(wlData.tracked={});
+  Object.keys(tr).forEach(k=>{tr[k]=tr[k].filter(x=>x!==t);if(!tr[k].length)delete tr[k];});
+  (tr[sector]||(tr[sector]=[])).push(t);
+}
+// Sectors offered in pickers: every sector on the screener plus your own.
+function trkSectors(){
+  const set=new Set(allStocks.map(s=>s.sector).filter(x=>x&&x!==WATCHLIST_SECTOR));
+  Object.keys(wlData.tracked||{}).forEach(k=>set.add(k));
+  return [...set].sort((a,b)=>a.localeCompare(b));
+}
+function trkOptionsHtml(firstLabel,selected){
+  return `<option value="">${wlEsc(firstLabel)}</option>`+trkSectors().map(x=>`<option value="${wlEsc(x)}"${x===selected?' selected':''}>${wlEsc(x)}</option>`).join('')+`<option value="__new"${selected==='__new'?' selected':''}>+ New sector…</option>`;
+}
+function trkFillSelect(sel,firstLabel){
+  if(!sel) return; const v=sel.value;
+  sel.innerHTML=trkOptionsHtml(firstLabel,v);
+  if([...sel.options].some(o=>o.value===v)) sel.value=v;
+}
+function trkSectorChange(selId,inpId){
+  const sel=document.getElementById(selId), inp=document.getElementById(inpId);
+  if(!sel||!inp) return;
+  const isNew=sel.value==='__new';
+  inp.style.display=isNew?'':'none';
+  if(isNew) inp.focus();
+}
+// A new sector name: reuse an existing sector if only the capitalisation differs.
+function trkCheckSectorName(name){
+  name=(name||'').replace(/\s+/g,' ').trim();
+  if(!name) return {error:'Type a name for the new sector.'};
+  if(name.length<2||name.length>40) return {error:'Sector names must be 2–40 characters.'};
+  if(!/^[A-Za-z0-9 &\-\/.,()']+$/.test(name)) return {error:'Use letters, numbers, spaces and & - / . , ( ) only.'};
+  if(name.toLowerCase()===WATCHLIST_SECTOR.toLowerCase()) return {error:'"Watchlist" is reserved — pick another name.'};
+  const match=trkSectors().find(x=>x.toLowerCase()===name.toLowerCase());
+  return {name:match||name, isNew:!match};
+}
+// Read a sector picker. {sector} to track, {} for none, {note} when the ticker
+// is already part of the core universe, {error} for a bad new-sector name.
+function trkReadPicker(t,selId,inpId){
+  const sel=document.getElementById(selId); const v=sel?sel.value:'';
+  const core=!trkSectorOf(t)&&allStocks.find(s=>s.ticker===t&&s.sector!==WATCHLIST_SECTOR&&!s.user_added);
+  if(core) return {note:`${t} is already tracked under ${core.sector}.`};
+  if(!v) return {};
+  if(v==='__new'){const r=trkCheckSectorName((document.getElementById(inpId)||{}).value);if(r.error) return {error:r.error};return {sector:r.name,isNew:r.isNew};}
+  return {sector:v};
+}
+function trkSyncWarning(){
+  if(syncUrl&&syncKey) return '';
+  return ' Sync is not connected on this device, so the data job will not see this yet — connect sync on the ⭐ LISTS tab.';
+}
+function trkMsg(text,ok){const el=document.getElementById('trk-msg');if(!el)return;el.style.color=ok?'var(--accent)':'var(--red)';el.textContent=text||'';}
+function trkToggle(){
+  const p=document.getElementById('trk-panel'), b=document.getElementById('trk-btn');
+  if(!p) return;
+  const open=p.style.display==='none';
+  p.style.display=open?'':'none';
+  if(b) b.setAttribute('aria-expanded',String(open));
+  if(open){trkRender();symLoad();const i=document.getElementById('trk-input');if(i)i.focus();}
+}
+function trkRender(){
+  const p=document.getElementById('trk-panel'); if(!p||p.style.display==='none') return;
+  if(!document.getElementById('trk-input')){
+    p.innerHTML=`<div class="trk-row">
+        <label for="trk-input" style="position:absolute;left:-9999px;">Ticker or company name</label>
+        <input id="trk-input" class="search-input" type="text" placeholder="Ticker or company name" autocomplete="off"
+          style="text-transform:uppercase;width:240px;" oninput="this.value=this.value.toUpperCase();trkOnInput()" onkeydown="if(event.key==='Enter')trkAdd()">
+        <label for="trk-sector" style="position:absolute;left:-9999px;">Sector</label>
+        <select id="trk-sector" class="wl-select" onchange="trkSectorChange('trk-sector','trk-newsector')"></select>
+        <input id="trk-newsector" class="search-input" type="text" maxlength="40" placeholder="New sector name" style="width:180px;display:none;" autocomplete="off" onkeydown="if(event.key==='Enter')trkAdd()">
+        <button type="button" class="btn-add" onclick="trkAdd()">+ ADD</button>
+      </div>
+      <div id="trk-suggest" style="margin-top:8px;"></div>
+      <div id="trk-msg" class="trk-msg"></div>
+      <div id="trk-mine" class="trk-mine"></div>
+      <p class="trk-note">The stock joins the screener and counts toward its sector's scores, the momentum map and the Downtrodden ranking. Full data arrives on the next data run. Pick "+ New sector…" when nothing fits.</p>`;
+  }
+  trkFillSelect(document.getElementById('trk-sector'),'Choose sector…');
+  trkRenderMine();
+}
+function trkRenderMine(){
+  const el=document.getElementById('trk-mine'); if(!el) return;
+  const tr=wlData.tracked||{}; const all=Object.entries(tr).flatMap(([sec,ts])=>ts.map(t=>[t,sec]));
+  if(!all.length){el.innerHTML='';return;}
+  el.innerHTML=`<div class="trk-mine-h">ADDED BY YOU (${all.length})</div><div class="trk-chips">${all.sort((a,b)=>a[1].localeCompare(b[1])||a[0].localeCompare(b[0])).map(([t,sec])=>{
+    const live=allStocks.find(s=>s.ticker===t);
+    const st=!live?'pending next run':live.sector===sec?'live':'moves next run';
+    return `<span class="trk-chip"><strong>${wlEsc(t)}</strong><small>${wlEsc(sec)} · ${st}</small><button type="button" aria-label="Stop tracking ${wlEsc(t)}" title="Stop tracking" onclick="trkRemove('${wlEsc(t)}')">✕</button></span>`;}).join('')}</div>`;
+}
+function trkOnInput(){
+  if(symLoadState==='idle') symLoad();
+  const el=document.getElementById('trk-suggest'), inp=document.getElementById('trk-input');
+  if(!el||!inp) return;
+  const raw=inp.value.trim(); if(!raw){el.innerHTML='';return;}
+  const t=wlNormTicker(raw);
+  const core=allStocks.find(s=>s.ticker===t&&s.sector!==WATCHLIST_SECTOR);
+  const mine=trkSectorOf(t);
+  if(mine){el.innerHTML=`<span style="color:var(--text2);font-size:11px;">${wlEsc(t)} is already added under <strong>${wlEsc(mine)}</strong>. Pick another sector to move it.</span>`;return;}
+  if(core){el.innerHTML=`<span style="color:var(--text2);font-size:11px;">${wlEsc(t)} is already tracked under <strong>${wlEsc(core.sector)}</strong>.</span>`;return;}
+  if(symLoadState!=='ready'){el.innerHTML='';return;}
+  const hit=symLookup(t);
+  if(hit){el.innerHTML=`<span style="color:var(--accent);font-size:11px;">✓ <strong>${wlEsc(hit.sym)}</strong> — ${wlEsc(hit.name)}</span>`;return;}
+  const m=symSearch(raw);
+  el.innerHTML=m.length?`<div style="display:flex;flex-wrap:wrap;gap:6px;align-items:center;"><span style="font-size:10px;color:var(--text2);letter-spacing:0.06em;">DID YOU MEAN</span>${m.map(r=>`<button type="button" class="wl-suggest" onclick="trkPick('${wlEsc(r.sym)}')" title="${wlEsc(r.name)}"><strong>${wlEsc(r.sym)}</strong><span>${wlEsc(r.name.slice(0,28))}${r.name.length>28?'…':''}</span></button>`).join('')}</div>`
+    :`<span style="color:var(--yellow);font-size:11px;">⚠ ${wlEsc(t)} isn't in the symbol index. You can still add it — it may return no data.</span>`;
+}
+function trkPick(sym){const i=document.getElementById('trk-input');if(!i)return;i.value=sym;trkOnInput();i.focus();}
+function trkAdd(){
+  const inp=document.getElementById('trk-input'); const t=wlNormTicker(inp?inp.value:'');
+  if(!t){trkMsg('Enter a ticker or pick one from the suggestions.');return;}
+  if(t.length>8){trkMsg('Ticker seems too long — check the symbol.');return;}
+  const sel=document.getElementById('trk-sector');
+  if(!sel||!sel.value){trkMsg('Choose a sector, or "+ New sector…".');return;}
+  const r=trkReadPicker(t,'trk-sector','trk-newsector');
+  if(r.error){trkMsg(r.error);return;}
+  if(r.note){trkMsg(r.note);return;}
+  const prev=trkSectorOf(t);
+  if(prev===r.sector){trkMsg(`${t} is already added under ${r.sector}.`);return;}
+  trkSet(t,r.sector); wlSave();
+  const hit=symLookup(t); const label=hit?`${t} (${hit.name})`:t;
+  trkMsg((prev?`${t} moved from ${prev} to ${r.sector}.`:`${label} added under ${r.sector}${r.isNew?' (new sector)':''}. Full data arrives on the next data run.`)
+    +(symLoadState==='ready'&&!hit?' It is not in the symbol index, so it may return no data.':'')+trkSyncWarning(),!trkSyncWarning());
+  inp.value=''; const ns=document.getElementById('trk-newsector'); if(ns){ns.value='';ns.style.display='none';}
+  document.getElementById('trk-suggest').innerHTML='';
+  trkFillSelect(sel,'Choose sector…'); sel.value='';
+  trkRenderMine();
+}
+function trkRemove(t){
+  const sec=trkSectorOf(t); if(!sec) return;
+  if(!confirm(`Stop tracking ${t} under ${sec}? It leaves the screener on the next data run (unless it is on one of your lists).`)) return;
+  const tr=wlData.tracked; tr[sec]=tr[sec].filter(x=>x!==t); if(!tr[sec].length) delete tr[sec];
+  wlSave(); trkMsg(`${t} removed. It drops off on the next data run.`,true); trkRenderMine();
+}
+
 /* ─── PERSISTENCE ─── */
 function wlLoad(){
   let stored = null;
@@ -2090,6 +2287,9 @@ function wlLoad(){
         }),
       activeId: stored.activeId || WL_ALL
     };
+    const sp = trkSplit(wlData.lists);
+    wlData.lists = sp.normal;
+    wlData.tracked = trkClean(Object.assign({}, stored.tracked || {}, sp.tracked));
     if (wlMigratePortfolio()) wlSave();
   } else {
     // First run on this device. Migrate the old flat ncmf_watchlist array so
@@ -2112,6 +2312,7 @@ function wlLoad(){
     wlSave();
   }
 
+  if (!wlData.tracked) wlData.tracked = {};
   // Never leave activeId dangling at a deleted list.
   if (wlData.activeId !== WL_ALL && !wlFindList(wlData.activeId)) {
     wlData.activeId = WL_ALL;
@@ -2274,12 +2475,13 @@ async function syncPull(){
     const remote = await res.json();
 
     if (remote.rev > syncRev) {
-      const before = wlFingerprint(wlData.lists);
+      const before = wlFingerprint(wlData.lists) + trkFingerprint();
       syncApplyRemote(remote);
-      const after = wlFingerprint(wlData.lists);
+      const after = wlFingerprint(wlData.lists) + trkFingerprint();
       if (before !== after) {
         wlMsg('Watchlists updated from another device.', false);
         renderWatchlist();
+        trkRenderMine();
       }
     }
     syncRev = remote.rev;
@@ -2293,8 +2495,10 @@ async function syncPull(){
    matches so the active-list selection survives a refresh. */
 function syncApplyRemote(remote){
   const byName = new Map(wlData.lists.map(l => [l.name, l]));
+  const sp = trkSplit(remote.lists);
   syncSuppress = true;
-  wlData.lists = (remote.lists || []).map(l => ({
+  wlData.tracked = trkClean(sp.tracked);
+  wlData.lists = sp.normal.map(l => ({
     id: (byName.get(l.name) || {}).id || wlNewId(),
     ...wlListShape(l),
   }));
@@ -2314,7 +2518,7 @@ async function syncPush(retrying){
   syncSet('syncing');
   const payload = {
     baseRev: syncRev,
-    lists: wlData.lists.map(wlListShape),
+    lists: [...wlData.lists.map(wlListShape), ...trkToLists()],
   };
   try {
     const res = await fetch(syncUrl + '/watchlist', {
@@ -2357,7 +2561,16 @@ async function syncPush(retrying){
      · briefings— local wins for a list local has; server-only lists keep theirs. */
 function syncMergeFrom(server){
   const localByName  = new Map(wlData.lists.map(l => [l.name, l]));
-  const serverByName = new Map((server.lists || []).map(l => [l.name, wlListShape(l)]));
+  const sp = trkSplit(server.lists);
+  const serverByName = new Map(sp.normal.map(l => [l.name, wlListShape(l)]));
+  // Tracked additions: this device's choices win (including moves); anything
+  // only the server has is folded in.
+  const mineTr = wlData.tracked || {};
+  const merged = JSON.parse(JSON.stringify(mineTr));
+  Object.entries(sp.tracked).forEach(([sec, ts]) => ts.forEach(t => {
+    if (!Object.values(mineTr).some(a => a.includes(t))) (merged[sec] || (merged[sec] = [])).push(t);
+  }));
+  wlData.tracked = trkClean(merged);
   const names = new Set([...localByName.keys(), ...serverByName.keys()]);
   syncSuppress = true;
   wlData.lists = [...names].map(name => {
@@ -2655,8 +2868,13 @@ function wlAdd(){
     return;
   }
 
+  // Optional: also track it on the screener under a sector.
+  const trk = trkReadPicker(t, 'wl-sector', 'wl-newsector');
+  if (trk.error) { wlMsg(trk.error); return; }
+
   list.tickers.push(t);
   if (isPf && shares != null) { if (!list.shares) list.shares = {}; list.shares[t] = shares; }
+  if (trk.sector) trkSet(t, trk.sector);
   wlSave();
   inp.value = '';
   if (shInp) shInp.value = '';
@@ -2670,6 +2888,15 @@ function wlAdd(){
   else if (status === 'nodata') wlMsg(label + ' added, but the last fetch found no data for it.');
   else if (hit)                 wlMsg(label + ' added — its data is fetched automatically on the next nightly run.', false);
   else                          wlMsg(t + ' added, but it is not in the symbol index — it may return no data.');
+  {
+    const el = document.getElementById('wl-msg');
+    if (el && trk.sector) el.textContent += ' Tracked on the screener under ' + trk.sector + '.' + trkSyncWarning();
+    else if (el && trk.note) el.textContent += ' ' + trk.note;
+    const sec = document.getElementById('wl-sector'), ns = document.getElementById('wl-newsector');
+    if (trk.sector && sec) { trkFillSelect(sec, 'List only (no sector)'); sec.value = ''; }
+    if (ns) { ns.value = ''; ns.style.display = 'none'; }
+    trkRenderMine();
+  }
 
   document.getElementById('wl-symbol-status').innerHTML = '';
   renderWatchlist();
@@ -2700,7 +2927,7 @@ function wlExportPayload(){
   return {
     version: 1,
     updated: new Date().toISOString(),
-    lists: wlData.lists.map(wlListShape)
+    lists: [...wlData.lists.map(wlListShape), ...trkToLists()]
   };
 }
 /* Order-independent fingerprint, so re-sorting a list doesn't read as a change. */
@@ -2734,11 +2961,13 @@ async function wlImportFromRepo(){
     const res = await fetch('data/watchlist.json?t=' + Date.now());
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
-    const lists = (data.lists || []).filter(l => l && l.name);
+    const sp = trkSplit(data.lists || []);
+    const lists = sp.normal.filter(l => l && l.name);
     if (!lists.length) { wlMsg('data/watchlist.json has no lists.'); return; }
     if (!confirm('Replace this device\'s ' + wlData.lists.length +
                  ' list(s) with the ' + lists.length + ' list(s) in data/watchlist.json?')) return;
     wlData.lists = lists.map(l => ({ id: wlNewId(), ...wlListShape(l) }));
+    wlData.tracked = trkClean(sp.tracked);
     wlData.activeId = WL_ALL;
     wlSave();
     wlMsg('Loaded ' + lists.length + ' list(s) from the repo.', false);
@@ -3122,7 +3351,10 @@ function rsiDisplay(s){
 function sectorColor(s){
   const c={'AI Hardware':'#00c853','AI Software':'#7b61ff','Robotics':'#00ff9d','Homebuilders':'#ff9500','Fintech':'#ff6b9d','Nuclear Energy':'#ffcc00','Drones':'#ff6b35','Mining & Materials':'#a8b2c4','Energy':'#ff8c42','S&P500 Core':'#4a9eff','Nasdaq100 Core':'#8b5cf6','Watchlist':'#ffd54a',
     'Information Technology':'#4a9eff','Communication Services':'#8b5cf6','Health Care':'#2ec4b6','Financials':'#7bd389','Consumer Discretionary':'#f4a261','Consumer Staples':'#c9ada7','Industrials':'#9aa5b1','Utilities':'#e9c46a','Real Estate':'#b5838d','Materials':'#a8b2c4'};
-  return c[s]||'#8899bb';
+  if(c[s]) return c[s];
+  // Your own sectors get a stable color from their name.
+  let h=0; for(const ch of String(s||'')) h=(h*31+ch.charCodeAt(0))%360;
+  return `hsl(${h},70%,64%)`;
 }
 // Spilled milk: a >=8% one-day flush within the last 3 sessions, on >=2x volume THAT day,
 // RSI still <=40, market cap >=$2B. Mirrors overreaction_candidates in fetch_data.py.
