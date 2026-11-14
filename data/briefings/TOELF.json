@@ -2,7 +2,7 @@
   "ticker": "TOELF",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-13T18:24:42.729356-08:00",
+  "generated_at": "2026-11-14T12:29:54.644774-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -37,56 +37,56 @@
   "status": "ok",
   "data_asof": "2026-11-13",
   "price": {
-    "last": 57.27,
-    "open": 57.89,
+    "last": 57.01,
+    "open": 59.47,
     "prev_close": 59.56,
-    "move_day_pct": -3.84,
-    "move_open_close_pct": -1.07,
-    "move_week_pct": 7.15
+    "move_day_pct": -4.28,
+    "move_open_close_pct": -4.14,
+    "move_week_pct": 6.66
   },
   "indicators": {
     "rsi14": {
-      "value": 42.6,
+      "value": 42.3,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -3.052,
-      "signal": -3.167,
-      "hist": 0.115,
+      "macd": -3.073,
+      "signal": -3.171,
+      "hist": 0.098,
       "hist_prev": 0.063,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 67.75,
-      "lower": 52.36,
-      "mid": 60.06,
-      "pctb": 0.319,
+      "upper": 67.76,
+      "lower": 52.33,
+      "mid": 60.04,
+      "pctb": 0.303,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 55.65,
-      "read": "56% above its 52-week low"
+      "value": 54.94,
+      "read": "55% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -40.23,
+      "value": -40.5,
       "read": "40% below its 52-week high"
     },
     "price_vs_ma200": {
       "ma200": 64.4,
-      "pct": -11.07,
+      "pct": -11.48,
       "read": "11% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 4.0,
-      "pct_of_price": 6.99,
+      "value": 4.1,
+      "pct_of_price": 7.2,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.01,
-      "read": "Light \u2014 quiet trading"
+      "value": 2.2,
+      "read": "Heavy volume \u2014 well above average"
     },
     "mfi14": {
-      "value": 77.0,
+      "value": 67.1,
       "read": "Neutral money flow"
     }
   },

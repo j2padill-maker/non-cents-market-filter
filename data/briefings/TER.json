@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-13T18:24:58.927221-08:00",
+  "generated_at": "2026-11-14T12:30:07.310133-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "S&P 500 Top Movers for Nov. 13, 2026: Charter Communications Leads Gainers, AMD Leads Losers",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=be3fdb8d07915e0be2cd4515b98267b2b4974a4811a7553772ecbabacec06658",
+      "datetime": 1794600354,
+      "summary": "S&P 500 top movers on Nov. 13, 2026: Charter Communications led gainers at 4.58%, while Advanced Micro Devices led losers at -9.42%."
+    },
+    {
+      "headline": "S&P 500 Top Movers: Today's US Session Gainers and Losers",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=efc0c08c5a5019a16ad710e064b263e08fed80d34e428ee716c24e13eaa6035e",
+      "datetime": 1794591357,
+      "summary": "S&P 500 top movers for today's US session: Charter Communications and Texas Pacific Land lead gainers, while Advanced Micro Devices and Dell lead decliners."
+    },
+    {
+      "headline": "S&P 500 Gap-Down Stocks in the Nov. 13 Session",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=ebe545aa5ebce7afb67bfb2416115341c53558ac02b667d06d0b106099a69eae",
+      "datetime": 1794584168,
+      "summary": "Nov. 13 S&P 500 gap-down stocks include AMD, Coherent, Dell, Sandisk, Marvell, Lumentum and others, with session losses and several double-digit gaps."
+    },
     {
       "headline": "Teradyne Benefits From Strong Test Demand: Can It Beat KLAC & COHU?",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=2ac684b08ad3ae860c58e13128120e36fbc41f62e01173db69aacad0c5c11c51",
       "datetime": 1794580971,
       "summary": "Many of the 30 stocks in the Philadelphia Semiconductor Index have lost more than half their value. Three beaten-down chipmakers each face a dated test that will decide whether they recover, and only one has a clear shot."
-    },
-    {
-      "headline": "Cisco's Q1 Earnings Beat Estimates, Strong Networking Aids Revenues",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8bd6d59b841f9fb6b5ac1129e0860c30ffe2e3f32bbd88ab6ba88c7636f67612",
-      "datetime": 1794579120,
-      "summary": "CSCO's Q1 fiscal 2027 earnings beat estimates as networking and AI demand fuel revenue growth, prompting higher fiscal 2027 guidance despite margin pressures."
-    },
-    {
-      "headline": "Teradyne Stock: Analyst Estimates & Ratings",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=1dd7e011da4af5dc1e0bbca7563b20cf65c308e9cb5c785f19d83ea489f52214",
-      "datetime": 1794577352,
-      "summary": "Teradyne has substantially outperformed the broader market over the past year, with Wall Street analysts maintaining a highly bullish outlook on its growth prospects."
-    },
-    {
-      "headline": "Can AI Infrastructure Demand Sustain NVIDIA's Q3 Data Center Growth?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0b71b3e45c1a6fa9b28b44b1dcef96aee34cd7e26453244d2a324f68acab7175",
-      "datetime": 1794569100,
-      "summary": "NVDA's Q3 Data Center growth is set to benefit from soaring AI infrastructure spending, expanding customer demand and the ramp-up of its Vera Rubin platform."
     }
   ],
   "filings": [

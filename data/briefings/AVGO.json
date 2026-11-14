@@ -2,7 +2,7 @@
   "ticker": "AVGO",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-13T18:25:07.428071-08:00",
+  "generated_at": "2026-11-14T12:30:14.888547-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "HSBC Just Downgraded Nvidia and Cut Its Target to $170",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7b1f0c8236c6fde38b0c8c8cc31854e644439bd57f5bce1007d3e3ebaa5c8e41",
+      "datetime": 1794675833,
+      "summary": "Nvidia's sales are doubling and demand outruns supply, yet a CEO exit has analysts bailing at the fastest pace in years. Is the market pricing in a real threat, or just a leadership discount that Tuesday's earnings could erase?"
+    },
+    {
+      "headline": "NVDA, AMD, CRWV and More: 5 Stocks Investors Couldn\u2019t Stop Buzzing About This Week",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=c7c330d8dae70de6d9e45f461994920b9e1ac84f9aaa7e7e55ed603e87f94699",
+      "datetime": 1794644278,
+      "summary": "tail investors talked up five hot stocks during the week (Nov. 9 to Nov. 13) on X and Reddit&#39;s r/WallStreetBets: NVDA, AMD, TSLA, CSCO, CRWV"
+    },
+    {
+      "headline": "Benzinga Bulls and Bears: Nvidia, Rocket Lab, Nebius",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=e3e75e6279dad2734d769da5a3d6874e2ee442b4c55d458a2aff7067387da91d",
+      "datetime": 1794644243,
+      "summary": "Benzinga examined the prospects for many investors\u2019 favorite stocks over the last week \u2014 here\u2019s a look at some of our top stories."
+    },
+    {
+      "headline": "Arista Grew 58.5% Last Quarter: Does Nvidia\u2019s CEO Exit Make It a Buy, or a Risk?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=5169509be57c5ba769a15e689e8f9c6212cb9ce1d6490411a44a5463768d0f3d",
+      "datetime": 1794641374,
+      "summary": "Key TakeawaysJensen Huang resigned as Nvidia\u2019s CEO on November 12, and chip stocks like AMD and Broadcom fell sharply. That puts Arista Networks\u2019 pitch of working with many chip vendors in the spotlight."
+    },
+    {
+      "headline": "Review & Preview: Moving On",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=3f978bde145e006c963a38d189dacb9076c981e44f4b0c4aedcde7532df2fcb5",
+      "datetime": 1794617700,
+      "summary": "Indexes ended the week higher despite Nvidia\u2019s dramatic slide."
+    },
+    {
       "headline": "Can You Justify Buying Dynatrace Stock Today?",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=ae8c45308cd8574df823a1e867e922c3cd07019364bb4b53874a2a68fdd0ecc2",
       "datetime": 1794616878,
       "summary": "For questions about this article or underlying research, email help@trefis.com."
-    },
-    {
-      "headline": "Wall Street stocks mostly lower as Nvidia extends slump",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0d9b9cfa98b5ec996c26cf12ec3cac006164623cc2af91af3c48da84732a5b82",
-      "datetime": 1794611224,
-      "summary": "Wall Street stocks mostly fell Friday as tech shares remained under pressure following the shock downfall of Nvidia's chief Jensen Huang, while the dollar rose following additional data that showed US inflation is persisting.\"There is certainly a defensive leadership as we look at the sectors, which points to some caution,\" said Kourkafas, who expects AI to be in the spotlight again next week when"
-    },
-    {
-      "headline": "Nvidia Has Real Problems\u2014but Don\u2019t Fall For Fear Mongering",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4cd987a41e895ec2d6ab8fe4c3ae20086074b4ca94ff53465632109103d4b4fd",
-      "datetime": 1794609600,
-      "summary": "Yes, Nvidia helps finance the AI buildout. Just used the right number when evaluating the impact."
-    },
-    {
-      "headline": "Stock Market Today, Nov. 13: Nvidia Slides After HSBC Downgrades Stock to Hold on CEO Uncertainty",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=28491480e51cd86ee8d4dde4c472b6a173779ace8be0593b75cf414cc3896219",
-      "datetime": 1794608402,
-      "summary": "On Nov. 13, 2026, Nvidia shares faced a fresh HSBC downgrade as investors weighed leadership changes and an upcoming earnings call."
-    },
-    {
-      "headline": "Nvidia's competitors pounce, and what GPU rental prices say about the AI race",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=1fc1d13f73bcf983a5eb38cc36c23709e38240955653931730eeff6a5cf85c19",
-      "datetime": 1794608151,
-      "summary": "Deirdre Bosa discusses hyperscalers stock rising in the wake of Nvidia's (NVDA) scandal, Tim Cook remaining loyal to Apple (AAPL) after Trump's post, and breaking down the AI trade. Deirdre Bosa then sits down with Silicon Data CEO Carmen Li to talk about turning AI computing into a commodity, 'Deirdre Bosa Live' airs every day at 4 p.m. Tune in daily to hear how the latest developments in AI and "
-    },
-    {
-      "headline": "Thierry Borgeat Says Chip Stocks Peak Every Two Years. His Chart Points to Another Top",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=dc7deb43da3298722132c60410a3e61ac21cd3bf0aafb3d81264e9317731f033",
-      "datetime": 1794607633,
-      "summary": "Nvidia just shed nearly 29% in a month, and one trader's circled chart says chip stocks have been here before. Four hard data points will show whether this selloff is a cycle top or just a pause."
     }
   ],
   "filings": [

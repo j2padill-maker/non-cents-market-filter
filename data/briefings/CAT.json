@@ -2,7 +2,7 @@
   "ticker": "CAT",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-13T18:25:15.220238-08:00",
+  "generated_at": "2026-11-14T12:30:19.478496-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "China, U.S. discuss tariff cuts ahead of Trump-Xi meeting next week",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ac550e6b66b87930450930a3377df025d6ee62acae4829518308c27617a0e8e4",
+      "datetime": 1794648107,
+      "summary": "Investing.com -- China and the United States discussed tariff reductions and agricultural trade during their first trade council meeting on Friday, as both countries seek progress on a proposed $60 billion tariff-cutting agreement ahead of talks between Presidents Donald Trump and Xi Jinping."
+    },
+    {
+      "headline": "Tariffs Pushed Prices Up. Why Retail and Industrial Investors Shouldn't Expect a Quick Reversal",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=351250997829e43c4c7731cddf6ceab509fd8a8c13370ff106a2e1a9ab255429",
+      "datetime": 1794627300,
+      "summary": "Tariffs are a moving target, and rising costs tend to be sticky, which is bad news for companies and retail customers."
+    },
     {
       "headline": "Kevin Simpson Is Buying More Caterpillar as an AI Trade That Isn\u2019t Just AI",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=f07b06003096eb9190eb24add9efc63cb357f47f7cb1415d8b4de0b737d27f2b",
       "datetime": 1794596773,
       "summary": "The stock market is actually doing pretty OK."
-    },
-    {
-      "headline": "You Can Do Better Than Tesla: 3 Industrial Stocks With More Upside",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e19938c21bd6926d02247106db897d39492ea23782f24a302e24782245d6d063",
-      "datetime": 1794589500,
-      "summary": "AI-driven electricity demand and defense needs have given these three companies record order books that stretch for years."
-    },
-    {
-      "headline": "The 5 Best Stocks in Ken Fisher\u2019s Portfolio",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=bf56967c3a4a1e9be6eb98d5f53b1e8b9c175e5d8e781669280538d3097e0d21",
-      "datetime": 1794581618,
-      "summary": "Key TakeawaysFisher Investments\u2019 13F for the quarter ended Sept. 30, filed Nov."
     }
   ],
   "filings": [

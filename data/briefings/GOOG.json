@@ -2,7 +2,7 @@
   "ticker": "GOOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-13T18:25:17.576720-08:00",
+  "generated_at": "2026-11-14T12:30:21.654887-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Booking Holdings vs. GameStop: Which Consumer Stock Is a Better Buy for 2027?",
+      "headline": "Planet Labs PBC vs. Red Cat: Which Industrials Stock Is a Better Buy for 2027?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3d21a5595048a28603dc24ca626185afcb5bf028cf53f05755c2b857d17a77c7",
-      "datetime": 1794616322,
-      "summary": "Booking earns a high-margin travel business with strong free cash flow, while GameStop is mid-pivot toward capital allocation. The valuation gap between them is narrower than the business models suggest."
+      "url": "https://finnhub.io/api/news?id=9ad4592475103d0ad1cfe53f215ec0b342314746fefe601f503228e370c0d137",
+      "datetime": 1794680402,
+      "summary": "Satellite scale meets drone agility, but one company's revenue jumped 508% while the other's forward multiple tells a very different valuation story."
     },
     {
-      "headline": "Nvidia's competitors pounce, and what GPU rental prices say about the AI race",
+      "headline": "Crocs And 2 Other Undervalued Cash Flow Stocks",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=1fc1d13f73bcf983a5eb38cc36c23709e38240955653931730eeff6a5cf85c19",
-      "datetime": 1794608151,
-      "summary": "Deirdre Bosa discusses hyperscalers stock rising in the wake of Nvidia's (NVDA) scandal, Tim Cook remaining loyal to Apple (AAPL) after Trump's post, and breaking down the AI trade. Deirdre Bosa then sits down with Silicon Data CEO Carmen Li to talk about turning AI computing into a commodity, 'Deirdre Bosa Live' airs every day at 4 p.m. Tune in daily to hear how the latest developments in AI and "
+      "url": "https://finnhub.io/api/news?id=53ebebd1332b86f5ce2216a09c9ac202ff7d59b7289a644c8c102d4310a95a83",
+      "datetime": 1794679768,
+      "summary": "Inflation sits back in the spotlight after the latest US consumer price report came in hotter than forecasts, and higher interest rates are back on the table. When borrowing costs stay elevated, cash flow matters more than ever because it shows how much real money a business generates after the headlines fade. This article walks through three cash rich stocks that our screen flags as priced below "
     },
     {
-      "headline": "With Nvidia Floundering, AI Bulls Need More Than Spending. Watch Revenue.",
+      "headline": "Anthropic\u2019s $1.4 Trillion IPO Is Nov. 19. U.S. AI Giants Are Trouncing China 10-to-1",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e2a6cfdc9fa5aa1b3ac4d87be37bed69f8aad3644e04b0786a57faf08452730d",
-      "datetime": 1794607980,
-      "summary": "Capital spending shows what AI companies are building. Revenue per gigawatt offers clues to demand for that computing power."
+      "url": "https://finnhub.io/api/news?id=903bf309c05b3b6dcdc4f12da127f74fda96c206911028f773cce73acac473f7",
+      "datetime": 1794671431,
+      "summary": "Days before Anthropic's blockbuster market debut, a revenue comparison with China's top AI players exposes how lopsided the race has become. The harder question is whether that lead can justify a price tag this enormous."
     },
     {
-      "headline": "What Does Dominion Energy Offer That NiSource Does Not?",
+      "headline": "AMD Just Beat Nvidia by the Widest Margin Since 1999",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=01b081017a2f5116e8dff1e575005bd90b66a992e44dfb82384244b01d92f2da",
-      "datetime": 1794606660,
-      "summary": "For questions about this article or underlying research, email help@trefis.com."
+      "url": "https://finnhub.io/api/news?id=710af67290595198117a8ecffe16cbd172e6d557c721cf6073c755cb6692621c",
+      "datetime": 1794668869,
+      "summary": "One chipmaker posted record results and landed marquee cloud customers. Its biggest rival lost its CEO and stumbled again. The week produced a split no one has seen in 27 years, and the aftermath may be messier than the headline suggests."
     },
     {
-      "headline": "Cerebras stock surges on Microsoft deal: What it means for Nvidia",
+      "headline": "Billionaire Bill Ackman Says There\u2019s a Huge Disconnect in Wall Street\u2019s Expectations for Amazon, Microsoft, Meta, and Alphabet",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b749c047c398794b579255970d097d582b48edc9bbfde7b80ffe7cacfa983674",
-      "datetime": 1794605483,
-      "summary": "Deirdre Bosa outlines how various AI companies are storming the AI castle and searching for Nvidia (NVDA) alternatives, such as Cerebras' (CBRS) deal with Microsoft (MSFT)."
+      "url": "https://finnhub.io/api/news?id=d65d8020216f5e6d7add2864d5dd9203bafa39994057094f042e2e3f025f73ad",
+      "datetime": 1794668702,
+      "summary": "Wall Street expects the hyperscalers to keep up their heavy capital expenditures, but it's worried that the revenue growth they are expecting to result from that spending might not show up."
     },
     {
-      "headline": "Alphabet (GOOGL) Faces Uber Deal Talk, Space Chip Test And \u20ac1.66 Billion Fine",
+      "headline": "Harvard Cut Nvidia by a Third and Bought AMD",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=de8892ffbae6467e690f5b019f88cf81ff687af9eef424277c82c14142a477c8",
-      "datetime": 1794604221,
-      "summary": "Alphabet (NasdaqGS:GOOGL) is reportedly exploring a potential tie-up with Uber that could combine the rideshare network with Waymo's autonomous technology. Google has unveiled \"Project Suncatcher\", an orbital experiment designed to test its AI accelerator chips in space-based data centers. The group faces renewed legal attention around a \u20ac1.66b EU advertising fine while Tesla's robotaxis now opera"
+      "url": "https://finnhub.io/api/news?id=9ea285b8c1b9e1a10d6d8b27c5449e6ed352c5638848f9a8b2de92accdb8672f",
+      "datetime": 1794667080,
+      "summary": "Harvard's endowment rotated inside AI chips just before a brutal selloff hit one of them. Since then, the two stocks have moved very differently, and a closer look at the filing shows who really came out ahead."
     }
   ],
   "filings": [
@@ -82,54 +82,54 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-12",
+  "data_asof": "2026-11-13",
   "price": {
-    "last": 295.35,
-    "open": 290.55,
-    "prev_close": 290.63,
-    "move_day_pct": 1.62,
-    "move_open_close_pct": 1.65,
-    "move_week_pct": 4.83
+    "last": 292.52,
+    "open": 299.89,
+    "prev_close": 295.35,
+    "move_day_pct": -0.96,
+    "move_open_close_pct": -2.46,
+    "move_week_pct": 3.03
   },
   "indicators": {
     "rsi14": {
-      "value": 41.2,
-      "read": "Neutral"
+      "value": 39.5,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -13.01,
-      "signal": -13.514,
-      "hist": 0.503,
-      "hist_prev": -0.636,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": -12.097,
+      "signal": -13.23,
+      "hist": 1.134,
+      "hist_prev": 0.503,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 347.34,
-      "lower": 258.87,
-      "mid": 303.11,
-      "pctb": 0.412,
+      "upper": 342.49,
+      "lower": 259.28,
+      "mid": 300.89,
+      "pctb": 0.399,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 8.27,
+      "value": 7.23,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -25.89,
-      "read": "26% below its 52-week high"
+      "value": -26.6,
+      "read": "27% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 336.36,
-      "pct": -12.19,
-      "read": "12% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 336.13,
+      "pct": -12.97,
+      "read": "13% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 10.04,
-      "pct_of_price": 3.4,
+      "value": 10.13,
+      "pct_of_price": 3.46,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.98,
+      "value": 0.82,
       "read": "Roughly average volume"
     },
     "mfi14": {
@@ -139,6 +139,6 @@
   },
   "low_52w": 272.8,
   "high_52w": 398.54,
-  "ma50": 326.04,
-  "ma200": 336.36
+  "ma50": 325.11,
+  "ma200": 336.13
 }

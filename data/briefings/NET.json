@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-13T18:24:46.700803-08:00",
+  "generated_at": "2026-11-14T12:29:56.788119-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Intellicheck shares are trading higher after the company reported better-than-expected Q4 financial results.",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=3c4cdc062ce0e5e1b76b5b283e87f6687861e3a9f46fda0f8ec8dd0b96bead26",
+      "datetime": 1794581176,
+      "summary": ""
+    },
     {
       "headline": "LMSYS Org Launches SGLang Consortium with NVIDIA, AMD, Intel, Google, Meta, Cloudflare, Modal and RadixArk to Advance Open-Source AI Inference",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=f39d3661915b551143d139d975b7115f9124cef5b3fe4128d788477891a64ab9",
       "datetime": 1794489780,
       "summary": "AI is making hackers faster and more dangerous, but Fortinet, Cloudflare, and CrowdStrike have shown investors how they plan to win as the technology advances."
-    },
-    {
-      "headline": "Alger Mid Cap 40 ETF Q3 2026 Portfolio Review",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=6c70afa11e9a80b95246dda58cdf25dc5c226594e6389b493929faefb943252c",
-      "datetime": 1794489540,
-      "summary": "We believe Cloudflare's extensive network and expanding product portfolio position it to benefit from rising internet traffic, growing cybersecurity needs, and enterprise adoption of AI."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-12",
+  "data_asof": "2026-11-13",
   "price": {
-    "last": 318.5,
-    "open": 306.28,
-    "prev_close": 315.0,
-    "move_day_pct": 1.11,
-    "move_open_close_pct": 3.99,
-    "move_week_pct": 30.26
+    "last": 305.81,
+    "open": 325.0,
+    "prev_close": 318.5,
+    "move_day_pct": -3.98,
+    "move_open_close_pct": -5.9,
+    "move_week_pct": 13.79
   },
   "indicators": {
     "rsi14": {
-      "value": 54.4,
+      "value": 50.4,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -6.831,
-      "signal": -10.564,
-      "hist": 3.733,
-      "hist_prev": 1.95,
+      "macd": -5.637,
+      "signal": -9.578,
+      "hist": 3.942,
+      "hist_prev": 3.733,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 344.05,
-      "lower": 250.27,
-      "mid": 297.16,
-      "pctb": 0.728,
+      "upper": 344.67,
+      "lower": 250.6,
+      "mid": 297.63,
+      "pctb": 0.587,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 98.83,
-      "read": "99% above its 52-week low"
+      "value": 90.9,
+      "read": "91% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -11.76,
-      "read": "Modestly below its 52-week high"
+      "value": -15.27,
+      "read": "15% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 252.64,
-      "pct": 26.07,
-      "read": "26% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 253.27,
+      "pct": 20.74,
+      "read": "21% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 21.19,
-      "pct_of_price": 6.65,
+      "value": 21.44,
+      "pct_of_price": 7.01,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.91,
+      "value": 1.09,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 53.3,
+      "value": 47.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 360.93,
-  "ma50": 319.61,
-  "ma200": 252.64
+  "ma50": 320.04,
+  "ma200": 253.27
 }

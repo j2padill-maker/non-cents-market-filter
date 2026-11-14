@@ -2,7 +2,7 @@
   "ticker": "TPL",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-13T18:25:12.755219-08:00",
+  "generated_at": "2026-11-14T12:30:18.103777-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,27 @@
   ],
   "news": [
     {
+      "headline": "Should You Sell Texas Pacific Land (TPL) Now That the Blue Wave is Here?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=97d7536a0d8b99e7bf15e4ffb6d00cd6d15bffdcb321a21fe7744c8cda4b4337",
+      "datetime": 1794676937,
+      "summary": "We just published a list of the 10 Toxic Energy Stocks to Sell Now That the Blue Wave is Here, and Texas Pacific Land Corporation (NYSE:TPL) ranked 7th on this list. Energy stocks have enjoyed a strong rally this year, driven primarily by supply disruptions in the Middle East and the Russia-Ukraine war. The blockage [\u2026]"
+    },
+    {
+      "headline": "S&P 500 Top Movers for Nov. 13, 2026: Charter Communications Leads Gainers, AMD Leads Losers",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=be3fdb8d07915e0be2cd4515b98267b2b4974a4811a7553772ecbabacec06658",
+      "datetime": 1794600354,
+      "summary": "S&P 500 top movers on Nov. 13, 2026: Charter Communications led gainers at 4.58%, while Advanced Micro Devices led losers at -9.42%."
+    },
+    {
+      "headline": "S&P 500 Top Movers: Today's US Session Gainers and Losers",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=efc0c08c5a5019a16ad710e064b263e08fed80d34e428ee716c24e13eaa6035e",
+      "datetime": 1794591357,
+      "summary": "S&P 500 top movers for today's US session: Charter Communications and Texas Pacific Land lead gainers, while Advanced Micro Devices and Dell lead decliners."
+    },
+    {
       "headline": "Is Texas Pacific Land (TPL) Undervalued On Stronger Earnings?",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=6420b7de61bd630b5e3083a4c56c5d321b0d38773233c0c20499f51d506f4c29",
@@ -24,39 +45,18 @@
       "summary": "Texas Pacific Land earnings and domicile shift draw investor focus Texas Pacific Land (TPL) is back in the spotlight after releasing third quarter and year to date 2026 results, reporting higher revenue, net income and earnings per share compared with the same periods a year earlier. Investors have rewarded Texas Pacific Land over longer horizons, with a 3-year total shareholder return of 62.13% a"
     },
     {
+      "headline": "Jim Cramer Says No to This Energy Stock",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=9cb29a137d534987e45f6d729e1bfa48cf655fd5b3dd8742a95acc211ac83747",
+      "datetime": 1794568741,
+      "summary": "Cramer rejects Texas Pacific Land and Bright Horizons, but endorses Commvault, citing strong earnings and its CEO."
+    },
+    {
       "headline": "Texas Pacific Land (TPL) Stock Could Look Rich Despite Record Q3 Results",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=210a231108da6c159283fa7aa86683bb7714d0401c2b8fc871cf44b740e03e41",
       "datetime": 1794547107,
       "summary": "Texas Pacific Land has delivered a powerful long term run for shareholders, yet the recent pullback puts a sharper spotlight on whether today's valuation is still supported by its earnings profile. With fresh headlines around record results and fresh cash generation, the key issue is how much of that story is already baked into the current share price. Over the past 5 years the stock has gained 10"
-    },
-    {
-      "headline": "The Blue Wave Crashed on Texas Pacific Land. That Could Be an Opportunity.",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=550f3fdf3a7c3725c4862d700383f46125ec0a1dd10b0b9173b44f191bc49591",
-      "datetime": 1794525240,
-      "summary": "Data centers may be on the outs with voters, but the owner of vast amounts of land has gotten hit harder than it deserves."
-    },
-    {
-      "headline": "The Texas AI Meltdown: Buy The Toll Road, Not The Dream",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=3fb83e2a84f05862ff58d6294cc0e9d341d6d5b966981abdb1551223313e0390",
-      "datetime": 1794470403,
-      "summary": "Texas Pacific Land's durable cash flows are expected to drive about 30% total returns in 12 months, independent of AI data-center outcomes. See more analysis here."
-    },
-    {
-      "headline": "I'm Putting My Financial Future Behind These Stocks",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=e154a8131f1f2d8e7a7dd572cd9a8a3bcbbcc9a6d1ba9da08ea407e4e1e37c54",
-      "datetime": 1794468600,
-      "summary": "Looking for long-term investment ideas? Click here to read about the bull case for Texas Pacific Land (TPL) and QXO."
-    },
-    {
-      "headline": "Is Crescent Energy's Royalty Business Its Next Big Growth Engine?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7396bca749d2d16c3dcb91196f4e712c0c13f9608d85a0c097619ee9821b138e",
-      "datetime": 1794334380,
-      "summary": "CRGY's capital-light royalties business offers cash flow without drilling costs, while the Devon deal could bring a major boost in scale and output."
     }
   ],
   "filings": [

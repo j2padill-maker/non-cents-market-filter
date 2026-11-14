@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-13T18:24:44.487857-08:00",
+  "generated_at": "2026-11-14T12:29:55.509050-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Datadog\u2019s Q4 Guide Is Flat at $1.2 Billion: Sell the Slowdown, or Buy the Dip?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=5c276c2c978878d1a6a0fe4364f09a54b04a4ec5b044ecc26452e0f1d9e33554",
+      "datetime": 1794675929,
+      "summary": "Key TakeawaysDatadog grew third-quarter revenue 35% to $1. 20 billion, then guided the fourth quarter roughly flat as its largest AI customer cut usage."
+    },
     {
       "headline": "Can You Justify Buying Dynatrace Stock Today?",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=f516aee1aeb9062d05b1b91c35dbc0f93bab1ab382be077e345fbcce9835e6a1",
       "datetime": 1794571971,
       "summary": "For questions about this article or underlying research, email help@trefis.com."
-    },
-    {
-      "headline": "Can Nebius Sustain 571% Revenue Growth Beyond Its Q3 AI Cloud Boom?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=cc7cd4ae5b3e4c6bd8f89bb8a7af2b1846a25c5f947399630cdac2c14f8fd601",
-      "datetime": 1794570840,
-      "summary": "NBIS' Q3 revenues surged 571% on robust AI infrastructure demand, while rising customer commitments and aggressive capacity expansion fuel its growth outlook."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-12",
+  "data_asof": "2026-11-13",
   "price": {
-    "last": 184.46,
-    "open": 178.7,
-    "prev_close": 184.38,
-    "move_day_pct": 0.04,
-    "move_open_close_pct": 3.22,
-    "move_week_pct": 5.65
+    "last": 184.16,
+    "open": 188.24,
+    "prev_close": 184.46,
+    "move_day_pct": -0.16,
+    "move_open_close_pct": -2.17,
+    "move_week_pct": 2.86
   },
   "indicators": {
     "rsi14": {
-      "value": 31.6,
+      "value": 31.5,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -22.345,
-      "signal": -15.548,
-      "hist": -6.797,
-      "hist_prev": -8.35,
+      "macd": -22.229,
+      "signal": -16.884,
+      "hist": -5.345,
+      "hist_prev": -6.797,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 310.39,
-      "lower": 150.69,
-      "mid": 230.54,
-      "pctb": 0.211,
+      "upper": 309.32,
+      "lower": 145.47,
+      "mid": 227.39,
+      "pctb": 0.236,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 79.76,
-      "read": "80% above its 52-week low"
+      "value": 79.47,
+      "read": "79% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -37.1,
+      "value": -37.2,
       "read": "37% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 201.08,
-      "pct": -8.27,
-      "read": "8% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 201.36,
+      "pct": -8.54,
+      "read": "9% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 14.75,
-      "pct_of_price": 8.0,
+      "value": 14.44,
+      "pct_of_price": 7.84,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.75,
+      "value": 0.86,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 26.0,
+      "value": 25.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 293.26,
-  "ma50": 244.14,
-  "ma200": 201.08
+  "ma50": 243.53,
+  "ma200": 201.36
 }
