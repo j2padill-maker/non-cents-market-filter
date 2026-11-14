@@ -324,6 +324,11 @@ DROP_SESSIONS = 3
 AT_LOW_PCT = 5.0            # at the 52w low: within 5%
 NEAR_LOW_PCT = 10.0         # near the 52w low: 5-10%
 RSI_CHANGE_DAYS = 10        # Momentum tab: RSI now vs this many sessions ago
+# Trend sub-tab: 3-month and 12-1 momentum, compared with SPY and RSP.
+TREND_3M_DAYS = 63          # ~3 months of sessions
+TREND_SKIP_DAYS = 21        # 12-1 skips the most recent ~1 month
+TREND_12M_DAYS = 252        # ~12 months of sessions
+TREND_BENCHMARKS = ["SPY", "RSP"]   # cap-weighted and equal-weight S&P 500
 
 OVR_DROP_PCT = -8.0        # worst single session within DROP_SESSIONS
 OVR_DROP_DAY_VOL = 2.0     # volume on that drop day vs. prior 30-day average
@@ -606,6 +611,19 @@ def get_yfinance_data(ticker):
         print(f"  yfinance error for {ticker}: {e}")
         return None
 
+def trend_returns(closes):
+    """Trend sub-tab returns in %, or None when history is too short.
+    ret_3m:   last ~63 sessions, no skip.
+    ret_12_1: from ~252 sessions ago to ~21 sessions ago (skips the latest month)."""
+    out = {"ret_3m": None, "ret_12_1": None}
+    if closes and len(closes) > TREND_3M_DAYS and closes[-1 - TREND_3M_DAYS] > 0:
+        out["ret_3m"] = round((closes[-1] / closes[-1 - TREND_3M_DAYS] - 1) * 100, 2)
+    if closes and len(closes) > TREND_12M_DAYS and closes[-1 - TREND_12M_DAYS] > 0:
+        out["ret_12_1"] = round(
+            (closes[-1 - TREND_SKIP_DAYS] / closes[-1 - TREND_12M_DAYS] - 1) * 100, 2)
+    return out
+
+
 def compute_rsi(closes, period=14):
     if not closes or len(closes) < period + 1:
         return None
@@ -770,6 +788,13 @@ def process_ticker(ticker, sector, force_news=False, yf_data=None, fund_cache=No
                 if rng > 0:
                     record["range_pos_52w"] = round(
                         max(0.0, min(1.0, (current_price - record["low_52w"]) / rng)), 3)
+
+            # Trend sub-tab: absolute returns; the app subtracts SPY/RSP.
+            tr = trend_returns(closes)
+            if tr["ret_3m"] is not None:
+                record["ret_3m"] = tr["ret_3m"]
+            if tr["ret_12_1"] is not None:
+                record["ret_12_1"] = tr["ret_12_1"]
 
             rsi = compute_rsi(closes)
             if rsi is not None and (rsi < 5 or rsi > 95):
@@ -1213,8 +1238,25 @@ def main():
               f"(need {MIN_SUCCESS:.0%}). Network problem? Keeping the existing cache.json.")
         sys.exit(1)
 
+    # Trend sub-tab benchmarks. Same windows as each stock's ret_3m / ret_12_1.
+    print("\nTrend benchmarks (SPY, RSP)...")
+    benchmarks = {}
+    try:
+        bm_batch = batch_yfinance(TREND_BENCHMARKS)
+    except Exception as e:
+        print(f"  ⚠ benchmark batch failed ({e})")
+        bm_batch = {}
+    for b in TREND_BENCHMARKS:
+        data = bm_batch.get(b) or get_yfinance_data(b)
+        if data and data.get("closes"):
+            benchmarks[b] = trend_returns(data["closes"])
+            print(f"  {b}: 3M {benchmarks[b]['ret_3m']}%  12-1 {benchmarks[b]['ret_12_1']}%")
+        else:
+            print(f"  ⚠ no data for {b}")
+
     os.makedirs("data", exist_ok=True)
     cache = {
+        "benchmarks": benchmarks,
         "generated": datetime.now(ZoneInfo("America/Los_Angeles")).isoformat(),
         "count": len(results),
         "stocks": results,

@@ -1218,6 +1218,21 @@ button.rank-stat.on { background:rgba(255,255,255,0.04); }
 .rank-chip span { color:var(--text2); margin-left:4px; }
 .rank-open { margin-top:12px; font-family:var(--font-mono); font-size:11px; padding:8px 12px; min-height:36px; border-radius:8px; border:1px solid var(--accent-dim); background:transparent; color:var(--green); cursor:pointer; }
 .rank-thin { font-size:10px; color:var(--yellow); margin-bottom:8px; }
+/* Downtrodden / Momentum / Trend sub-tabs */
+.rank-subtabs { display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:4px; padding:4px; border-radius:12px; background:rgba(255,255,255,0.04); border:1px solid var(--border); margin:0 0 16px; }
+.rank-subtab { font-family:var(--font-display); font-weight:700; font-size:13px; min-height:44px; border-radius:9px; border:0; background:transparent; color:var(--text2); cursor:pointer; }
+.rank-subtab.on { background:rgba(0,200,83,0.14); box-shadow:inset 0 0 0 1px var(--accent); color:var(--green); }
+.trend-tag { display:inline-block; font-size:9px; font-weight:700; letter-spacing:0.5px; padding:2px 6px; border-radius:4px; border:1px solid currentColor; text-transform:uppercase; vertical-align:1px; }
+.trend-nums { display:flex; flex-direction:column; align-items:flex-end; gap:2px; font-family:var(--font-mono); font-size:13px; font-weight:700; min-width:84px; }
+.trend-nums span { font-size:9px; color:var(--text2); font-weight:400; margin-right:6px; letter-spacing:0.5px; }
+.rank-trend { font-size:11px; color:var(--text2); margin:-4px 0 10px; line-height:1.6; }
+.trend-box { position:relative; height:240px; border:1px solid var(--border); border-radius:8px; overflow:hidden; margin:4px 0 6px; display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); }
+.trend-q { padding:8px 10px; font-family:var(--font-display); font-size:10px; font-weight:700; letter-spacing:1px; display:flex; }
+.trend-axis { display:flex; justify-content:space-between; font-size:10px; color:var(--text2); }
+.trend-dot { position:absolute; width:14px; height:14px; margin:-7px 0 0 -7px; border-radius:50%; border:2px solid #060a16; padding:0; cursor:pointer; opacity:0.55; }
+.trend-dot.sel { width:20px; height:20px; margin:-10px 0 0 -10px; opacity:1; box-shadow:0 0 0 2px #ffffff; z-index:2; }
+.trend-lbl { position:absolute; font-size:11px; font-weight:700; color:var(--text); background:rgba(6,10,22,0.8); padding:1px 5px; border-radius:4px; pointer-events:none; white-space:nowrap; z-index:3; }
+@media(max-width:600px){ .trend-stats { grid-template-columns:repeat(3, minmax(0,1fr)) !important; } }
 @media(max-width:600px){
   .rot-chart { height:400px; }
   .rank-detail { padding:4px 14px 14px 14px; }
@@ -1612,7 +1627,8 @@ button.rank-stat.on { background:rgba(255,255,255,0.04); }
 <!-- ═══════════ RANKINGS ═══════════ -->
 <div id="tab-rankings" class="panel">
   <div class="panel-heading">📈 Downtrodden vs. Momentum</div>
-  <div class="panel-sub">Downtrodden score: stocks at their 52-week low (≤5%) count fully, stocks near it (5–10%) count half. Momentum: sectors ordered by strength score (RSI and distance above the 52-week low, ranked 0–100). Dot fill = RSI zone; ring = momentum signals. Tap a sector for the reasoning.</div>
+  <div class="panel-sub">Downtrodden: stocks at their 52-week low (≤5%) count fully, stocks near it (5–10%) count half. Momentum: the last few weeks — strength score, RSI zone and momentum signals. Trend: the last 3 and 12 months versus the market. Tap a sector for the reasoning.</div>
+  <div class="rank-subtabs" id="rank-subtabs" role="tablist" aria-label="Downtrodden, Momentum and Trend views"></div>
   <div id="rotation-wrap"></div>
   <div class="ranking-grid" id="ranking-grid"><div class="loading"><div class="loading-spinner"></div><div class="loading-text">CALCULATING...</div></div></div>
 </div>
@@ -3313,6 +3329,7 @@ async function loadData(){
     const data=JSON.parse(clean);
     allStocks=data.stocks||[];
     sectorSummaries=data.sector_summaries||[];
+    trendBenchmarks=data.benchmarks||{};
 
     // What the last fetch run knew about. Absent from caches written before
     // the watchlist feature existed, so default to empty instead of throwing.
@@ -3580,6 +3597,82 @@ const ZNAME={green:'green',blue:'blue',orange:'orange',red:'red',none:'grey'};
 const RING_BY_COUNT=['red','orange','blue','green'];
 const MARKET_SECTORS=new Set(['Communication Services','Consumer Discretionary','Consumer Staples','Energy','Financials','Health Care','Industrials','Information Technology','Materials','Real Estate','Utilities','S&P500 Core','Nasdaq100 Core']);
 let rotFilter='all', rotOpen=null, rotFormula=null;
+// Sub-tab: kept in memory only, so every page load starts on Downtrodden but
+// switching main tabs and back keeps your place.
+let rankSub='downtrodden';
+// Trend sub-tab: 3-month and 12-1 returns vs a benchmark (SPY or RSP).
+let trendBenchmarks={}, trendBench='SPY', trendFilter='all', trendOpen=null, trendFormula=null;
+const TREND_ORDER=['leading','turning','fading','lagging','short'];
+const TREND_COL={leading:'#00ff9d',turning:'#5aa9ff',fading:'#ff8a4c',lagging:'#ff3b5c',short:'#6b7f9e'};
+const TREND_NAME={leading:'Leading',turning:'Turning',fading:'Fading',lagging:'Lagging',short:'Short history'};
+const TREND_READ={
+  leading:'Beating the market over both 3 and 12 months — confirmed leadership.',
+  turning:'Beating the market lately but still behind over 12 months — a possible new turn, not yet a leader.',
+  fading:'A 12-month leader that has fallen behind over the last 3 months — leadership cooling.',
+  lagging:'Behind the market over both 3 and 12 months.',
+  short:'Too few stocks with 12 months of history to judge the long view yet.'};
+function trendKey(m3,m12){if(m3==null)return null;if(m12==null)return 'short';return m3>=0?(m12>=0?'leading':'turning'):(m12>=0?'fading':'lagging');}
+function fmtPts(v){return v==null?'—':(v>0?'+':v<0?'−':'')+Math.abs(v).toFixed(1);}
+function ptsCol(v){return v==null?'var(--text2)':v>=0?'#00ff9d':'#ff3b5c';}
+function computeTrend(momAll){
+  const b=trendBenchmarks[trendBench];
+  if(!b||b.ret_3m==null) return null;
+  const list=momAll.map(r=>{
+    const st=r.stocks, need=Math.max(1,Math.ceil(st.length/2));
+    const w3=st.filter(s=>s.ret_3m!=null), w12=st.filter(s=>s.ret_12_1!=null);
+    const m3=w3.length>=need?medianOf(w3.map(s=>s.ret_3m-b.ret_3m)):null;
+    const m12=(b.ret_12_1!=null&&w12.length>=need)?medianOf(w12.map(s=>s.ret_12_1-b.ret_12_1)):null;
+    return {sector:r.sector,mom:r,m3,m12,w3,w12,count:st.length,thin:r.thin,key:trendKey(m3,m12)};
+  }).filter(t=>t.key);
+  const by3=[...list].sort((a,c)=>c.m3-a.m3), by12=list.filter(t=>t.m12!=null).sort((a,c)=>c.m12-a.m12);
+  list.forEach(t=>{t.rank3=by3.indexOf(t)+1;t.rank12=t.m12!=null?by12.indexOf(t)+1:null;t.n=list.length;t.n12=by12.length;});
+  return list.sort((a,c)=>(TREND_ORDER.indexOf(a.key)-TREND_ORDER.indexOf(c.key))||(c.m3-a.m3));
+}
+function setRankSub(k){rankSub=k;renderRankings();}
+function setTrendBench(b){trendBench=b;renderRankings();}
+function setTrendFilter(f){trendFilter=f;renderRankings();}
+function toggleTrendFormula(k){trendFormula=trendFormula===k?null:k;renderRankings();}
+function toggleTrend(el){const s=el.dataset.sector;trendOpen=trendOpen===s?null:s;trendFormula=null;renderRankings();
+  if(trendOpen){const row=document.querySelector(`.ranking-item[data-trend="${CSS.escape(trendOpen)}"]`);if(row)row.scrollIntoView({behavior:'smooth',block:'center'});}}
+function trendFormulaBox(t,k){
+  const b=trendBenchmarks[trendBench], B=trendBench;
+  if(k==='t3'){
+    const s=nearestTo(t.w3,t.m3,x=>x.ret_3m-b.ret_3m);
+    return `<div class="rank-formula">
+      <p><b>3M vs ${B}</b> = <code>stock 3-month return − ${B} 3-month return</code></p>
+      <p>3-month return = price now ÷ price 63 sessions ago − 1. ${B} returned <b>${fmtPts(b.ret_3m)}%</b> over the same window. Positive = beat the market.</p>
+      ${s?`<p>Example, <b>${s.ticker}</b>: ${fmtPts(s.ret_3m)}% − (${fmtPts(b.ret_3m)}%) = <b>${fmtPts(s.ret_3m-b.ret_3m)}</b> pts</p>`:''}
+      <p><b>Sector</b> = median of its ${t.w3.length} stocks = <b>${fmtPts(t.m3)}</b> pts</p></div>`;
+  }
+  if(k==='t12'){
+    const s=t.m12!=null?nearestTo(t.w12,t.m12,x=>x.ret_12_1-b.ret_12_1):null;
+    return `<div class="rank-formula">
+      <p><b>12M vs ${B}</b> = <code>stock 12-1 return − ${B} 12-1 return</code></p>
+      <p>12-1 return = price 21 sessions ago ÷ price 252 sessions ago − 1. It covers the past year but skips the latest month, the standard momentum measure. ${B}: <b>${fmtPts(b.ret_12_1)}%</b>.</p>
+      ${s?`<p>Example, <b>${s.ticker}</b>: ${fmtPts(s.ret_12_1)}% − (${fmtPts(b.ret_12_1)}%) = <b>${fmtPts(s.ret_12_1-b.ret_12_1)}</b> pts</p>`:''}
+      <p><b>Sector</b> = median of its ${t.w12.length} stocks with a full year of history = <b>${fmtPts(t.m12)}</b> pts${t.w12.length<t.count?` (${t.count-t.w12.length} newer stocks left out)`:''}</p></div>`;
+  }
+  return '';
+}
+function trendBoxHtml(list,sel){
+  const pts=list.filter(t=>t.m12!=null);
+  if(!pts.length) return '';
+  const xm=Math.max(5,...pts.map(t=>Math.abs(t.m3)))*1.15, ym=Math.max(5,...pts.map(t=>Math.abs(t.m12)))*1.15;
+  const cl=v=>Math.max(4,Math.min(96,v));
+  const X=v=>cl((v+xm)/(2*xm)*100), Y=v=>cl((ym-v)/(2*ym)*100);
+  const q=(k,align)=>`<div class="trend-q" style="background:${TREND_COL[k]}14;color:${TREND_COL[k]};${align}">${TREND_NAME[k].toUpperCase()}</div>`;
+  const s=pts.find(t=>t.sector===sel);
+  const dots=pts.map(t=>`<button class="trend-dot${t.sector===sel?' sel':''}" data-sector="${rotAttr(t.sector)}" onclick="event.stopPropagation();toggleTrend(this)" aria-label="${rotAttr(t.sector)}: 3M ${fmtPts(t.m3)}, 12M ${fmtPts(t.m12)}" title="${rotAttr(t.sector)}" style="left:${X(t.m3).toFixed(1)}%;top:${Y(t.m12).toFixed(1)}%;background:${TREND_COL[t.key]}"></button>`).join('');
+  const lbl=s?`<div class="trend-lbl" style="left:${Math.min(X(s.m3),70).toFixed(1)}%;top:calc(${Y(s.m12).toFixed(1)}% + 12px)">${rotAttr(s.sector)}</div>`:'';
+  return `<div class="rank-movers">WHERE IT SITS (all groups)</div>
+    <div class="trend-box">
+      ${q('fading','')}${q('leading','justify-content:flex-end')}${q('lagging','align-items:flex-end')}${q('turning','align-items:flex-end;justify-content:flex-end')}
+      <div style="position:absolute;left:${X(0).toFixed(1)}%;top:0;bottom:0;width:1px;background:var(--border)"></div>
+      <div style="position:absolute;top:${Y(0).toFixed(1)}%;left:0;right:0;height:1px;background:var(--border)"></div>
+      ${dots}${lbl}
+    </div>
+    <div class="trend-axis"><span>← 3M weaker</span><span>up = 12M stronger</span><span>3M stronger →</span></div>`;
+}
 function rotAttr(v){return String(v).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;');}
 function medianOf(a){if(!a.length)return null;const s=[...a].sort((x,y)=>x-y),m=s.length>>1;return s.length%2?s[m]:(s[m-1]+s[m])/2;}
 function pctRanker(vals){
@@ -3744,9 +3837,16 @@ function renderRankings(){
     return{sector,atLowPct,nearLowPct,lowScore,avgRsi};
   }).filter(Boolean);
   const downtrodden=[...data].sort((a,b)=>(b.lowScore-a.lowScore)||(b.atLowPct-a.atLowPct));
-  const momentum=computeMomentum().filter(r=>rotFilter==='all'||(rotFilter==='market')===MARKET_SECTORS.has(r.sector));
+  const momAll=computeMomentum();
+  const momentum=momAll.filter(r=>rotFilter==='all'||(rotFilter==='market')===MARKET_SECTORS.has(r.sector));
   momentum.forEach((r,i)=>r.rank=i+1);
-  renderRotation(momentum);
+  const trend=computeTrend(momAll);
+  const trendBy={}; (trend||[]).forEach(t=>trendBy[t.sector]=t);
+  const subs=[['downtrodden','Downtrodden'],['momentum','Momentum'],['trend','Trend']];
+  const subEl=document.getElementById('rank-subtabs');
+  if(subEl) subEl.innerHTML=subs.map(([k,l])=>`<button class="rank-subtab${rankSub===k?' on':''}" role="tab" aria-selected="${rankSub===k}" onclick="setRankSub('${k}')">${l}</button>`).join('');
+  if(rankSub==='momentum') renderRotation(momentum);
+  else { const w=document.getElementById('rotation-wrap'); if(w) w.innerHTML=''; }
   const chipFor=s=>`<button class="rank-chip" onclick="event.stopPropagation();showModal('${s.ticker}')">${s.ticker}<span>${Math.round(s._mscore)}</span></button>`;
   const tile=(k,label,val,color,sub)=>`<button class="rank-stat${rotFormula===k?' on':''}" onclick="toggleFormula('${k}')" aria-expanded="${rotFormula===k}" style="${rotFormula===k?`border-color:${color||'var(--accent)'}`:''}"><div class="rank-stat-k">${label}<span class="fx">ƒ</span></div><div class="rank-stat-v"${color?` style="color:${color}"`:''}>${val}</div>${sub?`<div class="rank-stat-s">${sub}</div>`:''}</button>`;
   const detail=r=>{
@@ -3759,6 +3859,7 @@ function renderRankings(){
     return `<div class="rank-detail">
       ${r.thin?`<div class="rank-thin">Only ${r.count} stocks — treat this score loosely.</div>`:''}
       <div class="rank-why">${whySentence(r)}</div>
+      ${trendBy[r.sector]?(t=>`<div class="rank-trend">Trend: <span class="trend-tag" style="color:${TREND_COL[t.key]}">${TREND_NAME[t.key]}</span> · 3M <b style="color:${ptsCol(t.m3)}">${fmtPts(t.m3)}</b> · 12M <b style="color:${ptsCol(t.m12)}">${fmtPts(t.m12)}</b> pts vs ${trendBench}</div>`)(trendBy[r.sector]):''}
       <div class="rank-stats">
         ${tile('score','STRENGTH SCORE',r.score,null,'0–100, higher = stronger')}
         ${tile('rsi','RSI (MEDIAN)',r.rsi.toFixed(1),ZCOL[r.zone.key],`${ZNAME[r.zone.key]} zone · ${r.zone.band}`)}
@@ -3772,7 +3873,10 @@ function renderRankings(){
       <button class="rank-open" data-sector="${rotAttr(r.sector)}" onclick="openSectorFromRank(this)">Open sector →</button>
     </div>`;
   };
-  document.getElementById('ranking-grid').innerHTML=`
+  const grid=document.getElementById('ranking-grid');
+  grid.style.gridTemplateColumns='1fr';
+  if(rankSub==='trend'){ grid.innerHTML=trendViewHtml(trend); return; }
+  const downCard=`
     <div class="ranking-card">
       <div class="ranking-card-header" style="color:var(--red)">🔴 Most Downtrodden Sectors</div>
       ${downtrodden.map((s,i)=>`<div class="ranking-item" onclick="switchTab('sectors',null);setTimeout(()=>showSectorDetail('${s.sector}'),100)">
@@ -3780,7 +3884,8 @@ function renderRankings(){
         <div class="ranking-info"><div class="ranking-name" style="color:${sectorColor(s.sector)}">${s.sector}</div><div class="ranking-sub"><span style="color:var(--red)">${s.atLowPct}% at</span> · <span style="color:var(--yellow)">${s.nearLowPct}% near</span> 52W low · Avg RSI ${s.avgRsi!=null?s.avgRsi.toFixed(1):'—'}</div></div>
         <div class="ranking-score" style="color:var(--red)">${s.lowScore}%</div>
       </div>`).join('')}
-    </div>
+    </div>`;
+  const momCard=`
     <div class="ranking-card">
       <div class="ranking-card-header" style="color:var(--green)">🟢 Momentum: Strongest First</div>
       ${momentum.map((r,i)=>`<div class="ranking-item" data-sector="${rotAttr(r.sector)}" onclick="toggleRot(this)">
@@ -3788,6 +3893,53 @@ function renderRankings(){
         <div class="ranking-info"><div class="ranking-name" style="color:${sectorColor(r.sector)}">${r.sector}<span class="mini-dot" style="${dotStyle(r,12)}"></span>${r.sigCount!=null?`<span class="sig-badge" style="color:${ZCOL[r.ring]};margin-left:10px">MOMENTUM ${r.sigCount}/3</span>`:''}</div><div class="ranking-sub">RSI <span style="color:${ZCOL[r.zone.key]}">${r.rsi.toFixed(1)}</span>${r.chg!=null?` (${r.chg>0?'+':''}${r.chg.toFixed(1)})`:''} · ${r.fromLow.toFixed(0)}% above low · ${r.count} stocks${r.thin?' · thin':''}</div></div>
         <div class="ranking-score" style="color:var(--green)">${r.score}</div>
       </div>${rotOpen===r.sector?detail(r):''}`).join('')}
+    </div>`;
+  grid.innerHTML=rankSub==='momentum'?momCard:downCard;
+}
+function trendViewHtml(trend){
+  const B=trendBench, b=trendBenchmarks[B];
+  const chip=(on,fn,l)=>`<button class="rot-filter${on?' on':''}" onclick="${fn}">${l}</button>`;
+  const head=`<div class="rot-card">
+    <div class="rot-top"><div class="rot-title">Trend: 3 and 12 months vs ${B}</div>
+      <div class="rot-filters">${chip(B==='SPY',"setTrendBench('SPY')",'SPY')}${chip(B==='RSP',"setTrendBench('RSP')",'RSP')}</div></div>
+    <div class="rot-filters" style="margin-bottom:10px">${['all',...TREND_ORDER.slice(0,4)].map(k=>chip(trendFilter===k,`setTrendFilter('${k}')`,k==='all'?'ALL':TREND_NAME[k].toUpperCase())).join('')}</div>
+    <details class="rot-help"><summary>How to read this</summary>
+      <p><b>3M</b>: how the typical stock in the group did over the last 3 months, minus ${B}. <b>12M</b>: the same over the past year, skipping the latest month (the standard momentum measure). Both in percentage points; positive = beat the market.</p>
+      <p><b>SPY</b> is weighted by company size, so a few giants drive it. <b>RSP</b> weights all 500 equally, closer to how these groups are measured (each stock counts the same).</p>
+      <p><b>Leading</b> = ahead on both. <b>Turning</b> = ahead lately, behind over the year. <b>Fading</b> = ahead over the year, behind lately. <b>Lagging</b> = behind on both. Momentum covers the last few weeks; this covers months.</p>
+      ${b?`<p>${B} itself: 3M ${fmtPts(b.ret_3m)}%, 12-1 ${fmtPts(b.ret_12_1)}%.</p>`:''}
+    </details>
+  </div>`;
+  if(!trend) return head+`<div class="rot-empty">Trend numbers (3-month and 12-month returns vs ${B}) arrive with the next data run.</div>`;
+  const shown=trend.filter(t=>trendFilter==='all'||t.key===trendFilter);
+  const chipFor=s=>`<button class="rank-chip" onclick="event.stopPropagation();showModal('${s.ticker}')">${s.ticker}<span>${fmtPts(s.ret_3m-b.ret_3m)}</span></button>`;
+  const tile=(k,label,val,color,sub)=>`<button class="rank-stat${trendFormula===k?' on':''}" onclick="event.stopPropagation();toggleTrendFormula('${k}')" aria-expanded="${trendFormula===k}"><div class="rank-stat-k">${label}<span class="fx">ƒ</span></div><div class="rank-stat-v" style="color:${color}">${val}</div><div class="rank-stat-s">${sub}</div></button>`;
+  const detail=t=>{
+    const by3=[...t.w3].sort((a,c)=>c.ret_3m-a.ret_3m), strong=by3.slice(0,3), weak=by3.slice(-3).reverse().filter(s=>!strong.includes(s));
+    return `<div class="rank-detail">
+      ${t.thin?`<div class="rank-thin">Only ${t.count} stocks — treat this loosely.</div>`:''}
+      <div class="rank-why">${TREND_READ[t.key]} The typical stock is <b style="color:${ptsCol(t.m3)}">${fmtPts(t.m3)}</b> pts vs ${B} over 3 months${t.m12!=null?` and <b style="color:${ptsCol(t.m12)}">${fmtPts(t.m12)}</b> over 12 months`:''}. Short-term: strength <b>${t.mom.score}</b>${t.mom.sigCount!=null?`, <b style="color:${ZCOL[t.mom.ring]}">${t.mom.sigCount} of 3</b> momentum signals`:''}.</div>
+      <div class="rank-stats trend-stats" style="grid-template-columns:repeat(3, minmax(0,1fr))">
+        <div class="rank-stat"><div class="rank-stat-k">STRENGTH</div><div class="rank-stat-v">${t.mom.score}</div><div class="rank-stat-s">last few weeks</div></div>
+        ${tile('t3',`3M VS ${B}`,fmtPts(t.m3),ptsCol(t.m3),`#${t.rank3} of ${t.n}`)}
+        ${tile('t12',`12M VS ${B}`,fmtPts(t.m12),ptsCol(t.m12),t.rank12?`#${t.rank12} of ${t.n12}`:'needs 12 mo')}
+      </div>
+      ${trendFormula?trendFormulaBox(t,trendFormula):''}
+      ${trendBoxHtml(trend,t.sector)}
+      <div class="rank-movers">Best 3 months (pts vs ${B})</div><div class="rank-chips">${strong.map(chipFor).join('')}</div>
+      ${weak.length?`<div class="rank-movers">Worst 3 months</div><div class="rank-chips">${weak.map(chipFor).join('')}</div>`:''}
+      <button class="rank-open" data-sector="${rotAttr(t.sector)}" onclick="openSectorFromRank(this)">Open sector →</button>
+    </div>`;
+  };
+  return head+`<div class="ranking-card">
+      <div class="ranking-card-header" style="color:var(--green)">📊 Trend by Group</div>
+      ${shown.length?'':'<div class="rot-empty" style="margin:12px">No groups in this category right now.</div>'}
+      ${shown.map((t,i)=>`<div class="ranking-item" data-trend="${rotAttr(t.sector)}" data-sector="${rotAttr(t.sector)}" onclick="toggleTrend(this)">
+        <div class="ranking-num" style="color:${TREND_COL[t.key]}">${i+1}</div>
+        <div class="ranking-info"><div class="ranking-name" style="color:${sectorColor(t.sector)}">${t.sector}<span class="mini-dot" style="${dotStyle(t.mom,12)}"></span></div>
+          <div class="ranking-sub"><span class="trend-tag" style="color:${TREND_COL[t.key]}">${TREND_NAME[t.key]}</span> · Strength ${t.mom.score} · ${t.count} stocks${t.thin?' · thin':''}</div></div>
+        <div class="trend-nums"><div><span>3M</span><b style="color:${ptsCol(t.m3)}">${fmtPts(t.m3)}</b></div><div><span>12M</span><b style="color:${ptsCol(t.m12)}">${fmtPts(t.m12)}</b></div></div>
+      </div>${trendOpen===t.sector?detail(t):''}`).join('')}
     </div>`;
 }
 
