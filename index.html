@@ -1217,6 +1217,11 @@ button.rank-stat.on { background:rgba(255,255,255,0.04); }
 .rank-chip { font-family:var(--font-mono); font-size:11px; padding:6px 8px; min-height:32px; border-radius:6px; border:1px solid var(--border); background:var(--bg2); color:var(--text); cursor:pointer; }
 .rank-chip span { color:var(--text2); margin-left:4px; }
 .rank-open { margin-top:12px; font-family:var(--font-mono); font-size:11px; padding:8px 12px; min-height:36px; border-radius:8px; border:1px solid var(--accent-dim); background:transparent; color:var(--green); cursor:pointer; }
+.ranking-score-btn { background:transparent; border:1px solid transparent; border-radius:8px; padding:4px 8px; min-height:44px; cursor:pointer; display:flex; align-items:center; gap:6px; }
+.ranking-score-btn:hover, .ranking-score-btn.on { border-color:rgba(255,59,92,0.45); background:rgba(255,59,92,0.06); }
+.ranking-score-btn .fx { font-family:var(--font-mono); font-size:11px; color:var(--text3); }
+.down-chip { border-color:rgba(255,59,92,0.35); }
+.down-chip.near { border-color:rgba(255,214,0,0.35); }
 .rank-thin { font-size:10px; color:var(--yellow); margin-bottom:8px; }
 /* Downtrodden / Momentum / Trend sub-tabs */
 .rank-subtabs { display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:4px; padding:4px; border-radius:12px; background:rgba(255,255,255,0.04); border:1px solid var(--border); margin:0 0 16px; }
@@ -3738,6 +3743,9 @@ function whySentence(r){
   return `${z} <b style="color:${ZCOL[r.ring]}">${r.sigCount} of 3</b> momentum signals pass → ${ZNAME[r.ring]} ring. ${read}`;
 }
 function setRotFilter(f){rotFilter=f;renderRankings();}
+let downOpen=null;
+function toggleDown(el){const s=el.dataset.sector;downOpen=downOpen===s?null:s;renderRankings();
+  if(downOpen){const row=document.querySelector(`.ranking-item[data-down="${CSS.escape(downOpen)}"]`);if(row)row.scrollIntoView({behavior:'smooth',block:'center'});}}
 function toggleFormula(k){rotFormula=rotFormula===k?null:k;renderRankings();}
 function toggleRot(el){const s=el.dataset.sector;rotOpen=rotOpen===s?null:s;rotFormula=null;renderRankings();
   if(rotOpen){const row=document.querySelector(`.ranking-item[data-sector="${CSS.escape(rotOpen)}"]`);if(row)row.scrollIntoView({behavior:'smooth',block:'center'});}}
@@ -3834,7 +3842,9 @@ function renderRankings(){
     const lowScore=Math.round((atN+NEAR_LOW_WEIGHT*nearN)/stocks.length*100);
     const withRsi=stocks.filter(s=>s.rsi14!=null);
     const avgRsi=withRsi.length?withRsi.reduce((a,s)=>a+s.rsi14,0)/withRsi.length:null;
-    return{sector,atLowPct,nearLowPct,lowScore,avgRsi};
+    const atList=stocks.filter(s=>lowTier(s.pct_from_52w_low)==='at').sort((a,b)=>a.pct_from_52w_low-b.pct_from_52w_low);
+    const nearList=stocks.filter(s=>lowTier(s.pct_from_52w_low)==='near').sort((a,b)=>a.pct_from_52w_low-b.pct_from_52w_low);
+    return{sector,atLowPct,nearLowPct,lowScore,avgRsi,total:stocks.length,atN,nearN,atList,nearList};
   }).filter(Boolean);
   const downtrodden=[...data].sort((a,b)=>(b.lowScore-a.lowScore)||(b.atLowPct-a.atLowPct));
   const momAll=computeMomentum();
@@ -3876,14 +3886,35 @@ function renderRankings(){
   const grid=document.getElementById('ranking-grid');
   grid.style.gridTemplateColumns='1fr';
   if(rankSub==='trend'){ grid.innerHTML=trendViewHtml(trend); return; }
+  const downChip=(x,cls)=>`<button class="rank-chip ${cls}" onclick="event.stopPropagation();showModal('${x.ticker}')">${x.ticker}<span>${(v=>(Math.abs(v-AT_LOW_PCT)<0.05||Math.abs(v-NEAR_LOW_PCT)<0.05)?v.toFixed(2):v.toFixed(1))(x.pct_from_52w_low)}%</span></button>`;
+  const downDetail=s=>{
+    const pts=s.atN+NEAR_LOW_WEIGHT*s.nearN, exact=pts/s.total*100;
+    const other=s.total-s.atN-s.nearN;
+    return `<div class="rank-detail">
+      ${s.total<6?`<div class="rank-thin">Only ${s.total} stocks — one stock moves this score a lot.</div>`:''}
+      <div class="rank-why"><b style="color:var(--red)">${s.lowScore}%</b> is the Downtrodden score: how much of ${s.sector} is sitting at or near its 52-week low. Stocks <span style="color:var(--red)">at</span> the low count fully, stocks <span style="color:var(--yellow)">near</span> it count half. Higher = more of the sector is beaten down.</div>
+      <div class="rank-formula">
+        <p><b>% above 52W low</b> (each stock) = <code>(Price − 52W low) ÷ 52W low × 100</code></p>
+        <p><span style="color:var(--red)"><b>At low</b></span> (≤${AT_LOW_PCT}% above): <b>${s.atN}</b> of ${s.total} stocks × 1 = <b>${s.atN}</b> ${s.atN===1?'pt':'pts'}</p>
+        <p><span style="color:var(--yellow)"><b>Near low</b></span> (${AT_LOW_PCT}–${NEAR_LOW_PCT}% above): <b>${s.nearN}</b> of ${s.total} stocks × ${NEAR_LOW_WEIGHT} = <b>${+(NEAR_LOW_WEIGHT*s.nearN).toFixed(1)}</b> ${NEAR_LOW_WEIGHT*s.nearN===1?'pt':'pts'}</p>
+        <p>The other ${other} stock${other===1?'':'s'} (more than ${NEAR_LOW_PCT}% above) = 0 pts</p>
+        <p><b>Score</b> = <code>(${s.atN} + ${+(NEAR_LOW_WEIGHT*s.nearN).toFixed(1)}) ÷ ${s.total} × 100</code> = ${exact.toFixed(1)}% → <b style="color:var(--red)">${s.lowScore}%</b></p>
+        <p style="color:var(--text3)">The "at" and "near" percentages above are each rounded on their own, so adding them by hand can be off by 1.</p>
+      </div>
+      ${s.atList.length?`<div class="rank-movers">At low — tap for details</div><div class="rank-chips">${s.atList.map(x=>downChip(x,'down-chip')).join('')}</div>`:''}
+      ${s.nearList.length?`<div class="rank-movers">Near low</div><div class="rank-chips">${s.nearList.map(x=>downChip(x,'down-chip near')).join('')}</div>`:''}
+      ${!s.atList.length&&!s.nearList.length?`<div class="rank-movers">No stocks within ${NEAR_LOW_PCT}% of their 52W low.</div>`:''}
+      <button class="rank-open" data-sector="${rotAttr(s.sector)}" onclick="openSectorFromRank(this)">Open sector →</button>
+    </div>`;
+  };
   const downCard=`
     <div class="ranking-card">
       <div class="ranking-card-header" style="color:var(--red)">🔴 Most Downtrodden Sectors</div>
-      ${downtrodden.map((s,i)=>`<div class="ranking-item" onclick="switchTab('sectors',null);setTimeout(()=>showSectorDetail('${s.sector}'),100)">
+      ${downtrodden.map((s,i)=>`<div class="ranking-item" data-down="${rotAttr(s.sector)}" onclick="switchTab('sectors',null);setTimeout(()=>showSectorDetail('${s.sector}'),100)">
         <div class="ranking-num" style="color:${i<3?'var(--red)':'var(--text3)'}">${i+1}</div>
         <div class="ranking-info"><div class="ranking-name" style="color:${sectorColor(s.sector)}">${s.sector}</div><div class="ranking-sub"><span style="color:var(--red)">${s.atLowPct}% at</span> · <span style="color:var(--yellow)">${s.nearLowPct}% near</span> 52W low · Avg RSI ${s.avgRsi!=null?s.avgRsi.toFixed(1):'—'}</div></div>
-        <div class="ranking-score" style="color:var(--red)">${s.lowScore}%</div>
-      </div>`).join('')}
+        <button class="ranking-score ranking-score-btn${downOpen===s.sector?' on':''}" style="color:var(--red)" data-sector="${rotAttr(s.sector)}" aria-expanded="${downOpen===s.sector}" title="How is this calculated?" onclick="event.stopPropagation();toggleDown(this)">${s.lowScore}%<span class="fx">ƒ</span></button>
+      </div>${downOpen===s.sector?downDetail(s):''}`).join('')}
     </div>`;
   const momCard=`
     <div class="ranking-card">
