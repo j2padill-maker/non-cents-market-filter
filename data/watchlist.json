@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated": "2026-11-09T00:25:25.073Z",
-  "rev": 63,
+  "updated": "2026-11-13T04:06:21.059Z",
+  "rev": 67,
   "source": "sync",
   "lists": [
     {
@@ -82,6 +82,17 @@
         "GOOG"
       ],
       "briefings": true
+    },
+    {
+      "name": "Tracked \u00b7 (auto)",
+      "kind": "watchlist",
+      "tickers": [
+        "GENB",
+        "GMAB",
+        "SNY",
+        "NVO"
+      ],
+      "briefings": false
     }
   ]
 }

@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-12T17:36:21.628337-08:00",
+  "generated_at": "2026-11-13T18:24:54.422248-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "10x Genomics' Xenium Platform to Support Breast Cancer Biomarker Study",
+      "headline": "GE HealthCare Forms MAGNUS Neuro Alliance to Advance MRI Research",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0ba3db4efc73b7b1e6563da580a03f156ceb09bd7bf165daae908f021d1db607",
-      "datetime": 1794504420,
-      "summary": "TXG's Xenium platform is set to power a 500-patient breast cancer biomarker study, expanding its oncology research footprint and precision diagnostics potential."
+      "url": "https://finnhub.io/api/news?id=382545d0a955c341c70d9e465641d43b2bc1e7483c82ae6160b1777a5878fe4a",
+      "datetime": 1794584160,
+      "summary": "GEHC's MAGNUS Neuro Alliance aims to advance neuroscience research, expand MRI applications and develop imaging biomarkers for neurological conditions."
     },
     {
-      "headline": "Here's Why You Should Retain AMN Stock in Your Portfolio for Now",
+      "headline": "Reasons to Hold AngioDynamics Stock in Your Portfolio for Now",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b099953a770fe4a06764ae42d5fed763d39dfdd434b8a01e977052d7b91ad0e8",
-      "datetime": 1794496380,
-      "summary": "AMN Healthcare's rising staffing demand, expanding MSP opportunities and AI investments support growth, while visa delays and pricing pressures pose challenges."
+      "url": "https://finnhub.io/api/news?id=fac26e914feb8de06115f95c3e744a8858c01d2c7f72f99fad64b2738b6cb669",
+      "datetime": 1794583020,
+      "summary": "ANGO's strong NanoKnife sales, expanding Med Tech portfolio and solid fiscal Q1 results support growth prospects, despite tariff and inflation pressures."
     },
     {
-      "headline": "Merit Medical Reports Strong Real-World Data for WRAPSODY Device",
+      "headline": "Should You Buy, Hold or Sell Abbott Stock Post-Q3 Earnings?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=eddba7ad502b23143be87e5c14bba3171755f5c7e84004aa66c8ec5672a84c9e",
-      "datetime": 1794496260,
-      "summary": "MMSI's WRAPSODY device delivers strong real-world clinical results, outperforming pivotal trial benchmarks and bolstering dialysis access growth prospects."
+      "url": "https://finnhub.io/api/news?id=3cf0aed0ca45362e9225523ec4764297e861a7000165f08e349008f673c6121c",
+      "datetime": 1794582900,
+      "summary": "ABT's strong Q3 results, broad-based segment growth and Nutrition spin-off plans support its outlook, despite softer 2026 sales guidance."
     },
     {
-      "headline": "Intuitive Surgical: Why I Remain Bullish Despite Cutting My Price Target",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=47de07d775da88f201f76395eb8898254ee8648785a27687d7f2dbf58e7df469",
-      "datetime": 1794494269,
-      "summary": "Intuitive Surgical stock delivered strong Q3 2026 results with 22% revenue growth, 84% recurring revenue, and robust system placements."
+      "headline": "HIMS Partners With Lilly to Offer FDA-Approved Weight-Loss Drugs",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=9f643af6463a04378fdf7d9ce4ff773fd827a39e078b201b36aa37d585eced63",
+      "datetime": 1794582720,
+      "summary": "Hims & Hers unites with Lilly to offer FDA-approved weight-loss drugs, Zepbound and Foundayo, expanding patient access and strengthening its obesity care platform."
     },
     {
-      "headline": "Brokers Suggest Investing in Intuitive Surgical (ISRG): Read This Before Placing a Bet",
+      "headline": "A $5.9 Billion Fund Is Betting Big on Intuitive Surgical",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=abbfb9de122e5443ca707bbb65f31f004faa97becaaa2d3f202c0203b02ed96b",
-      "datetime": 1794490202,
-      "summary": "The average brokerage recommendation (ABR) for Intuitive Surgical (ISRG) is equivalent to a Buy. The overly optimistic recommendations of Wall Street analysts make the effectiveness of this highly sought-after metric questionable. So, is it worth buying the stock?"
+      "url": "https://finnhub.io/api/news?id=984eecc84cfd24f518b92494fa18496c0cab7d3587b6d309b04a7e8530388ac4",
+      "datetime": 1794580495,
+      "summary": "Key TakeawaysGuardCap Asset Management, which manages $5. 9 billion, opened a new Intuitive Surgical position in the third quarter: 167,863 shares worth $68 million, 4."
     },
     {
-      "headline": "ISRG Agrees to $450M Settlement: What Does It Mean for Investors?",
+      "headline": "Here's Why You Should Retain DexCom Stock in Your Portfolio for Now",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9a0763a60bec559d9a41f151cf46b220de3b6c4ac4b3961f96f85c077bda1683",
-      "datetime": 1794480840,
-      "summary": "Intuitive Surgical's $450 million settlement weighs on Q3 earnings, but strong revenues and procedure growth highlight underlying momentum."
+      "url": "https://finnhub.io/api/news?id=d36462169a83bd4999245843c37ce46cbe79d124dcec0cfabfe33405fe0a4ce4",
+      "datetime": 1794568920,
+      "summary": "DexCom's G7 15 Day adoption, international expansion and margin gains support its growth prospects, though competition and rising investments pose challenges."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-11",
+  "data_asof": "2026-11-13",
   "price": {
-    "last": 449.53,
-    "open": 446.0,
-    "prev_close": 450.04,
-    "move_day_pct": -0.11,
-    "move_open_close_pct": 0.79,
-    "move_week_pct": -6.76
+    "last": 443.59,
+    "open": 443.69,
+    "prev_close": 439.89,
+    "move_day_pct": 0.84,
+    "move_open_close_pct": -0.02,
+    "move_week_pct": -2.03
   },
   "indicators": {
     "rsi14": {
-      "value": 54.8,
+      "value": 52.1,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 11.281,
-      "signal": 12.471,
-      "hist": -1.19,
-      "hist_prev": -0.478,
+      "macd": 8.454,
+      "signal": 11.207,
+      "hist": -2.753,
+      "hist_prev": -2.303,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 473.03,
-      "lower": 418.34,
-      "mid": 445.68,
-      "pctb": 0.57,
+      "upper": 471.85,
+      "lower": 422.4,
+      "mid": 447.13,
+      "pctb": 0.428,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 35.39,
-      "read": "35% above its 52-week low"
+      "value": 33.6,
+      "read": "34% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -24.17,
-      "read": "24% below its 52-week high"
+      "value": -25.18,
+      "read": "25% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 430.11,
-      "pct": 4.52,
-      "read": "5% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 429.38,
+      "pct": 3.31,
+      "read": "3% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 15.03,
-      "pct_of_price": 3.34,
+      "value": 14.45,
+      "pct_of_price": 3.26,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.71,
+      "value": 0.65,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 49.8,
+      "value": 40.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 332.02,
   "high_52w": 592.85,
-  "ma50": 414.76,
-  "ma200": 430.11
+  "ma50": 417.59,
+  "ma200": 429.38
 }

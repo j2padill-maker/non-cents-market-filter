@@ -2,7 +2,7 @@
   "ticker": "TOELF",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-12T17:36:13.384718-08:00",
+  "generated_at": "2026-11-13T18:24:42.729356-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,13 @@
   ],
   "news": [
     {
+      "headline": "Asian shares are mixed as investors assess impact of Nvidia's fallout on global AI development",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=aff654f62e35d6bd39b8b080ac6c9f5ba4d6b7a174072580e53834aa4b906e8f",
+      "datetime": 1794548228,
+      "summary": "HONG KONG (AP) \u2014 Asian shares were mixed Friday as investors assess what Jensen Huang\u2019s resignation as Nvidia CEO means for the global artificial intelligence industry. futures edged higher despite earlier losses on Wall Street, which saw Nvidia falling more than 4% after Huang\u2019s exit from the company."
+    },
+    {
       "headline": "Asian stocks rise after technology shares advance on Wall Street",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=0ae706b0584b0bc2ccce2ece51ee28315a968745b83328e3b93485db53c3533e",
@@ -28,63 +35,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-12",
+  "data_asof": "2026-11-13",
   "price": {
-    "last": 59.49,
-    "open": 58.5,
+    "last": 57.27,
+    "open": 57.89,
     "prev_close": 59.56,
-    "move_day_pct": -0.12,
-    "move_open_close_pct": 1.69,
-    "move_week_pct": 20.13
+    "move_day_pct": -3.84,
+    "move_open_close_pct": -1.07,
+    "move_week_pct": 7.15
   },
   "indicators": {
     "rsi14": {
-      "value": 45.5,
+      "value": 42.6,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -3.138,
-      "signal": -3.197,
-      "hist": 0.059,
-      "hist_prev": -0.211,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": -3.052,
+      "signal": -3.167,
+      "hist": 0.115,
+      "hist_prev": 0.063,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 68.2,
-      "lower": 52.61,
-      "mid": 60.4,
-      "pctb": 0.441,
+      "upper": 67.75,
+      "lower": 52.36,
+      "mid": 60.06,
+      "pctb": 0.319,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 61.68,
-      "read": "62% above its 52-week low"
+      "value": 55.65,
+      "read": "56% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -37.91,
-      "read": "38% below its 52-week high"
+      "value": -40.23,
+      "read": "40% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 64.36,
-      "pct": -7.57,
-      "read": "8% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 64.4,
+      "pct": -11.07,
+      "read": "11% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 4.14,
-      "pct_of_price": 6.95,
+      "value": 4.0,
+      "pct_of_price": 6.99,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.02,
+      "value": 0.01,
       "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 64.5,
+      "value": 77.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 36.79,
   "high_52w": 95.82,
-  "ma50": 66.83,
-  "ma200": 64.36
+  "ma50": 66.64,
+  "ma200": 64.4
 }

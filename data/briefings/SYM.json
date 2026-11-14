@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-12T17:36:23.175836-08:00",
+  "generated_at": "2026-11-13T18:24:56.639068-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-11",
+  "data_asof": "2026-11-12",
   "price": {
-    "last": 37.11,
-    "open": 38.26,
-    "prev_close": 37.62,
-    "move_day_pct": -1.36,
-    "move_open_close_pct": -3.01,
-    "move_week_pct": -1.07
+    "last": 35.44,
+    "open": 35.71,
+    "prev_close": 37.11,
+    "move_day_pct": -4.5,
+    "move_open_close_pct": -0.76,
+    "move_week_pct": 1.14
   },
   "indicators": {
     "rsi14": {
-      "value": 43.1,
-      "read": "Neutral"
+      "value": 38.1,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -1.127,
-      "signal": -1.144,
-      "hist": 0.017,
-      "hist_prev": -0.013,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "macd": -1.22,
+      "signal": -1.16,
+      "hist": -0.061,
+      "hist_prev": 0.017,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 41.19,
-      "lower": 35.45,
-      "mid": 38.32,
-      "pctb": 0.289,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 41.15,
+      "lower": 35.06,
+      "mid": 38.1,
+      "pctb": 0.063,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 5.91,
-      "read": "Just off its 52-week low"
+      "value": 1.14,
+      "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -57.49,
-      "read": "57% below its 52-week high"
+      "value": -59.4,
+      "read": "59% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 47.05,
-      "pct": -21.13,
-      "read": "21% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 46.95,
+      "pct": -24.52,
+      "read": "25% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 2.09,
-      "pct_of_price": 5.64,
+      "value": 2.13,
+      "pct_of_price": 6.01,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.62,
+      "value": 1.18,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 38.3,
+      "value": 38.1,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 35.04,
   "high_52w": 87.3,
-  "ma50": 40.82,
-  "ma200": 47.05
+  "ma50": 40.73,
+  "ma200": 46.95
 }

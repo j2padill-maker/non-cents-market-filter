@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-12T17:36:09.606919-08:00",
+  "generated_at": "2026-11-13T18:24:35.860645-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "These 6 Data Software Stocks Help Companies Put AI to Work",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=31b1dc5342db4cc202de7088cf4e961779216a8dacddd1af92ba488dc3a791cd",
+      "datetime": 1794558782,
+      "summary": "Revenue growth across these six companies ranges from 15% to 96%. Where is AI showing up in their results?"
+    },
     {
       "headline": "Will MongoDB Stock Ever Get Back To Its Old High?",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=9f2c0f3e533b2c73cebe609a6ac394db3481d2c644520afa88feec5430daca7e",
       "datetime": 1794317100,
       "summary": "monday.com's Q3 earnings surge 84.5% as cost cuts lift non-GAAP operating margin to a record 24%, despite slower demand and longer enterprise sales cycles."
-    },
-    {
-      "headline": "Buy, Sell, or Hold? Tuesday\u2019s Top Upgrades and Downgrades: Cloudflare, Deckers Outdoors, DraftKings, MongoDB, Nike, Oneok, Philip Morris International, Riot Platforms, Wix.com, and More",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8c0e403d54f13a81bd3be0149efab9164e3023c1700591c38884145142a2219c",
-      "datetime": 1794314826,
-      "summary": "A two-day rally built partly on short covering faces its first real test when October inflation data lands at 8:30 ET. Meanwhile, analysts flipped hard on Wix and DraftKings, while a surprise double upgrade lifted a bitcoin miner's target."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-11",
+  "data_asof": "2026-11-12",
   "price": {
-    "last": 338.12,
-    "open": 346.44,
-    "prev_close": 331.98,
-    "move_day_pct": 1.85,
-    "move_open_close_pct": -2.4,
-    "move_week_pct": 2.97
+    "last": 339.78,
+    "open": 330.05,
+    "prev_close": 338.12,
+    "move_day_pct": 0.49,
+    "move_open_close_pct": 2.95,
+    "move_week_pct": 11.55
   },
   "indicators": {
     "rsi14": {
-      "value": 45.5,
+      "value": 46.0,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -12.92,
-      "signal": -10.319,
-      "hist": -2.601,
-      "hist_prev": -4.156,
+      "macd": -11.932,
+      "signal": -10.642,
+      "hist": -1.291,
+      "hist_prev": -2.601,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 406.92,
-      "lower": 299.32,
-      "mid": 353.12,
-      "pctb": 0.361,
+      "upper": 405.51,
+      "lower": 298.05,
+      "mid": 351.78,
+      "pctb": 0.388,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 49.64,
+      "value": 50.38,
       "read": "50% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -28.41,
+      "value": -28.06,
       "read": "28% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 334.84,
-      "pct": 0.98,
-      "read": "1% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 334.49,
+      "pct": 1.58,
+      "read": "2% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 21.96,
-      "pct_of_price": 6.5,
+      "value": 21.78,
+      "pct_of_price": 6.41,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.53,
+      "value": 0.52,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 40.3,
+      "value": 41.6,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 366.62,
-  "ma200": 334.84
+  "ma50": 365.91,
+  "ma200": 334.49
 }

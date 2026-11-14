@@ -2,7 +2,7 @@
   "ticker": "GOOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-12T17:36:37.120730-08:00",
+  "generated_at": "2026-11-13T18:25:17.576720-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Alphabet Draws $5 Billion in Orders as AI Frenzy Builds",
+      "headline": "Booking Holdings vs. GameStop: Which Consumer Stock Is a Better Buy for 2027?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9065d293b3155149849b94771ecd903e2f64bab5f1f307bd32ecf4c084ce1640",
-      "datetime": 1794524759,
-      "summary": "Strong institutional demand masks a growing financial balancing act."
+      "url": "https://finnhub.io/api/news?id=3d21a5595048a28603dc24ca626185afcb5bf028cf53f05755c2b857d17a77c7",
+      "datetime": 1794616322,
+      "summary": "Booking earns a high-margin travel business with strong free cash flow, while GameStop is mid-pivot toward capital allocation. The valuation gap between them is narrower than the business models suggest."
     },
     {
-      "headline": "Google's Next Big AI Push Has Apple in the Picture",
+      "headline": "Nvidia's competitors pounce, and what GPU rental prices say about the AI race",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=fca59ee8f61ace5223fd1411a35e5e479088f5e9b00305a4767a403c9cbfd23e",
-      "datetime": 1794524685,
-      "summary": "A familiar driving experience is getting a major upgrade."
+      "url": "https://finnhub.io/api/news?id=1fc1d13f73bcf983a5eb38cc36c23709e38240955653931730eeff6a5cf85c19",
+      "datetime": 1794608151,
+      "summary": "Deirdre Bosa discusses hyperscalers stock rising in the wake of Nvidia's (NVDA) scandal, Tim Cook remaining loyal to Apple (AAPL) after Trump's post, and breaking down the AI trade. Deirdre Bosa then sits down with Silicon Data CEO Carmen Li to talk about turning AI computing into a commodity, 'Deirdre Bosa Live' airs every day at 4 p.m. Tune in daily to hear how the latest developments in AI and "
     },
     {
-      "headline": "Can Huang's Exit Create Chip Competition",
+      "headline": "With Nvidia Floundering, AI Bulls Need More Than Spending. Watch Revenue.",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=86c761c898c0936982bf6391253c9845d1d438f475c968d05759d78a72b635a1",
-      "datetime": 1794524439,
-      "summary": "Jensen Huang's departure from Nvidia is raising questions about whether rivals can chip away at the company's dominance of the AI semiconductor market. Bloomberg Intelligence analysts Robert Schiffman and Mandeep Singh say demand for AI computing remains strong, but Huang's exit could create opportunities for Broadcom, AMD, Google and others as customers look for alternatives and potentially push "
+      "url": "https://finnhub.io/api/news?id=e2a6cfdc9fa5aa1b3ac4d87be37bed69f8aad3644e04b0786a57faf08452730d",
+      "datetime": 1794607980,
+      "summary": "Capital spending shows what AI companies are building. Revenue per gigawatt offers clues to demand for that computing power."
     },
     {
-      "headline": "5 Unrivaled Stocks to Buy for the Next Decade",
+      "headline": "What Does Dominion Energy Offer That NiSource Does Not?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=cb77d3e0b5eb8217ac9779f53d7dc1aa7e42a080403b7014d557254896406ca1",
-      "datetime": 1794522801,
-      "summary": "Wall Street had its worst day since April 2025 last Thursday. The Nasdaq Composite fell 5.5%, the S&P 500 dropped 4.4%, and the Philadelphia Semiconductor Index plunged 12.2%. Two worries drove the selling. Investors doubt that heavy spending on artificial intelligence will pay off, and candidates who ran against data center expansion won races in [\u2026]"
+      "url": "https://finnhub.io/api/news?id=01b081017a2f5116e8dff1e575005bd90b66a992e44dfb82384244b01d92f2da",
+      "datetime": 1794606660,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
     },
     {
-      "headline": "Nvidia Needs a Colossus to Replace Jensen Huang, and Eric Schmidt May Be the Only One Who Fits",
+      "headline": "Cerebras stock surges on Microsoft deal: What it means for Nvidia",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=034f14283f4fcbd3268f00172f916edeffd0fb70ffdd8f7b7d8f3850c8c9df44",
-      "datetime": 1794522653,
-      "summary": "Nvidia (NASDAQ: NVDA) needs a new chief executive, and 24/7 Wall St. co-founder Douglas A. McIntyre has a candidate in mind: Eric Schmidt."
+      "url": "https://finnhub.io/api/news?id=b749c047c398794b579255970d097d582b48edc9bbfde7b80ffe7cacfa983674",
+      "datetime": 1794605483,
+      "summary": "Deirdre Bosa outlines how various AI companies are storming the AI castle and searching for Nvidia (NVDA) alternatives, such as Cerebras' (CBRS) deal with Microsoft (MSFT)."
     },
     {
-      "headline": "Why Alphabet Stock Was Moving Higher Today",
+      "headline": "Alphabet (GOOGL) Faces Uber Deal Talk, Space Chip Test And \u20ac1.66 Billion Fine",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4e826b3cfc64c9cf7ddc3e2e3c616db6d97556294d12c76a38b832c35ec2b539",
-      "datetime": 1794522219,
-      "summary": "Trouble at Nvidia could create an opening for Alphabet's chip business."
+      "url": "https://finnhub.io/api/news?id=de8892ffbae6467e690f5b019f88cf81ff687af9eef424277c82c14142a477c8",
+      "datetime": 1794604221,
+      "summary": "Alphabet (NasdaqGS:GOOGL) is reportedly exploring a potential tie-up with Uber that could combine the rideshare network with Waymo's autonomous technology. Google has unveiled \"Project Suncatcher\", an orbital experiment designed to test its AI accelerator chips in space-based data centers. The group faces renewed legal attention around a \u20ac1.66b EU advertising fine while Tesla's robotaxis now opera"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-11",
+  "data_asof": "2026-11-12",
   "price": {
-    "last": 290.63,
-    "open": 287.57,
-    "prev_close": 284.92,
-    "move_day_pct": 2.0,
-    "move_open_close_pct": 1.07,
-    "move_week_pct": 1.16
+    "last": 295.35,
+    "open": 290.55,
+    "prev_close": 290.63,
+    "move_day_pct": 1.62,
+    "move_open_close_pct": 1.65,
+    "move_week_pct": 4.83
   },
   "indicators": {
     "rsi14": {
-      "value": 36.9,
-      "read": "Oversold"
+      "value": 41.2,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": -14.275,
-      "signal": -13.639,
-      "hist": -0.636,
-      "hist_prev": -1.721,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -13.01,
+      "signal": -13.514,
+      "hist": 0.503,
+      "hist_prev": -0.636,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 353.23,
-      "lower": 257.94,
-      "mid": 305.58,
-      "pctb": 0.343,
+      "upper": 347.34,
+      "lower": 258.87,
+      "mid": 303.11,
+      "pctb": 0.412,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 6.54,
+      "value": 8.27,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -27.08,
-      "read": "27% below its 52-week high"
+      "value": -25.89,
+      "read": "26% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 336.56,
-      "pct": -13.65,
-      "read": "14% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 336.36,
+      "pct": -12.19,
+      "read": "12% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 10.14,
-      "pct_of_price": 3.49,
+      "value": 10.04,
+      "pct_of_price": 3.4,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.82,
+      "value": 0.98,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 43.3,
+      "value": 47.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 272.8,
   "high_52w": 398.54,
-  "ma50": 326.8,
-  "ma200": 336.56
+  "ma50": 326.04,
+  "ma200": 336.36
 }

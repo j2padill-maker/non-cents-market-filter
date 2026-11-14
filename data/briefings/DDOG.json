@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-12T17:36:14.390944-08:00",
+  "generated_at": "2026-11-13T18:24:44.487857-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Zeta Q3: Just Let Your Winners Run",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=36d7cc6c1d66b9ce2b260dc5463b18ce2306399a32388e03f3c520a58df04c68",
-      "datetime": 1794508318,
-      "summary": "Zeta Global Holdings Corp. is rated a Buy with a raised $70 target as Q3 FY26 revenue grew 46% for its 21st straight beat-and-raise quarter."
-    },
-    {
-      "headline": "Palantir\u2019s Growth Story Could Be Just Getting Started",
+      "headline": "Can You Justify Buying Dynatrace Stock Today?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e131fb867fdb6fcb81600962a8fefd5f44cc85f901e0d679dd7e431489db705f",
-      "datetime": 1794501215,
-      "summary": "Palantir just posted the fastest growth in its public history, yet shares dropped over 20% in a week. Behind the selloff sit a puzzling bookings number, rising dilution, and a valuation that leaves no room for error."
-    },
-    {
-      "headline": "Palo Alto Networks Heads 3 Top Cybersecurity Stocks To Watch",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f45949dc59c7b681c564010e251c95fd5941b60dbba665ff098a9f10ae7c2c8e",
-      "datetime": 1794496283,
-      "summary": "Cybersecurity quietly became front-page business news when AI firms started hiring former intelligence officers to guard against espionage and data theft. That shift highlights how protecting critical information is moving from a technical concern to a boardroom priority. For investors, this raises interest in companies that secure networks and data worldwide. This article breaks down three stocks"
-    },
-    {
-      "headline": "Rocket Companies Appoints Datadog COO Adam Blitzer to Board of Directors",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=1318b6a9402f2c622bc0c2902ab2d84744754e1be40582b87b4cd65d051fdbb9",
-      "datetime": 1794492000,
-      "summary": "Rocket Companies (NYSE: RKT), the Detroit-based homeownership platform, today announced the appointment of Adam Blitzer, Chief Operating Officer of Datadog, as an independent director to its Board of Directors."
-    },
-    {
-      "headline": "Palantir Grew Revenue 96%. Its Stock Fell 7% Because Bookings Rose Just 6%",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0aac333cccf49ba1cf7cf9c73348a8d254070283fba21e06ea3f23d106ac8983",
-      "datetime": 1794458036,
-      "summary": "Key TakeawaysPalantir\u2019s third-quarter revenue rose 96% to $2. 313 billion, beating the $2."
-    },
-    {
-      "headline": "What Are Datadog Investors Betting On?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=af6fcf47e8dd321907d459b098081648527e0e790dc7edd06cde212875a4f59a",
-      "datetime": 1794443185,
+      "url": "https://finnhub.io/api/news?id=ae8c45308cd8574df823a1e867e922c3cd07019364bb4b53874a2a68fdd0ecc2",
+      "datetime": 1794616878,
       "summary": "For questions about this article or underlying research, email help@trefis.com."
+    },
+    {
+      "headline": "Are You Overpaying For Datadog Stock Versus Its Rivals?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8b5645039400400abaee3d74acdfd64ada6180f5f5f74943c829b6d866a8b771",
+      "datetime": 1794601897,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
+    },
+    {
+      "headline": "PLTR's Rule of 40 Hits 158%: Can This Momentum Continue?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=bb5e80757616496d96d8aff66f8cfab3c314c1e409888920b3281aa04f139ed4",
+      "datetime": 1794591600,
+      "summary": "Palantir's Rule of 40 surges to 158% in Q3 2026, fueled by accelerating AI adoption, 96% revenue growth and expanding margins. Can the momentum last?"
+    },
+    {
+      "headline": "CoreWeave\u2019s Demand is There, $41.6B of Corporate Debt Remains: What This Means for Nebius and CoreWeave",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e9029165610407b0e369625c82669b4d55a75886a836e6ccf9a5baea04e543bd",
+      "datetime": 1794572113,
+      "summary": "Both AI cloud providers say customers want more compute than they can deliver, yet the market punished one far harder after earnings. The gap in how each pays for growth may explain who holds up when the cheap money runs out."
+    },
+    {
+      "headline": "Why Did Rocket Stock Fall?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f516aee1aeb9062d05b1b91c35dbc0f93bab1ab382be077e345fbcce9835e6a1",
+      "datetime": 1794571971,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
+    },
+    {
+      "headline": "Can Nebius Sustain 571% Revenue Growth Beyond Its Q3 AI Cloud Boom?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=cc7cd4ae5b3e4c6bd8f89bb8a7af2b1846a25c5f947399630cdac2c14f8fd601",
+      "datetime": 1794570840,
+      "summary": "NBIS' Q3 revenues surged 571% on robust AI infrastructure demand, while rising customer commitments and aggressive capacity expansion fuel its growth outlook."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-11",
+  "data_asof": "2026-11-12",
   "price": {
-    "last": 184.38,
-    "open": 185.15,
-    "prev_close": 178.4,
-    "move_day_pct": 3.35,
-    "move_open_close_pct": -0.42,
-    "move_week_pct": -2.3
+    "last": 184.46,
+    "open": 178.7,
+    "prev_close": 184.38,
+    "move_day_pct": 0.04,
+    "move_open_close_pct": 3.22,
+    "move_week_pct": 5.65
   },
   "indicators": {
     "rsi14": {
-      "value": 31.5,
+      "value": 31.6,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -22.199,
-      "signal": -13.849,
-      "hist": -8.35,
-      "hist_prev": -9.92,
+      "macd": -22.345,
+      "signal": -15.548,
+      "hist": -6.797,
+      "hist_prev": -8.35,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 312.98,
-      "lower": 156.28,
-      "mid": 234.63,
-      "pctb": 0.179,
-      "read": "Near the lower band"
+      "upper": 310.39,
+      "lower": 150.69,
+      "mid": 230.54,
+      "pctb": 0.211,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 79.68,
+      "value": 79.76,
       "read": "80% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -37.13,
+      "value": -37.1,
       "read": "37% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 200.86,
-      "pct": -8.2,
+      "ma200": 201.08,
+      "pct": -8.27,
       "read": "8% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 15.11,
-      "pct_of_price": 8.19,
+      "value": 14.75,
+      "pct_of_price": 8.0,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.92,
+      "value": 0.75,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 29.8,
+      "value": 26.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 293.26,
-  "ma50": 244.64,
-  "ma200": 200.86
+  "ma50": 244.14,
+  "ma200": 201.08
 }

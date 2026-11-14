@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-12T17:36:28.798886-08:00",
+  "generated_at": "2026-11-13T18:25:04.699222-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -82,50 +82,50 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-11",
+  "data_asof": "2026-11-12",
   "price": {
-    "last": 193.79,
-    "open": 201.0,
-    "prev_close": 194.92,
-    "move_day_pct": -0.58,
-    "move_open_close_pct": -3.58,
-    "move_week_pct": -13.65
+    "last": 193.22,
+    "open": 188.66,
+    "prev_close": 193.79,
+    "move_day_pct": -0.3,
+    "move_open_close_pct": 2.42,
+    "move_week_pct": -5.23
   },
   "indicators": {
     "rsi14": {
-      "value": 36.2,
+      "value": 36.0,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -3.756,
-      "signal": 3.151,
-      "hist": -6.907,
-      "hist_prev": -6.981,
+      "macd": -5.054,
+      "signal": 1.51,
+      "hist": -6.564,
+      "hist_prev": -6.907,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 268.96,
-      "lower": 181.41,
-      "mid": 225.19,
-      "pctb": 0.141,
+      "upper": 269.75,
+      "lower": 177.9,
+      "mid": 223.83,
+      "pctb": 0.167,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 64.16,
+      "value": 63.68,
       "read": "64% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -41.5,
-      "read": "42% below its 52-week high"
+      "value": -39.06,
+      "read": "39% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 166.72,
-      "pct": 16.24,
+      "ma200": 166.61,
+      "pct": 15.97,
       "read": "16% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 12.45,
-      "pct_of_price": 6.43,
+      "value": 12.26,
+      "pct_of_price": 6.35,
       "read": "High daily volatility"
     },
     "rel_volume": {
@@ -133,12 +133,12 @@
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 39.9,
+      "value": 29.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 118.05,
-  "high_52w": 331.29,
-  "ma50": 208.75,
-  "ma200": 166.72
+  "high_52w": 317.08,
+  "ma50": 209.16,
+  "ma200": 166.61
 }
