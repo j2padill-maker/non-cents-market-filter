@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-14T12:29:56.788119-08:00",
+  "generated_at": "2026-11-16T13:32:08.069511-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "Nvidia Earnings Could Shift Focus To Cloudflare Stock And AI Cost Control",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a962347d3e6a99941545436ffde4ee0f54996106ff2e092842e213550633a765",
+      "datetime": 1794701912,
+      "summary": "AI infrastructure spending is exploding, yet the real story is shifting to the quieter software players helping firms control cloud bills and monitor complex models. With Nvidia\u2019s Nov. 17 earnings and the Anthropic IPO set to test how durable this AI buildout really is, investors risk watching from the sidelines. This article unpacks how those catalysts could impact three stocks exposed to that ne"
+    },
+    {
+      "headline": "Datadog\u2019s Q4 Guide Is Flat at $1.2 Billion: Sell the Slowdown, or Buy the Dip?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=5c276c2c978878d1a6a0fe4364f09a54b04a4ec5b044ecc26452e0f1d9e33554",
+      "datetime": 1794675929,
+      "summary": "Key TakeawaysDatadog grew third-quarter revenue 35% to $1. 20 billion, then guided the fourth quarter roughly flat as its largest AI customer cut usage."
+    },
+    {
+      "headline": "Cloudflare Jumps 12% as Its \u201cEven Higher Gear\u201d Delivers the Fastest Growth in Nearly Four Years",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d03382109885f2b9e89ea0638204f6af0f91786f1c7d3aab1808bb0de8202229",
+      "datetime": 1794639293,
+      "summary": "Key TakeawaysCloudflare shares jumped 12% after third-quarter revenue rose 39% to $782. 5 million, its fastest growth in nearly four years."
+    },
+    {
+      "headline": "PAYC or NET: Which Is the Better Value Stock Right Now?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e042e3b5ed492472665758f462e9c370df2d31d2b010bbc2c1f099faf8a36b95",
+      "datetime": 1794584403,
+      "summary": "PAYC vs. NET: Which Stock Is the Better Value Option?"
+    },
+    {
       "headline": "Intellicheck shares are trading higher after the company reported better-than-expected Q4 financial results.",
       "source": "Benzinga",
       "url": "https://finnhub.io/api/news?id=3c4cdc062ce0e5e1b76b5b283e87f6687861e3a9f46fda0f8ec8dd0b96bead26",
@@ -24,39 +52,11 @@
       "summary": ""
     },
     {
-      "headline": "LMSYS Org Launches SGLang Consortium with NVIDIA, AMD, Intel, Google, Meta, Cloudflare, Modal and RadixArk to Advance Open-Source AI Inference",
+      "headline": "Cloudflare Placed in 2026 Gartner\u00ae Magic Quadrant\u2122 for Edge Distribution Platforms",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ace7a0c782d9b5ac2c9e20e7770ed09e5e21a7a162e8a5a3bfae1b3c1b4ac470",
-      "datetime": 1794510000,
-      "summary": "SAN FRANCISCO, November 12, 2026--LMSYS Org, the nonprofit behind the open-source AI engine SGLang, today launched the SGLang Consortium with founding members NVIDIA, AMD, Intel, Google, Meta, Cloudflare, Modal and RadixArk, who will work with SGLang\u2019s maintainers to help shape the project\u2019s roadmap and advance open-source AI inference. The consortium was announced in the opening keynote of the in"
-    },
-    {
-      "headline": "Is Penguin Solutions Stock a Buy After a 162% Rally in a Year?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6c0b021000e89d025cc26a97bb756bee8398419891d4a8aad432b47446deb655",
-      "datetime": 1794497460,
-      "summary": "PENG's 161.6% rally is fueled by strong AI infrastructure demand, surging memory sales, upbeat fiscal 2027 forecasts and an attractive valuation."
-    },
-    {
-      "headline": "What Did Cloudflare Stock Investors Miss Before The Run?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8b30dcba42e2d8a827f00657dc289c7912f0b80f7d10b429d68c68554e6c30e5",
-      "datetime": 1794496395,
-      "summary": "For questions about this article or underlying research, email help@trefis.com."
-    },
-    {
-      "headline": "The Zacks Analyst Blog Highlights Cisco Systems and Cloudflare",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6156fa6ae3bee2d061a587a19257055e786591055c379d62d0b5ccb47bf8453e",
-      "datetime": 1794491460,
-      "summary": "Cisco and Cloudflare are gaining from rising cybersecurity and AI infrastructure demand, with strong earnings estimates and potential price upside."
-    },
-    {
-      "headline": "$1,000 Split Across These 3 Cybersecurity Stocks Could Be Worth This Much in 5 Years",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f39d3661915b551143d139d975b7115f9124cef5b3fe4128d788477891a64ab9",
-      "datetime": 1794489780,
-      "summary": "AI is making hackers faster and more dangerous, but Fortinet, Cloudflare, and CrowdStrike have shown investors how they plan to win as the technology advances."
+      "url": "https://finnhub.io/api/news?id=3fd454f6f95c0fbbf81642c11abb8b0377afdb64ab46d109fbfe6277b6a9f558",
+      "datetime": 1794578400,
+      "summary": "SAN FRANCISCO, November 13, 2026--Cloudflare, Inc. (NYSE: NET), the leading connectivity cloud company, today announced that Cloudflare has been positioned by Gartner as a Leader in the Magic Quadrant for Edge Distribution Platforms.(1) The evaluation was based on specific criteria that analyzed the company\u2019s overall Completeness of Vision and Ability to Execute."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-13",
+  "data_asof": "2026-11-16",
   "price": {
-    "last": 305.81,
-    "open": 325.0,
-    "prev_close": 318.5,
-    "move_day_pct": -3.98,
-    "move_open_close_pct": -5.9,
-    "move_week_pct": 13.79
+    "last": 293.59,
+    "open": 298.41,
+    "prev_close": 305.81,
+    "move_day_pct": -4.0,
+    "move_open_close_pct": -1.62,
+    "move_week_pct": -0.05
   },
   "indicators": {
     "rsi14": {
-      "value": 50.4,
+      "value": 46.8,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -5.637,
-      "signal": -9.578,
-      "hist": 3.942,
-      "hist_prev": 3.733,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "macd": -5.612,
+      "signal": -8.785,
+      "hist": 3.173,
+      "hist_prev": 3.942,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 344.67,
-      "lower": 250.6,
-      "mid": 297.63,
-      "pctb": 0.587,
+      "upper": 344.51,
+      "lower": 250.37,
+      "mid": 297.44,
+      "pctb": 0.459,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 90.9,
-      "read": "91% above its 52-week low"
+      "value": 83.28,
+      "read": "83% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -15.27,
-      "read": "15% below its 52-week high"
+      "value": -18.66,
+      "read": "19% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 253.27,
-      "pct": 20.74,
-      "read": "21% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 253.85,
+      "pct": 15.65,
+      "read": "16% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 21.44,
-      "pct_of_price": 7.01,
+      "value": 21.01,
+      "pct_of_price": 7.16,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.09,
+      "value": 0.86,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 47.4,
+      "value": 42.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 360.93,
-  "ma50": 320.04,
-  "ma200": 253.27
+  "ma50": 320.33,
+  "ma200": 253.85
 }

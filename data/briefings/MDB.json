@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-14T12:29:51.540111-08:00",
+  "generated_at": "2026-11-16T13:31:46.346065-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Nvidia Shock Has Investors Rethinking AI Infrastructure Stocks",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=3c31d61f8a9831c0fa8a60b7fe67090c956a93ac2a1d076bfd01a03c6f74bdee",
+      "datetime": 1794683374,
+      "summary": "When a giant like NVIDIA loses its long-time CEO and nearly US$573b in market value in a single week, the ripple effects do not stop at one ticker. Sudden leadership uncertainty can create sharp mispricing, where fear pushes some cloud and AI platform stocks too far and leaves others overlooked. This article walks through 3 stocks that are closely exposed to this news and explains how investors mi"
+    },
+    {
+      "headline": "Is Twilio Stock Worth The Wait?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e8dacb36b5503b1887c63ea7abaf6d7682d72e52aaa5b0e3cb98658df14f364a",
+      "datetime": 1794618856,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
+    },
     {
       "headline": "These 6 Data Software Stocks Help Companies Put AI to Work",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=b131d70adbc7df0362b484d39710e767a11bd112d03923b633fd23a80fd8f0bc",
       "datetime": 1794429534,
       "summary": "Wall Street spent the week swinging between relief and worry. Stocks rallied hard on Monday, then slipped on Tuesday, when a hotter-than-expected inflation report arrived just as Federal Reserve officials were openly talking about raising interest rates again. The swings followed the S&P 500\u2019s biggest weekly drop since April 2025. Hot Inflation Data Revives Rate-Hike [\u2026]"
-    },
-    {
-      "headline": "DraftKings downgraded, Sarepta upgraded: Wall Street's top analyst calls",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=710b127f7a812eb47cc79a57e40915d26fb10c81b18decc7806183660d289f17",
-      "datetime": 1794322018,
-      "summary": "DraftKings downgraded, Sarepta upgraded: Wall Street's top analyst calls"
-    },
-    {
-      "headline": "MNDY Q3 Earnings Beat Estimates on Cost Cuts, Revenues Rise Y/Y",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9f2c0f3e533b2c73cebe609a6ac394db3481d2c644520afa88feec5430daca7e",
-      "datetime": 1794317100,
-      "summary": "monday.com's Q3 earnings surge 84.5% as cost cuts lift non-GAAP operating margin to a record 24%, despite slower demand and longer enterprise sales cycles."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-13",
+  "data_asof": "2026-11-16",
   "price": {
-    "last": 334.2,
-    "open": 341.8,
-    "prev_close": 339.78,
-    "move_day_pct": -1.64,
-    "move_open_close_pct": -2.22,
-    "move_week_pct": 6.83
+    "last": 316.92,
+    "open": 326.04,
+    "prev_close": 334.2,
+    "move_day_pct": -5.17,
+    "move_open_close_pct": -2.8,
+    "move_week_pct": -3.19
   },
   "indicators": {
     "rsi14": {
-      "value": 44.4,
-      "read": "Neutral"
+      "value": 39.8,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -11.468,
-      "signal": -10.807,
-      "hist": -0.661,
-      "hist_prev": -1.291,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -12.351,
+      "signal": -11.116,
+      "hist": -1.236,
+      "hist_prev": -0.661,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 405.54,
-      "lower": 297.69,
-      "mid": 351.61,
-      "pctb": 0.339,
+      "upper": 406.04,
+      "lower": 294.02,
+      "mid": 350.03,
+      "pctb": 0.204,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 47.91,
-      "read": "48% above its 52-week low"
+      "value": 40.26,
+      "read": "40% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -29.24,
-      "read": "29% below its 52-week high"
+      "value": -32.9,
+      "read": "33% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 334.29,
-      "pct": -0.03,
-      "read": "0% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 334.01,
+      "pct": -5.12,
+      "read": "5% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 21.36,
-      "pct_of_price": 6.39,
+      "value": 21.14,
+      "pct_of_price": 6.67,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.45,
-      "read": "Light \u2014 quiet trading"
+      "value": 0.75,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 35.9,
+      "value": 30.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 364.9,
-  "ma200": 334.29
+  "ma50": 363.87,
+  "ma200": 334.01
 }

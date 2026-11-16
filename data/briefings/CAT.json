@@ -2,7 +2,7 @@
   "ticker": "CAT",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-14T12:30:19.478496-08:00",
+  "generated_at": "2026-11-16T13:32:42.760108-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "China, U.S. discuss tariff cuts ahead of Trump-Xi meeting next week",
+      "headline": "Stock Market Today: Dow Dives As Trump Says This On Huang; Victoria's Secret Flashes Sell Signal (Live Coverage)",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ac550e6b66b87930450930a3377df025d6ee62acae4829518308c27617a0e8e4",
-      "datetime": 1794648107,
-      "summary": "Investing.com -- China and the United States discussed tariff reductions and agricultural trade during their first trade council meeting on Friday, as both countries seek progress on a proposed $60 billion tariff-cutting agreement ahead of talks between Presidents Donald Trump and Xi Jinping."
+      "url": "https://finnhub.io/api/news?id=d40ba7070c563d11f06cb9deafd5238cf61191eae3fafb1eec373c28c1f94130",
+      "datetime": 1794854694,
+      "summary": "The Dow Jones index falls. President Trump speaks on Nvidia, Jensen Huang and Howard Lutnick. Chip plays skid."
     },
     {
-      "headline": "Tariffs Pushed Prices Up. Why Retail and Industrial Investors Shouldn't Expect a Quick Reversal",
+      "headline": "Caterpillar (CAT) Stock Fair Value Falls As Analysts Cut Targets And Lift Rates",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=351250997829e43c4c7731cddf6ceab509fd8a8c13370ff106a2e1a9ab255429",
-      "datetime": 1794627300,
-      "summary": "Tariffs are a moving target, and rising costs tend to be sticky, which is bad news for companies and retail customers."
+      "url": "https://finnhub.io/api/news?id=3171eb21e969697f056a91a57ec8f4a8be3c32bc2e3227689e723de009377e00",
+      "datetime": 1794849127,
+      "summary": "Caterpillar\u2019s modeled fair value has shifted lower from about US$902.34 to approximately US$815.26, trimming the stock\u2019s implied upside in current research. Analysts link this reset to more conservative work on valuation, including higher discount rates and closer scrutiny of how AI, data center and construction demand might flow through to earnings over time. As you read on, you will see how this"
     },
     {
-      "headline": "Kevin Simpson Is Buying More Caterpillar as an AI Trade That Isn\u2019t Just AI",
+      "headline": "Caterpillar\u2019s 34% Slump Over 6 Months: Wall Street Desk Says It Sets Up 90% Gains Within a Year",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d08a9063663edaa7d8b2dc983400d85a1ba705d99698cae479e41a0969b4b92f",
-      "datetime": 1794614869,
-      "summary": "A heavy-equipment maker has lost nearly half its value from its peak, yet one CNBC trader keeps buying. His case rests on data center power and two other businesses, but the same AI swings that built the rally could still deepen the slide."
+      "url": "https://finnhub.io/api/news?id=3467d721411eb7366154b3c792882ede67eef517bdad2aaa2d307e4fa356ca9d",
+      "datetime": 1794843952,
+      "summary": "Caterpillar's record backlog is stacked with data center orders stretching into 2030, yet the stock has cratered while Deere and PACCAR barely flinched. Is Wall Street punishing the wrong fear, and what will the next earnings call reveal?"
     },
     {
-      "headline": "What Is Caterpillar (CAT) Signaling With Its Biggest Underground Mining Machine Yet?",
+      "headline": "Caterpillar Gets Swept Up in a $4.2 Trillion Market Rout",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=401185a7d1498136203140cda56aa00cc09e11748f7ccf670b1cfffdce54209c",
-      "datetime": 1794608017,
-      "summary": "Caterpillar (NYSE:CAT) has introduced the CAT R3200 XE LHD, its largest underground diesel-electric mining machine to date. The new loader combines diesel-electric power with advanced autonomous and semi-autonomous capabilities for underground mining operations. Caterpillar is positioning the R3200 XE LHD to improve throughput and fuel efficiency for mining customers using digital control systems."
+      "url": "https://finnhub.io/api/news?id=ce750fdf331f4ded03c7bca2a24e7a864f486ec3d02cae86196b3faa7a56fe6a",
+      "datetime": 1794843471,
+      "summary": "The next test is whether customers take deliveries on time."
     },
     {
-      "headline": "Weekly Gains Hold Up Despite a Friday Slide as Chips Lead and Yields Climb",
+      "headline": "Stock Market Today: Dow, Nvidia Skid Amid Huang News; Chip Stocks, Oil Plays Fall (Live Coverage)",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e3bfaadf1fe1e8e2d47fb306c8d6180e7af6bf1ef9cddbbd0c4ac2376b689205",
-      "datetime": 1794602820,
-      "summary": "Stock Preachers News Commentary - Wall Street closed out a volatile week with every major index still higher versus last Friday, even after a broad Friday retreat. The Nasdaq Composite led decliners with a 1.24% drop on the session, while the S&P 500 fell 0.75% and the Dow slipped 0.14%. For the week, the S&P 500 gained 2.15%, the Nasdaq rose 1.92% and the Dow added 1.83%, as chip-driven strength "
+      "url": "https://finnhub.io/api/news?id=034e891aa31826d03ac1a8d9e2f822cd135bbb566ace98ae7d7dd37f6b352d98",
+      "datetime": 1794842651,
+      "summary": "The Nasdaq sells off Monday as Nvidia stock dives amid reports that Jensen Huang is considering a return to the firm."
     },
     {
-      "headline": "The Dow Is Flat. The Stock Market is Doing Better Than it Looks.",
+      "headline": "CAT's Sales Volumes Rise Across Segments: Can Growth Continue?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f07b06003096eb9190eb24add9efc63cb357f47f7cb1415d8b4de0b737d27f2b",
-      "datetime": 1794596773,
-      "summary": "The stock market is actually doing pretty OK."
+      "url": "https://finnhub.io/api/news?id=f2eb793ce6feb93ec38bb40b206442831685fd99cdab7f8baf552bcec24e7d5f",
+      "datetime": 1794840360,
+      "summary": "Caterpillar's equipment demand recovery is accelerating, with all three major segments driving volume growth and supporting its mid-to-high-teens revenue growth outlook for 2026."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-13",
+  "data_asof": "2026-11-16",
   "price": {
-    "last": 600.2,
-    "open": 611.93,
-    "prev_close": 605.28,
-    "move_day_pct": -0.84,
-    "move_open_close_pct": -1.92,
-    "move_week_pct": 7.44
+    "last": 570.49,
+    "open": 588.0,
+    "prev_close": 600.2,
+    "move_day_pct": -4.95,
+    "move_open_close_pct": -2.98,
+    "move_week_pct": -4.74
   },
   "indicators": {
     "rsi14": {
-      "value": 35.7,
+      "value": 31.4,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -46.995,
-      "signal": -48.365,
-      "hist": 1.371,
-      "hist_prev": -0.639,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "macd": -46.986,
+      "signal": -48.089,
+      "hist": 1.104,
+      "hist_prev": 1.371,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 762.62,
-      "lower": 526.82,
-      "mid": 644.72,
-      "pctb": 0.311,
+      "upper": 753.26,
+      "lower": 520.82,
+      "mid": 637.04,
+      "pctb": 0.214,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 10.84,
+      "value": 5.35,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -43.4,
-      "read": "43% below its 52-week high"
+      "value": -46.2,
+      "read": "46% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 804.37,
-      "pct": -25.38,
-      "read": "25% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 803.95,
+      "pct": -29.04,
+      "read": "29% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 29.08,
-      "pct_of_price": 4.84,
+      "value": 29.28,
+      "pct_of_price": 5.13,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.65,
+      "value": 0.93,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 33.1,
+      "value": 28.3,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": 541.53,
+  "low_52w": 541.52,
   "high_52w": 1060.41,
-  "ma50": 739.45,
-  "ma200": 804.37
+  "ma50": 734.62,
+  "ma200": 803.95
 }

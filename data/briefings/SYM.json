@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-14T12:30:05.595555-08:00",
+  "generated_at": "2026-11-16T13:32:20.269083-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Alithya Group (ALYAF) Q2 Earnings Top Estimates",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=5ff7a3e323c262682c3900bc4bbc7aadedc74da7cd1d2bf0e53323338f81b8af",
+      "datetime": 1794572401,
+      "summary": "Alithya (ALYAF) delivered earnings and revenue surprises of +300.00% and -0.50%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?"
+    },
     {
       "headline": "3 US Automation Stocks Riding The Reshoring Capex Boom",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=b8e57a926bf2358525bc36c9a27b1b3f54055507a5aec44a6101b43559ed4551",
       "datetime": 1794261602,
       "summary": "The latest trading day saw Symbotic Inc. (SYM) settling at $37.78, representing a +2.61% change from its previous close."
-    },
-    {
-      "headline": "5 Stocks to Watch from Morgan Stanley\u2019s Ultra-Selective Tailwinds Strategy",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=910a130acbbc0bb6844cb96ed9df94c4955ec1dce07f1da9197171f3281454e9",
-      "datetime": 1794060701,
-      "summary": "Artificial intelligence is rapidly reshaping the current corporate landscape. However, the next phase of its economic impact may extend well beyond the companies developing AI models, semiconductors, and data centers. In its September 2026 report, AI Beneficiaries: Investing in Second-Order Effects \u2013 Update: 100x AI Cultures, Morgan Stanley argued that investors should keep a close [\u2026]"
     }
   ],
   "filings": [
@@ -82,32 +82,32 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-13",
+  "data_asof": "2026-11-16",
   "price": {
-    "last": 34.83,
-    "open": 35.84,
-    "prev_close": 35.44,
-    "move_day_pct": -1.72,
-    "move_open_close_pct": -2.82,
-    "move_week_pct": -5.4
+    "last": 34.28,
+    "open": 33.95,
+    "prev_close": 34.83,
+    "move_day_pct": -1.58,
+    "move_open_close_pct": 0.97,
+    "move_week_pct": -9.29
   },
   "indicators": {
     "rsi14": {
-      "value": 36.4,
+      "value": 34.9,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -1.328,
-      "signal": -1.193,
-      "hist": -0.135,
-      "hist_prev": -0.061,
+      "macd": -1.441,
+      "signal": -1.243,
+      "hist": -0.198,
+      "hist_prev": -0.135,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 41.25,
-      "lower": 34.56,
-      "mid": 37.91,
-      "pctb": 0.04,
+      "upper": 41.32,
+      "lower": 34.02,
+      "mid": 37.67,
+      "pctb": 0.036,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
@@ -115,30 +115,30 @@
       "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -60.1,
-      "read": "60% below its 52-week high"
+      "value": -60.73,
+      "read": "61% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 46.84,
-      "pct": -25.64,
-      "read": "26% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 46.74,
+      "pct": -26.66,
+      "read": "27% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 2.12,
-      "pct_of_price": 6.09,
+      "value": 2.07,
+      "pct_of_price": 6.04,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.97,
+      "value": 1.05,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 37.9,
+      "value": 31.6,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": 34.83,
+  "low_52w": 34.28,
   "high_52w": 87.3,
-  "ma50": 40.59,
-  "ma200": 46.84
+  "ma50": 40.42,
+  "ma200": 46.74
 }

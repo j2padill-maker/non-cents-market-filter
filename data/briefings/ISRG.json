@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-14T12:30:03.283552-08:00",
+  "generated_at": "2026-11-16T13:32:17.830512-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "DOCS Expands Clinical AI Tools Across Three Major U.S. Health Systems",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a7f2213e5ad6e0cdfedd5e023eafea09b43dd13d771b44293604959618c1966e",
+      "datetime": 1794846420,
+      "summary": "Doximity expands its AI tools across three major healthcare institutions, bringing clinical decision support and documentation into existing workflows."
+    },
+    {
+      "headline": "Here's Why You Should Retain PHG Stock in Your Portfolio for Now",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=5ff484cda3b072cc7fc798424f5c41fcf2007d3c9790ce55ef9b2feb77edacd3",
+      "datetime": 1794838380,
+      "summary": "Philips' strong order momentum, market share gains and expanding service revenue support growth, despite manufacturing delays and pricing pressures."
+    },
+    {
+      "headline": "Where Will Intuitive Surgical Be in 10 Years? Hint: Its da Vinci 5 Installed Base Just Topped 2,000",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=20d4f6ecf6e4e20de9a503a91849234743d99902b7d1b0faaf7f5e268b686b27",
+      "datetime": 1794781202,
+      "summary": "Intuitive Surgical is struggling. Its newest da Vinci system is."
+    },
+    {
+      "headline": "Intuitive Surgical (ISRG) Adds Aaron Martin To Its Board",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c80a95f3ae71e5e2b8f5f27834fb015b42b5caf41c42986bf345401969fbc6b1",
+      "datetime": 1794733694,
+      "summary": "Intuitive Surgical (NasdaqGS: ISRG) has appointed Aaron Martin to its board of directors, expanding board membership with a healthcare technology leader. Martin currently serves as a senior executive at Humana and previously led digital initiatives as a vice president at Amazon Healthcare. His background spans digital health platforms, payer relationships and technology partnerships across both a "
+    },
+    {
       "headline": "GE HealthCare Forms MAGNUS Neuro Alliance to Advance MRI Research",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=382545d0a955c341c70d9e465641d43b2bc1e7483c82ae6160b1777a5878fe4a",
@@ -29,34 +57,6 @@
       "url": "https://finnhub.io/api/news?id=fac26e914feb8de06115f95c3e744a8858c01d2c7f72f99fad64b2738b6cb669",
       "datetime": 1794583020,
       "summary": "ANGO's strong NanoKnife sales, expanding Med Tech portfolio and solid fiscal Q1 results support growth prospects, despite tariff and inflation pressures."
-    },
-    {
-      "headline": "Should You Buy, Hold or Sell Abbott Stock Post-Q3 Earnings?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3cf0aed0ca45362e9225523ec4764297e861a7000165f08e349008f673c6121c",
-      "datetime": 1794582900,
-      "summary": "ABT's strong Q3 results, broad-based segment growth and Nutrition spin-off plans support its outlook, despite softer 2026 sales guidance."
-    },
-    {
-      "headline": "HIMS Partners With Lilly to Offer FDA-Approved Weight-Loss Drugs",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9f643af6463a04378fdf7d9ce4ff773fd827a39e078b201b36aa37d585eced63",
-      "datetime": 1794582720,
-      "summary": "Hims & Hers unites with Lilly to offer FDA-approved weight-loss drugs, Zepbound and Foundayo, expanding patient access and strengthening its obesity care platform."
-    },
-    {
-      "headline": "A $5.9 Billion Fund Is Betting Big on Intuitive Surgical",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=984eecc84cfd24f518b92494fa18496c0cab7d3587b6d309b04a7e8530388ac4",
-      "datetime": 1794580495,
-      "summary": "Key TakeawaysGuardCap Asset Management, which manages $5. 9 billion, opened a new Intuitive Surgical position in the third quarter: 167,863 shares worth $68 million, 4."
-    },
-    {
-      "headline": "Here's Why You Should Retain DexCom Stock in Your Portfolio for Now",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d36462169a83bd4999245843c37ce46cbe79d124dcec0cfabfe33405fe0a4ce4",
-      "datetime": 1794568920,
-      "summary": "DexCom's G7 15 Day adoption, international expansion and margin gains support its growth prospects, though competition and rising investments pose challenges."
     }
   ],
   "filings": [
@@ -82,54 +82,54 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-13",
+  "data_asof": "2026-11-16",
   "price": {
-    "last": 443.59,
-    "open": 443.69,
-    "prev_close": 439.89,
-    "move_day_pct": 0.84,
-    "move_open_close_pct": -0.02,
-    "move_week_pct": -2.03
+    "last": 437.75,
+    "open": 444.38,
+    "prev_close": 443.59,
+    "move_day_pct": -1.32,
+    "move_open_close_pct": -1.49,
+    "move_week_pct": -4.95
   },
   "indicators": {
     "rsi14": {
-      "value": 52.1,
+      "value": 49.5,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 8.454,
-      "signal": 11.207,
-      "hist": -2.753,
-      "hist_prev": -2.303,
+      "macd": 7.001,
+      "signal": 10.366,
+      "hist": -3.365,
+      "hist_prev": -2.753,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 471.85,
-      "lower": 422.4,
-      "mid": 447.13,
-      "pctb": 0.428,
+      "upper": 471.64,
+      "lower": 423.07,
+      "mid": 447.36,
+      "pctb": 0.302,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 33.6,
-      "read": "34% above its 52-week low"
+      "value": 31.84,
+      "read": "32% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -25.18,
-      "read": "25% below its 52-week high"
+      "value": -26.16,
+      "read": "26% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 429.38,
-      "pct": 3.31,
-      "read": "3% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 429.05,
+      "pct": 2.03,
+      "read": "2% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 14.45,
-      "pct_of_price": 3.26,
+      "value": 14.1,
+      "pct_of_price": 3.22,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.65,
+      "value": 0.72,
       "read": "Roughly average volume"
     },
     "mfi14": {
@@ -139,6 +139,6 @@
   },
   "low_52w": 332.02,
   "high_52w": 592.85,
-  "ma50": 417.59,
-  "ma200": 429.38
+  "ma50": 419.01,
+  "ma200": 429.05
 }

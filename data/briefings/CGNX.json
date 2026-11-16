@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-14T12:30:01.391643-08:00",
+  "generated_at": "2026-11-16T13:32:15.115496-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Robotics Stocks Become a Stock-Picker\u2019s Market as Momentum and Fundamentals Diverge",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=693552e9f9612f83274ab9efd1ba905e6b229b1c7418d079647b8f08db5b21c0",
+      "datetime": 1794836176,
+      "summary": "Robotics and automation stocks show high-quality fundamentals but weak momentum, with sharp divergence between earnings and share prices."
+    },
     {
       "headline": "Cognex Sees Strong 2026 Growth as AI and Automation Fuel Demand",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=afd491cb34b41d8391f4b1913875238087c39741f5c6a25b7c0d4b53bb65c8c6",
       "datetime": 1794335455,
       "summary": "Cognex Corporation (CGNX) Baird 2026 Global Industrial Conference 2026 November 10, 2026 3:55 PM ESTCompany ParticipantsMatt Moschner - President, CEO &..."
-    },
-    {
-      "headline": "Cognex: 3 Key Takeaways for Long-Term Investors",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0a248f8e8cf0202625c899c51a3d500cb5a816a5607280545ce23a036cc4eba2",
-      "datetime": 1794273504,
-      "summary": "Management's push, from cutting costs to squeezing more output from existing resources, could determine whether margin gains last through the cycle."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-13",
+  "data_asof": "2026-11-16",
   "price": {
-    "last": 50.01,
-    "open": 50.77,
-    "prev_close": 50.77,
-    "move_day_pct": -1.5,
-    "move_open_close_pct": -1.5,
-    "move_week_pct": 4.67
+    "last": 48.2,
+    "open": 48.51,
+    "prev_close": 50.01,
+    "move_day_pct": -3.62,
+    "move_open_close_pct": -0.64,
+    "move_week_pct": -4.25
   },
   "indicators": {
     "rsi14": {
-      "value": 38.8,
+      "value": 35.7,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -2.421,
-      "signal": -2.098,
-      "hist": -0.324,
-      "hist_prev": -0.375,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -2.561,
+      "signal": -2.19,
+      "hist": -0.371,
+      "hist_prev": -0.324,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 61.36,
-      "lower": 47.04,
-      "mid": 54.2,
-      "pctb": 0.207,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 61.46,
+      "lower": 46.25,
+      "mid": 53.85,
+      "pctb": 0.128,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 44.32,
-      "read": "44% above its 52-week low"
+      "value": 39.09,
+      "read": "39% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -30.85,
-      "read": "31% below its 52-week high"
+      "value": -33.35,
+      "read": "33% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 58.38,
-      "pct": -14.34,
-      "read": "14% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 58.43,
+      "pct": -17.51,
+      "read": "18% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 3.0,
-      "pct_of_price": 6.0,
+      "value": 2.94,
+      "pct_of_price": 6.09,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.55,
+      "value": 0.8,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 47.8,
+      "value": 43.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 34.65,
   "high_52w": 72.32,
-  "ma50": 58.08,
-  "ma200": 58.38
+  "ma50": 57.8,
+  "ma200": 58.43
 }

@@ -2,7 +2,7 @@
   "ticker": "AVGO",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-14T12:30:14.888547-08:00",
+  "generated_at": "2026-11-16T13:32:34.001719-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "HSBC Just Downgraded Nvidia and Cut Its Target to $170",
+      "headline": "What Mattered Most In Cerebras's Latest Quarter?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7b1f0c8236c6fde38b0c8c8cc31854e644439bd57f5bce1007d3e3ebaa5c8e41",
-      "datetime": 1794675833,
-      "summary": "Nvidia's sales are doubling and demand outruns supply, yet a CEO exit has analysts bailing at the fastest pace in years. Is the market pricing in a real threat, or just a leadership discount that Tuesday's earnings could erase?"
-    },
-    {
-      "headline": "NVDA, AMD, CRWV and More: 5 Stocks Investors Couldn\u2019t Stop Buzzing About This Week",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=c7c330d8dae70de6d9e45f461994920b9e1ac84f9aaa7e7e55ed603e87f94699",
-      "datetime": 1794644278,
-      "summary": "tail investors talked up five hot stocks during the week (Nov. 9 to Nov. 13) on X and Reddit&#39;s r/WallStreetBets: NVDA, AMD, TSLA, CSCO, CRWV"
-    },
-    {
-      "headline": "Benzinga Bulls and Bears: Nvidia, Rocket Lab, Nebius",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=e3e75e6279dad2734d769da5a3d6874e2ee442b4c55d458a2aff7067387da91d",
-      "datetime": 1794644243,
-      "summary": "Benzinga examined the prospects for many investors\u2019 favorite stocks over the last week \u2014 here\u2019s a look at some of our top stories."
-    },
-    {
-      "headline": "Arista Grew 58.5% Last Quarter: Does Nvidia\u2019s CEO Exit Make It a Buy, or a Risk?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5169509be57c5ba769a15e689e8f9c6212cb9ce1d6490411a44a5463768d0f3d",
-      "datetime": 1794641374,
-      "summary": "Key TakeawaysJensen Huang resigned as Nvidia\u2019s CEO on November 12, and chip stocks like AMD and Broadcom fell sharply. That puts Arista Networks\u2019 pitch of working with many chip vendors in the spotlight."
-    },
-    {
-      "headline": "Review & Preview: Moving On",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3f978bde145e006c963a38d189dacb9076c981e44f4b0c4aedcde7532df2fcb5",
-      "datetime": 1794617700,
-      "summary": "Indexes ended the week higher despite Nvidia\u2019s dramatic slide."
-    },
-    {
-      "headline": "Can You Justify Buying Dynatrace Stock Today?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ae8c45308cd8574df823a1e867e922c3cd07019364bb4b53874a2a68fdd0ecc2",
-      "datetime": 1794616878,
+      "url": "https://finnhub.io/api/news?id=271d753a65a39338b956ad4be0dc4ea16d1a6edf746262c2625df3d6b3e0a0f1",
+      "datetime": 1794857394,
       "summary": "For questions about this article or underlying research, email help@trefis.com."
+    },
+    {
+      "headline": "ACC Granted Leave to Intervene Before EU General Court in Broadcom Legal Privilege Case",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=78f722ee6a57aa33384e6eb3fa738b111e8564b187afab89fd097f6c48c44151",
+      "datetime": 1794854880,
+      "summary": "The Association of Corporate Counsel will share the perspective of in-house counsel as the Court considers how legal professional privilege applies to legal advice from outside the European Union.Washington, D.C., Nov. 16, 2026 (GLOBE NEWSWIRE) -- WASHINGTON, D.C. \u2014 November 16, 2026 \u2014 The Association of Corporate Counsel (ACC), the global legal association representing more than 48,000 in-house c"
+    },
+    {
+      "headline": "Altimeter Capital to invest $5 billion in Anthropic IPO - report",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=5047a14801e9b3353569236a18d6ac3d2e5c95f3fc48678dd0190b6fed84a0b9",
+      "datetime": 1794854801,
+      "summary": "Investing.com -- Altimeter Capital will invest $5 billion in Anthropic's initial public offering, according to Brad Gerstner, who spoke on CNBC's \"Halftime Report\" on Monday."
+    },
+    {
+      "headline": "Broadcom Stocks Slide 4.76% as Downgrade Keeps AI Financing Fears in Focus",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ece2d7da08d49499c1689d05b5196f9382ff73e89df5f5c0b25426d137971ef9",
+      "datetime": 1794853109,
+      "summary": "Rothschild & Co Redburn's cut to Neutral, and a target lowered to $398, questions how quickly Anthropic and OpenAI can pay their own way."
+    },
+    {
+      "headline": "Jensen Huang Reportedly Mulls Nvidia Comeback, But Not The Board",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ce1cf5e4162ea8304d26b35cde37467557f5088a7a961ace3f2aba7ae13e7d13",
+      "datetime": 1794852482,
+      "summary": "Jensen Huang reportedly is eyeing a return to the chip giant, days after resigning as CEO in scandal. But the board isn't. Nvidia stock fell."
+    },
+    {
+      "headline": "5 Stocks to Buy as Investors Look Beyond NVIDIA",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=17433fdea12495e8c808ade4323a604b5af49bd713c88d7ac51514454fb432e3",
+      "datetime": 1794852150,
+      "summary": "For three years, the AI trade has been looking up to one face too often. Now it has an interim CEO. On November 12, Jensen Huang resigned as NVIDIA\u2019s chief executive and board member, hours after nerves gripped investors awaiting the outcome of the board\u2019s crisis meeting. And on an interim basis, CFO Colette Kress [\u2026]"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-13",
+  "data_asof": "2026-11-16",
   "price": {
-    "last": 347.01,
-    "open": 356.54,
-    "prev_close": 364.36,
-    "move_day_pct": -4.76,
-    "move_open_close_pct": -2.67,
-    "move_week_pct": 18.16
+    "last": 333.4,
+    "open": 332.7,
+    "prev_close": 347.01,
+    "move_day_pct": -3.92,
+    "move_open_close_pct": 0.21,
+    "move_week_pct": 4.36
   },
   "indicators": {
     "rsi14": {
-      "value": 53.2,
+      "value": 48.8,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -2.198,
-      "signal": -6.546,
-      "hist": 4.347,
-      "hist_prev": 4.01,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "macd": -2.143,
+      "signal": -5.665,
+      "hist": 3.522,
+      "hist_prev": 4.347,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 364.92,
-      "lower": 297.0,
-      "mid": 330.96,
-      "pctb": 0.736,
+      "upper": 364.84,
+      "lower": 296.96,
+      "mid": 330.9,
+      "pctb": 0.537,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 19.03,
-      "read": "19% above its 52-week low"
+      "value": 14.36,
+      "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -27.7,
-      "read": "28% below its 52-week high"
+      "value": -30.53,
+      "read": "31% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 366.48,
-      "pct": -5.31,
-      "read": "5% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 366.5,
+      "pct": -9.03,
+      "read": "9% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 17.84,
-      "pct_of_price": 5.14,
+      "value": 17.93,
+      "pct_of_price": 5.38,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.24,
+      "value": 0.98,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 55.5,
+      "value": 49.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 291.53,
   "high_52w": 479.94,
-  "ma50": 345.25,
-  "ma200": 366.48
+  "ma50": 344.78,
+  "ma200": 366.5
 }

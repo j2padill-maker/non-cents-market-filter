@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-14T12:30:13.007197-08:00",
+  "generated_at": "2026-11-16T13:32:30.008982-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Top 3 AI Security Stocks With Earnings Growth Over 29%",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f1ba1862a9ee3706beae48e1f6978e920d4cc9c9e1456313351c8c9f23a01f50",
+      "datetime": 1794608247,
+      "summary": "AI related goods are driving a large share of global trade growth, and every surge in computing power creates a bigger target surface for hackers. That rising risk puts digital security in the spotlight for anyone exposed to the AI build out. For investors, that opens a focused way to participate in the data protection story. This article highlights three cybersecurity stocks from a global high qu"
+    },
+    {
+      "headline": "Palo Alto Stock Upgraded to Buy After 20% Dip",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=2606cd9c54f9712ee939f2e1a69b0ff04d7746a61326d9c42b8bc3fbf2e26497",
+      "datetime": 1794594060,
+      "summary": "KeyBanc upgrades Palo Alto Networks to Overweight, betting that next-generation security growth will outweigh firewall concerns."
+    },
     {
       "headline": "Top Cybersecurity Stocks to Watch, According to Mizuho",
       "source": "Yahoo",
@@ -31,32 +45,18 @@
       "summary": "For questions about this article or underlying research, email help@trefis.com."
     },
     {
+      "headline": "The Post-Midterm Rally Clock Is Ticking\u2014and These 3 AI Stocks Stand Out",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=415c71c6725369cad57f1d66198c796e9782f7c0abca8e957b4095c73ce0efe3",
+      "datetime": 1794492300,
+      "summary": "Chaikin Money Flow shows smart money buying Shopify, Veeva Systems, and Zscaler in the post-midterm rout, and past 4% S&P 500 drops led to bigger three-month gains."
+    },
+    {
       "headline": "Zscaler: A Stock Left Behind",
       "source": "SeekingAlpha",
       "url": "https://finnhub.io/api/news?id=e893e490cabf41980b7d720132c1bf464166574957e582d37c93968a76b4492e",
       "datetime": 1794472582,
       "summary": "Zscaler is rated a buy with undervaluation and low expectations supporting more upside ahead. Click here to read an analysis of ZS stock now."
-    },
-    {
-      "headline": "How Big Could Cloudflare Stock's Next Fall Be?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=64fd3cae7835915f985d914062e2fcef69fe782d13378b066735625f9f3a94b7",
-      "datetime": 1794434703,
-      "summary": "For questions about this article or underlying research, email help@trefis.com."
-    },
-    {
-      "headline": "Atlassian vs. Zscaler: Which Technology Stock Is a Better Buy for 2027?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e88d12603b32fb3450904aa8065f589b31b611e1530789da1c25038c9a73c4c0",
-      "datetime": 1794432761,
-      "summary": "Atlassian is growing fast and now turning a profit, but its stock fell on slower guidance. Zscaler is a major cloud security player that recently posted a small loss."
-    },
-    {
-      "headline": "Zscaler's Cross-Selling Strategy: Can Data Security Lift Revenues?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7703a477d6e17435385c9dd5ab9cf713af544bdef625be12cbed2437f4b21859",
-      "datetime": 1794413280,
-      "summary": "ZS' Data Security business gains momentum as strong ARR growth, rising AI security demand and cross-selling opportunities open new avenues for revenue growth."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-13",
+  "data_asof": "2026-11-16",
   "price": {
-    "last": 192.47,
-    "open": 197.24,
-    "prev_close": 193.22,
-    "move_day_pct": -0.39,
-    "move_open_close_pct": -2.42,
-    "move_week_pct": -2.63
+    "last": 190.84,
+    "open": 190.0,
+    "prev_close": 192.47,
+    "move_day_pct": -0.85,
+    "move_open_close_pct": 0.44,
+    "move_week_pct": -4.12
   },
   "indicators": {
     "rsi14": {
-      "value": 35.6,
+      "value": 34.9,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -6.073,
-      "signal": -0.007,
-      "hist": -6.066,
-      "hist_prev": -6.564,
+      "macd": -6.932,
+      "signal": -1.392,
+      "hist": -5.54,
+      "hist_prev": -6.066,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 270.51,
-      "lower": 175.66,
-      "mid": 223.08,
-      "pctb": 0.177,
+      "upper": 271.29,
+      "lower": 172.7,
+      "mid": 222.0,
+      "pctb": 0.184,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 63.04,
-      "read": "63% above its 52-week low"
+      "value": 61.66,
+      "read": "62% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -37.63,
-      "read": "38% below its 52-week high"
+      "value": -36.27,
+      "read": "36% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 166.57,
-      "pct": 15.55,
-      "read": "16% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 166.53,
+      "pct": 14.6,
+      "read": "15% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 12.09,
-      "pct_of_price": 6.28,
+      "value": 11.78,
+      "pct_of_price": 6.17,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.59,
+      "value": 0.73,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 24.9,
-      "read": "Neutral money flow"
+      "value": 15.7,
+      "read": "Oversold \u2014 money flowing out"
     }
   },
   "low_52w": 118.05,
-  "high_52w": 308.6,
-  "ma50": 209.45,
-  "ma200": 166.57
+  "high_52w": 299.45,
+  "ma50": 209.87,
+  "ma200": 166.53
 }

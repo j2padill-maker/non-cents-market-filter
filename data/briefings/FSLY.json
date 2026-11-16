@@ -2,7 +2,7 @@
   "ticker": "FSLY",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-14T12:30:16.531388-08:00",
+  "generated_at": "2026-11-16T13:32:36.689052-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Nvidia Earnings Could Shift Focus To Cloudflare Stock And AI Cost Control",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a962347d3e6a99941545436ffde4ee0f54996106ff2e092842e213550633a765",
+      "datetime": 1794701912,
+      "summary": "AI infrastructure spending is exploding, yet the real story is shifting to the quieter software players helping firms control cloud bills and monitor complex models. With Nvidia\u2019s Nov. 17 earnings and the Anthropic IPO set to test how durable this AI buildout really is, investors risk watching from the sidelines. This article unpacks how those catalysts could impact three stocks exposed to that ne"
+    },
+    {
+      "headline": "Fastly: 3 Key Takeaways for Long-Term Investors",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c9e28166670f254af1125554d381de433a4968b4026e6b01c06aeece42f16e04",
+      "datetime": 1794689761,
+      "summary": "Operating leverage lets Fastly add revenue without matching hardware costs, a structural edge that matters as global traffic keeps climbing."
+    },
     {
       "headline": "Fastly vs. UiPath: Which Artificial Intelligence Stock Is a Better Buy Going into 2027?",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=64fd3cae7835915f985d914062e2fcef69fe782d13378b066735625f9f3a94b7",
       "datetime": 1794434703,
       "summary": "For questions about this article or underlying research, email help@trefis.com."
-    },
-    {
-      "headline": "Fastly Is Still Down 40% in the Past Month: Can FSLY Stock Get Back to $30?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d00bce1cef1819e9d34de679ad0fc9ec683e13826c92442d85f76de8ba61f183",
-      "datetime": 1794427334,
-      "summary": "A sharp post-earnings drop has turned Fastly (NASDAQ:FSLY) into one of the more contested recovery stories in edge cloud computing. Fastly shares are down 40% over the past month to $17.56 in recent trading. That price includes an 8% gain from the prior close, as a broad tech rally tied to the latest quarterly results [\u2026]"
-    },
-    {
-      "headline": "Datadog vs. Fastly: Which Cloud Tech Stock Is a Better Buy for 2027?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0dfaf86b60ed99f0b062316711887c5ae35bc025ba8c6ffe19141f19866706a3",
-      "datetime": 1794424802,
-      "summary": "Datadog's revenue grew nearly 28% in FY 2025, while Fastly still posted a net loss, but one valuation gap may matter more than either growth or losses."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-13",
+  "data_asof": "2026-11-16",
   "price": {
-    "last": 16.62,
-    "open": 17.5,
-    "prev_close": 17.19,
-    "move_day_pct": -3.32,
-    "move_open_close_pct": -5.03,
-    "move_week_pct": 4.86
+    "last": 15.86,
+    "open": 16.1,
+    "prev_close": 16.62,
+    "move_day_pct": -4.57,
+    "move_open_close_pct": -1.49,
+    "move_week_pct": -0.75
   },
   "indicators": {
     "rsi14": {
-      "value": 35.4,
+      "value": 33.7,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -2.257,
-      "signal": -1.725,
-      "hist": -0.533,
-      "hist_prev": -0.641,
+      "macd": -2.312,
+      "signal": -1.842,
+      "hist": -0.47,
+      "hist_prev": -0.533,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 28.83,
-      "lower": 13.29,
-      "mid": 21.06,
-      "pctb": 0.214,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 28.74,
+      "lower": 12.67,
+      "mid": 20.7,
+      "pctb": 0.199,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 108.79,
-      "read": "109% above its 52-week low"
+      "value": 99.25,
+      "read": "99% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -50.39,
-      "read": "50% below its 52-week high"
+      "value": -52.66,
+      "read": "53% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 21.88,
-      "pct": -24.04,
-      "read": "24% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 21.91,
+      "pct": -27.61,
+      "read": "28% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 2.0,
-      "pct_of_price": 12.01,
+      "value": 1.93,
+      "pct_of_price": 12.17,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.55,
+      "value": 0.67,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 32.4,
+      "value": 25.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 7.96,
   "high_52w": 33.5,
-  "ma50": 23.47,
-  "ma200": 21.88
+  "ma50": 23.38,
+  "ma200": 21.91
 }

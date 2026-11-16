@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-14T12:30:07.310133-08:00",
+  "generated_at": "2026-11-16T13:32:22.733171-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "Teradyne to Present at the 2026 UBS Global Technology and AI Conference",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7749535313e13b0c1a63de87dad3b73234f8e94e5e7dbd33faa2209bf92e0b44",
+      "datetime": 1794857400,
+      "summary": "NORTH READING, Mass., November 16, 2026--Teradyne, Inc. (NASDAQ:TER) today announced that Greg Smith, Chief Executive Officer, is scheduled to participate in a fireside chat at the UBS Global Technology and AI Conference on Monday, November 30, 2026, at 4:15 PM MST."
+    },
+    {
+      "headline": "Teradyne Stocks Drop 6.14% as Advantest's 11% Tokyo Plunge Hits Chip Testers",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=fef456eab15a9c2129fde9cefdededbe85234335416bf2ce0fd0a5c2d760e396",
+      "datetime": 1794851105,
+      "summary": "Teradyne fell in sympathy with its largest rival after Tokyo's chip selloff, a quarter after AI demand lifted its revenue 70%."
+    },
+    {
+      "headline": "Vertiv vs. Teradyne: Which AI Infrastructure Stock Is the Better Buy?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=26dc9e9db743e7e5653c0703646ea10986a5b4a07c4543967dfc9574c3185e03",
+      "datetime": 1794844080,
+      "summary": "VRT emerges as a stronger AI infrastructure stock than TER, supported by robust order growth, a diversified portfolio, and stronger earnings estimate revisions."
+    },
+    {
+      "headline": "Robotics Stocks Become a Stock-Picker\u2019s Market as Momentum and Fundamentals Diverge",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=693552e9f9612f83274ab9efd1ba905e6b229b1c7418d079647b8f08db5b21c0",
+      "datetime": 1794836176,
+      "summary": "Robotics and automation stocks show high-quality fundamentals but weak momentum, with sharp divergence between earnings and share prices."
+    },
+    {
+      "headline": "S&P 500 Premarket Losers on Nov. 16, 2026: COIN, LITE, COHR",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=70a7b32f63e8bb471907f44b1e904e32673d99c6062ae570872b1c00b3712e26",
+      "datetime": 1794836159,
+      "summary": "S&P 500 premarket losers on Nov. 16, 2026 included Coinbase, Lumentum and Coherent, with listed declines from roughly 5.5% to 7.2% before the open."
+    },
+    {
       "headline": "S&P 500 Top Movers for Nov. 13, 2026: Charter Communications Leads Gainers, AMD Leads Losers",
       "source": "ChartMill",
       "url": "https://finnhub.io/api/news?id=be3fdb8d07915e0be2cd4515b98267b2b4974a4811a7553772ecbabacec06658",
       "datetime": 1794600354,
       "summary": "S&P 500 top movers on Nov. 13, 2026: Charter Communications led gainers at 4.58%, while Advanced Micro Devices led losers at -9.42%."
-    },
-    {
-      "headline": "S&P 500 Top Movers: Today's US Session Gainers and Losers",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=efc0c08c5a5019a16ad710e064b263e08fed80d34e428ee716c24e13eaa6035e",
-      "datetime": 1794591357,
-      "summary": "S&P 500 top movers for today's US session: Charter Communications and Texas Pacific Land lead gainers, while Advanced Micro Devices and Dell lead decliners."
-    },
-    {
-      "headline": "S&P 500 Gap-Down Stocks in the Nov. 13 Session",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=ebe545aa5ebce7afb67bfb2416115341c53558ac02b667d06d0b106099a69eae",
-      "datetime": 1794584168,
-      "summary": "Nov. 13 S&P 500 gap-down stocks include AMD, Coherent, Dell, Sandisk, Marvell, Lumentum and others, with session losses and several double-digit gaps."
-    },
-    {
-      "headline": "Teradyne Benefits From Strong Test Demand: Can It Beat KLAC & COHU?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e85223acf0d69d1a1d6eee1afb2e13888a92e895bfbd20fc2a83e43b294a1e92",
-      "datetime": 1794583200,
-      "summary": "TER's surging AI chip and memory test demand, expanding product portfolio and strong revenue growth bolster its competitive position against KLA and Cohu."
-    },
-    {
-      "headline": "CBRS Q3 Earnings Beat Estimates, Revenues Rise on Strong Cloud Growth",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3d3fbaba2883ffa0b912c505ef1cef9b6ecda6ea6dc68a1a44315b3ffc8cba9f",
-      "datetime": 1794580980,
-      "summary": "Cerebras beats Q3 earnings estimates as revenues surge 70% on robust AI cloud demand, while hyperscaler deals and capacity expansion fuel its growth outlook."
-    },
-    {
-      "headline": "The Chip Index Has Been Slashed, but These 3 Stocks Have a Path Back",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2ac684b08ad3ae860c58e13128120e36fbc41f62e01173db69aacad0c5c11c51",
-      "datetime": 1794580971,
-      "summary": "Many of the 30 stocks in the Philadelphia Semiconductor Index have lost more than half their value. Three beaten-down chipmakers each face a dated test that will decide whether they recover, and only one has a clear shot."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-13",
+  "data_asof": "2026-11-16",
   "price": {
-    "last": 249.55,
-    "open": 260.04,
-    "prev_close": 263.75,
-    "move_day_pct": -5.38,
-    "move_open_close_pct": -4.03,
-    "move_week_pct": 14.36
+    "last": 231.9,
+    "open": 237.6,
+    "prev_close": 249.55,
+    "move_day_pct": -7.07,
+    "move_open_close_pct": -2.4,
+    "move_week_pct": -5.73
   },
   "indicators": {
     "rsi14": {
-      "value": 37.3,
+      "value": 33.9,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -30.144,
-      "signal": -31.13,
-      "hist": 0.986,
-      "hist_prev": 0.183,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "macd": -30.387,
+      "signal": -30.981,
+      "hist": 0.594,
+      "hist_prev": 0.986,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 358.83,
-      "lower": 204.62,
-      "mid": 281.73,
-      "pctb": 0.291,
+      "upper": 352.41,
+      "lower": 200.68,
+      "mid": 276.54,
+      "pctb": 0.206,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 60.38,
-      "read": "60% above its 52-week low"
+      "value": 49.04,
+      "read": "49% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -48.4,
-      "read": "48% below its 52-week high"
+      "value": -52.05,
+      "read": "52% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 350.06,
-      "pct": -28.71,
-      "read": "29% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 350.02,
+      "pct": -33.75,
+      "read": "34% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 22.98,
-      "pct_of_price": 9.21,
+      "value": 22.75,
+      "pct_of_price": 9.81,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.78,
+      "value": 0.82,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 29.6,
+      "value": 23.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 155.6,
   "high_52w": 483.65,
-  "ma50": 342.61,
-  "ma200": 350.06
+  "ma50": 340.1,
+  "ma200": 350.02
 }

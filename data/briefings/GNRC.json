@@ -2,7 +2,7 @@
   "ticker": "GNRC",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-14T12:29:58.714950-08:00",
+  "generated_at": "2026-11-16T13:32:11.515319-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "3 US AI Infrastructure Stocks Backing The Data Center Power Buildout",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e156d489d4d7d67cf52a0cd949970bade4c2dbb406424a09b0252e76d655ccf0",
+      "datetime": 1794827741,
+      "summary": "Washington is turning up the heat on AI chip exports to China, and that pressure is rippling far beyond Nvidia into the plumbing of the data center world. As rules tighten and onshoring gathers momentum, attention is shifting to the less glamorous companies that power, cool and house advanced computing. This article walks through three AI data center infrastructure stocks most exposed to this stor"
+    },
     {
       "headline": "Here's Why You Should Consider Investing in Allegion Stock Now",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=dfa16c625436befa4d3f62e9a7d35dc45c7bfb9c1691a5c7a3551b1176a7c5bd",
       "datetime": 1794334200,
       "summary": "Equity Insider News Commentary - U.S. stocks were lower in late morning trading on Tuesday, the day the Bureau of Labor Statistics published its October Consumer Price Index. As of 11:42 a.m. ET, the S&P 500 was down 57.20 points, or 0.76%, at 7,492.74, the Nasdaq Composite was down 269.19 points, or 1.07%, at 24,983.95, and the Dow Jones Industrial Average was down 357.50 points, or 0.68%, at 52,"
-    },
-    {
-      "headline": "Stem Acquires Software Assets Of raicoon For Automated Fault Detection And Workflow Management In Solar Portfolios; Terms Not Disclosed",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=16e82977bee56ffad394c13a7ee4aabbb77846e2aaedc180df67a2bfb4501f9c",
-      "datetime": 1794323283,
-      "summary": ""
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-13",
+  "data_asof": "2026-11-16",
   "price": {
-    "last": 190.77,
-    "open": 193.81,
-    "prev_close": 192.88,
-    "move_day_pct": -1.09,
-    "move_open_close_pct": -1.57,
-    "move_week_pct": 7.91
+    "last": 185.62,
+    "open": 185.53,
+    "prev_close": 190.77,
+    "move_day_pct": -2.7,
+    "move_open_close_pct": 0.05,
+    "move_week_pct": -1.66
   },
   "indicators": {
     "rsi14": {
-      "value": 47.7,
+      "value": 45.0,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -3.701,
-      "signal": -3.756,
-      "hist": 0.055,
-      "hist_prev": -0.211,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": -3.851,
+      "signal": -3.775,
+      "hist": -0.076,
+      "hist_prev": 0.055,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 210.24,
-      "lower": 174.71,
-      "mid": 192.47,
-      "pctb": 0.452,
+      "upper": 210.1,
+      "lower": 174.08,
+      "mid": 192.09,
+      "pctb": 0.32,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 39.89,
-      "read": "40% above its 52-week low"
+      "value": 36.11,
+      "read": "36% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -35.45,
-      "read": "35% below its 52-week high"
+      "value": -37.19,
+      "read": "37% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 219.54,
-      "pct": -13.1,
-      "read": "13% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 219.63,
+      "pct": -15.49,
+      "read": "15% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 12.06,
-      "pct_of_price": 6.32,
+      "value": 11.61,
+      "pct_of_price": 6.26,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.61,
+      "value": 0.63,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 58.4,
+      "value": 54.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 136.37,
   "high_52w": 295.54,
-  "ma50": 198.42,
-  "ma200": 219.54
+  "ma50": 198.39,
+  "ma200": 219.63
 }
