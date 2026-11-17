@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-16T13:32:05.544419-08:00",
+  "generated_at": "2026-11-16T18:22:20.697185-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-16",
+  "data_asof": "2026-11-13",
   "price": {
-    "last": 172.86,
-    "open": 182.41,
-    "prev_close": 184.16,
-    "move_day_pct": -6.14,
-    "move_open_close_pct": -5.24,
-    "move_week_pct": -3.76
+    "last": 184.16,
+    "open": 188.24,
+    "prev_close": 184.46,
+    "move_day_pct": -0.16,
+    "move_open_close_pct": -2.17,
+    "move_week_pct": 2.86
   },
   "indicators": {
     "rsi14": {
-      "value": 28.5,
-      "read": "Extremely oversold"
+      "value": 31.5,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -22.786,
-      "signal": -18.065,
-      "hist": -4.722,
-      "hist_prev": -5.345,
+      "macd": -22.229,
+      "signal": -16.884,
+      "hist": -5.345,
+      "hist_prev": -6.797,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 306.76,
-      "lower": 139.28,
-      "mid": 223.02,
-      "pctb": 0.201,
+      "upper": 309.32,
+      "lower": 145.47,
+      "mid": 227.39,
+      "pctb": 0.236,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 68.45,
-      "read": "68% above its 52-week low"
+      "value": 79.47,
+      "read": "79% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -41.06,
-      "read": "41% below its 52-week high"
+      "value": -37.2,
+      "read": "37% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 201.58,
-      "pct": -14.25,
-      "read": "14% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 201.36,
+      "pct": -8.54,
+      "read": "9% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 14.25,
-      "pct_of_price": 8.24,
+      "value": 14.44,
+      "pct_of_price": 7.84,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.85,
+      "value": 0.86,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 20.5,
+      "value": 25.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 293.26,
-  "ma50": 242.73,
-  "ma200": 201.58
+  "ma50": 243.53,
+  "ma200": 201.36
 }

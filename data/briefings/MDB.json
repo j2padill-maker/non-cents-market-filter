@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-16T13:31:46.346065-08:00",
+  "generated_at": "2026-11-16T18:22:13.659106-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "MongoDB (MDB) Declines More Than Market: Some Information for Investors",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=aaca06871833aae5e3a5914f9cede0a7813e7d9afb5df66644bbd624974ec7e5",
+      "datetime": 1794867303,
+      "summary": "MongoDB (MDB) concluded the recent trading session at $316.92, signifying a -5.17% move from its prior day's close."
+    },
+    {
+      "headline": "Top Enterprise Software Stocks to Watch, According to Citi",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=9bc4d6fd443ef2004b374953b407ad23ba0b3af0b5e78788ef5fa0ed17b14a09",
+      "datetime": 1794856671,
+      "summary": "Investing.com -- Citi analysts have identified their preferred enterprise software stocks as the sector navigates a shifting landscape where the burden of proof for artificial intelligence-driven growth has intensified."
+    },
+    {
+      "headline": "Best Growth Stocks to Buy for November 16th",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=65e0f354c0c802475536096f80e558ec77ce9044031fe49c13d5713a65c9f1f0",
+      "datetime": 1794819300,
+      "summary": "HAS, MDB and OSCR made it to the Zacks Rank #1 (Strong Buy) growth stocks list on November 16th, 2026."
+    },
     {
       "headline": "Nvidia Shock Has Investors Rethinking AI Infrastructure Stocks",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=31b1dc5342db4cc202de7088cf4e961779216a8dacddd1af92ba488dc3a791cd",
       "datetime": 1794558782,
       "summary": "Revenue growth across these six companies ranges from 15% to 96%. Where is AI showing up in their results?"
-    },
-    {
-      "headline": "Will MongoDB Stock Ever Get Back To Its Old High?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0e11b7aeabe3e97ec76ef7229b835da0fe3b404e8882a68fb39d80515907fa9a",
-      "datetime": 1794498357,
-      "summary": "For questions about this article or underlying research, email help@trefis.com."
-    },
-    {
-      "headline": "Best Growth Stocks to Buy for November 12th",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=32162152ba86e5ff62c1cbc069228fc82450ca52e63ec94f4edf61e5d590191f",
-      "datetime": 1794471720,
-      "summary": "MDB, INGM, and OSCR it to the Zacks Rank #1 (Strong Buy) growth stocks list on November 12, 2026."
-    },
-    {
-      "headline": "5 Stocks Analysts Are Upgrading Right Now",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b131d70adbc7df0362b484d39710e767a11bd112d03923b633fd23a80fd8f0bc",
-      "datetime": 1794429534,
-      "summary": "Wall Street spent the week swinging between relief and worry. Stocks rallied hard on Monday, then slipped on Tuesday, when a hotter-than-expected inflation report arrived just as Federal Reserve officials were openly talking about raising interest rates again. The swings followed the S&P 500\u2019s biggest weekly drop since April 2025. Hot Inflation Data Revives Rate-Hike [\u2026]"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-16",
+  "data_asof": "2026-11-13",
   "price": {
-    "last": 316.92,
-    "open": 326.04,
-    "prev_close": 334.2,
-    "move_day_pct": -5.17,
-    "move_open_close_pct": -2.8,
-    "move_week_pct": -3.19
+    "last": 334.2,
+    "open": 341.8,
+    "prev_close": 339.78,
+    "move_day_pct": -1.64,
+    "move_open_close_pct": -2.22,
+    "move_week_pct": 6.83
   },
   "indicators": {
     "rsi14": {
-      "value": 39.8,
-      "read": "Oversold"
+      "value": 44.4,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": -12.351,
-      "signal": -11.116,
-      "hist": -1.236,
-      "hist_prev": -0.661,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -11.468,
+      "signal": -10.807,
+      "hist": -0.661,
+      "hist_prev": -1.291,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 406.04,
-      "lower": 294.02,
-      "mid": 350.03,
-      "pctb": 0.204,
+      "upper": 405.54,
+      "lower": 297.69,
+      "mid": 351.61,
+      "pctb": 0.339,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 40.26,
-      "read": "40% above its 52-week low"
+      "value": 47.91,
+      "read": "48% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -32.9,
-      "read": "33% below its 52-week high"
+      "value": -29.24,
+      "read": "29% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 334.01,
-      "pct": -5.12,
-      "read": "5% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 334.29,
+      "pct": -0.03,
+      "read": "0% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 21.14,
-      "pct_of_price": 6.67,
+      "value": 21.36,
+      "pct_of_price": 6.39,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.75,
-      "read": "Roughly average volume"
+      "value": 0.45,
+      "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 30.0,
+      "value": 35.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 363.87,
-  "ma200": 334.01
+  "ma50": 364.9,
+  "ma200": 334.29
 }

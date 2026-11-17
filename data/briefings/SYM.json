@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-16T13:32:20.269083-08:00",
+  "generated_at": "2026-11-16T18:22:31.397831-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Duos Technologies Group, Inc. (DUOT) Reports Q3 Loss, Misses Revenue Estimates",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=0857aa193ac85c1fbf66007694fbd50aabcfbfaeefb9aca26adbbbe6697bcba8",
+      "datetime": 1794867001,
+      "summary": "Duos Technologies Group, Inc. (DUOT) delivered earnings and revenue surprises of -2,500.00% and -17.97%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?"
+    },
+    {
+      "headline": "Symbotic Inc. (SYM) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=27e759a38b9003fc9595047c4db94cdef619f9acd2596d06b5ed279e80225beb",
+      "datetime": 1794866401,
+      "summary": "Symbotic Inc. (SYM) concluded the recent trading session at $34.15, signifying a -1.95% move from its prior day's close."
+    },
     {
       "headline": "Alithya Group (ALYAF) Q2 Earnings Top Estimates",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=86c16b7031b359d885e4075930738c49347a9527c10dcc396e90116dc51aaaf8",
       "datetime": 1794480163,
       "summary": "Analyst sees Symbotic's software gross margins as key to justifying its expensive valuation; a Q4 beat may not spark a sustainable rally."
-    },
-    {
-      "headline": "Jefferies Initiates Coverage On Symbotic with Hold Rating, Announces Price Target of $35",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=a8796fdc961125c2aff8b186392198654e8e6511c86a02a9cbf39d64309ffb26",
-      "datetime": 1794392410,
-      "summary": "Jefferies  analyst Dushyant Ailani   initiates coverage on Symbotic (NASDAQ:SYM) with a Hold rating and announces Price Target of $35."
-    },
-    {
-      "headline": "Symbotic Inc. (SYM) Outperforms Broader Market: What You Need to Know",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b8e57a926bf2358525bc36c9a27b1b3f54055507a5aec44a6101b43559ed4551",
-      "datetime": 1794261602,
-      "summary": "The latest trading day saw Symbotic Inc. (SYM) settling at $37.78, representing a +2.61% change from its previous close."
     }
   ],
   "filings": [
@@ -82,32 +82,32 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-16",
+  "data_asof": "2026-11-13",
   "price": {
-    "last": 34.28,
-    "open": 33.95,
-    "prev_close": 34.83,
-    "move_day_pct": -1.58,
-    "move_open_close_pct": 0.97,
-    "move_week_pct": -9.29
+    "last": 34.83,
+    "open": 35.84,
+    "prev_close": 35.44,
+    "move_day_pct": -1.72,
+    "move_open_close_pct": -2.82,
+    "move_week_pct": -5.4
   },
   "indicators": {
     "rsi14": {
-      "value": 34.9,
+      "value": 36.4,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -1.441,
-      "signal": -1.243,
-      "hist": -0.198,
-      "hist_prev": -0.135,
+      "macd": -1.328,
+      "signal": -1.193,
+      "hist": -0.135,
+      "hist_prev": -0.061,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 41.32,
-      "lower": 34.02,
-      "mid": 37.67,
-      "pctb": 0.036,
+      "upper": 41.25,
+      "lower": 34.56,
+      "mid": 37.91,
+      "pctb": 0.04,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
@@ -115,30 +115,30 @@
       "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -60.73,
-      "read": "61% below its 52-week high"
+      "value": -60.1,
+      "read": "60% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 46.74,
-      "pct": -26.66,
-      "read": "27% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 46.84,
+      "pct": -25.64,
+      "read": "26% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 2.07,
-      "pct_of_price": 6.04,
+      "value": 2.12,
+      "pct_of_price": 6.09,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.05,
+      "value": 0.97,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 31.6,
+      "value": 37.9,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": 34.28,
+  "low_52w": 34.83,
   "high_52w": 87.3,
-  "ma50": 40.42,
-  "ma200": 46.74
+  "ma50": 40.59,
+  "ma200": 46.84
 }

@@ -2,7 +2,7 @@
   "ticker": "CAT",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-16T13:32:42.760108-08:00",
+  "generated_at": "2026-11-16T18:22:46.427883-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "What Has Changed In Caterpillar's Story?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=5a26be5b9bc3f9bd41bc07ff7ffd7f906966067c47b8db6a4985c7abf3d24368",
+      "datetime": 1794870351,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
+    },
+    {
+      "headline": "Michael Burry Buys More Of Adobe And MercadoLibre, Exits ORCL, CAT Puts",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=fcc4ab31da72ebea36439132786a5dd95a457b24aa25901f233f4f8d26c5a504",
+      "datetime": 1794869040,
+      "summary": "Burry continues to hold a large put position in the VanEck Semiconductor ETF, along with puts on the Nasdaq 100, Nvidia, MetLife, and Palantir."
+    },
+    {
+      "headline": "Michael Burry Cashed In Caterpillar Puts After a Nearly 4x Gain Even as CAT Stock Fell 10% in Its Worst Week in 18 Months. Is Caterpillar Still Overvalued, or Did Burry Just Lock In the Easy Money?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ba939a69ba2acc40c0093da813d58d66aad5054f708be237ff6713f218195d13",
+      "datetime": 1794864302,
+      "summary": "Caterpillar's valuation got out of hand and is now coming back down to earth."
+    },
+    {
+      "headline": "Nasdaq Falls 626 Points to Start Nvidia-Anthropic Week: Stock Market Today",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=6ffcb140aa415ea1f5394342313e3573bcaae4ac8a703bf674f8e65f45cc8b3a",
+      "datetime": 1794863382,
+      "summary": "It's no exaggeration to say this is the biggest week of the year for the stock market, and the beginning of it was inauspicious, at best."
+    },
+    {
+      "headline": "Dow Jones Decliners in Today's U.S. Session: CAT, NVDA, GOOGL, BA, GS, JPM",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=4df57dc2ec1ecaed4efe14d84c0e4ec661bb3618d40b87c41eecb631fb20b139",
+      "datetime": 1794859850,
+      "summary": "Dow Jones components Caterpillar, NVIDIA, Alphabet, Boeing, Goldman Sachs, and JPMorgan posted notable declines in today's U.S. session, among the index's largest losers."
+    },
+    {
       "headline": "Stock Market Today: Dow Dives As Trump Says This On Huang; Victoria's Secret Flashes Sell Signal (Live Coverage)",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=d40ba7070c563d11f06cb9deafd5238cf61191eae3fafb1eec373c28c1f94130",
       "datetime": 1794854694,
       "summary": "The Dow Jones index falls. President Trump speaks on Nvidia, Jensen Huang and Howard Lutnick. Chip plays skid."
-    },
-    {
-      "headline": "Caterpillar (CAT) Stock Fair Value Falls As Analysts Cut Targets And Lift Rates",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3171eb21e969697f056a91a57ec8f4a8be3c32bc2e3227689e723de009377e00",
-      "datetime": 1794849127,
-      "summary": "Caterpillar\u2019s modeled fair value has shifted lower from about US$902.34 to approximately US$815.26, trimming the stock\u2019s implied upside in current research. Analysts link this reset to more conservative work on valuation, including higher discount rates and closer scrutiny of how AI, data center and construction demand might flow through to earnings over time. As you read on, you will see how this"
-    },
-    {
-      "headline": "Caterpillar\u2019s 34% Slump Over 6 Months: Wall Street Desk Says It Sets Up 90% Gains Within a Year",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3467d721411eb7366154b3c792882ede67eef517bdad2aaa2d307e4fa356ca9d",
-      "datetime": 1794843952,
-      "summary": "Caterpillar's record backlog is stacked with data center orders stretching into 2030, yet the stock has cratered while Deere and PACCAR barely flinched. Is Wall Street punishing the wrong fear, and what will the next earnings call reveal?"
-    },
-    {
-      "headline": "Caterpillar Gets Swept Up in a $4.2 Trillion Market Rout",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ce750fdf331f4ded03c7bca2a24e7a864f486ec3d02cae86196b3faa7a56fe6a",
-      "datetime": 1794843471,
-      "summary": "The next test is whether customers take deliveries on time."
-    },
-    {
-      "headline": "Stock Market Today: Dow, Nvidia Skid Amid Huang News; Chip Stocks, Oil Plays Fall (Live Coverage)",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=034e891aa31826d03ac1a8d9e2f822cd135bbb566ace98ae7d7dd37f6b352d98",
-      "datetime": 1794842651,
-      "summary": "The Nasdaq sells off Monday as Nvidia stock dives amid reports that Jensen Huang is considering a return to the firm."
-    },
-    {
-      "headline": "CAT's Sales Volumes Rise Across Segments: Can Growth Continue?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f2eb793ce6feb93ec38bb40b206442831685fd99cdab7f8baf552bcec24e7d5f",
-      "datetime": 1794840360,
-      "summary": "Caterpillar's equipment demand recovery is accelerating, with all three major segments driving volume growth and supporting its mid-to-high-teens revenue growth outlook for 2026."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-16",
+  "data_asof": "2026-11-13",
   "price": {
-    "last": 570.49,
-    "open": 588.0,
-    "prev_close": 600.2,
-    "move_day_pct": -4.95,
-    "move_open_close_pct": -2.98,
-    "move_week_pct": -4.74
+    "last": 600.2,
+    "open": 611.93,
+    "prev_close": 605.28,
+    "move_day_pct": -0.84,
+    "move_open_close_pct": -1.92,
+    "move_week_pct": 7.44
   },
   "indicators": {
     "rsi14": {
-      "value": 31.4,
+      "value": 35.7,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -46.986,
-      "signal": -48.089,
-      "hist": 1.104,
-      "hist_prev": 1.371,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": -46.995,
+      "signal": -48.365,
+      "hist": 1.371,
+      "hist_prev": -0.639,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 753.26,
-      "lower": 520.82,
-      "mid": 637.04,
-      "pctb": 0.214,
+      "upper": 762.62,
+      "lower": 526.82,
+      "mid": 644.72,
+      "pctb": 0.311,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 5.35,
+      "value": 10.84,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -46.2,
-      "read": "46% below its 52-week high"
+      "value": -43.4,
+      "read": "43% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 803.95,
-      "pct": -29.04,
-      "read": "29% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 804.37,
+      "pct": -25.38,
+      "read": "25% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 29.28,
-      "pct_of_price": 5.13,
+      "value": 29.08,
+      "pct_of_price": 4.84,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.93,
+      "value": 0.65,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 28.3,
+      "value": 33.1,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": 541.52,
+  "low_52w": 541.53,
   "high_52w": 1060.41,
-  "ma50": 734.62,
-  "ma200": 803.95
+  "ma50": 739.45,
+  "ma200": 804.37
 }

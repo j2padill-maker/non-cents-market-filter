@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-16T13:32:30.008982-08:00",
+  "generated_at": "2026-11-16T18:22:38.475356-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Optimist Fund\u2019s Deep Dive Analysis on Zscaler (ZS)",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=04ade56ac41d1d9506309831a6f640467d39df9a57177c02ac88d399bb914ddd",
+      "datetime": 1794839185,
+      "summary": "Optimist Fund, an investment management company, released its third-quarter 2026 investor letter. The letter can be downloaded here. In Q3, the Fund declined 8.6%, primarily due to ThredUp\u2019s share price drop after lower second-half guidance. Despite a disappointing -9% YTD, historical patterns suggest these challenges often lead to future positive returns, encouraging optimism for future [\u2026]"
+    },
+    {
+      "headline": "Palo Alto Networks to Report Q1 Earnings: Buy, Sell or Hold the Stock?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=2958d105520d41a0c68f4b3778e5b0f5ac74840be1f9bfe60077127f9e72c548",
+      "datetime": 1794837060,
+      "summary": "PANW's AI security demand and platform deals fuel growth, but rising costs and a premium valuation warrant a cautious approach ahead of Q1 earnings."
+    },
+    {
+      "headline": "Zscaler's AI Security Push: Can It Overcome Slower FY27 Growth?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=5c79e792946f86ad878bb3b46c96277a27ba628d30f61eaac2ae99f30c726c8a",
+      "datetime": 1794833280,
+      "summary": "ZS' AI security bookings and pipeline are surging, but slowing fiscal 2027 revenue growth raises questions about its ability to convert demand into sales."
+    },
     {
       "headline": "Top 3 AI Security Stocks With Earnings Growth Over 29%",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=32990ab805ab5d9c3763f86c4b30718ac5101c2147fe38f3aa2d440c3fd9f2e4",
       "datetime": 1794504565,
       "summary": "Investing.com -- Mizuho has released its latest rankings of top-performing cybersecurity stocks, with analysts highlighting strong momentum across multiple companies based on quarterly channel checks and partner feedback. The firm's analysis points to robust demand for data warehousing, zero trust solutions, and cyber-resiliency products."
-    },
-    {
-      "headline": "What Did Cloudflare Stock Investors Miss Before The Run?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8b30dcba42e2d8a827f00657dc289c7912f0b80f7d10b429d68c68554e6c30e5",
-      "datetime": 1794496395,
-      "summary": "For questions about this article or underlying research, email help@trefis.com."
-    },
-    {
-      "headline": "The Post-Midterm Rally Clock Is Ticking\u2014and These 3 AI Stocks Stand Out",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=415c71c6725369cad57f1d66198c796e9782f7c0abca8e957b4095c73ce0efe3",
-      "datetime": 1794492300,
-      "summary": "Chaikin Money Flow shows smart money buying Shopify, Veeva Systems, and Zscaler in the post-midterm rout, and past 4% S&P 500 drops led to bigger three-month gains."
-    },
-    {
-      "headline": "Zscaler: A Stock Left Behind",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=e893e490cabf41980b7d720132c1bf464166574957e582d37c93968a76b4492e",
-      "datetime": 1794472582,
-      "summary": "Zscaler is rated a buy with undervaluation and low expectations supporting more upside ahead. Click here to read an analysis of ZS stock now."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-16",
+  "data_asof": "2026-11-13",
   "price": {
-    "last": 190.84,
-    "open": 190.0,
-    "prev_close": 192.47,
-    "move_day_pct": -0.85,
-    "move_open_close_pct": 0.44,
-    "move_week_pct": -4.12
+    "last": 192.47,
+    "open": 197.24,
+    "prev_close": 193.22,
+    "move_day_pct": -0.39,
+    "move_open_close_pct": -2.42,
+    "move_week_pct": -2.63
   },
   "indicators": {
     "rsi14": {
-      "value": 34.9,
+      "value": 35.6,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -6.932,
-      "signal": -1.392,
-      "hist": -5.54,
-      "hist_prev": -6.066,
+      "macd": -6.073,
+      "signal": -0.007,
+      "hist": -6.066,
+      "hist_prev": -6.564,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 271.29,
-      "lower": 172.7,
-      "mid": 222.0,
-      "pctb": 0.184,
+      "upper": 270.51,
+      "lower": 175.66,
+      "mid": 223.08,
+      "pctb": 0.177,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 61.66,
-      "read": "62% above its 52-week low"
+      "value": 63.04,
+      "read": "63% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -36.27,
-      "read": "36% below its 52-week high"
+      "value": -37.63,
+      "read": "38% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 166.53,
-      "pct": 14.6,
-      "read": "15% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 166.57,
+      "pct": 15.55,
+      "read": "16% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 11.78,
-      "pct_of_price": 6.17,
+      "value": 12.09,
+      "pct_of_price": 6.28,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.73,
+      "value": 0.59,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 15.7,
-      "read": "Oversold \u2014 money flowing out"
+      "value": 24.9,
+      "read": "Neutral money flow"
     }
   },
   "low_52w": 118.05,
-  "high_52w": 299.45,
-  "ma50": 209.87,
-  "ma200": 166.53
+  "high_52w": 308.6,
+  "ma50": 209.45,
+  "ma200": 166.57
 }

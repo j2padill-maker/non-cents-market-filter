@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-16T13:32:08.069511-08:00",
+  "generated_at": "2026-11-16T18:22:22.651346-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Citi names top infrastructure software stocks amid rising AI standards",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7a2d9400d7edb2194592a4cb5dda6498b90f70b3a5c908cd13d4699b2c640910",
+      "datetime": 1794850457,
+      "summary": "Investing.com -- Infrastructure software companies with tangible AI-driven growth and durable distribution advantages should be prioritized by investors as the burden of proof for artificial intelligence benefits has increased following a volatile third-quarter earnings season, according to a Citi note to clients."
+    },
     {
       "headline": "Nvidia Earnings Could Shift Focus To Cloudflare Stock And AI Cost Control",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=3c4cdc062ce0e5e1b76b5b283e87f6687861e3a9f46fda0f8ec8dd0b96bead26",
       "datetime": 1794581176,
       "summary": ""
-    },
-    {
-      "headline": "Cloudflare Placed in 2026 Gartner\u00ae Magic Quadrant\u2122 for Edge Distribution Platforms",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3fd454f6f95c0fbbf81642c11abb8b0377afdb64ab46d109fbfe6277b6a9f558",
-      "datetime": 1794578400,
-      "summary": "SAN FRANCISCO, November 13, 2026--Cloudflare, Inc. (NYSE: NET), the leading connectivity cloud company, today announced that Cloudflare has been positioned by Gartner as a Leader in the Magic Quadrant for Edge Distribution Platforms.(1) The evaluation was based on specific criteria that analyzed the company\u2019s overall Completeness of Vision and Ability to Execute."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-16",
+  "data_asof": "2026-11-13",
   "price": {
-    "last": 293.59,
-    "open": 298.41,
-    "prev_close": 305.81,
-    "move_day_pct": -4.0,
-    "move_open_close_pct": -1.62,
-    "move_week_pct": -0.05
+    "last": 305.81,
+    "open": 325.0,
+    "prev_close": 318.5,
+    "move_day_pct": -3.98,
+    "move_open_close_pct": -5.9,
+    "move_week_pct": 13.79
   },
   "indicators": {
     "rsi14": {
-      "value": 46.8,
+      "value": 50.4,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -5.612,
-      "signal": -8.785,
-      "hist": 3.173,
-      "hist_prev": 3.942,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": -5.637,
+      "signal": -9.578,
+      "hist": 3.942,
+      "hist_prev": 3.733,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 344.51,
-      "lower": 250.37,
-      "mid": 297.44,
-      "pctb": 0.459,
+      "upper": 344.67,
+      "lower": 250.6,
+      "mid": 297.63,
+      "pctb": 0.587,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 83.28,
-      "read": "83% above its 52-week low"
+      "value": 90.9,
+      "read": "91% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -18.66,
-      "read": "19% below its 52-week high"
+      "value": -15.27,
+      "read": "15% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 253.85,
-      "pct": 15.65,
-      "read": "16% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 253.27,
+      "pct": 20.74,
+      "read": "21% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 21.01,
-      "pct_of_price": 7.16,
+      "value": 21.44,
+      "pct_of_price": 7.01,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.86,
+      "value": 1.09,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 42.9,
+      "value": 47.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 360.93,
-  "ma50": 320.33,
-  "ma200": 253.85
+  "ma50": 320.04,
+  "ma200": 253.27
 }

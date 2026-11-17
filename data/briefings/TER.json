@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-16T13:32:22.733171-08:00",
+  "generated_at": "2026-11-16T18:22:33.324361-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -31,6 +31,13 @@
       "summary": "Teradyne fell in sympathy with its largest rival after Tokyo's chip selloff, a quarter after AI demand lifted its revenue 70%."
     },
     {
+      "headline": "Today's S&P 500 Top Movers: Tyson Foods Leads Gainers, Lumentum Leads Decliners",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=a2e236280063d46ee7cda89927cec9b802faa698e4aeed1dc459bd552cd43a9d",
+      "datetime": 1794850571,
+      "summary": "Tyson Foods led S&P 500 gainers, up 7.41%, while Lumentum led decliners, down 7.5%; food and health-insurance stocks rose as semiconductor and data-center shares fell."
+    },
+    {
       "headline": "Vertiv vs. Teradyne: Which AI Infrastructure Stock Is the Better Buy?",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=26dc9e9db743e7e5653c0703646ea10986a5b4a07c4543967dfc9574c3185e03",
@@ -38,25 +45,18 @@
       "summary": "VRT emerges as a stronger AI infrastructure stock than TER, supported by robust order growth, a diversified portfolio, and stronger earnings estimate revisions."
     },
     {
+      "headline": "S&P 500 Gap-Down Movers in Nov. 16, 2026 Session",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=90facb97b6398649104ff11e059be8521977a3204489daf17f46bee32aa017ea",
+      "datetime": 1794843357,
+      "summary": "S&P 500 stocks with notable downward gaps on Nov. 16, 2026 include SNDK, LITE, COHR, BE, CIEN, MRVL, MU, COIN, MPWR and TER, each lower in the session."
+    },
+    {
       "headline": "Robotics Stocks Become a Stock-Picker\u2019s Market as Momentum and Fundamentals Diverge",
       "source": "ChartMill",
       "url": "https://finnhub.io/api/news?id=693552e9f9612f83274ab9efd1ba905e6b229b1c7418d079647b8f08db5b21c0",
       "datetime": 1794836176,
       "summary": "Robotics and automation stocks show high-quality fundamentals but weak momentum, with sharp divergence between earnings and share prices."
-    },
-    {
-      "headline": "S&P 500 Premarket Losers on Nov. 16, 2026: COIN, LITE, COHR",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=70a7b32f63e8bb471907f44b1e904e32673d99c6062ae570872b1c00b3712e26",
-      "datetime": 1794836159,
-      "summary": "S&P 500 premarket losers on Nov. 16, 2026 included Coinbase, Lumentum and Coherent, with listed declines from roughly 5.5% to 7.2% before the open."
-    },
-    {
-      "headline": "S&P 500 Top Movers for Nov. 13, 2026: Charter Communications Leads Gainers, AMD Leads Losers",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=be3fdb8d07915e0be2cd4515b98267b2b4974a4811a7553772ecbabacec06658",
-      "datetime": 1794600354,
-      "summary": "S&P 500 top movers on Nov. 13, 2026: Charter Communications led gainers at 4.58%, while Advanced Micro Devices led losers at -9.42%."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-16",
+  "data_asof": "2026-11-13",
   "price": {
-    "last": 231.9,
-    "open": 237.6,
-    "prev_close": 249.55,
-    "move_day_pct": -7.07,
-    "move_open_close_pct": -2.4,
-    "move_week_pct": -5.73
+    "last": 249.55,
+    "open": 260.04,
+    "prev_close": 263.75,
+    "move_day_pct": -5.38,
+    "move_open_close_pct": -4.03,
+    "move_week_pct": 14.36
   },
   "indicators": {
     "rsi14": {
-      "value": 33.9,
+      "value": 37.3,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -30.387,
-      "signal": -30.981,
-      "hist": 0.594,
-      "hist_prev": 0.986,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": -30.144,
+      "signal": -31.13,
+      "hist": 0.986,
+      "hist_prev": 0.183,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 352.41,
-      "lower": 200.68,
-      "mid": 276.54,
-      "pctb": 0.206,
+      "upper": 358.83,
+      "lower": 204.62,
+      "mid": 281.73,
+      "pctb": 0.291,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 49.04,
-      "read": "49% above its 52-week low"
+      "value": 60.38,
+      "read": "60% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -52.05,
-      "read": "52% below its 52-week high"
+      "value": -48.4,
+      "read": "48% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 350.02,
-      "pct": -33.75,
-      "read": "34% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 350.06,
+      "pct": -28.71,
+      "read": "29% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 22.75,
-      "pct_of_price": 9.81,
+      "value": 22.98,
+      "pct_of_price": 9.21,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.82,
+      "value": 0.78,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 23.0,
+      "value": 29.6,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 155.6,
   "high_52w": 483.65,
-  "ma50": 340.1,
-  "ma200": 350.02
+  "ma50": 342.61,
+  "ma200": 350.06
 }

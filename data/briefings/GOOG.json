@@ -2,7 +2,7 @@
   "ticker": "GOOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-16T13:32:45.466040-08:00",
+  "generated_at": "2026-11-16T18:22:48.388072-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Microsoft Stocks Move Lower as $1 Billion Anthropic Bet Precedes Ignite",
+      "headline": "Warren Buffett's Successor, Greg Abel, Overhauled Berkshire's Portfolio for a 3rd Straight Quarter, Reducing 6 Stocks and Piling Into a Hot Tech IPO",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=76627a773add19b3351cefafed4c57f44541d960a346e0699ad5d78308825b3e",
-      "datetime": 1794858595,
-      "summary": "Microsoft is one of seven cornerstone buyers in Anthropic's IPO placement, a day before its biggest annual product event opens in San Francisco."
+      "url": "https://finnhub.io/api/news?id=5f239adea28e5ce83e47d345a01a528e44ba166ff5c40f309eb960ad8f9451c7",
+      "datetime": 1794876781,
+      "summary": "This isn\u2019t your grandparents\u2019 Berkshire Hathaway any longer."
     },
     {
-      "headline": "ServiceNow vs. Palantir Technologies: Comparing Steady Sales Scale Against Rapid Revenue Acceleration",
+      "headline": "Brad Gerstner Says AI Is at Its \u2018Google 2005\u2019 Moment. Here\u2019s Who He Thinks Wins",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=dfdcbd5a111fac951036b1e57d14382ec1afd534e475c05e831b4466869302f5",
-      "datetime": 1794857524,
-      "summary": "Palantir's quarterly revenue has more than quadrupled in two years, narrowing the gap with ServiceNow's far larger base at a pace the rival cannot match."
+      "url": "https://finnhub.io/api/news?id=e06740ac6f06db06748862cbc26aa287cbaa46061b7bb49b158a5174b63b8d28",
+      "datetime": 1794874024,
+      "summary": "Brad Gerstner is putting in the biggest IPO order of his career, and he is doing it while chip stocks bleed. Why he trusts two AI labs over their chip supplier, and what could still wreck the bet."
     },
     {
-      "headline": "Alphabet Stocks Decline 3.1% as $10 Billion Anthropic Buy Lifts Stake Before IPO",
+      "headline": "Christian Muche of POSSIBLE Makes Room for Marketing\u2019s Ever-Growing Guest List",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=43a0d4d3badc7e5417f7ad6ac195d8ed9284a5b6d80b8ece26660f2979df68c7",
-      "datetime": 1794857149,
-      "summary": "Google is buying 135 million Anthropic shares alongside the IPO, deepening a holding worth well over $100 billion at the midpoint price."
+      "url": "https://finnhub.io/api/news?id=0b040a84371978502eee1486697dd77658839d65a086d3ffed18ab4d148d4d02",
+      "datetime": 1794872479,
+      "summary": "The marketing industry may be wrestling with uncertainty, but Christian Muche has a more practical concern: getting everybody into the room. Preferably before another AI announcement forces someone to rewrite the entire conference agenda. Muche, co-founder and global president of event organizer POSSIBLE, outlined plans for Miami and Lisbon in an interview with Beet.TV at the DMS by LUMA digital m"
     },
     {
-      "headline": "Altimeter Capital to invest $5 billion in Anthropic IPO - report",
+      "headline": "Broadcom Is \u201cthe Best Play\u201d on Nvidia\u2019s CEO Exit, One Investor Argues. The Reason Is China",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5047a14801e9b3353569236a18d6ac3d2e5c95f3fc48678dd0190b6fed84a0b9",
-      "datetime": 1794854801,
-      "summary": "Investing.com -- Altimeter Capital will invest $5 billion in Anthropic's initial public offering, according to Brad Gerstner, who spoke on CNBC's \"Halftime Report\" on Monday."
+      "url": "https://finnhub.io/api/news?id=253766ded5ec62088f72f6e0e3d37114b2784666175a340a038183d0808b601e",
+      "datetime": 1794870779,
+      "summary": "Key TakeawaysBroadcom (AVGO) surged 5. 5% on November 12 following NVIDIA (NVDA) CEO Jensen Huang\u2019s departure, before retreating to $333."
     },
     {
-      "headline": "Why Alphabet (GOOGL) May Be the Most Complete NVIDIA Alternative",
+      "headline": "David Tepper\u2019s Appaloosa Goes Big on SpaceX, While Slashing Alphabet Stake",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6c385dfdfd47c327a6377661d7d3f1aeb51ecc3e1cb204c813c283e5e36692d6",
-      "datetime": 1794853472,
-      "summary": "Alphabet Inc. (NASDAQ:GOOGL) took 6th place on our list of 10 Stocks to Buy Following Jensen Huang\u2019s Departure. For three years, the AI trade had one face. Now it has an interim CEO. On November 12, Jensen Huang resigned as chief executive and board member of one of the largest companies in the world, hours [\u2026]"
+      "url": "https://finnhub.io/api/news?id=0de404b2bafd13f96cbdefd9ca9180f568a642bcafd0e82cdcad092a64dfdb37",
+      "datetime": 1794870540,
+      "summary": "It was a busy quarter, marked by several exits and a few new holdings."
     },
     {
-      "headline": "AMD Stocks Fall 4.25% as $2.5 Billion Anthropic Stake Meets AI Profit-Taking",
+      "headline": "Michael Burry Buys More Of Adobe And MercadoLibre, Exits ORCL, CAT Puts",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b6d68d51ff2194cb1bd4679fdf3b31644b933e02938c3ca84a383bd4174b4f7e",
-      "datetime": 1794853139,
-      "summary": "AMD extends Friday's 8.75% slide while committing $2.5 billion to Anthropic's IPO placement, at a valuation GuruFocus already calls stretched."
+      "url": "https://finnhub.io/api/news?id=fcc4ab31da72ebea36439132786a5dd95a457b24aa25901f233f4f8d26c5a504",
+      "datetime": 1794869040,
+      "summary": "Burry continues to hold a large put position in the VanEck Semiconductor ETF, along with puts on the Nasdaq 100, Nvidia, MetLife, and Palantir."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-16",
+  "data_asof": "2026-11-13",
   "price": {
-    "last": 281.26,
-    "open": 290.47,
-    "prev_close": 292.52,
-    "move_day_pct": -3.85,
-    "move_open_close_pct": -3.17,
-    "move_week_pct": -1.66
+    "last": 292.52,
+    "open": 299.89,
+    "prev_close": 295.35,
+    "move_day_pct": -0.96,
+    "move_open_close_pct": -2.46,
+    "move_week_pct": 3.03
   },
   "indicators": {
     "rsi14": {
-      "value": 33.5,
+      "value": 39.5,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -12.141,
-      "signal": -13.012,
-      "hist": 0.871,
-      "hist_prev": 1.134,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": -12.097,
+      "signal": -13.23,
+      "hist": 1.134,
+      "hist_prev": 0.503,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 336.22,
-      "lower": 259.66,
-      "mid": 297.94,
-      "pctb": 0.282,
+      "upper": 342.49,
+      "lower": 259.28,
+      "mid": 300.89,
+      "pctb": 0.399,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 3.1,
-      "read": "Sitting right at its 52-week low"
+      "value": 7.23,
+      "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -29.43,
-      "read": "29% below its 52-week high"
+      "value": -26.6,
+      "read": "27% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 335.85,
-      "pct": -16.25,
-      "read": "16% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 336.13,
+      "pct": -12.97,
+      "read": "13% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 10.27,
-      "pct_of_price": 3.65,
+      "value": 10.13,
+      "pct_of_price": 3.46,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.92,
+      "value": 0.82,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 42.8,
+      "value": 47.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 272.8,
   "high_52w": 398.54,
-  "ma50": 324.03,
-  "ma200": 335.85
+  "ma50": 325.11,
+  "ma200": 336.13
 }

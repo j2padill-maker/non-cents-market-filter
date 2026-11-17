@@ -2,7 +2,7 @@
   "ticker": "TPL",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-16T13:32:39.563316-08:00",
+  "generated_at": "2026-11-16T18:22:44.496751-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Texas Pacific Land Corporation Announces Redomestication to Texas",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b731172a2af49cb1addf61ba78ffd3400baa498486c7f8cec8b3cb14f17ef348",
+      "datetime": 1794863700,
+      "summary": "DALLAS, November 16, 2026--TEXAS PACIFIC LAND CORPORATION ANNOUNCES REDOMESTICATION TO TEXAS"
+    },
     {
       "headline": "Should You Sell Texas Pacific Land (TPL) Now That the Blue Wave is Here?",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=9cb29a137d534987e45f6d729e1bfa48cf655fd5b3dd8742a95acc211ac83747",
       "datetime": 1794568741,
       "summary": "Cramer rejects Texas Pacific Land and Bright Horizons, but endorses Commvault, citing strong earnings and its CEO."
-    },
-    {
-      "headline": "Texas Pacific Land (TPL) Stock Could Look Rich Despite Record Q3 Results",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=210a231108da6c159283fa7aa86683bb7714d0401c2b8fc871cf44b740e03e41",
-      "datetime": 1794547107,
-      "summary": "Texas Pacific Land has delivered a powerful long term run for shareholders, yet the recent pullback puts a sharper spotlight on whether today's valuation is still supported by its earnings profile. With fresh headlines around record results and fresh cash generation, the key issue is how much of that story is already baked into the current share price. Over the past 5 years the stock has gained 10"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-16",
+  "data_asof": "2026-11-13",
   "price": {
-    "last": 292.16,
-    "open": 287.63,
-    "prev_close": 291.91,
-    "move_day_pct": 0.09,
-    "move_open_close_pct": 1.57,
-    "move_week_pct": 4.99
+    "last": 291.91,
+    "open": 286.04,
+    "prev_close": 281.18,
+    "move_day_pct": 3.82,
+    "move_open_close_pct": 2.05,
+    "move_week_pct": 7.18
   },
   "indicators": {
     "rsi14": {
-      "value": 38.1,
+      "value": 37.9,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -17.031,
-      "signal": -15.903,
-      "hist": -1.128,
-      "hist_prev": -2.485,
+      "macd": -18.106,
+      "signal": -15.621,
+      "hist": -2.485,
+      "hist_prev": -4.189,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 364.39,
-      "lower": 256.36,
-      "mid": 310.38,
-      "pctb": 0.331,
+      "upper": 368.3,
+      "lower": 257.7,
+      "mid": 313.0,
+      "pctb": 0.309,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 7.34,
+      "value": 7.25,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -45.71,
+      "value": -45.75,
       "read": "46% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 397.97,
-      "pct": -26.59,
+      "ma200": 398.24,
+      "pct": -26.7,
       "read": "27% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 14.87,
-      "pct_of_price": 5.09,
+      "value": 14.98,
+      "pct_of_price": 5.13,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.08,
+      "value": 1.1,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 45.8,
+      "value": 40.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 272.18,
   "high_52w": 538.1,
-  "ma50": 335.72,
-  "ma200": 397.97
+  "ma50": 337.12,
+  "ma200": 398.24
 }
