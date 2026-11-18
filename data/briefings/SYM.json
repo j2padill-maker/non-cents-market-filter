@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-16T18:22:31.397831-08:00",
+  "generated_at": "2026-11-18T13:30:26.172551-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "Symbotic (SYM) Stock May Trade Below Fair Value As Sales Scale Matters",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=9d979595e7d8ae081a0a45d3ba402d9d7f6562fb7755a2286c4c78b990995e0d",
+      "datetime": 1794982579,
+      "summary": "Symbotic has seen its share price swing sharply in recent years, which puts a spotlight on a simple question for investors who care about fundamentals. Is the current US$33.06 price tag sensibly tied to what the business is generating in sales today and what the top line may support over time? Over the past 5 years the stock has delivered a gain of roughly 233.3%, so a lot of expectations about fu"
+    },
+    {
+      "headline": "Symbotic (SYM) Dropped, So What Is Drawing Fresh Attention?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=58e1853c0bbbc4831bde7a7e461c0bc790ee977f126a90325f45169cbb5ec243",
+      "datetime": 1794976285,
+      "summary": "Symbotic (SYM) has drawn fresh attention after recent share price weakness, with the stock down over the past day, week, month, and past 3 months. That slide is putting current warehouse automation expectations under closer investor review. Over a longer stretch, momentum for Symbotic has clearly cooled, with the share price down 49.04% year to date and the 1 year total shareholder return declinin"
+    },
+    {
+      "headline": "SoftBank Had 64% of Its U.S. Stock Portfolio in Intel. It Has Since Halved",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d307af7a2fc73490d677d1b2fd908c5dbd87d24a24c0ab2c2e6e049594acd8fb",
+      "datetime": 1794930725,
+      "summary": "SoftBank's newest filing shows its Intel bet barely moved, yet a separate $7.4 billion deal tied to those shares raises a harder question about who really carries the losses. NVIDIA, meanwhile, headed the other way."
+    },
+    {
+      "headline": "Should You Add GCT Stock to Your Portfolio Post Solid Q3 Earnings?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=4462b79d071c926239402060d8dfcca17f5b01fab6cc8c02ff0f15ecacea1f57",
+      "datetime": 1794920580,
+      "summary": "GCT's stellar Q3 earnings, expanding marketplace, strategic acquisitions and attractive valuation make it a compelling stock to add to your portfolio."
+    },
+    {
       "headline": "Duos Technologies Group, Inc. (DUOT) Reports Q3 Loss, Misses Revenue Estimates",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=0857aa193ac85c1fbf66007694fbd50aabcfbfaeefb9aca26adbbbe6697bcba8",
@@ -29,34 +57,6 @@
       "url": "https://finnhub.io/api/news?id=27e759a38b9003fc9595047c4db94cdef619f9acd2596d06b5ed279e80225beb",
       "datetime": 1794866401,
       "summary": "Symbotic Inc. (SYM) concluded the recent trading session at $34.15, signifying a -1.95% move from its prior day's close."
-    },
-    {
-      "headline": "Alithya Group (ALYAF) Q2 Earnings Top Estimates",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5ff7a3e323c262682c3900bc4bbc7aadedc74da7cd1d2bf0e53323338f81b8af",
-      "datetime": 1794572401,
-      "summary": "Alithya (ALYAF) delivered earnings and revenue surprises of +300.00% and -0.50%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?"
-    },
-    {
-      "headline": "3 US Automation Stocks Riding The Reshoring Capex Boom",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ce293d7fa3dcc97336f9a9cfbfac63d34673e978902cfa8b15e6334082a261a5",
-      "datetime": 1794496277,
-      "summary": "AI-driven capex, reshoring and a 12.7% jump in non-residential investment are reshaping where US$ flows in the real economy, and the factory floor is right in the firing line. Strong US growth and large data centre build-outs are creating new potential beneficiaries for investors who can identify which businesses appear most directly affected by this spending trend. This article breaks down 3 stoc"
-    },
-    {
-      "headline": "Bit Digital, Inc. (BTBT) Q3 Earnings Top Estimates",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c13c29eabac2e120eeda94bebe6341ebdd6f7a2211085fb5c8c700dacfdf3cab",
-      "datetime": 1794491402,
-      "summary": "Bit Digital (BTBT) delivered earnings and revenue surprises of +220.00% and -21.60%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?"
-    },
-    {
-      "headline": "Symbotic: I'm Keeping An Eye On Only One Financial Performance Metric (Earnings Preview)",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=86c16b7031b359d885e4075930738c49347a9527c10dcc396e90116dc51aaaf8",
-      "datetime": 1794480163,
-      "summary": "Analyst sees Symbotic's software gross margins as key to justifying its expensive valuation; a Q4 beat may not spark a sustainable rally."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-13",
+  "data_asof": "2026-11-18",
   "price": {
-    "last": 34.83,
-    "open": 35.84,
-    "prev_close": 35.44,
-    "move_day_pct": -1.72,
-    "move_open_close_pct": -2.82,
-    "move_week_pct": -5.4
+    "last": 33.79,
+    "open": 33.19,
+    "prev_close": 33.06,
+    "move_day_pct": 2.21,
+    "move_open_close_pct": 1.81,
+    "move_week_pct": -8.95
   },
   "indicators": {
     "rsi14": {
-      "value": 36.4,
+      "value": 35.5,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -1.328,
-      "signal": -1.193,
-      "hist": -0.135,
-      "hist_prev": -0.061,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -1.667,
+      "signal": -1.387,
+      "hist": -0.28,
+      "hist_prev": -0.294,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 41.25,
-      "lower": 34.56,
-      "mid": 37.91,
-      "pctb": 0.04,
+      "upper": 40.74,
+      "lower": 33.15,
+      "mid": 36.94,
+      "pctb": 0.084,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 0.0,
+      "value": 2.21,
       "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -60.1,
-      "read": "60% below its 52-week high"
+      "value": -61.29,
+      "read": "61% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 46.84,
-      "pct": -25.64,
-      "read": "26% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 46.53,
+      "pct": -27.38,
+      "read": "27% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 2.12,
-      "pct_of_price": 6.09,
+      "value": 2.03,
+      "pct_of_price": 6.01,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.97,
+      "value": 0.81,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 37.9,
+      "value": 28.7,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": 34.83,
+  "low_52w": 33.06,
   "high_52w": 87.3,
-  "ma50": 40.59,
-  "ma200": 46.84
+  "ma50": 40.04,
+  "ma200": 46.53
 }

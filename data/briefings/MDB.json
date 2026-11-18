@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-16T18:22:13.659106-08:00",
+  "generated_at": "2026-11-18T13:29:57.745172-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "MongoDB: Need To See Profitability Improving Dramatically Before Upgrading",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=24e02df05c8c55db2c35a0f67a00520aafa5515f8cc07ede04385daeb220bdcb",
+      "datetime": 1794989341,
+      "summary": "MongoDB (MDB) stock is too expensive to buy before earnings despite expecting a beat; Q2 adjusted operating margin was 24%, versus 4% GAAP."
+    },
+    {
+      "headline": "MongoDB Buys Firebolt to Help AI Agents Make Split-Second Decisions",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=22840cca67b0497f3bb22e080c1fe217c424ef16d58ccc37355aa86374d7973a",
+      "datetime": 1794926783,
+      "summary": "MongoDB acquires Firebolt Analytics to boost real-time AI data capabilities and simplify infrastructure ahead of Q3 earnings."
+    },
+    {
+      "headline": "MongoDB Acquires Firebolt; Terms Not Disclosed",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=3ff2ed5bb66a9201e2ebb4c8e25157799efbabe41fbf22886668b807451ed50e",
+      "datetime": 1794909158,
+      "summary": "-SEC Filing"
+    },
     {
       "headline": "MongoDB (MDB) Declines More Than Market: Some Information for Investors",
       "source": "Yahoo",
@@ -31,35 +52,20 @@
       "summary": "Investing.com -- Citi analysts have identified their preferred enterprise software stocks as the sector navigates a shifting landscape where the burden of proof for artificial intelligence-driven growth has intensified."
     },
     {
-      "headline": "Best Growth Stocks to Buy for November 16th",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=65e0f354c0c802475536096f80e558ec77ce9044031fe49c13d5713a65c9f1f0",
-      "datetime": 1794819300,
-      "summary": "HAS, MDB and OSCR made it to the Zacks Rank #1 (Strong Buy) growth stocks list on November 16th, 2026."
-    },
-    {
-      "headline": "Nvidia Shock Has Investors Rethinking AI Infrastructure Stocks",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3c31d61f8a9831c0fa8a60b7fe67090c956a93ac2a1d076bfd01a03c6f74bdee",
-      "datetime": 1794683374,
-      "summary": "When a giant like NVIDIA loses its long-time CEO and nearly US$573b in market value in a single week, the ripple effects do not stop at one ticker. Sudden leadership uncertainty can create sharp mispricing, where fear pushes some cloud and AI platform stocks too far and leaves others overlooked. This article walks through 3 stocks that are closely exposed to this news and explains how investors mi"
-    },
-    {
-      "headline": "Is Twilio Stock Worth The Wait?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e8dacb36b5503b1887c63ea7abaf6d7682d72e52aaa5b0e3cb98658df14f364a",
-      "datetime": 1794618856,
-      "summary": "For questions about this article or underlying research, email help@trefis.com."
-    },
-    {
-      "headline": "These 6 Data Software Stocks Help Companies Put AI to Work",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=31b1dc5342db4cc202de7088cf4e961779216a8dacddd1af92ba488dc3a791cd",
-      "datetime": 1794558782,
-      "summary": "Revenue growth across these six companies ranges from 15% to 96%. Where is AI showing up in their results?"
+      "headline": "Socket Mobile Announced A New Update To Its React Native CaptureSDK To Supports The React Native Version 0.75.4 And Enables Developers To Customize The SocketCam Viewfinder Within Their Applications",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=09abd19b8b3b59baafc8fa905928c55d77beb81dbef1cd2ed7c1d01f589cf43d",
+      "datetime": 1794845912,
+      "summary": ""
     }
   ],
   "filings": [
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-11-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026074373/mdb-20261117.htm"
+    },
     {
       "form": "8-K",
       "title": "Material event (8-K)",
@@ -71,74 +77,68 @@
       "title": "Material event (8-K)",
       "date": "2026-09-29",
       "url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026063850/mdb-20260925.htm"
-    },
-    {
-      "form": "8-K",
-      "title": "Material event (8-K)",
-      "date": "2026-09-28",
-      "url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026063657/mdb-20260924.htm"
     }
   ],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-13",
+  "data_asof": "2026-11-18",
   "price": {
-    "last": 334.2,
-    "open": 341.8,
-    "prev_close": 339.78,
-    "move_day_pct": -1.64,
-    "move_open_close_pct": -2.22,
-    "move_week_pct": 6.83
+    "last": 306.71,
+    "open": 304.32,
+    "prev_close": 298.63,
+    "move_day_pct": 2.71,
+    "move_open_close_pct": 0.79,
+    "move_week_pct": -9.29
   },
   "indicators": {
     "rsi14": {
-      "value": 44.4,
-      "read": "Neutral"
+      "value": 38.7,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -11.468,
-      "signal": -10.807,
-      "hist": -0.661,
-      "hist_prev": -1.291,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -15.129,
+      "signal": -12.438,
+      "hist": -2.691,
+      "hist_prev": -2.597,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 405.54,
-      "lower": 297.69,
-      "mid": 351.61,
-      "pctb": 0.339,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 400.99,
+      "lower": 283.91,
+      "mid": 342.45,
+      "pctb": 0.195,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 47.91,
-      "read": "48% above its 52-week low"
+      "value": 35.74,
+      "read": "36% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -29.24,
-      "read": "29% below its 52-week high"
+      "value": -35.06,
+      "read": "35% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 334.29,
-      "pct": -0.03,
-      "read": "0% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 333.45,
+      "pct": -8.02,
+      "read": "8% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 21.36,
-      "pct_of_price": 6.39,
+      "value": 20.88,
+      "pct_of_price": 6.81,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.45,
-      "read": "Light \u2014 quiet trading"
+      "value": 0.65,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 35.9,
+      "value": 29.6,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 364.9,
-  "ma200": 334.29
+  "ma50": 361.68,
+  "ma200": 333.45
 }

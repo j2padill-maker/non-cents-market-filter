@@ -2,7 +2,7 @@
   "ticker": "AVGO",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-16T18:22:40.491293-08:00",
+  "generated_at": "2026-11-18T13:30:36.366259-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Why Broadcom Stock Got Mashed on Monday",
+      "headline": "Nvidia's $130 Billion Forecast Sparks Fresh AI Stock Rally",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d0da79d3b787043c172df8045714da3e4ea370e11452ed90a1b7a2f50c2bd7f0",
-      "datetime": 1794877443,
-      "summary": "Investors were reallocating capital to more prominent tech stocks."
+      "url": "https://finnhub.io/api/news?id=1abda7e4401330af500407811fd6f5bb6457dbc5181e4b90eb019c50ff73693e",
+      "datetime": 1795028735,
+      "summary": "Nvidia's third-quarter revenue more than doubled to $115.84 billion, marking its 17th consecutive earnings estimate beat."
     },
     {
-      "headline": "Broadcom vs. Nvidia: Which Semiconductor Stock Is the Better AI Buy over the Next 3 Years?",
+      "headline": "The $1 Trillion Spending Question Hanging Over Anthropic\u2019s IPO",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7c7ace8eec6c045b37ccec04fa240a13c236547717c388e8f2b0b8dea1d30fa4",
-      "datetime": 1794874922,
-      "summary": "Investors have an easy choice to make if they are looking to buy one of these chip giants right now."
+      "url": "https://finnhub.io/api/news?id=3541008b7cd016a3bc22874e483404d14fc4886fe3c45b9644d9bcac9a12908f",
+      "datetime": 1795027020,
+      "summary": "Anthropic\u2019s spending deals could add up to roughly $1 trillion. How much revenue can all that computing power support?"
     },
     {
-      "headline": "Broadcom Is \u201cthe Best Play\u201d on Nvidia\u2019s CEO Exit, One Investor Argues. The Reason Is China",
+      "headline": "Dan Ives sends a strong signal ahead of the Anthropic IPO",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=253766ded5ec62088f72f6e0e3d37114b2784666175a340a038183d0808b601e",
-      "datetime": 1794870779,
-      "summary": "Key TakeawaysBroadcom (AVGO) surged 5. 5% on November 12 following NVIDIA (NVDA) CEO Jensen Huang\u2019s departure, before retreating to $333."
+      "url": "https://finnhub.io/api/news?id=6ed6c70af436ed6b7a70562489735d42937c112d38fd087a97e3bf08ee08eed8",
+      "datetime": 1795026780,
+      "summary": "Dan Ives calls the Anthropic IPO an important step, but the numbers, the skeptics, and the SpaceX comparison tell a more complicated story."
     },
     {
-      "headline": "David Tepper\u2019s Appaloosa Goes Big on SpaceX, While Slashing Alphabet Stake",
+      "headline": "Baird cuts Qualcomm estimates over potential loss of ByteDance chip business",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0de404b2bafd13f96cbdefd9ca9180f568a642bcafd0e82cdcad092a64dfdb37",
-      "datetime": 1794870540,
-      "summary": "It was a busy quarter, marked by several exits and a few new holdings."
+      "url": "https://finnhub.io/api/news?id=12f8e870bd3c27213b5a3c1d48f92abba51b424e4afc44129b4e90361934ffce",
+      "datetime": 1795026480,
+      "summary": "Baird has trimmed its financial estimates for Qualcomm Inc (NASDAQ:QCOM, XETRA:QCI) to remove a previously assumed custom artificial intelligence (AI) chip engagement with ByteDance, but maintained its 'outperform' rating and $300 price target. The analyst said Qualcomm had not identified its..."
     },
     {
-      "headline": "NVIDIA After Jensen: What's Next for the AI Trade?",
+      "headline": "Broadcom's Cash Holds Up Better Than Nvidia's",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=72f09d0730cad62ea58bbb8506d48ea6ecfb388efd5784c41f9950063d8f5b62",
-      "datetime": 1794865140,
-      "summary": "From NVIDIA's woes to the impact of the blue wave, we explore the bull and bear cases for AI stocks."
+      "url": "https://finnhub.io/api/news?id=29e6e3260faa1c0580e16f0fb5ec27dfb9c1724b8c1de2139ac2bdae410e0911",
+      "datetime": 1795025121,
+      "summary": "Today's big story: Anthropic IPO: Priced For 2031, Or 2036."
     },
     {
-      "headline": "INTW 2X Intel ETF Tumbles 13% as Intel Drops Amid Shareholder Lawsuit and AI Chip Selloff; Taiwan Semiconductor Falls 5%",
+      "headline": "Broadcom Already Eclipsed AMD as The 2nd Biggest Chip Maker, But The Market Won\u2019t Recognize That Truth Until 2027",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=1c62335723868c483e22a6ee74ea08e056bfd5df0228ab9486a41ff961d572c2",
-      "datetime": 1794859392,
-      "summary": "Intel is up big this year, yet the fund built to double its moves is sitting in the red. A daily reset quirk explains the gap, and it matters for anyone tempted to buy this dip."
+      "url": "https://finnhub.io/api/news?id=a7843f3fbfbd73e812fc86b555c494f64a7ba0d59d30b484bede61885573aa27",
+      "datetime": 1795023918,
+      "summary": "AMD's stock is soaring while its bigger rival barely moves, and both just posted record AI quarters for the same customers. One difference in how they make money could decide which chip maker the market finally crowns by 2027."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-13",
+  "data_asof": "2026-11-18",
   "price": {
-    "last": 347.01,
-    "open": 356.54,
-    "prev_close": 364.36,
-    "move_day_pct": -4.76,
-    "move_open_close_pct": -2.67,
-    "move_week_pct": 18.16
+    "last": 354.05,
+    "open": 348.7,
+    "prev_close": 341.6,
+    "move_day_pct": 3.64,
+    "move_open_close_pct": 1.53,
+    "move_week_pct": 2.56
   },
   "indicators": {
     "rsi14": {
-      "value": 53.2,
+      "value": 55.1,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -2.198,
-      "signal": -6.546,
-      "hist": 4.347,
-      "hist_prev": 4.01,
+      "macd": 0.154,
+      "signal": -3.822,
+      "hist": 3.976,
+      "hist_prev": 3.395,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 364.92,
-      "lower": 297.0,
-      "mid": 330.96,
-      "pctb": 0.736,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 367.63,
+      "lower": 296.51,
+      "mid": 332.07,
+      "pctb": 0.809,
+      "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 19.03,
-      "read": "19% above its 52-week low"
+      "value": 21.45,
+      "read": "21% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -27.7,
-      "read": "28% below its 52-week high"
+      "value": -26.23,
+      "read": "26% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 366.48,
-      "pct": -5.31,
-      "read": "5% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 366.74,
+      "pct": -3.46,
+      "read": "3% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 17.84,
-      "pct_of_price": 5.14,
+      "value": 17.57,
+      "pct_of_price": 4.96,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.24,
+      "value": 1.0,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 55.5,
+      "value": 54.6,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 291.53,
   "high_52w": 479.94,
-  "ma50": 345.25,
-  "ma200": 366.48
+  "ma50": 344.06,
+  "ma200": 366.74
 }

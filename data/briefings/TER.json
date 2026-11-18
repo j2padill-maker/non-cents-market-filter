@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-16T18:22:33.324361-08:00",
+  "generated_at": "2026-11-18T13:30:28.188760-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Teradyne to Present at the 2026 UBS Global Technology and AI Conference",
+      "headline": "Why Jefferies Calls Teradyne (TER) a \u201cCompute Test Company\u201d",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7749535313e13b0c1a63de87dad3b73234f8e94e5e7dbd33faa2209bf92e0b44",
-      "datetime": 1794857400,
-      "summary": "NORTH READING, Mass., November 16, 2026--Teradyne, Inc. (NASDAQ:TER) today announced that Greg Smith, Chief Executive Officer, is scheduled to participate in a fireside chat at the UBS Global Technology and AI Conference on Monday, November 30, 2026, at 4:15 PM MST."
+      "url": "https://finnhub.io/api/news?id=f7d024c95977c813cff91e1138d215565718a93731d7d1dbe38d2131ba94758c",
+      "datetime": 1795018220,
+      "summary": "We just published a list of the Forget Nvidia: 10 Stocks Wall Street is Betting on Right Now and Teradyne (NASDAQ:TER) ranked 8th on this list. Stocks ended a jumpy week with gains on paper and a sour finish. Reuters reported on November 13 that the S&P 500 fell 0.40% and the Nasdaq fell 0.91% [\u2026]"
     },
     {
-      "headline": "Teradyne Stocks Drop 6.14% as Advantest's 11% Tokyo Plunge Hits Chip Testers",
+      "headline": "What Is Lam Research No Longer Stressing?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=fef456eab15a9c2129fde9cefdededbe85234335416bf2ce0fd0a5c2d760e396",
-      "datetime": 1794851105,
-      "summary": "Teradyne fell in sympathy with its largest rival after Tokyo's chip selloff, a quarter after AI demand lifted its revenue 70%."
+      "url": "https://finnhub.io/api/news?id=f7fc3e13ca2c23c0051626c3fda1e9e71680892ee7bc389e80da23599eafacbe",
+      "datetime": 1795010536,
+      "summary": "Today's big story: Anthropic IPO: Priced For 2031, Or 2036."
     },
     {
-      "headline": "Today's S&P 500 Top Movers: Tyson Foods Leads Gainers, Lumentum Leads Decliners",
+      "headline": "Teradyne (NASDAQ:TER) Screens as a High-Growth Standout on Strong Earnings and Cash Flow Gains",
       "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=a2e236280063d46ee7cda89927cec9b802faa698e4aeed1dc459bd552cd43a9d",
-      "datetime": 1794850571,
-      "summary": "Tyson Foods led S&P 500 gainers, up 7.41%, while Lumentum led decliners, down 7.5%; food and health-insurance stocks rose as semiconductor and data-center shares fell."
+      "url": "https://finnhub.io/api/news?id=46c28bf60f0b6f00aaa64f93fe0439ad3531930223b6af72b07f1b2e78f61e1e",
+      "datetime": 1795001473,
+      "summary": "Teradyne clears all eight Navellier growth-stock rules, with strong earnings, sales, cash flow and ROE\u2014plus key risks and valuation to watch."
     },
     {
-      "headline": "Vertiv vs. Teradyne: Which AI Infrastructure Stock Is the Better Buy?",
+      "headline": "5 Highest Short Interest Large-Cap Tech Stocks Right Now",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=26dc9e9db743e7e5653c0703646ea10986a5b4a07c4543967dfc9574c3185e03",
-      "datetime": 1794844080,
-      "summary": "VRT emerges as a stronger AI infrastructure stock than TER, supported by robust order growth, a diversified portfolio, and stronger earnings estimate revisions."
+      "url": "https://finnhub.io/api/news?id=7fda2807602b26097386564d98b38919de7c514f7317ab094364534e330cea05",
+      "datetime": 1794946542,
+      "summary": "Technology stocks are facing a new test of investor conviction as hedge funds pull back from the artificial intelligence trade. Bloomberg reported on November 9 that hedge funds sold global technology stocks at one of the fastest weekly rates on record, citing Goldman Sachs prime brokerage data through November 6. Technology was the most heavily net-sold [\u2026]"
     },
     {
-      "headline": "S&P 500 Gap-Down Movers in Nov. 16, 2026 Session",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=90facb97b6398649104ff11e059be8521977a3204489daf17f46bee32aa017ea",
-      "datetime": 1794843357,
-      "summary": "S&P 500 stocks with notable downward gaps on Nov. 16, 2026 include SNDK, LITE, COHR, BE, CIEN, MRVL, MU, COIN, MPWR and TER, each lower in the session."
+      "headline": "Lam Research Stock Fell Nearly 7%. What Happened?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=bbd180d1aa7cc8e87169d747ed527a0c88025c094e700eff469d618393c74f07",
+      "datetime": 1794926449,
+      "summary": "Today's big story: Could Nvidia Stock Fall 50%? Follow The Cash."
     },
     {
-      "headline": "Robotics Stocks Become a Stock-Picker\u2019s Market as Momentum and Fundamentals Diverge",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=693552e9f9612f83274ab9efd1ba905e6b229b1c7418d079647b8f08db5b21c0",
-      "datetime": 1794836176,
-      "summary": "Robotics and automation stocks show high-quality fundamentals but weak momentum, with sharp divergence between earnings and share prices."
+      "headline": "Wall Street Is Trading Chips for Chicken: Staples See Best Run Against Tech Since 2001",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=6054188fec1dbdcf5ba8505b603ec6f93a3f85c89020254c1c4dc0dfc54bdbe7",
+      "datetime": 1794909080,
+      "summary": "Consumer staples fund XLP has beaten tech fund XLK by 39.5% in seven weeks, the widest gap since March 2001."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-13",
+  "data_asof": "2026-11-18",
   "price": {
-    "last": 249.55,
-    "open": 260.04,
-    "prev_close": 263.75,
-    "move_day_pct": -5.38,
-    "move_open_close_pct": -4.03,
-    "move_week_pct": 14.36
+    "last": 235.21,
+    "open": 239.33,
+    "prev_close": 234.18,
+    "move_day_pct": 0.44,
+    "move_open_close_pct": -1.72,
+    "move_week_pct": -11.5
   },
   "indicators": {
     "rsi14": {
-      "value": 37.3,
+      "value": 35.1,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -30.144,
-      "signal": -31.13,
-      "hist": 0.986,
-      "hist_prev": 0.183,
+      "macd": -29.36,
+      "signal": -30.508,
+      "hist": 1.148,
+      "hist_prev": 0.746,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 358.83,
-      "lower": 204.62,
-      "mid": 281.73,
-      "pctb": 0.291,
+      "upper": 331.73,
+      "lower": 200.09,
+      "mid": 265.91,
+      "pctb": 0.267,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 60.38,
-      "read": "60% above its 52-week low"
+      "value": 51.16,
+      "read": "51% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -48.4,
-      "read": "48% below its 52-week high"
+      "value": -51.37,
+      "read": "51% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 350.06,
-      "pct": -28.71,
-      "read": "29% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 349.71,
+      "pct": -32.74,
+      "read": "33% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 22.98,
-      "pct_of_price": 9.21,
+      "value": 21.51,
+      "pct_of_price": 9.14,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.78,
-      "read": "Roughly average volume"
+      "value": 0.48,
+      "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 29.6,
+      "value": 28.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 155.6,
   "high_52w": 483.65,
-  "ma50": 342.61,
-  "ma200": 350.06
+  "ma50": 334.38,
+  "ma200": 349.71
 }

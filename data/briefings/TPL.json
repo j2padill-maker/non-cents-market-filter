@@ -2,7 +2,7 @@
   "ticker": "TPL",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-16T18:22:44.496751-08:00",
+  "generated_at": "2026-11-18T13:30:40.477881-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Texas Pacific Land Stock: Analyst Estimates & Ratings",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=00823ee67519a79e6a029b7edba583a6359fa1c197eefbdacd1303b2fe5ec03b",
+      "datetime": 1795009830,
+      "summary": "Texas Pacific Land has underperformed the broader market over the past year, but analysts are cautiously optimistic about the stock\u2019s prospects."
+    },
+    {
+      "headline": "There's Only One Way Out Of $40 Trillion In Debt - I'm Ready For It",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=9359e37de77206f5ec040e285a5984430fc6c51d61884142bd0f6eb2da2e0e25",
+      "datetime": 1794987000,
+      "summary": "Analyst sees virtually no path to U.S. default, but expects inflation to shift wealth from dollar savers to asset owners with $40 trillion in debt."
+    },
     {
       "headline": "Texas Pacific Land Corporation Announces Redomestication to Texas",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=efc0c08c5a5019a16ad710e064b263e08fed80d34e428ee716c24e13eaa6035e",
       "datetime": 1794591357,
       "summary": "S&P 500 top movers for today's US session: Charter Communications and Texas Pacific Land lead gainers, while Advanced Micro Devices and Dell lead decliners."
-    },
-    {
-      "headline": "Is Texas Pacific Land (TPL) Undervalued On Stronger Earnings?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6420b7de61bd630b5e3083a4c56c5d321b0d38773233c0c20499f51d506f4c29",
-      "datetime": 1794572015,
-      "summary": "Texas Pacific Land earnings and domicile shift draw investor focus Texas Pacific Land (TPL) is back in the spotlight after releasing third quarter and year to date 2026 results, reporting higher revenue, net income and earnings per share compared with the same periods a year earlier. Investors have rewarded Texas Pacific Land over longer horizons, with a 3-year total shareholder return of 62.13% a"
-    },
-    {
-      "headline": "Jim Cramer Says No to This Energy Stock",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=9cb29a137d534987e45f6d729e1bfa48cf655fd5b3dd8742a95acc211ac83747",
-      "datetime": 1794568741,
-      "summary": "Cramer rejects Texas Pacific Land and Bright Horizons, but endorses Commvault, citing strong earnings and its CEO."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-13",
+  "data_asof": "2026-11-18",
   "price": {
-    "last": 291.91,
-    "open": 286.04,
-    "prev_close": 281.18,
-    "move_day_pct": 3.82,
-    "move_open_close_pct": 2.05,
-    "move_week_pct": 7.18
+    "last": 285.9,
+    "open": 288.78,
+    "prev_close": 287.84,
+    "move_day_pct": -0.67,
+    "move_open_close_pct": -1.0,
+    "move_week_pct": 1.59
   },
   "indicators": {
     "rsi14": {
-      "value": 37.9,
+      "value": 35.5,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -18.106,
-      "signal": -15.621,
-      "hist": -2.485,
-      "hist_prev": -4.189,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -15.766,
+      "signal": -15.946,
+      "hist": 0.18,
+      "hist_prev": -0.349,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 368.3,
-      "lower": 257.7,
-      "mid": 313.0,
-      "pctb": 0.309,
+      "upper": 355.53,
+      "lower": 253.95,
+      "mid": 304.74,
+      "pctb": 0.315,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 7.25,
+      "value": 5.04,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -45.75,
-      "read": "46% below its 52-week high"
+      "value": -46.87,
+      "read": "47% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 398.24,
-      "pct": -26.7,
-      "read": "27% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 397.49,
+      "pct": -28.07,
+      "read": "28% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 14.98,
-      "pct_of_price": 5.13,
+      "value": 14.18,
+      "pct_of_price": 4.96,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.1,
+      "value": 0.83,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 40.8,
+      "value": 41.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 272.18,
   "high_52w": 538.1,
-  "ma50": 337.12,
-  "ma200": 398.24
+  "ma50": 332.08,
+  "ma200": 397.49
 }

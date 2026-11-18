@@ -2,7 +2,7 @@
   "ticker": "FSLY",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-16T18:22:42.468819-08:00",
+  "generated_at": "2026-11-18T13:30:38.521513-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Cloudflare Stock At 38x Sales Faces A Margin Slide",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=013280e78c14bf8a323403e9d40249931466be5cbc125d3fa61456299996531e",
+      "datetime": 1794924821,
+      "summary": "For questions about this article or underlying research, email help@trefis.com."
+    },
     {
       "headline": "Nvidia Earnings Could Shift Focus To Cloudflare Stock And AI Cost Control",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=8b30dcba42e2d8a827f00657dc289c7912f0b80f7d10b429d68c68554e6c30e5",
       "datetime": 1794496395,
       "summary": "For questions about this article or underlying research, email help@trefis.com."
-    },
-    {
-      "headline": "How Big Could Cloudflare Stock's Next Fall Be?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=64fd3cae7835915f985d914062e2fcef69fe782d13378b066735625f9f3a94b7",
-      "datetime": 1794434703,
-      "summary": "For questions about this article or underlying research, email help@trefis.com."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-13",
+  "data_asof": "2026-11-18",
   "price": {
-    "last": 16.62,
-    "open": 17.5,
-    "prev_close": 17.19,
-    "move_day_pct": -3.32,
-    "move_open_close_pct": -5.03,
-    "move_week_pct": 4.86
+    "last": 17.9,
+    "open": 15.98,
+    "prev_close": 15.9,
+    "move_day_pct": 12.58,
+    "move_open_close_pct": 11.98,
+    "move_week_pct": 3.71
   },
   "indicators": {
     "rsi14": {
-      "value": 35.4,
-      "read": "Oversold"
+      "value": 42.3,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": -2.257,
-      "signal": -1.725,
-      "hist": -0.533,
-      "hist_prev": -0.641,
+      "macd": -2.15,
+      "signal": -1.981,
+      "hist": -0.169,
+      "hist_prev": -0.387,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 28.83,
-      "lower": 13.29,
-      "mid": 21.06,
-      "pctb": 0.214,
+      "upper": 28.35,
+      "lower": 11.9,
+      "mid": 20.13,
+      "pctb": 0.365,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 108.79,
-      "read": "109% above its 52-week low"
+      "value": 124.87,
+      "read": "125% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -50.39,
-      "read": "50% below its 52-week high"
+      "value": -46.57,
+      "read": "47% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 21.88,
-      "pct": -24.04,
-      "read": "24% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 21.99,
+      "pct": -18.6,
+      "read": "19% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 2.0,
-      "pct_of_price": 12.01,
+      "value": 1.92,
+      "pct_of_price": 10.72,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.55,
-      "read": "Roughly average volume"
+      "value": 1.54,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 32.4,
+      "value": 29.6,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 7.96,
   "high_52w": 33.5,
-  "ma50": 23.47,
-  "ma200": 21.88
+  "ma50": 23.17,
+  "ma200": 21.99
 }

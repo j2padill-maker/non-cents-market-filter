@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-16T18:22:38.475356-08:00",
+  "generated_at": "2026-11-18T13:30:33.636786-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Optimist Fund\u2019s Deep Dive Analysis on Zscaler (ZS)",
+      "headline": "Zscaler (ZS) Stock Still Looks Cheap On Its 46% Five Year Slump",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=04ade56ac41d1d9506309831a6f640467d39df9a57177c02ac88d399bb914ddd",
-      "datetime": 1794839185,
-      "summary": "Optimist Fund, an investment management company, released its third-quarter 2026 investor letter. The letter can be downloaded here. In Q3, the Fund declined 8.6%, primarily due to ThredUp\u2019s share price drop after lower second-half guidance. Despite a disappointing -9% YTD, historical patterns suggest these challenges often lead to future positive returns, encouraging optimism for future [\u2026]"
+      "url": "https://finnhub.io/api/news?id=7d34e04b4c686b8ab3a06cfdb15e10fce80ea6c9ea8c5be48900898454242b8f",
+      "datetime": 1794978650,
+      "summary": "Zscaler has seen its share price retreat over multiple timeframes, which puts a fresh spotlight on one core issue for investors: whether the current valuation can be explained by the cash the business is expected to generate over time. With the stock recently closing at US$185.19, the key debate now centers on how that price stacks up against an intrinsic value estimate built from those cash flows"
     },
     {
-      "headline": "Palo Alto Networks to Report Q1 Earnings: Buy, Sell or Hold the Stock?",
+      "headline": "Zscaler (ZS) Just Made Its AI Security Push More Complete",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2958d105520d41a0c68f4b3778e5b0f5ac74840be1f9bfe60077127f9e72c548",
-      "datetime": 1794837060,
-      "summary": "PANW's AI security demand and platform deals fuel growth, but rising costs and a premium valuation warrant a cautious approach ahead of Q1 earnings."
+      "url": "https://finnhub.io/api/news?id=724c615a7ec77843e907d295acfae27b202b8842415a01ff783f30aebdd306ca",
+      "datetime": 1794976504,
+      "summary": "Zscaler (NasdaqGS:ZS) announced a new partnership with Commvault to address enterprise AI security and recovery concerns. The collaboration combines Zscaler's AI access controls with Commvault's cyber recovery tools to manage and restore AI driven environments. Both companies aim to give enterprises clearer visibility into shadow AI usage and tighter governance over AI agents and data flows. Zscal"
     },
     {
-      "headline": "Zscaler's AI Security Push: Can It Overcome Slower FY27 Growth?",
+      "headline": "Palo Alto Networks Fell Nearly 30% From Its Highs. Now It Has to Deliver 33% Growth",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5c79e792946f86ad878bb3b46c96277a27ba628d30f61eaac2ae99f30c726c8a",
-      "datetime": 1794833280,
-      "summary": "ZS' AI security bookings and pipeline are surging, but slowing fiscal 2027 revenue growth raises questions about its ability to convert demand into sales."
+      "url": "https://finnhub.io/api/news?id=a583473e79e2bbff96c14284bdfee19b683cbe3027d64be83fbaf74df4345d73",
+      "datetime": 1794955867,
+      "summary": "Key TakeawaysPalo Alto Networks reports fiscal first-quarter results after the close on Nov. 18, with its stock 29% below its 52-week high and guidance calling for revenue growth of 33% to 34%."
     },
     {
-      "headline": "Top 3 AI Security Stocks With Earnings Growth Over 29%",
+      "headline": "Why Zscaler (ZS) Dipped More Than Broader Market Today",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f1ba1862a9ee3706beae48e1f6978e920d4cc9c9e1456313351c8c9f23a01f50",
-      "datetime": 1794608247,
-      "summary": "AI related goods are driving a large share of global trade growth, and every surge in computing power creates a bigger target surface for hackers. That rising risk puts digital security in the spotlight for anyone exposed to the AI build out. For investors, that opens a focused way to participate in the data protection story. This article highlights three cybersecurity stocks from a global high qu"
+      "url": "https://finnhub.io/api/news?id=cc338a8762641c825c86e88ea7a19e40f852c6bc797cfa399e8934578e804b6e",
+      "datetime": 1794951903,
+      "summary": "Zscaler (ZS) concluded the recent trading session at $185.19, signifying a -2.96% move from its prior day's close."
     },
     {
-      "headline": "Palo Alto Stock Upgraded to Buy After 20% Dip",
+      "headline": "Can Zscaler\u2019s Margins Offset Slower Revenue Growth?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2606cd9c54f9712ee939f2e1a69b0ff04d7746a61326d9c42b8bc3fbf2e26497",
-      "datetime": 1794594060,
-      "summary": "KeyBanc upgrades Palo Alto Networks to Overweight, betting that next-generation security growth will outweigh firewall concerns."
+      "url": "https://finnhub.io/api/news?id=3ce7aae65209b4c85bb5e53a08ffa6b5bc1c492ddb57ac18376cb1b3f111f95f",
+      "datetime": 1794946587,
+      "summary": "We just published our list of the 10 Highest Short Interest Large-Cap Tech Stocks Right Now, and Zscaler Inc. ranked 9th on the list. Technology stocks are facing a new test of investor conviction as hedge funds pull back from the artificial intelligence trade. Bloomberg reported on November 9 that hedge funds sold global technology stocks [\u2026]"
     },
     {
-      "headline": "Top Cybersecurity Stocks to Watch, According to Mizuho",
+      "headline": "Bitwarden Appoints Cybersecurity Veteran Dave Farrow as Chief Information Security Officer and Head of IT",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=32990ab805ab5d9c3763f86c4b30718ac5101c2147fe38f3aa2d440c3fd9f2e4",
-      "datetime": 1794504565,
-      "summary": "Investing.com -- Mizuho has released its latest rankings of top-performing cybersecurity stocks, with analysts highlighting strong momentum across multiple companies based on quarterly channel checks and partner feedback. The firm's analysis points to robust demand for data warehousing, zero trust solutions, and cyber-resiliency products."
+      "url": "https://finnhub.io/api/news?id=c15bda71245305293a851fef7eac9a8402a915f38f8a841022d0887bcd51c957",
+      "datetime": 1794927600,
+      "summary": "SANTA BARBARA, Calif., November 17, 2026--Bitwarden, the trusted leader in passkey, password, and secrets management, today announced the appointment of Dave Farrow as chief information security officer (CISO) and head of IT, a newly established position that expands the company\u2019s leadership team. Farrow brings 14 years of experience in cybersecurity leadership and CISO roles, grounded in more tha"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-13",
+  "data_asof": "2026-11-18",
   "price": {
-    "last": 192.47,
-    "open": 197.24,
-    "prev_close": 193.22,
-    "move_day_pct": -0.39,
-    "move_open_close_pct": -2.42,
-    "move_week_pct": -2.63
+    "last": 197.83,
+    "open": 187.16,
+    "prev_close": 185.19,
+    "move_day_pct": 6.83,
+    "move_open_close_pct": 5.7,
+    "move_week_pct": 2.08
   },
   "indicators": {
     "rsi14": {
-      "value": 35.6,
-      "read": "Oversold"
+      "value": 42.7,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": -6.073,
-      "signal": -0.007,
-      "hist": -6.066,
-      "hist_prev": -6.564,
+      "macd": -7.696,
+      "signal": -3.706,
+      "hist": -3.99,
+      "hist_prev": -5.268,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 270.51,
-      "lower": 175.66,
-      "mid": 223.08,
-      "pctb": 0.177,
-      "read": "Near the lower band"
+      "upper": 271.29,
+      "lower": 166.42,
+      "mid": 218.86,
+      "pctb": 0.3,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 63.04,
-      "read": "63% above its 52-week low"
+      "value": 67.58,
+      "read": "68% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -37.63,
-      "read": "38% below its 52-week high"
+      "value": -32.51,
+      "read": "33% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 166.57,
-      "pct": 15.55,
-      "read": "16% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 166.5,
+      "pct": 18.82,
+      "read": "19% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 12.09,
-      "pct_of_price": 6.28,
+      "value": 12.24,
+      "pct_of_price": 6.19,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.59,
+      "value": 0.96,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 24.9,
+      "value": 24.6,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 118.05,
-  "high_52w": 308.6,
-  "ma50": 209.45,
-  "ma200": 166.57
+  "high_52w": 293.11,
+  "ma50": 210.97,
+  "ma200": 166.5
 }

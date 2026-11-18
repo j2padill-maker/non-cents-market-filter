@@ -2,7 +2,7 @@
   "ticker": "GNRC",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-16T18:22:24.682449-08:00",
+  "generated_at": "2026-11-18T13:30:19.414225-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "Tracking John Rogers' Ariel Investments Portfolio - Q3 2026 Update",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=71930664e703f1c85ced54b84305b6c13623f276e9f97be1cdca23148bfbed48",
+      "datetime": 1795003636,
+      "summary": "Ariel Investments\u00e2\u0080\u0099 13F portfolio fell to $9.61 billion in Q3 2026; Generac rose 40%, and Madison Square Garden Entertainment remained largest at 4.19%."
+    },
+    {
+      "headline": "Diamond Hill Mid Cap Strategy Q3 2026 Portfolio Review",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=c8af3328fdce7f58f1ab8e6ba40de8c7c571dead4a9c2e407e3e70b8b13320b8",
+      "datetime": 1794995700,
+      "summary": "The Strategy declined 3.83% net of fees, trailing the Russell Midcap Index's 3.00% decline; key contributors were Illumina, Revvity and Waystar."
+    },
+    {
+      "headline": "Generac PWRmicro Named Best in Show in 2026 Solar Power World Top Products Awards",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=24087dfdfa73f9d7939a6e5d92959de7fd9cb927cad6b8d5711f3cf7829b4b97",
+      "datetime": 1794938400,
+      "summary": "Generac Holdings Inc. (NYSE: GNRC), a leading global designer, manufacturer and provider of energy technology solutions and other power products, announced that the Generac PWRmicro microinverter has been named a Best in Show winner in the residential category of the 2026 Solar Power World Top Products Awards."
+    },
+    {
+      "headline": "Ariel Small Cap Value Concentrated Q3 2026 Portfolio Activity",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=f23358ad8da66695b70cd5adacbdb5ceba7242f1b59cfd360ee30b6acd3ca4b2",
+      "datetime": 1794873900,
+      "summary": "The Ariel Small Cap Value Concentrated Composite posted a -5.99% gross return (-6.13% net of fees) for the quarter."
+    },
+    {
       "headline": "3 US AI Infrastructure Stocks Backing The Data Center Power Buildout",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=e156d489d4d7d67cf52a0cd949970bade4c2dbb406424a09b0252e76d655ccf0",
@@ -29,34 +57,6 @@
       "url": "https://finnhub.io/api/news?id=c558f866b31aa27afa2becba2da28921d3507040f94a961259f6d44b199b1aa8",
       "datetime": 1794576840,
       "summary": "ALLE benefits from strong Americas segment growth, strategic acquisitions and higher shareholder returns, while rising earnings estimates add to its investment appeal."
-    },
-    {
-      "headline": "ZBRA Exhibits Strong Prospects Despite Persisting Headwinds",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=660b413339e3eff27a5fd55b83821b641e4d7d9bdd7b14474be9d983cf9c216d",
-      "datetime": 1794494640,
-      "summary": "Zebra Technologies benefits from strong segment growth, acquisitions and share buybacks, but rising costs and geopolitical risks pose challenges."
-    },
-    {
-      "headline": "Xylem Acquires Cornell Pump and Roper Pump to Expand Portfolio",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7337d927aa94facb207d1fd8d91b68487517d37049c9a21e397c0bc6d4e9ee7e",
-      "datetime": 1794494160,
-      "summary": "XYL expands its engineered pumping technologies portfolio with Cornell Pump and Roper Pump acquisitions, targeting industrial and municipal markets."
-    },
-    {
-      "headline": "Generac: 3 Key Takeaways for Long-Term Investors",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c20957cbd6c05c19d7b1dec3cb6e6a66fce60f92090cfbfafa7ae863a92fd2d5",
-      "datetime": 1794434702,
-      "summary": "Manufacturing is working to triple production with minimal capital spending, a structural advantage that reshapes return-on-investment expectations."
-    },
-    {
-      "headline": "AI Data Center Suppliers Report Growth as October Inflation Data Reaches Wall Street",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=dfa16c625436befa4d3f62e9a7d35dc45c7bfb9c1691a5c7a3551b1176a7c5bd",
-      "datetime": 1794334200,
-      "summary": "Equity Insider News Commentary - U.S. stocks were lower in late morning trading on Tuesday, the day the Bureau of Labor Statistics published its October Consumer Price Index. As of 11:42 a.m. ET, the S&P 500 was down 57.20 points, or 0.76%, at 7,492.74, the Nasdaq Composite was down 269.19 points, or 1.07%, at 24,983.95, and the Dow Jones Industrial Average was down 357.50 points, or 0.68%, at 52,"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-13",
+  "data_asof": "2026-11-18",
   "price": {
-    "last": 190.77,
-    "open": 193.81,
-    "prev_close": 192.88,
-    "move_day_pct": -1.09,
-    "move_open_close_pct": -1.57,
-    "move_week_pct": 7.91
+    "last": 205.45,
+    "open": 188.91,
+    "prev_close": 187.0,
+    "move_day_pct": 9.87,
+    "move_open_close_pct": 8.76,
+    "move_week_pct": 5.9
   },
   "indicators": {
     "rsi14": {
-      "value": 47.7,
+      "value": 55.9,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -3.701,
-      "signal": -3.756,
-      "hist": 0.055,
-      "hist_prev": -0.211,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": -2.271,
+      "signal": -3.481,
+      "hist": 1.21,
+      "hist_prev": -0.031,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
       "upper": 210.24,
-      "lower": 174.71,
-      "mid": 192.47,
-      "pctb": 0.452,
-      "read": "Mid-band \u2014 no extreme"
+      "lower": 173.41,
+      "mid": 191.83,
+      "pctb": 0.87,
+      "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 39.89,
-      "read": "40% above its 52-week low"
+      "value": 50.66,
+      "read": "51% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -35.45,
-      "read": "35% below its 52-week high"
+      "value": -30.48,
+      "read": "30% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 219.54,
-      "pct": -13.1,
-      "read": "13% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 219.87,
+      "pct": -6.56,
+      "read": "7% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
       "value": 12.06,
-      "pct_of_price": 6.32,
+      "pct_of_price": 5.87,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.61,
-      "read": "Roughly average volume"
+      "value": 1.48,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 58.4,
+      "value": 50.6,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 136.37,
   "high_52w": 295.54,
-  "ma50": 198.42,
-  "ma200": 219.54
+  "ma50": 198.7,
+  "ma200": 219.87
 }

@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-16T18:22:20.697185-08:00",
+  "generated_at": "2026-11-18T13:30:15.169325-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Citi names top infrastructure software stocks amid rising AI standards",
+      "headline": "Datadog Fell 12% on a Flat Fourth-Quarter Outlook. Analysts Raised Its 2027 Earnings Estimate 6%",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7a2d9400d7edb2194592a4cb5dda6498b90f70b3a5c908cd13d4699b2c640910",
-      "datetime": 1794850457,
-      "summary": "Investing.com -- Infrastructure software companies with tangible AI-driven growth and durable distribution advantages should be prioritized by investors as the burden of proof for artificial intelligence benefits has increased following a volatile third-quarter earnings season, according to a Citi note to clients."
+      "url": "https://finnhub.io/api/news?id=a4f4146913abbad40cf1e787b18c42e2c254b61ec64c04d801143d8ed60aa5a6",
+      "datetime": 1795030151,
+      "summary": "Key TakeawaysDatadog fell more than 12% on Nov. 4 on a flat fourth-quarter guide, as its largest customer, an AI company, cuts its usage to its contract minimum."
     },
     {
-      "headline": "Snowflake Keeps Sliding, but Evercore ISI Sees 51% Upside",
+      "headline": "George Soros and 11 Other Big Funds Bought Datadog Last Quarter, While 13 Sold. Who\u2019s Right?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ccd1151aca8868502d16efd739274afe1ba0b72f27b443a54a53c2a09b858e9c",
-      "datetime": 1794841563,
-      "summary": "Key TakeawaysEvercore ISI reiterated its Buy rating on Snowflake on Nov. 12 and raised its price target to $430, 51% above the current price."
+      "url": "https://finnhub.io/api/news?id=3572a27d38d2647cbfb3b9291398435c8c6fb2724601c6663eb267fa091fe71c",
+      "datetime": 1795015725,
+      "summary": "Key TakeawaysOf the 460 big funds that have filed 13Fs for the quarter ended Sept. 30, 12 bought Datadog, led by GQG Partners and George Soros\u2019 fund, and 13 sold, led by Strategy Capital and RDST Capital."
     },
     {
-      "headline": "Datadog (DDOG) Just Gave Investors Something To Think About",
+      "headline": "Datadog vs. Figma: Which Technology Stock Is a Better Buy for 2027?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c8f6c2a34b1164af06ab40efeffc57c25690ded3995ceeb7a1dc18037ba44796",
-      "datetime": 1794834419,
-      "summary": "Datadog earnings and guidance set the stage Datadog (DDOG) stock is in focus after the company reported third quarter 2026 results, alongside fresh guidance that outlines expected revenue between US$1.19b and US$1.20b for the next quarter. The earnings release and guidance arrive after a sharp reset in sentiment. Datadog\u2019s share price has fallen about 25% over the past month even though the year t"
+      "url": "https://finnhub.io/api/news?id=6a3fcd23ca2226beaf61c567b9d71a03dba189e0ba0d28f51fa724a4fac67952",
+      "datetime": 1795012802,
+      "summary": "Datadog and Figma pull in opposite directions, one with real profits and one with rapid growth, and the valuation gap may be the deciding factor."
     },
     {
-      "headline": "Are Wall Street Analysts Predicting Datadog Stock Will Climb or Sink?",
+      "headline": "Sequel.io Raises $15M to Build a New Category in Video-Driven Audience Intelligence",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ffee83ec5696dd182042802fe6f824ade1ff2b5025c0f43ee22ba63b5e349d76",
-      "datetime": 1794833214,
-      "summary": "Datadog has lagged behind the broader market, while analysts remain optimistic about its future growth prospects."
+      "url": "https://finnhub.io/api/news?id=808f02bd208f925cce526df61ce7819ad295ef4e5b9ea31b2e4e52960bafdcc5",
+      "datetime": 1795011300,
+      "summary": "Sequel.io, a video-driven audience intelligence and activation platform, today announced $15 million in funding led by Sorenson Capital, bringing total funding to approximately $26 million. New investors in the round include High Alpha, Album VC and Webflow Ventures, with additional participation from existing investors Javelin Venture Partners, Struck Capital, Alumni Ventures and Social Leverage."
     },
     {
-      "headline": "Datadog\u2019s Q4 Guide Is Flat at $1.2 Billion: Sell the Slowdown, or Buy the Dip?",
+      "headline": "MinIO Announces Strategic Partnership With Datadog to Power Security and Observability Lakehouse for Enterprise AI",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5c276c2c978878d1a6a0fe4364f09a54b04a4ec5b044ecc26452e0f1d9e33554",
-      "datetime": 1794675929,
-      "summary": "Key TakeawaysDatadog grew third-quarter revenue 35% to $1. 20 billion, then guided the fourth quarter roughly flat as its largest AI customer cut usage."
+      "url": "https://finnhub.io/api/news?id=7e963d327b99d6e2d309c98be2f8a128a1114d56ae77123a37899fd6bd54a979",
+      "datetime": 1795010400,
+      "summary": "REDWOOD CITY, Calif. & CHICAGO, November 18, 2026--MinIO, the data and memory foundation for enterprise AI, today announced a strategic partnership with Datadog, the leading AI-powered observability and security platform. As part of the new partnership, MinIO is delivering the first high-performance, on-premises lakehouse certified for Datadog Bring Your Own Cloud (BYOC). MinIO\u2019s partnership with "
     },
     {
-      "headline": "Can You Justify Buying Dynatrace Stock Today?",
+      "headline": "What Is Driving ServiceNow Stock?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ae8c45308cd8574df823a1e867e922c3cd07019364bb4b53874a2a68fdd0ecc2",
-      "datetime": 1794616878,
-      "summary": "For questions about this article or underlying research, email help@trefis.com."
+      "url": "https://finnhub.io/api/news?id=d0b84b9586fd6f737b020e9d0a484102fb40fcb91f2b668901dac690974b2c91",
+      "datetime": 1795006718,
+      "summary": "Today's big story: Anthropic IPO: Priced For 2031, Or 2036."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-13",
+  "data_asof": "2026-11-18",
   "price": {
-    "last": 184.16,
-    "open": 188.24,
-    "prev_close": 184.46,
-    "move_day_pct": -0.16,
-    "move_open_close_pct": -2.17,
-    "move_week_pct": 2.86
+    "last": 167.11,
+    "open": 167.38,
+    "prev_close": 165.18,
+    "move_day_pct": 1.17,
+    "move_open_close_pct": -0.16,
+    "move_week_pct": -9.37
   },
   "indicators": {
     "rsi14": {
-      "value": 31.5,
-      "read": "Oversold"
+      "value": 27.9,
+      "read": "Extremely oversold"
     },
     "macd": {
-      "macd": -22.229,
-      "signal": -16.884,
-      "hist": -5.345,
-      "hist_prev": -6.797,
+      "macd": -23.772,
+      "signal": -20.088,
+      "hist": -3.684,
+      "hist_prev": -4.409,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 309.32,
-      "lower": 145.47,
-      "mid": 227.39,
-      "pctb": 0.236,
+      "upper": 297.97,
+      "lower": 128.35,
+      "mid": 213.16,
+      "pctb": 0.229,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 79.47,
-      "read": "79% above its 52-week low"
+      "value": 62.85,
+      "read": "63% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -37.2,
-      "read": "37% below its 52-week high"
+      "value": -43.02,
+      "read": "43% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 201.36,
-      "pct": -8.54,
-      "read": "9% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 202.0,
+      "pct": -17.27,
+      "read": "17% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 14.44,
-      "pct_of_price": 7.84,
+      "value": 13.62,
+      "pct_of_price": 8.15,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.86,
+      "value": 0.93,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 25.3,
-      "read": "Neutral money flow"
+      "value": 15.7,
+      "read": "Oversold \u2014 money flowing out"
     }
   },
   "low_52w": 102.61,
   "high_52w": 293.26,
-  "ma50": 243.53,
-  "ma200": 201.36
+  "ma50": 240.66,
+  "ma200": 202.0
 }

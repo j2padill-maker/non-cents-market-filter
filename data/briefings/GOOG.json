@@ -2,7 +2,7 @@
   "ticker": "GOOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-16T18:22:48.388072-08:00",
+  "generated_at": "2026-11-18T13:30:44.386507-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Warren Buffett's Successor, Greg Abel, Overhauled Berkshire's Portfolio for a 3rd Straight Quarter, Reducing 6 Stocks and Piling Into a Hot Tech IPO",
+      "headline": "Why Do Nvidia's Customers Owe It $81 Billion?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5f239adea28e5ce83e47d345a01a528e44ba166ff5c40f309eb960ad8f9451c7",
-      "datetime": 1794876781,
-      "summary": "This isn\u2019t your grandparents\u2019 Berkshire Hathaway any longer."
+      "url": "https://finnhub.io/api/news?id=1eb12137250777364affddd891183b6c6b7b2cff238e563b870a0122986407e7",
+      "datetime": 1795027413,
+      "summary": "Today's big story: Anthropic IPO: Priced For 2031, Or 2036."
     },
     {
-      "headline": "Brad Gerstner Says AI Is at Its \u2018Google 2005\u2019 Moment. Here\u2019s Who He Thinks Wins",
+      "headline": "Who Really Pays For Nvidia's $1.2 Trillion?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e06740ac6f06db06748862cbc26aa287cbaa46061b7bb49b158a5174b63b8d28",
-      "datetime": 1794874024,
-      "summary": "Brad Gerstner is putting in the biggest IPO order of his career, and he is doing it while chip stocks bleed. Why he trusts two AI labs over their chip supplier, and what could still wreck the bet."
+      "url": "https://finnhub.io/api/news?id=6f2c4e3d78b3d0221655ba79e66c4890f343d7150c284664b210492e7b67f342",
+      "datetime": 1795027391,
+      "summary": "Today's big story: Anthropic IPO: Priced For 2031, Or 2036."
     },
     {
-      "headline": "Christian Muche of POSSIBLE Makes Room for Marketing\u2019s Ever-Growing Guest List",
+      "headline": "The $1 Trillion Spending Question Hanging Over Anthropic\u2019s IPO",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0b040a84371978502eee1486697dd77658839d65a086d3ffed18ab4d148d4d02",
-      "datetime": 1794872479,
-      "summary": "The marketing industry may be wrestling with uncertainty, but Christian Muche has a more practical concern: getting everybody into the room. Preferably before another AI announcement forces someone to rewrite the entire conference agenda. Muche, co-founder and global president of event organizer POSSIBLE, outlined plans for Miami and Lisbon in an interview with Beet.TV at the DMS by LUMA digital m"
+      "url": "https://finnhub.io/api/news?id=3541008b7cd016a3bc22874e483404d14fc4886fe3c45b9644d9bcac9a12908f",
+      "datetime": 1795027020,
+      "summary": "Anthropic\u2019s spending deals could add up to roughly $1 trillion. How much revenue can all that computing power support?"
     },
     {
-      "headline": "Broadcom Is \u201cthe Best Play\u201d on Nvidia\u2019s CEO Exit, One Investor Argues. The Reason Is China",
+      "headline": "Dan Ives sends a strong signal ahead of the Anthropic IPO",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=253766ded5ec62088f72f6e0e3d37114b2784666175a340a038183d0808b601e",
-      "datetime": 1794870779,
-      "summary": "Key TakeawaysBroadcom (AVGO) surged 5. 5% on November 12 following NVIDIA (NVDA) CEO Jensen Huang\u2019s departure, before retreating to $333."
+      "url": "https://finnhub.io/api/news?id=6ed6c70af436ed6b7a70562489735d42937c112d38fd087a97e3bf08ee08eed8",
+      "datetime": 1795026780,
+      "summary": "Dan Ives calls the Anthropic IPO an important step, but the numbers, the skeptics, and the SpaceX comparison tell a more complicated story."
     },
     {
-      "headline": "David Tepper\u2019s Appaloosa Goes Big on SpaceX, While Slashing Alphabet Stake",
+      "headline": "Anthropic Valuation Is 8.5 Times Next Year\u2019s Sales: Multiples More Like Microsoft, Alphabet Than Palantir, New Street Analyst Says",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0de404b2bafd13f96cbdefd9ca9180f568a642bcafd0e82cdcad092a64dfdb37",
-      "datetime": 1794870540,
-      "summary": "It was a busy quarter, marked by several exits and a few new holdings."
+      "url": "https://finnhub.io/api/news?id=898336ca58d701ee9e2c393582ed2021ad52a8b67dcfa63291aea7e46632a8fa",
+      "datetime": 1795025772,
+      "summary": "The valuation structure is supportive of downside risk, Pierre Ferragu said in an interview with CNBC."
     },
     {
-      "headline": "Michael Burry Buys More Of Adobe And MercadoLibre, Exits ORCL, CAT Puts",
+      "headline": "How to find AI winners beyond Nvidia & the Mag-7",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=fcc4ab31da72ebea36439132786a5dd95a457b24aa25901f233f4f8d26c5a504",
-      "datetime": 1794869040,
-      "summary": "Burry continues to hold a large put position in the VanEck Semiconductor ETF, along with puts on the Nasdaq 100, Nvidia, MetLife, and Palantir."
+      "url": "https://finnhub.io/api/news?id=7973629ea3e3bbdab626dd179b246e9fc03174d7024799dd98062d9a278c907a",
+      "datetime": 1795024140,
+      "summary": "The next big AI winners may not be tech giants. PlanCorp CIO Peter Lazaroff explains how investors can find opportunities in established companies."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-13",
+  "data_asof": "2026-11-18",
   "price": {
-    "last": 292.52,
-    "open": 299.89,
-    "prev_close": 295.35,
-    "move_day_pct": -0.96,
-    "move_open_close_pct": -2.46,
-    "move_week_pct": 3.03
+    "last": 279.2,
+    "open": 280.51,
+    "prev_close": 277.6,
+    "move_day_pct": 0.58,
+    "move_open_close_pct": -0.47,
+    "move_week_pct": -3.93
   },
   "indicators": {
     "rsi14": {
-      "value": 39.5,
+      "value": 33.4,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -12.097,
-      "signal": -13.23,
-      "hist": 1.134,
-      "hist_prev": 0.503,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "macd": -12.209,
+      "signal": -12.742,
+      "hist": 0.533,
+      "hist_prev": 0.546,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 342.49,
-      "lower": 259.28,
-      "mid": 300.89,
-      "pctb": 0.399,
+      "upper": 323.75,
+      "lower": 261.07,
+      "mid": 292.41,
+      "pctb": 0.289,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 7.23,
-      "read": "Just off its 52-week low"
+      "value": 2.35,
+      "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -26.6,
-      "read": "27% below its 52-week high"
+      "value": -29.94,
+      "read": "30% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 336.13,
-      "pct": -12.97,
-      "read": "13% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 335.21,
+      "pct": -16.71,
+      "read": "17% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 10.13,
-      "pct_of_price": 3.46,
+      "value": 9.61,
+      "pct_of_price": 3.44,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.82,
+      "value": 0.9,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 47.4,
+      "value": 48.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 272.8,
   "high_52w": 398.54,
-  "ma50": 325.11,
-  "ma200": 336.13
+  "ma50": 321.89,
+  "ma200": 335.21
 }

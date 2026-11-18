@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-16T18:22:35.290179-08:00",
+  "generated_at": "2026-11-18T13:30:30.468802-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Nvidia Shares Slide On Huang's Exit, While Record Results Show Demand Still Outruns Supply",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=20b890c2bb67ce28b2db9472e12bc0596325f2dac3173d9ebc553fe15a24557a",
+      "datetime": 1795005900,
+      "summary": "For three years, Jensen decided who got the scarcest chips in the world. Now it sounds like the capital markets will. And the capital markets take their cue from the Fed."
+    },
+    {
+      "headline": "2027 Macroeconomic Outlook: Testing The Limits Of Resilience",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=35cb0c47fb8ba13f682de37960e4ee04819081a8cb3b485de6c368bff7fd9b34",
+      "datetime": 1794986700,
+      "summary": "From AI-led growth to attractive bond yields, 2027 could offer both broader opportunities and evolving risks for investors to navigate."
+    },
+    {
+      "headline": "Nvidia Tugs Market Lower Again",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=093cb69184d7350a292a4c540b8925cb71a52d9acca3bfed009051c25fcfd269",
+      "datetime": 1794873300,
+      "summary": "Nvidia dragged the market lower again on Monday, with shares falling another 4% and extending the selloff. Tech stocks led the broader market lower. Volatility rose alongside the selloff."
+    },
     {
       "headline": "Central Banks Tighten Into The AI Boom, But Late '90s History Says Real Rates Matter Most",
       "source": "SeekingAlpha",
@@ -36,90 +57,69 @@
       "url": "https://finnhub.io/api/news?id=61470c58d2925b4256eda0f56594b5f6c3632bb365973fb5e326c6e9c3c07974",
       "datetime": 1794370200,
       "summary": "Inflation-adjusted intellectual property investment rose 15% between early 2022 and Q2 2026, compared with 8% for total investment. Read more here."
-    },
-    {
-      "headline": "AI In 2027: 20 Questions For The Global Economy",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=8a5480e954805b2076cffdbc48627ab2955bd58914fe433081d713009fd60b84",
-      "datetime": 1794357000,
-      "summary": "The AI boom is reshaping growth, productivity, trade, jobs and markets. Read more here."
-    },
-    {
-      "headline": "Nvidia's CEO Scandal Adds Risk, But Loose Policy Says The AI Boom Isn't Over",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=28cccfd22580111d9e842c06c05c2ac812ab550d2284379769945b267ae2c744",
-      "datetime": 1794291600,
-      "summary": "Nvidia's board opened an independent investigation into Jensen Huang. On Oct 28, the day before the story ran, NVDA traded at $220. At the lows on Monday, it was 23% below that Oct 28 level."
-    },
-    {
-      "headline": "Market Brief: Oil Lifted Stocks And Gold\u00a0- Bitcoin Couldn't Keep Up",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=c427d1a41f061fcd7292335b65438075a8b0ab4e683ce8177b4361d2b5643290",
-      "datetime": 1794285900,
-      "summary": "Lower oil gave stocks and gold a reason to rally, while Bitcoin traded like a risk asset that is losing buyers. Read more here."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-13",
+  "data_asof": "2026-11-18",
   "price": {
-    "last": 31.23,
-    "open": 31.52,
-    "prev_close": 31.42,
-    "move_day_pct": -0.6,
-    "move_open_close_pct": -0.92,
-    "move_week_pct": 0.58
+    "last": 29.71,
+    "open": 29.96,
+    "prev_close": 29.71,
+    "move_day_pct": 0.0,
+    "move_open_close_pct": -0.83,
+    "move_week_pct": -7.82
   },
   "indicators": {
     "rsi14": {
-      "value": 38.4,
+      "value": 31.4,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -0.818,
-      "signal": -0.784,
-      "hist": -0.034,
-      "hist_prev": -0.032,
+      "macd": -1.057,
+      "signal": -0.889,
+      "hist": -0.168,
+      "hist_prev": -0.151,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
       "upper": 34.39,
-      "lower": 30.61,
-      "mid": 32.5,
-      "pctb": 0.165,
+      "lower": 29.5,
+      "mid": 31.95,
+      "pctb": 0.043,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 1.93,
+      "value": 0.0,
       "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -24.94,
-      "read": "25% below its 52-week high"
+      "value": -28.6,
+      "read": "29% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 36.27,
-      "pct": -13.9,
-      "read": "14% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 36.16,
+      "pct": -17.84,
+      "read": "18% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
       "value": 0.77,
-      "pct_of_price": 2.46,
+      "pct_of_price": 2.59,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.7,
+      "value": 0.86,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 39.1,
+      "value": 28.9,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": 30.64,
+  "low_52w": 29.71,
   "high_52w": 41.61,
-  "ma50": 34.1,
-  "ma200": 36.27
+  "ma50": 33.75,
+  "ma200": 36.16
 }
