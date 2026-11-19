@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-18T13:29:57.745172-08:00",
+  "generated_at": "2026-11-18T16:49:40.852043-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -129,11 +129,11 @@
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.65,
+      "value": 0.71,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 29.6,
+      "value": 29.9,
       "read": "Neutral money flow"
     }
   },

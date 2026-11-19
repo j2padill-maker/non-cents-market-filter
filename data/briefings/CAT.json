@@ -2,7 +2,7 @@
   "ticker": "CAT",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-18T13:30:42.229702-08:00",
+  "generated_at": "2026-11-18T16:50:56.392481-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "UnitedHealth Is Behind Nearly Half the Dow's Drop",
+      "headline": "Morgan Stanley sees Caterpillar rental gains, stays cautious",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7a3bd79891bdd66ed79d1b9c7266cef1b60772ad78ebe98fe658037586275351",
-      "datetime": 1795030170,
-      "summary": "The Dow is on track for its third-straight day of more than 1% declines."
+      "url": "https://finnhub.io/api/news?id=00e66e071f50de022abb0c21bb1aca34690c706334c7e322aba60a4df4bccf91",
+      "datetime": 1795043820,
+      "summary": "An expanding small-equipment business is attracting new customers, but Morgan Stanley sees bigger forces driving CAT stock."
     },
     {
-      "headline": "Caterpillar undervalued as construction growth prospects strengthen, says Bank of America",
+      "headline": "Congress Lines Up For, Against BAAJA; Here's Why Investors Should Care",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b12b399501d255bfb61b12035f3d96980d564acbcfc31dad273f996df959306f",
-      "datetime": 1795025100,
-      "summary": "Caterpillar Inc (NYSE:CAT, XETRA:CAT) is undervalued relative to its construction equipment growth prospects, Bank of America (BoA) said, arguing that the market is applying too low a valuation to the division despite its industry-leading position and opportunities to gain share. The brokerage..."
+      "url": "https://finnhub.io/api/news?id=3830df1d6dea723237a89de94f72fe66c2030a24c514017bb68f3ce378b175a9",
+      "datetime": 1795037679,
+      "summary": "BAAJA, blasted: Here's what opposition and allies say about this response to midterm voters' affordability and AI mandates."
     },
     {
-      "headline": "Caterpillar Is Spending $1 Billion on Small Equipment. Can It Cure Its AI Hangover?",
+      "headline": "Forget Market Crashes: These Dow Jones Giants Have Recession-Proof Dividends",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f018e3fcdd3963d1351dd8c2b7e3c4d3673e4bb30a172db36d22a51428af6731",
-      "datetime": 1795020000,
-      "summary": "The manufacturer had demand for its power-generation gear. Now, that\u2019s cooled. Here\u2019s the next catalyst for the beaten-down stock."
+      "url": "https://finnhub.io/api/news?id=eb8540a46567233468e9a2db22bf64fe32b0059e6796d7f48f3a75ff41919225",
+      "datetime": 1795033956,
+      "summary": "One Dow giant has paid dividends since 1916, another just hit a record backlog, and a third sits on an oil windfall. Each faces a risk that could test its payout, so which one deserves your retirement income?"
     },
     {
-      "headline": "Nvidia Earnings Beat Fails to Rescue Wall Street as Dow Tumbles",
+      "headline": "Top Stock Reports for Merck, Caterpillar & Union Pacific",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c25dbe5975e13177a61ad2f93e584bf0cf8ad719dd24eec1b364762da28e8c58",
-      "datetime": 1795017972,
-      "summary": "Wall Street Splits as Nvidia Struggles to Sustain Post-Earnings Gains"
+      "url": "https://finnhub.io/api/news?id=f4c183549c7e8de6c054f2d4e9f7f6e069b180a5e44128dbecce3484378a5cd9",
+      "datetime": 1795033620,
+      "summary": "Merck, Caterpillar and Union Pacific benefit from strong demand, strategic growth drivers and solid cash generation, but face key competitive and execution risks."
     },
     {
-      "headline": "The 5 Best Stocks in Bill Gates\u2019s Portfolio",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c34c746225951bda850547521f845c8b2a2e66b31010e016b381c1b7140262ed",
-      "datetime": 1795016110,
-      "summary": "Key TakeawaysThe Gates Foundation Trust\u2019s latest 13F shows it held Caterpillar, FedEx, Ecolab, Deere and Canadian National Railway without change last quarter, and together they make up more than half of its US stocks. They\u2019re its five positions of 2% or more where analysts\u2019 average price targets sit furthest above today\u2019s prices, from 41% for Caterpillar to 6% for Canadian National."
+      "headline": "Dow Jones Top Movers: Decliners Lead Nov. 18, 2026 Session",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=2abd5d9e4cff688e30ff4b848e241f61e108e2d06bb459686b30ff8fdb62db52",
+      "datetime": 1795032678,
+      "summary": "Dow Jones top movers for Nov. 18, 2026, led by UnitedHealth's 11.46% decline, with Chevron, Merck, Salesforce, Amgen, Nvidia and Caterpillar also down."
     },
     {
-      "headline": "What Is The True Hidden Price Of Caterpillar Stock?",
+      "headline": "What\u2019s Driving the Dollar\u2019s Biggest Rally Since 2024",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e23069fdc3cf3e6b36c026ec895163db87191c4c4cee2e86f857a74c02c89aec",
-      "datetime": 1795007115,
-      "summary": "Today's big story: Anthropic IPO: Priced For 2031, Or 2036."
+      "url": "https://finnhub.io/api/news?id=dd1383b9a5ad876622d9eadcc32b52277bd9331e1b36e1397693d52cd6b0aa12",
+      "datetime": 1795032240,
+      "summary": "Much of the greenback\u2019s strength can be chalked up to the Federal Reserve\u2019s actions, but not all of it."
     }
   ],
   "filings": [
@@ -129,7 +129,7 @@
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.95,
+      "value": 0.98,
       "read": "Roughly average volume"
     },
     "mfi14": {

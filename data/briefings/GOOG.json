@@ -2,7 +2,7 @@
   "ticker": "GOOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-18T13:30:44.386507-08:00",
+  "generated_at": "2026-11-18T16:50:58.195052-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Why Do Nvidia's Customers Owe It $81 Billion?",
+      "headline": "Alphabet vs. Apple: Which Warren Buffett Stock Is the Better Buy?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=1eb12137250777364affddd891183b6c6b7b2cff238e563b870a0122986407e7",
-      "datetime": 1795027413,
-      "summary": "Today's big story: Anthropic IPO: Priced For 2031, Or 2036."
+      "url": "https://finnhub.io/api/news?id=46a902c47b68144cede499af2d96270b76bd0d295e65c60202e236e6975c45f5",
+      "datetime": 1795045502,
+      "summary": "Both are major positions in the Berkshire Hathaway portfolio."
     },
     {
-      "headline": "Who Really Pays For Nvidia's $1.2 Trillion?",
+      "headline": "Morgan Stanley Says These 4 Companies Will Spend $1.6 Trillion on AI Infrastructure in 2027",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6f2c4e3d78b3d0221655ba79e66c4890f343d7150c284664b210492e7b67f342",
-      "datetime": 1795027391,
-      "summary": "Today's big story: Anthropic IPO: Priced For 2031, Or 2036."
+      "url": "https://finnhub.io/api/news?id=fd77fea6520cbb71088681ed5257debfd8fa1ddfde337d2c3a0e728b3da87d57",
+      "datetime": 1795045306,
+      "summary": "Morgan Stanley still expects eight major companies to spend approximately $1.6 trillion on AI infrastructure in 2027. In its November 8 report, Buy the Drop: AI Investment Opportunities Post the US Midterms, the bank puts their combined capital expenditure at $1.641 trillion in 2027 and $1.760 trillion in 2028. The report maintains the aggregate spending [\u2026]"
     },
     {
-      "headline": "The $1 Trillion Spending Question Hanging Over Anthropic\u2019s IPO",
+      "headline": "Thinking About Buying Anthropic\u2019s IPO on Nov. 19? Here\u2019s an AI Stock I\u2019d Consider First (Hint: It\u2019s Not Nvidia or Broadcom).",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3541008b7cd016a3bc22874e483404d14fc4886fe3c45b9644d9bcac9a12908f",
-      "datetime": 1795027020,
-      "summary": "Anthropic\u2019s spending deals could add up to roughly $1 trillion. How much revenue can all that computing power support?"
+      "url": "https://finnhub.io/api/news?id=9e715b192dba7e591fe67c127835143ccc4bc8431ab2a24c333fffa9497e4ca5",
+      "datetime": 1795044902,
+      "summary": "ASML\u2019s impeccable fundamentals allow investors to rest easy amid AI stock volatility."
     },
     {
-      "headline": "Dan Ives sends a strong signal ahead of the Anthropic IPO",
+      "headline": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6ed6c70af436ed6b7a70562489735d42937c112d38fd087a97e3bf08ee08eed8",
-      "datetime": 1795026780,
-      "summary": "Dan Ives calls the Anthropic IPO an important step, but the numbers, the skeptics, and the SpaceX comparison tell a more complicated story."
+      "url": "https://finnhub.io/api/news?id=a94a02244ff45d1b3a5f784b3b9d19f75ee5a0733fa1ac8f0911a8dc17824935",
+      "datetime": 1795042691,
+      "summary": "Microsoft's CEO says AI agents could disrupt advertising-driven business models, forcing companies like Amazon to rethink how they compete for customers."
     },
     {
-      "headline": "Anthropic Valuation Is 8.5 Times Next Year\u2019s Sales: Multiples More Like Microsoft, Alphabet Than Palantir, New Street Analyst Says",
+      "headline": "Dan Ives\u2019 Top 10 AI Revolution Stock Picks: Inside The IVES ETF",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=898336ca58d701ee9e2c393582ed2021ad52a8b67dcfa63291aea7e46632a8fa",
-      "datetime": 1795025772,
-      "summary": "The valuation structure is supportive of downside risk, Pierre Ferragu said in an interview with CNBC."
+      "url": "https://finnhub.io/api/news?id=b1e7c5215050a4a108162b041b2bbc213ddaa0db7fb25672050188fd1e852572",
+      "datetime": 1795041583,
+      "summary": "Dan Ives, who now works at Yorkville Ives & Co., called the November 5 technology rout a \u201cgolden buying opportunity\u201d in a note reported by CNBC on November 6. He wrote that the Democratic midterm win could move the peak in Big Tech capital spending growth to 2027 from 2028 or 2029, but that the [\u2026]"
     },
     {
-      "headline": "How to find AI winners beyond Nvidia & the Mag-7",
+      "headline": "Anthropic prices IPO at $83 in historic $1 trillion offering",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7973629ea3e3bbdab626dd179b246e9fc03174d7024799dd98062d9a278c907a",
-      "datetime": 1795024140,
-      "summary": "The next big AI winners may not be tech giants. PlanCorp CIO Peter Lazaroff explains how investors can find opportunities in established companies."
+      "url": "https://finnhub.io/api/news?id=46255629e6c70c1535faa32f3c0791693c4a7e2834296b00ec3abb9c96043d9f",
+      "datetime": 1795040192,
+      "summary": "Anthropic on Thursday priced its long-awaited IPO at $83 per share, Axios has confirmed, which would give the Claude maker an initial market cap of $1.08 trillion and a fully diluted value of around $1.5 trillion."
     }
   ],
   "filings": [

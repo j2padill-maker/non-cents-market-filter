@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-18T13:30:17.346137-08:00",
+  "generated_at": "2026-11-18T16:49:48.807160-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Can Rising Cyber Threats Accelerate Cloudflare's Security Growth?",
+      "headline": "Palo Alto Soars 7%, Okta Up 11% as DHS Chief Warns of \u201cA Severe Cyber Threat\u201d",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=04142179e609001ad8269562da190b963413b9dc2b37a011324d93801b8aa94a",
-      "datetime": 1795003680,
-      "summary": "NET's security business is gaining momentum as rising cyber threats, AI-driven vulnerabilities and SASE contract wins fuel demand for Zero Trust solutions."
+      "url": "https://finnhub.io/api/news?id=41e1b2b0886ead5c16eac40322a6a75b250b39220bfc311049870d7c53fc0574",
+      "datetime": 1795031031,
+      "summary": "Key TakeawaysPalo Alto Networks jumped 7% today as Okta, Zscaler, Cloudflare and other cybersecurity stocks rallied on a warning from the Homeland Security secretary of \u201ca severe cyber threat. \u201dThe same official said he\u2019s \u201c98% confident\u201d recent outages weren\u2019t foreign attacks, so investors bought the warning before any new demand showed up."
     },
     {
-      "headline": "Cloudflare, Inc. (NET) Presents at RBC Global Technology, Internet, Media and Telecommunications Conference Transcript",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=60daa8a73c3857c149fe684d989adfd3635d4a02812db0a274d6cf6a9b567a54",
-      "datetime": 1795002171,
-      "summary": "Cloudflare, Inc. (NET) RBC Global Technology, Internet, Media and Telecommunications Conference November 18, 2026 9:20 AM ESTCompany ParticipantsThomas..."
+      "headline": "Datadog Fell 12% on a Flat Fourth-Quarter Outlook. Analysts Raised Its 2027 Earnings Estimate 6%",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a4f4146913abbad40cf1e787b18c42e2c254b61ec64c04d801143d8ed60aa5a6",
+      "datetime": 1795030151,
+      "summary": "Key TakeawaysDatadog fell more than 12% on Nov. 4 on a flat fourth-quarter guide, as its largest customer, an AI company, cuts its usage to its contract minimum."
     },
     {
-      "headline": "Capital Group Growth (CGGR) Buys $56.4 Million More Cloudflare on Nov. 16",
+      "headline": "Cloudflare CFO Sees AI and Security Demand Surge, But Warns Against Another Big Beat",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=58fb9fc4d3f5c5a67d9859d373acf9a5d0125ac884c66bf9d0cfe3a90df4e2a9",
-      "datetime": 1794999928,
-      "summary": "The $25.18 billion ETF bought $189.7 million of stock and sold positions in 8 names, adding $56.4 million of Cloudflare and $37.9 million of Rocket Cos."
+      "url": "https://finnhub.io/api/news?id=6684c57996dddb05f14cb096bee1ea0c20a22367b6b9d5d2b99b89746083dd64",
+      "datetime": 1795029170,
+      "summary": "Cloudflare (NYSE:NET) is seeing broad demand across its sales, artificial intelligence and security businesses, Chief Financial Officer Thomas Seifert said, while cautioning investors not to expect a repeat of the company\u2019s unusually large third-quarter beat. Speaking at an RBC event, Seifert said"
     },
     {
-      "headline": "Cathie Wood, Ken Fisher and 10 Other Big Funds Bought Cloudflare, While 9 Sold. Who\u2019s Right?",
+      "headline": "Temporal Cloud Enters Public Preview on Microsoft Azure",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8dc60ceecf9020f6cf0bd94f30600f3b453e494bdf6f9c212937a9e65803e6aa",
-      "datetime": 1794930973,
-      "summary": "Key TakeawaysTwelve big funds, including Cathie Wood\u2019s ARK Invest and Ken Fisher\u2019s Fisher Investments, bought Cloudflare in the quarter ended Sept. 30, while nine sold it."
+      "url": "https://finnhub.io/api/news?id=d37efded55f3ffd6f75b51da3a08d4226b23b96bfd2723b4fef5102d5a2d3565",
+      "datetime": 1795028400,
+      "summary": "SAN FRANCISCO, November 18, 2026--Temporal, an open-source platform that powers the world's most capable AI applications, today announced at Microsoft Ignite that Temporal Cloud is available as a public preview on Microsoft Marketplace. Access to the Azure preview is limited and will be granted on a rolling basis."
     },
     {
-      "headline": "ServiceNow's Cash Yield Trails The 10-Year Treasury",
+      "headline": "Anthropic Valuation Is 8.5 Times Next Year\u2019s Sales: Multiples More Like Microsoft, Alphabet Than Palantir, New Street Analyst Says",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=698b32bb0b42d145adb4b2df9a0e48fac9192beedeb0526916c69b821558f286",
-      "datetime": 1794924821,
-      "summary": "Today's big story: Could Nvidia Stock Fall 50%? Follow The Cash."
+      "url": "https://finnhub.io/api/news?id=898336ca58d701ee9e2c393582ed2021ad52a8b67dcfa63291aea7e46632a8fa",
+      "datetime": 1795025772,
+      "summary": "The valuation structure is supportive of downside risk, Pierre Ferragu said in an interview with CNBC."
     },
     {
-      "headline": "Cloudflare Stock At 38x Sales Faces A Margin Slide",
+      "headline": "Cathie Wood Was Right About These 5 Stocks",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=013280e78c14bf8a323403e9d40249931466be5cbc125d3fa61456299996531e",
-      "datetime": 1794924821,
-      "summary": "For questions about this article or underlying research, email help@trefis.com."
+      "url": "https://finnhub.io/api/news?id=86369434f5f8cfec98ce45e8d8bea9c06765b6a5412240b4278c7aaa44cbda30",
+      "datetime": 1795022182,
+      "summary": "Cathie Wood became one of Wall Street\u2019s best-known fund managers during the pandemic rally, but her flagship ARK Innovation ETF (BATS:ARKK) fell sharply in 2022 and has trailed the market since. As of mid-November, ARKK is down about 4% in 2026, while the SPDR S&P 500 ETF Trust (NYSEARCA:SPY) is up about 10%. Her trades [\u2026]"
     }
   ],
   "filings": [
@@ -129,7 +129,7 @@
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.0,
+      "value": 1.01,
       "read": "Roughly average volume"
     },
     "mfi14": {

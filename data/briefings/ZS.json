@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-18T13:30:33.636786-08:00",
+  "generated_at": "2026-11-18T16:50:49.629608-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -85,10 +85,10 @@
   "data_asof": "2026-11-18",
   "price": {
     "last": 197.83,
-    "open": 187.16,
+    "open": 187.71,
     "prev_close": 185.19,
     "move_day_pct": 6.83,
-    "move_open_close_pct": 5.7,
+    "move_open_close_pct": 5.39,
     "move_week_pct": 2.08
   },
   "indicators": {
@@ -129,11 +129,11 @@
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.96,
+      "value": 0.98,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 24.6,
+      "value": 24.7,
       "read": "Neutral money flow"
     }
   },

@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-18T13:30:24.555814-08:00",
+  "generated_at": "2026-11-18T16:50:40.858817-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -129,7 +129,7 @@
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.87,
+      "value": 0.88,
       "read": "Roughly average volume"
     },
     "mfi14": {

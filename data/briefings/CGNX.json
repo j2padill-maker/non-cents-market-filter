@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-18T13:30:22.204814-08:00",
+  "generated_at": "2026-11-18T16:50:32.963448-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -50,13 +50,6 @@
       "url": "https://finnhub.io/api/news?id=eb5258a7a605db9054574e8830517813b948ea62e3fa3f2810022f5f571c83a1",
       "datetime": 1794467523,
       "summary": "Cognex (NASDAQ:CGNX) expects a strong year of growth across its industrial machine vision business, with demand spanning logistics, electronics, packaging and semiconductors, President and CEO Matt Moschner said during a presentation hosted by Baird. Moschner said the company\u2019s full-year 2026 reven"
-    },
-    {
-      "headline": "4 Industrial Tech Stocks Riding the AI Boom and Paying Dividends Along the Way",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=305022129d951054d58fb7410757803c1cf07b15ff6d984d204a555f5110cd06",
-      "datetime": 1794430044,
-      "summary": "Four Nasdaq industrial names feed the AI data center and factory buildout, yet each sends shareholders a quarterly check. Their payouts look tiny, but the real story is how little of the profit they claim and which one has raised longest."
     }
   ],
   "filings": [

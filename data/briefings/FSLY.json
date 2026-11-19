@@ -2,7 +2,7 @@
   "ticker": "FSLY",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-18T13:30:38.521513-08:00",
+  "generated_at": "2026-11-18T16:50:53.129078-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Comcast\u2019s Network Powers Gaming\u2019s Biggest Moments with Fastly, Delivering Faster Downloads and Less Lag",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e9934a3dee5d5cfb8036c2349c9edb1de83381768420beb6f03a04dcb955de53",
+      "datetime": 1795011300,
+      "summary": "PHILADELPHIA & SAN FRANCISCO, November 18, 2026--The future of gaming is placing unprecedented demands on the Internet, from millions of players downloading massive games simultaneously to increasingly immersive experiences that depend on split-second responsiveness. Comcast has spent years preparing for this future, transforming its nationwide network with distributed computing, intelligent softw"
+    },
+    {
+      "headline": "Docusign vs. Fastly: Which Technology Stock Is a Better Buy for 2027?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=33fecc128fc0cd9faa91af573abdc007a77eeff651eb4e7a2dd85b8ddefae0d3",
+      "datetime": 1795011002,
+      "summary": "Docusign has moved far beyond e-signatures, but Fastly is growing revenue faster, and the valuation gap may tip the scales."
+    },
+    {
+      "headline": "Fastly (FSLY) May Find a Bottom Soon, Here's Why You Should Buy the Stock Now",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=3eeacf415f4f9d31302628aff1fa12494c313ad66167da7309123efd693f3691",
+      "datetime": 1795010103,
+      "summary": "Fastly (FSLY) appears to have found support after losing some value lately, as indicated by the formation of a hammer chart. In addition to this technical chart pattern, strong agreement among Wall Street analysts in revising earnings estimates higher enhances the stock's potential for a turnaround in the near term."
+    },
     {
       "headline": "Cloudflare Stock At 38x Sales Faces A Margin Slide",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=c9e28166670f254af1125554d381de433a4968b4026e6b01c06aeece42f16e04",
       "datetime": 1794689761,
       "summary": "Operating leverage lets Fastly add revenue without matching hardware costs, a structural edge that matters as global traffic keeps climbing."
-    },
-    {
-      "headline": "Fastly vs. UiPath: Which Artificial Intelligence Stock Is a Better Buy Going into 2027?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d5b57759115e73c38bc0c97db27c12862afce79c998e74124590da156112c790",
-      "datetime": 1794537853,
-      "summary": "Fastly grew revenue 14.8% but still lost money, while UiPath swung to a $282 million profit and trades at a lower forward P/E."
-    },
-    {
-      "headline": "Fastly Named a Leader in 2026 Gartner\u00ae Magic Quadrant\u2122 for Edge Distribution Platforms",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=45e01d4cf64edd78bb42464a0ea77daa78c534fb77d5b70f309f046424fe1f20",
-      "datetime": 1794503760,
-      "summary": "SAN FRANCISCO, November 12, 2026--Fastly, Inc. (NASDAQ: FSLY), a leader in global edge cloud platforms, today announced it has been named a Leader in the 2026 Gartner\u00ae Magic Quadrant\u2122 for Edge Distribution Platforms."
-    },
-    {
-      "headline": "What Did Cloudflare Stock Investors Miss Before The Run?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8b30dcba42e2d8a827f00657dc289c7912f0b80f7d10b429d68c68554e6c30e5",
-      "datetime": 1794496395,
-      "summary": "For questions about this article or underlying research, email help@trefis.com."
     }
   ],
   "filings": [

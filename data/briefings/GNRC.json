@@ -2,7 +2,7 @@
   "ticker": "GNRC",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-18T13:30:19.414225-08:00",
+  "generated_at": "2026-11-18T16:49:51.227378-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Generac Jolted After Nvidia Earnings. Why It\u2019s a Top S&P 500 Stock Today.",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c66e8f5a366dbd3c657f40652d808443650a46e555f1dbda93a0d95113c2805a",
+      "datetime": 1795033380,
+      "summary": "The company\u2019s fastest-growing business is sales of equipment to AI data center operators."
+    },
+    {
+      "headline": "S&P 500 Top Movers: Today's US Session Gainers and Losers",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=2e6841d668bd7987172d96ddce82144520110dcd11ddea7545baf024178ca6af",
+      "datetime": 1795032390,
+      "summary": "S&P 500 top movers in today's US session, with OKTA, TJX and GNRC among the strongest gainers and HUM, UNH and ELV among the top losers."
+    },
+    {
+      "headline": "S&P 500 Top Movers: Gainers and Losers in the Nov. 18, 2026 US Session",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=2762468e9a959e70569b7eb87ad5a5aa10a627cb914859538027f8766c74e2ec",
+      "datetime": 1795023365,
+      "summary": "S&P 500 top movers for Nov. 18, 2026: TJX led gainers at 10.74%, while UNH led losers at -8.55%, based on US session data."
+    },
     {
       "headline": "Tracking John Rogers' Ariel Investments Portfolio - Q3 2026 Update",
       "source": "SeekingAlpha",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=24087dfdfa73f9d7939a6e5d92959de7fd9cb927cad6b8d5711f3cf7829b4b97",
       "datetime": 1794938400,
       "summary": "Generac Holdings Inc. (NYSE: GNRC), a leading global designer, manufacturer and provider of energy technology solutions and other power products, announced that the Generac PWRmicro microinverter has been named a Best in Show winner in the residential category of the 2026 Solar Power World Top Products Awards."
-    },
-    {
-      "headline": "Ariel Small Cap Value Concentrated Q3 2026 Portfolio Activity",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=f23358ad8da66695b70cd5adacbdb5ceba7242f1b59cfd360ee30b6acd3ca4b2",
-      "datetime": 1794873900,
-      "summary": "The Ariel Small Cap Value Concentrated Composite posted a -5.99% gross return (-6.13% net of fees) for the quarter."
-    },
-    {
-      "headline": "3 US AI Infrastructure Stocks Backing The Data Center Power Buildout",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e156d489d4d7d67cf52a0cd949970bade4c2dbb406424a09b0252e76d655ccf0",
-      "datetime": 1794827741,
-      "summary": "Washington is turning up the heat on AI chip exports to China, and that pressure is rippling far beyond Nvidia into the plumbing of the data center world. As rules tighten and onshoring gathers momentum, attention is shifting to the less glamorous companies that power, cool and house advanced computing. This article walks through three AI data center infrastructure stocks most exposed to this stor"
-    },
-    {
-      "headline": "Here's Why You Should Consider Investing in Allegion Stock Now",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c558f866b31aa27afa2becba2da28921d3507040f94a961259f6d44b199b1aa8",
-      "datetime": 1794576840,
-      "summary": "ALLE benefits from strong Americas segment growth, strategic acquisitions and higher shareholder returns, while rising earnings estimates add to its investment appeal."
     }
   ],
   "filings": [
