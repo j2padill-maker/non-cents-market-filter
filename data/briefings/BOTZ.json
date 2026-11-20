@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-18T16:50:47.096434-08:00",
+  "generated_at": "2026-11-19T16:51:46.866650-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "2027 Equity Outlook: A Broader Foundation For Growth",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=1cb8975cddb64a485f4232c91158c29c87471718374794d949caeeaac320f347",
+      "datetime": 1795073280,
+      "summary": ""
+    },
     {
       "headline": "Nvidia Shares Slide On Huang's Exit, While Record Results Show Demand Still Outruns Supply",
       "source": "SeekingAlpha",
@@ -36,76 +43,69 @@
       "url": "https://finnhub.io/api/news?id=093cb69184d7350a292a4c540b8925cb71a52d9acca3bfed009051c25fcfd269",
       "datetime": 1794873300,
       "summary": "Nvidia dragged the market lower again on Monday, with shares falling another 4% and extending the selloff. Tech stocks led the broader market lower. Volatility rose alongside the selloff."
-    },
-    {
-      "headline": "Central Banks Tighten Into The AI Boom, But Late '90s History Says Real Rates Matter Most",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=0ee8d357c3ec41b90a70b1ae1bc132cb79f43b675a3d612759e59951b83a68d8",
-      "datetime": 1794469800,
-      "summary": "The world's major central banks are tightening into an AI boom. Does that end it? Read more here..."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-18",
+  "data_asof": "2026-11-19",
   "price": {
-    "last": 29.71,
-    "open": 29.96,
+    "last": 29.0,
+    "open": 30.0,
     "prev_close": 29.71,
-    "move_day_pct": 0.0,
-    "move_open_close_pct": -0.83,
-    "move_week_pct": -7.82
+    "move_day_pct": -2.39,
+    "move_open_close_pct": -3.33,
+    "move_week_pct": -7.7
   },
   "indicators": {
     "rsi14": {
-      "value": 31.4,
-      "read": "Oversold"
+      "value": 28.4,
+      "read": "Extremely oversold"
     },
     "macd": {
-      "macd": -1.057,
-      "signal": -0.889,
-      "hist": -0.168,
-      "hist_prev": -0.151,
+      "macd": -1.148,
+      "signal": -0.94,
+      "hist": -0.208,
+      "hist_prev": -0.168,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 34.39,
-      "lower": 29.5,
-      "mid": 31.95,
-      "pctb": 0.043,
-      "read": "Near the lower band"
+      "upper": 34.5,
+      "lower": 29.03,
+      "mid": 31.76,
+      "pctb": -0.005,
+      "read": "Below the lower band \u2014 stretched to the downside"
     },
     "pct_from_52w_low": {
       "value": 0.0,
       "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -28.6,
-      "read": "29% below its 52-week high"
+      "value": -30.3,
+      "read": "30% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 36.16,
-      "pct": -17.84,
-      "read": "18% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 36.13,
+      "pct": -19.73,
+      "read": "20% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.77,
-      "pct_of_price": 2.59,
+      "value": 0.8,
+      "pct_of_price": 2.75,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.86,
-      "read": "Roughly average volume"
+      "value": 1.47,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 28.9,
+      "value": 28.4,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": 29.71,
+  "low_52w": 29.0,
   "high_52w": 41.61,
-  "ma50": 33.75,
-  "ma200": 36.16
+  "ma50": 33.64,
+  "ma200": 36.13
 }

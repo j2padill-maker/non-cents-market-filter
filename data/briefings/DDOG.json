@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-18T16:49:47.203597-08:00",
+  "generated_at": "2026-11-19T16:51:34.611275-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "S&P 500 Top Movers for Today's Session",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=50172c170a8d8ba6ea09444a9f4ef6c675d51557ea1668c565cce1e833e4cbd8",
+      "datetime": 1795109770,
+      "summary": "S&P 500 top movers for today's session: P leads gainers at 9.37%, while WSM leads losers with a 13.74% decline."
+    },
+    {
+      "headline": "Why Wall Street Is Wrong: Buy Nebius as Customers Prepay Over 100% of Its CapEx",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=760eba3d58d94291ff4344086f431f372239d29fe5262c646521fc78fb0e9a9a",
+      "datetime": 1795103125,
+      "summary": "Nebius stock has cratered roughly 31% in a week, yet something unusual is happening behind the scenes with who funds its giant data center build. One investor keeps buying the dip, and the reasoning cuts against the selloff."
+    },
+    {
+      "headline": "S&P 500 Gap Movers: Today's Gap-Up and Gap-Down Stocks",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=9f289cc70a4a85f3e440df1ce4f2085447eda8fe2bc8573fff8f871763a21cd8",
+      "datetime": 1795102564,
+      "summary": "Today's S&P 500 gap movers include gap-up stocks COHR, OKTA, STX and WDC, plus gap-down names WSM, DVA and UHS."
+    },
+    {
+      "headline": "Is GitLab Stock Worth The Wait?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=061131a9ad8913efefaac416fe8169c3ba08d8b2c0d03b0c0c379065e3b0f5bb",
+      "datetime": 1795087347,
+      "summary": "Today's big story: Could Anthropic Stock Fall 25."
+    },
+    {
+      "headline": "Atlassian Looks Cheap Until You Count Stock Pay",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=256abb2fb5b8218a01c58dcc6e45e6ccdd8ebfd4062db86eaecb4629d0ae0132",
+      "datetime": 1795087347,
+      "summary": "Today's big story: Could Anthropic Stock Fall 25."
+    },
+    {
       "headline": "Datadog CFO Sees AI Driving Cloud Demand, Calls Growth Outlook Conservative",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=398059aca23352d1c46edc7eff2ac2aa359c4db3f445958c468e5e077e70d406",
       "datetime": 1795043528,
       "summary": "Datadog (NASDAQ:DDOG) is benefiting from companies modernizing their applications and moving workloads to the cloud, a trend that artificial intelligence is helping accelerate, Chief Financial Officer David Obstler said during a company event. Obstler said the shift is creating demand for tools tha"
-    },
-    {
-      "headline": "Datadog Fell 12% on a Flat Fourth-Quarter Outlook. Analysts Raised Its 2027 Earnings Estimate 6%",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a4f4146913abbad40cf1e787b18c42e2c254b61ec64c04d801143d8ed60aa5a6",
-      "datetime": 1795030151,
-      "summary": "Key TakeawaysDatadog fell more than 12% on Nov. 4 on a flat fourth-quarter guide, as its largest customer, an AI company, cuts its usage to its contract minimum."
-    },
-    {
-      "headline": "Datadog, Inc. (DDOG) Presents at RBC Global Technology, Internet, Media and Telecommunications Conference Transcript",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=58aebc1af5194036541530faade0b23dd3e705e623a67fa1aac75232a90d2b4c",
-      "datetime": 1795019566,
-      "summary": "Datadog, Inc. (DDOG) RBC Global Technology, Internet, Media and Telecommunications Conference November 18, 2026 10:40 AM ESTCompany ParticipantsDavid..."
-    },
-    {
-      "headline": "George Soros and 11 Other Big Funds Bought Datadog Last Quarter, While 13 Sold. Who\u2019s Right?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3572a27d38d2647cbfb3b9291398435c8c6fb2724601c6663eb267fa091fe71c",
-      "datetime": 1795015725,
-      "summary": "Key TakeawaysOf the 460 big funds that have filed 13Fs for the quarter ended Sept. 30, 12 bought Datadog, led by GQG Partners and George Soros\u2019 fund, and 13 sold, led by Strategy Capital and RDST Capital."
-    },
-    {
-      "headline": "Datadog vs. Figma: Which Technology Stock Is a Better Buy for 2027?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6a3fcd23ca2226beaf61c567b9d71a03dba189e0ba0d28f51fa724a4fac67952",
-      "datetime": 1795012802,
-      "summary": "Datadog and Figma pull in opposite directions, one with real profits and one with rapid growth, and the valuation gap may be the deciding factor."
-    },
-    {
-      "headline": "Sequel.io Raises $15M to Build a New Category in Video-Driven Audience Intelligence",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=808f02bd208f925cce526df61ce7819ad295ef4e5b9ea31b2e4e52960bafdcc5",
-      "datetime": 1795011300,
-      "summary": "Sequel.io, a video-driven audience intelligence and activation platform, today announced $15 million in funding led by Sorenson Capital, bringing total funding to approximately $26 million. New investors in the round include High Alpha, Album VC and Webflow Ventures, with additional participation from existing investors Javelin Venture Partners, Struck Capital, Alumni Ventures and Social Leverage."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-18",
+  "data_asof": "2026-11-19",
   "price": {
-    "last": 167.11,
-    "open": 167.4,
-    "prev_close": 165.18,
-    "move_day_pct": 1.17,
-    "move_open_close_pct": -0.17,
-    "move_week_pct": -9.37
+    "last": 166.46,
+    "open": 174.19,
+    "prev_close": 167.11,
+    "move_day_pct": -0.39,
+    "move_open_close_pct": -4.44,
+    "move_week_pct": -9.76
   },
   "indicators": {
     "rsi14": {
-      "value": 27.9,
+      "value": 27.7,
       "read": "Extremely oversold"
     },
     "macd": {
-      "macd": -23.772,
-      "signal": -20.088,
-      "hist": -3.684,
-      "hist_prev": -4.409,
+      "macd": -23.706,
+      "signal": -20.811,
+      "hist": -2.895,
+      "hist_prev": -3.684,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 297.97,
-      "lower": 128.35,
-      "mid": 213.16,
-      "pctb": 0.229,
+      "upper": 293.14,
+      "lower": 124.05,
+      "mid": 208.59,
+      "pctb": 0.251,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 62.85,
-      "read": "63% above its 52-week low"
+      "value": 62.22,
+      "read": "62% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -43.02,
+      "value": -43.24,
       "read": "43% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 202.0,
-      "pct": -17.27,
-      "read": "17% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 202.25,
+      "pct": -17.7,
+      "read": "18% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 13.62,
-      "pct_of_price": 8.15,
+      "value": 13.83,
+      "pct_of_price": 8.31,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.93,
+      "value": 1.16,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 15.7,
-      "read": "Oversold \u2014 money flowing out"
+      "value": 22.1,
+      "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 293.26,
-  "ma50": 240.66,
-  "ma200": 202.0
+  "ma50": 239.56,
+  "ma200": 202.25
 }

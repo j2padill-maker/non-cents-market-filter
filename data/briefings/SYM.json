@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-18T16:50:43.021104-08:00",
+  "generated_at": "2026-11-19T16:51:43.486373-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Full Truck Alliance Co. Ltd. Sponsored ADR (YMM) Q3 Earnings and Revenues Top Estimates",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8a16d074de366db6afde7ebe9e1d5c6f382e6778b9c2c4407704728b18fe6401",
+      "datetime": 1795086601,
+      "summary": "Full Truck Alliance (YMM) delivered earnings and revenue surprises of +5.00% and +7.73%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?"
+    },
+    {
+      "headline": "Build, Run, Harvest: The Just-In-Case Cycle Is Moving On",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=8b33239fb09822a7bc5ee23997318134f1d60d7d22e2625f0e545bc220915d43",
+      "datetime": 1795076100,
+      "summary": "Analyst sees the supply-chain cycle maturing six years into the just-in-case era: inventories are at a record high, while the tracking ratio falls."
+    },
     {
       "headline": "Gear Up for SYMBOTIC INC (SYM) Q4 Earnings: Wall Street Estimates for Key Metrics",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=58e1853c0bbbc4831bde7a7e461c0bc790ee977f126a90325f45169cbb5ec243",
       "datetime": 1794976285,
       "summary": "Symbotic (SYM) has drawn fresh attention after recent share price weakness, with the stock down over the past day, week, month, and past 3 months. That slide is putting current warehouse automation expectations under closer investor review. Over a longer stretch, momentum for Symbotic has clearly cooled, with the share price down 49.04% year to date and the 1 year total shareholder return declinin"
-    },
-    {
-      "headline": "SoftBank Had 64% of Its U.S. Stock Portfolio in Intel. It Has Since Halved",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d307af7a2fc73490d677d1b2fd908c5dbd87d24a24c0ab2c2e6e049594acd8fb",
-      "datetime": 1794930725,
-      "summary": "SoftBank's newest filing shows its Intel bet barely moved, yet a separate $7.4 billion deal tied to those shares raises a harder question about who really carries the losses. NVIDIA, meanwhile, headed the other way."
-    },
-    {
-      "headline": "Should You Add GCT Stock to Your Portfolio Post Solid Q3 Earnings?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4462b79d071c926239402060d8dfcca17f5b01fab6cc8c02ff0f15ecacea1f57",
-      "datetime": 1794920580,
-      "summary": "GCT's stellar Q3 earnings, expanding marketplace, strategic acquisitions and attractive valuation make it a compelling stock to add to your portfolio."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-18",
+  "data_asof": "2026-11-19",
   "price": {
-    "last": 33.79,
-    "open": 33.19,
-    "prev_close": 33.06,
-    "move_day_pct": 2.21,
-    "move_open_close_pct": 1.81,
-    "move_week_pct": -8.95
+    "last": 33.16,
+    "open": 34.42,
+    "prev_close": 33.79,
+    "move_day_pct": -1.86,
+    "move_open_close_pct": -3.67,
+    "move_week_pct": -6.43
   },
   "indicators": {
     "rsi14": {
-      "value": 35.5,
+      "value": 33.8,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -1.667,
-      "signal": -1.387,
-      "hist": -0.28,
-      "hist_prev": -0.294,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -1.742,
+      "signal": -1.458,
+      "hist": -0.285,
+      "hist_prev": -0.28,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 40.74,
-      "lower": 33.15,
-      "mid": 36.94,
-      "pctb": 0.084,
+      "upper": 40.38,
+      "lower": 32.79,
+      "mid": 36.58,
+      "pctb": 0.049,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 2.21,
+      "value": 0.3,
       "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -61.29,
-      "read": "61% below its 52-week high"
+      "value": -62.02,
+      "read": "62% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 46.53,
-      "pct": -27.38,
-      "read": "27% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 46.42,
+      "pct": -28.57,
+      "read": "29% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 2.03,
-      "pct_of_price": 6.01,
+      "value": 2.06,
+      "pct_of_price": 6.21,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.81,
-      "read": "Roughly average volume"
+      "value": 1.44,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 28.7,
+      "value": 29.6,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 33.06,
   "high_52w": 87.3,
-  "ma50": 40.04,
-  "ma200": 46.53
+  "ma50": 39.88,
+  "ma200": 46.42
 }

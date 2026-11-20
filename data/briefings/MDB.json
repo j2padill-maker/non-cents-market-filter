@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-18T16:49:40.852043-08:00",
+  "generated_at": "2026-11-19T16:51:28.006597-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "MongoDB's Atlas For Government Achieves FedRAMP Certification And Added Support For Azure Government",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=4e04410304706b52b64b7d6006265591597a890b93c7da29072bf2b67a153bf5",
+      "datetime": 1795082814,
+      "summary": "This makes Atlas for Government the only FedRAMP Class D (High) Certified cross-cloud operational database in the world, giving federal, state, and local agencies the option to run on the cloud provider of their"
+    },
+    {
+      "headline": "Best Growth Stocks to Buy for November 19th",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=01f88b30b31aafb7d383686b02ac701cc9e181dfa59322b9a5cb6bb9e6151291",
+      "datetime": 1795075080,
+      "summary": "MDB, DBX and KMX made it to the Zacks Rank #1 (Strong Buy) growth stocks list on November 19th, 2026."
+    },
+    {
+      "headline": "3 under-the-radar picks Wall Street's sharpest minds like now",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=423577becdb7a0ab677858df85c278f352ea271165c68a21884ad1eba0bce0cd",
+      "datetime": 1795048620,
+      "summary": "Analysts at Oppenheimer and BTIG name three stocks they believe can carry investors for years to come."
+    },
     {
       "headline": "MongoDB: Need To See Profitability Improving Dramatically Before Upgrading",
       "source": "SeekingAlpha",
@@ -31,32 +52,11 @@
       "summary": "MongoDB acquires Firebolt Analytics to boost real-time AI data capabilities and simplify infrastructure ahead of Q3 earnings."
     },
     {
-      "headline": "MongoDB Acquires Firebolt; Terms Not Disclosed",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=3ff2ed5bb66a9201e2ebb4c8e25157799efbabe41fbf22886668b807451ed50e",
-      "datetime": 1794909158,
-      "summary": "-SEC Filing"
-    },
-    {
-      "headline": "MongoDB (MDB) Declines More Than Market: Some Information for Investors",
+      "headline": "MongoDB's Biggest Advantage May Be GitLab's Biggest Weakness",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=aaca06871833aae5e3a5914f9cede0a7813e7d9afb5df66644bbd624974ec7e5",
-      "datetime": 1794867303,
-      "summary": "MongoDB (MDB) concluded the recent trading session at $316.92, signifying a -5.17% move from its prior day's close."
-    },
-    {
-      "headline": "Top Enterprise Software Stocks to Watch, According to Citi",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9bc4d6fd443ef2004b374953b407ad23ba0b3af0b5e78788ef5fa0ed17b14a09",
-      "datetime": 1794856671,
-      "summary": "Investing.com -- Citi analysts have identified their preferred enterprise software stocks as the sector navigates a shifting landscape where the burden of proof for artificial intelligence-driven growth has intensified."
-    },
-    {
-      "headline": "Socket Mobile Announced A New Update To Its React Native CaptureSDK To Supports The React Native Version 0.75.4 And Enables Developers To Customize The SocketCam Viewfinder Within Their Applications",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=09abd19b8b3b59baafc8fa905928c55d77beb81dbef1cd2ed7c1d01f589cf43d",
-      "datetime": 1794845912,
-      "summary": ""
+      "url": "https://finnhub.io/api/news?id=db63045e20304e2fb61aa401d53e7838e6abeec9ac9892e7e269002d2dd93ef7",
+      "datetime": 1794918900,
+      "summary": "MongoDB's data moat and Atlas growth make it a stronger AI play than GitLab, which faces competitive threats from Microsoft's GitHub and cybersecurity rivals."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-18",
+  "data_asof": "2026-11-19",
   "price": {
-    "last": 306.71,
-    "open": 304.32,
-    "prev_close": 298.63,
-    "move_day_pct": 2.71,
-    "move_open_close_pct": 0.79,
-    "move_week_pct": -9.29
+    "last": 297.01,
+    "open": 320.13,
+    "prev_close": 306.71,
+    "move_day_pct": -3.16,
+    "move_open_close_pct": -7.22,
+    "move_week_pct": -12.59
   },
   "indicators": {
     "rsi14": {
-      "value": 38.7,
+      "value": 36.4,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -15.129,
-      "signal": -12.438,
-      "hist": -2.691,
-      "hist_prev": -2.597,
+      "macd": -16.331,
+      "signal": -13.216,
+      "hist": -3.115,
+      "hist_prev": -2.691,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 400.99,
-      "lower": 283.91,
-      "mid": 342.45,
-      "pctb": 0.195,
+      "upper": 400.17,
+      "lower": 278.2,
+      "mid": 339.19,
+      "pctb": 0.154,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 35.74,
-      "read": "36% above its 52-week low"
+      "value": 31.45,
+      "read": "31% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -35.06,
-      "read": "35% below its 52-week high"
+      "value": -37.11,
+      "read": "37% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 333.45,
-      "pct": -8.02,
-      "read": "8% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 333.25,
+      "pct": -10.87,
+      "read": "11% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 20.88,
-      "pct_of_price": 6.81,
+      "value": 21.89,
+      "pct_of_price": 7.37,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.71,
+      "value": 0.87,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 29.9,
+      "value": 38.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 361.68,
-  "ma200": 333.45
+  "ma50": 360.15,
+  "ma200": 333.25
 }

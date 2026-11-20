@@ -2,7 +2,7 @@
   "ticker": "FSLY",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-18T16:50:53.129078-08:00",
+  "generated_at": "2026-11-19T16:51:53.050635-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Comcast\u2019s Network Powers Gaming\u2019s Biggest Moments with Fastly, Delivering Faster Downloads and Less Lag",
+      "headline": "Why Did Fastly Stock Jump?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e9934a3dee5d5cfb8036c2349c9edb1de83381768420beb6f03a04dcb955de53",
-      "datetime": 1795011300,
-      "summary": "PHILADELPHIA & SAN FRANCISCO, November 18, 2026--The future of gaming is placing unprecedented demands on the Internet, from millions of players downloading massive games simultaneously to increasingly immersive experiences that depend on split-second responsiveness. Comcast has spent years preparing for this future, transforming its nationwide network with distributed computing, intelligent softw"
+      "url": "https://finnhub.io/api/news?id=9beab400096e16b36bf14d297117b94c1a2baf8cb61f461ac06bed74c1ed6cb0",
+      "datetime": 1795091592,
+      "summary": "Today's big story: Could Anthropic Stock Fall 25."
     },
     {
-      "headline": "Docusign vs. Fastly: Which Technology Stock Is a Better Buy for 2027?",
+      "headline": "What Happens To Cloudflare Stock If Revenue Growth Slows?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=33fecc128fc0cd9faa91af573abdc007a77eeff651eb4e7a2dd85b8ddefae0d3",
-      "datetime": 1795011002,
-      "summary": "Docusign has moved far beyond e-signatures, but Fastly is growing revenue faster, and the valuation gap may tip the scales."
+      "url": "https://finnhub.io/api/news?id=7eda66272f38817dea22c76966d97192500aa2fb57bea7e2765af08c0b638955",
+      "datetime": 1795089837,
+      "summary": "Today's big story: Could Anthropic Stock Fall 25."
     },
     {
-      "headline": "Fastly (FSLY) May Find a Bottom Soon, Here's Why You Should Buy the Stock Now",
+      "headline": "Can Akamai Stock Jump 40%?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3eeacf415f4f9d31302628aff1fa12494c313ad66167da7309123efd693f3691",
-      "datetime": 1795010103,
-      "summary": "Fastly (FSLY) appears to have found support after losing some value lately, as indicated by the formation of a hammer chart. In addition to this technical chart pattern, strong agreement among Wall Street analysts in revising earnings estimates higher enhances the stock's potential for a turnaround in the near term."
+      "url": "https://finnhub.io/api/news?id=8bd4a715a3b2195ca66cbccb43a2866b728fa38a8a48d79756e7dfde60789c20",
+      "datetime": 1795086539,
+      "summary": "Today's big story: Could Anthropic Stock Fall 25."
     },
     {
-      "headline": "Cloudflare Stock At 38x Sales Faces A Margin Slide",
+      "headline": "Has Buying Fastly Stock's Dips Paid Off?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=013280e78c14bf8a323403e9d40249931466be5cbc125d3fa61456299996531e",
-      "datetime": 1794924821,
-      "summary": "For questions about this article or underlying research, email help@trefis.com."
+      "url": "https://finnhub.io/api/news?id=6e29e7703ed254ccc2d8ba6230b7aad25ba320111744672a63e4310918d4fbb8",
+      "datetime": 1795086032,
+      "summary": "Today's big story: Could Anthropic Stock Fall 25."
     },
     {
-      "headline": "Nvidia Earnings Could Shift Focus To Cloudflare Stock And AI Cost Control",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a962347d3e6a99941545436ffde4ee0f54996106ff2e092842e213550633a765",
-      "datetime": 1794701912,
-      "summary": "AI infrastructure spending is exploding, yet the real story is shifting to the quieter software players helping firms control cloud bills and monitor complex models. With Nvidia\u2019s Nov. 17 earnings and the Anthropic IPO set to test how durable this AI buildout really is, investors risk watching from the sidelines. This article unpacks how those catalysts could impact three stocks exposed to that ne"
+      "headline": "Why Is Fastly Stock Gaining Thursday?",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=9013751e7b500ed9f332a587590abbc44d8423fca2f840138ea0ea0f7af7ee42",
+      "datetime": 1795074016,
+      "summary": "Fastly (FSLY) stock surges as its new Comcast gaming partnership prepares to handle record internet traffic from the GTA 6 launch."
     },
     {
-      "headline": "Fastly: 3 Key Takeaways for Long-Term Investors",
+      "headline": "Comcast (CMCSA) Targets Faster Gaming And West Virginia Fiber Reach",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c9e28166670f254af1125554d381de433a4968b4026e6b01c06aeece42f16e04",
-      "datetime": 1794689761,
-      "summary": "Operating leverage lets Fastly add revenue without matching hardware costs, a structural edge that matters as global traffic keeps climbing."
+      "url": "https://finnhub.io/api/news?id=3fc8b23e033f2cd34faaad8014659a199fd39f9f4999240b9d3196334f82508d",
+      "datetime": 1795068927,
+      "summary": "Comcast (NasdaqGS:CMCSA) partnered with edge cloud provider Fastly to upgrade its broadband network for lower latency gaming experiences. The collaboration focuses on routing gaming traffic more efficiently across Comcast's infrastructure to reduce lag for customers on its network. Comcast is extending multi-gigabit fiber service to underserved communities in West Virginia as part of its ongoing r"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-18",
+  "data_asof": "2026-11-19",
   "price": {
-    "last": 17.9,
-    "open": 15.98,
-    "prev_close": 15.9,
-    "move_day_pct": 12.58,
-    "move_open_close_pct": 11.98,
-    "move_week_pct": 3.71
+    "last": 16.86,
+    "open": 18.28,
+    "prev_close": 17.9,
+    "move_day_pct": -5.81,
+    "move_open_close_pct": -7.78,
+    "move_week_pct": -1.92
   },
   "indicators": {
     "rsi14": {
-      "value": 42.3,
-      "read": "Neutral"
+      "value": 39.5,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -2.15,
-      "signal": -1.981,
-      "hist": -0.169,
-      "hist_prev": -0.387,
+      "macd": -2.071,
+      "signal": -1.999,
+      "hist": -0.072,
+      "hist_prev": -0.169,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 28.35,
-      "lower": 11.9,
-      "mid": 20.13,
-      "pctb": 0.365,
+      "upper": 28.12,
+      "lower": 11.57,
+      "mid": 19.85,
+      "pctb": 0.32,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 124.87,
-      "read": "125% above its 52-week low"
+      "value": 111.81,
+      "read": "112% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -46.57,
-      "read": "47% below its 52-week high"
+      "value": -49.67,
+      "read": "50% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 21.99,
-      "pct": -18.6,
-      "read": "19% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 22.03,
+      "pct": -23.47,
+      "read": "23% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 1.92,
-      "pct_of_price": 10.72,
+      "value": 1.96,
+      "pct_of_price": 11.62,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.54,
-      "read": "Above-average volume"
+      "value": 1.17,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 29.6,
+      "value": 37.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 7.96,
   "high_52w": 33.5,
-  "ma50": 23.17,
-  "ma200": 21.99
+  "ma50": 23.05,
+  "ma200": 22.03
 }

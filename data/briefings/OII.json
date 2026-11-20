@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-18T16:50:48.100086-08:00",
+  "generated_at": "2026-11-19T16:51:48.035142-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -39,63 +39,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-18",
+  "data_asof": "2026-11-19",
   "price": {
-    "last": 34.07,
-    "open": 34.13,
-    "prev_close": 34.08,
-    "move_day_pct": -0.03,
-    "move_open_close_pct": -0.18,
-    "move_week_pct": -2.99
+    "last": 33.3,
+    "open": 34.59,
+    "prev_close": 34.07,
+    "move_day_pct": -2.26,
+    "move_open_close_pct": -3.73,
+    "move_week_pct": -4.26
   },
   "indicators": {
     "rsi14": {
-      "value": 31.1,
-      "read": "Oversold"
+      "value": 29.1,
+      "read": "Extremely oversold"
     },
     "macd": {
       "macd": -2.461,
-      "signal": -2.435,
-      "hist": -0.026,
-      "hist_prev": -0.075,
+      "signal": -2.44,
+      "hist": -0.021,
+      "hist_prev": -0.026,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 42.61,
-      "lower": 31.44,
-      "mid": 37.03,
-      "pctb": 0.236,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 42.68,
+      "lower": 31.04,
+      "mid": 36.86,
+      "pctb": 0.194,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 46.16,
-      "read": "46% above its 52-week low"
+      "value": 42.86,
+      "read": "43% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -37.04,
-      "read": "37% below its 52-week high"
+      "value": -38.46,
+      "read": "38% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 40.72,
-      "pct": -16.33,
-      "read": "16% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 40.73,
+      "pct": -18.24,
+      "read": "18% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 1.65,
-      "pct_of_price": 4.83,
+      "value": 1.63,
+      "pct_of_price": 4.89,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.51,
+      "value": 0.6,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 19.6,
-      "read": "Oversold \u2014 money flowing out"
+      "value": 20.3,
+      "read": "Neutral money flow"
     }
   },
   "low_52w": 23.31,
   "high_52w": 54.11,
-  "ma50": 42.1,
-  "ma200": 40.72
+  "ma50": 41.75,
+  "ma200": 40.73
 }

@@ -2,7 +2,7 @@
   "ticker": "GNRC",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-18T16:49:51.227378-08:00",
+  "generated_at": "2026-11-19T16:51:37.796327-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "High End Generators Are Flying Off The Shelves At Costco After A String Of Unusual Tech Outages. Generac Shares Are Up More Than 50% In 2026",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=52a37dd65f82e4cfcd0b8a62067cc66a02df85901acadc8ddb4bef48bf9adf1e",
+      "datetime": 1795102566,
+      "summary": "A Mizuho analyst checked Costco's website and found most of its big generators gone, just as outage jitters spread. Yet Generac's real growth story may have little to do with anxious homeowners stocking up."
+    },
     {
       "headline": "Generac Jolted After Nvidia Earnings. Why It\u2019s a Top S&P 500 Stock Today.",
       "source": "Yahoo",
@@ -38,25 +45,18 @@
       "summary": "S&P 500 top movers for Nov. 18, 2026: TJX led gainers at 10.74%, while UNH led losers at -8.55%, based on US session data."
     },
     {
-      "headline": "Tracking John Rogers' Ariel Investments Portfolio - Q3 2026 Update",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=71930664e703f1c85ced54b84305b6c13623f276e9f97be1cdca23148bfbed48",
-      "datetime": 1795003636,
-      "summary": "Ariel Investments\u00e2\u0080\u0099 13F portfolio fell to $9.61 billion in Q3 2026; Generac rose 40%, and Madison Square Garden Entertainment remained largest at 4.19%."
+      "headline": "Doomsday Shopping Lifts Costco and Walmart as Preppers Buy Emergency Supplies",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=51765296645614ccb916e69b599e48a71a11be4f1c39f987d18e9e180af90e03",
+      "datetime": 1795020723,
+      "summary": "Tech outages fuel emergency stockpiling, boosting Costco sales as officials urge households to maintain 72-hour supplies."
     },
     {
-      "headline": "Diamond Hill Mid Cap Strategy Q3 2026 Portfolio Review",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=c8af3328fdce7f58f1ab8e6ba40de8c7c571dead4a9c2e407e3e70b8b13320b8",
-      "datetime": 1794995700,
-      "summary": "The Strategy declined 3.83% net of fees, trailing the Russell Midcap Index's 3.00% decline; key contributors were Illumina, Revvity and Waystar."
-    },
-    {
-      "headline": "Generac PWRmicro Named Best in Show in 2026 Solar Power World Top Products Awards",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=24087dfdfa73f9d7939a6e5d92959de7fd9cb927cad6b8d5711f3cf7829b4b97",
-      "datetime": 1794938400,
-      "summary": "Generac Holdings Inc. (NYSE: GNRC), a leading global designer, manufacturer and provider of energy technology solutions and other power products, announced that the Generac PWRmicro microinverter has been named a Best in Show winner in the residential category of the 2026 Solar Power World Top Products Awards."
+      "headline": "Dow Drops as Nvidia Slips After Earnings, Dollar Hits 19-Month High: Stock Market Today",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=da0d56a54f586fdc6096229371285be9d77576e7d8d02441f0dac0cbe9112a8f",
+      "datetime": 1795012609,
+      "summary": "The Dow fell as Nvidia slipped after earnings and the dollar hit a 19-month high, while the S&amp;P 500 held steady after four straight losses."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-18",
+  "data_asof": "2026-11-19",
   "price": {
-    "last": 205.45,
-    "open": 188.91,
-    "prev_close": 187.0,
-    "move_day_pct": 9.87,
-    "move_open_close_pct": 8.76,
-    "move_week_pct": 5.9
+    "last": 205.09,
+    "open": 211.04,
+    "prev_close": 205.45,
+    "move_day_pct": -0.18,
+    "move_open_close_pct": -2.82,
+    "move_week_pct": 6.33
   },
   "indicators": {
     "rsi14": {
-      "value": 55.9,
+      "value": 55.7,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -2.271,
-      "signal": -3.481,
-      "hist": 1.21,
-      "hist_prev": -0.031,
+      "macd": -1.064,
+      "signal": -2.997,
+      "hist": 1.933,
+      "hist_prev": 1.21,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 210.24,
-      "lower": 173.41,
-      "mid": 191.83,
-      "pctb": 0.87,
+      "upper": 211.88,
+      "lower": 173.48,
+      "mid": 192.68,
+      "pctb": 0.823,
       "read": "Near the upper band"
     },
     "pct_from_52w_low": {
-      "value": 50.66,
-      "read": "51% above its 52-week low"
+      "value": 50.39,
+      "read": "50% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -30.48,
-      "read": "30% below its 52-week high"
+      "value": -30.6,
+      "read": "31% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 219.87,
-      "pct": -6.56,
+      "ma200": 220.01,
+      "pct": -6.78,
       "read": "7% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 12.06,
-      "pct_of_price": 5.87,
+      "value": 12.22,
+      "pct_of_price": 5.96,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.48,
+      "value": 1.42,
       "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 50.6,
+      "value": 61.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 136.37,
   "high_52w": 295.54,
-  "ma50": 198.7,
-  "ma200": 219.87
+  "ma50": 199.17,
+  "ma200": 220.01
 }

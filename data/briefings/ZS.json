@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-18T16:50:49.629608-08:00",
+  "generated_at": "2026-11-19T16:51:50.034160-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Zscaler (ZS) Stock Still Looks Cheap On Its 46% Five Year Slump",
+      "headline": "Cybersecurity Stocks Rally On Palo Alto Earnings Beat, Raised Guidance",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7d34e04b4c686b8ab3a06cfdb15e10fce80ea6c9ea8c5be48900898454242b8f",
-      "datetime": 1794978650,
-      "summary": "Zscaler has seen its share price retreat over multiple timeframes, which puts a fresh spotlight on one core issue for investors: whether the current valuation can be explained by the cash the business is expected to generate over time. With the stock recently closing at US$185.19, the key debate now centers on how that price stacks up against an intrinsic value estimate built from those cash flows"
+      "url": "https://finnhub.io/api/news?id=fdc6f31201809acf73802e1413770ad44a2085edadbe20cd8d870c6ac3725961",
+      "datetime": 1795092094,
+      "summary": "Cybersecurity stocks rallied after Palo Alto reported fiscal Q1 earnings and revenue that topped estimates and raised full-year guidance."
     },
     {
-      "headline": "Zscaler (ZS) Just Made Its AI Security Push More Complete",
+      "headline": "What Is Driving Fortinet Stock?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=724c615a7ec77843e907d295acfae27b202b8842415a01ff783f30aebdd306ca",
-      "datetime": 1794976504,
-      "summary": "Zscaler (NasdaqGS:ZS) announced a new partnership with Commvault to address enterprise AI security and recovery concerns. The collaboration combines Zscaler's AI access controls with Commvault's cyber recovery tools to manage and restore AI driven environments. Both companies aim to give enterprises clearer visibility into shadow AI usage and tighter governance over AI agents and data flows. Zscal"
+      "url": "https://finnhub.io/api/news?id=f47b5caf51f0eaae4d30a0263903e75ede480a79dfed4e2a76542b0b2370a3ac",
+      "datetime": 1795091592,
+      "summary": "Today's big story: Could Anthropic Stock Fall 25."
     },
     {
-      "headline": "Palo Alto Networks Fell Nearly 30% From Its Highs. Now It Has to Deliver 33% Growth",
+      "headline": "Why Did Fastly Stock Jump?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a583473e79e2bbff96c14284bdfee19b683cbe3027d64be83fbaf74df4345d73",
-      "datetime": 1794955867,
-      "summary": "Key TakeawaysPalo Alto Networks reports fiscal first-quarter results after the close on Nov. 18, with its stock 29% below its 52-week high and guidance calling for revenue growth of 33% to 34%."
+      "url": "https://finnhub.io/api/news?id=9beab400096e16b36bf14d297117b94c1a2baf8cb61f461ac06bed74c1ed6cb0",
+      "datetime": 1795091592,
+      "summary": "Today's big story: Could Anthropic Stock Fall 25."
     },
     {
-      "headline": "Why Zscaler (ZS) Dipped More Than Broader Market Today",
+      "headline": "Palo Alto Networks Shed 10% of Its Value Over 3 Months: This Big Bank Predicts 55% Gains From Here With Others Not Far Behind",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=cc338a8762641c825c86e88ea7a19e40f852c6bc797cfa399e8934578e804b6e",
-      "datetime": 1794951903,
-      "summary": "Zscaler (ZS) concluded the recent trading session at $185.19, signifying a -2.96% move from its prior day's close."
+      "url": "https://finnhub.io/api/news?id=253c0d89b8b348d6933ebdf0a78882db6a82b1263d8e61dfcd8dd9ec3ef1dca5",
+      "datetime": 1795090522,
+      "summary": "AI labs circling cybersecurity and a firewall flaw rattled Palo Alto Networks, then a blowout quarter flipped the script. Now one bank sees far more upside than the rest of the Street, but its bullish case demands flawless execution."
     },
     {
-      "headline": "Can Zscaler\u2019s Margins Offset Slower Revenue Growth?",
+      "headline": "Why Is Okta Stock Going Up?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3ce7aae65209b4c85bb5e53a08ffa6b5bc1c492ddb57ac18376cb1b3f111f95f",
-      "datetime": 1794946587,
-      "summary": "We just published our list of the 10 Highest Short Interest Large-Cap Tech Stocks Right Now, and Zscaler Inc. ranked 9th on the list. Technology stocks are facing a new test of investor conviction as hedge funds pull back from the artificial intelligence trade. Bloomberg reported on November 9 that hedge funds sold global technology stocks [\u2026]"
+      "url": "https://finnhub.io/api/news?id=36c0ca797c1572cdbe0b3c12f892cf1f6c004372ca223bc550400db7e28186b2",
+      "datetime": 1795090345,
+      "summary": "Today's big story: Could Anthropic Stock Fall 25."
     },
     {
-      "headline": "Bitwarden Appoints Cybersecurity Veteran Dave Farrow as Chief Information Security Officer and Head of IT",
+      "headline": "What Happens To Cloudflare Stock If Revenue Growth Slows?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c15bda71245305293a851fef7eac9a8402a915f38f8a841022d0887bcd51c957",
-      "datetime": 1794927600,
-      "summary": "SANTA BARBARA, Calif., November 17, 2026--Bitwarden, the trusted leader in passkey, password, and secrets management, today announced the appointment of Dave Farrow as chief information security officer (CISO) and head of IT, a newly established position that expands the company\u2019s leadership team. Farrow brings 14 years of experience in cybersecurity leadership and CISO roles, grounded in more tha"
+      "url": "https://finnhub.io/api/news?id=7eda66272f38817dea22c76966d97192500aa2fb57bea7e2765af08c0b638955",
+      "datetime": 1795089837,
+      "summary": "Today's big story: Could Anthropic Stock Fall 25."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-18",
+  "data_asof": "2026-11-19",
   "price": {
-    "last": 197.83,
-    "open": 187.71,
-    "prev_close": 185.19,
-    "move_day_pct": 6.83,
-    "move_open_close_pct": 5.39,
-    "move_week_pct": 2.08
+    "last": 205.71,
+    "open": 202.0,
+    "prev_close": 197.83,
+    "move_day_pct": 3.98,
+    "move_open_close_pct": 1.84,
+    "move_week_pct": 6.46
   },
   "indicators": {
     "rsi14": {
-      "value": 42.7,
+      "value": 48.1,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -7.696,
-      "signal": -3.706,
-      "hist": -3.99,
-      "hist_prev": -5.268,
+      "macd": -6.76,
+      "signal": -4.317,
+      "hist": -2.443,
+      "hist_prev": -3.99,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 271.29,
-      "lower": 166.42,
-      "mid": 218.86,
-      "pctb": 0.3,
+      "upper": 269.24,
+      "lower": 165.27,
+      "mid": 217.25,
+      "pctb": 0.389,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 67.58,
-      "read": "68% above its 52-week low"
+      "value": 74.26,
+      "read": "74% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -32.51,
-      "read": "33% below its 52-week high"
+      "value": -29.51,
+      "read": "30% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 166.5,
-      "pct": 18.82,
-      "read": "19% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 166.6,
+      "pct": 23.48,
+      "read": "23% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 12.24,
-      "pct_of_price": 6.19,
+      "value": 12.81,
+      "pct_of_price": 6.23,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.98,
-      "read": "Roughly average volume"
+      "value": 1.49,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 24.7,
+      "value": 36.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 118.05,
-  "high_52w": 293.11,
-  "ma50": 210.97,
-  "ma200": 166.5
+  "high_52w": 291.81,
+  "ma50": 211.82,
+  "ma200": 166.6
 }

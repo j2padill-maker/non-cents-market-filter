@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-18T16:50:44.688074-08:00",
+  "generated_at": "2026-11-19T16:51:45.395005-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Is Teradyne (TER) a Solid Growth Stock? 3 Reasons to Think \"Yes\"",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=dd1fa2d72241e5c90a71523d4d70f08c777fc415868a124e3c6d9312c2e49cd9",
+      "datetime": 1795106702,
+      "summary": "Teradyne (TER) could produce exceptional returns because of its solid growth attributes."
+    },
+    {
+      "headline": "Build, Run, Harvest: The Just-In-Case Cycle Is Moving On",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=8b33239fb09822a7bc5ee23997318134f1d60d7d22e2625f0e545bc220915d43",
+      "datetime": 1795076100,
+      "summary": "Analyst sees the supply-chain cycle maturing six years into the just-in-case era: inventories are at a record high, while the tracking ratio falls."
+    },
     {
       "headline": "Why Jefferies Calls Teradyne (TER) a \u201cCompute Test Company\u201d",
       "source": "Yahoo",
@@ -31,32 +45,18 @@
       "summary": "Today's big story: Anthropic IPO: Priced For 2031, Or 2036."
     },
     {
+      "headline": "KLA Short Interest Falls As Shorts Retreat From August Peak",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=960d58a9f4410cbe152d1c8f9c70b7411794e3dc53f96fce699888c0d23b8928",
+      "datetime": 1795006817,
+      "summary": "KLA Corp. (NASDAQ:KLAC) short sellers pulled back from their positions.Short interest fell 13.43% to 21.54 million shares as of the Oct. 30 settlement date, from 24.88 million at the Oct. 15 report. That is 1.65% of the"
+    },
+    {
       "headline": "Teradyne (NASDAQ:TER) Screens as a High-Growth Standout on Strong Earnings and Cash Flow Gains",
       "source": "ChartMill",
       "url": "https://finnhub.io/api/news?id=46c28bf60f0b6f00aaa64f93fe0439ad3531930223b6af72b07f1b2e78f61e1e",
       "datetime": 1795001473,
       "summary": "Teradyne clears all eight Navellier growth-stock rules, with strong earnings, sales, cash flow and ROE\u2014plus key risks and valuation to watch."
-    },
-    {
-      "headline": "5 Highest Short Interest Large-Cap Tech Stocks Right Now",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7fda2807602b26097386564d98b38919de7c514f7317ab094364534e330cea05",
-      "datetime": 1794946542,
-      "summary": "Technology stocks are facing a new test of investor conviction as hedge funds pull back from the artificial intelligence trade. Bloomberg reported on November 9 that hedge funds sold global technology stocks at one of the fastest weekly rates on record, citing Goldman Sachs prime brokerage data through November 6. Technology was the most heavily net-sold [\u2026]"
-    },
-    {
-      "headline": "Lam Research Stock Fell Nearly 7%. What Happened?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=bbd180d1aa7cc8e87169d747ed527a0c88025c094e700eff469d618393c74f07",
-      "datetime": 1794926449,
-      "summary": "Today's big story: Could Nvidia Stock Fall 50%? Follow The Cash."
-    },
-    {
-      "headline": "Wall Street Is Trading Chips for Chicken: Staples See Best Run Against Tech Since 2001",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=6054188fec1dbdcf5ba8505b603ec6f93a3f85c89020254c1c4dc0dfc54bdbe7",
-      "datetime": 1794909080,
-      "summary": "Consumer staples fund XLP has beaten tech fund XLK by 39.5% in seven weeks, the widest gap since March 2001."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-18",
+  "data_asof": "2026-11-19",
   "price": {
-    "last": 235.21,
-    "open": 239.33,
-    "prev_close": 234.18,
-    "move_day_pct": 0.44,
-    "move_open_close_pct": -1.72,
-    "move_week_pct": -11.5
+    "last": 227.43,
+    "open": 243.14,
+    "prev_close": 235.21,
+    "move_day_pct": -3.31,
+    "move_open_close_pct": -6.46,
+    "move_week_pct": -13.77
   },
   "indicators": {
     "rsi14": {
-      "value": 35.1,
+      "value": 33.5,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -29.36,
-      "signal": -30.508,
-      "hist": 1.148,
-      "hist_prev": 0.746,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "macd": -29.106,
+      "signal": -30.227,
+      "hist": 1.122,
+      "hist_prev": 1.148,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 331.73,
-      "lower": 200.09,
-      "mid": 265.91,
-      "pctb": 0.267,
+      "upper": 326.61,
+      "lower": 197.08,
+      "mid": 261.84,
+      "pctb": 0.234,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 51.16,
-      "read": "51% above its 52-week low"
+      "value": 46.16,
+      "read": "46% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -51.37,
-      "read": "51% below its 52-week high"
+      "value": -52.98,
+      "read": "53% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 349.71,
-      "pct": -32.74,
-      "read": "33% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 349.5,
+      "pct": -34.93,
+      "read": "35% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 21.51,
-      "pct_of_price": 9.14,
+      "value": 21.57,
+      "pct_of_price": 9.48,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.48,
-      "read": "Light \u2014 quiet trading"
+      "value": 0.71,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 28.3,
+      "value": 31.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 155.6,
   "high_52w": 483.65,
-  "ma50": 334.38,
-  "ma200": 349.71
+  "ma50": 331.52,
+  "ma200": 349.5
 }

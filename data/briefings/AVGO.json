@@ -2,7 +2,7 @@
   "ticker": "AVGO",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-18T16:50:51.437678-08:00",
+  "generated_at": "2026-11-19T16:51:51.585965-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Thinking About Buying Anthropic\u2019s IPO on Nov. 19? Here\u2019s an AI Stock I\u2019d Consider First (Hint: It\u2019s Not Nvidia or Broadcom).",
+      "headline": "This Beaten-Down Semiconductor Stock Could Soar in 2027",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9e715b192dba7e591fe67c127835143ccc4bc8431ab2a24c333fffa9497e4ca5",
-      "datetime": 1795044902,
-      "summary": "ASML\u2019s impeccable fundamentals allow investors to rest easy amid AI stock volatility."
+      "url": "https://finnhub.io/api/news?id=8d113da2fc1a56ac7ac488f80a9fb299bd46079c207db5c3bdb52083d28fa2fb",
+      "datetime": 1795128302,
+      "summary": "Broadcom\u2019s custom AI chip business is booming, but the market is pricing the stock as if it isn\u2019t."
     },
     {
-      "headline": "Stock Market Today, Nov. 18: Nvidia Slips on Strong Results as Succession and China Business Risks Weigh",
+      "headline": "Stock Market Today, Nov. 19: Nvidia Slides as Investors Weigh CEO Transition Fallout Despite Strong Q3 Results",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a2b653fac54f79e2c94b3d46127cc26e75cfdfd02ac10df4ee61894d8f985160",
-      "datetime": 1795039895,
-      "summary": "On Nov. 18, 2026, Nvidia shares fell despite upbeat guidance, as investors weighed the CEO transition and tighter chip rules."
+      "url": "https://finnhub.io/api/news?id=ff6906d9c8bf95d3b617a56c7c6235276076ea9c11b9063318e4853a9a4ac933",
+      "datetime": 1795126825,
+      "summary": "Today, Nov. 19, 2026, Nvidia shares fell despite a strong quarter and an early boost from Anthropic's IPO, as traders continue to weigh the leadership change and what comes next for AI spending."
     },
     {
-      "headline": "Anthropic Prices IPO at $83 a Share",
+      "headline": "Why Broadcom Inc. (AVGO) Dipped More Than Broader Market Today",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d1e5c6a5c7f374b6f5e12b9a5db10d90322d60eb7b9274b6b267f828a2ae9d5c",
-      "datetime": 1795038432,
-      "summary": "Anthropic has sold shares in its IPO at $83 apiece, above its previous target range of $70 to $78, The Wall Street Journal reported Wednesday, citing people familiar with the matter."
+      "url": "https://finnhub.io/api/news?id=b1aa1fa833676645a13d035be53c4d982bf5a1fb09d998f52010fd1ba86f6544",
+      "datetime": 1795124702,
+      "summary": "In the closing of the recent trading day, Broadcom Inc. (AVGO) stood at $346.52, denoting a -2.13% move from the preceding trading day."
     },
     {
-      "headline": "Marvell And Intel Halved: How Long Until They Recover?",
+      "headline": "Globant (GLOB) Q3 Earnings and Revenues Top Estimates",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f420c4766f645ef3812eddd29f56178e64b96e1bce97e43554b503dc5976abf8",
-      "datetime": 1795037340,
-      "summary": "Marvell and Intel have both lost more than half their value since June. At Tuesday's close on Nov 17, Marvell stood at $148.74. That is 53.0% below its high close of $316.43 on June 4. Intel closed at $55.17, 60.9% below its June 22 high. Most talk about the chip selloff is a buy-the-dip call or a warning that the AI trade is over. This article asks a narrower question. When a chip stock halves, h"
+      "url": "https://finnhub.io/api/news?id=18670e4a9924b1beeddee8596a9cbc94f7f27e51a6620bd2742c1498ef8fa041",
+      "datetime": 1795123802,
+      "summary": "Globant (GLOB) delivered earnings and revenue surprises of +0.68% and +0.01%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?"
     },
     {
-      "headline": "Amazon and Google Have a Stake",
+      "headline": "Marvell Stock Halved Again. What Does Its Cash Say?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8b2145bf38a6664ab367dc2a40b3ffedb16c8864f3c997df8c898995e5e4dd7b",
-      "datetime": 1795036982,
-      "summary": "Amazon.com and Google could soon own more than 35% of Anthropic stock."
+      "url": "https://finnhub.io/api/news?id=f3322dde19d40e487f107591348708021fa0d0a87d295e32e3ef8be40eb1beb7",
+      "datetime": 1795119957,
+      "summary": "Today's big story: Could Anthropic Stock Fall 25."
     },
     {
-      "headline": "Taiwan Semiconductor Stock (TSM) Looks Too Cheap for Its Growth Outlook",
+      "headline": "Why Broadcom Stock Took a Wild Ride on Thursday",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=577b730dc54eeee20d2020cd6580cd5560e373c9c34c7849e191068b5a5900a3",
-      "datetime": 1795036080,
-      "summary": "Taiwan Semiconductor Manufacturing (TSM) stock looks too cheap for its growth outlook. The leading semiconductor foundry has fallen with the wider artificial intelligence (AI) trade. Shares are down roughly 26% since hitting an early-October peak of $487, pulled down by a semiconductor sell-off triggered by leadership turmoil at Nvidia (NVDA) and fresh U.S. export curbs. On the company\u2019s third-qua"
+      "url": "https://finnhub.io/api/news?id=d77f52f8399a52b4b30d22b88899487be4453dbf376381910e6ffcd3752f840d",
+      "datetime": 1795118483,
+      "summary": "Hint: It has to do with Anthropic."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-18",
+  "data_asof": "2026-11-19",
   "price": {
-    "last": 354.05,
-    "open": 348.7,
-    "prev_close": 341.6,
-    "move_day_pct": 3.64,
-    "move_open_close_pct": 1.53,
-    "move_week_pct": 2.56
+    "last": 346.65,
+    "open": 362.94,
+    "prev_close": 354.05,
+    "move_day_pct": -2.09,
+    "move_open_close_pct": -4.49,
+    "move_week_pct": -4.86
   },
   "indicators": {
     "rsi14": {
-      "value": 55.1,
+      "value": 52.6,
       "read": "Neutral"
     },
     "macd": {
-      "macd": 0.154,
-      "signal": -3.822,
-      "hist": 3.976,
-      "hist_prev": 3.395,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "macd": 0.795,
+      "signal": -2.899,
+      "hist": 3.694,
+      "hist_prev": 3.976,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 367.63,
-      "lower": 296.51,
-      "mid": 332.07,
-      "pctb": 0.809,
-      "read": "Near the upper band"
+      "upper": 369.1,
+      "lower": 297.39,
+      "mid": 333.24,
+      "pctb": 0.687,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 21.45,
-      "read": "21% above its 52-week low"
+      "value": 18.91,
+      "read": "19% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -26.23,
-      "read": "26% below its 52-week high"
+      "value": -27.77,
+      "read": "28% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 366.74,
-      "pct": -3.46,
-      "read": "3% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 366.94,
+      "pct": -5.53,
+      "read": "6% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 17.57,
-      "pct_of_price": 4.96,
+      "value": 18.04,
+      "pct_of_price": 5.2,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.0,
+      "value": 0.97,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 54.6,
+      "value": 62.1,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 291.53,
   "high_52w": 479.94,
-  "ma50": 344.06,
-  "ma200": 366.74
+  "ma50": 343.79,
+  "ma200": 366.94
 }
