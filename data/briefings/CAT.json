@@ -2,7 +2,7 @@
   "ticker": "CAT",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-19T16:51:55.926701-08:00",
+  "generated_at": "2026-11-20T19:29:02.533545-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "5 Energy Stocks to Benefit from Anthropic\u2019s $1.5 Trillion Debut",
+      "headline": "Why Did The Trade Deficit Nearly Triple To $105 Billion?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f869e49e42d161714c45a2e6b7a96d2f74133c4db8c3507a49d3da09db426678",
-      "datetime": 1795125600,
-      "summary": "Anthropic priced its IPO at $83 and raised $81.3 billion. Five energy stocks, from Caterpillar to Hut 8, sell into its gas generator and grid power needs."
+      "url": "https://finnhub.io/api/news?id=6830fa70b50a9b0c2c2185e20e80148b592a13b4248488d2b499eaaca84c315d",
+      "datetime": 1795202821,
+      "summary": "Today's big story: Will 2027 Be A 2022 Repeat For Stocks."
     },
     {
-      "headline": "Dow Jones Losers Today: NIKE and UnitedHealth Lead Declines",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=764a49d7747e3d89111c720cc2e3ed6b4fcd0e72e6268381837376f4b640bb41",
-      "datetime": 1795119056,
-      "summary": "Dow Jones losers in today's session were led by NIKE and UnitedHealth, with all ten decliners down between 2.21% and 5.77%."
-    },
-    {
-      "headline": "Caterpillar CEO Joe Creed joins Walmart board of directors",
+      "headline": "Caterpillar (CAT) Completes Ultra Low Methane Field Trial For Remote Gas Compression",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=cd4235135a36b7af8f833058a202ffc4dd5aea77213d17746825c2179c438902",
-      "datetime": 1795112819,
-      "summary": "Walmart named Caterpillar CEO Joe Creed to its board of directors this week."
+      "url": "https://finnhub.io/api/news?id=920678b73450a4aace0813a27c394c51fca712a0250885f5993e7a88ec65bf32",
+      "datetime": 1795201733,
+      "summary": "Caterpillar (NYSE:CAT) reported a successful field trial of a large horsepower gas compression system with ultra low methane emissions. The trial, conducted with Phoenix Service Partners, targeted remote natural gas compression operations without relying on grid connectivity. Field results indicated materially lower methane and other harmful emissions compared with conventional gas compression set"
     },
     {
-      "headline": "Caterpillar (CAT) Isn\u2019t Just a Bulldozer Stock Anymore, and Ken Fisher Knows Why",
+      "headline": "Caterpillar Sinks 11% in a Week to a New 52-Week Low. Is the Selling Overdone?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c1ff1385ec65d1db9e085fc61d6a551d25bbc9ab806aff794b35faec8940b46f",
-      "datetime": 1795112040,
-      "summary": "Caterpillar Inc. (NYSE:CAT) landed 8th in our new ranking of the Top 10 Stocks to Buy According to Billionaire Ken Fisher. Ken Fisher has spent more than four decades betting that big, globally dominant companies keep winning, and his latest filing shows he still believes it. His market call heading into the midterms was unambiguous. [\u2026]"
+      "url": "https://finnhub.io/api/news?id=0b241d413782f4d73b49fc065f7a76d1c599eae5e9b7c594b4875e7e5620d4bf",
+      "datetime": 1795190750,
+      "summary": "Key TakeawaysCaterpillar fell 11% in the past week to a new 52-week low, about half its June high, as the AI-infrastructure sell-off also hit Vertiv and Bloom Energy. Caterpillar had no bad news of its own, and management told a Bernstein event it sees a favorable 2027."
     },
     {
-      "headline": "Dow Jones Decliners: UNH, NKE, CAT Lead Today's Session",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=b6162d886ac583e3fa73417f71ed6a81fb35f3b2fc24e5365a930308760a2b6d",
-      "datetime": 1795110068,
-      "summary": "Dow Jones decliners in today's session include UnitedHealth, Nike, Caterpillar, Merck, Visa, Coca-Cola, Goldman Sachs, Honeywell and Johnson & Johnson, down roughly 2% to 5%."
-    },
-    {
-      "headline": "The market could fall 10-12% \u2014 stocks to buy and sell now",
+      "headline": "Caterpillar\u2019s 35% 3-Month Downturn: This Sell-Side Firm Predicts 90% Returns From Here With Another Close Behind",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7b83bda5fa4bf3da9032677a132a97a3b9aa008705280b9428bd3859695b194c",
-      "datetime": 1795107803,
-      "summary": "Carter Worth, CEO, Worth Charting warns that overcrowded defensive trades have left the S&P 500 vulnerable to a 10% to 12% year-end drop\u2014and shares why he\u2019s taking profits on consumer staples like Coca-Cola and Costco while buying oversold bounces in Nvidia and Caterpillar alongside strong charts like John Deere and Amazon."
+      "url": "https://finnhub.io/api/news?id=53c35fb806f87705e80275fda749547370488f9758d09654fe6f22ef25655d9b",
+      "datetime": 1795189559,
+      "summary": "Caterpillar posted record backlog and still lost a third of its value in three months while Deere and CNH held firm. Two firms say the damage is overdone, but one number in January could prove them wrong."
+    },
+    {
+      "headline": "AI Stocks Tumble Across the Globe as Slowdown Fears Mount",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d4c910db6db49b3c7fec0ba180945133468e58658f548b77847fbab17c71ff39",
+      "datetime": 1795177920,
+      "summary": "Nasdaq futures were lower as the index headed toward its worst one-week performance since Trump\u2019s April 2025 imposition of sweeping tariffs, and stocks fell across the globe as sentiment around the AI trade deteriorated further."
+    },
+    {
+      "headline": "State Street Industrial Select Sector SPDR (XLI) Adds GE and RTX on Wednesday",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=bbbd4a514375801948d368f18687af6ee96338c6204ed214e1c61d55ed5da7d1",
+      "datetime": 1795172701,
+      "summary": "The fund bought $169.2 million of stocks, adding to 82 positions and selling none, with $11.3 million of General Electric the largest purchase."
     }
   ],
   "filings": [
@@ -82,32 +82,32 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-19",
+  "data_asof": "2026-11-20",
   "price": {
-    "last": 537.37,
-    "open": 567.94,
-    "prev_close": 558.77,
-    "move_day_pct": -3.83,
-    "move_open_close_pct": -5.38,
-    "move_week_pct": -11.22
+    "last": 510.45,
+    "open": 528.42,
+    "prev_close": 537.37,
+    "move_day_pct": -5.01,
+    "move_open_close_pct": -3.4,
+    "move_week_pct": -14.95
   },
   "indicators": {
     "rsi14": {
-      "value": 27.2,
+      "value": 24.2,
       "read": "Extremely oversold"
     },
     "macd": {
-      "macd": -47.573,
-      "signal": -47.503,
-      "hist": -0.07,
-      "hist_prev": 1.08,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -50.093,
+      "signal": -48.021,
+      "hist": -2.072,
+      "hist_prev": -0.07,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 715.69,
-      "lower": 508.65,
-      "mid": 612.17,
-      "pctb": 0.139,
+      "upper": 710.23,
+      "lower": 496.62,
+      "mid": 603.43,
+      "pctb": 0.065,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
@@ -115,30 +115,30 @@
       "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -49.32,
-      "read": "49% below its 52-week high"
+      "value": -51.86,
+      "read": "52% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 801.92,
-      "pct": -32.99,
-      "read": "33% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 801.11,
+      "pct": -36.28,
+      "read": "36% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 28.74,
-      "pct_of_price": 5.35,
+      "value": 28.93,
+      "pct_of_price": 5.67,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.12,
-      "read": "Roughly average volume"
+      "value": 1.37,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 25.2,
+      "value": 25.3,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": 537.37,
+  "low_52w": 510.45,
   "high_52w": 1060.41,
-  "ma50": 719.22,
-  "ma200": 801.92
+  "ma50": 713.09,
+  "ma200": 801.11
 }

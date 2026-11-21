@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-19T16:51:48.035142-08:00",
+  "generated_at": "2026-11-20T19:28:51.551387-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -15,7 +15,15 @@
     "rel_volume",
     "mfi14"
   ],
-  "news": [],
+  "news": [
+    {
+      "headline": "Oceaneering International (OII) Down 9.1% Since Last Earnings Report: Can It Rebound?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=0765f4b1637fd0f18f5bed9aa6f6dae2e63a95b6729bf0b7fbdf2397103e438e",
+      "datetime": 1795188609,
+      "summary": "Oceaneering International (OII) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues."
+    }
+  ],
   "filings": [
     {
       "form": "8-K",
@@ -39,63 +47,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-19",
+  "data_asof": "2026-11-20",
   "price": {
-    "last": 33.3,
-    "open": 34.59,
-    "prev_close": 34.07,
-    "move_day_pct": -2.26,
-    "move_open_close_pct": -3.73,
-    "move_week_pct": -4.26
+    "last": 31.67,
+    "open": 32.75,
+    "prev_close": 33.3,
+    "move_day_pct": -4.89,
+    "move_open_close_pct": -3.3,
+    "move_week_pct": -11.11
   },
   "indicators": {
     "rsi14": {
-      "value": 29.1,
+      "value": 25.3,
       "read": "Extremely oversold"
     },
     "macd": {
-      "macd": -2.461,
-      "signal": -2.44,
-      "hist": -0.021,
-      "hist_prev": -0.026,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -2.563,
+      "signal": -2.465,
+      "hist": -0.099,
+      "hist_prev": -0.021,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 42.68,
-      "lower": 31.04,
-      "mid": 36.86,
-      "pctb": 0.194,
+      "upper": 42.6,
+      "lower": 30.36,
+      "mid": 36.48,
+      "pctb": 0.107,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 42.86,
-      "read": "43% above its 52-week low"
+      "value": 35.86,
+      "read": "36% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -38.46,
-      "read": "38% below its 52-week high"
+      "value": -41.47,
+      "read": "41% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 40.73,
-      "pct": -18.24,
-      "read": "18% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 40.74,
+      "pct": -22.26,
+      "read": "22% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 1.63,
-      "pct_of_price": 4.89,
+      "value": 1.65,
+      "pct_of_price": 5.21,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.6,
+      "value": 0.83,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 20.3,
+      "value": 20.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 23.31,
   "high_52w": 54.11,
-  "ma50": 41.75,
-  "ma200": 40.73
+  "ma50": 41.37,
+  "ma200": 40.74
 }

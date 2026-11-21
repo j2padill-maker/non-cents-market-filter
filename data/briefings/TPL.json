@@ -2,7 +2,7 @@
   "ticker": "TPL",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-19T16:51:54.495296-08:00",
+  "generated_at": "2026-11-20T19:29:00.231230-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Is Viper Spending Too Much?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c754d22ce1bd32f8a83f7c311cfd5c26db3428553f0c13a1c7632baa3c3a558e",
+      "datetime": 1795196596,
+      "summary": "Today's big story: Will 2027 Be A 2022 Repeat For Stocks."
+    },
+    {
+      "headline": "My Top Dividend Growth Picks In Each GICS Sector (November 2026)",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=441dc6b71818f9baa7ca2edc982fb9c9144f0f87d43c10f3535b02fc9cefde47",
+      "datetime": 1795177507,
+      "summary": "The bull case for dividend growth picks: sector winners would have returned 144% in five years vs."
+    },
     {
       "headline": "Texas Pacific Land Stock: Analyst Estimates & Ratings",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=97d7536a0d8b99e7bf15e4ffb6d00cd6d15bffdcb321a21fe7744c8cda4b4337",
       "datetime": 1794676937,
       "summary": "We just published a list of the 10 Toxic Energy Stocks to Sell Now That the Blue Wave is Here, and Texas Pacific Land Corporation (NYSE:TPL) ranked 7th on this list. Energy stocks have enjoyed a strong rally this year, driven primarily by supply disruptions in the Middle East and the Russia-Ukraine war. The blockage [\u2026]"
-    },
-    {
-      "headline": "S&P 500 Top Movers for Nov. 13, 2026: Charter Communications Leads Gainers, AMD Leads Losers",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=be3fdb8d07915e0be2cd4515b98267b2b4974a4811a7553772ecbabacec06658",
-      "datetime": 1794600354,
-      "summary": "S&P 500 top movers on Nov. 13, 2026: Charter Communications led gainers at 4.58%, while Advanced Micro Devices led losers at -9.42%."
-    },
-    {
-      "headline": "S&P 500 Top Movers: Today's US Session Gainers and Losers",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=efc0c08c5a5019a16ad710e064b263e08fed80d34e428ee716c24e13eaa6035e",
-      "datetime": 1794591357,
-      "summary": "S&P 500 top movers for today's US session: Charter Communications and Texas Pacific Land lead gainers, while Advanced Micro Devices and Dell lead decliners."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-19",
+  "data_asof": "2026-11-20",
   "price": {
-    "last": 277.72,
-    "open": 288.92,
-    "prev_close": 285.9,
-    "move_day_pct": -2.86,
-    "move_open_close_pct": -3.88,
-    "move_week_pct": -1.23
+    "last": 267.44,
+    "open": 274.28,
+    "prev_close": 277.72,
+    "move_day_pct": -3.7,
+    "move_open_close_pct": -2.49,
+    "move_week_pct": -8.38
   },
   "indicators": {
     "rsi14": {
-      "value": 32.2,
-      "read": "Oversold"
+      "value": 28.6,
+      "read": "Extremely oversold"
     },
     "macd": {
-      "macd": -15.79,
-      "signal": -15.915,
-      "hist": 0.125,
-      "hist_prev": 0.18,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": -16.449,
+      "signal": -16.021,
+      "hist": -0.427,
+      "hist_prev": 0.125,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 352.21,
-      "lower": 251.68,
-      "mid": 301.94,
-      "pctb": 0.259,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 347.91,
+      "lower": 248.89,
+      "mid": 298.4,
+      "pctb": 0.187,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 2.04,
+      "value": 0.0,
       "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -48.39,
-      "read": "48% below its 52-week high"
+      "value": -50.3,
+      "read": "50% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 397.15,
-      "pct": -30.07,
-      "read": "30% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 396.77,
+      "pct": -32.6,
+      "read": "33% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 14.33,
-      "pct_of_price": 5.16,
+      "value": 14.32,
+      "pct_of_price": 5.35,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.88,
+      "value": 1.21,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 35.6,
+      "value": 28.7,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": 272.18,
+  "low_52w": 267.44,
   "high_52w": 538.1,
-  "ma50": 330.31,
-  "ma200": 397.15
+  "ma50": 328.27,
+  "ma200": 396.77
 }

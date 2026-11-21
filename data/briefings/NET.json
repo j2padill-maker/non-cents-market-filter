@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-19T16:51:36.146294-08:00",
+  "generated_at": "2026-11-20T19:28:37.045239-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Best Stocks For The Long Term: Will These Tech Stocks Depart The Watchlist?",
+      "headline": "Cloudflare And 2 Other Top Cybersecurity Stocks",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6edabcab4aa70c28aaaa17c3222ec8d6b6caeb8405b9a272c65ac17517a58df6",
-      "datetime": 1795093229,
-      "summary": "Looking for the best growth stocks to buy now for the long term? Start with these stock ideas on IBD's Long-Term Leaders list."
+      "url": "https://finnhub.io/api/news?id=a8a90b6220fa497f3ddeea3404249a4831bb6be5edb4637d6ce3db3f4598e6e5",
+      "datetime": 1795216490,
+      "summary": "Banks are scrambling to fix fresh cyber weak spots as AI tools help attackers find flaws faster than defenders can patch them. That arms race puts digital security providers in the spotlight, because every outage or breach risk pushes budgets toward protection. For investors, that is where this screener comes in, highlighting globally listed cybersecurity stocks with high growth expectations and s"
     },
     {
-      "headline": "What Triggered The Move In Zscaler Stock?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=eea76960cd48688aba4eca5b30cfd81400593b4597e5eae9f12972a0fb8818f5",
-      "datetime": 1795093096,
-      "summary": "Today's big story: Could Anthropic Stock Fall 25."
+      "headline": "Stock Market Today: Anthropic Soars on Debut While the Rest of Wall Street Sinks",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=b181052c928841f2ce7f710021324dc11b2ad2e03e69948ff8d2b5c8bc14263d",
+      "datetime": 1795182729,
+      "summary": "Anthropic jumped on its first trading day after the largest IPO ever, but the Nasdaq reversed an early gain and closed sharply lower. AMD slid on short-seller claims, Palo Alto rallied and Fed rate-hike talk weighed on growth stocks."
     },
     {
-      "headline": "Anthropic Stock To $500 In 5 Years?",
+      "headline": "Here is What to Know Beyond Why Cloudflare, Inc. (NET) is a Trending Stock",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4c296b1e4bf851a7f7c768ef80475df92737b8a20eecb737eaeb5a2d4b3f8a6c",
-      "datetime": 1795092595,
-      "summary": "Today's big story: Could Anthropic Stock Fall 25."
+      "url": "https://finnhub.io/api/news?id=8cb18003b90bcf6d9e55553d39bc5ef2e8594bd4ded1f020d27d896011c73ba9",
+      "datetime": 1795179603,
+      "summary": "Zacks.com users have recently been watching Cloudflare (NET) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects."
     },
     {
-      "headline": "Why Did Fastly Stock Jump?",
+      "headline": "ETFs Bought $14.0 Million of Cloudflare (NET) on Nov. 18",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9beab400096e16b36bf14d297117b94c1a2baf8cb61f461ac06bed74c1ed6cb0",
-      "datetime": 1795091592,
-      "summary": "Today's big story: Could Anthropic Stock Fall 25."
+      "url": "https://finnhub.io/api/news?id=c7cd61f6cca4c8fa332743d613d5c4a7ec678bc5b521ee91595830489a5d2132",
+      "datetime": 1795172495,
+      "summary": "ETFs added $14.0 million of Cloudflare on a fifth straight day of net buying."
     },
     {
-      "headline": "What Happens To Cloudflare Stock If Revenue Growth Slows?",
+      "headline": "Palo Alto\u2019s CEO Says AI Security \u201cCould Be Bigger Than What We Do Today.\u201d Here\u2019s the Math",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7eda66272f38817dea22c76966d97192500aa2fb57bea7e2765af08c0b638955",
-      "datetime": 1795089837,
-      "summary": "Today's big story: Could Anthropic Stock Fall 25."
+      "url": "https://finnhub.io/api/news?id=18e09ad69a3c39d0ca2fd18bbf102f731e1c869d657fbf80a0c56f38a586c14c",
+      "datetime": 1795127852,
+      "summary": "Key TakeawaysPalo Alto Networks beat its guidance and raised its fiscal 2027 revenue outlook, and shares jumped 6%. CEO Nikesh Arora\u2019s own figures put AI security spending at $30 billion to $50 billion a year by 2029, more than analysts expect Palo Alto and CrowdStrike to bring in combined in fiscal 2029."
     },
     {
-      "headline": "Can Zscaler Stock Hit $300?",
+      "headline": "Cybersecurity Stocks Rise as Investors Bet on AI-Era Defense Spending",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ca1e95e227b9796d8ae7534ca4c6b8988511eb087aa8d5c446d073ce73ac367f",
-      "datetime": 1795087595,
-      "summary": "Today's big story: Could Anthropic Stock Fall 25."
+      "url": "https://finnhub.io/api/news?id=737b6c9598eca1a3331491d905b93174294064d455fe7ae32bc5994106609782",
+      "datetime": 1795125120,
+      "summary": "Market Updates News Commentary - Cybersecurity stocks moved higher on Thursday. Palo Alto Networks reported fiscal first-quarter results after Wednesday's close and raised its annual forecast, and Reuters reported that the outlook lifted cybersecurity stocks as investors bet companies will spend big on defending against sophisticated AI-enabled digital attacks. The move came in a session where the"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-19",
+  "data_asof": "2026-11-20",
   "price": {
-    "last": 303.68,
-    "open": 313.43,
-    "prev_close": 300.91,
-    "move_day_pct": 0.92,
-    "move_open_close_pct": -3.11,
-    "move_week_pct": -4.65
+    "last": 274.96,
+    "open": 300.0,
+    "prev_close": 303.68,
+    "move_day_pct": -9.46,
+    "move_open_close_pct": -8.35,
+    "move_week_pct": -10.09
   },
   "indicators": {
     "rsi14": {
-      "value": 50.4,
+      "value": 42.4,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -4.392,
-      "signal": -7.031,
-      "hist": 2.639,
-      "hist_prev": 2.333,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "macd": -5.877,
+      "signal": -6.8,
+      "hist": 0.923,
+      "hist_prev": 2.639,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 343.92,
-      "lower": 249.63,
-      "mid": 296.78,
-      "pctb": 0.573,
+      "upper": 340.33,
+      "lower": 248.15,
+      "mid": 294.24,
+      "pctb": 0.291,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 89.57,
-      "read": "90% above its 52-week low"
+      "value": 71.65,
+      "read": "72% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -15.86,
-      "read": "16% below its 52-week high"
+      "value": -23.82,
+      "read": "24% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 255.7,
-      "pct": 18.76,
-      "read": "19% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 256.26,
+      "pct": 7.3,
+      "read": "7% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 21.54,
-      "pct_of_price": 7.09,
+      "value": 22.27,
+      "pct_of_price": 8.1,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.21,
+      "value": 1.17,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 56.3,
+      "value": 55.6,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 360.93,
-  "ma50": 319.92,
-  "ma200": 255.7
+  "ma50": 319.29,
+  "ma200": 256.26
 }

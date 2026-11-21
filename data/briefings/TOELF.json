@@ -2,7 +2,7 @@
   "ticker": "TOELF",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-19T16:51:33.624395-08:00",
+  "generated_at": "2026-11-20T19:28:33.555466-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Nikkei 225 Falls 4.5% and SoftBank Plunges 15% as Wall Street\u2019s AI Selloff Puts Asian Stocks on Track for Their Worst Week Since 2020",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=eb9b2d4859a9e685b16b9ead3374df3a6c2097b58c66488b6276ea4f17a69a30",
+      "datetime": 1795146068,
+      "summary": "The Nikkei 225 fell 4.5% in Friday's morning session and SoftBank plunged 15% as Wall Street's AI selloff reached Asia. Taiwan lost 10% in two sessions. Here is what fell most, why, and what it means for U.S. holders of Asia funds."
+    },
+    {
+      "headline": "Is This Still an \"AI\" Driven Market?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8af510021c43e07bdd64ffb8eab7a9e8bbfc231bfb76901fbc5e9bb984e260cb",
+      "datetime": 1795123980,
+      "summary": "Events & Underlying Fundamentals Send a Mixed Message."
+    },
     {
       "headline": "Nvidia Export Curbs Could Lift These Semiconductor Stocks With US Fab Exposure",
       "source": "Yahoo",
@@ -43,83 +57,69 @@
       "url": "https://finnhub.io/api/news?id=bd6db1395f787bbbe5e0f16783f5f2f4327d5ebbcf3d4783d0c9ad3894832446",
       "datetime": 1794708440,
       "summary": "Tokyo Electron has delivered strong share gains over the past few years, which puts fresh focus on whether the current price lines up with what its earnings can justify. After the latest swings in global chip stocks, the question for you is how much of that long run-up is already reflected in the earnings power investors are paying for today. Over the past 5 years the stock has returned 154.3%, so"
-    },
-    {
-      "headline": "SoftBank Group Stocks Fall 5.11% as Nvidia Shake-Up Hits OpenAI-Linked Investor",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e9fbc92bcf73ab531d1d0c90a60d1bb5872a438114b2c23f404fc96d55d3d162",
-      "datetime": 1794595878,
-      "summary": "Tokyo shares dropped 191 yen even as the Nikkei rose, adding to pressure from a 1.1 trillion yen quarterly loss."
-    },
-    {
-      "headline": "Asian shares are mixed as investors assess impact of Nvidia's fallout on global AI development",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=aff654f62e35d6bd39b8b080ac6c9f5ba4d6b7a174072580e53834aa4b906e8f",
-      "datetime": 1794548228,
-      "summary": "HONG KONG (AP) \u2014 Asian shares were mixed Friday as investors assess what Jensen Huang\u2019s resignation as Nvidia CEO means for the global artificial intelligence industry. futures edged higher despite earlier losses on Wall Street, which saw Nvidia falling more than 4% after Huang\u2019s exit from the company."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-19",
+  "data_asof": "2026-11-20",
   "price": {
-    "last": 53.45,
-    "open": 55.25,
-    "prev_close": 53.63,
-    "move_day_pct": -0.34,
-    "move_open_close_pct": -3.26,
-    "move_week_pct": -10.26
+    "last": 47.74,
+    "open": 51.63,
+    "prev_close": 53.48,
+    "move_day_pct": -10.73,
+    "move_open_close_pct": -7.53,
+    "move_week_pct": -16.26
   },
   "indicators": {
     "rsi14": {
-      "value": 38.4,
+      "value": 31.8,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -3.426,
-      "signal": -3.295,
-      "hist": -0.13,
-      "hist_prev": -0.148,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -3.852,
+      "signal": -3.406,
+      "hist": -0.445,
+      "hist_prev": -0.128,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 66.09,
-      "lower": 50.06,
-      "mid": 58.08,
-      "pctb": 0.211,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 66.6,
+      "lower": 48.34,
+      "mid": 57.47,
+      "pctb": -0.033,
+      "read": "Below the lower band \u2014 stretched to the downside"
     },
     "pct_from_52w_low": {
-      "value": 45.26,
-      "read": "45% above its 52-week low"
+      "value": 29.75,
+      "read": "30% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -44.22,
-      "read": "44% below its 52-week high"
+      "value": -50.18,
+      "read": "50% below its 52-week high"
     },
     "price_vs_ma200": {
       "ma200": 64.44,
-      "pct": -17.05,
-      "read": "17% below its 200-day average \u2014 long-term downtrend"
+      "pct": -25.92,
+      "read": "26% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 3.64,
-      "pct_of_price": 6.8,
+      "value": 3.86,
+      "pct_of_price": 8.08,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.01,
+      "value": 0.02,
       "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 58.9,
+      "value": 56.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 36.79,
   "high_52w": 95.82,
-  "ma50": 65.46,
+  "ma50": 65.09,
   "ma200": 64.44
 }

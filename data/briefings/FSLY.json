@@ -2,7 +2,7 @@
   "ticker": "FSLY",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-19T16:51:53.050635-08:00",
+  "generated_at": "2026-11-20T19:28:58.134833-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Are Computer and Technology Stocks Lagging  Fastly (FSLY) This Year?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c911bcf7815b81060d6ba2bcd8b655b6d9da1025d324d6b8109d0f93ac1254f5",
+      "datetime": 1795182004,
+      "summary": "Here is how Fastly (FSLY) and Ambiq Micro, Inc. (AMBQ) have performed compared to their sector so far this year."
+    },
+    {
+      "headline": "What Sent Cloudflare Stock Higher?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=9962a9952ec84fffdb1ea3ea9806ea5e856dfe1b15b8f8bc3281bc3c2c62b3a0",
+      "datetime": 1795095251,
+      "summary": "Today's big story: Could Anthropic Stock Fall 25."
+    },
     {
       "headline": "Why Did Fastly Stock Jump?",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=6e29e7703ed254ccc2d8ba6230b7aad25ba320111744672a63e4310918d4fbb8",
       "datetime": 1795086032,
       "summary": "Today's big story: Could Anthropic Stock Fall 25."
-    },
-    {
-      "headline": "Why Is Fastly Stock Gaining Thursday?",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=9013751e7b500ed9f332a587590abbc44d8423fca2f840138ea0ea0f7af7ee42",
-      "datetime": 1795074016,
-      "summary": "Fastly (FSLY) stock surges as its new Comcast gaming partnership prepares to handle record internet traffic from the GTA 6 launch."
-    },
-    {
-      "headline": "Comcast (CMCSA) Targets Faster Gaming And West Virginia Fiber Reach",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3fc8b23e033f2cd34faaad8014659a199fd39f9f4999240b9d3196334f82508d",
-      "datetime": 1795068927,
-      "summary": "Comcast (NasdaqGS:CMCSA) partnered with edge cloud provider Fastly to upgrade its broadband network for lower latency gaming experiences. The collaboration focuses on routing gaming traffic more efficiently across Comcast's infrastructure to reduce lag for customers on its network. Comcast is extending multi-gigabit fiber service to underserved communities in West Virginia as part of its ongoing r"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-19",
+  "data_asof": "2026-11-20",
   "price": {
-    "last": 16.86,
-    "open": 18.28,
-    "prev_close": 17.9,
-    "move_day_pct": -5.81,
-    "move_open_close_pct": -7.78,
-    "move_week_pct": -1.92
+    "last": 14.91,
+    "open": 16.18,
+    "prev_close": 16.86,
+    "move_day_pct": -11.57,
+    "move_open_close_pct": -7.85,
+    "move_week_pct": -10.29
   },
   "indicators": {
     "rsi14": {
-      "value": 39.5,
+      "value": 34.8,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -2.071,
-      "signal": -1.999,
-      "hist": -0.072,
-      "hist_prev": -0.169,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -2.141,
+      "signal": -2.028,
+      "hist": -0.114,
+      "hist_prev": -0.072,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 28.12,
-      "lower": 11.57,
-      "mid": 19.85,
-      "pctb": 0.32,
+      "upper": 27.63,
+      "lower": 11.11,
+      "mid": 19.37,
+      "pctb": 0.23,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 111.81,
-      "read": "112% above its 52-week low"
+      "value": 87.31,
+      "read": "87% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -49.67,
-      "read": "50% below its 52-week high"
+      "value": -55.49,
+      "read": "55% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 22.03,
-      "pct": -23.47,
-      "read": "23% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 22.07,
+      "pct": -32.44,
+      "read": "32% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 1.96,
-      "pct_of_price": 11.62,
+      "value": 1.97,
+      "pct_of_price": 13.22,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.17,
+      "value": 1.27,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 37.4,
+      "value": 37.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 7.96,
   "high_52w": 33.5,
-  "ma50": 23.05,
-  "ma200": 22.03
+  "ma50": 22.89,
+  "ma200": 22.07
 }

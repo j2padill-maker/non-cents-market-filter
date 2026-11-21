@@ -1,5 +1,5 @@
 {
- "built": "2026-10-21T11:34:01.685534-07:00",
+ "built": "2026-11-20T19:00:19.838742-08:00",
  "counts": {
   "sp500": 503,
   "nasdaq100": 0,
@@ -2191,14 +2191,6 @@
    ]
   },
   {
-   "ticker": "KVUE",
-   "name": "Kenvue",
-   "sector": "Consumer Staples",
-   "indexes": [
-    "S&P 500"
-   ]
-  },
-  {
    "ticker": "L",
    "name": "Loews Corporation",
    "sector": "Financials",
@@ -2783,6 +2775,14 @@
    ]
   },
   {
+   "ticker": "OKTA",
+   "name": "Okta, Inc.",
+   "sector": "Information Technology",
+   "indexes": [
+    "S&P 500"
+   ]
+  },
+  {
    "ticker": "OMC",
    "name": "Omnicom Group",
    "sector": "Communication Services",
@@ -3136,7 +3136,7 @@
   },
   {
    "ticker": "RMD",
-   "name": "ResMed|",
+   "name": "ResMed",
    "sector": "Health Care",
    "indexes": [
     "S&P 500"
@@ -3240,7 +3240,7 @@
   },
   {
    "ticker": "SKYD",
-   "name": "Skydance Corporation",
+   "name": "Skydance",
    "sector": "Communication Services",
    "indexes": [
     "S&P 500"

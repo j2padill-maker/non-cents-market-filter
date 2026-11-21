@@ -2,7 +2,7 @@
   "ticker": "GOOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-19T16:51:57.393043-08:00",
+  "generated_at": "2026-11-20T19:29:04.622342-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Anthropic\u2019s Record IPO Is Good News for Hut 8. Here\u2019s the Number That Matters",
+      "headline": "Top 5 Stocks to Buy According to Billionaire George Soros",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=76fcb6d4eed4dc02762abea25e857518a6343394df581d38158f71d0d4111c39",
-      "datetime": 1795129525,
-      "summary": "Key TakeawaysAnthropic raised a record $81. 3 billion in its IPO, and its stock opened 34% above its $83 offering price today."
+      "url": "https://finnhub.io/api/news?id=4a077acbd47dd06441eee14ead442dee8323d5f1ccca353898d9a45162a20695",
+      "datetime": 1795223061,
+      "summary": "George Soros made his name betting against currencies and central banks, and that record is still the reference point for macro investing decades later. Born in Budapest in 1930, he built his fortune running the Quantum Fund, and the firm that carries his name has been investing for more than five decades. Soros Fund Management [\u2026]"
     },
     {
-      "headline": "Stock Market Today, Nov. 19: Stock Market Today, Nov. 19: Alphabet Shares Fall as Anthropic Nasdaq Debut Puts Fresh Value on Google's Stake",
+      "headline": "Morgan Stanley sends a strong signal to Google stock investors",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2da92d9ab392349a4bae337b640b778a61668ef7f46641e189891722d7140715",
-      "datetime": 1795129502,
-      "summary": "Strong corporate earnings and a landmark IPO are providing pockets of optimism, but mounting interest rate and valuation concerns continue to undermine investor confidence."
+      "url": "https://finnhub.io/api/news?id=a750d68064e78021841a1fea88232ede1f2408e59cd1894e03c2b32a9a6b25dd",
+      "datetime": 1795222980,
+      "summary": "Google is entering a new phase, and Wall Street is paying attention to what it could mean for the stock."
     },
     {
-      "headline": "Anthropic IPO value surges in stock market debut",
+      "headline": "Review & Preview: Hype Halted",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=907f4121b1e20b774cff35af0d614ffc810eefffeb2a5a350bb5eec318cbd3cd",
-      "datetime": 1795128867,
-      "summary": "Economist Justin Wolfers joins The Lead."
+      "url": "https://finnhub.io/api/news?id=179be75c97d4a5c5ead611295d018d548fab7e632172b3b9d8a037a1747fdb7b",
+      "datetime": 1795222500,
+      "summary": "The markets ended a rough week with another dip, and two indexes have entered correction territory."
     },
     {
-      "headline": "Morgan Stanley\u2019s Vintage Values 2027: 5 Stocks Analysts See Climbing Further",
+      "headline": "Has AI's honeymoon ended on Wall Street?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ecbd637a919844c95f1eefac51d1d49905fbdbb1a50063465ce8b3e0192d47fe",
-      "datetime": 1795127555,
-      "summary": "Bloomberg reported on November 13, 2026, that one bank\u2019s strategists expect the S&P 500 to reach 8,700 within 12 months. They also see earnings growth slowing to 11% in 2027 from 36% in 2026. That gap matters because slower profit growth changes what investors reward. According to the report, buyers are willing to pay up [\u2026]"
+      "url": "https://finnhub.io/api/news?id=756f37927d322199d5e8977084eeb5e39a3ad9648b693b5264e2ab73fc0323fc",
+      "datetime": 1795221964,
+      "summary": "Although the AI industry has been the darling of Wall Street for years, the sector now makes investors wince as it reckons with a wave of concerns over dizzying spending and its promise to make the technology profitable.But as spending has ballooned, so has debt -- and profits have yet to match."
     },
     {
-      "headline": "Stock Market Today, Nov. 19: Alphabet Shares Fall as Anthropic Nasdaq Debut Puts Fresh Value on Google's Stake",
+      "headline": "Zero To Sixty: Tesla Expands Cybercab To Dallas As Waymo Pauses Freeway Operations This Week",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=761e947e45580e96816de82c91ae31a183fa7ed0ae3d4dd27e077a2e1bb60bae",
-      "datetime": 1795126710,
-      "summary": "Today, Nov. 19, 2026, Alphabet's slide came as investors weighed its private AI holdings and a heavy trading session."
+      "url": "https://finnhub.io/api/news?id=3d9ee83e57c90bb559284617899cc7d8692945ccb84539a5eb6a17293e7d9fe5",
+      "datetime": 1795221941,
+      "summary": "Tesla accelerated its robotaxi push this week with Cybercab rides in Dallas and limited personal ownership invitations this week, while rival Waymo paused freeway service after a California ban."
     },
     {
-      "headline": "Anthropic Closes Up 17% While Nasdaq Falls; Mohamed El-Erian Calls It \u2018Making Room\u2019 For AI",
+      "headline": "Data Center AI Chips Could Change the Winners: Broadcom and Marvell",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=708616c2239321ce5029db74ffcc10c19d34de688eff181f1e7d5e13821cf3c3",
-      "datetime": 1795125712,
-      "summary": "Anthropic opened on Nasdaq on Thursday at a 34% premium to the offer price of $83 and closed at $97.17."
+      "url": "https://finnhub.io/api/news?id=350b7b787df4ab1d9e0d47982aacd2338851263fb35869cc7aa66e9b84608c46",
+      "datetime": 1795217154,
+      "summary": "While investors fixate on Nvidia's share price, hyperscalers are quietly buying different chips for different jobs. Counting accelerators misses the real money, and a memory-stack model shows why the chip tally can mislead."
     }
   ],
   "filings": [
@@ -82,32 +82,32 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-19",
+  "data_asof": "2026-11-20",
   "price": {
-    "last": 271.02,
-    "open": 290.66,
-    "prev_close": 279.2,
-    "move_day_pct": -2.93,
-    "move_open_close_pct": -6.76,
-    "move_week_pct": -8.24
+    "last": 264.0,
+    "open": 272.45,
+    "prev_close": 271.02,
+    "move_day_pct": -2.59,
+    "move_open_close_pct": -3.1,
+    "move_week_pct": -9.75
   },
   "indicators": {
     "rsi14": {
-      "value": 29.6,
+      "value": 26.8,
       "read": "Extremely oversold"
     },
     "macd": {
-      "macd": -12.628,
-      "signal": -12.72,
-      "hist": 0.091,
-      "hist_prev": 0.533,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": -13.373,
+      "signal": -12.85,
+      "hist": -0.522,
+      "hist_prev": 0.091,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 319.73,
-      "lower": 260.12,
-      "mid": 289.93,
-      "pctb": 0.183,
+      "upper": 316.32,
+      "lower": 258.2,
+      "mid": 287.26,
+      "pctb": 0.1,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
@@ -115,30 +115,30 @@
       "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -32.0,
-      "read": "32% below its 52-week high"
+      "value": -33.76,
+      "read": "34% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 334.9,
-      "pct": -19.07,
-      "read": "19% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 334.57,
+      "pct": -21.09,
+      "read": "21% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 10.46,
-      "pct_of_price": 3.86,
-      "read": "Elevated volatility"
+      "value": 11.02,
+      "pct_of_price": 4.17,
+      "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.18,
-      "read": "Roughly average volume"
+      "value": 1.52,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 50.9,
+      "value": 41.4,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": 271.02,
+  "low_52w": 264.0,
   "high_52w": 398.54,
-  "ma50": 320.7,
-  "ma200": 334.9
+  "ma50": 319.27,
+  "ma200": 334.57
 }

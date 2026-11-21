@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-19T16:51:28.006597-08:00",
+  "generated_at": "2026-11-20T19:28:29.192239-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "MongoDB's Atlas For Government Achieves FedRAMP Certification And Added Support For Azure Government",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=4e04410304706b52b64b7d6006265591597a890b93c7da29072bf2b67a153bf5",
-      "datetime": 1795082814,
-      "summary": "This makes Atlas for Government the only FedRAMP Class D (High) Certified cross-cloud operational database in the world, giving federal, state, and local agencies the option to run on the cloud provider of their"
-    },
-    {
-      "headline": "Best Growth Stocks to Buy for November 19th",
+      "headline": "Is MongoDB (MDB) Undervalued On Its FedRAMP High Approval?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=01f88b30b31aafb7d383686b02ac701cc9e181dfa59322b9a5cb6bb9e6151291",
-      "datetime": 1795075080,
-      "summary": "MDB, DBX and KMX made it to the Zacks Rank #1 (Strong Buy) growth stocks list on November 19th, 2026."
+      "url": "https://finnhub.io/api/news?id=54dd0d96488618d6d1bd856fb471634581606df28e928b0fd54de6397f9045ba",
+      "datetime": 1795201752,
+      "summary": "MongoDB (MDB) is back in focus after its Atlas for Government platform secured FedRAMP Class D High certification and extended support to Microsoft Azure Government, a policy win with potential implications for public sector demand. Recent trading has been rough, with MongoDB\u2019s share price falling 12.6% over the past week, 18.9% over the past month and 31.1% over the past quarter, while the 1 year"
     },
     {
-      "headline": "3 under-the-radar picks Wall Street's sharpest minds like now",
+      "headline": "MongoDB (MDB) Stock Could Be 21% Undervalued Despite Price Target Cut",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=423577becdb7a0ab677858df85c278f352ea271165c68a21884ad1eba0bce0cd",
-      "datetime": 1795048620,
-      "summary": "Analysts at Oppenheimer and BTIG name three stocks they believe can carry investors for years to come."
+      "url": "https://finnhub.io/api/news?id=139d3461f3659ac83dd5e374ddfe56c6890ade808cb8db17863a227a728a29a1",
+      "datetime": 1795194591,
+      "summary": "MongoDB has seen its share price fall over multiple time frames, and the pullback raises a straightforward issue for investors who care about valuation. Do the cash flows that MongoDB can generate over time justify where the stock trades today. Over the past 5 years, MongoDB shareholders have seen the stock decline about 41.4%, which puts the focus squarely on whether the underlying cash flows sti"
     },
     {
-      "headline": "MongoDB: Need To See Profitability Improving Dramatically Before Upgrading",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=24e02df05c8c55db2c35a0f67a00520aafa5515f8cc07ede04385daeb220bdcb",
-      "datetime": 1794989341,
-      "summary": "MongoDB (MDB) stock is too expensive to buy before earnings despite expecting a beat; Q2 adjusted operating margin was 24%, versus 4% GAAP."
-    },
-    {
-      "headline": "MongoDB Buys Firebolt to Help AI Agents Make Split-Second Decisions",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=22840cca67b0497f3bb22e080c1fe217c424ef16d58ccc37355aa86374d7973a",
-      "datetime": 1794926783,
-      "summary": "MongoDB acquires Firebolt Analytics to boost real-time AI data capabilities and simplify infrastructure ahead of Q3 earnings."
-    },
-    {
-      "headline": "MongoDB's Biggest Advantage May Be GitLab's Biggest Weakness",
+      "headline": "Wall Street Wrap: ASTS, BE, MDB Stocks Win Bullish Calls As PEP, USAR, SMMT Face Downgrades",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=db63045e20304e2fb61aa401d53e7838e6abeec9ac9892e7e269002d2dd93ef7",
-      "datetime": 1794918900,
-      "summary": "MongoDB's data moat and Atlas growth make it a stronger AI play than GitLab, which faces competitive threats from Microsoft's GitHub and cybersecurity rivals."
+      "url": "https://finnhub.io/api/news?id=3aecd58546fd78360f762e25aabf173c6936d134c42d4c4737bc0c0a8aab4c0f",
+      "datetime": 1795169690,
+      "summary": "Analysts showed more confidence in growth stocks while turning cautious on companies facing execution challenges."
+    },
+    {
+      "headline": "Snowflake Has Cooled Off This Fall: Why Oppenheimer Sees 77% Upside",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=518affd5e829f5da11d3d05167ae90af44ef3d90f293a934fe77b6915da7d152",
+      "datetime": 1795167585,
+      "summary": "Key TakeawaysOppenheimer kept its $475 price target on Snowflake on Nov. 18."
+    },
+    {
+      "headline": "MongoDB faces lower expectations ahead of earnings as Bank of America cuts price target",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=84ad69ff38da23e1319e9f9fbe69df08006eeda5373b7924fce8a1e7551e5266",
+      "datetime": 1795114500,
+      "summary": "MongoDB Inc (NASDAQ:MDB) faces a lower bar for growth when it reports third-quarter financial year 2027 results on December 1, with Bank of America (BofA) warning that concerns about execution have reduced expectations for its Atlas cloud database business. The brokerage reiterated its 'buy'..."
+    },
+    {
+      "headline": "How MongoDB Survived a CEO Shakeup to Become a Quiet AI Play",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7cdefd57300f9d0e9e9a6f03866d04addf1173f443c0b47dfbcbf45bb5e628f6",
+      "datetime": 1795105680,
+      "summary": "UBS, Oppenheimer, and KeyBanc are all positive on the document database stock, despite the sudden departure of its top leader in September."
     }
   ],
   "filings": [
@@ -82,54 +82,54 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-19",
+  "data_asof": "2026-11-20",
   "price": {
-    "last": 297.01,
-    "open": 320.13,
-    "prev_close": 306.71,
-    "move_day_pct": -3.16,
-    "move_open_close_pct": -7.22,
-    "move_week_pct": -12.59
+    "last": 285.9,
+    "open": 290.84,
+    "prev_close": 297.01,
+    "move_day_pct": -3.74,
+    "move_open_close_pct": -1.7,
+    "move_week_pct": -14.45
   },
   "indicators": {
     "rsi14": {
-      "value": 36.4,
+      "value": 33.9,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -16.331,
-      "signal": -13.216,
-      "hist": -3.115,
-      "hist_prev": -2.691,
+      "macd": -17.973,
+      "signal": -14.168,
+      "hist": -3.806,
+      "hist_prev": -3.115,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 400.17,
-      "lower": 278.2,
-      "mid": 339.19,
-      "pctb": 0.154,
+      "upper": 398.26,
+      "lower": 271.6,
+      "mid": 334.93,
+      "pctb": 0.113,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 31.45,
-      "read": "31% above its 52-week low"
+      "value": 26.53,
+      "read": "27% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -37.11,
-      "read": "37% below its 52-week high"
+      "value": -39.47,
+      "read": "39% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 333.25,
-      "pct": -10.87,
-      "read": "11% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 333.04,
+      "pct": -14.15,
+      "read": "14% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 21.89,
-      "pct_of_price": 7.37,
+      "value": 21.68,
+      "pct_of_price": 7.58,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.87,
+      "value": 1.13,
       "read": "Roughly average volume"
     },
     "mfi14": {
@@ -139,6 +139,6 @@
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 360.15,
-  "ma200": 333.25
+  "ma50": 358.62,
+  "ma200": 333.04
 }
