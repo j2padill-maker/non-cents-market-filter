@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-20T19:28:29.192239-08:00",
+  "generated_at": "2026-11-21T16:53:29.378198-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "BofA Cut Its Snowflake Target to $400 From $470. It Still Sees 56% Upside",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e5eb48263a085b4e5eea7e8d9f92c525da4990c73642cd2691362fb17cc8e2ed",
+      "datetime": 1795256308,
+      "summary": "Key TakeawaysBank of America cut its Snowflake price target to $400 from $470 on Nov. 20 and kept its Buy rating, leaving 56% upside."
+    },
+    {
+      "headline": "How Investors Are Reacting To MongoDB Stock Buy Upgrade",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7f62e3d8ccda5dac582c148d8c9e30127835675315c625530633ca8fc3974b6e",
+      "datetime": 1795252376,
+      "summary": "MongoDB reported that its Atlas for Government service previously achieved FedRAMP Class D High certification across AWS, Azure Government and Google Cloud, allowing US public sector customers to deploy one operational database platform across the three environments. This multi cloud, government grade status gives MongoDB a way to pitch consistent architecture and reduced reengineering costs to ag"
+    },
+    {
+      "headline": "Can Twilio's Record Profit Margin Last?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=485a459192d88a1bfce14992538dc816c466de1928a62078f7206f9866b12178",
+      "datetime": 1795242767,
+      "summary": "Today's big story: Will 2027 Be A 2022 Repeat For Stocks."
+    },
     {
       "headline": "Is MongoDB (MDB) Undervalued On Its FedRAMP High Approval?",
       "source": "Yahoo",
@@ -31,32 +52,11 @@
       "summary": "MongoDB has seen its share price fall over multiple time frames, and the pullback raises a straightforward issue for investors who care about valuation. Do the cash flows that MongoDB can generate over time justify where the stock trades today. Over the past 5 years, MongoDB shareholders have seen the stock decline about 41.4%, which puts the focus squarely on whether the underlying cash flows sti"
     },
     {
-      "headline": "Wall Street Wrap: ASTS, BE, MDB Stocks Win Bullish Calls As PEP, USAR, SMMT Face Downgrades",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3aecd58546fd78360f762e25aabf173c6936d134c42d4c4737bc0c0a8aab4c0f",
-      "datetime": 1795169690,
-      "summary": "Analysts showed more confidence in growth stocks while turning cautious on companies facing execution challenges."
-    },
-    {
-      "headline": "Snowflake Has Cooled Off This Fall: Why Oppenheimer Sees 77% Upside",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=518affd5e829f5da11d3d05167ae90af44ef3d90f293a934fe77b6915da7d152",
-      "datetime": 1795167585,
-      "summary": "Key TakeawaysOppenheimer kept its $475 price target on Snowflake on Nov. 18."
-    },
-    {
-      "headline": "MongoDB faces lower expectations ahead of earnings as Bank of America cuts price target",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=84ad69ff38da23e1319e9f9fbe69df08006eeda5373b7924fce8a1e7551e5266",
-      "datetime": 1795114500,
-      "summary": "MongoDB Inc (NASDAQ:MDB) faces a lower bar for growth when it reports third-quarter financial year 2027 results on December 1, with Bank of America (BofA) warning that concerns about execution have reduced expectations for its Atlas cloud database business. The brokerage reiterated its 'buy'..."
-    },
-    {
-      "headline": "How MongoDB Survived a CEO Shakeup to Become a Quiet AI Play",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7cdefd57300f9d0e9e9a6f03866d04addf1173f443c0b47dfbcbf45bb5e628f6",
-      "datetime": 1795105680,
-      "summary": "UBS, Oppenheimer, and KeyBanc are all positive on the document database stock, despite the sudden departure of its top leader in September."
+      "headline": "On June 30, ClearOne Declared A One-time Special Stock Dividend To Provide Its Legacy Stockholders With A 100% Stake In The Proceeds From An Eventual Sale, The Board Of Directors Fixed July 11, 2025 As The Record Date For The Special Stock Dividend, And Will Be Payable On July 18, 2025",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=60ace17f87a81cfaebed9f22dfdef47c76e3335e320f0f9f19e3983120d26a8f",
+      "datetime": 1795188355,
+      "summary": ""
     }
   ],
   "filings": [

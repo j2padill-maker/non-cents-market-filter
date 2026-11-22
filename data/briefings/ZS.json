@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-20T19:28:53.806997-08:00",
+  "generated_at": "2026-11-21T16:53:44.675781-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "Why Cybersecurity Dodged The AI Crash",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=7482b83e37e25de6d354badd78f31a834df5da4c973dbe53f1f6bdf302d5d4b4",
+      "datetime": 1795257000,
+      "summary": "The cybersecurity sector has remained exceptionally resilient, despite the bloodbath in the AI trade, given the recent surge in security incidents recently."
+    },
+    {
+      "headline": "BMO Raises Its Palo Alto Networks Target to $425. Is It Still Too Low?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=52949a2746f34610d1cda3f81410787f5d073a0b4244b4cc2d392136d1e70ca8",
+      "datetime": 1795256247,
+      "summary": "Key TakeawaysBMO Capital raised its Palo Alto Networks price target to $425 from $415 after a fiscal first quarter in which revenue grew 39% and management raised its full-year guidance. At the $4."
+    },
+    {
+      "headline": "HACK Vs. CIBR: Pure-Play Beats Diversified For 2027",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=97664be1eb684a0a51bd628447a36e873620ae811d79c0e5c95307f02d8f1978",
+      "datetime": 1795255200,
+      "summary": "HACK and CIBR are rated Buys, preferring HACK for 2027 for its vendor exposure, as Gartner projects AI security spending to rise from $2.8B to $4.8B."
+    },
+    {
+      "headline": "Zscaler (ZS) Draws Takeover Interest In Reported Acquisition Talks",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=dd05bc05957586193df0dae9d6bb2727dda2a0136e692ab5cf2c2dc990efc62e",
+      "datetime": 1795245357,
+      "summary": "CrowdStrike Holdings is reportedly in talks to acquire Zscaler (NasdaqGS: ZS) in a major cybersecurity sector deal. The potential transaction would be one of the largest mergers in cloud and AI driven security so far. Discussions reportedly focus on combining Zscaler's zero trust network security platform with CrowdStrike's endpoint and AI security tools. This reported CrowdStrike bid for Zscaler "
+    },
+    {
+      "headline": "Crowd Pleaser\u2026.Crowdstrike  Wants to Buy Zscaler",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=606d6034b18d55cbabb918f08286169671a8c96048125a116b6b3b2dbbcc9de9",
+      "datetime": 1795228173,
+      "summary": "Here\u2019s why this could be a game changer for cybersecurity investors."
+    },
+    {
       "headline": "CrowdStrike, Zscaler Merger Would Create Cybersecurity Giant",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=8db09f48a9a0d3285ad7db8b1609f2f3e7a3f02e77d91e03993324f1d8c4e7a6",
       "datetime": 1795218974,
       "summary": "CrowdStrike stock fell and Zscaler stock popped amid a report the companies are in merger talks. A deal would create a cybersecurity giant."
-    },
-    {
-      "headline": "Dow Jones Futures: Market Has Worst Week Since Covid Amid Nvidia, Anthropic. Does Fear Gauge Offer Hope?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a461bf9206b72f4ed5bbda580ba12f32748c5dc1fc3ce52df1fae999182f1a09",
-      "datetime": 1795216509,
-      "summary": "The Dow Jones and Nasdaq had their worst week since March 2020, fueled by Nvidia and Anthropic. A fear gauge is soaring. Good news?"
-    },
-    {
-      "headline": "Zscaler stock soars on reports that CrowdStrike is eyeing a possible buyout",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d0d702477200bd7de27947ae53da8e9e31c9322c7afe744539a4202b43e99ef4",
-      "datetime": 1795214717,
-      "summary": "Zscaler (ZS) shares are surging in Friday's after-hours trading following Bloomberg reporting that CrowdStrike (CRWD) is in talks to buy the cybersecurity firm."
-    },
-    {
-      "headline": "Zscaler Stock Soars 18% On CrowdStrike Takeover Report. $32 Billion Cybersecurity Deal In Focus.",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6d44554045e0820ee0898aad07aaaacbc0f2af302b33950cffb3d1b7e35817a8",
-      "datetime": 1795213660,
-      "summary": "Zscaler shares jumped about 18% after a report that CrowdStrike was discussing a takeover of the cybersecurity company, valued at roughly $32 billion."
-    },
-    {
-      "headline": "ZS Stock Soars After-Hours While CRWD Slips On Reported $265B Takeover Talks",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5e8194d46d84cb6ea01444bfbe556aefca9123f32bb150bcea73719e84e1b7ff",
-      "datetime": 1795212962,
-      "summary": "CrowdStrike is in talks to buy Zscaler, according to people familiar with the matter cited by Bloomberg."
-    },
-    {
-      "headline": "CrowdStrike Said in Talks to Buy Cybersecurity Firm Zscaler",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=283bf4d8484ab6b19ba4abb588c174e7ba4304d840c4f4696966e90eee8f22d8",
-      "datetime": 1795211766,
-      "summary": "CrowdStrike Holdings Inc.\u00a0is in talks to acquire\u00a0Zscaler Inc., according to people familiar with the matter, in a deal that would be among the largest-ever in the cybersecurity sector. Zscaler, which had a market value of $32 billion at the end of regular trading Friday, rose about 16% after the close. The two companies are discussing a potential combination that could come together soon, the peop"
     }
   ],
   "filings": [

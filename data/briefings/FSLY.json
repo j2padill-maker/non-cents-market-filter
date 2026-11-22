@@ -2,7 +2,7 @@
   "ticker": "FSLY",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-20T19:28:58.134833-08:00",
+  "generated_at": "2026-11-21T16:53:47.087871-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "On June 30, ClearOne Declared A One-time Special Stock Dividend To Provide Its Legacy Stockholders With A 100% Stake In The Proceeds From An Eventual Sale, The Board Of Directors Fixed July 11, 2025 As The Record Date For The Special Stock Dividend, And Will Be Payable On July 18, 2025",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=60ace17f87a81cfaebed9f22dfdef47c76e3335e320f0f9f19e3983120d26a8f",
+      "datetime": 1795188355,
+      "summary": ""
+    },
     {
       "headline": "Are Computer and Technology Stocks Lagging  Fastly (FSLY) This Year?",
       "source": "Yahoo",
@@ -49,13 +56,6 @@
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=8bd4a715a3b2195ca66cbccb43a2866b728fa38a8a48d79756e7dfde60789c20",
       "datetime": 1795086539,
-      "summary": "Today's big story: Could Anthropic Stock Fall 25."
-    },
-    {
-      "headline": "Has Buying Fastly Stock's Dips Paid Off?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6e29e7703ed254ccc2d8ba6230b7aad25ba320111744672a63e4310918d4fbb8",
-      "datetime": 1795086032,
       "summary": "Today's big story: Could Anthropic Stock Fall 25."
     }
   ],

@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-20T19:28:50.456309-08:00",
+  "generated_at": "2026-11-21T16:53:42.720204-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Weekly Commentary: Crisis Dynamics Unleashed",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=2c383cacc2555394126263692e16c229f4a9f13abb982623ce40d78521b48dc2",
+      "datetime": 1795274400,
+      "summary": "For the week, the U.S. Dollar Index added 0.4% to 103.84 (up 5.6% y-t-d). On the upside, the Japanese yen increased 0.7%."
+    },
+    {
+      "headline": "The AI Trade: A Race Between Adoption And Expectations",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=09ddfbfcaf15dca5118ce39d823974838ee6f5f3fe5e407d5385c2c7eafcb534",
+      "datetime": 1795250700,
+      "summary": "Emergence of AI is triggering rapid and structural change across economy, and is shaping up to be a disruptive innovation that has the potential to leave a lasting mark on entire industries."
+    },
+    {
+      "headline": "The Gales Of November",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=7d6aff162a05e2b3e1eb6959c43987ab2bf3bd2c66e8d0dcc057f44618a78695",
+      "datetime": 1795231200,
+      "summary": "Financial markets have been dealing with their own version of the gales of November for several weeks, and the turbulence ramped up in intensity this week."
+    },
     {
       "headline": "AI Volatility Puts Diversification In Focus",
       "source": "SeekingAlpha",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=29e52b5e64cb17f9fbc77270f2ee59013bf6dc925d0cfbb530fb3092e0ce3d4c",
       "datetime": 1795168020,
       "summary": "For the upcoming fourth-quarter GDP report, the AI buildout is still expected to be a positive force for economic growth."
-    },
-    {
-      "headline": "Anthropic's IPO Funds The Chip Boom, While Falling AI Prices Strain Its Compute Commitments",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=578ee91b7f23425f2e60c619c132d374d3cb561266fe5852e73a0af997e80f74",
-      "datetime": 1795155600,
-      "summary": "The money Anthropic's IPO has raised will go to the chipmakers - to secure more compute. That's the boom. The risk is the company has committed about $900 bl to future purchases and leases."
-    },
-    {
-      "headline": "Above The Noise: 10 Things Investors Can Be Thankful For",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=391b8d72a40abab638ac9f70c876416583e41cd65897fbe32544810ec7cb5948",
-      "datetime": 1795145940,
-      "summary": "Tariffs, wars, higher rates, and inflation threatened economic expansion, yet the global economy grew, with the IMF expecting 3.1% growth in 2026 and 3.4% in 2027."
-    },
-    {
-      "headline": "2027 Equity Outlook: A Broader Foundation For Growth",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=1cb8975cddb64a485f4232c91158c29c87471718374794d949caeeaac320f347",
-      "datetime": 1795073280,
-      "summary": ""
     }
   ],
   "filings": [],

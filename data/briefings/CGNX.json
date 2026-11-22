@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-20T19:28:42.042787-08:00",
+  "generated_at": "2026-11-21T16:53:37.749681-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Cognex Sees More Margin Upside, Targets Deeper Customer Ties in 2027",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8bbdb1db3fbc08e01d20b8e2402d8d8bd5dda987c55f6bca513bcc6a8ae26aca",
+      "datetime": 1795270329,
+      "summary": "Cognex (NASDAQ:CGNX) sees room to expand margins further and plans to shift its sales focus toward deepening relationships with recently acquired customers, Chief Financial Officer Dennis Fehr said at a Stephens conference in Nashville. Fehr also outlined the rationale for the company\u2019s announced R"
+    },
+    {
+      "headline": "Phaos Technology Shares Halted On Circuit Breaker To The Downside, Stock Now Down -47.57%",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=ddb6c18d9d2a8e4a1cb94ba37a0952ae16edfd9b683db2d55328ce750b9e77aa",
+      "datetime": 1795185854,
+      "summary": ""
+    },
     {
       "headline": "Cognex (CGNX) Stock Looks Fully Priced After A 38% Run",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=9fc89ac3157dffe059b520ccce66b485ab2ee2ef6f7721802143a6d37d5d3ee9",
       "datetime": 1795096979,
       "summary": "Cognex Corporation (CGNX) 2026 Stephens Annual Investment Conference | NASH2026 November 19, 2026 9:45 AM ESTCompany ParticipantsDennis Fehr - Senior VP of..."
-    },
-    {
-      "headline": "Artisan Global Discovery Fund Q3 2026 Portfolio Activity",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=4f97526bab03032f3fbf08f91c7fee914d6440007e9fd2e7bf5d39db02682641",
-      "datetime": 1794977160,
-      "summary": "During the quarter, we initiated new positions in Manhattan Associates, Okta and Clean Harbors."
-    },
-    {
-      "headline": "A $4.2 Billion Fund Dumps These 3 Stocks",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5cdf985042cc28c238e5b81b0c42ffdf40a6442401acb717440c3b338f4d967e",
-      "datetime": 1794942677,
-      "summary": "Key TakeawaysElectron Capital Partners, a firm that manages $4. 2 billion, sold out of Coherent, Cognex and Keysight Technologies in the third quarter, its 13F shows."
     }
   ],
   "filings": [

@@ -2,7 +2,7 @@
   "ticker": "CAT",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-20T19:29:02.533545-08:00",
+  "generated_at": "2026-11-21T16:53:49.570674-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "3 Machinery Dividend Stocks to Buy in December After a Brutal Selloff",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=54cb6f30bea71183470d8ddad656b9bfb54dd0fd486c5665857c12ab5e8db86c",
+      "datetime": 1795270046,
+      "summary": "Caterpillar, Deere, and Emerson all tumbled in a single week, yet their payouts barely strain earnings. One of them hasn't raised its dividend in nearly two years, and this month's board decision could change the story for income investors."
+    },
+    {
+      "headline": "The Dow Jones Did Something It Hasn\u2019t Done Since October 2008",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f77cafdb243fb5dfdd57b7fff1ecaea28bfd9977ac281269361dfc9dc834ba36",
+      "datetime": 1795269198,
+      "summary": "Five brutal sessions erased nearly all of the Dow's 2026 gains, yet the biggest AI name barely moved the index. Two high-priced stocks did the real damage, and the last time this happened, a rally fooled almost everyone."
+    },
+    {
+      "headline": "Cathie Wood and 10 Other Big Funds Sold Caterpillar Last Quarter, While 13 Bought. Who\u2019s Right?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7bcb2af4cadc84d2fc878328e864c99d9e6d0073b557c311530992017b0754ef",
+      "datetime": 1795260047,
+      "summary": "Key TakeawaysOf the 460 big funds that have filed 13Fs for the third quarter, 13 bought Caterpillar and 11 sold, Cathie Wood\u2019s ARK Invest among the sellers. The sellers moved far more money: Alphinity Investment Management\u2019s cut was worth about $181 million, against about $21 million for the biggest buy."
+    },
+    {
+      "headline": "Cathie Wood Just Sold $11 Million of Deere",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7411c1ffe666002dc5bc1cd2a0846261a2389b19cef50184aeb6e4cc15d6b484",
+      "datetime": 1795258673,
+      "summary": "Key TakeawaysCathie Wood\u2019s ARK Invest sold 17,414 shares of Deere from one ETF on Nov. 20, worth about $11 million at that day\u2019s close."
+    },
+    {
+      "headline": "Dow Jones Losers on Nov. 20, 2026: NVIDIA and Goldman Sachs Lead Declines",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=7aa175c311278ecbd1275fc71ee85e229a63315da628b158e8fdd3255c2db5a1",
+      "datetime": 1795205470,
+      "summary": "Dow Jones losers on Nov. 20, 2026: NVIDIA fell 11.8% and Goldman Sachs 6.13%, leading declines also seen in Caterpillar, Cisco, Amazon, Nike, JPMorgan, Boeing, and Microsoft."
+    },
+    {
       "headline": "Why Did The Trade Deficit Nearly Triple To $105 Billion?",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=6830fa70b50a9b0c2c2185e20e80148b592a13b4248488d2b499eaaca84c315d",
       "datetime": 1795202821,
       "summary": "Today's big story: Will 2027 Be A 2022 Repeat For Stocks."
-    },
-    {
-      "headline": "Caterpillar (CAT) Completes Ultra Low Methane Field Trial For Remote Gas Compression",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=920678b73450a4aace0813a27c394c51fca712a0250885f5993e7a88ec65bf32",
-      "datetime": 1795201733,
-      "summary": "Caterpillar (NYSE:CAT) reported a successful field trial of a large horsepower gas compression system with ultra low methane emissions. The trial, conducted with Phoenix Service Partners, targeted remote natural gas compression operations without relying on grid connectivity. Field results indicated materially lower methane and other harmful emissions compared with conventional gas compression set"
-    },
-    {
-      "headline": "Caterpillar Sinks 11% in a Week to a New 52-Week Low. Is the Selling Overdone?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0b241d413782f4d73b49fc065f7a76d1c599eae5e9b7c594b4875e7e5620d4bf",
-      "datetime": 1795190750,
-      "summary": "Key TakeawaysCaterpillar fell 11% in the past week to a new 52-week low, about half its June high, as the AI-infrastructure sell-off also hit Vertiv and Bloom Energy. Caterpillar had no bad news of its own, and management told a Bernstein event it sees a favorable 2027."
-    },
-    {
-      "headline": "Caterpillar\u2019s 35% 3-Month Downturn: This Sell-Side Firm Predicts 90% Returns From Here With Another Close Behind",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=53c35fb806f87705e80275fda749547370488f9758d09654fe6f22ef25655d9b",
-      "datetime": 1795189559,
-      "summary": "Caterpillar posted record backlog and still lost a third of its value in three months while Deere and CNH held firm. Two firms say the damage is overdone, but one number in January could prove them wrong."
-    },
-    {
-      "headline": "AI Stocks Tumble Across the Globe as Slowdown Fears Mount",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d4c910db6db49b3c7fec0ba180945133468e58658f548b77847fbab17c71ff39",
-      "datetime": 1795177920,
-      "summary": "Nasdaq futures were lower as the index headed toward its worst one-week performance since Trump\u2019s April 2025 imposition of sweeping tariffs, and stocks fell across the globe as sentiment around the AI trade deteriorated further."
-    },
-    {
-      "headline": "State Street Industrial Select Sector SPDR (XLI) Adds GE and RTX on Wednesday",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=bbbd4a514375801948d368f18687af6ee96338c6204ed214e1c61d55ed5da7d1",
-      "datetime": 1795172701,
-      "summary": "The fund bought $169.2 million of stocks, adding to 82 positions and selling none, with $11.3 million of General Electric the largest purchase."
     }
   ],
   "filings": [

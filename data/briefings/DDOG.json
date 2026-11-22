@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-20T19:28:34.946585-08:00",
+  "generated_at": "2026-11-21T16:53:33.496587-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,27 @@
   ],
   "news": [
     {
+      "headline": "Palantir Just Dropped 25% in a Month. Is It Time to Sell, or Load Up?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d3c8618543cd2676d4a508780afa33bd9ba502f029a8962d5968c97989e485b1",
+      "datetime": 1795270955,
+      "summary": "Key TakeawaysPalantir stock fell 25% in the past month, even though third-quarter revenue grew 96% and the company raised its full-year guidance. Slower bookings, worries about the Pentagon budget under a Democratic Congress, and Anthropic\u2019s IPO gave investors reasons to pay less, while Datadog fell even further in the same AI software selloff."
+    },
+    {
+      "headline": "BofA Cut Its Snowflake Target to $400 From $470. It Still Sees 56% Upside",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e5eb48263a085b4e5eea7e8d9f92c525da4990c73642cd2691362fb17cc8e2ed",
+      "datetime": 1795256308,
+      "summary": "Key TakeawaysBank of America cut its Snowflake price target to $400 from $470 on Nov. 20 and kept its Buy rating, leaving 56% upside."
+    },
+    {
+      "headline": "S&P 500 After-Hours Gainers: DDOG, HBAN Lead Postmarket Session",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=f31d983d4a478498cc13b273ad7c4c34ac24a575287b228e6a527a3580ed5444",
+      "datetime": 1795212356,
+      "summary": "S&P 500 after-hours gainers for the postmarket session include DDOG, HBAN, TDG, P, OKTA, KEY, AMAT, INTC, ORCL and COHR, recovering from session declines."
+    },
+    {
       "headline": "Full-Stack Observability Services Global Market Report 2026 | Capitalize on 22.7% CAGR Through 2030: Datadog, Dynatrace, Elastic, Grafana Labs, and PagerDuty Scale AI Observability",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=87d517d35235a665b6525edb7b46da231c93364464c44c35b8a3871c0306a1a1",
@@ -24,39 +45,18 @@
       "summary": "Boost ROI with unified cloud observability, AI anomaly detection, real-time root-cause analysis, distributed tracing, managed services and proactive optimization.Dublin, Nov. 20, 2026 (GLOBE NEWSWIRE) -- \"Full-Stack Observability Services Market Report 2026\" has been added to ResearchAndMarkets.com's offering. The global full-stack observability services market is experiencing exponential growth a"
     },
     {
+      "headline": "Oracle Stock Sinks to New 52-Week Low Amid Tech Selloff and Nasdaq Woes",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=b9abd44712bdd44e34cc8eed95489ac8643c47d19eae696fbf35bf4bb259237c",
+      "datetime": 1795181687,
+      "summary": "Oracle Corp. (NYSE: ORCL) shares are tumbling Friday to a new 52-week low Friday along with other software stocks in a wider tech retreat."
+    },
+    {
       "headline": "Snowflake Stock And Two AI Software Names Investors Are Watching Now",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=53b98d9d97d0983cfaecf60b2df272d26bcc280bfbd00c4404e4e613d1a145be",
       "datetime": 1795180367,
       "summary": "The Anthropic IPO just turned AI from a theme into a scoreboard, with a US$100b raise and a market value above US$1.3t pulling cash toward anything tied to this story and away from broad indices that recently slipped 2%. That kind of stampede can reward some stocks and leave others behind. This article breaks down 3 stocks exposed to the same news shock so you can judge where the real opportunity "
-    },
-    {
-      "headline": "Here is What to Know Beyond Why Datadog, Inc. (DDOG) is a Trending Stock",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b8cccb8d89fc176a667890773879957ac6dc9864eae6946c76b75a051fcf3772",
-      "datetime": 1795179603,
-      "summary": "Zacks.com users have recently been watching Datadog (DDOG) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects."
-    },
-    {
-      "headline": "A Lesson In Picking Your Spots: The Curious Case Of Nebius (Rating Upgrade)",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=55d86c782a6e4ab6b89e79f083282460c2d5648a82c3c7cffc6d8bc7610d99c9",
-      "datetime": 1795168071,
-      "summary": ""
-    },
-    {
-      "headline": "Snowflake Has Cooled Off This Fall: Why Oppenheimer Sees 77% Upside",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=518affd5e829f5da11d3d05167ae90af44ef3d90f293a934fe77b6915da7d152",
-      "datetime": 1795167585,
-      "summary": "Key TakeawaysOppenheimer kept its $475 price target on Snowflake on Nov. 18."
-    },
-    {
-      "headline": "How Conservative Guidance At Datadog (DDOG) Has Changed Its Investment Story",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=499dc78bf0250b89214006a00fbeba5a57f39438db820239bff1f86b89c5abbf",
-      "datetime": 1795151784,
-      "summary": "Datadog has moved to a more cautious growth outlook after Q3 2026, citing uncertainty around spending from its largest AI customer and the timing of renewal discounts, even as its Infrastructure Monitoring business reaches over US$2b in annual recurring revenue and AI products see early adoption. Beyond guidance, Datadog is pushing deeper into complex enterprise workloads through a MinIO partnersh"
     }
   ],
   "filings": [

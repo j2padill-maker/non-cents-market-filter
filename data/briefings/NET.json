@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-20T19:28:37.045239-08:00",
+  "generated_at": "2026-11-21T16:53:34.623522-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,11 +17,25 @@
   ],
   "news": [
     {
+      "headline": "HACK Vs. CIBR: Pure-Play Beats Diversified For 2027",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=97664be1eb684a0a51bd628447a36e873620ae811d79c0e5c95307f02d8f1978",
+      "datetime": 1795255200,
+      "summary": "HACK and CIBR are rated Buys, preferring HACK for 2027 for its vendor exposure, as Gartner projects AI security spending to rise from $2.8B to $4.8B."
+    },
+    {
       "headline": "Cloudflare And 2 Other Top Cybersecurity Stocks",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=a8a90b6220fa497f3ddeea3404249a4831bb6be5edb4637d6ce3db3f4598e6e5",
       "datetime": 1795216490,
       "summary": "Banks are scrambling to fix fresh cyber weak spots as AI tools help attackers find flaws faster than defenders can patch them. That arms race puts digital security providers in the spotlight, because every outage or breach risk pushes budgets toward protection. For investors, that is where this screener comes in, highlighting globally listed cybersecurity stocks with high growth expectations and s"
+    },
+    {
+      "headline": "On June 30, ClearOne Declared A One-time Special Stock Dividend To Provide Its Legacy Stockholders With A 100% Stake In The Proceeds From An Eventual Sale, The Board Of Directors Fixed July 11, 2025 As The Record Date For The Special Stock Dividend, And Will Be Payable On July 18, 2025",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=60ace17f87a81cfaebed9f22dfdef47c76e3335e320f0f9f19e3983120d26a8f",
+      "datetime": 1795188355,
+      "summary": ""
     },
     {
       "headline": "Stock Market Today: Anthropic Soars on Debut While the Rest of Wall Street Sinks",
@@ -38,25 +52,11 @@
       "summary": "Zacks.com users have recently been watching Cloudflare (NET) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects."
     },
     {
-      "headline": "ETFs Bought $14.0 Million of Cloudflare (NET) on Nov. 18",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c7cd61f6cca4c8fa332743d613d5c4a7ec678bc5b521ee91595830489a5d2132",
-      "datetime": 1795172495,
-      "summary": "ETFs added $14.0 million of Cloudflare on a fifth straight day of net buying."
-    },
-    {
-      "headline": "Palo Alto\u2019s CEO Says AI Security \u201cCould Be Bigger Than What We Do Today.\u201d Here\u2019s the Math",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=18e09ad69a3c39d0ca2fd18bbf102f731e1c869d657fbf80a0c56f38a586c14c",
-      "datetime": 1795127852,
-      "summary": "Key TakeawaysPalo Alto Networks beat its guidance and raised its fiscal 2027 revenue outlook, and shares jumped 6%. CEO Nikesh Arora\u2019s own figures put AI security spending at $30 billion to $50 billion a year by 2029, more than analysts expect Palo Alto and CrowdStrike to bring in combined in fiscal 2029."
-    },
-    {
-      "headline": "Cybersecurity Stocks Rise as Investors Bet on AI-Era Defense Spending",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=737b6c9598eca1a3331491d905b93174294064d455fe7ae32bc5994106609782",
-      "datetime": 1795125120,
-      "summary": "Market Updates News Commentary - Cybersecurity stocks moved higher on Thursday. Palo Alto Networks reported fiscal first-quarter results after Wednesday's close and raised its annual forecast, and Reuters reported that the outlook lifted cybersecurity stocks as investors bet companies will spend big on defending against sophisticated AI-enabled digital attacks. The move came in a session where the"
+      "headline": "Why Is Cloudflare Stock Falling on Friday?",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=d8aced820010f119cbc56664b9b68473732ea5997947c10ac9efcd87404d8c6c",
+      "datetime": 1795178065,
+      "summary": "Cloudflare, Inc. (NYSE: NET) stock falls on Friday amid profit-taking and tech weakness after Palo Alto Networks&#39; earnings lifted cybersecurity stocks on Thursday."
     }
   ],
   "filings": [

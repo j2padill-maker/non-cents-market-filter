@@ -2,7 +2,7 @@
   "ticker": "TOELF",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-20T19:28:33.555466-08:00",
+  "generated_at": "2026-11-21T16:53:32.682677-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -65,56 +65,56 @@
   "status": "ok",
   "data_asof": "2026-11-20",
   "price": {
-    "last": 47.74,
+    "last": 48.19,
     "open": 51.63,
     "prev_close": 53.48,
-    "move_day_pct": -10.73,
-    "move_open_close_pct": -7.53,
-    "move_week_pct": -16.26
+    "move_day_pct": -9.89,
+    "move_open_close_pct": -6.66,
+    "move_week_pct": -15.47
   },
   "indicators": {
     "rsi14": {
-      "value": 31.8,
+      "value": 32.3,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -3.852,
-      "signal": -3.406,
-      "hist": -0.445,
+      "macd": -3.816,
+      "signal": -3.399,
+      "hist": -0.417,
       "hist_prev": -0.128,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 66.6,
-      "lower": 48.34,
-      "mid": 57.47,
-      "pctb": -0.033,
+      "upper": 66.52,
+      "lower": 48.46,
+      "mid": 57.49,
+      "pctb": -0.015,
       "read": "Below the lower band \u2014 stretched to the downside"
     },
     "pct_from_52w_low": {
-      "value": 29.75,
-      "read": "30% above its 52-week low"
+      "value": 30.97,
+      "read": "31% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -50.18,
+      "value": -49.71,
       "read": "50% below its 52-week high"
     },
     "price_vs_ma200": {
       "ma200": 64.44,
-      "pct": -25.92,
-      "read": "26% below its 200-day average \u2014 long-term downtrend"
+      "pct": -25.22,
+      "read": "25% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
       "value": 3.86,
-      "pct_of_price": 8.08,
+      "pct_of_price": 8.0,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.02,
+      "value": 0.36,
       "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 56.5,
+      "value": 55.4,
       "read": "Neutral money flow"
     }
   },

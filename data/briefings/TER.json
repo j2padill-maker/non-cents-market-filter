@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-20T19:28:48.403048-08:00",
+  "generated_at": "2026-11-21T16:53:41.382726-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "3 US AI Infrastructure Stocks With Earnings Growth Investors Should Watch",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=cde1f052e94558a51db326a424848ac2c32dcc0081d0d3785b62ecad684a566d",
+      "datetime": 1795299126,
+      "summary": "AI infrastructure has moved from niche theme to household talking point, with data centers, chips and cloud capacity now sitting at the crossroads of growth hopes, inflation worries and higher-for-longer interest rates. That mix is creating sharp separation between potential winners and everyone else. This article walks through three stocks exposed to these macro currents and AI buildout trends, h"
+    },
     {
       "headline": "Teradyne: 3 Key Takeaways for Long-Term Investors",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=8b33239fb09822a7bc5ee23997318134f1d60d7d22e2625f0e545bc220915d43",
       "datetime": 1795076100,
       "summary": "Analyst sees the supply-chain cycle maturing six years into the just-in-case era: inventories are at a record high, while the tracking ratio falls."
-    },
-    {
-      "headline": "Why Jefferies Calls Teradyne (TER) a \u201cCompute Test Company\u201d",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f7d024c95977c813cff91e1138d215565718a93731d7d1dbe38d2131ba94758c",
-      "datetime": 1795018220,
-      "summary": "We just published a list of the Forget Nvidia: 10 Stocks Wall Street is Betting on Right Now and Teradyne (NASDAQ:TER) ranked 8th on this list. Stocks ended a jumpy week with gains on paper and a sour finish. Reuters reported on November 13 that the S&P 500 fell 0.40% and the Nasdaq fell 0.91% [\u2026]"
     }
   ],
   "filings": [
