@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-21T16:53:29.378198-08:00",
+  "generated_at": "2026-11-22T18:49:21.446513-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Nvidia Shock Puts MongoDB Stock And Cloud Software Names Back In Focus",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=beda274ee20b4bb1755134d9b5f86ff354ac380cc2a27ee7555815582a76a932",
+      "datetime": 1795324540,
+      "summary": "AI infrastructure just absorbed a shock, with Nvidia\u2019s leadership turmoil, customer investigations and eye catching Q3 FY2027 numbers all hitting at once, and that ripple now runs straight through the cloud and data center operators that power this boom. Pricing for compute is changing, expectations are resetting and some stocks are suddenly being repriced. This article walks through three compani"
+    },
     {
       "headline": "BofA Cut Its Snowflake Target to $400 From $470. It Still Sees 56% Upside",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=139d3461f3659ac83dd5e374ddfe56c6890ade808cb8db17863a227a728a29a1",
       "datetime": 1795194591,
       "summary": "MongoDB has seen its share price fall over multiple time frames, and the pullback raises a straightforward issue for investors who care about valuation. Do the cash flows that MongoDB can generate over time justify where the stock trades today. Over the past 5 years, MongoDB shareholders have seen the stock decline about 41.4%, which puts the focus squarely on whether the underlying cash flows sti"
-    },
-    {
-      "headline": "On June 30, ClearOne Declared A One-time Special Stock Dividend To Provide Its Legacy Stockholders With A 100% Stake In The Proceeds From An Eventual Sale, The Board Of Directors Fixed July 11, 2025 As The Record Date For The Special Stock Dividend, And Will Be Payable On July 18, 2025",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=60ace17f87a81cfaebed9f22dfdef47c76e3335e320f0f9f19e3983120d26a8f",
-      "datetime": 1795188355,
-      "summary": ""
     }
   ],
   "filings": [

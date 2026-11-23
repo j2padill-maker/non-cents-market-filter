@@ -2,7 +2,7 @@
   "ticker": "AVGO",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-21T16:53:45.875658-08:00",
+  "generated_at": "2026-11-22T18:49:56.877257-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Cathie Wood Just Sold $6 Million of Broadcom",
+      "headline": "Her $420,000 in Employer Stock Inside Her 401(k) Lost 11% in a Day. Rolling It Into an IRA Would Turn Her Long-Term Gain Into Ordinary Income",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d72e8bce083a310be5269b05a4663fbbcea2e8f5b76a9e434ee9c4d974798ca1",
-      "datetime": 1795287092,
-      "summary": "Key TakeawaysCathie Wood\u2019s ARK Invest sold 19,314 shares of Broadcom from its ARKW fund on Friday, which comes to about $6 million at Friday\u2019s close. The sale is a small trim of a stake ARK nearly doubled in the third quarter."
+      "url": "https://finnhub.io/api/news?id=0a946c2f5ef5a2f8c26bc1bfa550a824e208b43ebb5931753ed5d06c1d3cfa19",
+      "datetime": 1795382223,
+      "summary": "A retiree sitting on a big Broadcom position in her 401(k) is one routine rollover form away from a tax bill she never saw coming. A little-known IRS rule offers another route, but the window to use it is narrow."
     },
     {
-      "headline": "Microsoft Was The Only Big AI Buyer Paying Down Debt. How Much More Can It Spend?",
+      "headline": "Google\u2019s 2027 chip plan is bad news for Broadcom",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2ac76c2db099bd9fb1ab2db3659307ff676ceab77eaa91de7ea6d312461e2621",
-      "datetime": 1795285923,
-      "summary": "Today's big story: Will 2027 Be A 2022 Repeat For Stocks."
+      "url": "https://finnhub.io/api/news?id=5b2072b921c43dc83744caba2fb305c4b2115dd3f9135dd9f113596e028ef960",
+      "datetime": 1795376820,
+      "summary": "A top supply-chain analyst says Google is changing what it buys, and Broadcom\u2019s higher-priced chip is taking most of the hit."
     },
     {
-      "headline": "Anthropic Owes $71 Billion for Compute Within a Year, \u201c87% of Current Run Rate Revenue,\u201d per Scott Galloway",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f0467f859df0a6e0a46472b6896fedca7ed8cd847d80907bd910ba495ec43284",
-      "datetime": 1795278047,
-      "summary": "Key TakeawaysScott Galloway says $71 billion of Anthropic\u2019s compute commitments come due within a year, a bill that reaches Amazon, Alphabet and Broadcom. With over $200 billion of cash after its IPO, Anthropic can pay it, so the bigger worry is its slowing revenue growth."
+      "headline": "Tracking Cathie Wood's ARK Invest 13F Portfolio - Q3 2026 Update",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=dab64c9b423438e8f1ead9360722ec081b1a3e98bcbf9874fb403d9971127eb0",
+      "datetime": 1795376636,
+      "summary": "ARK Invest's Q3 2026 13F portfolio rose from $15.40B to $17.37B as holdings fell to 182; Tesla and NVIDIA stakes both grew."
     },
     {
-      "headline": "ASML vs. Broadcom: Which Tech Stock Is a Better Buy for 2027?",
+      "headline": "Here's What a $1,000 Investment in Broadcom Stock Could Be Worth By 2035",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2483ce28086fa6b415d606c7ac8585b562516742c9fa7ced82b00115bd2912d2",
-      "datetime": 1795272062,
-      "summary": "ASML's near-monopoly on chip-printing machines faces off against Broadcom's networking empire, with a sharp valuation gap complicating the choice for growth investors."
+      "url": "https://finnhub.io/api/news?id=735178f64ff6039f6a4c770cf0fb7f6ede1e4e7f7a09ab753ee0cfeac52215c7",
+      "datetime": 1795375322,
+      "summary": "Broadcom's AI chip business is growing at an extraordinary pace. Here's how much a $1,000 investment could be worth by 2035 if the company delivers on its growth potential."
     },
     {
-      "headline": "3 AI Infrastructure Stocks to Watch Before Broadcom Reports on Dec. 9",
+      "headline": "Prediction: Dec. 9 Will Be a Huge Day for the Stock Market",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=fbf2af91c8d5287cd9e4e9b0866a79e35e631a2f324e5879ea24777e86b6a59e",
-      "datetime": 1795271235,
-      "summary": "One chip giant's earnings call could swing the power plants feeding every AI data center. We ranked three infrastructure plays by beats, guidance, and customer wins, and the winner may not be the one with the biggest earnings surprise."
+      "url": "https://finnhub.io/api/news?id=1a76e2dc6c721abd080d0c1387f1a1d02466b43a3865b9687c93b61e47fd35ea",
+      "datetime": 1795366382,
+      "summary": "Multiple market-moving events are set to converge."
     },
     {
-      "headline": "Billionaire Daniel Loeb\u2019s \u2018Bear Math\u2019: AI\u2019s $7 Trillion Spending Boom Faces a $3 Trillion Reality Check",
+      "headline": "Anthropic\u2019s Record-Breaking IPO Comes With a $1 Trillion Financial Burden Wall Street Can\u2019t Ignore",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8d42b9b9f91e7f6ba5460dd4376b6a04b124eb69c86a907194e6dd248b324565",
-      "datetime": 1795270423,
-      "summary": "Tech giants are racing to build the AI future, but a hedge fund manager has run the numbers on what it must earn to pay for it. His math, and the debt market's growing unease, point to a hurdle few investors are pricing in."
+      "url": "https://finnhub.io/api/news?id=8f41fb425418a79094807c347ae94996c6016e9a05b32a14094bd47eec833e94",
+      "datetime": 1795361773,
+      "summary": "Investors poured record money into Anthropic's debut, yet a number buried deep in the prospectus dwarfs everything raised. Why that figure could matter more than the soaring revenue, and which AI suppliers stand to feel it first?"
     }
   ],
   "filings": [

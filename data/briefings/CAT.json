@@ -2,7 +2,7 @@
   "ticker": "CAT",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-21T16:53:49.570674-08:00",
+  "generated_at": "2026-11-22T18:50:03.278068-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "3 Industrial Stocks Trading Above $500 a Share: Which One Splits First?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=dcb77ab46787daf847ed581a51eccbe0c8336bf3cf6ece6bcc4bafc2e00fb7a9",
+      "datetime": 1795318202,
+      "summary": "Caterpillar, Comfort Systems, and GE Vernova all have very high stock prices that a stock split would help address."
+    },
     {
       "headline": "3 Machinery Dividend Stocks to Buy in December After a Brutal Selloff",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=7aa175c311278ecbd1275fc71ee85e229a63315da628b158e8fdd3255c2db5a1",
       "datetime": 1795205470,
       "summary": "Dow Jones losers on Nov. 20, 2026: NVIDIA fell 11.8% and Goldman Sachs 6.13%, leading declines also seen in Caterpillar, Cisco, Amazon, Nike, JPMorgan, Boeing, and Microsoft."
-    },
-    {
-      "headline": "Why Did The Trade Deficit Nearly Triple To $105 Billion?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6830fa70b50a9b0c2c2185e20e80148b592a13b4248488d2b499eaaca84c315d",
-      "datetime": 1795202821,
-      "summary": "Today's big story: Will 2027 Be A 2022 Repeat For Stocks."
     }
   ],
   "filings": [

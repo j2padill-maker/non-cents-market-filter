@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-21T16:53:41.382726-08:00",
+  "generated_at": "2026-11-22T18:49:49.005785-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Teradyne (TER) Falls 36% Despite 70% Revenue Growth: Is a Recovery Ahead?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=5bf49b57a9f6cc281032e8652cac7438389fb763dac418c9623b3d60797eecb6",
+      "datetime": 1795366286,
+      "summary": "Among the companies highlighted in our recent list of 10 Oversold Stocks With 50%+ Upside Potential, Teradyne, Inc. (NASDAQ:TER) claimed the ninth position. Has the AI Boom Lost Its Momentum? The AI boom has rewarded early investors handsomely, but the opportunity now looks considerably less straightforward. After months of enthusiasm surrounding artificial intelligence, investors are [\u2026]"
+    },
     {
       "headline": "3 US AI Infrastructure Stocks With Earnings Growth Investors Should Watch",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=dd1fa2d72241e5c90a71523d4d70f08c777fc415868a124e3c6d9312c2e49cd9",
       "datetime": 1795106702,
       "summary": "Teradyne (TER) could produce exceptional returns because of its solid growth attributes."
-    },
-    {
-      "headline": "Build, Run, Harvest: The Just-In-Case Cycle Is Moving On",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=8b33239fb09822a7bc5ee23997318134f1d60d7d22e2625f0e545bc220915d43",
-      "datetime": 1795076100,
-      "summary": "Analyst sees the supply-chain cycle maturing six years into the just-in-case era: inventories are at a record high, while the tracking ratio falls."
     }
   ],
   "filings": [

@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-21T16:53:34.623522-08:00",
+  "generated_at": "2026-11-22T18:49:37.881969-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Billionaire Druckenmiller\u2019s New AI Thesis Could Crush These 5 Overvalued Cybersecurity Stocks",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c71b1a60c5f827c1e8bf44107bd72c1c3c85b1a213c6549667e748688641197e",
+      "datetime": 1795292507,
+      "summary": "Billionaire investor Stanley Druckenmiller told an interviewer, in remarks reported on November 19, 2026, that after nearly 50 years of investing he can barely remember a time when he had so little clarity about the next 12 months. He said \u201cI\u2019m not playing,\u201d described his net equity exposure as roughly flat, and said his goal [\u2026]"
+    },
+    {
+      "headline": "Snowflake Just Dropped 12% in a Week. RBC Still Sees \u201cClear AI Leadership.\u201d Time to Load Up?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=72f4d26201fec671801494202d5302b6927cce7f9cfe822ddd9b01dfc407b349",
+      "datetime": 1795277212,
+      "summary": "Key TakeawaysSnowflake fell 12% in the past week as the AI trade sold off, and the company itself had no bad news. RBC\u2019s Matthew Hedberg put Snowflake among the few software companies he sees with real AI acceleration, along with Cloudflare and CrowdStrike."
+    },
     {
       "headline": "HACK Vs. CIBR: Pure-Play Beats Diversified For 2027",
       "source": "SeekingAlpha",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=b181052c928841f2ce7f710021324dc11b2ad2e03e69948ff8d2b5c8bc14263d",
       "datetime": 1795182729,
       "summary": "Anthropic jumped on its first trading day after the largest IPO ever, but the Nasdaq reversed an early gain and closed sharply lower. AMD slid on short-seller claims, Palo Alto rallied and Fed rate-hike talk weighed on growth stocks."
-    },
-    {
-      "headline": "Here is What to Know Beyond Why Cloudflare, Inc. (NET) is a Trending Stock",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8cb18003b90bcf6d9e55553d39bc5ef2e8594bd4ded1f020d27d896011c73ba9",
-      "datetime": 1795179603,
-      "summary": "Zacks.com users have recently been watching Cloudflare (NET) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects."
-    },
-    {
-      "headline": "Why Is Cloudflare Stock Falling on Friday?",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=d8aced820010f119cbc56664b9b68473732ea5997947c10ac9efcd87404d8c6c",
-      "datetime": 1795178065,
-      "summary": "Cloudflare, Inc. (NYSE: NET) stock falls on Friday amid profit-taking and tech weakness after Palo Alto Networks&#39; earnings lifted cybersecurity stocks on Thursday."
     }
   ],
   "filings": [

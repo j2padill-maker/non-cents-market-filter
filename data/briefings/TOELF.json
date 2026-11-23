@@ -2,7 +2,7 @@
   "ticker": "TOELF",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-21T16:53:32.682677-08:00",
+  "generated_at": "2026-11-22T18:49:34.290555-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -50,13 +50,6 @@
       "url": "https://finnhub.io/api/news?id=6f1dd9fe28cca66c67063bd5fe970843a69c74e28cec0d1f1160278397d10b39",
       "datetime": 1794799650,
       "summary": "Investing.com-- Asian semiconductor stocks fell on Monday as investors trimmed exposure to artificial intelligence-related shares ahead of Nvidia's quarterly earnings, with uncertainty surrounding the chipmaker's leadership transition adding to concerns over the sustainability of the AI investment boom."
-    },
-    {
-      "headline": "Is Tokyo Electron (TSE:8035) Too Expensive After The Chip Sell Off?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=bd6db1395f787bbbe5e0f16783f5f2f4327d5ebbcf3d4783d0c9ad3894832446",
-      "datetime": 1794708440,
-      "summary": "Tokyo Electron has delivered strong share gains over the past few years, which puts fresh focus on whether the current price lines up with what its earnings can justify. After the latest swings in global chip stocks, the question for you is how much of that long run-up is already reflected in the earnings power investors are paying for today. Over the past 5 years the stock has returned 154.3%, so"
     }
   ],
   "filings": [],
