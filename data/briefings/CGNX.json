@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-23T18:42:42.766205-08:00",
+  "generated_at": "2026-11-24T14:17:51.935931-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Asia-Pacific Digital Transformation Market: Size, Trends, and Forecast (2026-2034) Featuring Intelligence on Accenture, Google (Alphabet), IBM, Microsoft, Oracle, HPE, SAP, EMC (Dell EMC), Cognex, Adobe and Siemens",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8453ab2a306f47be2344a06da03d9564f852b08b66b5f0035d0fc3107f3de314",
+      "datetime": 1795534140,
+      "summary": "Dublin, Nov. 24, 2026 (GLOBE NEWSWIRE) -- \"Asia-Pacific Digital Transformation Market Report - Size, Trends and Forecast 2026-2034\" has been added to ResearchAndMarkets.com's offering. The report projects that the Asia Pacific digital transformation market will grow from US$ 515.69 Billion in 2025 to US$ 2.86 trillion by 2034, registering a CAGR of 21% from 2026 to 2034. Enterprise modernization, "
+    },
+    {
+      "headline": "Hewlett Packard Enterprise, Semtech, Dell And Other Big Stocks Moving Lower In Tuesday\u2019s Pre-Market Session",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=721ec278df2df7c103a62523c4d31464e516bb79179e065d3ff5f69b52dcf9c6",
+      "datetime": 1795511108,
+      "summary": "U.S. stock futures fell, led by HPE\u2019s 10.9% premarket drop despite earnings and revenue beats; Semtech, Dell, Intel and Micron also declined."
+    },
+    {
+      "headline": "Shares of electronic equipment, instruments and component companies are trading higher amid overall market strength after Nvidia reinstated Jensen Huang as CEO, boosting confidence in sustained AI investment that stimulates infrastructure growth. The sector helps with the development of semiconductor chips, and growing demand will contribute to an increase in orders that boost profit margins.",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=5ef0bce2e0ba814a77ad40d679642615d9929592c97ee04ea6d1e7d0b2a03f14",
+      "datetime": 1795443353,
+      "summary": ""
+    },
     {
       "headline": "Cognex Sees More Margin Upside, Targets Deeper Customer Ties in 2027",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=183e49d997bebe8a1659d0d0dfb23284fa23fe4556c93f3767f60e871cdac1d3",
       "datetime": 1795137286,
       "summary": "Cognex has delivered a 37.5% gain over the past year, even after a recent pullback, which puts fresh focus on whether that climb is supported by the cash the business can generate over time. With the stock now around US$47.66 at the last close, the key issue is how that price lines up against the value implied by its future cash flows. The 37.5% rise over the last 12 months means anyone looking at"
-    },
-    {
-      "headline": "Cognex (CGNX) Could Be 36% Undervalued As Investors Reassess The Story",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=341fad99b8dafc75c8f5a89f9170292776a4a1ce44ce0f0f6f5598635260b5c6",
-      "datetime": 1795134069,
-      "summary": "Event Snapshot: Cognex under fresh investor scrutiny Cognex (CGNX) is back in focus after new research coverage highlighted the business and updated expectations around future performance, prompting investors to reassess the machine vision specialist\u2019s valuation and recent share price moves. Cognex\u2019s share price has retreated in the short term, with declines of about 3% over 1 day, 6% over 7 days "
-    },
-    {
-      "headline": "What Does Cognex's Falling Multiple Really Say?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=22d39949a8c0095eec59bfa0ed4492aa6e1a6a4504e9a5053e0b640124f9b363",
-      "datetime": 1795101799,
-      "summary": "Today\u2019s big story: Could Anthropic Stock Fall 25."
-    },
-    {
-      "headline": "Cognex Corporation (CGNX) Presents at 2026 Stephens Annual Investment Conference | NASH2026 Transcript",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=9fc89ac3157dffe059b520ccce66b485ab2ee2ef6f7721802143a6d37d5d3ee9",
-      "datetime": 1795096979,
-      "summary": "Cognex Corporation (CGNX) 2026 Stephens Annual Investment Conference | NASH2026 November 19, 2026 9:45 AM ESTCompany ParticipantsDennis Fehr - Senior VP of..."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-23",
+  "data_asof": "2026-11-24",
   "price": {
-    "last": 48.47,
-    "open": 48.5,
-    "prev_close": 44.36,
-    "move_day_pct": 9.27,
-    "move_open_close_pct": -0.06,
-    "move_week_pct": 0.74
+    "last": 46.48,
+    "open": 47.4,
+    "prev_close": 48.47,
+    "move_day_pct": -4.11,
+    "move_open_close_pct": -1.94,
+    "move_week_pct": -3.99
   },
   "indicators": {
     "rsi14": {
-      "value": 42.1,
-      "read": "Neutral"
+      "value": 38.8,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -2.758,
-      "signal": -2.547,
-      "hist": -0.211,
-      "hist_prev": -0.409,
+      "macd": -2.771,
+      "signal": -2.592,
+      "hist": -0.179,
+      "hist_prev": -0.211,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 60.26,
-      "lower": 43.04,
-      "mid": 51.65,
-      "pctb": 0.316,
+      "upper": 59.42,
+      "lower": 42.71,
+      "mid": 51.07,
+      "pctb": 0.226,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 40.13,
-      "read": "40% above its 52-week low"
+      "value": 34.38,
+      "read": "34% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -32.85,
-      "read": "33% below its 52-week high"
+      "value": -35.61,
+      "read": "36% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 58.5,
-      "pct": -17.15,
-      "read": "17% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 58.52,
+      "pct": -20.57,
+      "read": "21% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 2.93,
-      "pct_of_price": 6.05,
+      "value": 2.96,
+      "pct_of_price": 6.37,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.02,
+      "value": 0.97,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 29.8,
+      "value": 31.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 34.59,
   "high_52w": 72.19,
-  "ma50": 56.27,
-  "ma200": 58.5
+  "ma50": 56.02,
+  "ma200": 58.52
 }

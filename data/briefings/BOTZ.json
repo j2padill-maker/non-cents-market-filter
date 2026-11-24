@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-23T18:42:50.824226-08:00",
+  "generated_at": "2026-11-24T14:18:06.809492-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "Market Volatility Is Back - What Investors Need To Know",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=da35f567241813d114beded05080baa18204d9af0244e329c6356d87f462acac",
+      "datetime": 1795527900,
+      "summary": "Concerns around AI, valuations and interest rates are fueling market volatility. TD Asset Management's Michael Craig discusses how investors can position their portfolios for the road ahead."
+    },
+    {
+      "headline": "Flash Note: Sentiment Selloff Or Valuation Downshift",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=d91817252c69148a22512a9aa15cc1f59c30eb4aee2fd0096b8e99088dc6dbe4",
+      "datetime": 1795509000,
+      "summary": "A series of proximate events has weighed on sentiment, but geopolitical and monetary policy risks likely outweigh broader concerns about AI and the investment cycle."
+    },
+    {
+      "headline": "The Credit Market Lens: Making Sense Of Diverging Signals In Investment Grade And High Yield Credit",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=e422090fa969afd8aceb1db7d7c10c0d15f1b3ff8a2655cca6d26919fd2ab5af",
+      "datetime": 1795506300,
+      "summary": "We\u00e2\u0080\u0099re seeing rating compression in investment grade credit versus decompression in high yield."
+    },
+    {
+      "headline": "Jensen Huang Just Moved The Entire QQQ",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=d4e01a0d3564227f722cf523a0b772d5dfcb2f9cbfaa4affd1d3b96d5c165e6a",
+      "datetime": 1795491558,
+      "summary": "Nvidia (NVDA) stock is a strong buy, and QQQ is on a three-month hold; Huang\u00e2\u0080\u0099s return highlights key-person and semiconductor risks."
+    },
+    {
       "headline": "PCE Week: What To Watch In Stocks, Chips, Gold And Bitcoin",
       "source": "SeekingAlpha",
       "url": "https://finnhub.io/api/news?id=fb422e54fd05da51661251d4a4d72a35c21231c9c7d8885df759cdd7d9e8b531",
@@ -29,97 +57,69 @@
       "url": "https://finnhub.io/api/news?id=f0ab094cd784f237cc90aba659344487a1c4494573c591585161ba9f2e777022",
       "datetime": 1795409160,
       "summary": "The AI ecosystem is in the midst of a severe pullback, with the pain extending beyond technology."
-    },
-    {
-      "headline": "Weekly Commentary: Crisis Dynamics Unleashed",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=2c383cacc2555394126263692e16c229f4a9f13abb982623ce40d78521b48dc2",
-      "datetime": 1795274400,
-      "summary": "For the week, the U.S. Dollar Index added 0.4% to 103.84 (up 5.6% y-t-d). On the upside, the Japanese yen increased 0.7%."
-    },
-    {
-      "headline": "The AI Trade: A Race Between Adoption And Expectations",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=09ddfbfcaf15dca5118ce39d823974838ee6f5f3fe5e407d5385c2c7eafcb534",
-      "datetime": 1795250700,
-      "summary": "Emergence of AI is triggering rapid and structural change across economy, and is shaping up to be a disruptive innovation that has the potential to leave a lasting mark on entire industries."
-    },
-    {
-      "headline": "The Gales Of November",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=7d6aff162a05e2b3e1eb6959c43987ab2bf3bd2c66e8d0dcc057f44618a78695",
-      "datetime": 1795231200,
-      "summary": "Financial markets have been dealing with their own version of the gales of November for several weeks, and the turbulence ramped up in intensity this week."
-    },
-    {
-      "headline": "AI Volatility Puts Diversification In Focus",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=5986bda68e28ccdd84da70ff7d037282c4f6ecaf455d16bcdb31ab8462a4d88a",
-      "datetime": 1795184640,
-      "summary": "It\u00e2\u0080\u0099s a pivotal moment for the AI trade, but recent market weakness is giving investors plenty to consider."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-23",
+  "data_asof": "2026-11-24",
   "price": {
-    "last": 29.41,
-    "open": 29.65,
-    "prev_close": 27.34,
-    "move_day_pct": 7.57,
-    "move_open_close_pct": -0.79,
-    "move_week_pct": -2.36
+    "last": 29.47,
+    "open": 29.66,
+    "prev_close": 29.41,
+    "move_day_pct": 0.2,
+    "move_open_close_pct": -0.64,
+    "move_week_pct": -0.81
   },
   "indicators": {
     "rsi14": {
-      "value": 38.8,
+      "value": 39.2,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -1.309,
-      "signal": -1.078,
-      "hist": -0.231,
-      "hist_prev": -0.319,
+      "macd": -1.265,
+      "signal": -1.115,
+      "hist": -0.15,
+      "hist_prev": -0.231,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 34.6,
-      "lower": 27.99,
-      "mid": 31.29,
-      "pctb": 0.215,
+      "upper": 34.33,
+      "lower": 27.86,
+      "mid": 31.09,
+      "pctb": 0.249,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 7.57,
+      "value": 7.79,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -29.32,
+      "value": -29.17,
       "read": "29% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 36.04,
-      "pct": -18.4,
+      "ma200": 36.0,
+      "pct": -18.14,
       "read": "18% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.98,
-      "pct_of_price": 3.34,
+      "value": 0.96,
+      "pct_of_price": 3.26,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 2.04,
-      "read": "Heavy volume \u2014 well above average"
+      "value": 1.12,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 30.2,
+      "value": 31.2,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 27.34,
   "high_52w": 41.61,
-  "ma50": 33.37,
-  "ma200": 36.04
+  "ma50": 33.27,
+  "ma200": 36.0
 }

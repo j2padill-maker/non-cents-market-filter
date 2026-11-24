@@ -2,7 +2,7 @@
   "ticker": "GNRC",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-23T18:42:39.727892-08:00",
+  "generated_at": "2026-11-24T14:17:46.722206-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "What Makes Generac Holdings (GNRC) an Investment Bet?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=4a93b4122345b877d0292ae9a2a8abea03d2e1a3b4abb0568ccbd90f335cb37c",
+      "datetime": 1795536297,
+      "summary": "Diamond Hill Capital, a First Eagle Investment Management company, issued its Q3 2026 investor letter for its \u201cMid Cap Strategy\u201d. The letter can be downloaded here. Small- and mid-cap US equities fell in Q3, reversing gains from earlier in the year and underperforming larger-cap stocks. The decline, largely concentrated in September, followed the Federal Reserve\u2019s rate hike [\u2026]"
+    },
+    {
+      "headline": "DCP Midstream Says It Will Lay Off 10% Of Workforce, 300 Operational/Corporate Roles Across 17-States, Has Reduced Capital Budget To $250M",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=2f40821e66f472f9c148898ede1bd56f908f59c50193c8e73603f4a00a642fbe",
+      "datetime": 1795433453,
+      "summary": ""
+    },
     {
       "headline": "Generac Stock In Focus After Earnings Beat And Amazon Supply Deal",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=9b8a9d223ab4d685116d55e2979682ebe3b2cabf1c36f337ab7f64f68371f496",
       "datetime": 1795193966,
       "summary": "Today\u2019s big story: Will 2027 Be A 2022 Repeat For Stocks."
-    },
-    {
-      "headline": "Are Wall Street Analysts Bullish on Generac Holdings Stock?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7e52e0e29847b5e7b31ee4d6c9a19930f9f868ff903683bbaa68564f31e5797f",
-      "datetime": 1795167033,
-      "summary": "Generac Holdings has outperformed the broader market over the past year, and analysts remain highly bullish on the stock."
-    },
-    {
-      "headline": "High End Generators Are Flying Off The Shelves At Costco After A String Of Unusual Tech Outages. Generac Shares Are Up More Than 50% In 2026",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=52a37dd65f82e4cfcd0b8a62067cc66a02df85901acadc8ddb4bef48bf9adf1e",
-      "datetime": 1795102566,
-      "summary": "A Mizuho analyst checked Costco's website and found most of its big generators gone, just as outage jitters spread. Yet Generac's real growth story may have little to do with anxious homeowners stocking up."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-23",
+  "data_asof": "2026-11-24",
   "price": {
-    "last": 204.75,
-    "open": 209.5,
-    "prev_close": 193.22,
-    "move_day_pct": 5.97,
-    "move_open_close_pct": -2.27,
-    "move_week_pct": 10.31
+    "last": 198.36,
+    "open": 200.12,
+    "prev_close": 204.75,
+    "move_day_pct": -3.12,
+    "move_open_close_pct": -0.88,
+    "move_week_pct": 6.07
   },
   "indicators": {
     "rsi14": {
-      "value": 54.7,
+      "value": 51.3,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -0.113,
-      "signal": -2.109,
-      "hist": 1.996,
-      "hist_prev": 1.555,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "macd": 0.115,
+      "signal": -1.664,
+      "hist": 1.78,
+      "hist_prev": 1.996,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 213.37,
-      "lower": 174.17,
-      "mid": 193.77,
-      "pctb": 0.78,
+      "upper": 213.7,
+      "lower": 174.3,
+      "mid": 194.0,
+      "pctb": 0.611,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 50.14,
-      "read": "50% above its 52-week low"
+      "value": 45.46,
+      "read": "45% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -30.72,
-      "read": "31% below its 52-week high"
+      "value": -32.88,
+      "read": "33% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 220.22,
-      "pct": -7.02,
-      "read": "7% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 220.28,
+      "pct": -9.95,
+      "read": "10% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 12.89,
-      "pct_of_price": 6.3,
+      "value": 12.71,
+      "pct_of_price": 6.41,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.03,
+      "value": 0.76,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 54.1,
+      "value": 57.1,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 136.37,
   "high_52w": 295.54,
-  "ma50": 199.85,
-  "ma200": 220.22
+  "ma50": 200.32,
+  "ma200": 220.28
 }

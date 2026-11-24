@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-23T18:42:35.477729-08:00",
+  "generated_at": "2026-11-24T14:17:40.494032-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "Datadog vs. Monday.com: Which Technology Stock Is a Better Buy for 2027?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e197c71282bccdb129c7147fdebfc2d672a59067320852fe448f8e1d15291996",
+      "datetime": 1795540802,
+      "summary": "Datadog's 33% revenue growth comes with a far richer price tag than Monday.com, but the cheaper stock carries risks investors shouldn't ignore."
+    },
+    {
+      "headline": "Did The Sell-Off Punish Salesforce For Slow Growth?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d5703147b947eb26dd5455739d498c5a6aa0051aa259c8c1b7edcf80fe4d717a",
+      "datetime": 1795526832,
+      "summary": "Today's big story: Nvidia Added $954 Billion In A Day. Is Jensen Huang Too Big To Fire."
+    },
+    {
+      "headline": "Datadog beat earnings\u2014then its biggest AI customer hit the brakes",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e6d66ff9460d0bf5dab55aa1f7ecc23b1f7e6cf4f99c5974b61b4de3085abcce",
+      "datetime": 1795504350,
+      "summary": "Investing.com and Yahoo Finance LLC may earn commission or revenue on some items through the links below."
+    },
+    {
+      "headline": "Cloudflare Just Dropped 11% in a Month Despite \u201cAn Even Higher Gear.\u201d Is It Time to Sell, or Load Up?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ef151881977c2671a20cd0b1e61adca849a17060d8dd1fad7d946f713b8a2d1d",
+      "datetime": 1795500018,
+      "summary": "Key TakeawaysCloudflare stock is down 11% in the past month. An AI and software selloff that also hit Datadog and CrowdStrike pulled it lower, even though Cloudflare just posted its fastest revenue growth in nearly four years."
+    },
+    {
       "headline": "Did The Market Read Datadog Stock Right?",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=89fbd416b864691026d32ff33b17aba49290f2ff9cd27b7e88088c8e65a1b3f6",
@@ -29,34 +57,6 @@
       "url": "https://finnhub.io/api/news?id=719fd8d11793c17ee0ccae8b356515e74938a4f63b0d7751c08842842634ae5e",
       "datetime": 1795454520,
       "summary": "Datadog recognized for its Completeness of Vision and Ability to ExecuteNEW YORK, Nov. 23, 2026 (GLOBE NEWSWIRE) -- Datadog, Inc. (NASDAQ: DDOG), the leading AI-powered observability and security platform, today announced it has been named a Challenger in the Gartner Magic Quadrant for Security Information and Event Management (SIEM), 2026. This follows Datadog\u2019s recent placement as a Leader in th"
-    },
-    {
-      "headline": "Palantir Just Dropped 25% in a Month. Is It Time to Sell, or Load Up?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d3c8618543cd2676d4a508780afa33bd9ba502f029a8962d5968c97989e485b1",
-      "datetime": 1795270955,
-      "summary": "Key TakeawaysPalantir stock fell 25% in the past month, even though third-quarter revenue grew 96% and the company raised its full-year guidance. Slower bookings, worries about the Pentagon budget under a Democratic Congress, and Anthropic\u2019s IPO gave investors reasons to pay less, while Datadog fell even further in the same AI software selloff."
-    },
-    {
-      "headline": "BofA Cut Its Snowflake Target to $400 From $470. It Still Sees 56% Upside",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e5eb48263a085b4e5eea7e8d9f92c525da4990c73642cd2691362fb17cc8e2ed",
-      "datetime": 1795256308,
-      "summary": "Key TakeawaysBank of America cut its Snowflake price target to $400 from $470 on Nov. 20 and kept its Buy rating, leaving 56% upside."
-    },
-    {
-      "headline": "S&P 500 After-Hours Gainers: DDOG, HBAN Lead Postmarket Session",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=f31d983d4a478498cc13b273ad7c4c34ac24a575287b228e6a527a3580ed5444",
-      "datetime": 1795212356,
-      "summary": "S&P 500 after-hours gainers for the postmarket session include DDOG, HBAN, TDG, P, OKTA, KEY, AMAT, INTC, ORCL and COHR, recovering from session declines."
-    },
-    {
-      "headline": "Full-Stack Observability Services Global Market Report 2026 | Capitalize on 22.7% CAGR Through 2030: Datadog, Dynatrace, Elastic, Grafana Labs, and PagerDuty Scale AI Observability",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=87d517d35235a665b6525edb7b46da231c93364464c44c35b8a3871c0306a1a1",
-      "datetime": 1795185300,
-      "summary": "Boost ROI with unified cloud observability, AI anomaly detection, real-time root-cause analysis, distributed tracing, managed services and proactive optimization.Dublin, Nov. 20, 2026 (GLOBE NEWSWIRE) -- \"Full-Stack Observability Services Market Report 2026\" has been added to ResearchAndMarkets.com's offering. The global full-stack observability services market is experiencing exponential growth a"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-23",
+  "data_asof": "2026-11-24",
   "price": {
-    "last": 169.02,
-    "open": 173.32,
-    "prev_close": 157.37,
-    "move_day_pct": 7.4,
-    "move_open_close_pct": -2.48,
-    "move_week_pct": -2.22
+    "last": 165.38,
+    "open": 165.54,
+    "prev_close": 169.02,
+    "move_day_pct": -2.15,
+    "move_open_close_pct": -0.1,
+    "move_week_pct": 0.12
   },
   "indicators": {
     "rsi14": {
-      "value": 33.3,
+      "value": 32.1,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -23.222,
-      "signal": -21.821,
-      "hist": -1.4,
-      "hist_prev": -2.638,
+      "macd": -22.552,
+      "signal": -21.967,
+      "hist": -0.584,
+      "hist_prev": -1.4,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 273.01,
-      "lower": 121.83,
-      "mid": 197.42,
-      "pctb": 0.312,
+      "upper": 257.94,
+      "lower": 125.35,
+      "mid": 191.65,
+      "pctb": 0.302,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 64.71,
-      "read": "65% above its 52-week low"
+      "value": 61.17,
+      "read": "61% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -42.37,
-      "read": "42% below its 52-week high"
+      "value": -43.61,
+      "read": "44% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 202.79,
-      "pct": -16.65,
-      "read": "17% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 203.05,
+      "pct": -18.55,
+      "read": "19% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 13.84,
-      "pct_of_price": 8.19,
+      "value": 13.27,
+      "pct_of_price": 8.02,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.08,
+      "value": 0.67,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 29.8,
+      "value": 35.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 293.26,
-  "ma50": 237.06,
-  "ma200": 202.79
+  "ma50": 235.76,
+  "ma200": 203.05
 }

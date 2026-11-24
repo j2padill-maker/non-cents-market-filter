@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-23T18:42:49.049332-08:00",
+  "generated_at": "2026-11-24T14:18:02.911779-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "What Just Happened To Lam Research Stock Since May?",
+      "headline": "Why KLA (KLAC) Stock Is Falling Today: Chip Sector Selloff",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7ec837bc4c9557fb2085dd9ce023152c2331c8e8501d4398051ef63af0113290",
-      "datetime": 1795480495,
-      "summary": "Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92."
+      "url": "https://finnhub.io/api/news?id=095f7586757e6785537e3f1cd5fa02157fa60a5460f3f0ec1abd3ca218a61755",
+      "datetime": 1795552285,
+      "summary": "KLA shares fell 10.5% on Tuesday, Nov. 24, as a selloff in chip stocks hit semiconductor equipment makers, with no company-specific news."
     },
     {
-      "headline": "Teradyne Drives Robotics With AI: Can It Outpace KLAC and COHU?",
+      "headline": "Why Ichor Holdings (ICHR) Stock Is Plunging Today: Semiconductor Equipment Selloff",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2ca642d2b1d57785f65229383921dbd0398e0bdfea05b178bc0639582dcdd92b",
-      "datetime": 1795449840,
-      "summary": "TER's AI-powered robotics growth, expanding automation demand, and strategic partnerships boost its competitive edge against KLA and Cohu."
+      "url": "https://finnhub.io/api/news?id=a4a088e2d6fb8d86020f1870aed1e9ea79210203be9e3427c725e1ef4665a2a2",
+      "datetime": 1795552283,
+      "summary": "On Tuesday, Nov. 24, the stock fell 16.4% as semiconductor equipment stocks sold off, according to GuruFocus"
     },
     {
-      "headline": "S&P 500 Gap Movers: NVDA and DELL Lead Today's Session",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=59c932892b045bdd2b6295616425e0926ea82c999c3d9a6dc12ae4e4195802e5",
-      "datetime": 1795448178,
-      "summary": "S&P 500 gap movers in today's session: NVIDIA and Dell led gap-up stocks, while CrowdStrike led gap-down names."
-    },
-    {
-      "headline": "FORM Drops 28% in a Month: Should You Buy the Stock on the Dip?",
+      "headline": "What Did Lam Research Say Before Shares Took Off?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=79c7e3a157c0a28523ea934738aa9031ddc2d651ecdf120458704b240c21f90b",
-      "datetime": 1795446840,
-      "summary": "FormFactor shares plunge 27.8% in a month, but AI infrastructure demand, GPU testing opportunities and capacity expansion offer long-term upside potential."
+      "url": "https://finnhub.io/api/news?id=f8801e8db9b00a578d457b277a0bb187143243b90f6e4cffa6d0f06a3bc50fee",
+      "datetime": 1795546474,
+      "summary": "Today's big story: Nvidia Added $954 Billion In A Day. Is Jensen Huang Too Big To Fire."
     },
     {
-      "headline": "Premarket Movers: Nvidia, Dell, HPE Gain; CrowdStrike, UnitedHealth Slide",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=ec07e5dc041b7fa4bdae54192db66181218072d0d93055406ae6bcae196b1f42",
-      "datetime": 1795440983,
-      "summary": "Premarket movers: Nvidia rose 8.66%, Dell 8.27%, and HPE 7.46%, while CrowdStrike fell 6.76% and UnitedHealth 6.28%."
-    },
-    {
-      "headline": "Teradyne (TER) Falls 36% Despite 70% Revenue Growth: Is a Recovery Ahead?",
+      "headline": "Why FormFactor (FORM) Stock Is Down 12.4% Today: Semiconductor Selloff Hits Peers",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5bf49b57a9f6cc281032e8652cac7438389fb763dac418c9623b3d60797eecb6",
-      "datetime": 1795366286,
-      "summary": "Among the companies highlighted in our recent list of 10 Oversold Stocks With 50%+ Upside Potential, Teradyne, Inc. (NASDAQ:TER) claimed the ninth position. Has the AI Boom Lost Its Momentum? The AI boom has rewarded early investors handsomely, but the opportunity now looks considerably less straightforward. After months of enthusiasm surrounding artificial intelligence, investors are [\u2026]"
+      "url": "https://finnhub.io/api/news?id=345008cba86493339270a33d18e11edc97659e1a4e330abd68644e24968b9beb",
+      "datetime": 1795541472,
+      "summary": "On Tuesday, Nov. 24, the stock fell 12.4% as a semiconductor selloff hit chip-equipment peers, with no company-specific news"
+    },
+    {
+      "headline": "Why Ambarella (AMBA) Stock Is Down Today: Chip Stocks Sell Off",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ef29d4cdd96dadbce3a1d0ced13cef762314fcd72bffaf3b7933cf333d1d8702",
+      "datetime": 1795541455,
+      "summary": "On Tuesday, Nov. 24, the shares fell 9.9% along with semiconductor stocks amid a renewed AI chip selloff."
+    },
+    {
+      "headline": "The Zacks Analyst Blog Highlights Target, TJX, Teradyne, TKO and Repsol",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f18d1652f22facd478e634327eeb246b6198f77167c8637975b18d027e64de48",
+      "datetime": 1795529820,
+      "summary": "Target and TJX offer upbeat holiday outlooks as Black Friday tests consumer spending, while global inflation and central bank decisions keep investors on alert."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-23",
+  "data_asof": "2026-11-24",
   "price": {
-    "last": 233.51,
-    "open": 240.0,
-    "prev_close": 204.65,
-    "move_day_pct": 14.1,
-    "move_open_close_pct": -2.7,
-    "move_week_pct": 0.76
+    "last": 213.22,
+    "open": 223.0,
+    "prev_close": 233.51,
+    "move_day_pct": -8.69,
+    "move_open_close_pct": -4.39,
+    "move_week_pct": -8.89
   },
   "indicators": {
     "rsi14": {
-      "value": 39.8,
+      "value": 35.7,
       "read": "Oversold"
     },
     "macd": {
       "macd": -28.713,
-      "signal": -29.934,
-      "hist": 1.221,
-      "hist_prev": -0.123,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "signal": -29.69,
+      "hist": 0.977,
+      "hist_prev": 1.221,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 314.29,
-      "lower": 191.14,
-      "mid": 252.71,
-      "pctb": 0.344,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 301.79,
+      "lower": 192.61,
+      "mid": 247.2,
+      "pctb": 0.189,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 47.32,
-      "read": "47% above its 52-week low"
+      "value": 28.7,
+      "read": "29% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -51.69,
-      "read": "52% below its 52-week high"
+      "value": -55.89,
+      "read": "56% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 348.62,
-      "pct": -33.02,
-      "read": "33% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 348.14,
+      "pct": -38.75,
+      "read": "39% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 23.05,
-      "pct_of_price": 9.87,
+      "value": 23.32,
+      "pct_of_price": 10.94,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.25,
+      "value": 1.01,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 33.5,
+      "value": 34.0,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": 158.5,
+  "low_52w": 165.67,
   "high_52w": 483.35,
-  "ma50": 325.91,
-  "ma200": 348.62
+  "ma50": 323.52,
+  "ma200": 348.14
 }

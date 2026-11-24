@@ -2,7 +2,7 @@
   "ticker": "TPL",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-23T18:42:59.663416-08:00",
+  "generated_at": "2026-11-24T14:18:21.164981-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "Texas Pacific Land's $3B EagleRock Deal Expands Permian Footprint",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d4b417b6f06a209d4c2193377a7ef64aa44d52db684de689603ee859bc67bcbf",
+      "datetime": 1795537620,
+      "summary": "TPL's $3 billion EROK deal is set to expand its Permian footprint, boost water solutions capacity and unlock stronger cash flow and shareholder returns."
+    },
+    {
+      "headline": "EagleRock Land (EROK) Agrees To Texas Pacific Land Merger, Is 45% Below Fair Value?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c3747fcf8911823091d87e2feb41b6d8dd8cd425ff7cba20cb053d2122c33918",
+      "datetime": 1795515545,
+      "summary": "Texas Pacific Land Corporation has agreed to acquire EagleRock Land (NYSE:EROK) in an all stock merger valued at about $3b, a deal that immediately puts exchange terms and future ownership structure in focus for investors. The Texas Pacific Land deal has arrived after a sharp swing in EagleRock Land\u2019s trading pattern, with a 1-day share price return of 7.7% and a 30-day share price return of 16.3%"
+    },
+    {
+      "headline": "What Does EagleRock Land (EROK) Merger Deal Mean For Shareholders?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8e72ef1cb7b208fb745867d77683390dcbc34486bfbf4fa472272ec7c0cc6863",
+      "datetime": 1795508071,
+      "summary": "Texas Pacific Land Corporation agreed to acquire EagleRock Land (NYSE:EROK) in a merger valued at about US$620 million. The deal will create a new public holding company that will own both Texas Pacific Land Corporation and EagleRock Land. EagleRock Land shareholders are set to receive stock in the new parent entity, reshaping the ownership mix of the combined group. The merger is expected to clos"
+    },
+    {
+      "headline": "Texas Pacific Land agrees $3bn all-stock acquisition of EagleRock",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e8879ed624a1235a79ba364f2a9b4fa8d8a078d3147787b8d10bedc91efa8ebc",
+      "datetime": 1795507394,
+      "summary": "The proposed combination would add acreage in New Mexico and expand TPL\u2019s water infrastructure across the Permian Basin."
+    },
+    {
       "headline": "Texas Pacific Land Corporation Announces Agreement and Plan of Merger to Acquire EagleRock in All-Stock Transaction",
       "source": "Fintel",
       "url": "https://finnhub.io/api/news?id=e49435b30b542ca30d2652c0422cead2f7af6a0e85ef717b6caa6ce82c46cf30",
@@ -29,34 +57,6 @@
       "url": "https://finnhub.io/api/news?id=28dd81f042570a14ea8f371be7819e63b073faf5c7420e8c2230d372fd2945e6",
       "datetime": 1795471200,
       "summary": "Five energy stocks with strong balance sheets, from Exxon to Kinder Morgan, that could hold up if the Fed hikes again in December and CPI runs hot."
-    },
-    {
-      "headline": "Sector Update: Energy Stocks Decline Monday",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ea96740532553eb029e564a6780e2119e0c89a08053255089c9e0cdd4ef87ccf",
-      "datetime": 1795468091,
-      "summary": "Energy stocks fell Monday with the NYSE Energy Sector Index declining 1.2% and the State Street Ener"
-    },
-    {
-      "headline": "Why Texas Pacific Land Stock Was Slumping While the Market Surged Today",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d428c4f1348bfa52fecca8f1bb98b9436a1094141163fed7e8050158fb89a75b",
-      "datetime": 1795465307,
-      "summary": "The company announced a roughly $3 billion acquisition."
-    },
-    {
-      "headline": "S&P 500 Top Movers: Today's US Session Gainers and Losers",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=d33a321c4f0d63865b5020981f259c6f0c7c6d8770044a22c5790270da2d8417",
-      "datetime": 1795464360,
-      "summary": "S&P 500 top movers in today's US session: NVIDIA led gainers as semiconductor and technology names rose, while CrowdStrike led the declines."
-    },
-    {
-      "headline": "Vinson & Elkins Represents EagleRock in $3 Billion Sale to Texas Pacific",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=cef8e14c8c8a7e9947d92e1a8e77273ab5198e32031b1c71050d84fe69bf0fb6",
-      "datetime": 1795462389,
-      "summary": "By Karen Roman Vinson & Elkins said it represented EagleRock Land LLC (NYSE: EROK) in a definitive agreement with Texas Pacific Land Corp. (NYSE: TPL) for TPL to acquire EagleRock in an all-stock transaction for approximately $3 billion. New Titan Holdings, Inc. will be the newly formed holding company resulting from this transaction and would become [\u2026] The post Vinson & Elkins Represents EagleRo"
     }
   ],
   "filings": [
@@ -82,32 +82,32 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-23",
+  "data_asof": "2026-11-24",
   "price": {
-    "last": 258.07,
-    "open": 280.34,
-    "prev_close": 267.44,
-    "move_day_pct": -3.5,
-    "move_open_close_pct": -7.94,
-    "move_week_pct": -11.67
+    "last": 251.4,
+    "open": 256.5,
+    "prev_close": 258.07,
+    "move_day_pct": -2.58,
+    "move_open_close_pct": -1.99,
+    "move_week_pct": -12.66
   },
   "indicators": {
     "rsi14": {
-      "value": 25.8,
+      "value": 24.0,
       "read": "Extremely oversold"
     },
     "macd": {
-      "macd": -17.525,
-      "signal": -16.322,
-      "hist": -1.203,
-      "hist_prev": -0.427,
+      "macd": -18.7,
+      "signal": -16.798,
+      "hist": -1.902,
+      "hist_prev": -1.203,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 344.37,
-      "lower": 244.9,
-      "mid": 294.63,
-      "pctb": 0.132,
+      "upper": 340.97,
+      "lower": 240.39,
+      "mid": 290.68,
+      "pctb": 0.109,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
@@ -115,30 +115,30 @@
       "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -52.04,
-      "read": "52% below its 52-week high"
+      "value": -53.28,
+      "read": "53% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 396.24,
-      "pct": -34.87,
-      "read": "35% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 395.63,
+      "pct": -36.46,
+      "read": "36% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 15.64,
-      "pct_of_price": 6.06,
+      "value": 15.56,
+      "pct_of_price": 6.19,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 3.84,
+      "value": 2.39,
       "read": "Heavy volume \u2014 well above average"
     },
     "mfi14": {
-      "value": 25.0,
+      "value": 25.6,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": 258.07,
+  "low_52w": 251.4,
   "high_52w": 538.1,
-  "ma50": 326.13,
-  "ma200": 396.24
+  "ma50": 323.73,
+  "ma200": 395.63
 }

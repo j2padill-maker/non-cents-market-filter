@@ -2,7 +2,7 @@
   "ticker": "GOOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-23T18:43:04.155683-08:00",
+  "generated_at": "2026-11-24T14:18:27.111914-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,49 +17,55 @@
   ],
   "news": [
     {
-      "headline": "The Nasdaq Just Had Its Best Day Since April 2025. Anthropic Stock Fell Anyway.",
+      "headline": "Microsoft (MSFT) Is One of the Safest Ways to Own AI",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8a14852da62acd080567b88a490342814d127f3ca0006c7eba9ddd5299af0482",
-      "datetime": 1795480922,
-      "summary": "Anthropic stock slipped on the Nasdaq Composite's best day since April 2025."
+      "url": "https://finnhub.io/api/news?id=9aa1af5cde1f80df15defb23a49c78fd10431b8481290fa3e4da10008fa9a1d0",
+      "datetime": 1795554360,
+      "summary": "Microsoft (MSFT) seems to be one of the safest ways to invest in artificial intelligence (AI). The cloud and software giant posted $45.9 billion in operating income in Q1 2027. I believe that gives it considerable room to fund its next stage of growth. CEO Satya Nadella recently remarked, \u201cWe think of Copilot as the new OS for work.\u201d I like that ambition, but I also like the existing business behi"
     },
     {
-      "headline": "Is Amazon's Profit Riskier Than It Looks?",
+      "headline": "Intuit vs. Palo Alto Networks: Which Technology Stock Is a Better Buy for 2027?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3ab430afc44d1ae5ba6304d2610bb5a7795a1cb493dcd1e1b465663bfea1ae2f",
-      "datetime": 1795479913,
-      "summary": "Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92."
+      "url": "https://finnhub.io/api/news?id=03777831029ca31c6ed286695ceaf38dd7b2a863cdc80524c1f7da432bcf15bb",
+      "datetime": 1795548002,
+      "summary": "Intuit's valuation sits well below Palo Alto's, yet their growth and margin profiles tell very different stories."
     },
     {
-      "headline": "Steve Eisman Said AI Was \u201cNo Longer One Trade.\u201d Huang Is Back, but Alphabet and CoreWeave Still Show the Split",
+      "headline": "Billionaire David Abrams\u2019 Top 5 Stock Picks for 2027",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=cce76ef68e89ce2696f214b1480abf834d9ef713c8b68864824d4466e62cf846",
-      "datetime": 1795474493,
-      "summary": "Key TakeawaysNVIDIA, AMD, Broadcom and CoreWeave fell 12% to 14% on Friday, while Alphabet fell 2. 6%."
+      "url": "https://finnhub.io/api/news?id=12f4afc27513113fd49cd70fe231cf728b05e25bb853d119eb24653895899492",
+      "datetime": 1795547223,
+      "summary": "Billionaire David Abrams has established a reputation on Wall Street as a value-oriented investor who seeks out undervalued businesses with strong fundamentals and long-term earnings potential. Through Abrams Capital Management, he employs a concentrated, fundamentals-driven investment strategy, favoring companies he believes offer attractive long-term value. The investment strategy draws inspirat"
     },
     {
-      "headline": "Crypto traders saw Anthropic's 34% debut pop coming",
+      "headline": "Bloom Energy Revenue Jumped 138%. Its Next Growth Phase Could Be Even Bigger",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2e9867823f7e68e4507d79f97fa8e399b291159effcc42fc1df92c74d323bb66",
-      "datetime": 1795474035,
-      "summary": "Weeks before bankers priced Anthropic\u2019s IPO, a 24/7 crypto market was already trading the shares much higher. The debut showed how close it got."
+      "url": "https://finnhub.io/api/news?id=e7ebb8c257270598262f1bfc6c4ef6da28d9c47eb71bbd913055cfeb3ca4b2d7",
+      "datetime": 1795545180,
+      "summary": "Bloom Energy posted a blowout quarter and still watched its stock crater for weeks, then snapped back in a single session. Our model weighs the bull case, the cash flow warning signs, and where the shares head next."
     },
     {
-      "headline": "Google's Gemini 4 Neon gains momentum ahead of OpenAI, data shows",
+      "headline": "Why Dividend Growth ETFs Deserve a Place in Tech-Heavy Portfolios",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9df03e2716b9ed3c01042a57db22beb7f3a278837f477e8ff4bceca55b3b52ac",
-      "datetime": 1795473204,
-      "summary": "Logan Kilpatrick, Google (GOOG) AI Studio and Gemini API Product Lead, joins Yahoo Finance's Deirdre Bosa\u2013as data shows Google's Gemini 4 Neon gaining momentum with developers\u2013to discuss how the company will focus on competing against Chinese open-source models."
+      "url": "https://finnhub.io/api/news?id=eea748e89ad721ff661b6a6d32bbe9d797bcfad8211a0c954fc6d759d9362950",
+      "datetime": 1795545180,
+      "summary": "Adding dividend growth ETFs can improve diversification, and boost long-term returns."
     },
     {
-      "headline": "Jensen Huang is back: Does Washington have a seat in the boardroom?",
+      "headline": "ASML Is the Most Important Company You\u2019ve Never Heard Of. Should You Buy the Stock?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a52908d4c341923ace40bdd938c2a932b312ac5edeb57fa42d635d4bc0266178",
-      "datetime": 1795471934,
-      "summary": "As Nvidia reinstates Jensen Huang and investors add a trillion dollars to the stock, Deirdre Bosa dives into the White House's role in his return and asks General Catalyst's Madhu Namburi, who spent 25 years advising tech boards at J.P. Morgan, how boards, CEOs and dealmakers operate under the new rules."
+      "url": "https://finnhub.io/api/news?id=95f0bad9e2d014ec45e12db0b614f0d84dd4494f838ed1e28e57890e9d24c2b1",
+      "datetime": 1795544582,
+      "summary": "ASML has one of the most unique advantages in the artificial intelligence market."
     }
   ],
   "filings": [
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-11-24",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526475973/d91615d8k.htm"
+    },
     {
       "form": "8-K",
       "title": "Material event (8-K)",
@@ -71,74 +77,68 @@
       "title": "Quarterly report (10-Q)",
       "date": "2026-10-29",
       "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm"
-    },
-    {
-      "form": "8-K",
-      "title": "Material event (8-K)",
-      "date": "2026-10-28",
-      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/goog-20261028.htm"
     }
   ],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-23",
+  "data_asof": "2026-11-24",
   "price": {
-    "last": 279.53,
-    "open": 282.49,
-    "prev_close": 264.0,
-    "move_day_pct": 5.88,
-    "move_open_close_pct": -1.05,
-    "move_week_pct": -0.62
+    "last": 276.58,
+    "open": 278.7,
+    "prev_close": 279.53,
+    "move_day_pct": -1.06,
+    "move_open_close_pct": -0.76,
+    "move_week_pct": -0.37
   },
   "indicators": {
     "rsi14": {
-      "value": 40.3,
-      "read": "Neutral"
+      "value": 38.8,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -12.565,
-      "signal": -12.793,
-      "hist": 0.228,
-      "hist_prev": -0.522,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": -12.024,
+      "signal": -12.639,
+      "hist": 0.616,
+      "hist_prev": 0.228,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 311.98,
-      "lower": 259.08,
-      "mid": 285.53,
-      "pctb": 0.387,
+      "upper": 305.95,
+      "lower": 261.08,
+      "mid": 283.52,
+      "pctb": 0.345,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 5.88,
-      "read": "Just off its 52-week low"
+      "value": 4.77,
+      "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -29.86,
-      "read": "30% below its 52-week high"
+      "value": -30.6,
+      "read": "31% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 334.35,
-      "pct": -16.4,
-      "read": "16% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 334.12,
+      "pct": -17.22,
+      "read": "17% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 11.56,
-      "pct_of_price": 4.14,
+      "value": 11.14,
+      "pct_of_price": 4.03,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.23,
+      "value": 0.91,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 49.1,
+      "value": 41.2,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 264.0,
   "high_52w": 398.54,
-  "ma50": 317.95,
-  "ma200": 334.35
+  "ma50": 316.65,
+  "ma200": 334.12
 }

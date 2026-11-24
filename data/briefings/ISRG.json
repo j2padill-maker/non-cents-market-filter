@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-23T18:42:44.835741-08:00",
+  "generated_at": "2026-11-24T14:17:55.732056-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Reasons to Hold QuidelOrtho Stock in Your Portfolio for Now",
+      "headline": "Abbott Laboratories vs. Intuitive Surgical: Which Healthcare Stock Is a Better Buy for 2027?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f20a9cdcbe66fd54c1eeeef11fa3aaf1195d65918cd155a0c6843652a8110201",
-      "datetime": 1795449720,
-      "summary": "QDEL's diversified product portfolio, cost-saving initiatives and R&D investments support growth prospects, but respiratory testing weakness remains a concern."
+      "url": "https://finnhub.io/api/news?id=8ea3d814205c0734538c2a0f4221cc002e83a7d29d57a6953590bf8476b23231",
+      "datetime": 1795544402,
+      "summary": "Abbott's diversified model and Intuitive Surgical's robotic dominance pull in very different directions, and their valuation gap is wider than you might expect."
     },
     {
-      "headline": "GE HealthCare Adds AI Features to Enhance Imaging 360 Workflows",
+      "headline": "Medtronic\u2019s Core Business Looks Stronger Than Its Headline Earnings Numbers",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=138d381240d025e946a3e65f0fd3b91d63a7ac6e777e7d1a1c3622ba2d94db3a",
-      "datetime": 1795446780,
-      "summary": "GEHC expands Imaging 360 with an AI assistant and AI-assisted protocoling to streamline radiology workflows, improve consistency and boost efficiency."
+      "url": "https://finnhub.io/api/news?id=c3d0358117e7d2eda2037046d446e50cac20bf108e8f161e682064f151f36ee7",
+      "datetime": 1795543200,
+      "summary": "A modest earnings beat and unchanged fiscal-year outlook leave Wall Street wanting more from Medtronic."
     },
     {
-      "headline": "Here's Why You Should Add McKesson Stock to Your Portfolio Now",
+      "headline": "Veeva Systems' Gains 20% YTD: Can the Stock's Growth Momentum",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=47ed2e4ce1d818ef76e1c2a9d821ecd4b5800e02235071f02bc832bc5ee7fca6",
-      "datetime": 1795444140,
-      "summary": "McKesson's specialty pharmaceutical growth, rising GLP-1 demand and strategic acquisitions strengthen its earnings outlook, despite profitability and pricing challenges."
+      "url": "https://finnhub.io/api/news?id=2fbe753af4192cbdc30b2fe6266a68c2de54afefb5fb63f8e2330171410ea2ed",
+      "datetime": 1795538820,
+      "summary": "Veeva Systems' strong CRM customer wins, expanding AI opportunities and next-generation R&D products are likely to help sustain its growth momentum."
     },
     {
-      "headline": "The Zacks Analyst Blog Highlights Intuitive Surgical, STERIS and Pulse Biosciences",
+      "headline": "Here's Why You Should Add Glaukos Stock to Your Portfolio Now",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=324cec6d9e6650c37952f00771b3f9a870fd1c3df5ba84a797ca1b6d376e5592",
-      "datetime": 1795434420,
-      "summary": "Intuitive Surgical, STERIS and Pulse Biosciences offer growth opportunities as rising demand for AI-enabled medical devices and favorable earnings revisions support their outlook."
+      "url": "https://finnhub.io/api/news?id=869df8461d1513723b6e247a1c5b8387226c72802b701a11570b343815bb306c",
+      "datetime": 1795538460,
+      "summary": "Glaukos' surging Epioxa adoption, strong iDose sales and raised revenue targets fuel growth prospects, while Medicare coverage risks remain."
     },
     {
-      "headline": "Are Wall Street Analysts Predicting Intuitive Surgical Stock Will Climb or Sink?",
+      "headline": "GEHC Launches ViewPoint Ultra to Streamline Ultrasound Workflows",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=84e8776fd88cda7209b636436a8967d3568e5ec93e5388d5ac71851ab1102458",
-      "datetime": 1795428298,
-      "summary": "Intuitive Surgical has underperformed the broader market and medical-device peers despite earnings growth, while analyst sentiment remains strongly bullish."
+      "url": "https://finnhub.io/api/news?id=b8287b4c0a94ba3019b89f21c8cff9523fbb95ac4129018ad7cec6b88dd77bbb",
+      "datetime": 1795538460,
+      "summary": "GE HealthCare expands its digital healthcare offerings with ViewPoint Ultra, targeting fragmented ultrasound workflows and wider adoption across health systems."
     },
     {
-      "headline": "Here's Why You Should Retain Ecolab Stock in Your Portfolio Now",
+      "headline": "Medtronic\u2019s High Expectations Leave Little Room for a Revenue Miss",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8530979459e0d0a5a36e49ec5841f61ffb5377fc7537c51bf73b8a93f463c0fd",
-      "datetime": 1795189440,
-      "summary": "ECL's strong product portfolio, surging Global High-Tech sales and digital expansion support growth prospects, even as persistent cost pressures weigh on margins."
+      "url": "https://finnhub.io/api/news?id=78b132d34c5214c76319e4766179735e83c3bd2ba24ce6fa480d4c25c55d825d",
+      "datetime": 1795537440,
+      "summary": "A modest earnings beat and unchanged fiscal-year outlook leave Wall Street wanting more from Medtronic."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-23",
+  "data_asof": "2026-11-24",
   "price": {
-    "last": 416.23,
-    "open": 410.89,
-    "prev_close": 399.05,
-    "move_day_pct": 4.31,
-    "move_open_close_pct": 1.3,
-    "move_week_pct": -4.92
+    "last": 434.46,
+    "open": 413.43,
+    "prev_close": 416.23,
+    "move_day_pct": 4.38,
+    "move_open_close_pct": 5.09,
+    "move_week_pct": 0.91
   },
   "indicators": {
     "rsi14": {
-      "value": 43.8,
+      "value": 51.2,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -3.678,
-      "signal": 2.957,
-      "hist": -6.635,
-      "hist_prev": -7.419,
+      "macd": -2.868,
+      "signal": 1.792,
+      "hist": -4.66,
+      "hist_prev": -6.635,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 478.7,
-      "lower": 402.02,
-      "mid": 440.36,
-      "pctb": 0.185,
-      "read": "Near the lower band"
+      "upper": 478.13,
+      "lower": 401.46,
+      "mid": 439.79,
+      "pctb": 0.43,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 25.36,
-      "read": "25% above its 52-week low"
+      "value": 30.85,
+      "read": "31% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -29.79,
-      "read": "30% below its 52-week high"
+      "value": -26.72,
+      "read": "27% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 427.33,
-      "pct": -2.6,
-      "read": "3% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 427.03,
+      "pct": 1.74,
+      "read": "2% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 14.77,
-      "pct_of_price": 3.55,
+      "value": 15.54,
+      "pct_of_price": 3.58,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.88,
+      "value": 0.97,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 32.3,
+      "value": 26.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 332.02,
   "high_52w": 592.85,
-  "ma50": 424.28,
-  "ma200": 427.33
+  "ma50": 425.42,
+  "ma200": 427.03
 }

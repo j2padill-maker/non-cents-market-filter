@@ -2,7 +2,7 @@
   "ticker": "CAT",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-23T18:43:01.944941-08:00",
+  "generated_at": "2026-11-24T14:18:24.403715-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "Deere Has More Than Doubled Its Dividend Since 2020, but the Raises Have Stopped",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=6ff33e1783293a6c07bacba8f14aec60cb556d01d48681d079325b22ee9d9945",
+      "datetime": 1795548771,
+      "summary": "Deere has never suspended its payout, and it still cuts buybacks first when farm incomes sag. But the dividend has sat frozen for over a year, and one executive's bold call on the cycle will decide whether it moves again."
+    },
+    {
+      "headline": "Can Caterpillar Stock Jump 50%?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b29866fb3160e93e3edcee399de3020bf812bbfbbb000b721f1d3497c5878644",
+      "datetime": 1795540359,
+      "summary": "Today's big story: Nvidia Added $954 Billion In A Day. Is Jensen Huang Too Big To Fire."
+    },
+    {
+      "headline": "Cathie Wood and 3 Other Big Funds Sold Deere Last Quarter. Should You Follow Them Before Earnings?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=5f83eb262e1134f5e88c364c5618efe87cc1c26d4628e6376c2855bdc12a959c",
+      "datetime": 1795539555,
+      "summary": "Key TakeawaysCathie Wood\u2019s ARK Invest and three other funds cut their Deere stakes in the third quarter, by between 31% and 98% of their shares. Deere\u2019s business looks past its low point, but the stock already prices in the recovery, so trimming makes sense."
+    },
+    {
+      "headline": "Terex (TEX) Stock Is Up 10.6% Today: Aerials Unit Sale to Linamar",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=102fcbcf7737a7ee4059f141b2bfac9352d20b783cfd4f28f598d1fd0fac2f72",
+      "datetime": 1795534386,
+      "summary": "On Tuesday, Nov. 24, shares rose 10.6% after Terex agreed to sell its Aerials segment to Linamar."
+    },
+    {
+      "headline": "A $1 Million Retirement Portfolio Could Generate $25,000 a Year Without Selling Shares",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=918f9d05ca34acdfbf4b3dfbf35f23630a2a7a1ab81286bd7b5623c26c3e224c",
+      "datetime": 1795524433,
+      "summary": "The day the last paycheck lands, a saver's question flips from how big the pile is to how much cash it sends home. Five blue-chip payers, from a data center boom to a 70-year streak, each carry a risk worth knowing first."
+    },
+    {
       "headline": "The Midterms Put Data Center Permitting Back in Play. Here Are 2 Industrial Stocks That Win if Power Moves Behind the Meter.",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=28e4b1ea13feb22a41bf3e474cbfd48d14f32b6f91b8dbfa532ec019b033039a",
       "datetime": 1795480262,
       "summary": "Bloom Energy and Caterpillar have sold off sharply along with the AI sector, but shifting electricity trends could support long-term business success."
-    },
-    {
-      "headline": "Dow Jones Top Gainers Today: NVDA, CAT, GOOGL Lead",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=8bafd04d062dc134173abbf5dd1aeaa1fc02b00f990aa74f29a319f51606d0a5",
-      "datetime": 1795464651,
-      "summary": "Dow Jones components NVDA, CAT, GOOGL, CSCO and GS were among today's top gainers, with NVIDIA up 31.37% and Caterpillar up 6.68%."
-    },
-    {
-      "headline": "Caterpillar (CAT) Falls In Broad Pullback As Undervalued Narrative Stays In Focus",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3af93cf69e3a4ba0c79f8bba521b42b6e15bc2eb9f23c118774c7223f4e62097",
-      "datetime": 1795461103,
-      "summary": "Caterpillar (CAT) is back in focus after the stock fell 5.0% on November 20, 2026, during a broader pullback in AI linked companies, despite no fresh corporate news. The recent pullback fits into a much sharper reset for Caterpillar. The share price has retreated 37.1% over the past 90 days and 25.7% over the past month, even though the 3 year total shareholder return of 114.6% and 5 year total sh"
-    },
-    {
-      "headline": "GEV vs CAT rebound comparison: two speeds, different risk profiles",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=94db63dcf1cf8129e697db32b2c3c98d280bbe725e02971d9b48bbc5d2cca0b1",
-      "datetime": 1795460416,
-      "summary": "Investing.com -- Both GE Vernova and Caterpillar rallied on Nov 23, but their underlying signals differ, making one a cleaner setup and the other a deeper, riskier snapback."
-    },
-    {
-      "headline": "Who's Buying And Who's Selling AI? The Full List, Next To 2000",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=85c82487a06b0391a63744f488971008c80b0df9e1a54c8d0192f1b9a34c3775",
-      "datetime": 1795458967,
-      "summary": "Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92."
-    },
-    {
-      "headline": "Stock Market Today: Dow Surges As Trump Says This On Huang's Nvidia Return; AI Plays Rocket (Live Coverage)",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=788ff0bfa2cc7d282f2645e183c11e7569d2f805989cbd86e6a866d0851b848c",
-      "datetime": 1795456551,
-      "summary": "Stock Market Today: The Dow Jones index surges Monday. President Trump boasts of his role in Jensen Huang's return as Nvidia CEO."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-23",
+  "data_asof": "2026-11-24",
   "price": {
-    "last": 547.04,
-    "open": 554.79,
-    "prev_close": 510.45,
-    "move_day_pct": 7.17,
-    "move_open_close_pct": -1.4,
-    "move_week_pct": -4.11
+    "last": 540.63,
+    "open": 539.78,
+    "prev_close": 547.04,
+    "move_day_pct": -1.17,
+    "move_open_close_pct": 0.16,
+    "move_week_pct": -5.28
   },
   "indicators": {
     "rsi14": {
-      "value": 34.7,
+      "value": 33.8,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -48.578,
-      "signal": -48.132,
-      "hist": -0.445,
-      "hist_prev": -2.072,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -47.348,
+      "signal": -47.976,
+      "hist": 0.627,
+      "hist_prev": -0.445,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 697.46,
-      "lower": 494.88,
-      "mid": 596.17,
-      "pctb": 0.257,
+      "upper": 676.05,
+      "lower": 499.02,
+      "mid": 587.54,
+      "pctb": 0.235,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 7.17,
+      "value": 5.91,
       "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -48.41,
-      "read": "48% below its 52-week high"
+      "value": -49.02,
+      "read": "49% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 800.23,
-      "pct": -31.64,
+      "ma200": 799.25,
+      "pct": -32.36,
       "read": "32% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 30.4,
-      "pct_of_price": 5.56,
+      "value": 29.55,
+      "pct_of_price": 5.46,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.04,
+      "value": 0.91,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 25.1,
+      "value": 26.5,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 510.45,
   "high_52w": 1060.41,
-  "ma50": 708.39,
-  "ma200": 800.23
+  "ma50": 703.57,
+  "ma200": 799.25
 }

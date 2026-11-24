@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-23T18:42:46.934622-08:00",
+  "generated_at": "2026-11-24T14:17:58.711698-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,27 @@
   ],
   "news": [
     {
+      "headline": "Symbotic Analysts Revise Their Forecasts Following Q4 Earnings",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=10c5efab4ff785121a789767d2a40a533dd4dcf19f0e15d670e1efddfee509e1",
+      "datetime": 1795513617,
+      "summary": "Symbotic beat Q4 earnings and sales estimates, guided Q1 sales near forecasts, while shares fell 5.8%; analysts raised and cut price targets."
+    },
+    {
+      "headline": "Goldman Sachs Maintains Sell on Symbotic, Lowers Price Target to $33",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=b82227c824ff4fc82eca928a89c0c7a3d109667c1efa2e7d60dd428c4d8c16f1",
+      "datetime": 1795508916,
+      "summary": "Goldman Sachs  analyst Mark Delaney   maintains Symbotic (NASDAQ:SYM) with a Sell and lowers the price target from $42 to $33."
+    },
+    {
+      "headline": "Needham Maintains Buy on Symbotic, Raises Price Target to $65",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=2f801d8aa24466a97a85ecc3e727e8816c262ee0c3de62527f78e7ac6bc347a2",
+      "datetime": 1795505663,
+      "summary": "Needham  analyst Robert Jamieson   maintains Symbotic (NASDAQ:SYM) with a Buy and raises the price target from $60 to $65."
+    },
+    {
       "headline": "Symbotic Q4 Earnings Call Highlights",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=ad0b92cff4440b4e9fcdcabf6740c727f29779876057159006b33a6642e249d2",
@@ -24,39 +45,18 @@
       "summary": "Symbotic (NASDAQ:SYM) reported its first full year of positive GAAP net income in fiscal 2026, as fourth-quarter revenue rose 26% and an expanded Walmart agreement positioned the warehouse automation company for a sizable increase in backlog. Fourth-quarter revenue reached $778 million, up 8% from"
     },
     {
+      "headline": "Symbotic Inc. (SYM) Q4 2026 Earnings Call Transcript",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=af6255542a77c9b9137e4aba38eeb5323321014d4228ad491c52be59f22aaa3c",
+      "datetime": 1795479077,
+      "summary": "Symbotic Inc. (SYM) Q4 2026 Earnings Call November 23, 2026 5:00 PM ESTCompany ParticipantsCharles Anderson - Vice President of Investor Relations &..."
+    },
+    {
       "headline": "Symbotic (NASDAQ:SYM) Q4 Revenue In Line, EPS Beats as Guidance Tracks Near Consensus",
       "source": "ChartMill",
       "url": "https://finnhub.io/api/news?id=25828649323f40d96fe2c11bb750a6511c9edbbf1a6cfb7edc20a09906a8690e",
       "datetime": 1795475301,
       "summary": "Symbotic Q4 revenue in line, EPS beats; Q1 sales guidance modestly below consensus weighs on shares despite strong profit growth and Walmart expansion."
-    },
-    {
-      "headline": "Symbotic falls as Q1 revenue guidance disappoints",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=cd417efda4112bbbff2ed18c58efbb3e38893eb06c1aa676f95b079263f61560",
-      "datetime": 1795471282,
-      "summary": "Investing.com -- Symbotic Inc (NASDAQ:SYM) reported fourth quarter results that exceeded analyst expectations, but shares fell 2.4% in after-hours trading Monday as the company's first quarter revenue guidance disappointed investors."
-    },
-    {
-      "headline": "Compared to Estimates, SYMBOTIC INC (SYM) Q4 Earnings: A Look at Key Metrics",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=62581a788f0f8d7842165ae61022b434bedeb2e38bbc9ada909973b659f97215",
-      "datetime": 1795471201,
-      "summary": "Although the revenue and EPS for SYMBOTIC INC (SYM) give a sense of how its business performed in the quarter ended September 2026, it might be worth considering how some key metrics compare with Wall Street estimates and the year-ago numbers."
-    },
-    {
-      "headline": "Symbotic Inc. (SYM) Surpasses Q4 Earnings and Revenue Estimates",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8db06c2aa6352abcad1534e813ecfa9c04e44488f75a232cdc793d92055a07d9",
-      "datetime": 1795468502,
-      "summary": "SYMBOTIC INC (SYM) delivered earnings and revenue surprises of +6.25% and +0.48%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?"
-    },
-    {
-      "headline": "Symbotic Reports Fourth Quarter and Fiscal Year 2026 Results",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=46145c3ca670234666d5d03f3f9eaa8acbd9279fa35e13ea943c8e0eacd8ade1",
-      "datetime": 1795467660,
-      "summary": "WILMINGTON, Mass., Nov. 23, 2026 (GLOBE NEWSWIRE) -- Symbotic Inc. (Nasdaq: SYM), a leader in A.I.-enabled robotics technology for the supply chain, announced financial results for its fourth quarter and fiscal year 2026, which ended on September 26, 2026. Symbotic reported revenue of $778 million, up 26% year-over-year, net income of $55 million, and adjusted EBITDA1 of $114 million for the fourt"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-23",
+  "data_asof": "2026-11-24",
   "price": {
-    "last": 34.97,
-    "open": 35.23,
-    "prev_close": 31.1,
-    "move_day_pct": 12.44,
-    "move_open_close_pct": -0.74,
-    "move_week_pct": 2.01
+    "last": 37.39,
+    "open": 33.92,
+    "prev_close": 34.97,
+    "move_day_pct": 6.92,
+    "move_open_close_pct": 10.23,
+    "move_week_pct": 13.1
   },
   "indicators": {
     "rsi14": {
-      "value": 45.0,
+      "value": 52.3,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -1.774,
-      "signal": -1.599,
-      "hist": -0.175,
-      "hist_prev": -0.39,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -1.427,
+      "signal": -1.565,
+      "hist": 0.138,
+      "hist_prev": -0.175,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 40.26,
-      "lower": 31.8,
-      "mid": 36.03,
-      "pctb": 0.375,
+      "upper": 40.01,
+      "lower": 31.89,
+      "mid": 35.95,
+      "pctb": 0.678,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 12.44,
-      "read": "Just off its 52-week low"
+      "value": 20.23,
+      "read": "20% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -59.94,
-      "read": "60% below its 52-week high"
+      "value": -57.17,
+      "read": "57% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 46.19,
-      "pct": -24.29,
-      "read": "24% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 46.06,
+      "pct": -18.82,
+      "read": "19% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 2.48,
+      "value": 2.65,
       "pct_of_price": 7.08,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 2.47,
+      "value": 2.36,
       "read": "Heavy volume \u2014 well above average"
     },
     "mfi14": {
-      "value": 35.3,
+      "value": 47.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 31.1,
   "high_52w": 87.3,
-  "ma50": 39.53,
-  "ma200": 46.19
+  "ma50": 39.42,
+  "ma200": 46.06
 }

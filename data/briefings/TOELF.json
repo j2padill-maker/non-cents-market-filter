@@ -2,7 +2,7 @@
   "ticker": "TOELF",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-23T18:42:34.166378-08:00",
+  "generated_at": "2026-11-24T14:17:38.878270-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Asian stocks rally after Wall Street rebound as Jensen Huang returns as Nvidia\u2019s CEO",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7f5d81a3a41a511f97040b73e0259305cee5b85e387e0edf9f8d7de2928acb61",
+      "datetime": 1795491085,
+      "summary": "HONG KONG (AP) \u2014 Asian stocks advanced after a rally on Wall Street as Jensen Huang returned as Nvidia\u2019s CEO, while U. futures edged higher and oil prices fell."
+    },
     {
       "headline": "Nikkei 225 Falls 4.5% and SoftBank Plunges 15% as Wall Street\u2019s AI Selloff Puts Asian Stocks on Track for Their Worst Week Since 2020",
       "source": "Yahoo",
@@ -37,61 +44,61 @@
   "status": "ok",
   "data_asof": "2026-11-23",
   "price": {
-    "last": 54.72,
-    "open": 54.0,
+    "last": 55.14,
+    "open": 52.87,
     "prev_close": 48.19,
-    "move_day_pct": 13.55,
-    "move_open_close_pct": 1.33,
-    "move_week_pct": 2.36
+    "move_day_pct": 14.42,
+    "move_open_close_pct": 4.29,
+    "move_week_pct": 3.14
   },
   "indicators": {
     "rsi14": {
-      "value": 44.2,
+      "value": 44.8,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -3.559,
-      "signal": -3.431,
-      "hist": -0.128,
+      "macd": -3.525,
+      "signal": -3.424,
+      "hist": -0.101,
       "hist_prev": -0.417,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
       "upper": 66.43,
-      "lower": 48.21,
-      "mid": 57.32,
-      "pctb": 0.357,
+      "lower": 48.26,
+      "mid": 57.34,
+      "pctb": 0.379,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 48.72,
-      "read": "49% above its 52-week low"
+      "value": 49.86,
+      "read": "50% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -42.89,
-      "read": "43% below its 52-week high"
+      "value": -42.45,
+      "read": "42% below its 52-week high"
     },
     "price_vs_ma200": {
       "ma200": 64.46,
-      "pct": -15.11,
-      "read": "15% below its 200-day average \u2014 long-term downtrend"
+      "pct": -14.46,
+      "read": "14% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 4.05,
-      "pct_of_price": 7.4,
+      "value": 4.13,
+      "pct_of_price": 7.48,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.01,
+      "value": 0.43,
       "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 56.0,
+      "value": 57.2,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 36.79,
   "high_52w": 95.82,
-  "ma50": 64.93,
+  "ma50": 64.94,
   "ma200": 64.46
 }
