@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-22T18:49:21.446513-08:00",
+  "generated_at": "2026-11-23T18:42:20.985481-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Best Positioned Software Stocks for AI and Security Growth in 2027",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=9b7151959a2295518a88aaffa46bf7847a63cf1ab2727f3661267ef9309ce64a",
+      "datetime": 1795445927,
+      "summary": "Investing.com -- Goldman Sachs has identified five software companies best positioned to benefit from accelerating cybersecurity budgets and enterprise AI adoption following recent conversations with technology leaders and engineers. The analysis comes amid elevated stock volatility and a notable uptick in IT infrastructure challenges that are driving increased spending on security modernization a"
+    },
     {
       "headline": "Nvidia Shock Puts MongoDB Stock And Cloud Software Names Back In Focus",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=54dd0d96488618d6d1bd856fb471634581606df28e928b0fd54de6397f9045ba",
       "datetime": 1795201752,
       "summary": "MongoDB (MDB) is back in focus after its Atlas for Government platform secured FedRAMP Class D High certification and extended support to Microsoft Azure Government, a policy win with potential implications for public sector demand. Recent trading has been rough, with MongoDB\u2019s share price falling 12.6% over the past week, 18.9% over the past month and 31.1% over the past quarter, while the 1 year"
-    },
-    {
-      "headline": "MongoDB (MDB) Stock Could Be 21% Undervalued Despite Price Target Cut",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=139d3461f3659ac83dd5e374ddfe56c6890ade808cb8db17863a227a728a29a1",
-      "datetime": 1795194591,
-      "summary": "MongoDB has seen its share price fall over multiple time frames, and the pullback raises a straightforward issue for investors who care about valuation. Do the cash flows that MongoDB can generate over time justify where the stock trades today. Over the past 5 years, MongoDB shareholders have seen the stock decline about 41.4%, which puts the focus squarely on whether the underlying cash flows sti"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-20",
+  "data_asof": "2026-11-23",
   "price": {
-    "last": 285.9,
-    "open": 290.84,
-    "prev_close": 297.01,
-    "move_day_pct": -3.74,
-    "move_open_close_pct": -1.7,
-    "move_week_pct": -14.45
+    "last": 312.69,
+    "open": 310.0,
+    "prev_close": 285.9,
+    "move_day_pct": 9.37,
+    "move_open_close_pct": 0.87,
+    "move_week_pct": -1.33
   },
   "indicators": {
     "rsi14": {
-      "value": 33.9,
-      "read": "Oversold"
+      "value": 43.8,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": -17.973,
-      "signal": -14.168,
-      "hist": -3.806,
-      "hist_prev": -3.115,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -16.918,
+      "signal": -14.718,
+      "hist": -2.2,
+      "hist_prev": -3.806,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 398.26,
-      "lower": 271.6,
-      "mid": 334.93,
-      "pctb": 0.113,
-      "read": "Near the lower band"
+      "upper": 389.96,
+      "lower": 272.25,
+      "mid": 331.11,
+      "pctb": 0.344,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 26.53,
-      "read": "27% above its 52-week low"
+      "value": 38.39,
+      "read": "38% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -39.47,
-      "read": "39% below its 52-week high"
+      "value": -33.79,
+      "read": "34% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 333.04,
-      "pct": -14.15,
-      "read": "14% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 332.88,
+      "pct": -6.07,
+      "read": "6% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 21.68,
-      "pct_of_price": 7.58,
+      "value": 22.35,
+      "pct_of_price": 7.15,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.13,
+      "value": 0.84,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 38.0,
+      "value": 45.1,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 358.62,
-  "ma200": 333.04
+  "ma50": 357.23,
+  "ma200": 332.88
 }

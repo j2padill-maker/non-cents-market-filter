@@ -2,7 +2,7 @@
   "ticker": "FSLY",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-22T18:49:58.958397-08:00",
+  "generated_at": "2026-11-23T18:42:57.447817-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Fastly Stock and Asia Pacific AI Infrastructure Names Outside U.S. Sanctions",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b261d01e8a8c4175e7c95032b07c99b544882482bc0f758a9f2af43c97eaa278",
+      "datetime": 1795475870,
+      "summary": "U.S. sanctions are tightening around Megaspeed and Nvidia, and that is quietly rearranging who gets to sell the next wave of AI and cloud capacity. When one major buyer is hit with export controls, capital and workloads often look for a new home. This article walks through three Asia Pacific stocks exposed to that shift, drawn from our cloud and data center screener, and explains how each might be"
+    },
     {
       "headline": "Figma vs. Fastly: Which Cloud Stock Is a Better Buy for 2027?",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=9962a9952ec84fffdb1ea3ea9806ea5e856dfe1b15b8f8bc3281bc3c2c62b3a0",
       "datetime": 1795095251,
       "summary": "Today's big story: Could Anthropic Stock Fall 25."
-    },
-    {
-      "headline": "Why Did Fastly Stock Jump?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9beab400096e16b36bf14d297117b94c1a2baf8cb61f461ac06bed74c1ed6cb0",
-      "datetime": 1795091592,
-      "summary": "Today's big story: Could Anthropic Stock Fall 25."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-20",
+  "data_asof": "2026-11-23",
   "price": {
-    "last": 14.91,
-    "open": 16.18,
-    "prev_close": 16.86,
-    "move_day_pct": -11.57,
-    "move_open_close_pct": -7.85,
-    "move_week_pct": -10.29
+    "last": 16.28,
+    "open": 16.74,
+    "prev_close": 14.91,
+    "move_day_pct": 9.19,
+    "move_open_close_pct": -2.75,
+    "move_week_pct": 2.65
   },
   "indicators": {
     "rsi14": {
-      "value": 34.8,
-      "read": "Oversold"
+      "value": 40.2,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": -2.141,
-      "signal": -2.028,
-      "hist": -0.114,
-      "hist_prev": -0.072,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -2.062,
+      "signal": -2.035,
+      "hist": -0.028,
+      "hist_prev": -0.114,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 27.63,
-      "lower": 11.11,
-      "mid": 19.37,
-      "pctb": 0.23,
+      "upper": 26.75,
+      "lower": 11.06,
+      "mid": 18.9,
+      "pctb": 0.333,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 87.31,
-      "read": "87% above its 52-week low"
+      "value": 104.52,
+      "read": "105% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -55.49,
-      "read": "55% below its 52-week high"
+      "value": -51.4,
+      "read": "51% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 22.07,
-      "pct": -32.44,
-      "read": "32% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 22.11,
+      "pct": -26.37,
+      "read": "26% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
       "value": 1.97,
-      "pct_of_price": 13.22,
+      "pct_of_price": 12.08,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.27,
+      "value": 0.73,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 37.5,
+      "value": 42.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 7.96,
   "high_52w": 33.5,
-  "ma50": 22.89,
-  "ma200": 22.07
+  "ma50": 22.71,
+  "ma200": 22.11
 }

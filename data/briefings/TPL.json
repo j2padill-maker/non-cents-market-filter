@@ -2,7 +2,7 @@
   "ticker": "TPL",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-22T18:50:01.033660-08:00",
+  "generated_at": "2026-11-23T18:42:59.663416-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,42 +17,55 @@
   ],
   "news": [
     {
-      "headline": "Is Viper Spending Too Much?",
+      "headline": "Texas Pacific Land Corporation Announces Agreement and Plan of Merger to Acquire EagleRock in All-Stock Transaction",
+      "source": "Fintel",
+      "url": "https://finnhub.io/api/news?id=e49435b30b542ca30d2652c0422cead2f7af6a0e85ef717b6caa6ce82c46cf30",
+      "datetime": 1795477148,
+      "summary": ""
+    },
+    {
+      "headline": "5 Energy Stocks That Can Shrug Off a December Fed Rate Hike",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c754d22ce1bd32f8a83f7c311cfd5c26db3428553f0c13a1c7632baa3c3a558e",
-      "datetime": 1795196596,
-      "summary": "Today's big story: Will 2027 Be A 2022 Repeat For Stocks."
+      "url": "https://finnhub.io/api/news?id=28dd81f042570a14ea8f371be7819e63b073faf5c7420e8c2230d372fd2945e6",
+      "datetime": 1795471200,
+      "summary": "Five energy stocks with strong balance sheets, from Exxon to Kinder Morgan, that could hold up if the Fed hikes again in December and CPI runs hot."
     },
     {
-      "headline": "My Top Dividend Growth Picks In Each GICS Sector (November 2026)",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=441dc6b71818f9baa7ca2edc982fb9c9144f0f87d43c10f3535b02fc9cefde47",
-      "datetime": 1795177507,
-      "summary": "The bull case for dividend growth picks: sector winners would have returned 144% in five years vs."
-    },
-    {
-      "headline": "Texas Pacific Land Stock: Analyst Estimates & Ratings",
+      "headline": "Sector Update: Energy Stocks Decline Monday",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=00823ee67519a79e6a029b7edba583a6359fa1c197eefbdacd1303b2fe5ec03b",
-      "datetime": 1795009830,
-      "summary": "Texas Pacific Land has underperformed the broader market over the past year, but analysts are cautiously optimistic about the stock\u2019s prospects."
+      "url": "https://finnhub.io/api/news?id=ea96740532553eb029e564a6780e2119e0c89a08053255089c9e0cdd4ef87ccf",
+      "datetime": 1795468091,
+      "summary": "Energy stocks fell Monday with the NYSE Energy Sector Index declining 1.2% and the State Street Ener"
     },
     {
-      "headline": "There's Only One Way Out Of $40 Trillion In Debt - I'm Ready For It",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=9359e37de77206f5ec040e285a5984430fc6c51d61884142bd0f6eb2da2e0e25",
-      "datetime": 1794987000,
-      "summary": "Analyst sees virtually no path to U.S. default, but expects inflation to shift wealth from dollar savers to asset owners with $40 trillion in debt."
-    },
-    {
-      "headline": "Texas Pacific Land Corporation Announces Redomestication to Texas",
+      "headline": "Why Texas Pacific Land Stock Was Slumping While the Market Surged Today",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b731172a2af49cb1addf61ba78ffd3400baa498486c7f8cec8b3cb14f17ef348",
-      "datetime": 1794863700,
-      "summary": "DALLAS, November 16, 2026--TEXAS PACIFIC LAND CORPORATION ANNOUNCES REDOMESTICATION TO TEXAS"
+      "url": "https://finnhub.io/api/news?id=d428c4f1348bfa52fecca8f1bb98b9436a1094141163fed7e8050158fb89a75b",
+      "datetime": 1795465307,
+      "summary": "The company announced a roughly $3 billion acquisition."
+    },
+    {
+      "headline": "S&P 500 Top Movers: Today's US Session Gainers and Losers",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=d33a321c4f0d63865b5020981f259c6f0c7c6d8770044a22c5790270da2d8417",
+      "datetime": 1795464360,
+      "summary": "S&P 500 top movers in today's US session: NVIDIA led gainers as semiconductor and technology names rose, while CrowdStrike led the declines."
+    },
+    {
+      "headline": "Vinson & Elkins Represents EagleRock in $3 Billion Sale to Texas Pacific",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=cef8e14c8c8a7e9947d92e1a8e77273ab5198e32031b1c71050d84fe69bf0fb6",
+      "datetime": 1795462389,
+      "summary": "By Karen Roman Vinson & Elkins said it represented EagleRock Land LLC (NYSE: EROK) in a definitive agreement with Texas Pacific Land Corp. (NYSE: TPL) for TPL to acquire EagleRock in an all-stock transaction for approximately $3 billion. New Titan Holdings, Inc. will be the newly formed holding company resulting from this transaction and would become [\u2026] The post Vinson & Elkins Represents EagleRo"
     }
   ],
   "filings": [
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-11-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/1811074/000119312526472518/d166244d8k.htm"
+    },
     {
       "form": "10-Q",
       "title": "Quarterly report (10-Q)",
@@ -64,43 +77,37 @@
       "title": "Material event (8-K)",
       "date": "2026-11-04",
       "url": "https://www.sec.gov/Archives/edgar/data/1811074/000181107426000075/tpl-20261104.htm"
-    },
-    {
-      "form": "8-K",
-      "title": "Material event (8-K)",
-      "date": "2026-09-25",
-      "url": "https://www.sec.gov/Archives/edgar/data/1811074/000110465926111009/tm2626094d1_8k.htm"
     }
   ],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-20",
+  "data_asof": "2026-11-23",
   "price": {
-    "last": 267.44,
-    "open": 274.28,
-    "prev_close": 277.72,
-    "move_day_pct": -3.7,
-    "move_open_close_pct": -2.49,
-    "move_week_pct": -8.38
+    "last": 258.07,
+    "open": 280.34,
+    "prev_close": 267.44,
+    "move_day_pct": -3.5,
+    "move_open_close_pct": -7.94,
+    "move_week_pct": -11.67
   },
   "indicators": {
     "rsi14": {
-      "value": 28.6,
+      "value": 25.8,
       "read": "Extremely oversold"
     },
     "macd": {
-      "macd": -16.449,
-      "signal": -16.021,
-      "hist": -0.427,
-      "hist_prev": 0.125,
+      "macd": -17.525,
+      "signal": -16.322,
+      "hist": -1.203,
+      "hist_prev": -0.427,
       "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 347.91,
-      "lower": 248.89,
-      "mid": 298.4,
-      "pctb": 0.187,
+      "upper": 344.37,
+      "lower": 244.9,
+      "mid": 294.63,
+      "pctb": 0.132,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
@@ -108,30 +115,30 @@
       "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -50.3,
-      "read": "50% below its 52-week high"
+      "value": -52.04,
+      "read": "52% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 396.77,
-      "pct": -32.6,
-      "read": "33% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 396.24,
+      "pct": -34.87,
+      "read": "35% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 14.32,
-      "pct_of_price": 5.35,
+      "value": 15.64,
+      "pct_of_price": 6.06,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.21,
-      "read": "Roughly average volume"
+      "value": 3.84,
+      "read": "Heavy volume \u2014 well above average"
     },
     "mfi14": {
-      "value": 28.7,
+      "value": 25.0,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": 267.44,
+  "low_52w": 258.07,
   "high_52w": 538.1,
-  "ma50": 328.27,
-  "ma200": 396.77
+  "ma50": 326.13,
+  "ma200": 396.24
 }

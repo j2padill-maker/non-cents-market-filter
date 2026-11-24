@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-22T18:49:44.930300-08:00",
+  "generated_at": "2026-11-23T18:42:44.835741-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "Reasons to Hold QuidelOrtho Stock in Your Portfolio for Now",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f20a9cdcbe66fd54c1eeeef11fa3aaf1195d65918cd155a0c6843652a8110201",
+      "datetime": 1795449720,
+      "summary": "QDEL's diversified product portfolio, cost-saving initiatives and R&D investments support growth prospects, but respiratory testing weakness remains a concern."
+    },
+    {
+      "headline": "GE HealthCare Adds AI Features to Enhance Imaging 360 Workflows",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=138d381240d025e946a3e65f0fd3b91d63a7ac6e777e7d1a1c3622ba2d94db3a",
+      "datetime": 1795446780,
+      "summary": "GEHC expands Imaging 360 with an AI assistant and AI-assisted protocoling to streamline radiology workflows, improve consistency and boost efficiency."
+    },
+    {
+      "headline": "Here's Why You Should Add McKesson Stock to Your Portfolio Now",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=47ed2e4ce1d818ef76e1c2a9d821ecd4b5800e02235071f02bc832bc5ee7fca6",
+      "datetime": 1795444140,
+      "summary": "McKesson's specialty pharmaceutical growth, rising GLP-1 demand and strategic acquisitions strengthen its earnings outlook, despite profitability and pricing challenges."
+    },
+    {
+      "headline": "The Zacks Analyst Blog Highlights Intuitive Surgical, STERIS and Pulse Biosciences",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=324cec6d9e6650c37952f00771b3f9a870fd1c3df5ba84a797ca1b6d376e5592",
+      "datetime": 1795434420,
+      "summary": "Intuitive Surgical, STERIS and Pulse Biosciences offer growth opportunities as rising demand for AI-enabled medical devices and favorable earnings revisions support their outlook."
+    },
+    {
+      "headline": "Are Wall Street Analysts Predicting Intuitive Surgical Stock Will Climb or Sink?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=84e8776fd88cda7209b636436a8967d3568e5ec93e5388d5ac71851ab1102458",
+      "datetime": 1795428298,
+      "summary": "Intuitive Surgical has underperformed the broader market and medical-device peers despite earnings growth, while analyst sentiment remains strongly bullish."
+    },
+    {
       "headline": "Here's Why You Should Retain Ecolab Stock in Your Portfolio Now",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=8530979459e0d0a5a36e49ec5841f61ffb5377fc7537c51bf73b8a93f463c0fd",
       "datetime": 1795189440,
       "summary": "ECL's strong product portfolio, surging Global High-Tech sales and digital expansion support growth prospects, even as persistent cost pressures weigh on margins."
-    },
-    {
-      "headline": "GEHC Advances Manganese-Based MRI Agent to Phase 3 After Positive Data",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=de8d7606f0503b3ff4086f3b5fef77fe2f8cbf0b4d5243a2bd1621a4b6d7db8c",
-      "datetime": 1795188780,
-      "summary": "GE HealthCare advances manganese-based MRI agent to Phase 3 after positive trial data, potentially expanding its imaging portfolio and addressing gadolinium-related concerns."
-    },
-    {
-      "headline": "Hims & Hers Launches Peptides+ to Expand Personalized Health Care",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e9fa71af569ccb4c3d215669f334cce1bb61196f2b550367111c1793c9ac4892",
-      "datetime": 1795185120,
-      "summary": "HIMS launches Peptides+ with five clinically guided therapies, expanding personalized wellness care through tailored treatments and ongoing medical support."
-    },
-    {
-      "headline": "Buy 3 Medical Device Stocks for a Stable Portfolio With Solid Upside",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=be93b2555017f0e997ea3f0bc948a245cc06d8381b78692205810f4f3824777d",
-      "datetime": 1795182000,
-      "summary": "ISRG, STE and PLSE offer exposure to AI-enabled medical devices, rising healthcare demand and potential price upside, making them stocks to watch in 2026."
-    },
-    {
-      "headline": "BTIG Reiterates Buy on Intuitive Surgical, Maintains $513 Price Target",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=5a2ea0815f3fe1c7a0b3edafc71771285aa224d14555e00aac660b2911967f32",
-      "datetime": 1795156699,
-      "summary": "BTIG  analyst Ryan Zimmerman   reiterates Intuitive Surgical (NASDAQ:ISRG) with a Buy and maintains $513 price target."
-    },
-    {
-      "headline": "GE HealthCare Wins FDA Nod for AI Feeding Tube Detection Software",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6e82a9bde5a7df1692b6c4740ee9d0c1ec45e78c69eaeab944e764fd571e7663",
-      "datetime": 1795107000,
-      "summary": "GEHC secures FDA clearance for AI-powered feeding tube detection software, expanding bedside X-ray capabilities for adult and pediatric patients."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-20",
+  "data_asof": "2026-11-23",
   "price": {
-    "last": 399.05,
-    "open": 407.24,
-    "prev_close": 407.24,
-    "move_day_pct": -2.01,
-    "move_open_close_pct": -2.01,
-    "move_week_pct": -10.04
+    "last": 416.23,
+    "open": 410.89,
+    "prev_close": 399.05,
+    "move_day_pct": 4.31,
+    "move_open_close_pct": 1.3,
+    "move_week_pct": -4.92
   },
   "indicators": {
     "rsi14": {
-      "value": 35.3,
-      "read": "Oversold"
+      "value": 43.8,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": -2.804,
-      "signal": 4.616,
-      "hist": -7.419,
-      "hist_prev": -6.368,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -3.678,
+      "signal": 2.957,
+      "hist": -6.635,
+      "hist_prev": -7.419,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 479.1,
-      "lower": 405.17,
-      "mid": 442.13,
-      "pctb": -0.083,
-      "read": "Below the lower band \u2014 stretched to the downside"
+      "upper": 478.7,
+      "lower": 402.02,
+      "mid": 440.36,
+      "pctb": 0.185,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 20.19,
-      "read": "20% above its 52-week low"
+      "value": 25.36,
+      "read": "25% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -32.69,
-      "read": "33% below its 52-week high"
+      "value": -29.79,
+      "read": "30% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 427.69,
-      "pct": -6.7,
-      "read": "7% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 427.33,
+      "pct": -2.6,
+      "read": "3% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 14.43,
-      "pct_of_price": 3.62,
+      "value": 14.77,
+      "pct_of_price": 3.55,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 1.06,
+      "value": 0.88,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 26.5,
+      "value": 32.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 332.02,
   "high_52w": 592.85,
-  "ma50": 423.51,
-  "ma200": 427.69
+  "ma50": 424.28,
+  "ma200": 427.33
 }

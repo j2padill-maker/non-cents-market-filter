@@ -2,7 +2,7 @@
   "ticker": "GOOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-22T18:50:05.530977-08:00",
+  "generated_at": "2026-11-23T18:43:04.155683-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Jim Cramer sends a strong signal to Google stock investors",
+      "headline": "The Nasdaq Just Had Its Best Day Since April 2025. Anthropic Stock Fell Anyway.",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d5af9c4a0edb8f368297831de05d73b38abf5667f2344d629a57e6b622761684",
-      "datetime": 1795394220,
-      "summary": "Cramer is not done with Google. And he has a chartist to back him up."
+      "url": "https://finnhub.io/api/news?id=8a14852da62acd080567b88a490342814d127f3ca0006c7eba9ddd5299af0482",
+      "datetime": 1795480922,
+      "summary": "Anthropic stock slipped on the Nasdaq Composite's best day since April 2025."
     },
     {
-      "headline": "Her $420,000 in Employer Stock Inside Her 401(k) Lost 11% in a Day. Rolling It Into an IRA Would Turn Her Long-Term Gain Into Ordinary Income",
+      "headline": "Is Amazon's Profit Riskier Than It Looks?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0a946c2f5ef5a2f8c26bc1bfa550a824e208b43ebb5931753ed5d06c1d3cfa19",
-      "datetime": 1795382223,
-      "summary": "A retiree sitting on a big Broadcom position in her 401(k) is one routine rollover form away from a tax bill she never saw coming. A little-known IRS rule offers another route, but the window to use it is narrow."
+      "url": "https://finnhub.io/api/news?id=3ab430afc44d1ae5ba6304d2610bb5a7795a1cb493dcd1e1b465663bfea1ae2f",
+      "datetime": 1795479913,
+      "summary": "Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92."
     },
     {
-      "headline": "Google\u2019s 2027 chip plan is bad news for Broadcom",
+      "headline": "Steve Eisman Said AI Was \u201cNo Longer One Trade.\u201d Huang Is Back, but Alphabet and CoreWeave Still Show the Split",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5b2072b921c43dc83744caba2fb305c4b2115dd3f9135dd9f113596e028ef960",
-      "datetime": 1795376820,
-      "summary": "A top supply-chain analyst says Google is changing what it buys, and Broadcom\u2019s higher-priced chip is taking most of the hit."
+      "url": "https://finnhub.io/api/news?id=cce76ef68e89ce2696f214b1480abf834d9ef713c8b68864824d4466e62cf846",
+      "datetime": 1795474493,
+      "summary": "Key TakeawaysNVIDIA, AMD, Broadcom and CoreWeave fell 12% to 14% on Friday, while Alphabet fell 2. 6%."
     },
     {
-      "headline": "Google Backs Superhot Geothermal in 50 MW Oregon Power Deal",
+      "headline": "Crypto traders saw Anthropic's 34% debut pop coming",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=346d964a26bcd66493578fa2101887fbe1f9c722bf5286d592625df3868c4e09",
-      "datetime": 1795370400,
-      "summary": "Google signed a 50 MW power deal with Quaise Energy for superhot geothermal in Oregon, but the drilling technology still has to prove it can scale."
+      "url": "https://finnhub.io/api/news?id=2e9867823f7e68e4507d79f97fa8e399b291159effcc42fc1df92c74d323bb66",
+      "datetime": 1795474035,
+      "summary": "Weeks before bankers priced Anthropic\u2019s IPO, a 24/7 crypto market was already trading the shares much higher. The debut showed how close it got."
     },
     {
-      "headline": "Billionaire David Tepper\u2019s Appaloosa Opened a $172 Million Stake in Oracle",
+      "headline": "Google's Gemini 4 Neon gains momentum ahead of OpenAI, data shows",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=bfd790e098978b31784e84fba13b511b4db584b5ffd0685f42c537a6eea12394",
-      "datetime": 1795370348,
-      "summary": "Appaloosa bought Oracle before the stock lost nearly half its value this year, but a 13F filing hides the details that matter most. What can retirement investors actually learn from a bet they can't copy?"
+      "url": "https://finnhub.io/api/news?id=9df03e2716b9ed3c01042a57db22beb7f3a278837f477e8ff4bceca55b3b52ac",
+      "datetime": 1795473204,
+      "summary": "Logan Kilpatrick, Google (GOOG) AI Studio and Gemini API Product Lead, joins Yahoo Finance's Deirdre Bosa\u2013as data shows Google's Gemini 4 Neon gaining momentum with developers\u2013to discuss how the company will focus on competing against Chinese open-source models."
     },
     {
-      "headline": "Alphabet vs. Meta Platforms: Which Media Stock Is a Better Buy for 2027?",
+      "headline": "Jensen Huang is back: Does Washington have a seat in the boardroom?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=83bcd34257734583b57be45d2714d1ce7ecc075e594d7adfa308b8f4c7e0c124",
-      "datetime": 1795367778,
-      "summary": "Alphabet's 13.9x forward P/E sits well below Meta's 20.5x, but Meta's 27.5% revenue jump makes the growth-versus-value trade-off harder to call."
+      "url": "https://finnhub.io/api/news?id=a52908d4c341923ace40bdd938c2a932b312ac5edeb57fa42d635d4bc0266178",
+      "datetime": 1795471934,
+      "summary": "As Nvidia reinstates Jensen Huang and investors add a trillion dollars to the stock, Deirdre Bosa dives into the White House's role in his return and asks General Catalyst's Madhu Namburi, who spent 25 years advising tech boards at J.P. Morgan, how boards, CEOs and dealmakers operate under the new rules."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-20",
+  "data_asof": "2026-11-23",
   "price": {
-    "last": 264.0,
-    "open": 272.45,
-    "prev_close": 271.02,
-    "move_day_pct": -2.59,
-    "move_open_close_pct": -3.1,
-    "move_week_pct": -9.75
+    "last": 279.53,
+    "open": 282.49,
+    "prev_close": 264.0,
+    "move_day_pct": 5.88,
+    "move_open_close_pct": -1.05,
+    "move_week_pct": -0.62
   },
   "indicators": {
     "rsi14": {
-      "value": 26.8,
-      "read": "Extremely oversold"
+      "value": 40.3,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": -13.373,
-      "signal": -12.85,
-      "hist": -0.522,
-      "hist_prev": 0.091,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -12.565,
+      "signal": -12.793,
+      "hist": 0.228,
+      "hist_prev": -0.522,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 316.32,
-      "lower": 258.2,
-      "mid": 287.26,
-      "pctb": 0.1,
-      "read": "Near the lower band"
+      "upper": 311.98,
+      "lower": 259.08,
+      "mid": 285.53,
+      "pctb": 0.387,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 0.0,
-      "read": "Sitting right at its 52-week low"
+      "value": 5.88,
+      "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -33.76,
-      "read": "34% below its 52-week high"
+      "value": -29.86,
+      "read": "30% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 334.57,
-      "pct": -21.09,
-      "read": "21% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 334.35,
+      "pct": -16.4,
+      "read": "16% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 11.02,
-      "pct_of_price": 4.17,
+      "value": 11.56,
+      "pct_of_price": 4.14,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.52,
-      "read": "Above-average volume"
+      "value": 1.23,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 41.4,
+      "value": 49.1,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 264.0,
   "high_52w": 398.54,
-  "ma50": 319.27,
-  "ma200": 334.57
+  "ma50": 317.95,
+  "ma200": 334.35
 }

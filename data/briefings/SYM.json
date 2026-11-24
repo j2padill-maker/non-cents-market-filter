@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-22T18:49:46.894172-08:00",
+  "generated_at": "2026-11-23T18:42:46.934622-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,128 +17,128 @@
   ],
   "news": [
     {
-      "headline": "Walmart Is Up 183% in Five Years and Just Raised Guidance Again. Is There Room Left to Run?",
+      "headline": "Symbotic Q4 Earnings Call Highlights",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=4a3087afeb29032e42db13ee6ffeda08023fc7ff71e912a219669274eb94a1ce",
-      "datetime": 1795178828,
-      "summary": "Walmart keeps beating estimates, yet a premium multiple that dwarfs Target's has skeptics circling. One overlooked profit engine growing several times faster than the stores may explain why Wall Street still isn't pricing the stock correctly."
+      "url": "https://finnhub.io/api/news?id=ad0b92cff4440b4e9fcdcabf6740c727f29779876057159006b33a6642e249d2",
+      "datetime": 1795482807,
+      "summary": "Symbotic (NASDAQ:SYM) reported its first full year of positive GAAP net income in fiscal 2026, as fourth-quarter revenue rose 26% and an expanded Walmart agreement positioned the warehouse automation company for a sizable increase in backlog. Fourth-quarter revenue reached $778 million, up 8% from"
     },
     {
-      "headline": "Symbotic Likely To Report Lower Q4 Earnings; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=5bb50a95861e591b6cbee9715cc4a842c8c25e50ee58c19f5cc5fa33634ec01c",
-      "datetime": 1795159810,
-      "summary": "Symbotic reports Q4 earnings Nov. 23; analysts expect EPS to fall to 16\u00a2 while revenue rises to $774.4M after acquiring cellumation."
+      "headline": "Symbotic (NASDAQ:SYM) Q4 Revenue In Line, EPS Beats as Guidance Tracks Near Consensus",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=25828649323f40d96fe2c11bb750a6511c9edbbf1a6cfb7edc20a09906a8690e",
+      "datetime": 1795475301,
+      "summary": "Symbotic Q4 revenue in line, EPS beats; Q1 sales guidance modestly below consensus weighs on shares despite strong profit growth and Walmart expansion."
     },
     {
-      "headline": "Symbotic (SYM) Stock Is Trending After Hours: Here\u2019s What You Should Know",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=8bbe5e407b68b4d745846528c2c8a9a12807d9a32bd485c9dd8bde64da41c058",
-      "datetime": 1795132148,
-      "summary": "Symbotic shares slipped 0.48% in after-hours trading following a filing showing an executive&#39;s proposed sale of 1,286 shares."
-    },
-    {
-      "headline": "3 Industrial Robotics Stocks For Investors Watching The US Automation Boom",
+      "headline": "Symbotic falls as Q1 revenue guidance disappoints",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a672dfb8d6f6c4a4e4e90e53b92a2da21f04d995a24711f560dec5787c3fdddf",
-      "datetime": 1795112015,
-      "summary": "Industrial robots are no longer just auto plant workhorses. Orders in US factories and warehouses are up more than 25%, and that surge is reshaping how production, logistics, and maintenance get done. Investors are watching a broad new pool of potential winners emerge as more sectors automate and policy risk around imported equipment grows. This article walks through 3 stocks exposed to that news "
+      "url": "https://finnhub.io/api/news?id=cd417efda4112bbbff2ed18c58efbb3e38893eb06c1aa676f95b079263f61560",
+      "datetime": 1795471282,
+      "summary": "Investing.com -- Symbotic Inc (NASDAQ:SYM) reported fourth quarter results that exceeded analyst expectations, but shares fell 2.4% in after-hours trading Monday as the company's first quarter revenue guidance disappointed investors."
     },
     {
-      "headline": "Artificial Intelligence (AI) Robotics in Warehousing Market Report 2026 | Capitalize on 24.9% CAGR to 2030 with AutoStore, Symbotic, Geekplus, Exotec and Locus Robotics",
+      "headline": "Compared to Estimates, SYMBOTIC INC (SYM) Q4 Earnings: A Look at Key Metrics",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2502c03828c001fdf523668ef4218ded85e96ef6053837b2f88df2f8c24339c7",
-      "datetime": 1795099500,
-      "summary": "Players: AutoStore, Symbotic, Geekplus, Exotec, Locus Robotics. Profile covers competitors, segments, regional shares, trends and opportunities.Dublin, Nov. 19, 2026 (GLOBE NEWSWIRE) -- \"Artificial Intelligence (AI) Robotics in Warehousing Market Global Report 2026\" has been added to ResearchAndMarkets.com's offering. The global artificial intelligence (AI) robotics in warehousing market is experi"
+      "url": "https://finnhub.io/api/news?id=62581a788f0f8d7842165ae61022b434bedeb2e38bbc9ada909973b659f97215",
+      "datetime": 1795471201,
+      "summary": "Although the revenue and EPS for SYMBOTIC INC (SYM) give a sense of how its business performed in the quarter ended September 2026, it might be worth considering how some key metrics compare with Wall Street estimates and the year-ago numbers."
     },
     {
-      "headline": "Full Truck Alliance Co. Ltd. Sponsored ADR (YMM) Q3 Earnings and Revenues Top Estimates",
+      "headline": "Symbotic Inc. (SYM) Surpasses Q4 Earnings and Revenue Estimates",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8a16d074de366db6afde7ebe9e1d5c6f382e6778b9c2c4407704728b18fe6401",
-      "datetime": 1795086601,
-      "summary": "Full Truck Alliance (YMM) delivered earnings and revenue surprises of +5.00% and +7.73%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?"
+      "url": "https://finnhub.io/api/news?id=8db06c2aa6352abcad1534e813ecfa9c04e44488f75a232cdc793d92055a07d9",
+      "datetime": 1795468502,
+      "summary": "SYMBOTIC INC (SYM) delivered earnings and revenue surprises of +6.25% and +0.48%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?"
+    },
+    {
+      "headline": "Symbotic Reports Fourth Quarter and Fiscal Year 2026 Results",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=46145c3ca670234666d5d03f3f9eaa8acbd9279fa35e13ea943c8e0eacd8ade1",
+      "datetime": 1795467660,
+      "summary": "WILMINGTON, Mass., Nov. 23, 2026 (GLOBE NEWSWIRE) -- Symbotic Inc. (Nasdaq: SYM), a leader in A.I.-enabled robotics technology for the supply chain, announced financial results for its fourth quarter and fiscal year 2026, which ended on September 26, 2026. Symbotic reported revenue of $778 million, up 26% year-over-year, net income of $55 million, and adjusted EBITDA1 of $114 million for the fourt"
     }
   ],
   "filings": [
+    {
+      "form": "10-K",
+      "title": "Annual report (10-K)",
+      "date": "2026-11-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/1837240/000183724026000049/sym-20260926.htm"
+    },
+    {
+      "form": "8-K",
+      "title": "Material event (8-K)",
+      "date": "2026-11-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/1837240/000183724026000047/sym-20261123.htm"
+    },
     {
       "form": "8-K",
       "title": "Material event (8-K)",
       "date": "2026-10-29",
       "url": "https://www.sec.gov/Archives/edgar/data/1837240/000119312526437874/d182210d8k.htm"
-    },
-    {
-      "form": "10-Q",
-      "title": "Quarterly report (10-Q)",
-      "date": "2026-08-05",
-      "url": "https://www.sec.gov/Archives/edgar/data/1837240/000183724026000043/sym-20260627.htm"
-    },
-    {
-      "form": "8-K",
-      "title": "Material event (8-K)",
-      "date": "2026-08-05",
-      "url": "https://www.sec.gov/Archives/edgar/data/1837240/000183724026000042/sym-20260803.htm"
     }
   ],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-20",
+  "data_asof": "2026-11-23",
   "price": {
-    "last": 31.1,
-    "open": 32.0,
-    "prev_close": 33.16,
-    "move_day_pct": -6.21,
-    "move_open_close_pct": -2.81,
-    "move_week_pct": -10.71
+    "last": 34.97,
+    "open": 35.23,
+    "prev_close": 31.1,
+    "move_day_pct": 12.44,
+    "move_open_close_pct": -0.74,
+    "move_week_pct": 2.01
   },
   "indicators": {
     "rsi14": {
-      "value": 28.9,
-      "read": "Extremely oversold"
+      "value": 45.0,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": -1.946,
-      "signal": -1.555,
-      "hist": -0.39,
-      "hist_prev": -0.285,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -1.774,
+      "signal": -1.599,
+      "hist": -0.175,
+      "hist_prev": -0.39,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 40.45,
-      "lower": 31.9,
-      "mid": 36.17,
-      "pctb": -0.093,
-      "read": "Below the lower band \u2014 stretched to the downside"
+      "upper": 40.26,
+      "lower": 31.8,
+      "mid": 36.03,
+      "pctb": 0.375,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 0.0,
-      "read": "Sitting right at its 52-week low"
+      "value": 12.44,
+      "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -64.38,
-      "read": "64% below its 52-week high"
+      "value": -59.94,
+      "read": "60% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 46.31,
-      "pct": -32.84,
-      "read": "33% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 46.19,
+      "pct": -24.29,
+      "read": "24% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 2.12,
-      "pct_of_price": 6.8,
+      "value": 2.48,
+      "pct_of_price": 7.08,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.72,
-      "read": "Above-average volume"
+      "value": 2.47,
+      "read": "Heavy volume \u2014 well above average"
     },
     "mfi14": {
-      "value": 20.9,
+      "value": 35.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 31.1,
   "high_52w": 87.3,
-  "ma50": 39.66,
-  "ma200": 46.31
+  "ma50": 39.53,
+  "ma200": 46.19
 }

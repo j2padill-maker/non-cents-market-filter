@@ -2,7 +2,7 @@
   "ticker": "BOTZ",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-22T18:49:51.398963-08:00",
+  "generated_at": "2026-11-23T18:42:50.824226-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "PCE Week: What To Watch In Stocks, Chips, Gold And Bitcoin",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=fb422e54fd05da51661251d4a4d72a35c21231c9c7d8885df759cdd7d9e8b531",
+      "datetime": 1795428960,
+      "summary": "US stocks head into the week in correction, and the market already prices a December rate hike as close to certain."
+    },
+    {
+      "headline": "CIO Weekly: Signal From Noise? - Why This AI Sell-Off Feels Worse",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=f0ab094cd784f237cc90aba659344487a1c4494573c591585161ba9f2e777022",
+      "datetime": 1795409160,
+      "summary": "The AI ecosystem is in the midst of a severe pullback, with the pain extending beyond technology."
+    },
     {
       "headline": "Weekly Commentary: Crisis Dynamics Unleashed",
       "source": "SeekingAlpha",
@@ -43,83 +57,69 @@
       "url": "https://finnhub.io/api/news?id=5986bda68e28ccdd84da70ff7d037282c4f6ecaf455d16bcdb31ab8462a4d88a",
       "datetime": 1795184640,
       "summary": "It\u00e2\u0080\u0099s a pivotal moment for the AI trade, but recent market weakness is giving investors plenty to consider."
-    },
-    {
-      "headline": "Volatility Surging - What Smart Options, Futures, And Stock Traders Are Doing Now",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=0bd7df3b33a62d64c6c7d9bbcd7e9bbc0ce853c8c8254c010a3b7b12b4807974",
-      "datetime": 1795178100,
-      "summary": "Danielle Shay and Thor Young discuss what's driving the market selloff, why strong earnings aren't always translating into higher stock prices, and how professional traders are adapting."
-    },
-    {
-      "headline": "Markets Reassess The AI Growth Story For 2027",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=29e52b5e64cb17f9fbc77270f2ee59013bf6dc925d0cfbb530fb3092e0ce3d4c",
-      "datetime": 1795168020,
-      "summary": "For the upcoming fourth-quarter GDP report, the AI buildout is still expected to be a positive force for economic growth."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-20",
+  "data_asof": "2026-11-23",
   "price": {
-    "last": 27.34,
-    "open": 28.43,
-    "prev_close": 29.0,
-    "move_day_pct": -5.72,
-    "move_open_close_pct": -3.83,
-    "move_week_pct": -12.46
+    "last": 29.41,
+    "open": 29.65,
+    "prev_close": 27.34,
+    "move_day_pct": 7.57,
+    "move_open_close_pct": -0.79,
+    "move_week_pct": -2.36
   },
   "indicators": {
     "rsi14": {
-      "value": 23.0,
-      "read": "Extremely oversold"
+      "value": 38.8,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -1.339,
-      "signal": -1.02,
-      "hist": -0.319,
-      "hist_prev": -0.208,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -1.309,
+      "signal": -1.078,
+      "hist": -0.231,
+      "hist_prev": -0.319,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 34.76,
-      "lower": 28.2,
-      "mid": 31.48,
-      "pctb": -0.131,
-      "read": "Below the lower band \u2014 stretched to the downside"
+      "upper": 34.6,
+      "lower": 27.99,
+      "mid": 31.29,
+      "pctb": 0.215,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 0.0,
-      "read": "Sitting right at its 52-week low"
+      "value": 7.57,
+      "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -34.29,
-      "read": "34% below its 52-week high"
+      "value": -29.32,
+      "read": "29% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 36.08,
-      "pct": -24.22,
-      "read": "24% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 36.04,
+      "pct": -18.4,
+      "read": "18% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 0.87,
-      "pct_of_price": 3.18,
+      "value": 0.98,
+      "pct_of_price": 3.34,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 2.74,
+      "value": 2.04,
       "read": "Heavy volume \u2014 well above average"
     },
     "mfi14": {
-      "value": 20.1,
+      "value": 30.2,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 27.34,
   "high_52w": 41.61,
-  "ma50": 33.48,
-  "ma200": 36.08
+  "ma50": 33.37,
+  "ma200": 36.04
 }

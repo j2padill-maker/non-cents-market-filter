@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-22T18:49:49.005785-08:00",
+  "generated_at": "2026-11-23T18:42:49.049332-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "What Just Happened To Lam Research Stock Since May?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7ec837bc4c9557fb2085dd9ce023152c2331c8e8501d4398051ef63af0113290",
+      "datetime": 1795480495,
+      "summary": "Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92."
+    },
+    {
+      "headline": "Teradyne Drives Robotics With AI: Can It Outpace KLAC and COHU?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=2ca642d2b1d57785f65229383921dbd0398e0bdfea05b178bc0639582dcdd92b",
+      "datetime": 1795449840,
+      "summary": "TER's AI-powered robotics growth, expanding automation demand, and strategic partnerships boost its competitive edge against KLA and Cohu."
+    },
+    {
+      "headline": "S&P 500 Gap Movers: NVDA and DELL Lead Today's Session",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=59c932892b045bdd2b6295616425e0926ea82c999c3d9a6dc12ae4e4195802e5",
+      "datetime": 1795448178,
+      "summary": "S&P 500 gap movers in today's session: NVIDIA and Dell led gap-up stocks, while CrowdStrike led gap-down names."
+    },
+    {
+      "headline": "FORM Drops 28% in a Month: Should You Buy the Stock on the Dip?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=79c7e3a157c0a28523ea934738aa9031ddc2d651ecdf120458704b240c21f90b",
+      "datetime": 1795446840,
+      "summary": "FormFactor shares plunge 27.8% in a month, but AI infrastructure demand, GPU testing opportunities and capacity expansion offer long-term upside potential."
+    },
+    {
+      "headline": "Premarket Movers: Nvidia, Dell, HPE Gain; CrowdStrike, UnitedHealth Slide",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=ec07e5dc041b7fa4bdae54192db66181218072d0d93055406ae6bcae196b1f42",
+      "datetime": 1795440983,
+      "summary": "Premarket movers: Nvidia rose 8.66%, Dell 8.27%, and HPE 7.46%, while CrowdStrike fell 6.76% and UnitedHealth 6.28%."
+    },
+    {
       "headline": "Teradyne (TER) Falls 36% Despite 70% Revenue Growth: Is a Recovery Ahead?",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=5bf49b57a9f6cc281032e8652cac7438389fb763dac418c9623b3d60797eecb6",
       "datetime": 1795366286,
       "summary": "Among the companies highlighted in our recent list of 10 Oversold Stocks With 50%+ Upside Potential, Teradyne, Inc. (NASDAQ:TER) claimed the ninth position. Has the AI Boom Lost Its Momentum? The AI boom has rewarded early investors handsomely, but the opportunity now looks considerably less straightforward. After months of enthusiasm surrounding artificial intelligence, investors are [\u2026]"
-    },
-    {
-      "headline": "3 US AI Infrastructure Stocks With Earnings Growth Investors Should Watch",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=cde1f052e94558a51db326a424848ac2c32dcc0081d0d3785b62ecad684a566d",
-      "datetime": 1795299126,
-      "summary": "AI infrastructure has moved from niche theme to household talking point, with data centers, chips and cloud capacity now sitting at the crossroads of growth hopes, inflation worries and higher-for-longer interest rates. That mix is creating sharp separation between potential winners and everyone else. This article walks through three stocks exposed to these macro currents and AI buildout trends, h"
-    },
-    {
-      "headline": "Teradyne: 3 Key Takeaways for Long-Term Investors",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=cdbcacbabfe29b5a012a1769b414797331a9fa3f5638e5ece08986ee5589fae6",
-      "datetime": 1795211402,
-      "summary": "Memory supply constraints are forcing chipmakers to increase test volume per wafer, a potential tailwind for Teradyne's core business."
-    },
-    {
-      "headline": "Implied Volatility Surging for Teradyne Stock Options",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=20d3dc2eff940571175e180151517ec79a460c2d177a117464a0d04fb8712ca1",
-      "datetime": 1795181520,
-      "summary": "Investors need to pay close attention to TER stock based on the movements in the options market lately."
-    },
-    {
-      "headline": "What Is Teradyne (TER) Bringing To Edge AI With Omnyx Edge?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5d4e16d6ecc3356ea79ff2c653ee08844a1cb1a534fe153b6b297aac8efc8d9c",
-      "datetime": 1795155342,
-      "summary": "Teradyne (NasdaqGS:TER) introduced Omnyx Edge, an inline board test platform for physical and edge AI devices. The new system extends the existing Omnyx family, which previously focused on high performance computing and data center applications. Omnyx Edge targets testing needs for AI powered equipment across sectors such as industrial, automotive, and connected devices. The arrival of Omnyx Edge "
-    },
-    {
-      "headline": "Is Teradyne (TER) a Solid Growth Stock? 3 Reasons to Think \"Yes\"",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=dd1fa2d72241e5c90a71523d4d70f08c777fc415868a124e3c6d9312c2e49cd9",
-      "datetime": 1795106702,
-      "summary": "Teradyne (TER) could produce exceptional returns because of its solid growth attributes."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-20",
+  "data_asof": "2026-11-23",
   "price": {
-    "last": 204.78,
-    "open": 220.2,
-    "prev_close": 227.43,
-    "move_day_pct": -9.96,
-    "move_open_close_pct": -7.0,
-    "move_week_pct": -17.94
+    "last": 233.51,
+    "open": 240.0,
+    "prev_close": 204.65,
+    "move_day_pct": 14.1,
+    "move_open_close_pct": -2.7,
+    "move_week_pct": 0.76
   },
   "indicators": {
     "rsi14": {
-      "value": 29.2,
-      "read": "Extremely oversold"
+      "value": 39.8,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -30.382,
-      "signal": -30.258,
-      "hist": -0.123,
-      "hist_prev": 1.122,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -28.713,
+      "signal": -29.934,
+      "hist": 1.221,
+      "hist_prev": -0.123,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 322.18,
-      "lower": 191.1,
-      "mid": 256.64,
-      "pctb": 0.104,
-      "read": "Near the lower band"
+      "upper": 314.29,
+      "lower": 191.14,
+      "mid": 252.71,
+      "pctb": 0.344,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 31.61,
-      "read": "32% above its 52-week low"
+      "value": 47.32,
+      "read": "47% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -57.66,
-      "read": "58% below its 52-week high"
+      "value": -51.69,
+      "read": "52% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 349.17,
-      "pct": -41.35,
-      "read": "41% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 348.62,
+      "pct": -33.02,
+      "read": "33% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 21.85,
-      "pct_of_price": 10.67,
+      "value": 23.05,
+      "pct_of_price": 9.87,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.41,
-      "read": "Above-average volume"
+      "value": 1.25,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 32.1,
+      "value": 33.5,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": 155.6,
-  "high_52w": 483.65,
-  "ma50": 328.02,
-  "ma200": 349.17
+  "low_52w": 158.5,
+  "high_52w": 483.35,
+  "ma50": 325.91,
+  "ma200": 348.62
 }

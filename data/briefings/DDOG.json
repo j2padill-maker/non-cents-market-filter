@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-22T18:49:35.599649-08:00",
+  "generated_at": "2026-11-23T18:42:35.477729-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Did The Market Read Datadog Stock Right?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=89fbd416b864691026d32ff33b17aba49290f2ff9cd27b7e88088c8e65a1b3f6",
+      "datetime": 1795463809,
+      "summary": "Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92."
+    },
+    {
+      "headline": "Datadog Named a Challenger in the 2026 Gartner\u00ae Magic Quadrant\u2122 for Security Information and Event Management",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=719fd8d11793c17ee0ccae8b356515e74938a4f63b0d7751c08842842634ae5e",
+      "datetime": 1795454520,
+      "summary": "Datadog recognized for its Completeness of Vision and Ability to ExecuteNEW YORK, Nov. 23, 2026 (GLOBE NEWSWIRE) -- Datadog, Inc. (NASDAQ: DDOG), the leading AI-powered observability and security platform, today announced it has been named a Challenger in the Gartner Magic Quadrant for Security Information and Event Management (SIEM), 2026. This follows Datadog\u2019s recent placement as a Leader in th"
+    },
     {
       "headline": "Palantir Just Dropped 25% in a Month. Is It Time to Sell, or Load Up?",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=87d517d35235a665b6525edb7b46da231c93364464c44c35b8a3871c0306a1a1",
       "datetime": 1795185300,
       "summary": "Boost ROI with unified cloud observability, AI anomaly detection, real-time root-cause analysis, distributed tracing, managed services and proactive optimization.Dublin, Nov. 20, 2026 (GLOBE NEWSWIRE) -- \"Full-Stack Observability Services Market Report 2026\" has been added to ResearchAndMarkets.com's offering. The global full-stack observability services market is experiencing exponential growth a"
-    },
-    {
-      "headline": "Oracle Stock Sinks to New 52-Week Low Amid Tech Selloff and Nasdaq Woes",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=b9abd44712bdd44e34cc8eed95489ac8643c47d19eae696fbf35bf4bb259237c",
-      "datetime": 1795181687,
-      "summary": "Oracle Corp. (NYSE: ORCL) shares are tumbling Friday to a new 52-week low Friday along with other software stocks in a wider tech retreat."
-    },
-    {
-      "headline": "Snowflake Stock And Two AI Software Names Investors Are Watching Now",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=53b98d9d97d0983cfaecf60b2df272d26bcc280bfbd00c4404e4e613d1a145be",
-      "datetime": 1795180367,
-      "summary": "The Anthropic IPO just turned AI from a theme into a scoreboard, with a US$100b raise and a market value above US$1.3t pulling cash toward anything tied to this story and away from broad indices that recently slipped 2%. That kind of stampede can reward some stocks and leave others behind. This article breaks down 3 stocks exposed to the same news shock so you can judge where the real opportunity "
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-20",
+  "data_asof": "2026-11-23",
   "price": {
-    "last": 157.37,
-    "open": 163.62,
-    "prev_close": 166.46,
-    "move_day_pct": -5.46,
-    "move_open_close_pct": -3.82,
-    "move_week_pct": -14.55
+    "last": 169.02,
+    "open": 173.32,
+    "prev_close": 157.37,
+    "move_day_pct": 7.4,
+    "move_open_close_pct": -2.48,
+    "move_week_pct": -2.22
   },
   "indicators": {
     "rsi14": {
-      "value": 25.3,
-      "read": "Extremely oversold"
+      "value": 33.3,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -24.11,
-      "signal": -21.471,
-      "hist": -2.638,
-      "hist_prev": -2.895,
+      "macd": -23.222,
+      "signal": -21.821,
+      "hist": -1.4,
+      "hist_prev": -2.638,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 285.44,
-      "lower": 120.51,
-      "mid": 202.98,
-      "pctb": 0.223,
+      "upper": 273.01,
+      "lower": 121.83,
+      "mid": 197.42,
+      "pctb": 0.312,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 53.36,
-      "read": "53% above its 52-week low"
+      "value": 64.71,
+      "read": "65% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -46.34,
-      "read": "46% below its 52-week high"
+      "value": -42.37,
+      "read": "42% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 202.51,
-      "pct": -22.29,
-      "read": "22% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 202.79,
+      "pct": -16.65,
+      "read": "17% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 13.65,
-      "pct_of_price": 8.67,
+      "value": 13.84,
+      "pct_of_price": 8.19,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.16,
+      "value": 1.08,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 22.7,
+      "value": 29.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 293.26,
-  "ma50": 238.28,
-  "ma200": 202.51
+  "ma50": 237.06,
+  "ma200": 202.79
 }

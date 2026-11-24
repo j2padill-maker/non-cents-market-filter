@@ -2,7 +2,7 @@
   "ticker": "TOELF",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-22T18:49:34.290555-08:00",
+  "generated_at": "2026-11-23T18:42:34.166378-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -29,90 +29,69 @@
       "url": "https://finnhub.io/api/news?id=8af510021c43e07bdd64ffb8eab7a9e8bbfc231bfb76901fbc5e9bb984e260cb",
       "datetime": 1795123980,
       "summary": "Events & Underlying Fundamentals Send a Mixed Message."
-    },
-    {
-      "headline": "Nvidia Export Curbs Could Lift These Semiconductor Stocks With US Fab Exposure",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3e738677dfc1df670cc6c36966efc840cb177d705bfc152ccfdf82f501a0fc68",
-      "datetime": 1794863602,
-      "summary": "US efforts to tighten chip export rules on China are reshaping where capital flows in semiconductor manufacturing, and Nvidia now sits in the middle of that story. Policy risk is colliding with the long buildout of onshore fabs and advanced packaging, creating potential winners for investors who can distinguish headline noise from real business exposure. This article discusses three US onshoring-f"
-    },
-    {
-      "headline": "Advantest Stocks Tumble 11.12% as Tokyo Chip Selloff Drags Nikkei Below 60,00",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8dc63a392cffaa41ef56247d57d720af5aa0d5f47410bbe16d19d99a98789208",
-      "datetime": 1794855503,
-      "summary": "The Nvidia test-equipment supplier posted the Nikkei's steepest drop, with Tokyo Electron accounting for most of the index's 1,480-point slide."
-    },
-    {
-      "headline": "Asian chip stocks slide ahead of Nvidia earnings",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6f1dd9fe28cca66c67063bd5fe970843a69c74e28cec0d1f1160278397d10b39",
-      "datetime": 1794799650,
-      "summary": "Investing.com-- Asian semiconductor stocks fell on Monday as investors trimmed exposure to artificial intelligence-related shares ahead of Nvidia's quarterly earnings, with uncertainty surrounding the chipmaker's leadership transition adding to concerns over the sustainability of the AI investment boom."
     }
   ],
   "filings": [],
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-20",
+  "data_asof": "2026-11-23",
   "price": {
-    "last": 48.19,
-    "open": 51.63,
-    "prev_close": 53.48,
-    "move_day_pct": -9.89,
-    "move_open_close_pct": -6.66,
-    "move_week_pct": -15.47
+    "last": 54.72,
+    "open": 54.0,
+    "prev_close": 48.19,
+    "move_day_pct": 13.55,
+    "move_open_close_pct": 1.33,
+    "move_week_pct": 2.36
   },
   "indicators": {
     "rsi14": {
-      "value": 32.3,
-      "read": "Oversold"
+      "value": 44.2,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": -3.816,
-      "signal": -3.399,
-      "hist": -0.417,
-      "hist_prev": -0.128,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -3.559,
+      "signal": -3.431,
+      "hist": -0.128,
+      "hist_prev": -0.417,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 66.52,
-      "lower": 48.46,
-      "mid": 57.49,
-      "pctb": -0.015,
-      "read": "Below the lower band \u2014 stretched to the downside"
+      "upper": 66.43,
+      "lower": 48.21,
+      "mid": 57.32,
+      "pctb": 0.357,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 30.97,
-      "read": "31% above its 52-week low"
+      "value": 48.72,
+      "read": "49% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -49.71,
-      "read": "50% below its 52-week high"
+      "value": -42.89,
+      "read": "43% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 64.44,
-      "pct": -25.22,
-      "read": "25% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 64.46,
+      "pct": -15.11,
+      "read": "15% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 3.86,
-      "pct_of_price": 8.0,
+      "value": 4.05,
+      "pct_of_price": 7.4,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.36,
+      "value": 0.01,
       "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 55.4,
+      "value": 56.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 36.79,
   "high_52w": 95.82,
-  "ma50": 65.09,
-  "ma200": 64.44
+  "ma50": 64.93,
+  "ma200": 64.46
 }

@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-22T18:49:37.881969-08:00",
+  "generated_at": "2026-11-23T18:42:37.544308-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Billionaire Druckenmiller\u2019s New AI Thesis Could Crush These 5 Overvalued Cybersecurity Stocks",
+      "headline": "Palantir Rips 10% to Lead Software Stocks. Cloudflare and ServiceNow Also Join \u2018Jensen Rally\u2019",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c71b1a60c5f827c1e8bf44107bd72c1c3c85b1a213c6549667e748688641197e",
-      "datetime": 1795292507,
-      "summary": "Billionaire investor Stanley Druckenmiller told an interviewer, in remarks reported on November 19, 2026, that after nearly 50 years of investing he can barely remember a time when he had so little clarity about the next 12 months. He said \u201cI\u2019m not playing,\u201d described his net equity exposure as roughly flat, and said his goal [\u2026]"
+      "url": "https://finnhub.io/api/news?id=29cae95436dfbe92b60836af8703c316d047501108ae5e43fb4ad24e8f9fa28c",
+      "datetime": 1795464489,
+      "summary": "Eric Bleeker, Chief Investment Officer at 24/7 Wall St., says Jensen Huang's return to NVIDIA is lifting technology stocks on Monday. The NASDAQ was up more than 7% as of 1:30 p.m. Eastern, after opening with a 3% pre-market gain following Friday's sell-off. Chip stocks as a group rose more than 13%. Software is also higher, but the gains are uneven. Microsoft (NASDAQ: MSFT) and Salesforce (NYSE: "
     },
     {
-      "headline": "Snowflake Just Dropped 12% in a Week. RBC Still Sees \u201cClear AI Leadership.\u201d Time to Load Up?",
+      "headline": "TD Cowen names top infrastructure software stock for 2027",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=72f4d26201fec671801494202d5302b6927cce7f9cfe822ddd9b01dfc407b349",
-      "datetime": 1795277212,
-      "summary": "Key TakeawaysSnowflake fell 12% in the past week as the AI trade sold off, and the company itself had no bad news. RBC\u2019s Matthew Hedberg put Snowflake among the few software companies he sees with real AI acceleration, along with Cloudflare and CrowdStrike."
+      "url": "https://finnhub.io/api/news?id=7f886b411dedc07606f4426717db1a7d299a0cdcb0a3eb2188a96b68ab38af10",
+      "datetime": 1795462704,
+      "summary": "Investing.com -- TD Cowen has identified its top pick in the infrastructure software sector for 2027, highlighting a company positioned to benefit from artificial intelligence growth and expanding enterprise adoption."
     },
     {
-      "headline": "HACK Vs. CIBR: Pure-Play Beats Diversified For 2027",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=97664be1eb684a0a51bd628447a36e873620ae811d79c0e5c95307f02d8f1978",
-      "datetime": 1795255200,
-      "summary": "HACK and CIBR are rated Buys, preferring HACK for 2027 for its vendor exposure, as Gartner projects AI security spending to rise from $2.8B to $4.8B."
-    },
-    {
-      "headline": "Cloudflare And 2 Other Top Cybersecurity Stocks",
+      "headline": "If You Invest $7,500 Into These 3 Stocks, You Could Have $15,000 by 2030",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a8a90b6220fa497f3ddeea3404249a4831bb6be5edb4637d6ce3db3f4598e6e5",
-      "datetime": 1795216490,
-      "summary": "Banks are scrambling to fix fresh cyber weak spots as AI tools help attackers find flaws faster than defenders can patch them. That arms race puts digital security providers in the spotlight, because every outage or breach risk pushes budgets toward protection. For investors, that is where this screener comes in, highlighting globally listed cybersecurity stocks with high growth expectations and s"
+      "url": "https://finnhub.io/api/news?id=91d4eace9bfd4b64f6f171fe9a6e58c3f5c6668ae8dc8ed5cad8dd7f8e2198b5",
+      "datetime": 1795458788,
+      "summary": "CrowdStrike, Palantir and Cloudflare all posted record quarters, yet one of them does most of the heavy lifting in this basket. A five-year model tests whether a $7,500 stake can truly double, and which scenario it demands."
     },
     {
-      "headline": "On June 30, ClearOne Declared A One-time Special Stock Dividend To Provide Its Legacy Stockholders With A 100% Stake In The Proceeds From An Eventual Sale, The Board Of Directors Fixed July 11, 2025 As The Record Date For The Special Stock Dividend, And Will Be Payable On July 18, 2025",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=60ace17f87a81cfaebed9f22dfdef47c76e3335e320f0f9f19e3983120d26a8f",
-      "datetime": 1795188355,
-      "summary": ""
+      "headline": "Why Is Palantir (PLTR) Stock Up Today? AI Rally Follows Nvidia CEO Return",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=35e3d327cbc2f2c306c83d524b5933e3fb63a70377c33aeafb8392416e6cf400",
+      "datetime": 1795455067,
+      "summary": "Palantir shares rose 10.6% on Monday, Nov. 23, as AI stocks rallied after Nvidia reinstated Jensen Huang as CEO."
     },
     {
-      "headline": "Stock Market Today: Anthropic Soars on Debut While the Rest of Wall Street Sinks",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=b181052c928841f2ce7f710021324dc11b2ad2e03e69948ff8d2b5c8bc14263d",
-      "datetime": 1795182729,
-      "summary": "Anthropic jumped on its first trading day after the largest IPO ever, but the Nasdaq reversed an early gain and closed sharply lower. AMD slid on short-seller claims, Palo Alto rallied and Fed rate-hike talk weighed on growth stocks."
+      "headline": "DigitalOcean (DOCN) Stock Is Up 17.8% Today Without Company News",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=008040bb2852002dcaa479b617fce5b3c15fa3b9ca3c4e0c938d41f0ef17e920",
+      "datetime": 1795455059,
+      "summary": "Shares rose 17.8% on Monday, Nov. 23, without company-specific news, along with cloud peers and a broad market rally."
+    },
+    {
+      "headline": "How Much Could You Lose In Zscaler Stock?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=6ba91958a2824c23aec17727aaf8a395c4b52c0d068da395c790a395d2743a54",
+      "datetime": 1795449447,
+      "summary": "Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-20",
+  "data_asof": "2026-11-23",
   "price": {
-    "last": 274.96,
-    "open": 300.0,
-    "prev_close": 303.68,
-    "move_day_pct": -9.46,
-    "move_open_close_pct": -8.35,
-    "move_week_pct": -10.09
+    "last": 291.13,
+    "open": 299.01,
+    "prev_close": 274.96,
+    "move_day_pct": 5.88,
+    "move_open_close_pct": -2.64,
+    "move_week_pct": -0.84
   },
   "indicators": {
     "rsi14": {
-      "value": 42.4,
+      "value": 47.5,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -5.877,
-      "signal": -6.8,
-      "hist": 0.923,
-      "hist_prev": 2.639,
+      "macd": -5.683,
+      "signal": -6.577,
+      "hist": 0.893,
+      "hist_prev": 0.923,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 340.33,
-      "lower": 248.15,
-      "mid": 294.24,
-      "pctb": 0.291,
+      "upper": 334.94,
+      "lower": 249.46,
+      "mid": 292.2,
+      "pctb": 0.487,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 71.65,
-      "read": "72% above its 52-week low"
+      "value": 81.74,
+      "read": "82% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -23.82,
-      "read": "24% below its 52-week high"
+      "value": -19.34,
+      "read": "19% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 256.26,
-      "pct": 7.3,
-      "read": "7% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 256.85,
+      "pct": 13.35,
+      "read": "13% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 22.27,
-      "pct_of_price": 8.1,
+      "value": 22.75,
+      "pct_of_price": 7.82,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.17,
+      "value": 0.77,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 55.6,
+      "value": 55.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 360.93,
-  "ma50": 319.29,
-  "ma200": 256.26
+  "ma50": 318.51,
+  "ma200": 256.85
 }

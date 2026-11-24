@@ -2,7 +2,7 @@
   "ticker": "AVGO",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-22T18:49:56.877257-08:00",
+  "generated_at": "2026-11-23T18:42:55.355464-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Her $420,000 in Employer Stock Inside Her 401(k) Lost 11% in a Day. Rolling It Into an IRA Would Turn Her Long-Term Gain Into Ordinary Income",
+      "headline": "AMD Stock Rallies Nearly 8% as a Bernstein Analyst Remains Bullish Despite the Hunterbrook Short Report",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=0a946c2f5ef5a2f8c26bc1bfa550a824e208b43ebb5931753ed5d06c1d3cfa19",
-      "datetime": 1795382223,
-      "summary": "A retiree sitting on a big Broadcom position in her 401(k) is one routine rollover form away from a tax bill she never saw coming. A little-known IRS rule offers another route, but the window to use it is narrow."
+      "url": "https://finnhub.io/api/news?id=447ff6dfd880cf183ee4942f32267604261da166636f1313643ba54270696d00",
+      "datetime": 1795478312,
+      "summary": "Advanced Micro Devices (AMD) stock rebounded 7.79% on Monday after the chipmaker\u2019s shares experienced a rough couple of days last week. The rally of AMD stock came alongside praise from one of Wall Street\u2019s top analysts. Five-star Bernstein analyst Mark Newman reiterated a Buy rating and a $650 price target for AMD stock, implying a possible 43.74% upside. Newman came out to support AMD after the "
     },
     {
-      "headline": "Google\u2019s 2027 chip plan is bad news for Broadcom",
+      "headline": "Steve Eisman Said AI Was \u201cNo Longer One Trade.\u201d Huang Is Back, but Alphabet and CoreWeave Still Show the Split",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5b2072b921c43dc83744caba2fb305c4b2115dd3f9135dd9f113596e028ef960",
-      "datetime": 1795376820,
-      "summary": "A top supply-chain analyst says Google is changing what it buys, and Broadcom\u2019s higher-priced chip is taking most of the hit."
+      "url": "https://finnhub.io/api/news?id=cce76ef68e89ce2696f214b1480abf834d9ef713c8b68864824d4466e62cf846",
+      "datetime": 1795474493,
+      "summary": "Key TakeawaysNVIDIA, AMD, Broadcom and CoreWeave fell 12% to 14% on Friday, while Alphabet fell 2. 6%."
     },
     {
-      "headline": "Tracking Cathie Wood's ARK Invest 13F Portfolio - Q3 2026 Update",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=dab64c9b423438e8f1ead9360722ec081b1a3e98bcbf9874fb403d9971127eb0",
-      "datetime": 1795376636,
-      "summary": "ARK Invest's Q3 2026 13F portfolio rose from $15.40B to $17.37B as holdings fell to 182; Tesla and NVIDIA stakes both grew."
+      "headline": "Crypto traders saw Anthropic's 34% debut pop coming",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=2e9867823f7e68e4507d79f97fa8e399b291159effcc42fc1df92c74d323bb66",
+      "datetime": 1795474035,
+      "summary": "Weeks before bankers priced Anthropic\u2019s IPO, a 24/7 crypto market was already trading the shares much higher. The debut showed how close it got."
     },
     {
-      "headline": "Here's What a $1,000 Investment in Broadcom Stock Could Be Worth By 2035",
+      "headline": "Steve Eisman Says \u201cStock Picking Is Back\u201d Now That AI Is \u201cNo Longer One Trade\u201d",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=735178f64ff6039f6a4c770cf0fb7f6ede1e4e7f7a09ab753ee0cfeac52215c7",
-      "datetime": 1795375322,
-      "summary": "Broadcom's AI chip business is growing at an extraordinary pace. Here's how much a $1,000 investment could be worth by 2035 if the company delivers on its growth potential."
+      "url": "https://finnhub.io/api/news?id=298ca49f3d03ed48354ee2566932230843837433061006224edb8e3d81d503d9",
+      "datetime": 1795471622,
+      "summary": "Jensen Huang is back as NVIDIA's CEO, and the stock exploded in a single session. Yet six big AI names tell wildly different stories this year, and one famous Big Short investor says that gap should change how your retirement fund looks."
     },
     {
-      "headline": "Prediction: Dec. 9 Will Be a Huge Day for the Stock Market",
+      "headline": "Plot Twist: Cathie Wood Sold Nvidia Over \u201cLosing Jensen.\u201d Nvidia Just Rehired Him, but Her Other Worry Remains",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=1a76e2dc6c721abd080d0c1387f1a1d02466b43a3865b9687c93b61e47fd35ea",
-      "datetime": 1795366382,
-      "summary": "Multiple market-moving events are set to converge."
+      "url": "https://finnhub.io/api/news?id=2d415468040bde72ff572d8e686b7ce97389157d61f5d83bdf29c0835a1782b3",
+      "datetime": 1795470284,
+      "summary": "Key TakeawaysNvidia shares jumped 31% today after its board reinstated Jensen Huang as CEO. Huang\u2019s return removes the reason Cathie Wood gave for ARK\u2019s swap out of Nvidia and into SpaceX."
     },
     {
-      "headline": "Anthropic\u2019s Record-Breaking IPO Comes With a $1 Trillion Financial Burden Wall Street Can\u2019t Ignore",
+      "headline": "Nasdaq Soars 1,471 Points as Jensen Huang Returns to Nvidia: Stock Market Today",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8f41fb425418a79094807c347ae94996c6016e9a05b32a14094bd47eec833e94",
-      "datetime": 1795361773,
-      "summary": "Investors poured record money into Anthropic's debut, yet a number buried deep in the prospectus dwarfs everything raised. Why that figure could matter more than the soaring revenue, and which AI suppliers stand to feel it first?"
+      "url": "https://finnhub.io/api/news?id=de0a9da61df730365ca3410ed8c3d2bbc1a960974fbaad50d602263c4aebce62",
+      "datetime": 1795468316,
+      "summary": "Jensen Huang's return as Nvidia CEO sparked a historic $1 trillion surge for the chip stock \u2014 and lifted the Dow and S&P 500 out of correction territory."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-20",
+  "data_asof": "2026-11-23",
   "price": {
-    "last": 304.41,
-    "open": 343.01,
-    "prev_close": 346.65,
-    "move_day_pct": -12.19,
-    "move_open_close_pct": -11.25,
-    "move_week_pct": -12.28
+    "last": 313.55,
+    "open": 320.86,
+    "prev_close": 304.41,
+    "move_day_pct": 3.0,
+    "move_open_close_pct": -2.28,
+    "move_week_pct": -5.95
   },
   "indicators": {
     "rsi14": {
-      "value": 40.8,
+      "value": 43.8,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -2.08,
-      "signal": -2.735,
-      "hist": 0.655,
-      "hist_prev": 3.694,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": -3.581,
+      "signal": -2.904,
+      "hist": -0.676,
+      "hist_prev": 0.655,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 370.09,
-      "lower": 294.67,
-      "mid": 332.38,
-      "pctb": 0.129,
-      "read": "Near the lower band"
+      "upper": 370.18,
+      "lower": 293.01,
+      "mid": 331.6,
+      "pctb": 0.266,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 4.42,
-      "read": "Sitting right at its 52-week low"
+      "value": 7.55,
+      "read": "Just off its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -36.57,
-      "read": "37% below its 52-week high"
+      "value": -34.67,
+      "read": "35% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 366.92,
-      "pct": -17.04,
-      "read": "17% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 366.83,
+      "pct": -14.52,
+      "read": "15% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
       "value": 20.02,
-      "pct_of_price": 6.58,
+      "pct_of_price": 6.38,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 2.19,
-      "read": "Heavy volume \u2014 well above average"
+      "value": 1.46,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 53.0,
+      "value": 47.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 291.53,
   "high_52w": 479.94,
-  "ma50": 342.65,
-  "ma200": 366.92
+  "ma50": 342.04,
+  "ma200": 366.83
 }
