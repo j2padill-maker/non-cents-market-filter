@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-24T14:18:02.911779-08:00",
+  "generated_at": "2026-11-25T14:56:11.888670-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Why KLA (KLAC) Stock Is Falling Today: Chip Sector Selloff",
+      "headline": "Why Applied Materials (AMAT) Stock Is Falling Today: AI-Led Chip Selloff",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=095f7586757e6785537e3f1cd5fa02157fa60a5460f3f0ec1abd3ca218a61755",
-      "datetime": 1795552285,
-      "summary": "KLA shares fell 10.5% on Tuesday, Nov. 24, as a selloff in chip stocks hit semiconductor equipment makers, with no company-specific news."
+      "url": "https://finnhub.io/api/news?id=c7b869d38d3bc404701242dbe50053417e6afa7303c0ec746114b16213a770af",
+      "datetime": 1795624216,
+      "summary": "Applied Materials shares fell 10.1% on Wednesday, Nov. 25, as an AI-led selloff hit chip stocks and pushed the Nasdaq 100 into a bear market."
     },
     {
-      "headline": "Why Ichor Holdings (ICHR) Stock Is Plunging Today: Semiconductor Equipment Selloff",
+      "headline": "Lam Research (LRCX) Stock Is Down 10.6% Today: AI-Led Chip Selloff",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a4a088e2d6fb8d86020f1870aed1e9ea79210203be9e3427c725e1ef4665a2a2",
-      "datetime": 1795552283,
-      "summary": "On Tuesday, Nov. 24, the stock fell 16.4% as semiconductor equipment stocks sold off, according to GuruFocus"
+      "url": "https://finnhub.io/api/news?id=50011b037cc4b646da193475792e6377682810792a44cc991aab6676db9997cd",
+      "datetime": 1795621515,
+      "summary": "Lam Research shares fell 10.6% on Wednesday, Nov. 25, as an AI-led selloff in tech and chip stocks deepened, with no company-specific news."
     },
     {
-      "headline": "What Did Lam Research Say Before Shares Took Off?",
+      "headline": "KLA Rides on Strong AI Infrastructure Demand: Can It Beat ALAB & TER?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f8801e8db9b00a578d457b277a0bb187143243b90f6e4cffa6d0f06a3bc50fee",
-      "datetime": 1795546474,
-      "summary": "Today's big story: Nvidia Added $954 Billion In A Day. Is Jensen Huang Too Big To Fire."
+      "url": "https://finnhub.io/api/news?id=91b93203d4807dc8e3e314fd139f7a6db3ca050117acdf44757ce85273958583",
+      "datetime": 1795620840,
+      "summary": "KLAC's competitive position is strengthened by surging AI infrastructure investments, rising wafer inspection demand, and advanced packaging growth."
     },
     {
-      "headline": "Why FormFactor (FORM) Stock Is Down 12.4% Today: Semiconductor Selloff Hits Peers",
+      "headline": "DELL Q3 Earnings Beat Estimates, Robust AI Demand Drives Revenues",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=345008cba86493339270a33d18e11edc97659e1a4e330abd68644e24968b9beb",
-      "datetime": 1795541472,
-      "summary": "On Tuesday, Nov. 24, the stock fell 12.4% as a semiconductor selloff hit chip-equipment peers, with no company-specific news"
+      "url": "https://finnhub.io/api/news?id=07862cfedb3e5afc49287b10be61fae1f39114ac9fd7fc05c73c0dc70897de6a",
+      "datetime": 1795616880,
+      "summary": "Dell Technologies' Q3 earnings rise as accelerating AI infrastructure demand, record server backlog and expanding margins fuel a stronger FY27 outlook."
     },
     {
-      "headline": "Why Ambarella (AMBA) Stock Is Down Today: Chip Stocks Sell Off",
+      "headline": "Black Friday Sale on AI Stocks: 4 Buy-On-Dip Opportunities",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ef29d4cdd96dadbce3a1d0ced13cef762314fcd72bffaf3b7933cf333d1d8702",
-      "datetime": 1795541455,
-      "summary": "On Tuesday, Nov. 24, the shares fell 9.9% along with semiconductor stocks amid a renewed AI chip selloff."
+      "url": "https://finnhub.io/api/news?id=2595dcd470fa54d52610f3374d285fa7d7d23819f917fa5b73c80609187eef32",
+      "datetime": 1795610580,
+      "summary": "Black Friday comes early for AI investors as TER, SMCI, FPS and WDC trade roughly 40% lower in three months despite strong growth prospects and rising estimates."
     },
     {
-      "headline": "The Zacks Analyst Blog Highlights Target, TJX, Teradyne, TKO and Repsol",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f18d1652f22facd478e634327eeb246b6198f77167c8637975b18d027e64de48",
-      "datetime": 1795529820,
-      "summary": "Target and TJX offer upbeat holiday outlooks as Black Friday tests consumer spending, while global inflation and central bank decisions keep investors on alert."
+      "headline": "Here's How Much $1000 Invested In Teradyne 20 Years Ago Would Be Worth Today",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=82f3bd686d43e6b1eb3b50810cbad16f9b9878150983cb632833f46683a972f7",
+      "datetime": 1795601723,
+      "summary": "Teradyne (NASDAQ:TER) has outperformed the market over the past 20 years by 5.74% on an annualized basis producing an average annual return of 14.22%. Currently, Teradyne has a market capitalization of $33.29 billion."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-24",
+  "data_asof": "2026-11-25",
   "price": {
-    "last": 213.22,
-    "open": 223.0,
-    "prev_close": 233.51,
-    "move_day_pct": -8.69,
-    "move_open_close_pct": -4.39,
-    "move_week_pct": -8.89
+    "last": 212.15,
+    "open": 198.4,
+    "prev_close": 213.22,
+    "move_day_pct": -0.5,
+    "move_open_close_pct": 6.93,
+    "move_week_pct": -9.75
   },
   "indicators": {
     "rsi14": {
-      "value": 35.7,
+      "value": 35.5,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -28.713,
-      "signal": -29.69,
-      "hist": 0.977,
-      "hist_prev": 1.221,
+      "macd": -28.47,
+      "signal": -29.446,
+      "hist": 0.975,
+      "hist_prev": 0.977,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 301.79,
-      "lower": 192.61,
-      "mid": 247.2,
-      "pctb": 0.189,
+      "upper": 289.67,
+      "lower": 194.64,
+      "mid": 242.16,
+      "pctb": 0.184,
       "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 28.7,
-      "read": "29% above its 52-week low"
+      "value": 26.76,
+      "read": "27% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -55.89,
+      "value": -56.11,
       "read": "56% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 348.14,
-      "pct": -38.75,
+      "ma200": 347.68,
+      "pct": -38.98,
       "read": "39% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 23.32,
-      "pct_of_price": 10.94,
+      "value": 23.25,
+      "pct_of_price": 10.96,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.01,
+      "value": 0.87,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 34.0,
+      "value": 38.7,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": 165.67,
+  "low_52w": 167.37,
   "high_52w": 483.35,
-  "ma50": 323.52,
-  "ma200": 348.14
+  "ma50": 320.94,
+  "ma200": 347.68
 }

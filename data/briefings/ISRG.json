@@ -2,7 +2,7 @@
   "ticker": "ISRG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-24T14:17:55.732056-08:00",
+  "generated_at": "2026-11-25T14:56:04.826964-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Abbott Laboratories vs. Intuitive Surgical: Which Healthcare Stock Is a Better Buy for 2027?",
+      "headline": "Here's Why You Should Add Revvity Stock to Your Portfolio Now",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8ea3d814205c0734538c2a0f4221cc002e83a7d29d57a6953590bf8476b23231",
-      "datetime": 1795544402,
-      "summary": "Abbott's diversified model and Intuitive Surgical's robotic dominance pull in very different directions, and their valuation gap is wider than you might expect."
+      "url": "https://finnhub.io/api/news?id=80eb24e219be35537d6ac42d1b0357aea697e539b804bfcf5c2100089fc13739",
+      "datetime": 1795625460,
+      "summary": "Revvity's improving demand, AI-driven research opportunities, software innovation and stronger Diagnostics outlook support its growth prospects."
     },
     {
-      "headline": "Medtronic\u2019s Core Business Looks Stronger Than Its Headline Earnings Numbers",
+      "headline": "Procedure Growth Is Altering The Investment Case For Intuitive Surgical Stock",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c3d0358117e7d2eda2037046d446e50cac20bf108e8f161e682064f151f36ee7",
-      "datetime": 1795543200,
-      "summary": "A modest earnings beat and unchanged fiscal-year outlook leave Wall Street wanting more from Medtronic."
+      "url": "https://finnhub.io/api/news?id=9710be8fb1acb8079b044625008716b253b5699ce5db15de0afaf82dfd08fe88",
+      "datetime": 1795623099,
+      "summary": "Intuitive Surgical recently reported strong business momentum, supported by an expanding installed base of systems, rising procedure volumes, and growing recurring revenue from instruments, accessories, leases, and services, with the Ion platform contributing meaningfully to diagnostic robotic assisted procedures. An interesting angle is how Intuitive Surgical\u2019s razor blade style model, in which i"
     },
     {
-      "headline": "Veeva Systems' Gains 20% YTD: Can the Stock's Growth Momentum",
+      "headline": "GE HealthCare Expands CT Portfolio With New Systems and AI Innovations",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2fbe753af4192cbdc30b2fe6266a68c2de54afefb5fb63f8e2330171410ea2ed",
-      "datetime": 1795538820,
-      "summary": "Veeva Systems' strong CRM customer wins, expanding AI opportunities and next-generation R&D products are likely to help sustain its growth momentum."
+      "url": "https://finnhub.io/api/news?id=7edf7cc19b0680dc8860f92bcc62b7df402dde8add3fd105de83d11f73e67fc0",
+      "datetime": 1795621200,
+      "summary": "GEHC expands CT portfolio with advanced imaging systems, AI-powered tools and streamlined workflows, creating opportunities for long-term business growth."
     },
     {
-      "headline": "Here's Why You Should Add Glaukos Stock to Your Portfolio Now",
+      "headline": "AMN Healthcare Rallies More Than 126% YTD: What's Behind the Momentum?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=869df8461d1513723b6e247a1c5b8387226c72802b701a11570b343815bb306c",
-      "datetime": 1795538460,
-      "summary": "Glaukos' surging Epioxa adoption, strong iDose sales and raised revenue targets fuel growth prospects, while Medicare coverage risks remain."
+      "url": "https://finnhub.io/api/news?id=ebb1602a57f31e5ba8e72464cba68b1cbf3a85ba80e75888c14cde33075bbb59",
+      "datetime": 1795619040,
+      "summary": "AMN stock surges 126.1% YTD as recovering staffing demand, strategic acquisitions and workforce intelligence initiatives strengthen its growth prospects."
     },
     {
-      "headline": "GEHC Launches ViewPoint Ultra to Streamline Ultrasound Workflows",
+      "headline": "Embecta (EMBC) Stock Is Down 9.8% Today After Earnings Surge, Market Selloff",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=b8287b4c0a94ba3019b89f21c8cff9523fbb95ac4129018ad7cec6b88dd77bbb",
-      "datetime": 1795538460,
-      "summary": "GE HealthCare expands its digital healthcare offerings with ViewPoint Ultra, targeting fragmented ultrasound workflows and wider adoption across health systems."
+      "url": "https://finnhub.io/api/news?id=9a98c90bc99e8b995e27e01c85ce35b5e63e0b1fcd3a67268faa27d202a01e45",
+      "datetime": 1795618838,
+      "summary": "Embecta shares fell 9.8% on Wednesday, Nov. 25, without company-specific news, as the market sold off a day after a 40.6% earnings-driven jump."
     },
     {
-      "headline": "Medtronic\u2019s High Expectations Leave Little Room for a Revenue Miss",
+      "headline": "RadNet's DeepHealth Wins FDA Clearance for AI Breast Cancer Risk Tool",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=78b132d34c5214c76319e4766179735e83c3bd2ba24ce6fa480d4c25c55d825d",
-      "datetime": 1795537440,
-      "summary": "A modest earnings beat and unchanged fiscal-year outlook leave Wall Street wanting more from Medtronic."
+      "url": "https://finnhub.io/api/news?id=74312df7df31d7fff8aeab9a5dde59c8015c502e295bf19dd808d5a13ba0fad0",
+      "datetime": 1795617180,
+      "summary": "RDNT gains FDA clearance for DeepHealth's AI-powered Mammo Risk, expanding into five-year breast cancer risk prediction and personalized screening."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-24",
+  "data_asof": "2026-11-25",
   "price": {
-    "last": 434.46,
-    "open": 413.43,
-    "prev_close": 416.23,
-    "move_day_pct": 4.38,
-    "move_open_close_pct": 5.09,
-    "move_week_pct": 0.91
+    "last": 427.18,
+    "open": 426.27,
+    "prev_close": 434.46,
+    "move_day_pct": -1.68,
+    "move_open_close_pct": 0.21,
+    "move_week_pct": 1.48
   },
   "indicators": {
     "rsi14": {
-      "value": 51.2,
+      "value": 48.4,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -2.868,
-      "signal": 1.792,
-      "hist": -4.66,
-      "hist_prev": -6.635,
+      "macd": -2.78,
+      "signal": 0.878,
+      "hist": -3.658,
+      "hist_prev": -4.66,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 478.13,
-      "lower": 401.46,
-      "mid": 439.79,
-      "pctb": 0.43,
+      "upper": 477.6,
+      "lower": 400.28,
+      "mid": 438.94,
+      "pctb": 0.348,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 30.85,
-      "read": "31% above its 52-week low"
+      "value": 28.66,
+      "read": "29% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -26.72,
-      "read": "27% below its 52-week high"
+      "value": -27.94,
+      "read": "28% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 427.03,
-      "pct": 1.74,
-      "read": "2% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 426.69,
+      "pct": 0.11,
+      "read": "0% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 15.54,
-      "pct_of_price": 3.58,
+      "value": 15.59,
+      "pct_of_price": 3.65,
       "read": "Elevated volatility"
     },
     "rel_volume": {
-      "value": 0.97,
+      "value": 1.03,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 26.5,
+      "value": 28.7,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 332.02,
   "high_52w": 592.85,
-  "ma50": 425.42,
-  "ma200": 427.03
+  "ma50": 426.32,
+  "ma200": 426.69
 }

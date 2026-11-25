@@ -2,7 +2,7 @@
   "ticker": "TPL",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-24T14:18:21.164981-08:00",
+  "generated_at": "2026-11-25T14:56:45.555043-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Texas Pacific Land: Attractive Long-Term Buy After The Pullback",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=fac9f5ba536f75ca1f9e8202b170f1bd8db9acb07a364da9b23b5999a3d16d00",
+      "datetime": 1795588399,
+      "summary": "Texas Pacific Land (TPL) stock is a buy near $265, with $320-$330 fair value at about 26x forward earnings, below its five-year averages."
+    },
     {
       "headline": "Texas Pacific Land's $3B EagleRock Deal Expands Permian Footprint",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=e49435b30b542ca30d2652c0422cead2f7af6a0e85ef717b6caa6ce82c46cf30",
       "datetime": 1795477148,
       "summary": ""
-    },
-    {
-      "headline": "5 Energy Stocks That Can Shrug Off a December Fed Rate Hike",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=28dd81f042570a14ea8f371be7819e63b073faf5c7420e8c2230d372fd2945e6",
-      "datetime": 1795471200,
-      "summary": "Five energy stocks with strong balance sheets, from Exxon to Kinder Morgan, that could hold up if the Fed hikes again in December and CPI runs hot."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-24",
+  "data_asof": "2026-11-25",
   "price": {
-    "last": 251.4,
-    "open": 256.5,
-    "prev_close": 258.07,
-    "move_day_pct": -2.58,
-    "move_open_close_pct": -1.99,
-    "move_week_pct": -12.66
+    "last": 261.37,
+    "open": 253.2,
+    "prev_close": 251.4,
+    "move_day_pct": 3.97,
+    "move_open_close_pct": 3.23,
+    "move_week_pct": -8.58
   },
   "indicators": {
     "rsi14": {
-      "value": 24.0,
-      "read": "Extremely oversold"
+      "value": 31.7,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -18.7,
-      "signal": -16.798,
-      "hist": -1.902,
-      "hist_prev": -1.203,
-      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
+      "macd": -18.613,
+      "signal": -17.161,
+      "hist": -1.452,
+      "hist_prev": -1.902,
+      "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 340.97,
-      "lower": 240.39,
-      "mid": 290.68,
-      "pctb": 0.109,
-      "read": "Near the lower band"
+      "upper": 335.23,
+      "lower": 239.08,
+      "mid": 287.15,
+      "pctb": 0.232,
+      "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 0.0,
+      "value": 3.97,
       "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -53.28,
-      "read": "53% below its 52-week high"
+      "value": -51.43,
+      "read": "51% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 395.63,
-      "pct": -36.46,
-      "read": "36% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 394.94,
+      "pct": -33.82,
+      "read": "34% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 15.56,
-      "pct_of_price": 6.19,
+      "value": 15.61,
+      "pct_of_price": 5.97,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 2.39,
+      "value": 2.19,
       "read": "Heavy volume \u2014 well above average"
     },
     "mfi14": {
-      "value": 25.6,
+      "value": 37.4,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 251.4,
   "high_52w": 538.1,
-  "ma50": 323.73,
-  "ma200": 395.63
+  "ma50": 321.98,
+  "ma200": 394.94
 }

@@ -2,7 +2,7 @@
   "ticker": "FSLY",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-24T14:18:18.518203-08:00",
+  "generated_at": "2026-11-25T14:56:40.175749-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Fastly vs. Okta: Which Technology Stock Is a Better Buy for 2027?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=eb05425c282cf29aa0b8de46838063991cdf48837f44370e4b9f9d2363f824e8",
+      "datetime": 1795542602,
+      "summary": "Fastly sells speed, Okta sells security, and their valuations and profit profiles tell very different stories for 2027."
+    },
     {
       "headline": "Fastly Stock and Asia Pacific AI Infrastructure Names Outside U.S. Sanctions",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=c911bcf7815b81060d6ba2bcd8b655b6d9da1025d324d6b8109d0f93ac1254f5",
       "datetime": 1795182004,
       "summary": "Here is how Fastly (FSLY) and Ambiq Micro, Inc. (AMBQ) have performed compared to their sector so far this year."
-    },
-    {
-      "headline": "What Sent Cloudflare Stock Higher?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9962a9952ec84fffdb1ea3ea9806ea5e856dfe1b15b8f8bc3281bc3c2c62b3a0",
-      "datetime": 1795095251,
-      "summary": "Today's big story: Could Anthropic Stock Fall 25."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-24",
+  "data_asof": "2026-11-25",
   "price": {
-    "last": 15.63,
-    "open": 15.85,
-    "prev_close": 16.28,
-    "move_day_pct": -3.99,
-    "move_open_close_pct": -1.39,
-    "move_week_pct": -1.7
+    "last": 15.74,
+    "open": 14.98,
+    "prev_close": 15.63,
+    "move_day_pct": 0.7,
+    "move_open_close_pct": 5.07,
+    "move_week_pct": -12.07
   },
   "indicators": {
     "rsi14": {
-      "value": 38.5,
+      "value": 39.0,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -2.029,
-      "signal": -2.033,
-      "hist": 0.004,
-      "hist_prev": -0.028,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": -1.971,
+      "signal": -2.021,
+      "hist": 0.05,
+      "hist_prev": 0.004,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 25.24,
-      "lower": 11.39,
-      "mid": 18.32,
-      "pctb": 0.306,
+      "upper": 23.48,
+      "lower": 12.03,
+      "mid": 17.75,
+      "pctb": 0.324,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 96.36,
-      "read": "96% above its 52-week low"
+      "value": 97.74,
+      "read": "98% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -53.34,
+      "value": -53.01,
       "read": "53% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 22.14,
-      "pct": -29.4,
+      "ma200": 22.18,
+      "pct": -29.04,
       "read": "29% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 1.89,
-      "pct_of_price": 12.1,
+      "value": 1.87,
+      "pct_of_price": 11.9,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.61,
+      "value": 0.78,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 45.6,
+      "value": 53.3,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 7.96,
   "high_52w": 33.5,
-  "ma50": 22.54,
-  "ma200": 22.14
+  "ma50": 22.38,
+  "ma200": 22.18
 }

@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-24T14:17:40.494032-08:00",
+  "generated_at": "2026-11-25T14:55:45.877560-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Why Datadog (DDOG) Stock Is Down Today: Software Selloff on AI Fears",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=6974d2df78ddfe5c9f4f9794c7475d847a50fb3274b9941735d9520c204a09cb",
+      "datetime": 1795626921,
+      "summary": "On Wednesday, Nov. 25, shares fell 8.5% as a tech selloff over AI fears hit software stocks, without company-specific news"
+    },
     {
       "headline": "Datadog vs. Monday.com: Which Technology Stock Is a Better Buy for 2027?",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=89fbd416b864691026d32ff33b17aba49290f2ff9cd27b7e88088c8e65a1b3f6",
       "datetime": 1795463809,
       "summary": "Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92."
-    },
-    {
-      "headline": "Datadog Named a Challenger in the 2026 Gartner\u00ae Magic Quadrant\u2122 for Security Information and Event Management",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=719fd8d11793c17ee0ccae8b356515e74938a4f63b0d7751c08842842634ae5e",
-      "datetime": 1795454520,
-      "summary": "Datadog recognized for its Completeness of Vision and Ability to ExecuteNEW YORK, Nov. 23, 2026 (GLOBE NEWSWIRE) -- Datadog, Inc. (NASDAQ: DDOG), the leading AI-powered observability and security platform, today announced it has been named a Challenger in the Gartner Magic Quadrant for Security Information and Event Management (SIEM), 2026. This follows Datadog\u2019s recent placement as a Leader in th"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-24",
+  "data_asof": "2026-11-25",
   "price": {
-    "last": 165.38,
-    "open": 165.54,
-    "prev_close": 169.02,
-    "move_day_pct": -2.15,
-    "move_open_close_pct": -0.1,
-    "move_week_pct": 0.12
+    "last": 158.25,
+    "open": 158.25,
+    "prev_close": 165.38,
+    "move_day_pct": -4.31,
+    "move_open_close_pct": 0.0,
+    "move_week_pct": -5.3
   },
   "indicators": {
     "rsi14": {
-      "value": 32.1,
-      "read": "Oversold"
+      "value": 29.9,
+      "read": "Extremely oversold"
     },
     "macd": {
-      "macd": -22.552,
-      "signal": -21.967,
-      "hist": -0.584,
-      "hist_prev": -1.4,
+      "macd": -22.339,
+      "signal": -22.042,
+      "hist": -0.297,
+      "hist_prev": -0.584,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 257.94,
-      "lower": 125.35,
-      "mid": 191.65,
-      "pctb": 0.302,
+      "upper": 240.11,
+      "lower": 131.16,
+      "mid": 185.64,
+      "pctb": 0.249,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 61.17,
-      "read": "61% above its 52-week low"
+      "value": 54.22,
+      "read": "54% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -43.61,
-      "read": "44% below its 52-week high"
+      "value": -46.04,
+      "read": "46% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 203.05,
-      "pct": -18.55,
-      "read": "19% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 203.19,
+      "pct": -22.12,
+      "read": "22% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 13.27,
-      "pct_of_price": 8.02,
+      "value": 13.43,
+      "pct_of_price": 8.49,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.67,
+      "value": 1.28,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 35.3,
+      "value": 38.2,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 102.61,
   "high_52w": 293.26,
-  "ma50": 235.76,
-  "ma200": 203.05
+  "ma50": 234.31,
+  "ma200": 203.19
 }

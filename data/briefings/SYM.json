@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-24T14:17:58.711698-08:00",
+  "generated_at": "2026-11-25T14:56:08.586800-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Symbotic Analysts Revise Their Forecasts Following Q4 Earnings",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=10c5efab4ff785121a789767d2a40a533dd4dcf19f0e15d670e1efddfee509e1",
-      "datetime": 1795513617,
-      "summary": "Symbotic beat Q4 earnings and sales estimates, guided Q1 sales near forecasts, while shares fell 5.8%; analysts raised and cut price targets."
-    },
-    {
-      "headline": "Goldman Sachs Maintains Sell on Symbotic, Lowers Price Target to $33",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=b82227c824ff4fc82eca928a89c0c7a3d109667c1efa2e7d60dd428c4d8c16f1",
-      "datetime": 1795508916,
-      "summary": "Goldman Sachs  analyst Mark Delaney   maintains Symbotic (NASDAQ:SYM) with a Sell and lowers the price target from $42 to $33."
-    },
-    {
-      "headline": "Needham Maintains Buy on Symbotic, Raises Price Target to $65",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=2f801d8aa24466a97a85ecc3e727e8816c262ee0c3de62527f78e7ac6bc347a2",
-      "datetime": 1795505663,
-      "summary": "Needham  analyst Robert Jamieson   maintains Symbotic (NASDAQ:SYM) with a Buy and raises the price target from $60 to $65."
-    },
-    {
-      "headline": "Symbotic Q4 Earnings Call Highlights",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ad0b92cff4440b4e9fcdcabf6740c727f29779876057159006b33a6642e249d2",
-      "datetime": 1795482807,
-      "summary": "Symbotic (NASDAQ:SYM) reported its first full year of positive GAAP net income in fiscal 2026, as fourth-quarter revenue rose 26% and an expanded Walmart agreement positioned the warehouse automation company for a sizable increase in backlog. Fourth-quarter revenue reached $778 million, up 8% from"
-    },
-    {
-      "headline": "Symbotic Inc. (SYM) Q4 2026 Earnings Call Transcript",
+      "headline": "Symbotic: Walmart Expansion Locks In Visibility Through 2030",
       "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=af6255542a77c9b9137e4aba38eeb5323321014d4228ad491c52be59f22aaa3c",
-      "datetime": 1795479077,
-      "summary": "Symbotic Inc. (SYM) Q4 2026 Earnings Call November 23, 2026 5:00 PM ESTCompany ParticipantsCharles Anderson - Vice President of Investor Relations &..."
+      "url": "https://finnhub.io/api/news?id=d5eddc958310af3982fd3a534a75993d60ab6a32b772d15c92ea8b53fb35d590",
+      "datetime": 1795618389,
+      "summary": "The analyst rates Symbotic Inc. a Strong Buy with a $78 target, citing nearly $7 billion in added Walmart backlog and a 25% gross margin goal for FY2028."
     },
     {
-      "headline": "Symbotic (NASDAQ:SYM) Q4 Revenue In Line, EPS Beats as Guidance Tracks Near Consensus",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=25828649323f40d96fe2c11bb750a6511c9edbbf1a6cfb7edc20a09906a8690e",
-      "datetime": 1795475301,
-      "summary": "Symbotic Q4 revenue in line, EPS beats; Q1 sales guidance modestly below consensus weighs on shares despite strong profit growth and Walmart expansion."
+      "headline": "Symbotic: 3 Key Takeaways for Long-Term Investors",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c49b4e660265b4cea91054e30a023abbeb1117cfec75f49ad935ef9314322efe",
+      "datetime": 1795583550,
+      "summary": "Symbotic's modular systems extend automated picking into smaller stores and postal networks, widening the customer base beyond its largest retail partner."
+    },
+    {
+      "headline": "Symbotic Inc. 2026 Q4 - Results - Earnings Call Presentation",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=958feda0139cabdfdf7a7b9ec05b06f2dfc679f4ab9b0df7972baff8d77e2e4c",
+      "datetime": 1795561265,
+      "summary": "2026-11-24. The following slide deck was published by Symbotic Inc."
+    },
+    {
+      "headline": "Walmart\u2019s Robot Warehouse Partner Symbotic Just Had Its First Profitable Year",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=391117292db8c60e862010777f2c4e73b836d01fef9d6376c88c8c35a18e184b",
+      "datetime": 1795540937,
+      "summary": "Symbotic finally posted a full year in the black and locked in a decade of Walmart work, yet investors barely reacted. The real story sits in what the headline profit leaves out and what must happen next."
+    },
+    {
+      "headline": "Symbotic Q4 Earnings Call Details Walmart Deal and Revenue Timing",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a0053837c5c75168bf22bd1f1713c05b31e4a575e5a9e3a1646ad60ee595e055",
+      "datetime": 1795536780,
+      "summary": "SYM's expanded Walmart deal is set to add nearly $7B to backlog as the company outlines fiscal 2027 revenue timing and in-store automation plans."
+    },
+    {
+      "headline": "Symbotic (SYM) Q4 2026 Earnings Call Transcript",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d39431a39d7c90df26ecf6e3f93021d40bb5d61825af12b8a995de4832a26585",
+      "datetime": 1795533298,
+      "summary": "Management outlined fiscal 2027 timing and plans for new international markets."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-24",
+  "data_asof": "2026-11-25",
   "price": {
-    "last": 37.39,
-    "open": 33.92,
-    "prev_close": 34.97,
-    "move_day_pct": 6.92,
-    "move_open_close_pct": 10.23,
-    "move_week_pct": 13.1
+    "last": 38.02,
+    "open": 36.19,
+    "prev_close": 37.39,
+    "move_day_pct": 1.68,
+    "move_open_close_pct": 5.06,
+    "move_week_pct": 12.52
   },
   "indicators": {
     "rsi14": {
-      "value": 52.3,
+      "value": 54.0,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -1.427,
-      "signal": -1.565,
-      "hist": 0.138,
-      "hist_prev": -0.175,
-      "read": "Bullish \u2014 MACD above signal"
+      "macd": -1.088,
+      "signal": -1.469,
+      "hist": 0.381,
+      "hist_prev": 0.138,
+      "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 40.01,
-      "lower": 31.89,
-      "mid": 35.95,
-      "pctb": 0.678,
+      "upper": 39.84,
+      "lower": 31.96,
+      "mid": 35.9,
+      "pctb": 0.769,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 20.23,
-      "read": "20% above its 52-week low"
+      "value": 22.25,
+      "read": "22% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -57.17,
-      "read": "57% below its 52-week high"
+      "value": -56.45,
+      "read": "56% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 46.06,
-      "pct": -18.82,
-      "read": "19% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 45.94,
+      "pct": -17.24,
+      "read": "17% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 2.65,
-      "pct_of_price": 7.08,
+      "value": 2.67,
+      "pct_of_price": 7.03,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 2.36,
-      "read": "Heavy volume \u2014 well above average"
+      "value": 1.39,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 47.3,
+      "value": 56.8,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 31.1,
   "high_52w": 87.3,
-  "ma50": 39.42,
-  "ma200": 46.06
+  "ma50": 39.32,
+  "ma200": 45.94
 }

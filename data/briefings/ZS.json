@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-24T14:18:11.765590-08:00",
+  "generated_at": "2026-11-25T14:56:26.488633-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "CrowdStrike's Acquisition Of Zscaler Is Not Perfect, But Is Still Net Positive",
+      "headline": "CrowdStrike: Ticking The Top With Zscaler Deal",
       "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=2ceee9891ad42814ae73ee21afd974a776b4d6066d4bdb962d663d61525a56e7",
-      "datetime": 1795523110,
-      "summary": "The bull case for CRWD: its $44 billion ZS deal promises $1.5 billion in synergies within 30 months of closing and could expand TAM by $185 billion."
+      "url": "https://finnhub.io/api/news?id=8fd03032c9b813191c5dc4a950628da80152f2c816f06ef7b613f09aaa802311",
+      "datetime": 1795625058,
+      "summary": "CrowdStrike Holdings $44 billion deal to acquire Zscaler highlights platformization\u00e2\u0080\u0099s limits in cybersecurity. CRWD stock and Zscaler expect $1 billion in revenue synergies."
     },
     {
-      "headline": "CrowdStrike: Rally Incoming",
+      "headline": "Cybersecurity Stocks\u2019 Sharp Rebound Faces Earnings Test as Rich Valuations Hang in the Balance",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=5341abcca127c61a4fb6accf7591b71f117def8499886c7f88b129e479168b85",
+      "datetime": 1795613756,
+      "summary": "Cybersecurity stocks rebounded sharply, but high valuations now face a key earnings test as PANW, CRWD, ZS and OKTA report."
+    },
+    {
+      "headline": "Amazon, Quest Diagnostics, United Therapeutics and a Tech Stock: CNBC\u2019s \u2018Final Trades\u2019",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=535250408c6fe31165aac2082612c0c5f16ea371ffe53a829d5f839d6b4f7eca",
+      "datetime": 1795599280,
+      "summary": "CNBC Final Trades feature CrowdStrike, Amazon, Quest Diagnostics and United Therapeutics; shares moved on deal news, earnings and analyst support."
+    },
+    {
+      "headline": "Shots Fired: Zscaler CEO Says a Rival Platform\u2019s Only Benefit Was \u201can Integrated Invoice.\u201d That\u2019s a Problem for Palo Alto",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ed9b42db41b7dc41fba3b905814e7ddb05d52fbe7066efbe541af677c04ce102",
+      "datetime": 1795595828,
+      "summary": "Key TakeawaysCrowdStrike is buying Zscaler for $43. 9 billion in stock, and on the deal call Zscaler CEO Jay Chaudhry described a firewall vendor\u2019s platform whose only benefit was an integrated invoice."
+    },
+    {
+      "headline": "CrowdStrike: An Interesting And Large Tie-Up With Zscaler",
       "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=7fee13fdd604459e05c2972175568234f19b330d9ae5a43b22c6e6feabb88d7d",
-      "datetime": 1795521632,
-      "summary": "CrowdStrike Holdings, Inc. is rated a Buy, as a record $419 million net new ARR and raised FY27 guidance support further upside after the selloff."
+      "url": "https://finnhub.io/api/news?id=6e45c459c44f2d49882206637a6d7ff1a0b095b2a0cafe7f2acb71b499ec44b9",
+      "datetime": 1795586906,
+      "summary": "The bear case on CrowdStrike: its $250 billion enterprise value versus $10 billion in ARR makes the 10% post-deal drop no buying opportunity."
     },
     {
-      "headline": "Wedbush Downgrades Zscaler to Neutral, Raises Price Target to $260",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=6c005dd823c0f9c4721fbfcf674f6393c518e6e705d13423d4c8aed76a0278d6",
-      "datetime": 1795513339,
-      "summary": "Wedbush  analyst Steven Wahrhaftig   downgrades Zscaler (NASDAQ:ZS) from Outperform to Neutral and raises the price target from $240 to $260."
-    },
-    {
-      "headline": "Guggenheim Reiterates Buy on Zscaler, Maintains $254 Price Target",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=a0c817b957fa091d6e029838a0672330d358cf33172c6864024b043857038ab4",
-      "datetime": 1795512474,
-      "summary": "Guggenheim  analyst John Difucci   reiterates Zscaler (NASDAQ:ZS) with a Buy and maintains $254 price target."
-    },
-    {
-      "headline": "Keybanc Maintains Overweight on Zscaler, Raises Price Target to $300",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=f90dd34af26c551deb695035ee59a55366e2e4025a1c44a3daf1e3aa29a32b9e",
-      "datetime": 1795511805,
-      "summary": "Keybanc  analyst Eric Heath   maintains Zscaler (NASDAQ:ZS) with a Overweight and raises the price target from $210 to $300."
-    },
-    {
-      "headline": "JetBlue Airways To Rally Over 51%? Here Are 10 Top Analyst Forecasts For Tuesday",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=5d2c0ae9b606f745eb9f29c6e639ab9fde8b180a3b08e825ae901e681d8ae5b5",
-      "datetime": 1795511394,
-      "summary": "Analysts cut targets for CrowdStrike, Zscaler and Zoom; raised targets for AIM, Sky Harbour, Agilent and JetBlue, which was upgraded."
+      "headline": "November 2026 Growth Stocks With Strong Earnings Potential",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=245148f9fba66482eb814612936e7b24fe578eda4ab961a262f791416b121d6d",
+      "datetime": 1795583636,
+      "summary": "Fresh US tariffs on China and other major trading partners put global supply chains back under the microscope, which often rewards companies with strong balance sheets and clear earnings power. Investors who focus on financially sound businesses with solid growth potential can avoid scrambling after the fact. This article walks through three stocks from a high quality growth screener that aims to "
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-24",
+  "data_asof": "2026-11-25",
   "price": {
-    "last": 231.62,
-    "open": 231.98,
-    "prev_close": 229.24,
-    "move_day_pct": 1.04,
-    "move_open_close_pct": -0.16,
-    "move_week_pct": 25.07
+    "last": 230.86,
+    "open": 221.21,
+    "prev_close": 231.62,
+    "move_day_pct": -0.33,
+    "move_open_close_pct": 4.36,
+    "move_week_pct": 16.7
   },
   "indicators": {
     "rsi14": {
-      "value": 60.1,
-      "read": "Firm \u2014 approaching overbought"
+      "value": 59.6,
+      "read": "Neutral"
     },
     "macd": {
-      "macd": -1.628,
-      "signal": -4.055,
-      "hist": 2.427,
-      "hist_prev": 0.622,
+      "macd": 0.22,
+      "signal": -3.2,
+      "hist": 3.42,
+      "hist_prev": 2.427,
       "read": "Bullish \u2014 MACD above signal, momentum building"
     },
     "bollinger_pctb": {
-      "upper": 252.49,
-      "lower": 170.01,
-      "mid": 211.25,
-      "pctb": 0.747,
+      "upper": 247.08,
+      "lower": 172.93,
+      "mid": 210.0,
+      "pctb": 0.781,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 96.2,
+      "value": 95.56,
       "read": "96% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -20.06,
+      "value": -20.32,
       "read": "20% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 167.34,
-      "pct": 38.41,
+      "ma200": 167.63,
+      "pct": 37.72,
       "read": "38% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 15.19,
-      "pct_of_price": 6.56,
+      "value": 15.36,
+      "pct_of_price": 6.65,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 2.16,
-      "read": "Heavy volume \u2014 well above average"
+      "value": 1.44,
+      "read": "Above-average volume"
     },
     "mfi14": {
-      "value": 67.3,
+      "value": 64.9,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 118.05,
   "high_52w": 289.73,
-  "ma50": 213.93,
-  "ma200": 167.34
+  "ma50": 214.71,
+  "ma200": 167.63
 }

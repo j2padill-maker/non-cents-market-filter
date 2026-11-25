@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-24T14:17:32.417273-08:00",
+  "generated_at": "2026-11-25T14:55:26.074889-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "MongoDB (MDB) Declines More Than Market: Some Information for Investors",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7d4602c6a697d535fba9c986a444c7beb9e3d88729d48a9a0b7107b94af6557c",
+      "datetime": 1795558502,
+      "summary": "MongoDB (MDB) closed the most recent trading day at $308.5, moving 1.34% from the previous trading session."
+    },
+    {
+      "headline": "KeyBanc Cut Its Snowflake Target to $400, and the Reason Has Nothing to Do With Demand",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=42063a9eceec692c49cceea54f3705242c776fa851bfb8ac4ff4c3aa750b0efb",
+      "datetime": 1795554635,
+      "summary": "Key TakeawaysKeyBanc cut its Snowflake price target to $400 from $460 on Nov. 24 and kept its Overweight rating, which still leaves 47% upside."
+    },
+    {
+      "headline": "Opvizor Launches AI-Powered Database Monitoring and Diagnostics to Optimize MongoDB, MySQL, PostgreSQL, Redis, SQL Server",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=2c1fbfe7d6639ac9919e58f2d93b8d968e2995b769551c53b69a2f02893ef573",
+      "datetime": 1795536000,
+      "summary": "HOUSTON, November 24, 2026--Opvizor, a division of Codenotary Inc., today announced the launch of dbfrog, an AI-powered database monitoring and optimization platform for Microsoft SQL Server, MongoDB, MySQL, PostgreSQL and Redis."
+    },
+    {
+      "headline": "Citigroup Maintains Buy on MongoDB, Lowers Price Target to $525",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=87d6279df3efb8b8efb126765eafd8b26d6e822ca5b325ac3860cb23f09dc4f9",
+      "datetime": 1795529142,
+      "summary": "Citigroup  analyst Tyler Radke   maintains MongoDB (NASDAQ:MDB) with a Buy and lowers the price target from $565 to $525."
+    },
+    {
+      "headline": "Snowflake Has Slumped Ahead of Its Dec. 2 Report: Why TD Cowen Sees 66% Upside",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=5c14d124f667d84104d5bbf52ac5859c6d821394ccba2f375045cbfeb255fa6f",
+      "datetime": 1795524888,
+      "summary": "Key TakeawaysTD Cowen reiterated its Buy rating and $450 price target on Snowflake, 66% above the stock\u2019s Nov. 23 close of $271."
+    },
+    {
       "headline": "Meta Platforms: Funding Uncertainty Is Burying The Muse Option (Rating Upgrade)",
       "source": "SeekingAlpha",
       "url": "https://finnhub.io/api/news?id=53f1fe519dd4804d6be361fd7644715defd6d864cd5d1cb5da5d19f82666dd77",
       "datetime": 1795511475,
       "summary": "Analyst upgrades Meta Platforms, Inc. to Buy from Hold with a $658 target, citing 14% Q3 ad-price growth versus 10% impression growth and AI pricing power."
-    },
-    {
-      "headline": "A Stock Market Crash Could Be Life-Changing for Investors Who Own These 3 Artificial Intelligence (AI) Stocks",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=beb887cdfc6636ea51e360105b0d180000b6f09e928b6df3a0ec6ecaeb0a4d5c",
-      "datetime": 1795494901,
-      "summary": "Lemmings is a term often used on Wall Street, and a stock market crash could show why it is important to avoid joining the crowd."
-    },
-    {
-      "headline": "Best Positioned Software Stocks for AI and Security Growth in 2027",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9b7151959a2295518a88aaffa46bf7847a63cf1ab2727f3661267ef9309ce64a",
-      "datetime": 1795445927,
-      "summary": "Investing.com -- Goldman Sachs has identified five software companies best positioned to benefit from accelerating cybersecurity budgets and enterprise AI adoption following recent conversations with technology leaders and engineers. The analysis comes amid elevated stock volatility and a notable uptick in IT infrastructure challenges that are driving increased spending on security modernization a"
-    },
-    {
-      "headline": "Nvidia Shock Puts MongoDB Stock And Cloud Software Names Back In Focus",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=beda274ee20b4bb1755134d9b5f86ff354ac380cc2a27ee7555815582a76a932",
-      "datetime": 1795324540,
-      "summary": "AI infrastructure just absorbed a shock, with Nvidia\u2019s leadership turmoil, customer investigations and eye catching Q3 FY2027 numbers all hitting at once, and that ripple now runs straight through the cloud and data center operators that power this boom. Pricing for compute is changing, expectations are resetting and some stocks are suddenly being repriced. This article walks through three compani"
-    },
-    {
-      "headline": "BofA Cut Its Snowflake Target to $400 From $470. It Still Sees 56% Upside",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e5eb48263a085b4e5eea7e8d9f92c525da4990c73642cd2691362fb17cc8e2ed",
-      "datetime": 1795256308,
-      "summary": "Key TakeawaysBank of America cut its Snowflake price target to $400 from $470 on Nov. 20 and kept its Buy rating, leaving 56% upside."
-    },
-    {
-      "headline": "How Investors Are Reacting To MongoDB Stock Buy Upgrade",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7f62e3d8ccda5dac582c148d8c9e30127835675315c625530633ca8fc3974b6e",
-      "datetime": 1795252376,
-      "summary": "MongoDB reported that its Atlas for Government service previously achieved FedRAMP Class D High certification across AWS, Azure Government and Google Cloud, allowing US public sector customers to deploy one operational database platform across the three environments. This multi cloud, government grade status gives MongoDB a way to pitch consistent architecture and reduced reengineering costs to ag"
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-24",
+  "data_asof": "2026-11-25",
   "price": {
-    "last": 308.5,
-    "open": 307.98,
-    "prev_close": 312.69,
-    "move_day_pct": -1.34,
-    "move_open_close_pct": 0.17,
-    "move_week_pct": 3.31
+    "last": 313.53,
+    "open": 293.6,
+    "prev_close": 308.5,
+    "move_day_pct": 1.63,
+    "move_open_close_pct": 6.79,
+    "move_week_pct": 2.22
   },
   "indicators": {
     "rsi14": {
-      "value": 42.7,
+      "value": 44.5,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -16.233,
-      "signal": -15.021,
-      "hist": -1.212,
-      "hist_prev": -2.2,
+      "macd": -15.109,
+      "signal": -15.038,
+      "hist": -0.071,
+      "hist_prev": -1.212,
       "read": "Bearish \u2014 MACD below signal"
     },
     "bollinger_pctb": {
-      "upper": 380.05,
-      "lower": 274.03,
-      "mid": 327.04,
-      "pctb": 0.325,
+      "upper": 366.64,
+      "lower": 279.44,
+      "mid": 323.04,
+      "pctb": 0.391,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 36.53,
-      "read": "37% above its 52-week low"
+      "value": 38.76,
+      "read": "39% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -34.68,
-      "read": "35% below its 52-week high"
+      "value": -33.61,
+      "read": "34% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 332.64,
-      "pct": -7.26,
-      "read": "7% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 332.32,
+      "pct": -5.65,
+      "read": "6% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 21.46,
-      "pct_of_price": 6.96,
+      "value": 21.9,
+      "pct_of_price": 6.98,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.81,
+      "value": 0.69,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 46.5,
+      "value": 49.6,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 225.95,
   "high_52w": 472.29,
-  "ma50": 355.85,
-  "ma200": 332.64
+  "ma50": 354.59,
+  "ma200": 332.32
 }

@@ -2,7 +2,7 @@
   "ticker": "TOELF",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-24T14:17:38.878270-08:00",
+  "generated_at": "2026-11-25T14:55:43.191426-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "SoftBank Shares Drop 10% as Samsung and SK Hynix Fall Over 7% in AI Sell Off",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d923e198bd8fb09d4112fd2b7ed2e4ffac341567214a31b78a586c7c7668ebb1",
+      "datetime": 1795569172,
+      "summary": "SoftBank shares fell about 10% in Tokyo as Samsung and SK Hynix lost over 7% in an AI-linked Asian chip sell-off."
+    },
     {
       "headline": "Asian stocks rally after Wall Street rebound as Jensen Huang returns as Nvidia\u2019s CEO",
       "source": "Yahoo",
@@ -42,63 +49,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-23",
+  "data_asof": "2026-11-25",
   "price": {
-    "last": 55.14,
-    "open": 52.87,
-    "prev_close": 48.19,
-    "move_day_pct": 14.42,
-    "move_open_close_pct": 4.29,
-    "move_week_pct": 3.14
+    "last": 49.58,
+    "open": 48.0,
+    "prev_close": 51.62,
+    "move_day_pct": -3.95,
+    "move_open_close_pct": 3.29,
+    "move_week_pct": -7.55
   },
   "indicators": {
     "rsi14": {
-      "value": 44.8,
-      "read": "Neutral"
+      "value": 38.5,
+      "read": "Oversold"
     },
     "macd": {
-      "macd": -3.525,
-      "signal": -3.424,
-      "hist": -0.101,
-      "hist_prev": -0.417,
-      "read": "Bearish \u2014 MACD below signal"
+      "macd": -3.671,
+      "signal": -3.492,
+      "hist": -0.179,
+      "hist_prev": -0.091,
+      "read": "Bearish \u2014 MACD below signal, momentum building to the downside"
     },
     "bollinger_pctb": {
-      "upper": 66.43,
-      "lower": 48.26,
-      "mid": 57.34,
-      "pctb": 0.379,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 65.43,
+      "lower": 46.93,
+      "mid": 56.18,
+      "pctb": 0.143,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 49.86,
-      "read": "50% above its 52-week low"
+      "value": 31.89,
+      "read": "32% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -42.45,
-      "read": "42% below its 52-week high"
+      "value": -48.26,
+      "read": "48% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 64.46,
-      "pct": -14.46,
-      "read": "14% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 64.45,
+      "pct": -23.07,
+      "read": "23% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 4.13,
-      "pct_of_price": 7.48,
+      "value": 4.05,
+      "pct_of_price": 8.17,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.43,
+      "value": 0.03,
       "read": "Light \u2014 quiet trading"
     },
     "mfi14": {
-      "value": 57.2,
+      "value": 67.8,
       "read": "Neutral money flow"
     }
   },
-  "low_52w": 36.79,
+  "low_52w": 37.59,
   "high_52w": 95.82,
-  "ma50": 64.94,
-  "ma200": 64.46
+  "ma50": 64.39,
+  "ma200": 64.45
 }

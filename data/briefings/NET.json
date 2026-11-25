@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-24T14:17:43.727750-08:00",
+  "generated_at": "2026-11-25T14:55:50.009716-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Calamos Growth And Income Fund: Q3 2026 Contributors And Detractors",
+      "headline": "Cloudflare (NET) Could Be 72% Overvalued As Digital Identity Buzz Builds",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=a434e01130bcf0e232586abf32085f0146b43db45cc4d32ebf4e71befc1754f4",
+      "datetime": 1795604911,
+      "summary": "Cloudflare (NET) moved back into focus after Nova Registry and Linkme rolled out a partnership that uses Cloudflare Registrar to power free .link domains, tying the stock to a fresh digital identity theme. Recent trading has cooled after a post earnings rally, with Cloudflare\u2019s 30 day share price return down 11.8% even as the year to date share price return sits at 46.56% and the 3 year total shar"
+    },
+    {
+      "headline": "Baron Technology ETF Q3 2026 Portfolio Activity",
       "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=0a47bbd5500d13fe02c7d1af4f650fe39536ad29b4b34cf8b15a80e5661df274",
-      "datetime": 1795490400,
-      "summary": "Calamos Growth and Income Fund returned 0.46% in Q3 2026, trailing the S&P 500. Read the full commentary for top contributors and detractors."
+      "url": "https://finnhub.io/api/news?id=75f4e8ca294fedfc71be389f54f320854e98a4556ade22ce1d69f18eec100db8",
+      "datetime": 1795601520,
+      "summary": "During the third quarter, Baron Technology ETF declined 4.50% (NAV). The Fund underperformed the NDX for the quarter."
     },
     {
-      "headline": "Allspring Premier Large Company Growth Fund Q3 2026 Contributors And Detractors",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=076090d4ca4a0bd9312d14d2b32f7a072f4d390f3d72cde6555c5c651f666ef2",
-      "datetime": 1795483500,
-      "summary": "Allspring Premier Large Company Growth Fund Q3 2026 commentary highlights top AI contributors and detractors. Read the full portfolio review."
-    },
-    {
-      "headline": "Palantir Rips 10% to Lead Software Stocks. Cloudflare and ServiceNow Also Join \u2018Jensen Rally\u2019",
+      "headline": "Dropbox (DBX) Stock Is Up 5.8% Today Without Company News",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=29cae95436dfbe92b60836af8703c316d047501108ae5e43fb4ad24e8f9fa28c",
-      "datetime": 1795464489,
-      "summary": "Eric Bleeker, Chief Investment Officer at 24/7 Wall St., says Jensen Huang's return to NVIDIA is lifting technology stocks on Monday. The NASDAQ was up more than 7% as of 1:30 p.m. Eastern, after opening with a 3% pre-market gain following Friday's sell-off. Chip stocks as a group rose more than 13%. Software is also higher, but the gains are uneven. Microsoft (NASDAQ: MSFT) and Salesforce (NYSE: "
+      "url": "https://finnhub.io/api/news?id=fc8035e845f9ab86fa9ad1c51afc9caeffa8e31485a6eb2a6ac7a0429276347f",
+      "datetime": 1795552252,
+      "summary": "Dropbox shares rose 5.8% on Tuesday, Nov. 24, without company-specific news, while the S&P 500 fell and tech stocks sold off."
     },
     {
-      "headline": "TD Cowen names top infrastructure software stock for 2027",
+      "headline": "Nutanix (NTNX) Stock Is Down 7.2% Today in Tech Selloff",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7f886b411dedc07606f4426717db1a7d299a0cdcb0a3eb2188a96b68ab38af10",
-      "datetime": 1795462704,
-      "summary": "Investing.com -- TD Cowen has identified its top pick in the infrastructure software sector for 2027, highlighting a company positioned to benefit from artificial intelligence growth and expanding enterprise adoption."
+      "url": "https://finnhub.io/api/news?id=790e7fe898fa0f4d0144300541de67b06fbddbb1d1159c8cb2184592df02c7d3",
+      "datetime": 1795552219,
+      "summary": "Nutanix shares fell 7.2% on Tuesday, Nov. 24, as a broad technology selloff deepened, with no company-specific news."
     },
     {
-      "headline": "If You Invest $7,500 Into These 3 Stocks, You Could Have $15,000 by 2030",
+      "headline": "Nova Registry and Linkme give every Linkme user a free .link domain",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=91d4eace9bfd4b64f6f171fe9a6e58c3f5c6668ae8dc8ed5cad8dd7f8e2198b5",
-      "datetime": 1795458788,
-      "summary": "CrowdStrike, Palantir and Cloudflare all posted record quarters, yet one of them does most of the heavy lifting in this basket. A five-year model tests whether a $7,500 stake can truly double, and which scenario it demands."
+      "url": "https://finnhub.io/api/news?id=6deaef59316c878f077e23c6c0a47961cd973e1d6511d8d3b3a28d4be99bab87",
+      "datetime": 1795530600,
+      "summary": "Strategic partnership brings together the .link top-level domain, Link.me\u2019s digital identity platform and Cloudflare\u2019s Registrar to remove friction and put digital identity within everyone\u2019s reach.BIRKIRKARA, Malta, Nov. 24, 2026 (GLOBE NEWSWIRE) -- Nova Registry, the operator of the .link top-level domain, and Linkme today announced a strategic partnership with a shared ambition: making digital i"
     },
     {
-      "headline": "Why Is Palantir (PLTR) Stock Up Today? AI Rally Follows Nvidia CEO Return",
+      "headline": "Cloudflare Just Dropped 11% in a Month Despite \u201cAn Even Higher Gear.\u201d Is It Time to Sell, or Load Up?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=35e3d327cbc2f2c306c83d524b5933e3fb63a70377c33aeafb8392416e6cf400",
-      "datetime": 1795455067,
-      "summary": "Palantir shares rose 10.6% on Monday, Nov. 23, as AI stocks rallied after Nvidia reinstated Jensen Huang as CEO."
+      "url": "https://finnhub.io/api/news?id=ef151881977c2671a20cd0b1e61adca849a17060d8dd1fad7d946f713b8a2d1d",
+      "datetime": 1795500018,
+      "summary": "Key TakeawaysCloudflare stock is down 11% in the past month. An AI and software selloff that also hit Datadog and CrowdStrike pulled it lower, even though Cloudflare just posted its fastest revenue growth in nearly four years."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-24",
+  "data_asof": "2026-11-25",
   "price": {
-    "last": 287.29,
-    "open": 287.43,
-    "prev_close": 291.13,
-    "move_day_pct": -1.32,
-    "move_open_close_pct": -0.05,
-    "move_week_pct": 0.87
+    "last": 283.3,
+    "open": 275.51,
+    "prev_close": 287.29,
+    "move_day_pct": -1.39,
+    "move_open_close_pct": 2.83,
+    "move_week_pct": -5.85
   },
   "indicators": {
     "rsi14": {
-      "value": 46.4,
+      "value": 45.3,
       "read": "Neutral"
     },
     "macd": {
-      "macd": -5.773,
-      "signal": -6.416,
-      "hist": 0.643,
-      "hist_prev": 0.893,
+      "macd": -6.096,
+      "signal": -6.352,
+      "hist": 0.256,
+      "hist_prev": 0.643,
       "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 329.7,
-      "lower": 250.66,
-      "mid": 290.18,
-      "pctb": 0.463,
+      "upper": 325.77,
+      "lower": 251.05,
+      "mid": 288.41,
+      "pctb": 0.432,
       "read": "Mid-band \u2014 no extreme"
     },
     "pct_from_52w_low": {
-      "value": 79.34,
-      "read": "79% above its 52-week low"
+      "value": 76.85,
+      "read": "77% above its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -20.4,
-      "read": "20% below its 52-week high"
+      "value": -21.51,
+      "read": "22% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 257.42,
-      "pct": 11.6,
-      "read": "12% above its 200-day average \u2014 long-term uptrend"
+      "ma200": 257.93,
+      "pct": 9.84,
+      "read": "10% above its 200-day average \u2014 long-term uptrend"
     },
     "atr14": {
-      "value": 21.88,
-      "pct_of_price": 7.61,
+      "value": 21.85,
+      "pct_of_price": 7.71,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.5,
-      "read": "Light \u2014 quiet trading"
+      "value": 0.63,
+      "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 56.7,
+      "value": 61.1,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 160.19,
   "high_52w": 360.93,
-  "ma50": 317.71,
-  "ma200": 257.42
+  "ma50": 316.88,
+  "ma200": 257.93
 }

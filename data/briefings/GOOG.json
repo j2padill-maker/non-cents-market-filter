@@ -2,7 +2,7 @@
   "ticker": "GOOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-24T14:18:27.111914-08:00",
+  "generated_at": "2026-11-25T14:56:59.743291-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Microsoft (MSFT) Is One of the Safest Ways to Own AI",
+      "headline": "These 5 Tech Stocks are Sidestepping the AI Downturn",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9aa1af5cde1f80df15defb23a49c78fd10431b8481290fa3e4da10008fa9a1d0",
-      "datetime": 1795554360,
-      "summary": "Microsoft (MSFT) seems to be one of the safest ways to invest in artificial intelligence (AI). The cloud and software giant posted $45.9 billion in operating income in Q1 2027. I believe that gives it considerable room to fund its next stage of growth. CEO Satya Nadella recently remarked, \u201cWe think of Copilot as the new OS for work.\u201d I like that ambition, but I also like the existing business behi"
+      "url": "https://finnhub.io/api/news?id=e4d4b2acba68d2651242e6a6e5e58cbccf7f40dfa9c8aa8afc8e00afdc777ea6",
+      "datetime": 1795641360,
+      "summary": "Apple, Gen Digital, and Take-Two, are just some of the tech stocks bucking the AI selloff."
     },
     {
-      "headline": "Intuit vs. Palo Alto Networks: Which Technology Stock Is a Better Buy for 2027?",
+      "headline": "Anthropic\u2019s Chip Choices Could Change the Nvidia Story. Here\u2019s How.",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=03777831029ca31c6ed286695ceaf38dd7b2a863cdc80524c1f7da432bcf15bb",
-      "datetime": 1795548002,
-      "summary": "Intuit's valuation sits well below Palo Alto's, yet their growth and margin profiles tell very different stories."
+      "url": "https://finnhub.io/api/news?id=8c8a08d0f2cbd872b6c211544867e4baa07b47dcef0577605a7e71d78c45f600",
+      "datetime": 1795639982,
+      "summary": "Anthropic is spreading out its demand for AI accelerators across multiple companies."
     },
     {
-      "headline": "Billionaire David Abrams\u2019 Top 5 Stock Picks for 2027",
+      "headline": "Megadeals Defy Selloff, Head Toward Record",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=12f4afc27513113fd49cd70fe231cf728b05e25bb853d119eb24653895899492",
-      "datetime": 1795547223,
-      "summary": "Billionaire David Abrams has established a reputation on Wall Street as a value-oriented investor who seeks out undervalued businesses with strong fundamentals and long-term earnings potential. Through Abrams Capital Management, he employs a concentrated, fundamentals-driven investment strategy, favoring companies he believes offer attractive long-term value. The investment strategy draws inspirat"
+      "url": "https://finnhub.io/api/news?id=da9a797fee7954547a521aa2ec2dbf3cabc3e245fb9896443c335eb902596f02",
+      "datetime": 1795639749,
+      "summary": "Wall Street is taking a big step toward a record year for mergers and acquisitions as some of the world's largest companies defy a tech-induced selloff in global stocks to pursue major takeovers.\u00a0Bloomberg's Scarlet Fu reports on \"Bloomberg Deals.\""
     },
     {
-      "headline": "Bloom Energy Revenue Jumped 138%. Its Next Growth Phase Could Be Even Bigger",
+      "headline": "SpaceX stock price crashes on concerns over compute demand",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e7ebb8c257270598262f1bfc6c4ef6da28d9c47eb71bbd913055cfeb3ca4b2d7",
-      "datetime": 1795545180,
-      "summary": "Bloom Energy posted a blowout quarter and still watched its stock crater for weeks, then snapped back in a single session. Our model weighs the bull case, the cash flow warning signs, and where the shares head next."
+      "url": "https://finnhub.io/api/news?id=37dc7ebbc91e3296a2278578b5b0084d9b60856569f48c577f60b12b4bbcca24",
+      "datetime": 1795638730,
+      "summary": "SpaceX's stock price is facing mounting pressure amid speculation surrounding a potential Tesla merger, an upcoming share unlock and weakening GPU rental prices. But the most consequential risk may be\u2026"
     },
     {
-      "headline": "Why Dividend Growth ETFs Deserve a Place in Tech-Heavy Portfolios",
+      "headline": "Is the AI Correction Over? Why Ram Ahluwalia Thinks the AI Trade Has Hit Bottom",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=eea748e89ad721ff661b6a6d32bbe9d797bcfad8211a0c954fc6d759d9362950",
-      "datetime": 1795545180,
-      "summary": "Adding dividend growth ETFs can improve diversification, and boost long-term returns."
+      "url": "https://finnhub.io/api/news?id=5a35db4c2c2b0d98cf54c24c9db10c2b40ed56f38ab582f90bf465c45d6017c8",
+      "datetime": 1795636807,
+      "summary": "Austin Campbell, founder of Zero Knowledge Group, says the AI race is no longer a two-player contest. Ram Ahluwalia, CEO of Lumida, argues the AI trade has bottomed and frontier labs can keep charging the highest prices. From Unchained, the no-hype resource for all things crypto."
     },
     {
-      "headline": "ASML Is the Most Important Company You\u2019ve Never Heard Of. Should You Buy the Stock?",
+      "headline": "Why Alphabet Stock Is Down Today",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=95f0bad9e2d014ec45e12db0b614f0d84dd4494f838ed1e28e57890e9d24c2b1",
-      "datetime": 1795544582,
-      "summary": "ASML has one of the most unique advantages in the artificial intelligence market."
+      "url": "https://finnhub.io/api/news?id=7c2ba8001fe5e027f0278058684c71484bd4b88d24dff7dc137038885d37efe0",
+      "datetime": 1795634101,
+      "summary": "It's never cost more to insure Alphabet's debt."
     }
   ],
   "filings": [
@@ -82,63 +82,63 @@
   "script_text": null,
   "audio_cached": false,
   "status": "ok",
-  "data_asof": "2026-11-24",
+  "data_asof": "2026-11-25",
   "price": {
-    "last": 276.58,
-    "open": 278.7,
-    "prev_close": 279.53,
-    "move_day_pct": -1.06,
-    "move_open_close_pct": -0.76,
-    "move_week_pct": -0.37
+    "last": 270.98,
+    "open": 263.25,
+    "prev_close": 276.58,
+    "move_day_pct": -2.02,
+    "move_open_close_pct": 2.94,
+    "move_week_pct": -2.94
   },
   "indicators": {
     "rsi14": {
-      "value": 38.8,
+      "value": 36.1,
       "read": "Oversold"
     },
     "macd": {
-      "macd": -12.024,
-      "signal": -12.639,
-      "hist": 0.616,
-      "hist_prev": 0.228,
-      "read": "Bullish \u2014 MACD above signal, momentum building"
+      "macd": -11.91,
+      "signal": -12.493,
+      "hist": 0.584,
+      "hist_prev": 0.616,
+      "read": "Bullish \u2014 MACD above signal"
     },
     "bollinger_pctb": {
-      "upper": 305.95,
-      "lower": 261.08,
-      "mid": 283.52,
-      "pctb": 0.345,
-      "read": "Mid-band \u2014 no extreme"
+      "upper": 295.61,
+      "lower": 266.33,
+      "mid": 280.97,
+      "pctb": 0.159,
+      "read": "Near the lower band"
     },
     "pct_from_52w_low": {
-      "value": 4.77,
+      "value": 2.64,
       "read": "Sitting right at its 52-week low"
     },
     "pct_from_52w_high": {
-      "value": -30.6,
-      "read": "31% below its 52-week high"
+      "value": -32.01,
+      "read": "32% below its 52-week high"
     },
     "price_vs_ma200": {
-      "ma200": 334.12,
-      "pct": -17.22,
-      "read": "17% below its 200-day average \u2014 long-term downtrend"
+      "ma200": 333.88,
+      "pct": -18.84,
+      "read": "19% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 11.14,
-      "pct_of_price": 4.03,
+      "value": 11.48,
+      "pct_of_price": 4.23,
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 0.91,
+      "value": 1.03,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 41.2,
+      "value": 43.0,
       "read": "Neutral money flow"
     }
   },
   "low_52w": 264.0,
   "high_52w": 398.54,
-  "ma50": 316.65,
-  "ma200": 334.12
+  "ma50": 315.29,
+  "ma200": 333.88
 }
