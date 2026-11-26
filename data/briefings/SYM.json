@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-25T14:56:08.586800-08:00",
+  "generated_at": "2026-11-25T19:16:18.485228-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -85,10 +85,10 @@
   "data_asof": "2026-11-25",
   "price": {
     "last": 38.02,
-    "open": 36.19,
+    "open": 36.17,
     "prev_close": 37.39,
     "move_day_pct": 1.68,
-    "move_open_close_pct": 5.06,
+    "move_open_close_pct": 5.11,
     "move_week_pct": 12.52
   },
   "indicators": {
@@ -124,8 +124,8 @@
       "read": "17% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 2.67,
-      "pct_of_price": 7.03,
+      "value": 2.68,
+      "pct_of_price": 7.04,
       "read": "High daily volatility"
     },
     "rel_volume": {

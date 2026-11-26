@@ -2,7 +2,7 @@
   "ticker": "MDB",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-25T14:55:26.074889-08:00",
+  "generated_at": "2026-11-25T19:16:01.732482-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "MongoDB Remains 'Database Provider of Choice' for GenAI Apps, RBC Says",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=00e5dd8077fb4782bde2a49e99c2a8e8263e2fb26c733fc96b0c9f14a24a0cf0",
+      "datetime": 1795621711,
+      "summary": "MongoDB (MDB) continues to be the \"database provider of choice\" for developing applications based on"
+    },
+    {
+      "headline": "Autodesk Q3 Earnings Beat on Strong Renewals, Revenues Rise Y/Y",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c65e52763c6a7cbfb2f21a06370fc4e1d1d40f683206b26a0f1d77be841446ef",
+      "datetime": 1795621080,
+      "summary": "ADSK beats Q3 earnings and revenue estimates on strong renewals, construction momentum and operating leverage, while raising its fiscal 2027 outlook."
+    },
+    {
+      "headline": "Wall Street's Insights Into Key Metrics Ahead of MongoDB (MDB) Q3 Earnings",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=eb2fbd450b46ca1100b743135701bd0ce061a370401f5d39076b39c626f59663",
+      "datetime": 1795612503,
+      "summary": "Beyond analysts' top-and-bottom-line estimates for MongoDB (MDB), evaluate projections for some of its key metrics to gain a better insight into how the business might have performed for the quarter ended October 2026."
+    },
     {
       "headline": "MongoDB (MDB) Declines More Than Market: Some Information for Investors",
       "source": "Yahoo",
@@ -36,27 +57,6 @@
       "url": "https://finnhub.io/api/news?id=2c1fbfe7d6639ac9919e58f2d93b8d968e2995b769551c53b69a2f02893ef573",
       "datetime": 1795536000,
       "summary": "HOUSTON, November 24, 2026--Opvizor, a division of Codenotary Inc., today announced the launch of dbfrog, an AI-powered database monitoring and optimization platform for Microsoft SQL Server, MongoDB, MySQL, PostgreSQL and Redis."
-    },
-    {
-      "headline": "Citigroup Maintains Buy on MongoDB, Lowers Price Target to $525",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=87d6279df3efb8b8efb126765eafd8b26d6e822ca5b325ac3860cb23f09dc4f9",
-      "datetime": 1795529142,
-      "summary": "Citigroup  analyst Tyler Radke   maintains MongoDB (NASDAQ:MDB) with a Buy and lowers the price target from $565 to $525."
-    },
-    {
-      "headline": "Snowflake Has Slumped Ahead of Its Dec. 2 Report: Why TD Cowen Sees 66% Upside",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5c14d124f667d84104d5bbf52ac5859c6d821394ccba2f375045cbfeb255fa6f",
-      "datetime": 1795524888,
-      "summary": "Key TakeawaysTD Cowen reiterated its Buy rating and $450 price target on Snowflake, 66% above the stock\u2019s Nov. 23 close of $271."
-    },
-    {
-      "headline": "Meta Platforms: Funding Uncertainty Is Burying The Muse Option (Rating Upgrade)",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=53f1fe519dd4804d6be361fd7644715defd6d864cd5d1cb5da5d19f82666dd77",
-      "datetime": 1795511475,
-      "summary": "Analyst upgrades Meta Platforms, Inc. to Buy from Hold with a $658 target, citing 14% Q3 ad-price growth versus 10% impression growth and AI pricing power."
     }
   ],
   "filings": [

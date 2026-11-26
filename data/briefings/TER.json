@@ -2,7 +2,7 @@
   "ticker": "TER",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-25T14:56:11.888670-08:00",
+  "generated_at": "2026-11-25T19:16:20.664778-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -85,10 +85,10 @@
   "data_asof": "2026-11-25",
   "price": {
     "last": 212.15,
-    "open": 198.4,
+    "open": 199.01,
     "prev_close": 213.22,
     "move_day_pct": -0.5,
-    "move_open_close_pct": 6.93,
+    "move_open_close_pct": 6.6,
     "move_week_pct": -9.75
   },
   "indicators": {

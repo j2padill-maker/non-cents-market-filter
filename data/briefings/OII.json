@@ -2,7 +2,7 @@
   "ticker": "OII",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-25T14:56:22.637707-08:00",
+  "generated_at": "2026-11-25T19:16:23.661224-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "CLB Stock Nearly Halves YTD: Buying Opportunity or Value Trap?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=47c78a8b4ff76cd97bb0453a7b959b940659346b509b935044ee131069e4b26e",
+      "datetime": 1795625220,
+      "summary": "Core Laboratories shares drop 50.2% YTD. Can a 2027 upstream recovery offset geopolitical disruptions, weak cash flow and margin pressure?"
+    },
     {
       "headline": "Oceaneering International (OII) Down 9.1% Since Last Earnings Report: Can It Rebound?",
       "source": "Yahoo",

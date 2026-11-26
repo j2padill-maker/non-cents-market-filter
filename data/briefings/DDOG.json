@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-25T14:55:45.877560-08:00",
+  "generated_at": "2026-11-25T19:16:07.978295-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -129,7 +129,7 @@
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.28,
+      "value": 1.29,
       "read": "Roughly average volume"
     },
     "mfi14": {

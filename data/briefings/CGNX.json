@@ -2,7 +2,7 @@
   "ticker": "CGNX",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-25T14:56:00.356387-08:00",
+  "generated_at": "2026-11-25T19:16:14.465198-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -85,10 +85,10 @@
   "data_asof": "2026-11-25",
   "price": {
     "last": 46.91,
-    "open": 44.5,
+    "open": 44.55,
     "prev_close": 46.48,
     "move_day_pct": 0.93,
-    "move_open_close_pct": 5.42,
+    "move_open_close_pct": 5.3,
     "move_week_pct": -4.34
   },
   "indicators": {

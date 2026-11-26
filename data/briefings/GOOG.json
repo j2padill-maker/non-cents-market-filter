@@ -2,7 +2,7 @@
   "ticker": "GOOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-25T14:56:59.743291-08:00",
+  "generated_at": "2026-11-25T19:16:35.531354-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "Apple Stock Defies AI Selloff: Is It the Market's Safe Haven?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8b493a0aabf1e7a97892b2891e9cfeccb44d087bf39cb88af27632f46e461646",
+      "datetime": 1795654800,
+      "summary": "Apple stock is up 30.61% in 2026 while Nvidia falls 21.35%. See how low AI capex and a Gemini deal shaped the gap."
+    },
+    {
+      "headline": "5 Best Strong Buy Growth Stocks to Buy for 2027",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f80a409f77ebfeca0eea15bfc9771d4508ae1544fa5233f50fe5ec2d616252c0",
+      "datetime": 1795653970,
+      "summary": "Markets have spent November punishing growth, but Wall Street analysts haven\u2019t lost their nerve. That gap between falling prices and steady conviction is where next year\u2019s leaders are often found. By November 19, the wider market had slipped about 8.5% from its 52-week high, and chip stocks took the hardest hit, with the semiconductor sector [\u2026]"
+    },
+    {
+      "headline": "SpaceX wins approval to launch one million AI data centre satellites",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=50f3014ec0c0b6641eec1db93964e051f97afa0ddad0c12ef0cf4f72265db4d9",
+      "datetime": 1795652820,
+      "summary": "SpaceX Corp (NASDAQ:SPCX) has secured approval from the US Federal Communications Commission (FCC) to launch up to one million artificial intelligence (AI) data centre satellites, marking a major regulatory breakthrough for Elon Musk\u2019s ambitions to take advanced computing into space. FCC chair..."
+    },
+    {
+      "headline": "Bill Gurley: Investors Weren\u2019t \u201cScrambling to Actually Own Anthropic.\u201d That\u2019s a Problem for Amazon and Alphabet",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ccb83e0bd6299a160bd26c2c7dab41080b62eb966bf96d125c76f3e43f010e28",
+      "datetime": 1795650186,
+      "summary": "Key TakeawaysAnthropic fell below its $83 IPO price on Tuesday, its fourth day of trading. Bill Gurley says few of the IPO\u2019s buyers planned to hold the stock."
+    },
+    {
+      "headline": "Trump Has A Message for Big Tech Firms Like Amazon, Google and Microsoft Building Data Centers Abroad: \u2018We\u2019re Going to Put A Tremendous Tax On Them\u2019",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=195e3e45f2885f755c5d6f09edc3485c0c9e2872ce5260249ee876020113cfa8",
+      "datetime": 1795645805,
+      "summary": "President Donald Trump is threatening steep tax penalties on U.S. technology companies that build data centers overseas, signaling a push to keep more AI infrastructure investment within American borders. Trump Threatens Taxes On Overseas Data Centers On Friday, speaking at..."
+    },
+    {
       "headline": "These 5 Tech Stocks are Sidestepping the AI Downturn",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=e4d4b2acba68d2651242e6a6e5e58cbccf7f40dfa9c8aa8afc8e00afdc777ea6",
       "datetime": 1795641360,
       "summary": "Apple, Gen Digital, and Take-Two, are just some of the tech stocks bucking the AI selloff."
-    },
-    {
-      "headline": "Anthropic\u2019s Chip Choices Could Change the Nvidia Story. Here\u2019s How.",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8c8a08d0f2cbd872b6c211544867e4baa07b47dcef0577605a7e71d78c45f600",
-      "datetime": 1795639982,
-      "summary": "Anthropic is spreading out its demand for AI accelerators across multiple companies."
-    },
-    {
-      "headline": "Megadeals Defy Selloff, Head Toward Record",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=da9a797fee7954547a521aa2ec2dbf3cabc3e245fb9896443c335eb902596f02",
-      "datetime": 1795639749,
-      "summary": "Wall Street is taking a big step toward a record year for mergers and acquisitions as some of the world's largest companies defy a tech-induced selloff in global stocks to pursue major takeovers.\u00a0Bloomberg's Scarlet Fu reports on \"Bloomberg Deals.\""
-    },
-    {
-      "headline": "SpaceX stock price crashes on concerns over compute demand",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=37dc7ebbc91e3296a2278578b5b0084d9b60856569f48c577f60b12b4bbcca24",
-      "datetime": 1795638730,
-      "summary": "SpaceX's stock price is facing mounting pressure amid speculation surrounding a potential Tesla merger, an upcoming share unlock and weakening GPU rental prices. But the most consequential risk may be\u2026"
-    },
-    {
-      "headline": "Is the AI Correction Over? Why Ram Ahluwalia Thinks the AI Trade Has Hit Bottom",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5a35db4c2c2b0d98cf54c24c9db10c2b40ed56f38ab582f90bf465c45d6017c8",
-      "datetime": 1795636807,
-      "summary": "Austin Campbell, founder of Zero Knowledge Group, says the AI race is no longer a two-player contest. Ram Ahluwalia, CEO of Lumida, argues the AI trade has bottomed and frontier labs can keep charging the highest prices. From Unchained, the no-hype resource for all things crypto."
-    },
-    {
-      "headline": "Why Alphabet Stock Is Down Today",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7c2ba8001fe5e027f0278058684c71484bd4b88d24dff7dc137038885d37efe0",
-      "datetime": 1795634101,
-      "summary": "It's never cost more to insure Alphabet's debt."
     }
   ],
   "filings": [
@@ -85,10 +85,10 @@
   "data_asof": "2026-11-25",
   "price": {
     "last": 270.98,
-    "open": 263.25,
+    "open": 263.32,
     "prev_close": 276.58,
     "move_day_pct": -2.02,
-    "move_open_close_pct": 2.94,
+    "move_open_close_pct": 2.91,
     "move_week_pct": -2.94
   },
   "indicators": {
@@ -129,11 +129,11 @@
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.03,
+      "value": 1.07,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 43.0,
+      "value": 42.9,
       "read": "Neutral money flow"
     }
   },

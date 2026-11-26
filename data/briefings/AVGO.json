@@ -2,7 +2,7 @@
   "ticker": "AVGO",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-25T14:56:30.544989-08:00",
+  "generated_at": "2026-11-25T19:16:27.446041-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "Broadcom Stock Hasn't Traded This Low Since July 2025. I Think It's a Buy.",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=6cadcf9d3c05ee8fb7a66fd6666a88fbea8f25e033ef5f7b932745f9cb58ecdb",
+      "datetime": 1795654982,
+      "summary": "The AI chip designer's stock now prices in very little of next year's planned growth."
+    },
+    {
+      "headline": "5 Best Strong Buy Growth Stocks to Buy for 2027",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f80a409f77ebfeca0eea15bfc9771d4508ae1544fa5233f50fe5ec2d616252c0",
+      "datetime": 1795653970,
+      "summary": "Markets have spent November punishing growth, but Wall Street analysts haven\u2019t lost their nerve. That gap between falling prices and steady conviction is where next year\u2019s leaders are often found. By November 19, the wider market had slipped about 8.5% from its 52-week high, and chip stocks took the hardest hit, with the semiconductor sector [\u2026]"
+    },
+    {
+      "headline": "Analysts Expect More From Marvell Than Marvell Does",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=bf101ed60032eeae2f8fdd1f824e67b2ba8d56ccf743c475b96637ff8a4e02a1",
+      "datetime": 1795645487,
+      "summary": "Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back."
+    },
+    {
+      "headline": "Stock Market Today, Nov. 25: Nvidia Slides 3.9% as the Market Considers Hot PCE Inflation Data and New Tariff Proposals",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=72e75c21b2813dc708c3457641cd96700df11b03fff756375e1c64bfaa9697f4",
+      "datetime": 1795644405,
+      "summary": "Trading ran well above normal as Nvidia fell on hot inflation data and tariff proposals, today, Nov. 25, 2026."
+    },
+    {
       "headline": "Not Micron. Not Broadcom. This Is My Top Oversold Artificial Intelligence (AI) Stock to Buy in December",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=9e9fdcec0d8d8ce7757ec8d3b8a19d598cdd5093796319915bbc49881e3daf7f",
@@ -29,34 +57,6 @@
       "url": "https://finnhub.io/api/news?id=f94f2d4f17fcbdccb5a89a0f1e686d896b408355077966a7dd2751643766fb78",
       "datetime": 1795641212,
       "summary": "Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back."
-    },
-    {
-      "headline": "AI spending leads the biggest market risks heading into 2027",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=360c6719249495ca7847b67198f49304d70b61c49845dc746254dced8ba8161f",
-      "datetime": 1795640862,
-      "summary": "Investing.com -- Of the four major narratives driving market fear currently, AI spending looks the most concerning. Rate hikes are a close second because they amplify it. Tariffs and regulation rank lower. This is a judgment from the coverage below, not a forecast."
-    },
-    {
-      "headline": "What Sent Qualcomm Stock Higher?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3174d5f4d1a555431bfcbb478ec4cb411cb23290d41d8c0957c9a6834654d628",
-      "datetime": 1795638210,
-      "summary": "Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back."
-    },
-    {
-      "headline": "Why Did Nvidia Stock Jump So Much?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6551907c443e424ec02725fdbae8025a45b7e2ab50205d854e05cb7595613b03",
-      "datetime": 1795633623,
-      "summary": "Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back."
-    },
-    {
-      "headline": "TeraWulf\u2019s CEO Says Anthropic Won\u2019t \u201cWalk Away From Deals.\u201d Junk-Rating Talk Tests That",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9f4ff3ad05466d4cc436798518d7a8f947903b275217e77c814039d675f98b10",
-      "datetime": 1795631262,
-      "summary": "Key TakeawaysTeraWulf CEO Paul Prager defended his company\u2019s $19 billion Anthropic lease as Anthropic\u2019s stock fell below its $83 IPO price and bond investors braced for a junk rating. Prager is right about the rent: Alphabet\u2019s Google backstops Anthropic\u2019s lease obligations while Anthropic lacks an investment-grade rating."
     }
   ],
   "filings": [
@@ -85,10 +85,10 @@
   "data_asof": "2026-11-25",
   "price": {
     "last": 300.86,
-    "open": 286.62,
+    "open": 286.98,
     "prev_close": 301.08,
     "move_day_pct": -0.07,
-    "move_open_close_pct": 4.97,
+    "move_open_close_pct": 4.84,
     "move_week_pct": -15.02
   },
   "indicators": {
@@ -129,11 +129,11 @@
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.16,
+      "value": 1.18,
       "read": "Roughly average volume"
     },
     "mfi14": {
-      "value": 48.4,
+      "value": 48.3,
       "read": "Neutral money flow"
     }
   },

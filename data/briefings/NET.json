@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-25T14:55:50.009716-08:00",
+  "generated_at": "2026-11-25T19:16:09.861139-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Cloudflare (NET) Could Be 72% Overvalued As Digital Identity Buzz Builds",
+      "headline": "Bridgewater Sees 1-in-3 Odds of a Destabilizing Cyberattack. CrowdStrike\u2019s Workload Is Already \u201cUp 50%\u201d",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a434e01130bcf0e232586abf32085f0146b43db45cc4d32ebf4e71befc1754f4",
-      "datetime": 1795604911,
-      "summary": "Cloudflare (NET) moved back into focus after Nova Registry and Linkme rolled out a partnership that uses Cloudflare Registrar to power free .link domains, tying the stock to a fresh digital identity theme. Recent trading has cooled after a post earnings rally, with Cloudflare\u2019s 30 day share price return down 11.8% even as the year to date share price return sits at 46.56% and the 3 year total shar"
+      "url": "https://finnhub.io/api/news?id=ff2cf787e6d58880a9f2cb1dbdb7f6cf678861b3679396828b2d4fea6a9a1ca5",
+      "datetime": 1795650020,
+      "summary": "Key TakeawaysBridgewater is managing money on a one-in-three chance of an economically destabilizing cyberattack within a year, and incident-response firms are reportedly out of capacity. CrowdStrike\u2019s record $419 million of net new ARR, up 58%, shows the attack surge turning into subscription revenue."
     },
     {
-      "headline": "Baron Technology ETF Q3 2026 Portfolio Activity",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=75f4e8ca294fedfc71be389f54f320854e98a4556ade22ce1d69f18eec100db8",
-      "datetime": 1795601520,
-      "summary": "During the third quarter, Baron Technology ETF declined 4.50% (NAV). The Fund underperformed the NDX for the quarter."
+      "headline": "Amdocs (DOX) Stock Is Up 4.6% Today Without Company News",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=0f10daf10baba866b3663886d183c8a8771e4cd495d343650c3d5a1c7c22a39e",
+      "datetime": 1795630513,
+      "summary": "Amdocs shares rose 4.6% on Wednesday, Nov. 25, without company-specific news, while the S&P 500 and software stocks fell."
     },
     {
-      "headline": "Dropbox (DBX) Stock Is Up 5.8% Today Without Company News",
+      "headline": "Satya Nadella Says \u201cthe Floor of Cyber Attacks Has Fallen.\u201d Microsoft Just Declared Code Red After a 24-Hour Outage",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=fc8035e845f9ab86fa9ad1c51afc9caeffa8e31485a6eb2a6ac7a0429276347f",
-      "datetime": 1795552252,
-      "summary": "Dropbox shares rose 5.8% on Tuesday, Nov. 24, without company-specific news, while the S&P 500 fell and tech stocks sold off."
+      "url": "https://finnhub.io/api/news?id=eb988cfef575f0e403fa91b362b06adb93fb7da74a2ff8b101c76ffbed901251",
+      "datetime": 1795629816,
+      "summary": "Key TakeawaysMicrosoft declared a code red after a 24-hour outage hit Outlook, Teams and Copilot, and it wants to fix future global problems within an hour. Satya Nadella says AI has made cyberattacks easier and fixes must go live instantly, making reliability an ongoing cost."
     },
     {
-      "headline": "Nutanix (NTNX) Stock Is Down 7.2% Today in Tech Selloff",
+      "headline": "Backblaze (BLZE) Stock Is Down 10.5% Today in AI-Driven Tech Selloff",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=790e7fe898fa0f4d0144300541de67b06fbddbb1d1159c8cb2184592df02c7d3",
-      "datetime": 1795552219,
-      "summary": "Nutanix shares fell 7.2% on Tuesday, Nov. 24, as a broad technology selloff deepened, with no company-specific news."
+      "url": "https://finnhub.io/api/news?id=ddf933347759a271a8afc73969be73ebc5035decb7499f7f3dac2b2076a479ff",
+      "datetime": 1795624221,
+      "summary": "On Wednesday, Nov. 25, Backblaze shares fell 10.5% as a tech selloff hit cloud and software stocks, without company-specific news."
     },
     {
-      "headline": "Nova Registry and Linkme give every Linkme user a free .link domain",
+      "headline": "Should Analyst Top Pick Require Action From Cloudflare Stock Investors?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6deaef59316c878f077e23c6c0a47961cd973e1d6511d8d3b3a28d4be99bab87",
-      "datetime": 1795530600,
-      "summary": "Strategic partnership brings together the .link top-level domain, Link.me\u2019s digital identity platform and Cloudflare\u2019s Registrar to remove friction and put digital identity within everyone\u2019s reach.BIRKIRKARA, Malta, Nov. 24, 2026 (GLOBE NEWSWIRE) -- Nova Registry, the operator of the .link top-level domain, and Linkme today announced a strategic partnership with a shared ambition: making digital i"
+      "url": "https://finnhub.io/api/news?id=66e5cdbcf4fcc9e6f1a692ced7b854996614240cbb4d6c5875c2f1d255507c5c",
+      "datetime": 1795615999,
+      "summary": "Cloudflare has recently been highlighted for its role in cloud, AI and cybersecurity infrastructure, with attention on its expanding solutions portfolio, subscription-based model and position in enterprise security and networking workloads. Sector reaction to a large cybersecurity acquisition and the use of Cloudflare Registrar in the Nova Registry and Linkme partnership both point to rising inter"
     },
     {
-      "headline": "Cloudflare Just Dropped 11% in a Month Despite \u201cAn Even Higher Gear.\u201d Is It Time to Sell, or Load Up?",
+      "headline": "Cloudflare (NET) Stock Trades Rich Against Its Sales Base",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ef151881977c2671a20cd0b1e61adca849a17060d8dd1fad7d946f713b8a2d1d",
-      "datetime": 1795500018,
-      "summary": "Key TakeawaysCloudflare stock is down 11% in the past month. An AI and software selloff that also hit Datadog and CrowdStrike pulled it lower, even though Cloudflare just posted its fastest revenue growth in nearly four years."
+      "url": "https://finnhub.io/api/news?id=014672966142876f1924a005a196e6e0b7a883e9f184b0eecb0aa5ac6e1e5171",
+      "datetime": 1795612059,
+      "summary": "Cloudflare has ridden a powerful multi\u2011year share price run, helped most recently by renewed interest in cybersecurity plays. That puts a spotlight on what investors are really paying for in terms of its sales today. With the stock now framed by sector deal activity and strong longer term returns, the live question is how closely its market value lines up with the revenue the business generates. O"
     }
   ],
   "filings": [

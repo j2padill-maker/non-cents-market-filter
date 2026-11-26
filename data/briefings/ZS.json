@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-25T14:56:26.488633-08:00",
+  "generated_at": "2026-11-25T19:16:25.486083-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "Bridgewater Sees 1-in-3 Odds of a Destabilizing Cyberattack. CrowdStrike\u2019s Workload Is Already \u201cUp 50%\u201d",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=ff2cf787e6d58880a9f2cb1dbdb7f6cf678861b3679396828b2d4fea6a9a1ca5",
+      "datetime": 1795650020,
+      "summary": "Key TakeawaysBridgewater is managing money on a one-in-three chance of an economically destabilizing cyberattack within a year, and incident-response firms are reportedly out of capacity. CrowdStrike\u2019s record $419 million of net new ARR, up 58%, shows the attack surge turning into subscription revenue."
+    },
+    {
+      "headline": "Roaring Kitty Redux",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=59c20baf202993d6ae85288de7231485629ce73d9f3c26eb85a2147d8a5fd601",
+      "datetime": 1795648260,
+      "summary": "Keith Gill\u2019s return to social media with a videogame-inspired post coincided with the release of \u201cGrand Theft Auto VI.\u201d"
+    },
+    {
+      "headline": "Megadeals Defy Selloff, Head Toward Record",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=da9a797fee7954547a521aa2ec2dbf3cabc3e245fb9896443c335eb902596f02",
+      "datetime": 1795639749,
+      "summary": "Wall Street is taking a big step toward a record year for mergers and acquisitions as some of the world's largest companies defy a tech-induced selloff in global stocks to pursue major takeovers.\u00a0Bloomberg's Scarlet Fu reports on \"Bloomberg Deals.\""
+    },
+    {
+      "headline": "Volume Screen Finds IBD Growth Stock Winners In Real Time",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=59e2615fd6c8a79e1b3f88ecf5d6caa0593f68e2fcc689400ea3b81f7c1021f4",
+      "datetime": 1795631926,
+      "summary": "Stock market winners rising in heavy volume can be found every day in Stocks on the Move on the homepage of Investors.com."
+    },
+    {
+      "headline": "CrowdStrike Is Priced Like The Zscaler Deal Has Already Paid Off",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=dcbe2e5c557a558542817aea0819cf40fd968bda168e216b7ae11ccc3d20ae0d",
+      "datetime": 1795628222,
+      "summary": "CrowdStrike Holdings, Inc. is rated a Hold, as $211 shares exceed $155 standalone fair value, while the proposed Zscaler deal raises it to $190."
+    },
+    {
       "headline": "CrowdStrike: Ticking The Top With Zscaler Deal",
       "source": "SeekingAlpha",
       "url": "https://finnhub.io/api/news?id=8fd03032c9b813191c5dc4a950628da80152f2c816f06ef7b613f09aaa802311",
       "datetime": 1795625058,
       "summary": "CrowdStrike Holdings $44 billion deal to acquire Zscaler highlights platformization\u00e2\u0080\u0099s limits in cybersecurity. CRWD stock and Zscaler expect $1 billion in revenue synergies."
-    },
-    {
-      "headline": "Cybersecurity Stocks\u2019 Sharp Rebound Faces Earnings Test as Rich Valuations Hang in the Balance",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=5341abcca127c61a4fb6accf7591b71f117def8499886c7f88b129e479168b85",
-      "datetime": 1795613756,
-      "summary": "Cybersecurity stocks rebounded sharply, but high valuations now face a key earnings test as PANW, CRWD, ZS and OKTA report."
-    },
-    {
-      "headline": "Amazon, Quest Diagnostics, United Therapeutics and a Tech Stock: CNBC\u2019s \u2018Final Trades\u2019",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=535250408c6fe31165aac2082612c0c5f16ea371ffe53a829d5f839d6b4f7eca",
-      "datetime": 1795599280,
-      "summary": "CNBC Final Trades feature CrowdStrike, Amazon, Quest Diagnostics and United Therapeutics; shares moved on deal news, earnings and analyst support."
-    },
-    {
-      "headline": "Shots Fired: Zscaler CEO Says a Rival Platform\u2019s Only Benefit Was \u201can Integrated Invoice.\u201d That\u2019s a Problem for Palo Alto",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ed9b42db41b7dc41fba3b905814e7ddb05d52fbe7066efbe541af677c04ce102",
-      "datetime": 1795595828,
-      "summary": "Key TakeawaysCrowdStrike is buying Zscaler for $43. 9 billion in stock, and on the deal call Zscaler CEO Jay Chaudhry described a firewall vendor\u2019s platform whose only benefit was an integrated invoice."
-    },
-    {
-      "headline": "CrowdStrike: An Interesting And Large Tie-Up With Zscaler",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=6e45c459c44f2d49882206637a6d7ff1a0b095b2a0cafe7f2acb71b499ec44b9",
-      "datetime": 1795586906,
-      "summary": "The bear case on CrowdStrike: its $250 billion enterprise value versus $10 billion in ARR makes the 10% post-deal drop no buying opportunity."
-    },
-    {
-      "headline": "November 2026 Growth Stocks With Strong Earnings Potential",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=245148f9fba66482eb814612936e7b24fe578eda4ab961a262f791416b121d6d",
-      "datetime": 1795583636,
-      "summary": "Fresh US tariffs on China and other major trading partners put global supply chains back under the microscope, which often rewards companies with strong balance sheets and clear earnings power. Investors who focus on financially sound businesses with solid growth potential can avoid scrambling after the fact. This article walks through three stocks from a high quality growth screener that aims to "
     }
   ],
   "filings": [

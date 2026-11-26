@@ -2,7 +2,7 @@
   "ticker": "CAT",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-25T14:56:50.986779-08:00",
+  "generated_at": "2026-11-25T19:16:33.239018-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -124,7 +124,7 @@
       "read": "32% below its 200-day average \u2014 long-term downtrend"
     },
     "atr14": {
-      "value": 29.8,
+      "value": 29.81,
       "pct_of_price": 5.48,
       "read": "High daily volatility"
     },

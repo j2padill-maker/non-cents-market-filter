@@ -2,7 +2,7 @@
   "ticker": "TOELF",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-25T14:55:43.191426-08:00",
+  "generated_at": "2026-11-25T19:16:06.683003-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,27 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Why My Analysis Points to Nearly 40% Semiconductor Equipment Growth in 2026",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=cbceb7bfd2044fb8f9b9467e94ec406ac3809ae5adea69e0704de2073eae16ea",
+      "datetime": 1795650154,
+      "summary": "My bottom-up analysis of five leading semiconductor equipment manufacturers points to combined equipment revenue growth approaching 40% in 2026. The forecast incorporates actual revenue growth through the first three quarters and equipment revenue estimates derived from the latest management guidance. Three of the five manufacturers require less than 10% sequential equipment revenue growth in the "
+    },
+    {
+      "headline": "Forget ASML: Tokyo Electron Has More China Sales at Stake in the MATCH Act",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e2f94197b14567fca16cad6582fa9cfe4a8735adb671729fab734a5305b4e689",
+      "datetime": 1795631202,
+      "summary": "Key TakeawaysASML shares fell 5% today after Dutch lawmakers pushed back on the MATCH Act, a US bill that would press the Netherlands and Japan to match US chip-equipment curbs on China. China made up 34."
+    },
+    {
+      "headline": "SoftBank Group Stocks Crash 14.83% as AI Selloff Hits OpenAI Backer",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f8dcc7d48ac9ead2e365a3247433dcc5e2283cab1dc0a625b27cfcb709893e60",
+      "datetime": 1795628665,
+      "summary": "SoftBank's market value now barely exceeds the $99.6 billion fair value of its OpenAI stake."
+    },
     {
       "headline": "SoftBank Shares Drop 10% as Samsung and SK Hynix Fall Over 7% in AI Sell Off",
       "source": "Yahoo",
@@ -36,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=eb9b2d4859a9e685b16b9ead3374df3a6c2097b58c66488b6276ea4f17a69a30",
       "datetime": 1795146068,
       "summary": "The Nikkei 225 fell 4.5% in Friday's morning session and SoftBank plunged 15% as Wall Street's AI selloff reached Asia. Taiwan lost 10% in two sessions. Here is what fell most, why, and what it means for U.S. holders of Asia funds."
-    },
-    {
-      "headline": "Is This Still an \"AI\" Driven Market?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8af510021c43e07bdd64ffb8eab7a9e8bbfc231bfb76901fbc5e9bb984e260cb",
-      "datetime": 1795123980,
-      "summary": "Events & Underlying Fundamentals Send a Mixed Message."
     }
   ],
   "filings": [],
