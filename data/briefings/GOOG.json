@@ -2,7 +2,7 @@
   "ticker": "GOOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-25T19:16:35.531354-08:00",
+  "generated_at": "2026-11-26T16:48:42.776467-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Apple Stock Defies AI Selloff: Is It the Market's Safe Haven?",
+      "headline": "Jim Lebenthal Says This Is \u201ca Correction, Not Something Worse.\u201d Why He\u2019s Buying More Alphabet",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=8b493a0aabf1e7a97892b2891e9cfeccb44d087bf39cb88af27632f46e461646",
-      "datetime": 1795654800,
-      "summary": "Apple stock is up 30.61% in 2026 while Nvidia falls 21.35%. See how low AI capex and a Gemini deal shaped the gap."
+      "url": "https://finnhub.io/api/news?id=cf8415427f321c22becf7ce542f6e537f7aed420bc85c95c2ceffd1485506a28",
+      "datetime": 1795730875,
+      "summary": "Jim Lebenthal sees a dip and keeps buying, betting on a handful of businesses firing at once. The filings back much of his case, but one number in Alphabet's latest quarter could decide whether his optimism holds."
     },
     {
-      "headline": "5 Best Strong Buy Growth Stocks to Buy for 2027",
+      "headline": "Jensen Huang\u2019s Return Doesn\u2019t Make Nvidia Stock (NVDA) a Buy",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f80a409f77ebfeca0eea15bfc9771d4508ae1544fa5233f50fe5ec2d616252c0",
-      "datetime": 1795653970,
-      "summary": "Markets have spent November punishing growth, but Wall Street analysts haven\u2019t lost their nerve. That gap between falling prices and steady conviction is where next year\u2019s leaders are often found. By November 19, the wider market had slipped about 8.5% from its 52-week high, and chip stocks took the hardest hit, with the semiconductor sector [\u2026]"
+      "url": "https://finnhub.io/api/news?id=b0ac8bb3dace73cd41b4bef182a77951706cdc8225f5b141c4ff618953132724",
+      "datetime": 1795728120,
+      "summary": "Jensen Huang\u2019s return as CEO doesn\u2019t make Nvidia (NVDA) stock a Buy, despite the market\u2019s positive reaction. Shares of the leading semiconductor manufacturer jumped roughly 31.5% on November 23 after Nvidia\u2019s board unanimously reinstated Huang with immediate effect. Yet the stock remains down roughly 31% over the past month following a steep sell-off. Although Nvidia enjoys a long runway for growt"
     },
     {
-      "headline": "SpaceX wins approval to launch one million AI data centre satellites",
+      "headline": "Broadcom Stocks Edge Lower After Rebounding From an Intraday Low of $278",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=50f3014ec0c0b6641eec1db93964e051f97afa0ddad0c12ef0cf4f72265db4d9",
-      "datetime": 1795652820,
-      "summary": "SpaceX Corp (NASDAQ:SPCX) has secured approval from the US Federal Communications Commission (FCC) to launch up to one million artificial intelligence (AI) data centre satellites, marking a major regulatory breakthrough for Elon Musk\u2019s ambitions to take advanced computing into space. FCC chair..."
+      "url": "https://finnhub.io/api/news?id=20293754165b732c4daa2b3fd0e28d7a92e12843ae62234831a59d659a3da32f",
+      "datetime": 1795717841,
+      "summary": "Shares erased a 7.7% intraday slide to their lowest level since July 2025 as Google and Anthropic exposure stays in focus."
     },
     {
-      "headline": "Bill Gurley: Investors Weren\u2019t \u201cScrambling to Actually Own Anthropic.\u201d That\u2019s a Problem for Amazon and Alphabet",
+      "headline": "Alphabet Stocks Slip 2.13% as Credit Swaps Hit Record Amid $9.1 Billion Cash Burn",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ccb83e0bd6299a160bd26c2c7dab41080b62eb966bf96d125c76f3e43f010e28",
-      "datetime": 1795650186,
-      "summary": "Key TakeawaysAnthropic fell below its $83 IPO price on Tuesday, its fourth day of trading. Bill Gurley says few of the IPO\u2019s buyers planned to hold the stock."
+      "url": "https://finnhub.io/api/news?id=ae9e88ef1e837fac6a58973cd527b3b26ddb55424cb9fd5cbcd7dce5990d0ae3",
+      "datetime": 1795717561,
+      "summary": "Five-year default swaps reached a record as third-quarter capex of $51.4 billion pushed free cash flow below zero."
     },
     {
-      "headline": "Trump Has A Message for Big Tech Firms Like Amazon, Google and Microsoft Building Data Centers Abroad: \u2018We\u2019re Going to Put A Tremendous Tax On Them\u2019",
+      "headline": "George Soros and 64 Other Big Funds Bought Meta Last Quarter. David Tepper and 33 Others Sold. Who\u2019s Right?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=195e3e45f2885f755c5d6f09edc3485c0c9e2872ce5260249ee876020113cfa8",
-      "datetime": 1795645805,
-      "summary": "President Donald Trump is threatening steep tax penalties on U.S. technology companies that build data centers overseas, signaling a push to keep more AI infrastructure investment within American borders. Trump Threatens Taxes On Overseas Data Centers On Friday, speaking at..."
+      "url": "https://finnhub.io/api/news?id=48fd7128b41611d3fe45f172b0f78398950cd83d69902c7a23304639355b954a",
+      "datetime": 1795716599,
+      "summary": "Key TakeawaysOf the 460 big funds that have filed 13Fs for the quarter ended Sept. 30, 65 bought Meta and 34 sold, while 178 held it at the quarter\u2019s end."
     },
     {
-      "headline": "These 5 Tech Stocks are Sidestepping the AI Downturn",
+      "headline": "Alphabet Could Be the Safest Way to Own Anthropic. Here\u2019s the Math.",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e4d4b2acba68d2651242e6a6e5e58cbccf7f40dfa9c8aa8afc8e00afdc777ea6",
-      "datetime": 1795641360,
-      "summary": "Apple, Gen Digital, and Take-Two, are just some of the tech stocks bucking the AI selloff."
+      "url": "https://finnhub.io/api/news?id=933686949bd26892b9dfaf34b94d6cbd056000419b49f64cfe45d4232220786b",
+      "datetime": 1795715222,
+      "summary": "Alphabet owns a piece of Anthropic and also gets paid to supply its computing power, which is a nice way to be on both sides of the AI boom."
     }
   ],
   "filings": [

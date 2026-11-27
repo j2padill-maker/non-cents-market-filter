@@ -2,7 +2,7 @@
   "ticker": "DDOG",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-25T19:16:07.978295-08:00",
+  "generated_at": "2026-11-26T16:48:26.279382-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "S&P 500 Top Movers: November 25, 2026 Gainers and Losers",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=fe6f2039495fc19de83cc5c1cec19294613db47628c53b7b3f8b50b2b64c502a",
+      "datetime": 1795637153,
+      "summary": "S&P 500 top movers for November 25, 2026: HPQ led gainers at 10.79%, while LRCX led decliners at -7.31%. See the session's strongest and weakest constituents."
+    },
+    {
+      "headline": "S&P 500 Top Movers: Gainers and Losers From Today's US Session",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=1c54c0a0fcdacb7ba8f3ff0ccc118e7dca58e389afb5f87829023840aad41fe9",
+      "datetime": 1795628164,
+      "summary": "HPQ leads S&P 500 gainers at 11.02% and SNDK leads losers at 10.23% in today's US session top movers list."
+    },
     {
       "headline": "Why Datadog (DDOG) Stock Is Down Today: Software Selloff on AI Fears",
       "source": "Yahoo",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=e6d66ff9460d0bf5dab55aa1f7ecc23b1f7e6cf4f99c5974b61b4de3085abcce",
       "datetime": 1795504350,
       "summary": "Investing.com and Yahoo Finance LLC may earn commission or revenue on some items through the links below."
-    },
-    {
-      "headline": "Cloudflare Just Dropped 11% in a Month Despite \u201cAn Even Higher Gear.\u201d Is It Time to Sell, or Load Up?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ef151881977c2671a20cd0b1e61adca849a17060d8dd1fad7d946f713b8a2d1d",
-      "datetime": 1795500018,
-      "summary": "Key TakeawaysCloudflare stock is down 11% in the past month. An AI and software selloff that also hit Datadog and CrowdStrike pulled it lower, even though Cloudflare just posted its fastest revenue growth in nearly four years."
-    },
-    {
-      "headline": "Did The Market Read Datadog Stock Right?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=89fbd416b864691026d32ff33b17aba49290f2ff9cd27b7e88088c8e65a1b3f6",
-      "datetime": 1795463809,
-      "summary": "Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92."
     }
   ],
   "filings": [

@@ -2,7 +2,7 @@
   "ticker": "SYM",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-25T19:16:18.485228-08:00",
+  "generated_at": "2026-11-26T16:48:32.747545-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -22,6 +22,13 @@
       "url": "https://finnhub.io/api/news?id=d5eddc958310af3982fd3a534a75993d60ab6a32b772d15c92ea8b53fb35d590",
       "datetime": 1795618389,
       "summary": "The analyst rates Symbotic Inc. a Strong Buy with a $78 target, citing nearly $7 billion in added Walmart backlog and a 25% gross margin goal for FY2028."
+    },
+    {
+      "headline": "Keybanc Maintains Overweight on Symbotic, Lowers Price Target to $58",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=6bfdcab05520548e526f90dc7c3c3cb2f59f14edc678fdb04ddaf10fc16a2361",
+      "datetime": 1795606254,
+      "summary": "Keybanc  analyst Ken Newman   maintains Symbotic (NASDAQ:SYM) with a Overweight and lowers the price target from $70 to $58."
     },
     {
       "headline": "Symbotic: 3 Key Takeaways for Long-Term Investors",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=a0053837c5c75168bf22bd1f1713c05b31e4a575e5a9e3a1646ad60ee595e055",
       "datetime": 1795536780,
       "summary": "SYM's expanded Walmart deal is set to add nearly $7B to backlog as the company outlines fiscal 2027 revenue timing and in-store automation plans."
-    },
-    {
-      "headline": "Symbotic (SYM) Q4 2026 Earnings Call Transcript",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d39431a39d7c90df26ecf6e3f93021d40bb5d61825af12b8a995de4832a26585",
-      "datetime": 1795533298,
-      "summary": "Management outlined fiscal 2027 timing and plans for new international markets."
     }
   ],
   "filings": [

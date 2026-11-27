@@ -2,7 +2,7 @@
   "ticker": "NET",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-25T19:16:09.861139-08:00",
+  "generated_at": "2026-11-26T16:48:27.433314-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,13 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Capital Group Growth ETF (CGGR) Adds Rubrik and Rocket on Nov. 24",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=c2bcff35ca505d54466ef0a6aff559c5d0c88b88008ad2e4af2c695a2be45e61",
+      "datetime": 1795691054,
+      "summary": "The fund bought $43.4 million of Rubrik and $17.4 million of Rocket Cos. while selling $123.2 million of Nvidia."
+    },
     {
       "headline": "Bridgewater Sees 1-in-3 Odds of a Destabilizing Cyberattack. CrowdStrike\u2019s Workload Is Already \u201cUp 50%\u201d",
       "source": "Yahoo",
@@ -50,13 +57,6 @@
       "url": "https://finnhub.io/api/news?id=66e5cdbcf4fcc9e6f1a692ced7b854996614240cbb4d6c5875c2f1d255507c5c",
       "datetime": 1795615999,
       "summary": "Cloudflare has recently been highlighted for its role in cloud, AI and cybersecurity infrastructure, with attention on its expanding solutions portfolio, subscription-based model and position in enterprise security and networking workloads. Sector reaction to a large cybersecurity acquisition and the use of Cloudflare Registrar in the Nova Registry and Linkme partnership both point to rising inter"
-    },
-    {
-      "headline": "Cloudflare (NET) Stock Trades Rich Against Its Sales Base",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=014672966142876f1924a005a196e6e0b7a883e9f184b0eecb0aa5ac6e1e5171",
-      "datetime": 1795612059,
-      "summary": "Cloudflare has ridden a powerful multi\u2011year share price run, helped most recently by renewed interest in cybersecurity plays. That puts a spotlight on what investors are really paying for in terms of its sales today. With the stock now framed by sector deal activity and strong longer term returns, the live question is how closely its market value lines up with the revenue the business generates. O"
     }
   ],
   "filings": [

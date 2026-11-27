@@ -2,7 +2,7 @@
   "ticker": "ZS",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-25T19:16:25.486083-08:00",
+  "generated_at": "2026-11-26T16:48:36.912512-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,6 +17,34 @@
   ],
   "news": [
     {
+      "headline": "Was CrowdStrike\u2019s $43.9 Billion Bid for Zscaler the Right Move at the Wrong Time?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=639b0e28551c03cfbc4e71608d82f957846bcc2cfcbb0792b2e3fa4697147251",
+      "datetime": 1795712431,
+      "summary": "CrowdStrike just posted its best quarter ever, then paid a fortune in stock for a rival whose own guidance vanished. Investors now face a year of waiting to learn whether strength or ambition sets the price."
+    },
+    {
+      "headline": "Own Palo Alto Stock? Watch Its Deferred Revenue",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=0746232813c9963ce39c216b822286bc0a125e61c2ecdcdb337b9169c689fb18",
+      "datetime": 1795691719,
+      "summary": "Palo Alto Networks closed at $356.14 on Wednesday, Nov 25, up 0.9%. The SPDR S&P 500 ETF fell 0.3% the same day. On Nov 18, after the market closed, the company reported results. It also said it plans to buy Applied Compute for $4.5 billion, paid in stock. The stock jumped 6.4% the next day. This article looks past the price, at the company's own cash and contracts."
+    },
+    {
+      "headline": "Truist Sees 52% Upside in Zscaler, and the Reason Has Nothing to Do With Zscaler\u2019s Valuation",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=eebb2733e0a29982ec57b1692d46bcb1b6f8b75e99dc54e2e0186571e59030a9",
+      "datetime": 1795684827,
+      "summary": "Key TakeawaysTruist kept its Buy rating on Zscaler and raised its price target to $340 from $250, 52% above Wednesday\u2019s close. The $340 matches Truist\u2019s $300 CrowdStrike target times 1."
+    },
+    {
+      "headline": "CrowdStrike Sinks 12% in a Week on Its $43.9 Billion Zscaler Deal: Kurtz Says They \u201cOnly Overlap in 2,000 Accounts\u201d",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=025113abda1b7b2958960cae8f9a2132d8ad09486f62b65296e7a27d68310b85",
+      "datetime": 1795681782,
+      "summary": "Key TakeawaysCrowdStrike shares fell nearly 12% in the past week, mostly on its $43. 9 billion all-stock deal for Zscaler, announced Nov."
+    },
+    {
       "headline": "Bridgewater Sees 1-in-3 Odds of a Destabilizing Cyberattack. CrowdStrike\u2019s Workload Is Already \u201cUp 50%\u201d",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=ff2cf787e6d58880a9f2cb1dbdb7f6cf678861b3679396828b2d4fea6a9a1ca5",
@@ -29,34 +57,6 @@
       "url": "https://finnhub.io/api/news?id=59c20baf202993d6ae85288de7231485629ce73d9f3c26eb85a2147d8a5fd601",
       "datetime": 1795648260,
       "summary": "Keith Gill\u2019s return to social media with a videogame-inspired post coincided with the release of \u201cGrand Theft Auto VI.\u201d"
-    },
-    {
-      "headline": "Megadeals Defy Selloff, Head Toward Record",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=da9a797fee7954547a521aa2ec2dbf3cabc3e245fb9896443c335eb902596f02",
-      "datetime": 1795639749,
-      "summary": "Wall Street is taking a big step toward a record year for mergers and acquisitions as some of the world's largest companies defy a tech-induced selloff in global stocks to pursue major takeovers.\u00a0Bloomberg's Scarlet Fu reports on \"Bloomberg Deals.\""
-    },
-    {
-      "headline": "Volume Screen Finds IBD Growth Stock Winners In Real Time",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=59e2615fd6c8a79e1b3f88ecf5d6caa0593f68e2fcc689400ea3b81f7c1021f4",
-      "datetime": 1795631926,
-      "summary": "Stock market winners rising in heavy volume can be found every day in Stocks on the Move on the homepage of Investors.com."
-    },
-    {
-      "headline": "CrowdStrike Is Priced Like The Zscaler Deal Has Already Paid Off",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=dcbe2e5c557a558542817aea0819cf40fd968bda168e216b7ae11ccc3d20ae0d",
-      "datetime": 1795628222,
-      "summary": "CrowdStrike Holdings, Inc. is rated a Hold, as $211 shares exceed $155 standalone fair value, while the proposed Zscaler deal raises it to $190."
-    },
-    {
-      "headline": "CrowdStrike: Ticking The Top With Zscaler Deal",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=8fd03032c9b813191c5dc4a950628da80152f2c816f06ef7b613f09aaa802311",
-      "datetime": 1795625058,
-      "summary": "CrowdStrike Holdings $44 billion deal to acquire Zscaler highlights platformization\u00e2\u0080\u0099s limits in cybersecurity. CRWD stock and Zscaler expect $1 billion in revenue synergies."
     }
   ],
   "filings": [

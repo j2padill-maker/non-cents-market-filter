@@ -2,7 +2,7 @@
   "ticker": "CAT",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-25T19:16:33.239018-08:00",
+  "generated_at": "2026-11-26T16:48:41.588852-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
+      "headline": "Caterpillar's $78 Billion Backlog, Explained",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=766333290c441bf9de2bee28f3d1cfd7bc24adbb387a8e59c25a770f1afd0598",
+      "datetime": 1795719422,
+      "summary": "Caterpillar's order backlog nearly doubled over the past year, yet shares are trading at just 16.5 times forward earnings. See how this $78 billion unfilled order list sets up the industrial giant for long-term sales growth."
+    },
+    {
+      "headline": "Cathie Wood and 14 Other Big Funds Sold Deere Last Quarter, While 10 Bought. Who\u2019s Right?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=b6155c5751fcc4053ace5d0807ed7ec5e9bcd0c9e8bd0c9252b12e2a424d653a",
+      "datetime": 1795716965,
+      "summary": "Key TakeawaysOf 460 big funds that have filed 13Fs for the quarter ended Sept. 30, 15 sold Deere, Cathie Wood\u2019s ARK Invest among them, and 10 bought."
+    },
+    {
+      "headline": "For the Retiree Who Wants the Portfolio to Match Their Faith at 69: 3 ETFs Built Around Values",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f7de492518c7892907c9cd6e87df2cff0933ba0a4082add5deab92d6e7fefb8e",
+      "datetime": 1795710216,
+      "summary": "One glance at your index fund's holdings can reveal a company you'd never fund on purpose. Three faith-screened ETFs promise a fix, but each draws its moral lines differently, and one of those differences could matter more than you expect."
+    },
+    {
+      "headline": "State Street Industrial Select Sector SPDR (XLI) Adds GE and RTX on Nov. 24",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=2f9e312b28efd64f3009e5b7373a1a30b5599803529151f34d01893991ae840d",
+      "datetime": 1795691107,
+      "summary": "The fund bought $242.4 million of stocks, led by $15.6 million in General Electric and $12.4 million in RTX."
+    },
+    {
+      "headline": "Dow Jones Losers in Today's Session: NVDA, AMZN and GOOGL Decline",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=0eddfa8233e93bb8928dfeb04d8e5d4e28223413495ffe1ad374c2874f6d4e6b",
+      "datetime": 1795628456,
+      "summary": "Dow Jones losers in today's session included NVIDIA, Amazon, Alphabet, Caterpillar, Goldman Sachs and Microsoft, with declines ranging from just over 2% to more than 7%."
+    },
+    {
       "headline": "2027 Industrial Divide: Caterpillar Monetizes AI Power While Deere Chases an Ag Bottom",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=996ab21dee00e5b8829e1b6501af4d21dc47f08fd456408915b1b88652e5da4b",
       "datetime": 1795621524,
       "summary": "One heavy-equipment giant just booked its best quarter ever while its rival waits on a farm recovery its own executives call slow. Which stock has the stronger setup for 2027, and what could change the call?"
-    },
-    {
-      "headline": "Caterpillar (CAT) Makes Collision Warning Standard On Most New Construction Machines",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7a8ed2aed5717d84ed0990f767193400e73b0c38e439802366f7904146173234",
-      "datetime": 1795612451,
-      "summary": "Caterpillar (NYSE:CAT) is making advanced collision warning and mitigation systems standard on most new Cat construction machines. The safety package covers both operator alerts and automatic intervention features designed to reduce contact between machines and people on site. The shift from optional add ons to built in technology raises expectations for jobsite risk management across construction"
-    },
-    {
-      "headline": "The AI Stock Slump Is Crushing Caterpillar. Here\u2019s Why I Like the Stock More Than Ever.",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ea558b41e069f68a76ee04f23747ace13ab95ec701f6cf98391a2e3e13143077",
-      "datetime": 1795608602,
-      "summary": "Caterpillar shares just hit a 52-week low. Now is the time to buy."
-    },
-    {
-      "headline": "What State Street Industrial Select SPDR (XLI) Bought: GE Leads on Nov. 23",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a2f891a188287e700bb636bc715195374d6a719489806f49c243f15148c36669",
-      "datetime": 1795604722,
-      "summary": "The fund added $251.7 million across all 83 holdings, led by a $16.3 million increase in General Electric."
-    },
-    {
-      "headline": "Best Dividend Aristocrats For December 2026",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=94875ef1889ac6238f9b22495500c5bbf5842927527bfe923031c7559ab1f0d0",
-      "datetime": 1795597340,
-      "summary": "The bull case for Dividend Aristocrats: 27 potentially undervalued picks may return at least 10% annually, led by FactSet at an estimated 22.4%."
-    },
-    {
-      "headline": "Navigating The Fog: Correction, Inflation, Interest Rates And AI",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=196a90ea90683eb9eeb5a28405246c1e82e02052a6a2784c8240c1084ef81680",
-      "datetime": 1795583100,
-      "summary": "The market reached an all-time high on October 6, when the S&P 500 was up 14.2%."
     }
   ],
   "filings": [

@@ -2,7 +2,7 @@
   "ticker": "TPL",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-25T19:16:31.121458-08:00",
+  "generated_at": "2026-11-26T16:48:40.358380-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -16,6 +16,20 @@
     "mfi14"
   ],
   "news": [
+    {
+      "headline": "Texas Pacific Land Corporation (TPL) M&A Call Presentation - SlideShow",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=64bdae1727a21cf259ddf1f9c17668b82bb84d488234d39d7333459b5c29f94c",
+      "datetime": 1795648074,
+      "summary": "2026-11-25. The following slide deck was published by Texas Pacific Land Corporation in conjunction with this event."
+    },
+    {
+      "headline": "S&P 500 Top Movers: November 25, 2026 Gainers and Losers",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=fe6f2039495fc19de83cc5c1cec19294613db47628c53b7b3f8b50b2b64c502a",
+      "datetime": 1795637153,
+      "summary": "S&P 500 top movers for November 25, 2026: HPQ led gainers at 10.79%, while LRCX led decliners at -7.31%. See the session's strongest and weakest constituents."
+    },
     {
       "headline": "Texas Pacific Land: Attractive Long-Term Buy After The Pullback",
       "source": "SeekingAlpha",
@@ -43,20 +57,6 @@
       "url": "https://finnhub.io/api/news?id=8e72ef1cb7b208fb745867d77683390dcbc34486bfbf4fa472272ec7c0cc6863",
       "datetime": 1795508071,
       "summary": "Texas Pacific Land Corporation agreed to acquire EagleRock Land (NYSE:EROK) in a merger valued at about US$620 million. The deal will create a new public holding company that will own both Texas Pacific Land Corporation and EagleRock Land. EagleRock Land shareholders are set to receive stock in the new parent entity, reshaping the ownership mix of the combined group. The merger is expected to clos"
-    },
-    {
-      "headline": "Texas Pacific Land agrees $3bn all-stock acquisition of EagleRock",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e8879ed624a1235a79ba364f2a9b4fa8d8a078d3147787b8d10bedc91efa8ebc",
-      "datetime": 1795507394,
-      "summary": "The proposed combination would add acreage in New Mexico and expand TPL\u2019s water infrastructure across the Permian Basin."
-    },
-    {
-      "headline": "Texas Pacific Land Corporation Announces Agreement and Plan of Merger to Acquire EagleRock in All-Stock Transaction",
-      "source": "Fintel",
-      "url": "https://finnhub.io/api/news?id=e49435b30b542ca30d2652c0422cead2f7af6a0e85ef717b6caa6ce82c46cf30",
-      "datetime": 1795477148,
-      "summary": ""
     }
   ],
   "filings": [

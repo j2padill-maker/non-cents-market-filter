@@ -2,7 +2,7 @@
   "ticker": "AVGO",
   "user_id": "local",
   "session": "close",
-  "generated_at": "2026-11-25T19:16:27.446041-08:00",
+  "generated_at": "2026-11-26T16:48:38.089345-08:00",
   "disclaimer": "Informational only. Not financial advice.",
   "selected_indicators": [
     "rsi14",
@@ -17,46 +17,46 @@
   ],
   "news": [
     {
-      "headline": "Broadcom Stock Hasn't Traded This Low Since July 2025. I Think It's a Buy.",
+      "headline": "5 Most Oversold Semiconductor Stocks to Buy for 2027",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6cadcf9d3c05ee8fb7a66fd6666a88fbea8f25e033ef5f7b932745f9cb58ecdb",
-      "datetime": 1795654982,
-      "summary": "The AI chip designer's stock now prices in very little of next year's planned growth."
+      "url": "https://finnhub.io/api/news?id=fa057cfaa6d4b6f84e00b6750e77a3e98ee6958427ced12d2322a66917f8a24f",
+      "datetime": 1795722458,
+      "summary": "The semiconductor sector has experienced heightened volatility in 2026, with several stocks retreating significantly from their 52-week highs. These deep pullbacks reflect heightened profit-taking and valuation concerns. They have also been exacerbated by shifting investor sentiment after the US midterm elections and uncertainty surrounding artificial intelligence (AI) spending. The Philadelphia S"
     },
     {
-      "headline": "5 Best Strong Buy Growth Stocks to Buy for 2027",
+      "headline": "Goldman Sachs resets Broadcom's 12-month price target before earnings",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f80a409f77ebfeca0eea15bfc9771d4508ae1544fa5233f50fe5ec2d616252c0",
-      "datetime": 1795653970,
-      "summary": "Markets have spent November punishing growth, but Wall Street analysts haven\u2019t lost their nerve. That gap between falling prices and steady conviction is where next year\u2019s leaders are often found. By November 19, the wider market had slipped about 8.5% from its 52-week high, and chip stocks took the hardest hit, with the semiconductor sector [\u2026]"
+      "url": "https://finnhub.io/api/news?id=80537e2bf13e004e0435ea7bf99051454e99d00295589f87735aee2c7aea9c86",
+      "datetime": 1795721595,
+      "summary": "AVGO AI funding and 2028 data center concerns grow."
     },
     {
-      "headline": "Analysts Expect More From Marvell Than Marvell Does",
+      "headline": "Broadcom Stocks Edge Lower After Rebounding From an Intraday Low of $278",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=bf101ed60032eeae2f8fdd1f824e67b2ba8d56ccf743c475b96637ff8a4e02a1",
-      "datetime": 1795645487,
-      "summary": "Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back."
+      "url": "https://finnhub.io/api/news?id=20293754165b732c4daa2b3fd0e28d7a92e12843ae62234831a59d659a3da32f",
+      "datetime": 1795717841,
+      "summary": "Shares erased a 7.7% intraday slide to their lowest level since July 2025 as Google and Anthropic exposure stays in focus."
     },
     {
-      "headline": "Stock Market Today, Nov. 25: Nvidia Slides 3.9% as the Market Considers Hot PCE Inflation Data and New Tariff Proposals",
+      "headline": "NVIDIA Just Dropped 31% in a Month. Will NVDA Stock Hit $125 or $200 First?",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=72e75c21b2813dc708c3457641cd96700df11b03fff756375e1c64bfaa9697f4",
-      "datetime": 1795644405,
-      "summary": "Trading ran well above normal as Nvidia fell on hot inflation data and tariff proposals, today, Nov. 25, 2026."
+      "url": "https://finnhub.io/api/news?id=9979a9cabc5bd6df9ee7b624e9fbcbbb6d0a8fe0471c41fe29476cc752aefd4a",
+      "datetime": 1795709182,
+      "summary": "A CEO resignation, a credit rating on watch, and export rules scrambling China-bound GPUs have rattled the AI trade's biggest name. Two very different futures now compete for NVIDIA shares, and the next catalysts could tip the balance."
     },
     {
-      "headline": "Not Micron. Not Broadcom. This Is My Top Oversold Artificial Intelligence (AI) Stock to Buy in December",
+      "headline": "S&P\u2019s NVIDIA Warning is Backward Looking Governance Theater That Gives Everyone an Opportunity to Buy at $150",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=9e9fdcec0d8d8ce7757ec8d3b8a19d598cdd5093796319915bbc49881e3daf7f",
-      "datetime": 1795643461,
-      "summary": "Marvell's earnings growth is poised to accelerate sharply, making the stock a no-brainer buy ahead of its quarterly report."
+      "url": "https://finnhub.io/api/news?id=4b381c34877592e853a0c49b44d87f4662bac04de5b8b8fd88e00cd4f8c97e4b",
+      "datetime": 1795707938,
+      "summary": "NVIDIA lost its CEO, drew a credit warning, and watched its stock slide nearly a third in a month. So why does one investor keep buying more every week, and which three numbers convinced him the real story lies elsewhere?"
     },
     {
-      "headline": "Why Is Credo Stock Going Up?",
+      "headline": "What's Happening To Marvell's Cash Gap With Broadcom",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f94f2d4f17fcbdccb5a89a0f1e686d896b408355077966a7dd2751643766fb78",
-      "datetime": 1795641212,
-      "summary": "Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back."
+      "url": "https://finnhub.io/api/news?id=89e5ce8e0372d1b8ef5e567c8c4ca8e2f6a1b7b7accb3f8aab049f3aa40eaf00",
+      "datetime": 1795706126,
+      "summary": "Today's big story: Anthropic Broke Its $83 IPO Price. What Did Facebook Do Next."
     }
   ],
   "filings": [
@@ -129,7 +129,7 @@
       "read": "High daily volatility"
     },
     "rel_volume": {
-      "value": 1.18,
+      "value": 1.19,
       "read": "Roughly average volume"
     },
     "mfi14": {
